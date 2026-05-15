@@ -24,6 +24,8 @@ wheels/
 .env
 .env.local
 .env.*.local
+config.json
+config.local.json
 .DS_Store
 uploads/
 *.db
