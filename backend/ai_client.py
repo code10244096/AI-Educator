@@ -11,8 +11,9 @@ class AIClient:
     def __init__(self):
         self.api_key = settings.AI_API_KEY
         self.base_url = settings.AI_API_BASE_URL
-        self.model = settings.AI_MODEL
         self.ocr_model = settings.OCR_MODEL
+        self.grader_model = settings.GRADER_MODEL
+        self.lessonplan_model = settings.LESSONPLAN_MODEL
     
     async def _make_request(
         self,
@@ -103,7 +104,7 @@ class AIClient:
 """
         
         messages = [{"role": "user", "content": prompt}]
-        result = await self._make_request(messages, temperature=0.3)
+        result = await self._make_request(messages, model=self.grader_model, temperature=0.3)
         
         # 解析 JSON
         try:
@@ -144,7 +145,7 @@ class AIClient:
 """
         
         messages = [{"role": "user", "content": prompt}]
-        result = await self._make_request(messages, temperature=0.7)
+        result = await self._make_request(messages, model=self.grader_model, temperature=0.7)
         
         try:
             result = result.replace("```json", "").replace("```", "").strip()
@@ -181,7 +182,7 @@ class AIClient:
 """
         
         messages = [{"role": "user", "content": prompt}]
-        return await self._make_request(messages, temperature=0.7)
+        return await self._make_request(messages, model=self.lessonplan_model, temperature=0.7)
 
 
 # 全局客户端实例
