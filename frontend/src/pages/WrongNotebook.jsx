@@ -1,12 +1,18 @@
-import React, { useState } from 'react'
-import { Plus, Filter, Calendar, CheckCircle, ExternalLink } from 'lucide-react'
+import React, { useState, useEffect } from 'react'
+import { Plus, Filter, Calendar, CheckCircle, ExternalLink, BookOpen } from 'lucide-react'
 import { notebookAPI } from '../utils/api'
 import ReactMarkdown from 'react-markdown'
+import PageBackground from '../components/PageBackground'
 
 const WrongNotebook = () => {
   const [questions, setQuestions] = useState([])
   const [loading, setLoading] = useState(false)
   const [filter, setFilter] = useState({ knowledgePoint: '', subject: '数学' })
+  const [isVisible, setIsVisible] = useState(false)
+  
+  useEffect(() => {
+    setIsVisible(true)
+  }, [])
   
   const handleUpload = async (event) => {
     const file = event.target.files[0]
@@ -40,10 +46,24 @@ const WrongNotebook = () => {
   }
   
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <div className="bg-white rounded-lg shadow-md p-6">
-        <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold">AI 错题本管家</h2>
+    <PageBackground gradient="notebook">
+      <div className={`max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 transition-all duration-1000 ${
+        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+      }`}>
+        <div className="bg-white/90 backdrop-blur-md rounded-2xl shadow-xl p-8 border border-white/20">
+          <div className="flex items-center space-x-3 mb-8">
+            <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-500 rounded-xl flex items-center justify-center shadow-lg">
+              <BookOpen className="h-6 w-6 text-white" />
+            </div>
+            <div>
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
+                AI 错题本管家
+              </h2>
+              <p className="text-sm text-gray-600">智能整理，变式练习，举一反三</p>
+            </div>
+          </div>
+          
+          <div className="flex justify-between items-center mb-6">
           <div className="flex space-x-4">
             <label className="flex items-center space-x-2">
               <Plus className="h-5 w-5" />
@@ -190,8 +210,9 @@ const WrongNotebook = () => {
             </button>
           </div>
         )}
+        </div>
       </div>
-    </div>
+    </PageBackground>
   )
 }
 

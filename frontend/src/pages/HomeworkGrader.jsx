@@ -1,7 +1,8 @@
-import React, { useState, useCallback } from 'react'
+import React, { useState, useCallback, useEffect } from 'react'
 import { useDropzone } from 'react-dropzone'
 import { Upload, X, FileImage } from 'lucide-react'
 import { homeworkAPI } from '../utils/api'
+import PageBackground from '../components/PageBackground'
 
 const HomeworkGrader = () => {
   const [files, setFiles] = useState([])
@@ -9,6 +10,11 @@ const HomeworkGrader = () => {
   const [loading, setLoading] = useState(false)
   const [progress, setProgress] = useState(0)
   const [result, setResult] = useState(null)
+  const [isVisible, setIsVisible] = useState(false)
+
+  useEffect(() => {
+    setIsVisible(true)
+  }, [])
   
   const onDrop = useCallback((acceptedFiles) => {
     setFiles(prev => [...prev, ...acceptedFiles])
@@ -60,11 +66,24 @@ const HomeworkGrader = () => {
   }
   
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <div className="bg-white rounded-lg shadow-md p-6">
-        <h2 className="text-2xl font-bold mb-6">AI 作业批改助手</h2>
-        
-        {/* 上传区域 */}
+      <PageBackground gradient="grader">
+        <div className={`max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 transition-all duration-1000 ${
+          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+        }`}>
+          <div className="bg-white/90 backdrop-blur-md rounded-2xl shadow-xl p-8 border border-white/20">
+          <div className="flex items-center space-x-3 mb-8">
+            <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center shadow-lg">
+              <Upload className="h-6 w-6 text-white" />
+            </div>
+            <div>
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
+                AI 作业批改助手
+              </h2>
+              <p className="text-sm text-gray-600">拍照上传，智能批改，实时反馈</p>
+            </div>
+          </div>
+          
+          {/* 上传区域 */}
         <div className="mb-6">
           <label className="block text-sm font-medium text-gray-700 mb-2">
             上传作业照片（支持多张）
@@ -233,8 +252,9 @@ const HomeworkGrader = () => {
             )}
           </div>
         )}
+        </div>
       </div>
-    </div>
+    </PageBackground>
   )
 }
 
