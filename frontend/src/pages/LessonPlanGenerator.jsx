@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
-import { FileDown, Edit } from 'lucide-react'
+import React, { useState, useEffect } from 'react'
+import { FileDown, Edit, FileText } from 'lucide-react'
 import { lessonPlanAPI } from '../utils/api'
 import ReactMarkdown from 'react-markdown'
+import PageBackground from '../components/PageBackground'
 
 const LessonPlanGenerator = () => {
   const [formData, setFormData] = useState({
@@ -12,6 +13,11 @@ const LessonPlanGenerator = () => {
   })
   const [loading, setLoading] = useState(false)
   const [result, setResult] = useState(null)
+  const [isVisible, setIsVisible] = useState(false)
+  
+  useEffect(() => {
+    setIsVisible(true)
+  }, [])
   
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -50,9 +56,22 @@ const LessonPlanGenerator = () => {
   }
   
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <div className="bg-white rounded-lg shadow-md p-6">
-        <h2 className="text-2xl font-bold mb-6">AI 教案生成</h2>
+    <PageBackground gradient="lessonplan">
+      <div className={`max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 transition-all duration-1000 ${
+        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+      }`}>
+        <div className="bg-white/90 backdrop-blur-md rounded-2xl shadow-xl p-8 border border-white/20">
+          <div className="flex items-center space-x-3 mb-8">
+            <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center shadow-lg">
+              <FileText className="h-6 w-6 text-white" />
+            </div>
+            <div>
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                AI 教案生成
+              </h2>
+              <p className="text-sm text-gray-600">一键生成，个性化定制，省时省力</p>
+            </div>
+          </div>
         
         {/* 表单 */}
         <form onSubmit={handleSubmit} className="space-y-4 mb-8">
@@ -157,8 +176,9 @@ const LessonPlanGenerator = () => {
             </div>
           </div>
         )}
+        </div>
       </div>
-    </div>
+    </PageBackground>
   )
 }
 

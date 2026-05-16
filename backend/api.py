@@ -322,7 +322,7 @@ async def get_class_stats(db: AsyncSession = Depends(get_db)):
     # 统计高频错题（简化版本）
     wrong_questions = {}
     for sub in submissions:
-        grading = json.loads(sub.批改_result) if sub.批改_result else {}
+        grading = json.loads(sub.grading_result) if sub.grading_result else {}
         questions = grading.get("questions", [])
         for q in questions:
             if not q.get("is_correct", True):
