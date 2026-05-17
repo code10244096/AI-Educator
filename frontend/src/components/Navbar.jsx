@@ -1,23 +1,42 @@
 import React from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
-import { BookOpen, FileText, ClipboardCheck, User, GraduationCap, X } from 'lucide-react'
+import { BookOpen, FileText, ClipboardCheck, User, GraduationCap, X, FileCheck, Bell } from 'lucide-react'
+import { useTask } from '../context/TaskContext'
 
 const Navbar = ({ transparent = false }) => {
   const navigate = useNavigate()
   const location = useLocation()
+  const { tasks, taskBarExpanded, setTaskBarExpanded, removeTask, updateTask } = useTask()
   
   const menuItems = [
     { path: '/', label: '首页', icon: GraduationCap, color: 'text-blue-500' },
     { path: '/grader', label: '作业批改', icon: ClipboardCheck, color: 'text-blue-500' },
     { path: '/notebook', label: '错题本', icon: BookOpen, color: 'text-green-500' },
     { path: '/lessonplan', label: '教案生成', icon: FileText, color: 'text-purple-500' },
+    { path: '/questionbank', label: '题库管理', icon: BookOpen, color: 'text-orange-500' },
   ]
   
   const handleNavClick = (path) => {
     navigate(path)
   }
   
-  // 首页使用透明导航栏
+  const handleViewTask = (task) => {
+    if (task.type === 'lessonplan' && task.status === 'completed') {
+      navigate('/lessonplan')
+      window.dispatchEvent(new CustomEvent('viewTask', { detail: task }))
+    } else if (task.type === 'grader' && task.status === 'completed') {
+      navigate('/grader')
+      window.dispatchEvent(new CustomEvent('viewTask', { detail: task }))
+    } else if (task.type === 'notebook' && task.status === 'completed') {
+      navigate('/notebook')
+      window.dispatchEvent(new CustomEvent('viewTask', { detail: task }))
+    }
+  }
+  
+  const runningCount = tasks.filter(t => t.status === 'running').length
+  const completedCount = tasks.filter(t => t.status === 'completed').length
+  const totalCount = runningCount + completedCount
+  
   const isHomePage = location.pathname === '/'
   const navbarTransparent = transparent || isHomePage
   
@@ -27,7 +46,6 @@ const Navbar = ({ transparent = false }) => {
         ? 'bg-transparent backdrop-blur-none' 
         : 'bg-white/90 backdrop-blur-xl shadow-lg border-b border-white/20'
     }`}>
-      {/* 导航栏背景动态效果（仅非首页显示） */}
       {!navbarTransparent && (
         <>
           <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-purple-500/5 to-pink-500/5 pointer-events-none"></div>
@@ -35,14 +53,12 @@ const Navbar = ({ transparent = false }) => {
         </>
       )}
       
-      {/* 顶部渐变条（仅非首页显示） */}
       {!navbarTransparent && (
         <div className="h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
       )}
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          {/* Logo 区域（仅非首页显示） */}
           {!navbarTransparent && (
             <div className="flex items-center space-x-3 cursor-pointer group" onClick={() => navigate('/')}>
               <div className="relative">
@@ -60,7 +76,6 @@ const Navbar = ({ transparent = false }) => {
             </div>
           )}
           
-          {/* 导航菜单 - 右上角 */}
           <div className={`${!navbarTransparent ? 'ml-auto' : 'ml-auto'} flex items-center space-x-2`}>
             {menuItems.map((item) => {
               const Icon = item.icon
@@ -89,7 +104,98 @@ const Navbar = ({ transparent = false }) => {
               )
             })}
             
-            {/* 登录按钮 */}
+            <div className="relative">
+              <button
+                onClick={() => setTaskBarExpanded(!taskBarExpanded)}
+                className={`flex items-center space-x-2 px-4 py-2 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg ${
+                  navbarTransparent
+                    ? 'bg-white/20 hover:bg-white/30 text-white backdrop-blur-sm'
+                    : 'bg-gradient-to-r from-blue-50 to-purple-50 hover:from-blue-100 hover:to-purple-100 text-gray-700'
+                }`}
+              >
+                <FileCheck className="h-4 w-4 transition-transform duration-300 hover:scale-110" />
+                <span className="text-sm font-medium">我的任务</span>
+                {totalCount > 0 && (
+                  <span className={`text-xs px-2 py-0.5 rounded-full ${
+                    runningCount > 0 ? 'bg-blue-500 text-white animate-pulse' : 'bg-green-500 text-white'
+                  }`}>
+                    {totalCount}
+                  </span>
+                )}
+              </button>
+              
+              {taskBarExpanded && (
+                <div className="absolute right-0 top-full mt-2 w-80 bg-white/95 backdrop-blur-md rounded-xl shadow-xl border border-gray-200 overflow-hidden">
+                  <div className="p-3 border-b border-gray-100">
+                    <div className="flex items-center justify-between">
+                      <h3 className="text-sm font-semibold text-gray-700">任务列表</h3>
+                      <span className="text-xs text-gray-500">{tasks.length} 个任务</span>
+                    </div>
+                  </div>
+                  
+                  <div className="max-h-96 overflow-y-auto">
+                    {tasks.length === 0 ? (
+                      <div className="p-6 text-center text-gray-500 text-sm">
+                        暂无任务
+                      </div>
+                    ) : (
+                      tasks.map((task) => (
+                        <div
+                          key={task.id}
+                          className="flex items-center justify-between p-3 hover:bg-gray-50 transition-all cursor-pointer border-b border-gray-50 last:border-b-0"
+                          onClick={() => handleViewTask(task)}
+                        >
+                          <div className="flex items-center space-x-3 flex-1 min-w-0">
+                            {task.status === 'running' && (
+                              <Bell className="h-4 w-4 text-blue-500 animate-spin flex-shrink-0" />
+                            )}
+                            {task.status === 'completed' && (
+                              <FileCheck className="h-4 w-4 text-green-500 flex-shrink-0" />
+                            )}
+                            {task.status === 'failed' && (
+                              <X className="h-4 w-4 text-red-500 flex-shrink-0" />
+                            )}
+                            
+                            <div className="flex-1 min-w-0">
+                              <p className="text-sm font-medium text-gray-900 truncate">{task.title}</p>
+                              <p className="text-xs text-gray-500">
+                                {task.type === 'lessonplan' && '教案生成'}
+                                {task.type === 'grader' && '作业批改'}
+                                {task.type === 'notebook' && '错题本'}
+                                {task.status === 'running' && ` · 已用 ${task.elapsedTime || 0}秒`}
+                                {task.status === 'completed' && ' · 已完成'}
+                                {task.status === 'failed' && ` · ${task.error || '失败'}`}
+                              </p>
+                            </div>
+                          </div>
+                          
+                          <div className="flex items-center space-x-2 ml-2">
+                            <span className={`text-xs px-2 py-1 rounded ${
+                              task.status === 'running' ? 'bg-blue-100 text-blue-700' :
+                              task.status === 'completed' ? 'bg-green-100 text-green-700' :
+                              'bg-red-100 text-red-700'
+                            }`}>
+                              {task.status === 'running' ? '进行中' :
+                               task.status === 'completed' ? '已完成' : '失败'}
+                            </span>
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation()
+                                removeTask(task.id)
+                              }}
+                              className="p-1 hover:bg-gray-200 rounded"
+                            >
+                              <X className="h-4 w-4 text-gray-500" />
+                            </button>
+                          </div>
+                        </div>
+                      ))
+                    )}
+                  </div>
+                </div>
+              )}
+            </div>
+            
             <button className={`flex items-center space-x-2 px-4 py-2 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg ${
               navbarTransparent
                 ? 'bg-white/20 hover:bg-white/30 text-white backdrop-blur-sm'

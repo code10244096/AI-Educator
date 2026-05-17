@@ -1,0 +1,47 @@
+{
+  "year": 2024,
+  "region": "新课标 I",
+  "total_questions": 2,
+  "questions": [
+    {
+      "question_text": "1. 已知集合 $A=\\left\\{x \\overline{0}-5<x^{3}<5\\right\\}, B=\\{-3,-1,0,2,3\\}$, 则 $A \\cap B=$\nA. $\\{-1,0\\}$\nB. $\\{2,3\\}$\nC. $\\{-3,-1,0\\}$\nD. $\\{-1,0,2\\}$",
+      "answer": "A",
+      "solution": "【详解】因为 $A=\\{x \\mid-\\sqrt[3]{5}<x<\\sqrt[3]{5}\\}, B=\\{-3,-1,0,2,3\\}$, 且注意到 $1<\\sqrt[3]{5}<2$,\n从而 $A \\cap B=\\{-1,0\\}$.\n故选: A.",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2024,
+      "region": "新课标 I",
+      "knowledge_points": [
+        "集合",
+        "排列组合"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench-Updates",
+      "teaching_tips": "本题主要考查集合、排列组合知识点，建议结合教材和历年真题进行系统训练。",
+      "common_mistakes": "1. 忽略集合为空集的情况；2. 不理解集合关系的等价条件；1. 排列组合概念混淆；2. 重复计数或漏计"
+    },
+    {
+      "question_text": "2. 若 $\\frac{z}{z-1}=1+\\mathrm{i}$, 则 $z=(\\quad)$\nA. $-1-\\mathrm{i}$\nB. $-1+\\mathrm{i}$\nC. $1-\\mathrm{i}$\nD. $1+\\mathrm{i}$",
+      "answer": "C",
+      "solution": "【详解】因为 $\\frac{z}{z-1}=\\frac{z-1+1}{z-1}=1+\\frac{1}{z-1}=1+\\mathrm{i}$, 所以 $z=1+\\frac{1}{\\mathrm{i}}=1-\\mathrm{i}$.\n故选: C.",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2024,
+      "region": "新课标 I",
+      "knowledge_points": [
+        "复数",
+        "排列组合"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench-Updates",
+      "teaching_tips": "本题主要考查复数、排列组合知识点，建议结合教材和历年真题进行系统训练。",
+      "common_mistakes": "1. 复数除法运算错误；2. 模的公式记错；1. 排列组合概念混淆；2. 重复计数或漏计"
+    }
+  ]
+}

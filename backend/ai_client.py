@@ -20,7 +20,7 @@ class AIClient:
         messages: List[Dict],
         model: Optional[str] = None,
         temperature: float = 0.7,
-        max_tokens: int = 2000
+        max_tokens: int = 4000
     ) -> str:
         """发送请求到 AI 模型"""
         headers = {
@@ -35,16 +35,24 @@ class AIClient:
             "max_tokens": max_tokens
         }
         
-        async with httpx.AsyncClient() as client:
-            response = await client.post(
-                f"{self.base_url}/chat/completions",
-                headers=headers,
-                json=payload,
-                timeout=60.0
-            )
-            response.raise_for_status()
-            result = response.json()
-            return result["choices"][0]["message"]["content"]
+        async with httpx.AsyncClient(timeout=120.0) as client:
+            try:
+                response = await client.post(
+                    f"{self.base_url}/chat/completions",
+                    headers=headers,
+                    json=payload,
+                )
+                response.raise_for_status()
+                result = response.json()
+                return result["choices"][0]["message"]["content"]
+            except httpx.ReadTimeout as e:
+                raise Exception(f"AI 模型响应超时，请重试或减少生成内容要求")
+            except httpx.ConnectError as e:
+                raise Exception(f"无法连接到 AI 模型服务，请检查网络")
+            except httpx.HTTPStatusError as e:
+                raise Exception(f"AI 模型请求失败：{e.response.status_code} - {e.response.text[:200]}")
+            except Exception as e:
+                raise Exception(f"AI 模型调用失败：{str(e)}")
     
     async def ocr_image(self, image_path: str) -> str:
         """OCR 识别图片中的文字"""
@@ -80,7 +88,7 @@ class AIClient:
     ) -> Dict:
         """批改作业"""
         prompt = f"""
-你是一位专业的{subject}老师，请批改这份作业。
+你是一位经验丰富且专业的{subject}老师，请批改这份作业。
 
 学生作答内容：
 {ocr_result}
@@ -158,19 +166,45 @@ class AIClient:
         topic: str,
         period: str = "1 课时",
         student_level: str = "中等",
-        requirements: str = ""
+        requirements: str = "",
+        question_bank_context: str = ""
     ) -> str:
         """生成教案"""
+        question_context = ""
+        if question_bank_context:
+            question_context = f"""
+
+【题库参考资料 - 请在生成教案时参考以下内容】
+
+{question_bank_context}
+
+请根据以上题库资料，在教案中：
+1. 使用题库中的真题作为课堂练习和作业
+2. 参考教学建议来设计教学环节
+3. 在易错点预警中强调常见错误
+4. 根据难度分布合理安排教学节奏
+"""
+        
         prompt = f"""
 请为以下课题生成一份详细的教案：
+
+你是一位高三数学把关教师。请为{topic}课题生成一份可直接用于课堂的详细教案。
+
+要求：
+1. 导入部分必须用一个具体例子（比如物理瞬时速度、几何图形切线），不得使用"复习上节课内容"这种话。
+2. 每个知识点至少配一个学生易错点的预警（例如：求切线时容易忽略点是否在曲线上）。
+3. 课堂练习包含2道题：一道基础模仿题，一道高考改编题（附简短解析）。
+4. 作业分两层：必做题（3道基础）和选做题（1道提升）。
+5. 语言简洁，不要空话。
 
 课题名称：{topic}
 课时数：{period}
 学生基础：{student_level}
 {f'额外要求：{requirements}' if requirements else ''}
+{question_context}
 
 教案应包含以下内容：
-1. 教学目标（知识与技能、过程与方法、情感态度价值观）
+1. 教学目标（知识与技能、过程与方法、高考常用的技巧与难度）
 2. 教学重难点
 3. 教学方法
 4. 教学准备

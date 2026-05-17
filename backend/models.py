@@ -103,3 +103,63 @@ class LessonPlan(Base):
     content = Column(Text)  # 教案内容（Markdown 格式）
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
+
+
+class QuestionBank(Base):
+    """题库表 - 支持多学科、多学龄、多题型"""
+    __tablename__ = "question_bank"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    
+    # 基本信息
+    question_text = Column(Text, nullable=False)  # 题目内容（支持 Markdown/LaTeX）
+    answer = Column(Text, nullable=False)  # 标准答案
+    solution = Column(Text)  # 详细解答过程
+    question_type = Column(String(50), nullable=False)  # 选择题/填空题/解答题/判断题/证明题
+    
+    # 分类信息
+    subject = Column(String(50), nullable=False, index=True)  # 数学/物理/化学/语文/英语等
+    education_level = Column(String(50), nullable=False, index=True)  # 小学/初中/高中
+    exam_type = Column(String(100), index=True)  # 高考/中考/月考/模拟考/竞赛
+    year = Column(Integer, index=True)  # 年份
+    region = Column(String(100))  # 地区（如：全国卷/北京卷/上海卷）
+    
+    # 知识点与难度
+    knowledge_points = Column(Text)  # JSON 数组存储多个知识点
+    difficulty = Column(Integer, default=3)  # 1-5 难度等级
+    score = Column(Float)  # 分值
+    
+    # RAG 相关
+    embedding = Column(Text)  # JSON 数组存储向量（用于语义检索）
+    search_keywords = Column(Text)  # JSON 数组存储关键词
+    
+    # 来源与状态
+    source_url = Column(String(500))  # 原始来源 URL
+    is_verified = Column(Boolean, default=False)  # 是否已审核
+    
+    # 教案辅助字段
+    teaching_tips = Column(Text)  # 教学建议
+    common_mistakes = Column(Text)  # 常见错误
+    
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
+    
+    # 关系
+    variants = relationship("QuestionVariant", back_populates="original_question")
+
+
+class QuestionVariant(Base):
+    """变式题表 - 基于原题生成的变式练习"""
+    __tablename__ = "question_variants"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    original_id = Column(Integer, ForeignKey("question_bank.id"))
+    question_text = Column(Text, nullable=False)
+    answer = Column(Text, nullable=False)
+    solution = Column(Text)
+    variant_type = Column(String(50))  # 数值变化/条件变换/逆向思维/综合应用
+    
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    
+    # 关系
+    original_question = relationship("QuestionBank", back_populates="variants")

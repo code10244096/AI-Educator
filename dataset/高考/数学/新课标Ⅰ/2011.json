@@ -1,0 +1,645 @@
+{
+  "year": 2011,
+  "region": "新课标Ⅰ",
+  "total_questions": 33,
+  "questions": [
+    {
+      "question_text": "1. (5 分) 复数 $\\frac{2+i}{1-2 i}$ 的共轭复数是 $(\\quad)$\nA. $-\\frac{3}{5} i$\nB. $\\frac{3}{5} i$\nC. $-\\mathrm{i}$\nD. i\n",
+      "answer": "C",
+      "solution": "解：复数 $\\frac{2+i}{1-2 i}=\\frac{(2+i)(1+2 i)}{(1-2 i)(1+2 i)}=\\frac{5 i}{5}=i$, 它的共轭复数为: $-i$.\n\n故选: C.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "复数"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "复数是高考基础考点，重点考查复数的运算和模的计算。教学中要强调复数的四则运算和几何意义。",
+      "common_mistakes": "1. 复数除法运算错误；2. 模的公式记错"
+    },
+    {
+      "question_text": "2. （5 分) 下列函数中, 既是偶函数又在 $(0,+\\infty)$ 上单调递增的函数是 $(\\quad)$\nA. $y=2 x^{3}$\nB. $y=|x|+1$\nC. $y=-x^{2}+4$\nD. $y=2^{-\\mid x}$\n",
+      "answer": "B",
+      "solution": "解：对于 $A . y=2 x^{3}$, 由 $f(-x)=-2 x^{3}=-f(x)$, 为奇函数, 故排除 $A$\n\n对于 B. $y=|x|+1$, 由 $f(-x)=|-x|+1=f(x)$, 为偶函数, 当 $x>0$ 时, $y=x+1$, 是增函数，故 B 正确;\n\n对于 $C . y=-x^{2}+4$, 有 $f(-x)=f(x)$, 是偶函数, 但 $x>0$ 时为减函数, 故排 除 C;\n\n对于 D. $y=2^{-|x|}$, 有 $f(-x)=f(x)$, 是偶函数, 当 $x>0$ 时, $y=2^{-x}$, 为减函数 ，故排除 D.\n\n故选: B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "导数",
+        "函数性质"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "导数是高考核心考点，重点考查利用导数研究函数的单调性、极值、最值。教学中要强调求导法则和导数的几何意义。 函数性质是高考重点，重点考查函数的奇偶性、单调性、周期性。教学中要强调函数图像与性质的关系。",
+      "common_mistakes": "1. 求导错误；2. 不会用导数符号判断单调性；3. 极值和最值混淆；1. 奇偶性判断错误；2. 忽略定义域"
+    },
+    {
+      "question_text": "4. （5 分) 有 3 个兴趣小组, 甲、乙两位同学各自参加其中一个小组, 每位同 学参加各个小组的可能性相同, 则这两位同学参加同一个兴趣小组的概率为 ( )\nA. $\\frac{1}{3}$\nB. $\\frac{1}{2}$\nC. $\\frac{2}{3}$\nD. $\\frac{3}{4}$\n",
+      "answer": "A",
+      "solution": "解：由题意知本题是一个古典概型,\n\n试验发生包含的事件数是 $3 \\times 3=9$ 种结果，\n\n满足条件的事件是这两位同学参加同一个兴趣小组,\n\n由于共有三个小组, 则有 3 种结果,\n\n根据古典概型概率公式得到 $P=\\frac{3}{9}=\\frac{1}{3}$,\n\n故选: A.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "概率统计"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "统计是高考基础考点，重点考查抽样方法、频率分布、统计图表。教学中要强调各种抽样方法的特点和适用场景。",
+      "common_mistakes": "1. 不理解分层抽样的原理；2. 计算比例错误"
+    },
+    {
+      "question_text": "5. (5 分) 已知角 $\\theta$ 的顶点与原点重合, 始边与 $\\mathrm{x}$ 轴的正半轴重合, 终边在直 线 $y=2 x$ 上, 则 $\\cos 2 \\theta=(\\quad)$\nA. $-\\frac{4}{5}$\nB. $-\\frac{3}{5}$\nC. $\\frac{3}{5}$\nD. $\\frac{4}{5}$\n",
+      "answer": "B",
+      "solution": "解：根据题意可知: $\\tan \\theta=2$,\n\n所以 $\\cos ^{2} \\theta=\\frac{1}{\\sec ^{2} \\theta}=\\frac{1}{\\tan ^{2} \\theta+1}=\\frac{1}{5}$,\n\n则 $\\cos 2 \\theta=2 \\cos ^{2} \\theta-1=2 \\times \\frac{1}{5}-1=-\\frac{3}{5}$.\n\n故选: B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "7. （5 分) 设直线 $\\mid$ 过双曲线 $C$ 的一个焦点, 且与 $C$ 的一条对称轴垂直, $\\mathrm{I}$ 与 $C$ 交于 $A, B$ 两点, $|A B|$ 为 $C$ 的实轴长的 2 倍, 则 $C$ 的离心率为（）\nA. $\\sqrt{2}$\nB. $\\sqrt{3}$\nC. 2\nD. 3\n",
+      "answer": "B",
+      "solution": "解: 不妨设双曲线 $C: \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$,\n\n焦点 $F(-c, 0)$, 对称轴 $y=0$,\n\n由题设知 $\\frac{c^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$,\n\n$y= \\pm \\frac{b^{2}}{a}$\n\n$\\therefore \\frac{2 b^{2}}{a}=4 a$,\n\n$b^{2}=2 a^{2}$, $c^{2}-a^{2}=2 a^{2}$\n\n$c^{2}=3 a^{2}$\n\n$\\therefore \\mathrm{e}=\\frac{\\mathrm{c}}{\\mathrm{a}}=\\sqrt{3}$\n\n故选: B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "解析几何"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "解析几何是高考难点，重点考查椭圆、双曲线、抛物线的定义、标准方程和性质。教学中要强调数形结合思想。",
+      "common_mistakes": "1. 离心率公式记错；2. 不会利用点在曲线上列方程；3. 计算错误"
+    },
+    {
+      "question_text": "8. (5 分) $\\left(x+\\frac{a}{x}\\right)\\left(2 x-\\frac{1}{x}\\right)^{5}$ 的展开式中各项系数的和为 2 , 则该展开式中常数项 为 $(\\quad)$\nA. -40\nB. -20\nC. 20\nD. 40\n",
+      "answer": "D",
+      "solution": "解: 令二项式中的 $x$ 为 1 得到展开式的各项系数和为 $1+a$\n\n$\\therefore 1+a=2$\n\n$\\therefore a=1$\n\n$\\therefore\\left(x+\\frac{a}{x}\\right)\\left(2 x-\\frac{1}{x}\\right)^{5}=\\left(x+\\frac{1}{x}\\right)\\left(2 x-\\frac{1}{x}\\right)^{5}$\n\n$=x\\left(2 x-\\frac{1}{x}\\right)^{5}+\\frac{1}{x}\\left(2 x-\\frac{1}{x}\\right)^{5}$\n\n$\\therefore$ 展开式中常数项为 $\\left(2 x-\\frac{1}{x}\\right)$ 的 $\\frac{1}{x}$ 与 $x$ 的系数和\n\n$\\because\\left(2 x-\\frac{1}{x}\\right)$ 展开式的通项为 $\\mathrm{T}_{\\mathrm{r}+1}=(-1){ }^{r} 2^{5-}{ }^{r} C_{5}{ }^{r} x^{5-2 r}$\n\n令 5- $2 r=1$ 得 $r=2$; 令 $5-2 r=-1$ 得 $r=3$\n\n展开式中常数项为 $8 C_{5}{ }^{2}-4 C_{5}{ }^{3}=40$\n\n故选: D.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "二项式定理"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "二项式定理是高考基础考点，重点考查通项公式的应用。教学中要强调通项公式的记忆和指数的计算。",
+      "common_mistakes": "1. 通项公式记错；2. 指数计算错误；3. 组合数计算错误"
+    },
+    {
+      "question_text": "10. (5 分) 已知 $\\vec{a}$ 与 $\\vec{b}$ 均为单位向量, 其夹角为 $\\theta$, 有下列四个命题 $P_{1}: \\mid \\vec{a}+\\vec{b}$ $>1 \\Leftrightarrow \\theta \\in\\left[0, \\frac{2 \\pi}{3}\\right) ; P_{2}:|\\vec{a}+\\vec{b}|>1 \\Leftrightarrow \\theta \\in\\left(\\frac{2 \\pi}{3}, \\pi\\right] ; P_{3}:|\\vec{a}-\\vec{b}|>1 \\Leftrightarrow \\theta \\in[0$ ， $\\left.\\frac{\\pi}{3}\\right) ; P_{4}:|\\vec{a}-\\vec{b}|>1 \\Leftrightarrow \\theta \\in\\left(\\frac{\\pi}{3}, \\pi\\right]$ ；其中的真命题是（ $)$\nA. $P_{1}, P_{4}$\nB. $P_{1}, P_{3}$\nC. $P_{2}, P_{3}$\nD. $P_{2}, P_{4}$\n",
+      "answer": "A",
+      "solution": "解: 由 $|\\vec{a}-\\vec{b}|>1$, 得出 $2-2 \\cos \\theta>1$, 即 $\\cos \\theta<\\frac{1}{2}$, 又 $\\theta \\in[0, \\pi]$, 故 可以得出 $\\theta \\in\\left(\\frac{\\pi}{3}, \\pi\\right]$, 故 $P_{3}$ 错误, $P_{4}$ 正确.\n\n由 $|\\vec{a}+\\vec{b}|>1$, 得出 $2+2 \\cos \\theta>1$, 即 $\\cos \\theta>-\\frac{1}{2}$, 又 $\\theta \\in[0, \\pi]$, 故可以得出 $\\theta \\in[0$ ,$\\left.\\frac{2 \\pi}{3}\\right)$, 故 $P_{2}$ 错误, $P_{1}$ 正确.\n\n故选: A.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "向量",
+        "三角函数",
+        "逻辑"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "向量是高考基础考点，重点考查向量的坐标运算和数量积。教学中要强调向量垂直的充要条件。 三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。 逻辑是高考基础考点，重点考查充分条件、必要条件的判断。教学中要强调'小推大'的判断方法。",
+      "common_mistakes": "1. 数量积公式记错；2. 计算错误；1. 忽略象限导致符号错误；2. 同角关系记错；1. 充分必要条件混淆；2. 不会用集合关系判断；3. 反例构造错误"
+    },
+    {
+      "question_text": "11. (5 分) 设函数 $f(x)=\\sin (\\omega x+\\phi)+\\cos (\\omega x+\\phi)\\left(\\omega>0,|\\phi|<\\frac{\\pi}{2}\\right)$ 的最 小正周期为 $\\pi$, 且 $f(-x)=f(x)$ ，则（ $)$\nA. $f(x)$ 在 $\\left(0, \\frac{\\pi}{2}\\right)$ 单调递减\nB. $f(x)$ 在 $\\left(\\frac{\\pi}{4}, \\frac{3 \\pi}{4}\\right)$ 单调递减\nC. $f(x)$ 在 $\\left(0, \\frac{\\pi}{2}\\right)$ 单调递增\nD. $f(x)$ 在 $\\left(\\frac{\\pi}{4}, \\frac{3 \\pi}{4}\\right)$ 单调递增\n",
+      "answer": "A",
+      "solution": "解: 由于 $f(x)=\\sin (\\omega x+\\varphi)+\\cos (\\omega x+\\varphi)=\\sqrt{2} \\sin \\left(\\omega x+\\phi+\\frac{\\pi}{4}\\right)$, 由于该函数的最小正周期为 $\\mathrm{T}=\\frac{2 \\pi}{\\omega}$, 得出 $\\omega=2$,\n\n又根据 $f(-x)=f(x)$, 得 $\\phi+\\frac{\\pi}{4}=\\frac{\\pi}{2}+k \\pi(k \\in Z)$, 以及 $|\\phi|<\\frac{\\pi}{2}$, 得出 $\\phi=\\frac{\\pi}{4}$. 因此, $f(x)=\\sqrt{2} \\sin \\left(2 x+\\frac{\\pi}{2}\\right)=\\sqrt{2} \\cos 2 x$, 若 $x \\in\\left(0, \\frac{\\pi}{2}\\right)$, 则 $2 x \\in(0, \\pi)$, 从而 $f(x)$ 在 $\\left(0, \\frac{\\pi}{2}\\right)$ 单调递减, 若 $x \\in\\left(\\frac{\\pi}{4}, \\frac{3 \\pi}{4}\\right)$, 则 $2 x \\in\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$,\n\n该区间不为余弦函数的单调区间, 故 $B, C, D$ 都错, $A$ 正确.\n\n故选: A.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "导数",
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "导数是高考核心考点，重点考查利用导数研究函数的单调性、极值、最值。教学中要强调求导法则和导数的几何意义。 三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 求导错误；2. 不会用导数符号判断单调性；3. 极值和最值混淆；1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "1. （5 分）已知集合 $M=\\{0,1 ， 2 ， 3 ， 4\\}, N=\\{1,3 ， 5\\}, P=M \\cap N$, 则 $P$ 的子 集共有 $(\\quad)$\nA. 2 个\nB. 4 个\nC. 6 个\nD. 8 个\n",
+      "answer": "B",
+      "solution": "解: $\\because M=\\{0,1,2,3,4\\}, N=\\{1,3,5\\}$,\n\n$\\therefore P=M \\cap N=\\{1,3\\}$\n\n$\\therefore P$ 的子集共有 $2^{2}=4$\n\n故选：B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "集合"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "集合是高考基础考点，重点考查集合间的关系和运算。教学中要强调集合元素的确定性、互异性、无序性。",
+      "common_mistakes": "1. 忽略集合为空集的情况；2. 不理解集合关系的等价条件"
+    },
+    {
+      "question_text": "2. (5 分) 复数 $\\frac{5 i}{1-2 i}=(\\quad)$\nA. $2-\\mathrm{i}$\nB. $1-2 \\mathrm{i}$\nC. $-2+i$\nD. $-1+2 i$\n",
+      "answer": "C",
+      "solution": "解: $\\frac{5 i}{1-2 i}=\\frac{5 i(1+2 i)}{(1-2 i)(1+2 i)}=-2+i$ 故选: C.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "复数"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "复数是高考基础考点，重点考查复数的运算和模的计算。教学中要强调复数的四则运算和几何意义。",
+      "common_mistakes": "1. 复数除法运算错误；2. 模的公式记错"
+    },
+    {
+      "question_text": "3. （5 分) 下列函数中, 既是偶函数又在 $(0,+\\infty)$ 上单调递增的函数是 $(\\quad)$\nA. $y=2 x^{3}$\nB. $y=|x|+1$\nC. $y=-x^{2}+4$\nD. $y=2^{-|x|}$\n",
+      "answer": "B",
+      "solution": "解: 对于 $A . y=2 x^{3}$, 由 $f(-x)=-2 x^{3}=-f(x)$, 为奇函数, 故排除 $A$\n\n对于 B. $y=|x|+1$, 由 $f(-x)=|-x|+1=f(x)$, 为偶函数, 当 $x>0$ 时, $y=x+1$, 是增函数, 故 B 正确;\n\n对于 $C . y=-x^{2}+4$, 有 $f(-x)=f(x)$, 是偶函数, 但 $x>0$ 时为减函数, 故排 除 C;\n\n对于 D. $y=2^{-|x|}$, 有 $f(-x)=f(x)$, 是偶函数, 当 $x>0$ 时, $y=2^{-x}$, 为减函数 , 故排除 D.\n\n故选：B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "导数",
+        "函数性质"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "导数是高考核心考点，重点考查利用导数研究函数的单调性、极值、最值。教学中要强调求导法则和导数的几何意义。 函数性质是高考重点，重点考查函数的奇偶性、单调性、周期性。教学中要强调函数图像与性质的关系。",
+      "common_mistakes": "1. 求导错误；2. 不会用导数符号判断单调性；3. 极值和最值混淆；1. 奇偶性判断错误；2. 忽略定义域"
+    },
+    {
+      "question_text": "4. (5 分) 椭圆 $\\frac{x^{2}}{16}+\\frac{y^{2}}{8}=1$ 的离心率为（）\nA. $\\frac{1}{3}$\nB. $\\frac{1}{2}$\nC. $\\frac{\\sqrt{3}}{3}$\nD. $\\frac{\\sqrt{2}}{2}$\n",
+      "answer": "D",
+      "solution": "解: 根据椭圆的方程 $\\frac{x^{2}}{16}+\\frac{y^{2}}{8}=1$, 可得 $a=4, b=2 \\sqrt{2}$, 则 $c=\\sqrt{16-8}=2 \\sqrt{2}$;\n\n则椭圆的离心率为 $e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$,\n\n故选：D.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "解析几何"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "解析几何是高考难点，重点考查椭圆、双曲线、抛物线的定义、标准方程和性质。教学中要强调数形结合思想。",
+      "common_mistakes": "1. 离心率公式记错；2. 不会利用点在曲线上列方程；3. 计算错误"
+    },
+    {
+      "question_text": "6. （5 分) 有 3 个兴趣小组, 甲、乙两位同学各自参加其中一个小组, 每位同 学参加各个小组的可能性相同, 则这两位同学参加同一个兴趣小组的概率为 ( )\nA. $\\frac{1}{3}$\nB. $\\frac{1}{2}$\nC. $\\frac{2}{3}$\nD. $\\frac{3}{4}$\n",
+      "answer": "A",
+      "solution": "解：由题意知本题是一个古典概型,\n\n试验发生包含的事件数是 $3 \\times 3=9$ 种结果,\n\n满足条件的事件是这两位同学参加同一个兴趣小组,\n\n由于共有三个小组, 则有 3 种结果,\n\n根据古典概型概率公式得到 $P=\\frac{3}{9}=\\frac{1}{3}$,\n\n故选: $A$.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "概率统计"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "统计是高考基础考点，重点考查抽样方法、频率分布、统计图表。教学中要强调各种抽样方法的特点和适用场景。",
+      "common_mistakes": "1. 不理解分层抽样的原理；2. 计算比例错误"
+    },
+    {
+      "question_text": "7. (5 分) 已知角 $\\theta$ 的顶点与原点重合, 始边与 $\\mathrm{x}$ 轴的正半轴重合, 终边在直 线 $y=2 x$ 上, 则 $\\cos 2 \\theta=(\\quad)$\nA. $-\\frac{4}{5}$\nB. $-\\frac{3}{5}$\nC. $\\frac{3}{5}$\nD. $\\frac{4}{5}$\n",
+      "answer": "B",
+      "solution": "解：根据题意可知: $\\tan \\theta=2$,\n\n所以 $\\cos ^{2} \\theta=\\frac{1}{\\sec ^{2} \\theta}=\\frac{1}{\\tan ^{2} \\theta+1}=\\frac{1}{5}$,\n\n则 $\\cos 2 \\theta=2 \\cos ^{2} \\theta-1=2 \\times \\frac{1}{5}-1=-\\frac{3}{5}$.\n\n故选：B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "10. (5 分) 在下列区间中, 函数 $f(x)=e^{x}+4 x-3$ 的零点所在的区间为 $(\\quad)$\nA. $\\left(\\frac{1}{4}, \\frac{1}{2}\\right)$\nB. $\\left(-\\frac{1}{4}, 0\\right)$\nC. $\\left(0, \\frac{1}{4}\\right)$\nD. $\\left(\\frac{1}{2}, \\frac{3}{4}\\right)$\n",
+      "answer": "A",
+      "solution": "解: $\\because$ 函数 $f(x)=\\mathrm{e}^{\\mathrm{x}+4 \\mathrm{x}-3}$\n\n$\\therefore f^{\\prime}(x)=e^{x+4}$\n\n当 $x>0$ 时, $f^{\\prime}(x)=e^{x}+4>0$\n\n$\\therefore$ 函数 $f(x)=e^{x}+4 x-3$ 在 $(-\\infty,+\\infty)$ 上为 $f(0)=e^{0}-3=-2<0$\n\n$f\\left(\\frac{1}{2}\\right)=\\sqrt{e^{-}} 1>0$\n\n$f\\left(\\frac{1}{4}\\right)=\\sqrt[4]{e^{-}}-2=\\sqrt[4]{\\mathrm{e}}-\\sqrt[4]{16}<0$\n\n$\\because f\\left(\\frac{1}{2}\\right)$ of $\\left(\\frac{1}{4}\\right)<0$, $\\therefore$ 函数 $f(x)=\\mathrm{e}^{\\mathrm{x}+4 x-3}$ 的零点所在的区间为 $\\left(\\frac{1}{4}, \\frac{1}{2}\\right)$\n\n故选: A.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "14. (5 分) 在平面直角坐标系 $x O y$, 椭圆 $C$ 的中心为原点, 焦点 $F_{1} F_{2}$ 在 $x$ 轴上, 离心率为 $\\frac{\\sqrt{2}}{2}$. 过 $F_{1}$ 的直线交于 $A, B$ 两点, 且 $\\triangle A B F_{2}$ 的周长为 16 , 那么 $C$ 的 方程为\n",
+      "answer": "$\\frac{x^{2}}{16}+\\frac{y^{2}}{8}=1$\n",
+      "solution": "解: 根据题意, $\\triangle A B F_{2}$ 的周长为 16 , 即 $\\mathrm{BF}_{2}+A F_{2}+B_{1}+A F_{1}=16$;\n\n根据椭圆的性质, 有 $4 a=16$, 即 $a=4$;\n\n椭圆的离心率为 $\\frac{\\sqrt{2}}{2}$, 即 $\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$, 则 $a=\\sqrt{2} c$,\n\n将 $a=\\sqrt{2} c$, 代入可得, $c=2 \\sqrt{2}$, 则 $b^{2}=a^{2}-c^{2}=8$;\n\n则椭圆的方程为 $\\frac{x^{2}}{16}+\\frac{y^{2}}{8}=1$;\n\n故答案为: $\\frac{x^{2}}{16}+\\frac{y^{2}}{8}=1$.\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "解析几何"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "解析几何是高考难点，重点考查椭圆、双曲线、抛物线的定义、标准方程和性质。教学中要强调数形结合思想。",
+      "common_mistakes": "1. 离心率公式记错；2. 不会利用点在曲线上列方程；3. 计算错误"
+    },
+    {
+      "question_text": "15. (5 分) 已知矩形 $A B C D$ 的顶点都在半径为 4 的球 $O$ 的球面上, 且 $A B=6, B C=2$ $\\sqrt{3}$, 则棱雉 $\\mathrm{O}-\\mathrm{ABCD}$ 的体积为\n",
+      "answer": "$8 \\sqrt{3}$\n",
+      "solution": "解: 矩形的对角线的长为: $\\sqrt{6^{2}+(2 \\sqrt{3})^{2}}=4 \\sqrt{3}$, 所以球心到矩形的距 离为: $\\sqrt{4^{2}-(2 \\sqrt{3})^{2}}=2$,\n\n所以棱雉 $O-A B C D$ 的体积为: $\\frac{1}{3} \\times 6 \\times 2 \\sqrt{3} \\times 2=8 \\sqrt{3}$.\n\n故答案为: $8 \\sqrt{3}$\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "立体几何"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "立体几何是高考重点，重点考查空间几何体的表面积和体积计算。教学中要强调空间想象能力和公式应用。",
+      "common_mistakes": "1. 不会找底面和高；2. 体积公式记错"
+    },
+    {
+      "question_text": "16. (5 分) 在 $\\triangle A B C$ 中, $B=60^{\\circ}, A C=\\sqrt{3}$, 则 $A B+2 B C$ 的最大值为\n",
+      "answer": "$2 \\sqrt{7}$\n",
+      "solution": "解: 设 $A B=c A C=b B C=a$\n\n由余弦定理\n\n$\\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2 a c}$\n\n所以 $a^{2}+c^{2}-a c=b^{2}=3$\n\n设 $\\mathrm{c}+2 \\mathrm{a}=\\mathrm{m}$\n\n代入上式得\n\n$7 a^{2}-5 a m+m^{2}-3=0$\n\n$\\triangle=84-3 m^{2} \\geqslant 0$ 故 $m \\leqslant 2 \\sqrt{7}$\n\n当 $m=2 \\sqrt{7}$ 时, 此时 $a=\\frac{5 \\sqrt{7}}{7}, c=\\frac{4 \\sqrt{7}}{7}$ 符合题意\n\n因此最大值为 $2 \\sqrt{7}$\n\n另解: 因为 $B=60^{\\circ}, A+B+C=180^{\\circ}$, 所以 $A+C=120^{\\circ}$,\n\n由正弦定理，有\n\n$\\frac{A B}{\\sin C}=\\frac{B C}{\\sin A}=\\frac{A C}{\\sin B}=\\frac{\\sqrt{3}}{\\sin 60^{\\circ}}=2$,\n\n所以 $A B=2 \\sin C, B C=2 \\sin A$.\n\n所以 $A B+2 B C=2 \\sin C+4 \\sin A=2 \\sin \\left(120^{\\circ}-A\\right)+4 \\sin A$\n\n$=2\\left(\\sin 120^{\\circ} \\cos A-\\cos 120^{\\circ} \\sin A\\right)+4 \\sin A$\n\n$=\\sqrt{3} \\cos A+5 \\sin A$ $=2 \\sqrt{7} \\sin (A+\\phi), \\quad\\left(\\right.$ 其中 $\\left.\\sin \\phi=\\frac{\\sqrt{3}}{2 \\sqrt{7}}, \\cos \\phi=\\frac{5}{2 \\sqrt{7}}\\right)$\n\n所以 $A B+2 B C$ 的最大值为 $2 \\sqrt{7}$.\n\n故答案为: $2 \\sqrt{7}$\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "13. (5 分) 已知 $a$ 与 $b$ 为两个垂直的单位向量, $k$ 为实数, 若向量 $\\vec{a}+\\vec{b}$ 与向量 $k$ $\\vec{a}-\\vec{b}$ 垂直，则 $k=$\n",
+      "answer": "1\n",
+      "solution": "解： $\\because \\vec{a} \\perp \\vec{b}$\n\n$\\therefore \\vec{a} \\cdot \\vec{b}=0$\n\n$\\because \\vec{a}+\\vec{b}$ 与 $k \\vec{a}-\\vec{b}$ 垂直\n\n$\\therefore(\\vec{a}+\\vec{b}) \\cdot(k \\vec{a}-\\vec{b})=0$\n\n即 $k \\vec{a}^{2}+k \\vec{a} \\cdot b-\\vec{a} \\cdot \\vec{b}-\\vec{b}^{2}=0$\n\n$\\therefore \\mathrm{k}=1$\n\n故答案为: 1\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "向量"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "向量是高考基础考点，重点考查向量的坐标运算和数量积。教学中要强调向量垂直的充要条件。",
+      "common_mistakes": "1. 数量积公式记错；2. 计算错误"
+    },
+    {
+      "question_text": "15. (5 分) $\\triangle A B C$ 中, $\\angle B=120^{\\circ}, A C=7, A B=5$, 则 $\\triangle A B C$ 的面积为\n",
+      "answer": "$\\frac{15 \\sqrt{3}}{4}$\n",
+      "solution": "解: 由余弦定理可知 $\\cos B=\\frac{25+B C^{2}-49}{2 * B C * 5}=-\\frac{1}{2}$, 求得 $B C=-8$ 或 3 (舍负)\n\n$\\therefore \\triangle A B C$ 的面积为 $\\frac{1}{2} \\cdot A B \\cdot B C \\cdot \\sin B=\\frac{1}{2} \\times 5 \\times 3 \\times \\frac{\\sqrt{3}}{2}=\\frac{15 \\sqrt{3}}{4}$ 故答案为: $\\frac{15 \\sqrt{3}}{4}$\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "16. (5 分) 已知两个圆雉有公共底面, 且两个圆雉的顶点和底面的圆周都在同 一个球面上, 若圆雉底面面积是这个球面面积的 $\\frac{3}{16}$, 则这两个圆雉中, 体积 较小者的高与体积较大者的高的比值为\n",
+      "answer": "$\\frac{1}{3}$\n",
+      "solution": "解: 不妨设球的半径为: 4; 球的表面积为: $64 \\pi$, 圆雉的底面积为: $12 \\pi$ , 圆锥的底面半径为: $2 \\sqrt{3}$;\n\n由几何体的特征知球心到圆雉底面的距离, 求的半径以及圆雉底面的半径三者可\n\n以构成一个直角三角形\n\n由此可以求得球心到圆雉底面的距离是 $\\sqrt{4^{2}-(2 \\sqrt{3})^{2}}=2$,\n\n所以圆雉体积较小者的高为: 4- $2=2$, 同理可得圆雉体积较大者的高为: $4+2=6$; 所以这两个圆雉中, 体积较小者的高与体积较大者的高的比值为: $\\frac{1}{3}$.\n\n故答案为: $\\frac{1}{3}$\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "三角函数",
+        "立体几何"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。 立体几何是高考重点，重点考查空间几何体的表面积和体积计算。教学中要强调空间想象能力和公式应用。",
+      "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错；1. 不会找底面和高；2. 体积公式记错"
+    },
+    {
+      "question_text": "17. (12 分) 等比数列 $\\left\\{a_{n}\\right\\}$ 的各项均为正数, 且 $2 a_{1}+3 a_{2}=1, a_{3}{ }^{2}=9 a_{2} a_{6}$,\n\n(I ) 求数列 $\\left\\{a_{n}\\right\\}$ 的通项公式;\n\n(II ) 设 $b_{n}=\\log _{3} a_{1}+\\log _{3} a_{2}+\\ldots+\\log _{3} a_{n}$, 求数列 $\\left\\{\\frac{1}{b_{n}}\\right\\}$ 的前 $n$ 项和.\n",
+      "answer": "解: ( I ) 设数列 $\\left\\{a_{n}\\right\\}$ 的公比为 $q$, 由 $a_{3}{ }^{2}=9 a_{2} a_{6}$ 得 $a_{3}{ }^{2}=9 a_{4}{ }^{2}$, 所以 $q^{2}=\\frac{1}{9}$\n\n由条件可知各项均为正数, 故 $q=\\frac{1}{3}$.\n\n由 $2 a_{1}+3 a_{2}=1$ 得 $2 a_{1}+3 a_{1} q=1$, 所以 $a_{1}=\\frac{1}{3}$.\n\n故数列 $\\left\\{a_{n}\\right\\}$ 的通项式为 $a_{n}=\\frac{1}{3^{n}}$. ( II ) $b_{n}=\\log _{3} a_{1+} \\log _{3} a_{2+}+{ }^{+} \\log _{3} a_{n=-}(1+2+\\ldots+n)=-\\frac{n(n+1)}{2}$,\n\n故 $\\frac{1}{b_{n}}=-\\frac{2}{n(n+1)}=-2\\left(\\frac{1}{n}-\\frac{1}{n+1}\\right)$\n\n则 $\\frac{1}{\\mathrm{~b}_{1}}+\\frac{1}{\\mathrm{~b}_{2}}+\\ldots+\\frac{1}{\\mathrm{~b}_{\\mathrm{n}}}=-2\\left[\\left(1-\\frac{1}{2}\\right)+\\left(\\frac{1}{2}-\\frac{1}{3}\\right)+\\ldots+\\left(\\frac{1}{\\mathrm{n}}-\\frac{1}{\\mathrm{n}+1}\\right)\\right]=-\\frac{2 \\mathrm{n}}{\\mathrm{n}+1}$,\n\n所以数列 $\\left\\{\\frac{1}{b_{n}}\\right\\}$ 的前 $n$ 项和为 $-\\frac{2 n}{n+1}$.\n",
+      "solution": "（I ) 设出等比数列的公比 $q$, 由 $a_{3}{ }^{2}=9 a_{2} a_{6}$, 利用等比数列的通项公式 化简后得到关于 $q$ 的方程, 由已知等比数列的各项都为正数, 得到满足题意 $q$ 的值, 然后再根据等比数列的通项公式化简 $2 a_{1}+3 a_{2}=1$, 把求出的 $q$ 的值代入 即可求出等比数列的首项, 根据首项和求出的公比 $\\mathrm{q}$ 写出数列的通项公式即 可;\n\n（II ）把（I ) 求出数列 $\\left\\{a_{n}\\right\\}$ 的通项公式代入设 $b n=\\log _{3} a_{1}+\\log _{3} a_{2}+\\ldots+\\log _{3} a_{n}$, 利用 对数的运算性质及等差数列的前 $n$ 项和的公式化简后, 即可得到 $b_{n}$ 的通项公 式, 求出倒数即为 $\\frac{1}{b_{n}}$ 的通项公式, 然后根据数列的通项公式列举出数列的各 项, 抵消后即可得到数列 $\\left\\{\\frac{1}{b_{n}}\\right\\}$ 的前 $\\mathrm{n}$ 项和.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "数列"
+      ],
+      "difficulty": 3,
+      "score": 12.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "数列是高考必考内容，重点考查等差数列、等比数列的通项公式和前n项和。教学中要强调公式的推导和应用。",
+      "common_mistakes": "1. 公式记错；2. 不会列方程求公差/公比；3. 求和公式使用错误"
+    },
+    {
+      "question_text": "19. （12 分）某种产品的质量以其质量指标值衡量, 质量指标值越大表明质量 越好, 且质量指标值大于或等于 102 的产品为优质品, 现用两种新配方（分 别称为 $\\mathrm{A}$ 配方和 $\\mathrm{B}$ 配方) 做试验, 各生产了 100 件这种产品, 并测量了每件 产品的质量指标值, 得到下面试验结果:\n\nA 配方的频数分布表\n\n\\begin{tabular}{|c|c|c|c|c|c|}\n\\hline 指标值分组 & {$[90,94)$} & {$[94,98)$} & {$[98,102)$} & {$[102,106)$} & {$[106,110]$} \\\\\n\\hline 频数 & 8 & 20 & 42 & 22 & 8 \\\\\n\\hline\n\\end{tabular}\n\nB 配方的频数分布表\n\n\\begin{tabular}{|c|c|c|c|c|c|}\n\\hline 指标值分组 & {$[90,94)$} & {$[94,98)$} & {$[98,102)$} & {$[102,106)$} & {$[106,110]$} \\\\\n\\hline 频数 & 4 & 12 & 42 & 32 & 10 \\\\\n\\hline\n\\end{tabular}\n\n（I ）分别估计用 $\\mathrm{A}$ 配方, $B$ 配方生产的产品的优质品率;\n\n（II) 已知用 B 配方生成的一件产品的利润 $y$ （单位: 元）与其质量指标值 $t$ 的 关系式为 $\\mathrm{y}= \\begin{cases}-2, & \\mathrm{t}<94 \\\\ 2, & 94 \\leqslant \\mathrm{t}<102 \\\\ 4, & \\mathrm{t} \\geqslant 102\\end{cases}$\n\n从用 $B$ 配方生产的产品中任取一件, 其利润记为 $X$ （单位: 元), 求 $X$ 的分布列 及数学期望. (以试验结果中质量指标值落入各组的频率作为一件产品的质 量指标值落入相应组的概率)\n",
+      "answer": "解： ( I ) 由试验结果知, 用 $A$ 配方生产的产品中优质的频率为 $\\frac{22+8}{100}=0.3$\n\n$\\therefore$ 用 $A$ 配方生产的产品的优质品率的估计值为 0.3 . 由试验结果知, 用 $B$ 配方生产的产品中优质品的频率为 $\\frac{32+10}{100}=0.42$\n\n$\\therefore$ 用 $B$ 配方生产的产品的优质品率的估计值为 0.42 ;\n\n（II) 用 B 配方生产的 100 件产品中，其质量指标值落入区间\n\n$[90,94),[94,102),[102,110]$ 的频率分别为 $0.04,0.54,0.42$,\n\n$\\therefore P(X=-2)=0.04, P(X=2)=0.54, P(X=4)=0.42$,\n\n即 $X$ 的分布列为\n\n\\begin{tabular}{|c|c|c|c|}\n\\hline$X$ & -2 & 2 & 4 \\\\\n\\hline $\\mathrm{P}$ & 0.04 & 0.54 & 0.42 \\\\\n\\hline\n\\end{tabular}\n\n$\\therefore X$ 的数学期望值. $\\mathrm{EX}=-2 \\times 0.04+2 \\times 0.54+4 \\times 0.42=2.68$\n",
+      "solution": "(1）根据所给的样本容量和两种配方的优质的频数, 两个求比值, 得 到用两种配方的产品的优质品率的估计值.\n\n(II) 根据题意得到变量对应的数字, 结合变量对应的事件和第一问的结果写出 变量对应的概率, 写出分布列和这组数据的期望值.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "概率统计"
+      ],
+      "difficulty": 3,
+      "score": 12.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "统计是高考基础考点，重点考查抽样方法、频率分布、统计图表。教学中要强调各种抽样方法的特点和适用场景。",
+      "common_mistakes": "1. 不理解分层抽样的原理；2. 计算比例错误"
+    },
+    {
+      "question_text": "20. (12 分) 在平面直角坐标系 $x O y$ 中, 已知点 $A(0,-1), B$ 点在直线 $y=-3$ 上, $M$ 点满足 $\\overrightarrow{M B} / / \\overrightarrow{O A}, \\overrightarrow{M A} \\cdot \\overrightarrow{A B}=\\overrightarrow{M B} \\cdot \\overrightarrow{B A}, M$ 点的轨迹为曲线 $C$.\n\n(I ) 求 C 的方程;\n\n(II) $\\mathrm{P}$ 为 $C$ 上的动点, 1 为 $C$ 在 $\\mathrm{P}$ 点处的切线, 求 $\\mathrm{O}$ 点到 $I$ 距离的最小值.\n",
+      "answer": "解: ( I ) 设 $M(x, y)$, 由已知得 $B(x,-3), A(0,-1)$. 所 $\\overrightarrow{M A}=(-x,-1-y), \\overrightarrow{M B}=(0,-3-y), \\overrightarrow{A B}=(x,-2)$.\n\n再由题意可知 $(\\overrightarrow{M A}+\\overrightarrow{M B}) \\cdot \\overrightarrow{\\mathrm{AB}}=0$, 即 $(-x,-4-2 y) \\cdot(x,-2)=0$.\n\n所以曲线 $C$ 的方程式为 $y=\\frac{1}{4} x^{2}-2$.\n\n(II) 设 $P\\left(x_{0}, y_{0}\\right)$ 为曲线 $C: y=\\frac{1}{4} x^{2}-2$ 上一点, 因为 $y^{\\prime}=\\frac{1}{2} x$, 所以 的斜率 为 $\\frac{1}{2} x_{0}$,\n\n因此直线 $I$ 的方程为 $y-y_{0}=\\frac{1}{2} x_{0}\\left(x-x_{0}\\right)$, 即 $x_{0} x-2 y+2 y_{0}-x_{0}^{2}=0$.\n\n则 0 点到I的距离 $\\mathrm{d}=\\frac{\\left|2 y_{0}-x_{0}^{2}\\right|}{\\sqrt{4+x_{0}^{2}}}$. 又 $y_{0}=\\frac{1}{4} x_{0}^{2}-2$,\n\n所以 $d=\\frac{\\frac{1}{2} x_{0}{ }^{2}+4}{\\sqrt{4+x_{0}^{2}}}=\\frac{1}{2}\\left(\\sqrt{x_{0}{ }^{2}+4}+\\frac{4}{\\sqrt{4+x_{0}^{2}}}\\right) \\geqslant 2$,\n\n所以 $x_{0}^{2}=0$ 时取等号, 所以 0 点到 $I$ 距离的最小值为 2 .\n",
+      "solution": "( I ) 设 $M(x, y)$, 由已知得 $B(x,-3), A(0,-1)$ 并代入 $\\overrightarrow{M B} / /$ $\\overrightarrow{O A}, \\overrightarrow{M A} \\cdot \\overrightarrow{A B}=\\overrightarrow{M B} \\cdot \\overrightarrow{B A}$, 即可求得 $M$ 点的轨迹 $C$ 的方程;\n\n(II ) 设 $P\\left(x_{0}, y_{0}\\right)$ 为 $C$ 上的点, 求导, 写出 $C$ 在 $P$ 点处的切线方程, 利用点 到直线的距离公式即可求得 $\\mathrm{O}$ 点到 I 距离, 然后利用基本不等式求出其最小 值.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "不等式",
+        "导数应用"
+      ],
+      "difficulty": 3,
+      "score": 12.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "不等式是高考重点，重点考查均值不等式的应用。教学中要强调'一正二定三相等'的使用条件。 导数应用是高考重点，重点考查切线方程、函数极值和最值。教学中要强调导数的几何意义。",
+      "common_mistakes": "1. 忽略均值不等式的使用条件；2. 不会配凑系数；3. 等号成立条件判断错误；1. 求导错误；2. 切线方程公式记错"
+    },
+    {
+      "question_text": "21. （12 分) 已知函数 $f(x)=\\frac{a \\ln x}{x+1}+\\frac{b}{x}$, 曲线 $y=f(x)$ 在点 $(1, f(1))$ 处的 切线方程为 $x+2 y-3=0$.\n\n(I) 求 $a 、 b$ 的值;\n\n（II ）如果当 $x>0$, 且 $x \\neq 1$ 时, $f(x)>\\frac{\\ln x}{x-1}+\\frac{k}{x}$, 求 $k$ 的取值范围.\n",
+      "answer": "解: 由题意 $f(1)=1$, 即切点坐标是 $(1,1)$\n\n( I ) $f^{\\prime}(x)=\\frac{a\\left(\\frac{x+1}{x}-\\ln x\\right)}{(x+1)^{2}}-\\frac{b}{x^{2}}$\n\n由于直线 $x+2 y-3=0$ 的斜率为 $-\\frac{1}{2}$, 且过点 $(1,1)$, 故 $\\left\\{\\begin{array}{l}f(1)=1 \\\\ f^{\\prime}(1)=-\\frac{1}{2}\\end{array}\\right.$\n\n即 $\\left\\{\\begin{array}{l}b=1 \\\\ \\frac{a}{2}-b=-\\frac{1}{2}\\end{array}\\right.$ 解得 $a=1, b=1$.\n\n( II) 由 ( I ) 知 $f(x)=\\frac{\\ln x}{x+1}+\\frac{1}{x}$, 所以\n\n$f(x)-\\left(\\frac{\\ln x}{x-1}+\\frac{k}{x}\\right)=\\frac{1}{1-x^{2}}\\left(2 \\ln x+\\frac{(k-1)\\left(x^{2}-1\\right)}{x}\\right)$.\n\n考虑函数 $h(x)=2 \\ln x+\\frac{(k-1)\\left(x^{2}-1\\right)}{x}(x>0)$, 则\n\n$h^{\\prime}(x)=\\frac{(k-1)\\left(x^{2}+1\\right)+2 x}{x^{2}}$\n\n(i) 设 $k \\leqslant 0$, 由 $h^{\\prime}(x)=\\frac{k\\left(x^{2}+1\\right)-(x-1)^{2}}{x^{2}}$ 知, 当 $x \\neq 1$ 时, $h^{\\prime}(x)<0$. 而 $h （$\n\n1) $=0$, 故\n\n当 $x \\in(0,1)$ 时, $h^{\\prime}(x)<0$, 可得 $\\frac{1}{1-x^{2}} h(x)>0$;\n\n当 $x \\in(1,+\\infty)$ 时, $h^{\\prime}(x)<0$, 可得 $\\frac{1}{1-x^{2}} h(x)>0$\n\n从而当 $x>0$, 且 $x \\neq 1$ 时, $f(x)-\\left(\\frac{\\ln x}{x-1}+\\frac{k}{x}\\right)>0$, 即 $f(x)>\\frac{\\ln x}{x-1}+\\frac{k}{x}$.\n\n(ii) 设 $0<k<1$. 由于当 $x \\in\\left(1, \\frac{1}{1-k}\\right)$ 时, $(k-1)\\left(x^{2}+1\\right)+2 x>0$, 故 $h^{\\prime}(x$ $>>0$, 而\n\n$h(1)=0$, 故当 $x \\in\\left(1, \\frac{1}{1-k}\\right)$ 时, $h(x)>0$, 可得 $\\frac{1}{1-x^{2}} h(x)<0$, 与题设矛 盾. (iii) 设 $k \\geqslant 1$. 此时 $h^{\\prime}(x)>0$, 而 $h(1)=0$, 故当 $x \\in(1,+\\infty)$ 时, $h(x)>0$ , 可得 $\\frac{1}{1-x^{2}} h(x)<0$, 与题设矛盾.\n\n综合得, $\\mathrm{k}$ 的取值范围为 $(-\\infty, 0]$.\n",
+      "solution": "(1）求出函数的导数; 利用切线方程求出切线的斜率及切点; 利用函 数在切点处的导数值为曲线切线的斜率及切点也在曲线上, 列出方程组, 求 出 $a, b$ 值.\n\n(II) 将不等式变形, 构造新函数, 求出新函数的导数, 对参数 $\\mathrm{k}$ 分类讨论, 判 断出导函数的符号, 得到函数的单调性, 求出函数的最值, 求出参数 $\\mathrm{k}$ 的范 围.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "导数",
+        "不等式",
+        "导数应用"
+      ],
+      "difficulty": 3,
+      "score": 12.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "导数是高考核心考点，重点考查利用导数研究函数的单调性、极值、最值。教学中要强调求导法则和导数的几何意义。 不等式是高考重点，重点考查均值不等式的应用。教学中要强调'一正二定三相等'的使用条件。 导数应用是高考重点，重点考查切线方程、函数极值和最值。教学中要强调导数的几何意义。",
+      "common_mistakes": "1. 求导错误；2. 不会用导数符号判断单调性；3. 极值和最值混淆；1. 忽略均值不等式的使用条件；2. 不会配凑系数；3. 等号成立条件判断错误；1. 求导错误；2. 切线方程公式记错"
+    },
+    {
+      "question_text": "23. 在直角坐标系 $x O y$ 中, 曲线 $C_{1}$ 的参数方程为 $\\left\\{\\begin{array}{l}x=2 \\cos \\alpha \\\\ y=2+2 \\sin \\alpha\\end{array}\\right.$ ( $\\alpha$ 为参数) $M$ 是 $\\mathrm{C}_{1}$ 上的动点, $\\mathrm{P}$ 点满足 $\\overrightarrow{\\mathrm{OP}}=2 \\overrightarrow{\\mathrm{OM}}, \\mathrm{P}$ 点的轨迹为曲线 $\\mathrm{C}_{2}$\n\n(I) 求 $\\mathrm{C}_{2}$ 的方程;\n\n(II ) 在以 $O$ 为极点, $x$ 轴的正半轴为极轴的极坐标系中, 射线 $\\theta=\\frac{\\pi}{3}$ 与 $C_{1}$ 的异 于极点的交点为 $A$, 与 $C_{2}$ 的异于极点的交点为 $B$, 求 $|A B|$.\n",
+      "answer": "解：（1）设 $P(x, y)$, 则由条件知 $M\\left(\\frac{x}{2}, \\frac{y}{2}\\right)$. 由于 $M$ 点在 $C_{1}$ 上, 所以 $\\left\\{\\begin{array}{l}\\frac{x}{2}=2 \\cos \\alpha \\\\ \\frac{y}{2}=2+2 \\sin \\alpha\\end{array}\\right.$ 即 $\\left\\{\\begin{array}{l}x=4 \\cos \\alpha \\\\ y=4+4 \\sin \\alpha\\end{array}\\right.$\n\n从而 $C_{2}$ 的参数方程为\n\n$\\left\\{\\begin{array}{l}x=4 \\cos \\alpha \\\\ y=4+4 \\sin \\alpha\\end{array}(\\alpha\\right.$ 为参数)\n\n(II ) 曲线 $C_{1}$ 的极坐标方程为 $\\rho=4 \\sin \\theta$, 曲线 $C_{2}$ 的极坐标方程为 $\\rho=8 \\sin \\theta$.\n\n射线 $\\theta=\\frac{\\pi}{3}$ 与 $C_{1}$ 的交点 $A$ 的极径为 $\\rho_{1}=4 \\sin \\frac{\\pi}{3}$,\n\n射线 $\\theta=\\frac{\\pi}{3}$ 与 $C_{2}$ 的交点 $B$ 的极径为 $\\rho_{2}=8 \\sin \\frac{\\pi}{3}$.\n\n所以 $|A B|=\\left|\\rho_{2}-\\rho_{1}\\right|=2 \\sqrt{3}$.\n",
+      "solution": "（1）先设出点 $P$ 的坐标, 然后根据点 $P$ 满足的条件代入曲线 $C_{1}$ 的方程 即可求出曲线 $C_{2}$ 的方程;\n\n(II) 根据 (I) 将求出曲线 $C_{1}$ 的极坐标方程, 分别求出射线 $\\theta=\\frac{\\pi}{3}$ 与 $C_{1}$ 的交点 $A$ 的极径为 $\\rho_{1}$, 以及射线 $\\theta=\\frac{\\pi}{3}$ 与 $C_{2}$ 的交点 $B$ 的极径为 $\\rho_{2}$, 最后根据 $|A B|=\\left|\\rho_{2}-\\rho_{1}\\right|$ 求出所求.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 10.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "24. 设函数 $f(x)=|x-a|+3 x$, 其中 $a>0$.\n\n(I) 当 $a=1$ 时, 求不等式 $f(x) \\geqslant 3 x+2$ 的解集\n\n(II ) 若不等式 $f(x) \\leqslant 0$ 的解集为 $\\{x \\mid x \\leqslant-1\\}$, 求 $a$ 的值.\n",
+      "answer": "解: ( I ) 当 $a=1$ 时, $f(x) \\geqslant 3 x+2$ 可化为 $|x-1| \\geqslant 2$\n\n由此可得 $x \\geqslant 3$ 或 $x \\leqslant-1$.\n\n故不等式 $f(x) \\geqslant 3 x+2$ 的解集为 $\\{x \\mid x \\geqslant 3$ 或 $x \\leqslant-1\\}$.\n\n( II) 由 $f(x) \\leqslant 0$ 得\n\n$|x-a|+3 x \\leqslant 0$\n\n此不等式化为不等式组\n\n$\\left\\{\\begin{array}{l}x \\geqslant a \\\\ x-a+3 x \\leqslant 0\\end{array}\\right.$ 或 $\\left\\{\\begin{array}{l}x \\leqslant a \\\\ a-x+3 x \\leqslant 0\\end{array}\\right.$\n\n即 $\\left\\{\\begin{array}{l}x \\geqslant a \\\\ x \\leqslant \\frac{a}{4}\\end{array}\\right.$ 或 $\\left\\{\\begin{array}{l}x \\leqslant a \\\\ x \\leqslant-\\frac{a}{2}\\end{array}\\right.$\n\n因为 $a>0$, 所以不等式组的解集为 $\\left\\{x \\mid x \\leqslant-\\frac{a}{2}\\right\\}$\n\n由题设可得 $-\\frac{a}{2}=-1$, 故 $a=2$\n",
+      "solution": "( I ) 当 $a=1$ 时, $f(x) \\geqslant 3 x+2$ 可化为 $|x-1| \\geqslant 2$. 直接求出不等式 $f($ $x) \\geqslant 3 x+2$ 的解集即可. (II) 由 $f(x) \\leqslant 0$ 得 $|x-a|+3 x \\leqslant 0$ 分 $x \\geqslant a$ 和 $x \\leqslant a$ 推出等价不等式组, 分别求 解, 然后求出 $a$ 的值.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "不等式"
+      ],
+      "difficulty": 3,
+      "score": 10.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "不等式是高考重点，重点考查均值不等式的应用。教学中要强调'一正二定三相等'的使用条件。",
+      "common_mistakes": "1. 忽略均值不等式的使用条件；2. 不会配凑系数；3. 等号成立条件判断错误"
+    },
+    {
+      "question_text": "17. （12 分) 已知等比数列 $\\left\\{a_{n}\\right\\}$ 中, $a_{1}=\\frac{1}{3}$, 公比 $q=\\frac{1}{3}$.\n\n( I ) $S_{n}$ 为 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和, 证明: $S_{n}=\\frac{1-a_{n}}{2}$\n\n(II ) 设 $b_{n}=\\log _{3} a_{1}+\\log _{3} a_{2}+\\ldots+\\log _{3} a_{n}$, 求数列 $\\left\\{b_{n}\\right\\}$ 的通项公式.\n",
+      "answer": "证明: (1) $\\because$ 数列 $\\left\\{a_{n}\\right\\}$ 为等比数列, $a_{1}=\\frac{1}{3}, q=\\frac{1}{3}$\n\n$\\therefore a_{n}=\\frac{1}{3} \\times\\left(\\frac{1}{3}\\right)^{n-1}=\\frac{1}{3^{n}}$,\n\n$\\mathrm{S}_{\\mathrm{n}}=\\frac{\\frac{1}{3}\\left(1-\\frac{1}{3^{n}}\\right)}{1-\\frac{1}{3}}=\\frac{1-\\frac{1}{3^{n}}}{2}$\n\n又 $\\because \\frac{1-a_{n}}{2}=\\frac{1-\\frac{1}{3^{n}}}{2}=S_{n}$\n\n$\\therefore S_{n}=\\frac{1-a_{n}}{2}$\n\n(II) $\\because a_{n}=\\frac{1}{3^{n}}$\n\n$\\therefore b_{n}=\\log _{3} a_{1}+\\log _{3} a_{2}+\\ldots+\\log _{3} a_{n}=-\\log _{3} 3+\\left(-2 \\log _{3} 3\\right)+\\ldots+\\left(-n \\log _{3} 3\\right)$\n\n$=-\\quad(1+2+\\ldots+n)$\n\n$=-\\frac{\\mathrm{n}(\\mathrm{n}+1)}{2}$\n\n$\\therefore$ 数列 $\\left\\{b_{n}\\right\\}$ 的通项公式为: $b_{n}=-\\frac{n(n+1)}{2}$\n",
+      "solution": "(1) 根据数列 $\\left\\{a_{n}\\right\\}$ 是等比数列, $a_{1}=\\frac{1}{3}$, 公比 $q=\\frac{1}{3}$, 求出通项公式 $a_{n}$ 和 前 $n$ 项和 $S_{n}$, 然后经过运算即可证明.\n\n(II) 根据数列 $\\left\\{a_{n}\\right\\}$ 的通项公式和对数函数运算性质求出数列 $\\left\\{b_{n}\\right\\}$ 的通项公式.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "数列"
+      ],
+      "difficulty": 3,
+      "score": 12.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "数列是高考必考内容，重点考查等差数列、等比数列的通项公式和前n项和。教学中要强调公式的推导和应用。",
+      "common_mistakes": "1. 公式记错；2. 不会列方程求公差/公比；3. 求和公式使用错误"
+    },
+    {
+      "question_text": "19. （12 分）某种产品的质量以其质量指标值衡量, 质量指标值越大表明质量 越好, 且质量指标值大于或等于 102 的产品为优质品, 现用两种新配方（分 别称为 $\\mathrm{A}$ 配方和 $\\mathrm{B}$ 配方) 做试验, 各生产了 100 件这种产品, 并测量了每件 产品的质量指标值, 得到下面试验结果:\n\nA 配方的频数分布表\n\n\\begin{tabular}{|c|c|c|c|c|c|}\n\\hline 指标值分组 & {$[90,94)$} & {$[94,98)$} & {$[98,102)$} & {$[102,106)$} & {$[106,110]$} \\\\\n\\hline 频数 & 8 & 20 & 42 & 22 & 8 \\\\\n\\hline\n\\end{tabular}\n\n$\\mathrm{B}$ 配方的频数分布表\n\n\\begin{tabular}{|c|c|c|c|c|c|}\n\\hline 指标值分组 & {$[90,94)$} & {$[94,98)$} & {$[98,102)$} & {$[102,106)$} & {$[106,110]$} \\\\\n\\hline 频数 & 4 & 12 & 42 & 32 & 10 \\\\\n\\hline\n\\end{tabular}\n\n( I ) 分别估计用 $\\mathrm{A}$ 配方, $\\mathrm{B}$ 配方生产的产品的优质品率;\n\n（II ) 已知用 B 配方生成的一件产品的利润 $\\mathrm{y}$ （单位: 元）与其质量指标值 $\\mathrm{t}$ 的 关系式为 $\\mathrm{y}= \\begin{cases}-2, & \\mathrm{t}<94 \\\\ 2, & 94 \\leqslant \\mathrm{t}<102 \\\\ 4, & \\mathrm{t} \\geqslant 102\\end{cases}$\n\n从用 $B$ 配方生产的产品中任取一件, 其利润记为 $X$ （单位: 元）, 求 $X$ 的分布列 及数学期望. (以试验结果中质量指标值落入各组的频率作为一件产品的质 量指标值落入相应组的概率)\n",
+      "answer": "解: ( I ) 由试验结果知, 用 $A$ 配方生产的产品中优质的频率为 $\\frac{22+8}{100}=0.3$ $\\therefore$ 用 $\\mathrm{A}$ 配方生产的产品的优质品率的估计值为 0.3 .\n\n由试验结果知, 用 $B$ 配方生产的产品中优质品的频率为 $\\frac{32+10}{100}=0.42$\n\n$\\therefore$ 用 B 配方生产的产品的优质品率的估计值为 0.42 ;\n\n（II) 用 B 配方生产的 100 件产品中，其质量指标值落入区间\n\n$[90,94),[94,102),[102,110]$ 的频率分别为 $0.04,0.54,0.42$,\n\n$\\therefore P(X=-2)=0.04, P(X=2)=0.54, P(X=4)=0.42$,\n\n即 $\\mathrm{X}$ 的分布列为\n\n\\begin{tabular}{|c|c|c|c|}\n\\hline$X$ & -2 & 2 & 4 \\\\\n\\hline$P$ & 0.04 & 0.54 & 0.42 \\\\\n\\hline\n\\end{tabular}\n\n$\\therefore X$ 的数学期望值 $E X=-2 \\times 0.04+2 \\times 0.54+4 \\times 0.42=2.68$\n",
+      "solution": "(1) 根据所给的样本容量和两种配方的优质的频数, 两个求比值, 得 到用两种配方的产品的优质品率的估计值.\n\n(II) 根据题意得到变量对应的数字, 结合变量对应的事件和第一问的结果写出 变量对应的概率, 写出分布列和这组数据的期望值.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "概率统计"
+      ],
+      "difficulty": 3,
+      "score": 12.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "统计是高考基础考点，重点考查抽样方法、频率分布、统计图表。教学中要强调各种抽样方法的特点和适用场景。",
+      "common_mistakes": "1. 不理解分层抽样的原理；2. 计算比例错误"
+    },
+    {
+      "question_text": "20. (12 分) 在平面直角坐标系 $x O y$ 中, 曲线 $y=x^{2}-6 x+1$ 与坐标轴的交点都在 圆 C上.\n\n( I ) 求圆 C 的方程;\n\n(II ) 若圆 $C$ 与直线 $x-y+a=0$ 交与 $A, B$ 两点, 且 $O A \\perp O B$, 求 $a$ 的值.\n",
+      "answer": "解: ( I ) 法一: 曲线 $y=x^{2}-6 x+1$ 与 $y$ 轴的交点为 $(0,1)$, 与 $x$ 轴的 交点为 $(3+2 \\sqrt{2}, 0),(3-2 \\sqrt{2}, 0)$. 可知圆心在直线 $x=3$ 上, 故可设该 圆的圆心 $C$ 为 $(3, t)$, 则有 $3^{2}+(t-1)^{2}=(2 \\sqrt{2})^{2}+t^{2}$, 解得 $t=1$, 故圆 $C$ 的半径为 $\\sqrt{3^{2}+(t-1)^{2}}=3$, 所以圆 $C$ 的方程为 $(x-3)^{2}+(y-1)^{2}=9$.\n\n法二：圆 $x^{2}+y^{2}+D x+E y+F=0$\n\n$x=0, y=1$ 有 $1+E+F=0$\n\n$y=0, x^{2}-6 x+1=0$ 与 $x^{2}+D x+F=0$ 是同一方程, 故有 $D=-6, F=1, E=-2$,\n\n即圆方程为 $x^{2}+y^{2}-6 x-2 y+1=0$\n\n（II ) 设 $A\\left(x_{1}, y_{1}\\right), B\\left(x_{2}, y_{2}\\right)$ ，其坐标满足方程组\n\n$\\left\\{\\begin{array}{l}x-y+a=0 \\\\ (x-3)^{2}+(y-1)^{2}=9\\end{array}\\right.$, 消去 $y$, 得到方程 $2 x^{2}+(2 a-8) x^{2} a^{2}-2 a+1=0$, 由已\n\n知可得判别式 $\\triangle=56-16 a-4 a^{2}>0$.\n\n在此条件下利用根与系数的关系得到 $x_{1}+x_{2}=4-a, x_{1} x_{2}=\\frac{a^{2}-2 a+1}{2}$ (1),\n\n由于 $O A \\perp O B$ 可得 $x_{1} x_{2}+y_{1 y 2}=0$, 又 $y_{1}=x_{1}+a, y_{2}=x_{2}+a$, 所以可得 $2 x_{1} x_{2}+a\\left(x_{1}+x_{2}\\right)$\n\n$+a^{2}=0(2$\n\n由(1)(2)可得 $a=-1$, 满足 $\\triangle=56-16 a-4 a^{2}>0$. 故 $a=-1$.\n",
+      "solution": "（I）法一：写出曲线与坐标轴的交点坐标, 利用圆心的几何特征设出 圆心坐标, 构造关于圆心坐标的方程, 通过解方程确定出圆心坐标, 进而算 出半径,写出圆的方程;\n\n法二可设出圆的一般式方程, 利用曲线与方程的对应关系, 根据同一性直接求 出参数， (II ) 利用设而不求思想设出圆 $C$ 与直线 $x-y+a=0$ 的交点 $A, B$ 坐标, 通过 $O A \\perp$ $\\mathrm{OB}$ 建立坐标之间的关系, 结合韦达定理寻找关于 $\\mathrm{a}$ 的方程, 通过解方程确定 出 a 的值.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 12.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "21. （12 分) 已知函数 $f(x)=\\frac{a \\ln x}{x+1}+\\frac{b}{x}$, 曲线 $y=f(x)$ 在点 $(1, f(1))$ 处的 切线方程为 $x+2 y-3=0$.\n\n(I) 求 $a 、 b$ 的值;\n\n（II) 证明: 当 $x>0$, 且 $x \\neq 1$ 时, $f(x)>\\frac{\\ln x}{x-1}$.\n",
+      "answer": "解: (1) $f^{\\prime}(x)=\\frac{a\\left(\\frac{x+1}{x}-\\ln x\\right)}{(x+1)^{2}}-\\frac{b}{x^{2}}$.\n\n由于直线 $x+2 y-3=0$ 的斜率为 $-\\frac{1}{2}$, 且过点 $(1,1)$ 所以 $\\left\\{\\begin{array}{l}b=1 \\\\ \\frac{a}{2}-b\\end{array}=-\\frac{1}{2}\\right.$\n\n解得 $a=1, b=1$\n\n(II) 由 (I) 知 $f(x)=\\frac{\\ln x}{x+1}+\\frac{1}{x}$\n\n所以 $f(x)-\\frac{\\ln x}{x-1}=\\frac{1}{1-x^{2}}\\left(2 \\ln x-\\frac{x^{2}-1}{x}\\right)$\n\n考虑函数 $h(x)=2 \\ln x-\\frac{x^{2}-1}{x}(x>0)$,\n\n则 $h^{\\prime}(x)=\\frac{2}{x}-\\frac{2 x^{2}-\\left(x^{2}-1\\right)}{x^{2}}=-\\frac{(x-1)^{2}}{x^{2}}$\n\n所以当 $x \\neq 1$ 时, $h^{\\prime}(x)<0$ 而 $h(1)=0$,\n\n当 $x \\in(0,1)$ 时, $h(x)>0$ 可得 $\\frac{1}{1-x^{2}} h(x)>0$;\n\n当 $x \\in(1,+\\infty)$ 时, $h(x)<0$, 可得 $1 \\frac{1-x^{2}}{} h(x)>0$\n\n从而当 $x>0$ 且 $x \\neq 1$ 时,\n\n$f(x)-\\frac{\\ln x}{x-1}>0$ 即 $f(x)>\\frac{\\ln x}{x-1}$\n",
+      "solution": "（1）据切点在切线上, 求出切点坐标; 求出导函数; 利用导函数在切 点处的值为切线的斜率及切点在曲线上, 列出方程组, 求出 $a, b$ 的值.\n\n（II) 构造新函数, 求出导函数, 通过研究导函数的符号判断出函数的单调性, 求出函数的最值, 证得不等式.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "导数",
+        "不等式",
+        "导数应用"
+      ],
+      "difficulty": 3,
+      "score": 12.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "导数是高考核心考点，重点考查利用导数研究函数的单调性、极值、最值。教学中要强调求导法则和导数的几何意义。 不等式是高考重点，重点考查均值不等式的应用。教学中要强调'一正二定三相等'的使用条件。 导数应用是高考重点，重点考查切线方程、函数极值和最值。教学中要强调导数的几何意义。",
+      "common_mistakes": "1. 求导错误；2. 不会用导数符号判断单调性；3. 极值和最值混淆；1. 忽略均值不等式的使用条件；2. 不会配凑系数；3. 等号成立条件判断错误；1. 求导错误；2. 切线方程公式记错"
+    },
+    {
+      "question_text": "23. 在直角坐标系 $x O y$ 中, 曲线 $C_{1}$ 的参数方程为 $\\left\\{\\begin{array}{l}x=2 \\cos \\alpha \\\\ y=2+2 \\sin \\alpha\\end{array}\\right.$ ( $\\alpha$ 为参数) $M$ 是 $\\mathrm{C}_{1}$ 上的动点, $\\mathrm{P}$ 点满足 $\\overrightarrow{\\mathrm{OP}}=2 \\overrightarrow{\\mathrm{OM}}, \\mathrm{P}$ 点的轨迹为曲线 $\\mathrm{C}_{2}$\n\n(I) 求 $\\mathrm{C}_{2}$ 的方程;\n\n(II ) 在以 $O$ 为极点, $x$ 轴的正半轴为极轴的极坐标系中, 射线 $\\theta=\\frac{\\pi}{3}$ 与 $C_{1}$ 的异 于极点的交点为 $A$, 与 $C_{2}$ 的异于极点的交点为 $B$, 求 $|A B|$.\n",
+      "answer": "解: (1) 设 $P(x, y)$, 则由条件知 $M\\left(\\frac{x}{2}, \\frac{y}{2}\\right)$. 由于 $M$ 点在 $C_{1}$ 上, 所以 $\\left\\{\\begin{array}{l}\\frac{x}{2}=2 \\cos \\alpha \\\\ \\frac{y}{2}=2+2 \\sin \\alpha\\end{array}\\right.$ 即 $\\left\\{\\begin{array}{l}x=4 \\cos \\alpha \\\\ y=4+4 \\sin \\alpha\\end{array}\\right.$\n\n从而 $C_{2}$ 的参数方程为\n\n$\\left\\{\\begin{array}{l}x=4 \\cos \\alpha \\\\ y=4+4 \\sin \\alpha\\end{array} \\quad(\\alpha\\right.$ 为参数)\n\n(II) 曲线 $C_{1}$ 的极坐标方程为 $\\rho=4 \\sin \\theta$, 曲线 $C_{2}$ 的极坐标方程为 $\\rho=8 \\sin \\theta$.\n\n射线 $\\theta=\\frac{\\pi}{3}$ 与 $C_{1}$ 的交点 $A$ 的极径为 $\\rho_{1}=4 \\sin \\frac{\\pi}{3}$,\n\n射线 $\\theta=\\frac{\\pi}{3}$ 与 $C_{2}$ 的交点 $B$ 的极径为 $\\rho_{2}=8 \\sin \\frac{\\pi}{3}$.\n\n所以 $|A B|=\\left|\\rho_{2}-\\rho_{1}\\right|=2 \\sqrt{3}$.\n",
+      "solution": "（1）先设出点 $P$ 的坐标, 然后根据点 $P$ 满足的条件代入曲线 $C_{1}$ 的方程 即可求出曲线 $C_{2}$ 的方程;\n\n(II) 根据 (I) 将求出曲线 $C_{1}$ 的极坐标方程, 分别求出射线 $\\theta=\\frac{\\pi}{3}$ 与 $C_{1}$ 的交点 $A$ 的极径为 $\\rho_{1}$, 以及射线 $\\theta=\\frac{\\pi}{3}$ 与 $C_{2}$ 的交点 $B$ 的极径为 $\\rho_{2}$, 最后根据 $|A B|=\\left|\\rho_{2}-\\rho_{1}\\right|$ 求出所求.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 10.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "24. 设函数 $f(x)=|x-a|+3 x$, 其中 $a>0$.\n\n(I) 当 $a=1$ 时, 求不等式 $f(x) \\geqslant 3 x+2$ 的解集\n\n(II ) 若不等式 $f(x) \\leqslant 0$ 的解集为 $\\{x \\mid x \\leqslant-1\\}$, 求 $a$ 的值.\n",
+      "answer": "解: ( I ) 当 $a=1$ 时, $f(x) \\geqslant 3 x+2$ 可化为 $|x-1| \\geqslant 2$\n\n由此可得 $x \\geqslant 3$ 或 $x \\leqslant-1$.\n\n故不等式 $f(x) \\geqslant 3 x+2$ 的解集为\n\n$\\{x \\mid x \\geqslant 3$ 或 $x \\leqslant-1\\}$.\n\n(II ) 由 $f(x) \\leqslant 0$ 得\n\n$|x-a|+3 x \\leqslant 0$\n\n此不等式化为不等式组\n\n$\\left\\{\\begin{array}{l}x \\geqslant a \\\\ x-a+3 x \\leqslant 0\\end{array}\\right.$ 或 $\\left\\{\\begin{array}{l}x \\leqslant a \\\\ a-x+3 x \\leqslant 0\\end{array}\\right.$\n\n即 $\\left\\{\\begin{array}{l}x \\geqslant a \\\\ x \\leqslant \\frac{a}{4}\\end{array}\\right.$ 或 $\\left\\{\\begin{array}{l}x \\leqslant a \\\\ x \\leqslant-\\frac{a}{2}\\end{array}\\right.$\n\n因为 $a>0$, 所以不等式组的解集为 $\\left\\{x \\mid x \\leqslant-\\frac{a}{2}\\right\\}$\n\n由题设可得 $-\\frac{a}{2}=-1$, 故 $a=2$\n",
+      "solution": "(I) 当 $a=1$ 时, $f(x) \\geqslant 3 x+2$ 可化为 $|x-1| \\geqslant 2$. 直接求出不等式 $f($ $x) \\geqslant 3 x+2$ 的解集即可.\n\n(II) 由 $f(x) \\leqslant 0$ 得 $|x-a|+3 x \\leqslant 0$ 分 $x \\geqslant a$ 和 $x \\leqslant a$ 推出等价不等式组, 分别求 解, 然后求出 $a$ 的值.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2011,
+      "region": "（新课标）",
+      "knowledge_points": [
+        "不等式"
+      ],
+      "difficulty": 3,
+      "score": 10.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "不等式是高考重点，重点考查均值不等式的应用。教学中要强调'一正二定三相等'的使用条件。",
+      "common_mistakes": "1. 忽略均值不等式的使用条件；2. 不会配凑系数；3. 等号成立条件判断错误"
+    }
+  ]
+}

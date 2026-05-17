@@ -93,4 +93,36 @@ export const classAPI = {
   },
 }
 
+export const questionBankAPI = {
+  getList: async (params = {}) => {
+    const response = await api.get('/questionbank/list', { params })
+    return response.data
+  },
+  
+  getById: async (questionId) => {
+    const response = await api.get(`/questionbank/${questionId}`)
+    return response.data
+  },
+  
+  search: async (keyword, subject, educationLevel, limit = 10) => {
+    const formData = new FormData()
+    formData.append('keyword', keyword)
+    if (subject) formData.append('subject', subject)
+    if (educationLevel) formData.append('education_level', educationLevel)
+    formData.append('limit', limit)
+    
+    const response = await api.post('/questionbank/search', formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+    })
+    return response.data
+  },
+  
+  getStats: async () => {
+    const response = await api.get('/questionbank/stats')
+    return response.data
+  },
+}
+
 export default api
