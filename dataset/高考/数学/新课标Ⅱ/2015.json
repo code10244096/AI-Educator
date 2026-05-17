@@ -1,0 +1,484 @@
+{
+  "year": 2015,
+  "region": "新课标Ⅱ",
+  "total_questions": 25,
+  "questions": [
+    {
+      "question_text": "1. （5 分）已知集合 $\\mathrm{A}=\\{-2,-1,0,1,2\\}, B=\\{x \\mid(x-1)(x+2)<0\\}$, 则 $A \\cap B=(\\quad)$\nA. $\\{-1,0\\}$\nB. $\\{0,1\\}$\nC. $\\{-1,0,1\\}$\nD. $\\{0,1,2\\}$\n",
+      "answer": "A",
+      "solution": "解: $\\mathrm{B}=\\{x \\mid-2<x<1\\}, \\mathrm{A}=\\{-2,-1,0,1,2\\}$;\n\n$\\therefore A \\cap B=\\{-1,0\\}$.\n\n故选: A.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "集合"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "集合是高考基础考点，重点考查集合间的关系和运算。教学中要强调集合元素的确定性、互异性、无序性。",
+      "common_mistakes": "1. 忽略集合为空集的情况；2. 不理解集合关系的等价条件"
+    },
+    {
+      "question_text": "2. (5 分) 若 $a$ 为实数, 且 $(2+a i)(a-2 i)=-4 i$, 则 $a=(\\quad)$\nA. -1\nB. 0\nC. 1\nD. 2\n",
+      "answer": "B",
+      "solution": "解：因为 $(2+a i)(a-2 i)=-4 i$, 所以 $4 a+\\left(a^{2}-4\\right) i=-4 i$,\n\n$4 a=0$, 并且 $a^{2}-4=-4$,\n\n所以 $a=0$; 故选：B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "4. (5 分) 已知等比数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=3, a_{1}+a_{3}+a_{5}=21$, 则 $a_{3}+a_{5}+a_{7}=(\\quad)$\nA. 21\nB. 42\nC. 63\nD. 84\n",
+      "answer": "B",
+      "solution": "解: $\\because a_{1}=3, a_{1}+a_{3}+a_{5}=21$,\n\n$\\therefore a_{1}\\left(1+q^{2}+q^{4}\\right)=21$\n\n$\\therefore q^{4}+q^{2}+1=7$\n\n$\\therefore q^{4}+q^{2}-6=0$\n\n$\\therefore q^{2}=2$\n\n$\\therefore a_{3}+a_{5}+a_{7}=a_{1}\\left(q^{2}+q^{4}+q^{6}\\right)=3 \\times(2+4+8)=42$.\n\n故选: B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "数列"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "数列是高考必考内容，重点考查等差数列、等比数列的通项公式和前n项和。教学中要强调公式的推导和应用。",
+      "common_mistakes": "1. 公式记错；2. 不会列方程求公差/公比；3. 求和公式使用错误"
+    },
+    {
+      "question_text": "5. (5 分) 设函数 $f(x)=\\left\\{\\begin{array}{ll}1+\\log _{2}(2-x), & x<1 \\\\ 2^{x-1}, & x \\geqslant 1\\end{array}\\right.$, 则 $f(-2)+f\\left(\\log _{2} 12\\right)=($ )\nA. 3\nB. 6\nC. 9\nD. 12\n",
+      "answer": "C",
+      "solution": "解：函数 $f(x)=\\left\\{\\begin{array}{l}1+\\log _{2}(2-x), x<1 \\\\ 2^{x-1}, x \\geqslant 1\\end{array}\\right.$,\n\n即有 $f(-2)=1+\\log _{2}(2+2)=1+2=3$,\n\n$f\\left(\\log _{2} 12\\right)=2^{\\log _{2} 12-1}=2 \\log _{2} 12 \\times \\frac{1}{2}=12 \\times \\frac{1}{2}=6$\n\n则有 $f(-2)+f\\left(\\log _{2} 12\\right)=3+6=9$.\n\n故选: C.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "7. (5 分) 过三点 $A(1,3), B(4,2), C(1,-7)$ 的圆交 $y$ 轴于 $M, N$ 两点, 则 $|\\mathrm{MN}|=(\\quad)$\nA. $2 \\sqrt{6}$\nB. 8\nC. $4 \\sqrt{6}$\nD. 10\n",
+      "answer": "C",
+      "solution": "解: 设圆的方程为 $x^{2}+y^{2}+D x+E y+F=0$, 则 $\\left\\{\\begin{array}{l}1+9+D+3 E+F=0 \\\\ 16+4+4 D+2 E+F=0 \\\\ 1+49+D-7 E+F=0\\end{array}\\right.$,\n\n$\\therefore D=-2, E=4, F=-20$,\n\n$\\therefore x^{2}+y^{2}-2 x+4 y-20=0$,\n\n令 $x=0$, 可得 $y^{2}+4 y-20=0$,\n\n$\\therefore y=-2 \\pm 2 \\sqrt{6}$,\n\n$\\therefore|\\mathrm{MN}|=4 \\sqrt{6}$.\n\n故选: C.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "11. (5 分) 已知 $A, B$ 为双曲线 $E$ 的左, 右顶点, 点 $M$ 在 $E$ 上, $\\triangle A B M$ 为等\n\n![](https://cdn.mathpix.com/cropped/2023_03_10_1a03c2ddb3e246a8fd16g-03.jpg?height=60&width=914&top_left_y=1262&top_left_x=357)\nA. $\\sqrt{5}$\nB. 2\nC. $\\sqrt{3}$\nD. $\\sqrt{2}$\n",
+      "answer": "D",
+      "solution": "解: 设 $M$ 在双曲线 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ 的左支上,\n\n且 $M A=A B=2 a, \\angle M A B=120^{\\circ}$,\n\n则 $M$ 的坐标为 $(-2 a, \\sqrt{3} a)$,\n\n代入双曲线方程可得, $\\frac{4 a^{2}}{a^{2}}-\\frac{3 a^{2}}{b^{2}}=1$\n\n可得 $a=b$,\n\n$c=\\sqrt{a^{2}+b^{2}}=\\sqrt{2} a$\n\n即有 $\\mathrm{e}=\\frac{\\mathrm{c}}{\\mathrm{a}}=\\sqrt{2}$.\n\n故选: D.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "解析几何"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "解析几何是高考难点，重点考查椭圆、双曲线、抛物线的定义、标准方程和性质。教学中要强调数形结合思想。",
+      "common_mistakes": "1. 离心率公式记错；2. 不会利用点在曲线上列方程；3. 计算错误"
+    },
+    {
+      "question_text": "1. （5 分）已知集合 $A=\\{x \\mid-1<x<2\\}, B=\\{x \\mid 0<x<3\\}$, 则 $A \\cup B=(\\quad)$\nA. $(-1,3)$\nB. $(-1,0)$\nC. $(0,2)$\nD. $(2,3)$\n",
+      "answer": "A",
+      "solution": "解: $\\because A=\\{x \\mid-1<x<2\\}, B=\\{x \\mid 0<x<3\\}$,\n\n$\\therefore A \\cup B=\\{x \\mid-1<x<3\\}$\n\n故选：A.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "集合"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "集合是高考基础考点，重点考查集合间的关系和运算。教学中要强调集合元素的确定性、互异性、无序性。",
+      "common_mistakes": "1. 忽略集合为空集的情况；2. 不理解集合关系的等价条件"
+    },
+    {
+      "question_text": "2. (5 分) 若为 $a$ 实数, 且 $\\frac{2+a i}{1+i}=3+i$, 则 $a=(\\quad)$\nA. -4\nB. -3\nC. 3\nD. 4\n",
+      "answer": "D",
+      "solution": "解：由 $\\frac{2+a i}{1+i}=3+i$, 得 $2+a i=(1+i) \\quad(3+i)=2+4 i$,\n\n则 $a=4$,\n\n故选: D.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "4. (5 分) $\\vec{a}=(1,-1), \\vec{b}=(-1,2)$ 则 $(2 \\vec{a}+\\vec{b}) \\cdot \\vec{a}=(\\quad)$\nA. -1\nB. 0\nC. 1\nD. 2\n",
+      "answer": "C",
+      "solution": "解: 因为 $\\vec{a}=(1,-1), \\vec{b}=(-1,2)$ 则 $(2 \\vec{a}+\\vec{b}) \\cdot \\vec{a}=(1,0) \\cdot(1$, - 1) $=1$\n\n故选: C.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "5. (5 分) 已知 $S_{n}$ 是等差数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和, 若 $a_{1}+a_{3}+a_{5}=3$, 则 $S_{5}=(\\quad)$\nA. 5\nB. 7\nC. 9\nD. 11\n",
+      "answer": "A",
+      "solution": "解: 由等差数列 $\\left\\{a_{n}\\right\\}$ 的性质, $a_{1}+a_{3}+a_{5}=3=3 a_{3}$, 解得 $a_{3}=1$.\n\n则 $S_{5}=\\frac{5\\left(a_{1}+a_{5}\\right)}{2}=5 a_{3}=5$.\n\n故选: A.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "数列"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "数列是高考必考内容，重点考查等差数列、等比数列的通项公式和前n项和。教学中要强调公式的推导和应用。",
+      "common_mistakes": "1. 公式记错；2. 不会列方程求公差/公比；3. 求和公式使用错误"
+    },
+    {
+      "question_text": "7. (5 分) 已知三点 $A(1,0), B(0, \\sqrt{3}), C(2, \\sqrt{3})$ 则 $\\triangle A B C$ 外接圆的 圆心到原点的距离为 ( )\nA. $\\frac{5}{3}$\nB. $\\frac{\\sqrt{21}}{3}$\nC. $\\frac{2 \\sqrt{5}}{3}$\nD. $\\frac{4}{3}$\n",
+      "answer": "B",
+      "solution": "解: 因为 $\\triangle A B C$ 外接圆的圆心在直线 $B C$ 垂直平分线上, 即直线 $x=1$ 上, 可设圆心 $P(1, p)$, 由 $P A=P B$ 得\n\n$|\\mathrm{p}|=\\sqrt{1+(\\mathrm{p}-\\sqrt{3})^{2}}$\n\n得 $p=\\frac{2 \\sqrt{3}}{3}$\n\n圆心坐标为 $P\\left(1, \\frac{2 \\sqrt{3}}{3}\\right)$,\n\n所以圆心到原点的距离 $|O P|=\\sqrt{1+\\left(\\frac{2 \\sqrt{3}}{3}\\right)^{2}}=\\sqrt{1+\\frac{12}{9}}=\\frac{\\sqrt{21}}{3}$,\n\n故选: B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "9. (5 分) 已知等比数列 $\\left\\{a_{n}\\right\\}$ 满足 $\\left.a_{1}=\\frac{1}{4}, a_{3} a_{5}=4 （ a_{4}-1\\right)$, 则 $a_{2}=(\\quad)$\nA. 2\nB. 1\nC. $\\frac{1}{2}$\nD. $\\frac{1}{8}$\n",
+      "answer": "C",
+      "solution": "解: 设等比数列 $\\left\\{a_{n}\\right\\}$ 的公比为 $q$,\n\n$\\because a_{1}=\\frac{1}{4}, a_{3} a_{5}=4\\left(a_{4}-1\\right)$,\n\n$\\therefore\\left(\\frac{1}{4}\\right)^{2} \\times q^{6}=4\\left(\\frac{1}{4} q^{3}-1\\right)$,\n\n化为 $q^{3}=8$, 解得 $q=2$\n\n则 $a_{2}=\\frac{1}{4} \\times 2=\\frac{1}{2}$.\n\n故选: C.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "数列"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "数列是高考必考内容，重点考查等差数列、等比数列的通项公式和前n项和。教学中要强调公式的推导和应用。",
+      "common_mistakes": "1. 公式记错；2. 不会列方程求公差/公比；3. 求和公式使用错误"
+    },
+    {
+      "question_text": "12. (5 分) 设函数 $f(x)=\\ln (1+|x|)-\\frac{1}{1+x^{2}}$, 则使得 $f(x)>f(2 x-1)$ 成 立的 $\\mathrm{x}$ 的取值范围是 ( $)$\nA. $\\left(-\\infty, \\frac{1}{3}\\right) \\cup(1,+\\infty)$\nB. $\\left(\\frac{1}{3}, 1\\right)$\nC. $\\left(-\\frac{1}{3}, \\frac{1}{3}\\right)$\nD. $\\left(-\\infty,-\\frac{1}{3},\\right) \\cup\\left(\\frac{1}{3},+\\infty\\right)$\n",
+      "answer": "B",
+      "solution": "解: $\\because$ 函数 $\\mathrm{f}(\\mathrm{x})=\\ln (1+|\\mathrm{x}|)-\\frac{1}{1+\\mathrm{x}^{2}}$ 为偶函数,\n\n且在 $x \\geqslant 0$ 时, $f(x)=\\ln (1+x)-\\frac{1}{1+x^{2}}$,\n\n导数为 $f^{\\prime}(x)=\\frac{1}{1+x}+\\frac{2 x}{\\left(1+x^{2}\\right)^{2}}>0$,\n\n即有函数 $f(x)$ 在 $[0,+\\infty)$ 单调递增,\n\n$\\therefore f(x)>f(2 x-1)$ 等价为 $f(|x|)>f(|2 x-1|)$,\n\n即 $|x|>|2 x-1|$,\n\n平方得 $3 x^{2}-4 x+1<0$,\n\n解得: $\\frac{1}{3}<x<1$,\n\n所求 $x$ 的取值范围是 $\\left(\\frac{1}{3}, 1\\right)$.\n\n故选: B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "导数",
+        "函数性质"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "导数是高考核心考点，重点考查利用导数研究函数的单调性、极值、最值。教学中要强调求导法则和导数的几何意义。 函数性质是高考重点，重点考查函数的奇偶性、单调性、周期性。教学中要强调函数图像与性质的关系。",
+      "common_mistakes": "1. 求导错误；2. 不会用导数符号判断单调性；3. 极值和最值混淆；1. 奇偶性判断错误；2. 忽略定义域"
+    },
+    {
+      "question_text": "13. (5 分) 设向量 $\\vec{a}, \\vec{b}$ 不平行, 向量 $\\lambda \\vec{a}+\\vec{b}$ 与 $\\vec{a}+2 \\vec{b}$ 平行, 则实数 $\\lambda=$\n",
+      "answer": "$\\frac{1}{2}$\n",
+      "solution": "解: $\\because$ 向量 $\\vec{a}, \\vec{b}$ 不平行, 向量 $\\lambda \\vec{a}+\\vec{b}$ 与 $\\vec{a}+2 \\vec{b}$ 平行,\n\n$\\therefore \\lambda \\vec{a}+\\vec{b}=t(\\vec{a}+2 \\vec{b})=t \\vec{a}+2 t \\vec{b}$, $\\therefore\\left\\{\\begin{array}{c}\\lambda=\\mathrm{t} \\\\ 1=2 \\mathrm{t}\\end{array}\\right.$, 解得实数 $\\lambda=\\frac{1}{2}$.\n\n故答案为: $\\frac{1}{2}$.\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "向量"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "向量是高考基础考点，重点考查向量的坐标运算和数量积。教学中要强调向量垂直的充要条件。",
+      "common_mistakes": "1. 数量积公式记错；2. 计算错误"
+    },
+    {
+      "question_text": "15. (5 分) $(a+x)(1+x)^{4}$ 的展开式中 $x$ 的奇数次幂项的系数之和为 32 , 则 $a=$\n",
+      "answer": "3\n",
+      "solution": "解：设 $f(x)=(a+x)(1+x)^{4}=a_{0}+a_{1} x+a_{2} x^{2}+\\ldots+a_{5} x^{5}$,\n\n令 $x=1$, 则 $a_{0}+a_{1}+a_{2}+\\ldots+a_{5}=f(1 ）=16(a+1)$, (1)\n\n令 $x=-1$, 则 $a_{0}-a_{1}+a_{2}-\\ldots-a_{5}=f(-1)=0$. (2)\n\n(1)- (2)得, 2 $\\left(a_{1}+a_{3}+a_{5}\\right)=16(a+1)$,\n\n所以 $2 \\times 32=16(a+1)$,\n\n所以 $a=3$.\n\n故答案为: 3 .\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "16. (5 分) 设数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 且 $a_{1}=-1, a_{n+1}=S_{n+1} S_{n}$, 则 $S_{n}=$\n",
+      "answer": "$-\\frac{1}{n}$\n",
+      "solution": "解: $\\because a_{n+1}=S_{n+1} s_{n}$,\n\n$\\therefore \\mathrm{s}_{\\mathrm{n}+1}-\\mathrm{S}_{\\mathrm{n}}=\\mathrm{S}_{\\mathrm{n}+1} \\mathrm{~S}_{\\mathrm{n}}$,\n\n$\\therefore \\frac{1}{S_{n}}-\\frac{1}{S_{n+1}}=1$,\n\n又 $\\because a_{1}=-1$, 即 $\\frac{1}{S_{1}}=-1$,\n\n$\\therefore$ 数列 $\\left\\{\\frac{1}{S_{n}}\\right\\}$ 是以首项是- 1 、公差为- 1 的等差数列,\n\n$\\therefore \\frac{1}{S_{n}}=-\\mathrm{n}$,\n\n$\\therefore S_{n}=-\\frac{1}{n}$,\n\n故答案为: $-\\frac{1}{n}$.\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "数列"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "数列是高考必考内容，重点考查等差数列、等比数列的通项公式和前n项和。教学中要强调公式的推导和应用。",
+      "common_mistakes": "1. 公式记错；2. 不会列方程求公差/公比；3. 求和公式使用错误"
+    },
+    {
+      "question_text": "13. (3 分) 已知函数 $f(x)=a x^{3}-2 x$ 的图象过点 $(-1,4)$ 则 $a=$\n",
+      "answer": "-2\n",
+      "solution": "解： 根据条件得: $4=-\\mathrm{a}+2$;\n\n$\\therefore a=-2$.\n\n故答案为: -2 .\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 3.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "15. (3 分) 已知双曲线过点 $(4, \\sqrt{3})$ 且渐近线方程为 $y= \\pm \\frac{1}{2} x$, 则该双曲线的 标准方程是\n",
+      "answer": "$\\frac{1}{4} x^{2}-y^{2}=1$\n",
+      "solution": "解：设双曲线方程为 $y^{2}-\\frac{1}{4} x^{2}=\\lambda$,\n\n代入点 $(4, \\sqrt{3})$, 可得 $3-\\frac{1}{4} \\times 16=\\lambda$,\n\n$\\therefore \\lambda=-1$\n\n$\\therefore$ 双曲线的标准方程是 $\\frac{1}{4} x^{2}-y^{2}=1$.\n\n故答案为: $\\frac{1}{4} x^{2}-y^{2}=1$.\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "解析几何"
+      ],
+      "difficulty": 3,
+      "score": 3.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "解析几何是高考难点，重点考查椭圆、双曲线、抛物线的定义、标准方程和性质。教学中要强调数形结合思想。",
+      "common_mistakes": "1. 离心率公式记错；2. 不会利用点在曲线上列方程；3. 计算错误"
+    },
+    {
+      "question_text": "16. （3 分）已知曲线 $y=x+\\ln x$ 在点 $\\left(1,1 ）\\right.$ 处的切线与曲线 $y=a x^{2}+(a+2) x+1$ 相切，则 $a=$\n",
+      "answer": "8\n",
+      "solution": "解: $y=x+\\ln x$ 的导数为 $y^{\\prime}=1+\\frac{1}{x}$,\n\n曲线 $y=x+\\ln x$ 在 $x=1$ 处的切线斜率为 $k=2$,\n\n则曲线 $y=x+\\ln x$ 在 $x=1$ 处的切线方程为 $y-1=2 x-2$, 即 $y=2 x-1$.\n\n由于切线与曲线 $y=a x^{2}+(a+2) x+1$ 相切,\n\n故 $y=a x^{2}+(a+2) x+1$ 可联立 $y=2 x-1$,\n\n得 $a x^{2}+a x+2=0$,\n\n又 $a \\neq 0$, 两线相切有一切点,\n\n所以有 $\\triangle=\\mathrm{a}^{2}-8 a=0$,\n\n解得 $a=8$.\n\n故答案为: 8 .\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "导数",
+        "导数应用"
+      ],
+      "difficulty": 3,
+      "score": 3.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "导数是高考核心考点，重点考查利用导数研究函数的单调性、极值、最值。教学中要强调求导法则和导数的几何意义。 导数应用是高考重点，重点考查切线方程、函数极值和最值。教学中要强调导数的几何意义。",
+      "common_mistakes": "1. 求导错误；2. 不会用导数符号判断单调性；3. 极值和最值混淆；1. 求导错误；2. 切线方程公式记错"
+    },
+    {
+      "question_text": "23. 在直角坐标系 $x O y$ 中, 曲线 $C_{1}:\\left\\{\\begin{array}{l}x=t \\cos \\alpha \\\\ y=t \\sin \\alpha\\end{array}\\right.$ ( $t$ 为参数, $\\left.t \\neq 0\\right)$, 其中 $0 \\leqslant \\alpha$ $\\leqslant \\pi$, 在以 $O$ 为极点, $x$ 轴正半轴为极轴的极坐标系中, 曲线 $C_{2}: \\rho=2 \\sin \\theta, C_{3}$ $: \\rho=2 \\sqrt{3} \\cos \\theta$\n\n(1) 求 $C_{2}$ 与 $C_{3}$ 交点的直角坐标; (2) 若 $C_{1}$ 与 $C_{2}$ 相交于点 $A, C_{1}$ 与 $C_{3}$ 相交于点 $B$, 求 $|A B|$ 的最大值.\n",
+      "answer": "解: (1) 由曲线 $C_{2}: \\rho=2 \\sin \\theta$, 化为 $\\rho^{2}=2 \\rho \\sin \\theta$,\n\n$\\therefore x^{2}+y^{2}=2 y$.\n\n同理由 $C_{3}: \\rho=2 \\sqrt{3} \\cos \\theta$. 可得直角坐标方程: $x^{2}+y^{2}=2 \\sqrt{3} x$, 联立 $\\left\\{\\begin{array}{l}x^{2}+y^{2}-2 y=0 \\\\ x^{2}+y^{2}-2 \\sqrt{3} x=0\\end{array}\\right.$,\n\n解得 $\\left\\{\\begin{array}{l}x=0 \\\\ y=0\\end{array},\\left\\{\\begin{array}{l}x=\\frac{\\sqrt{3}}{2} \\\\ y=\\frac{3}{2}\\end{array}\\right.\\right.$,\n\n$\\therefore C_{2}$ 与 $C_{3}$ 交点的直角坐标为 $(0,0),\\left(\\frac{\\sqrt{3}}{2}, \\frac{3}{2}\\right)$.\n\n(2) 曲线 $C_{1}:\\left\\{\\begin{array}{l}x=t \\cos \\alpha \\\\ y=t \\sin \\alpha\\end{array}\\right.$ ( $t$ 为参数, $\\left.t \\neq 0\\right)$, 化为普通方程: $y=x \\tan \\alpha$, 其中 0 $\\leqslant \\alpha \\leqslant \\pi, \\alpha \\neq \\frac{\\pi}{2} ; \\alpha=\\frac{\\pi}{2}$ 时, 为 $x=0(y \\neq 0)$. 其极坐标方程为: $\\theta=\\alpha(\\rho \\in R$, $\\rho \\neq 0)$\n\n$\\because A, B$ 都在 $C_{1}$ 上,\n\n$\\therefore A(2 \\sin \\alpha, \\alpha), B(2 \\sqrt{3} \\cos \\alpha, \\alpha)$.\n\n$\\therefore|A B|=|2 \\sin \\alpha-2 \\sqrt{3} \\cos \\alpha|=4\\left|\\sin \\left(\\alpha-\\frac{\\pi}{3}\\right)\\right|$,\n\n当 $\\alpha=\\frac{5 \\pi}{6}$ 时, $|A B|$ 取得最大值 4 .\n",
+      "solution": "(1) 由曲线 $C_{2}: \\rho=2 \\sin \\theta$, 化为 $\\rho^{2}=2 \\rho \\sin \\theta$, 把 $\\left\\{\\begin{array}{c}\\rho^{2}=x^{2}+y^{2} \\\\ y=\\rho \\sin \\theta\\end{array}\\right.$ 代入可得直 角坐标方程. 同理由 $C_{3}: \\rho=2 \\sqrt{3} \\cos \\theta$. 可得直角坐标方程, 联立解出可得 $C_{2}$ 与 $C_{3}$ 交点的直角坐标.\n\n(2) 由曲线 $C_{1}$ 的参数方程, 消去参数 $t$, 化为普通方程: $y=x \\tan \\alpha$, 其中 $0 \\leqslant \\alpha \\leqslant$ $\\pi, \\alpha \\neq \\frac{\\pi}{2} ; \\alpha=\\frac{\\pi}{2}$ 时, 为 $x=0(y \\neq 0)$. 其极坐标方程为: $\\theta=\\alpha(\\rho \\in R, \\rho \\neq 0)$ , 利用 $|A B|=\\mid 2 \\sin \\alpha-2 \\sqrt{3} \\cos \\alpha$ 即可得出.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 10.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "24. 设 $a, b, c, d$ 均为正数, 且 $a+b=c+d$, 证明:\n\n(1) 若 $a b>c d$, 则 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$;\n\n(2) $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$ 是 $|a-b|<|c-d|$ 的充要条件.\n",
+      "answer": "证明: (1) 由于 $(\\sqrt{a}+\\sqrt{b})^{2}=a+b+2 \\sqrt{a b}$, $(\\sqrt{c}+\\sqrt{d})^{2}=c+d+2 \\sqrt{c d}$,\n\n由 $a, b, c, d$ 均为正数, 且 $a+b=c+d, a b>c d$, 则 $\\sqrt{a b}>\\sqrt{c d}$,\n\n即有 $(\\sqrt{a}+\\sqrt{b})^{2}>(\\sqrt{c}+\\sqrt{d})^{2}$, 则 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$;\n\n(2) (1)若 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$, 则 $(\\sqrt{a}+\\sqrt{b})^{2}>(\\sqrt{c}+\\sqrt{d})^{2}$, 即为 $a+b+2 \\sqrt{a b}>c+d+2 \\sqrt{c d}$,\n\n由 $a+b=c+d$, 则 $a b>c d$,\n\n于是 $(a-b)^{2}=(a+b)^{2}-4 a b$,\n\n$(c-d)^{2}=(c+d)^{2}-4 c d$,\n\n即有 (a-b) ${ }^{2}<(c-d)^{2}$, 即为 $|a-b|<|c-d|$;\n\n(2)若 $|a-b|<|c-d|$, 则 (a- b ${ }^{2}<(c-d)^{2}$,\n\n即有 $(a+b)^{2}-4 a b<(c+d)^{2}-4 c d$,\n\n由 $a+b=c+d$, 则 $a b>c d$,\n\n则有 $(\\sqrt{a}+\\sqrt{b})^{2}>(\\sqrt{c}+\\sqrt{d})^{2}$.\n\n综上可得, $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$ 是 $|a-b|<|c-d|$ 的充要条件.\n",
+      "solution": "(1）运用不等式的性质, 结合条件 $a, b, c, d$ 均为正数, 且 $a+b=c+d$ , $a b>c d$, 即可得证;\n\n（2）从两方面证, (1)若 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$, 证得 $|a-b|<|c-d|$, (2)若 $|a-b|<$ $|c-d|$, 证得 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$, 注意运用不等式的性质, 即可得证.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "不等式"
+      ],
+      "difficulty": 3,
+      "score": 10.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "不等式是高考重点，重点考查均值不等式的应用。教学中要强调'一正二定三相等'的使用条件。",
+      "common_mistakes": "1. 忽略均值不等式的使用条件；2. 不会配凑系数；3. 等号成立条件判断错误"
+    },
+    {
+      "question_text": "20. 椭圆 $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1, \\quad(a>b>0)$ 的离心率 $\\frac{\\sqrt{2}}{2}$, 点 $(2, \\sqrt{2})$ 在 $C$ 上.\n\n(1) 求椭圆 C 的方程;\n\n(2) 直线 $I$ 不过原点 $O$ 且不平行于坐标轴, $I$ 与 $C$ 有两个交点 $A, B$, 线段 $A B$ 的 中点为 $M$. 证明: 直线 $O M$ 的斜率与 $\\mathrm{I}$ 的斜率的乘积为定值.\n",
+      "answer": "解： （1）椭圆 $\\mathrm{c}: \\frac{\\mathrm{x}^{2}}{\\mathrm{a}^{2}}+\\frac{y^{2}}{b^{2}}=1, \\quad\\left(a>b>0 ）\\right.$ 的离心率 $\\frac{\\sqrt{2}}{2}$, 点 $(2, \\sqrt{2})$ 在 $C$ 上, 可得 $\\frac{\\sqrt{a^{2}-b^{2}}}{a}=\\frac{\\sqrt{2}}{2}, \\frac{4}{a^{2}}+\\frac{2}{b^{2}}=1$, 解得 $a^{2}=8, b^{2}=4$, 所求椭圆 $C$ 方程 为: $\\frac{x^{2}}{8}+\\frac{y^{2}}{4}=1$.\n\n(2) 设直线 $1: y=k x+b,(k \\neq 0, b \\neq 0), A\\left(x_{1}, y_{1}\\right), B\\left(x_{2}, y_{2}\\right), M\\left(x_{M}\\right.$, $\\left.\\mathrm{y}_{\\mathrm{M}}\\right)$\n\n把直线 $y=k x+b$ 代入 $\\frac{x^{2}}{8}+\\frac{y^{2}}{4}=1$ 可得 $\\left(2 k^{2}+1\\right) x^{2}+4 k b x+2 b^{2}-8=0$,\n\n故 $\\mathrm{x}_{M}=\\frac{\\mathrm{x}_{1}+\\mathrm{x}_{2}}{2}=\\frac{-2 \\mathrm{~kb}}{2 \\mathrm{k}^{2}+1}, \\mathrm{y}_{M}=k \\mathrm{x}_{M}+b=\\frac{b}{2 k^{2}+1}$,\n\n于是在 $O M$ 的斜率为: $K_{O M}=\\frac{y_{M}}{x_{M}}=-\\frac{1}{2 k}$, 即 $K_{O M} \\bullet k=-\\frac{1}{2}$.\n\n$\\therefore$ 直线 OM 的斜率与 I 的斜率的乘积为定值.\n",
+      "solution": "（1）利用椭圆的离心率, 以及椭圆经过的点, 求解椭圆的几何量, 然 后得到椭圆的方程.\n\n(2) 设直线 $l: y=k x+b,(k \\neq 0, b \\neq 0), A\\left(x_{1}, y_{1}\\right), B\\left(x_{2}, y_{2}\\right), M\\left(x_{M}\\right.$, $y_{M}$ ), 联立直线方程与椭圆方程, 通过韦达定理求解 $K_{O M}$, 然后推出直线 $O M$ 的斜率与 $\\mathrm{I}$ 的斜率的乘积为定值.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "解析几何"
+      ],
+      "difficulty": 3,
+      "score": 12.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "解析几何是高考难点，重点考查椭圆、双曲线、抛物线的定义、标准方程和性质。教学中要强调数形结合思想。",
+      "common_mistakes": "1. 离心率公式记错；2. 不会利用点在曲线上列方程；3. 计算错误"
+    },
+    {
+      "question_text": "21. 设函数 $f(x)=\\ln x+a(1-x)$.\n\n(I) 讨论： $f(x)$ 的单调性;\n\n(II ) 当 $f(x)$ 有最大值, 且最大值大于 $2 a-2$ 时, 求 $a$ 的取值范围.\n",
+      "answer": "解: ( I ) $f(x)=\\ln x+a(1-x)$ 的定义域为 $(0,+\\infty)$,\n\n$\\therefore f^{\\prime}(x)=\\frac{1}{x}-a=\\frac{1-a x}{x}$,\n\n若 $\\mathrm{a} \\leqslant 0$, 则 $\\mathrm{f}^{\\prime}(\\mathrm{x})>0, \\therefore$ 函数 $\\mathrm{f}(\\mathrm{x})$ 在 $(0,+\\infty)$ 上单调递增,\n\n若 $a>0$, 则当 $x \\in\\left(0, \\frac{1}{a}\\right)$ 时, $f^{\\prime}(x)>0$, 当 $x \\in\\left(\\frac{1}{a},+\\infty\\right)$ 时, $f^{\\prime}(x)<0$,\n\n所以 $f(x)$ 在 $\\left(0, \\frac{1}{a}\\right)$ 上单调递增, 在 $\\left(\\frac{1}{a},+\\infty\\right)$ 上单调递减,\n\n(II), 由 (I) 知, 当 $a \\leqslant 0$ 时, $f(x)$ 在 $(0,+\\infty)$ 上无最大值; 当 $a>0$ 时\n\n, $f(x)$ 在 $x=\\frac{1}{a}$ 取得最大值, 最大值为 $f\\left(\\frac{1}{a}\\right)=-$ Ina+a- 1 ,\n\n$\\because f\\left(\\frac{1}{a}\\right)>2 a-2$,\n\n$\\therefore \\ln a+a-1<0$,\n\n令 $g(a)=\\ln a+a-1$,\n\n$\\because g(a)$ 在 $(0,+\\infty)$ 单调递增, g $(1)=0$,\n\n$\\therefore$ 当 $0<a<1$ 时, $g(a)<0$,\n\n当 $a>1$ 时, $g$ (a) $>0$,\n\n$\\therefore a$ 的取值范围为 $(0,1)$.\n",
+      "solution": "（II ）先求导, 再分类讨论, 根据导数即可判断函数的单调性;\n\n（2）先求出函数的最大值, 再构造函数（a）=Ina+a-1, 根据函数的单调性即 可求出 $\\mathrm{a}$ 的范围.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "导数"
+      ],
+      "difficulty": 3,
+      "score": 12.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "导数是高考核心考点，重点考查利用导数研究函数的单调性、极值、最值。教学中要强调求导法则和导数的几何意义。",
+      "common_mistakes": "1. 求导错误；2. 不会用导数符号判断单调性；3. 极值和最值混淆"
+    },
+    {
+      "question_text": "23. (10 分) 在直角坐标系 $x O y$ 中, 曲线 $C_{1}:\\left\\{\\begin{array}{l}x=t \\cos \\alpha \\\\ y=t \\sin \\alpha\\end{array}\\right.$ （ $t$ 为参数, $\\left.t \\neq 0\\right)$, 其中 $0 \\leqslant \\alpha \\leqslant \\pi$, 在以 0 为极点, $x$ 轴正半轴为极轴的极坐标系中, 曲线 $C_{2}$ : $\\rho=2 \\sin \\theta, \\quad C_{3}: \\rho=2 \\sqrt{3} \\cos \\theta$.\n\n(1) 求 $C_{2}$ 与 $C_{3}$ 交点的直角坐标;\n\n(2) 若 $C_{1}$ 与 $C_{2}$ 相交于点 $A, C_{1}$ 与 $C_{3}$ 相交于点 $B$, 求 $|A B|$ 的最大值.\n",
+      "answer": "解: (1) 由曲线 $C_{2}: \\rho=2 \\sin \\theta$, 化为 $\\rho^{2}=2 \\rho \\sin \\theta$,\n\n$\\therefore x^{2}+y^{2}=2 y$\n\n同理由 $C_{3}: \\rho=2 \\sqrt{3} \\cos \\theta$. 可得直角坐标方程: $x^{2}+y^{2}=2 \\sqrt{3} x$, 联立 $\\left\\{\\begin{array}{l}x^{2}+y^{2}-2 y=0 \\\\ x^{2}+y^{2}-2 \\sqrt{3} x=0\\end{array}\\right.$,\n\n解得 $\\left\\{\\begin{array}{l}x=0 \\\\ y=0\\end{array},\\left\\{\\begin{array}{l}x=\\frac{\\sqrt{3}}{2} \\\\ y=\\frac{3}{2}\\end{array}\\right.\\right.$,\n\n$\\therefore C_{2}$ 与 $C_{3}$ 交点的直角坐标为 $(0,0),\\left(\\frac{\\sqrt{3}}{2}, \\frac{3}{2}\\right)$.\n\n(2) 曲线 $C_{1}:\\left\\{\\begin{array}{l}x=t \\cos \\alpha \\\\ y=t \\sin \\alpha\\end{array}\\right.$ ( $t$ 为参数, $\\left.t \\neq 0\\right)$, 化为普通方程: $y=x \\tan \\alpha$, 其中 0 $\\leqslant \\alpha \\leqslant \\pi, \\alpha \\neq \\frac{\\pi}{2} ; \\alpha=\\frac{\\pi}{2}$ 时, 为 $x=0(y \\neq 0)$. 其极坐标方程为: $\\theta=\\alpha(\\rho \\in R$, $\\rho \\neq 0)$\n\n$\\because A, B$ 都在 $C_{1}$ 上,\n\n$\\therefore A(2 \\sin \\alpha, \\alpha), \\mathrm{B}(2 \\sqrt{3} \\cos \\alpha, \\alpha)$.\n\n$\\therefore|A B|=|2 \\sin \\alpha-2 \\sqrt{3} \\cos \\alpha|=4\\left|\\sin \\left(\\alpha-\\frac{\\pi}{3}\\right)\\right|$,\n\n当 $\\alpha=\\frac{5 \\pi}{6}$ 时, $|A B|$ 取得最大值 4 .\n",
+      "solution": "(1）由曲线 $C_{2}: \\rho=2 \\sin \\theta$, 化为 $\\rho^{2}=2 \\rho \\sin \\theta$, 把 $\\left\\{\\begin{array}{c}\\rho^{2}=x^{2}+y^{2} \\\\ y=\\rho \\sin \\theta\\end{array}\\right.$ 代入可得直 角坐标方程. 同理由 $C_{3}: \\rho=2 \\sqrt{3} \\cos \\theta$. 可得直角坐标方程, 联立解出可得 $C_{2}$ 与 $C_{3}$ 交点的直角坐标.\n\n(2) 由曲线 $C_{1}$ 的参数方程, 消去参数 $t$, 化为普通方程: $y=x \\tan \\alpha$, 其中 $0 \\leqslant \\alpha \\leqslant$ $\\pi, \\alpha \\neq \\frac{\\pi}{2} ; \\alpha=\\frac{\\pi}{2}$ 时, 为 $x=0(y \\neq 0)$. 其极坐标方程为: $\\theta=\\alpha(\\rho \\in R, \\rho \\neq 0)$ , 利用 $|A B|=\\mid 2 \\sin \\alpha-2 \\sqrt{3} \\cos \\alpha$ |即可得出.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 10.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "24. (10 分) 设 $a, b, c, d$ 均为正数, 且 $a+b=c+d$, 证明:\n\n(1) 若 $a b>c d$, 则 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$; \n(2) $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$ 是 $|a-b|<|c-d|$ 的充要条件.\n",
+      "answer": "证明: (1) 由于 $(\\sqrt{a}+\\sqrt{b})^{2}=a+b+2 \\sqrt{a b}$,\n\n$(\\sqrt{c}+\\sqrt{d})^{2}=c+d+2 \\sqrt{c d}$,\n\n由 $a, b, c, d$ 均为正数, 且 $a+b=c+d, a b>c d$,\n\n则 $\\sqrt{a b}>\\sqrt{c d}$,\n\n即有 $(\\sqrt{a}+\\sqrt{b})^{2}>(\\sqrt{c}+\\sqrt{d})^{2}$ ，\n\n则 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$;\n\n(2) (1)若 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$, 则 $(\\sqrt{a}+\\sqrt{b})^{2}>(\\sqrt{c}+\\sqrt{d})^{2}$,\n\n即为 $a+b+2 \\sqrt{a b}>c+d+2 \\sqrt{c d}$,\n\n由 $a+b=c+d$, 则 $a b>c d$,\n\n于是 $(a-b)^{2}=(a+b)^{2}-4 a b$,\n\n$(c-d)^{2}=(c+d)^{2}-4 c d$,\n\n即有 $(a-b)^{2}<(c-d)^{2}$, 即为 $|a-b|<|c-d| ;$\n\n(2)若 $|a-b|<|c-d|$, 则 $(a-b)^{2}<(c-d)^{2}$,\n\n即有 $(a+b)^{2}-4 a b<(c+d)^{2}-4 c d$,\n\n由 $a+b=c+d$, 则 $a b>c d$,\n\n则有 $(\\sqrt{a}+\\sqrt{b})^{2}>(\\sqrt{c}+\\sqrt{d})^{2}$.\n\n综上可得, $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$ 是 $|a-b|<|c-d|$ 的充要条件.\n",
+      "solution": "（1）运用不等式的性质, 结合条件 $a, b, c, d$ 均为正数, 且 $a+b=c+d$ , $a b>c d$, 即可得证;\n\n（2）从两方面证, (1)若 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$, 证得 $|a-b|<|c-d|$, (2)若 $|a-b|<$ $|c-d|$, 证得 $\\sqrt{a}+\\sqrt{b}>\\sqrt{c}+\\sqrt{d}$, 注意运用不等式的性质, 即可得证.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2015,
+      "region": "（新课标ⅱ）",
+      "knowledge_points": [
+        "不等式"
+      ],
+      "difficulty": 3,
+      "score": 10.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "不等式是高考重点，重点考查均值不等式的应用。教学中要强调'一正二定三相等'的使用条件。",
+      "common_mistakes": "1. 忽略均值不等式的使用条件；2. 不会配凑系数；3. 等号成立条件判断错误"
+    }
+  ]
+}

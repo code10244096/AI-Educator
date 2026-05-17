@@ -1,0 +1,544 @@
+{
+  "year": 2018,
+  "region": "新课标Ⅰ",
+  "total_questions": 28,
+  "questions": [
+    {
+      "question_text": "1. （5 分）设 $z=\\frac{1-i}{1+i}+2 i$, 则 $|z|=(\\quad)$\nA. 0\nB. $\\frac{1}{2}$\nC. 1\nD. $\\sqrt{2}$\n",
+      "answer": "C",
+      "solution": "解 $ｚ=\\frac{1-i}{1+i}+2 i=\\frac{(1-i)(1-i)}{(1-i)(1+i)}+2 i=-i+2 i=i$,\n\n则 $|z|=1$.\n\n故选: C.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "复数"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "复数是高考基础考点，重点考查复数的运算和模的计算。教学中要强调复数的四则运算和几何意义。",
+      "common_mistakes": "1. 复数除法运算错误；2. 模的公式记错"
+    },
+    {
+      "question_text": "2. （5 分）已知集合 $A=\\left\\{x \\mid x^{2}-x-2>0\\right\\}$, 则 $\\left.C_{R} A=（ \\quad\\right)$\nA. $\\{x \\mid-1<x<2\\}$\nB. $\\{x \\mid-1 \\leqslant x \\leqslant 2\\}$\nC. $\\{x \\mid x<-1\\} \\cup\\{x \\mid x>2\\}$\nD. $\\{x \\mid x \\leqslant-1\\}$\n\n$U\\{x \\mid x \\geqslant 2\\}$\n",
+      "answer": "B",
+      "solution": "解：集合 $A=\\left\\{x \\mid x^{2}-x-2>0\\right\\}$,\n\n可得 $A=\\{x \\mid x<-1$ 或 $x>2\\}$, 则: $C_{R} A=\\{x \\mid-1 \\leqslant x \\leqslant 2\\}$.\n\n故选: B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "集合"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "集合是高考基础考点，重点考查集合间的关系和运算。教学中要强调集合元素的确定性、互异性、无序性。",
+      "common_mistakes": "1. 忽略集合为空集的情况；2. 不理解集合关系的等价条件"
+    },
+    {
+      "question_text": "4. (5 分) 记 $S_{n}$ 为等差数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和. 若 $3 S_{3}=S_{2}+S_{4}, a_{1}=2$, 则 $a_{5}=(\\quad)$\nA. -12\nB. -10\nC. 10\nD. 12\n",
+      "answer": "B",
+      "solution": "解: $\\because S_{n}$ 为等差数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和, $3 S_{3}=S_{2}+S_{4}, a_{1}=2$,\n\n$\\therefore 3 \\times\\left(3 \\mathrm{a}_{1}+\\frac{3 \\times 2}{2} \\mathrm{~d}\\right)=\\mathrm{a}_{1}+\\mathrm{a}_{1}+d+4 \\mathrm{a}_{1}+\\frac{4 \\times 3}{2} \\mathrm{~d}$,\n\n把 $a_{1}=2$, 代入得 $d=-3$\n\n$\\therefore a_{5}=2+4 \\times(-3)=-10$.\n\n故选: B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "数列"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "数列是高考必考内容，重点考查等差数列、等比数列的通项公式和前n项和。教学中要强调公式的推导和应用。",
+      "common_mistakes": "1. 公式记错；2. 不会列方程求公差/公比；3. 求和公式使用错误"
+    },
+    {
+      "question_text": "5. （5 分) 设函数 $f(x)=x^{3}+(a-1) x^{2}+a x$. 若 $f(x)$ 为奇函数, 则曲线 $y=f($ $x$ ) 在点 $(0,0)$ 处的切线方程为 ( )\nA. $y=-2 x$\nB. $y=-x$\nC. $y=2 x$\nD. $y=x$\n",
+      "answer": "D",
+      "solution": "解: 函数 $f(x)=x^{3}+(a-1) x^{2}+a x$, 若 $f(x)$ 为奇函数,\n\n可得 $a=1$, 所以函数 $f(x)=x^{3}+x$, 可得 $f^{\\prime}(x)=3 x^{2}+1$,\n\n曲线 $y=f(x)$ 在点 $(0,0)$ 处的切线的斜率为: 1 ,\n\n则曲线 $y=f(x)$ 在点 $(0,0)$ 处的切线方程为: $y=x$.\n\n故选：D.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "函数性质",
+        "导数应用"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "函数性质是高考重点，重点考查函数的奇偶性、单调性、周期性。教学中要强调函数图像与性质的关系。 导数应用是高考重点，重点考查切线方程、函数极值和最值。教学中要强调导数的几何意义。",
+      "common_mistakes": "1. 奇偶性判断错误；2. 忽略定义域；1. 求导错误；2. 切线方程公式记错"
+    },
+    {
+      "question_text": "6. (5 分) 在 $\\triangle A B C$ 中, $A D$ 为 $B C$ 边上的中线, $E$ 为 $A D$ 的中点, 则 $\\overrightarrow{E B}=(\\quad)$\nA. $\\frac{3}{4} \\overrightarrow{\\mathrm{AB}}-\\frac{1}{4} \\overrightarrow{\\mathrm{AC}}$\nB. $\\frac{1}{4} \\overrightarrow{\\mathrm{AB}}-\\frac{3}{4} \\overrightarrow{\\mathrm{AC}}$\nC. $\\frac{3}{4} \\overrightarrow{\\mathrm{AB}}+\\frac{1}{4} \\overrightarrow{\\mathrm{AC}}$\nD. $\\frac{1}{4} \\overrightarrow{\\mathrm{AB}}+\\frac{3}{4} \\overrightarrow{\\mathrm{AC}}$\n",
+      "answer": "A",
+      "solution": "解: 在 $\\triangle A B C$ 中, $A D$ 为 $B C$ 边上的中线, $E$ 为 $A D$ 的中点,\n\n$\\overrightarrow{\\mathrm{EB}}=\\overrightarrow{\\mathrm{AB}}-\\overrightarrow{\\mathrm{AE}}=\\overrightarrow{\\mathrm{AB}}-\\frac{1}{2} \\overrightarrow{\\mathrm{AD}}$\n\n$=\\overrightarrow{\\mathrm{AB}}-\\frac{1}{2} \\times \\frac{1}{2}(\\overrightarrow{\\mathrm{AB}}+\\overrightarrow{\\mathrm{AC}})$\n\n$=\\frac{3}{4} \\overrightarrow{\\mathrm{AB}}-\\frac{1}{4} \\overrightarrow{\\mathrm{AC}}$ 故选: A.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "8. (5 分) 设抛物线 $C: y^{2}=4 x$ 的焦点为 $F$, 过点 $(-2,0)$ 且斜率为 $\\frac{2}{3}$ 的直线与 $C$ 交于 $M, N$ 两点, 则 $\\overrightarrow{F M} \\bullet \\overrightarrow{F N}=(\\quad)$\nA. 5\nB. 6\nC. 7\nD. 8\n",
+      "answer": "D",
+      "solution": "解：抛物线 $C: y^{2}=4 x$ 的焦点为 $F(1,0)$, 过点 $(-2,0)$ 且斜率为 $\\frac{2}{3}$ 的直线为: $3 y=2 x+4$,\n\n联立直线与抛物线 $C: y^{2}=4 x$, 消去 $x$ 可得: $y^{2}-6 y+8=0$ ，\n\n解得 $y_{1}=2, y_{2}=4$, 不妨 $M(1,2), N(4,4), \\overrightarrow{F M}=(0,2), \\overrightarrow{F N}=(3,4)$. 则 $\\overrightarrow{F M} \\bullet \\overrightarrow{F N}=(0,2) \\bullet(3,4)=8$.\n\n故选: D.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "解析几何"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "解析几何是高考难点，重点考查椭圆、双曲线、抛物线的定义、标准方程和性质。教学中要强调数形结合思想。",
+      "common_mistakes": "1. 离心率公式记错；2. 不会利用点在曲线上列方程；3. 计算错误"
+    },
+    {
+      "question_text": "11. (5 分) 已知双曲线 $C: \\frac{x^{2}}{3}-y^{2}=1, O$ 为坐标原点, $F$ 为 $C$ 的右焦点, 过 $F$ 的直线与 $C$ 的两条渐近线的交点分别为 $M, N$. 若 $\\triangle O M N$ 为直角三角形, 则 $|\\mathrm{MN}|=(\\quad)$\nA. $\\frac{3}{2}$\nB. 3\nC. $2 \\sqrt{3}$\nD. 4\n",
+      "answer": "B",
+      "solution": "解: 双曲线 $c: \\frac{x^{2}}{3}-y^{2}=1$ 的渐近线方程为: $y= \\pm \\frac{\\sqrt{3}}{3} x$, 渐近线的夹角 为: $60^{\\circ}$, 不妨设过 $F(2,0)$ 的直线为: $y=\\sqrt{3}(x-2)$, 则: $\\left\\{\\begin{array}{l}y=\\frac{\\sqrt{3}}{3} x \\\\ y=\\sqrt{3}(x-2)\\end{array}\\right.$ 解得 $M\\left(\\frac{3}{2},-\\frac{\\sqrt{3}}{2}\\right)$,\n\n$\\left\\{\\begin{array}{l}y=\\frac{\\sqrt{3}}{3} x \\\\ y=\\sqrt{3}(x-2)\\end{array}\\right.$ 解得: $N(3, \\sqrt{3})$,\n\n则 $|M N|=\\sqrt{\\left(3-\\frac{3}{2}\\right)^{2}+\\left(\\sqrt{3}+\\frac{\\sqrt{3}}{2}\\right)^{2}}=3$.\n\n故选：B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "解析几何",
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "解析几何是高考难点，重点考查椭圆、双曲线、抛物线的定义、标准方程和性质。教学中要强调数形结合思想。 三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 离心率公式记错；2. 不会利用点在曲线上列方程；3. 计算错误；1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "1. （5 分）已知集合 $A=\\{0,2\\}, B=\\{-2,-1,0,1,2\\}$, 则 $A \\cap B=(）$\nA. $\\{0,2\\}$\nB. $\\{1,2\\}$\nC. $\\{0\\}$\nD. $\\{-2,-1,0,1,2\\}$\n",
+      "answer": "A",
+      "solution": "解：集合 $\\mathrm{A}=\\{0,2\\}, B=\\{-2,-1,0,1,2\\}$,\n\n则 $A \\cap B=\\{0,2\\}$.\n\n故选: A.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "集合"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "集合是高考基础考点，重点考查集合间的关系和运算。教学中要强调集合元素的确定性、互异性、无序性。",
+      "common_mistakes": "1. 忽略集合为空集的情况；2. 不理解集合关系的等价条件"
+    },
+    {
+      "question_text": "2. （5 分）设 $z=\\frac{1-i}{1+i}+2 i$, 则 $|z|=(\\quad)$\nA. 0\nB. $\\frac{1}{2}$\nC. 1\nD. $\\sqrt{2}$\n",
+      "answer": "C",
+      "solution": "解 $: z=\\frac{1-i}{1+i}+2 i=\\frac{(1-i)(1-i)}{(1-i)(1+i)}+2 i=-i+2 i=i$,\n\n则 $|z|=1$.\n\n故选: C.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "复数"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "复数是高考基础考点，重点考查复数的运算和模的计算。教学中要强调复数的四则运算和几何意义。",
+      "common_mistakes": "1. 复数除法运算错误；2. 模的公式记错"
+    },
+    {
+      "question_text": "4. (5 分) 已知椭圆 $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{4}=1$ 的一个焦点为 $(2,0)$, 则 $C$ 的离心率为 ( )\nA. $\\frac{1}{3}$\nB. $\\frac{1}{2}$\nC. $\\frac{\\sqrt{2}}{2}$\nD. $\\frac{2 \\sqrt{2}}{3}$\n",
+      "answer": "C",
+      "solution": "解：椭圆 $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{4}=1$ 的一个焦点为 $(2,0)$,\n\n可得 $a^{2}-4=4$, 解得 $a=2 \\sqrt{2}$,\n\n$\\because c=2$,\n\n$\\therefore \\mathrm{e}=\\frac{\\mathrm{c}}{\\mathrm{a}}=\\frac{2}{2 \\sqrt{2}}=\\frac{\\sqrt{2}}{2}$.\n\n故选: C.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "解析几何"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "解析几何是高考难点，重点考查椭圆、双曲线、抛物线的定义、标准方程和性质。教学中要强调数形结合思想。",
+      "common_mistakes": "1. 离心率公式记错；2. 不会利用点在曲线上列方程；3. 计算错误"
+    },
+    {
+      "question_text": "5. (5 分) 已知圆柱的上、下底面的中心分别为 $\\mathrm{O}_{1}, \\mathrm{O}_{2}$, 过直线 $\\mathrm{O}_{1} \\mathrm{O}_{2}$ 的平面截 该圆柱所得的截面是面积为 8 的正方形，则该圆柱的表面积为（） \nA. $12 \\sqrt{2} \\pi$\nB. $12 \\pi$\nC. $8 \\sqrt{2} \\pi$\nD. $10 \\pi$\n",
+      "answer": "B",
+      "solution": "解：设圆柱的底面直径为 $2 R$, 则高为 $2 R$,\n\n圆柱的上、下底面的中心分别为 $\\mathrm{O}_{1}, \\mathrm{O}_{2}$,\n\n过直线 $\\mathrm{O}_{1} \\mathrm{O}_{2}$ 的平面截该圆柱所得的截面是面积为 8 的正方形,\n\n可得: $4 R^{2}=8$, 解得 $R=\\sqrt{2}$,\n\n则该圆柱的表面积为: $\\pi \\cdot(\\sqrt{2})^{2} \\times 2+2 \\sqrt{2} \\pi \\times 2 \\sqrt{2}=12 \\pi$.\n\n故选: B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "6. （5 分) 设函数 $f(x)=x^{3}+(a-1) x^{2}+a x$. 若 $f(x)$ 为奇函数, 则曲线 $y=f($ $x)$ 在点 $(0,0)$ 处的切线方程为 $(\\quad)$\nA. $y=-2 x$\nB. $y=-x$\nC. $y=2 x$\nD. $y=x$\n",
+      "answer": "D",
+      "solution": "解：函数 $f(x)=x^{3}+(a-1) x^{2}+a x ＼mathrm{~ ， 若 ~} f(x)$ 为奇函数, 可得 $a=1$, 所以函数 $f(x)=x^{3}+x$, 可得 $f^{\\prime}(x)=3 x^{2}+1$,\n\n曲线 $\\mathrm{y}=\\mathrm{f}(\\mathrm{x})$ 在点 $(0,0)$ 处的切线的斜率为: 1 ,\n\n则曲线 $y=f(x)$ 在点 $(0,0)$ 处的切线方程为: $y=x$.\n\n故选: D.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "函数性质",
+        "导数应用"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "函数性质是高考重点，重点考查函数的奇偶性、单调性、周期性。教学中要强调函数图像与性质的关系。 导数应用是高考重点，重点考查切线方程、函数极值和最值。教学中要强调导数的几何意义。",
+      "common_mistakes": "1. 奇偶性判断错误；2. 忽略定义域；1. 求导错误；2. 切线方程公式记错"
+    },
+    {
+      "question_text": "7. (5 分) 在 $\\triangle A B C$ 中, $A D$ 为 $B C$ 边上的中线, $E$ 为 $A D$ 的中点, 则 $\\overrightarrow{E B}=(\\quad)$\nA. $\\frac{3}{4} \\overrightarrow{\\mathrm{AB}}-\\frac{1}{4} \\overrightarrow{\\mathrm{AC}}$\nB. $\\frac{1}{4} \\overrightarrow{\\mathrm{AB}}-\\frac{3}{4} \\overrightarrow{\\mathrm{AC}}$\nC. $\\frac{3}{4} \\overrightarrow{\\mathrm{AB}}+\\frac{1}{4} \\overrightarrow{\\mathrm{AC}}$\nD. $\\frac{1}{4} \\overrightarrow{\\mathrm{AB}}+\\frac{3}{4} \\overrightarrow{\\mathrm{AC}}$\n",
+      "answer": "A",
+      "solution": "解: 在 $\\triangle A B C$ 中, $A D$ 为 $B C$ 边上的中线, $E$ 为 $A D$ 的中点,\n\n$\\overrightarrow{\\mathrm{EB}}=\\overrightarrow{\\mathrm{AB}}-\\overrightarrow{\\mathrm{AE}}=\\overrightarrow{\\mathrm{AB}}-\\frac{1}{2} \\overrightarrow{\\mathrm{AD}}$\n\n$=\\overrightarrow{\\mathrm{AB}}-\\frac{1}{2} \\times \\frac{1}{2}(\\overrightarrow{\\mathrm{AB}}+\\overrightarrow{\\mathrm{AC}})$\n\n$=\\frac{3}{4} \\overrightarrow{\\mathrm{AB}}-\\frac{1}{4} \\overrightarrow{\\mathrm{AC}}$\n\n故选: A.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "8. （5 分）已知函数 $f(x)=2 \\cos ^{2} x-\\sin ^{2} x+2$, 则 $(\\quad)$\nA. $f(x)$ 的最小正周期为 $\\pi$, 最大值为 3\nB. $f(x)$ 的最小正周期为 $\\pi$, 最大值为 4\nC. $f(x)$ 的最小正周期为 $2 \\pi$, 最大值为 3\nD. $f(x)$ 的最小正周期为 $2 \\pi$, 最大值为 4\n",
+      "answer": "B",
+      "solution": "解：函数 $f(x)=2 \\cos ^{2} x-\\sin ^{2} x+2$,\n\n$=2 \\cos ^{2} x-\\sin ^{2} x+2 \\sin ^{2} x+2 \\cos ^{2} x$\n\n$=4 \\cos ^{2} x+\\sin ^{2} x$\n\n$=3 \\cos ^{2} x+1$,\n\n$=3 \\cdot \\frac{\\cos 2 x+1}{2}+1$,\n\n$=\\frac{3 \\cos 2 x}{2}+\\frac{5}{2}$\n\n故函数的最小正周期为 $\\pi$,\n\n函数的最大值为 $\\frac{3}{2}+\\frac{5}{2}=4$,\n\n故选: B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "11. (5 分) 已知角 $\\alpha$ 的顶点为坐标原点, 始边与 $\\mathrm{x}$ 轴的非负半轴重合, 终边上 有两点 $A(1, a), B(2, b)$, 且 $\\cos 2 \\alpha=\\frac{2}{3}$, 则 $|a-b|=(\\quad)$\nA. $\\frac{1}{5}$\nB. $\\frac{\\sqrt{5}}{5}$\nC. $\\frac{2 \\sqrt{5}}{5}$\nD. 1\n",
+      "answer": "B",
+      "solution": "解: $\\because$ 角 $\\alpha$ 的顶点为坐标原点, 始边与 $\\mathrm{x}$ 轴的非负半轴重合,\n\n终边上有两点 $A(1, a), B(2, b)$, 且 $\\cos 2 \\alpha=\\frac{2}{3}$,\n\n$\\therefore \\cos 2 \\alpha=2 \\cos ^{2} \\alpha-1=\\frac{2}{3}$, 解得 $\\cos ^{2} \\alpha=\\frac{5}{6}$,\n\n$\\therefore|\\cos \\alpha|=\\frac{\\sqrt{30}}{6}, \\quad \\therefore|\\sin \\alpha|=\\sqrt{1-\\frac{30}{36}}=\\frac{\\sqrt{6}}{6}$,\n\n$|\\tan \\alpha|=\\left|\\frac{b-a}{2-1}\\right|=|a-b|=\\frac{|\\sin \\alpha|}{|\\cos \\alpha|}=\\frac{\\frac{\\sqrt{6}}{\\frac{\\sqrt{30}}{6}}}{\\frac{\\sqrt{6}}{5}}$.\n\n故选: B.\n",
+      "question_type": "选择题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "14. (5 分) 记 $S_{n}$ 为数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和. 若 $S_{n}=2 a_{n}+1$, 则 $S_{6}=$\n",
+      "answer": "-63\n",
+      "solution": "解: $S_{n}$ 为数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和, $S_{n}=2 a_{n}+1$, (1)\n\n当 $n=1$ 时, $a_{1}=2 a_{1}+1$, 解得 $a_{1}=-1$,\n\n当 $n \\geqslant 2$ 时, $S_{n-1}=2 a_{n-1}+1$, (2),\n\n由(1)- (2)可得 $a_{n}=2 a_{n}-2 a_{n-1}$,\n\n$\\therefore a_{n}=2 a_{n-1}$,\n\n$\\therefore\\left\\{a_{n}\\right\\}$ 是以 -1 为首项, 以 2 为公比的等比数列,\n\n$\\therefore S_{6}=\\frac{-1 \\times\\left(1-2^{6}\\right)}{1-2}=-63$,\n\n故答案为: -63\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "数列"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "数列是高考必考内容，重点考查等差数列、等比数列的通项公式和前n项和。教学中要强调公式的推导和应用。",
+      "common_mistakes": "1. 公式记错；2. 不会列方程求公差/公比；3. 求和公式使用错误"
+    },
+    {
+      "question_text": "15. （5 分）从 2 位女生, 4 位男生中选 3 人参加科技比赛, 且至少有 1 位女生 入选，则不同的选法共有 种. (用数字填写答案)\n",
+      "answer": "16\n",
+      "solution": "解：方法一：直接法, 1 女 2 男, 有 $\\mathrm{C}_{2}{ }^{1} \\mathrm{C}_{4}{ }^{2}=12,2$ 女 1 男, 有 $\\mathrm{C}_{2}{ }^{2} \\mathrm{C}_{4}{ }^{1}=4$ 根据分类计数原理可得, 共有 $12+4=16$ 种,\n\n方法二, 间接法: $\\mathrm{C}_{6}{ }^{3}-\\mathrm{C}_{4}{ }^{3}=20-4=16$ 种,\n\n故答案为: 16\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "16. （5 分) 已知函数 $f(x)=2 \\sin x+\\sin 2 x$, 则 $f(x)$ 的最小值是\n",
+      "answer": "$\\frac{3 \\sqrt{3}}{2}$\n",
+      "solution": "解：由题意可得 $T=2 \\pi$ 是 $f(x)=2 \\sin x+\\sin 2 x$ 的一个周期,\n\n故只需考虑 $f(x)=2 \\sin x+\\sin 2 x$ 在 $[0,2 \\pi)$ 上的值域,\n\n先来求该函数在 $[0,2 \\pi)$ 上的极值点,\n\n求导数可得 $f^{\\prime}(x)=2 \\cos x+2 \\cos 2 x$\n\n$=2 \\cos x+2\\left(2 \\cos ^{2} x-1\\right)=2(2 \\cos x-1)(\\cos x+1)$,\n\n令 $f^{\\prime}(x)=0$ 可解得 $\\cos x=\\frac{1}{2}$ 或 $\\cos x=-1$,\n\n可得此时 $x=\\frac{\\pi}{3} ， \\pi$ 或 $\\frac{5 \\pi}{3}$;\n\n$\\therefore y=2 \\sin x+\\sin 2 x$ 的最小值只能在点 $x=\\frac{\\pi}{3}, \\pi$ 或 $\\frac{5 \\pi}{3}$ 和边界点 $x=0$ 中取到,\n\n计算可得 $f\\left(\\frac{\\pi}{3}\\right)=\\frac{3 \\sqrt{3}}{2}, f(\\pi)=0, f\\left(\\frac{5 \\pi}{3}\\right)=-\\frac{3 \\sqrt{3}}{2}, f(0)=0$,\n\n$\\therefore$ 函数的最小值为 $-\\frac{3 \\sqrt{3}}{2}$,\n\n故答案为: $\\frac{3 \\sqrt{3}}{2}$.\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "导数",
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "导数是高考核心考点，重点考查利用导数研究函数的单调性、极值、最值。教学中要强调求导法则和导数的几何意义。 三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 求导错误；2. 不会用导数符号判断单调性；3. 极值和最值混淆；1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "13. （5 分) 已知函数 $f(x)=\\log _{2}\\left(x^{2}+a\\right)$, 若 $f(3)=1$, 则 $a=$\n",
+      "answer": "-7\n",
+      "solution": "解: 函数 $\\mathrm{f}(\\mathrm{x})=\\log _{2}\\left(\\mathrm{x}^{2}+\\mathrm{a}\\right)$, 若 $\\mathrm{f}(3)=1$,\n\n可得: $\\log _{2}(9+a)=1$, 可得 $a=-7$.\n\n故答案为: -7 .\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "15. (5 分）直线 $y=x+1$ 与圆 $x^{2}+y^{2}+2 y-3=0$ 交于 $A, B$ 两点, 则 $|A B|=$\n",
+      "answer": "$2 \\sqrt{2}$\n",
+      "solution": "解：圆 $x^{2}+y^{2}+2 y-3=0$ 的圆心 $(0,-1)$, 半径为: 2 ,\n\n圆心到直线的距离为: $\\frac{|0+1+1|}{\\sqrt{2}}=\\sqrt{2}$,\n\n所以 $|A B|=2 \\sqrt{2^{2}-(\\sqrt{2})^{2}}=2 \\sqrt{2}$.\n\n故答案为: $2 \\sqrt{2}$.\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "数学"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "本题是高考重点考点，教学中要强调基础知识和解题方法的掌握。",
+      "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
+    },
+    {
+      "question_text": "16. (5 分) $\\triangle A B C$ 的内角 $A, B, C$ 的对边分别为 $a, b, c$. 已知 $b \\sin C+c \\sin B=4 a \\sin B \\sin C, b^{2}+c^{2}-a^{2}=8$, 则 $\\triangle A B C$ 的面积为\n",
+      "answer": "$\\frac{2 \\sqrt{3}}{3}$\n",
+      "solution": "解: $\\triangle A B C$ 的内角 $A, B, C$ 的对边分别为 $a, b, c$.\n\n$b \\sin C+c \\sin B=4 a \\sin B \\sin C$,\n\n利用正弦定理可得 $\\sin B \\sin C+\\sin C \\sin B=4 \\sin A \\sin B \\sin C$,\n\n由于 $0<B<\\pi, 0<C<\\pi$ ，\n\n所以 $\\sin B \\sin C \\neq 0$,\n\n所以 $\\sin A=\\frac{1}{2}$,\n\n则 $A=\\frac{\\pi}{6}$ 或 $\\frac{5 \\pi}{6}$\n\n由于 $b^{2}+c^{2}-a^{2}=8$,\n\n则: $\\cos \\mathrm{a}=\\frac{b^{2}+c^{2}-a^{2}}{2 b c}$,\n\n(1)当 $A=\\frac{\\pi}{6}$ 时, $\\frac{\\sqrt{3}}{2}=\\frac{8}{2 b c}$,\n\n解得 $\\mathrm{bc}=\\frac{8 \\sqrt{3}}{3}$,\n\n所以 $S_{\\triangle A B C}=\\frac{1}{2} b \\operatorname{csin} A=\\frac{2 \\sqrt{3}}{3}$.\n\n(2)当 $\\mathrm{A}=\\frac{5 \\pi}{6}$ 时, $-\\frac{\\sqrt{3}}{2}=\\frac{8}{2 \\mathrm{bc}}$,\n\n解得 $b c=-\\frac{8 \\sqrt{3}}{3}$ (不合题意), 舍去.\n\n故: $S_{\\triangle A B C}=\\frac{2 \\sqrt{3}}{3}$.\n\n故答案为: $\\frac{2 \\sqrt{3}}{3}$.\n",
+      "question_type": "填空题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "20. （12 分）某工厂的某种产品成箱包装, 每箱 200 件, 每一箱产品在交付用 户之前要对产品作检验, 如检验出不合格品, 则更换为合格品. 检验时, 先 从这箱产品中任取 20 件作检验, 再根据检验结果决定是否对余下的所有产品 作检验. 设每件产品为不合格品的概率都为 $\\mathrm{p}(0<\\mathrm{p}<1)$, 且各件产品是否 为不合格品相互独立.\n\n(1) 记 20 件产品中恰有 2 件不合格品的概率为 $f(p)$, 求 $f(p)$ 的最大值点 $\\mathrm{p}_{0}$.\n\n（2）现对一箱产品检验了 20 件, 结果恰有 2 件不合格品, 以（1）中确定的 $p_{0}$ 作为 $p$ 的值. 已知每件产品的检验费用为 2 元, 若有不合格品进入用户手中, 则工厂要对每件不合格品支付 25 元的赔偿费用.\n\n(i) 若不对该箱余下的产品作检验, 这一箱产品的检验费用与赔偿费用的和记 为 $X$, 求 $E X$;\n\n(ii) 以检验费用与赔偿费用和的期望值为决策依据, 是否该对这箱余下的所有 产品作检验?\n",
+      "answer": "解：（1）记 20 件产品中恰有 2 件不合格品的概率为 $f(p)$,\n\n则 $f(p)=c_{20}^{2} p^{2}(1-p)^{18}$,\n\n$\\therefore f^{\\prime}(p)=C_{20}^{2}\\left[2 p(1-p)^{18}-18 p^{2}(1-p)^{17}\\right]=2 C_{20}^{2} p(1-p)^{17}(1-10 p)$,\n\n令 $f^{\\prime}(p)=0$, 得 $p=0.1$,\n\n当 $p \\in(0,0.1)$ 时, $f^{\\prime}(p)>0$ ，\n\n当 $p \\in(0.1,1)$ 时, $f^{\\prime}(p)<0$ ，\n\n$\\therefore f(p)$ 的最大值点 $p_{0}=0.1$.\n\n（2）(i) 由 (1) 知 $p=0.1$,\n\n令 $Y$ 表示余下的 180 件产品中的不合格品数, 依题意知 $Y \\sim B(180,0.1 ）$,\n\n$X=20 \\times 2+25 Y$, 即 $X=40+25 Y$ ，\n\n$\\therefore E(X)=E(40+25 Y)=40+25 E(Y)=40+25 \\times 180 \\times 0.1=490$.\n\n(ii）如果对余下的产品作检验, 由这一箱产品所需要的检验费为 400 元,\n\n$\\because E(X)=490>400$,\n\n$\\therefore$ 应该对余下的产品进行检验.\n",
+      "solution": "$(1)$ 求 出 $f(p)=c_{20}^{2} p^{2}(1-p)^{18}$, 则 $f^{\\prime}(p)=C_{20}^{2}\\left[2 p(1-p)^{18}-18 p^{2}(1-p)^{17}\\right]=2 C_{20}^{2} p(1-p)^{17}(1-10 p)$, 利用导数 性质能求出 $f(p)$ 的最大值点 $p_{0}=0.1$.\n\n(2)（i）由 $p=0.1$, 令 $Y$ 表示余下的 180 件产品中的不合格品数, 依题意知 $Y \\sim$ $B(180,0.1)$, 再由 $X=20 \\times 2+25 Y$, 即 $X=40+25 Y$, 能求出 $E(X)$.\n\n(ii）如果对余下的产品作检验, 由这一箱产品所需要的检验费为 400 元, $E(X)$ $=490>400$, 从而应该对余下的产品进行检验.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "导数",
+        "概率统计"
+      ],
+      "difficulty": 3,
+      "score": 12.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "导数是高考核心考点，重点考查利用导数研究函数的单调性、极值、最值。教学中要强调求导法则和导数的几何意义。 统计是高考基础考点，重点考查抽样方法、频率分布、统计图表。教学中要强调各种抽样方法的特点和适用场景。",
+      "common_mistakes": "1. 求导错误；2. 不会用导数符号判断单调性；3. 极值和最值混淆；1. 不理解分层抽样的原理；2. 计算比例错误"
+    },
+    {
+      "question_text": "22. (10 分) 在直角坐标系 $x O y$ 中, 曲线 $C_{1}$ 的方程为 $y=k|x|+2$. 以坐标原点为 极点, $\\mathrm{x}$ 轴正半轴为极轴建立极坐标系, 曲线 $C_{2}$ 的极坐标方程为 $\\rho^{2}+2 \\rho \\cos \\theta-3=0$\n\n(1) 求 $C_{2}$ 的直角坐标方程;\n\n(2) 若 $C_{1}$ 与 $C_{2}$ 有且仅有三个公共点, 求 $C_{1}$ 的方程.\n",
+      "answer": "解: (1) 曲线 $C_{2}$ 的极坐标方程为 $\\rho^{2}+2 \\rho \\cos \\theta-3=0$.\n\n转换为直角坐标方程为: $x^{2}+y^{2}+2 x-3=0$,\n\n转换为标准式为: $(x+1)^{2}+y^{2}=4$.\n\n（2）由于曲线 $C_{1}$ 的方程为 $y=k|x|+2$, 则：该射线关于 $y$ 轴对称, 且恒过定点（ $0,2)$\n\n由于该射线与曲线 $C_{2}$ 的极坐标有且仅有三个公共点.\n\n所以: 必有一直线相切,一直线相交.\n\n则: 圆心到直线 $y=k x+2$ 的距离等于半径 2 .\n\n故: $\\frac{|2-k|}{\\sqrt{1+k^{2}}}=2$, 或 $\\frac{|2+k|}{\\sqrt{1+k^{2}}}=2$\n\n解得: $k=-\\frac{4}{3}$ 或 $0,\\left(0\\right.$ 舍去）或 $k=\\frac{4}{3}$ 或 0\n\n经检验, 直线 $y=\\frac{4}{3} x+2$ 与曲线 $C_{2}$ 没有公共点.\n\n故 $C_{1}$ 的方程为: $y=\\frac{4}{3}|x|+2$.\n",
+      "solution": "（1）直接利用转换关系, 把参数方程和极坐标方程与直角坐标方程进 行转化.\n\n(2) 利用直线在坐标系中的位置, 再利用点到直线的距离公式的应用求出结果.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 10.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "23. 已知 $f(x)=|x+1|-|a x-1|$.\n\n（1）当 $a=1$ 时, 求不等式 $f(x)>1$ 的解集;\n\n(2) 若 $x \\in(0,1)$ 时不等式 $f(x)>x$ 成立, 求 $a$ 的取值范围.\n",
+      "answer": "解: (1) 当 $a=1$ 时, $f(x)=|x+1|-|x-1|= \\begin{cases}2, & x>1 \\\\ 2 x, & -1 \\leqslant x \\leqslant 1 \\text {, } \\\\ -2, & x<-1\\end{cases}$\n\n由 $f(x)>1$,\n\n$\\therefore\\left\\{\\begin{array}{l}2 x>1 \\\\ -1 \\leqslant x \\leqslant 1\\end{array}\\right.$ 或 $\\left\\{\\begin{array}{l}2>1 \\\\ x>1\\end{array}\\right.$,\n\n解得 $x>\\frac{1}{2}$,\n\n故不等式 $\\mathrm{f}(\\mathrm{x})>1$ 的解集为 $\\left(\\frac{1}{2},+\\infty\\right)$,\n\n（2）当 $x \\in(0,1)$ 时不等式 $f(x)>x$ 成立,\n\n$\\therefore|x+1|-|a x-1|-x>0$,\n\n即 $x+1-|a x-1|-x>0$ ，\n\n即 $|a x-1|<1$ ，\n\n$\\therefore-1<a x-1<1$\n\n$\\therefore 0<\\mathrm{ax}<2$,\n\n$\\because x \\in(0,1)$,\n\n$\\therefore \\mathrm{a}>0$,\n\n$\\therefore 0<x<\\frac{2}{a}$,\n\n$\\therefore a<\\frac{2}{x}$\n\n$\\because \\frac{2}{x}>2$\n\n$\\therefore 0<a \\leqslant 2$,\n\n故 a 的取值范围为 $(0,2]$.\n",
+      "solution": "（1）去绝对值, 化为分段函数, 即可求出不等式的解集,\n\n(2) 当 $x \\in(0,1)$ 时不等式 $f(x)>x$ 成立, 转化为即 $|a x-1|<1$, 即 $0<a x<$\n\n2 , 转化为 $a<\\frac{2}{x}$, 且 $a>0$, 即可求出 $a$ 的范围.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "不等式"
+      ],
+      "difficulty": 3,
+      "score": 10.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "不等式是高考重点，重点考查均值不等式的应用。教学中要强调'一正二定三相等'的使用条件。",
+      "common_mistakes": "1. 忽略均值不等式的使用条件；2. 不会配凑系数；3. 等号成立条件判断错误"
+    },
+    {
+      "question_text": "17. (12 分) 已知数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=1, n a_{n+1}=2(n+1) a_{n}$, 设 $b_{n}=\\frac{a_{n}}{n}$.\n\n(1) 求 $b_{1}, b_{2}, b_{3}$;\n\n(2) 判断数列 $\\left\\{b_{n}\\right\\}$ 是否为等比数列, 并说明理由;\n\n(3) 求 $\\left\\{a_{n}\\right\\}$ 的通项公式.\n",
+      "answer": "解: (1) 数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=1, n a_{n+1}=2(n+1) a_{n}$,\n\n则: $\\frac{\\frac{a_{n+1}}{n+1}}{\\frac{a_{n}}{n}}=2$ (常数)，\n\n由于 $b_{n}=\\frac{a_{n}}{n}$,\n\n故: $\\frac{b_{n+1}}{b_{n}}=2$,\n\n数列 $\\left\\{b_{n}\\right\\}$ 是以 $b_{1}$ 为首项, 2 为公比的等比数列.\n\n整理得： $b_{n}=b_{1} \\cdot 2^{n-1}=2^{n-1}$,\n\n所以: $b_{1}=1, b_{2}=2, b_{3}=4$.\n\n（2）数列 $\\left\\{b_{n}\\right\\}$ 是为等比数列,\n\n由于 $\\frac{b_{n+1}}{b_{n}}=2$ （常数）；\n\n（3）由（1）得: $b_{n}=2^{n-1}$, 根据 $\\mathrm{b}_{\\mathrm{n}}=\\frac{\\mathrm{a}_{\\mathrm{n}}}{\\mathrm{n}}$,\n\n所以: $a_{n}=n \\cdot 2^{\\mathrm{rr}-1}$.\n",
+      "solution": "（1）直接利用已知条件求出数列的各项.\n\n（2）利用定义说明数列为等比数列.\n\n（3）利用（1） (2) 的结论, 直接求出数列的通项公式.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "数列"
+      ],
+      "difficulty": 3,
+      "score": 12.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "数列是高考必考内容，重点考查等差数列、等比数列的通项公式和前n项和。教学中要强调公式的推导和应用。",
+      "common_mistakes": "1. 公式记错；2. 不会列方程求公差/公比；3. 求和公式使用错误"
+    },
+    {
+      "question_text": "20. （12 分) 设抛物线 $C: y^{2}=2 x$, 点 $A(2,0), B(-2,0)$, 过点 $A$ 的直线 $I$ 与 $C$ 交于 $M, N$ 两点.\n\n（1）当 $\\mathrm{l}$ 与 $\\mathrm{x}$ 轴垂直时, 求直线 BM 的方程;\n\n(2) 证明: $\\angle \\mathrm{ABM}=\\angle \\mathrm{ABN}$.\n",
+      "answer": "解: (1) 当 1 与 $x$ 轴垂直时, $x=2$, 代入抛物线解得 $y= \\pm 2$,\n\n所以 $M(2,2)$ 或 $M(2,-2)$,\n\n直线 BM 的方程: $y=\\frac{1}{2} x+1$, 或: $y=-\\frac{1}{2} x-1$.\n\n(2) 证明: 设直线 $\\mid$ 的方程为 $1: x=t y+2, M\\left(x_{1}, y_{1}\\right), N\\left(x_{2}, y_{2}\\right)$,\n\n联立直线 I 与抛物线方程得 $\\left\\{\\begin{array}{l}y^{2}=2 x \\\\ x=t y+2\\end{array}\\right.$, 消 $x$ 得 $y^{2}-2 t y-4=0$,\n\n即 $y_{1}+y_{2}=2 t, y_{1} y_{2}=-4$,\n\n则\n\n$$\nk_{B N}+k_{B M}=\\frac{y_{1}}{x_{1}+2}+\\frac{y_{2}}{x_{2}+2}=\\frac{\\left(\\frac{y_{2}^{2}}{2} \\times y_{1}+\\frac{y_{1}^{2}}{2} \\times y_{2}\\right)+2\\left(y_{1}+y_{2}\\right)}{\\left(x_{1}+2\\right)\\left(x_{2}+2\\right)}=\n$$\n\n$$\n\\frac{\\left(y_{1}+y_{2}\\right)\\left(\\frac{y_{1} y_{2}}{2}+2\\right)}{\\left(x_{1}+2\\right)\\left(x_{2}+2\\right)}=0\n$$\n\n所以直线 BN 与 $B M$ 的倾斜角互补,\n\n$\\therefore \\angle \\mathrm{ABM}=\\angle \\mathrm{ABN}$.\n",
+      "solution": "(1) 当 $x=2$ 时, 代入求得 $M$ 点坐标, 即可求得直线 $B M$ 的方程;\n\n(2) 设直线 $\\mathrm{I}$ 的方程, 联立, 利用韦达定理及直线的斜率公式即可求得 $k_{B N}+k_{B M}=0$ , 即可证明 $\\angle A B M=\\angle A B N$.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "解析几何"
+      ],
+      "difficulty": 3,
+      "score": 12.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "解析几何是高考难点，重点考查椭圆、双曲线、抛物线的定义、标准方程和性质。教学中要强调数形结合思想。",
+      "common_mistakes": "1. 离心率公式记错；2. 不会利用点在曲线上列方程；3. 计算错误"
+    },
+    {
+      "question_text": "22. (10 分) 在直角坐标系 $x O y$ 中, 曲线 $C_{1}$ 的方程为 $y=k|x|+2$. 以坐标原点为 极点, $\\mathrm{x}$ 轴正半轴为极轴建立极坐标系, 曲线 $C_{2}$ 的极坐标方程为 $\\rho^{2}+2 \\rho \\cos \\theta-3=0$.\n\n(1) 求 $C_{2}$ 的直角坐标方程;\n\n(2) 若 $C_{1}$ 与 $C_{2}$ 有且仅有三个公共点, 求 $C_{1}$ 的方程.\n",
+      "answer": "解: (1) 曲线 $C_{2}$ 的极坐标方程为 $\\rho^{2}+2 \\rho \\cos \\theta-3=0$.\n\n转换为直角坐标方程为: $x^{2}+y^{2}+2 x-3=0$,\n\n转换为标准式为: $(x+1)^{2}+y^{2}=4$.\n\n（2）由于曲线 $C_{1}$ 的方程为 $y=k|x|+2$, 则：该射线关于 $y$ 轴对称, 且恒过定点（ $0,2)$.\n\n由于该射线与曲线 $C_{2}$ 的极坐标有且仅有三个公共点.\n\n所以: 必有一直线相切,一直线相交.\n\n则: 圆心到直线 $y=k x+2$ 的距离等于半径 2 .\n\n故: $\\frac{|2-k|}{\\sqrt{1+k^{2}}}=2$, 或 $\\frac{|2+k|}{\\sqrt{1+k^{2}}}=2$\n\n解得: $k=-\\frac{4}{3}$ 或 $0,\\left(0\\right.$ 舍去）或 $k=\\frac{4}{3}$ 或 0\n\n经检验, 直线 $y=\\frac{4}{3} x+2$ 与曲线 $C_{2}$ 没有公共点.\n\n故 $C_{1}$ 的方程为: $y=\\frac{4}{3}|x|+2$.\n",
+      "solution": "（1）直接利用转换关系, 把参数方程和极坐标方程与直角坐标方程进 行转化.\n\n(2) 利用直线在坐标系中的位置, 再利用点到直线的距离公式的应用求出结果.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "difficulty": 3,
+      "score": 10.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "三角函数是高考重点，重点考查同角三角函数关系和诱导公式。教学中要强调象限判断和符号确定。",
+      "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
+    },
+    {
+      "question_text": "23. 已知 $f(x)=|x+1|-|a x-1|$.\n\n（1）当 $a=1$ 时, 求不等式 $f(x)>1$ 的解集;\n\n(2) 若 $x \\in(0,1)$ 时不等式 $f(x)>x$ 成立, 求 $a$ 的取值范围.\n",
+      "answer": "解：（1）当 $a=1$ 时, $f(x)=|x+1|-|x-1|= \\begin{cases}2, & x>1 \\\\ 2 x, & -1 \\leqslant x \\leqslant 1 \\text {, } \\\\ -2, & x<-1\\end{cases}$\n\n由 $f(x)>1$,\n\n$\\therefore\\left\\{\\begin{array}{l}2 x>1 \\\\ -1 \\leqslant x \\leqslant 1\\end{array}\\right.$ 或 $\\left\\{\\begin{array}{l}2>1 \\\\ x>1\\end{array}\\right.$,\n\n解得 $x>\\frac{1}{2}$,\n\n故不等式 $f(x)>1$ 的解集为 $\\left(\\frac{1}{2},+\\infty\\right)$,\n\n（2）当 $x \\in(0,1)$ 时不等式 $f(x)>x$ 成立,\n\n$\\therefore|x+1|-|a x-1|-x>0$,\n\n即 $x+1-|a x-1|-x>0$,\n\n即 $|a x-1|<1$ ，\n\n$\\therefore-1<a x-1<1$,\n\n$\\therefore 0<\\mathrm{ax}<2$,\n\n$\\because x \\in(0,1)$,\n\n$\\therefore a>0$, $\\therefore 0<x<\\frac{2}{a}$,\n\n$\\therefore \\mathrm{a}<\\frac{2}{\\mathrm{x}}$\n\n$\\because \\frac{2}{x}>2$,\n\n$\\therefore 0<a \\leqslant 2$,\n\n故 $\\mathrm{a}$ 的取值范围为 $(0,2]$.\n",
+      "solution": "（1）去绝对值, 化为分段函数, 即可求出不等式的解集,\n\n(2) 当 $x \\in(0,1)$ 时不等式 $f(x)>x$ 成立, 转化为即 $|a x-1|<1$, 即 $0<a x<$ 2 , 转化为 $a<\\frac{2}{x}$, 且 $a>0$, 即可求出 $a$ 的范围.\n",
+      "question_type": "解答题",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2018,
+      "region": "（新课标ⅰ）",
+      "knowledge_points": [
+        "不等式"
+      ],
+      "difficulty": 3,
+      "score": 10.0,
+      "source_url": "https://github.com/OpenLMLab/GAOKAO-Bench",
+      "teaching_tips": "不等式是高考重点，重点考查均值不等式的应用。教学中要强调'一正二定三相等'的使用条件。",
+      "common_mistakes": "1. 忽略均值不等式的使用条件；2. 不会配凑系数；3. 等号成立条件判断错误"
+    }
+  ]
+}
