@@ -35,7 +35,7 @@ class AIClient:
             "max_tokens": max_tokens
         }
         
-        async with httpx.AsyncClient(timeout=120.0) as client:
+        async with httpx.AsyncClient(timeout=300.0) as client:
             try:
                 response = await client.post(
                     f"{self.base_url}/chat/completions",
