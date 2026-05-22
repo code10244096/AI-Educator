@@ -4,9 +4,9 @@
   "total_questions": 29,
   "questions": [
     {
-      "question_text": "1. （5 分）已知集合 $M=\\left\\{x \\mid(x-1)^{2}<4, x \\in R\\right\\}, N=\\{-1,0,1,2,3\\}$, 则 $M$ $\\cap N=(\\quad)$\nA. $\\{0,1,2\\}$\nB. $\\{-1,0,1,2\\}$\nC. $\\{-1,0,2,3\\}$\nD. $\\{0,1,2,3\\}$\n",
+      "question_text": "1. （5 分）已知集合 $M=\\left\\{x \\mid(x-1)^{2}<4, x \\in R\\right\\}, N=\\{-1,0,1,2,3\\}$, 则 $M$ $\\cap N=(\\quad)$\nA. $\\{0,1,2\\}$\nB. $\\{-1,0,1,2\\}$\nC. $\\{-1,0,2,3\\}$\nD. $\\{0,1,2,3\\}$",
       "answer": "A",
-      "solution": "解: 由 $(x-1)^{2}<4$, 解得: $-1<x<3$, 即 $M=\\{x \\mid-1<x<3\\}$,\n\n$\\because N=\\{-1,0,1,2,3\\}$,\n\n$\\therefore M \\cap N=\\{0,1,2\\}$.\n\n故选: A.\n",
+      "solution": "解: 由 $(x-1)^{2}<4$, 解得: $-1<x<3$, 即 $M=\\{x \\mid-1<x<3\\}$,\n\n$\\because N=\\{-1,0,1,2,3\\}$,\n\n$\\therefore M \\cap N=\\{0,1,2\\}$.\n\n故选: A.",
       "question_type": "选择题",
       "subject": "数学",
       "education_level": "高中",
@@ -23,9 +23,9 @@
       "common_mistakes": "1. 忽略集合为空集的情况；2. 不理解集合关系的等价条件"
     },
     {
-      "question_text": "2. （5 分）设复数 $z$ 满足 $(1-i) z=2 i$, 则 $z=(\\quad)$\nA. $-1+i$\nB. $-1-i$\nC. $1+i$\nD. 1- $\\mathrm{i}$\n",
+      "question_text": "2. （5 分）设复数 $z$ 满足 $(1-i) z=2 i$, 则 $z=(\\quad)$\nA. $-1+i$\nB. $-1-i$\nC. $1+i$\nD. 1- $\\mathrm{i}$",
       "answer": "A",
-      "solution": "解: $\\because$ 复数 $z$ 满足 $z(1-\\mathrm{i})=2 \\mathrm{i}$,\n\n$\\therefore z=\\frac{2 i}{1-i}=\\frac{2 i(1+i)}{(1-i)(1+i)}=-1+i$\n\n故选: A.\n",
+      "solution": "解: $\\because$ 复数 $z$ 满足 $z(1-\\mathrm{i})=2 \\mathrm{i}$,\n\n$\\therefore z=\\frac{2 i}{1-i}=\\frac{2 i(1+i)}{(1-i)(1+i)}=-1+i$\n\n故选: A.",
       "question_type": "选择题",
       "subject": "数学",
       "education_level": "高中",
@@ -42,9 +42,9 @@
       "common_mistakes": "1. 复数除法运算错误；2. 模的公式记错"
     },
     {
-      "question_text": "3. (5 分) 等比数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 已知 $S_{3}=a_{2}+10 a_{1}, a_{5}=9$, 则 $a_{1}=(\\quad)$\nA. $\\frac{1}{3}$\nB. $-\\frac{1}{3}$\nC. $\\frac{1}{9}$\nD. $-\\frac{1}{9}$\n",
+      "question_text": "3. (5 分) 等比数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 已知 $S_{3}=a_{2}+10 a_{1}, a_{5}=9$, 则 $a_{1}=(\\quad)$\nA. $\\frac{1}{3}$\nB. $-\\frac{1}{3}$\nC. $\\frac{1}{9}$\nD. $-\\frac{1}{9}$",
       "answer": "C",
-      "solution": "解：设等比数列 $\\left\\{a_{n}\\right\\}$ 的公比为 $q$,\n\n$\\because s_{3}=a_{2}+10 a_{1}, a_{5}=9$\n\n$\\therefore\\left\\{\\begin{array}{l}a_{1}+a_{1} q+a_{1} q^{2}=a_{1} q+10 a_{1} \\\\ a_{1} q^{4}=9\\end{array}\\right.$, 解得 $\\left\\{\\begin{array}{l}q^{2}=9 \\\\ a_{1}=\\frac{1}{9}\\end{array}\\right.$.\n\n$\\therefore a_{1}=\\frac{1}{9}$.\n\n故选: C.\n",
+      "solution": "解：设等比数列 $\\left\\{a_{n}\\right\\}$ 的公比为 $q$,\n\n$\\because s_{3}=a_{2}+10 a_{1}, a_{5}=9$\n\n$\\therefore\\left\\{\\begin{array}{l}a_{1}+a_{1} q+a_{1} q^{2}=a_{1} q+10 a_{1} \\\\ a_{1} q^{4}=9\\end{array}\\right.$, 解得 $\\left\\{\\begin{array}{l}q^{2}=9 \\\\ a_{1}=\\frac{1}{9}\\end{array}\\right.$.\n\n$\\therefore a_{1}=\\frac{1}{9}$.\n\n故选: C.",
       "question_type": "选择题",
       "subject": "数学",
       "education_level": "高中",
@@ -61,9 +61,9 @@
       "common_mistakes": "1. 公式记错；2. 不会列方程求公差/公比；3. 求和公式使用错误"
     },
     {
-      "question_text": "4. (5 分) 已知 $m, n$ 为异面直线, $m \\perp$ 平面 $\\alpha, n \\perp$ 平面 $\\beta$. 直线 $\\mid$ 满足 $\\mid \\perp m$, $\\mathrm{I} \\perp \\mathrm{n},|\\not \\subset \\alpha,| \\not \\subset \\beta$, 则 $(\\quad)$\nA. $\\alpha / / \\beta$ 且 $\\mid / / \\alpha$\nB. $\\alpha \\perp \\beta$ 且 $l \\perp \\beta$\nC. $\\alpha$ 与 $\\beta$ 相交, 且交线垂直于।\nD. $\\alpha$ 与 $\\beta$ 相交, 且 交线平行于।\n",
+      "question_text": "4. (5 分) 已知 $m, n$ 为异面直线, $m \\perp$ 平面 $\\alpha, n \\perp$ 平面 $\\beta$. 直线 $\\mid$ 满足 $\\mid \\perp m$, $\\mathrm{I} \\perp \\mathrm{n},|\\not \\subset \\alpha,| \\not \\subset \\beta$, 则 $(\\quad)$\nA. $\\alpha / / \\beta$ 且 $\\mid / / \\alpha$\nB. $\\alpha \\perp \\beta$ 且 $l \\perp \\beta$\nC. $\\alpha$ 与 $\\beta$ 相交, 且交线垂直于।\nD. $\\alpha$ 与 $\\beta$ 相交, 且 交线平行于।",
       "answer": "D",
-      "solution": "解: 由 $m \\perp$ 平面 $\\alpha$, 直线 $\\mid$ 满足 $\\mid \\perp m$, 且 $\\mid \\subset \\alpha$, 所以 $\\mid / / \\alpha$,\n\n又 $n \\perp$ 平面 $\\beta, 1 \\perp n, \\mid \\not \\subset \\beta$, 所以 $I / / \\beta$.\n\n由直线 $m, n$ 为异面直线, 且 $m \\perp$ 平面 $\\alpha, n \\perp$ 平面 $\\beta$, 则 $\\alpha$ 与 $\\beta$ 相交, 否则,\n\n若 $\\alpha / / \\beta$ 则推出 $m / / n$,\n\n与 $m, n$ 异面矛盾.\n\n故 $\\alpha$ 与 $\\beta$ 相交, 且交线平行于 1 .\n\n故选: D.\n",
+      "solution": "解: 由 $m \\perp$ 平面 $\\alpha$, 直线 $\\mid$ 满足 $\\mid \\perp m$, 且 $\\mid \\subset \\alpha$, 所以 $\\mid / / \\alpha$,\n\n又 $n \\perp$ 平面 $\\beta, 1 \\perp n, \\mid \\not \\subset \\beta$, 所以 $I / / \\beta$.\n\n由直线 $m, n$ 为异面直线, 且 $m \\perp$ 平面 $\\alpha, n \\perp$ 平面 $\\beta$, 则 $\\alpha$ 与 $\\beta$ 相交, 否则,\n\n若 $\\alpha / / \\beta$ 则推出 $m / / n$,\n\n与 $m, n$ 异面矛盾.\n\n故 $\\alpha$ 与 $\\beta$ 相交, 且交线平行于 1 .\n\n故选: D.",
       "question_type": "选择题",
       "subject": "数学",
       "education_level": "高中",
@@ -80,9 +80,9 @@
       "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
     },
     {
-      "question_text": "5. (5 分) 已知 $(1+\\mathrm{ax})(1+\\mathrm{x}){ }^{5}$ 的展开式中 $\\mathrm{x}^{2}$ 的系数为 5 , 则 $a=(\\quad)$\nA. -4\nB. -3\nC. -2\nD. -1\n",
+      "question_text": "5. (5 分) 已知 $(1+\\mathrm{ax})(1+\\mathrm{x}){ }^{5}$ 的展开式中 $\\mathrm{x}^{2}$ 的系数为 5 , 则 $a=(\\quad)$\nA. -4\nB. -3\nC. -2\nD. -1",
       "answer": "D",
-      "solution": "解: 已知 $(1+a x)(1+x)^{5}=(1+a x)\\left(1+C_{5}^{1} x+C_{5}^{2} x^{2}+C_{5}^{3} x^{3}+C_{5}^{4} x^{4}+C_{5}^{5} x^{5}\\right)$ 展开式中 $x^{2}$ 的系数为 $C_{5}^{2+} a \\cdot C_{5}^{1}=5$, 解得 $a=-1$,\n\n故选: D.\n",
+      "solution": "解: 已知 $(1+a x)(1+x)^{5}=(1+a x)\\left(1+C_{5}^{1} x+C_{5}^{2} x^{2}+C_{5}^{3} x^{3}+C_{5}^{4} x^{4}+C_{5}^{5} x^{5}\\right)$ 展开式中 $x^{2}$ 的系数为 $C_{5}^{2+} a \\cdot C_{5}^{1}=5$, 解得 $a=-1$,\n\n故选: D.",
       "question_type": "选择题",
       "subject": "数学",
       "education_level": "高中",
@@ -99,9 +99,9 @@
       "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
     },
     {
-      "question_text": "8. （5 分） 设 $a=\\log _{3} 6, b=\\log _{5} 10, c=\\log _{7} 14$, 则（ ）\nA. $c>b>a$\nB. $b>c>a$\nC. $a>c>b$\nD. $a>b>c$\n",
+      "question_text": "8. （5 分） 设 $a=\\log _{3} 6, b=\\log _{5} 10, c=\\log _{7} 14$, 则（ ）\nA. $c>b>a$\nB. $b>c>a$\nC. $a>c>b$\nD. $a>b>c$",
       "answer": "D",
-      "solution": "解: 因为 $a=\\log _{3} 6=1+\\log _{3} 2, b=\\log _{5} 10=1+\\log _{5} 2, c=\\log _{7} 14=1+\\log _{7} 2$, 因为 $y=\\log _{2} x$ 是增函数, 所以 $\\log _{2} 7>\\log _{2} 5>\\log _{2} 3$,\n\n$\\because \\log _{2} 7=\\frac{1}{\\log _{7} 2}, \\log _{2} 5=\\frac{1}{\\log _{5} 2}, \\log _{2} 3=\\frac{1}{\\log _{3} 2}$\n\n所以 $\\log _{3} 2>\\log _{5} 2>\\log _{7} 2$,\n\n所以 $a>b>c$,\n\n故选: D.\n",
+      "solution": "解: 因为 $a=\\log _{3} 6=1+\\log _{3} 2, b=\\log _{5} 10=1+\\log _{5} 2, c=\\log _{7} 14=1+\\log _{7} 2$, 因为 $y=\\log _{2} x$ 是增函数, 所以 $\\log _{2} 7>\\log _{2} 5>\\log _{2} 3$,\n\n$\\because \\log _{2} 7=\\frac{1}{\\log _{7} 2}, \\log _{2} 5=\\frac{1}{\\log _{5} 2}, \\log _{2} 3=\\frac{1}{\\log _{3} 2}$\n\n所以 $\\log _{3} 2>\\log _{5} 2>\\log _{7} 2$,\n\n所以 $a>b>c$,\n\n故选: D.",
       "question_type": "选择题",
       "subject": "数学",
       "education_level": "高中",
@@ -118,9 +118,9 @@
       "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
     },
     {
-      "question_text": "1. (5 分) 已知集合 $M=\\{x \\mid-3<x<1, x \\in R\\}, N=\\{-3,-2,-1,0,1\\}$, 则 $M \\cap N=(\\quad)$\nA. $\\{-2,-1,0,1\\}$\nB. $\\{-3,-2,-1,0\\}$\nC. $\\{-2,-1,0\\}$\nD. $\\{-3,-2,-1\\}$\n",
+      "question_text": "1. (5 分) 已知集合 $M=\\{x \\mid-3<x<1, x \\in R\\}, N=\\{-3,-2,-1,0,1\\}$, 则 $M \\cap N=(\\quad)$\nA. $\\{-2,-1,0,1\\}$\nB. $\\{-3,-2,-1,0\\}$\nC. $\\{-2,-1,0\\}$\nD. $\\{-3,-2,-1\\}$",
       "answer": "C",
-      "solution": "解: $\\because$ 集合 $M=\\{x \\mid-3<x<1, x \\in R\\}, N=\\{-3,-2,-1,0,1\\}$,\n\n$\\therefore M \\cap N=\\{-2,-1,0\\}$.\n\n故选: C.\n",
+      "solution": "解: $\\because$ 集合 $M=\\{x \\mid-3<x<1, x \\in R\\}, N=\\{-3,-2,-1,0,1\\}$,\n\n$\\therefore M \\cap N=\\{-2,-1,0\\}$.\n\n故选: C.",
       "question_type": "选择题",
       "subject": "数学",
       "education_level": "高中",
@@ -137,9 +137,9 @@
       "common_mistakes": "1. 忽略集合为空集的情况；2. 不理解集合关系的等价条件"
     },
     {
-      "question_text": "2. (5 分) $\\left|\\frac{2}{1+i}\\right|=(\\quad)$\nA. $2 \\sqrt{2}$\nB. 2\nC. $\\sqrt{2}$\nD. 1\n",
+      "question_text": "2. (5 分) $\\left|\\frac{2}{1+i}\\right|=(\\quad)$\nA. $2 \\sqrt{2}$\nB. 2\nC. $\\sqrt{2}$\nD. 1",
       "answer": "C",
-      "solution": "解: $\\left|\\frac{2}{1+i}\\right|=\\frac{2}{|1+i|}=\\frac{2}{\\sqrt{2}}=\\sqrt{2}$.\n\n故选: C.\n",
+      "solution": "解: $\\left|\\frac{2}{1+i}\\right|=\\frac{2}{|1+i|}=\\frac{2}{\\sqrt{2}}=\\sqrt{2}$.\n\n故选: C.",
       "question_type": "选择题",
       "subject": "数学",
       "education_level": "高中",
@@ -156,9 +156,9 @@
       "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
     },
     {
-      "question_text": "4. (5 分) $\\triangle A B C$ 的内角 $A, B, C$ 的对边分别为 $a, b, c$, 已知 $b=2, B=\\frac{\\pi}{6}, C=$ $\\frac{\\pi}{4}$, 则 $\\triangle A B C$ 的面积为 $(\\quad)$\nA. $2 \\sqrt{3}+2$\nB. $\\sqrt{3}+1$\nC. $2 \\sqrt{3}-2$\nD. $\\sqrt{3}-1$\n",
+      "question_text": "4. (5 分) $\\triangle A B C$ 的内角 $A, B, C$ 的对边分别为 $a, b, c$, 已知 $b=2, B=\\frac{\\pi}{6}, C=$ $\\frac{\\pi}{4}$, 则 $\\triangle A B C$ 的面积为 $(\\quad)$\nA. $2 \\sqrt{3}+2$\nB. $\\sqrt{3}+1$\nC. $2 \\sqrt{3}-2$\nD. $\\sqrt{3}-1$",
       "answer": "B",
-      "solution": "解： $\\because b=2, B=\\frac{\\pi}{6}, C=\\frac{\\pi}{4}$,\n\n$\\therefore$ 由正弦定理 $\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$ 得: $c=\\frac{b \\sin C}{\\sin B}=\\frac{2 \\times \\frac{\\sqrt{2}}{2}}{\\frac{1}{2}}=2 \\sqrt{2}, A=\\frac{7 \\pi}{12}$,\n\n$\\therefore \\sin A=\\sin \\left(\\frac{\\pi}{2}+\\frac{\\pi}{12}\\right)=\\cos \\frac{\\pi}{12}=\\frac{\\sqrt{2}+\\sqrt{6}}{4}$,\n\n则 $S_{\\triangle A B C}=\\frac{1}{2} b c \\sin A=\\frac{1}{2} \\times 2 \\times 2 \\sqrt{2} \\times \\frac{\\sqrt{2}+\\sqrt{6}}{4}=\\sqrt{3}+1$.\n\n故选: B.\n",
+      "solution": "解： $\\because b=2, B=\\frac{\\pi}{6}, C=\\frac{\\pi}{4}$,\n\n$\\therefore$ 由正弦定理 $\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$ 得: $c=\\frac{b \\sin C}{\\sin B}=\\frac{2 \\times \\frac{\\sqrt{2}}{2}}{\\frac{1}{2}}=2 \\sqrt{2}, A=\\frac{7 \\pi}{12}$,\n\n$\\therefore \\sin A=\\sin \\left(\\frac{\\pi}{2}+\\frac{\\pi}{12}\\right)=\\cos \\frac{\\pi}{12}=\\frac{\\sqrt{2}+\\sqrt{6}}{4}$,\n\n则 $S_{\\triangle A B C}=\\frac{1}{2} b c \\sin A=\\frac{1}{2} \\times 2 \\times 2 \\sqrt{2} \\times \\frac{\\sqrt{2}+\\sqrt{6}}{4}=\\sqrt{3}+1$.\n\n故选: B.",
       "question_type": "选择题",
       "subject": "数学",
       "education_level": "高中",
@@ -175,9 +175,9 @@
       "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
     },
     {
-      "question_text": "5. (5 分) 设椭圆 C: $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 的左、右焦点分别为 $F_{1} 、 F_{2}, P$ 是 C 上的点 $P F_{2} \\perp F_{1} F_{2}, \\angle P F_{1} F_{2}=30^{\\circ}$, 则 $C$ 的离心率为 $(\\quad)$\nA. $\\frac{\\sqrt{6}}{6}$\nB. $\\frac{1}{3}$\nC. $\\frac{1}{2}$\nD. $\\frac{\\sqrt{3}}{3}$\n",
+      "question_text": "5. (5 分) 设椭圆 C: $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 的左、右焦点分别为 $F_{1} 、 F_{2}, P$ 是 C 上的点 $P F_{2} \\perp F_{1} F_{2}, \\angle P F_{1} F_{2}=30^{\\circ}$, 则 $C$ 的离心率为 $(\\quad)$\nA. $\\frac{\\sqrt{6}}{6}$\nB. $\\frac{1}{3}$\nC. $\\frac{1}{2}$\nD. $\\frac{\\sqrt{3}}{3}$",
       "answer": "D",
-      "solution": "解: $\\left|\\mathrm{PF}_{2}\\right|=\\mathrm{x}, \\because \\mathrm{PF}_{2} \\perp \\mathrm{F}_{1} \\mathrm{~F}_{2}, \\angle \\mathrm{PF}_{1} \\mathrm{~F}_{2}=30^{\\circ}$,\n\n$\\therefore\\left|P_{1}\\right|=2 x,\\left|F_{1} F_{2}\\right|=\\sqrt{3} x$,\n\n又 $\\left|\\mathrm{PF}_{1}\\right|+\\left|\\mathrm{PF}_{2}\\right|=2 \\mathrm{a},\\left|\\mathrm{F}_{1} \\mathrm{~F}_{2}\\right|=2 \\mathrm{c}$\n\n$\\therefore 2 a=3 x, 2 c=\\sqrt{3} x$,\n\n$\\therefore \\mathrm{C}$ 的离心率为: $\\mathrm{e}=\\frac{2 \\mathrm{c}}{2 \\mathrm{a}}=\\frac{\\sqrt{3}}{3}$.\n\n故选: D.\n",
+      "solution": "解: $\\left|\\mathrm{PF}_{2}\\right|=\\mathrm{x}, \\because \\mathrm{PF}_{2} \\perp \\mathrm{F}_{1} \\mathrm{~F}_{2}, \\angle \\mathrm{PF}_{1} \\mathrm{~F}_{2}=30^{\\circ}$,\n\n$\\therefore\\left|P_{1}\\right|=2 x,\\left|F_{1} F_{2}\\right|=\\sqrt{3} x$,\n\n又 $\\left|\\mathrm{PF}_{1}\\right|+\\left|\\mathrm{PF}_{2}\\right|=2 \\mathrm{a},\\left|\\mathrm{F}_{1} \\mathrm{~F}_{2}\\right|=2 \\mathrm{c}$\n\n$\\therefore 2 a=3 x, 2 c=\\sqrt{3} x$,\n\n$\\therefore \\mathrm{C}$ 的离心率为: $\\mathrm{e}=\\frac{2 \\mathrm{c}}{2 \\mathrm{a}}=\\frac{\\sqrt{3}}{3}$.\n\n故选: D.",
       "question_type": "选择题",
       "subject": "数学",
       "education_level": "高中",
@@ -194,9 +194,9 @@
       "common_mistakes": "1. 离心率公式记错；2. 不会利用点在曲线上列方程；3. 计算错误"
     },
     {
-      "question_text": "6. (5 分) 已知 $\\sin 2 \\alpha=\\frac{2}{3}$, 则 $\\cos ^{2}\\left(\\alpha+\\frac{\\pi}{4}\\right)=(\\quad)$\nA. $\\frac{1}{6}$\nB. $\\frac{1}{3}$\nC. $\\frac{1}{2}$\nD. $\\frac{2}{3}$\n",
+      "question_text": "6. (5 分) 已知 $\\sin 2 \\alpha=\\frac{2}{3}$, 则 $\\cos ^{2}\\left(\\alpha+\\frac{\\pi}{4}\\right)=(\\quad)$\nA. $\\frac{1}{6}$\nB. $\\frac{1}{3}$\nC. $\\frac{1}{2}$\nD. $\\frac{2}{3}$",
       "answer": "A",
-      "solution": "解: $\\because \\sin 2 \\alpha=\\frac{2}{3}$,\n\n$\\therefore \\cos ^{2}\\left(\\alpha+\\frac{\\pi}{4}\\right)=\\frac{1}{2}\\left[1+\\cos \\left(2 \\alpha+\\frac{\\pi}{2}\\right)\\right]=\\frac{1}{2}(1-\\sin 2 \\alpha)=\\frac{1}{2} \\times\\left(1-\\frac{2}{3}\\right)=\\frac{1}{6}$.\n\n故选: A.\n",
+      "solution": "解: $\\because \\sin 2 \\alpha=\\frac{2}{3}$,\n\n$\\therefore \\cos ^{2}\\left(\\alpha+\\frac{\\pi}{4}\\right)=\\frac{1}{2}\\left[1+\\cos \\left(2 \\alpha+\\frac{\\pi}{2}\\right)\\right]=\\frac{1}{2}(1-\\sin 2 \\alpha)=\\frac{1}{2} \\times\\left(1-\\frac{2}{3}\\right)=\\frac{1}{6}$.\n\n故选: A.",
       "question_type": "选择题",
       "subject": "数学",
       "education_level": "高中",
@@ -213,9 +213,9 @@
       "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
     },
     {
-      "question_text": "8. （5 分） 设 $a=\\log _{3} 2, b=\\log _{5} 2, c=\\log _{2} 3$, 则（ $）$\nA. $a>c>b$\nB. $b>c>a$\nC. $c>a>b$\nD. $c>b>a$\n",
+      "question_text": "8. （5 分） 设 $a=\\log _{3} 2, b=\\log _{5} 2, c=\\log _{2} 3$, 则（ $）$\nA. $a>c>b$\nB. $b>c>a$\nC. $c>a>b$\nD. $c>b>a$",
       "answer": "C",
-      "solution": "解: 由题意可知: $a=\\log _{3} 2 \\in(0,1), b=\\log _{5} 2 \\in(0,1), c=\\log _{2} 3>1$, 所以 $a=\\log _{3} 2, b=\\log _{5} 2=\\frac{\\log _{3} 2}{\\log _{3} 5}<\\log _{3} 2$,\n\n所以 $c>a>b$,\n\n故选: C.\n",
+      "solution": "解: 由题意可知: $a=\\log _{3} 2 \\in(0,1), b=\\log _{5} 2 \\in(0,1), c=\\log _{2} 3>1$, 所以 $a=\\log _{3} 2, b=\\log _{5} 2=\\frac{\\log _{3} 2}{\\log _{3} 5}<\\log _{3} 2$,\n\n所以 $c>a>b$,\n\n故选: C.",
       "question_type": "选择题",
       "subject": "数学",
       "education_level": "高中",
@@ -232,9 +232,9 @@
       "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
     },
     {
-      "question_text": "12. （5 分）若存在正数 $x$ 使 $2^{x}(x-a)<1$ 成立, 则 $a$ 的取值范围是（ $)$\nA. $(-\\infty,+\\infty)$\nB. $(-2,+\\infty)$\nC. $(0,+\\infty)$\nD. $(-1,+\\infty)$\n",
+      "question_text": "12. （5 分）若存在正数 $x$ 使 $2^{x}(x-a)<1$ 成立, 则 $a$ 的取值范围是（ $)$\nA. $(-\\infty,+\\infty)$\nB. $(-2,+\\infty)$\nC. $(0,+\\infty)$\nD. $(-1,+\\infty)$",
       "answer": "D",
-      "solution": "解: 因为 $2^{x}(x-a)<1$, 所以 $a>x-\\frac{1}{2^{x}}$,\n\n函数 $y=x-\\frac{1}{2^{x}}$ 是增函数, $x>0$, 所以 $y>-1$, 即 $a>-1$,\n\n所以 $\\mathrm{a}$ 的取值范围是 $(-1,+\\infty)$.\n\n故选: D.\n",
+      "solution": "解: 因为 $2^{x}(x-a)<1$, 所以 $a>x-\\frac{1}{2^{x}}$,\n\n函数 $y=x-\\frac{1}{2^{x}}$ 是增函数, $x>0$, 所以 $y>-1$, 即 $a>-1$,\n\n所以 $\\mathrm{a}$ 的取值范围是 $(-1,+\\infty)$.\n\n故选: D.",
       "question_type": "选择题",
       "subject": "数学",
       "education_level": "高中",
@@ -251,9 +251,9 @@
       "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
     },
     {
-      "question_text": "13. (5 分) 已知正方形 $A B C D$ 的边长为 $2, E$ 为 $C D$ 的中点, 则 $\\overrightarrow{\\mathrm{AE}} \\cdot \\overrightarrow{\\mathrm{BD}}=$\n",
-      "answer": "2\n",
-      "solution": "解: $\\because$ 已知正方形 $A B C D$ 的边长为 $2, E$ 为 $C D$ 的中点, 则 $\\overrightarrow{A B} \\cdot \\overrightarrow{A D}=0$, 故 $\\overrightarrow{\\mathrm{AE}} \\cdot \\overrightarrow{\\mathrm{BD}}=(\\overrightarrow{\\mathrm{AD}}+\\overrightarrow{\\mathrm{DE}}) \\cdot(\\overrightarrow{\\mathrm{BA}}+\\overrightarrow{\\mathrm{AD}})=\\left(\\overrightarrow{\\mathrm{AD}}+\\frac{1}{2} \\overrightarrow{\\mathrm{AB}}\\right) \\cdot(\\overrightarrow{\\mathrm{AD}}-\\overrightarrow{\\mathrm{AB}})=\\overrightarrow{\\mathrm{AD}}^{2}-\\overrightarrow{\\mathrm{AD}} \\cdot \\overrightarrow{\\mathrm{AB}}+$ $\\frac{1}{2} \\overrightarrow{\\mathrm{AB}} \\cdot \\overrightarrow{\\mathrm{AD}}^{-}-\\frac{1}{2} \\overrightarrow{\\mathrm{AB}}^{2}=4+0-0-\\frac{1}{2} \\times 4=2$,\n\n故答案为: 2 .\n",
+      "question_text": "13. (5 分) 已知正方形 $A B C D$ 的边长为 $2, E$ 为 $C D$ 的中点, 则 $\\overrightarrow{\\mathrm{AE}} \\cdot \\overrightarrow{\\mathrm{BD}}=$",
+      "answer": "2",
+      "solution": "解: $\\because$ 已知正方形 $A B C D$ 的边长为 $2, E$ 为 $C D$ 的中点, 则 $\\overrightarrow{A B} \\cdot \\overrightarrow{A D}=0$, 故 $\\overrightarrow{\\mathrm{AE}} \\cdot \\overrightarrow{\\mathrm{BD}}=(\\overrightarrow{\\mathrm{AD}}+\\overrightarrow{\\mathrm{DE}}) \\cdot(\\overrightarrow{\\mathrm{BA}}+\\overrightarrow{\\mathrm{AD}})=\\left(\\overrightarrow{\\mathrm{AD}}+\\frac{1}{2} \\overrightarrow{\\mathrm{AB}}\\right) \\cdot(\\overrightarrow{\\mathrm{AD}}-\\overrightarrow{\\mathrm{AB}})=\\overrightarrow{\\mathrm{AD}}^{2}-\\overrightarrow{\\mathrm{AD}} \\cdot \\overrightarrow{\\mathrm{AB}}+$ $\\frac{1}{2} \\overrightarrow{\\mathrm{AB}} \\cdot \\overrightarrow{\\mathrm{AD}}^{-}-\\frac{1}{2} \\overrightarrow{\\mathrm{AB}}^{2}=4+0-0-\\frac{1}{2} \\times 4=2$,\n\n故答案为: 2 .",
       "question_type": "填空题",
       "subject": "数学",
       "education_level": "高中",
@@ -270,9 +270,9 @@
       "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
     },
     {
-      "question_text": "14. (5 分) 从 $\\mathrm{n}$ 个正整数 $1,2, \\ldots, \\mathrm{n}$ 中任意取出两个不同的数, 若取出的两 数之和等于 5 的概率为 $\\frac{1}{14}$, 则 $n=$\n",
-      "answer": "8\n",
-      "solution": "解: 从 $n$ 个正整数 $1,2, \\ldots, n$ 中任意取出两个不同的数, 取出的两数 之和等于 5 的情况有: $(1,4) ，(2,3)$ 共 2 种情况;\n\n从 $\\mathrm{n}$ 个正整数 $1,2, \\ldots, n$ 中任意取出两个不同的数的所有不同取法种数为 $C_{n}^{2}$,\n\n由古典概型概率计算公式得:\n\n从 $\\mathrm{n}$ 个正整数 $1,2, \\ldots, n$ 中任意取出两个不同的数, 取出的两数之和等于 5 的 概率为 $p=\\frac{2}{C_{n}^{2}}=\\frac{1}{14}$. 所以 $C_{n}^{2}=28$, 即 $\\frac{n(n-1)}{2}=28$, 解得 $n=8$.\n\n故答案为: 8 .\n",
+      "question_text": "14. (5 分) 从 $\\mathrm{n}$ 个正整数 $1,2, \\ldots, \\mathrm{n}$ 中任意取出两个不同的数, 若取出的两 数之和等于 5 的概率为 $\\frac{1}{14}$, 则 $n=$",
+      "answer": "8",
+      "solution": "解: 从 $n$ 个正整数 $1,2, \\ldots, n$ 中任意取出两个不同的数, 取出的两数 之和等于 5 的情况有: $(1,4) ，(2,3)$ 共 2 种情况;\n\n从 $\\mathrm{n}$ 个正整数 $1,2, \\ldots, n$ 中任意取出两个不同的数的所有不同取法种数为 $C_{n}^{2}$,\n\n由古典概型概率计算公式得:\n\n从 $\\mathrm{n}$ 个正整数 $1,2, \\ldots, n$ 中任意取出两个不同的数, 取出的两数之和等于 5 的 概率为 $p=\\frac{2}{C_{n}^{2}}=\\frac{1}{14}$. 所以 $C_{n}^{2}=28$, 即 $\\frac{n(n-1)}{2}=28$, 解得 $n=8$.\n\n故答案为: 8 .",
       "question_type": "填空题",
       "subject": "数学",
       "education_level": "高中",
@@ -289,10 +289,10 @@
       "common_mistakes": "1. 不理解分层抽样的原理；2. 计算比例错误"
     },
     {
-      "question_text": "15. (5 分) 设 $\\theta$ 为第二象限角, 若 $\\tan \\left(\\theta+\\frac{\\pi}{4}\\right)=\\frac{1}{2}$, 则 $\\sin \\theta+\\cos \\theta=$\n",
-      "answer": "$-\\frac{\\sqrt{10}}{5}$\n",
-      "solution": "解: $\\because \\tan \\left(\\theta+\\frac{\\pi}{4}\\right)=\\frac{\\tan \\theta+1}{1-\\tan \\theta}=\\frac{1}{2}$,\n\n$\\therefore \\tan \\theta=-\\frac{1}{3}$,\n\n而 $\\cos ^{2} \\theta=\\frac{\\cos ^{2} \\theta}{\\sin ^{2} \\theta+\\cos ^{2} \\theta}=\\frac{1}{1+\\tan ^{2} \\theta}$,\n\n$\\because \\theta$ 为第二象限角,\n\n$\\therefore \\cos \\theta=-\\sqrt{\\frac{1}{1+\\tan ^{2} \\theta}}=-\\frac{3 \\sqrt{10}}{10}, \\sin \\theta=\\sqrt{1-\\cos ^{2} \\theta}=\\frac{\\sqrt{10}}{10}$,\n\n则 $\\sin \\theta+\\cos \\theta=\\frac{\\sqrt{10}}{10}-\\frac{3 \\sqrt{10}}{10}=-\\frac{\\sqrt{10}}{5}$.\n\n故答案为: $-\\frac{\\sqrt{10}}{5}$\n",
-      "question_type": "填空题",
+      "question_text": "15. (5 分) 设 $\\theta$ 为第二象限角, 若 $\\tan \\left(\\theta+\\frac{\\pi}{4}\\right)=\\frac{1}{2}$, 则 $\\sin \\theta+\\cos \\theta=$",
+      "answer": "$-\\frac{\\sqrt{10}}{5}$",
+      "solution": "解: $\\because \\tan \\left(\\theta+\\frac{\\pi}{4}\\right)=\\frac{\\tan \\theta+1}{1-\\tan \\theta}=\\frac{1}{2}$,\n\n$\\therefore \\tan \\theta=-\\frac{1}{3}$,\n\n而 $\\cos ^{2} \\theta=\\frac{\\cos ^{2} \\theta}{\\sin ^{2} \\theta+\\cos ^{2} \\theta}=\\frac{1}{1+\\tan ^{2} \\theta}$,\n\n$\\because \\theta$ 为第二象限角,\n\n$\\therefore \\cos \\theta=-\\sqrt{\\frac{1}{1+\\tan ^{2} \\theta}}=-\\frac{3 \\sqrt{10}}{10}, \\sin \\theta=\\sqrt{1-\\cos ^{2} \\theta}=\\frac{\\sqrt{10}}{10}$,\n\n则 $\\sin \\theta+\\cos \\theta=\\frac{\\sqrt{10}}{10}-\\frac{3 \\sqrt{10}}{10}=-\\frac{\\sqrt{10}}{5}$.\n\n故答案为: $-\\frac{\\sqrt{10}}{5}$",
+      "question_type": "解答题",
       "subject": "数学",
       "education_level": "高中",
       "exam_type": "高考",
@@ -308,9 +308,9 @@
       "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
     },
     {
-      "question_text": "16. (5 分) 等差数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 已知 $S_{10}=0, S_{15}=25$, 则 $n S_{n}$ 的最小 值为\n",
-      "answer": "-49\n",
-      "solution": "解: 设等差数列 $\\left\\{a_{n}\\right\\}$ 的首项为 $a_{1}$, 公差为 $d$,\n\n$\\because s_{10}=10 a_{1}+45 d=0, s_{15}=15 a_{1}+105 d=25$,\n\n$\\therefore \\mathrm{a}_{1}=-3, \\mathrm{~d}=\\frac{2}{3}$,\n\n$\\therefore \\mathrm{S}_{\\mathrm{n}}=\\mathrm{na}_{1}+\\frac{\\mathrm{n}(\\mathrm{n}-1)}{2} \\mathrm{~d}=\\frac{1}{3} \\mathrm{n}^{2}-\\frac{10}{3} n$,\n\n$\\therefore n S_{n}=\\frac{1}{3} n^{3}-\\frac{10}{3} n^{2}$, 令 $n S_{n}=f(n)$,\n\n$\\therefore f^{\\prime}(n)=n^{2}-\\frac{20}{3} n$\n\n$\\therefore$ 当 $n=\\frac{20}{3}$ 时, $f(n)$ 取得极值, 当 $n<\\frac{20}{3}$ 时, $f(n)$ 递减; 当 $n>\\frac{20}{3}$ 时, $f(n)$ 递增;\n\n因此只需比较 $f$ (6) 和 $f(7)$ 的大小即可.\n\n$f(6)=-48, f(7)=-49$,\n\n故 $n S_{n}$ 的最小值为 -49 .\n\n故答案为: -49 .\n",
+      "question_text": "16. (5 分) 等差数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 已知 $S_{10}=0, S_{15}=25$, 则 $n S_{n}$ 的最小 值为",
+      "answer": "-49",
+      "solution": "解: 设等差数列 $\\left\\{a_{n}\\right\\}$ 的首项为 $a_{1}$, 公差为 $d$,\n\n$\\because s_{10}=10 a_{1}+45 d=0, s_{15}=15 a_{1}+105 d=25$,\n\n$\\therefore \\mathrm{a}_{1}=-3, \\mathrm{~d}=\\frac{2}{3}$,\n\n$\\therefore \\mathrm{S}_{\\mathrm{n}}=\\mathrm{na}_{1}+\\frac{\\mathrm{n}(\\mathrm{n}-1)}{2} \\mathrm{~d}=\\frac{1}{3} \\mathrm{n}^{2}-\\frac{10}{3} n$,\n\n$\\therefore n S_{n}=\\frac{1}{3} n^{3}-\\frac{10}{3} n^{2}$, 令 $n S_{n}=f(n)$,\n\n$\\therefore f^{\\prime}(n)=n^{2}-\\frac{20}{3} n$\n\n$\\therefore$ 当 $n=\\frac{20}{3}$ 时, $f(n)$ 取得极值, 当 $n<\\frac{20}{3}$ 时, $f(n)$ 递减; 当 $n>\\frac{20}{3}$ 时, $f(n)$ 递增;\n\n因此只需比较 $f$ (6) 和 $f(7)$ 的大小即可.\n\n$f(6)=-48, f(7)=-49$,\n\n故 $n S_{n}$ 的最小值为 -49 .\n\n故答案为: -49 .",
       "question_type": "填空题",
       "subject": "数学",
       "education_level": "高中",
@@ -327,9 +327,9 @@
       "common_mistakes": "1. 公式记错；2. 不会列方程求公差/公比；3. 求和公式使用错误"
     },
     {
-      "question_text": "13. (4 分) 从 $1,2,3,4,5$ 中任意取出两个不同的数, 其和为 5 的概率是\n",
-      "answer": "0.2\n",
-      "solution": "解：从 $1,2,3,4,5$ 中任意取出两个不同的数共有 $C_{5}^{2}=10$ 种情况, 和为 5 的有 $(1,4)(2,3)$ 两种情况，\n\n故所求的概率为: $\\frac{2}{10}=0.2$\n\n故答案为: 0.2\n",
+      "question_text": "13. (4 分) 从 $1,2,3,4,5$ 中任意取出两个不同的数, 其和为 5 的概率是",
+      "answer": "0.2",
+      "solution": "解：从 $1,2,3,4,5$ 中任意取出两个不同的数共有 $C_{5}^{2}=10$ 种情况, 和为 5 的有 $(1,4)(2,3)$ 两种情况，\n\n故所求的概率为: $\\frac{2}{10}=0.2$\n\n故答案为: 0.2",
       "question_type": "填空题",
       "subject": "数学",
       "education_level": "高中",
@@ -346,9 +346,9 @@
       "common_mistakes": "1. 不理解分层抽样的原理；2. 计算比例错误"
     },
     {
-      "question_text": "14. (4 分) 已知正方形 $A B C D$ 的边长为 $2, E$ 为 $C D$ 的中点, 则 $\\overrightarrow{\\mathrm{AE}} \\cdot \\overrightarrow{\\mathrm{BD}}=$\n",
-      "answer": "2\n",
-      "solution": "解: $\\because$ 已知正方形 $\\mathrm{ABCD}$ 的边长为 $2, E$ 为 $C D$ 的中点, 则 $\\overrightarrow{\\mathrm{AB}} \\cdot \\overrightarrow{\\mathrm{AD}}=0$, 故 $\\overrightarrow{\\mathrm{AE}} \\cdot \\overrightarrow{\\mathrm{BD}}=(\\overrightarrow{\\mathrm{AD}}+\\overrightarrow{\\mathrm{DE}}) \\cdot(\\overrightarrow{\\mathrm{BA}}+\\overrightarrow{\\mathrm{AD}})=\\left(\\overrightarrow{\\mathrm{AD}}+\\frac{1}{2} \\overrightarrow{\\mathrm{AB}}\\right) \\cdot(\\overrightarrow{\\mathrm{AD}}-\\overrightarrow{\\mathrm{AB}})=\\overrightarrow{\\mathrm{AD}}^{2}-\\overrightarrow{\\mathrm{AD}} \\cdot \\overrightarrow{\\mathrm{AB}}+$ $\\frac{1}{2} \\overrightarrow{\\mathrm{AB}} \\cdot \\overrightarrow{\\mathrm{AD}}^{-}-\\frac{1}{2} \\overrightarrow{\\mathrm{AB}}^{2}=4+0-0-\\frac{1}{2} \\times 4=2$,\n\n故答案为: 2 .\n",
+      "question_text": "14. (4 分) 已知正方形 $A B C D$ 的边长为 $2, E$ 为 $C D$ 的中点, 则 $\\overrightarrow{\\mathrm{AE}} \\cdot \\overrightarrow{\\mathrm{BD}}=$",
+      "answer": "2",
+      "solution": "解: $\\because$ 已知正方形 $\\mathrm{ABCD}$ 的边长为 $2, E$ 为 $C D$ 的中点, 则 $\\overrightarrow{\\mathrm{AB}} \\cdot \\overrightarrow{\\mathrm{AD}}=0$, 故 $\\overrightarrow{\\mathrm{AE}} \\cdot \\overrightarrow{\\mathrm{BD}}=(\\overrightarrow{\\mathrm{AD}}+\\overrightarrow{\\mathrm{DE}}) \\cdot(\\overrightarrow{\\mathrm{BA}}+\\overrightarrow{\\mathrm{AD}})=\\left(\\overrightarrow{\\mathrm{AD}}+\\frac{1}{2} \\overrightarrow{\\mathrm{AB}}\\right) \\cdot(\\overrightarrow{\\mathrm{AD}}-\\overrightarrow{\\mathrm{AB}})=\\overrightarrow{\\mathrm{AD}}^{2}-\\overrightarrow{\\mathrm{AD}} \\cdot \\overrightarrow{\\mathrm{AB}}+$ $\\frac{1}{2} \\overrightarrow{\\mathrm{AB}} \\cdot \\overrightarrow{\\mathrm{AD}}^{-}-\\frac{1}{2} \\overrightarrow{\\mathrm{AB}}^{2}=4+0-0-\\frac{1}{2} \\times 4=2$,\n\n故答案为: 2 .",
       "question_type": "填空题",
       "subject": "数学",
       "education_level": "高中",
@@ -365,10 +365,10 @@
       "common_mistakes": "1. 审题不清；2. 计算错误；3. 公式记错"
     },
     {
-      "question_text": "16. (4 分) 函数 $y=\\cos (2 x+\\phi) \\quad(-\\pi \\leqslant \\phi<\\pi)$ 的图象向右平移 $\\frac{\\pi}{2}$ 个单位后, 与函数 $y=\\sin \\left(2 x+\\frac{\\pi}{3}\\right)$ 的图象重合, 则 $\\phi=$\n",
-      "answer": "$\\frac{5 \\pi}{6}$\n",
-      "solution": "解: 函数 $y=\\cos (2 x+\\phi) \\quad(-\\pi \\leqslant \\phi<\\pi)$ 的图象向右平移 $\\frac{\\pi}{2}$ 个单位后, 得平移后的图象的函数解析式为 $y=\\cos \\left[2\\left(x-\\frac{\\pi}{2}\\right)+\\phi\\right]=\\cos (2 x+\\phi-\\pi)$, 而函数 $y=\\sin \\left(2 x+\\frac{\\pi}{3}\\right)=\\cos \\left(2 x+\\frac{\\pi}{3}-\\frac{\\pi}{2}\\right)$,\n\n由函数 $y=\\cos (2 x+\\phi) \\quad(-\\pi \\leqslant \\phi<\\pi)$ 的图象向右平移 $\\frac{\\pi}{2}$ 个单位后, 与函数 $y=\\sin$ $\\left(2 x+\\frac{\\pi}{3}\\right)$ 的图象重合, 得 $2 x+\\phi-\\pi=2 x+\\frac{\\pi}{3}-\\frac{\\pi}{2}$, 解得: $\\phi=\\frac{5 \\pi}{6}$.\n\n符合 $-\\pi \\leqslant \\phi<\\pi$.\n\n故答案为: $\\frac{5 \\pi}{6}$.\n",
-      "question_type": "填空题",
+      "question_text": "16. (4 分) 函数 $y=\\cos (2 x+\\phi) \\quad(-\\pi \\leqslant \\phi<\\pi)$ 的图象向右平移 $\\frac{\\pi}{2}$ 个单位后, 与函数 $y=\\sin \\left(2 x+\\frac{\\pi}{3}\\right)$ 的图象重合, 则 $\\phi=$",
+      "answer": "$\\frac{5 \\pi}{6}$",
+      "solution": "解: 函数 $y=\\cos (2 x+\\phi) \\quad(-\\pi \\leqslant \\phi<\\pi)$ 的图象向右平移 $\\frac{\\pi}{2}$ 个单位后, 得平移后的图象的函数解析式为 $y=\\cos \\left[2\\left(x-\\frac{\\pi}{2}\\right)+\\phi\\right]=\\cos (2 x+\\phi-\\pi)$, 而函数 $y=\\sin \\left(2 x+\\frac{\\pi}{3}\\right)=\\cos \\left(2 x+\\frac{\\pi}{3}-\\frac{\\pi}{2}\\right)$,\n\n由函数 $y=\\cos (2 x+\\phi) \\quad(-\\pi \\leqslant \\phi<\\pi)$ 的图象向右平移 $\\frac{\\pi}{2}$ 个单位后, 与函数 $y=\\sin$ $\\left(2 x+\\frac{\\pi}{3}\\right)$ 的图象重合, 得 $2 x+\\phi-\\pi=2 x+\\frac{\\pi}{3}-\\frac{\\pi}{2}$, 解得: $\\phi=\\frac{5 \\pi}{6}$.\n\n符合 $-\\pi \\leqslant \\phi<\\pi$.\n\n故答案为: $\\frac{5 \\pi}{6}$.",
+      "question_type": "解答题",
       "subject": "数学",
       "education_level": "高中",
       "exam_type": "高考",
@@ -384,9 +384,9 @@
       "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
     },
     {
-      "question_text": "17. (12 分) $\\triangle A B C$ 在内角 $A 、 B 、 C$ 的对边分别为 $a, b, c$, 已知 $a=b \\cos C+c \\sin B$\n\n(I I) 求 B;\n\n(II ) 若 $b=2$, 求 $\\triangle A B C$ 面积的最大值.\n",
-      "answer": "解： ( I ) 由已知及正弦定理得: $\\sin A=\\sin B \\cos C+\\sin B \\sin C(1)$,\n\n$\\because \\sin A=\\sin (B+C)=\\sin B \\cos C+\\cos B \\sin C(2)$,\n\n$\\therefore \\sin \\mathrm{B}=\\cos \\mathrm{B}$, 即 $\\tan \\mathrm{B}=1$,\n\n$\\because B$ 为三角形的内角,\n\n$\\therefore B=\\frac{\\pi}{4}$\n\n( II) $\\mathrm{S}_{\\triangle \\mathrm{ABC}}=\\frac{1}{2} \\mathrm{acsin} \\mathrm{B}=\\frac{\\sqrt{2}}{4} \\mathrm{ac}$,\n\n由已知及余弦定理得: $4=a^{2}+c^{2}-2 \\operatorname{accos} \\frac{\\pi}{4} \\geqslant 2 a c-2 a c \\times \\frac{\\sqrt{2}}{2}$, 整理得: $a c \\leqslant \\frac{4}{2-\\sqrt{2}}$, 当且仅当 $a=c$ 时, 等号成立, 则 $\\triangle A B C$ 面积的最大值为 $\\frac{1}{2} \\times \\frac{\\sqrt{2}}{2} \\times \\frac{4}{2-\\sqrt{2}}=\\frac{1}{2} \\times \\sqrt{2} \\times(2+\\sqrt{2})=\\sqrt{2}+1$.\n",
-      "solution": "( I ) 已知等式利用正弦定理化简, 再利用两角和与差的正弦函数公 式及诱导公式变形, 求出 $\\tan B$ 的值, 由 $B$ 为三角形的内角, 利用特殊角的三 角函数值即可求出 $\\mathrm{B}$ 的度数;\n\n(II) 利用三角形的面积公式表示出三角形 $A B C$ 的面积, 把 $\\sin B$ 的值代入, 得 到三角形面积最大即为 ac 最大, 利用余弦定理列出关系式, 再利用基本不等 式求出 ac 的最大值, 即可得到面积的最大值.\n",
+      "question_text": "17. (12 分) $\\triangle A B C$ 在内角 $A 、 B 、 C$ 的对边分别为 $a, b, c$, 已知 $a=b \\cos C+c \\sin B$\n\n(I I) 求 B;\n\n(II ) 若 $b=2$, 求 $\\triangle A B C$ 面积的最大值.",
+      "answer": "解： ( I ) 由已知及正弦定理得: $\\sin A=\\sin B \\cos C+\\sin B \\sin C(1)$,\n\n$\\because \\sin A=\\sin (B+C)=\\sin B \\cos C+\\cos B \\sin C(2)$,\n\n$\\therefore \\sin \\mathrm{B}=\\cos \\mathrm{B}$, 即 $\\tan \\mathrm{B}=1$,\n\n$\\because B$ 为三角形的内角,\n\n$\\therefore B=\\frac{\\pi}{4}$\n\n( II) $\\mathrm{S}_{\\triangle \\mathrm{ABC}}=\\frac{1}{2} \\mathrm{acsin} \\mathrm{B}=\\frac{\\sqrt{2}}{4} \\mathrm{ac}$,\n\n由已知及余弦定理得: $4=a^{2}+c^{2}-2 \\operatorname{accos} \\frac{\\pi}{4} \\geqslant 2 a c-2 a c \\times \\frac{\\sqrt{2}}{2}$, 整理得: $a c \\leqslant \\frac{4}{2-\\sqrt{2}}$, 当且仅当 $a=c$ 时, 等号成立, 则 $\\triangle A B C$ 面积的最大值为 $\\frac{1}{2} \\times \\frac{\\sqrt{2}}{2} \\times \\frac{4}{2-\\sqrt{2}}=\\frac{1}{2} \\times \\sqrt{2} \\times(2+\\sqrt{2})=\\sqrt{2}+1$.",
+      "solution": "( I ) 已知等式利用正弦定理化简, 再利用两角和与差的正弦函数公 式及诱导公式变形, 求出 $\\tan B$ 的值, 由 $B$ 为三角形的内角, 利用特殊角的三 角函数值即可求出 $\\mathrm{B}$ 的度数;\n\n(II) 利用三角形的面积公式表示出三角形 $A B C$ 的面积, 把 $\\sin B$ 的值代入, 得 到三角形面积最大即为 ac 最大, 利用余弦定理列出关系式, 再利用基本不等 式求出 ac 的最大值, 即可得到面积的最大值.",
       "question_type": "解答题",
       "subject": "数学",
       "education_level": "高中",
@@ -403,9 +403,9 @@
       "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
     },
     {
-      "question_text": "21. (12 分) 已知函数 $f(x)=\\mathrm{e}^{\\mathrm{x}}-\\ln (\\mathrm{x}+\\mathrm{m})$\n\n（I）设 $x=0$ 是 $f(x)$ 的极值点, 求 $m$, 并讨论 $f(x)$ 的单调性;\n\n(II）当 $m \\leqslant 2$ 时, 证明 $f(x)>0$. 选考题: (第 22 题～第 24 题为选考题, 考生根据要求作答. 请考生在第 22、\n",
-      "answer": "( I ) 解 $\\because f^{\\prime}(x)=e^{x}-\\frac{1}{x+m}, x=0$ 是 $f(x)$ 的极值点, $\\therefore f^{\\prime}(0)=1-\\frac{1}{m}=0$ , 解得 $\\mathrm{m}=1$.\n\n所以函数 $f(x)=e^{x}-\\ln (x+1)$, 其定义域为 $(-1,+\\infty)$.\n\n$\\because f^{\\prime}(x)=e^{x}-\\frac{1}{x+1}=\\frac{e^{x}(x+1)-1}{x+1}$\n\n设 $g(x)=e^{x}(x+1)-1$, 则 $g^{\\prime}(x)=e^{x}(x+1)+e^{x}>0$, 所以 $g(x)$ 在 $(-1,+$ $\\infty$ )上为增函数,\n\n又 $\\because g(0)=0$, 所以当 $x>0$ 时, $g(x)>0$, 即 $f^{\\prime}(x)>0$; 当 $-1<x<0$ 时, $g$ $(x)<0, f^{\\prime}(x)<0$.\n\n所以 $\\mathrm{f}(\\mathrm{x})$ 在 $(-1,0)$ 上为减函数; 在 $(0,+\\infty)$ 上为增函数; （II ) 证明: 当 $m \\leqslant 2, x \\in(-m,+\\infty)$ 时, $\\ln (x+m) \\leqslant \\ln (x+2)$, 故只需证 明当 $m=2$ 时 $f(x)>0$.\n\n当 $m=2$ 时, 函数 $f^{\\prime}(x)=e^{x}-\\frac{1}{x+2}$ 在 $(-2,+\\infty)$ 上为增函数, 且 $f^{\\prime}(-1)<0$ $f^{\\prime}(0)>0$\n\n故 $\\mathrm{f}^{\\prime}(\\mathrm{x})=0$ 在 $(-2,+\\infty)$ 上有唯一实数根 $\\mathrm{x}_{0}$, 且 $\\mathrm{x}_{0} \\in(-1,0)$.\n\n当 $x \\in\\left(-2, x_{0}\\right)$ 时, $f^{\\prime}(x)<0$, 当 $x \\in\\left(x_{0},+\\infty\\right)$ 时, $f^{\\prime}(x)>0$,\n\n从而当 $x=x_{0}$ 时, $f(x)$ 取得最小值.\n\n由 $f^{\\prime}\\left(x_{0}\\right)=0$, 得 $e^{x_{0}}=\\frac{1}{x_{0}+2}, \\ln \\left(x_{0}+2\\right)=-x_{0}$.\n\n故 $f(x) \\geqslant f\\left(x_{0}\\right)=\\frac{1}{x_{0}+2}+x_{0}=\\frac{\\left(x_{0}+1\\right)^{2}}{x_{0}+2}>0$.\n\n综上, 当 $m \\leqslant 2$ 时, $f(x)>0$.\n",
-      "solution": "( I ) 求出原函数的导函数, 因为 $\\mathrm{x}=0$ 是函数 $\\mathrm{f}(\\mathrm{x})$ 的极值点, 由极 值点处的导数等于 0 求出 $\\mathrm{m}$ 的值, 代入函数解析式后再由导函数大于 0 和小 于 0 求出原函数的单调区间;\n\n(II) 证明当 $m \\leqslant 2$ 时, $f(x)>0$, 转化为证明当 $m=2$ 时 $f(x)>0$. 求出当 $m=2$ 时函数的导函数, 可知导函数在 $(-2,+\\infty)$ 上为增函数, 并进一步得到导 函数在 $(-1,0)$ 上有唯一零点 $\\mathrm{x}_{0}$, 则当 $\\mathrm{x}=\\mathrm{x}_{0}$ 时函数取得最小值, 借助于 $\\mathrm{x}_{0}$ 是导函数的零点证出 $f\\left(x_{0}\\right)>0$, 从而结论得证.\n",
+      "question_text": "21. (12 分) 已知函数 $f(x)=\\mathrm{e}^{\\mathrm{x}}-\\ln (\\mathrm{x}+\\mathrm{m})$\n\n（I）设 $x=0$ 是 $f(x)$ 的极值点, 求 $m$, 并讨论 $f(x)$ 的单调性;\n\n(II）当 $m \\leqslant 2$ 时, 证明 $f(x)>0$. 选考题: (第 22 题～第 24 题为选考题, 考生根据要求作答. 请考生在第 22、",
+      "answer": "( I ) 解 $\\because f^{\\prime}(x)=e^{x}-\\frac{1}{x+m}, x=0$ 是 $f(x)$ 的极值点, $\\therefore f^{\\prime}(0)=1-\\frac{1}{m}=0$ , 解得 $\\mathrm{m}=1$.\n\n所以函数 $f(x)=e^{x}-\\ln (x+1)$, 其定义域为 $(-1,+\\infty)$.\n\n$\\because f^{\\prime}(x)=e^{x}-\\frac{1}{x+1}=\\frac{e^{x}(x+1)-1}{x+1}$\n\n设 $g(x)=e^{x}(x+1)-1$, 则 $g^{\\prime}(x)=e^{x}(x+1)+e^{x}>0$, 所以 $g(x)$ 在 $(-1,+$ $\\infty$ )上为增函数,\n\n又 $\\because g(0)=0$, 所以当 $x>0$ 时, $g(x)>0$, 即 $f^{\\prime}(x)>0$; 当 $-1<x<0$ 时, $g$ $(x)<0, f^{\\prime}(x)<0$.\n\n所以 $\\mathrm{f}(\\mathrm{x})$ 在 $(-1,0)$ 上为减函数; 在 $(0,+\\infty)$ 上为增函数; （II ) 证明: 当 $m \\leqslant 2, x \\in(-m,+\\infty)$ 时, $\\ln (x+m) \\leqslant \\ln (x+2)$, 故只需证 明当 $m=2$ 时 $f(x)>0$.\n\n当 $m=2$ 时, 函数 $f^{\\prime}(x)=e^{x}-\\frac{1}{x+2}$ 在 $(-2,+\\infty)$ 上为增函数, 且 $f^{\\prime}(-1)<0$ $f^{\\prime}(0)>0$\n\n故 $\\mathrm{f}^{\\prime}(\\mathrm{x})=0$ 在 $(-2,+\\infty)$ 上有唯一实数根 $\\mathrm{x}_{0}$, 且 $\\mathrm{x}_{0} \\in(-1,0)$.\n\n当 $x \\in\\left(-2, x_{0}\\right)$ 时, $f^{\\prime}(x)<0$, 当 $x \\in\\left(x_{0},+\\infty\\right)$ 时, $f^{\\prime}(x)>0$,\n\n从而当 $x=x_{0}$ 时, $f(x)$ 取得最小值.\n\n由 $f^{\\prime}\\left(x_{0}\\right)=0$, 得 $e^{x_{0}}=\\frac{1}{x_{0}+2}, \\ln \\left(x_{0}+2\\right)=-x_{0}$.\n\n故 $f(x) \\geqslant f\\left(x_{0}\\right)=\\frac{1}{x_{0}+2}+x_{0}=\\frac{\\left(x_{0}+1\\right)^{2}}{x_{0}+2}>0$.\n\n综上, 当 $m \\leqslant 2$ 时, $f(x)>0$.",
+      "solution": "( I ) 求出原函数的导函数, 因为 $\\mathrm{x}=0$ 是函数 $\\mathrm{f}(\\mathrm{x})$ 的极值点, 由极 值点处的导数等于 0 求出 $\\mathrm{m}$ 的值, 代入函数解析式后再由导函数大于 0 和小 于 0 求出原函数的单调区间;\n\n(II) 证明当 $m \\leqslant 2$ 时, $f(x)>0$, 转化为证明当 $m=2$ 时 $f(x)>0$. 求出当 $m=2$ 时函数的导函数, 可知导函数在 $(-2,+\\infty)$ 上为增函数, 并进一步得到导 函数在 $(-1,0)$ 上有唯一零点 $\\mathrm{x}_{0}$, 则当 $\\mathrm{x}=\\mathrm{x}_{0}$ 时函数取得最小值, 借助于 $\\mathrm{x}_{0}$ 是导函数的零点证出 $f\\left(x_{0}\\right)>0$, 从而结论得证.",
       "question_type": "解答题",
       "subject": "数学",
       "education_level": "高中",
@@ -422,9 +422,9 @@
       "common_mistakes": "1. 求导错误；2. 不会用导数符号判断单调性；3. 极值和最值混淆"
     },
     {
-      "question_text": "23. 已知动点 $P 、 Q$ 都在曲线C: $\\left\\{\\begin{array}{l}x=2 \\cos \\beta \\\\ y=2 \\sin \\beta\\end{array}\\right.$ ( $\\beta$ 为参数) 上, 对应参数分别为 $\\beta=\\alpha$ 与 $\\beta=2 \\alpha(0<\\alpha<2 \\pi), M$ 为 $P Q$ 的中点.\n\n(1) 求 $M$ 的轨迹的参数方程;\n\n(2) 将 $M$ 到坐标原点的距离 $d$ 表示为 $\\alpha$ 的函数, 并判断 $M$ 的轨迹是否过坐标 原点.\n",
-      "answer": "解: (1) 依题意有 $P(2 \\cos \\alpha, 2 \\sin \\alpha), Q(2 \\cos 2 \\alpha, 2 \\sin 2 \\alpha)$,\n\n因此 $M(\\cos \\alpha+\\cos 2 \\alpha, \\sin \\alpha+\\sin 2 \\alpha)$.\n\n$M$ 的轨迹的参数方程为 $\\left\\{\\begin{array}{l}x=\\cos \\alpha+\\cos 2 \\alpha \\\\ y=\\sin 2 \\alpha+\\sin \\alpha\\end{array}\\right.$ ( $\\alpha$ 为参数, $\\left.0<\\alpha<2 \\pi\\right)$.\n\n(2) $M$ 点到坐标原点的距离 $d=\\sqrt{x^{2}+y^{2}}=\\sqrt{2+2 \\cos \\alpha}(0<\\alpha<2 \\pi)$.\n\n当 $\\alpha=\\pi$ 时, $d=0$, 故 $M$ 的轨迹过坐标原点.\n",
-      "solution": "(1) 利用参数方程与中点坐标公式即可得出;\n\n（2）利用两点之间的距离公式、三角函数的单调性即可得出.\n",
+      "question_text": "23. 已知动点 $P 、 Q$ 都在曲线C: $\\left\\{\\begin{array}{l}x=2 \\cos \\beta \\\\ y=2 \\sin \\beta\\end{array}\\right.$ ( $\\beta$ 为参数) 上, 对应参数分别为 $\\beta=\\alpha$ 与 $\\beta=2 \\alpha(0<\\alpha<2 \\pi), M$ 为 $P Q$ 的中点.\n\n(1) 求 $M$ 的轨迹的参数方程;\n\n(2) 将 $M$ 到坐标原点的距离 $d$ 表示为 $\\alpha$ 的函数, 并判断 $M$ 的轨迹是否过坐标 原点.",
+      "answer": "解: (1) 依题意有 $P(2 \\cos \\alpha, 2 \\sin \\alpha), Q(2 \\cos 2 \\alpha, 2 \\sin 2 \\alpha)$,\n\n因此 $M(\\cos \\alpha+\\cos 2 \\alpha, \\sin \\alpha+\\sin 2 \\alpha)$.\n\n$M$ 的轨迹的参数方程为 $\\left\\{\\begin{array}{l}x=\\cos \\alpha+\\cos 2 \\alpha \\\\ y=\\sin 2 \\alpha+\\sin \\alpha\\end{array}\\right.$ ( $\\alpha$ 为参数, $\\left.0<\\alpha<2 \\pi\\right)$.\n\n(2) $M$ 点到坐标原点的距离 $d=\\sqrt{x^{2}+y^{2}}=\\sqrt{2+2 \\cos \\alpha}(0<\\alpha<2 \\pi)$.\n\n当 $\\alpha=\\pi$ 时, $d=0$, 故 $M$ 的轨迹过坐标原点.",
+      "solution": "(1) 利用参数方程与中点坐标公式即可得出;\n\n（2）利用两点之间的距离公式、三角函数的单调性即可得出.",
       "question_type": "解答题",
       "subject": "数学",
       "education_level": "高中",
@@ -442,9 +442,9 @@
       "common_mistakes": "1. 求导错误；2. 不会用导数符号判断单调性；3. 极值和最值混淆；1. 忽略象限导致符号错误；2. 同角关系记错"
     },
     {
-      "question_text": "24.设 $a, b, c$ 均为正数, 且 $a+b+c=1$, 证明:\n\n( I ) $a b+b c+c a \\leqslant \\frac{1}{3}$\n\n(II) $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a} \\geqslant 1$.\n",
-      "answer": "证明: ( I ) 由 $a^{2}+b^{2} \\geqslant 2 a b, b^{2}+c^{2} \\geqslant 2 b c, c^{2}+a^{2} \\geqslant 2 c a$ 得:\n\n$a^{2}+b^{2}+c^{2} \\geqslant a b+b c+c a$\n\n由题设得 $(a+b+c)^{2}=1$, 即 $a^{2}+b^{2}+c^{2}+2 a b+2 b c+2 c a=1$,\n\n所以 $3(a b+b c+c a) \\leqslant 1$, 即 $a b+b c+c a \\leqslant \\frac{1}{3}$.\n\n(II ) 因为 $\\frac{a^{2}}{b}+b \\geqslant 2 a, \\frac{b^{2}}{c}+c \\geqslant 2 b, \\frac{c^{2}}{a}+a \\geqslant 2 c$,\n\n故 $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a}+(a+b+c) \\geqslant 2(a+b+c)$ ，即 $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a} \\geqslant a+b+c$.\n\n所以 $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a} \\geqslant 1$.\n",
-      "solution": "( I ) 依题意, 由 $a+b+c=1 \\Rightarrow(a+b+c)^{2}=1 \\Rightarrow a^{2}+b^{2}+c^{2}+2 a b+2 b c+2 c a=1$, 利用基本不等式可得 $3(a b+b c+c a) \\leqslant 1$, 从而得证;\n\n(II ) 利用基本不等式可证得: $\\frac{a^{2}}{b}+b \\geqslant 2 a, \\frac{b^{2}}{c}+c \\geqslant 2 b, \\frac{c^{2}}{a}+a \\geqslant 2 c$, 三式累加 即可证得结论.\n",
+      "question_text": "24.设 $a, b, c$ 均为正数, 且 $a+b+c=1$, 证明:\n\n( I ) $a b+b c+c a \\leqslant \\frac{1}{3}$\n\n(II) $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a} \\geqslant 1$.",
+      "answer": "证明: ( I ) 由 $a^{2}+b^{2} \\geqslant 2 a b, b^{2}+c^{2} \\geqslant 2 b c, c^{2}+a^{2} \\geqslant 2 c a$ 得:\n\n$a^{2}+b^{2}+c^{2} \\geqslant a b+b c+c a$\n\n由题设得 $(a+b+c)^{2}=1$, 即 $a^{2}+b^{2}+c^{2}+2 a b+2 b c+2 c a=1$,\n\n所以 $3(a b+b c+c a) \\leqslant 1$, 即 $a b+b c+c a \\leqslant \\frac{1}{3}$.\n\n(II ) 因为 $\\frac{a^{2}}{b}+b \\geqslant 2 a, \\frac{b^{2}}{c}+c \\geqslant 2 b, \\frac{c^{2}}{a}+a \\geqslant 2 c$,\n\n故 $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a}+(a+b+c) \\geqslant 2(a+b+c)$ ，即 $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a} \\geqslant a+b+c$.\n\n所以 $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a} \\geqslant 1$.",
+      "solution": "( I ) 依题意, 由 $a+b+c=1 \\Rightarrow(a+b+c)^{2}=1 \\Rightarrow a^{2}+b^{2}+c^{2}+2 a b+2 b c+2 c a=1$, 利用基本不等式可得 $3(a b+b c+c a) \\leqslant 1$, 从而得证;\n\n(II ) 利用基本不等式可证得: $\\frac{a^{2}}{b}+b \\geqslant 2 a, \\frac{b^{2}}{c}+c \\geqslant 2 b, \\frac{c^{2}}{a}+a \\geqslant 2 c$, 三式累加 即可证得结论.",
       "question_type": "解答题",
       "subject": "数学",
       "education_level": "高中",
@@ -461,9 +461,9 @@
       "common_mistakes": "1. 忽略均值不等式的使用条件；2. 不会配凑系数；3. 等号成立条件判断错误"
     },
     {
-      "question_text": "17. (12 分) 已知等差数列 $\\left\\{a_{n}\\right\\}$ 的公差不为零, $a_{1}=25$, 且 $a_{1}, a_{11}, a_{13}$ 成等比数 列.\n( I ) 求 $\\left\\{a_{n}\\right\\}$ 的通项公式;\n(II) 求 $\\mathrm{a}_{1}+\\mathrm{a}_{4}+\\mathrm{a}_{7}+\\ldots+\\mathrm{a}_{3 n-2}$.\n",
-      "answer": "解: (1) 设等差数列 $\\left\\{a_{n}\\right\\}$ 的公差为 $d \\neq 0$,\n\n由题意 $a_{1}, a_{11}, a_{13}$ 成等比数列, $\\therefore a_{11}^{2}=a_{1} a_{13}$,\n\n$\\therefore\\left(a_{1}+10 d\\right)^{2}=a_{1}\\left(a_{1}+12 d\\right)$, 化为 $d\\left(2 a_{1}+25 d\\right)=0$,\n\n$\\because d \\neq 0, \\quad \\therefore 2 \\times 25+25 d=0$, 解得 $d=-2$.\n\n$\\therefore a_{n}=25+(n-1) \\times(-2)=-2 n+27$.\n\n(II) 由 (1) 可得 $a_{3 n-2}=-2(3 n-2)+27=-6 n+31$, 可知此数列是以 25 为首项 ,-6 为公差的等差数列.\n\n$\\therefore \\mathrm{S}_{\\mathrm{n}}=\\mathrm{a}_{1}+\\mathrm{a}_{4}+\\mathrm{a}_{7}+\\ldots+\\mathrm{a}_{3 \\mathrm{n}-2}=\\frac{\\mathrm{n}\\left(\\mathrm{a}_{1}+\\mathrm{a}_{3 \\mathrm{n}-2}\\right)}{2}$\n\n$=\\frac{n(25-6 n+31)}{2}$\n\n$=-3 n^{2}+28 n$.\n",
-      "solution": "（1）设等差数列 $\\left\\{a_{n}\\right\\}$ 的公差为 $d \\neq 0$, 利用成等比数列的定义可得, $\\mathrm{a}_{11}^{2}=\\mathrm{a}_{1} \\mathrm{a}_{13}$, 再利用等差数列的通项公式可得 $\\left(\\mathrm{a}_{1}+10 \\mathrm{~d}\\right)^{2}=\\mathrm{a}_{1}\\left(\\mathrm{a}_{1}+12 \\mathrm{~d}\\right)$, 化 为 $d\\left(2 a_{1}+25 d\\right)=0$, 解出 $d$ 即可得到通项公式 $a_{n}$;\n\n(II) 由（1）可得 $a_{3 n-2}=-2(3 n-2)+27=-6 n+31$, 可知此数列是以 25 为首项 , -6 为公差的等差数列. 利用等差数列的前 $\\mathrm{n}$ 项和公式即可得出 $a_{1}+a_{4}+a_{7}+\\ldots+a_{3 n-2}$.\n",
+      "question_text": "17. (12 分) 已知等差数列 $\\left\\{a_{n}\\right\\}$ 的公差不为零, $a_{1}=25$, 且 $a_{1}, a_{11}, a_{13}$ 成等比数 列.\n( I ) 求 $\\left\\{a_{n}\\right\\}$ 的通项公式;\n(II) 求 $\\mathrm{a}_{1}+\\mathrm{a}_{4}+\\mathrm{a}_{7}+\\ldots+\\mathrm{a}_{3 n-2}$.",
+      "answer": "解: (1) 设等差数列 $\\left\\{a_{n}\\right\\}$ 的公差为 $d \\neq 0$,\n\n由题意 $a_{1}, a_{11}, a_{13}$ 成等比数列, $\\therefore a_{11}^{2}=a_{1} a_{13}$,\n\n$\\therefore\\left(a_{1}+10 d\\right)^{2}=a_{1}\\left(a_{1}+12 d\\right)$, 化为 $d\\left(2 a_{1}+25 d\\right)=0$,\n\n$\\because d \\neq 0, \\quad \\therefore 2 \\times 25+25 d=0$, 解得 $d=-2$.\n\n$\\therefore a_{n}=25+(n-1) \\times(-2)=-2 n+27$.\n\n(II) 由 (1) 可得 $a_{3 n-2}=-2(3 n-2)+27=-6 n+31$, 可知此数列是以 25 为首项 ,-6 为公差的等差数列.\n\n$\\therefore \\mathrm{S}_{\\mathrm{n}}=\\mathrm{a}_{1}+\\mathrm{a}_{4}+\\mathrm{a}_{7}+\\ldots+\\mathrm{a}_{3 \\mathrm{n}-2}=\\frac{\\mathrm{n}\\left(\\mathrm{a}_{1}+\\mathrm{a}_{3 \\mathrm{n}-2}\\right)}{2}$\n\n$=\\frac{n(25-6 n+31)}{2}$\n\n$=-3 n^{2}+28 n$.",
+      "solution": "（1）设等差数列 $\\left\\{a_{n}\\right\\}$ 的公差为 $d \\neq 0$, 利用成等比数列的定义可得, $\\mathrm{a}_{11}^{2}=\\mathrm{a}_{1} \\mathrm{a}_{13}$, 再利用等差数列的通项公式可得 $\\left(\\mathrm{a}_{1}+10 \\mathrm{~d}\\right)^{2}=\\mathrm{a}_{1}\\left(\\mathrm{a}_{1}+12 \\mathrm{~d}\\right)$, 化 为 $d\\left(2 a_{1}+25 d\\right)=0$, 解出 $d$ 即可得到通项公式 $a_{n}$;\n\n(II) 由（1）可得 $a_{3 n-2}=-2(3 n-2)+27=-6 n+31$, 可知此数列是以 25 为首项 , -6 为公差的等差数列. 利用等差数列的前 $\\mathrm{n}$ 项和公式即可得出 $a_{1}+a_{4}+a_{7}+\\ldots+a_{3 n-2}$.",
       "question_type": "解答题",
       "subject": "数学",
       "education_level": "高中",
@@ -480,9 +480,9 @@
       "common_mistakes": "1. 公式记错；2. 不会列方程求公差/公比；3. 求和公式使用错误"
     },
     {
-      "question_text": "20. (12 分) 在平面直角坐标系 $x O y$ 中, 已知圆 $P$ 在 $x$ 轴上截得线段长为 $2 \\sqrt{2}$, 在 $\\mathrm{y}$ 轴上截得线段长为 $2 \\sqrt{3}$.\n\n( I ) 求圆心 $P$ 的轨迹方程;\n\n(II) 若 $P$ 点到直线 $y=x$ 的距离为 $\\frac{\\sqrt{2}}{2}$, 求圆 $P$ 的方程.\n",
-      "answer": "解： ( I ) 设圆心 $P(x, y)$, 由题意得圆心到 $x$ 轴的距离与半径之间 的关系为 $2=-y^{2}+r^{2}$, 同理圆心到 $\\mathrm{y}$ 轴的距离与半径之间的关系为 $3=-x^{2}+r^{2}$, 由两式整理得 $x^{2}+3=y^{2}+2$, 整理得 $y^{2}-x^{2}=1$ 即为圆心 $P$ 的轨迹方程, 此轨迹是 等轴双曲线\n\n(II) 由 $P$ 点到直线 $y=x$ 的距离为 $\\frac{\\sqrt{2}}{2}$ 得, $\\frac{\\sqrt{2}}{2}=\\frac{|x-y|}{\\sqrt{2}}$, 即 $|x-y|=1$, 即 $x=y+1$ 或 $y=x+1$, 分别代入 $y^{2}-x^{2}=1$ 解得 $P(0,-1)$ 或 $P(0,1)$\n\n若 $P(0,-1)$, 此时点 $P$ 在 $y$ 轴上, 故半径为 $\\sqrt{3}$, 所以圆 $P$ 的方程为 $(y+1)^{2}+x^{2}=3$\n\n若 $P(0,1)$, 此时点 $P$ 在 $y$ 轴上, 故半径为 $\\sqrt{3}$, 所以圆 $P$ 的方程为 $(y-1)^{2}+x^{2}=3$\n\n综上, 圆 $P$ 的方程为 $(y+1)^{2}+x^{2}=3$ 或 $(y-1)^{2}+x^{2}=3$\n",
-      "solution": "（I）由题意, 可直接在弦心距、弦的一半及半径三者组成的直角三角 形中利用勾股定理建立关于点 $\\mathrm{P}$ 的横纵坐标的方程, 整理即可得到所求的轨 迹方程;\n\n( II ) 由题, 可先由点到直线的距离公式建立关于点 $\\mathrm{P}$ 的横纵坐标的方程, 将此 方程与（I）所求的轨迹方程联立, 解出点 $P$ 的坐标, 进而解出圆的半径即可 写出圆 $P$ 的方程.\n",
+      "question_text": "20. (12 分) 在平面直角坐标系 $x O y$ 中, 已知圆 $P$ 在 $x$ 轴上截得线段长为 $2 \\sqrt{2}$, 在 $\\mathrm{y}$ 轴上截得线段长为 $2 \\sqrt{3}$.\n\n( I ) 求圆心 $P$ 的轨迹方程;\n\n(II) 若 $P$ 点到直线 $y=x$ 的距离为 $\\frac{\\sqrt{2}}{2}$, 求圆 $P$ 的方程.",
+      "answer": "解： ( I ) 设圆心 $P(x, y)$, 由题意得圆心到 $x$ 轴的距离与半径之间 的关系为 $2=-y^{2}+r^{2}$, 同理圆心到 $\\mathrm{y}$ 轴的距离与半径之间的关系为 $3=-x^{2}+r^{2}$, 由两式整理得 $x^{2}+3=y^{2}+2$, 整理得 $y^{2}-x^{2}=1$ 即为圆心 $P$ 的轨迹方程, 此轨迹是 等轴双曲线\n\n(II) 由 $P$ 点到直线 $y=x$ 的距离为 $\\frac{\\sqrt{2}}{2}$ 得, $\\frac{\\sqrt{2}}{2}=\\frac{|x-y|}{\\sqrt{2}}$, 即 $|x-y|=1$, 即 $x=y+1$ 或 $y=x+1$, 分别代入 $y^{2}-x^{2}=1$ 解得 $P(0,-1)$ 或 $P(0,1)$\n\n若 $P(0,-1)$, 此时点 $P$ 在 $y$ 轴上, 故半径为 $\\sqrt{3}$, 所以圆 $P$ 的方程为 $(y+1)^{2}+x^{2}=3$\n\n若 $P(0,1)$, 此时点 $P$ 在 $y$ 轴上, 故半径为 $\\sqrt{3}$, 所以圆 $P$ 的方程为 $(y-1)^{2}+x^{2}=3$\n\n综上, 圆 $P$ 的方程为 $(y+1)^{2}+x^{2}=3$ 或 $(y-1)^{2}+x^{2}=3$",
+      "solution": "（I）由题意, 可直接在弦心距、弦的一半及半径三者组成的直角三角 形中利用勾股定理建立关于点 $\\mathrm{P}$ 的横纵坐标的方程, 整理即可得到所求的轨 迹方程;\n\n( II ) 由题, 可先由点到直线的距离公式建立关于点 $\\mathrm{P}$ 的横纵坐标的方程, 将此 方程与（I）所求的轨迹方程联立, 解出点 $P$ 的坐标, 进而解出圆的半径即可 写出圆 $P$ 的方程.",
       "question_type": "解答题",
       "subject": "数学",
       "education_level": "高中",
@@ -499,9 +499,9 @@
       "common_mistakes": "1. 忽略象限导致符号错误；2. 同角关系记错"
     },
     {
-      "question_text": "21. （12 分) 已知函数 $f(x)=x^{2} e^{-x}$\n\n( I ) 求 $f(x)$ 的极小值和极大值;\n\n(II ) 当曲线 $\\mathrm{y}=\\mathrm{f}(\\mathrm{x})$ 的切线 $\\mathrm{I}$ 的斜率为负数时, 求 $\\mathrm{I}$ 在 $\\mathrm{x}$ 轴上截距的取值范围.\n",
-      "answer": "解: ( I ) $\\because f(x)=x^{2} e^{-x}$,\n\n$\\therefore f^{\\prime}(x)=2 x e^{-x}-x^{2} e^{-x}=e^{-x}\\left(2 x-x^{2}\\right)$,\n\n令 $f^{\\prime}(x)=0$, 解得 $x=0$ 或 $x=2$,\n\n令 $f^{\\prime}(x)>0$, 可解得 $0<x<2$;\n\n令 $f^{\\prime}(x)<0$, 可解得 $x<0$ 或 $x>2$,\n\n故函数在区间 $(-\\infty, 0)$ 与 $(2,+\\infty)$ 上是减函数, 在区间 $(0,2)$ 上是增函 数.\n\n$\\therefore x=0$ 是极小值点, $x=2$ 极大值点, 又 $f(0)=0, f(2)=\\frac{4}{e^{2}}$.\n\n故 $f(x)$ 的极小值和极大值分别为 $0, \\frac{4}{e^{2}}$.\n\n( II ) 设切点为 $\\left(x_{0}, x_{0}{ }^{2} \\mathrm{e}^{-x_{0}}\\right)$ ，\n\n则切线方程为 $y^{-} x_{0}{ }^{2} e^{-x_{0}}=e^{-x_{0}}\\left(2 x_{0}-x_{0}{ }^{2}\\right)\\left(x-x_{0}\\right)$ ，\n\n令 $y=0$, 解得 $x=\\frac{x_{0}{ }^{2}-x_{0}}{x_{0}-2}=\\left(x_{0}-2\\right)+\\frac{2}{x_{0}-2}+3$,\n\n$\\because$ 曲线 $y=f(x)$ 的切线 $I$ 的斜率为负数, $\\therefore \\mathrm{e}^{-\\mathrm{x}_{0}\\left(2 \\mathrm{x}_{0}-\\mathrm{x}_{0}^{2}\\right)<0}$\n\n$\\therefore x_{0}<0$ 或 $x_{0}>2$,\n\n令 $\\mathrm{f}\\left(\\mathrm{x}_{0}\\right)=\\mathrm{x}_{0}+\\frac{2}{\\mathrm{x}_{0}-2}+1$,\n\n则 $f^{\\prime}\\left(x_{0}\\right)=1-\\frac{2}{\\left(x_{0}-2\\right)^{2}}=\\frac{\\left(x_{0}-2\\right)^{2}-2}{\\left(x_{0}-2\\right)^{2}}$.\n\n(1)当 $x_{0}<0$ 时, $\\left(x_{0}-2\\right)^{2}-2>0$, 即 $f^{\\prime}\\left(x_{0}\\right)>0, \\therefore f\\left(x_{0}\\right)$ 在 $(-\\infty, 0)$ 上单\n\n调递增, $\\therefore f\\left(x_{0}\\right)<f(0)=0$;\n\n(2) 当 $x_{0}>2$ 时, 令 $f^{\\prime}\\left(x_{0}\\right)=0$, 解得 $x_{0}=2+\\sqrt{2}$.\n\n当 $x_{0}>2+\\sqrt{2}$ 时, $f^{\\prime}\\left(x_{0}\\right)>0$, 函数 $f\\left(x_{0}\\right)$ 单调递增; 当 $2<x_{0}<2+\\sqrt{2}$ 时, $f^{\\prime}\\left(x_{0}\\right.$\n\n)$<0$, 函数 $\\mathrm{f}\\left(\\mathrm{x}_{0}\\right)$ 单调递减.\n\n故当 $\\mathrm{x}_{0}=2+\\sqrt{2}$ 时, 函数 $\\mathrm{f}\\left(\\mathrm{x}_{0}\\right)$ 取得极小值, 也即最小值, 且 $\\mathrm{f}(2+\\sqrt{2})=3+2 \\sqrt{2}$.\n\n综上可知: 切线।在 $\\mathrm{x}$ 轴上截距的取值范围是 $(-\\infty, 0) \\cup[3+2 \\sqrt{2},+\\infty)$.\n",
-      "solution": "（I ）利用导数的运算法则即可得出 $f^{\\prime}(x)$, 利用导数与函数单调性 的关系及函数的极值点的定义， 即可求出函数的极值;\n\n( II ) 利用导数的几何意义即可得到切线的斜率, 得出切线的方程, 利用方程求 出与 $\\mathrm{x}$ 轴交点的横坐标, 再利用导数研究函数的单调性、极值、最值即可.\n",
+      "question_text": "21. （12 分) 已知函数 $f(x)=x^{2} e^{-x}$\n\n( I ) 求 $f(x)$ 的极小值和极大值;\n\n(II ) 当曲线 $\\mathrm{y}=\\mathrm{f}(\\mathrm{x})$ 的切线 $\\mathrm{I}$ 的斜率为负数时, 求 $\\mathrm{I}$ 在 $\\mathrm{x}$ 轴上截距的取值范围.",
+      "answer": "解: ( I ) $\\because f(x)=x^{2} e^{-x}$,\n\n$\\therefore f^{\\prime}(x)=2 x e^{-x}-x^{2} e^{-x}=e^{-x}\\left(2 x-x^{2}\\right)$,\n\n令 $f^{\\prime}(x)=0$, 解得 $x=0$ 或 $x=2$,\n\n令 $f^{\\prime}(x)>0$, 可解得 $0<x<2$;\n\n令 $f^{\\prime}(x)<0$, 可解得 $x<0$ 或 $x>2$,\n\n故函数在区间 $(-\\infty, 0)$ 与 $(2,+\\infty)$ 上是减函数, 在区间 $(0,2)$ 上是增函 数.\n\n$\\therefore x=0$ 是极小值点, $x=2$ 极大值点, 又 $f(0)=0, f(2)=\\frac{4}{e^{2}}$.\n\n故 $f(x)$ 的极小值和极大值分别为 $0, \\frac{4}{e^{2}}$.\n\n( II ) 设切点为 $\\left(x_{0}, x_{0}{ }^{2} \\mathrm{e}^{-x_{0}}\\right)$ ，\n\n则切线方程为 $y^{-} x_{0}{ }^{2} e^{-x_{0}}=e^{-x_{0}}\\left(2 x_{0}-x_{0}{ }^{2}\\right)\\left(x-x_{0}\\right)$ ，\n\n令 $y=0$, 解得 $x=\\frac{x_{0}{ }^{2}-x_{0}}{x_{0}-2}=\\left(x_{0}-2\\right)+\\frac{2}{x_{0}-2}+3$,\n\n$\\because$ 曲线 $y=f(x)$ 的切线 $I$ 的斜率为负数, $\\therefore \\mathrm{e}^{-\\mathrm{x}_{0}\\left(2 \\mathrm{x}_{0}-\\mathrm{x}_{0}^{2}\\right)<0}$\n\n$\\therefore x_{0}<0$ 或 $x_{0}>2$,\n\n令 $\\mathrm{f}\\left(\\mathrm{x}_{0}\\right)=\\mathrm{x}_{0}+\\frac{2}{\\mathrm{x}_{0}-2}+1$,\n\n则 $f^{\\prime}\\left(x_{0}\\right)=1-\\frac{2}{\\left(x_{0}-2\\right)^{2}}=\\frac{\\left(x_{0}-2\\right)^{2}-2}{\\left(x_{0}-2\\right)^{2}}$.\n\n(1)当 $x_{0}<0$ 时, $\\left(x_{0}-2\\right)^{2}-2>0$, 即 $f^{\\prime}\\left(x_{0}\\right)>0, \\therefore f\\left(x_{0}\\right)$ 在 $(-\\infty, 0)$ 上单\n\n调递增, $\\therefore f\\left(x_{0}\\right)<f(0)=0$;\n\n(2) 当 $x_{0}>2$ 时, 令 $f^{\\prime}\\left(x_{0}\\right)=0$, 解得 $x_{0}=2+\\sqrt{2}$.\n\n当 $x_{0}>2+\\sqrt{2}$ 时, $f^{\\prime}\\left(x_{0}\\right)>0$, 函数 $f\\left(x_{0}\\right)$ 单调递增; 当 $2<x_{0}<2+\\sqrt{2}$ 时, $f^{\\prime}\\left(x_{0}\\right.$\n\n)$<0$, 函数 $\\mathrm{f}\\left(\\mathrm{x}_{0}\\right)$ 单调递减.\n\n故当 $\\mathrm{x}_{0}=2+\\sqrt{2}$ 时, 函数 $\\mathrm{f}\\left(\\mathrm{x}_{0}\\right)$ 取得极小值, 也即最小值, 且 $\\mathrm{f}(2+\\sqrt{2})=3+2 \\sqrt{2}$.\n\n综上可知: 切线।在 $\\mathrm{x}$ 轴上截距的取值范围是 $(-\\infty, 0) \\cup[3+2 \\sqrt{2},+\\infty)$.",
+      "solution": "（I ）利用导数的运算法则即可得出 $f^{\\prime}(x)$, 利用导数与函数单调性 的关系及函数的极值点的定义， 即可求出函数的极值;\n\n( II ) 利用导数的几何意义即可得到切线的斜率, 得出切线的方程, 利用方程求 出与 $\\mathrm{x}$ 轴交点的横坐标, 再利用导数研究函数的单调性、极值、最值即可.",
       "question_type": "解答题",
       "subject": "数学",
       "education_level": "高中",
@@ -519,9 +519,9 @@
       "common_mistakes": "1. 求导错误；2. 不会用导数符号判断单调性；3. 极值和最值混淆；1. 求导错误；2. 切线方程公式记错"
     },
     {
-      "question_text": "23. 已知动点 $P 、 Q$ 都在曲线 $C:\\left\\{\\begin{array}{l}x=2 \\cos \\beta \\\\ y=2 \\sin \\beta\\end{array}\\right.$ ( $\\beta$ 为参数) 上, 对应参数分别为 $\\beta=\\alpha$ 与 $\\beta=2 \\alpha(0<\\alpha<2 \\pi), M$ 为 $P Q$ 的中点.\n\n(1) 求 $M$ 的轨迹的参数方程;\n\n(2) 将 $M$ 到坐标原点的距离 $d$ 表示为 $\\alpha$ 的函数, 并判断 $M$ 的轨迹是否过坐标 原点.\n",
-      "answer": "解：（1）依题意有 $P(2 \\cos \\alpha, 2 \\sin \\alpha), Q(2 \\cos 2 \\alpha, 2 \\sin 2 \\alpha)$,\n\n因此 $M(\\cos \\alpha+\\cos 2 \\alpha, \\sin \\alpha+\\sin 2 \\alpha)$.\n\n$M$ 的轨迹的参数方程为 $\\left\\{\\begin{array}{l}x=\\cos \\alpha+\\cos 2 \\alpha \\\\ y=\\sin 2 \\alpha+\\sin \\alpha\\end{array}\\right.$ ( $\\alpha$ 为参数, $0<\\alpha<2 \\pi$ ).\n\n(2) $M$ 点到坐标原点的距离 $d=\\sqrt{x^{2}+y^{2}}=\\sqrt{2+2 \\cos \\alpha} \\quad(0<\\alpha<2 \\pi)$.\n\n当 $\\alpha=\\pi$ 时, $d=0$, 故 $M$ 的轨迹过坐标原点.\n",
-      "solution": "（1）利用参数方程与中点坐标公式即可得出;\n\n（2）利用两点之间的距离公式、三角函数的单调性即可得出.\n",
+      "question_text": "23. 已知动点 $P 、 Q$ 都在曲线 $C:\\left\\{\\begin{array}{l}x=2 \\cos \\beta \\\\ y=2 \\sin \\beta\\end{array}\\right.$ ( $\\beta$ 为参数) 上, 对应参数分别为 $\\beta=\\alpha$ 与 $\\beta=2 \\alpha(0<\\alpha<2 \\pi), M$ 为 $P Q$ 的中点.\n\n(1) 求 $M$ 的轨迹的参数方程;\n\n(2) 将 $M$ 到坐标原点的距离 $d$ 表示为 $\\alpha$ 的函数, 并判断 $M$ 的轨迹是否过坐标 原点.",
+      "answer": "解：（1）依题意有 $P(2 \\cos \\alpha, 2 \\sin \\alpha), Q(2 \\cos 2 \\alpha, 2 \\sin 2 \\alpha)$,\n\n因此 $M(\\cos \\alpha+\\cos 2 \\alpha, \\sin \\alpha+\\sin 2 \\alpha)$.\n\n$M$ 的轨迹的参数方程为 $\\left\\{\\begin{array}{l}x=\\cos \\alpha+\\cos 2 \\alpha \\\\ y=\\sin 2 \\alpha+\\sin \\alpha\\end{array}\\right.$ ( $\\alpha$ 为参数, $0<\\alpha<2 \\pi$ ).\n\n(2) $M$ 点到坐标原点的距离 $d=\\sqrt{x^{2}+y^{2}}=\\sqrt{2+2 \\cos \\alpha} \\quad(0<\\alpha<2 \\pi)$.\n\n当 $\\alpha=\\pi$ 时, $d=0$, 故 $M$ 的轨迹过坐标原点.",
+      "solution": "（1）利用参数方程与中点坐标公式即可得出;\n\n（2）利用两点之间的距离公式、三角函数的单调性即可得出.",
       "question_type": "解答题",
       "subject": "数学",
       "education_level": "高中",
@@ -539,9 +539,9 @@
       "common_mistakes": "1. 求导错误；2. 不会用导数符号判断单调性；3. 极值和最值混淆；1. 忽略象限导致符号错误；2. 同角关系记错"
     },
     {
-      "question_text": "24.（14 分）【选修 4- -5 ；不等式选讲】\n\n设 $a, b, c$ 均为正数, 且 $a+b+c=1$, 证明:\n\n( I ) $a b+b c+c a \\leqslant \\frac{1}{3}$\n\n( II ) $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a} \\geqslant 1$.\n",
-      "answer": "证明: ( I ) 由 $a^{2}+b^{2} \\geqslant 2 a b, b^{2}+c^{2} \\geqslant 2 b c, c^{2}+a^{2} \\geqslant 2 c a$ 得:\n\n$a^{2}+b^{2}+c^{2} \\geqslant a b+b c+c a$\n\n由题设得 $(a+b+c)^{2}=1$, 即 $a^{2}+b^{2}+c^{2}+2 a b+2 b c+2 c a=1$,\n\n所以 $3(a b+b c+c a) \\leqslant 1$, 即 $a b+b c+c a \\leqslant \\frac{1}{3}$.\n\n(II ) 因为 $\\frac{a^{2}}{b}+b \\geqslant 2 a, \\frac{b^{2}}{c}+c \\geqslant 2 b, \\frac{c^{2}}{a}+a \\geqslant 2 c$,\n\n故 $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a}+(a+b+c) \\geqslant 2(a+b+c)$, 即 $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a} \\geqslant a+b+c$.\n\n所以 $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a} \\geqslant 1$.\n",
-      "solution": "( I ) 依题意, 由 $a+b+c=1 \\Rightarrow(a+b+c)^{2}=1 \\Rightarrow a^{2}+b^{2}+c^{2}+2 a b+2 b c+2 c a=1$, 利用基本不等式可得 $3(a b+b c+c a) \\leqslant 1$, 从而得证;\n\n( II ) 利用基本不等式可证得: $\\frac{a^{2}}{b}+b \\geqslant 2 a, \\frac{b^{2}}{c}+c \\geqslant 2 b, \\frac{c^{2}}{a}+a \\geqslant 2 c$, 三式累加即 可证得结论.\n",
+      "question_text": "24.（14 分）【选修 4- -5 ；不等式选讲】\n\n设 $a, b, c$ 均为正数, 且 $a+b+c=1$, 证明:\n\n( I ) $a b+b c+c a \\leqslant \\frac{1}{3}$\n\n( II ) $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a} \\geqslant 1$.",
+      "answer": "证明: ( I ) 由 $a^{2}+b^{2} \\geqslant 2 a b, b^{2}+c^{2} \\geqslant 2 b c, c^{2}+a^{2} \\geqslant 2 c a$ 得:\n\n$a^{2}+b^{2}+c^{2} \\geqslant a b+b c+c a$\n\n由题设得 $(a+b+c)^{2}=1$, 即 $a^{2}+b^{2}+c^{2}+2 a b+2 b c+2 c a=1$,\n\n所以 $3(a b+b c+c a) \\leqslant 1$, 即 $a b+b c+c a \\leqslant \\frac{1}{3}$.\n\n(II ) 因为 $\\frac{a^{2}}{b}+b \\geqslant 2 a, \\frac{b^{2}}{c}+c \\geqslant 2 b, \\frac{c^{2}}{a}+a \\geqslant 2 c$,\n\n故 $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a}+(a+b+c) \\geqslant 2(a+b+c)$, 即 $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a} \\geqslant a+b+c$.\n\n所以 $\\frac{a^{2}}{b}+\\frac{b^{2}}{c}+\\frac{c^{2}}{a} \\geqslant 1$.",
+      "solution": "( I ) 依题意, 由 $a+b+c=1 \\Rightarrow(a+b+c)^{2}=1 \\Rightarrow a^{2}+b^{2}+c^{2}+2 a b+2 b c+2 c a=1$, 利用基本不等式可得 $3(a b+b c+c a) \\leqslant 1$, 从而得证;\n\n( II ) 利用基本不等式可证得: $\\frac{a^{2}}{b}+b \\geqslant 2 a, \\frac{b^{2}}{c}+c \\geqslant 2 b, \\frac{c^{2}}{a}+a \\geqslant 2 c$, 三式累加即 可证得结论.",
       "question_type": "解答题",
       "subject": "数学",
       "education_level": "高中",
