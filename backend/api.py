@@ -31,12 +31,12 @@ async def upload_homework(
     subject: str = Form("数学"),
     db: AsyncSession = Depends(get_db)
 ):
-    """上传作业图片并批改"""
+    """上传作业文件并批改 - 支持图片、PDF、Word、Excel、TXT、MD等多种格式"""
     ensure_upload_dir()
     
-    # 保存上传的图片
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    image_paths = []
+    file_paths = []
+    text_contents = []
     
     for idx, file in enumerate(files):
         filename = f"{timestamp}_{idx}_{file.filename}"
@@ -46,31 +46,64 @@ async def upload_homework(
             content = await file.read()
             await out_file.write(content)
         
-        image_paths.append(filepath)
-    
-    # OCR 识别所有图片
-    ocr_results = []
-    for image_path in image_paths:
+        file_paths.append(filepath)
+        file_ext = file.filename.split('.')[-1].lower() if '.' in file.filename else ''
+        
         try:
-            ocr_text = await ai_client.ocr_image(image_path)
-            ocr_results.append(ocr_text)
+            if file_ext in ['png', 'jpg', 'jpeg', 'gif', 'bmp', 'webp']:
+                ocr_text = await ai_client.ocr_image(filepath)
+                text_contents.append(ocr_text)
+            elif file_ext == 'pdf':
+                try:
+                    import fitz
+                    doc = fitz.open(filepath)
+                    text_parts = []
+                    for page in doc:
+                        text_parts.append(page.get_text())
+                    text_contents.append("\n".join(text_parts))
+                    doc.close()
+                except ImportError:
+                    text_contents.append(await ai_client.ocr_image(filepath))
+                except Exception:
+                    text_contents.append(await ai_client.ocr_image(filepath))
+            elif file_ext in ['doc', 'docx']:
+                try:
+                    from docx import Document
+                    doc = Document(filepath)
+                    text_parts = [para.text for para in doc.paragraphs]
+                    text_contents.append("\n".join(text_parts))
+                except ImportError:
+                    text_contents.append(await ai_client.ocr_image(filepath))
+                except Exception:
+                    text_contents.append(await ai_client.ocr_image(filepath))
+            elif file_ext in ['xls', 'xlsx']:
+                try:
+                    import pandas as pd
+                    df = pd.read_excel(filepath)
+                    text_contents.append(df.to_string())
+                except ImportError:
+                    text_contents.append(await ai_client.ocr_image(filepath))
+                except Exception:
+                    text_contents.append(await ai_client.ocr_image(filepath))
+            elif file_ext in ['txt', 'md']:
+                async with aiofiles.open(filepath, "r", encoding="utf-8") as f:
+                    text_contents.append(await f.read())
+            else:
+                text_contents.append(await ai_client.ocr_image(filepath))
         except Exception as e:
-            raise HTTPException(status_code=500, detail=f"OCR 识别失败：{str(e)}")
+            text_contents.append(f"[文件解析失败: {file.filename}]")
     
-    # 合并 OCR 结果
-    full_ocr_result = "\n\n".join(ocr_results)
+    full_text_result = "\n\n".join(text_contents)
     
-    # 批改作业
     grading_result = await ai_client.grade_homework(
-        ocr_result=full_ocr_result,
+        ocr_result=full_text_result,
         reference_answer=reference_answer,
         subject=subject
     )
     
-    # 创建作业提交记录
     submission = HomeworkSubmission(
-        image_paths=json.dumps(image_paths),
-        ocr_result=full_ocr_result,
+        image_paths=json.dumps(file_paths),
+        ocr_result=full_text_result,
         grading_result=json.dumps(grading_result, ensure_ascii=False),
         wrong_count=grading_result.get("wrong_count", 0),
         score=grading_result.get("score", 0),
@@ -83,9 +116,9 @@ async def upload_homework(
     
     return {
         "submission_id": submission.id,
-        "ocr_result": full_ocr_result,
+        "ocr_result": full_text_result,
         "grading_result": grading_result,
-        "image_count": len(image_paths)
+        "image_count": len(file_paths)
     }
 
 
@@ -118,10 +151,9 @@ async def upload_wrong_question(
     subject: str = Form("数学"),
     db: AsyncSession = Depends(get_db)
 ):
-    """录入错题"""
+    """录入错题 - 支持图片、PDF、Word、Excel、TXT、MD等多种格式"""
     ensure_upload_dir()
     
-    # 保存图片
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     filename = f"{timestamp}_{file.filename}"
     filepath = os.path.join(settings.UPLOAD_DIR, filename)
@@ -130,24 +162,77 @@ async def upload_wrong_question(
         content = await file.read()
         await out_file.write(content)
     
-    # OCR 识别
-    try:
-        ocr_result = await ai_client.ocr_image(filepath)
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"OCR 识别失败：{str(e)}")
+    file_ext = file.filename.split('.')[-1].lower() if '.' in file.filename else ''
+    text_content = ""
     
-    # 解析题目和答案（简单分割）
-    # 实际应用中应该用更智能的方式
-    question_text = ocr_result.split("答案")[0] if "答案" in ocr_result else ocr_result
+    try:
+        if file_ext in ['png', 'jpg', 'jpeg', 'gif', 'bmp', 'webp']:
+            ocr_result = await ai_client.ocr_image(filepath)
+            text_content = ocr_result
+        elif file_ext == 'pdf':
+            try:
+                import fitz
+                doc = fitz.open(filepath)
+                text_parts = []
+                for page in doc:
+                    text_parts.append(page.get_text())
+                text_content = "\n".join(text_parts)
+                doc.close()
+            except ImportError:
+                text_content = await ai_client.ocr_image(filepath)
+            except Exception:
+                text_content = await ai_client.ocr_image(filepath)
+        elif file_ext in ['doc', 'docx']:
+            try:
+                from docx import Document
+                doc = Document(filepath)
+                text_parts = [para.text for para in doc.paragraphs]
+                text_content = "\n".join(text_parts)
+            except ImportError:
+                text_content = await ai_client.ocr_image(filepath)
+            except Exception:
+                text_content = await ai_client.ocr_image(filepath)
+        elif file_ext in ['xls', 'xlsx']:
+            try:
+                import pandas as pd
+                df = pd.read_excel(filepath)
+                text_content = df.to_string()
+            except ImportError:
+                text_content = await ai_client.ocr_image(filepath)
+            except Exception:
+                text_content = await ai_client.ocr_image(filepath)
+        elif file_ext in ['txt', 'md']:
+            async with aiofiles.open(filepath, "r", encoding="utf-8") as f:
+                text_content = await f.read()
+        else:
+            return {
+                "error": "这个文件格式我不太认识呢，试试图片、PDF、Word、Excel 或 TXT 文件吧~",
+                "error_type": "invalid_format",
+                "questions": []
+            }
+    except Exception as e:
+        return {
+            "error": f"解析遇到了一点小麻烦：{str(e)}",
+            "error_type": "parse_failed",
+            "questions": []
+        }
+    
+    if not text_content or len(text_content.strip()) < 10:
+        return {
+            "error": "哎呀，这个文件好像有点'害羞'，什么都没解析出来呢~ 换个文件试试看？",
+            "error_type": "empty",
+            "questions": []
+        }
+    
+    question_text = text_content.split("答案")[0] if "答案" in text_content else text_content
     user_answer = ""
     correct_answer = ""
     
-    if "答案" in ocr_result:
-        parts = ocr_result.split("答案")
+    if "答案" in text_content:
+        parts = text_content.split("答案")
         if len(parts) > 1:
             correct_answer = parts[1]
     
-    # 生成变式题
     try:
         variant_questions = await ai_client.generate_variant_questions(
             question_text=question_text,
@@ -157,9 +242,8 @@ async def upload_wrong_question(
     except:
         variant_questions = []
     
-    # 创建错题记录
     wrong_question = WrongQuestion(
-        user_id=1,  # TODO: 从登录用户获取
+        user_id=1,
         question_text=question_text,
         user_answer=user_answer,
         correct_answer=correct_answer,
@@ -175,7 +259,13 @@ async def upload_wrong_question(
     
     return {
         "id": wrong_question.id,
-        "question_text": question_text,
+        "questions": [{
+            "id": wrong_question.id,
+            "question_text": question_text,
+            "knowledge_point": knowledge_point,
+            "variant_questions": variant_questions,
+            "image_path": filepath
+        }],
         "knowledge_point": knowledge_point,
         "variant_questions": variant_questions,
         "image_path": filepath

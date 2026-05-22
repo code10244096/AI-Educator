@@ -1,34 +1,115 @@
 import React, { useState, useEffect } from 'react'
-import { Plus, Filter, Calendar, CheckCircle, ExternalLink, BookOpen } from 'lucide-react'
+import { Plus, Filter, Calendar, CheckCircle, ExternalLink, BookOpen, FileText, FileSpreadsheet, File, AlertCircle } from 'lucide-react'
 import { notebookAPI } from '../utils/api'
 import ReactMarkdown from 'react-markdown'
 import PageBackground from '../components/PageBackground'
+
+const SUPPORTED_FORMATS = {
+  'image/*': ['png', 'jpg', 'jpeg', 'gif', 'bmp', 'webp'],
+  'application/pdf': ['pdf'],
+  'application/vnd.openxmlformats-officedocument.wordprocessingml.document': ['docx'],
+  'application/msword': ['doc'],
+  'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet': ['xlsx'],
+  'application/vnd.ms-excel': ['xls'],
+  'text/markdown': ['md'],
+  'text/plain': ['txt'],
+}
+
+const FILE_TYPE_ICONS = {
+  image: FileText,
+  pdf: FileText,
+  word: FileText,
+  excel: FileSpreadsheet,
+  text: File,
+}
+
+const FILE_TYPE_LABELS = {
+  image: '图片',
+  pdf: 'PDF',
+  word: 'Word',
+  excel: 'Excel',
+  text: '文本',
+}
+
+const ERROR_MESSAGES = {
+  empty: '哎呀，这个文件好像有点"害羞"，什么都没解析出来呢~ 换个文件试试看？',
+  invalid_format: '这个文件格式我不太认识呢，试试图片、PDF、Word、Excel 或 TXT 文件吧~',
+  parse_failed: '解析遇到了一点小麻烦，可能是文件内容不太清晰，重新上传试试？',
+  no_questions: '翻遍了整个文件，也没找到错题的踪迹~ 确认一下文件里有没有题目内容哦',
+  general: '出了点小状况，稍后再试一次吧~',
+}
 
 const WrongNotebook = () => {
   const [questions, setQuestions] = useState([])
   const [loading, setLoading] = useState(false)
   const [filter, setFilter] = useState({ knowledgePoint: '', subject: '数学' })
   const [isVisible, setIsVisible] = useState(false)
+  const [parseError, setParseError] = useState(null)
+  const [uploadProgress, setUploadProgress] = useState(0)
+  const [uploadedFileName, setUploadedFileName] = useState('')
   
   useEffect(() => {
     setIsVisible(true)
   }, [])
   
+  const getFileType = (file) => {
+    const ext = file.name.split('.').pop().toLowerCase()
+    if (['png', 'jpg', 'jpeg', 'gif', 'bmp', 'webp'].includes(ext)) return 'image'
+    if (ext === 'pdf') return 'pdf'
+    if (['doc', 'docx'].includes(ext)) return 'word'
+    if (['xls', 'xlsx'].includes(ext)) return 'excel'
+    if (['md', 'txt'].includes(ext)) return 'text'
+    return 'unknown'
+  }
+  
   const handleUpload = async (event) => {
     const file = event.target.files[0]
     if (!file) return
     
+    const fileType = getFileType(file)
+    
+    if (fileType === 'unknown') {
+      setParseError({ type: 'invalid_format', message: ERROR_MESSAGES.invalid_format })
+      return
+    }
+    
     setLoading(true)
+    setParseError(null)
+    setUploadProgress(0)
+    setUploadedFileName(file.name)
+    
+    const progressInterval = setInterval(() => {
+      setUploadProgress(prev => {
+        if (prev >= 90) {
+          clearInterval(progressInterval)
+          return 90
+        }
+        return prev + 10
+      })
+    }, 200)
+    
     try {
       const response = await notebookAPI.upload(
         file,
         filter.knowledgePoint || '未分类',
         filter.subject
       )
-      setQuestions(prev => [response, ...prev])
+      
+      clearInterval(progressInterval)
+      setUploadProgress(100)
+      
+      if (response && response.questions && response.questions.length > 0) {
+        setQuestions(prev => [...response.questions, ...prev])
+        setUploadedFileName('')
+      } else if (response && response.error) {
+        setParseError({ type: response.error_type || 'general', message: response.error || ERROR_MESSAGES.general })
+      } else {
+        setParseError({ type: 'no_questions', message: ERROR_MESSAGES.no_questions })
+      }
     } catch (error) {
       console.error('录入失败:', error)
-      alert('录入失败，请重试')
+      clearInterval(progressInterval)
+      setParseError({ type: 'parse_failed', message: ERROR_MESSAGES.parse_failed })
     } finally {
       setLoading(false)
     }
@@ -69,7 +150,7 @@ const WrongNotebook = () => {
               <span className="font-medium">录入错题</span>
               <input
                 type="file"
-                accept="image/*"
+                accept="image/*,.pdf,.doc,.docx,.xls,.xlsx,.md,.txt"
                 onChange={handleUpload}
                 className="hidden"
                 id="upload-wrong"
@@ -104,6 +185,27 @@ const WrongNotebook = () => {
               <BookOpen className="h-8 w-8 text-green-500 animate-pulse" />
             </div>
             <p className="text-gray-600 font-medium">正在录入错题...</p>
+            {uploadedFileName && (
+              <p className="text-sm text-gray-500 mt-2">正在解析：{uploadedFileName}</p>
+            )}
+            <div className="mt-4 max-w-xs mx-auto">
+              <div className="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
+                <div
+                  className="bg-gradient-to-r from-green-500 to-emerald-500 h-full rounded-full transition-all duration-300 ease-out"
+                  style={{ width: `${uploadProgress}%` }}
+                />
+              </div>
+            </div>
+          </div>
+        )}
+        
+        {parseError && !loading && (
+          <div className="mb-6 p-6 bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl border border-amber-200 text-center">
+            <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <AlertCircle className="h-8 w-8 text-amber-500" />
+            </div>
+            <p className="text-amber-800 font-medium text-lg">{parseError.message}</p>
+            <p className="text-amber-600 text-sm mt-2">支持格式：图片、PDF、Word、Excel、Markdown、TXT</p>
           </div>
         )}
         

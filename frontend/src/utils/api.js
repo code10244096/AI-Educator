@@ -11,7 +11,7 @@ const api = axios.create({
 
 // 作业批改 API
 export const homeworkAPI = {
-  upload: async (files, referenceAnswer, subject = '数学') => {
+  upload: async (files, referenceAnswer, subject = '数学', onProgress = null) => {
     const formData = new FormData()
     files.forEach(file => {
       formData.append('files', file)
@@ -24,6 +24,12 @@ export const homeworkAPI = {
     const response = await api.post('/grader/upload', formData, {
       headers: {
         'Content-Type': 'multipart/form-data',
+      },
+      onUploadProgress: (progressEvent) => {
+        if (onProgress && progressEvent.total) {
+          const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total)
+          onProgress(percentCompleted)
+        }
       },
     })
     return response.data

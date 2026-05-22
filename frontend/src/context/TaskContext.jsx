@@ -27,9 +27,17 @@ export const TaskProvider = ({ children }) => {
   }, [])
   
   const addTask = (task) => {
-    const updatedTasks = [task, ...tasks]
+    const newTask = {
+      id: Date.now().toString(),
+      progress: 0,
+      progressLabel: '',
+      createdAt: new Date().toISOString(),
+      ...task
+    }
+    const updatedTasks = [newTask, ...tasks]
     setTasks(updatedTasks)
     localStorage.setItem('globalTasks', JSON.stringify(updatedTasks))
+    return newTask.id
   }
   
   const updateTask = (taskId, updates) => {

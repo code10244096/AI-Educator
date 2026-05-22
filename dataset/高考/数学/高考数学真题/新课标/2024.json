@@ -1,0 +1,41 @@
+{
+  "year": 2024,
+  "region": "新课标II",
+  "total_questions": 2,
+  "questions": [
+    {
+      "question_text": "1、数学真题试卷",
+      "answer": "",
+      "solution": "",
+      "question_type": "未知",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2024,
+      "region": "新课标II",
+      "knowledge_points": [],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "",
+      "teaching_tips": "",
+      "common_mistakes": ""
+    },
+    {
+      "question_text": "2、数学答案解析\n同学们若想查阅新高考二卷的其余科目真题及答案，可以直接点击下方蓝色字体查看最新汇总情况：\n【2024年新高考二卷各科真题及答案解析】",
+      "answer": "",
+      "solution": "",
+      "question_type": "未知",
+      "subject": "数学",
+      "education_level": "高中",
+      "exam_type": "高考",
+      "year": 2024,
+      "region": "新课标II",
+      "knowledge_points": [],
+      "difficulty": 3,
+      "score": 5.0,
+      "source_url": "",
+      "teaching_tips": "",
+      "common_mistakes": ""
+    }
+  ]
+}
