@@ -1,0 +1,40 @@
+{
+  "description": "高考数学真题PDF资源索引",
+  "resources": [
+    {
+      "year": 2024,
+      "region": "新高考I卷",
+      "files": [
+        "main.pdf",
+        "main.tex",
+        "20240608-1.pdf",
+        "20240608-1.jpg"
+      ],
+      "source": "https://github.com/ajsadhotmail/2024-China-Gaokao-Math",
+      "note": "适用于: 广东、福建、湖南、湖北、浙江、江苏、山东、河北"
+    },
+    {
+      "year": "2000-2009",
+      "region": "全国卷I/II",
+      "files": [
+        "2009-2001高考全国卷数学真题及答案精编整理.pdf"
+      ],
+      "source": "网络资源整理",
+      "note": "包含2001-2009年全国卷I/II文理科数学真题"
+    },
+    {
+      "year": "1978-2010",
+      "region": "全国卷",
+      "files": [
+        "中国高考真题全编-理科数学(1978-2010年).pdf"
+      ],
+      "source": "网络资源整理",
+      "note": "包含1978-2010年理科数学真题汇编"
+    }
+  ],
+  "processing_notes": [
+    "PDF文件需要使用OCR或大模型进行解析",
+    "可使用recognize_gaokao_pdf.py脚本进行批量识别",
+    "解析后的数据将转换为JSON格式存入对应年份目录"
+  ]
+}

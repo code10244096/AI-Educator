@@ -1,0 +1,129 @@
+{
+  "report_title": "高考数学真题数据集统计报告",
+  "generated_at": "2026-05-23",
+  "summary": {
+    "total_questions": 5261,
+    "total_regions": 12,
+    "total_files": 33,
+    "year_range": "2013-2024",
+    "years_covered": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+    "pdf_resources": {
+      "total_files": 6,
+      "total_size_mb": 0.23,
+      "description": "2024年新高考I卷PDF/LaTeX资源"
+    }
+  },
+  "region_coverage": {
+    "上海": {
+      "total_questions": 21,
+      "years": [2024],
+      "files": 1
+    },
+    "全国乙卷": {
+      "total_questions": 33,
+      "years": [2022],
+      "files": 1
+    },
+    "全国卷": {
+      "total_questions": 4399,
+      "years": [2024],
+      "files": 1
+    },
+    "全国卷III": {
+      "total_questions": 35,
+      "years": [2020],
+      "files": 1
+    },
+    "全国甲卷": {
+      "total_questions": 90,
+      "years": [2021, 2022, 2023, 2024],
+      "files": 4
+    },
+    "北京": {
+      "total_questions": 21,
+      "years": [2024],
+      "files": 1
+    },
+    "天津": {
+      "total_questions": 22,
+      "years": [2024],
+      "files": 1
+    },
+    "新课标III卷": {
+      "total_questions": 119,
+      "years": [2016, 2017, 2018, 2019],
+      "files": 4
+    },
+    "新课标II卷": {
+      "total_questions": 249,
+      "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
+      "files": 8
+    },
+    "新课标I卷": {
+      "total_questions": 252,
+      "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
+      "files": 9
+    },
+    "新高考II卷": {
+      "total_questions": 7,
+      "years": [2023],
+      "files": 1
+    },
+    "新高考I卷": {
+      "total_questions": 13,
+      "years": [2023],
+      "files": 1
+    }
+  },
+  "data_sources": [
+    {
+      "source": "GAOKAO-Bench",
+      "years": "2010-2022",
+      "description": "OpenLMLab开源高考真题数据集",
+      "url": "https://github.com/OpenLMLab/GAOKAO-Bench"
+    },
+    {
+      "source": "HighMATH 2024",
+      "years": "2024",
+      "description": "2024年高考数学真题数据集(5293题)",
+      "url": "https://github.com/THU-KEG/HighMATH"
+    },
+    {
+      "source": "2024-China-Gaokao-Math",
+      "years": "2024",
+      "description": "2024年新高考I卷PDF/LaTeX资源",
+      "url": "https://github.com/ajsadhotmail/2024-China-Gaokao-Math"
+    },
+    {
+      "source": "网络资源整理",
+      "years": "2000-2009, 2023-2024",
+      "description": "PDF格式真题汇编(待解析)"
+    }
+  ],
+  "processing_completed": [
+    "从GAOKAO-Bench下载并转换2010-2022年数学数据(844题)",
+    "从HighMATH转换2024年数学数据(4399题)",
+    "完成去重处理,删除重复题目5947道",
+    "统一文件夹命名规范(新课标I卷/II卷/III卷)",
+    "删除空文件夹和重复文件夹",
+    "整理PDF资源到PDF资源目录"
+  ],
+  "pdf_resources": {
+    "location": "dataset/高考/数学/高考数学真题/PDF资源",
+    "files": [
+      "2024年新高考I卷/main.pdf",
+      "2024年新高考I卷/main.tex",
+      "2024年新高考I卷/20240608-1.pdf",
+      "2024年新高考I卷/20240608-1.jpg",
+      "2024年新高考I卷/20240608-2.pdf",
+      "2024年新高考I卷/20240608-3.jpg"
+    ],
+    "note": "PDF文件需要使用OCR或大模型进行解析,可使用recognize_gaokao_pdf.py脚本"
+  },
+  "next_steps": [
+    "使用大模型解析PDF真题,转换为JSON格式",
+    "补充2000-2009年各省份独立命题数据",
+    "补充2023-2024年更多省份的新高考试卷",
+    "完善题目知识点标注和难度分级"
+  ]
+}
