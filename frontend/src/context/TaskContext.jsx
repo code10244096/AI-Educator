@@ -27,37 +27,46 @@ export const TaskProvider = ({ children }) => {
   }, [])
   
   const addTask = (task) => {
+    const newId = Date.now().toString()
     const newTask = {
-      id: Date.now().toString(),
+      id: newId,
       progress: 0,
       progressLabel: '',
       createdAt: new Date().toISOString(),
       ...task
     }
-    const updatedTasks = [newTask, ...tasks]
-    setTasks(updatedTasks)
-    localStorage.setItem('globalTasks', JSON.stringify(updatedTasks))
-    return newTask.id
+    setTasks(prev => {
+      const updatedTasks = [newTask, ...prev]
+      localStorage.setItem('globalTasks', JSON.stringify(updatedTasks))
+      return updatedTasks
+    })
+    return newId
   }
   
   const updateTask = (taskId, updates) => {
-    const updatedTasks = tasks.map(task => 
-      task.id === taskId ? { ...task, ...updates } : task
-    )
-    setTasks(updatedTasks)
-    localStorage.setItem('globalTasks', JSON.stringify(updatedTasks))
+    setTasks(prev => {
+      const updatedTasks = prev.map(task => 
+        task.id === taskId ? { ...task, ...updates } : task
+      )
+      localStorage.setItem('globalTasks', JSON.stringify(updatedTasks))
+      return updatedTasks
+    })
   }
   
   const removeTask = (taskId) => {
-    const updatedTasks = tasks.filter(task => task.id !== taskId)
-    setTasks(updatedTasks)
-    localStorage.setItem('globalTasks', JSON.stringify(updatedTasks))
+    setTasks(prev => {
+      const updatedTasks = prev.filter(task => task.id !== taskId)
+      localStorage.setItem('globalTasks', JSON.stringify(updatedTasks))
+      return updatedTasks
+    })
   }
   
   const clearCompleted = () => {
-    const updatedTasks = tasks.filter(task => task.status !== 'completed')
-    setTasks(updatedTasks)
-    localStorage.setItem('globalTasks', JSON.stringify(updatedTasks))
+    setTasks(prev => {
+      const updatedTasks = prev.filter(task => task.status !== 'completed')
+      localStorage.setItem('globalTasks', JSON.stringify(updatedTasks))
+      return updatedTasks
+    })
   }
   
   return (
