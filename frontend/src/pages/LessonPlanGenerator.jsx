@@ -4,8 +4,8 @@ import { lessonPlanAPI } from '../utils/api'
 import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
-import PageBackground from '../components/PageBackground'
 import { useTask } from '../context/TaskContext'
+import PageBackground from '../components/PageBackground'
 import 'katex/dist/katex.min.css'
 import html2pdf from 'html2pdf.js'
 
@@ -50,22 +50,18 @@ const LessonPlanGenerator = () => {
       return
     }
     
-    const taskId = Date.now().toString()
     const newTask = {
-      id: taskId,
       type: 'lessonplan',
-      title: formData.title,
+      title: `生成《${formData.title}》教案`,
       period: formData.period,
       studentLevel: formData.studentLevel,
       requirements: formData.requirements,
       status: 'running',
-      startTime: new Date().toISOString(),
-      elapsedTime: 0,
-      result: null,
-      error: null
+      progress: 0,
+      progressLabel: '正在生成教案...',
     }
     
-    addTask(newTask)
+    const taskId = addTask(newTask)
     setCurrentTaskId(taskId)
     
     setLoading(true)
@@ -84,8 +80,9 @@ const LessonPlanGenerator = () => {
       
       updateTask(taskId, {
         status: 'completed',
+        progress: 100,
+        progressLabel: '生成完成',
         result: response,
-        elapsedTime: elapsedTime
       })
     } catch (error) {
       console.error('生成失败:', error)
@@ -93,6 +90,8 @@ const LessonPlanGenerator = () => {
       
       updateTask(taskId, {
         status: 'failed',
+        progress: 0,
+        progressLabel: '生成失败',
         error: error.response?.data?.detail || error.message || '生成失败'
       })
     } finally {

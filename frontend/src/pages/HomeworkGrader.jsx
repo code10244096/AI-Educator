@@ -212,20 +212,18 @@ const HomeworkGrader = () => {
   }
   
   return (
-    <PageBackground gradient="grader">
-      <div className={`max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12 transition-all duration-1000 ${
-        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
-      }`}>
-        <div className="bg-white/90 backdrop-blur-md rounded-2xl shadow-xl p-8 border border-white/20">
+    <div className="p-6">
+      <div className="max-w-4xl mx-auto">
+        <div className="bg-white rounded-xl border border-gray-200 p-6">
           <div className="flex items-center space-x-3 mb-6">
-            <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center shadow-lg">
-              <Upload className="h-6 w-6 text-white" />
+            <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center">
+              <Upload className="h-5 w-5 text-white" />
             </div>
             <div>
-              <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
+              <h2 className="text-xl font-bold text-gray-900">
                 AI 作业批改助手
               </h2>
-              <p className="text-sm text-gray-600">拍照上传，智能批改，实时反馈</p>
+              <p className="text-sm text-gray-500">拍照上传，智能批改，实时反馈</p>
             </div>
           </div>
           
@@ -425,7 +423,7 @@ const HomeworkGrader = () => {
           )}
         </div>
       </div>
-    </PageBackground>
+    </div>
   )
 }
 
