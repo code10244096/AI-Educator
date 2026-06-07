@@ -35,6 +35,31 @@ async def get_db():
 
 
 async def init_db():
-    """初始化数据库"""
+    """初始化数据库（检测 schema 变更时自动重建）"""
+    from sqlalchemy import inspect
+
     async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
+        def _setup(connection):
+            inspector = inspect(connection)
+            required_columns = {
+                "homework_assignments": ["dataset_file_id", "status", "assign_date"],
+                "homework_submissions": ["student_name", "grading_status", "dataset_file_id"],
+            }
+            needs_rebuild = False
+            for table, cols in required_columns.items():
+                if inspector.has_table(table):
+                    existing = {c["name"] for c in inspector.get_columns(table)}
+                    if not all(c in existing for c in cols):
+                        needs_rebuild = True
+                        break
+                elif table == "class_members" and not inspector.has_table("class_members"):
+                    needs_rebuild = True
+
+            if not inspector.has_table("class_members"):
+                needs_rebuild = True
+
+            if needs_rebuild:
+                Base.metadata.drop_all(connection)
+            Base.metadata.create_all(connection)
+
+        await conn.run_sync(_setup)

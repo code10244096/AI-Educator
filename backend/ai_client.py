@@ -14,6 +14,8 @@ class AIClient:
         self.ocr_model = settings.OCR_MODEL
         self.grader_model = settings.GRADER_MODEL
         self.lessonplan_model = settings.LESSONPLAN_MODEL
+        # 调试模式：当 API key 未配置时使用模拟数据
+        self.is_debug_mode = not self.api_key or self.api_key == "your_api_key_here"
     
     async def _make_request(
         self,
@@ -29,7 +31,7 @@ class AIClient:
         }
         
         payload = {
-            "model": model or self.model,
+            "model": model or self.grader_model,
             "messages": messages,
             "temperature": temperature,
             "max_tokens": max_tokens
@@ -87,6 +89,10 @@ class AIClient:
         subject: str = "数学"
     ) -> Dict:
         """批改作业"""
+        # 调试模式：使用模拟批改结果
+        if self.is_debug_mode:
+            return self._mock_grade_homework(ocr_result, reference_answer, subject)
+        
         prompt = f"""
 你是一位经验丰富且专业的{subject}老师，请批改这份作业。
 
@@ -124,6 +130,98 @@ class AIClient:
                 "error": "批改结果解析失败",
                 "raw_result": result
             }
+    
+    def _mock_grade_homework(
+        self,
+        ocr_result: str,
+        reference_answer: Optional[str] = None,
+        subject: str = "数学"
+    ) -> Dict:
+        """模拟批改作业（调试模式）"""
+        import re
+        
+        # 解析题目（匹配 ### 数字. 开头的内容）
+        questions = []
+        question_pattern = r"###\s*(\d+)\.\s*(.*?)(?=\n###\s*\d+\.|##\s|$)"
+        matches = re.finditer(question_pattern, ocr_result, re.DOTALL)
+        
+        for match in matches:
+            question_number = int(match.group(1))
+            content = match.group(2).strip()
+            
+            # 提取学生答案
+            student_answer = ""
+            answer_match = re.search(r"学生答案[：:]?\s*(.+?)(?=\n---|\n###|\Z)", content, re.DOTALL)
+            if answer_match:
+                student_answer = answer_match.group(1).strip()
+            elif "**学生答案**" in content:
+                parts = content.split("**学生答案**")
+                if len(parts) > 1:
+                    remaining = parts[1]
+                    # 提取到下一个分隔符或结束
+                    end_idx = remaining.find("\n---")
+                    if end_idx == -1:
+                        end_idx = remaining.find("\n###")
+                    if end_idx == -1:
+                        end_idx = len(remaining)
+                    student_answer = remaining[:end_idx].strip()
+            
+            # 解析参考答案（如果有）
+            correct_answer = ""
+            if reference_answer:
+                ref_match = re.search(rf"{question_number}\.\s*([^\n]+)", reference_answer)
+                if ref_match:
+                    correct_answer = ref_match.group(1).strip()
+            
+            # 判断是否正确（简单匹配）
+            is_correct = False
+            explanation = ""
+            
+            if student_answer and correct_answer:
+                # 去除空格和换行进行比较
+                clean_student = re.sub(r'\s+', '', student_answer).lower()
+                clean_correct = re.sub(r'\s+', '', correct_answer).lower()
+                
+                # 简单匹配逻辑
+                if clean_student == clean_correct:
+                    is_correct = True
+                    explanation = "答案正确。"
+                elif clean_student in clean_correct or clean_correct in clean_student:
+                    is_correct = True
+                    explanation = "答案正确。"
+                else:
+                    explanation = f"答案错误。学生答案：{student_answer}，正确答案：{correct_answer}"
+            else:
+                # 随机决定对错（模拟）
+                is_correct = (question_number % 3) != 0  # 大约 2/3 正确
+                if is_correct:
+                    explanation = "答案正确。"
+                else:
+                    explanation = f"答案错误。需要进一步检查解题过程。"
+            
+            questions.append({
+                "question_number": question_number,
+                "question_text": content[:100] + "..." if len(content) > 100 else content,
+                "student_answer": student_answer if student_answer else "未作答",
+                "correct_answer": correct_answer if correct_answer else "未提供",
+                "is_correct": is_correct,
+                "explanation": explanation
+            })
+        
+        total_questions = len(questions)
+        correct_count = sum(1 for q in questions if q["is_correct"])
+        wrong_count = total_questions - correct_count
+        score = round((correct_count / total_questions) * 100) if total_questions > 0 else 0
+        
+        return {
+            "total_questions": total_questions,
+            "correct_count": correct_count,
+            "wrong_count": wrong_count,
+            "score": score,
+            "questions": questions,
+            "debug_mode": True,
+            "message": "使用模拟批改模式（调试用）"
+        }
     
     async def generate_variant_questions(
         self,

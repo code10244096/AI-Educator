@@ -7,12 +7,14 @@ import LessonPlanGenerator from './pages/LessonPlanGenerator'
 import ClassData from './pages/ClassData'
 import QuestionBank from './pages/QuestionBank'
 import MyTasks from './pages/MyTasks'
+import TaskDetail from './pages/TaskDetail'
 import Settings from './pages/Settings'
 import WelcomePage from './pages/WelcomePage'
 import { TaskProvider } from './context/TaskContext'
 import { LayoutProvider } from './context/LayoutContext'
 import { ClassProvider } from './context/ClassContext'
 import { ToastProvider } from './components/Toast'
+
 
 function App() {
   return (
@@ -32,6 +34,7 @@ function App() {
                 <Route path="/class/*" element={<ClassData />} />
                 <Route path="/questionbank/*" element={<QuestionBank />} />
                 <Route path="/tasks" element={<MyTasks />} />
+                <Route path="/tasks/:taskId" element={<TaskDetail />} />
                 <Route path="/settings" element={<Settings />} />
               </Routes>
             </main>

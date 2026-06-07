@@ -20,12 +20,20 @@ if errorlevel 1 (
     exit /b 1
 )
 
-echo [2/3] 启动后端服务...
+echo [2/4] 清理旧端口 (8000, 3000, 5173)...
+for %%P in (8000 3000 5173) do (
+    for /f "tokens=5" %%A in ('netstat -ano ^| findstr ":%%P " ^| findstr LISTENING') do (
+        taskkill /PID %%A /F >nul 2>&1
+    )
+)
+timeout /t 2 >nul
+
+echo [3/4] 启动后端服务...
 cd backend
 start "AI后端服务" cmd /k "uvicorn main:app --reload --host 0.0.0.0 --port 8000"
 timeout /t 3 >nul
 
-echo [3/3] 启动前端服务...
+echo [4/4] 启动前端服务...
 cd ..\frontend
 start "AI前端服务" cmd /k "npm run dev"
 
@@ -33,7 +41,7 @@ echo.
 echo ========================================
 echo 服务已启动！
 echo ========================================
-echo 前端：http://localhost:5173
+echo 前端：http://localhost:3000
 echo 后端：http://localhost:8000
 echo API文档：http://localhost:8000/docs
 echo.

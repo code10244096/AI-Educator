@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useMemo } from 'react'
+import { useNavigate } from 'react-router-dom'
 import {
   Clock,
   CheckCircle,
-  AlertCircle,
   FileCheck,
   FileText,
   Users,
@@ -11,15 +11,18 @@ import {
   Trash2,
   Search,
   Loader2,
-  XCircle
+  XCircle,
+  ClipboardList,
 } from 'lucide-react'
 import { useTask } from '../context/TaskContext'
 import { useClass } from '../context/ClassContext'
 import { useToast } from '../components/Toast'
 import ConfirmDialog from '../components/ConfirmDialog'
+import { fetchAllGradingTasks } from '../services/homeworkService'
 
 const MyTasks = () => {
-  const { tasks, updateTask, removeTask, clearCompleted } = useTask()
+  const navigate = useNavigate()
+  const { tasks, removeTask, clearCompleted } = useTask()
   const { classes } = useClass()
   const { addToast } = useToast()
   const [activeTab, setActiveTab] = useState('pending')
@@ -27,9 +30,28 @@ const MyTasks = () => {
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false)
   const [deleteTargetId, setDeleteTargetId] = useState(null)
 
+  const [homeworkGradingTasks, setHomeworkGradingTasks] = React.useState([])
+
+  React.useEffect(() => {
+    fetchAllGradingTasks()
+      .then(setHomeworkGradingTasks)
+      .catch(() => setHomeworkGradingTasks([]))
+  }, [classes, tasks])
+
+  const allTasks = useMemo(() => {
+    const merged = [...homeworkGradingTasks, ...tasks]
+    const seen = new Set()
+    return merged.filter(t => {
+      if (seen.has(t.id)) return false
+      seen.add(t.id)
+      return true
+    })
+  }, [homeworkGradingTasks, tasks])
+
   const getTypeIcon = (type) => {
     switch (type) {
       case 'grader': return <FileCheck className="h-4 w-4" />
+      case 'homework-grading': return <ClipboardList className="h-4 w-4" />
       case 'lessonplan': return <FileText className="h-4 w-4" />
       case 'alert': return <Bell className="h-4 w-4" />
       case 'exam': return <Users className="h-4 w-4" />
@@ -39,7 +61,8 @@ const MyTasks = () => {
 
   const getTypeLabel = (type) => {
     switch (type) {
-      case 'grader': return '作业批改'
+      case 'grader': return 'AI 批改'
+      case 'homework-grading': return '班级作业批改'
       case 'lessonplan': return '教案生成'
       case 'alert': return '预警提醒'
       case 'exam': return '成绩管理'
@@ -50,6 +73,7 @@ const MyTasks = () => {
   const getTypeColor = (type) => {
     switch (type) {
       case 'grader': return 'bg-blue-100 text-blue-700'
+      case 'homework-grading': return 'bg-orange-100 text-orange-700'
       case 'lessonplan': return 'bg-purple-100 text-purple-700'
       case 'alert': return 'bg-red-100 text-red-700'
       case 'exam': return 'bg-green-100 text-green-700'
@@ -91,30 +115,34 @@ const MyTasks = () => {
     return date.toLocaleDateString('zh-CN')
   }
 
-  const filteredTasks = tasks.filter(t => {
+  const filteredTasks = allTasks.filter(t => {
     const matchesTab = t.status === activeTab
     const matchesSearch = t.title.toLowerCase().includes(searchTerm.toLowerCase())
     return matchesTab && matchesSearch
   })
 
-  const pendingCount = tasks.filter(t => t.status === 'pending').length
-  const runningCount = tasks.filter(t => t.status === 'running').length
-  const completedCount = tasks.filter(t => t.status === 'completed').length
-  const failedCount = tasks.filter(t => t.status === 'failed').length
+  const pendingCount = allTasks.filter(t => t.status === 'pending').length
+  const runningCount = allTasks.filter(t => t.status === 'running').length
+  const completedCount = allTasks.filter(t => t.status === 'completed').length
+  const failedCount = allTasks.filter(t => t.status === 'failed').length
 
   const handleViewTask = (task) => {
-    if (task.type === 'grader' && task.result) {
-      window.dispatchEvent(new CustomEvent('viewTask', { detail: task }))
-      window.location.hash = '/grader'
+    if (task.type === 'homework-grading') {
+      navigate(`/class/${task.classId}/homework/${task.homeworkId}`)
+    } else if (task.type === 'grader' && task.result) {
+      navigate(`/tasks/${task.id}`)
     } else if (task.type === 'lessonplan' && task.result) {
-      window.dispatchEvent(new CustomEvent('viewTask', { detail: task }))
-      window.location.hash = '/lessonplan'
+      navigate(`/tasks/${task.id}`)
     } else {
       addToast('该任务暂无详情可查看', 'info')
     }
   }
 
   const handleDeleteTask = (id) => {
+    if (String(id).startsWith('hw-')) {
+      addToast('班级作业批改任务请从作业看板管理', 'info')
+      return
+    }
     setDeleteTargetId(id)
     setShowDeleteConfirm(true)
   }
@@ -126,15 +154,6 @@ const MyTasks = () => {
     addToast('任务已删除', 'success')
   }
 
-  const handleClearCompleted = () => {
-    if (completedCount === 0) {
-      addToast('没有已完成的任务', 'info')
-      return
-    }
-    clearCompleted()
-    addToast(`已清除 ${completedCount} 个已完成任务`, 'success')
-  }
-
   const tabs = [
     { id: 'running', label: '进行中', count: runningCount, icon: Loader2 },
     { id: 'pending', label: '待处理', count: pendingCount, icon: Clock },
@@ -144,20 +163,9 @@ const MyTasks = () => {
 
   return (
     <div className="p-6 space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h2 className="text-xl font-bold text-gray-900">我的任务</h2>
-          <p className="text-sm text-gray-500 mt-1">管理待办事项与任务进度</p>
-        </div>
-        {completedCount > 0 && (
-          <button
-            onClick={handleClearCompleted}
-            className="inline-flex items-center space-x-2 px-4 py-2 border border-gray-300 rounded-xl text-sm text-gray-600 hover:bg-gray-50 transition-colors"
-          >
-            <Trash2 className="h-4 w-4" />
-            <span>清除已完成</span>
-          </button>
-        )}
+      <div>
+        <h2 className="text-xl font-bold text-gray-900">我的任务</h2>
+        <p className="text-sm text-gray-500 mt-1">管理待办事项与任务进度</p>
       </div>
 
       <div className="flex items-center justify-between">
@@ -220,7 +228,7 @@ const MyTasks = () => {
                     {task.files && <span>{task.files.length} 个文件</span>}
                     {task.error && <span className="text-red-500">{task.error}</span>}
                   </div>
-                  {task.status === 'running' && task.progress !== undefined && (
+                  {(task.status === 'running' || task.type === 'homework-grading') && task.progress !== undefined && (
                     <div className="mt-3 w-64">
                       <div className="flex items-center justify-between text-xs text-gray-500 mb-1">
                         <span>{task.progressLabel || '处理中'}</span>
@@ -228,7 +236,11 @@ const MyTasks = () => {
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-2">
                         <div
-                          className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full transition-all"
+                          className={`h-2 rounded-full transition-all ${
+                            task.type === 'homework-grading'
+                              ? 'bg-gradient-to-r from-orange-400 to-orange-500'
+                              : 'bg-gradient-to-r from-blue-500 to-purple-500'
+                          }`}
                           style={{ width: `${task.progress}%` }}
                         />
                       </div>
@@ -237,7 +249,7 @@ const MyTasks = () => {
                 </div>
               </div>
               <div className="flex items-center space-x-2">
-                {(task.status === 'completed' || task.status === 'running') && (
+                {(task.status === 'completed' || task.status === 'running' || task.type === 'homework-grading') && (
                   <button
                     onClick={() => handleViewTask(task)}
                     className="p-2 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded-xl transition-colors"

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Routes, Route, useNavigate, useLocation, useParams } from 'react-router-dom'
+import { Routes, Route, useNavigate, useLocation, useParams, Link } from 'react-router-dom'
 import {
   ClipboardList,
   Archive,
@@ -11,16 +11,21 @@ import {
   Clock,
   BarChart3,
   Search,
-  Filter,
-  Download,
   Plus,
   Edit,
-  Trash2,
   Eye,
-  Award,
   BookOpen,
-  GraduationCap
+  GraduationCap,
+  Upload,
+  XCircle,
+  FileCheck,
+  ChevronRight,
+  ListTodo,
 } from 'lucide-react'
+import HomeworkDetail from './HomeworkDetail'
+import { useHomeworkBoard } from '../hooks/useClassHomework'
+import ClassStats from '../components/ClassStats'
+import { classAPI } from '../utils/api'
 
 const classInfo = {
   class1: { name: '高三1班', students: 45, subject: '数学' },
@@ -29,30 +34,34 @@ const classInfo = {
 }
 
 const HomeworkBoard = ({ classId }) => {
+  const navigate = useNavigate()
   const info = classInfo[classId] || classInfo.class1
-  const [selectedSubject] = useState('数学')
-  
-  const homeworkStats = {
-    total: 45,
-    graded: 38,
-    pending: 7,
-    avgScore: 78.5,
-    passRate: 82.3,
+  const { stats: homeworkStats, homeworkList: recentHomework, gradingTasks, alertStudents, loading, error, reload } = useHomeworkBoard(classId)
+  const [classStats, setClassStats] = React.useState(null)
+
+  React.useEffect(() => {
+    classAPI.getStats(classId).then(setClassStats).catch(() => setClassStats(null))
+  }, [classId, homeworkStats])
+
+  const currentHomework = homeworkStats?.currentHomework
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center py-16 text-gray-500">
+        <Clock className="h-5 w-5 mr-2 animate-spin" />
+        加载作业数据...
+      </div>
+    )
   }
-  
-  const recentHomework = [
-    { id: 1, title: '三角函数综合练习', date: '2024-01-15', submitted: 42, total: 45, avgScore: 78.5, status: '已批改' },
-    { id: 2, title: '数列求和专项训练', date: '2024-01-12', submitted: 45, total: 45, avgScore: 82.1, status: '已批改' },
-    { id: 3, title: '立体几何单元测试', date: '2024-01-10', submitted: 44, total: 45, avgScore: 75.8, status: '已批改' },
-    { id: 4, title: '概率统计课后作业', date: '2024-01-08', submitted: 38, total: 45, avgScore: 0, status: '待批改' },
-    { id: 5, title: '导数应用练习题', date: '2024-01-05', submitted: 45, total: 45, avgScore: 80.2, status: '已批改' },
-  ]
-  
-  const alertStudents = [
-    { name: '张三', score: 45, trend: 'down', warning: '连续3次低于60分' },
-    { name: '李四', score: 52, trend: 'down', warning: '作业提交率低于80%' },
-    { name: '王五', score: 58, trend: 'stable', warning: '错题率高于60%' },
-  ]
+
+  if (error) {
+    return (
+      <div className="text-center py-16">
+        <p className="text-red-500 mb-3">{error}</p>
+        <button onClick={reload} className="text-blue-600 text-sm hover:underline">重试</button>
+      </div>
+    )
+  }
   
   return (
     <div className="space-y-6">
@@ -63,34 +72,72 @@ const HomeworkBoard = ({ classId }) => {
         </div>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+      {homeworkStats && currentHomework && (
+        <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl border border-blue-100 p-5">
+          <div className="flex items-center justify-between flex-wrap gap-3">
+            <div>
+              <p className="text-xs text-blue-600 font-medium uppercase tracking-wide">当前关注作业</p>
+              <h3 className="text-lg font-bold text-gray-900 mt-1">{currentHomework.title}</h3>
+              <p className="text-sm text-gray-500 mt-1">
+                截止 {currentHomework.deadline} ·
+                <span className={`ml-1 font-medium ${currentHomework.status === '待批改' ? 'text-orange-600' : 'text-green-600'}`}>
+                  {currentHomework.status}
+                </span>
+              </p>
+            </div>
+            <button
+              onClick={() => navigate(`/class/${classId}/homework/${currentHomework.id}`)}
+              className="inline-flex items-center px-4 py-2 bg-white border border-blue-200 text-blue-700 rounded-lg text-sm hover:bg-blue-50 transition-colors"
+            >
+              查看提交详情
+              <ChevronRight className="h-4 w-4 ml-1" />
+            </button>
+          </div>
+          <div className="mt-4">
+            <div className="flex items-center justify-between text-sm text-gray-600 mb-2">
+              <span>提交进度 {homeworkStats?.submitted}/{homeworkStats?.total}</span>
+              <span className="font-medium text-blue-700">{homeworkStats?.submitRate}%</span>
+            </div>
+            <div className="w-full bg-white rounded-full h-2.5 overflow-hidden">
+              <div
+                className="h-full bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full transition-all"
+                style={{ width: `${homeworkStats?.submitRate || 0}%` }}
+              />
+            </div>
+          </div>
+        </div>
+      )}
+
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div className="bg-white rounded-xl p-5 border border-gray-200">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-sm text-gray-500">总作业数</p>
-              <p className="text-2xl font-bold text-gray-900 mt-1">{homeworkStats.total}</p>
+              <p className="text-sm text-gray-500">提交进度</p>
+              <p className="text-2xl font-bold text-blue-600 mt-1">
+                {homeworkStats.submitted}<span className="text-base text-gray-400">/{homeworkStats.total}</span>
+              </p>
             </div>
             <div className="p-3 bg-blue-50 rounded-lg">
-              <BookOpen className="h-6 w-6 text-blue-500" />
+              <Upload className="h-6 w-6 text-blue-500" />
             </div>
           </div>
         </div>
         <div className="bg-white rounded-xl p-5 border border-gray-200">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-sm text-gray-500">已批改</p>
-              <p className="text-2xl font-bold text-green-600 mt-1">{homeworkStats.graded}</p>
+              <p className="text-sm text-gray-500">未提交</p>
+              <p className="text-2xl font-bold text-red-500 mt-1">{homeworkStats.notSubmitted}</p>
             </div>
-            <div className="p-3 bg-green-50 rounded-lg">
-              <CheckCircle className="h-6 w-6 text-green-500" />
+            <div className="p-3 bg-red-50 rounded-lg">
+              <XCircle className="h-6 w-6 text-red-400" />
             </div>
           </div>
         </div>
         <div className="bg-white rounded-xl p-5 border border-gray-200">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-sm text-gray-500">待批改</p>
-              <p className="text-2xl font-bold text-orange-600 mt-1">{homeworkStats.pending}</p>
+              <p className="text-sm text-gray-500">待批改份数</p>
+              <p className="text-2xl font-bold text-orange-600 mt-1">{homeworkStats.pendingCount}</p>
             </div>
             <div className="p-3 bg-orange-50 rounded-lg">
               <Clock className="h-6 w-6 text-orange-500" />
@@ -100,8 +147,8 @@ const HomeworkBoard = ({ classId }) => {
         <div className="bg-white rounded-xl p-5 border border-gray-200">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-sm text-gray-500">平均分</p>
-              <p className="text-2xl font-bold text-purple-600 mt-1">{homeworkStats.avgScore}</p>
+              <p className="text-sm text-gray-500">班级平均分</p>
+              <p className="text-2xl font-bold text-purple-600 mt-1">{homeworkStats.avgScore || '-'}</p>
             </div>
             <div className="p-3 bg-purple-50 rounded-lg">
               <BarChart3 className="h-6 w-6 text-purple-500" />
@@ -109,6 +156,53 @@ const HomeworkBoard = ({ classId }) => {
           </div>
         </div>
       </div>
+
+      {gradingTasks.length > 0 && (
+        <div className="bg-white rounded-xl border border-gray-200">
+          <div className="p-5 border-b border-gray-200 flex items-center justify-between">
+            <div className="flex items-center space-x-2">
+              <ListTodo className="h-5 w-5 text-blue-500" />
+              <h3 className="text-lg font-semibold text-gray-900">我的任务</h3>
+              <span className="px-2 py-0.5 bg-orange-100 text-orange-700 text-xs rounded-full">
+                {gradingTasks.length} 项待完成
+              </span>
+            </div>
+            <Link to="/tasks" className="text-sm text-blue-600 hover:text-blue-800">
+              查看全部任务
+            </Link>
+          </div>
+          <div className="p-5 space-y-3">
+            {gradingTasks.map((task) => (
+              <div key={task.id} className="flex items-center justify-between p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                <div className="flex items-center space-x-3 flex-1 min-w-0">
+                  <div className="p-2 bg-orange-100 rounded-lg shrink-0">
+                    <FileCheck className="h-4 w-4 text-orange-600" />
+                  </div>
+                  <div className="min-w-0">
+                    <p className="text-sm font-medium text-gray-900 truncate">{task.title}</p>
+                    <p className="text-xs text-gray-500 mt-0.5">{task.progressLabel}</p>
+                    <div className="mt-2 w-full max-w-xs">
+                      <div className="w-full bg-gray-200 rounded-full h-1.5">
+                        <div
+                          className="bg-gradient-to-r from-orange-400 to-orange-500 h-1.5 rounded-full transition-all"
+                          style={{ width: `${task.progress}%` }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  onClick={() => navigate(`/class/${classId}/homework/${task.homeworkId}`)}
+                  className="ml-4 shrink-0 inline-flex items-center px-3 py-1.5 text-sm text-blue-600 hover:text-blue-800 hover:bg-blue-50 rounded-lg transition-colors"
+                >
+                  查看
+                  <ChevronRight className="h-3.5 w-3.5 ml-0.5" />
+                </button>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
       
       <div className="bg-white rounded-xl border border-gray-200">
         <div className="p-5 border-b border-gray-200">
@@ -128,10 +222,24 @@ const HomeworkBoard = ({ classId }) => {
             </thead>
             <tbody className="divide-y divide-gray-200">
               {recentHomework.map((hw) => (
-                <tr key={hw.id} className="hover:bg-gray-50">
-                  <td className="px-5 py-4 text-sm font-medium text-gray-900">{hw.title}</td>
+                <tr
+                  key={hw.id}
+                  className="hover:bg-gray-50 cursor-pointer"
+                  onClick={() => navigate(`/class/${classId}/homework/${hw.id}`)}
+                >
+                  <td className="px-5 py-4 text-sm font-medium text-gray-900 hover:text-blue-600">{hw.title}</td>
                   <td className="px-5 py-4 text-sm text-gray-500">{hw.date}</td>
-                  <td className="px-5 py-4 text-sm text-gray-500">{hw.submitted}/{hw.total}</td>
+                  <td className="px-5 py-4">
+                    <div className="flex items-center space-x-2">
+                      <span className="text-sm text-gray-900">{hw.submitted}/{hw.total}</span>
+                      <div className="w-16 bg-gray-100 rounded-full h-1.5 overflow-hidden">
+                        <div
+                          className="h-full bg-blue-500 rounded-full"
+                          style={{ width: `${Math.round((hw.submitted / hw.total) * 100)}%` }}
+                        />
+                      </div>
+                    </div>
+                  </td>
                   <td className="px-5 py-4 text-sm text-gray-900">{hw.avgScore > 0 ? hw.avgScore : '-'}</td>
                   <td className="px-5 py-4">
                     <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
@@ -141,7 +249,16 @@ const HomeworkBoard = ({ classId }) => {
                     </span>
                   </td>
                   <td className="px-5 py-4">
-                    <button className="text-blue-600 hover:text-blue-800 text-sm">查看</button>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        navigate(`/class/${classId}/homework/${hw.id}`)
+                      }}
+                      className="text-blue-600 hover:text-blue-800 text-sm inline-flex items-center"
+                    >
+                      <Eye className="h-3.5 w-3.5 mr-1" />
+                      查看
+                    </button>
                   </td>
                 </tr>
               ))}
@@ -150,6 +267,10 @@ const HomeworkBoard = ({ classId }) => {
         </div>
       </div>
       
+      {classStats && classStats.total_students > 0 && (
+        <ClassStats stats={classStats} />
+      )}
+
       {alertStudents.length > 0 && (
         <div className="bg-white rounded-xl border border-gray-200">
           <div className="p-5 border-b border-gray-200">
@@ -171,7 +292,9 @@ const HomeworkBoard = ({ classId }) => {
                   </div>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-sm font-bold text-red-600">{student.score}分</span>
+                  {student.score !== null && (
+                    <span className="text-sm font-bold text-red-600">{student.score}分</span>
+                  )}
                   {student.trend === 'down' ? (
                     <TrendingDown className="h-4 w-4 text-red-500" />
                   ) : (
@@ -463,6 +586,7 @@ const ClassDetail = () => {
 const ClassData = () => {
   return (
     <Routes>
+      <Route path=":classId/homework/:homeworkId" element={<HomeworkDetail />} />
       <Route path=":classId/*" element={<ClassDetail />} />
       <Route path="/" element={
         <div className="p-6 flex items-center justify-center h-64">
