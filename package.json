@@ -1,0 +1,13 @@
+{
+  "name": "ai-educator",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "docker compose -f docker-compose.dev.yml up -d --build",
+    "stop": "docker compose -f docker-compose.dev.yml down",
+    "restart": "npm run stop && npm run start",
+    "start:prod": "docker compose up -d --build",
+    "status": "docker compose -f docker-compose.dev.yml ps",
+    "open": "start http://localhost:3000"
+  }
+}

@@ -10,13 +10,16 @@ services:
     restart: always
     environment:
       - ENV=production
+    ports:
+      - "8000:8000"
     volumes:
       - ./uploads:/app/uploads
       - ./data:/app/data
+      - ./dataset:/app/dataset
+    environment:
+      - DATASET_DIR=/app/dataset/测试集/批改作业
     networks:
       - app-network
-    expose:
-      - "8000"
 
   # 前端服务（包含 Nginx）
   frontend:

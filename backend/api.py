@@ -15,6 +15,20 @@ from models import (
 from ai_client import ai_client
 from rag_retriever import QuestionRetriever
 from config import settings
+from homework_dataset import list_dataset_homeworks, get_dataset_homework, get_dataset_file_path
+from class_service import (
+    seed_initial_data,
+    get_class_list,
+    get_homework_list,
+    get_homework_by_id,
+    get_student_submissions,
+    get_homework_stats,
+    get_grading_tasks,
+    get_alert_students,
+    update_assignment_status,
+    sync_wrong_questions,
+    resolve_class_id,
+)
 
 router = APIRouter()
 
@@ -24,11 +38,76 @@ def ensure_upload_dir():
     os.makedirs(settings.UPLOAD_DIR, exist_ok=True)
 
 
+async def _save_grading_result(
+    db: AsyncSession,
+    grading_result: dict,
+    ocr_result: str,
+    file_paths: List[str],
+    *,
+    assignment_id: Optional[int] = None,
+    submission_id: Optional[int] = None,
+    student_name: Optional[str] = None,
+    dataset_file_id: Optional[int] = None,
+    is_test_data: bool = False,
+    subject: str = "数学",
+    sync_notebook: bool = True,
+) -> HomeworkSubmission:
+    """保存或更新批改结果，并同步班级/错题本状态"""
+    if submission_id:
+        result = await db.execute(
+            select(HomeworkSubmission).where(HomeworkSubmission.id == submission_id)
+        )
+        submission = result.scalar_one_or_none()
+        if not submission:
+            raise HTTPException(status_code=404, detail="提交记录不存在")
+        submission.ocr_result = ocr_result
+        submission.grading_result = json.dumps(grading_result, ensure_ascii=False)
+        submission.wrong_count = grading_result.get("wrong_count", 0)
+        submission.score = grading_result.get("score", 0)
+        submission.status = "completed"
+        submission.grading_status = "已批改"
+        submission.image_paths = json.dumps(file_paths)
+        if dataset_file_id:
+            submission.dataset_file_id = dataset_file_id
+    else:
+        submission = HomeworkSubmission(
+            assignment_id=assignment_id,
+            student_name=student_name,
+            dataset_file_id=dataset_file_id,
+            is_test_data=is_test_data,
+            image_paths=json.dumps(file_paths),
+            ocr_result=ocr_result,
+            grading_result=json.dumps(grading_result, ensure_ascii=False),
+            wrong_count=grading_result.get("wrong_count", 0),
+            score=grading_result.get("score", 0),
+            status="completed",
+            grading_status="已批改",
+            submit_time=datetime.now().strftime("%Y-%m-%d %H:%M"),
+            file_count=len(file_paths),
+        )
+        db.add(submission)
+
+    await db.flush()
+
+    if sync_notebook and student_name:
+        await sync_wrong_questions(db, grading_result, student_name, subject)
+
+    if submission.assignment_id:
+        await update_assignment_status(db, submission.assignment_id)
+
+    await db.commit()
+    await db.refresh(submission)
+    return submission
+
+
 @router.post("/grader/upload")
 async def upload_homework(
     files: List[UploadFile] = File(...),
     reference_answer: Optional[str] = Form(None),
     subject: str = Form("数学"),
+    assignment_id: Optional[int] = Form(None),
+    submission_id: Optional[int] = Form(None),
+    student_name: Optional[str] = Form(None),
     db: AsyncSession = Depends(get_db)
 ):
     """上传作业文件并批改 - 支持图片、PDF、Word、Excel、TXT、MD等多种格式"""
@@ -95,27 +174,35 @@ async def upload_homework(
     
     full_text_result = "\n\n".join(text_contents)
     
+    if assignment_id and not reference_answer:
+        assign_result = await db.execute(
+            select(HomeworkAssignment).where(HomeworkAssignment.id == assignment_id)
+        )
+        assignment = assign_result.scalar_one_or_none()
+        if assignment and assignment.reference_answer:
+            reference_answer = assignment.reference_answer
+
     grading_result = await ai_client.grade_homework(
         ocr_result=full_text_result,
         reference_answer=reference_answer,
         subject=subject
     )
-    
-    submission = HomeworkSubmission(
-        image_paths=json.dumps(file_paths),
-        ocr_result=full_text_result,
-        grading_result=json.dumps(grading_result, ensure_ascii=False),
-        wrong_count=grading_result.get("wrong_count", 0),
-        score=grading_result.get("score", 0),
-        status="completed"
+
+    submission = await _save_grading_result(
+        db,
+        grading_result,
+        full_text_result,
+        file_paths,
+        assignment_id=assignment_id,
+        submission_id=submission_id,
+        student_name=student_name,
+        subject=subject,
     )
-    
-    db.add(submission)
-    await db.commit()
-    await db.refresh(submission)
-    
+
     return {
         "submission_id": submission.id,
+        "assignment_id": submission.assignment_id,
+        "student_name": submission.student_name,
         "ocr_result": full_text_result,
         "grading_result": grading_result,
         "image_count": len(file_paths)
@@ -135,12 +222,100 @@ async def get_grading_result(submission_id: int, db: AsyncSession = Depends(get_
     
     return {
         "id": submission.id,
+        "assignment_id": submission.assignment_id,
+        "student_name": submission.student_name,
         "ocr_result": submission.ocr_result,
-        "grading_result": json.loads(submission.grading_result),
+        "grading_result": json.loads(submission.grading_result) if submission.grading_result else {},
         "wrong_count": submission.wrong_count,
         "score": submission.score,
         "status": submission.status,
+        "grading_status": submission.grading_status,
         "created_at": submission.created_at
+    }
+
+
+@router.get("/homework/dataset")
+async def get_homework_dataset_list():
+    """获取 dataset 测试集作业列表"""
+    return {"items": list_dataset_homeworks(), "total": len(list_dataset_homeworks())}
+
+
+@router.get("/homework/dataset/{file_id}")
+async def get_homework_dataset_detail(file_id: int):
+    """获取 dataset 测试集作业详情（含学生作答与参考答案）"""
+    data = get_dataset_homework(file_id=file_id)
+    if not data:
+        raise HTTPException(status_code=404, detail="测试作业不存在")
+    return data
+
+
+@router.post("/grader/upload-dataset/{file_id}")
+async def upload_dataset_homework(
+    file_id: int,
+    subject: str = Form("数学"),
+    assignment_id: Optional[int] = Form(None),
+    submission_id: Optional[int] = Form(None),
+    student_name: Optional[str] = Form(None),
+    class_slug: Optional[str] = Form(None),
+    homework_id: Optional[int] = Form(None),
+    db: AsyncSession = Depends(get_db)
+):
+    """使用 dataset 测试集文件直接批改（调试用）"""
+    data = get_dataset_homework(file_id=file_id)
+    if not data:
+        raise HTTPException(status_code=404, detail="测试作业不存在")
+
+    filepath = get_dataset_file_path(data["filename"])
+    if not filepath:
+        raise HTTPException(status_code=404, detail="测试文件不存在")
+
+    full_text_result = data["full_content"]
+    reference_answer = data["reference_answer"]
+
+    if not assignment_id and class_slug and homework_id:
+        from class_service import get_assignment_record
+        assignment = await get_assignment_record(db, class_slug, homework_id)
+        if assignment:
+            assignment_id = assignment.id
+            if not reference_answer:
+                reference_answer = assignment.reference_answer
+
+    if submission_id and not student_name:
+        sub_result = await db.execute(
+            select(HomeworkSubmission).where(HomeworkSubmission.id == submission_id)
+        )
+        existing = sub_result.scalar_one_or_none()
+        if existing:
+            student_name = existing.student_name
+
+    grading_result = await ai_client.grade_homework(
+        ocr_result=full_text_result,
+        reference_answer=reference_answer,
+        subject=subject
+    )
+
+    submission = await _save_grading_result(
+        db,
+        grading_result,
+        full_text_result,
+        [filepath],
+        assignment_id=assignment_id,
+        submission_id=submission_id,
+        student_name=student_name or data["title"],
+        dataset_file_id=file_id,
+        is_test_data=True,
+        subject=subject,
+    )
+
+    return {
+        "submission_id": submission.id,
+        "assignment_id": submission.assignment_id,
+        "student_name": submission.student_name,
+        "dataset_title": data["title"],
+        "dataset_filename": data["filename"],
+        "ocr_result": full_text_result,
+        "grading_result": grading_result,
+        "image_count": 1
     }
 
 
@@ -410,42 +585,122 @@ async def get_lesson_plan(plan_id: int, db: AsyncSession = Depends(get_db)):
     }
 
 
+@router.get("/class/list")
+async def list_classes(db: AsyncSession = Depends(get_db)):
+    """获取班级列表"""
+    return {"items": await get_class_list(db)}
+
+
+@router.get("/class/{class_slug}/homework")
+async def list_class_homework(class_slug: str, db: AsyncSession = Depends(get_db)):
+    """获取班级作业列表"""
+    try:
+        return {"items": await get_homework_list(db, class_slug)}
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+
+@router.get("/class/{class_slug}/homework/{homework_id}")
+async def get_class_homework_detail(
+    class_slug: str, homework_id: int, db: AsyncSession = Depends(get_db)
+):
+    """获取班级作业详情"""
+    try:
+        homework = await get_homework_by_id(db, class_slug, homework_id)
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    if not homework:
+        raise HTTPException(status_code=404, detail="作业不存在")
+    return homework
+
+
+@router.get("/class/{class_slug}/homework/{homework_id}/submissions")
+async def list_homework_submissions(
+    class_slug: str, homework_id: int, db: AsyncSession = Depends(get_db)
+):
+    """获取作业学生提交列表"""
+    try:
+        return {"items": await get_student_submissions(db, class_slug, homework_id)}
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+
+@router.get("/class/{class_slug}/homework-stats")
+async def class_homework_stats(class_slug: str, db: AsyncSession = Depends(get_db)):
+    """获取班级作业看板统计"""
+    try:
+        return await get_homework_stats(db, class_slug)
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+
+@router.get("/class/{class_slug}/grading-tasks")
+async def class_grading_tasks(class_slug: str, db: AsyncSession = Depends(get_db)):
+    """获取班级待批改任务"""
+    try:
+        return {"items": await get_grading_tasks(db, class_slug)}
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+
+@router.get("/class/{class_slug}/alert-students")
+async def class_alert_students(class_slug: str, db: AsyncSession = Depends(get_db)):
+    """获取预警学生"""
+    try:
+        return {"items": await get_alert_students(db, class_slug)}
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+
 @router.get("/class/stats")
-async def get_class_stats(db: AsyncSession = Depends(get_db)):
-    """获取班级统计信息"""
-    # 获取所有作业提交
-    result = await db.execute(select(HomeworkSubmission))
+async def get_class_stats(
+    class_slug: Optional[str] = None,
+    db: AsyncSession = Depends(get_db)
+):
+    """获取班级统计信息（支持按班级筛选）"""
+    query = select(HomeworkSubmission)
+    if class_slug:
+        try:
+            class_id = resolve_class_id(class_slug)
+        except ValueError as e:
+            raise HTTPException(status_code=404, detail=str(e))
+        assign_result = await db.execute(
+            select(HomeworkAssignment.id).where(HomeworkAssignment.class_id == class_id)
+        )
+        assignment_ids = [row[0] for row in assign_result.all()]
+        if assignment_ids:
+            query = query.where(HomeworkSubmission.assignment_id.in_(assignment_ids))
+        else:
+            return {
+                "total_students": 0,
+                "average_wrong_count": 0,
+                "common_wrong_questions": []
+            }
+
+    result = await db.execute(query)
     submissions = result.scalars().all()
-    
+
     if not submissions:
         return {
             "total_students": 0,
             "average_wrong_count": 0,
             "common_wrong_questions": []
         }
-    
-    # 计算统计信息
-    total_students = len(set(s.user_id for s in submissions))
+
+    total_students = len(set(s.student_name for s in submissions if s.student_name))
     total_wrong = sum(s.wrong_count or 0 for s in submissions)
     avg_wrong = total_wrong / len(submissions) if submissions else 0
-    
-    # 统计高频错题（简化版本）
+
     wrong_questions = {}
     for sub in submissions:
         grading = json.loads(sub.grading_result) if sub.grading_result else {}
-        questions = grading.get("questions", [])
-        for q in questions:
+        for q in grading.get("questions", []):
             if not q.get("is_correct", True):
                 q_text = q.get("question_text", "")[:50]
                 wrong_questions[q_text] = wrong_questions.get(q_text, 0) + 1
-    
-    # 排序取前 5
-    common_wrong = sorted(
-        wrong_questions.items(),
-        key=lambda x: x[1],
-        reverse=True
-    )[:5]
-    
+
+    common_wrong = sorted(wrong_questions.items(), key=lambda x: x[1], reverse=True)[:5]
+
     return {
         "total_students": total_students,
         "average_wrong_count": round(avg_wrong, 1),
@@ -456,10 +711,26 @@ async def get_class_stats(db: AsyncSession = Depends(get_db)):
     }
 
 
+@router.get("/tasks/all")
+async def get_all_grading_tasks(db: AsyncSession = Depends(get_db)):
+    """聚合所有班级的批改任务（供我的任务页使用）"""
+    all_tasks = []
+    for slug in ["class1", "class2", "class3"]:
+        try:
+            tasks = await get_grading_tasks(db, slug)
+            all_tasks.extend(tasks)
+        except ValueError:
+            continue
+    return {"items": all_tasks}
+
+
 @router.on_event("startup")
 async def startup_event():
-    """启动时初始化数据库"""
+    """启动时初始化数据库并播种班级作业数据"""
+    from database import AsyncSessionLocal
     await init_db()
+    async with AsyncSessionLocal() as db:
+        await seed_initial_data(db)
 
 
 # ==================== 题库管理 API ====================

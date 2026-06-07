@@ -39,6 +39,60 @@ export const homeworkAPI = {
     const response = await api.get(`/grader/${submissionId}`)
     return response.data
   },
+
+  getDatasetList: async () => {
+    const response = await api.get('/homework/dataset')
+    return response.data
+  },
+
+  getDatasetDetail: async (fileId) => {
+    const response = await api.get(`/homework/dataset/${fileId}`)
+    return response.data
+  },
+
+  gradeDataset: async (fileId, options = {}) => {
+    const { subject = '数学', assignmentId, submissionId, studentName, classId, homeworkId } = options
+    const formData = new FormData()
+    formData.append('subject', subject)
+    if (assignmentId) formData.append('assignment_id', assignmentId)
+    if (submissionId) formData.append('submission_id', submissionId)
+    if (studentName) formData.append('student_name', studentName)
+    if (classId) formData.append('class_slug', classId)
+    if (homeworkId) formData.append('homework_id', homeworkId)
+    const response = await api.post(`/grader/upload-dataset/${fileId}`, formData, {
+      headers: { 'Content-Type': 'multipart/form-data' },
+    })
+    return response.data
+  },
+
+  uploadWithContext: async (files, options = {}) => {
+    const {
+      referenceAnswer,
+      subject = '数学',
+      assignmentId,
+      submissionId,
+      studentName,
+      onProgress = null,
+    } = options
+    const formData = new FormData()
+    files.forEach(file => formData.append('files', file))
+    if (referenceAnswer) formData.append('reference_answer', referenceAnswer)
+    formData.append('subject', subject)
+    if (assignmentId) formData.append('assignment_id', assignmentId)
+    if (submissionId) formData.append('submission_id', submissionId)
+    if (studentName) formData.append('student_name', studentName)
+
+    const response = await api.post('/grader/upload', formData, {
+      headers: { 'Content-Type': 'multipart/form-data' },
+      onUploadProgress: (progressEvent) => {
+        if (onProgress && progressEvent.total) {
+          const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total)
+          onProgress(percentCompleted)
+        }
+      },
+    })
+    return response.data
+  },
 }
 
 // 错题本 API
@@ -93,8 +147,53 @@ export const lessonPlanAPI = {
 
 // 班级统计 API
 export const classAPI = {
-  getStats: async () => {
-    const response = await api.get('/class/stats')
+  getList: async () => {
+    const response = await api.get('/class/list')
+    return response.data
+  },
+
+  getStats: async (classSlug = null) => {
+    const response = await api.get('/class/stats', {
+      params: classSlug ? { class_slug: classSlug } : {},
+    })
+    return response.data
+  },
+}
+
+// 班级作业 API
+export const classHomeworkAPI = {
+  getHomeworkList: async (classSlug) => {
+    const response = await api.get(`/class/${classSlug}/homework`)
+    return response.data
+  },
+
+  getHomeworkDetail: async (classSlug, homeworkId) => {
+    const response = await api.get(`/class/${classSlug}/homework/${homeworkId}`)
+    return response.data
+  },
+
+  getSubmissions: async (classSlug, homeworkId) => {
+    const response = await api.get(`/class/${classSlug}/homework/${homeworkId}/submissions`)
+    return response.data
+  },
+
+  getHomeworkStats: async (classSlug) => {
+    const response = await api.get(`/class/${classSlug}/homework-stats`)
+    return response.data
+  },
+
+  getGradingTasks: async (classSlug) => {
+    const response = await api.get(`/class/${classSlug}/grading-tasks`)
+    return response.data
+  },
+
+  getAlertStudents: async (classSlug) => {
+    const response = await api.get(`/class/${classSlug}/alert-students`)
+    return response.data
+  },
+
+  getAllTasks: async () => {
+    const response = await api.get('/tasks/all')
     return response.data
   },
 }

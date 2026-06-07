@@ -32,6 +32,21 @@ class ClassInfo(Base):
     
     # 关系
     homework_assignments = relationship("HomeworkAssignment", back_populates="class_info")
+    members = relationship("ClassMember", back_populates="class_info")
+
+
+class ClassMember(Base):
+    """班级成员表"""
+    __tablename__ = "class_members"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    class_id = Column(Integer, ForeignKey("classes.id"))
+    name = Column(String(50), nullable=False)
+    gender = Column(String(10), default="男")
+    order_index = Column(Integer, default=0)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+    
+    class_info = relationship("ClassInfo", back_populates="members")
 
 
 class HomeworkAssignment(Base):
@@ -43,6 +58,14 @@ class HomeworkAssignment(Base):
     class_id = Column(Integer, ForeignKey("classes.id"))
     teacher_id = Column(Integer, ForeignKey("users.id"))
     reference_answer = Column(Text)  # 参考答案
+    assign_date = Column(String(20))
+    deadline = Column(String(20))
+    status = Column(String(20), default="待批改")  # 待批改 / 已批改
+    subject = Column(String(50), default="数学")
+    description = Column(Text)
+    dataset_file_id = Column(Integer)
+    total_students = Column(Integer, default=45)
+    avg_score = Column(Float)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     
     # 关系
@@ -57,12 +80,18 @@ class HomeworkSubmission(Base):
     id = Column(Integer, primary_key=True, index=True)
     assignment_id = Column(Integer, ForeignKey("homework_assignments.id"))
     user_id = Column(Integer, ForeignKey("users.id"))
+    student_name = Column(String(50))
+    dataset_file_id = Column(Integer)
+    is_test_data = Column(Boolean, default=False)
+    submit_time = Column(String(50))
+    file_count = Column(Integer, default=1)
     image_paths = Column(Text)  # JSON 字符串存储多张图片路径
     ocr_result = Column(Text)  # OCR 识别结果
     grading_result = Column(Text)  # JSON 格式存储批改结果
     wrong_count = Column(Integer, default=0)  # 错题数量
     score = Column(Float)  # 分数
     status = Column(String(20), default="pending")  # pending, grading, completed
+    grading_status = Column(String(20), default="待批改")  # 待批改 / 已批改 / 未提交
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     
     # 关系
