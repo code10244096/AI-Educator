@@ -1,6 +1,6 @@
 from fastapi import APIRouter, UploadFile, File, Depends, HTTPException, Form
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select, func
+from sqlalchemy import select, func, delete
 from typing import List, Optional
 import json
 import os
@@ -28,6 +28,7 @@ from class_service import (
     update_assignment_status,
     sync_wrong_questions,
     resolve_class_id,
+    get_assignment_record,
 )
 
 router = APIRouter()
@@ -648,6 +649,70 @@ async def class_alert_students(class_slug: str, db: AsyncSession = Depends(get_d
     """获取预警学生"""
     try:
         return {"items": await get_alert_students(db, class_slug)}
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+
+@router.delete("/class/{class_slug}/homework/{homework_id}/submissions/pending")
+async def delete_pending_submissions(
+    class_slug: str, homework_id: int, db: AsyncSession = Depends(get_db)
+):
+    """批量删除待批改的作业提交记录"""
+    try:
+        assignment = await get_assignment_record(db, class_slug, homework_id)
+        if not assignment:
+            raise HTTPException(status_code=404, detail="作业不存在")
+        
+        # 删除所有待批改状态的提交记录
+        result = await db.execute(
+            delete(HomeworkSubmission)
+            .where(HomeworkSubmission.assignment_id == assignment.id)
+            .where(HomeworkSubmission.grading_status == "待批改")
+        )
+        
+        await db.commit()
+        
+        return {
+            "message": f"成功删除 {result.rowcount} 条待批改作业记录",
+            "deleted_count": result.rowcount
+        }
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+
+@router.delete("/class/{class_slug}/homework/{homework_id}/submissions/keep-first/{keep_count}")
+async def keep_first_n_submissions(
+    class_slug: str, homework_id: int, keep_count: int, db: AsyncSession = Depends(get_db)
+):
+    """保留前N条学生提交记录，删除其余所有记录"""
+    try:
+        assignment = await get_assignment_record(db, class_slug, homework_id)
+        if not assignment:
+            raise HTTPException(status_code=404, detail="作业不存在")
+        
+        # 获取前keep_count条记录的ID
+        select_result = await db.execute(
+            select(HomeworkSubmission.id)
+            .where(HomeworkSubmission.assignment_id == assignment.id)
+            .order_by(HomeworkSubmission.id)
+            .limit(keep_count)
+        )
+        keep_ids = [row[0] for row in select_result.all()]
+        
+        # 删除不在保留列表中的记录
+        result = await db.execute(
+            delete(HomeworkSubmission)
+            .where(HomeworkSubmission.assignment_id == assignment.id)
+            .where(HomeworkSubmission.id.not_in(keep_ids if keep_ids else [-1]))
+        )
+        
+        await db.commit()
+        
+        return {
+            "message": f"成功保留前 {keep_count} 条记录，删除 {result.rowcount} 条记录",
+            "deleted_count": result.rowcount,
+            "kept_count": keep_count
+        }
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
 

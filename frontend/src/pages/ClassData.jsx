@@ -21,14 +21,17 @@ import {
   FileCheck,
   ChevronRight,
   ListTodo,
+  X,
+  FileText,
 } from 'lucide-react'
+import html2pdf from 'html2pdf.js'
 import HomeworkDetail from './HomeworkDetail'
 import { useHomeworkBoard } from '../hooks/useClassHomework'
 import ClassStats from '../components/ClassStats'
 import { classAPI } from '../utils/api'
 
 const classInfo = {
-  class1: { name: '高三1班', students: 45, subject: '数学' },
+  class1: { name: '高三1班', students: 2, subject: '数学' },
   class2: { name: '高三2班', students: 42, subject: '数学' },
   class3: { name: '高三3班', students: 40, subject: '数学' },
 }
@@ -312,13 +315,110 @@ const HomeworkBoard = ({ classId }) => {
 
 const ExamArchive = ({ classId }) => {
   const info = classInfo[classId] || classInfo.class1
+  const [selectedExam, setSelectedExam] = useState(null)
+  const [exporting, setExporting] = useState(false)
   
   const exams = [
-    { id: 1, name: '期末考试', date: '2024-01-20', avgScore: 82.5, highest: 98, lowest: 45, passRate: 88.9 },
-    { id: 2, name: '期中考试', date: '2023-11-15', avgScore: 78.3, highest: 95, lowest: 38, passRate: 84.4 },
-    { id: 3, name: '月考（12月）', date: '2023-12-10', avgScore: 75.8, highest: 92, lowest: 42, passRate: 82.2 },
-    { id: 4, name: '月考（11月）', date: '2023-11-05', avgScore: 80.1, highest: 96, lowest: 50, passRate: 86.7 },
-    { id: 5, name: '月考（10月）', date: '2023-10-08', avgScore: 77.5, highest: 94, lowest: 40, passRate: 83.3 },
+    { 
+      id: 1, 
+      name: '期末考试', 
+      date: '2024-01-20', 
+      avgScore: 82.5, 
+      highest: 98, 
+      lowest: 45, 
+      passRate: 88.9,
+      totalStudents: 2,
+      excellentCount: 2,
+      goodCount: 0,
+      passCount: 0,
+      failCount: 0,
+      mathAvg: 85.2,
+      topStudents: [
+        { name: '李四', score: 98, rank: 1 },
+        { name: '张三', score: 85, rank: 2 },
+      ],
+      analysis: '本次期末考试整体表现良好，平均分82.5分，及格率100%。建议继续保持学习状态，加强薄弱知识点的巩固。'
+    },
+    { 
+      id: 2, 
+      name: '期中考试', 
+      date: '2023-11-15', 
+      avgScore: 78.3, 
+      highest: 95, 
+      lowest: 38, 
+      passRate: 84.4,
+      totalStudents: 2,
+      excellentCount: 1,
+      goodCount: 1,
+      passCount: 0,
+      failCount: 0,
+      mathAvg: 80.1,
+      topStudents: [
+        { name: '李四', score: 95, rank: 1 },
+        { name: '张三', score: 82, rank: 2 },
+      ],
+      analysis: '期中考试成绩有所波动，平均分78.3分。建议关注基础知识的巩固，加强错题复习。'
+    },
+    { 
+      id: 3, 
+      name: '月考（12月）', 
+      date: '2023-12-10', 
+      avgScore: 75.8, 
+      highest: 92, 
+      lowest: 42, 
+      passRate: 82.2,
+      totalStudents: 2,
+      excellentCount: 1,
+      goodCount: 1,
+      passCount: 0,
+      failCount: 0,
+      mathAvg: 78.5,
+      topStudents: [
+        { name: '李四', score: 92, rank: 1 },
+        { name: '张三', score: 78, rank: 2 },
+      ],
+      analysis: '12月月考成绩略有下降，平均分75.8分。需要分析原因并调整学习策略。'
+    },
+    { 
+      id: 4, 
+      name: '月考（11月）', 
+      date: '2023-11-05', 
+      avgScore: 80.1, 
+      highest: 96, 
+      lowest: 50, 
+      passRate: 86.7,
+      totalStudents: 2,
+      excellentCount: 2,
+      goodCount: 0,
+      passCount: 0,
+      failCount: 0,
+      mathAvg: 83.2,
+      topStudents: [
+        { name: '李四', score: 96, rank: 1 },
+        { name: '张三', score: 85, rank: 2 },
+      ],
+      analysis: '11月月考整体表现较好，平均分80.1分。继续保持良好的学习状态。'
+    },
+    { 
+      id: 5, 
+      name: '月考（10月）', 
+      date: '2023-10-08', 
+      avgScore: 77.5, 
+      highest: 94, 
+      lowest: 40, 
+      passRate: 83.3,
+      totalStudents: 2,
+      excellentCount: 1,
+      goodCount: 1,
+      passCount: 0,
+      failCount: 0,
+      mathAvg: 81.2,
+      topStudents: [
+        { name: '李四', score: 94, rank: 1 },
+        { name: '张三', score: 82, rank: 2 },
+      ],
+      analysis: '10月月考是开学后的首次正式考试，平均分77.5分。学生还在适应阶段，后续需要加强基础知识巩固。'
+    },
   ]
   
   const scoreDistribution = [
@@ -328,6 +428,27 @@ const ExamArchive = ({ classId }) => {
     { range: '60-69', count: 6, percentage: 13.3 },
     { range: '60以下', count: 4, percentage: 8.9 },
   ]
+
+  const handleExportPDF = async (exam) => {
+    setExporting(true)
+    try {
+      const element = document.getElementById(`exam-detail-${exam.id}`)
+      if (!element) return
+      
+      await html2pdf(element, {
+        margin: 10,
+        filename: `${exam.name}_成绩分析报告.pdf`,
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+      })
+    } catch (error) {
+      console.error('导出PDF失败:', error)
+      alert('导出PDF失败，请重试')
+    } finally {
+      setExporting(false)
+    }
+  }
   
   return (
     <div className="space-y-6">
@@ -370,8 +491,19 @@ const ExamArchive = ({ classId }) => {
                   <td className="px-5 py-4 text-sm text-gray-900">{exam.passRate}%</td>
                   <td className="px-5 py-4">
                     <div className="flex items-center space-x-2">
-                      <button className="text-blue-600 hover:text-blue-800 text-sm">详情</button>
-                      <button className="text-gray-400 hover:text-gray-600 text-sm">导出</button>
+                      <button 
+                        onClick={() => setSelectedExam(exam)}
+                        className="text-blue-600 hover:text-blue-800 text-sm"
+                      >
+                        详情
+                      </button>
+                      <button 
+                        onClick={() => handleExportPDF(exam)}
+                        disabled={exporting}
+                        className="text-gray-400 hover:text-gray-600 text-sm disabled:opacity-50"
+                      >
+                        导出
+                      </button>
                     </div>
                   </td>
                 </tr>
@@ -404,6 +536,118 @@ const ExamArchive = ({ classId }) => {
           </div>
         </div>
       </div>
+
+      {/* 考试详情弹窗 */}
+      {selectedExam && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center">
+          <div className="absolute inset-0 bg-black/40" onClick={() => setSelectedExam(null)} />
+          <div className="relative w-full max-w-4xl bg-white shadow-xl rounded-xl max-h-[90vh] overflow-y-auto">
+            <div className="sticky top-0 bg-white border-b border-gray-200 p-5 flex items-center justify-between z-10">
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900">{selectedExam.name}</h3>
+                <p className="text-sm text-gray-500 mt-0.5">{selectedExam.date}</p>
+              </div>
+              <button onClick={() => setSelectedExam(null)} className="p-2 hover:bg-gray-100 rounded-lg">
+                <X className="h-5 w-5 text-gray-500" />
+              </button>
+            </div>
+            
+            <div id={`exam-detail-${selectedExam.id}`} className="p-6">
+              {/* 概览卡片 */}
+              <div className="grid grid-cols-4 gap-4 mb-6">
+                <div className="bg-blue-50 rounded-xl p-4 border border-blue-100">
+                  <p className="text-xs text-blue-600 font-medium mb-1">平均分</p>
+                  <p className="text-2xl font-bold text-blue-700">{selectedExam.avgScore}</p>
+                </div>
+                <div className="bg-green-50 rounded-xl p-4 border border-green-100">
+                  <p className="text-xs text-green-600 font-medium mb-1">最高分</p>
+                  <p className="text-2xl font-bold text-green-700">{selectedExam.highest}</p>
+                </div>
+                <div className="bg-red-50 rounded-xl p-4 border border-red-100">
+                  <p className="text-xs text-red-600 font-medium mb-1">最低分</p>
+                  <p className="text-2xl font-bold text-red-700">{selectedExam.lowest}</p>
+                </div>
+                <div className="bg-purple-50 rounded-xl p-4 border border-purple-100">
+                  <p className="text-xs text-purple-600 font-medium mb-1">及格率</p>
+                  <p className="text-2xl font-bold text-purple-700">{selectedExam.passRate}%</p>
+                </div>
+              </div>
+
+              {/* 数学平均分 */}
+              <div className="mb-6">
+                <h4 className="text-base font-semibold text-gray-800 mb-4">数学平均分</h4>
+                <div className="bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl p-6 text-center">
+                  <p className="text-white text-lg font-medium mb-2">本次考试数学平均分</p>
+                  <p className="text-white text-4xl font-bold">{selectedExam.mathAvg}</p>
+                </div>
+              </div>
+
+              {/* 成绩分布 */}
+              <div className="mb-6">
+                <h4 className="text-base font-semibold text-gray-800 mb-4">成绩分布统计</h4>
+                <div className="grid grid-cols-4 gap-4">
+                  <div className="bg-green-50 rounded-lg p-4 text-center">
+                    <p className="text-sm text-green-600 mb-1">优秀 (90+)</p>
+                    <p className="text-xl font-bold text-green-700">{selectedExam.excellentCount}人</p>
+                  </div>
+                  <div className="bg-blue-50 rounded-lg p-4 text-center">
+                    <p className="text-sm text-blue-600 mb-1">良好 (80-89)</p>
+                    <p className="text-xl font-bold text-blue-700">{selectedExam.goodCount}人</p>
+                  </div>
+                  <div className="bg-yellow-50 rounded-lg p-4 text-center">
+                    <p className="text-sm text-yellow-600 mb-1">及格 (60-79)</p>
+                    <p className="text-xl font-bold text-yellow-700">{selectedExam.passCount}人</p>
+                  </div>
+                  <div className="bg-red-50 rounded-lg p-4 text-center">
+                    <p className="text-sm text-red-600 mb-1">待提高 (&lt;60)</p>
+                    <p className="text-xl font-bold text-red-700">{selectedExam.failCount}人</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* 学生排名 */}
+              <div className="mb-6">
+                <h4 className="text-base font-semibold text-gray-800 mb-4">学生排名</h4>
+                <div className="space-y-3">
+                  {selectedExam.topStudents.map((student, idx) => (
+                    <div key={idx} className="flex items-center p-3 bg-gray-50 rounded-lg">
+                      <div className={`w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mr-4 ${
+                        idx === 0 ? 'bg-yellow-400 text-yellow-900' :
+                        idx === 1 ? 'bg-gray-300 text-gray-700' :
+                        'bg-orange-400 text-orange-900'
+                      }`}>
+                        {idx + 1}
+                      </div>
+                      <span className="flex-1 font-medium text-gray-900">{student.name}</span>
+                      <span className="text-lg font-bold text-blue-600">{student.score}分</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* 分析报告 */}
+              <div>
+                <h4 className="text-base font-semibold text-gray-800 mb-4">考试分析报告</h4>
+                <div className="bg-blue-50 border border-blue-100 rounded-xl p-4">
+                  <p className="text-gray-700 leading-relaxed">{selectedExam.analysis}</p>
+                </div>
+              </div>
+            </div>
+
+            {/* 底部按钮 */}
+            <div className="sticky bottom-0 bg-white border-t border-gray-200 p-5 flex justify-end">
+              <button
+                onClick={() => handleExportPDF(selectedExam)}
+                disabled={exporting}
+                className="inline-flex items-center px-5 py-2.5 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700 disabled:opacity-50"
+              >
+                <FileText className="h-4 w-4 mr-2" />
+                {exporting ? '导出中...' : '导出PDF分析报告'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
@@ -413,14 +657,8 @@ const ClassMembers = ({ classId }) => {
   const [searchTerm, setSearchTerm] = useState('')
   
   const students = [
-    { id: 1, name: '张三', gender: '男', avgScore: 85.2, rank: 3, trend: 'up', status: '优秀' },
+    { id: 1, name: '张三', gender: '男', avgScore: 85.2, rank: 2, trend: 'up', status: '优秀' },
     { id: 2, name: '李四', gender: '女', avgScore: 92.5, rank: 1, trend: 'up', status: '优秀' },
-    { id: 3, name: '王五', gender: '男', avgScore: 78.3, rank: 8, trend: 'down', status: '良好' },
-    { id: 4, name: '赵六', gender: '女', avgScore: 88.7, rank: 4, trend: 'stable', status: '优秀' },
-    { id: 5, name: '孙七', gender: '男', avgScore: 65.2, rank: 25, trend: 'down', status: '待提高' },
-    { id: 6, name: '周八', gender: '女', avgScore: 72.8, rank: 15, trend: 'up', status: '良好' },
-    { id: 7, name: '吴九', gender: '男', avgScore: 55.3, rank: 35, trend: 'down', status: '预警' },
-    { id: 8, name: '郑十', gender: '女', avgScore: 90.1, rank: 2, trend: 'up', status: '优秀' },
   ]
   
   const filteredStudents = students.filter(s =>

@@ -16,13 +16,14 @@ import {
   Beaker,
   Loader2,
   X,
+  Target,
 } from 'lucide-react'
 import { getKnowledgePoints } from '../data/homeworkData'
 import { homeworkAPI } from '../utils/api'
 import { useHomeworkDetail } from '../hooks/useClassHomework'
 
 const classInfo = {
-  class1: { name: '高三1班', students: 45, subject: '数学' },
+  class1: { name: '高三1班', students: 2, subject: '数学' },
   class2: { name: '高三2班', students: 42, subject: '数学' },
   class3: { name: '高三3班', students: 40, subject: '数学' },
 }
@@ -76,20 +77,23 @@ const HomeworkDetail = () => {
   }, [selectedStudent])
 
   const handleViewStudent = async (student) => {
-    if (student.isTestData) {
-      setSelectedStudent(student)
-      setGradingResult(null)
-    } else if (student.grading_result_id) {
+    setSelectedStudent(student)
+    
+    // 如果有批改结果ID，无论是否是测试数据，都获取批改结果
+    if (student.grading_result_id) {
       setLoadingResult(true)
       try {
         const result = await homeworkAPI.getResult(student.grading_result_id)
         setGradingResult(result)
-        setSelectedStudent(student)
-      } catch {
+      } catch (error) {
+        console.error('获取批改结果失败:', error)
         setGradingResult(null)
       } finally {
         setLoadingResult(false)
       }
+    } else {
+      // 没有批改结果ID，尝试获取数据集详情
+      setGradingResult(null)
     }
   }
 
@@ -414,8 +418,8 @@ const HomeworkDetail = () => {
 
       {selectedStudent && (
         <div className="fixed inset-0 z-50 flex justify-end">
-          <div className="absolute inset-0 bg-black/30" onClick={() => { setSelectedStudent(null); setGradingResult(null) }} />
-          <div className="relative w-full max-w-lg bg-white shadow-xl h-full overflow-y-auto">
+          <div className="absolute inset-0 bg-black/40" onClick={() => { setSelectedStudent(null); setGradingResult(null) }} />
+          <div className="relative w-full max-w-3xl bg-white shadow-xl h-full overflow-y-auto">
             <div className="sticky top-0 bg-white border-b border-gray-200 p-5 flex items-center justify-between z-10">
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">{selectedStudent.name} 的作业</h3>
@@ -428,21 +432,125 @@ const HomeworkDetail = () => {
                 <X className="h-5 w-5 text-gray-500" />
               </button>
             </div>
-            <div className="p-5">
+            <div className="p-6 space-y-6">
               {loadingResult ? (
                 <div className="flex items-center justify-center py-12">
                   <Loader2 className="h-6 w-6 animate-spin text-blue-500" />
                 </div>
               ) : gradingResult ? (
-                <div className="space-y-3">
-                  {gradingResult.grading_result?.questions?.map((q, idx) => (
-                    <div key={idx} className={`p-3 rounded-lg border ${q.is_correct ? 'border-green-200 bg-green-50' : 'border-red-200 bg-red-50'}`}>
-                      <p className="text-sm font-medium">第{q.question_number}题 {q.is_correct ? '✓' : '✗'}</p>
-                      <p className="text-xs text-gray-600 mt-1">学生答案：{q.student_answer}</p>
-                      {!q.is_correct && <p className="text-xs text-green-700 mt-1">正确答案：{q.correct_answer}</p>}
+                <>
+                  {/* 作业概览卡片 */}
+                  <div className="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl p-5 text-white">
+                    <h4 className="text-sm font-medium opacity-80 mb-3">作业概览</h4>
+                    <div className="grid grid-cols-4 gap-4">
+                      <div className="text-center">
+                        <p className="text-2xl font-bold">{gradingResult.score}</p>
+                        <p className="text-xs opacity-80 mt-1">得分</p>
+                      </div>
+                      <div className="text-center">
+                        <p className="text-2xl font-bold">{gradingResult.grading_result?.total_questions || 0}</p>
+                        <p className="text-xs opacity-80 mt-1">总题数</p>
+                      </div>
+                      <div className="text-center">
+                        <p className="text-2xl font-bold">{gradingResult.grading_result?.correct_count || 0}</p>
+                        <p className="text-xs opacity-80 mt-1">正确数</p>
+                      </div>
+                      <div className="text-center">
+                        <p className="text-2xl font-bold">{gradingResult.wrong_count || gradingResult.grading_result?.wrong_count || 0}</p>
+                        <p className="text-xs opacity-80 mt-1">错误数</p>
+                      </div>
                     </div>
-                  ))}
-                </div>
+                    <div className="mt-4 pt-4 border-t border-white/20">
+                      <p className="text-xs opacity-80">
+                        得分计算：(正确数/总题数) × 100 = ({gradingResult.grading_result?.correct_count || 0}/{gradingResult.grading_result?.total_questions || 0}) × 100 = {gradingResult.score}分
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* 原作业内容 */}
+                  <div>
+                    <h4 className="text-base font-semibold text-gray-800 mb-3 flex items-center">
+                      <FileText className="h-5 w-5 mr-2 text-gray-500" />
+                      原作业内容
+                    </h4>
+                    <div className="bg-gray-50 rounded-xl p-5 border border-gray-200">
+                      {gradingResult.ocr_result ? (
+                        <pre className="whitespace-pre-wrap text-sm text-gray-700 leading-relaxed">{gradingResult.ocr_result}</pre>
+                      ) : (
+                        <p className="text-sm text-gray-400">暂无作业内容</p>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* 详细批改结果 */}
+                  <div>
+                    <h4 className="text-base font-semibold text-gray-800 mb-3 flex items-center">
+                      <BrainCircuit className="h-5 w-5 mr-2 text-purple-500" />
+                      详细批改结果
+                    </h4>
+                    <div className="space-y-4">
+                      {gradingResult.grading_result?.questions?.map((q, idx) => (
+                        <div key={idx} className={`rounded-xl border-2 p-5 ${q.is_correct ? 'border-green-200 bg-green-50/50' : 'border-red-200 bg-red-50/50'}`}>
+                          <div className="flex items-center justify-between mb-3">
+                            <div className="flex items-center space-x-2">
+                              <span className="text-base font-bold text-gray-900">第 {q.question_number} 题</span>
+                              <span className={`px-2.5 py-0.5 rounded-full text-xs font-medium ${q.is_correct ? 'bg-green-200 text-green-800' : 'bg-red-200 text-red-800'}`}>
+                                {q.is_correct ? '正确' : '错误'}
+                              </span>
+                            </div>
+                          </div>
+
+                          {/* 题目 */}
+                          <div className="bg-white/80 rounded-lg p-4 mb-3">
+                            <p className="text-sm font-medium text-gray-600 mb-1">题目：</p>
+                            <p className="text-sm text-gray-800 leading-relaxed">{q.question_text || '（无题目内容）'}</p>
+                          </div>
+
+                          {/* 答案对比 */}
+                          <div className="grid grid-cols-2 gap-4 mb-3">
+                            <div className="bg-white/80 rounded-lg p-3">
+                              <p className="text-xs font-medium text-gray-500 mb-1">学生答案</p>
+                              <p className={`text-sm font-medium ${q.is_correct ? 'text-green-700' : 'text-red-600'}`}>
+                                {q.student_answer || '（未作答）'}
+                              </p>
+                            </div>
+                            <div className="bg-white/80 rounded-lg p-3">
+                              <p className="text-xs font-medium text-gray-500 mb-1">正确答案</p>
+                              <p className="text-sm font-medium text-green-700">
+                                {q.correct_answer || '（无标准答案）'}
+                              </p>
+                            </div>
+                          </div>
+
+                          {/* 解析 */}
+                          {q.explanation && (
+                            <div className="bg-white/80 rounded-lg p-4">
+                              <p className="text-xs font-medium text-gray-500 mb-1">解析</p>
+                              <p className="text-sm text-gray-700 leading-relaxed">{q.explanation}</p>
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* 学习建议 */}
+                  <div>
+                    <h4 className="text-base font-semibold text-gray-800 mb-3 flex items-center">
+                      <Target className="h-5 w-5 mr-2 text-blue-500" />
+                      学习建议
+                    </h4>
+                    <div className="bg-purple-50 border border-purple-100 rounded-xl p-5">
+                      <p className="text-sm text-purple-700 leading-relaxed">
+                        {gradingResult.wrong_count > 2 
+                          ? '需要加强学习。建议回顾基础知识，多做练习，重点关注错题涉及的知识点。'
+                          : gradingResult.wrong_count > 0
+                          ? '整体表现不错，但仍有提升空间。建议针对错题进行专项练习，巩固薄弱环节。'
+                          : '表现优秀！继续保持，建议尝试更有挑战性的题目来进一步提升。'}
+                      </p>
+                    </div>
+                  </div>
+                </>
               ) : loadingDataset ? (
                 <div className="flex items-center justify-center py-12">
                   <Loader2 className="h-6 w-6 animate-spin text-blue-500" />
@@ -454,7 +562,7 @@ const HomeworkDetail = () => {
                       数据来源：dataset/测试集/批改作业/{datasetDetail.filename}
                     </p>
                   </div>
-                  <pre className="whitespace-pre-wrap text-xs text-gray-700 bg-gray-50 rounded-lg p-4 border max-h-96 overflow-y-auto">
+                  <pre className="whitespace-pre-wrap text-sm text-gray-700 bg-gray-50 rounded-lg p-4 border max-h-96 overflow-y-auto">
                     {datasetDetail.student_content}
                   </pre>
                   <button
