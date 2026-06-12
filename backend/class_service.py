@@ -161,6 +161,17 @@ async def _seed_submissions_for_assignment(
     meta: dict,
     has_test_data: bool,
 ) -> None:
+    from homework_dataset import get_dataset_homework, get_dataset_file_path
+    from ai_client import ai_client
+    
+    # 检查是否已存在提交记录，避免重复生成
+    existing_count = await db.scalar(
+        select(func.count(HomeworkSubmission.id))
+        .where(HomeworkSubmission.assignment_id == assignment.id)
+    )
+    if existing_count > 0:
+        return
+    
     total = assignment.total_students
     submitted = meta["submitted"]
     graded = meta["status"] == "已批改"
@@ -174,6 +185,19 @@ async def _seed_submissions_for_assignment(
     )
     members = members_result.scalars().all()
 
+    # 预加载测试数据的批改结果
+    test_grading_result = None
+    test_ocr_result = None
+    if has_test_data and assignment.dataset_file_id and graded:
+        dataset_data = get_dataset_homework(file_id=assignment.dataset_file_id)
+        if dataset_data:
+            test_ocr_result = dataset_data["full_content"]
+            test_grading_result = await ai_client.grade_homework(
+                ocr_result=dataset_data["full_content"],
+                reference_answer=dataset_data["reference_answer"],
+                subject=assignment.subject or "数学"
+            )
+
     for i in range(total):
         member = members[i] if i < len(members) else None
         name = member.name if member else f"学生{i + 1}"
@@ -186,14 +210,26 @@ async def _seed_submissions_for_assignment(
         dataset_file_id = assignment.dataset_file_id if is_test else None
 
         if graded:
-            variance = ((i * 17 + hw_id * 7) % 31) - 15
-            score = avg_score if is_test else max(40, min(100, round(avg_score + variance)))
-            wrong_count = round((100 - score) / 10)
+            if is_test and test_grading_result:
+                # 使用实际批改结果
+                score = test_grading_result.get("score", avg_score)
+                wrong_count = test_grading_result.get("wrong_count", 0)
+                grading_result = json.dumps(test_grading_result, ensure_ascii=False)
+                ocr_result = test_ocr_result
+            else:
+                # 随机生成分数（保持原有逻辑）
+                variance = ((i * 17 + hw_id * 7) % 31) - 15
+                score = max(40, min(100, round(avg_score + variance)))
+                wrong_count = round((100 - score) / 10)
+                grading_result = None
+                ocr_result = None
             status = "completed"
             grading_status = "已批改"
         else:
             score = None
             wrong_count = None
+            grading_result = None
+            ocr_result = None
             status = "pending"
             grading_status = "待批改"
 
@@ -213,6 +249,8 @@ async def _seed_submissions_for_assignment(
             status=status,
             grading_status=grading_status,
             image_paths=json.dumps([]),
+            grading_result=grading_result,
+            ocr_result=ocr_result,
         ))
 
 

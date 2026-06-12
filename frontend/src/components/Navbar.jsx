@@ -40,7 +40,10 @@ const Navbar = () => {
             <Bell className="h-5 w-5" />
             <span className="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></span>
           </button>
-          <button className="flex items-center space-x-2 px-3 py-1.5 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors">
+          <button 
+            onClick={() => navigate('/login')}
+            className="flex items-center space-x-2 px-3 py-1.5 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
+          >
             <LogIn className="h-4 w-4" />
             <span className="text-sm font-medium">登录</span>
           </button>

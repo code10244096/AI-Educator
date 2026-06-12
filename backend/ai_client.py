@@ -58,6 +58,10 @@ class AIClient:
     
     async def ocr_image(self, image_path: str) -> str:
         """OCR 识别图片中的文字"""
+        # 调试模式：返回模拟的OCR结果
+        if self.is_debug_mode:
+            return self._mock_ocr_image(image_path)
+        
         # 读取图片并转换为 base64
         with open(image_path, "rb") as f:
             image_data = base64.b64encode(f.read()).decode()
@@ -81,6 +85,55 @@ class AIClient:
         ]
         
         return await self._make_request(messages, model=self.ocr_model)
+    
+    def _mock_ocr_image(self, image_path: str) -> str:
+        """模拟 OCR 识别（调试模式）"""
+        # 返回模拟的作业内容，用于测试
+        return """# 高考数学作业集
+
+## 学生作业部分
+
+### 1. 填空题
+已知 \\( a = \\log_3 2 \\)，则 \\( \\log_3 18 = \\) ______（用 \\( a \\) 表示）。
+
+**学生答案**：\\(2+a\\)
+
+---
+
+### 2. 填空题
+函数 \\( f(x) = \\sqrt{3}\\sin x + \\cos x \\) 的最大值为 ______。
+
+**学生答案**：\\(2\\)
+
+---
+
+### 3. 填空题
+已知 \\( \\vec{a} = (1,1) \\)，\\( \\vec{b} = (2, -1) \\)，则 \\( \\vec{a} \\) 在 \\( \\vec{b} \\) 方向上的投影为 ______。
+
+**学生答案**：\\(\\frac{1}{\\sqrt{5}}\\)
+
+---
+
+### 4. 填空题
+圆 \\( x^2 + y^2 - 2x + 4y + 1 = 0 \\) 的半径为 ______。
+
+**学生答案**：\\(2\\)
+
+---
+
+### 5. 填空题
+已知 \\( \\tan\\alpha = \\frac{1}{2} \\)，则 \\( \\frac{\\sin\\alpha - 2\\cos\\alpha}{\\sin\\alpha + \\cos\\alpha} = \\) ______。
+
+**学生答案**：\\(-1\\)
+
+---
+
+## 参考答案
+1. \\(2+a\\)
+2. \\(2\\)
+3. \\(\\frac{1}{\\sqrt{5}}\\)
+4. \\(2\\)
+5. \\(-1\\)"""
     
     async def grade_homework(
         self,
@@ -140,6 +193,14 @@ class AIClient:
         """模拟批改作业（调试模式）"""
         import re
         
+        # 首先从OCR结果中提取参考答案部分
+        extracted_ref_answer = reference_answer
+        if not extracted_ref_answer:
+            # 尝试从OCR结果中提取参考答案
+            ref_match = re.search(r"##\s*参考答案\s*\n(.+?)(?=\n##|\Z)", ocr_result, re.DOTALL)
+            if ref_match:
+                extracted_ref_answer = ref_match.group(1).strip()
+        
         # 解析题目（匹配 ### 数字. 开头的内容）
         questions = []
         question_pattern = r"###\s*(\d+)\.\s*(.*?)(?=\n###\s*\d+\.|##\s|$)"
@@ -168,8 +229,8 @@ class AIClient:
             
             # 解析参考答案（如果有）
             correct_answer = ""
-            if reference_answer:
-                ref_match = re.search(rf"{question_number}\.\s*([^\n]+)", reference_answer)
+            if extracted_ref_answer:
+                ref_match = re.search(rf"{question_number}\.\s*([^\n]+)", extracted_ref_answer)
                 if ref_match:
                     correct_answer = ref_match.group(1).strip()
             

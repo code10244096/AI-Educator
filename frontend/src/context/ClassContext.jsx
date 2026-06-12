@@ -4,7 +4,7 @@ import { classAPI } from '../utils/api'
 const ClassContext = createContext()
 
 const DEFAULT_CLASSES = [
-  { id: 1, name: '高三(1)班', students: 45, subject: '数学', grade: '高三', slug: 'class1' },
+  { id: 1, name: '高三(1)班', students: 2, subject: '数学', grade: '高三', slug: 'class1' },
   { id: 2, name: '高三(2)班', students: 42, subject: '数学', grade: '高三', slug: 'class2' },
   { id: 3, name: '高三(3)班', students: 40, subject: '数学', grade: '高三', slug: 'class3' },
 ]
