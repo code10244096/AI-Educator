@@ -1,0 +1,95 @@
+{
+  "_说明": "第 1 轮真实模型评测的人工判定表（测试 agent 逐题独立演算）。verdict：学生答案对/错的人工结论；ref_ok=false 表示数据集参考答案本身有误；debatable=true 表示解答题存在“结论对但过程有误/不完整”的尺度问题；exclude=true 表示题目本身有误，不计入一致率。",
+  "files": {
+    "deepseek_markdown_20260522_66a055.md": {
+      "title": "高考数学作业集1",
+      "questions": {
+        "1": {"verdict": true},
+        "2": {"verdict": true},
+        "3": {"verdict": false, "ref_ok": false, "note": "a3=7,a7=19 ⇒ d=3, a10=28；学生与参考答案 31 都错"},
+        "4": {"verdict": true},
+        "5": {"verdict": false, "note": "定义域应为 [1,+∞)"},
+        "6": {"verdict": true},
+        "7": {"verdict": true},
+        "8": {"verdict": false, "note": "C(5,3)·2^3·(-1)^2=80，学生符号错"},
+        "9": {"verdict": true},
+        "10": {"verdict": false, "debatable": true, "note": "(1) 单调区间用 ∪ 连接属概念错误；(2) 未比较极值 f(±1)，过程不完整"}
+      }
+    },
+    "deepseek_markdown_20260522_946ba8.md": {
+      "title": "高考数学作业集2",
+      "questions": {
+        "1": {"verdict": true},
+        "2": {"verdict": true},
+        "3": {"verdict": true},
+        "4": {"verdict": true},
+        "5": {"verdict": true},
+        "6": {"verdict": true},
+        "7": {"verdict": false, "note": "正方体体积 8"},
+        "8": {"verdict": false, "note": "a=-2 或 a=3，两者都平行不重合，学生漏解"},
+        "9": {"verdict": true},
+        "10": {"verdict": true, "debatable": true, "note": "未验证 n=1，但结论正确"}
+      }
+    },
+    "deepseek_markdown_20260522_c6507b.md": {
+      "title": "高考数学作业集3",
+      "questions": {
+        "1": {"verdict": true},
+        "2": {"verdict": true},
+        "3": {"verdict": false, "ref_ok": false, "note": "由条件得 sin2α=-7/9，cos2α=±4√2/9；学生与参考答案给出的 -7/9 是 sin2α"},
+        "4": {"verdict": true},
+        "5": {"verdict": true},
+        "6": {"verdict": true},
+        "7": {"verdict": false, "note": "常数项 C(6,3)(-2)^3=-160"},
+        "8": {"verdict": false, "ref_ok": false, "note": "tanα=-3/4，tan(α-π/4)=-7；学生与参考答案 7 都错"},
+        "9": {"verdict": true},
+        "10": {"verdict": false, "debatable": true, "note": "(2) 只验证 a=1 满足（充分性），未证明必要性"}
+      }
+    },
+    "deepseek_markdown_20260522_0931a6.md": {
+      "title": "高考数学作业集4",
+      "questions": {
+        "1": {"verdict": null, "exclude": true, "note": "圆心(1,-1)到直线距离 3/√2 > r=2，直线与圆不相交，题目有误"},
+        "2": {"verdict": true},
+        "3": {"verdict": true},
+        "4": {"verdict": true},
+        "5": {"verdict": true},
+        "6": {"verdict": true},
+        "7": {"verdict": true},
+        "8": {"verdict": true},
+        "9": {"verdict": true},
+        "10": {"verdict": false, "debatable": true, "note": "求导错误(应为 x²-2x-3)，极值点错误，结论数值巧合"}
+      }
+    },
+    "deepseek_markdown_20260522_59f88f.md": {
+      "title": "高考数学作业集5",
+      "questions": {
+        "1": {"verdict": true},
+        "2": {"verdict": true},
+        "3": {"verdict": true},
+        "4": {"verdict": false, "ref_ok": false, "note": "圆心(1,2)在直线 x-y+1=0 上，距离为 0；学生与参考答案 √2/2 都错"},
+        "5": {"verdict": true},
+        "6": {"verdict": true},
+        "7": {"verdict": true},
+        "8": {"verdict": true},
+        "9": {"verdict": true, "ref_ok": false, "note": "0<a≤1 时 f 在[1,e]递增，最小值 f(1)=1/2 恒成立；1<a<e² 无解；a≥e² 舍。正确答案 0<a≤1，学生对，参考答案 a=1 错"},
+        "10": {"verdict": true}
+      }
+    },
+    "deepseek_markdown_20260522_aaf19e.md": {
+      "title": "高考数学作业集6",
+      "questions": {
+        "1": {"verdict": true},
+        "2": {"verdict": true},
+        "3": {"verdict": true},
+        "4": {"verdict": true},
+        "5": {"verdict": true},
+        "6": {"verdict": false, "ref_ok": false, "note": "a·b=-4，由 x-2y=-4、2x+3y=0 得 c=(-12/7, 8/7)；学生与参考答案都错"},
+        "7": {"verdict": true},
+        "8": {"verdict": false, "ref_ok": false, "note": "f'(1)=0、f(1)=-1 ⇒ a=0,b=-3，a+b=-3；学生与参考答案 -1 都错"},
+        "9": {"verdict": true},
+        "10": {"verdict": true}
+      }
+    }
+  }
+}
