@@ -1,10 +1,11 @@
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, Request
+from fastapi import Depends, FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from config import settings
 from api import router, startup_event
+from auth import require_admin
 from llm import LLMError
 from usage_api import router as usage_router
 
@@ -41,7 +42,8 @@ app.add_middleware(
 
 # 注册路由
 app.include_router(router, prefix=settings.API_PREFIX)
-app.include_router(usage_router, prefix=settings.API_PREFIX)
+# 运维接口（模型用量统计）仅管理员可访问
+app.include_router(usage_router, prefix=settings.API_PREFIX, dependencies=[Depends(require_admin)])
 
 
 @app.get("/")

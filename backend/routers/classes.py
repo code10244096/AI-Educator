@@ -8,9 +8,10 @@ from sqlalchemy import delete, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 import class_service as cs
+from auth import current_user
 from database import get_db
 from file_utils import get_extension
-from models import HomeworkAssignment, HomeworkSubmission
+from models import HomeworkAssignment, HomeworkSubmission, User
 
 router = APIRouter()
 
@@ -74,27 +75,37 @@ async def _call(coro):
 # ==================== 班级 ====================
 
 @router.get("/class/list")
-async def list_classes(db: AsyncSession = Depends(get_db)):
+async def list_classes(db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """获取班级列表"""
-    return {"items": await cs.get_class_list(db)}
+    return {"items": await cs.get_class_list(db, teacher_id=user.id)}
 
 
 @router.post("/class")
-async def create_class(body: ClassCreate, db: AsyncSession = Depends(get_db)):
+async def create_class(body: ClassCreate, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """新建班级"""
     name = (body.name or "").strip()
     if not name:
         raise HTTPException(status_code=400, detail="班级名称不能为空")
-    return await cs.create_class(db, name[:100], body.subject, body.grade)
+    return await cs.create_class(db, name[:100], body.subject, body.grade, teacher_id=user.id)
 
 
 @router.get("/class/stats")
-async def get_class_stats(class_slug: Optional[str] = None, db: AsyncSession = Depends(get_db)):
+async def get_class_stats(class_slug: Optional[str] = None, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """获取班级统计信息（支持按班级筛选）"""
     empty = {"total_students": 0, "average_wrong_count": 0, "common_wrong_questions": []}
-    query = select(HomeworkSubmission).where(HomeworkSubmission.grading_status == "已批改")
+    query = (
+        select(HomeworkSubmission)
+        .where(HomeworkSubmission.grading_status == "已批改")
+        .where(HomeworkSubmission.teacher_id == user.id)
+    )
     if class_slug:
-        cls = await _call(cs.get_class_record(db, class_slug))
+        cls = await _call(cs.get_class_record(db, class_slug, teacher_id=user.id))
         assignment_ids = [
             row[0] for row in (await db.execute(
                 select(HomeworkAssignment.id).where(HomeworkAssignment.class_id == cls.id)
@@ -132,40 +143,50 @@ async def get_class_stats(class_slug: Optional[str] = None, db: AsyncSession = D
 
 
 @router.get("/class/{class_slug}")
-async def get_class_detail(class_slug: str, db: AsyncSession = Depends(get_db)):
+async def get_class_detail(class_slug: str, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """班级详情"""
-    return await _call(cs.get_class_detail(db, class_slug))
+    return await _call(cs.get_class_detail(db, class_slug, teacher_id=user.id))
 
 
 @router.put("/class/{class_slug}")
-async def update_class(class_slug: str, body: ClassUpdate, db: AsyncSession = Depends(get_db)):
+async def update_class(class_slug: str, body: ClassUpdate, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """编辑班级（名称 / 学科 / 年级）"""
     updates = body.model_dump(exclude_none=True)
     if "name" in updates:
         updates["name"] = updates["name"].strip()[:100]
         if not updates["name"]:
             raise HTTPException(status_code=400, detail="班级名称不能为空")
-    return await _call(cs.update_class(db, class_slug, updates))
+    return await _call(cs.update_class(db, class_slug, updates, teacher_id=user.id))
 
 
 @router.delete("/class/{class_slug}")
-async def delete_class(class_slug: str, db: AsyncSession = Depends(get_db)):
+async def delete_class(class_slug: str, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """删除班级（连同学生、作业、作业提交）"""
-    return await _call(cs.delete_class(db, class_slug))
+    return await _call(cs.delete_class(db, class_slug, teacher_id=user.id))
 
 
 # ==================== 学生 ====================
 
 @router.get("/class/{class_slug}/members")
-async def list_members(class_slug: str, db: AsyncSession = Depends(get_db)):
+async def list_members(class_slug: str, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """班级学生列表（含平均分、排名等作业统计）"""
-    return {"items": await _call(cs.list_members(db, class_slug))}
+    return {"items": await _call(cs.list_members(db, class_slug, teacher_id=user.id))}
 
 
 @router.post("/class/{class_slug}/members")
-async def add_member(class_slug: str, body: MemberCreate, db: AsyncSession = Depends(get_db)):
+async def add_member(class_slug: str, body: MemberCreate, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """添加学生"""
-    return await _call(cs.add_member(db, class_slug, body.name, body.gender, body.student_no))
+    return await _call(cs.add_member(db, class_slug, body.name, body.gender, body.student_no, teacher_id=user.id))
 
 
 @router.post("/class/{class_slug}/members/import")
@@ -174,6 +195,7 @@ async def import_members(
     text: Optional[str] = Form(None),
     file: Optional[UploadFile] = File(None),
     db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
 ):
     """
     批量导入学生：上传 .txt / .csv 文件或直接提交文本，
@@ -194,63 +216,81 @@ async def import_members(
                 continue
     if not content.strip():
         raise HTTPException(status_code=400, detail="请提供学生名单文本或文件")
-    return await _call(cs.import_members(db, class_slug, content))
+    return await _call(cs.import_members(db, class_slug, content, teacher_id=user.id))
 
 
 @router.put("/class/{class_slug}/members/{member_id}")
-async def update_member(class_slug: str, member_id: int, body: MemberUpdate, db: AsyncSession = Depends(get_db)):
+async def update_member(class_slug: str, member_id: int, body: MemberUpdate, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """编辑学生信息（改名会同步该班级作业提交记录上的姓名）"""
-    return await _call(cs.update_member(db, class_slug, member_id, body.model_dump(exclude_none=True)))
+    return await _call(cs.update_member(db, class_slug, member_id, body.model_dump(exclude_none=True), teacher_id=user.id))
 
 
 @router.delete("/class/{class_slug}/members/{member_id}")
-async def delete_member(class_slug: str, member_id: int, db: AsyncSession = Depends(get_db)):
+async def delete_member(class_slug: str, member_id: int, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """移除学生（其历史提交记录保留）"""
-    return await _call(cs.delete_member(db, class_slug, member_id))
+    return await _call(cs.delete_member(db, class_slug, member_id, teacher_id=user.id))
 
 
 # ==================== 作业 ====================
 
 @router.get("/class/{class_slug}/homework")
-async def list_class_homework(class_slug: str, db: AsyncSession = Depends(get_db)):
+async def list_class_homework(class_slug: str, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """获取班级作业列表"""
-    return {"items": await _call(cs.get_homework_list(db, class_slug))}
+    return {"items": await _call(cs.get_homework_list(db, class_slug, teacher_id=user.id))}
 
 
 @router.post("/class/{class_slug}/homework")
-async def create_class_homework(class_slug: str, body: AssignmentCreate, db: AsyncSession = Depends(get_db)):
+async def create_class_homework(class_slug: str, body: AssignmentCreate, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """布置作业（可附参考答案，批改时自动使用）"""
-    return await _call(cs.create_assignment(db, class_slug, body.model_dump()))
+    return await _call(cs.create_assignment(db, class_slug, body.model_dump(), teacher_id=user.id))
 
 
 @router.get("/class/{class_slug}/homework-stats")
-async def class_homework_stats(class_slug: str, db: AsyncSession = Depends(get_db)):
+async def class_homework_stats(class_slug: str, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """获取班级作业看板统计"""
-    return await _call(cs.get_homework_stats(db, class_slug))
+    return await _call(cs.get_homework_stats(db, class_slug, teacher_id=user.id))
 
 
 @router.get("/class/{class_slug}/grading-tasks")
-async def class_grading_tasks(class_slug: str, db: AsyncSession = Depends(get_db)):
+async def class_grading_tasks(class_slug: str, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """获取班级待批改任务"""
-    return {"items": await _call(cs.get_grading_tasks(db, class_slug))}
+    return {"items": await _call(cs.get_grading_tasks(db, class_slug, teacher_id=user.id))}
 
 
 @router.get("/class/{class_slug}/alert-students")
-async def class_alert_students(class_slug: str, db: AsyncSession = Depends(get_db)):
+async def class_alert_students(class_slug: str, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """获取预警学生"""
-    return {"items": await _call(cs.get_alert_students(db, class_slug))}
+    return {"items": await _call(cs.get_alert_students(db, class_slug, teacher_id=user.id))}
 
 
 @router.get("/class/{class_slug}/score-archive")
-async def class_score_archive(class_slug: str, db: AsyncSession = Depends(get_db)):
+async def class_score_archive(class_slug: str, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """成绩档案：每份已批改作业的成绩统计"""
-    return {"items": await _call(cs.get_score_archive(db, class_slug))}
+    return {"items": await _call(cs.get_score_archive(db, class_slug, teacher_id=user.id))}
 
 
 @router.get("/class/{class_slug}/homework/{homework_id}")
-async def get_class_homework_detail(class_slug: str, homework_id: int, db: AsyncSession = Depends(get_db)):
+async def get_class_homework_detail(class_slug: str, homework_id: int, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """获取班级作业详情"""
-    homework = await _call(cs.get_homework_by_id(db, class_slug, homework_id))
+    homework = await _call(cs.get_homework_by_id(db, class_slug, homework_id, teacher_id=user.id))
     if not homework:
         raise HTTPException(status_code=404, detail="作业不存在")
     return homework
@@ -258,43 +298,52 @@ async def get_class_homework_detail(class_slug: str, homework_id: int, db: Async
 
 @router.put("/class/{class_slug}/homework/{homework_id}")
 async def update_class_homework(
-    class_slug: str, homework_id: int, body: AssignmentUpdate, db: AsyncSession = Depends(get_db)
+    class_slug: str, homework_id: int, body: AssignmentUpdate, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
 ):
     """编辑作业"""
-    homework = await _call(cs.update_assignment(db, class_slug, homework_id, body.model_dump(exclude_none=True)))
+    homework = await _call(cs.update_assignment(db, class_slug, homework_id, body.model_dump(exclude_none=True), teacher_id=user.id))
     if not homework:
         raise HTTPException(status_code=404, detail="作业不存在")
     return homework
 
 
 @router.delete("/class/{class_slug}/homework/{homework_id}")
-async def delete_class_homework(class_slug: str, homework_id: int, db: AsyncSession = Depends(get_db)):
+async def delete_class_homework(class_slug: str, homework_id: int, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """删除作业（连同所有提交记录）"""
-    result = await _call(cs.delete_assignment(db, class_slug, homework_id))
+    result = await _call(cs.delete_assignment(db, class_slug, homework_id, teacher_id=user.id))
     if not result:
         raise HTTPException(status_code=404, detail="作业不存在")
     return result
 
 
 @router.get("/class/{class_slug}/homework/{homework_id}/submissions")
-async def list_homework_submissions(class_slug: str, homework_id: int, db: AsyncSession = Depends(get_db)):
+async def list_homework_submissions(class_slug: str, homework_id: int, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """获取作业学生提交列表"""
-    return {"items": await _call(cs.get_student_submissions(db, class_slug, homework_id))}
+    return {"items": await _call(cs.get_student_submissions(db, class_slug, homework_id, teacher_id=user.id))}
 
 
 @router.get("/class/{class_slug}/homework/{homework_id}/analysis")
-async def homework_analysis(class_slug: str, homework_id: int, db: AsyncSession = Depends(get_db)):
+async def homework_analysis(class_slug: str, homework_id: int, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """作业逐题正确率分析"""
-    result = await _call(cs.get_homework_analysis(db, class_slug, homework_id))
+    result = await _call(cs.get_homework_analysis(db, class_slug, homework_id, teacher_id=user.id))
     if result is None:
         raise HTTPException(status_code=404, detail="作业不存在")
     return result
 
 
 @router.delete("/class/{class_slug}/homework/{homework_id}/submissions/pending")
-async def delete_pending_submissions(class_slug: str, homework_id: int, db: AsyncSession = Depends(get_db)):
+async def delete_pending_submissions(class_slug: str, homework_id: int, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
     """批量删除待批改的作业提交记录"""
-    assignment = await _call(cs.get_assignment_record(db, class_slug, homework_id))
+    assignment = await _call(cs.get_assignment_record(db, class_slug, homework_id, teacher_id=user.id))
     if not assignment:
         raise HTTPException(status_code=404, detail="作业不存在")
     result = await db.execute(
@@ -312,10 +361,11 @@ async def delete_pending_submissions(class_slug: str, homework_id: int, db: Asyn
 
 @router.delete("/class/{class_slug}/homework/{homework_id}/submissions/keep-first/{keep_count}")
 async def keep_first_n_submissions(
-    class_slug: str, homework_id: int, keep_count: int, db: AsyncSession = Depends(get_db)
+    class_slug: str, homework_id: int, keep_count: int, db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
 ):
     """保留前N条学生提交记录，删除其余所有记录"""
-    assignment = await _call(cs.get_assignment_record(db, class_slug, homework_id))
+    assignment = await _call(cs.get_assignment_record(db, class_slug, homework_id, teacher_id=user.id))
     if not assignment:
         raise HTTPException(status_code=404, detail="作业不存在")
     keep_ids = [

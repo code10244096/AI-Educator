@@ -6,7 +6,7 @@ import uuid
 
 import pytest
 
-from conftest import DATASET_HW_DIR, GAOKAO_SCAN_DIR
+from testenv import DATASET_HW_DIR, GAOKAO_SCAN_DIR
 from fakes import DEFAULT_OCR, FAKE_WRONG_MARKER, prompt_text
 from helpers import grade, grading_payload, poll_job, submission_id_of
 

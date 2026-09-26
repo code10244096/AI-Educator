@@ -4,10 +4,67 @@ const API_BASE_URL = '/api'
 
 const api = axios.create({
   baseURL: API_BASE_URL,
+  withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
   },
 })
+
+// 登录失效 / 需先改初始密码时的全局处理（由 AuthContext 注册）
+let authHandlers = { onUnauthorized: null, onMustChangePassword: null }
+export const setAuthHandlers = (handlers) => {
+  authHandlers = { ...authHandlers, ...handlers }
+}
+
+export const MSG_SESSION_EXPIRED = '登录已过期，请重新登录'
+export const MSG_MUST_CHANGE_PASSWORD = '请先修改初始密码'
+
+api.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    const status = error?.response?.status
+    const url = error?.config?.url || ''
+    const detail = error?.response?.data?.detail
+    const isAuthCall = url.startsWith('/auth/login') || url.startsWith('/auth/me') || url.startsWith('/auth/logout')
+    if (status === 401 && !isAuthCall) {
+      authHandlers.onUnauthorized?.(MSG_SESSION_EXPIRED)
+    } else if (status === 403 && detail === MSG_MUST_CHANGE_PASSWORD) {
+      authHandlers.onMustChangePassword?.()
+    }
+    return Promise.reject(error)
+  },
+)
+
+// 账号 API
+export const authAPI = {
+  login: async (username, password) => {
+    const response = await api.post('/auth/login', { username, password })
+    return response.data
+  },
+
+  logout: async () => {
+    const response = await api.post('/auth/logout')
+    return response.data
+  },
+
+  me: async () => {
+    const response = await api.get('/auth/me')
+    return response.data
+  },
+
+  updateProfile: async (data) => {
+    const response = await api.put('/auth/me', data)
+    return response.data
+  },
+
+  changePassword: async (oldPassword, newPassword) => {
+    const response = await api.post('/auth/change-password', {
+      old_password: oldPassword,
+      new_password: newPassword,
+    })
+    return response.data
+  },
+}
 
 // 作业批改 API
 export const homeworkAPI = {

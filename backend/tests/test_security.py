@@ -5,7 +5,7 @@ import uuid
 
 import pytest
 
-from conftest import TEST_TMP, TEST_UPLOADS
+from testenv import TEST_TMP, TEST_UPLOADS
 from fakes import DEFAULT_OCR
 
 

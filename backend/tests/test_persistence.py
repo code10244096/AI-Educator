@@ -167,14 +167,16 @@ def test_init_db_on_legacy_schema_ends_with_usable_schema(test_tmp):
     assert {"dataset_file_id", "status", "assign_date"} <= asg_cols
 
 
-async def test_interrupted_jobs_marked_failed_on_startup(app, client):
+async def test_interrupted_jobs_marked_failed_on_startup(app, client, default_teacher):
     """A job left 'processing' by a crash/restart must not stay processing forever."""
     import database
     from models import HomeworkSubmission, LessonPlan
+    tid = default_teacher["id"]
     async with database.AsyncSessionLocal() as db:
         sub = HomeworkSubmission(student_name="中断学生", status="processing", grading_status="批改中",
-                                 progress_stage="批改中", image_paths="[]")
-        plan = LessonPlan(title="中断教案", status="processing", progress_stage="AI 生成中", content="")
+                                 progress_stage="批改中", image_paths="[]", teacher_id=tid)
+        plan = LessonPlan(title="中断教案", status="processing", progress_stage="AI 生成中", content="",
+                          teacher_id=tid)
         db.add_all([sub, plan])
         await db.commit()
         sid, pid = sub.id, plan.id

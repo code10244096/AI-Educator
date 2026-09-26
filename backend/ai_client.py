@@ -295,7 +295,8 @@ class AIClient:
         self,
         question_text: str,
         knowledge_point: str,
-        count: int = 3
+        count: int = 3,
+        task_meta: Optional[Dict] = None,
     ) -> List[Dict]:
         """生成变式题"""
         if self.is_debug_mode:
@@ -324,7 +325,7 @@ class AIClient:
         messages = [{"role": "user", "content": prompt}]
         result = await self._make_request(
             messages, feature="variant", temperature=0.7,
-            task_meta={"knowledge_point": knowledge_point, "count": count},
+            task_meta={"knowledge_point": knowledge_point, "count": count, **(task_meta or {})},
         )
         
         try:
@@ -338,7 +339,8 @@ class AIClient:
         period: str = "1 课时",
         student_level: str = "中等",
         requirements: str = "",
-        question_bank_context: str = ""
+        question_bank_context: str = "",
+        task_meta: Optional[Dict] = None,
     ) -> str:
         """生成教案"""
         if self.is_debug_mode:
@@ -392,7 +394,7 @@ class AIClient:
         messages = [{"role": "user", "content": prompt}]
         return await self._make_request(
             messages, feature="lessonplan", temperature=0.7,
-            task_meta={"topic": topic, "period": period, "student_level": student_level},
+            task_meta={"topic": topic, "period": period, "student_level": student_level, **(task_meta or {})},
         )
 
     def _mock_variant_questions(self, question_text: str, knowledge_point: str, count: int = 3) -> List[Dict]:

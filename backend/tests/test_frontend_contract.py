@@ -4,7 +4,7 @@ import re
 import pytest
 from starlette.routing import Match
 
-from conftest import REPO_ROOT
+from testenv import REPO_ROOT
 
 API_JS = REPO_ROOT / "frontend" / "src" / "utils" / "api.js"
 CALL_RE = re.compile(r"api\.(get|post|put|patch|delete)\(\s*[`'\"]([^`'\"]+)[`'\"]")

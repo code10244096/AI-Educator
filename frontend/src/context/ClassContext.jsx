@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react'
 import { classAPI } from '../utils/api'
+import { useAuth } from './AuthContext'
 
 const ClassContext = createContext()
 
@@ -22,6 +23,8 @@ const normalize = (c) => ({
 })
 
 export const ClassProvider = ({ children }) => {
+  const { user } = useAuth()
+  const userId = user && !user.must_change_password ? user.id : null
   const [classes, setClasses] = useState([])
   const [loaded, setLoaded] = useState(false)
   const [loadError, setLoadError] = useState(null)
@@ -38,12 +41,19 @@ export const ClassProvider = ({ children }) => {
     }
   }, [])
 
+  // 只在登录后加载；换账号 / 退出时清空，避免显示上一位老师的班级
   useEffect(() => {
+    if (!userId) {
+      setClasses([])
+      setLoaded(false)
+      setLoadError(null)
+      return undefined
+    }
     reloadClasses()
     const onChanged = () => reloadClasses()
     window.addEventListener('classesChanged', onChanged)
     return () => window.removeEventListener('classesChanged', onChanged)
-  }, [reloadClasses])
+  }, [reloadClasses, userId])
 
   // 以下方法都会写入后端，失败时抛出异常由调用方提示
   const addClass = async (newClass) => {
@@ -74,7 +84,7 @@ export const ClassProvider = ({ children }) => {
     await reloadClasses()
   }
 
-  const getClassBySlug = (slug) => classes.find(c => c.slug === slug || `class${c.id}` === slug)
+  const getClassBySlug = (slug) => classes.find(c => String(c.id) === String(slug) || c.slug === slug || `class${c.id}` === slug)
 
   return (
     <ClassContext.Provider value={{

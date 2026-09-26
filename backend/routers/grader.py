@@ -9,13 +9,14 @@ from fastapi.responses import FileResponse
 from sqlalchemy import delete, func, or_, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from auth import current_user
 from class_service import class_slug, sync_wrong_questions, update_assignment_status  # noqa: F401
 from config import settings
 from database import get_db
 from file_utils import save_uploads
 from homework_dataset import DATASET_DIR, get_dataset_file_path, get_dataset_homework, list_dataset_homeworks
 from jobs import run_grading_job, spawn
-from models import HomeworkAssignment, HomeworkSubmission, WrongQuestion
+from models import HomeworkAssignment, HomeworkSubmission, User, WrongQuestion
 
 router = APIRouter()
 
@@ -78,9 +79,10 @@ async def _submission_detail(db: AsyncSession, sub: HomeworkSubmission) -> dict:
     }
 
 
-async def _get_submission(db: AsyncSession, submission_id: int) -> HomeworkSubmission:
+async def _get_submission(db: AsyncSession, submission_id: int, teacher_id: int) -> HomeworkSubmission:
+    """取当前教师的提交记录；不存在或属于其他教师一律 404（不暴露是否存在）"""
     sub = await db.get(HomeworkSubmission, submission_id)
-    if not sub:
+    if not sub or sub.teacher_id != teacher_id:
         raise HTTPException(status_code=404, detail="提交记录不存在")
     return sub
 
@@ -99,15 +101,17 @@ async def _prepare_submission(
     submission_id: Optional[int],
     assignment_id: Optional[int],
     student_name: Optional[str],
+    teacher_id: int,
 ) -> Optional[HomeworkSubmission]:
     """校验参数并找到要复用的提交记录（显式 submission_id，或同一作业下同名学生的记录）"""
     if assignment_id:
-        if not await db.get(HomeworkAssignment, assignment_id):
+        assignment = await db.get(HomeworkAssignment, assignment_id)
+        if not assignment or assignment.teacher_id != teacher_id:
             raise HTTPException(status_code=404, detail="作业不存在")
 
     sub = None
     if submission_id:
-        sub = await _get_submission(db, submission_id)
+        sub = await _get_submission(db, submission_id, teacher_id)
     elif assignment_id and student_name:
         sub = (await db.execute(
             select(HomeworkSubmission)
@@ -145,10 +149,11 @@ async def _legacy_response(db: AsyncSession, sub: HomeworkSubmission, extra: Opt
 async def _run_or_spawn(db: AsyncSession, sub: HomeworkSubmission, wait: bool,
                         preset_text: Optional[str] = None, extra: Optional[dict] = None) -> dict:
     sub_id = sub.id
+    teacher_id = sub.teacher_id
     if wait:
         await run_grading_job(sub_id, preset_text)
         db.expire_all()
-        sub = await _get_submission(db, sub_id)
+        sub = await _get_submission(db, sub_id, teacher_id)
         if sub.status == "failed":
             raise HTTPException(status_code=502, detail=sub.error_message or "批改失败")
         return await _legacy_response(db, sub, extra)
@@ -166,6 +171,7 @@ async def upload_homework(
     student_name: Optional[str] = Form(None),
     wait: bool = Form(False),
     db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
 ):
     """
     上传作业文件并创建批改任务（支持图片、PDF、Word、TXT、MD）。
@@ -175,6 +181,7 @@ async def upload_homework(
     student_name = (student_name or "").strip() or None
     sub = await _prepare_submission(
         db, submission_id=submission_id, assignment_id=assignment_id, student_name=student_name,
+        teacher_id=user.id,
     )
     saved = await save_uploads(files)
 
@@ -182,6 +189,7 @@ async def upload_homework(
     if sub is None:
         sub = HomeworkSubmission(
             assignment_id=assignment_id,
+            teacher_id=user.id,
             student_name=student_name,
             is_test_data=False,
             submit_time=now_str,
@@ -220,9 +228,10 @@ async def list_grading_submissions(
     limit: int = Query(20, ge=1, le=200),
     offset: int = Query(0, ge=0),
     db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
 ):
     """批改记录列表（默认只列出真正提交过批改任务的记录，不含演示种子数据）"""
-    query = select(HomeworkSubmission)
+    query = select(HomeworkSubmission).where(HomeworkSubmission.teacher_id == user.id)
     if not include_seed:
         query = query.where(or_(
             HomeworkSubmission.finished_at.is_not(None),
@@ -246,16 +255,18 @@ async def list_grading_submissions(
 
 
 @router.get("/grader/{submission_id}")
-async def get_grading_result(submission_id: int, db: AsyncSession = Depends(get_db)):
+async def get_grading_result(submission_id: int, db: AsyncSession = Depends(get_db),
+                             user: User = Depends(current_user)):
     """获取批改结果 / 批改任务状态（status: processing / completed / failed / pending）"""
-    sub = await _get_submission(db, submission_id)
+    sub = await _get_submission(db, submission_id, user.id)
     return await _submission_detail(db, sub)
 
 
 @router.post("/grader/{submission_id}/retry")
-async def retry_grading(submission_id: int, wait: bool = Form(False), db: AsyncSession = Depends(get_db)):
+async def retry_grading(submission_id: int, wait: bool = Form(False), db: AsyncSession = Depends(get_db),
+                        user: User = Depends(current_user)):
     """使用已保存的文件重新批改（适用于失败或需要重批的记录）"""
-    sub = await _get_submission(db, submission_id)
+    sub = await _get_submission(db, submission_id, user.id)
     if sub.status == "processing":
         raise HTTPException(status_code=409, detail="该作业正在批改中")
 
@@ -279,9 +290,10 @@ async def retry_grading(submission_id: int, wait: bool = Form(False), db: AsyncS
 
 
 @router.delete("/grader/{submission_id}")
-async def delete_grading_submission(submission_id: int, db: AsyncSession = Depends(get_db)):
+async def delete_grading_submission(submission_id: int, db: AsyncSession = Depends(get_db),
+                                    user: User = Depends(current_user)):
     """删除批改记录（同时删除由它同步到错题本的错题）"""
-    sub = await _get_submission(db, submission_id)
+    sub = await _get_submission(db, submission_id, user.id)
     if sub.status == "processing":
         raise HTTPException(status_code=409, detail="该作业正在批改中，完成后才能删除")
     assignment_id = sub.assignment_id
@@ -299,9 +311,10 @@ async def delete_grading_submission(submission_id: int, db: AsyncSession = Depen
 
 
 @router.get("/grader/{submission_id}/files/{index}")
-async def get_submission_file(submission_id: int, index: int, db: AsyncSession = Depends(get_db)):
-    """下载/预览提交的原始文件"""
-    sub = await _get_submission(db, submission_id)
+async def get_submission_file(submission_id: int, index: int, db: AsyncSession = Depends(get_db),
+                              user: User = Depends(current_user)):
+    """下载/预览提交的原始文件（只能由所属教师下载）"""
+    sub = await _get_submission(db, submission_id, user.id)
     paths = _loads(sub.image_paths, [])
     if index < 0 or index >= len(paths):
         raise HTTPException(status_code=404, detail="文件不存在")
@@ -345,6 +358,7 @@ async def upload_dataset_homework(
     homework_id: Optional[int] = Form(None),
     wait: bool = Form(False),
     db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
 ):
     """使用 dataset 测试集文件批改（后台任务；wait=true 时同步等待）"""
     from class_service import get_assignment_record
@@ -359,7 +373,7 @@ async def upload_dataset_homework(
     reference_answer = data["reference_answer"]
     if not assignment_id and class_slug_value and homework_id:
         try:
-            assignment = await get_assignment_record(db, class_slug_value, homework_id)
+            assignment = await get_assignment_record(db, class_slug_value, homework_id, teacher_id=user.id)
         except ValueError:
             assignment = None
         if assignment:
@@ -370,10 +384,12 @@ async def upload_dataset_homework(
     student_name = (student_name or "").strip() or None
     sub = await _prepare_submission(
         db, submission_id=submission_id, assignment_id=assignment_id, student_name=student_name,
+        teacher_id=user.id,
     )
     if sub is None:
         sub = HomeworkSubmission(
             assignment_id=assignment_id,
+            teacher_id=user.id,
             student_name=student_name or data["title"],
             submit_time=datetime.now().strftime("%Y-%m-%d %H:%M"),
         )

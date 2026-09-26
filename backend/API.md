@@ -2,10 +2,49 @@
 
 - 所有接口前缀 `/api`（`config.json -> api.prefix`）。
 - 错误统一返回 `{"detail": "<中文原因>"}`。
-- 通用状态码：`400` 参数不合法；`404` 资源不存在；`409` 冲突（重复 / 任务进行中）；`413` 文件过大；`422` FastAPI 参数校验失败；`502` AI 模型调用失败（`detail` 为 `llm.LLMError` 的中文消息）。
+- 通用状态码：`400` 参数不合法；`401` 未登录 / 登录已过期；`403` 需先修改初始密码 / 仅管理员可访问；`404` 资源不存在（**包括属于其他教师的资源**）；`409` 冲突（重复 / 任务进行中）；`413` 文件过大；`422` FastAPI 参数校验失败；`429` 登录尝试过多；`502` AI 模型调用失败（`detail` 为 `llm.LLMError` 的中文消息）。
+
+## 鉴权与数据隔离（R1-001 / R1-002）
+
+- **登录方式**：`POST /api/auth/login` 成功后写入会话 Cookie `aiedu_session`（JWT，httpOnly、`SameSite=Lax`，生产环境 `Secure`），浏览器自动携带；脚本 / 测试也可用请求头 `Authorization: Bearer <token>`。
+- **有效期**：`SESSION_EXPIRE_MINUTES`（默认 10080 = 7 天），签发时读取。令牌内带 `sv`（`users.session_version`），**改密、管理员重置密码、停用账号**都会让旧会话立即失效。
+- **公开接口**（无需登录）：`GET /`、`GET /health`、`POST /api/auth/login`、`POST /api/auth/logout`（只清 Cookie）。其余所有 `/api/*` 未登录一律 `401`：
+  - 没带会话：`{"detail": "请先登录"}`；会话过期 / 失效：`{"detail": "登录已过期，请重新登录"}`。
+- **初始密码**：`must_change_password=true` 的账号只能调用 `/api/auth/*`，其他业务接口一律 `403 {"detail": "请先修改初始密码"}`（前端据此只显示“设置新密码”页）。
+- **管理员**：`/api/usage/*` 需要 `role=admin`，教师 `403 {"detail": "仅管理员可访问"}`。
+- **按教师隔离**：班级、学生、作业、批改记录（含原始文件下载）、错题、教案、任务全部按当前教师过滤；按 ID 访问别人的资源一律 `404`（不用 403，避免暴露存在性），列表中也不可见。题库（`/questionbank/*`）是全校共用资源，只要求登录。
+  - 归属字段：`classes.teacher_id`、`homework_assignments.teacher_id`、`homework_submissions.teacher_id`（新增）、`wrong_questions.user_id`、`lesson_plans.teacher_id`。
+  - 后台任务（批改、教案、错题同步）使用任务记录上的教师 ID，不依赖请求上下文；每次模型调用的日志 `task_meta` 带 `teacher_id`。
+- **登录限流**：同一账号（按输入的账号字符串，不区分是否存在）5 分钟内失败 10 次，锁定 15 分钟，期间登录返回 `429 {"detail": "尝试次数过多，请 15 分钟后再试"}`（单进程内存计数，重启清零）。
+- **密码**：bcrypt 哈希（`$2b$`）；新密码 8~64 位，且同时包含字母和数字。
+
+### 账号接口 `routers/auth.py`
+
+| 方法 | 路径 | 请求 | 响应 / 状态码 |
+|---|---|---|---|
+| POST | `/auth/login` | JSON `{username, password}` | 200 `User` + `Set-Cookie`；401 `账号或密码错误`（账号不存在 / 密码错误 / 已停用，提示相同）；429 锁定 |
+| POST | `/auth/logout` | – | 200 `{"message"}`，清除 Cookie |
+| GET | `/auth/me` | – | 200 `User`（初始密码状态也可访问）；401 |
+| PUT | `/auth/me` | JSON `{display_name?, school?}`（账号不可改） | 200 `User`；400 姓名为空 / 过长；403 需先改密 |
+| POST | `/auth/change-password` | JSON `{old_password, new_password}` | 200 `{"message","user"}`（同时刷新当前 Cookie，其他设备会话失效）；400 `当前密码不正确` / 密码规则 / 与当前密码相同 |
+
+User：`{id, username, display_name, school, role("teacher"|"admin"), must_change_password}`
+
+### 管理命令 `backend/manage.py`（不开放注册，由管理员在服务器上执行）
+
+```
+python manage.py create-user --username 13800000001 --name 王老师 [--role admin] [--school 某中学] [--password <初始密码>] [--no-force-change]
+python manage.py reset-password --username 13800000001 [--password <新初始密码>]
+python manage.py disable-user --username 13800000001      # 停用（数据保留），enable-user 恢复
+python manage.py list-users
+python manage.py assign-orphans --username 13800000001    # 把无归属的历史数据归到该教师（幂等、无损）
+```
+- 不给 `--password` 时随机生成 10 位初始密码，输出中固定一行 `初始密码: <密码>`；老师首次登录后必须设置新密码（`--no-force-change` 仅供测试）。
+- `assign-orphans` 的“无归属”= 归属为空、归属账号不存在、或归属于无法登录的历史占位账号（密码不是 bcrypt 哈希，如旧版播种的 `teacher`）。已属于真实教师的数据不动；作业先跟随所在班级、提交先跟随所属作业的真实归属，其余归到目标教师。
+- 同名函数可直接 `import manage` 调用（同步函数）：`create_user(username, name, role='teacher', school=None, password=None, must_change_password=True) -> (user_id, password)`、`reset_password`、`disable_user`、`enable_user`、`list_users`、`assign_orphans`。
 - 未配置 AI Key（或 `LLM_API_KEY=your_api_key_here`）时进入模拟模式：OCR / 批改 / 教案 / 变式题均返回本地模拟结果，不访问网络。
-- 环境变量覆盖：`DATABASE_URL`、`UPLOAD_DIR`、`API_OUTPUT_ROOT`、`LLM_API_KEY`。
-- 启动（FastAPI lifespan）：`create_all` + 幂等增量迁移（仅 `ALTER TABLE ADD COLUMN`，绝不删表/删数据）→ 静态演示数据播种（库中已有用户或班级时跳过；不调用 AI）→ 把上次中断仍为 `processing` 的任务标记为 `failed`。
+- 环境变量覆盖：`DATABASE_URL`、`UPLOAD_DIR`、`API_OUTPUT_ROOT`、`LLM_API_KEY`、`JWT_SECRET`、`SESSION_EXPIRE_MINUTES`、`COOKIE_SECURE`、`BCRYPT_ROUNDS`（相对路径的 SQLite 库按 `backend/` 目录解析）。
+- 启动（FastAPI lifespan）：`create_all` + 幂等增量迁移（仅 `ALTER TABLE ADD COLUMN` / 新建索引，绝不删表/删数据）→ 静态演示数据播种（库中已有用户或班级时跳过；不调用 AI）→ 归属补齐（作业没有 `teacher_id` 时取班级的、提交没有时取作业的；只填空值）→ 把上次中断仍为 `processing` 的任务标记为 `failed`。
 
 ## 后台任务模式（作业批改 / 教案生成）
 
@@ -74,7 +113,7 @@ SubmissionSummary：`id, submission_id, assignment_id, student_name, subject, st
 删除提交及其同步的错题。409 进行中。响应 `{"message", "id"}`。
 
 ### `GET /grader/{submission_id}/files/{index}`
-下载第 index 个原始文件（仅限上传目录 / dataset 目录）。404 / 403。
+下载第 index 个原始文件（仅限上传目录 / dataset 目录）。只有提交所属教师能下载，其他教师 404。
 
 ### `GET /homework/dataset`
 `{"items": [{"id","filename","title","question_count","file_size"}], "total"}`
@@ -138,7 +177,7 @@ LessonPlan：`id, title, period, student_level, requirements, content(Markdown),
 
 ## 班级 `routers/classes.py`
 
-班级标识 `class_slug` 形如 `class{id}`（也接受纯数字 `id`）。不存在 → 404 `未知班级: xxx`。
+班级标识 `class_slug` 形如 `class{id}`（也接受纯数字 `id`）。不存在或不属于当前教师 → 404 `班级不存在`。
 
 Class：`id, slug, name, students(=成员数), member_count, homework_count, subject, grade, created_at`
 
@@ -195,8 +234,8 @@ StudentRow：`id(序号), member_id, submission_id, name, submitStatus(已提交
 `POST /questionbank/add`(form)、`POST /questionbank/batch-add`(JSON 数组)、`GET /questionbank/list`、`GET /questionbank/stats`、`GET /questionbank/{id}`、`POST /questionbank/search`(form)。
 （修复：`/questionbank/stats` 之前被 `/{question_id}` 抢先匹配返回 422，现已调整顺序。）
 
-## 用量统计 `usage_api.py`（由其他模块维护）
-见 `usage_api.py`。
+## 用量统计 `usage_api.py`（仅管理员）
+`GET /usage/summary`、`GET /usage/calls`，需 `role=admin`，教师 403。见 `usage_api.py`。
 
 ## 其他
 `GET /` → `{"name","version","status"}`；`GET /health` → `{"status":"healthy"}`（无 `/api` 前缀）。

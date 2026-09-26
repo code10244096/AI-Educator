@@ -7,10 +7,11 @@ from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from ai_client import ai_client
+from auth import current_user
 from database import get_db
 from file_utils import FileParseError, extract_text, save_upload, validate_upload
 from llm import LLMError
-from models import WrongQuestion
+from models import User, WrongQuestion
 
 router = APIRouter()
 
@@ -43,6 +44,7 @@ async def upload_wrong_question(
     knowledge_point: str = Form(...),
     subject: str = Form("数学"),
     db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
 ):
     """录入错题 - 支持图片、PDF、Word、TXT、MD 格式（图片会调用 AI 识别，并生成变式题）"""
     try:
@@ -57,7 +59,7 @@ async def upload_wrong_question(
     filepath = saved["path"]
 
     try:
-        text_content = await extract_text(filepath, ext, task_meta={"feature_source": "notebook"})
+        text_content = await extract_text(filepath, ext, task_meta={"feature_source": "notebook", "teacher_id": user.id})
     except LLMError:
         raise
     except FileParseError as e:
@@ -82,12 +84,13 @@ async def upload_wrong_question(
     try:
         variant_questions = await ai_client.generate_variant_questions(
             question_text=question_text, knowledge_point=knowledge_point, count=3,
+            task_meta={"teacher_id": user.id},
         )
     except Exception:  # noqa: BLE001  变式题失败不影响错题录入
         variant_questions = []
 
     wrong_question = WrongQuestion(
-        user_id=1,
+        user_id=user.id,
         question_text=question_text,
         user_answer="",
         correct_answer=correct_answer,
@@ -121,9 +124,10 @@ async def get_wrong_questions(
     limit: int = Query(20, ge=1, le=500),
     offset: int = Query(0, ge=0),
     db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
 ):
     """获取错题列表（返回数组，按录入时间倒序）"""
-    query = select(WrongQuestion)
+    query = select(WrongQuestion).where(WrongQuestion.user_id == user.id)
     if knowledge_point:
         query = query.where(WrongQuestion.knowledge_point.like(f"%{knowledge_point}%"))
     if subject:
@@ -140,9 +144,10 @@ async def get_wrong_questions(
 
 
 @router.get("/notebook/stats")
-async def get_notebook_stats(subject: Optional[str] = None, db: AsyncSession = Depends(get_db)):
+async def get_notebook_stats(subject: Optional[str] = None, db: AsyncSession = Depends(get_db),
+                             user: User = Depends(current_user)):
     """错题本统计：总数 / 已掌握 / 知识点分布"""
-    base = select(WrongQuestion)
+    base = select(WrongQuestion).where(WrongQuestion.user_id == user.id)
     if subject:
         base = base.where(WrongQuestion.subject == subject)
     sub = base.subquery()
@@ -161,38 +166,43 @@ async def get_notebook_stats(subject: Optional[str] = None, db: AsyncSession = D
     }
 
 
-async def _get_question(db: AsyncSession, question_id: int) -> WrongQuestion:
+async def _get_question(db: AsyncSession, question_id: int, user_id: int) -> WrongQuestion:
+    """取当前教师的错题；不存在或属于其他教师一律 404"""
     q = await db.get(WrongQuestion, question_id)
-    if not q:
+    if not q or q.user_id != user_id:
         raise HTTPException(status_code=404, detail="错题不存在")
     return q
 
 
 @router.post("/notebook/{question_id}/mastered")
-async def mark_as_mastered(question_id: int, db: AsyncSession = Depends(get_db)):
+async def mark_as_mastered(question_id: int, db: AsyncSession = Depends(get_db),
+                           user: User = Depends(current_user)):
     """标记为已掌握"""
-    q = await _get_question(db, question_id)
+    q = await _get_question(db, question_id, user.id)
     q.is_mastered = True
     await db.commit()
     return {"message": "已标记为已掌握"}
 
 
 @router.post("/notebook/{question_id}/unmastered")
-async def mark_as_unmastered(question_id: int, db: AsyncSession = Depends(get_db)):
+async def mark_as_unmastered(question_id: int, db: AsyncSession = Depends(get_db),
+                             user: User = Depends(current_user)):
     """取消已掌握标记"""
-    q = await _get_question(db, question_id)
+    q = await _get_question(db, question_id, user.id)
     q.is_mastered = False
     await db.commit()
     return {"message": "已取消掌握标记"}
 
 
 @router.post("/notebook/{question_id}/variants")
-async def generate_variants(question_id: int, count: int = Form(3), db: AsyncSession = Depends(get_db)):
+async def generate_variants(question_id: int, count: int = Form(3), db: AsyncSession = Depends(get_db),
+                            user: User = Depends(current_user)):
     """为错题（重新）生成变式题（同步调用 AI，约 20-60 秒）"""
-    q = await _get_question(db, question_id)
+    q = await _get_question(db, question_id, user.id)
     count = max(1, min(count, 5))
     variants = await ai_client.generate_variant_questions(
         question_text=q.question_text, knowledge_point=q.knowledge_point or "", count=count,
+        task_meta={"teacher_id": user.id, "wrong_question_id": q.id},
     )
     if not variants:
         raise HTTPException(status_code=502, detail="AI 未返回有效的变式题，请重试")
@@ -202,9 +212,10 @@ async def generate_variants(question_id: int, count: int = Form(3), db: AsyncSes
 
 
 @router.delete("/notebook/{question_id}")
-async def delete_wrong_question(question_id: int, db: AsyncSession = Depends(get_db)):
+async def delete_wrong_question(question_id: int, db: AsyncSession = Depends(get_db),
+                                user: User = Depends(current_user)):
     """删除错题"""
-    q = await _get_question(db, question_id)
+    q = await _get_question(db, question_id, user.id)
     await db.delete(q)
     await db.commit()
     return {"message": "错题已删除", "id": question_id}
