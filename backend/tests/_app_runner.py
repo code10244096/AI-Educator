@@ -22,10 +22,24 @@ os.environ.setdefault("LLM_API_KEY", "your_api_key_here")
 logging.disable(logging.CRITICAL)
 
 
+RUNNER_USER = "runner_teacher"
+RUNNER_PASSWORD = "RunnerPass123"
+
+
 async def _client(app):
     import httpx
     return httpx.AsyncClient(transport=httpx.ASGITransport(app=app, raise_app_exceptions=False),
                              base_url="http://runner")
+
+
+async def _login(c, create: bool):
+    """鉴权后所有业务接口都要登录：首次运行开通账号并认领演示数据，之后直接登录"""
+    if create:
+        import manage
+        manage.create_user(RUNNER_USER, "重启测试老师", password=RUNNER_PASSWORD, must_change_password=False)
+        manage.assign_orphans(RUNNER_USER)
+    r = await c.post("/api/auth/login", json={"username": RUNNER_USER, "password": RUNNER_PASSWORD})
+    assert r.status_code == 200, r.text
 
 
 async def create():
@@ -37,6 +51,7 @@ async def create():
     out = {}
     async with app.router.lifespan_context(app):
         async with await _client(app) as c:
+            await _login(c, create=True)
             r = await c.post("/api/lessonplan/generate", data={"title": "重启测试教案"})
             out["lesson_status"] = r.status_code
             out["lesson_id"] = r.json().get("id") if r.status_code == 200 else None
@@ -69,6 +84,7 @@ async def check():
     out = {}
     async with app.router.lifespan_context(app):
         async with await _client(app) as c:
+            await _login(c, create=False)
             if ids.get("lesson_id"):
                 out["lesson"] = (await c.get(f"/api/lessonplan/{ids['lesson_id']}")).status_code
             if ids.get("submission_id"):

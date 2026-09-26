@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useRef, useCallback } from 'react'
 import { homeworkAPI, lessonPlanAPI } from '../utils/api'
+import { useAuth } from './AuthContext'
 
 const TaskContext = createContext()
 
@@ -51,6 +52,13 @@ export const TaskProvider = ({ children }) => {
   const [taskBarExpanded, setTaskBarExpanded] = useState(false)
   const tasksRef = useRef(tasks)
   tasksRef.current = tasks
+  const { user } = useAuth()
+  const userId = user?.id ?? null
+
+  // 退出或换账号后丢弃上一位老师的本地任务
+  useEffect(() => {
+    if (!userId) setTasks([])
+  }, [userId])
 
   const addTask = (task) => {
     const newId = Date.now().toString()
@@ -99,6 +107,7 @@ export const TaskProvider = ({ children }) => {
   useEffect(() => {
     let stopped = false
     const poll = async () => {
+      if (!userId) return
       const running = tasksRef.current.filter(
         t => t.status === 'running' && (t.submissionId || t.planId)
       )
@@ -136,7 +145,7 @@ export const TaskProvider = ({ children }) => {
       stopped = true
       clearInterval(timer)
     }
-  }, [updateTask])
+  }, [updateTask, userId])
 
   return (
     <TaskContext.Provider value={{

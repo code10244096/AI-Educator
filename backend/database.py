@@ -5,7 +5,7 @@ from config import settings
 # 创建异步引擎
 engine = create_async_engine(
     settings.DATABASE_URL,
-    echo=settings.DEBUG,
+    echo=settings.SQL_ECHO,
 )
 
 # 创建异步会话
@@ -70,6 +70,9 @@ def _migrate_add_missing_columns(connection) -> list:
             ddl = f'ALTER TABLE "{table.name}" ADD COLUMN "{column.name}" {col_type}{_column_default_sql(column)}'
             connection.exec_driver_sql(ddl)
             added.append(f"{table.name}.{column.name}")
+        # 新增列上的索引（CREATE INDEX IF NOT EXISTS 语义，只加不删）
+        for index in table.indexes:
+            index.create(connection, checkfirst=True)
     return added
 
 

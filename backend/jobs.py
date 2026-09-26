@@ -124,6 +124,7 @@ async def _run_grading_job(submission_id: int, preset_text: Optional[str] = None
         names: List[str] = json.loads(sub.original_filenames or "[]") or [os.path.basename(p) for p in file_paths]
         reference_answer = sub.reference_answer
         subject = sub.subject or "数学"
+        teacher_id = sub.teacher_id
         if not reference_answer and sub.assignment_id:
             assignment = await db.get(HomeworkAssignment, sub.assignment_id)
             if assignment and assignment.reference_answer:
@@ -144,7 +145,7 @@ async def _run_grading_job(submission_id: int, preset_text: Optional[str] = None
             try:
                 text = await extract_text(
                     path, get_extension(path), semaphore=sem,
-                    task_meta={"submission_id": submission_id, "file_index": idx},
+                    task_meta={"submission_id": submission_id, "file_index": idx, "teacher_id": teacher_id},
                 )
             except FileParseError as e:
                 text = f"[文件解析失败：{display}，{e}]"
@@ -176,7 +177,7 @@ async def _run_grading_job(submission_id: int, preset_text: Optional[str] = None
         ocr_result=full_text,
         reference_answer=reference_answer,
         subject=subject,
-        task_meta={"submission_id": submission_id},
+        task_meta={"submission_id": submission_id, "teacher_id": teacher_id},
     )
     grading_result = normalize_grading_result(grading_result)
     if grading_result.get("error"):
@@ -202,7 +203,8 @@ async def _run_grading_job(submission_id: int, preset_text: Optional[str] = None
         sub.error_message = None
         sub.finished_at = _now()
         await db.flush()
-        await sync_wrong_questions(db, grading_result, sub.student_name, subject, submission_id=sub.id)
+        await sync_wrong_questions(db, grading_result, sub.student_name, subject,
+                                   submission_id=sub.id, teacher_id=sub.teacher_id)
         if sub.assignment_id:
             await update_assignment_status(db, sub.assignment_id)
         await db.commit()
@@ -261,6 +263,7 @@ async def _run_lesson_plan_job(plan_id: int) -> None:
         if not plan:
             return
         title, period, level, requirements = plan.title, plan.period, plan.student_level, plan.requirements or ""
+        teacher_id = plan.teacher_id
 
     await _set_plan_stage(plan_id, "检索题库中")
     async with AsyncSessionLocal() as db:
@@ -273,6 +276,7 @@ async def _run_lesson_plan_job(plan_id: int) -> None:
         student_level=level or "中等",
         requirements=requirements,
         question_bank_context=rag["context"],
+        task_meta={"plan_id": plan_id, "teacher_id": teacher_id},
     )
     if not content or not content.strip():
         raise LLMError("AI 返回了空的教案内容，请重试")

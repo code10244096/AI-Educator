@@ -5,14 +5,20 @@ from database import Base
 
 
 class User(Base):
-    """用户表"""
+    """用户表（教师 / 管理员；账号由管理员用 manage.py 开通，不开放注册）"""
     __tablename__ = "users"
-    
+
     id = Column(Integer, primary_key=True, index=True)
-    username = Column(String(50), unique=True, index=True, nullable=False)
+    username = Column(String(50), unique=True, index=True, nullable=False)  # 手机号或工号
     email = Column(String(100), unique=True, index=True)
-    password_hash = Column(String(255), nullable=False)
-    role = Column(String(20), default="student")  # student, teacher, admin
+    password_hash = Column(String(255), nullable=False)  # bcrypt（$2b$...）
+    role = Column(String(20), default="teacher")  # teacher / admin
+    display_name = Column(String(50))  # 老师姓名（顶栏显示）
+    school = Column(String(100))
+    must_change_password = Column(Boolean, default=False)  # 初始密码 / 被重置后，登录后必须先改密
+    is_active = Column(Boolean, default=True)  # 停用的账号不能登录，已有会话立即失效
+    session_version = Column(Integer, default=0)  # 改密 / 重置 / 停用时 +1，使旧会话失效
+    last_login_at = Column(DateTime(timezone=True))
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     
     # 关系
@@ -83,6 +89,7 @@ class HomeworkSubmission(Base):
     id = Column(Integer, primary_key=True, index=True)
     assignment_id = Column(Integer, ForeignKey("homework_assignments.id"))
     user_id = Column(Integer, ForeignKey("users.id"))
+    teacher_id = Column(Integer, index=True)  # 所属教师（覆盖不关联班级的临时批改）
     student_name = Column(String(50))
     dataset_file_id = Column(Integer)
     is_test_data = Column(Boolean, default=False)

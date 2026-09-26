@@ -4,7 +4,7 @@ import re
 import pytest
 
 import homework_dataset
-from conftest import DATASET_HW_DIR
+from testenv import DATASET_HW_DIR
 from helpers import grade, grading_payload, submission_id_of
 
 MD_FILES = sorted(p.name for p in DATASET_HW_DIR.glob("*.md"))

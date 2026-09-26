@@ -1,52 +1,104 @@
-import React from 'react'
-import { useNavigate, useLocation } from 'react-router-dom'
-import { GraduationCap, Bell, User, Search, Menu, LogIn } from 'lucide-react'
+import React, { useEffect, useRef, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+import { GraduationCap, Menu, ChevronDown, User, KeyRound, LogOut } from 'lucide-react'
 import { useLayout } from '../context/LayoutContext'
+import { useAuth } from '../context/AuthContext'
+
+const UserMenu = () => {
+  const navigate = useNavigate()
+  const { user, logout } = useAuth()
+  const [open, setOpen] = useState(false)
+  const ref = useRef(null)
+
+  useEffect(() => {
+    if (!open) return undefined
+    const onClick = (e) => {
+      if (ref.current && !ref.current.contains(e.target)) setOpen(false)
+    }
+    document.addEventListener('mousedown', onClick)
+    return () => document.removeEventListener('mousedown', onClick)
+  }, [open])
+
+  if (!user) return null
+  const name = user.display_name || user.username
+
+  const go = (path) => {
+    setOpen(false)
+    navigate(path)
+  }
+
+  const handleLogout = async () => {
+    setOpen(false)
+    await logout()
+    navigate('/login', { replace: true })
+  }
+
+  return (
+    <div className="relative" ref={ref}>
+      <button
+        onClick={() => setOpen(v => !v)}
+        className="flex items-center space-x-2 px-2 py-1.5 rounded-lg hover:bg-gray-100 transition-colors"
+        aria-haspopup="menu"
+        aria-expanded={open}
+      >
+        <span className="w-7 h-7 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-sm font-medium">
+          {name.slice(0, 1)}
+        </span>
+        <span className="hidden sm:inline text-sm font-medium text-gray-700 max-w-[8rem] truncate" data-testid="navbar-user-name">{name}</span>
+        <ChevronDown className="h-4 w-4 text-gray-400" />
+      </button>
+      {open && (
+        <div className="absolute right-0 mt-2 w-44 bg-white border border-gray-200 rounded-xl shadow-lg py-1 z-50" role="menu">
+          <div className="px-3 py-2 border-b border-gray-100">
+            <div className="text-sm font-medium text-gray-900 truncate">{name}</div>
+            <div className="text-xs text-gray-400 truncate">{user.username}</div>
+          </div>
+          <button role="menuitem" onClick={() => go('/settings')} className="w-full flex items-center space-x-2 px-3 py-2 text-sm text-gray-700 hover:bg-gray-50">
+            <User className="h-4 w-4 text-gray-400" />
+            <span>个人资料</span>
+          </button>
+          <button role="menuitem" onClick={() => go('/settings?section=password')} className="w-full flex items-center space-x-2 px-3 py-2 text-sm text-gray-700 hover:bg-gray-50">
+            <KeyRound className="h-4 w-4 text-gray-400" />
+            <span>修改密码</span>
+          </button>
+          <button role="menuitem" onClick={handleLogout} className="w-full flex items-center space-x-2 px-3 py-2 text-sm text-red-600 hover:bg-red-50">
+            <LogOut className="h-4 w-4" />
+            <span>退出登录</span>
+          </button>
+        </div>
+      )}
+    </div>
+  )
+}
 
 const Navbar = () => {
   const navigate = useNavigate()
-  const location = useLocation()
-  const { sidebarOpen, toggleSidebar } = useLayout()
-  
+  const { toggleSidebar } = useLayout()
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200 h-16">
       <div className="h-full px-4 flex items-center justify-between">
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-3 min-w-0">
           <button
             onClick={toggleSidebar}
             className="p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
+            aria-label="展开或收起菜单"
           >
             <Menu className="h-5 w-5" />
           </button>
           <div
-            className="flex items-center space-x-2 cursor-pointer hover:opacity-80 transition-opacity"
+            className="flex items-center space-x-2 cursor-pointer hover:opacity-80 transition-opacity min-w-0"
             onClick={() => navigate('/')}
           >
-            <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg p-1.5">
+            <div className="bg-blue-600 rounded-lg p-1.5 flex-shrink-0">
               <GraduationCap className="h-5 w-5 text-white" />
             </div>
-            <div>
-              <span className="text-base font-bold text-gray-900">AI 教学助手</span>
-              <span className="text-xs text-gray-400 ml-2">(教师版)</span>
-            </div>
+            <span className="text-base font-bold text-gray-900 whitespace-nowrap">AI 教学助手</span>
           </div>
         </div>
-        
-        <div className="flex items-center space-x-3">
-          <button className="p-2 text-gray-400 hover:text-gray-600 hover:bg-gray-100 rounded-lg">
-            <Search className="h-5 w-5" />
-          </button>
-          <button className="p-2 text-gray-400 hover:text-gray-600 hover:bg-gray-100 rounded-lg relative">
-            <Bell className="h-5 w-5" />
-            <span className="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></span>
-          </button>
-          <button 
-            onClick={() => navigate('/login')}
-            className="flex items-center space-x-2 px-3 py-1.5 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
-          >
-            <LogIn className="h-4 w-4" />
-            <span className="text-sm font-medium">登录</span>
-          </button>
+
+        <div className="flex items-center space-x-2">
+          <UserMenu />
         </div>
       </div>
     </nav>

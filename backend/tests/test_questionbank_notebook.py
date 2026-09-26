@@ -131,7 +131,7 @@ async def test_notebook_stats_unmastered_variants_delete(client, fake_ai):
 
 
 async def test_notebook_image_ocr_failure_502(client, fake_ai):
-    from conftest import GAOKAO_SCAN_DIR
+    from testenv import GAOKAO_SCAN_DIR
     fake_ai.fail_features = {"ocr"}
     jpg = (GAOKAO_SCAN_DIR / "20240608-3.jpg").read_bytes()
     r = await client.post("/api/notebook/upload", files={"file": ("q.jpg", jpg, "image/jpeg")},

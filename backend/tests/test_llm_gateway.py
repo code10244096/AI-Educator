@@ -8,7 +8,7 @@ import httpx
 import openai
 import pytest
 
-from conftest import TEST_API_RUNS
+from testenv import TEST_API_RUNS
 from fakes import DEFAULT_GRADE, install_gateway, restore_gateway
 from llm import LLMConfig, LLMError, LLMGateway
 
@@ -251,7 +251,7 @@ def real_gateway_app(app_module):
     restore_gateway(prev)
 
 
-async def test_app_grading_writes_usage_record(client, real_gateway_app):
+async def test_app_grading_writes_usage_record(client, real_gateway_app, make_teacher):
     import usage_stats
     r = await client.post("/api/grader/upload",
                           files={"files": ("u.md", "### 1. x\n**学生答案**：1".encode(), "text/markdown")},
@@ -266,18 +266,19 @@ async def test_app_grading_writes_usage_record(client, real_gateway_app):
     assert grade_rows[-1]["success"] is True
 
     usage_stats.clear_cache()
-    s = await client.get("/api/usage/summary", params={"feature": "grade"})
+    admin = await make_teacher(role="admin")  # 用量统计仅管理员可访问
+    s = await admin.get("/api/usage/summary", params={"feature": "grade"})
     assert s.status_code == 200
     body = s.json()
     assert body["overview"]["calls"] >= 1
     assert Path(body["log_root"]).resolve() == TEST_API_RUNS.resolve()
-    calls = (await client.get("/api/usage/calls", params={"feature": "grade", "limit": 5})).json()
+    calls = (await admin.get("/api/usage/calls", params={"feature": "grade", "limit": 5})).json()
     assert calls["total"] >= 1
     assert "request" not in calls["items"][0], "usage API must not leak prompts"
 
 
 async def test_app_image_grading_logs_ocr_without_base64(client, real_gateway_app):
-    from conftest import GAOKAO_SCAN_DIR
+    from testenv import GAOKAO_SCAN_DIR
     jpg = (GAOKAO_SCAN_DIR / "20240608-3.jpg").read_bytes()
     r = await client.post("/api/grader/upload", files={"files": ("s.jpg", jpg, "image/jpeg")})
     assert r.status_code in (200, 202), r.text

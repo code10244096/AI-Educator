@@ -85,3 +85,20 @@ def grading_payload(body: Dict[str, Any]) -> Dict[str, Any]:
     if isinstance(gr, dict) and gr:
         return gr
     return body
+
+
+# ---------------------------------------------------------------- 登录
+
+def new_http_client(app) -> httpx.AsyncClient:
+    """直连 ASGI 应用的客户端（自带 Cookie 罐，登录后自动携带会话）"""
+    transport = httpx.ASGITransport(app=app, raise_app_exceptions=False)
+    return httpx.AsyncClient(transport=transport, base_url="http://testserver", timeout=60)
+
+
+async def login_client(c: httpx.AsyncClient, username: str, password: str) -> Dict[str, Any]:
+    r = await c.post("/api/auth/login", json={"username": username, "password": password})
+    assert r.status_code == 200, f"login {username} -> {r.status_code}: {r.text}"
+    user = r.json()
+    c.user = user
+    c.password = password
+    return user

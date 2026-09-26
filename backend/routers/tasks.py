@@ -3,24 +3,27 @@ from fastapi import APIRouter, Depends, Query
 from sqlalchemy import or_, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from auth import current_user
 from class_service import get_all_grading_tasks
 from database import get_db
-from models import HomeworkSubmission, LessonPlan
+from models import HomeworkSubmission, LessonPlan, User
 
 router = APIRouter()
 
 
 @router.get("/tasks/all")
-async def get_all_tasks(db: AsyncSession = Depends(get_db)):
-    """聚合所有班级的批改任务（供我的任务页使用）"""
-    return {"items": await get_all_grading_tasks(db)}
+async def get_all_tasks(db: AsyncSession = Depends(get_db), user: User = Depends(current_user)):
+    """聚合当前教师所有班级的批改任务"""
+    return {"items": await get_all_grading_tasks(db, teacher_id=user.id)}
 
 
 @router.get("/tasks/jobs")
-async def get_background_jobs(limit: int = Query(20, ge=1, le=100), db: AsyncSession = Depends(get_db)):
-    """最近的后台任务（作业批改 + 教案生成），按创建时间倒序"""
+async def get_background_jobs(limit: int = Query(20, ge=1, le=100), db: AsyncSession = Depends(get_db),
+                              user: User = Depends(current_user)):
+    """当前教师最近的后台任务（作业批改 + 教案生成），按创建时间倒序"""
     subs = (await db.execute(
         select(HomeworkSubmission)
+        .where(HomeworkSubmission.teacher_id == user.id)
         .where(or_(
             HomeworkSubmission.finished_at.is_not(None),
             HomeworkSubmission.status.in_(["processing", "failed"]),
@@ -29,7 +32,7 @@ async def get_background_jobs(limit: int = Query(20, ge=1, le=100), db: AsyncSes
         .limit(limit)
     )).scalars().all()
     plans = (await db.execute(
-        select(LessonPlan).order_by(LessonPlan.id.desc()).limit(limit)
+        select(LessonPlan).where(LessonPlan.teacher_id == user.id).order_by(LessonPlan.id.desc()).limit(limit)
     )).scalars().all()
 
     items = []

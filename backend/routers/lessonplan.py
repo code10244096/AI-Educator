@@ -10,9 +10,10 @@ from pydantic import BaseModel
 from sqlalchemy import func, or_, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from auth import current_user
 from database import get_db
 from jobs import run_lesson_plan_job, spawn
-from models import LessonPlan
+from models import LessonPlan, User
 
 router = APIRouter()
 
@@ -57,19 +58,21 @@ def _plan_summary(plan: LessonPlan) -> dict:
     return data
 
 
-async def _get_plan(db: AsyncSession, plan_id: int) -> LessonPlan:
+async def _get_plan(db: AsyncSession, plan_id: int, teacher_id: int) -> LessonPlan:
+    """取当前教师的教案；不存在或属于其他教师一律 404"""
     plan = await db.get(LessonPlan, plan_id)
-    if not plan:
+    if not plan or plan.teacher_id != teacher_id:
         raise HTTPException(status_code=404, detail="教案不存在")
     return plan
 
 
 async def _run_or_spawn(db: AsyncSession, plan: LessonPlan, wait: bool) -> dict:
     plan_id = plan.id
+    teacher_id = plan.teacher_id
     if wait:
         await run_lesson_plan_job(plan_id)
         db.expire_all()
-        plan = await _get_plan(db, plan_id)
+        plan = await _get_plan(db, plan_id, teacher_id)
         if _plan_status(plan) == "failed":
             raise HTTPException(status_code=502, detail=plan.error_message or "教案生成失败")
     else:
@@ -86,6 +89,7 @@ async def generate_lesson_plan(
     requirements: str = Form(""),
     wait: bool = Form(False),
     db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
 ):
     """
     创建教案生成任务（集成题库 RAG 检索）。
@@ -96,7 +100,7 @@ async def generate_lesson_plan(
         raise HTTPException(status_code=400, detail="请输入课题名称")
 
     plan = LessonPlan(
-        teacher_id=1,  # TODO: 从登录用户获取
+        teacher_id=user.id,
         title=title[:200],
         period=period,
         student_level=student_level,
@@ -118,9 +122,10 @@ async def list_lesson_plans(
     limit: int = Query(20, ge=1, le=200),
     offset: int = Query(0, ge=0),
     db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
 ):
     """已保存的教案列表（按创建时间倒序）"""
-    query = select(LessonPlan)
+    query = select(LessonPlan).where(LessonPlan.teacher_id == user.id)
     if keyword:
         query = query.where(or_(
             LessonPlan.title.like(f"%{keyword}%"),
@@ -139,15 +144,17 @@ async def list_lesson_plans(
 
 
 @router.get("/lessonplan/{plan_id}")
-async def get_lesson_plan(plan_id: int, db: AsyncSession = Depends(get_db)):
+async def get_lesson_plan(plan_id: int, db: AsyncSession = Depends(get_db),
+                          user: User = Depends(current_user)):
     """获取教案详情 / 生成任务状态"""
-    return _plan_to_dict(await _get_plan(db, plan_id))
+    return _plan_to_dict(await _get_plan(db, plan_id, user.id))
 
 
 @router.put("/lessonplan/{plan_id}")
-async def update_lesson_plan(plan_id: int, body: LessonPlanUpdate, db: AsyncSession = Depends(get_db)):
+async def update_lesson_plan(plan_id: int, body: LessonPlanUpdate, db: AsyncSession = Depends(get_db),
+                             user: User = Depends(current_user)):
     """编辑并保存教案"""
-    plan = await _get_plan(db, plan_id)
+    plan = await _get_plan(db, plan_id, user.id)
     if _plan_status(plan) == "processing":
         raise HTTPException(status_code=409, detail="教案正在生成中，完成后才能编辑")
     updates = body.model_dump(exclude_none=True)
@@ -166,9 +173,10 @@ async def update_lesson_plan(plan_id: int, body: LessonPlanUpdate, db: AsyncSess
 
 
 @router.delete("/lessonplan/{plan_id}")
-async def delete_lesson_plan(plan_id: int, db: AsyncSession = Depends(get_db)):
+async def delete_lesson_plan(plan_id: int, db: AsyncSession = Depends(get_db),
+                             user: User = Depends(current_user)):
     """删除教案"""
-    plan = await _get_plan(db, plan_id)
+    plan = await _get_plan(db, plan_id, user.id)
     if _plan_status(plan) == "processing":
         raise HTTPException(status_code=409, detail="教案正在生成中，完成后才能删除")
     await db.delete(plan)
@@ -177,9 +185,10 @@ async def delete_lesson_plan(plan_id: int, db: AsyncSession = Depends(get_db)):
 
 
 @router.post("/lessonplan/{plan_id}/regenerate")
-async def regenerate_lesson_plan(plan_id: int, wait: bool = Form(False), db: AsyncSession = Depends(get_db)):
+async def regenerate_lesson_plan(plan_id: int, wait: bool = Form(False), db: AsyncSession = Depends(get_db),
+                                 user: User = Depends(current_user)):
     """按原参数重新生成教案（覆盖原内容）"""
-    plan = await _get_plan(db, plan_id)
+    plan = await _get_plan(db, plan_id, user.id)
     if _plan_status(plan) == "processing":
         raise HTTPException(status_code=409, detail="教案正在生成中")
     plan.status = "processing"
@@ -276,9 +285,10 @@ async def export_lesson_plan(
     plan_id: int,
     format: str = Query("md", pattern="^(md|txt|docx)$"),
     db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
 ):
     """导出教案：md / txt / docx"""
-    plan = await _get_plan(db, plan_id)
+    plan = await _get_plan(db, plan_id, user.id)
     if not (plan.content or "").strip():
         raise HTTPException(status_code=400, detail="教案内容为空，无法导出")
     safe_title = re.sub(r'[\\/:*?"<>|\r\n]+', "_", plan.title).strip() or "教案"
