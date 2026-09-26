@@ -24,11 +24,50 @@
   "upload": {
     "dir": "./uploads",
     "max_file_size": 10485760,
-    "allowed_extensions": ["jpg", "jpeg", "png", "gif"]
+    "allowed_extensions": [
+      "jpg",
+      "jpeg",
+      "png",
+      "gif"
+    ]
   },
   "jwt": {
     "secret_key": "your-secret-key-change-in-production",
     "algorithm": "HS256",
     "access_token_expire_minutes": 30
+  },
+  "llm": {
+    "provider": "yibu",
+    "api_key": "your_api_key_here",
+    "base_url": "https://yibuapi.com/v1",
+    "models": {
+      "default": "gpt-6-astra",
+      "ocr": "gpt-6-astra",
+      "grade": "gemini-3.1-pro-preview",
+      "variant": "gpt-6-astra",
+      "lessonplan": "gemini-3.1-pro-preview"
+    },
+    "timeout": 600,
+    "max_retries": 1,
+    "use_proxy": false,
+    "proxy_url": "",
+    "verify_ssl": true,
+    "log_root": "api_runs",
+    "log_request_content": true,
+    "fallbacks": {
+      "ocr": [
+        "gpt-5.5"
+      ],
+      "grade": [
+        "gpt-6-astra"
+      ],
+      "variant": [
+        "deepseek-v4-pro"
+      ],
+      "lessonplan": [
+        "deepseek-v4-pro"
+      ]
+    },
+    "_comment_models": "按模块分配模型（2026-09-26 实测）：ocr=astra（deepseek 无视觉、glm 会编造内容，禁用），grade/lessonplan=gemini-3.1-pro，variant=astra；fallbacks 为主模型失败时的备用"
   }
 }

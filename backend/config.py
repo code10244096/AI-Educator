@@ -37,7 +37,7 @@ class Settings:
         ])
         
         # 数据库配置
-        self.DATABASE_URL = config.get("database", {}).get("url", 
+        self.DATABASE_URL = os.getenv("DATABASE_URL") or config.get("database", {}).get("url",
             "sqlite+aiosqlite:///./teaching_assistant.db")
         
         # AI 模型配置
@@ -47,11 +47,15 @@ class Settings:
         self.OCR_MODEL = config.get("ai", {}).get("ocr_model", 
             "gpt-4-vision-preview")
         self.GRADER_MODEL = config.get("ai", {}).get("grader_model", "gpt-4")
-        self.LESSONPLAN_MODEL = config.get("ai", {}).get("lessonplan_model", 
+        self.LESSONPLAN_MODEL = config.get("ai", {}).get("lessonplan_model",
             "gpt-4")
+
+        # 大模型网关配置（优先 "llm" 段，缺省回退到上面的 "ai" 段）
+        from llm import load_llm_config
+        self.LLM = load_llm_config(config.get("llm") or {}, config.get("ai") or {})
         
         # 文件上传配置
-        self.UPLOAD_DIR = config.get("upload", {}).get("dir", "./uploads")
+        self.UPLOAD_DIR = os.getenv("UPLOAD_DIR") or config.get("upload", {}).get("dir", "./uploads")
         self.MAX_FILE_SIZE = config.get("upload", {}).get("max_file_size", 
             10 * 1024 * 1024)
         self.ALLOWED_EXTENSIONS = config.get("upload", {}).get(
