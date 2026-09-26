@@ -18,15 +18,8 @@ import {
   X,
   Target,
 } from 'lucide-react'
-import { getKnowledgePoints } from '../data/homeworkData'
-import { homeworkAPI } from '../utils/api'
-import { useHomeworkDetail } from '../hooks/useClassHomework'
-
-const classInfo = {
-  class1: { name: '高三1班', students: 2, subject: '数学' },
-  class2: { name: '高三2班', students: 42, subject: '数学' },
-  class3: { name: '高三3班', students: 40, subject: '数学' },
-}
+import { homeworkAPI, classHomeworkAPI } from '../utils/api'
+import { useHomeworkDetail, useClassInfo } from '../hooks/useClassHomework'
 
 const STATUS_FILTERS = [
   { id: 'all', label: '全部' },
@@ -34,6 +27,7 @@ const STATUS_FILTERS = [
   { id: 'not_submitted', label: '未提交' },
   { id: 'graded', label: '已批改' },
   { id: 'pending_grade', label: '待批改' },
+  { id: 'processing', label: '批改中' },
 ]
 
 const HomeworkDetail = () => {
@@ -48,8 +42,15 @@ const HomeworkDetail = () => {
   const [loadingResult, setLoadingResult] = useState(false)
 
   const { homework, students, loading, error, invalidate } = useHomeworkDetail(classId, homeworkId)
-  const info = classInfo[classId] || classInfo.class1
-  const knowledgePoints = getKnowledgePoints(Number(homeworkId))
+  const { info } = useClassInfo(classId)
+  const [analysis, setAnalysis] = useState(null)
+  const gradedTotal = students.filter(s => s.gradingStatus === '已批改').length
+
+  useEffect(() => {
+    classHomeworkAPI.getAnalysis(classId, homeworkId)
+      .then(setAnalysis)
+      .catch(() => setAnalysis(null))
+  }, [classId, homeworkId, gradedTotal])
 
   const stats = useMemo(() => {
     const submitted = students.filter(s => s.submitStatus === '已提交').length
@@ -121,6 +122,7 @@ const HomeworkDetail = () => {
         case 'not_submitted': matchesFilter = s.submitStatus === '未提交'; break
         case 'graded': matchesFilter = s.gradingStatus === '已批改'; break
         case 'pending_grade': matchesFilter = s.gradingStatus === '待批改'; break
+        case 'processing': matchesFilter = s.gradingStatus === '批改中'; break
         default: break
       }
       return matchesSearch && matchesFilter
@@ -163,6 +165,12 @@ const HomeworkDetail = () => {
         return <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">已批改</span>
       case '待批改':
         return <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-100 text-orange-800">待批改</span>
+      case '批改中':
+        return (
+          <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+            <Loader2 className="h-3 w-3 mr-1 animate-spin" />批改中
+          </span>
+        )
       default:
         return <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-500">-</span>
     }
@@ -180,7 +188,7 @@ const HomeworkDetail = () => {
         <div className="flex-1">
           <h1 className="text-xl font-bold text-gray-900">{homework.title}</h1>
           <p className="text-sm text-gray-500 mt-1">
-            {info.name} · {info.subject} · 布置日期 {homework.date} · 截止 {homework.deadline}
+            {info.name} · {homework.subject || info.subject} · 布置日期 {homework.date} · 截止 {homework.deadline}
           </p>
         </div>
         {homework.status === '待批改' && stats.pendingGrade > 0 && (
@@ -332,7 +340,17 @@ const HomeworkDetail = () => {
                   <td className="px-5 py-4 text-sm text-gray-500">
                     {student.fileCount > 0 ? `${student.fileCount} 个文件` : '-'}
                   </td>
-                  <td className="px-5 py-4">{getGradingBadge(student.gradingStatus)}</td>
+                  <td className="px-5 py-4">
+                    {getGradingBadge(student.gradingStatus)}
+                    {student.gradingStatus === '批改中' && student.progressStage && (
+                      <p className="text-[11px] text-blue-500 mt-1">{student.progressStage}</p>
+                    )}
+                    {student.status === 'failed' && (
+                      <p className="text-[11px] text-red-500 mt-1 max-w-[180px] truncate" title={student.errorMessage}>
+                        上次批改失败：{student.errorMessage}
+                      </p>
+                    )}
+                  </td>
                   <td className="px-5 py-4 text-sm font-medium text-gray-900">
                     {student.score !== null ? `${student.score} 分` : '-'}
                   </td>
@@ -358,15 +376,32 @@ const HomeworkDetail = () => {
                           批改
                         </button>
                       ) : student.gradingStatus === '已批改' ? (
+                        <>
+                          <button
+                            onClick={() => handleViewStudent(student)}
+                            className="text-blue-600 hover:text-blue-800 text-sm inline-flex items-center"
+                          >
+                            <Eye className="h-3.5 w-3.5 mr-1" />
+                            查看
+                          </button>
+                          <button
+                            onClick={() => handleGradeWithDataset(student)}
+                            className="text-gray-400 hover:text-gray-700 text-sm"
+                            title="重新上传批改"
+                          >
+                            重批
+                          </button>
+                        </>
+                      ) : student.gradingStatus === '批改中' ? (
+                        <span className="text-sm text-gray-400">处理中</span>
+                      ) : (
                         <button
-                          onClick={() => handleViewStudent(student)}
+                          onClick={() => handleGradeWithDataset(student)}
                           className="text-blue-600 hover:text-blue-800 text-sm inline-flex items-center"
                         >
-                          <Eye className="h-3.5 w-3.5 mr-1" />
-                          查看
+                          <Upload className="h-3.5 w-3.5 mr-1" />
+                          上传批改
                         </button>
-                      ) : (
-                        <span className="text-sm text-gray-400">-</span>
                       )}
                     </div>
                   </td>
@@ -380,40 +415,50 @@ const HomeworkDetail = () => {
         )}
       </div>
 
-      <div className="bg-white rounded-xl border border-gray-200 relative overflow-hidden">
+      <div className="bg-white rounded-xl border border-gray-200">
         <div className="p-5 border-b border-gray-200">
           <div className="flex items-center space-x-2">
             <BrainCircuit className="h-5 w-5 text-purple-500" />
-            <h3 className="text-lg font-semibold text-gray-900">知识点掌握情况</h3>
-            <span className="px-2 py-0.5 bg-purple-100 text-purple-700 text-xs rounded-full">即将上线</span>
+            <h3 className="text-lg font-semibold text-gray-900">逐题正确率</h3>
+            {analysis && (
+              <span className="text-sm text-gray-400">基于 {analysis.analyzed_count} 份含逐题结果的批改</span>
+            )}
           </div>
         </div>
-        {homework.status === '已批改' && knowledgePoints.length > 0 ? (
+        {analysis && analysis.questions.length > 0 ? (
           <div className="p-5 space-y-4">
-            {knowledgePoints.map((kp, idx) => (
-              <div key={idx} className="space-y-2">
-                <div className="flex items-center justify-between">
-                  <span className="text-sm font-medium text-gray-700">{kp.name}</span>
-                  <span className="text-sm text-gray-500">掌握率 {kp.mastery}%</span>
+            {analysis.questions.map((q) => (
+              <div key={q.question_number} className="space-y-2">
+                <div className="flex items-center justify-between gap-3">
+                  <span className="text-sm font-medium text-gray-700 truncate" title={q.question_text}>
+                    第 {q.question_number} 题{q.question_text ? `：${q.question_text}` : ''}
+                  </span>
+                  <span className="text-sm text-gray-500 shrink-0">
+                    正确率 {q.correct_rate}%（{q.correct}/{q.total}）
+                  </span>
                 </div>
                 <div className="w-full bg-gray-100 rounded-full h-3 overflow-hidden">
                   <div
                     className={`h-full rounded-full ${
-                      kp.mastery >= 70 ? 'bg-green-500' : kp.mastery >= 50 ? 'bg-orange-500' : 'bg-red-500'
+                      q.correct_rate >= 70 ? 'bg-green-500' : q.correct_rate >= 50 ? 'bg-orange-500' : 'bg-red-500'
                     }`}
-                    style={{ width: `${kp.mastery}%` }}
+                    style={{ width: `${q.correct_rate}%` }}
                   />
                 </div>
+                {q.wrong_students.length > 0 && (
+                  <p className="text-xs text-gray-400">
+                    做错：{q.wrong_students.slice(0, 10).join('、')}{q.wrong_students.length > 10 ? ` 等 ${q.wrong_students.length} 人` : ''}
+                  </p>
+                )}
               </div>
             ))}
           </div>
         ) : (
           <div className="p-8 text-center">
             <BrainCircuit className="h-10 w-10 text-gray-200 mx-auto mb-3" />
-            <p className="text-sm text-gray-500">作业批改完成后，将自动生成班级知识点掌握分析</p>
+            <p className="text-sm text-gray-500">AI 批改完成后，将自动统计每道题的班级正确率</p>
           </div>
         )}
-        <div className="absolute inset-0 bg-white/40 backdrop-blur-[1px] pointer-events-none" style={{ top: '57px' }} />
       </div>
 
       {selectedStudent && (
