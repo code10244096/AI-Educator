@@ -4,11 +4,13 @@ import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import HomeworkGrader from './pages/HomeworkGrader'
 import LessonPlanGenerator from './pages/LessonPlanGenerator'
+import WrongNotebook from './pages/WrongNotebook'
 import ClassData from './pages/ClassData'
 import QuestionBank from './pages/QuestionBank'
 import MyTasks from './pages/MyTasks'
 import TaskDetail from './pages/TaskDetail'
 import Settings from './pages/Settings'
+import UsageStats from './pages/UsageStats'
 import WelcomePage from './pages/WelcomePage'
 import LoginPage from './pages/LoginPage'
 import { TaskProvider } from './context/TaskContext'
@@ -38,10 +40,12 @@ function App() {
                         <Route path="/" element={<WelcomePage />} />
                         <Route path="/grader" element={<HomeworkGrader />} />
                         <Route path="/lessonplan" element={<LessonPlanGenerator />} />
+                        <Route path="/notebook" element={<WrongNotebook />} />
                         <Route path="/class/*" element={<ClassData />} />
                         <Route path="/questionbank/*" element={<QuestionBank />} />
                         <Route path="/tasks" element={<MyTasks />} />
                         <Route path="/tasks/:taskId" element={<TaskDetail />} />
+                        <Route path="/usage" element={<UsageStats />} />
                         <Route path="/settings" element={<Settings />} />
                       </Routes>
                     </main>
