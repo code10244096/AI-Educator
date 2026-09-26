@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import { Routes, Route, useNavigate, useLocation, useParams, Link } from 'react-router-dom'
 import {
   ClipboardList,
@@ -7,14 +7,12 @@ import {
   TrendingUp,
   TrendingDown,
   AlertCircle,
-  CheckCircle,
   Clock,
   BarChart3,
   Search,
   Plus,
   Edit,
   Eye,
-  BookOpen,
   GraduationCap,
   Upload,
   XCircle,
@@ -23,24 +21,125 @@ import {
   ListTodo,
   X,
   FileText,
+  Trash2,
+  Loader2,
+  Settings as SettingsIcon,
 } from 'lucide-react'
 import html2pdf from 'html2pdf.js'
 import HomeworkDetail from './HomeworkDetail'
-import { useHomeworkBoard } from '../hooks/useClassHomework'
+import { useHomeworkBoard, useClassInfo } from '../hooks/useClassHomework'
 import ClassStats from '../components/ClassStats'
-import { classAPI } from '../utils/api'
+import ConfirmDialog from '../components/ConfirmDialog'
+import { useToast } from '../components/Toast'
+import { useClass } from '../context/ClassContext'
+import { classAPI, classHomeworkAPI, getErrorMessage } from '../utils/api'
 
-const classInfo = {
-  class1: { name: '高三1班', students: 2, subject: '数学' },
-  class2: { name: '高三2班', students: 42, subject: '数学' },
-  class3: { name: '高三3班', students: 40, subject: '数学' },
+const inputCls = 'w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
+
+const Modal = ({ title, onClose, children, footer, wide = false }) => (
+  <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+    <div className="absolute inset-0 bg-black/40" onClick={onClose} />
+    <div className={`relative w-full ${wide ? 'max-w-2xl' : 'max-w-lg'} bg-white rounded-xl shadow-xl max-h-[90vh] flex flex-col`}>
+      <div className="p-5 border-b border-gray-200 flex items-center justify-between">
+        <h3 className="text-lg font-semibold text-gray-900">{title}</h3>
+        <button onClick={onClose} className="p-1.5 hover:bg-gray-100 rounded-lg">
+          <X className="h-5 w-5 text-gray-500" />
+        </button>
+      </div>
+      <div className="p-5 overflow-y-auto space-y-4">{children}</div>
+      {footer && <div className="p-4 border-t border-gray-200 flex justify-end space-x-3">{footer}</div>}
+    </div>
+  </div>
+)
+
+const HomeworkFormModal = ({ classId, homework, onClose, onSaved }) => {
+  const { addToast } = useToast()
+  const today = new Date().toISOString().slice(0, 10)
+  const [form, setForm] = useState({
+    title: homework?.title || '',
+    description: homework?.description || '',
+    reference_answer: homework?.referenceAnswer || '',
+    assign_date: homework?.date || today,
+    deadline: homework?.deadline || today,
+  })
+  const [saving, setSaving] = useState(false)
+
+  const submit = async () => {
+    if (!form.title.trim()) {
+      addToast('请输入作业标题', 'error')
+      return
+    }
+    setSaving(true)
+    try {
+      if (homework) {
+        await classHomeworkAPI.updateHomework(classId, homework.id, form)
+        addToast('作业已更新', 'success')
+      } else {
+        await classHomeworkAPI.createHomework(classId, form)
+        addToast('作业已布置', 'success')
+      }
+      onSaved()
+    } catch (err) {
+      addToast(getErrorMessage(err, '保存失败'), 'error')
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  return (
+    <Modal
+      title={homework ? '编辑作业' : '布置作业'}
+      onClose={onClose}
+      wide
+      footer={(
+        <>
+          <button onClick={onClose} className="px-4 py-2 border border-gray-300 rounded-lg text-sm text-gray-600 hover:bg-gray-50">取消</button>
+          <button onClick={submit} disabled={saving} className="px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700 disabled:opacity-50">
+            {saving ? '保存中...' : '保存'}
+          </button>
+        </>
+      )}
+    >
+      <div>
+        <label className="block text-xs font-medium text-gray-600 mb-1">作业标题 *</label>
+        <input className={inputCls} value={form.title} onChange={e => setForm(f => ({ ...f, title: e.target.value }))} placeholder="例如：导数综合练习" />
+      </div>
+      <div className="grid grid-cols-2 gap-4">
+        <div>
+          <label className="block text-xs font-medium text-gray-600 mb-1">布置日期</label>
+          <input type="date" className={inputCls} value={form.assign_date} onChange={e => setForm(f => ({ ...f, assign_date: e.target.value }))} />
+        </div>
+        <div>
+          <label className="block text-xs font-medium text-gray-600 mb-1">截止日期</label>
+          <input type="date" className={inputCls} value={form.deadline} onChange={e => setForm(f => ({ ...f, deadline: e.target.value }))} />
+        </div>
+      </div>
+      <div>
+        <label className="block text-xs font-medium text-gray-600 mb-1">作业说明</label>
+        <textarea className={inputCls} rows={2} value={form.description} onChange={e => setForm(f => ({ ...f, description: e.target.value }))} />
+      </div>
+      <div>
+        <label className="block text-xs font-medium text-gray-600 mb-1">参考答案（批改时自动使用）</label>
+        <textarea
+          className={`${inputCls} font-mono`}
+          rows={6}
+          value={form.reference_answer}
+          onChange={e => setForm(f => ({ ...f, reference_answer: e.target.value }))}
+          placeholder={'1. A\n2. 3\n3. x=2'}
+        />
+      </div>
+    </Modal>
+  )
 }
 
-const HomeworkBoard = ({ classId }) => {
+const HomeworkBoard = ({ classId, info }) => {
   const navigate = useNavigate()
-  const info = classInfo[classId] || classInfo.class1
+  const { addToast } = useToast()
+  const { reloadClasses } = useClass()
   const { stats: homeworkStats, homeworkList: recentHomework, gradingTasks, alertStudents, loading, error, reload } = useHomeworkBoard(classId)
   const [classStats, setClassStats] = React.useState(null)
+  const [editingHomework, setEditingHomework] = useState(undefined)
+  const [deleteTarget, setDeleteTarget] = useState(null)
 
   React.useEffect(() => {
     classAPI.getStats(classId).then(setClassStats).catch(() => setClassStats(null))
@@ -48,7 +147,20 @@ const HomeworkBoard = ({ classId }) => {
 
   const currentHomework = homeworkStats?.currentHomework
 
-  if (loading) {
+  const handleDelete = async () => {
+    try {
+      await classHomeworkAPI.deleteHomework(classId, deleteTarget.id)
+      addToast('作业已删除', 'success')
+      reload()
+      reloadClasses()
+    } catch (err) {
+      addToast(getErrorMessage(err, '删除失败'), 'error')
+    } finally {
+      setDeleteTarget(null)
+    }
+  }
+
+  if (loading && !homeworkStats) {
     return (
       <div className="flex items-center justify-center py-16 text-gray-500">
         <Clock className="h-5 w-5 mr-2 animate-spin" />
@@ -65,7 +177,7 @@ const HomeworkBoard = ({ classId }) => {
       </div>
     )
   }
-  
+
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
@@ -73,8 +185,15 @@ const HomeworkBoard = ({ classId }) => {
           <h2 className="text-xl font-bold text-gray-900">作业看板</h2>
           <p className="text-sm text-gray-500 mt-1">{info.name} · {info.subject} · 查看作业完成情况</p>
         </div>
+        <button
+          onClick={() => setEditingHomework(null)}
+          className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700"
+        >
+          <Plus className="h-4 w-4 mr-2" />
+          布置作业
+        </button>
       </div>
-      
+
       {homeworkStats && currentHomework && (
         <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl border border-blue-100 p-5">
           <div className="flex items-center justify-between flex-wrap gap-3">
@@ -104,61 +223,66 @@ const HomeworkBoard = ({ classId }) => {
             <div className="w-full bg-white rounded-full h-2.5 overflow-hidden">
               <div
                 className="h-full bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full transition-all"
-                style={{ width: `${homeworkStats?.submitRate || 0}%` }}
+                style={{ width: `${Math.min(homeworkStats?.submitRate || 0, 100)}%` }}
               />
             </div>
           </div>
         </div>
       )}
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div className="bg-white rounded-xl p-5 border border-gray-200">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-sm text-gray-500">提交进度</p>
-              <p className="text-2xl font-bold text-blue-600 mt-1">
-                {homeworkStats.submitted}<span className="text-base text-gray-400">/{homeworkStats.total}</span>
-              </p>
+      {homeworkStats && (
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="bg-white rounded-xl p-5 border border-gray-200">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-sm text-gray-500">提交进度</p>
+                <p className="text-2xl font-bold text-blue-600 mt-1">
+                  {homeworkStats.submitted}<span className="text-base text-gray-400">/{homeworkStats.total}</span>
+                </p>
+              </div>
+              <div className="p-3 bg-blue-50 rounded-lg">
+                <Upload className="h-6 w-6 text-blue-500" />
+              </div>
             </div>
-            <div className="p-3 bg-blue-50 rounded-lg">
-              <Upload className="h-6 w-6 text-blue-500" />
+          </div>
+          <div className="bg-white rounded-xl p-5 border border-gray-200">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-sm text-gray-500">未提交</p>
+                <p className="text-2xl font-bold text-red-500 mt-1">{homeworkStats.notSubmitted}</p>
+              </div>
+              <div className="p-3 bg-red-50 rounded-lg">
+                <XCircle className="h-6 w-6 text-red-400" />
+              </div>
+            </div>
+          </div>
+          <div className="bg-white rounded-xl p-5 border border-gray-200">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-sm text-gray-500">待批改份数</p>
+                <p className="text-2xl font-bold text-orange-600 mt-1">{homeworkStats.pendingCount}</p>
+              </div>
+              <div className="p-3 bg-orange-50 rounded-lg">
+                <Clock className="h-6 w-6 text-orange-500" />
+              </div>
+            </div>
+          </div>
+          <div className="bg-white rounded-xl p-5 border border-gray-200">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-sm text-gray-500">班级平均分 / 及格率</p>
+                <p className="text-2xl font-bold text-purple-600 mt-1">
+                  {homeworkStats.avgScore || '-'}
+                  <span className="text-base text-gray-400"> / {homeworkStats.passRate ? `${homeworkStats.passRate}%` : '-'}</span>
+                </p>
+              </div>
+              <div className="p-3 bg-purple-50 rounded-lg">
+                <BarChart3 className="h-6 w-6 text-purple-500" />
+              </div>
             </div>
           </div>
         </div>
-        <div className="bg-white rounded-xl p-5 border border-gray-200">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-sm text-gray-500">未提交</p>
-              <p className="text-2xl font-bold text-red-500 mt-1">{homeworkStats.notSubmitted}</p>
-            </div>
-            <div className="p-3 bg-red-50 rounded-lg">
-              <XCircle className="h-6 w-6 text-red-400" />
-            </div>
-          </div>
-        </div>
-        <div className="bg-white rounded-xl p-5 border border-gray-200">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-sm text-gray-500">待批改份数</p>
-              <p className="text-2xl font-bold text-orange-600 mt-1">{homeworkStats.pendingCount}</p>
-            </div>
-            <div className="p-3 bg-orange-50 rounded-lg">
-              <Clock className="h-6 w-6 text-orange-500" />
-            </div>
-          </div>
-        </div>
-        <div className="bg-white rounded-xl p-5 border border-gray-200">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-sm text-gray-500">班级平均分</p>
-              <p className="text-2xl font-bold text-purple-600 mt-1">{homeworkStats.avgScore || '-'}</p>
-            </div>
-            <div className="p-3 bg-purple-50 rounded-lg">
-              <BarChart3 className="h-6 w-6 text-purple-500" />
-            </div>
-          </div>
-        </div>
-      </div>
+      )}
 
       {gradingTasks.length > 0 && (
         <div className="bg-white rounded-xl border border-gray-200">
@@ -206,11 +330,16 @@ const HomeworkBoard = ({ classId }) => {
           </div>
         </div>
       )}
-      
+
       <div className="bg-white rounded-xl border border-gray-200">
         <div className="p-5 border-b border-gray-200">
-          <h3 className="text-lg font-semibold text-gray-900">最近作业</h3>
+          <h3 className="text-lg font-semibold text-gray-900">作业列表</h3>
         </div>
+        {recentHomework.length === 0 ? (
+          <div className="p-10 text-center text-sm text-gray-400">
+            还没有布置作业，点击右上角「布置作业」开始
+          </div>
+        ) : (
         <div className="overflow-x-auto">
           <table className="w-full">
             <thead>
@@ -226,7 +355,7 @@ const HomeworkBoard = ({ classId }) => {
             <tbody className="divide-y divide-gray-200">
               {recentHomework.map((hw) => (
                 <tr
-                  key={hw.id}
+                  key={hw.assignment_id}
                   className="hover:bg-gray-50 cursor-pointer"
                   onClick={() => navigate(`/class/${classId}/homework/${hw.id}`)}
                 >
@@ -238,7 +367,7 @@ const HomeworkBoard = ({ classId }) => {
                       <div className="w-16 bg-gray-100 rounded-full h-1.5 overflow-hidden">
                         <div
                           className="h-full bg-blue-500 rounded-full"
-                          style={{ width: `${Math.round((hw.submitted / hw.total) * 100)}%` }}
+                          style={{ width: `${hw.total ? Math.min(100, Math.round((hw.submitted / hw.total) * 100)) : 0}%` }}
                         />
                       </div>
                     </div>
@@ -252,24 +381,30 @@ const HomeworkBoard = ({ classId }) => {
                     </span>
                   </td>
                   <td className="px-5 py-4">
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation()
-                        navigate(`/class/${classId}/homework/${hw.id}`)
-                      }}
-                      className="text-blue-600 hover:text-blue-800 text-sm inline-flex items-center"
-                    >
-                      <Eye className="h-3.5 w-3.5 mr-1" />
-                      查看
-                    </button>
+                    <div className="flex items-center space-x-3" onClick={(e) => e.stopPropagation()}>
+                      <button
+                        onClick={() => navigate(`/class/${classId}/homework/${hw.id}`)}
+                        className="text-blue-600 hover:text-blue-800 text-sm inline-flex items-center"
+                      >
+                        <Eye className="h-3.5 w-3.5 mr-1" />
+                        查看
+                      </button>
+                      <button onClick={() => setEditingHomework(hw)} className="text-gray-400 hover:text-gray-700" title="编辑">
+                        <Edit className="h-4 w-4" />
+                      </button>
+                      <button onClick={() => setDeleteTarget(hw)} className="text-gray-400 hover:text-red-600" title="删除">
+                        <Trash2 className="h-4 w-4" />
+                      </button>
+                    </div>
                   </td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
+        )}
       </div>
-      
+
       {classStats && classStats.total_students > 0 && (
         <ClassStats stats={classStats} />
       )}
@@ -287,7 +422,7 @@ const HomeworkBoard = ({ classId }) => {
               <div key={idx} className="flex items-center justify-between p-3 bg-red-50 rounded-lg">
                 <div className="flex items-center space-x-3">
                   <div className="w-8 h-8 bg-red-100 rounded-full flex items-center justify-center">
-                    <span className="text-sm font-medium text-red-600">{student.name[0]}</span>
+                    <span className="text-sm font-medium text-red-600">{student.name?.[0]}</span>
                   </div>
                   <div>
                     <p className="text-sm font-medium text-gray-900">{student.name}</p>
@@ -309,132 +444,51 @@ const HomeworkBoard = ({ classId }) => {
           </div>
         </div>
       )}
+
+      {editingHomework !== undefined && (
+        <HomeworkFormModal
+          classId={classId}
+          homework={editingHomework}
+          onClose={() => setEditingHomework(undefined)}
+          onSaved={() => { setEditingHomework(undefined); reload(); reloadClasses() }}
+        />
+      )}
+
+      <ConfirmDialog
+        isOpen={!!deleteTarget}
+        title="删除作业"
+        message={`删除《${deleteTarget?.title || ''}》将同时删除所有学生的提交与批改记录，确定吗？`}
+        onConfirm={handleDelete}
+        onCancel={() => setDeleteTarget(null)}
+        confirmText="确认删除"
+        cancelText="再想想"
+      />
     </div>
   )
 }
 
-const ExamArchive = ({ classId }) => {
-  const info = classInfo[classId] || classInfo.class1
+const ScoreArchive = ({ classId, info }) => {
+  const [exams, setExams] = useState([])
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
   const [selectedExam, setSelectedExam] = useState(null)
   const [exporting, setExporting] = useState(false)
-  
-  const exams = [
-    { 
-      id: 1, 
-      name: '期末考试', 
-      date: '2024-01-20', 
-      avgScore: 82.5, 
-      highest: 98, 
-      lowest: 45, 
-      passRate: 88.9,
-      totalStudents: 2,
-      excellentCount: 2,
-      goodCount: 0,
-      passCount: 0,
-      failCount: 0,
-      mathAvg: 85.2,
-      topStudents: [
-        { name: '李四', score: 98, rank: 1 },
-        { name: '张三', score: 85, rank: 2 },
-      ],
-      analysis: '本次期末考试整体表现良好，平均分82.5分，及格率100%。建议继续保持学习状态，加强薄弱知识点的巩固。'
-    },
-    { 
-      id: 2, 
-      name: '期中考试', 
-      date: '2023-11-15', 
-      avgScore: 78.3, 
-      highest: 95, 
-      lowest: 38, 
-      passRate: 84.4,
-      totalStudents: 2,
-      excellentCount: 1,
-      goodCount: 1,
-      passCount: 0,
-      failCount: 0,
-      mathAvg: 80.1,
-      topStudents: [
-        { name: '李四', score: 95, rank: 1 },
-        { name: '张三', score: 82, rank: 2 },
-      ],
-      analysis: '期中考试成绩有所波动，平均分78.3分。建议关注基础知识的巩固，加强错题复习。'
-    },
-    { 
-      id: 3, 
-      name: '月考（12月）', 
-      date: '2023-12-10', 
-      avgScore: 75.8, 
-      highest: 92, 
-      lowest: 42, 
-      passRate: 82.2,
-      totalStudents: 2,
-      excellentCount: 1,
-      goodCount: 1,
-      passCount: 0,
-      failCount: 0,
-      mathAvg: 78.5,
-      topStudents: [
-        { name: '李四', score: 92, rank: 1 },
-        { name: '张三', score: 78, rank: 2 },
-      ],
-      analysis: '12月月考成绩略有下降，平均分75.8分。需要分析原因并调整学习策略。'
-    },
-    { 
-      id: 4, 
-      name: '月考（11月）', 
-      date: '2023-11-05', 
-      avgScore: 80.1, 
-      highest: 96, 
-      lowest: 50, 
-      passRate: 86.7,
-      totalStudents: 2,
-      excellentCount: 2,
-      goodCount: 0,
-      passCount: 0,
-      failCount: 0,
-      mathAvg: 83.2,
-      topStudents: [
-        { name: '李四', score: 96, rank: 1 },
-        { name: '张三', score: 85, rank: 2 },
-      ],
-      analysis: '11月月考整体表现较好，平均分80.1分。继续保持良好的学习状态。'
-    },
-    { 
-      id: 5, 
-      name: '月考（10月）', 
-      date: '2023-10-08', 
-      avgScore: 77.5, 
-      highest: 94, 
-      lowest: 40, 
-      passRate: 83.3,
-      totalStudents: 2,
-      excellentCount: 1,
-      goodCount: 1,
-      passCount: 0,
-      failCount: 0,
-      mathAvg: 81.2,
-      topStudents: [
-        { name: '李四', score: 94, rank: 1 },
-        { name: '张三', score: 82, rank: 2 },
-      ],
-      analysis: '10月月考是开学后的首次正式考试，平均分77.5分。学生还在适应阶段，后续需要加强基础知识巩固。'
-    },
-  ]
-  
-  const scoreDistribution = [
-    { range: '90-100', count: 8, percentage: 17.8 },
-    { range: '80-89', count: 15, percentage: 33.3 },
-    { range: '70-79', count: 12, percentage: 26.7 },
-    { range: '60-69', count: 6, percentage: 13.3 },
-    { range: '60以下', count: 4, percentage: 8.9 },
-  ]
+
+  useEffect(() => {
+    setLoading(true)
+    classAPI.getScoreArchive(classId)
+      .then(d => { setExams(d.items || []); setError(null) })
+      .catch(err => setError(getErrorMessage(err, '加载失败')))
+      .finally(() => setLoading(false))
+  }, [classId])
+
+  const latest = exams[0]
 
   const handleExportPDF = async (exam) => {
     setExporting(true)
     try {
-      const element = document.getElementById(`exam-detail-${exam.id}`)
+      const element = document.getElementById(`exam-detail-${exam.assignment_id}`)
       if (!element) return
-      
       await html2pdf(element, {
         margin: 10,
         filename: `${exam.name}_成绩分析报告.pdf`,
@@ -442,37 +496,45 @@ const ExamArchive = ({ classId }) => {
         html2canvas: { scale: 2 },
         jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
       })
-    } catch (error) {
-      console.error('导出PDF失败:', error)
-      alert('导出PDF失败，请重试')
+    } catch (err) {
+      console.error('导出PDF失败:', err)
     } finally {
       setExporting(false)
     }
   }
-  
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center py-16 text-gray-500">
+        <Loader2 className="h-5 w-5 mr-2 animate-spin" />
+        加载成绩档案...
+      </div>
+    )
+  }
+
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <div>
-          <h2 className="text-xl font-bold text-gray-900">考试档案</h2>
-          <p className="text-sm text-gray-500 mt-1">{info.name} · {info.subject} · 历次考试成绩</p>
-        </div>
-        <button className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700">
-          <Plus className="h-4 w-4 mr-2" />
-          录入成绩
-        </button>
+      <div>
+        <h2 className="text-xl font-bold text-gray-900">成绩档案</h2>
+        <p className="text-sm text-gray-500 mt-1">{info.name} · {info.subject} · 根据已批改作业自动统计</p>
       </div>
-      
+
+      {error && <p className="text-sm text-red-500">{error}</p>}
+
       <div className="bg-white rounded-xl border border-gray-200">
         <div className="p-5 border-b border-gray-200">
-          <h3 className="text-lg font-semibold text-gray-900">历次考试</h3>
+          <h3 className="text-lg font-semibold text-gray-900">历次作业成绩</h3>
         </div>
+        {exams.length === 0 ? (
+          <div className="p-10 text-center text-sm text-gray-400">暂无已批改的作业成绩</div>
+        ) : (
         <div className="overflow-x-auto">
           <table className="w-full">
             <thead>
               <tr className="bg-gray-50">
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">考试名称</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">作业名称</th>
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">日期</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">已批改</th>
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">平均分</th>
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">最高分</th>
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">最低分</th>
@@ -482,44 +544,34 @@ const ExamArchive = ({ classId }) => {
             </thead>
             <tbody className="divide-y divide-gray-200">
               {exams.map((exam) => (
-                <tr key={exam.id} className="hover:bg-gray-50">
+                <tr key={exam.assignment_id} className="hover:bg-gray-50">
                   <td className="px-5 py-4 text-sm font-medium text-gray-900">{exam.name}</td>
                   <td className="px-5 py-4 text-sm text-gray-500">{exam.date}</td>
+                  <td className="px-5 py-4 text-sm text-gray-500">{exam.gradedCount} 人</td>
                   <td className="px-5 py-4 text-sm text-gray-900">{exam.avgScore}</td>
                   <td className="px-5 py-4 text-sm text-green-600">{exam.highest}</td>
                   <td className="px-5 py-4 text-sm text-red-600">{exam.lowest}</td>
                   <td className="px-5 py-4 text-sm text-gray-900">{exam.passRate}%</td>
                   <td className="px-5 py-4">
-                    <div className="flex items-center space-x-2">
-                      <button 
-                        onClick={() => setSelectedExam(exam)}
-                        className="text-blue-600 hover:text-blue-800 text-sm"
-                      >
-                        详情
-                      </button>
-                      <button 
-                        onClick={() => handleExportPDF(exam)}
-                        disabled={exporting}
-                        className="text-gray-400 hover:text-gray-600 text-sm disabled:opacity-50"
-                      >
-                        导出
-                      </button>
-                    </div>
+                    <button onClick={() => setSelectedExam(exam)} className="text-blue-600 hover:text-blue-800 text-sm">
+                      详情
+                    </button>
                   </td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
+        )}
       </div>
-      
-      <div className="bg-white rounded-xl border border-gray-200">
-        <div className="p-5 border-b border-gray-200">
-          <h3 className="text-lg font-semibold text-gray-900">成绩分布（期末考试）</h3>
-        </div>
-        <div className="p-5">
-          <div className="space-y-3">
-            {scoreDistribution.map((item, idx) => (
+
+      {latest && (
+        <div className="bg-white rounded-xl border border-gray-200">
+          <div className="p-5 border-b border-gray-200">
+            <h3 className="text-lg font-semibold text-gray-900">成绩分布（{latest.name}）</h3>
+          </div>
+          <div className="p-5 space-y-3">
+            {latest.distribution.map((item, idx) => (
               <div key={idx} className="flex items-center space-x-4">
                 <span className="text-sm text-gray-600 w-16">{item.range}</span>
                 <div className="flex-1 bg-gray-100 rounded-full h-6 overflow-hidden">
@@ -527,7 +579,7 @@ const ExamArchive = ({ classId }) => {
                     className="h-full bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-end pr-2"
                     style={{ width: `${item.percentage}%` }}
                   >
-                    <span className="text-xs text-white font-medium">{item.count}人</span>
+                    {item.count > 0 && <span className="text-xs text-white font-medium">{item.count}人</span>}
                   </div>
                 </div>
                 <span className="text-sm text-gray-500 w-12 text-right">{item.percentage}%</span>
@@ -535,9 +587,8 @@ const ExamArchive = ({ classId }) => {
             ))}
           </div>
         </div>
-      </div>
+      )}
 
-      {/* 考试详情弹窗 */}
       {selectedExam && (
         <div className="fixed inset-0 z-50 flex items-center justify-center">
           <div className="absolute inset-0 bg-black/40" onClick={() => setSelectedExam(null)} />
@@ -545,15 +596,14 @@ const ExamArchive = ({ classId }) => {
             <div className="sticky top-0 bg-white border-b border-gray-200 p-5 flex items-center justify-between z-10">
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">{selectedExam.name}</h3>
-                <p className="text-sm text-gray-500 mt-0.5">{selectedExam.date}</p>
+                <p className="text-sm text-gray-500 mt-0.5">{selectedExam.date} · 已批改 {selectedExam.gradedCount} 人</p>
               </div>
               <button onClick={() => setSelectedExam(null)} className="p-2 hover:bg-gray-100 rounded-lg">
                 <X className="h-5 w-5 text-gray-500" />
               </button>
             </div>
-            
-            <div id={`exam-detail-${selectedExam.id}`} className="p-6">
-              {/* 概览卡片 */}
+
+            <div id={`exam-detail-${selectedExam.assignment_id}`} className="p-6">
               <div className="grid grid-cols-4 gap-4 mb-6">
                 <div className="bg-blue-50 rounded-xl p-4 border border-blue-100">
                   <p className="text-xs text-blue-600 font-medium mb-1">平均分</p>
@@ -573,16 +623,6 @@ const ExamArchive = ({ classId }) => {
                 </div>
               </div>
 
-              {/* 数学平均分 */}
-              <div className="mb-6">
-                <h4 className="text-base font-semibold text-gray-800 mb-4">数学平均分</h4>
-                <div className="bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl p-6 text-center">
-                  <p className="text-white text-lg font-medium mb-2">本次考试数学平均分</p>
-                  <p className="text-white text-4xl font-bold">{selectedExam.mathAvg}</p>
-                </div>
-              </div>
-
-              {/* 成绩分布 */}
               <div className="mb-6">
                 <h4 className="text-base font-semibold text-gray-800 mb-4">成绩分布统计</h4>
                 <div className="grid grid-cols-4 gap-4">
@@ -605,18 +645,17 @@ const ExamArchive = ({ classId }) => {
                 </div>
               </div>
 
-              {/* 学生排名 */}
-              <div className="mb-6">
-                <h4 className="text-base font-semibold text-gray-800 mb-4">学生排名</h4>
+              <div>
+                <h4 className="text-base font-semibold text-gray-800 mb-4">成绩前五名</h4>
                 <div className="space-y-3">
                   {selectedExam.topStudents.map((student, idx) => (
                     <div key={idx} className="flex items-center p-3 bg-gray-50 rounded-lg">
                       <div className={`w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mr-4 ${
                         idx === 0 ? 'bg-yellow-400 text-yellow-900' :
                         idx === 1 ? 'bg-gray-300 text-gray-700' :
-                        'bg-orange-400 text-orange-900'
+                        idx === 2 ? 'bg-orange-400 text-orange-900' : 'bg-gray-100 text-gray-600'
                       }`}>
-                        {idx + 1}
+                        {student.rank}
                       </div>
                       <span className="flex-1 font-medium text-gray-900">{student.name}</span>
                       <span className="text-lg font-bold text-blue-600">{student.score}分</span>
@@ -624,17 +663,8 @@ const ExamArchive = ({ classId }) => {
                   ))}
                 </div>
               </div>
-
-              {/* 分析报告 */}
-              <div>
-                <h4 className="text-base font-semibold text-gray-800 mb-4">考试分析报告</h4>
-                <div className="bg-blue-50 border border-blue-100 rounded-xl p-4">
-                  <p className="text-gray-700 leading-relaxed">{selectedExam.analysis}</p>
-                </div>
-              </div>
             </div>
 
-            {/* 底部按钮 */}
             <div className="sticky bottom-0 bg-white border-t border-gray-200 p-5 flex justify-end">
               <button
                 onClick={() => handleExportPDF(selectedExam)}
@@ -652,32 +682,201 @@ const ExamArchive = ({ classId }) => {
   )
 }
 
-const ClassMembers = ({ classId }) => {
-  const info = classInfo[classId] || classInfo.class1
-  const [searchTerm, setSearchTerm] = useState('')
-  
-  const students = [
-    { id: 1, name: '张三', gender: '男', avgScore: 85.2, rank: 2, trend: 'up', status: '优秀' },
-    { id: 2, name: '李四', gender: '女', avgScore: 92.5, rank: 1, trend: 'up', status: '优秀' },
-  ]
-  
-  const filteredStudents = students.filter(s =>
-    s.name.toLowerCase().includes(searchTerm.toLowerCase())
+const MemberFormModal = ({ classId, member, onClose, onSaved }) => {
+  const { addToast } = useToast()
+  const [form, setForm] = useState({
+    name: member?.name || '',
+    gender: member?.gender || '男',
+    student_no: member?.student_no || '',
+  })
+  const [saving, setSaving] = useState(false)
+
+  const submit = async () => {
+    if (!form.name.trim()) {
+      addToast('请输入学生姓名', 'error')
+      return
+    }
+    setSaving(true)
+    try {
+      if (member) {
+        await classAPI.updateMember(classId, member.id, form)
+        addToast('学生信息已更新', 'success')
+      } else {
+        await classAPI.addMember(classId, form)
+        addToast('学生已添加', 'success')
+      }
+      onSaved()
+    } catch (err) {
+      addToast(getErrorMessage(err, '保存失败'), 'error')
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  return (
+    <Modal
+      title={member ? '编辑学生' : '添加学生'}
+      onClose={onClose}
+      footer={(
+        <>
+          <button onClick={onClose} className="px-4 py-2 border border-gray-300 rounded-lg text-sm text-gray-600 hover:bg-gray-50">取消</button>
+          <button onClick={submit} disabled={saving} className="px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700 disabled:opacity-50">
+            {saving ? '保存中...' : '保存'}
+          </button>
+        </>
+      )}
+    >
+      <div>
+        <label className="block text-xs font-medium text-gray-600 mb-1">姓名 *</label>
+        <input className={inputCls} value={form.name} onChange={e => setForm(f => ({ ...f, name: e.target.value }))} />
+        {member && <p className="text-xs text-gray-400 mt-1">改名会同步更新该学生在本班的作业提交记录</p>}
+      </div>
+      <div className="grid grid-cols-2 gap-4">
+        <div>
+          <label className="block text-xs font-medium text-gray-600 mb-1">性别</label>
+          <select className={inputCls} value={form.gender} onChange={e => setForm(f => ({ ...f, gender: e.target.value }))}>
+            <option value="男">男</option>
+            <option value="女">女</option>
+          </select>
+        </div>
+        <div>
+          <label className="block text-xs font-medium text-gray-600 mb-1">学号</label>
+          <input className={inputCls} value={form.student_no} onChange={e => setForm(f => ({ ...f, student_no: e.target.value }))} />
+        </div>
+      </div>
+    </Modal>
   )
-  
+}
+
+const ImportMembersModal = ({ classId, onClose, onSaved }) => {
+  const { addToast } = useToast()
+  const [text, setText] = useState('')
+  const [file, setFile] = useState(null)
+  const [saving, setSaving] = useState(false)
+
+  const submit = async () => {
+    if (!text.trim() && !file) {
+      addToast('请粘贴名单或选择名单文件', 'error')
+      return
+    }
+    setSaving(true)
+    try {
+      const res = await classAPI.importMembers(classId, { text, file })
+      addToast(res.message, 'success')
+      onSaved()
+    } catch (err) {
+      addToast(getErrorMessage(err, '导入失败'), 'error')
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  return (
+    <Modal
+      title="批量导入学生"
+      onClose={onClose}
+      footer={(
+        <>
+          <button onClick={onClose} className="px-4 py-2 border border-gray-300 rounded-lg text-sm text-gray-600 hover:bg-gray-50">取消</button>
+          <button onClick={submit} disabled={saving} className="px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700 disabled:opacity-50">
+            {saving ? '导入中...' : '开始导入'}
+          </button>
+        </>
+      )}
+    >
+      <p className="text-sm text-gray-500">每行一个学生，格式：<code className="bg-gray-100 px-1 rounded">姓名,性别,学号</code>（性别、学号可省略，重名会自动跳过）</p>
+      <textarea
+        className={`${inputCls} font-mono`}
+        rows={8}
+        value={text}
+        onChange={e => setText(e.target.value)}
+        placeholder={'张三,男,2024001\n李四,女,2024002\n王五'}
+      />
+      <div>
+        <label className="block text-xs font-medium text-gray-600 mb-1">或上传名单文件（.txt / .csv）</label>
+        <input type="file" accept=".txt,.csv" onChange={e => setFile(e.target.files?.[0] || null)} className="text-sm" />
+      </div>
+    </Modal>
+  )
+}
+
+const ClassMembers = ({ classId, info }) => {
+  const { addToast } = useToast()
+  const { reloadClasses } = useClass()
+  const [searchTerm, setSearchTerm] = useState('')
+  const [students, setStudents] = useState([])
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
+  const [editing, setEditing] = useState(undefined)
+  const [importing, setImporting] = useState(false)
+  const [deleteTarget, setDeleteTarget] = useState(null)
+
+  const load = useCallback(() => {
+    setLoading(true)
+    classAPI.getMembers(classId)
+      .then(d => { setStudents(d.items || []); setError(null) })
+      .catch(err => setError(getErrorMessage(err, '加载失败')))
+      .finally(() => setLoading(false))
+  }, [classId])
+
+  useEffect(() => { load() }, [load])
+
+  const afterChange = () => {
+    setEditing(undefined)
+    setImporting(false)
+    load()
+    reloadClasses()
+  }
+
+  const handleDelete = async () => {
+    try {
+      await classAPI.removeMember(classId, deleteTarget.id)
+      addToast('已移除学生', 'success')
+      afterChange()
+    } catch (err) {
+      addToast(getErrorMessage(err, '移除失败'), 'error')
+    } finally {
+      setDeleteTarget(null)
+    }
+  }
+
+  const filteredStudents = students.filter(s =>
+    s.name.toLowerCase().includes(searchTerm.toLowerCase()) || (s.student_no || '').includes(searchTerm)
+  )
+
+  const statusCls = (status) => (
+    status === '优秀' ? 'bg-green-100 text-green-800' :
+    status === '良好' ? 'bg-blue-100 text-blue-800' :
+    status === '待提高' ? 'bg-orange-100 text-orange-800' :
+    status === '需关注' ? 'bg-red-100 text-red-800' :
+    'bg-gray-100 text-gray-500'
+  )
+
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between flex-wrap gap-3">
         <div>
           <h2 className="text-xl font-bold text-gray-900">班级成员</h2>
-          <p className="text-sm text-gray-500 mt-1">{info.name} · {info.students}名学生</p>
+          <p className="text-sm text-gray-500 mt-1">{info.name} · {students.length}名学生</p>
         </div>
-        <button className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700">
-          <Plus className="h-4 w-4 mr-2" />
-          添加学生
-        </button>
+        <div className="flex gap-2">
+          <button
+            onClick={() => setImporting(true)}
+            className="inline-flex items-center px-4 py-2 border border-blue-200 text-blue-700 rounded-lg text-sm hover:bg-blue-50"
+          >
+            <Upload className="h-4 w-4 mr-2" />
+            批量导入
+          </button>
+          <button
+            onClick={() => setEditing(null)}
+            className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700"
+          >
+            <Plus className="h-4 w-4 mr-2" />
+            添加学生
+          </button>
+        </div>
       </div>
-      
+
       <div className="bg-white rounded-xl border border-gray-200">
         <div className="p-5 border-b border-gray-200">
           <div className="flex items-center justify-between">
@@ -686,7 +885,7 @@ const ClassMembers = ({ classId }) => {
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
               <input
                 type="text"
-                placeholder="搜索学生..."
+                placeholder="搜索姓名或学号..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="pl-10 pr-4 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
@@ -694,12 +893,26 @@ const ClassMembers = ({ classId }) => {
             </div>
           </div>
         </div>
+        {loading ? (
+          <div className="p-10 flex items-center justify-center text-gray-500 text-sm">
+            <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+            加载学生名单...
+          </div>
+        ) : error ? (
+          <div className="p-10 text-center text-sm text-red-500">{error}</div>
+        ) : filteredStudents.length === 0 ? (
+          <div className="p-10 text-center text-sm text-gray-400">
+            {students.length === 0 ? '班级还没有学生，点击「添加学生」或「批量导入」' : '没有匹配的学生'}
+          </div>
+        ) : (
         <div className="overflow-x-auto">
           <table className="w-full">
             <thead>
               <tr className="bg-gray-50">
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">姓名</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">学号</th>
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">性别</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">作业提交</th>
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">平均分</th>
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">班级排名</th>
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">趋势</th>
@@ -718,9 +931,11 @@ const ClassMembers = ({ classId }) => {
                       <span className="text-sm font-medium text-gray-900">{student.name}</span>
                     </div>
                   </td>
+                  <td className="px-5 py-4 text-sm text-gray-500">{student.student_no || '-'}</td>
                   <td className="px-5 py-4 text-sm text-gray-500">{student.gender}</td>
-                  <td className="px-5 py-4 text-sm font-medium text-gray-900">{student.avgScore}</td>
-                  <td className="px-5 py-4 text-sm text-gray-500">第 {student.rank} 名</td>
+                  <td className="px-5 py-4 text-sm text-gray-500">{student.submittedCount}/{student.homeworkCount}</td>
+                  <td className="px-5 py-4 text-sm font-medium text-gray-900">{student.avgScore ?? '-'}</td>
+                  <td className="px-5 py-4 text-sm text-gray-500">{student.rank ? `第 ${student.rank} 名` : '-'}</td>
                   <td className="px-5 py-4">
                     {student.trend === 'up' ? (
                       <TrendingUp className="h-4 w-4 text-green-500" />
@@ -731,22 +946,17 @@ const ClassMembers = ({ classId }) => {
                     )}
                   </td>
                   <td className="px-5 py-4">
-                    <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
-                      student.status === '优秀' ? 'bg-green-100 text-green-800' :
-                      student.status === '良好' ? 'bg-blue-100 text-blue-800' :
-                      student.status === '待提高' ? 'bg-orange-100 text-orange-800' :
-                      'bg-red-100 text-red-800'
-                    }`}>
+                    <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${statusCls(student.status)}`}>
                       {student.status}
                     </span>
                   </td>
                   <td className="px-5 py-4">
                     <div className="flex items-center space-x-2">
-                      <button className="text-blue-600 hover:text-blue-800 text-sm">
-                        <Eye className="h-4 w-4" />
-                      </button>
-                      <button className="text-gray-400 hover:text-gray-600 text-sm">
+                      <button onClick={() => setEditing(student)} className="text-gray-400 hover:text-gray-700" title="编辑">
                         <Edit className="h-4 w-4" />
+                      </button>
+                      <button onClick={() => setDeleteTarget(student)} className="text-gray-400 hover:text-red-600" title="移除">
+                        <Trash2 className="h-4 w-4" />
                       </button>
                     </div>
                   </td>
@@ -755,7 +965,24 @@ const ClassMembers = ({ classId }) => {
             </tbody>
           </table>
         </div>
+        )}
       </div>
+
+      {editing !== undefined && (
+        <MemberFormModal classId={classId} member={editing} onClose={() => setEditing(undefined)} onSaved={afterChange} />
+      )}
+      {importing && (
+        <ImportMembersModal classId={classId} onClose={() => setImporting(false)} onSaved={afterChange} />
+      )}
+      <ConfirmDialog
+        isOpen={!!deleteTarget}
+        title="移除学生"
+        message={`确定将「${deleteTarget?.name || ''}」移出班级吗？其历史作业记录会保留。`}
+        onConfirm={handleDelete}
+        onCancel={() => setDeleteTarget(null)}
+        confirmText="确认移除"
+        cancelText="再想想"
+      />
     </div>
   )
 }
@@ -764,23 +991,32 @@ const ClassDetail = () => {
   const { classId } = useParams()
   const navigate = useNavigate()
   const location = useLocation()
-  const info = classInfo[classId] || classInfo.class1
-  
+  const { info, notFound } = useClassInfo(classId)
+
   const tabs = [
     { id: 'homework', label: '作业看板', icon: ClipboardList, path: `/class/${classId}/homework` },
-    { id: 'exams', label: '考试档案', icon: Archive, path: `/class/${classId}/exams` },
+    { id: 'exams', label: '成绩档案', icon: Archive, path: `/class/${classId}/exams` },
     { id: 'members', label: '班级成员', icon: Users, path: `/class/${classId}/members` },
   ]
-  
+
   const getCurrentTab = () => {
     const path = location.pathname
     if (path.includes('/exams')) return 'exams'
     if (path.includes('/members')) return 'members'
     return 'homework'
   }
-  
+
   const currentTab = getCurrentTab()
-  
+
+  if (notFound) {
+    return (
+      <div className="p-6 text-center py-16">
+        <p className="text-gray-500 mb-4">班级不存在或已被删除</p>
+        <button onClick={() => navigate('/class')} className="text-blue-600 text-sm hover:underline">返回班级列表</button>
+      </div>
+    )
+  }
+
   return (
     <div className="p-6">
       <div className="flex items-center space-x-3 mb-6">
@@ -789,10 +1025,10 @@ const ClassDetail = () => {
         </div>
         <div>
           <h1 className="text-xl font-bold text-gray-900">{info.name}</h1>
-          <p className="text-sm text-gray-500">{info.subject} · {info.students}名学生</p>
+          <p className="text-sm text-gray-500">{info.grade ? `${info.grade} · ` : ''}{info.subject} · {info.students}名学生</p>
         </div>
       </div>
-      
+
       <div className="flex space-x-1 bg-gray-100 rounded-lg p-1 mb-6 w-fit">
         {tabs.map((tab) => {
           const Icon = tab.icon
@@ -813,10 +1049,64 @@ const ClassDetail = () => {
           )
         })}
       </div>
-      
-      {currentTab === 'homework' && <HomeworkBoard classId={classId} />}
-      {currentTab === 'exams' && <ExamArchive classId={classId} />}
-      {currentTab === 'members' && <ClassMembers classId={classId} />}
+
+      {currentTab === 'homework' && <HomeworkBoard classId={classId} info={info} />}
+      {currentTab === 'exams' && <ScoreArchive classId={classId} info={info} />}
+      {currentTab === 'members' && <ClassMembers classId={classId} info={info} />}
+    </div>
+  )
+}
+
+const ClassOverview = () => {
+  const navigate = useNavigate()
+  const { classes, loaded } = useClass()
+
+  return (
+    <div className="p-6">
+      <div className="flex items-center justify-between mb-6">
+        <div>
+          <h1 className="text-xl font-bold text-gray-900">我的班级</h1>
+          <p className="text-sm text-gray-500 mt-1">选择一个班级查看作业、成绩与学生</p>
+        </div>
+        <button
+          onClick={() => navigate('/settings')}
+          className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-lg text-sm text-gray-600 hover:bg-gray-50"
+        >
+          <SettingsIcon className="h-4 w-4 mr-2" />
+          班级管理
+        </button>
+      </div>
+      {!loaded ? (
+        <div className="flex items-center justify-center py-16 text-gray-500">
+          <Loader2 className="h-5 w-5 mr-2 animate-spin" />
+          加载班级...
+        </div>
+      ) : classes.length === 0 ? (
+        <div className="text-center py-16">
+          <Users className="h-12 w-12 text-gray-300 mx-auto mb-3" />
+          <p className="text-gray-500">还没有班级，请先到「设置 → 班级管理」中新建</p>
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {classes.map(cls => (
+            <button
+              key={cls.id}
+              onClick={() => navigate(`/class/${cls.slug}/homework`)}
+              className="text-left bg-white rounded-xl border border-gray-200 p-5 hover:shadow-md hover:border-blue-200 transition-all"
+            >
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
+                  <GraduationCap className="h-5 w-5 text-blue-600" />
+                </div>
+                <div>
+                  <p className="font-medium text-gray-900">{cls.name}</p>
+                  <p className="text-xs text-gray-500">{cls.grade} · {cls.subject} · {cls.students}名学生 · {cls.homeworkCount ?? 0}份作业</p>
+                </div>
+              </div>
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   )
 }
@@ -826,14 +1116,7 @@ const ClassData = () => {
     <Routes>
       <Route path=":classId/homework/:homeworkId" element={<HomeworkDetail />} />
       <Route path=":classId/*" element={<ClassDetail />} />
-      <Route path="/" element={
-        <div className="p-6 flex items-center justify-center h-64">
-          <div className="text-center">
-            <Users className="h-12 w-12 text-gray-300 mx-auto mb-3" />
-            <p className="text-gray-500">请从左侧选择一个班级</p>
-          </div>
-        </div>
-      } />
+      <Route path="/" element={<ClassOverview />} />
     </Routes>
   )
 }

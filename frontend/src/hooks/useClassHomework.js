@@ -1,4 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
+import { useClass } from '../context/ClassContext'
+import { classAPI } from '../utils/api'
 import {
   fetchHomeworkList,
   fetchHomeworkById,
@@ -34,9 +36,9 @@ export function useHomeworkDetail(classId, homeworkId) {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
-  const reload = useCallback(() => {
+  const reload = useCallback((silent = false) => {
     if (!classId || !homeworkId) return
-    setLoading(true)
+    if (silent !== true) setLoading(true)
     Promise.all([
       fetchHomeworkById(classId, homeworkId),
       fetchStudentSubmissions(classId, homeworkId),
@@ -53,8 +55,16 @@ export function useHomeworkDetail(classId, homeworkId) {
 
   const invalidate = useCallback(() => {
     clearHomeworkCache(classId, homeworkId)
-    reload()
+    reload(true)
   }, [classId, homeworkId, reload])
+
+  // 有学生作业正在后台批改时，定时静默刷新
+  const hasProcessing = students.some(s => s.gradingStatus === '批改中')
+  useEffect(() => {
+    if (!hasProcessing) return
+    const timer = setInterval(() => reload(true), 4000)
+    return () => clearInterval(timer)
+  }, [hasProcessing, reload])
 
   useEffect(() => {
     const onGraded = (e) => {
@@ -108,4 +118,25 @@ export function useHomeworkBoard(classId) {
   }, [classId, reload])
 
   return { stats, homeworkList, gradingTasks, alertStudents, loading, error, reload }
+}
+
+// 班级基本信息：优先用全局班级列表，没有时向后端单独查询
+export const useClassInfo = (classId) => {
+  const { getClassBySlug, loaded } = useClass()
+  const fromContext = getClassBySlug(classId)
+  const [detail, setDetail] = useState(null)
+  const [notFound, setNotFound] = useState(false)
+
+  useEffect(() => {
+    if (fromContext || !classId) return
+    classAPI.getDetail(classId)
+      .then(d => { setDetail({ ...d, slug: d.slug }); setNotFound(false) })
+      .catch(() => setNotFound(true))
+  }, [classId, fromContext])
+
+  const info = fromContext || detail
+  return {
+    info: info || { name: loaded ? '' : '加载中...', subject: '', students: 0 },
+    notFound: !fromContext && notFound,
+  }
 }

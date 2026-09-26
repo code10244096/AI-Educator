@@ -24,6 +24,7 @@ import {
 import { useClass } from '../context/ClassContext'
 import { useToast } from '../components/Toast'
 import ConfirmDialog from '../components/ConfirmDialog'
+import { getErrorMessage } from '../utils/api'
 
 const Settings = () => {
   const { classes, addClass, updateClass, deleteClass } = useClass()
@@ -55,15 +56,19 @@ const Settings = () => {
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false)
   const [deleteTargetId, setDeleteTargetId] = useState(null)
   
-  const handleAddClass = () => {
-    if (!newClass.name) {
+  const handleAddClass = async () => {
+    if (!newClass.name.trim()) {
       addToast('请输入班级名称', 'error')
       return
     }
-    addClass(newClass)
-    setNewClass({ name: '', subject: '数学', students: 45, grade: '高三' })
-    setShowAddClass(false)
-    addToast('班级创建成功', 'success')
+    try {
+      await addClass(newClass)
+      setNewClass({ name: '', subject: '数学', students: 0, grade: '高三' })
+      setShowAddClass(false)
+      addToast('班级创建成功，可在「我的班级」中添加学生', 'success')
+    } catch (err) {
+      addToast(getErrorMessage(err, '班级创建失败'), 'error')
+    }
   }
   
   const handleDeleteClass = (id) => {
@@ -71,11 +76,16 @@ const Settings = () => {
     setShowDeleteConfirm(true)
   }
   
-  const confirmDelete = () => {
-    deleteClass(deleteTargetId)
-    setShowDeleteConfirm(false)
-    setDeleteTargetId(null)
-    addToast('班级已删除', 'success')
+  const confirmDelete = async () => {
+    try {
+      await deleteClass(deleteTargetId)
+      addToast('班级已删除', 'success')
+    } catch (err) {
+      addToast(getErrorMessage(err, '删除失败'), 'error')
+    } finally {
+      setShowDeleteConfirm(false)
+      setDeleteTargetId(null)
+    }
   }
   
   const handleEditClass = (cls) => {
@@ -83,10 +93,18 @@ const Settings = () => {
     setEditForm({ name: cls.name, subject: cls.subject, students: cls.students, grade: cls.grade })
   }
   
-  const handleSaveEdit = () => {
-    updateClass(editingClass, editForm)
-    setEditingClass(null)
-    addToast('班级信息已更新', 'success')
+  const handleSaveEdit = async () => {
+    if (!editForm.name.trim()) {
+      addToast('请输入班级名称', 'error')
+      return
+    }
+    try {
+      await updateClass(editingClass, editForm)
+      setEditingClass(null)
+      addToast('班级信息已更新', 'success')
+    } catch (err) {
+      addToast(getErrorMessage(err, '保存失败'), 'error')
+    }
   }
   
   const handleSaveProfile = () => {
@@ -297,16 +315,6 @@ const Settings = () => {
                         </select>
                       </div>
                       <div>
-                        <label className="block text-xs font-medium text-gray-600 mb-1">学生人数</label>
-                        <input
-                          type="number"
-                          value={newClass.students}
-                          onChange={(e) => setNewClass(prev => ({ ...prev, students: parseInt(e.target.value) || 0 }))}
-                          placeholder="45"
-                          className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                        />
-                      </div>
-                      <div>
                         <label className="block text-xs font-medium text-gray-600 mb-1">年级</label>
                         <select
                           value={newClass.grade}
@@ -344,7 +352,7 @@ const Settings = () => {
                           <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
                             <School className="h-5 w-5 text-blue-600" />
                           </div>
-                          <div className="flex-1 grid grid-cols-4 gap-3">
+                          <div className="flex-1 grid grid-cols-3 gap-3">
                             <input
                               type="text"
                               value={editForm.name}
@@ -367,13 +375,6 @@ const Settings = () => {
                               <option value="地理">地理</option>
                               <option value="政治">政治</option>
                             </select>
-                            <input
-                              type="number"
-                              value={editForm.students}
-                              onChange={(e) => setEditForm(prev => ({ ...prev, students: parseInt(e.target.value) || 0 }))}
-                              className="px-2 py-1.5 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                              placeholder="人数"
-                            />
                             <select
                               value={editForm.grade}
                               onChange={(e) => setEditForm(prev => ({ ...prev, grade: e.target.value }))}
@@ -397,7 +398,7 @@ const Settings = () => {
                             </div>
                             <div>
                               <p className="text-sm font-medium text-gray-900">{cls.name}</p>
-                              <p className="text-xs text-gray-500">{cls.subject} · {cls.students}名学生 · {cls.grade}</p>
+                              <p className="text-xs text-gray-500">{cls.subject} · {cls.students}名学生 · {cls.grade}（学生名单请在「我的班级 → 班级成员」中管理）</p>
                             </div>
                           </div>
                           <div className="flex items-center space-x-2">
@@ -622,7 +623,7 @@ const Settings = () => {
       <ConfirmDialog
         isOpen={showDeleteConfirm}
         title="删除班级"
-        message="删除后该班级的所有数据将无法恢复，确定要删除吗？"
+        message="删除后该班级的学生、作业及批改记录将一并删除且无法恢复，确定要删除吗？"
         onConfirm={confirmDelete}
         onCancel={() => { setShowDeleteConfirm(false); setDeleteTargetId(null) }}
         confirmText="确认删除"

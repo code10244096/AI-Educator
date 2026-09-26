@@ -1,13 +1,7 @@
-import React, { createContext, useContext, useState, useEffect } from 'react'
+import React, { createContext, useContext, useState, useEffect, useCallback } from 'react'
 import { classAPI } from '../utils/api'
 
 const ClassContext = createContext()
-
-const DEFAULT_CLASSES = [
-  { id: 1, name: '高三(1)班', students: 2, subject: '数学', grade: '高三', slug: 'class1' },
-  { id: 2, name: '高三(2)班', students: 42, subject: '数学', grade: '高三', slug: 'class2' },
-  { id: 3, name: '高三(3)班', students: 40, subject: '数学', grade: '高三', slug: 'class3' },
-]
 
 export const useClass = () => {
   const context = useContext(ClassContext)
@@ -17,41 +11,75 @@ export const useClass = () => {
   return context
 }
 
-export const ClassProvider = ({ children }) => {
-  const [classes, setClasses] = useState(DEFAULT_CLASSES)
+const normalize = (c) => ({
+  id: c.id,
+  name: c.name,
+  students: c.students,
+  subject: c.subject,
+  grade: c.grade,
+  slug: c.slug || `class${c.id}`,
+  homeworkCount: c.homework_count,
+})
 
-  useEffect(() => {
-    classAPI.getList()
-      .then(data => {
-        if (data.items?.length) {
-          setClasses(data.items.map(c => ({
-            id: c.id,
-            name: c.name,
-            students: c.students,
-            subject: c.subject,
-            grade: c.grade,
-            slug: c.slug,
-          })))
-        }
-      })
-      .catch(() => {})
+export const ClassProvider = ({ children }) => {
+  const [classes, setClasses] = useState([])
+  const [loaded, setLoaded] = useState(false)
+  const [loadError, setLoadError] = useState(null)
+
+  const reloadClasses = useCallback(async () => {
+    try {
+      const data = await classAPI.getList()
+      setClasses((data.items || []).map(normalize))
+      setLoadError(null)
+    } catch (e) {
+      setLoadError('班级列表加载失败')
+    } finally {
+      setLoaded(true)
+    }
   }, [])
 
-  const addClass = (newClass) => {
-    const newId = classes.length > 0 ? Math.max(...classes.map(c => c.id)) + 1 : 1
-    setClasses(prev => [...prev, { ...newClass, id: newId }])
+  useEffect(() => {
+    reloadClasses()
+    const onChanged = () => reloadClasses()
+    window.addEventListener('classesChanged', onChanged)
+    return () => window.removeEventListener('classesChanged', onChanged)
+  }, [reloadClasses])
+
+  // 以下方法都会写入后端，失败时抛出异常由调用方提示
+  const addClass = async (newClass) => {
+    const created = await classAPI.create({
+      name: newClass.name,
+      subject: newClass.subject,
+      grade: newClass.grade,
+    })
+    await reloadClasses()
+    return normalize(created)
   }
 
-  const updateClass = (id, updates) => {
-    setClasses(prev => prev.map(c => c.id === id ? { ...c, ...updates } : c))
+  const updateClass = async (id, updates) => {
+    const cls = classes.find(c => c.id === id)
+    const slug = cls?.slug || `class${id}`
+    const updated = await classAPI.update(slug, {
+      name: updates.name,
+      subject: updates.subject,
+      grade: updates.grade,
+    })
+    await reloadClasses()
+    return normalize(updated)
   }
 
-  const deleteClass = (id) => {
-    setClasses(prev => prev.filter(c => c.id !== id))
+  const deleteClass = async (id) => {
+    const cls = classes.find(c => c.id === id)
+    await classAPI.remove(cls?.slug || `class${id}`)
+    await reloadClasses()
   }
+
+  const getClassBySlug = (slug) => classes.find(c => c.slug === slug || `class${c.id}` === slug)
 
   return (
-    <ClassContext.Provider value={{ classes, addClass, updateClass, deleteClass }}>
+    <ClassContext.Provider value={{
+      classes, loaded, loadError, addClass, updateClass, deleteClass, reloadClasses, getClassBySlug,
+    }}>
       {children}
     </ClassContext.Provider>
   )
