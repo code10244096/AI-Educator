@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
-import { Plus, Filter, Calendar, CheckCircle, ExternalLink, BookOpen, FileText, FileSpreadsheet, File, AlertCircle } from 'lucide-react'
-import { notebookAPI } from '../utils/api'
+import React, { useState, useEffect, useCallback } from 'react'
+import { Plus, Calendar, CheckCircle, ExternalLink, BookOpen, FileText, FileSpreadsheet, File, AlertCircle, Trash2, Loader2, RotateCcw } from 'lucide-react'
+import { notebookAPI, getErrorMessage } from '../utils/api'
 import ReactMarkdown from 'react-markdown'
 import PageBackground from '../components/PageBackground'
 
@@ -39,19 +39,55 @@ const ERROR_MESSAGES = {
   general: '出了点小状况，稍后再试一次吧~',
 }
 
+const PAGE_SIZE = 20
+
 const WrongNotebook = () => {
   const [questions, setQuestions] = useState([])
   const [loading, setLoading] = useState(false)
-  const [filter, setFilter] = useState({ knowledgePoint: '', subject: '数学' })
+  const [filter, setFilter] = useState({ knowledgePoint: '', subject: '数学', mastered: '' })
   const [isVisible, setIsVisible] = useState(false)
   const [parseError, setParseError] = useState(null)
   const [uploadProgress, setUploadProgress] = useState(0)
   const [uploadedFileName, setUploadedFileName] = useState('')
-  
+  const [listLoading, setListLoading] = useState(false)
+  const [hasMore, setHasMore] = useState(false)
+  const [stats, setStats] = useState(null)
+  const [newKnowledgePoint, setNewKnowledgePoint] = useState('')
+  const [variantLoadingId, setVariantLoadingId] = useState(null)
+  const [actionError, setActionError] = useState(null)
+
   useEffect(() => {
     setIsVisible(true)
   }, [])
-  
+
+  const buildParams = useCallback((offset) => {
+    const params = { limit: PAGE_SIZE, offset }
+    if (filter.knowledgePoint) params.knowledge_point = filter.knowledgePoint
+    if (filter.subject) params.subject = filter.subject
+    if (filter.mastered !== '') params.is_mastered = filter.mastered === 'true'
+    return params
+  }, [filter])
+
+  const loadList = useCallback(async (append = false, offset = 0) => {
+    setListLoading(true)
+    try {
+      const items = await notebookAPI.getList(buildParams(offset))
+      setQuestions(prev => (append ? [...prev, ...items] : items))
+      setHasMore(items.length === PAGE_SIZE)
+    } catch (err) {
+      setActionError(getErrorMessage(err, '错题加载失败'))
+    } finally {
+      setListLoading(false)
+    }
+  }, [buildParams])
+
+  const loadStats = useCallback(() => {
+    notebookAPI.getStats({ subject: filter.subject || undefined }).then(setStats).catch(() => {})
+  }, [filter.subject])
+
+  useEffect(() => { loadList(false, 0) }, [loadList])
+  useEffect(() => { loadStats() }, [loadStats])
+
   const getFileType = (file) => {
     const ext = file.name.split('.').pop().toLowerCase()
     if (['png', 'jpg', 'jpeg', 'gif', 'bmp', 'webp'].includes(ext)) return 'image'
@@ -61,23 +97,23 @@ const WrongNotebook = () => {
     if (['md', 'txt'].includes(ext)) return 'text'
     return 'unknown'
   }
-  
+
   const handleUpload = async (event) => {
     const file = event.target.files[0]
     if (!file) return
-    
+
     const fileType = getFileType(file)
-    
+
     if (fileType === 'unknown') {
       setParseError({ type: 'invalid_format', message: ERROR_MESSAGES.invalid_format })
       return
     }
-    
+
     setLoading(true)
     setParseError(null)
     setUploadProgress(0)
     setUploadedFileName(file.name)
-    
+
     const progressInterval = setInterval(() => {
       setUploadProgress(prev => {
         if (prev >= 90) {
@@ -87,20 +123,21 @@ const WrongNotebook = () => {
         return prev + 10
       })
     }, 200)
-    
+
     try {
       const response = await notebookAPI.upload(
         file,
-        filter.knowledgePoint || '未分类',
-        filter.subject
+        newKnowledgePoint.trim() || filter.knowledgePoint || '未分类',
+        filter.subject || '数学'
       )
-      
+
       clearInterval(progressInterval)
       setUploadProgress(100)
-      
+
       if (response && response.questions && response.questions.length > 0) {
         setQuestions(prev => [...response.questions, ...prev])
         setUploadedFileName('')
+        loadStats()
       } else if (response && response.error) {
         setParseError({ type: response.error_type || 'general', message: response.error || ERROR_MESSAGES.general })
       } else {
@@ -109,23 +146,49 @@ const WrongNotebook = () => {
     } catch (error) {
       console.error('录入失败:', error)
       clearInterval(progressInterval)
-      setParseError({ type: 'parse_failed', message: ERROR_MESSAGES.parse_failed })
+      const detail = error?.response?.data?.detail
+      setParseError({ type: 'parse_failed', message: typeof detail === 'string' ? detail : ERROR_MESSAGES.parse_failed })
     } finally {
       setLoading(false)
+      event.target.value = ''
     }
   }
-  
-  const handleMarkMastered = async (id) => {
+
+  const handleToggleMastered = async (q) => {
     try {
-      await notebookAPI.markMastered(id)
-      setQuestions(prev =>
-        prev.map(q => (q.id === id ? { ...q, is_mastered: true } : q))
-      )
-    } catch (error) {
-      console.error('标记失败:', error)
+      if (q.is_mastered) await notebookAPI.markUnmastered(q.id)
+      else await notebookAPI.markMastered(q.id)
+      setQuestions(prev => prev.map(item => (item.id === q.id ? { ...item, is_mastered: !q.is_mastered } : item)))
+      loadStats()
+    } catch (err) {
+      setActionError(getErrorMessage(err, '操作失败'))
     }
   }
-  
+
+  const handleDelete = async (q) => {
+    if (!window.confirm('确定删除这道错题吗？')) return
+    try {
+      await notebookAPI.remove(q.id)
+      setQuestions(prev => prev.filter(item => item.id !== q.id))
+      loadStats()
+    } catch (err) {
+      setActionError(getErrorMessage(err, '删除失败'))
+    }
+  }
+
+  const handleGenerateVariants = async (q) => {
+    setVariantLoadingId(q.id)
+    setActionError(null)
+    try {
+      const res = await notebookAPI.generateVariants(q.id, 3)
+      setQuestions(prev => prev.map(item => (item.id === q.id ? { ...item, variant_questions: res.variant_questions } : item)))
+    } catch (err) {
+      setActionError(getErrorMessage(err, '变式题生成失败'))
+    } finally {
+      setVariantLoadingId(null)
+    }
+  }
+
   return (
     <PageBackground gradient="notebook">
       <div className={`max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12 transition-all duration-1000 ${
@@ -143,42 +206,72 @@ const WrongNotebook = () => {
               <p className="text-sm text-gray-600">智能整理，变式练习，举一反三</p>
             </div>
           </div>
-          
+
           <div className="flex flex-wrap gap-3 mb-6">
             <label className="flex items-center space-x-2 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-5 py-2.5 rounded-xl cursor-pointer hover:from-green-600 hover:to-emerald-600 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-[1.02]">
               <Plus className="h-5 w-5" />
               <span className="font-medium">录入错题</span>
               <input
                 type="file"
-                accept="image/*,.pdf,.doc,.docx,.xls,.xlsx,.md,.txt"
+                accept="image/*,.pdf,.docx,.md,.txt"
                 onChange={handleUpload}
                 className="hidden"
                 id="upload-wrong"
               />
             </label>
-            
+
+            <input
+              type="text"
+              value={newKnowledgePoint}
+              onChange={(e) => setNewKnowledgePoint(e.target.value)}
+              placeholder="录入时的知识点（如：导数）"
+              className="border border-gray-300 rounded-xl px-4 py-2.5 bg-white text-sm focus:ring-2 focus:ring-green-500 focus:border-transparent"
+            />
+
             <select
               value={filter.knowledgePoint}
               onChange={(e) => setFilter(prev => ({ ...prev, knowledgePoint: e.target.value }))}
               className="border border-gray-300 rounded-xl px-4 py-2.5 bg-white hover:border-green-400 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all cursor-pointer"
             >
-              <option value="">按知识点筛选</option>
-              <option value="三角函数">三角函数</option>
-              <option value="导数">导数</option>
-              <option value="函数">函数</option>
+              <option value="">全部知识点</option>
+              {(stats?.knowledge_points || []).map(kp => (
+                <option key={kp.name} value={kp.name}>{kp.name}（{kp.count}）</option>
+              ))}
             </select>
-            
+
             <select
               value={filter.subject}
               onChange={(e) => setFilter(prev => ({ ...prev, subject: e.target.value }))}
               className="border border-gray-300 rounded-xl px-4 py-2.5 bg-white hover:border-green-400 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all cursor-pointer"
             >
+              <option value="">全部学科</option>
               <option value="数学">数学</option>
               <option value="物理">物理</option>
               <option value="化学">化学</option>
             </select>
+
+            <select
+              value={filter.mastered}
+              onChange={(e) => setFilter(prev => ({ ...prev, mastered: e.target.value }))}
+              className="border border-gray-300 rounded-xl px-4 py-2.5 bg-white hover:border-green-400 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all cursor-pointer"
+            >
+              <option value="">全部状态</option>
+              <option value="false">未掌握</option>
+              <option value="true">已掌握</option>
+            </select>
           </div>
-        
+
+          {stats && (
+            <p className="text-sm text-gray-500 mb-4">
+              共 {stats.total} 道错题 · 已掌握 {stats.mastered} · 待巩固 {stats.unmastered}
+              <span className="text-gray-400">（作业批改中的错题会自动收录）</span>
+            </p>
+          )}
+
+          {actionError && (
+            <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-xl text-sm text-red-700">{actionError}</div>
+          )}
+
         {loading && (
           <div className="text-center py-12">
             <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -198,17 +291,17 @@ const WrongNotebook = () => {
             </div>
           </div>
         )}
-        
+
         {parseError && !loading && (
           <div className="mb-6 p-6 bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl border border-amber-200 text-center">
             <div className="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <AlertCircle className="h-8 w-8 text-amber-500" />
             </div>
             <p className="text-amber-800 font-medium text-lg">{parseError.message}</p>
-            <p className="text-amber-600 text-sm mt-2">支持格式：图片、PDF、Word、Excel、Markdown、TXT</p>
+            <p className="text-amber-600 text-sm mt-2">支持格式：图片、PDF、Word(.docx)、Markdown、TXT，单个文件不超过 10MB</p>
           </div>
         )}
-        
+
         <div className="space-y-4">
           {questions.map((q) => (
             <div
@@ -233,17 +326,20 @@ const WrongNotebook = () => {
                   <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-medium">
                     {q.subject}
                   </span>
+                  {q.source === 'grading' && (
+                    <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-xs font-medium">批改同步</span>
+                  )}
                 </div>
               </div>
-              
+
               <div className="mb-4 bg-gray-50 rounded-xl p-4">
                 <p className="text-sm font-medium text-gray-600 mb-2 flex items-center">
                   <span className="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>
                   原题
                 </p>
-                <p className="text-gray-900 leading-relaxed">{q.question_text}</p>
+                <p className="text-gray-900 leading-relaxed whitespace-pre-wrap">{q.question_text}</p>
               </div>
-              
+
               <div className="grid grid-cols-2 gap-4 mb-4">
                 <div className="bg-red-50 rounded-xl p-4 border border-red-100">
                   <p className="text-sm font-medium text-red-600 mb-1 flex items-center">
@@ -257,10 +353,10 @@ const WrongNotebook = () => {
                     <span className="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>
                     正确答案
                   </p>
-                  <p className="text-green-700">{q.correct_answer}</p>
+                  <p className="text-green-700 whitespace-pre-wrap">{q.correct_answer || '未提供'}</p>
                 </div>
               </div>
-              
+
               {q.variant_questions && q.variant_questions.length > 0 && (
                 <div className="mb-4">
                   <p className="text-sm font-medium text-gray-700 mb-3 flex items-center">
@@ -281,33 +377,55 @@ const WrongNotebook = () => {
                   </div>
                 </div>
               )}
-              
+
               <div className="flex space-x-3 pt-2 border-t border-gray-100">
-                <button className="flex items-center text-blue-600 hover:text-blue-700 text-sm font-medium hover:bg-blue-50 px-3 py-1.5 rounded-lg transition-all">
-                  <ExternalLink className="h-4 w-4 mr-1" />
-                  查看变式题
+                <button
+                  onClick={() => handleGenerateVariants(q)}
+                  disabled={variantLoadingId === q.id}
+                  className="flex items-center text-blue-600 hover:text-blue-700 text-sm font-medium hover:bg-blue-50 px-3 py-1.5 rounded-lg transition-all disabled:opacity-50"
+                >
+                  {variantLoadingId === q.id ? <Loader2 className="h-4 w-4 mr-1 animate-spin" /> : <ExternalLink className="h-4 w-4 mr-1" />}
+                  {variantLoadingId === q.id ? 'AI 生成中（约 30 秒）...' : (q.variant_questions?.length ? '换一批变式题' : '生成变式题')}
                 </button>
-                {!q.is_mastered && (
+                {!q.is_mastered ? (
                   <button
-                    onClick={() => handleMarkMastered(q.id)}
+                    onClick={() => handleToggleMastered(q)}
                     className="flex items-center text-green-600 hover:text-green-700 text-sm font-medium hover:bg-green-50 px-3 py-1.5 rounded-lg transition-all"
                   >
                     <CheckCircle className="h-4 w-4 mr-1" />
                     标记已掌握
                   </button>
-                )}
-                {q.is_mastered && (
-                  <span className="text-green-600 text-sm flex items-center font-medium bg-green-100 px-3 py-1.5 rounded-lg">
+                ) : (
+                  <button
+                    onClick={() => handleToggleMastered(q)}
+                    className="text-green-600 text-sm flex items-center font-medium bg-green-100 px-3 py-1.5 rounded-lg"
+                    title="点击取消掌握标记"
+                  >
                     <CheckCircle className="h-4 w-4 mr-1" />
                     已掌握
-                  </span>
+                    <RotateCcw className="h-3 w-3 ml-1 opacity-60" />
+                  </button>
                 )}
+                <button
+                  onClick={() => handleDelete(q)}
+                  className="ml-auto flex items-center text-gray-400 hover:text-red-600 text-sm px-3 py-1.5 rounded-lg transition-all"
+                >
+                  <Trash2 className="h-4 w-4 mr-1" />
+                  删除
+                </button>
               </div>
             </div>
           ))}
         </div>
-        
-        {questions.length === 0 && !loading && (
+
+        {questions.length === 0 && !loading && listLoading && (
+          <div className="flex items-center justify-center py-16 text-gray-500">
+            <Loader2 className="h-5 w-5 mr-2 animate-spin" />
+            加载错题...
+          </div>
+        )}
+
+        {questions.length === 0 && !loading && !listLoading && (
           <div className="text-center py-16">
             <div className="w-24 h-24 bg-gradient-to-br from-green-100 to-emerald-100 rounded-full flex items-center justify-center mx-auto mb-6">
               <BookOpen className="h-12 w-12 text-green-500" />
@@ -316,11 +434,15 @@ const WrongNotebook = () => {
             <p className="text-sm text-gray-400 mt-2">点击上方"录入错题"按钮添加</p>
           </div>
         )}
-        
-        {questions.length > 0 && (
+
+        {questions.length > 0 && hasMore && (
           <div className="mt-6 text-center">
-            <button className="text-primary-600 hover:text-primary-700">
-              加载更多
+            <button
+              onClick={() => loadList(true, questions.length)}
+              disabled={listLoading}
+              className="text-primary-600 hover:text-primary-700 disabled:opacity-50"
+            >
+              {listLoading ? '加载中...' : '加载更多'}
             </button>
           </div>
         )}

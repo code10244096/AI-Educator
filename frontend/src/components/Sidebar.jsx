@@ -110,6 +110,12 @@ const Sidebar = () => {
       path: '/lessonplan',
     },
     {
+      id: 'notebook',
+      label: '错题本',
+      icon: BookOpen,
+      path: '/notebook',
+    },
+    {
       id: 'myClasses',
       label: '我的班级',
       icon: Users,
