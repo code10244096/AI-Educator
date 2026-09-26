@@ -34,32 +34,54 @@ async def get_db():
             await session.close()
 
 
-async def init_db():
-    """初始化数据库（检测 schema 变更时自动重建）"""
+def _column_default_sql(column) -> str:
+    """为 ALTER TABLE ADD COLUMN 生成简单的默认值子句（仅支持标量默认值）"""
+    default = column.default
+    if default is None or not getattr(default, "is_scalar", False):
+        return ""
+    value = default.arg
+    if isinstance(value, bool):
+        return f" DEFAULT {1 if value else 0}"
+    if isinstance(value, (int, float)):
+        return f" DEFAULT {value}"
+    if isinstance(value, str):
+        escaped = value.replace("'", "''")
+        return f" DEFAULT '{escaped}'"
+    return ""
+
+
+def _migrate_add_missing_columns(connection) -> list:
+    """
+    幂等的增量迁移：对已存在的表补齐模型中新增的列（ALTER TABLE ADD COLUMN）。
+    只加列、不删列、不删表，绝不丢数据。返回新增的列名列表。
+    """
     from sqlalchemy import inspect
+
+    inspector = inspect(connection)
+    added = []
+    for table in Base.metadata.sorted_tables:
+        if not inspector.has_table(table.name):
+            continue
+        existing = {c["name"] for c in inspector.get_columns(table.name)}
+        for column in table.columns:
+            if column.name in existing:
+                continue
+            col_type = column.type.compile(dialect=connection.dialect)
+            ddl = f'ALTER TABLE "{table.name}" ADD COLUMN "{column.name}" {col_type}{_column_default_sql(column)}'
+            connection.exec_driver_sql(ddl)
+            added.append(f"{table.name}.{column.name}")
+    return added
+
+
+async def init_db():
+    """初始化数据库：创建缺失的表 + 补齐缺失的列（安全迁移，不会删除任何数据）"""
+    import models  # noqa: F401  确保所有模型已注册到 Base.metadata
 
     async with engine.begin() as conn:
         def _setup(connection):
-            inspector = inspect(connection)
-            required_columns = {
-                "homework_assignments": ["dataset_file_id", "status", "assign_date"],
-                "homework_submissions": ["student_name", "grading_status", "dataset_file_id"],
-            }
-            needs_rebuild = False
-            for table, cols in required_columns.items():
-                if inspector.has_table(table):
-                    existing = {c["name"] for c in inspector.get_columns(table)}
-                    if not all(c in existing for c in cols):
-                        needs_rebuild = True
-                        break
-                elif table == "class_members" and not inspector.has_table("class_members"):
-                    needs_rebuild = True
-
-            if not inspector.has_table("class_members"):
-                needs_rebuild = True
-
-            if needs_rebuild:
-                Base.metadata.drop_all(connection)
             Base.metadata.create_all(connection)
+            added = _migrate_add_missing_columns(connection)
+            if added:
+                print(f"[db] 已自动补齐字段: {', '.join(added)}")
 
         await conn.run_sync(_setup)

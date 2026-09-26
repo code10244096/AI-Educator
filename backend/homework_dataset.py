@@ -77,8 +77,8 @@ def get_dataset_homework(file_id: Optional[int] = None, filename: Optional[str] 
         return None
 
     if filename:
-        filepath = os.path.join(DATASET_DIR, filename)
-        if not os.path.isfile(filepath):
+        filepath = get_dataset_file_path(filename)
+        if not filepath:
             return None
         parsed = parse_homework_file(filepath)
         files = sorted(f for f in os.listdir(DATASET_DIR) if f.endswith(".md"))
@@ -98,5 +98,8 @@ def get_dataset_homework(file_id: Optional[int] = None, filename: Optional[str] 
 
 
 def get_dataset_file_path(filename: str) -> Optional[str]:
+    # 只允许数据集目录下的文件名，拒绝 ../ 等路径穿越
+    if not filename or os.path.basename(filename) != filename:
+        return None
     filepath = os.path.join(DATASET_DIR, filename)
     return filepath if os.path.isfile(filepath) else None

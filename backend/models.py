@@ -28,8 +28,10 @@ class ClassInfo(Base):
     class_name = Column(String(100), nullable=False)
     teacher_id = Column(Integer, ForeignKey("users.id"))
     total_students = Column(Integer, default=0)
+    subject = Column(String(50), default="数学")  # 任教学科
+    grade = Column(String(20), default="高三")  # 年级
     created_at = Column(DateTime(timezone=True), server_default=func.now())
-    
+
     # 关系
     homework_assignments = relationship("HomeworkAssignment", back_populates="class_info")
     members = relationship("ClassMember", back_populates="class_info")
@@ -43,6 +45,7 @@ class ClassMember(Base):
     class_id = Column(Integer, ForeignKey("classes.id"))
     name = Column(String(50), nullable=False)
     gender = Column(String(10), default="男")
+    student_no = Column(String(50))  # 学号（可选）
     order_index = Column(Integer, default=0)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     
@@ -90,8 +93,14 @@ class HomeworkSubmission(Base):
     grading_result = Column(Text)  # JSON 格式存储批改结果
     wrong_count = Column(Integer, default=0)  # 错题数量
     score = Column(Float)  # 分数
-    status = Column(String(20), default="pending")  # pending, grading, completed
-    grading_status = Column(String(20), default="待批改")  # 待批改 / 已批改 / 未提交
+    status = Column(String(20), default="pending")  # pending / processing / completed / failed
+    grading_status = Column(String(20), default="待批改")  # 待批改 / 批改中 / 已批改 / 未提交
+    progress_stage = Column(String(100))  # 后台任务进度文字：排队中 / 识别中 / 批改中 ...
+    error_message = Column(Text)  # 批改失败原因
+    subject = Column(String(50))  # 学科
+    reference_answer = Column(Text)  # 本次批改使用的参考答案
+    original_filenames = Column(Text)  # JSON：上传时的原始文件名
+    finished_at = Column(DateTime(timezone=True))  # 批改完成/失败时间
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     
     # 关系
@@ -114,6 +123,9 @@ class WrongQuestion(Base):
     is_mastered = Column(Boolean, default=False)  # 是否已掌握
     variant_questions = Column(Text)  # JSON 格式存储变式题
     image_path = Column(String(500))  # 原题图片路径
+    student_name = Column(String(50))  # 来自作业批改时的学生姓名
+    submission_id = Column(Integer)  # 来自作业批改时的提交记录 ID（重批时用于替换）
+    source = Column(String(20), default="manual")  # manual 手动录入 / grading 批改同步
     
     # 关系
     user = relationship("User", back_populates="wrong_questions")
@@ -130,6 +142,10 @@ class LessonPlan(Base):
     student_level = Column(String(50))  # 学生基础
     requirements = Column(Text)  # 额外要求
     content = Column(Text)  # 教案内容（Markdown 格式）
+    status = Column(String(20), default="completed")  # processing / completed / failed
+    progress_stage = Column(String(100))  # 后台生成进度文字
+    error_message = Column(Text)  # 生成失败原因
+    retrieved_questions_count = Column(Integer, default=0)  # RAG 检索到的题目数
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
 
