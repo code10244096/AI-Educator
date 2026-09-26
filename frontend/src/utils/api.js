@@ -93,6 +93,32 @@ export const homeworkAPI = {
     })
     return response.data
   },
+
+  // 批改记录（后台任务）
+  listSubmissions: async (params = {}) => {
+    const response = await api.get('/grader/submissions', { params })
+    return response.data
+  },
+
+  retry: async (submissionId) => {
+    const response = await api.post(`/grader/${submissionId}/retry`)
+    return response.data
+  },
+
+  deleteSubmission: async (submissionId) => {
+    const response = await api.delete(`/grader/${submissionId}`)
+    return response.data
+  },
+
+  fileUrl: (submissionId, index) => `${API_BASE_URL}/grader/${submissionId}/files/${index}`,
+}
+
+// 提取后端返回的中文错误信息
+export const getErrorMessage = (error, fallback = '操作失败，请重试') => {
+  const detail = error?.response?.data?.detail
+  if (typeof detail === 'string') return detail
+  if (Array.isArray(detail) && detail[0]?.msg) return detail[0].msg
+  return error?.message || fallback
 }
 
 // 错题本 API
@@ -120,6 +146,30 @@ export const notebookAPI = {
     const response = await api.post(`/notebook/${questionId}/mastered`)
     return response.data
   },
+
+  markUnmastered: async (questionId) => {
+    const response = await api.post(`/notebook/${questionId}/unmastered`)
+    return response.data
+  },
+
+  getStats: async (params = {}) => {
+    const response = await api.get('/notebook/stats', { params })
+    return response.data
+  },
+
+  generateVariants: async (questionId, count = 3) => {
+    const formData = new FormData()
+    formData.append('count', count)
+    const response = await api.post(`/notebook/${questionId}/variants`, formData, {
+      headers: { 'Content-Type': 'multipart/form-data' },
+    })
+    return response.data
+  },
+
+  remove: async (questionId) => {
+    const response = await api.delete(`/notebook/${questionId}`)
+    return response.data
+  },
 }
 
 // 教案生成 API
@@ -143,6 +193,28 @@ export const lessonPlanAPI = {
     const response = await api.get(`/lessonplan/${planId}`)
     return response.data
   },
+
+  list: async (params = {}) => {
+    const response = await api.get('/lessonplan/list', { params })
+    return response.data
+  },
+
+  update: async (planId, data) => {
+    const response = await api.put(`/lessonplan/${planId}`, data)
+    return response.data
+  },
+
+  remove: async (planId) => {
+    const response = await api.delete(`/lessonplan/${planId}`)
+    return response.data
+  },
+
+  regenerate: async (planId) => {
+    const response = await api.post(`/lessonplan/${planId}/regenerate`)
+    return response.data
+  },
+
+  exportUrl: (planId, format = 'md') => `${API_BASE_URL}/lessonplan/${planId}/export?format=${format}`,
 }
 
 // 班级统计 API
@@ -156,6 +228,61 @@ export const classAPI = {
     const response = await api.get('/class/stats', {
       params: classSlug ? { class_slug: classSlug } : {},
     })
+    return response.data
+  },
+
+  getDetail: async (classSlug) => {
+    const response = await api.get(`/class/${classSlug}`)
+    return response.data
+  },
+
+  create: async (data) => {
+    const response = await api.post('/class', data)
+    return response.data
+  },
+
+  update: async (classSlug, data) => {
+    const response = await api.put(`/class/${classSlug}`, data)
+    return response.data
+  },
+
+  remove: async (classSlug) => {
+    const response = await api.delete(`/class/${classSlug}`)
+    return response.data
+  },
+
+  getMembers: async (classSlug) => {
+    const response = await api.get(`/class/${classSlug}/members`)
+    return response.data
+  },
+
+  addMember: async (classSlug, data) => {
+    const response = await api.post(`/class/${classSlug}/members`, data)
+    return response.data
+  },
+
+  importMembers: async (classSlug, { text, file } = {}) => {
+    const formData = new FormData()
+    if (text) formData.append('text', text)
+    if (file) formData.append('file', file)
+    const response = await api.post(`/class/${classSlug}/members/import`, formData, {
+      headers: { 'Content-Type': 'multipart/form-data' },
+    })
+    return response.data
+  },
+
+  updateMember: async (classSlug, memberId, data) => {
+    const response = await api.put(`/class/${classSlug}/members/${memberId}`, data)
+    return response.data
+  },
+
+  removeMember: async (classSlug, memberId) => {
+    const response = await api.delete(`/class/${classSlug}/members/${memberId}`)
+    return response.data
+  },
+
+  getScoreArchive: async (classSlug) => {
+    const response = await api.get(`/class/${classSlug}/score-archive`)
     return response.data
   },
 }
@@ -196,6 +323,26 @@ export const classHomeworkAPI = {
     const response = await api.get('/tasks/all')
     return response.data
   },
+
+  createHomework: async (classSlug, data) => {
+    const response = await api.post(`/class/${classSlug}/homework`, data)
+    return response.data
+  },
+
+  updateHomework: async (classSlug, homeworkId, data) => {
+    const response = await api.put(`/class/${classSlug}/homework/${homeworkId}`, data)
+    return response.data
+  },
+
+  deleteHomework: async (classSlug, homeworkId) => {
+    const response = await api.delete(`/class/${classSlug}/homework/${homeworkId}`)
+    return response.data
+  },
+
+  getAnalysis: async (classSlug, homeworkId) => {
+    const response = await api.get(`/class/${classSlug}/homework/${homeworkId}/analysis`)
+    return response.data
+  },
 }
 
 export const questionBankAPI = {
@@ -226,6 +373,19 @@ export const questionBankAPI = {
   
   getStats: async () => {
     const response = await api.get('/questionbank/stats')
+    return response.data
+  },
+}
+
+// 模型用量统计 API
+export const usageAPI = {
+  getSummary: async (params = {}) => {
+    const response = await api.get('/usage/summary', { params })
+    return response.data
+  },
+
+  getCalls: async (params = {}) => {
+    const response = await api.get('/usage/calls', { params })
     return response.data
   },
 }
