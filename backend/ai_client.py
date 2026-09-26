@@ -1,62 +1,59 @@
-import httpx
 import base64
 import json
-from typing import Optional, List, Dict
+import mimetypes
+import re
+from typing import Any, Optional, List, Dict
 from config import settings
+from llm import LLMError, LLMGateway
+
+# 成对的 \\ 原样保留；LaTeX 命令（\frac、\times、\beta…）和非法转义（\(、\le…）的反斜杠补成 \\
+_JSON_ESCAPE_FIX = re.compile(r'(\\\\)|\\(?=[bfnrt][A-Za-z])|\\(?=u(?![0-9a-fA-F]{4}))|\\(?!["\\/bfnrtu])')
+
+
+def parse_json_response(text: str) -> Any:
+    """解析模型返回的 JSON：去掉 ``` 围栏、截取最外层 {} / []，并修复 LaTeX 反斜杠。失败抛 ValueError。"""
+    cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip())
+    starts = [i for i in (cleaned.find("{"), cleaned.find("[")) if i != -1]
+    if starts:
+        start = min(starts)
+        end = cleaned.rfind("}" if cleaned[start] == "{" else "]")
+        if end > start:
+            cleaned = cleaned[start:end + 1]
+    fixed = _JSON_ESCAPE_FIX.sub(lambda m: m.group(1) or "\\\\", cleaned)
+    try:
+        return json.loads(fixed)
+    except json.JSONDecodeError:
+        return json.loads(cleaned)
 
 
 class AIClient:
-    """统一 AI 模型调用客户端"""
-    
-    def __init__(self):
-        self.api_key = settings.AI_API_KEY
-        self.base_url = settings.AI_API_BASE_URL
-        self.ocr_model = settings.OCR_MODEL
-        self.grader_model = settings.GRADER_MODEL
-        self.lessonplan_model = settings.LESSONPLAN_MODEL
+    """统一 AI 模型调用客户端（底层走 llm.LLMGateway，每次调用自动记录用量）"""
+
+    def __init__(self, gateway: Optional[LLMGateway] = None):
+        self.gateway = gateway or LLMGateway(settings.LLM)
         # 调试模式：当 API key 未配置时使用模拟数据
-        self.is_debug_mode = not self.api_key or self.api_key == "your_api_key_here"
-    
+        self.is_debug_mode = not self.gateway.enabled
+
     async def _make_request(
         self,
         messages: List[Dict],
-        model: Optional[str] = None,
+        *,
+        feature: str,
         temperature: float = 0.7,
-        max_tokens: int = 4000
+        max_tokens: Optional[int] = None,
+        task_meta: Optional[Dict] = None,
     ) -> str:
-        """发送请求到 AI 模型"""
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json"
-        }
-        
-        payload = {
-            "model": model or self.grader_model,
-            "messages": messages,
-            "temperature": temperature,
-            "max_tokens": max_tokens
-        }
-        
-        async with httpx.AsyncClient(timeout=300.0) as client:
-            try:
-                response = await client.post(
-                    f"{self.base_url}/chat/completions",
-                    headers=headers,
-                    json=payload,
-                )
-                response.raise_for_status()
-                result = response.json()
-                return result["choices"][0]["message"]["content"]
-            except httpx.ReadTimeout as e:
-                raise Exception(f"AI 模型响应超时，请重试或减少生成内容要求")
-            except httpx.ConnectError as e:
-                raise Exception(f"无法连接到 AI 模型服务，请检查网络")
-            except httpx.HTTPStatusError as e:
-                raise Exception(f"AI 模型请求失败：{e.response.status_code} - {e.response.text[:200]}")
-            except Exception as e:
-                raise Exception(f"AI 模型调用失败：{str(e)}")
-    
-    async def ocr_image(self, image_path: str) -> str:
+        """发送请求到 AI 模型；失败抛出 LLMError"""
+        result = await self.gateway.chat(
+            messages,
+            feature=feature,
+            temperature=temperature,
+            max_tokens=max_tokens,
+            task_meta=task_meta,
+        )
+        return result.content
+
+    async def ocr_image(self, image_path: str, task_meta: Optional[Dict] = None) -> str:
         """OCR 识别图片中的文字"""
         # 调试模式：返回模拟的OCR结果
         if self.is_debug_mode:
@@ -65,6 +62,7 @@ class AIClient:
         # 读取图片并转换为 base64
         with open(image_path, "rb") as f:
             image_data = base64.b64encode(f.read()).decode()
+        mime = mimetypes.guess_type(image_path)[0] or "image/jpeg"
         
         messages = [
             {
@@ -72,19 +70,25 @@ class AIClient:
                 "content": [
                     {
                         "type": "text",
-                        "text": "请识别这张图片中的所有文字内容，包括题目、公式、学生作答等。保持原有的格式和顺序。"
+                        "text": (
+                            "请识别这张图片中的所有文字内容，包括题目、公式、学生作答等。保持原有的格式和顺序。"
+                            "数学公式用 LaTeX 表示（行内用 \\( \\)）。看不清的内容标注［无法辨认］，不要猜测或补写。"
+                            "只输出识别出的内容，不要添加任何说明或客套话。"
+                        )
                     },
                     {
                         "type": "image_url",
                         "image_url": {
-                            "url": f"data:image/jpeg;base64,{image_data}"
+                            "url": f"data:{mime};base64,{image_data}"
                         }
                     }
                 ]
             }
         ]
         
-        return await self._make_request(messages, model=self.ocr_model)
+        return await self._make_request(
+            messages, feature="ocr", temperature=0.0, task_meta=task_meta
+        )
     
     def _mock_ocr_image(self, image_path: str) -> str:
         """模拟 OCR 识别（调试模式）"""
@@ -139,7 +143,9 @@ class AIClient:
         self,
         ocr_result: str,
         reference_answer: Optional[str] = None,
-        subject: str = "数学"
+        subject: str = "数学",
+        feature: str = "grade",
+        task_meta: Optional[Dict] = None,
     ) -> Dict:
         """批改作业"""
         # 调试模式：使用模拟批改结果
@@ -171,14 +177,15 @@ class AIClient:
 """
         
         messages = [{"role": "user", "content": prompt}]
-        result = await self._make_request(messages, model=self.grader_model, temperature=0.3)
+        result = await self._make_request(
+            messages, feature=feature, temperature=0.3,
+            task_meta={"subject": subject, **(task_meta or {})},
+        )
         
         # 解析 JSON
         try:
-            # 清理可能的 markdown 标记
-            result = result.replace("```json", "").replace("```", "").strip()
-            return json.loads(result)
-        except:
+            return parse_json_response(result)
+        except ValueError:
             return {
                 "error": "批改结果解析失败",
                 "raw_result": result
@@ -291,6 +298,9 @@ class AIClient:
         count: int = 3
     ) -> List[Dict]:
         """生成变式题"""
+        if self.is_debug_mode:
+            return self._mock_variant_questions(question_text, knowledge_point, count)
+
         prompt = f"""
 请为以下题目生成{count}道变式题：
 
@@ -312,12 +322,14 @@ class AIClient:
 """
         
         messages = [{"role": "user", "content": prompt}]
-        result = await self._make_request(messages, model=self.grader_model, temperature=0.7)
+        result = await self._make_request(
+            messages, feature="variant", temperature=0.7,
+            task_meta={"knowledge_point": knowledge_point, "count": count},
+        )
         
         try:
-            result = result.replace("```json", "").replace("```", "").strip()
-            return json.loads(result)
-        except:
+            return parse_json_response(result)
+        except ValueError:
             return []
     
     async def generate_lesson_plan(
@@ -329,6 +341,9 @@ class AIClient:
         question_bank_context: str = ""
     ) -> str:
         """生成教案"""
+        if self.is_debug_mode:
+            return self._mock_lesson_plan(topic, period, student_level, requirements)
+
         question_context = ""
         if question_bank_context:
             question_context = f"""
@@ -375,7 +390,61 @@ class AIClient:
 """
         
         messages = [{"role": "user", "content": prompt}]
-        return await self._make_request(messages, model=self.lessonplan_model, temperature=0.7)
+        return await self._make_request(
+            messages, feature="lessonplan", temperature=0.7,
+            task_meta={"topic": topic, "period": period, "student_level": student_level},
+        )
+
+    def _mock_variant_questions(self, question_text: str, knowledge_point: str, count: int = 3) -> List[Dict]:
+        """模拟变式题（调试模式）"""
+        levels = ["easy", "medium", "hard"]
+        return [
+            {
+                "variant_number": i + 1,
+                "question_text": f"【模拟变式{i + 1}】围绕「{knowledge_point}」改编：{question_text[:60]}",
+                "answer": "（调试模式，无真实答案）",
+                "difficulty": levels[i % 3],
+            }
+            for i in range(count)
+        ]
+
+    def _mock_lesson_plan(self, topic: str, period: str, student_level: str, requirements: str = "") -> str:
+        """模拟教案（调试模式）"""
+        extra = f"\n> 额外要求：{requirements}\n" if requirements else ""
+        return f"""# {topic} 教案（调试模式）
+
+> 课时：{period} ｜ 学生基础：{student_level}
+{extra}
+## 一、教学目标
+1. 知识与技能：理解「{topic}」的核心概念。
+2. 过程与方法：通过实例探究归纳方法。
+3. 高考技巧：掌握常见题型的解题步骤。
+
+## 二、教学重难点
+- 重点：{topic} 的基本方法
+- 难点：综合应用与易错点辨析
+
+## 三、教学过程
+### 1. 导入
+用一个具体例子引出课题。
+
+### 2. 新授
+讲解概念并配套例题。**易错点预警**：注意定义域与条件检验。
+
+### 3. 课堂练习
+1. 基础模仿题一道
+2. 高考改编题一道
+
+### 4. 作业
+- 必做：基础题 3 道
+- 选做：提升题 1 道
+
+## 四、板书设计
+左侧概念，右侧例题。
+
+## 五、教学反思
+（此为未配置 AI Key 时的模拟内容）
+"""
 
 
 # 全局客户端实例

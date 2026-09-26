@@ -65,3 +65,6 @@ nginx/ssl/*.key
 # 其他
 *.bak
 *.backup
+
+# 模型调用日志（含学生作业内容）
+api_runs/
