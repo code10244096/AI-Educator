@@ -1,37 +1,61 @@
-import React, { useState, useEffect, useRef } from 'react'
-import { FileDown, FileText, Download } from 'lucide-react'
-import { lessonPlanAPI } from '../utils/api'
+import React, { useState, useEffect, useRef, useCallback } from 'react'
+import { useSearchParams } from 'react-router-dom'
+import {
+  FileDown, FileText, Download, History, Trash2, Edit, Save, X, RotateCcw, Loader2, Search, RefreshCw,
+} from 'lucide-react'
+import { lessonPlanAPI, getErrorMessage } from '../utils/api'
 import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
-import { useTask } from '../context/TaskContext'
+import { useTask, estimateProgress } from '../context/TaskContext'
+import { useToast } from '../components/Toast'
+import ConfirmDialog from '../components/ConfirmDialog'
 import PageBackground from '../components/PageBackground'
+import { formatServerTime } from '../utils/time'
 import 'katex/dist/katex.min.css'
 import html2pdf from 'html2pdf.js'
 
+const STATUS_BADGE = {
+  processing: { label: '生成中', cls: 'bg-blue-100 text-blue-700' },
+  completed: { label: '已完成', cls: 'bg-green-100 text-green-700' },
+  failed: { label: '失败', cls: 'bg-red-100 text-red-700' },
+}
+
 const LessonPlanGenerator = () => {
+  const [searchParams, setSearchParams] = useSearchParams()
   const [formData, setFormData] = useState({
     title: '',
     period: '1 课时',
     studentLevel: '中等',
     requirements: '',
   })
-  const [loading, setLoading] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
   const [result, setResult] = useState(null)
   const [isVisible, setIsVisible] = useState(false)
   const [elapsedTime, setElapsedTime] = useState(0)
   const [error, setError] = useState(null)
   const [currentTaskId, setCurrentTaskId] = useState(null)
   const [exporting, setExporting] = useState(false)
-  
+  const [editing, setEditing] = useState(false)
+  const [editContent, setEditContent] = useState('')
+  const [editTitle, setEditTitle] = useState('')
+  const [saving, setSaving] = useState(false)
+  const [plans, setPlans] = useState({ items: [], total: 0 })
+  const [plansLoading, setPlansLoading] = useState(false)
+  const [keyword, setKeyword] = useState('')
+  const [deleteTarget, setDeleteTarget] = useState(null)
+
   const previewRef = useRef(null)
-  
-  const { addTask, updateTask, tasks } = useTask()
-  
+  const { tasks, addTask } = useTask()
+  const { addToast } = useToast()
+
+  const currentTask = tasks.find(t => t.id === currentTaskId)
+  const loading = submitting || currentTask?.status === 'running'
+
   useEffect(() => {
     setIsVisible(true)
   }, [])
-  
+
   useEffect(() => {
     let interval
     if (loading) {
@@ -42,107 +66,179 @@ const LessonPlanGenerator = () => {
     }
     return () => clearInterval(interval)
   }, [loading])
-  
+
+  const loadPlans = useCallback((kw = keyword) => {
+    setPlansLoading(true)
+    lessonPlanAPI.list({ limit: 50, keyword: kw || undefined })
+      .then(setPlans)
+      .catch(() => {})
+      .finally(() => setPlansLoading(false))
+  }, [keyword])
+
+  useEffect(() => { loadPlans('') }, []) // eslint-disable-line react-hooks/exhaustive-deps
+
+  const openPlan = useCallback(async (planId) => {
+    try {
+      const plan = await lessonPlanAPI.getById(planId)
+      setResult(plan)
+      setEditing(false)
+      setError(plan.status === 'failed' ? (plan.error_message || '生成失败') : null)
+      setFormData({
+        title: plan.title,
+        period: plan.period || '1 课时',
+        studentLevel: plan.student_level || '中等',
+        requirements: plan.requirements || '',
+      })
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    } catch (err) {
+      addToast(getErrorMessage(err, '加载教案失败'), 'error')
+    }
+  }, [addToast])
+
+  // 支持 /lessonplan?id=xx 直接打开已保存的教案
+  const planIdParam = searchParams.get('id')
+  useEffect(() => {
+    if (planIdParam) openPlan(planIdParam)
+  }, [planIdParam, openPlan])
+
+  // 当前生成任务结束 → 拉取教案内容
+  useEffect(() => {
+    if (!currentTask || currentTask.status === 'running') return
+    if (currentTask.planId) {
+      openPlan(currentTask.planId)
+      loadPlans()
+    }
+  }, [currentTask?.status]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  // 打开的教案仍在生成中（例如从列表进入）时，定时刷新它
+  useEffect(() => {
+    if (result?.status !== 'processing') return
+    const timer = setTimeout(() => openPlan(result.id), 4000)
+    return () => clearTimeout(timer)
+  }, [result, openPlan])
+
+  // 列表中有生成中的教案时定时刷新
+  useEffect(() => {
+    if (!plans.items.some(p => p.status === 'processing')) return
+    const timer = setInterval(() => loadPlans(), 5000)
+    return () => clearInterval(timer)
+  }, [plans, loadPlans])
+
   const handleSubmit = async (e) => {
     e.preventDefault()
-    if (!formData.title) {
-      alert('请输入课题名称')
+    if (!formData.title.trim()) {
+      setError('请输入课题名称')
       return
     }
-    
-    const newTask = {
-      type: 'lessonplan',
-      title: `生成《${formData.title}》教案`,
-      period: formData.period,
-      studentLevel: formData.studentLevel,
-      requirements: formData.requirements,
-      status: 'running',
-      progress: 0,
-      progressLabel: '正在生成教案...',
-    }
-    
-    const taskId = addTask(newTask)
-    setCurrentTaskId(taskId)
-    
-    setLoading(true)
-    setElapsedTime(0)
+    setSubmitting(true)
     setError(null)
     setResult(null)
-    
+    setEditing(false)
     try {
-      const response = await lessonPlanAPI.generate(
+      const plan = await lessonPlanAPI.generate(
         formData.title,
         formData.period,
         formData.studentLevel,
         formData.requirements
       )
-      setResult(response)
-      
-      updateTask(taskId, {
-        status: 'completed',
-        progress: 100,
-        progressLabel: '生成完成',
-        result: response,
+      const taskId = addTask({
+        type: 'lessonplan',
+        title: `生成《${formData.title}》教案`,
+        period: formData.period,
+        studentLevel: formData.studentLevel,
+        requirements: formData.requirements,
+        status: 'running',
+        progress: estimateProgress(plan.progress_stage, plan.status),
+        progressLabel: plan.progress_stage || '排队中',
+        planId: plan.id,
       })
-    } catch (error) {
-      console.error('生成失败:', error)
-      setError(error.response?.data?.detail || error.message || '生成失败，请重试')
-      
-      updateTask(taskId, {
-        status: 'failed',
-        progress: 0,
-        progressLabel: '生成失败',
-        error: error.response?.data?.detail || error.message || '生成失败'
-      })
+      setCurrentTaskId(taskId)
+      setSearchParams({ id: String(plan.id) }, { replace: true })
+      loadPlans()
+      addToast('教案生成任务已提交，可离开本页，完成后自动保存', 'success')
+    } catch (err) {
+      setError(getErrorMessage(err, '生成失败，请重试'))
     } finally {
-      setLoading(false)
+      setSubmitting(false)
     }
   }
-  
-  const handleViewTask = (task) => {
-    if (task.status === 'completed' && task.result) {
-      setResult(task.result)
-      setFormData({
-        title: task.title,
-        period: task.period,
-        studentLevel: task.studentLevel,
-        requirements: task.requirements || ''
+
+  const handleRegenerate = async () => {
+    if (!result) return
+    try {
+      const plan = await lessonPlanAPI.regenerate(result.id)
+      const taskId = addTask({
+        type: 'lessonplan',
+        title: `重新生成《${plan.title}》教案`,
+        status: 'running',
+        progress: 5,
+        progressLabel: plan.progress_stage || '排队中',
+        planId: plan.id,
       })
-      window.scrollTo({ top: 0, behavior: 'smooth' })
+      setCurrentTaskId(taskId)
+      setResult(null)
+      setError(null)
+      loadPlans()
+    } catch (err) {
+      addToast(getErrorMessage(err, '重新生成失败'), 'error')
     }
   }
-  
-  useEffect(() => {
-    const handleViewTaskEvent = (e) => {
-      handleViewTask(e.detail)
+
+  const startEdit = () => {
+    setEditContent(result.content || '')
+    setEditTitle(result.title || '')
+    setEditing(true)
+  }
+
+  const handleSave = async () => {
+    setSaving(true)
+    try {
+      const plan = await lessonPlanAPI.update(result.id, { title: editTitle, content: editContent })
+      setResult(plan)
+      setEditing(false)
+      loadPlans()
+      addToast('教案已保存', 'success')
+    } catch (err) {
+      addToast(getErrorMessage(err, '保存失败'), 'error')
+    } finally {
+      setSaving(false)
     }
-    window.addEventListener('viewTask', handleViewTaskEvent)
-    return () => window.removeEventListener('viewTask', handleViewTaskEvent)
-  }, [])
-  
-  const handleExportTxt = () => {
-    const content = result.content
-    const blob = new Blob([content], { type: 'text/plain;charset=utf-8' })
-    const url = URL.createObjectURL(blob)
+  }
+
+  const handleDelete = async () => {
+    try {
+      await lessonPlanAPI.remove(deleteTarget.id)
+      if (result?.id === deleteTarget.id) {
+        setResult(null)
+        setSearchParams({}, { replace: true })
+      }
+      loadPlans()
+      addToast('教案已删除', 'success')
+    } catch (err) {
+      addToast(getErrorMessage(err, '删除失败'), 'error')
+    } finally {
+      setDeleteTarget(null)
+    }
+  }
+
+  const handleExportFile = (format) => {
     const a = document.createElement('a')
-    a.href = url
-    a.download = `${formData.title}.txt`
+    a.href = lessonPlanAPI.exportUrl(result.id, format)
     document.body.appendChild(a)
     a.click()
     document.body.removeChild(a)
-    URL.revokeObjectURL(url)
   }
-  
+
   const handleExportPdf = async () => {
     if (!previewRef.current) return
     setExporting(true)
-    
+
     try {
       const element = previewRef.current
-      
+
       // 等待 KaTeX 公式完全渲染
       await new Promise(resolve => setTimeout(resolve, 500))
-      
+
       // 创建克隆元素用于 PDF 导出
       const clone = element.cloneNode(true)
       clone.style.width = '210mm'
@@ -151,8 +247,7 @@ const LessonPlanGenerator = () => {
       clone.style.fontFamily = '"Noto Serif SC", "Source Han Serif SC", "SimSun", serif'
       clone.style.lineHeight = '1.8'
       clone.style.color = '#333'
-      
-      // 添加 KaTeX 样式
+
       const katexStyle = document.createElement('style')
       katexStyle.textContent = `
         .katex { font-size: 1.1em !important; }
@@ -168,49 +263,44 @@ const LessonPlanGenerator = () => {
         th { background-color: #f3f4f6; font-weight: 600; }
       `
       clone.insertBefore(katexStyle, clone.firstChild)
-      
-      // 添加到临时容器
+
       const tempContainer = document.createElement('div')
       tempContainer.style.position = 'absolute'
       tempContainer.style.left = '-9999px'
       tempContainer.style.top = '0'
       tempContainer.appendChild(clone)
       document.body.appendChild(tempContainer)
-      
+
       const opt = {
         margin: [0, 0, 0, 0],
-        filename: `${formData.title}.pdf`,
+        filename: `${result.title}.pdf`,
         image: { type: 'jpeg', quality: 1 },
-        html2canvas: { 
+        html2canvas: {
           scale: 3,
           useCORS: true,
           letterRendering: true,
           logging: false,
-          windowWidth: 794, // A4 width in pixels at 96 DPI
+          windowWidth: 794,
         },
-        jsPDF: { 
-          unit: 'mm', 
-          format: 'a4', 
-          orientation: 'portrait'
-        },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
         pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
       }
-      
+
       await html2pdf().set(opt).from(clone).save()
-      
-      // 清理临时容器
       document.body.removeChild(tempContainer)
     } catch (err) {
       console.error('PDF导出失败:', err)
-      alert('PDF导出失败，请重试')
+      addToast('PDF导出失败，请重试', 'error')
     } finally {
       setExporting(false)
     }
   }
-  
+
+  const stageText = currentTask?.progressLabel || '正在生成教案...'
+
   return (
     <PageBackground gradient="lessonplan">
-      <div className={`max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12 transition-all duration-1000 ${
+      <div className={`max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12 space-y-6 transition-all duration-1000 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
       }`}>
         <div className="bg-white/90 backdrop-blur-md rounded-2xl shadow-xl p-8 border border-white/20">
@@ -222,10 +312,10 @@ const LessonPlanGenerator = () => {
               <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
                 AI 教案生成
               </h2>
-              <p className="text-sm text-gray-600">一键生成，个性化定制，省时省力</p>
+              <p className="text-sm text-gray-600">一键生成，个性化定制，自动保存</p>
             </div>
           </div>
-        
+
         <form onSubmit={handleSubmit} className="space-y-4 mb-8">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -239,7 +329,7 @@ const LessonPlanGenerator = () => {
               placeholder="例如：导数的几何意义"
             />
           </div>
-          
+
           <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -255,7 +345,7 @@ const LessonPlanGenerator = () => {
                 <option value="3 课时">3 课时</option>
               </select>
             </div>
-            
+
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 学生基础
@@ -271,7 +361,7 @@ const LessonPlanGenerator = () => {
               </select>
             </div>
           </div>
-          
+
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
               额外要求
@@ -284,11 +374,11 @@ const LessonPlanGenerator = () => {
               placeholder="例如：多举例生活场景，包含真题"
             />
           </div>
-          
+
           {loading && (
             <div className="space-y-2">
               <div className="flex justify-between text-sm">
-                <span className="text-gray-600">正在生成教案...</span>
+                <span className="text-gray-600">{submitting ? '正在提交...' : stageText}</span>
                 <span className="text-primary-600 font-medium">
                   已耗时 {elapsedTime}秒
                 </span>
@@ -296,36 +386,24 @@ const LessonPlanGenerator = () => {
               <div className="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden">
                 <div
                   className="bg-gradient-to-r from-purple-500 to-pink-500 h-full rounded-full transition-all duration-500 ease-out"
-                  style={{ width: '100%' }}
+                  style={{ width: `${Math.max(currentTask?.progress || 5, 5)}%` }}
                 >
                   <div className="h-full bg-white/30 animate-pulse" style={{ width: '100%' }}></div>
                 </div>
               </div>
               <div className="text-xs text-gray-500 text-center">
-                {elapsedTime < 10 && "AI 正在分析课题，设计教学目标..."}
-                {elapsedTime >= 10 && elapsedTime < 20 && "AI 正在规划教学重难点和教学方法..."}
-                {elapsedTime >= 20 && elapsedTime < 30 && "AI 正在设计详细的教学过程..."}
-                {elapsedTime >= 30 && "AI 正在完善板书设计和教学反思..."}
+                AI 生成通常需要 30-90 秒，任务在后台进行，可离开本页，完成后会自动保存到「我的教案」
               </div>
             </div>
           )}
-          
+
           {error && (
             <div className="bg-red-50 border border-red-200 rounded-lg p-4">
-              <div className="flex items-start">
-                <div className="flex-shrink-0">
-                  <svg className="h-5 w-5 text-red-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
-                  </svg>
-                </div>
-                <div className="ml-3">
-                  <h3 className="text-sm font-medium text-red-800">生成失败</h3>
-                  <p className="mt-1 text-sm text-red-700">{error}</p>
-                </div>
-              </div>
+              <h3 className="text-sm font-medium text-red-800">生成失败</h3>
+              <p className="mt-1 text-sm text-red-700">{error}</p>
             </div>
           )}
-          
+
           <button
             type="submit"
             disabled={loading || !formData.title}
@@ -338,31 +416,106 @@ const LessonPlanGenerator = () => {
             {loading ? '正在生成...' : '生成教案'}
           </button>
         </form>
-        
-        {result && (
+
+        {result && result.status === 'processing' && !loading && (
+          <div className="flex items-center justify-center py-8 text-gray-500 text-sm">
+            <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+            《{result.title}》正在生成中：{result.progress_stage || '处理中'}
+          </div>
+        )}
+
+        {result && result.status === 'completed' && (
           <div>
-            <div className="flex justify-between items-center mb-4">
-              <h3 className="text-xl font-bold">教案预览</h3>
-              <div className="flex space-x-3">
-                <button
-                  onClick={handleExportTxt}
-                  className="flex items-center px-4 py-2 bg-blue-50 text-blue-600 rounded-lg hover:bg-blue-100 transition-colors"
-                >
-                  <FileDown className="h-4 w-4 mr-2" />
-                  导出TXT
-                </button>
-                <button
-                  onClick={handleExportPdf}
-                  disabled={exporting}
-                  className="flex items-center px-4 py-2 bg-red-50 text-red-600 rounded-lg hover:bg-red-100 transition-colors disabled:opacity-50"
-                >
-                  <Download className="h-4 w-4 mr-2" />
-                  {exporting ? '生成中...' : '导出PDF'}
-                </button>
+            <div className="flex justify-between items-center mb-4 flex-wrap gap-3">
+              <h3 className="text-xl font-bold">{editing ? '编辑教案' : '教案预览'}</h3>
+              <div className="flex flex-wrap gap-2">
+                {editing ? (
+                  <>
+                    <button
+                      onClick={handleSave}
+                      disabled={saving}
+                      className="flex items-center px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 disabled:opacity-50"
+                    >
+                      <Save className="h-4 w-4 mr-2" />
+                      {saving ? '保存中...' : '保存'}
+                    </button>
+                    <button
+                      onClick={() => setEditing(false)}
+                      className="flex items-center px-4 py-2 bg-gray-100 text-gray-600 rounded-lg hover:bg-gray-200"
+                    >
+                      <X className="h-4 w-4 mr-2" />
+                      取消
+                    </button>
+                  </>
+                ) : (
+                  <>
+                    <button
+                      onClick={startEdit}
+                      className="flex items-center px-3 py-2 bg-purple-50 text-purple-600 rounded-lg hover:bg-purple-100 transition-colors"
+                    >
+                      <Edit className="h-4 w-4 mr-1.5" />
+                      编辑
+                    </button>
+                    <button
+                      onClick={handleRegenerate}
+                      className="flex items-center px-3 py-2 bg-gray-50 text-gray-600 rounded-lg hover:bg-gray-100 transition-colors"
+                    >
+                      <RotateCcw className="h-4 w-4 mr-1.5" />
+                      重新生成
+                    </button>
+                    <button
+                      onClick={() => handleExportFile('docx')}
+                      className="flex items-center px-3 py-2 bg-blue-50 text-blue-600 rounded-lg hover:bg-blue-100 transition-colors"
+                    >
+                      <FileDown className="h-4 w-4 mr-1.5" />
+                      Word
+                    </button>
+                    <button
+                      onClick={() => handleExportFile('md')}
+                      className="flex items-center px-3 py-2 bg-blue-50 text-blue-600 rounded-lg hover:bg-blue-100 transition-colors"
+                    >
+                      <FileDown className="h-4 w-4 mr-1.5" />
+                      Markdown
+                    </button>
+                    <button
+                      onClick={() => handleExportFile('txt')}
+                      className="flex items-center px-3 py-2 bg-blue-50 text-blue-600 rounded-lg hover:bg-blue-100 transition-colors"
+                    >
+                      <FileDown className="h-4 w-4 mr-1.5" />
+                      TXT
+                    </button>
+                    <button
+                      onClick={handleExportPdf}
+                      disabled={exporting}
+                      className="flex items-center px-3 py-2 bg-red-50 text-red-600 rounded-lg hover:bg-red-100 transition-colors disabled:opacity-50"
+                    >
+                      <Download className="h-4 w-4 mr-1.5" />
+                      {exporting ? '生成中...' : 'PDF'}
+                    </button>
+                  </>
+                )}
               </div>
             </div>
-            
-            <div 
+
+            {editing ? (
+              <div className="space-y-3">
+                <input
+                  type="text"
+                  value={editTitle}
+                  onChange={(e) => setEditTitle(e.target.value)}
+                  className="w-full border border-gray-300 rounded-lg px-4 py-2"
+                  placeholder="课题名称"
+                />
+                <textarea
+                  value={editContent}
+                  onChange={(e) => setEditContent(e.target.value)}
+                  className="w-full border border-gray-300 rounded-lg px-4 py-3 font-mono text-sm"
+                  rows={24}
+                />
+                <p className="text-xs text-gray-400">支持 Markdown 与 $公式$ 语法</p>
+              </div>
+            ) : (
+            <div
               ref={previewRef}
               className="border rounded-lg p-6 bg-white lesson-plan-content"
               style={{
@@ -439,10 +592,86 @@ const LessonPlanGenerator = () => {
                 {result.content}
               </ReactMarkdown>
             </div>
+            )}
           </div>
         )}
         </div>
+
+        <div className="bg-white/90 backdrop-blur-md rounded-2xl shadow-xl border border-white/20">
+          <div className="p-5 border-b border-gray-100 flex items-center justify-between flex-wrap gap-3">
+            <div className="flex items-center space-x-2">
+              <History className="h-5 w-5 text-purple-500" />
+              <h3 className="text-lg font-semibold text-gray-900">我的教案</h3>
+              <span className="text-sm text-gray-400">共 {plans.total} 份</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="relative">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
+                <input
+                  type="text"
+                  value={keyword}
+                  onChange={(e) => setKeyword(e.target.value)}
+                  onKeyDown={(e) => { if (e.key === 'Enter') loadPlans(keyword) }}
+                  placeholder="搜索课题，回车"
+                  className="pl-9 pr-3 py-1.5 border border-gray-300 rounded-lg text-sm"
+                />
+              </div>
+              <button onClick={() => loadPlans(keyword)} className="p-2 text-gray-400 hover:text-purple-600 rounded-lg" title="刷新">
+                <RefreshCw className={`h-4 w-4 ${plansLoading ? 'animate-spin' : ''}`} />
+              </button>
+            </div>
+          </div>
+          {plans.items.length === 0 ? (
+            <p className="p-8 text-center text-sm text-gray-400">还没有保存的教案</p>
+          ) : (
+            <div className="divide-y divide-gray-100">
+              {plans.items.map(plan => {
+                const badge = STATUS_BADGE[plan.status] || STATUS_BADGE.completed
+                const active = result?.id === plan.id
+                return (
+                  <div
+                    key={plan.id}
+                    className={`px-5 py-3 flex items-center justify-between gap-3 cursor-pointer hover:bg-purple-50/50 ${active ? 'bg-purple-50' : ''}`}
+                    onClick={() => setSearchParams({ id: String(plan.id) })}
+                  >
+                    <div className="min-w-0">
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <span className="text-sm font-medium text-gray-900">{plan.title}</span>
+                        <span className={`px-2 py-0.5 text-xs rounded-full ${badge.cls}`}>{badge.label}</span>
+                        {plan.status === 'processing' && <Loader2 className="h-3 w-3 animate-spin text-blue-500" />}
+                      </div>
+                      <p className="text-xs text-gray-400 mt-0.5 truncate">
+                        {formatServerTime(plan.created_at)}
+                        {' · '}{plan.period} · {plan.student_level}
+                        {plan.status === 'failed' ? ` · ${plan.error_message || ''}` : plan.preview ? ` · ${plan.preview}` : ''}
+                      </p>
+                    </div>
+                    {plan.status !== 'processing' && (
+                      <button
+                        onClick={(e) => { e.stopPropagation(); setDeleteTarget(plan) }}
+                        className="p-2 text-gray-400 hover:text-red-600 rounded-lg shrink-0"
+                        title="删除"
+                      >
+                        <Trash2 className="h-4 w-4" />
+                      </button>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
+          )}
+        </div>
       </div>
+
+      <ConfirmDialog
+        isOpen={!!deleteTarget}
+        title="删除教案"
+        message={`确定删除《${deleteTarget?.title || ''}》吗？删除后无法恢复。`}
+        onConfirm={handleDelete}
+        onCancel={() => setDeleteTarget(null)}
+        confirmText="确认删除"
+        cancelText="再想想"
+      />
     </PageBackground>
   )
 }
