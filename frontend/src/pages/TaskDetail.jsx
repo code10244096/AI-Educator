@@ -1,24 +1,60 @@
 import React, { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import { ArrowLeft, FileCheck, Award, Target, AlertCircle, TrendingUp, BookOpen, XCircle, CheckCircle } from 'lucide-react'
+import { ArrowLeft, FileCheck, Award, Target, AlertCircle, TrendingUp, BookOpen, XCircle, CheckCircle, Loader2, FileText, Paperclip } from 'lucide-react'
 import { useTask } from '../context/TaskContext'
+import { homeworkAPI, getErrorMessage } from '../utils/api'
 import html2pdf from 'html2pdf.js'
+import { formatServerTime } from '../utils/time'
 
 const TaskDetail = () => {
   const { taskId } = useParams()
   const navigate = useNavigate()
   const { tasks, removeTask } = useTask()
-  const [task, setTask] = useState(null)
+  const [localTask, setLocalTask] = useState(null)
+  const [serverResult, setServerResult] = useState(null)
+  const [loadingServer, setLoadingServer] = useState(false)
+  const [serverError, setServerError] = useState(null)
   const [exporting, setExporting] = useState(false)
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false)
 
   useEffect(() => {
     const found = tasks.find(t => String(t.id) === String(taskId))
-    setTask(found)
+    setLocalTask(found || null)
   }, [tasks, taskId])
 
+  // 批改结果以服务端为准：/tasks/sub-<id> 或带 submissionId 的本地任务
+  const submissionId = String(taskId).startsWith('sub-') ? String(taskId).slice(4) : localTask?.submissionId
+  const localStatus = localTask?.status
+
+  useEffect(() => {
+    if (!submissionId) return
+    setLoadingServer(true)
+    setServerError(null)
+    homeworkAPI.getResult(submissionId)
+      .then(setServerResult)
+      .catch(err => setServerError(getErrorMessage(err, '加载批改结果失败')))
+      .finally(() => setLoadingServer(false))
+  }, [submissionId, localStatus])
+
+  // 教案任务跳转到教案页查看
+  useEffect(() => {
+    if (localTask?.type === 'lessonplan' && localTask.planId) {
+      navigate(`/lessonplan?id=${localTask.planId}`, { replace: true })
+    }
+  }, [localTask, navigate])
+
+  const task = localTask || (serverResult ? {
+    id: taskId,
+    type: 'grader',
+    title: serverResult.student_name
+      ? `作业批改 - ${serverResult.student_name}${serverResult.assignment_title ? `《${serverResult.assignment_title}》` : ''}`
+      : `作业批改 #${serverResult.id}`,
+    createdAt: serverResult.created_at,
+    files: serverResult.file_names,
+  } : null)
+
   const handleExportPDF = async () => {
-    if (!task?.result) return
+    if (!gradingResult) return
     setExporting(true)
     
     const element = document.getElementById('grading-result-detail')
@@ -39,8 +75,18 @@ const TaskDetail = () => {
     }
   }
 
-  const handleDelete = () => {
-    removeTask(taskId)
+  const handleDelete = async () => {
+    if (localTask) {
+      removeTask(localTask.id)
+    } else if (submissionId) {
+      try {
+        await homeworkAPI.deleteSubmission(submissionId)
+      } catch (err) {
+        setServerError(getErrorMessage(err, '删除失败'))
+        setShowDeleteConfirm(false)
+        return
+      }
+    }
     navigate('/tasks')
   }
 
@@ -116,6 +162,15 @@ const TaskDetail = () => {
     return { level: '薄弱', color: 'text-red-600', bg: 'bg-red-100', desc: '重点关注，多加练习' }
   }
 
+  if (!task && (loadingServer || (submissionId && !serverError))) {
+    return (
+      <div className="p-6 flex items-center justify-center py-16 text-gray-500">
+        <Loader2 className="h-5 w-5 mr-2 animate-spin" />
+        加载批改结果...
+      </div>
+    )
+  }
+
   if (!task) {
     return (
       <div className="p-6">
@@ -135,9 +190,11 @@ const TaskDetail = () => {
     )
   }
 
-  const result = task.result
-  const gradingResult = result?.grading_result
+  const result = serverResult || task.result
+  const rawGrading = result?.grading_result
+  const gradingResult = rawGrading && Array.isArray(rawGrading.questions) ? rawGrading : null
   const knowledgePoints = gradingResult?.questions ? analyzeKnowledgePoints(gradingResult.questions) : {}
+  const jobStatus = serverResult?.status
 
   return (
     <div className="p-6">
@@ -176,7 +233,7 @@ const TaskDetail = () => {
             <div>
               <h1 className="text-xl font-bold text-gray-900">{task.title}</h1>
               <p className="text-sm text-gray-500">
-                {task.createdAt ? new Date(task.createdAt).toLocaleString('zh-CN') : ''}
+                {formatServerTime(task.createdAt)}
                 {task.files && ` | ${task.files.length} 个文件`}
               </p>
             </div>
@@ -336,8 +393,54 @@ const TaskDetail = () => {
 
         {!gradingResult && (
           <div className="bg-white rounded-xl border border-gray-200 p-12 text-center">
-            <AlertCircle className="h-12 w-12 text-gray-300 mx-auto mb-4" />
-            <p className="text-gray-500">暂无批改结果</p>
+            {jobStatus === 'processing' || (!serverResult && task.status === 'running') ? (
+              <>
+                <Loader2 className="h-12 w-12 text-blue-400 mx-auto mb-4 animate-spin" />
+                <p className="text-gray-600">正在批改：{serverResult?.progress_stage || task.progressLabel || '处理中'}</p>
+                <p className="text-xs text-gray-400 mt-2">完成后本页会自动刷新</p>
+              </>
+            ) : jobStatus === 'failed' || task.status === 'failed' ? (
+              <>
+                <XCircle className="h-12 w-12 text-red-300 mx-auto mb-4" />
+                <p className="text-red-600">批改失败：{serverResult?.error_message || task.error || '未知原因'}</p>
+                <p className="text-xs text-gray-400 mt-2">可在「作业批改」页的批改记录中重新批改</p>
+              </>
+            ) : (
+              <>
+                <AlertCircle className="h-12 w-12 text-gray-300 mx-auto mb-4" />
+                <p className="text-gray-500">{serverError || '暂无批改结果'}</p>
+              </>
+            )}
+          </div>
+        )}
+
+        {serverResult && (serverResult.ocr_result || serverResult.file_names?.length > 0) && (
+          <div className="bg-white rounded-xl border border-gray-200 p-6 mt-6">
+            <div className="flex items-center space-x-2 mb-4">
+              <FileText className="h-5 w-5 text-gray-500" />
+              <h2 className="text-lg font-bold text-gray-900">原作业内容</h2>
+            </div>
+            {serverResult.file_names?.length > 0 && (
+              <div className="flex flex-wrap gap-2 mb-4">
+                {serverResult.file_names.map((name, idx) => (
+                  <a
+                    key={idx}
+                    href={homeworkAPI.fileUrl(serverResult.id, idx)}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center px-3 py-1.5 bg-gray-50 border border-gray-200 rounded-lg text-xs text-blue-600 hover:bg-blue-50"
+                  >
+                    <Paperclip className="h-3 w-3 mr-1" />
+                    {name}
+                  </a>
+                ))}
+              </div>
+            )}
+            {serverResult.ocr_result && (
+              <pre className="whitespace-pre-wrap text-sm text-gray-700 bg-gray-50 rounded-xl p-4 border border-gray-100 max-h-96 overflow-y-auto">
+                {serverResult.ocr_result}
+              </pre>
+            )}
           </div>
         )}
 

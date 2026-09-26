@@ -36,7 +36,7 @@ const MyTasks = () => {
     fetchAllGradingTasks()
       .then(setHomeworkGradingTasks)
       .catch(() => setHomeworkGradingTasks([]))
-  }, [classes, tasks])
+  }, [classes, tasks.length, tasks.filter(t => t.status === 'running').length])
 
   const allTasks = useMemo(() => {
     const merged = [...homeworkGradingTasks, ...tasks]
@@ -129,8 +129,10 @@ const MyTasks = () => {
   const handleViewTask = (task) => {
     if (task.type === 'homework-grading') {
       navigate(`/class/${task.classId}/homework/${task.homeworkId}`)
-    } else if (task.type === 'grader' && task.result) {
+    } else if (task.type === 'grader' && (task.submissionId || task.result)) {
       navigate(`/tasks/${task.id}`)
+    } else if (task.type === 'lessonplan' && task.planId) {
+      navigate(`/lessonplan?id=${task.planId}`)
     } else if (task.type === 'lessonplan' && task.result) {
       navigate(`/tasks/${task.id}`)
     } else {
@@ -249,7 +251,7 @@ const MyTasks = () => {
                 </div>
               </div>
               <div className="flex items-center space-x-2">
-                {(task.status === 'completed' || task.status === 'running' || task.type === 'homework-grading') && (
+                {(task.status === 'completed' || task.status === 'running' || task.status === 'failed' || task.type === 'homework-grading') && (
                   <button
                     onClick={() => handleViewTask(task)}
                     className="p-2 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded-xl transition-colors"
