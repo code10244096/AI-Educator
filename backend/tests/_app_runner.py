@@ -19,6 +19,7 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
 sys.path.insert(0, str(HERE))
 os.environ.setdefault("LLM_API_KEY", "your_api_key_here")
+os.environ.setdefault("SEED_DEMO_DATA", "true")
 logging.disable(logging.CRITICAL)
 
 

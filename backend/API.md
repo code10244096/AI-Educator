@@ -46,6 +46,17 @@ python manage.py assign-orphans --username 13800000001    # 把无归属的历�
 - 环境变量覆盖：`DATABASE_URL`、`UPLOAD_DIR`、`API_OUTPUT_ROOT`、`LLM_API_KEY`、`JWT_SECRET`、`SESSION_EXPIRE_MINUTES`、`COOKIE_SECURE`、`BCRYPT_ROUNDS`（相对路径的 SQLite 库按 `backend/` 目录解析）。
 - 启动（FastAPI lifespan）：`create_all` + 幂等增量迁移（仅 `ALTER TABLE ADD COLUMN` / 新建索引，绝不删表/删数据）→ 静态演示数据播种（库中已有用户或班级时跳过；不调用 AI）→ 归属补齐（作业没有 `teacher_id` 时取班级的、提交没有时取作业的；只填空值）→ 把上次中断仍为 `processing` 的任务标记为 `failed`。
 
+## 生产环境与配置（R1-003）
+
+- 配置来源优先级：环境变量 > `config.json`（可选，镜像内不含）> 默认值。生产部署只用环境变量（`.env`，见仓库根目录 `.env.example` 与 `DEPLOY_2GB.md`）。
+- 主要环境变量：`APP_ENV`（`development`/`production`）、`JWT_SECRET`、`SESSION_EXPIRE_MINUTES`、`LLM_API_KEY`、`LLM_BASE_URL`、`LLM_MODEL` / `LLM_MODEL_OCR|GRADE|VARIANT|LESSONPLAN`、`LLM_FALLBACK_<功能>`（逗号分隔）、`LLM_LOG_REQUEST_CONTENT`、`CORS_ORIGINS`（逗号分隔）、`DATABASE_URL`、`UPLOAD_DIR`、`API_OUTPUT_ROOT`、`GRADING_CONCURRENCY`、`DAILY_GRADING_QUOTA`、`MOCK_LLM_DELAY_SECONDS`、`SEED_DEMO_DATA`、`SQL_ECHO`、`COOKIE_SECURE`、`MAX_FILES_PER_SUBMISSION`。
+- `APP_ENV=production` 时：
+  - 启动前检查，不通过则**拒绝启动**并打印原因：未设置 `JWT_SECRET`（或是示例值 / 短于 32 位）→“生产环境必须设置 JWT_SECRET…”；`LLM_API_KEY` 为空或占位值（`your_api_key_here`、`sk-xxxx` 等）→“生产环境必须配置有效的 LLM_API_KEY（生产禁止模拟模式…）”。
+  - 关闭 `/docs`、`/redoc`、`/openapi.json`（404）；`DEBUG=false`；不打印 SQL；会话 Cookie 带 `Secure`；不播种演示数据。
+  - CORS 只放行 `CORS_ORIGINS` 中的域名；未设置时不放行任何跨域请求（前后端经 nginx 同域访问不需要跨域）。
+- 启动日志第一行打印实际使用的数据库路径及来源；未显式设置 `DATABASE_URL` 时额外打印醒目警告。`manage.py` 同样在 stderr 打印所用数据库。
+- `GET /` 只返回 `{"name","status"}`（不再暴露版本号）。
+
 ## 后台任务模式（作业批改 / 教案生成）
 
 真实模型单次 20–60 秒，多图可达数分钟，因此：
@@ -62,6 +73,8 @@ python manage.py assign-orphans --username 13800000001    # 把无归属的历�
 
 ### 上传文件规则
 - 允许扩展名：`png jpg jpeg gif bmp webp pdf docx txt md`，否则 `400`。
+- 扩展名 + 文件头双重校验：内容与扩展名不符（如 `.exe` 改名 `.jpg`、伪造的 PDF、二进制文件冒充 `.txt`）→ `400 {"detail": "文件内容与格式不符"}`，不会送进模型。
+- 一份作业（一次上传请求）最多 10 个文件（`MAX_FILES_PER_SUBMISSION`），超出 → `400`“一份作业最多上传 10 个文件…”；批量上传请按学生拆成多个请求。
 - 单文件不超过 `settings.MAX_FILE_SIZE`（默认 10MB），否则 `413`；空文件 `400`。
 - 存储名为 `uuid4().hex + 扩展名`（原始文件名仅用于展示，存于 `original_filenames`），不存在路径穿越。
 - PDF：优先 PyMuPDF（文字层 + 扫描页渲染后 OCR），其次 pypdf（仅文字层）；两者都未安装时该文件解析失败（提示转为图片）。
@@ -235,7 +248,7 @@ StudentRow：`id(序号), member_id, submission_id, name, submitStatus(已提交
 （修复：`/questionbank/stats` 之前被 `/{question_id}` 抢先匹配返回 422，现已调整顺序。）
 
 ## 用量统计 `usage_api.py`（仅管理员）
-`GET /usage/summary`、`GET /usage/calls`，需 `role=admin`，教师 403。见 `usage_api.py`。
+`GET /usage/summary`、`GET /usage/calls`，需 `role=admin`，教师 403。响应不包含服务器上的日志目录路径（原 `log_root` 字段已移除）。见 `usage_api.py`。
 
 ## 其他
 `GET /` → `{"name","version","status"}`；`GET /health` → `{"status":"healthy"}`（无 `/api` 前缀）。

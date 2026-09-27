@@ -271,7 +271,8 @@ async def test_app_grading_writes_usage_record(client, real_gateway_app, make_te
     assert s.status_code == 200
     body = s.json()
     assert body["overview"]["calls"] >= 1
-    assert Path(body["log_root"]).resolve() == TEST_API_RUNS.resolve()
+    assert "log_root" not in body, "用量接口不应返回服务器上的日志路径（R1-003）"
+    assert str(TEST_API_RUNS) not in s.text and TEST_API_RUNS.as_posix() not in s.text
     calls = (await admin.get("/api/usage/calls", params={"feature": "grade", "limit": 5})).json()
     assert calls["total"] >= 1
     assert "request" not in calls["items"][0], "usage API must not leak prompts"

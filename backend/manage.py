@@ -294,6 +294,8 @@ def main(argv: Optional[List[str]] = None) -> int:
     p.add_argument("--username", required=True)
 
     args = parser.parse_args(argv)
+    shown = settings.DATABASE_URL.split("///", 1)[-1]
+    print(f"[manage] 数据库：{shown}（来源：{settings.DATABASE_URL_SOURCE}）", file=sys.stderr)
     try:
         if args.command == "create-user":
             user_id, password = create_user(

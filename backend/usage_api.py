@@ -28,7 +28,7 @@ def _summary(since, until, source, feature):
     records = usage_stats.load_call_records(root, since=since, until=until, source=source, feature=feature)
     result = usage_stats.summarize(records)
     result["generated_at"] = datetime.now().astimezone().isoformat(timespec="seconds")
-    result["log_root"] = root
+    # 不返回服务器上的日志绝对路径
     result["filters"] = {"since": since, "until": until, "source": source, "feature": feature}
     return result
 

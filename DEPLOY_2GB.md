@@ -1,427 +1,213 @@
-# 🚀 2GB 内存服务器部署指南
+# AI 教学助手 部署指南（2 核 2GB Linux 云服务器）
 
-## 服务器配置
+> 适用：单所学校、≤20 名教师（SQLite + 每日备份）。一条命令 `docker compose up -d --build` 启动；对公网只开放 80/443，后端端口不对外。
+> 本文与 `docker-compose.yml`、`.env.example`、`scripts/backup.sh`、`scripts/restore.sh` 保持一致，改动其中任何一个请同步更新本文。
 
-- **CPU**: 2 核 ✅
-- **内存**: 2GB ⚠️（需要优化）
-- **硬盘**: 50GB SSD ✅
-- **地域**: 新加坡 ✅（无需备案）
-- **系统**: OpenClaw (Clawbot) - 应该是 Linux 系统
+## 目录
+
+1. 准备服务器
+2. 获取代码
+3. 配置 `.env`（密钥只放这里）
+4. 启动服务
+5. 开通账号（管理员 / 教师）
+6. 启用 HTTPS（正式给老师使用前必须完成）
+7. 每日备份与恢复
+8. 升级
+9. 日常运维与常见问题
 
 ---
 
-## 优化后的部署方案
+## 1. 准备服务器
 
-由于内存只有 2GB，我们做了以下优化：
-
-### ✅ 已优化的配置
-
-1. **移除了独立的 Nginx 容器** - 使用前端内置的 Nginx
-2. **简化了 Docker 网络** - 减少内存占用
-3. **优化了数据卷映射** - 简化目录结构
-
-### 📦 部署步骤
-
-#### 1️⃣ SSH 登录服务器
+- 系统：Ubuntu 22.04 / Debian 12 等常见 Linux 发行版
+- 配置：2 核 CPU、2GB 内存、≥40GB 磁盘
+- 安全组 / 防火墙：**只放行 22（SSH）、80、443**
 
 ```bash
-ssh root@你的服务器 IP
+# 安装 Docker（含 docker compose 插件）
+curl -fsSL https://get.docker.com | sh
+docker --version && docker compose version
+
+# 2GB 内存建议加 2GB Swap，防止高峰期 OOM
+fallocate -l 2G /swapfile && chmod 600 /swapfile && mkswap /swapfile && swapon /swapfile
+echo '/swapfile none swap sw 0 0' >> /etc/fstab
 ```
 
-#### 2️⃣ 检查系统信息
+## 2. 获取代码
 
 ```bash
-# 查看系统版本
-cat /etc/os-release
-
-# 查看内存
-free -h
-
-# 查看磁盘
-df -h
-```
-
-#### 3️⃣ 安装 Docker
-
-```bash
-# 更新系统
-apt update && apt upgrade -y
-
-# 安装 Docker（使用官方脚本）
-curl -fsSL https://get.docker.com -o get-docker.sh
-sh get-docker.sh
-rm get-docker.sh
-
-# 验证安装
-docker --version
-docker-compose --version
-```
-
-#### 4️⃣ 上传代码
-
-**方法 A：使用 Git（推荐）**
-
-```bash
-# 安装 Git
-apt install git -y
-
-# 克隆代码
+apt install -y git sqlite3        # sqlite3 用于在线备份（没有也可以，备份脚本会改用 python3）
 cd /opt
-git clone <你的仓库地址> ai-teaching
+git clone <仓库地址> ai-teaching
 cd ai-teaching
 ```
 
-**方法 B：使用 SCP 上传**
+以下命令都在部署目录 `/opt/ai-teaching`（`docker-compose.yml` 所在目录）执行。
 
-在本地电脑执行：
-```powershell
-scp -r e:\AI-Educator root@你的服务器 IP:/opt/ai-teaching
-```
-
-#### 5️⃣ 配置应用
+## 3. 配置 `.env`
 
 ```bash
-cd /opt/ai-teaching
-
-# 创建数据目录
-mkdir -p uploads data
-
-# 复制生产配置
-cp backend/config.production.json backend/config.json
-
-# 编辑配置
-nano backend/config.json
+cp .env.example .env
+chmod 600 .env
+openssl rand -hex 32              # 生成一段随机字符串，填到 JWT_SECRET
+vi .env
 ```
 
-**必须修改的配置项**：
-```json
-{
-  "app": {
-    "debug": false  // 生产环境必须关闭 debug
-  },
-  "api": {
-    "cors_origins": [
-      "http://你的服务器 IP"  // 改为你的服务器 IP
-    ]
-  },
-  "jwt": {
-    "secret_key": "生成一个随机字符串"  // 必须修改
-  }
-}
-```
+必须填写的配置项：
 
-生成随机字符串的方法：
-```bash
-# 生成随机字符串
-openssl rand -hex 32
-```
+| 配置项 | 说明 |
+|---|---|
+| `JWT_SECRET` | 会话签名密钥，**至少 32 位随机字符串**。未设置或仍是示例值时后端拒绝启动（日志提示“生产环境必须设置 JWT_SECRET”） |
+| `LLM_API_KEY` | 大模型网关的 API Key。生产禁止模拟模式：没有有效 Key 时后端拒绝启动 |
+| `CORS_ORIGINS` | 部署域名，如 `https://ai.your-school.cn`（逗号分隔）。前后端经 nginx 同域访问时可留空 |
 
-#### 6️⃣ 启动服务
+可选配置项（有默认值）：
+
+| 配置项 | 默认 | 说明 |
+|---|---|---|
+| `LLM_BASE_URL` | `https://yibuapi.com/v1` | OpenAI 兼容接口地址 |
+| `LLM_MODEL_OCR` / `_GRADE` / `_VARIANT` / `_LESSONPLAN` | 见 `.env.example` | 分功能模型 |
+| `SESSION_EXPIRE_MINUTES` | `10080`（7 天） | 登录有效期 |
+| `GRADING_CONCURRENCY` | `4` | 全局同时批改的份数（2GB 服务器不建议调高） |
+| `DAILY_GRADING_QUOTA` | `300` | 每位老师每天最多提交的批改份数 |
+| `LLM_LOG_REQUEST_CONTENT` | `true` | 模型调用日志是否记录原文（含学生作业内容），隐私要求高时设为 `false` |
+
+以下由 `docker-compose.yml` 固定，**不要**在 `.env` 里改：`APP_ENV`（固定为 `production`）、`SEED_DEMO_DATA`（固定为 `false`）、`DATABASE_URL`、`UPLOAD_DIR`、`API_OUTPUT_ROOT`。
+
+> `.env` 含密钥，已被 `.gitignore` 和 `.dockerignore` 排除，不会进 git 仓库，也不会打进镜像。请另外妥善保存一份。
+
+生产环境的其他安全设置（自动生效）：关闭 `/docs`、`/redoc`、`/openapi.json`；不打印 SQL；跨域只放行 `CORS_ORIGINS`；会话 Cookie 带 `Secure`（因此必须用 HTTPS 访问才能登录，见第 6 节）；不播种任何演示数据。
+
+## 4. 启动服务
 
 ```bash
-cd /opt/ai-teaching
-
-# 启动 Docker 服务
-docker-compose up -d
-
-# 查看启动日志
-docker-compose logs -f
+mkdir -p data uploads logs nginx/ssl backups
+docker compose up -d --build
+docker compose ps                  # 两个容器都应为 running (healthy)
+docker compose logs -f backend     # 看到 Application startup complete 即正常
+curl -s http://127.0.0.1/health    # {"status":"healthy"}
 ```
 
-按 `Ctrl+C` 退出日志查看。
+数据位置（都在宿主机上，重建容器不会丢）：
 
-#### 7️⃣ 检查服务状态
+| 宿主机目录 | 内容 |
+|---|---|
+| `./data/teaching_assistant.db` | 数据库 |
+| `./uploads/` | 学生作业照片等原始文件 |
+| `./logs/` | 模型调用记录（`logs/api_runs/`）、备份日志 |
+
+后端容器只在 docker 内部网络暴露 8000 端口，宿主机上 `ss -lnt` 只能看到 80/443（和 22）。
+
+## 5. 开通账号
+
+不开放注册，所有账号由管理员在服务器上用命令开通：
 
 ```bash
-# 查看容器状态
-docker-compose ps
+# 管理员账号（可以查看“用量统计”）
+docker compose exec backend python manage.py create-user --username 13800000000 --name 信息中心张老师 --role admin
 
-# 查看内存使用
-docker stats --no-stream
+# 教师账号（账号用手机号或工号）
+docker compose exec backend python manage.py create-user --username 13800000001 --name 王老师 --school 某某中学
 ```
 
-#### 8️⃣ 访问应用
+命令会打印一行 `初始密码: xxxxxxxxxx`，**只显示这一次**，请当面交给老师。老师首次登录后必须设置自己的新密码（≥8 位，同时包含字母和数字）。
 
-在浏览器打开：
-```
-http://你的服务器 IP
-```
-
----
-
-## 内存优化建议
-
-### 1. 添加 Swap 交换空间（重要！）
-
-2GB 内存建议添加 2GB Swap：
+其他账号命令：
 
 ```bash
-# 创建 Swap 文件
-dd if=/dev/zero of=/swapfile bs=1M count=2048
-
-# 设置权限
-chmod 600 /swapfile
-
-# 格式化为 Swap
-mkswap /swapfile
-
-# 启用 Swap
-swapon /swapfile
-
-# 永久生效
-echo '/swapfile none swap sw 0 0' >> /etc/fstab
-
-# 验证
-free -h
+docker compose exec backend python manage.py list-users                               # 查看所有账号
+docker compose exec backend python manage.py reset-password --username 13800000001    # 老师忘记密码：重置（打印新初始密码）
+docker compose exec backend python manage.py disable-user --username 13800000001      # 老师离职：停用（数据保留）
+docker compose exec backend python manage.py enable-user --username 13800000001       # 恢复
 ```
 
-### 2. 限制 Docker 内存使用
-
-创建或修改 `/etc/docker/daemon.json`：
+**从旧版本升级、库里已有历史数据时**：旧数据没有归属教师，开通账号后执行一次（幂等，重复执行不会改动已有归属，不删任何数据）：
 
 ```bash
-nano /etc/docker/daemon.json
+docker compose exec backend python manage.py assign-orphans --username 13800000001
 ```
 
-添加：
-```json
-{
-  "default-shm-size": "128m"
-}
-```
+登录失败 10 次（5 分钟内）会锁定该账号 15 分钟；急用时可以 `docker compose restart backend` 解除。
 
-重启 Docker：
-```bash
-systemctl restart docker
-```
+## 6. 启用 HTTPS（必须）
 
-### 3. 关闭不必要的服务
+会话 Cookie 带 `Secure`，浏览器只会在 HTTPS 下发送——用 `http://` 访问时登录不上，这是预期行为。
 
-```bash
-# 查看运行的服务
-systemctl list-units --type=service --state=running
+1. 准备证书（任选其一）：
+   - 有域名：云厂商免费证书，或 Let's Encrypt（`certbot certonly --standalone -d ai.your-school.cn`，申请前先 `docker compose stop frontend`）。
+   - 暂时没有域名、仅内测：自签证书
+     `openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout nginx/ssl/privkey.pem -out nginx/ssl/fullchain.pem -subj "/CN=ai-teaching"`
+2. 把证书放到 `nginx/ssl/fullchain.pem` 与 `nginx/ssl/privkey.pem`。
+3. `cp frontend/nginx-https.conf.example nginx/https.conf`，把其中两处 `server_name` 改成你的域名。该样例已包含 `listen 443 ssl`、HTTP→HTTPS 跳转、HSTS 与安全响应头、`client_max_body_size 100m`、`/api` 300 秒超时。
+4. 编辑 `docker-compose.yml`，取消 frontend 下这一行的注释：
+   `- ./nginx/https.conf:/etc/nginx/conf.d/default.conf:ro`
+5. `docker compose up -d`，浏览器访问 `https://你的域名`。
 
-# 关闭不需要的服务（根据实际系统）
-systemctl stop 不需要的服务
-systemctl disable 不需要的服务
-```
+> 只在内网临时用 HTTP 测试时，可以在 `.env` 加 `COOKIE_SECURE=false`（正式使用前务必删掉）。
 
-### 4. 监控系统资源
+上传限制：nginx 允许单次请求 100MB、`/api` 读写超时 300 秒；后端单个文件 ≤10MB、单份作业 ≤10 个文件。
 
-```bash
-# 安装监控工具
-apt install htop -y
-
-# 监控资源使用
-htop
-```
-
----
-
-## 常见问题解决
-
-### 问题 1：内存不足
-
-**症状**：容器频繁重启或无法启动
-
-**解决方案**：
-```bash
-# 1. 添加 Swap（见上文）
-
-# 2. 查看内存使用
-docker stats
-
-# 3. 停止不需要的容器
-docker-compose down
-
-# 4. 清理 Docker 资源
-docker system prune -a
-```
-
-### 问题 2：容器启动失败
-
-**症状**：`docker-compose up -d` 报错
-
-**解决方案**：
-```bash
-# 查看详细日志
-docker-compose logs
-
-# 检查 Docker 状态
-systemctl status docker
-
-# 重启 Docker
-systemctl restart docker
-```
-
-### 问题 3：无法访问
-
-**症状**：浏览器无法打开页面
-
-**解决方案**：
-```bash
-# 1. 检查防火墙
-ufw status
-ufw allow 80/tcp
-ufw allow 443/tcp
-
-# 2. 检查端口占用
-netstat -tulpn | grep :80
-
-# 3. 测试后端 API
-curl http://localhost:8000/
-curl http://localhost:8000/health
-
-# 4. 查看容器日志
-docker-compose logs backend
-docker-compose logs frontend
-```
-
-### 问题 4：系统不是 Linux
-
-**症状**：Docker 安装命令不兼容
-
-**解决方案**：
-
-如果是 Windows Server：
-```powershell
-# 使用 Docker Desktop for Windows
-# 或者使用传统部署方案
-```
-
----
-
-## 性能监控
-
-### 实时监控
-
-```bash
-# 安装监控工具
-apt install htop iotop -y
-
-# 监控 CPU 和内存
-htop
-
-# 监控磁盘 IO
-iotop
-```
-
-### Docker 资源监控
-
-```bash
-# 实时查看容器资源使用
-docker stats
-
-# 查看容器详细信息
-docker inspect ai-teaching-backend
-docker inspect ai-teaching-frontend
-```
-
-### 日志管理
-
-```bash
-# 查看日志
-docker-compose logs -f
-
-# 查看最近 100 行
-docker-compose logs --tail=100
-
-# 清理日志
-docker-compose logs --tail=0
-```
-
----
-
-## 定期维护
-
-### 每周
-
-```bash
-# 清理未使用的 Docker 资源
-docker system prune -f
-
-# 更新系统包
-apt update && apt upgrade -y
-```
-
-### 每月
-
-```bash
-# 重启服务（释放内存）
-cd /opt/ai-teaching
-docker-compose restart
-
-# 检查磁盘空间
-df -h
-
-# 检查日志大小
-du -sh /var/log/*
-```
+## 7. 每日备份与恢复
 
 ### 备份
 
-```bash
-# 备份数据库
-cd /opt/ai-teaching
-tar -czf backup-$(date +%Y%m%d).tar.gz data/
+`scripts/backup.sh`：SQLite 在线备份（`.backup`，服务运行中也能得到一致副本并做完整性校验）+ 打包 `uploads/`，按时间命名存到 `backups/`，**保留最近 14 天**。
 
-# 备份到本地
-scp root@你的服务器 IP:/opt/ai-teaching/backup-*.tar.gz ./
+```bash
+bash scripts/backup.sh            # 手动执行一次，确认输出“备份完成”
+ls backups/                       # 20260926_023000/ 下有 teaching_assistant.db、uploads.tar.gz
 ```
 
----
+设置每天 02:30 自动备份（`crontab -e`）：
 
-## 升级配置（可选）
+```
+30 2 * * * cd /opt/ai-teaching && bash scripts/backup.sh >> logs/backup.log 2>&1
+```
 
-如果后续发现 2GB 内存不够用：
+建议再把 `backups/` 定期同步到另一台机器或对象存储（服务器整体损坏时本机备份也会丢）。可用 `BACKUP_DIR=/mnt/backup bash scripts/backup.sh` 指定备份目录，`KEEP_DAYS` 调整保留天数。
 
-### 方案 1：增加内存
+### 恢复
 
-联系云服务商升级到 4GB 内存
+```bash
+bash scripts/restore.sh backups/20260926_023000
+```
 
-### 方案 2：使用外部数据库
+脚本会：停止后端 → 把当前 `data/teaching_assistant.db`、`uploads/` 改名为 `*.before-restore-<时间>`（不删除）→ 用备份覆盖 → 启动后端。核对数据无误后再手动删除 `*.before-restore-*`。
 
-使用云数据库服务（如阿里云 RDS），减少服务器内存占用
+### 恢复演练（上线前做一次）
 
-### 方案 3：优化应用
+```bash
+bash scripts/backup.sh
+B=$(ls -d backups/20* | tail -1)
+docker compose stop backend
+mv data data.drill && mv uploads uploads.drill           # 模拟数据丢失
+bash scripts/restore.sh "$B" --yes
+docker compose ps && curl -s http://127.0.0.1/health     # 登录后核对班级、作业、原始照片都在
+rm -rf data.drill uploads.drill
+```
 
-- 减少并发连接数
-- 优化数据库查询
-- 使用缓存
+## 8. 升级
 
----
+```bash
+cd /opt/ai-teaching
+bash scripts/backup.sh                       # 升级前先备份
+git pull
+docker compose up -d --build                 # 重建镜像并滚动重启；数据库启动时自动补齐新字段（只加不删）
+docker compose ps && docker compose logs --tail=50 backend
+```
 
-## 检查清单
+如果新版本启动异常：`git checkout <上一个版本>` 后再 `docker compose up -d --build`，必要时用第 7 节的恢复步骤回到升级前的备份。
 
-部署完成后请检查：
+## 9. 日常运维与常见问题
 
-- [ ] Docker 安装成功
-- [ ] 容器正常运行（`docker-compose ps`）
-- [ ] 可以通过 IP 访问
-- [ ] Swap 已启用（`free -h`）
-- [ ] 防火墙已配置
-- [ ] API 密钥已修改
-- [ ] CORS 配置正确
-- [ ] 数据库正常读写
+| 场景 | 处理 |
+|---|---|
+| 查看状态 / 内存 | `docker compose ps`、`docker stats`（后端内存上限 1GB，前端 256MB） |
+| 查看日志 | `docker compose logs --tail=200 backend` |
+| 后端拒绝启动，日志提示“生产环境必须设置 JWT_SECRET / LLM_API_KEY” | 按第 3 节补全 `.env` 后 `docker compose up -d` |
+| 登录总提示“登录已过期” / 登录后又回到登录页 | 用了 `http://` 访问：按第 6 节启用 HTTPS |
+| 上传照片报“文件过大” | 单个文件 ≤10MB；手机照片请用普通画质 |
+| 模型用量 | 管理员登录后访问 `/usage` 页面（教师看不到该菜单） |
+| 清理 Docker 旧镜像 | `docker image prune -f` |
 
----
-
-## 性能基准
-
-**正常情况下的资源使用**：
-- 空闲时内存：~800MB
-- 运行时内存：~1.2-1.5GB
-- CPU 使用率：< 20%
-
-**如果超过这些值**，需要检查是否有问题。
-
----
-
-## 联系支持
-
-如有问题，请查看：
-- 系统日志：`journalctl -xe`
-- Docker 日志：`docker-compose logs -f`
-- 应用日志：查看容器内日志
-
-祝部署顺利！🎉
+本版本不再包含：演示数据、`dataset/` 测试集挂载、后端 8000 端口对外映射。

@@ -52,8 +52,10 @@ Thumbs.db
 *.sublime-project
 *.sublime-workspace
 
-# Docker
-.dockerignore
+# Docker 部署数据（宿主机数据卷 / 备份）
+/data/
+/uploads/
+/backups/
 
 # 部署脚本（可选）
 deploy.sh

@@ -36,7 +36,10 @@ class LLMConfig:
 
     @property
     def enabled(self) -> bool:
-        return bool(self.api_key) and not self.api_key.startswith(("your_", "sk-xxxx"))
+        """是否配置了有效的 API Key（占位值如 your_api_key_here / sk-xxxx 视为未配置 → 模拟模式）"""
+        key = (self.api_key or "").strip()
+        return bool(key) and not key.lower().startswith(
+            ("your_", "your-", "sk-xxx", "sk-your", "<", "change", "placeholder"))
 
     fallbacks: Dict[str, List[str]] = field(default_factory=dict)
 

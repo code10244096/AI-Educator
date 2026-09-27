@@ -1,27 +1,42 @@
-version: '3.8'
+# AI 教学助手 生产部署（2 核 2GB 云服务器）
+# 使用前：cp .env.example .env 并填写 JWT_SECRET、LLM_API_KEY 等（见 DEPLOY_2GB.md）
+# 一条命令启动：docker compose up -d --build
+# 对公网只暴露 80/443；后端 8000 只在容器网络内可见
 
 services:
-  # 后端服务
+  # 后端（FastAPI）
   backend:
     build:
       context: ./backend
       dockerfile: Dockerfile
     container_name: ai-teaching-backend
     restart: always
+    env_file: .env
     environment:
-      - ENV=production
-    ports:
-      - "8000:8000"
+      # 生产环境强制：禁止模拟模式、关闭接口文档、不播种演示数据
+      - APP_ENV=production
+      - SEED_DEMO_DATA=false
+      - DATABASE_URL=sqlite+aiosqlite:////app/data/teaching_assistant.db
+      - UPLOAD_DIR=/app/uploads
+      - API_OUTPUT_ROOT=/app/logs/api_runs
+    expose:
+      - "8000"
     volumes:
-      - ./uploads:/app/uploads
+      # 数据库、学生作业照片、日志都放在宿主机目录，重建容器不丢；备份脚本见 scripts/backup.sh
       - ./data:/app/data
-      - ./dataset:/app/dataset
-    environment:
-      - DATASET_DIR=/app/dataset/测试集/批改作业
+      - ./uploads:/app/uploads
+      - ./logs:/app/logs
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sys, urllib.request; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5).status == 200 else 1)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    mem_limit: 1g
     networks:
       - app-network
 
-  # 前端服务（包含 Nginx）
+  # 前端（Nginx：静态页面 + /api 反向代理）
   frontend:
     build:
       context: ./frontend
@@ -31,9 +46,22 @@ services:
     container_name: ai-teaching-frontend
     restart: always
     depends_on:
-      - backend
+      backend:
+        condition: service_healthy
     ports:
       - "80:80"
+      - "443:443"
+    volumes:
+      # HTTPS 证书目录（见 DEPLOY_2GB.md「启用 HTTPS」）
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+      # 启用 HTTPS 时取消下一行注释（先按 frontend/nginx-https.conf.example 准备 nginx/https.conf）
+      # - ./nginx/https.conf:/etc/nginx/conf.d/default.conf:ro
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    mem_limit: 256m
     networks:
       - app-network
 

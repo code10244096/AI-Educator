@@ -80,16 +80,28 @@ class Settings:
 
         # API 配置
         self.API_PREFIX = config.get("api", {}).get("prefix", "/api")
+        # 跨域白名单：生产只认环境变量 CORS_ORIGINS（逗号分隔，填部署域名）；未设置时不放行任何跨域请求
+        # （前端与后端经 nginx 同域访问，本来就不需要跨域）
         cors_env = os.getenv("CORS_ORIGINS")
         if cors_env is not None and cors_env.strip():
             self.CORS_ORIGINS = [o.strip() for o in cors_env.split(",") if o.strip()]
+        elif self.IS_PRODUCTION:
+            self.CORS_ORIGINS = []
         else:
             self.CORS_ORIGINS = config.get("api", {}).get("cors_origins", [
                 "http://localhost:3000",
                 "http://localhost:5173"
             ])
+        # 生产关闭 /docs、/redoc、/openapi.json
+        self.ENABLE_API_DOCS = not self.IS_PRODUCTION
 
-        # 数据库配置
+        # 数据库配置（记录来源，启动时打印实际使用的库，防止误连）
+        if os.getenv("DATABASE_URL"):
+            self.DATABASE_URL_SOURCE = "环境变量 DATABASE_URL"
+        elif config.get("database", {}).get("url"):
+            self.DATABASE_URL_SOURCE = "config.json"
+        else:
+            self.DATABASE_URL_SOURCE = "默认值（未设置 DATABASE_URL）"
         self.DATABASE_URL = _normalize_sqlite_url(
             os.getenv("DATABASE_URL") or config.get("database", {}).get(
                 "url", "sqlite+aiosqlite:///./teaching_assistant.db")
@@ -143,3 +155,25 @@ class Settings:
 
 # 创建全局配置实例
 settings = Settings()
+
+
+# 被视为“未修改”的示例密钥（生产环境拒绝启动）
+_EXAMPLE_SECRETS = {
+    DEFAULT_JWT_SECRET, "change-me", "changeme", "please-change-this-secret", "secret", "your-secret-key",
+    "your_jwt_secret_here", "replace-with-a-long-random-string",
+}
+
+
+def production_problems(s: "Settings") -> list:
+    """生产环境启动前的安全检查，返回问题列表（为空表示通过）"""
+    if not s.IS_PRODUCTION:
+        return []
+    problems = []
+    secret = (s.JWT_SECRET or "").strip()
+    if not os.getenv("JWT_SECRET") or secret.lower() in _EXAMPLE_SECRETS or secret.lower().startswith(("your", "change", "<")):
+        problems.append("生产环境必须设置 JWT_SECRET（环境变量，至少 32 位随机字符串，不能用示例值）")
+    elif len(secret) < 32:
+        problems.append("生产环境必须设置 JWT_SECRET：当前长度不足 32 位，请换成更长的随机字符串")
+    if not s.LLM.enabled:
+        problems.append("生产环境必须配置有效的 LLM_API_KEY（生产禁止模拟模式，否则老师会看到假的批改结果）")
+    return problems

@@ -159,7 +159,7 @@
 ```json
 {
   "ai": {
-    "api_key": "xxxxxxxxxxxxxxxx",
+    "api_key": "your_api_key_here",
     "base_url": "https://your-resource.openai.azure.com/openai/deployments",
     "ocr_model": "gpt-4v",
     "grader_model": "gpt-4",

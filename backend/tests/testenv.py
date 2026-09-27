@@ -28,6 +28,8 @@ os.environ["LLM_API_KEY"] = "your_api_key_here"
 os.environ.setdefault("PYTHONIOENCODING", "utf-8")
 # bcrypt 用最低强度，加快测试（生产默认 12）
 os.environ.setdefault("BCRYPT_ROUNDS", "4")
+# 现有用例依赖启动时播种的演示数据（开发环境显式开启；生产强制关闭）
+os.environ["SEED_DEMO_DATA"] = "true"
 # 测试始终在开发环境运行（即使外部设置了 APP_ENV=production）
 os.environ["APP_ENV"] = "development"
 

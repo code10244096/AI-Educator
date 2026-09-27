@@ -44,6 +44,45 @@ def max_size_label() -> str:
     return f"{settings.MAX_FILE_SIZE / 1024 / 1024:.0f}MB"
 
 
+MSG_CONTENT_MISMATCH = "文件内容与格式不符"
+
+
+def content_matches_extension(head: bytes, ext: str) -> bool:
+    """
+    文件头（magic bytes）校验：扩展名说是什么，内容就必须真是什么。
+    图片 / PDF / Word 按文件头判断；txt / md 必须是文本（不含 NUL 字节，能按 UTF-8 或 GBK 解码）。
+    """
+    ext = (ext or "").lower()
+    if ext in ("jpg", "jpeg"):
+        return head.startswith(b"\xff\xd8\xff")
+    if ext == "png":
+        return head.startswith(b"\x89PNG\r\n\x1a\n")
+    if ext == "gif":
+        return head.startswith((b"GIF87a", b"GIF89a"))
+    if ext == "bmp":
+        return head.startswith(b"BM")
+    if ext == "webp":
+        return len(head) >= 12 and head[:4] == b"RIFF" and head[8:12] == b"WEBP"
+    if ext == "pdf":
+        return head[:1024].lstrip(b"\xef\xbb\xbf\r\n\t ").startswith(b"%PDF-")
+    if ext == "docx":
+        return head.startswith(b"PK\x03\x04")
+    if ext in ("txt", "md", "csv"):
+        if b"\x00" in head:
+            return False
+        sample = head[:4096]
+        for encoding in ("utf-8", "gbk"):
+            try:
+                sample.decode(encoding)
+                return True
+            except UnicodeDecodeError as e:
+                # 截断在多字节字符中间时，只要错误出现在末尾几个字节内就算通过
+                if e.start >= len(sample) - 3:
+                    return True
+        return False
+    return False
+
+
 def validate_upload(file: UploadFile) -> str:
     """校验扩展名，返回小写扩展名；不合法时抛 400"""
     ext = get_extension(file.filename)
@@ -67,12 +106,20 @@ async def save_upload(file: UploadFile, ext: Optional[str] = None) -> Dict:
     filepath = os.path.join(upload_dir, stored_name)
 
     size = 0
+    first = True
     try:
         async with aiofiles.open(filepath, "wb") as out_file:
             while True:
                 chunk = await file.read(_CHUNK)
                 if not chunk:
                     break
+                if first:
+                    first = False
+                    if not content_matches_extension(chunk, ext):
+                        raise HTTPException(
+                            status_code=400,
+                            detail=MSG_CONTENT_MISMATCH,
+                        )
                 size += len(chunk)
                 if size > settings.MAX_FILE_SIZE:
                     raise HTTPException(
@@ -100,6 +147,9 @@ async def save_uploads(files: List[UploadFile]) -> List[Dict]:
     """先整体校验扩展名，再逐个保存；任何一个失败都会清理已保存的文件"""
     if not files:
         raise HTTPException(status_code=400, detail="请至少上传一个文件")
+    limit = settings.MAX_FILES_PER_SUBMISSION
+    if len(files) > limit:
+        raise HTTPException(status_code=400, detail=f"一份作业最多上传 {limit} 个文件（当前 {len(files)} 个）")
     exts = [validate_upload(f) for f in files]
     saved: List[Dict] = []
     try:
