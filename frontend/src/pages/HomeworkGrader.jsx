@@ -3,9 +3,10 @@ import { useSearchParams, useNavigate } from 'react-router-dom'
 import { useDropzone } from 'react-dropzone'
 import {
   Upload, X, FileText, File, AlertCircle, Loader2, CheckCircle, History,
-  RotateCcw, Trash2, Eye, Beaker, RefreshCw,
+  RotateCcw, Trash2, Eye, RefreshCw,
 } from 'lucide-react'
-import { homeworkAPI, getErrorMessage } from '../utils/api'
+import { homeworkAPI, classHomeworkAPI, getErrorMessage } from '../utils/api'
+import { useClass } from '../context/ClassContext'
 import { useTask, estimateProgress } from '../context/TaskContext'
 import { clearHomeworkCache } from '../services/homeworkService'
 import { useToast } from '../components/Toast'
@@ -52,8 +53,21 @@ const HomeworkGrader = () => {
     submissionId: searchParams.get('submissionId'),
     studentName: searchParams.get('studentName'),
     assignmentId: searchParams.get('assignmentId'),
-    datasetId: searchParams.get('dataset'),
+    memberId: searchParams.get('memberId'),
   }), [searchParams])
+  const { getClassBySlug } = useClass()
+  const [contextHomework, setContextHomework] = useState(null)
+
+  // 批改上下文横幅显示“班级 · 作业名 · 学生”，不显示内部编号
+  useEffect(() => {
+    if (!gradeContext.classId || !gradeContext.homeworkId) {
+      setContextHomework(null)
+      return
+    }
+    classHomeworkAPI.getHomeworkDetail(gradeContext.classId, gradeContext.homeworkId)
+      .then(setContextHomework)
+      .catch(() => setContextHomework(null))
+  }, [gradeContext.classId, gradeContext.homeworkId])
 
   const currentTask = tasks.find(t => t.id === taskId)
   const processing = submitting || currentTask?.status === 'running'
@@ -132,7 +146,7 @@ const HomeworkGrader = () => {
       homeworkId: gradeContext.homeworkId,
     })
     setTaskId(newTaskId)
-    addToast('已提交批改任务，可离开本页，完成后在「我的任务」查看', 'success')
+    addToast('已提交批改，可以离开本页，完成后在“最近批改记录”里查看', 'success')
     loadHistory()
   }
 
@@ -152,6 +166,7 @@ const HomeworkGrader = () => {
         assignmentId: gradeContext.assignmentId,
         submissionId: gradeContext.submissionId,
         studentName: gradeContext.studentName,
+        memberId: gradeContext.memberId,
         onProgress: setUploadProgress,
       })
       const who = gradeContext.studentName ? `${gradeContext.studentName} - ` : ''
@@ -164,32 +179,12 @@ const HomeworkGrader = () => {
     }
   }
 
-  const handleGradeDataset = async () => {
-    setError(null)
-    setFinishedResult(null)
-    setSubmitting(true)
-    try {
-      const resp = await homeworkAPI.gradeDataset(gradeContext.datasetId, {
-        assignmentId: gradeContext.assignmentId,
-        submissionId: gradeContext.submissionId,
-        studentName: gradeContext.studentName,
-        classId: gradeContext.classId,
-        homeworkId: gradeContext.homeworkId,
-      })
-      startTask(resp, `测试集批改 - ${resp.dataset_title || gradeContext.datasetId}`, [resp.dataset_filename].filter(Boolean))
-    } catch (err) {
-      setError(getErrorMessage(err, '提交失败，请重试'))
-    } finally {
-      setSubmitting(false)
-    }
-  }
-
   const handleRetry = async (item) => {
     try {
       const resp = await homeworkAPI.retry(item.id)
       const newTaskId = addTask({
         type: 'grader',
-        title: `重新批改 - ${item.student_name || `#${item.id}`}`,
+        title: `重新批改 - ${item.student_name || '未填写姓名'}`,
         status: 'running',
         progress: 5,
         progressLabel: resp.progress_stage || '排队中',
@@ -217,11 +212,12 @@ const HomeworkGrader = () => {
     }
   }
 
+  const contextClass = gradeContext.classId ? getClassBySlug(gradeContext.classId) : null
+  const contextLabel = [contextClass?.name, contextHomework?.title, gradeContext.studentName].filter(Boolean).join(' · ')
   const contextBanner = gradeContext.studentName && (
     <div className="mb-4 p-3 bg-blue-50 border border-blue-100 rounded-xl text-sm text-blue-800">
-      正在为 <strong>{gradeContext.studentName}</strong> 批改作业
-      {gradeContext.classId && `（${gradeContext.classId} / 作业 #${gradeContext.homeworkId}）`}
-      <span className="ml-1 text-blue-600">，将使用该作业的参考答案（如有）</span>
+      正在批改：<strong>{contextLabel}</strong>
+      <span className="ml-1 text-blue-600">（将使用该作业的参考答案）</span>
     </div>
   )
 
@@ -247,22 +243,6 @@ const HomeworkGrader = () => {
           </div>
 
           {contextBanner}
-
-          {gradeContext.datasetId && (
-            <div className="mb-6 p-4 bg-purple-50 border border-purple-100 rounded-xl flex items-center justify-between gap-3">
-              <p className="text-sm text-purple-800 flex items-center">
-                <Beaker className="h-4 w-4 mr-2" />
-                该学生有 dataset 测试集作业（#{gradeContext.datasetId}），可直接用测试数据批改
-              </p>
-              <button
-                onClick={handleGradeDataset}
-                disabled={processing}
-                className="shrink-0 px-4 py-2 bg-purple-600 text-white rounded-lg text-sm hover:bg-purple-700 disabled:opacity-50"
-              >
-                使用测试数据批改
-              </button>
-            </div>
-          )}
 
           <div className="mb-6">
             <label className="block text-sm font-medium text-gray-700 mb-3">
@@ -423,7 +403,7 @@ const HomeworkGrader = () => {
                     <div className="min-w-0">
                       <div className="flex items-center gap-2 flex-wrap">
                         <span className="text-sm font-medium text-gray-900">
-                          {item.student_name || `批改 #${item.id}`}
+                          {item.student_name || '未填写姓名'}
                         </span>
                         {item.assignment_title && (
                           <span className="text-xs text-gray-500">《{item.assignment_title}》</span>

@@ -3,7 +3,7 @@ import json
 import re
 from typing import Dict, List, Optional
 
-from sqlalchemy import select, func, delete
+from sqlalchemy import select, func, delete, update
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from models import ClassInfo, ClassMember, HomeworkAssignment, HomeworkSubmission, User, WrongQuestion
@@ -174,7 +174,7 @@ async def seed_initial_data(db: AsyncSession) -> None:
             deadline=meta["date"],
             status=meta["status"],
             subject="数学",
-            description=f"来自 dataset 测试集的真实作业数据（{meta['title']}）",
+            description=f"高考数学真题练习（{meta['title']}）",
             dataset_file_id=meta["id"] if meta["id"] in dataset_items else None,
             total_students=45,
         )
@@ -378,11 +378,12 @@ async def delete_class(db: AsyncSession, class_slug_value: str, *, teacher_id: i
 
 # ==================== 学生 ====================
 
-def _member_to_dict(m: ClassMember) -> dict:
+def _member_to_dict(m: ClassMember, display_name: Optional[str] = None) -> dict:
     return {
         "id": m.id,
         "class_id": m.class_id,
         "name": m.name,
+        "display_name": display_name or m.name,
         "gender": m.gender,
         "student_no": m.student_no,
         "order_index": m.order_index,
@@ -390,10 +391,74 @@ def _member_to_dict(m: ClassMember) -> dict:
     }
 
 
+def member_display_names(members: List[ClassMember]) -> Dict[int, str]:
+    """
+    班级内重名的学生在姓名后带学号区分，如“陈晓明（2025004）”；
+    没有学号的重名学生（历史数据）标“未填学号”。不重名的只显示姓名。
+    """
+    counts: Dict[str, int] = {}
+    for m in members:
+        counts[m.name] = counts.get(m.name, 0) + 1
+    names = {}
+    for m in members:
+        if counts[m.name] > 1:
+            names[m.id] = f"{m.name}（{m.student_no or '未填学号'}）"
+        else:
+            names[m.id] = m.name
+    return names
+
+
+def _norm_no(student_no: Optional[str]) -> Optional[str]:
+    value = (student_no or "").strip()
+    return value[:50] or None
+
+
+def _duplicate_reason(members: List[ClassMember], name: str, student_no: Optional[str],
+                      exclude_id: Optional[int] = None) -> Optional[str]:
+    """
+    同一班级内的唯一性规则：有学号时以学号唯一；没有学号时以姓名唯一（同名不同学号可以共存）。
+    返回重复原因（None 表示不重复）。
+    """
+    others = [m for m in members if exclude_id is None or m.id != exclude_id]
+    if student_no:
+        if any((m.student_no or "").strip() == student_no for m in others):
+            return f"班级中已有学号为 {student_no} 的学生"
+        return None
+    if any(m.name == name for m in others):
+        return f"班级中已有同名学生：{name}（如果是不同的学生，请填写学号区分）"
+    return None
+
+
+def _subs_by_member(members: List[ClassMember], subs: List[HomeworkSubmission]) -> Dict[int, List[HomeworkSubmission]]:
+    """
+    把提交记录归到学生：优先按 member_id；历史记录没有 member_id 时，只有姓名在班里唯一才按姓名归属
+    （同名学生的旧记录无法区分，不归到任何人名下，避免成绩串号）。
+    """
+    by_id = {m.id: m for m in members}
+    name_count: Dict[str, int] = {}
+    for m in members:
+        name_count[m.name] = name_count.get(m.name, 0) + 1
+    unique_name = {m.name: m.id for m in members if name_count[m.name] == 1}
+    result: Dict[int, List[HomeworkSubmission]] = {}
+    for s in subs:
+        mid = s.member_id if s.member_id in by_id else None
+        if mid is None and not s.member_id and s.student_name in unique_name:
+            mid = unique_name[s.student_name]
+        if mid is not None:
+            result.setdefault(mid, []).append(s)
+    return result
+
+
+def is_scored(sub: HomeworkSubmission) -> bool:
+    """计入成绩统计的提交：批改完成且有分数（失败、排队、批改中、未批改都不计入）"""
+    return sub.status == "completed" and sub.grading_status == "已批改" and sub.score is not None
+
+
 async def list_members(db: AsyncSession, class_slug_value: str, *, teacher_id: int) -> List[dict]:
-    """学生列表 + 每人作业统计（平均分 / 已交次数 / 排名 / 趋势）"""
+    """学生列表 + 每人作业统计（平均分 / 已交次数 / 排名 / 趋势），按学生 ID 聚合"""
     cls = await get_class_record(db, class_slug_value, teacher_id=teacher_id)
     members = await _class_members(db, cls.id)
+    display = member_display_names(members)
 
     assignment_ids = [
         row[0] for row in (await db.execute(
@@ -407,15 +472,12 @@ async def list_members(db: AsyncSession, class_slug_value: str, *, teacher_id: i
             .where(HomeworkSubmission.assignment_id.in_(assignment_ids))
             .order_by(HomeworkSubmission.id)
         )).scalars().all())
-
-    by_name: Dict[str, List[HomeworkSubmission]] = {}
-    for s in subs:
-        by_name.setdefault(s.student_name, []).append(s)
+    by_member = _subs_by_member(members, subs)
 
     items = []
     for m in members:
-        student_subs = by_name.get(m.name, [])
-        scores = [s.score for s in student_subs if s.score is not None and s.grading_status == "已批改"]
+        student_subs = by_member.get(m.id, [])
+        scores = [s.score for s in student_subs if is_scored(s)]
         avg = round(sum(scores) / len(scores), 1) if scores else None
         trend = None
         if len(scores) >= 2:
@@ -431,7 +493,7 @@ async def list_members(db: AsyncSession, class_slug_value: str, *, teacher_id: i
         else:
             level = "需关注"
         items.append({
-            **_member_to_dict(m),
+            **_member_to_dict(m, display.get(m.id)),
             "avgScore": avg,
             "submittedCount": len(student_subs),
             "gradedCount": len(scores),
@@ -450,22 +512,20 @@ async def list_members(db: AsyncSession, class_slug_value: str, *, teacher_id: i
 async def add_member(db: AsyncSession, class_slug_value: str, name: str,
                      gender: Optional[str] = None, student_no: Optional[str] = None, *, teacher_id: int) -> dict:
     cls = await get_class_record(db, class_slug_value, teacher_id=teacher_id)
-    name = (name or "").strip()
+    name = (name or "").strip()[:50]
     if not name:
         raise InvalidInputError("学生姓名不能为空")
-    exists = (await db.execute(
-        select(ClassMember.id).where(ClassMember.class_id == cls.id, ClassMember.name == name)
-    )).first()
-    if exists:
-        raise DuplicateError(f"班级中已存在学生：{name}")
-    max_order = await db.scalar(
-        select(func.max(ClassMember.order_index)).where(ClassMember.class_id == cls.id)
-    ) or 0
+    student_no = _norm_no(student_no)
+    members = await _class_members(db, cls.id)
+    reason = _duplicate_reason(members, name, student_no)
+    if reason:
+        raise DuplicateError(reason)
+    max_order = max([m.order_index or 0 for m in members], default=0)
     member = ClassMember(
         class_id=cls.id,
         name=name,
         gender=gender or "男",
-        student_no=student_no or None,
+        student_no=student_no,
         order_index=max_order + 1,
     )
     db.add(member)
@@ -473,7 +533,8 @@ async def add_member(db: AsyncSession, class_slug_value: str, name: str,
     cls.total_students = await _member_count(db, cls.id)
     await db.commit()
     await db.refresh(member)
-    return _member_to_dict(member)
+    members.append(member)
+    return _member_to_dict(member, member_display_names(members).get(member.id))
 
 
 def parse_member_lines(text: str) -> List[dict]:
@@ -504,39 +565,54 @@ def parse_member_lines(text: str) -> List[dict]:
 
 
 async def import_members(db: AsyncSession, class_slug_value: str, text: str, *, teacher_id: int) -> dict:
+    """
+    批量导入。去重规则同 add_member：有学号按学号唯一，没学号按姓名唯一；
+    同名不同学号的学生全部保留（R1-011）。
+    """
     cls = await get_class_record(db, class_slug_value, teacher_id=teacher_id)
     rows = parse_member_lines(text)
     if not rows:
         raise InvalidInputError("没有解析到学生姓名，请每行填写一个学生")
-    existing = {m.name for m in await _class_members(db, cls.id)}
-    max_order = await db.scalar(
-        select(func.max(ClassMember.order_index)).where(ClassMember.class_id == cls.id)
-    ) or 0
-    added, skipped = [], []
+    members = await _class_members(db, cls.id)
+    max_order = max([m.order_index or 0 for m in members], default=0)
+    added, skipped_name, skipped_no = [], [], []
     for row in rows:
-        if row["name"] in existing:
-            skipped.append(row["name"])
+        student_no = _norm_no(row["student_no"])
+        reason = _duplicate_reason(members, row["name"], student_no)
+        if reason:
+            if student_no:
+                skipped_no.append(f"{row['name']}（{student_no}）")
+            else:
+                skipped_name.append(row["name"])
             continue
         max_order += 1
         member = ClassMember(
             class_id=cls.id,
             name=row["name"],
             gender=row["gender"] or "男",
-            student_no=row["student_no"],
+            student_no=student_no,
             order_index=max_order,
         )
         db.add(member)
-        existing.add(row["name"])
-        added.append(row["name"])
+        members.append(member)
+        added.append(row["name"] if not student_no else f"{row['name']}（{student_no}）")
     await db.flush()
     cls.total_students = await _member_count(db, cls.id)
     await db.commit()
+    skipped = skipped_name + skipped_no
+    message = f"成功导入 {len(added)} 名学生"
+    if skipped_name:
+        message += f"，重名跳过 {len(skipped_name)} 名：{'、'.join(skipped_name)}"
+    if skipped_no:
+        message += f"，学号重复跳过 {len(skipped_no)} 名：{'、'.join(skipped_no)}"
     return {
         "added_count": len(added),
         "skipped_count": len(skipped),
         "added": added,
         "skipped": skipped,
-        "message": f"成功导入 {len(added)} 名学生" + (f"，跳过重名 {len(skipped)} 名" if skipped else ""),
+        "skipped_duplicate_name": skipped_name,
+        "skipped_duplicate_no": skipped_no,
+        "message": message,
     }
 
 
@@ -548,42 +624,38 @@ async def _get_member(db: AsyncSession, cls: ClassInfo, member_id: int) -> Class
 
 
 async def update_member(db: AsyncSession, class_slug_value: str, member_id: int, updates: dict, *, teacher_id: int) -> dict:
+    """编辑学生。提交记录按 member_id 关联，改名后历史成绩仍归属该学生（同时刷新提交上的姓名快照）"""
     cls = await get_class_record(db, class_slug_value, teacher_id=teacher_id)
     member = await _get_member(db, cls, member_id)
-    new_name = updates.get("name")
-    if new_name is not None:
-        new_name = new_name.strip()
+    new_name = member.name
+    if updates.get("name") is not None:
+        new_name = updates["name"].strip()[:50]
         if not new_name:
             raise InvalidInputError("学生姓名不能为空")
-        if new_name != member.name:
-            dup = (await db.execute(
-                select(ClassMember.id).where(ClassMember.class_id == cls.id, ClassMember.name == new_name)
-            )).first()
-            if dup:
-                raise DuplicateError(f"班级中已存在学生：{new_name}")
-            # 同步修改该班级作业提交记录上的学生姓名，保证成绩不丢失
-            assignment_ids = [
-                row[0] for row in (await db.execute(
-                    select(HomeworkAssignment.id).where(HomeworkAssignment.class_id == cls.id)
-                )).all()
-            ]
-            if assignment_ids:
-                subs = (await db.execute(
-                    select(HomeworkSubmission).where(
-                        HomeworkSubmission.assignment_id.in_(assignment_ids),
-                        HomeworkSubmission.student_name == member.name,
-                    )
-                )).scalars().all()
-                for s in subs:
-                    s.student_name = new_name
-            member.name = new_name
+    new_no = member.student_no
+    if "student_no" in updates and updates["student_no"] is not None:
+        new_no = _norm_no(updates["student_no"])
+    if new_name != member.name or new_no != member.student_no:
+        members = await _class_members(db, cls.id)
+        reason = _duplicate_reason(members, new_name, new_no, exclude_id=member.id)
+        if reason:
+            raise DuplicateError(reason)
+    if new_name != member.name:
+        # 先把还没关联 member_id 的旧记录（按旧姓名唯一匹配）挂到该学生名下，再刷新姓名快照
+        await _link_legacy_submissions(db, cls.id, member)
+        subs = (await db.execute(
+            select(HomeworkSubmission).where(HomeworkSubmission.member_id == member.id)
+        )).scalars().all()
+        for s in subs:
+            s.student_name = new_name
+        member.name = new_name
+    member.student_no = new_no
     if updates.get("gender") is not None:
         member.gender = updates["gender"]
-    if "student_no" in updates and updates["student_no"] is not None:
-        member.student_no = updates["student_no"] or None
     await db.commit()
     await db.refresh(member)
-    return _member_to_dict(member)
+    members = await _class_members(db, cls.id)
+    return _member_to_dict(member, member_display_names(members).get(member.id))
 
 
 async def delete_member(db: AsyncSession, class_slug_value: str, member_id: int, *, teacher_id: int) -> dict:
@@ -596,12 +668,34 @@ async def delete_member(db: AsyncSession, class_slug_value: str, member_id: int,
     return {"message": f"已移除学生：{member.name}"}
 
 
+async def _link_legacy_submissions(db: AsyncSession, class_id: int, member: ClassMember) -> int:
+    """把该班作业下 member_id 为空、姓名与该学生相同且班里没有重名的旧提交关联到该学生"""
+    same_name = await db.scalar(
+        select(func.count(ClassMember.id))
+        .where(ClassMember.class_id == class_id, ClassMember.name == member.name)
+    )
+    if same_name != 1:
+        return 0
+    assignment_ids = select(HomeworkAssignment.id).where(HomeworkAssignment.class_id == class_id)
+    subs = (await db.execute(
+        select(HomeworkSubmission)
+        .where(HomeworkSubmission.assignment_id.in_(assignment_ids))
+        .where(HomeworkSubmission.member_id.is_(None))
+        .where(HomeworkSubmission.student_name == member.name)
+    )).scalars().all()
+    for s in subs:
+        s.member_id = member.id
+    return len(subs)
+
+
 # ==================== 作业 ====================
 
 def _assignment_to_dict(assignment: HomeworkAssignment, stats: dict, total: Optional[int] = None) -> dict:
+    """作业标识统一为数据库主键（id == assignment_id）"""
     return {
-        "id": assignment.dataset_file_id or assignment.id,
+        "id": assignment.id,
         "assignment_id": assignment.id,
+        "class_id": assignment.class_id,
         "title": assignment.title,
         "date": assignment.assign_date,
         "deadline": assignment.deadline,
@@ -610,13 +704,13 @@ def _assignment_to_dict(assignment: HomeworkAssignment, stats: dict, total: Opti
         "avgScore": stats["avg_score"],
         "status": assignment.status,
         "description": assignment.description,
-        "datasetFileId": assignment.dataset_file_id,
-        "hasTestData": assignment.dataset_file_id is not None,
         "subject": assignment.subject,
         "referenceAnswer": assignment.reference_answer or "",
+        "hasReferenceAnswer": bool((assignment.reference_answer or "").strip()),
         "gradedCount": stats["graded"],
         "pendingCount": stats["pending"],
         "processingCount": stats["processing"],
+        "failedCount": stats["failed"],
     }
 
 
@@ -626,17 +720,15 @@ async def _submission_stats(db: AsyncSession, assignment_id: int) -> dict:
     )
     submissions = result.scalars().all()
     submitted = len(submissions)
-    scores = [s.score for s in submissions if s.score is not None and s.grading_status == "已批改"]
+    scores = [s.score for s in submissions if is_scored(s)]
     avg_score = round(sum(scores) / len(scores), 1) if scores else 0
-    graded = sum(1 for s in submissions if s.grading_status == "已批改")
-    pending = sum(1 for s in submissions if s.grading_status == "待批改")
-    processing = sum(1 for s in submissions if s.grading_status == "批改中")
     return {
         "submitted": submitted,
         "avg_score": avg_score,
-        "graded": graded,
-        "pending": pending,
-        "processing": processing,
+        "graded": len(scores),
+        "pending": sum(1 for s in submissions if s.grading_status == "待批改" and s.status != "failed"),
+        "processing": sum(1 for s in submissions if s.status in ("processing", "queued")),
+        "failed": sum(1 for s in submissions if s.status == "failed"),
     }
 
 
@@ -662,22 +754,12 @@ async def get_homework_list(db: AsyncSession, class_slug_value: str, *, teacher_
 
 
 async def get_assignment_record(db: AsyncSession, class_slug_value: str, homework_id: int, *, teacher_id: int) -> Optional[HomeworkAssignment]:
-    """
-    按前端使用的 homework_id 查找作业：优先匹配「dataset_file_id 或 id」这个展示 ID，
-    其次再按数据库主键匹配（兼容旧链接）。
-    """
+    """按作业主键查找（必须属于该班级与当前教师）；不再兼容旧的“展示 ID”"""
     cls = await get_class_record(db, class_slug_value, teacher_id=teacher_id)
-    result = await db.execute(
-        select(HomeworkAssignment).where(HomeworkAssignment.class_id == cls.id)
-    )
-    assignments = result.scalars().all()
-    for a in assignments:
-        if (a.dataset_file_id or a.id) == homework_id:
-            return a
-    for a in assignments:
-        if a.id == homework_id:
-            return a
-    return None
+    a = await db.get(HomeworkAssignment, homework_id)
+    if not a or a.class_id != cls.id:
+        return None
+    return a
 
 
 async def get_homework_by_id(db: AsyncSession, class_slug_value: str, homework_id: int, *, teacher_id: int) -> Optional[dict]:
@@ -749,45 +831,60 @@ async def delete_assignment(db: AsyncSession, class_slug_value: str, homework_id
 
 
 async def get_student_submissions(db: AsyncSession, class_slug_value: str, homework_id: int, *, teacher_id: int) -> List[dict]:
+    """作业名录：班级每个学生一行（按学生 ID 关联提交），外加不在花名册里的提交"""
     assignment = await get_assignment_record(db, class_slug_value, homework_id, teacher_id=teacher_id)
     if not assignment:
         return []
 
     members = await _class_members(db, assignment.class_id)
-
-    sub_result = await db.execute(
+    display = member_display_names(members)
+    subs = list((await db.execute(
         select(HomeworkSubmission)
         .where(HomeworkSubmission.assignment_id == assignment.id)
         .order_by(HomeworkSubmission.id)
-    )
-    submission_by_name: Dict[str, HomeworkSubmission] = {}
-    for s in sub_result.scalars().all():
-        submission_by_name[s.student_name] = s  # 同名多次提交时取最新一次
+    )).scalars().all())
+    by_member = _subs_by_member(members, subs)
 
     students = []
-    seen = set()
+    used = set()
     for i, member in enumerate(members):
-        seen.add(member.name)
-        sub = submission_by_name.get(member.name)
+        member_subs = by_member.get(member.id) or []
+        sub = member_subs[-1] if member_subs else None  # 同一学生多次提交时取最新一次
         if sub:
+            used.update(s.id for s in member_subs)
             item = _submission_to_student(sub, i + 1)
         else:
             item = _empty_student(i + 1, member.name)
-        item["member_id"] = member.id
+        item.update({
+            "member_id": member.id,
+            "name": member.name,
+            "display_name": display.get(member.id, member.name),
+            "student_no": member.student_no,
+            "in_roster": True,
+        })
         students.append(item)
 
     # 班级里没有花名册时，按作业的计划人数补齐占位（兼容历史数据）
     if not members:
+        seen_names = set()
         for i in range(assignment.total_students or 0):
             name = f"学生{i + 1}"
-            seen.add(name)
-            sub = submission_by_name.get(name)
-            students.append(_submission_to_student(sub, i + 1) if sub else _empty_student(i + 1, name))
+            seen_names.add(name)
+            sub = next((s for s in reversed(subs) if s.student_name == name), None)
+            if sub:
+                used.add(sub.id)
+            item = _submission_to_student(sub, i + 1) if sub else _empty_student(i + 1, name)
+            item.update({"member_id": None, "display_name": item["name"], "student_no": None, "in_roster": False})
+            students.append(item)
 
-    # 已提交但不在花名册中的学生（如已被移出班级或临时录入）
-    for name, sub in submission_by_name.items():
-        if name not in seen:
-            students.append(_submission_to_student(sub, len(students) + 1))
+    # 已上传但不在花名册中的提交（学生已被移出班级，或临时录入的姓名）
+    for sub in subs:
+        if sub.id in used:
+            continue
+        item = _submission_to_student(sub, len(students) + 1)
+        item.update({"member_id": sub.member_id, "display_name": item["name"], "student_no": None, "in_roster": False})
+        students.append(item)
+        used.add(sub.id)
 
     return students
 
@@ -797,14 +894,13 @@ def _empty_student(order_id: int, name: str) -> dict:
         "id": order_id,
         "submission_id": None,
         "name": name,
+        "uploaded": False,
         "submitStatus": "未提交",
         "submitTime": None,
         "score": None,
         "gradingStatus": "未提交",
         "wrongCount": None,
         "fileCount": 0,
-        "datasetFileId": None,
-        "isTestData": False,
         "status": None,
         "progressStage": None,
         "errorMessage": None,
@@ -812,18 +908,18 @@ def _empty_student(order_id: int, name: str) -> dict:
 
 
 def _submission_to_student(sub: HomeworkSubmission, order_id: int) -> dict:
+    scored = is_scored(sub)
     return {
         "id": order_id,
         "submission_id": sub.id,
         "name": sub.student_name or f"学生{order_id}",
+        "uploaded": True,
         "submitStatus": "已提交",
         "submitTime": sub.submit_time,
-        "score": sub.score,
+        "score": sub.score if scored else None,
         "gradingStatus": sub.grading_status or ("已批改" if sub.status == "completed" else "待批改"),
-        "wrongCount": sub.wrong_count,
+        "wrongCount": sub.wrong_count if scored else None,
         "fileCount": sub.file_count or 1,
-        "datasetFileId": sub.dataset_file_id,
-        "isTestData": sub.is_test_data,
         "grading_result_id": sub.id if sub.status == "completed" else None,
         "status": sub.status,
         "progressStage": sub.progress_stage,
@@ -834,6 +930,7 @@ def _submission_to_student(sub: HomeworkSubmission, order_id: int) -> dict:
 # ==================== 统计 ====================
 
 async def _class_graded_submissions(db: AsyncSession, class_id: int) -> List[HomeworkSubmission]:
+    """班级内计入成绩的提交（批改完成且有分数；失败 / 未批改的不计入）"""
     assignment_ids = [
         row[0] for row in (await db.execute(
             select(HomeworkAssignment.id).where(HomeworkAssignment.class_id == class_id)
@@ -841,12 +938,13 @@ async def _class_graded_submissions(db: AsyncSession, class_id: int) -> List[Hom
     ]
     if not assignment_ids:
         return []
-    return list((await db.execute(
+    subs = (await db.execute(
         select(HomeworkSubmission)
         .where(HomeworkSubmission.assignment_id.in_(assignment_ids))
-        .where(HomeworkSubmission.grading_status == "已批改")
+        .where(HomeworkSubmission.status == "completed")
         .order_by(HomeworkSubmission.id)
-    )).scalars().all())
+    )).scalars().all()
+    return [s for s in subs if is_scored(s)]
 
 
 async def get_homework_stats(db: AsyncSession, class_slug_value: str, *, teacher_id: int) -> dict:
@@ -879,7 +977,7 @@ async def get_homework_stats(db: AsyncSession, class_slug_value: str, *, teacher
     submit_rate = round((current["submitted"] / current["total"]) * 1000) / 10 if current["total"] > 0 else 0
 
     graded = await _class_graded_submissions(db, cls.id)
-    scored = [s.score for s in graded if s.score is not None]
+    scored = [s.score for s in graded]
     pass_rate = round(sum(1 for s in scored if s >= PASS_SCORE) / len(scored) * 1000) / 10 if scored else 0
 
     return {
@@ -899,6 +997,7 @@ async def get_homework_stats(db: AsyncSession, class_slug_value: str, *, teacher
 
 
 async def get_grading_tasks(db: AsyncSession, class_slug_value: str, *, teacher_id: int) -> List[dict]:
+    cls = await get_class_record(db, class_slug_value, teacher_id=teacher_id)
     homework_list = await get_homework_list(db, class_slug_value, teacher_id=teacher_id)
     tasks = []
     for hw in homework_list:
@@ -908,11 +1007,13 @@ async def get_grading_tasks(db: AsyncSession, class_slug_value: str, *, teacher_
         done = hw["submitted"] - pending_count
         progress = round((done / hw["submitted"]) * 100) if hw["submitted"] > 0 else 0
         tasks.append({
-            "id": f"hw-{class_slug_value}-{hw['id']}",
+            "id": f"hw-{cls.id}-{hw['id']}",
             "type": "homework-grading",
             "title": f"批改：{hw['title']}",
             "homeworkId": hw["id"],
-            "classId": class_slug_value,
+            "assignmentId": hw["id"],
+            "classId": cls.id,
+            "className": cls.class_name,
             "status": "pending" if pending_count > 0 or hw["submitted"] == 0 else "completed",
             "progress": progress,
             "progressLabel": f"已批改 {done}/{hw['submitted']} 份",
@@ -930,56 +1031,77 @@ async def get_all_grading_tasks(db: AsyncSession, *, teacher_id: int) -> List[di
     )
     tasks = []
     for (cid,) in result.all():
-        tasks.extend(await get_grading_tasks(db, class_slug(cid), teacher_id=teacher_id))
+        tasks.extend(await get_grading_tasks(db, str(cid), teacher_id=teacher_id))
     return tasks
 
 
 async def get_alert_students(db: AsyncSession, class_slug_value: str, *, teacher_id: int) -> List[dict]:
-    """预警学生：平均分低于及格线 / 最近一次成绩明显下滑 / 当前作业未提交"""
+    """预警学生：平均分低于及格线 / 最近一次成绩明显下滑 / 已过截止日期仍未上传（按学生 ID 统计）"""
+    from datetime import date
+
     cls = await get_class_record(db, class_slug_value, teacher_id=teacher_id)
+    members = await _class_members(db, cls.id)
+    display = member_display_names(members)
     alerts = []
 
     graded = await _class_graded_submissions(db, cls.id)
-    by_name: Dict[str, List[float]] = {}
-    for s in graded:
-        if s.score is not None:
-            by_name.setdefault(s.student_name, []).append(s.score)
-    member_names = {m.name for m in await _class_members(db, cls.id)}
-    for name, scores in by_name.items():
-        if member_names and name not in member_names:
+    by_member = _subs_by_member(members, graded)
+    for m in members:
+        scores = [s.score for s in by_member.get(m.id, [])]
+        if not scores:
             continue
         avg = round(sum(scores) / len(scores), 1)
+        name = display.get(m.id, m.name)
         if avg < PASS_SCORE:
-            alerts.append({"name": name, "score": avg, "trend": "down", "warning": f"作业平均分低于{PASS_SCORE}分"})
+            alerts.append({"member_id": m.id, "name": name, "score": avg, "trend": "down",
+                           "warning": f"作业平均分低于{PASS_SCORE}分"})
         elif len(scores) >= 2 and scores[-2] - scores[-1] >= 15:
-            alerts.append({"name": name, "score": scores[-1], "trend": "down", "warning": f"最近一次成绩下降 {round(scores[-2] - scores[-1])} 分"})
-
-    from datetime import date
+            alerts.append({"member_id": m.id, "name": name, "score": scores[-1], "trend": "down",
+                           "warning": f"最近一次成绩下降 {round(scores[-2] - scores[-1])} 分"})
 
     homework_list = await get_homework_list(db, class_slug_value, teacher_id=teacher_id)
     today = date.today().isoformat()
-    # 只对已过截止日期的待批改作业提示「未提交」
+    # 只对已过截止日期的待批改作业提示「未上传」
     latest_pending = next(
         (h for h in homework_list if h["status"] == "待批改" and (h["deadline"] or "") < today), None
     )
     if latest_pending:
         students = await get_student_submissions(db, class_slug_value, latest_pending["id"], teacher_id=teacher_id)
-        not_submitted = [s for s in students if s["submitStatus"] == "未提交"]
+        not_submitted = [s for s in students if not s["uploaded"] and s.get("in_roster")]
         for s in not_submitted[:5]:
             alerts.append({
-                "name": s["name"],
+                "member_id": s.get("member_id"),
+                "name": s.get("display_name") or s["name"],
                 "score": None,
                 "trend": "down",
-                "warning": f"未提交作业《{latest_pending['title']}》",
+                "warning": f"未上传作业《{latest_pending['title']}》",
             })
 
     alerts.sort(key=lambda a: (a["score"] is None, a["score"] if a["score"] is not None else 0))
     return alerts[:10]
 
 
+def _submission_display_name(sub: HomeworkSubmission, display: Dict[int, str], unique_name: Dict[str, int]) -> str:
+    if sub.member_id and sub.member_id in display:
+        return display[sub.member_id]
+    if not sub.member_id and sub.student_name in unique_name:
+        return display.get(unique_name[sub.student_name], sub.student_name)
+    return sub.student_name or "未填写姓名"
+
+
+def _unique_name_map(members: List[ClassMember]) -> Dict[str, int]:
+    counts: Dict[str, int] = {}
+    for m in members:
+        counts[m.name] = counts.get(m.name, 0) + 1
+    return {m.name: m.id for m in members if counts[m.name] == 1}
+
+
 async def get_score_archive(db: AsyncSession, class_slug_value: str, *, teacher_id: int) -> List[dict]:
-    """成绩档案：每份作业的已批改成绩统计（平均/最高/最低/及格率/分布/前五名）"""
+    """成绩档案：每份作业的成绩统计（平均/最高/最低/及格率/分布/前五名）；失败与未批改的不计入"""
     cls = await get_class_record(db, class_slug_value, teacher_id=teacher_id)
+    members = await _class_members(db, cls.id)
+    display = member_display_names(members)
+    unique_name = _unique_name_map(members)
     assignments = (await db.execute(
         select(HomeworkAssignment)
         .where(HomeworkAssignment.class_id == cls.id)
@@ -991,9 +1113,9 @@ async def get_score_archive(db: AsyncSession, class_slug_value: str, *, teacher_
         subs = (await db.execute(
             select(HomeworkSubmission)
             .where(HomeworkSubmission.assignment_id == a.id)
-            .where(HomeworkSubmission.grading_status == "已批改")
+            .where(HomeworkSubmission.status == "completed")
         )).scalars().all()
-        scored = [(s.student_name, s.score) for s in subs if s.score is not None]
+        scored = [(_submission_display_name(s, display, unique_name), s.score) for s in subs if is_scored(s)]
         if not scored:
             continue
         values = [v for _, v in scored]
@@ -1011,7 +1133,7 @@ async def get_score_archive(db: AsyncSession, class_slug_value: str, *, teacher_
             distribution.append({"range": label, "count": count, "percentage": round(count / n * 1000) / 10})
         top = sorted(scored, key=lambda x: -x[1])[:5]
         items.append({
-            "id": a.dataset_file_id or a.id,
+            "id": a.id,
             "assignment_id": a.id,
             "name": a.title,
             "date": a.assign_date,
@@ -1031,15 +1153,18 @@ async def get_score_archive(db: AsyncSession, class_slug_value: str, *, teacher_
 
 
 async def get_homework_analysis(db: AsyncSession, class_slug_value: str, homework_id: int, *, teacher_id: int) -> Optional[dict]:
-    """按题号统计本次作业各题的正确率（仅统计有逐题批改结果的提交）"""
+    """按题号统计本次作业各题的正确率（只统计批改完成的提交；做错名单按学生区分同名）"""
     a = await get_assignment_record(db, class_slug_value, homework_id, teacher_id=teacher_id)
     if not a:
         return None
-    subs = (await db.execute(
+    members = await _class_members(db, a.class_id)
+    display = member_display_names(members)
+    unique_name = _unique_name_map(members)
+    subs = [s for s in (await db.execute(
         select(HomeworkSubmission)
         .where(HomeworkSubmission.assignment_id == a.id)
-        .where(HomeworkSubmission.grading_status == "已批改")
-    )).scalars().all()
+        .where(HomeworkSubmission.status == "completed")
+    )).scalars().all() if is_scored(s)]
 
     per_q: Dict[str, dict] = {}
     analyzed = 0
@@ -1054,20 +1179,23 @@ async def get_homework_analysis(db: AsyncSession, class_slug_value: str, homewor
         if not questions:
             continue
         analyzed += 1
+        name = _submission_display_name(s, display, unique_name)
         for idx, q in enumerate(questions):
             key = str(q.get("question_number") or idx + 1)
             entry = per_q.setdefault(key, {
                 "question_number": key,
-                "question_text": (q.get("question_text") or "")[:80],
+                "question_text": (q.get("question_text") or "")[:200],
                 "total": 0,
                 "correct": 0,
                 "wrong_students": [],
+                "wrong_members": [],
             })
             entry["total"] += 1
             if q.get("is_correct"):
                 entry["correct"] += 1
             else:
-                entry["wrong_students"].append(s.student_name)
+                entry["wrong_students"].append(name)
+                entry["wrong_members"].append({"member_id": s.member_id, "submission_id": s.id, "name": name})
 
     questions = []
     for key in sorted(per_q, key=lambda k: (not k.isdigit(), int(k) if k.isdigit() else k)):
@@ -1085,16 +1213,16 @@ async def update_assignment_status(db: AsyncSession, assignment_id: int) -> None
     if not submissions:
         return
 
-    pending = sum(1 for s in submissions if s.grading_status in ("待批改", "批改中"))
+    pending = sum(1 for s in submissions
+                  if s.status in ("queued", "processing") or (s.grading_status == "待批改" and s.status != "failed"))
     assignment = await db.get(HomeworkAssignment, assignment_id)
     if not assignment:
         return
 
     if pending == 0:
         assignment.status = "已批改"
-        scores = [s.score for s in submissions if s.score is not None]
-        if scores:
-            assignment.avg_score = round(sum(scores) / len(scores), 1)
+        scores = [s.score for s in submissions if is_scored(s)]
+        assignment.avg_score = round(sum(scores) / len(scores), 1) if scores else None
     else:
         assignment.status = "待批改"
 
@@ -1143,8 +1271,6 @@ async def backfill_ownership(db: AsyncSession) -> int:
     - 提交没有 teacher_id 时取所属作业的 teacher_id。
     把无归属的历史数据归到某位教师请用 `python manage.py assign-orphans --username <账号>`。
     """
-    from sqlalchemy import update
-
     changed = 0
     res = await db.execute(
         update(HomeworkAssignment)
@@ -1166,5 +1292,52 @@ async def backfill_ownership(db: AsyncSession) -> int:
         .execution_options(synchronize_session=False)
     )
     changed += res.rowcount or 0
+    changed += await backfill_member_ids(db)
+    # 历史演示数据的作业说明里去掉开发用语（只改播种时写入的固定文案）
+    await db.execute(
+        update(HomeworkAssignment)
+        .where(HomeworkAssignment.description.like("来自 dataset 测试集的真实作业数据%"))
+        .values(description=func.replace(HomeworkAssignment.description, "来自 dataset 测试集的真实作业数据", "高考数学真题练习"))
+        .execution_options(synchronize_session=False)
+    )
     await db.commit()
     return changed
+
+
+async def backfill_member_ids(db: AsyncSession) -> int:
+    """
+    幂等回填 homework_submissions.member_id：按“作业所在班级 + 学生姓名”匹配，
+    只有班里恰好一个同名学生时才回填；有歧义的不回填并记录日志（R1-011）。
+    """
+    rows = (await db.execute(
+        select(HomeworkSubmission.id, HomeworkSubmission.student_name, HomeworkAssignment.class_id)
+        .join(HomeworkAssignment, HomeworkAssignment.id == HomeworkSubmission.assignment_id)
+        .where(HomeworkSubmission.member_id.is_(None))
+        .where(HomeworkSubmission.student_name.is_not(None))
+    )).all()
+    if not rows:
+        return 0
+    class_ids = {r.class_id for r in rows}
+    members = (await db.execute(
+        select(ClassMember.id, ClassMember.class_id, ClassMember.name).where(ClassMember.class_id.in_(class_ids))
+    )).all()
+    index: Dict[tuple, List[int]] = {}
+    for m in members:
+        index.setdefault((m.class_id, m.name), []).append(m.id)
+    filled, ambiguous = 0, []
+    for r in rows:
+        ids = index.get((r.class_id, r.student_name), [])
+        if len(ids) == 1:
+            await db.execute(
+                update(HomeworkSubmission).where(HomeworkSubmission.id == r.id).values(member_id=ids[0])
+                .execution_options(synchronize_session=False)
+            )
+            filled += 1
+        elif len(ids) > 1:
+            ambiguous.append(r.id)
+    if ambiguous:
+        print(f"[db] {len(ambiguous)} 条批改记录因班级内有同名学生无法自动关联学生（提交 ID：{ambiguous[:20]}），"
+              f"将显示在名录末尾，请老师重新上传或核对", flush=True)
+    if filled:
+        print(f"[db] 已为 {filled} 条批改记录关联学生（按班级 + 姓名唯一匹配）", flush=True)
+    return filled

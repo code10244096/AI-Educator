@@ -90,7 +90,8 @@ class HomeworkSubmission(Base):
     assignment_id = Column(Integer, ForeignKey("homework_assignments.id"))
     user_id = Column(Integer, ForeignKey("users.id"))
     teacher_id = Column(Integer, index=True)  # 所属教师（覆盖不关联班级的临时批改）
-    student_name = Column(String(50))
+    member_id = Column(Integer, index=True)  # 对应的班级成员（同名学生按学号区分，统计按它聚合）
+    student_name = Column(String(50))  # 上传时的学生姓名快照（临时批改没有 member_id 时使用）
     dataset_file_id = Column(Integer)
     is_test_data = Column(Boolean, default=False)
     submit_time = Column(String(50))

@@ -2,7 +2,7 @@
 import json
 import os
 from datetime import datetime
-from typing import List, Optional
+from typing import List, Optional, Tuple
 
 from fastapi import APIRouter, Depends, File, Form, HTTPException, Query, UploadFile
 from fastapi.responses import FileResponse
@@ -13,10 +13,10 @@ from auth import current_user
 from class_service import class_slug, sync_wrong_questions, update_assignment_status  # noqa: F401
 from config import settings
 from database import get_db
-from file_utils import save_uploads
+from file_utils import IMAGE_EXTENSIONS, get_extension, save_uploads
 from homework_dataset import DATASET_DIR, get_dataset_file_path, get_dataset_homework, list_dataset_homeworks
 from jobs import run_grading_job, spawn
-from models import HomeworkAssignment, HomeworkSubmission, User, WrongQuestion
+from models import ClassInfo, ClassMember, HomeworkAssignment, HomeworkSubmission, User, WrongQuestion
 
 router = APIRouter()
 
@@ -30,17 +30,30 @@ def _loads(value, default):
         return default
 
 
+_EMPTY_CONTEXT = {"assignment_title": None, "class_id": None, "class_name": None, "class_slug": None,
+                  "homework_id": None}
+
+
 async def _assignment_context(db: AsyncSession, assignment_id: Optional[int]) -> dict:
+    """批改记录所属的班级与作业（作业统一用主键；前端路由 /class/{class_id}/homework/{assignment_id}）"""
     if not assignment_id:
-        return {"assignment_title": None, "class_slug": None, "homework_id": None}
+        return dict(_EMPTY_CONTEXT)
     a = await db.get(HomeworkAssignment, assignment_id)
     if not a:
-        return {"assignment_title": None, "class_slug": None, "homework_id": None}
+        return dict(_EMPTY_CONTEXT)
+    cls = await db.get(ClassInfo, a.class_id) if a.class_id else None
     return {
         "assignment_title": a.title,
+        "class_id": a.class_id,
+        "class_name": cls.class_name if cls else None,
         "class_slug": class_slug(a.class_id) if a.class_id else None,
-        "homework_id": a.dataset_file_id or a.id,
+        "homework_id": a.id,
     }
+
+
+def _image_count(paths) -> int:
+    """真正的图片张数（txt / md / docx / pdf 不算图片）"""
+    return sum(1 for p in paths if get_extension(p) in IMAGE_EXTENSIONS)
 
 
 def _submission_summary(sub: HomeworkSubmission) -> dict:
@@ -60,10 +73,9 @@ def _submission_summary(sub: HomeworkSubmission) -> dict:
         "wrong_count": sub.wrong_count,
         "file_names": names or [os.path.basename(p) for p in paths],
         "file_count": sub.file_count or len(paths),
-        "image_count": len(paths),
+        "image_count": _image_count(paths),
+        "member_id": sub.member_id,
         "submit_time": sub.submit_time,
-        "is_test_data": sub.is_test_data,
-        "dataset_file_id": sub.dataset_file_id,
         "created_at": sub.created_at,
         "finished_at": sub.finished_at,
     }
@@ -102,28 +114,77 @@ async def _prepare_submission(
     assignment_id: Optional[int],
     student_name: Optional[str],
     teacher_id: int,
-) -> Optional[HomeworkSubmission]:
-    """校验参数并找到要复用的提交记录（显式 submission_id，或同一作业下同名学生的记录）"""
+    member_id: Optional[int] = None,
+) -> Tuple[Optional[HomeworkSubmission], Optional[ClassMember]]:
+    """
+    校验参数，找到要复用的提交记录与对应学生：
+    - member_id（推荐）：必须属于该作业所在班级；复用该学生在这次作业下的提交；
+    - 只有 student_name：班里恰好一个同名学生时关联该学生；有同名学生时要求用 member_id 指定；
+    - submission_id：覆盖重批指定的提交。
+    """
+    assignment = None
     if assignment_id:
         assignment = await db.get(HomeworkAssignment, assignment_id)
         if not assignment or assignment.teacher_id != teacher_id:
             raise HTTPException(status_code=404, detail="作业不存在")
 
+    member = None
+    if member_id:
+        if not assignment:
+            raise HTTPException(status_code=400, detail="请先选择作业，再指定学生")
+        member = await db.get(ClassMember, member_id)
+        if not member or member.class_id != assignment.class_id:
+            raise HTTPException(status_code=400, detail="该学生不在这个作业所属的班级里")
+    elif assignment and student_name:
+        same = (await db.execute(
+            select(ClassMember)
+            .where(ClassMember.class_id == assignment.class_id, ClassMember.name == student_name)
+        )).scalars().all()
+        if len(same) > 1:
+            raise HTTPException(status_code=400, detail=f"班里有 {len(same)} 名“{student_name}”，请按学号选择学生")
+        member = same[0] if same else None
+
     sub = None
     if submission_id:
         sub = await _get_submission(db, submission_id, teacher_id)
-    elif assignment_id and student_name:
+    elif assignment and member:
         sub = (await db.execute(
             select(HomeworkSubmission)
-            .where(HomeworkSubmission.assignment_id == assignment_id)
+            .where(HomeworkSubmission.assignment_id == assignment.id)
+            .where(HomeworkSubmission.member_id == member.id)
+            .order_by(HomeworkSubmission.id.desc())
+            .limit(1)
+        )).scalar_one_or_none()
+        if sub is None:
+            # 历史记录还没有关联学生：姓名在班里唯一时接管它
+            sub = (await db.execute(
+                select(HomeworkSubmission)
+                .where(HomeworkSubmission.assignment_id == assignment.id)
+                .where(HomeworkSubmission.member_id.is_(None))
+                .where(HomeworkSubmission.student_name == member.name)
+                .order_by(HomeworkSubmission.id.desc())
+                .limit(1)
+            )).scalar_one_or_none()
+            if sub is not None:
+                same_count = await db.scalar(
+                    select(func.count(ClassMember.id))
+                    .where(ClassMember.class_id == assignment.class_id, ClassMember.name == member.name)
+                )
+                if same_count != 1:
+                    sub = None
+    elif assignment and student_name:
+        sub = (await db.execute(
+            select(HomeworkSubmission)
+            .where(HomeworkSubmission.assignment_id == assignment.id)
+            .where(HomeworkSubmission.member_id.is_(None))
             .where(HomeworkSubmission.student_name == student_name)
             .order_by(HomeworkSubmission.id.desc())
             .limit(1)
         )).scalar_one_or_none()
 
-    if sub and sub.status == "processing":
+    if sub and sub.status in ("processing", "queued"):
         raise HTTPException(status_code=409, detail="该作业正在批改中，请等待完成后再提交")
-    return sub
+    return sub, member
 
 
 async def _legacy_response(db: AsyncSession, sub: HomeworkSubmission, extra: Optional[dict] = None) -> dict:
@@ -139,7 +200,7 @@ async def _legacy_response(db: AsyncSession, sub: HomeworkSubmission, extra: Opt
         "error_message": sub.error_message,
         "ocr_result": sub.ocr_result if sub.status == "completed" else None,
         "grading_result": _loads(sub.grading_result, None) if sub.status == "completed" else None,
-        "image_count": len(_loads(sub.image_paths, [])),
+        "image_count": _image_count(_loads(sub.image_paths, [])),
     }
     if extra:
         data.update(extra)
@@ -169,6 +230,7 @@ async def upload_homework(
     assignment_id: Optional[int] = Form(None),
     submission_id: Optional[int] = Form(None),
     student_name: Optional[str] = Form(None),
+    member_id: Optional[int] = Form(None),
     wait: bool = Form(False),
     db: AsyncSession = Depends(get_db),
     user: User = Depends(current_user),
@@ -178,11 +240,13 @@ async def upload_homework(
     默认立即返回 status=processing，前端轮询 GET /grader/{submission_id}；
     传 wait=true 时同步等待批改完成（兼容旧行为，仅建议测试使用）。
     """
-    student_name = (student_name or "").strip() or None
-    sub = await _prepare_submission(
+    student_name = (student_name or "").strip()[:50] or None
+    sub, member = await _prepare_submission(
         db, submission_id=submission_id, assignment_id=assignment_id, student_name=student_name,
-        teacher_id=user.id,
+        teacher_id=user.id, member_id=member_id,
     )
+    if member is not None:
+        student_name = member.name
     saved = await save_uploads(files)
 
     now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -190,6 +254,7 @@ async def upload_homework(
         sub = HomeworkSubmission(
             assignment_id=assignment_id,
             teacher_id=user.id,
+            member_id=member.id if member else None,
             student_name=student_name,
             is_test_data=False,
             submit_time=now_str,
@@ -198,9 +263,12 @@ async def upload_homework(
     else:
         if assignment_id and not sub.assignment_id:
             sub.assignment_id = assignment_id
+        if member is not None:
+            sub.member_id = member.id
         if student_name:
             sub.student_name = student_name
-        sub.submit_time = sub.submit_time or now_str
+        # 重新上传 / 重批：提交时间更新为本次上传时间（R1-005）
+        sub.submit_time = now_str
         sub.is_test_data = False
         sub.dataset_file_id = None
 
@@ -329,16 +397,19 @@ async def get_submission_file(submission_id: int, index: int, db: AsyncSession =
     return FileResponse(path, filename=filename)
 
 
-# ==================== dataset 测试集 ====================
+# ==================== 开发用测试集（仅非生产环境注册，见 api.py） ====================
 
-@router.get("/homework/dataset")
+dataset_router = APIRouter()
+
+
+@dataset_router.get("/homework/dataset")
 async def get_homework_dataset_list():
     """获取 dataset 测试集作业列表"""
     items = list_dataset_homeworks()
     return {"items": items, "total": len(items)}
 
 
-@router.get("/homework/dataset/{file_id}")
+@dataset_router.get("/homework/dataset/{file_id}")
 async def get_homework_dataset_detail(file_id: int):
     """获取 dataset 测试集作业详情（含学生作答与参考答案）"""
     data = get_dataset_homework(file_id=file_id)
@@ -347,7 +418,7 @@ async def get_homework_dataset_detail(file_id: int):
     return data
 
 
-@router.post("/grader/upload-dataset/{file_id}")
+@dataset_router.post("/grader/upload-dataset/{file_id}")
 async def upload_dataset_homework(
     file_id: int,
     subject: str = Form("数学"),
@@ -382,7 +453,7 @@ async def upload_dataset_homework(
                 reference_answer = assignment.reference_answer
 
     student_name = (student_name or "").strip() or None
-    sub = await _prepare_submission(
+    sub, member = await _prepare_submission(
         db, submission_id=submission_id, assignment_id=assignment_id, student_name=student_name,
         teacher_id=user.id,
     )
@@ -390,6 +461,7 @@ async def upload_dataset_homework(
         sub = HomeworkSubmission(
             assignment_id=assignment_id,
             teacher_id=user.id,
+            member_id=member.id if member else None,
             student_name=student_name or data["title"],
             submit_time=datetime.now().strftime("%Y-%m-%d %H:%M"),
         )

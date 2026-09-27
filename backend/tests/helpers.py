@@ -102,3 +102,13 @@ async def login_client(c: httpx.AsyncClient, username: str, password: str) -> Di
     c.user = user
     c.password = password
     return user
+
+
+SEED_HW_TITLE = "高考数学作业集10"  # 演示数据中“待批改”的那份作业（含 38 份待批改提交）
+
+
+async def seeded_homework_id(client: httpx.AsyncClient, title: str = SEED_HW_TITLE, class_slug: str = "class1") -> int:
+    """演示数据的作业主键（R1-005 起作业一律按主键访问）"""
+    r = await client.get(f"/api/class/{class_slug}/homework")
+    assert r.status_code == 200, r.text
+    return next(h["id"] for h in r.json()["items"] if h["title"] == title)

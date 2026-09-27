@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import { Routes, Route, useNavigate, useLocation, useParams, Link } from 'react-router-dom'
+import { Routes, Route, useNavigate, useLocation, useParams } from 'react-router-dom'
 import {
   ClipboardList,
   Archive,
@@ -23,12 +23,12 @@ import {
   FileText,
   Trash2,
   Loader2,
-  Settings as SettingsIcon,
 } from 'lucide-react'
-import html2pdf from 'html2pdf.js'
 import HomeworkDetail from './HomeworkDetail'
 import { useHomeworkBoard, useClassInfo } from '../hooks/useClassHomework'
 import ClassStats from '../components/ClassStats'
+import ClassManager from '../components/ClassManager'
+import { Loading } from '../components/PageState'
 import ConfirmDialog from '../components/ConfirmDialog'
 import { useToast } from '../components/Toast'
 import { useClass } from '../context/ClassContext'
@@ -289,14 +289,11 @@ const HomeworkBoard = ({ classId, info }) => {
           <div className="p-5 border-b border-gray-200 flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <ListTodo className="h-5 w-5 text-blue-500" />
-              <h3 className="text-lg font-semibold text-gray-900">我的任务</h3>
+              <h3 className="text-lg font-semibold text-gray-900">待处理</h3>
               <span className="px-2 py-0.5 bg-orange-100 text-orange-700 text-xs rounded-full">
-                {gradingTasks.length} 项待完成
+                {gradingTasks.length} 次作业
               </span>
             </div>
-            <Link to="/tasks" className="text-sm text-blue-600 hover:text-blue-800">
-              查看全部任务
-            </Link>
           </div>
           <div className="p-5 space-y-3">
             {gradingTasks.map((task) => (
@@ -489,6 +486,7 @@ const ScoreArchive = ({ classId, info }) => {
     try {
       const element = document.getElementById(`exam-detail-${exam.assignment_id}`)
       if (!element) return
+      const { default: html2pdf } = await import('html2pdf.js')
       await html2pdf(element, {
         margin: 10,
         filename: `${exam.name}_成绩分析报告.pdf`,
@@ -991,7 +989,7 @@ const ClassDetail = () => {
   const { classId } = useParams()
   const navigate = useNavigate()
   const location = useLocation()
-  const { info, notFound } = useClassInfo(classId)
+  const { info, notFound, loading: infoLoading } = useClassInfo(classId)
 
   const tabs = [
     { id: 'homework', label: '作业看板', icon: ClipboardList, path: `/class/${classId}/homework` },
@@ -1023,10 +1021,14 @@ const ClassDetail = () => {
         <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center">
           <GraduationCap className="h-5 w-5 text-white" />
         </div>
-        <div>
-          <h1 className="text-xl font-bold text-gray-900">{info.name}</h1>
-          <p className="text-sm text-gray-500">{info.grade ? `${info.grade} · ` : ''}{info.subject} · {info.students}名学生</p>
-        </div>
+        {infoLoading ? (
+          <div className="w-48"><Loading variant="skeleton" rows={2} /></div>
+        ) : (
+          <div>
+            <h1 className="text-xl font-bold text-gray-900">{info.name}</h1>
+            <p className="text-sm text-gray-500">{info.grade ? `${info.grade} · ` : ''}{info.subject || '数学'} · {info.students}名学生</p>
+          </div>
+        )}
       </div>
 
       <div className="flex space-x-1 bg-gray-100 rounded-lg p-1 mb-6 w-fit">
@@ -1058,55 +1060,13 @@ const ClassDetail = () => {
 }
 
 const ClassOverview = () => {
-  const navigate = useNavigate()
-  const { classes, loaded } = useClass()
-
   return (
-    <div className="p-6">
-      <div className="flex items-center justify-between mb-6">
-        <div>
-          <h1 className="text-xl font-bold text-gray-900">我的班级</h1>
-          <p className="text-sm text-gray-500 mt-1">选择一个班级查看作业、成绩与学生</p>
-        </div>
-        <button
-          onClick={() => navigate('/settings')}
-          className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-lg text-sm text-gray-600 hover:bg-gray-50"
-        >
-          <SettingsIcon className="h-4 w-4 mr-2" />
-          班级管理
-        </button>
+    <div className="p-4 sm:p-6 max-w-4xl">
+      <div className="mb-6">
+        <h1 className="text-xl font-bold text-gray-900">我的班级</h1>
+        <p className="text-sm text-gray-500 mt-1">新建班级、导入学生名单，点击班级查看作业、成绩与学生</p>
       </div>
-      {!loaded ? (
-        <div className="flex items-center justify-center py-16 text-gray-500">
-          <Loader2 className="h-5 w-5 mr-2 animate-spin" />
-          加载班级...
-        </div>
-      ) : classes.length === 0 ? (
-        <div className="text-center py-16">
-          <Users className="h-12 w-12 text-gray-300 mx-auto mb-3" />
-          <p className="text-gray-500">还没有班级，请先到「设置 → 班级管理」中新建</p>
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {classes.map(cls => (
-            <button
-              key={cls.id}
-              onClick={() => navigate(`/class/${cls.slug}/homework`)}
-              className="text-left bg-white rounded-xl border border-gray-200 p-5 hover:shadow-md hover:border-blue-200 transition-all"
-            >
-              <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
-                  <GraduationCap className="h-5 w-5 text-blue-600" />
-                </div>
-                <div>
-                  <p className="font-medium text-gray-900">{cls.name}</p>
-                  <p className="text-xs text-gray-500">{cls.grade} · {cls.subject} · {cls.students}名学生 · {cls.homeworkCount ?? 0}份作业</p>
-                </div>
-              </div>
-            </button>
-          ))}
-        </div>
-      )}
+      <ClassManager />
     </div>
   )
 }

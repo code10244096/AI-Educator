@@ -44,7 +44,7 @@ python manage.py assign-orphans --username 13800000001    # 把无归属的历�
 - 同名函数可直接 `import manage` 调用（同步函数）：`create_user(username, name, role='teacher', school=None, password=None, must_change_password=True) -> (user_id, password)`、`reset_password`、`disable_user`、`enable_user`、`list_users`、`assign_orphans`。
 - 未配置 AI Key（或 `LLM_API_KEY=your_api_key_here`）时进入模拟模式：OCR / 批改 / 教案 / 变式题均返回本地模拟结果，不访问网络。
 - 环境变量覆盖：`DATABASE_URL`、`UPLOAD_DIR`、`API_OUTPUT_ROOT`、`LLM_API_KEY`、`JWT_SECRET`、`SESSION_EXPIRE_MINUTES`、`COOKIE_SECURE`、`BCRYPT_ROUNDS`（相对路径的 SQLite 库按 `backend/` 目录解析）。
-- 启动（FastAPI lifespan）：`create_all` + 幂等增量迁移（仅 `ALTER TABLE ADD COLUMN` / 新建索引，绝不删表/删数据）→ 静态演示数据播种（库中已有用户或班级时跳过；不调用 AI）→ 归属补齐（作业没有 `teacher_id` 时取班级的、提交没有时取作业的；只填空值）→ 把上次中断仍为 `processing` 的任务标记为 `failed`。
+- 启动（FastAPI lifespan）：`create_all` + 幂等增量迁移（仅 `ALTER TABLE ADD COLUMN` / 新建索引，绝不删表/删数据）→ 静态演示数据播种（**仅 `SEED_DEMO_DATA=true` 时**，默认关闭、生产强制关闭；库中已有用户或班级时跳过；不调用 AI）→ 归属补齐（作业没有 `teacher_id` 时取班级的、提交没有时取作业的；只填空值）→ `homework_submissions.member_id` 回填（按“作业所在班级 + 学生姓名”唯一匹配，同名有歧义的不回填并打印日志）→ 把上次中断仍为 `processing` 的任务标记为 `failed`。
 
 ## 生产环境与配置（R1-003）
 
@@ -87,7 +87,8 @@ python manage.py assign-orphans --username 13800000001    # 把无归属的历�
 | `subject` | 默认 `数学` |
 | `assignment_id` | 关联班级作业（不存在 → 404） |
 | `submission_id` | 覆盖重批某条提交（不存在 → 404；正在批改 → 409） |
-| `student_name` | 学生姓名；与 `assignment_id` 同时给出且该学生已有提交时，复用那条提交 |
+| `member_id` | 班级学生 ID（**推荐**，同名学生靠它区分）。需同时给 `assignment_id`，且学生必须属于该作业所在班级，否则 `400`；该学生在这次作业下已有提交时复用那条提交（覆盖重批） |
+| `student_name` | 学生姓名。没给 `member_id` 时：班里恰好一个同名学生则自动关联；班里有多个同名学生 → `400`（请按学号选择）；不在名单里的姓名按临时记录保存 |
 | `wait` | `true` 同步等待（默认 `false`） |
 
 响应 200：
@@ -97,16 +98,17 @@ python manage.py assign-orphans --username 13800000001    # 把无归属的历�
  "error_message": null, "ocr_result": null, "grading_result": null, "image_count": 1}
 ```
 `wait=true` 时 `status=completed`，`ocr_result` / `grading_result` 为完整结果（旧版同步接口的字段都在）。
+重新上传 / 重批时 `submit_time` 更新为本次上传时间；`image_count` 只统计图片张数（txt/md/docx/pdf 不算）。
 
 ### `GET /grader/submissions`
 查询：`status`、`assignment_id`、`student_name`（模糊）、`include_seed`（默认 false：只列真正提交过批改任务的记录）、`limit`(1–200, 默认20)、`offset`。
 响应：`{"items": [SubmissionSummary + assignment_title/class_slug/homework_id], "total": n}`
 
-SubmissionSummary：`id, submission_id, assignment_id, student_name, subject, status, grading_status, progress_stage, error_message, score, wrong_count, file_names[], file_count, image_count, submit_time, is_test_data, dataset_file_id, created_at, finished_at`
+SubmissionSummary：`id, submission_id, assignment_id, member_id, student_name, subject, status, grading_status, progress_stage, error_message, score, wrong_count, file_names[], file_count, image_count, submit_time, created_at, finished_at`（不再返回 `is_test_data`、`dataset_file_id`）
 
 ### `GET /grader/{submission_id}`
 批改详情 / 任务状态。404 不存在。响应 = SubmissionSummary +
-`assignment_title, class_slug, homework_id, ocr_result, grading_result(对象, 未完成时为 {}), reference_answer`。
+`assignment_title, class_id, class_name, class_slug, homework_id(=作业主键), ocr_result, grading_result(对象, 未完成时为 {}), reference_answer`。
 
 `status`：`pending`（演示数据中待批改）/ `processing` / `completed` / `failed`。
 `grading_status`：`待批改` / `批改中` / `已批改`（失败后回到 `待批改`）。
@@ -127,6 +129,8 @@ SubmissionSummary：`id, submission_id, assignment_id, student_name, subject, st
 
 ### `GET /grader/{submission_id}/files/{index}`
 下载第 index 个原始文件（仅限上传目录 / dataset 目录）。只有提交所属教师能下载，其他教师 404。
+
+### 开发用测试集接口（仅非生产环境注册；`APP_ENV=production` 时这 3 个路由不存在）
 
 ### `GET /homework/dataset`
 `{"items": [{"id","filename","title","question_count","file_size"}], "total"}`
@@ -204,18 +208,21 @@ Class：`id, slug, name, students(=成员数), member_count, homework_count, sub
 | DELETE | `/class/{slug}` | – | `{"message","deleted_assignments","deleted_submissions","deleted_members"}`（错题本保留） |
 
 ### 学生
-Member：`id, class_id, name, gender, student_no, order_index, created_at`；列表项额外含 `avgScore, submittedCount, gradedCount, homeworkCount, trend(up|down|flat|null), status(优秀|良好|待提高|需关注|暂无成绩), rank`。
+Member：`id, class_id, name, display_name, gender, student_no, order_index, created_at`（`display_name`：班里有重名时为“姓名（学号）”，否则就是姓名）；列表项额外含 `avgScore, submittedCount, gradedCount, homeworkCount, trend(up|down|flat|null), status(优秀|良好|待提高|需关注|暂无成绩), rank`。
 
 | 方法 | 路径 | 请求 | 响应 / 状态码 |
 |---|---|---|---|
 | GET | `/class/{slug}/members` | – | `{"items":[Member+统计]}` |
-| POST | `/class/{slug}/members` | JSON `{name, gender?, student_no?}` | Member；400 空名；409 同名 |
-| POST | `/class/{slug}/members/import` | multipart：`text` 和/或 `file`(.txt/.csv ≤1MB)；每行 `姓名[,性别][,学号]`，自动跳过表头 | `{"added_count","skipped_count","added","skipped","message"}`；400 |
-| PUT | `/class/{slug}/members/{member_id}` | JSON `{name?, gender?, student_no?}`（改名同步该班提交记录上的姓名） | Member；404；409 |
+| POST | `/class/{slug}/members` | JSON `{name, gender?, student_no?}` | Member；400 空名；409 重复（见下方唯一性规则） |
+| POST | `/class/{slug}/members/import` | multipart：`text` 和/或 `file`(.txt/.csv ≤1MB)；每行 `姓名[,性别][,学号]`，自动跳过表头 | `{"added_count","skipped_count","added","skipped","skipped_duplicate_name","skipped_duplicate_no","message"}`，如“成功导入 2 名学生，重名跳过 1 名：张三”；400 |
+| PUT | `/class/{slug}/members/{member_id}` | JSON `{name?, gender?, student_no?}`（提交按 member_id 关联，改名后历史成绩仍归该学生，并刷新提交上的姓名快照） | Member；404；409 |
 | DELETE | `/class/{slug}/members/{member_id}` | – | `{"message"}`；404（提交记录保留） |
 
+**学生唯一性（R1-011）**：同一班级内，有学号时以学号唯一（学号重复 → 409“班级中已有学号为 X 的学生”），没有学号时以姓名唯一（→ 409“班级中已有同名学生…请填写学号区分”）；**同名不同学号的学生都保留**。名录、成绩档案、做错名单、预警、上传都按 `member_id` 区分，同名时显示“姓名（学号）”。
+
 ### 作业
-Homework：`id`（展示 ID = dataset_file_id 或主键）, `assignment_id`（主键）, `title, date, deadline, submitted, total(=班级成员数), avgScore, status(待批改|已批改), description, datasetFileId, hasTestData, subject, referenceAnswer, gradedCount, pendingCount, processingCount`
+Homework：`id`（**= 作业主键**，与 `assignment_id` 相同；R1-005 起不再有“展示 ID”）, `assignment_id`, `class_id, title, date, deadline, submitted(已上传份数), total(=班级成员数), avgScore, status(待批改|已批改), description, subject, referenceAnswer, hasReferenceAnswer, gradedCount, pendingCount, processingCount(含排队), failedCount`（不再返回 `datasetFileId`、`hasTestData`）。
+URL 中的 `homework_id` 一律是作业主键，且必须属于该班级，否则 404。
 
 | 方法 | 路径 | 请求 | 响应 / 状态码 |
 |---|---|---|---|
@@ -225,7 +232,7 @@ Homework：`id`（展示 ID = dataset_file_id 或主键）, `assignment_id`（�
 | PUT | `/class/{slug}/homework/{homework_id}` | JSON 同上（均可选） | Homework；404 |
 | DELETE | `/class/{slug}/homework/{homework_id}` | – | `{"message","deleted_submissions"}`；404 |
 | GET | `/class/{slug}/homework/{homework_id}/submissions` | – | `{"items":[StudentRow]}` |
-| GET | `/class/{slug}/homework/{homework_id}/analysis` | – | `{"analyzed_count","graded_count","questions":[{"question_number","question_text","total","correct","correct_rate","wrong_students"}]}` |
+| GET | `/class/{slug}/homework/{homework_id}/analysis` | – | `{"analyzed_count","graded_count","questions":[{"question_number","question_text","total","correct","correct_rate","wrong_students"(显示名，同名带学号),"wrong_members":[{"member_id","submission_id","name"}]}]}`（只统计批改完成的提交） |
 | DELETE | `/class/{slug}/homework/{homework_id}/submissions/pending` | – | `{"message","deleted_count"}` |
 | DELETE | `/class/{slug}/homework/{homework_id}/submissions/keep-first/{n}` | – | `{"message","deleted_count","kept_count"}` |
 | GET | `/class/{slug}/homework-stats` | – | `{"currentHomework","submitRate","submitted","notSubmitted","total","gradedCount","pendingCount","pendingHomeworkCount","totalHomeworks","avgScore","passRate","gradedHomeworkCount"}` |
@@ -233,7 +240,9 @@ Homework：`id`（展示 ID = dataset_file_id 或主键）, `assignment_id`（�
 | GET | `/class/{slug}/alert-students` | – | `{"items":[{"name","score","trend","warning"}]}`（平均分<60、成绩骤降、当前作业未提交） |
 | GET | `/class/{slug}/score-archive` | – | `{"items":[{"id","assignment_id","name","date","avgScore","highest","lowest","passRate","gradedCount","excellentCount","goodCount","passCount","failCount","distribution":[{"range","count","percentage"}],"topStudents":[{"name","score","rank"}]}]}` |
 
-StudentRow：`id(序号), member_id, submission_id, name, submitStatus(已提交|未提交), submitTime, score, gradingStatus(已批改|待批改|批改中|未提交), wrongCount, fileCount, datasetFileId, isTestData, grading_result_id, status, progressStage, errorMessage`（含不在花名册但有提交的学生）
+StudentRow：`id(序号), member_id, name, display_name, student_no, in_roster, uploaded, submission_id, submitStatus(已提交|未提交), submitTime, score, gradingStatus, wrongCount, fileCount, grading_result_id, status, progressStage, errorMessage`。
+- 每个班级学生一行（按 `member_id` 关联提交，同一学生多次提交取最新）；`in_roster=false` 的行是已上传但不在当前名单里的提交（学生已移出班级，或同名有歧义、无法自动归属的历史记录）。
+- `score` / `wrongCount` 只在批改完成时有值（失败、未批改为 null）。不再返回 `datasetFileId`、`isTestData`。
 
 ---
 
@@ -241,7 +250,32 @@ StudentRow：`id(序号), member_id, submission_id, name, submitStatus(已提交
 | 方法 | 路径 | 响应 |
 |---|---|---|
 | GET | `/tasks/all` | 所有班级的 grading-tasks 合并 `{"items":[...]}` |
-| GET | `/tasks/jobs?limit=20` | 最近后台任务 `{"items":[{"job_type":"grader"|"lessonplan","id","title","status","progress_stage","error_message","created_at", "score"?}]}` |
+| GET | `/tasks/jobs?limit=20` | 最近后台任务 `{"items":[{"job_type":"grader"|"lessonplan","id","title","status","progress_stage","error_message","created_at", ...}]}`；grader 项另有 `score, student_name, member_id, assignment_id, assignment_title, class_id, class_name`，title 为“批改：{作业名} · {学生}”（临时批改为“临时批改 · {学生}”），不含内部编号 |
+
+## 工作台 `routers/workbench.py`（R1-006）
+登录后首页的汇总，需登录，只统计当前教师自己的班级 / 作业 / 批改记录 / 教案（其他教师的数据一律不计入）。
+
+`GET /dashboard` →
+```json
+{
+  "counts": {"pending_review": 3, "processing": 38, "failed": 2, "collecting": 1, "missing_students": 7},
+  "eta_seconds": 360,
+  "targets": {
+    "review":     [{"assignment_id", "class_id", "class_name", "title", "count"}],
+    "processing": [...], "failed": [...], "missing": [...]
+  },
+  "recent_assignments": [{"assignment_id", "class_id", "class_name", "title", "assign_date", "deadline",
+                          "total_members", "uploaded", "completed", "processing", "failed", "pending_review",
+                          "missing", "avg_score"}],
+  "classes": [{"class_id", "name", "grade", "member_count", "assignment_count", "avg_score"}],
+  "recent_lesson_plans": [{"id", "title", "status", "progress_stage", "created_at"}]
+}
+```
+- 只统计挂在班级作业下的提交（临时批改不计入）。口径：`pending_review` = `status=completed` 且 `review_status != reviewed`；`processing` = `status in (queued, processing)`；`failed` = `status=failed`；`collecting` = 班级有学生还没上传的作业数，`missing_students` 为这些作业的缺交人数合计。
+- `avg_score` 只统计 `status=completed` 且有分数的提交，没有时为 `null`；`eta_seconds` 为批改中作业的预计剩余秒数（没有估计时为 `null`）。
+- `targets.*` 为各卡片对应的作业（每类最多 5 个，最新在前），前端跳转 `/class/{class_id}/homework/{assignment_id}?filter=review|processing|failed|missing`。
+- `recent_assignments` 最多 8 条（最新布置在前），`recent_lesson_plans` 最多 5 条。新教师所有计数为 0、列表为空（前端显示三步引导）。
+- 未登录 401；需先改初始密码 403。
 
 ## 题库 `routers/questionbank.py`（接口未变）
 `POST /questionbank/add`(form)、`POST /questionbank/batch-add`(JSON 数组)、`GET /questionbank/list`、`GET /questionbank/stats`、`GET /questionbank/{id}`、`POST /questionbank/search`(form)。

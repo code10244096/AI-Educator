@@ -3,7 +3,6 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { ArrowLeft, FileCheck, Award, Target, AlertCircle, TrendingUp, BookOpen, XCircle, CheckCircle, Loader2, FileText, Paperclip } from 'lucide-react'
 import { useTask } from '../context/TaskContext'
 import { homeworkAPI, getErrorMessage } from '../utils/api'
-import html2pdf from 'html2pdf.js'
 import { formatServerTime } from '../utils/time'
 
 const TaskDetail = () => {
@@ -48,7 +47,7 @@ const TaskDetail = () => {
     type: 'grader',
     title: serverResult.student_name
       ? `作业批改 - ${serverResult.student_name}${serverResult.assignment_title ? `《${serverResult.assignment_title}》` : ''}`
-      : `作业批改 #${serverResult.id}`,
+      : '临时批改',
     createdAt: serverResult.created_at,
     files: serverResult.file_names,
   } : null)
@@ -67,6 +66,7 @@ const TaskDetail = () => {
     }
     
     try {
+      const { default: html2pdf } = await import('html2pdf.js')
       await html2pdf().set(opt).from(element).save()
     } catch (err) {
       console.error('PDF导出失败:', err)

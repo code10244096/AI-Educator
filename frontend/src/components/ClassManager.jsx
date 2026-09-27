@@ -4,6 +4,7 @@ import { School, Plus, Edit, Trash2, X, Users } from 'lucide-react'
 import { useClass } from '../context/ClassContext'
 import { useToast } from './Toast'
 import ConfirmDialog from './ConfirmDialog'
+import { Empty, ErrorState, Loading } from './PageState'
 import { getErrorMessage } from '../utils/api'
 
 const GRADES = ['高一', '高二', '高三']
@@ -121,11 +122,15 @@ const ClassManager = ({ autoOpenCreate = false }) => {
         </div>
       )}
 
-      {loadError && (
-        <div className="p-4 rounded-xl border border-red-200 bg-red-50 text-sm text-red-700 flex items-center justify-between">
-          <span>{loadError}</span>
-          <button onClick={reloadClasses} className="px-3 py-1 rounded-lg bg-white border border-red-200 hover:bg-red-100">重试</button>
-        </div>
+      {loadError && <ErrorState message={loadError} onRetry={reloadClasses} compact />}
+      {!loaded && !loadError && <Loading variant="skeleton" rows={3} />}
+      {loaded && !loadError && classes.length === 0 && !showAdd && (
+        <Empty
+          icon={School}
+          title="还没有班级"
+          desc="新建班级后导入学生名单，就可以布置作业、上传批改了"
+          action={{ label: '新建班级', onClick: () => setShowAdd(true), icon: Plus }}
+        />
       )}
 
       <div className="space-y-3">

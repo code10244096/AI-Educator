@@ -33,6 +33,10 @@ business.include_router(lessonplan.router)
 business.include_router(classes.router)
 business.include_router(tasks.router)
 business.include_router(questionbank.router)
+# 开发用测试集接口（/homework/dataset*、/grader/upload-dataset/*）只在非生产环境注册
+from config import settings as _settings  # noqa: E402
+if not _settings.IS_PRODUCTION:
+    business.include_router(grader.dataset_router)
 router.include_router(business)
 
 
