@@ -25,7 +25,10 @@ api.interceptors.response.use(
     const status = error?.response?.status
     const url = error?.config?.url || ''
     const detail = error?.response?.data?.detail
-    const isAuthCall = url.startsWith('/auth/login') || url.startsWith('/auth/me') || url.startsWith('/auth/logout')
+    const method = (error?.config?.method || 'get').toLowerCase()
+    // 只有登录、退出和启动时的 GET /auth/me 自己处理 401；PUT /auth/me（保存资料）失效时同样跳登录页
+    const isAuthCall = url.startsWith('/auth/login') || url.startsWith('/auth/logout') ||
+      (url.startsWith('/auth/me') && method === 'get')
     if (status === 401 && !isAuthCall) {
       authHandlers.onUnauthorized?.(MSG_SESSION_EXPIRED)
     } else if (status === 403 && detail === MSG_MUST_CHANGE_PASSWORD) {
