@@ -15,7 +15,6 @@ from qa_helpers import (GENERIC_LOGIN_ERROR, INITIAL_PASSWORD, NEW_PASSWORD, SES
                         create_user, drain_jobs, fresh_env, grep_frontend, hw_key, items_of, login, run_manage,
                         run_runner, sql, uniq, upload, wait_submission)
 
-pytestmark = pytest.mark.xfail(reason="待开发：第①组 账号与鉴权（R1-001、R1-002）", run=False)
 
 
 def phone() -> str:
