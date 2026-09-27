@@ -175,6 +175,12 @@ export const getErrorMessage = (error, fallback = '操作失败，请重试') =>
   const detail = error?.response?.data?.detail
   if (typeof detail === 'string') return detail
   if (Array.isArray(detail) && detail[0]?.msg) return detail[0].msg
+  // 没有后端 detail 时不显示 “Network Error / Request failed with status code 500” 这类英文
+  if (error?.isAxiosError) {
+    if (!error.response) return error.code === 'ECONNABORTED' ? '服务器响应超时，请稍后重试' : '无法连接服务器，请检查网络后重试'
+    if (error.response.status >= 500) return '服务器出了点问题，请稍后重试'
+    return fallback
+  }
   return error?.message || fallback
 }
 
