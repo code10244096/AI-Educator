@@ -1,289 +1,215 @@
-import React, { useState, useMemo, useEffect } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import React, { useMemo, useState } from 'react'
+import { useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import {
   ArrowLeft,
-  CheckCircle,
-  Clock,
   Search,
   Eye,
-  FileCheck,
-  BrainCircuit,
   Users,
   BarChart3,
   Upload,
   XCircle,
-  FileText,
-  Beaker,
   Loader2,
-  X,
-  Target,
+  BrainCircuit,
+  AlertTriangle,
 } from 'lucide-react'
-import { homeworkAPI, classHomeworkAPI } from '../utils/api'
 import { useHomeworkDetail, useClassInfo } from '../hooks/useClassHomework'
+import { classHomeworkAPI } from '../utils/api'
+import useAsync from '../hooks/useAsync'
+import MathText from '../components/MathText'
+import { Empty, ErrorState, Loading } from '../components/PageState'
 
+// 名录筛选；工作台卡片跳转时带 ?filter=review|failed|processing|missing
 const STATUS_FILTERS = [
   { id: 'all', label: '全部' },
-  { id: 'submitted', label: '已提交' },
-  { id: 'not_submitted', label: '未提交' },
-  { id: 'graded', label: '已批改' },
-  { id: 'pending_grade', label: '待批改' },
+  { id: 'missing', label: '未上传' },
   { id: 'processing', label: '批改中' },
+  { id: 'failed', label: '失败' },
+  { id: 'graded', label: '已批改' },
+  { id: 'review', label: '待复核' },
 ]
+
+export const isProcessing = (s) => s.status === 'processing' || s.status === 'queued'
+export const isGraded = (s) => s.status === 'completed' && s.score !== null && s.score !== undefined
+export const needsReview = (s) => isGraded(s) && s.review_status === 'pending_review'
+
+const matchFilter = (s, filter) => {
+  switch (filter) {
+    case 'missing': return !s.uploaded && s.in_roster !== false
+    case 'processing': return isProcessing(s)
+    case 'failed': return s.status === 'failed'
+    case 'graded': return isGraded(s)
+    case 'review': return needsReview(s)
+    default: return true
+  }
+}
+
+const Badge = ({ className, children }) => (
+  <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium whitespace-nowrap ${className}`}>
+    {children}
+  </span>
+)
+
+const GradingBadge = ({ student }) => {
+  if (!student.uploaded) return <span className="text-sm text-gray-400">-</span>
+  if (student.status === 'queued') return <Badge className="bg-gray-100 text-gray-700">排队中</Badge>
+  if (student.status === 'processing') {
+    return <Badge className="bg-blue-100 text-blue-800"><Loader2 className="h-3 w-3 mr-1 animate-spin" />批改中</Badge>
+  }
+  if (student.status === 'failed') return <Badge className="bg-red-100 text-red-700">批改失败</Badge>
+  if (isGraded(student)) {
+    if (student.review_status === 'reviewed') return <Badge className="bg-green-100 text-green-800">已复核</Badge>
+    return <Badge className="bg-green-100 text-green-800">已批改</Badge>
+  }
+  return <Badge className="bg-orange-100 text-orange-800">待批改</Badge>
+}
+
+const StatCard = ({ label, value, className = 'text-gray-900' }) => (
+  <div className="bg-white rounded-xl p-4 border border-gray-200">
+    <p className="text-xs text-gray-500">{label}</p>
+    <p className={`text-xl font-bold mt-1 ${className}`}>{value}</p>
+  </div>
+)
 
 const HomeworkDetail = () => {
   const { classId, homeworkId } = useParams()
   const navigate = useNavigate()
+  const [searchParams, setSearchParams] = useSearchParams()
   const [searchTerm, setSearchTerm] = useState('')
-  const [statusFilter, setStatusFilter] = useState('all')
-  const [selectedStudent, setSelectedStudent] = useState(null)
-  const [datasetDetail, setDatasetDetail] = useState(null)
-  const [loadingDataset, setLoadingDataset] = useState(false)
-  const [gradingResult, setGradingResult] = useState(null)
-  const [loadingResult, setLoadingResult] = useState(false)
+  const statusFilter = STATUS_FILTERS.some(f => f.id === searchParams.get('filter')) ? searchParams.get('filter') : 'all'
 
-  const { homework, students, loading, error, invalidate } = useHomeworkDetail(classId, homeworkId)
+  const { homework, students, loading, error, reload } = useHomeworkDetail(classId, homeworkId)
   const { info } = useClassInfo(classId)
-  const [analysis, setAnalysis] = useState(null)
-  const gradedTotal = students.filter(s => s.gradingStatus === '已批改').length
-
-  useEffect(() => {
-    classHomeworkAPI.getAnalysis(classId, homeworkId)
-      .then(setAnalysis)
-      .catch(() => setAnalysis(null))
-  }, [classId, homeworkId, gradedTotal])
+  const gradedTotal = students.filter(isGraded).length
+  const analysis = useAsync(() => classHomeworkAPI.getAnalysis(classId, homeworkId), [classId, homeworkId, gradedTotal])
 
   const stats = useMemo(() => {
-    const submitted = students.filter(s => s.submitStatus === '已提交').length
-    const notSubmitted = students.filter(s => s.submitStatus === '未提交').length
-    const graded = students.filter(s => s.gradingStatus === '已批改').length
-    const pendingGrade = students.filter(s => s.gradingStatus === '待批改').length
-    const scores = students.filter(s => s.score !== null).map(s => s.score)
-    const avgScore = scores.length
-      ? Math.round((scores.reduce((a, b) => a + b, 0) / scores.length) * 10) / 10
+    const roster = students.filter(s => s.in_roster !== false)
+    const uploaded = students.filter(s => s.uploaded).length
+    const missing = roster.filter(s => !s.uploaded).length
+    const graded = students.filter(isGraded)
+    const processing = students.filter(isProcessing).length
+    const failed = students.filter(s => s.status === 'failed').length
+    const avgScore = graded.length
+      ? Math.round((graded.reduce((a, s) => a + s.score, 0) / graded.length) * 10) / 10
       : null
-
-    return { submitted, notSubmitted, graded, pendingGrade, avgScore }
+    return { uploaded, missing, graded: graded.length, processing, failed, avgScore, total: roster.length }
   }, [students])
 
-  useEffect(() => {
-    if (!selectedStudent?.datasetFileId) {
-      setDatasetDetail(null)
-      return
-    }
-    setLoadingDataset(true)
-    homeworkAPI.getDatasetDetail(selectedStudent.datasetFileId)
-      .then(data => setDatasetDetail(data))
-      .catch(() => setDatasetDetail(null))
-      .finally(() => setLoadingDataset(false))
-  }, [selectedStudent])
-
-  const handleViewStudent = async (student) => {
-    setSelectedStudent(student)
-    
-    // 如果有批改结果ID，无论是否是测试数据，都获取批改结果
-    if (student.grading_result_id) {
-      setLoadingResult(true)
-      try {
-        const result = await homeworkAPI.getResult(student.grading_result_id)
-        setGradingResult(result)
-      } catch (error) {
-        console.error('获取批改结果失败:', error)
-        setGradingResult(null)
-      } finally {
-        setLoadingResult(false)
-      }
-    } else {
-      // 没有批改结果ID，尝试获取数据集详情
-      setGradingResult(null)
-    }
-  }
-
-  const buildGraderUrl = (student) => {
-    const params = new URLSearchParams()
-    if (student.datasetFileId) params.set('dataset', student.datasetFileId)
-    if (classId) params.set('classId', classId)
-    if (homeworkId) params.set('homeworkId', homeworkId)
-    if (student.submission_id) params.set('submissionId', student.submission_id)
-    if (student.name) params.set('studentName', student.name)
-    if (homework?.assignment_id) params.set('assignmentId', homework.assignment_id)
-    return `/grader?${params.toString()}`
-  }
-
-  const handleGradeWithDataset = (student) => {
-    navigate(buildGraderUrl(student))
-  }
-
   const filteredStudents = useMemo(() => {
+    const term = searchTerm.trim().toLowerCase()
     return students.filter(s => {
-      const matchesSearch = s.name.toLowerCase().includes(searchTerm.toLowerCase())
-      let matchesFilter = true
-      switch (statusFilter) {
-        case 'submitted': matchesFilter = s.submitStatus === '已提交'; break
-        case 'not_submitted': matchesFilter = s.submitStatus === '未提交'; break
-        case 'graded': matchesFilter = s.gradingStatus === '已批改'; break
-        case 'pending_grade': matchesFilter = s.gradingStatus === '待批改'; break
-        case 'processing': matchesFilter = s.gradingStatus === '批改中'; break
-        default: break
-      }
-      return matchesSearch && matchesFilter
+      const text = `${s.display_name || s.name}${s.student_no || ''}`.toLowerCase()
+      return (!term || text.includes(term)) && matchFilter(s, statusFilter)
     })
   }, [students, searchTerm, statusFilter])
 
-  if (loading) {
-    return (
-      <div className="p-6 flex items-center justify-center py-16 text-gray-500">
-        <Loader2 className="h-5 w-5 mr-2 animate-spin" />
-        加载作业详情...
-      </div>
-    )
+  const setFilter = (id) => {
+    const next = new URLSearchParams(searchParams)
+    if (id === 'all') next.delete('filter')
+    else next.set('filter', id)
+    setSearchParams(next, { replace: true })
+  }
+
+  const goUpload = (student) => {
+    const params = new URLSearchParams()
+    params.set('classId', classId)
+    params.set('homeworkId', homeworkId)
+    if (homework?.assignment_id) params.set('assignmentId', homework.assignment_id)
+    if (student?.member_id) params.set('memberId', student.member_id)
+    if (student?.submission_id) params.set('submissionId', student.submission_id)
+    if (student?.name) params.set('studentName', student.name)
+    navigate(`/grader?${params.toString()}`)
+  }
+
+  const viewResult = (student) => {
+    navigate(`/tasks/sub-${student.submission_id}`, {
+      state: { from: `/class/${classId}/homework/${homeworkId}` },
+    })
+  }
+
+  if (loading && !homework) {
+    return <div className="p-6"><Loading text="正在加载作业…" /></div>
   }
 
   if (error || !homework) {
+    const notFound = error?.response?.status === 404
     return (
-      <div className="p-6 text-center">
-        <p className="text-gray-500">{error || '未找到该作业'}</p>
-        <button
-          onClick={() => navigate(`/class/${classId}/homework`)}
-          className="mt-4 text-blue-600 hover:text-blue-800 text-sm"
-        >
-          返回作业看板
-        </button>
+      <div className="p-6">
+        {notFound ? (
+          <Empty
+            title="作业不存在或已被删除"
+            action={{ label: '返回作业看板', onClick: () => navigate(`/class/${classId}/homework`) }}
+          />
+        ) : (
+          <ErrorState error={error} onRetry={() => reload()} />
+        )}
       </div>
     )
   }
 
-  const getSubmitBadge = (status) => {
-    if (status === '已提交') {
-      return <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">已提交</span>
-    }
-    return <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-600">未提交</span>
-  }
-
-  const getGradingBadge = (status) => {
-    switch (status) {
-      case '已批改':
-        return <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">已批改</span>
-      case '待批改':
-        return <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-100 text-orange-800">待批改</span>
-      case '批改中':
-        return (
-          <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-            <Loader2 className="h-3 w-3 mr-1 animate-spin" />批改中
-          </span>
-        )
-      default:
-        return <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-500">-</span>
-    }
-  }
-
   return (
-    <div className="p-6 space-y-6">
-      <div className="flex items-center space-x-4">
+    <div className="p-4 sm:p-6 space-y-6">
+      <div className="flex items-start gap-3 flex-wrap">
         <button
           onClick={() => navigate(`/class/${classId}/homework`)}
           className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+          aria-label="返回作业看板"
         >
           <ArrowLeft className="h-5 w-5 text-gray-600" />
         </button>
-        <div className="flex-1">
+        <div className="flex-1 min-w-0">
           <h1 className="text-xl font-bold text-gray-900">{homework.title}</h1>
           <p className="text-sm text-gray-500 mt-1">
-            {info.name} · {homework.subject || info.subject} · 布置日期 {homework.date} · 截止 {homework.deadline}
+            {info.name}{info.name ? ' · ' : ''}布置 {homework.date} · 截止 {homework.deadline}
           </p>
         </div>
-        {homework.status === '待批改' && stats.pendingGrade > 0 && (
-          <button
-            onClick={() => {
-              const pending = students.find(s => s.gradingStatus === '待批改')
-              if (pending) handleGradeWithDataset(pending)
-              else navigate('/grader')
-            }}
-            className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700"
-          >
-            <FileCheck className="h-4 w-4 mr-2" />
-            去批改 ({stats.pendingGrade} 份待批)
-          </button>
-        )}
+        <button
+          onClick={() => goUpload(null)}
+          className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700"
+        >
+          <Upload className="h-4 w-4 mr-2" />
+          上传作业
+        </button>
       </div>
 
-      {homework.description && (
-        <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 flex items-start justify-between gap-3">
-          <p className="text-sm text-blue-800">{homework.description}</p>
-          {homework.hasTestData && (
-            <span className="shrink-0 inline-flex items-center px-2.5 py-1 bg-purple-100 text-purple-700 text-xs rounded-full">
-              <Beaker className="h-3 w-3 mr-1" />
-              含 dataset 测试数据
-            </span>
-          )}
+      {!homework.hasReferenceAnswer && (
+        <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 flex items-start gap-2 text-sm text-amber-800">
+          <AlertTriangle className="h-4 w-4 mt-0.5 flex-shrink-0" />
+          <span>这次作业没有参考答案，AI 将自行解题判分，准确率会下降。</span>
         </div>
       )}
 
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-        <div className="bg-white rounded-xl p-4 border border-gray-200">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-xs text-gray-500">已提交</p>
-              <p className="text-xl font-bold text-green-600 mt-1">{stats.submitted}/{homework.total}</p>
-            </div>
-            <Upload className="h-5 w-5 text-green-500" />
-          </div>
+      {homework.description && (
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-4">
+          <p className="text-sm text-gray-700">{homework.description}</p>
         </div>
-        <div className="bg-white rounded-xl p-4 border border-gray-200">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-xs text-gray-500">未提交</p>
-              <p className="text-xl font-bold text-red-500 mt-1">{stats.notSubmitted}</p>
-            </div>
-            <XCircle className="h-5 w-5 text-red-400" />
-          </div>
-        </div>
-        <div className="bg-white rounded-xl p-4 border border-gray-200">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-xs text-gray-500">已批改</p>
-              <p className="text-xl font-bold text-blue-600 mt-1">{stats.graded}</p>
-            </div>
-            <CheckCircle className="h-5 w-5 text-blue-500" />
-          </div>
-        </div>
-        <div className="bg-white rounded-xl p-4 border border-gray-200">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-xs text-gray-500">待批改</p>
-              <p className="text-xl font-bold text-orange-600 mt-1">{stats.pendingGrade}</p>
-            </div>
-            <Clock className="h-5 w-5 text-orange-500" />
-          </div>
-        </div>
-        <div className="bg-white rounded-xl p-4 border border-gray-200">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-xs text-gray-500">平均分</p>
-              <p className="text-xl font-bold text-purple-600 mt-1">{stats.avgScore ?? '-'}</p>
-            </div>
-            <BarChart3 className="h-5 w-5 text-purple-500" />
-          </div>
-        </div>
+      )}
+
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
+        <StatCard label="已上传" value={`${stats.uploaded}/${stats.total}`} className="text-green-600" />
+        <StatCard label="未上传" value={stats.missing} className="text-gray-700" />
+        <StatCard label="批改中" value={stats.processing} className="text-blue-600" />
+        <StatCard label="批改失败" value={stats.failed} className={stats.failed ? 'text-red-600' : 'text-gray-700'} />
+        <StatCard label="已批改" value={stats.graded} className="text-blue-600" />
+        <StatCard label="平均分" value={stats.avgScore ?? '-'} className="text-purple-600" />
       </div>
 
       <div className="bg-white rounded-xl border border-gray-200">
-        <div className="p-5 border-b border-gray-200">
+        <div className="p-4 sm:p-5 border-b border-gray-200">
           <div className="flex items-center justify-between flex-wrap gap-3">
             <div className="flex items-center space-x-2">
               <Users className="h-5 w-5 text-gray-500" />
-              <h3 className="text-lg font-semibold text-gray-900">学生提交名录</h3>
-              <span className="text-sm text-gray-400">共 {filteredStudents.length} 人</span>
+              <h3 className="text-lg font-semibold text-gray-900">学生名录</h3>
+              <span className="text-sm text-gray-400">{filteredStudents.length} 人</span>
             </div>
-            <div className="flex items-center space-x-3">
-              <div className="flex space-x-1 bg-gray-100 rounded-lg p-1">
+            <div className="flex items-center gap-3 flex-wrap">
+              <div className="flex space-x-1 bg-gray-100 rounded-lg p-1 overflow-x-auto max-w-full">
                 {STATUS_FILTERS.map(f => (
                   <button
                     key={f.id}
-                    onClick={() => setStatusFilter(f.id)}
-                    className={`px-3 py-1 rounded-md text-xs font-medium transition-all ${
-                      statusFilter === f.id
-                        ? 'bg-white text-gray-900 shadow-sm'
-                        : 'text-gray-500 hover:text-gray-700'
+                    onClick={() => setFilter(f.id)}
+                    className={`px-3 py-1 rounded-md text-xs font-medium whitespace-nowrap transition-all ${
+                      statusFilter === f.id ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-500 hover:text-gray-700'
                     }`}
                   >
                     {f.label}
@@ -294,150 +220,128 @@ const HomeworkDetail = () => {
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
                 <input
                   type="text"
-                  placeholder="搜索学生..."
+                  placeholder="搜索姓名或学号"
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="pl-10 pr-4 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                  className="pl-9 pr-3 py-2 w-44 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 />
               </div>
             </div>
           </div>
         </div>
-        <div className="overflow-x-auto">
-          <table className="w-full">
-            <thead>
-              <tr className="bg-gray-50">
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">学生</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">提交状态</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">提交时间</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">附件</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">批改状态</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">得分</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">错题数</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">操作</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-gray-200">
-              {filteredStudents.map((student) => (
-                <tr key={student.id} className="hover:bg-gray-50">
-                  <td className="px-5 py-4">
-                    <div className="flex items-center space-x-3">
-                      <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
-                        <span className="text-sm font-medium text-blue-600">{student.name[0]}</span>
+        {students.length === 0 ? (
+          <Empty
+            compact
+            title="班级里还没有学生"
+            desc="先导入学生名单，再上传作业"
+            action={{ label: '去导入学生', onClick: () => navigate(`/class/${classId}/members`) }}
+          />
+        ) : (
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[760px]">
+              <thead>
+                <tr className="bg-gray-50">
+                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500">学生</th>
+                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500">上传</th>
+                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500">上传时间</th>
+                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500">批改状态</th>
+                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500">得分</th>
+                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500">错题数</th>
+                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500">操作</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                {filteredStudents.map((student) => (
+                  <tr key={`${student.member_id || 'x'}-${student.submission_id || student.id}`} className="hover:bg-gray-50">
+                    <td className="px-4 py-3">
+                      <div className="text-sm font-medium text-gray-900">{student.display_name || student.name}</div>
+                      <div className="text-xs text-gray-400">
+                        {student.in_roster === false ? '不在当前名单中' : (student.student_no ? `学号 ${student.student_no}` : '')}
                       </div>
-                      <div>
-                        <span className="text-sm font-medium text-gray-900">{student.name}</span>
-                        {student.isTestData && (
-                          <span className="ml-2 inline-flex items-center px-1.5 py-0.5 bg-purple-50 text-purple-600 text-[10px] rounded">
-                            测试数据
-                          </span>
-                        )}
-                      </div>
-                    </div>
-                  </td>
-                  <td className="px-5 py-4">{getSubmitBadge(student.submitStatus)}</td>
-                  <td className="px-5 py-4 text-sm text-gray-500">{student.submitTime || '-'}</td>
-                  <td className="px-5 py-4 text-sm text-gray-500">
-                    {student.fileCount > 0 ? `${student.fileCount} 个文件` : '-'}
-                  </td>
-                  <td className="px-5 py-4">
-                    {getGradingBadge(student.gradingStatus)}
-                    {student.gradingStatus === '批改中' && student.progressStage && (
-                      <p className="text-[11px] text-blue-500 mt-1">{student.progressStage}</p>
-                    )}
-                    {student.status === 'failed' && (
-                      <p className="text-[11px] text-red-500 mt-1 max-w-[180px] truncate" title={student.errorMessage}>
-                        上次批改失败：{student.errorMessage}
-                      </p>
-                    )}
-                  </td>
-                  <td className="px-5 py-4 text-sm font-medium text-gray-900">
-                    {student.score !== null ? `${student.score} 分` : '-'}
-                  </td>
-                  <td className="px-5 py-4 text-sm text-gray-500">
-                    {student.wrongCount !== null ? student.wrongCount : '-'}
-                  </td>
-                  <td className="px-5 py-4">
-                    <div className="flex items-center space-x-2">
-                      {student.isTestData && (
-                        <button
-                          onClick={() => handleViewStudent(student)}
-                          className="text-purple-600 hover:text-purple-800 text-sm inline-flex items-center"
-                        >
-                          <FileText className="h-3.5 w-3.5 mr-1" />
-                          作业
-                        </button>
+                    </td>
+                    <td className="px-4 py-3">
+                      {student.uploaded
+                        ? <Badge className="bg-green-50 text-green-700">已上传 {student.fileCount} 个文件</Badge>
+                        : <Badge className="bg-gray-100 text-gray-500">未上传</Badge>}
+                    </td>
+                    <td className="px-4 py-3 text-sm text-gray-500 whitespace-nowrap">{student.submitTime || '-'}</td>
+                    <td className="px-4 py-3">
+                      <GradingBadge student={student} />
+                      {isProcessing(student) && student.progressStage && (
+                        <p className="text-[11px] text-blue-500 mt-1">{student.progressStage}</p>
                       )}
-                      {student.gradingStatus === '待批改' ? (
-                        <button
-                          onClick={() => handleGradeWithDataset(student)}
-                          className="text-blue-600 hover:text-blue-800 text-sm"
-                        >
-                          批改
-                        </button>
-                      ) : student.gradingStatus === '已批改' ? (
-                        <>
+                      {student.status === 'failed' && student.errorMessage && (
+                        <p className="text-[11px] text-red-500 mt-1 max-w-[220px]" title={student.errorMessage}>
+                          {student.errorMessage}
+                        </p>
+                      )}
+                    </td>
+                    <td className="px-4 py-3 text-sm font-medium text-gray-900">
+                      {isGraded(student) ? `${student.score} 分` : '-'}
+                    </td>
+                    <td className="px-4 py-3 text-sm text-gray-500">
+                      {isGraded(student) ? student.wrongCount : '-'}
+                    </td>
+                    <td className="px-4 py-3">
+                      <div className="flex items-center space-x-3 whitespace-nowrap">
+                        {student.submission_id && (isGraded(student) || student.status === 'failed') && (
                           <button
-                            onClick={() => handleViewStudent(student)}
+                            onClick={() => viewResult(student)}
                             className="text-blue-600 hover:text-blue-800 text-sm inline-flex items-center"
                           >
                             <Eye className="h-3.5 w-3.5 mr-1" />
                             查看
                           </button>
+                        )}
+                        {!isProcessing(student) && student.in_roster !== false && (
                           <button
-                            onClick={() => handleGradeWithDataset(student)}
-                            className="text-gray-400 hover:text-gray-700 text-sm"
-                            title="重新上传批改"
+                            onClick={() => goUpload(student)}
+                            className={`text-sm inline-flex items-center ${student.uploaded ? 'text-gray-500 hover:text-gray-800' : 'text-blue-600 hover:text-blue-800'}`}
                           >
-                            重批
+                            <Upload className="h-3.5 w-3.5 mr-1" />
+                            {student.uploaded ? '重新上传' : '上传'}
                           </button>
-                        </>
-                      ) : student.gradingStatus === '批改中' ? (
-                        <span className="text-sm text-gray-400">处理中</span>
-                      ) : (
-                        <button
-                          onClick={() => handleGradeWithDataset(student)}
-                          className="text-blue-600 hover:text-blue-800 text-sm inline-flex items-center"
-                        >
-                          <Upload className="h-3.5 w-3.5 mr-1" />
-                          上传批改
-                        </button>
-                      )}
-                    </div>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        {filteredStudents.length === 0 && (
-          <div className="p-8 text-center text-gray-400 text-sm">没有匹配的学生记录</div>
+                        )}
+                        {isProcessing(student) && <span className="text-sm text-gray-400">处理中</span>}
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            {filteredStudents.length === 0 && (
+              <div className="p-8 text-center text-gray-400 text-sm">没有符合条件的学生</div>
+            )}
+          </div>
         )}
       </div>
 
       <div className="bg-white rounded-xl border border-gray-200">
-        <div className="p-5 border-b border-gray-200">
-          <div className="flex items-center space-x-2">
-            <BrainCircuit className="h-5 w-5 text-purple-500" />
-            <h3 className="text-lg font-semibold text-gray-900">逐题正确率</h3>
-            {analysis && (
-              <span className="text-sm text-gray-400">基于 {analysis.analyzed_count} 份含逐题结果的批改</span>
-            )}
-          </div>
+        <div className="p-4 sm:p-5 border-b border-gray-200 flex items-center space-x-2 flex-wrap">
+          <BrainCircuit className="h-5 w-5 text-purple-500" />
+          <h3 className="text-lg font-semibold text-gray-900">逐题正确率</h3>
+          {analysis.data && analysis.data.analyzed_count > 0 && (
+            <span className="text-sm text-gray-400">基于 {analysis.data.analyzed_count} 份已批改作业</span>
+          )}
         </div>
-        {analysis && analysis.questions.length > 0 ? (
-          <div className="p-5 space-y-4">
-            {analysis.questions.map((q) => (
+        {analysis.loading && !analysis.data ? (
+          <Loading variant="skeleton" rows={3} className="p-5" />
+        ) : analysis.error ? (
+          <ErrorState error={analysis.error} onRetry={() => analysis.reload()} compact />
+        ) : analysis.data && analysis.data.questions.length > 0 ? (
+          <div className="p-4 sm:p-5 space-y-4">
+            {analysis.data.questions.map((q) => (
               <div key={q.question_number} className="space-y-2">
-                <div className="flex items-center justify-between gap-3">
-                  <span className="text-sm font-medium text-gray-700 truncate" title={q.question_text}>
-                    第 {q.question_number} 题{q.question_text ? `：${q.question_text}` : ''}
-                  </span>
+                <div className="flex items-start justify-between gap-3">
+                  <div className="text-sm font-medium text-gray-700 min-w-0">
+                    <span className="mr-1">第 {q.question_number} 题</span>
+                    {q.question_text && <MathText text={q.question_text} className="text-gray-600 font-normal" />}
+                  </div>
                   <span className="text-sm text-gray-500 shrink-0">
                     正确率 {q.correct_rate}%（{q.correct}/{q.total}）
                   </span>
                 </div>
-                <div className="w-full bg-gray-100 rounded-full h-3 overflow-hidden">
+                <div className="w-full bg-gray-100 rounded-full h-2.5 overflow-hidden">
                   <div
                     className={`h-full rounded-full ${
                       q.correct_rate >= 70 ? 'bg-green-500' : q.correct_rate >= 50 ? 'bg-orange-500' : 'bg-red-500'
@@ -446,184 +350,32 @@ const HomeworkDetail = () => {
                   />
                 </div>
                 {q.wrong_students.length > 0 && (
-                  <p className="text-xs text-gray-400">
-                    做错：{q.wrong_students.slice(0, 10).join('、')}{q.wrong_students.length > 10 ? ` 等 ${q.wrong_students.length} 人` : ''}
+                  <p className="text-xs text-gray-500">
+                    做错 {q.wrong_students.length} 人：{q.wrong_students.slice(0, 12).join('、')}
+                    {q.wrong_students.length > 12 ? ' 等' : ''}
                   </p>
                 )}
               </div>
             ))}
           </div>
         ) : (
-          <div className="p-8 text-center">
-            <BrainCircuit className="h-10 w-10 text-gray-200 mx-auto mb-3" />
-            <p className="text-sm text-gray-500">AI 批改完成后，将自动统计每道题的班级正确率</p>
-          </div>
+          <Empty
+            compact
+            icon={BarChart3}
+            title="还没有批改完成的作业"
+            desc="上传并批改后，这里会统计每道题的正确率和做错名单"
+          />
         )}
       </div>
 
-      {selectedStudent && (
-        <div className="fixed inset-0 z-50 flex justify-end">
-          <div className="absolute inset-0 bg-black/40" onClick={() => { setSelectedStudent(null); setGradingResult(null) }} />
-          <div className="relative w-full max-w-3xl bg-white shadow-xl h-full overflow-y-auto">
-            <div className="sticky top-0 bg-white border-b border-gray-200 p-5 flex items-center justify-between z-10">
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900">{selectedStudent.name} 的作业</h3>
-                <p className="text-sm text-gray-500 mt-0.5">
-                  {gradingResult ? `得分 ${gradingResult.score} · 错题 ${gradingResult.wrong_count}` :
-                    datasetDetail?.title || '加载中...'}
-                </p>
-              </div>
-              <button onClick={() => { setSelectedStudent(null); setGradingResult(null) }} className="p-2 hover:bg-gray-100 rounded-lg">
-                <X className="h-5 w-5 text-gray-500" />
-              </button>
-            </div>
-            <div className="p-6 space-y-6">
-              {loadingResult ? (
-                <div className="flex items-center justify-center py-12">
-                  <Loader2 className="h-6 w-6 animate-spin text-blue-500" />
-                </div>
-              ) : gradingResult ? (
-                <>
-                  {/* 作业概览卡片 */}
-                  <div className="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl p-5 text-white">
-                    <h4 className="text-sm font-medium opacity-80 mb-3">作业概览</h4>
-                    <div className="grid grid-cols-4 gap-4">
-                      <div className="text-center">
-                        <p className="text-2xl font-bold">{gradingResult.score}</p>
-                        <p className="text-xs opacity-80 mt-1">得分</p>
-                      </div>
-                      <div className="text-center">
-                        <p className="text-2xl font-bold">{gradingResult.grading_result?.total_questions || 0}</p>
-                        <p className="text-xs opacity-80 mt-1">总题数</p>
-                      </div>
-                      <div className="text-center">
-                        <p className="text-2xl font-bold">{gradingResult.grading_result?.correct_count || 0}</p>
-                        <p className="text-xs opacity-80 mt-1">正确数</p>
-                      </div>
-                      <div className="text-center">
-                        <p className="text-2xl font-bold">{gradingResult.wrong_count || gradingResult.grading_result?.wrong_count || 0}</p>
-                        <p className="text-xs opacity-80 mt-1">错误数</p>
-                      </div>
-                    </div>
-                    <div className="mt-4 pt-4 border-t border-white/20">
-                      <p className="text-xs opacity-80">
-                        得分计算：(正确数/总题数) × 100 = ({gradingResult.grading_result?.correct_count || 0}/{gradingResult.grading_result?.total_questions || 0}) × 100 = {gradingResult.score}分
-                      </p>
-                    </div>
-                  </div>
-
-                  {/* 原作业内容 */}
-                  <div>
-                    <h4 className="text-base font-semibold text-gray-800 mb-3 flex items-center">
-                      <FileText className="h-5 w-5 mr-2 text-gray-500" />
-                      原作业内容
-                    </h4>
-                    <div className="bg-gray-50 rounded-xl p-5 border border-gray-200">
-                      {gradingResult.ocr_result ? (
-                        <pre className="whitespace-pre-wrap text-sm text-gray-700 leading-relaxed">{gradingResult.ocr_result}</pre>
-                      ) : (
-                        <p className="text-sm text-gray-400">暂无作业内容</p>
-                      )}
-                    </div>
-                  </div>
-
-                  {/* 详细批改结果 */}
-                  <div>
-                    <h4 className="text-base font-semibold text-gray-800 mb-3 flex items-center">
-                      <BrainCircuit className="h-5 w-5 mr-2 text-purple-500" />
-                      详细批改结果
-                    </h4>
-                    <div className="space-y-4">
-                      {gradingResult.grading_result?.questions?.map((q, idx) => (
-                        <div key={idx} className={`rounded-xl border-2 p-5 ${q.is_correct ? 'border-green-200 bg-green-50/50' : 'border-red-200 bg-red-50/50'}`}>
-                          <div className="flex items-center justify-between mb-3">
-                            <div className="flex items-center space-x-2">
-                              <span className="text-base font-bold text-gray-900">第 {q.question_number} 题</span>
-                              <span className={`px-2.5 py-0.5 rounded-full text-xs font-medium ${q.is_correct ? 'bg-green-200 text-green-800' : 'bg-red-200 text-red-800'}`}>
-                                {q.is_correct ? '正确' : '错误'}
-                              </span>
-                            </div>
-                          </div>
-
-                          {/* 题目 */}
-                          <div className="bg-white/80 rounded-lg p-4 mb-3">
-                            <p className="text-sm font-medium text-gray-600 mb-1">题目：</p>
-                            <p className="text-sm text-gray-800 leading-relaxed">{q.question_text || '（无题目内容）'}</p>
-                          </div>
-
-                          {/* 答案对比 */}
-                          <div className="grid grid-cols-2 gap-4 mb-3">
-                            <div className="bg-white/80 rounded-lg p-3">
-                              <p className="text-xs font-medium text-gray-500 mb-1">学生答案</p>
-                              <p className={`text-sm font-medium ${q.is_correct ? 'text-green-700' : 'text-red-600'}`}>
-                                {q.student_answer || '（未作答）'}
-                              </p>
-                            </div>
-                            <div className="bg-white/80 rounded-lg p-3">
-                              <p className="text-xs font-medium text-gray-500 mb-1">正确答案</p>
-                              <p className="text-sm font-medium text-green-700">
-                                {q.correct_answer || '（无标准答案）'}
-                              </p>
-                            </div>
-                          </div>
-
-                          {/* 解析 */}
-                          {q.explanation && (
-                            <div className="bg-white/80 rounded-lg p-4">
-                              <p className="text-xs font-medium text-gray-500 mb-1">解析</p>
-                              <p className="text-sm text-gray-700 leading-relaxed">{q.explanation}</p>
-                            </div>
-                          )}
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* 学习建议 */}
-                  <div>
-                    <h4 className="text-base font-semibold text-gray-800 mb-3 flex items-center">
-                      <Target className="h-5 w-5 mr-2 text-blue-500" />
-                      学习建议
-                    </h4>
-                    <div className="bg-purple-50 border border-purple-100 rounded-xl p-5">
-                      <p className="text-sm text-purple-700 leading-relaxed">
-                        {gradingResult.wrong_count > 2 
-                          ? '需要加强学习。建议回顾基础知识，多做练习，重点关注错题涉及的知识点。'
-                          : gradingResult.wrong_count > 0
-                          ? '整体表现不错，但仍有提升空间。建议针对错题进行专项练习，巩固薄弱环节。'
-                          : '表现优秀！继续保持，建议尝试更有挑战性的题目来进一步提升。'}
-                      </p>
-                    </div>
-                  </div>
-                </>
-              ) : loadingDataset ? (
-                <div className="flex items-center justify-center py-12">
-                  <Loader2 className="h-6 w-6 animate-spin text-blue-500" />
-                </div>
-              ) : datasetDetail ? (
-                <>
-                  <div className="mb-4 p-3 bg-purple-50 border border-purple-100 rounded-lg">
-                    <p className="text-xs text-purple-700">
-                      数据来源：dataset/测试集/批改作业/{datasetDetail.filename}
-                    </p>
-                  </div>
-                  <pre className="whitespace-pre-wrap text-sm text-gray-700 bg-gray-50 rounded-lg p-4 border max-h-96 overflow-y-auto">
-                    {datasetDetail.student_content}
-                  </pre>
-                  <button
-                    onClick={() => handleGradeWithDataset(selectedStudent)}
-                    className="mt-4 w-full inline-flex items-center justify-center px-4 py-2.5 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700"
-                  >
-                    <FileCheck className="h-4 w-4 mr-2" />
-                    使用此测试数据 AI 批改
-                  </button>
-                </>
-              ) : (
-                <p className="text-sm text-gray-500 text-center py-8">暂无详情</p>
-              )}
-            </div>
-          </div>
-        </div>
+      {stats.failed > 0 && statusFilter !== 'failed' && (
+        <button
+          onClick={() => setFilter('failed')}
+          className="w-full text-left bg-red-50 border border-red-200 rounded-xl p-4 text-sm text-red-700 flex items-center gap-2"
+        >
+          <XCircle className="h-4 w-4" />
+          有 {stats.failed} 份作业批改失败（不计入成绩），点击查看并重新上传
+        </button>
       )}
     </div>
   )

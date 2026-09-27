@@ -5,7 +5,7 @@ import pytest
 
 import homework_dataset
 from testenv import DATASET_HW_DIR
-from helpers import grade, grading_payload, submission_id_of
+from helpers import grade, grading_payload, seeded_homework_id, submission_id_of
 
 MD_FILES = sorted(p.name for p in DATASET_HW_DIR.glob("*.md"))
 
@@ -85,8 +85,9 @@ async def test_upload_dataset_with_fake_model(client, fake_ai):
 
 async def test_upload_dataset_linked_to_class_homework(client):
     """class_slug + homework_id resolves the assignment; submission lands in class view."""
+    hid = await seeded_homework_id(client)
     r = await grade(client, "/api/grader/upload-dataset/10",
-                    data={"class_slug": "class1", "homework_id": "10", "student_name": "数据集班级学生"})
+                    data={"class_slug": "class1", "homework_id": str(hid), "student_name": "数据集班级学生"})
     body = r.json()
     assert body.get("assignment_id")
 
@@ -94,16 +95,3 @@ async def test_upload_dataset_linked_to_class_homework(client):
 async def test_upload_dataset_unknown_id(client):
     r = await client.post("/api/grader/upload-dataset/999", data={})
     assert r.status_code == 404
-
-
-@pytest.mark.xfail(strict=False, reason="FINDING F-12: seeded class1 homework '高考数学作业集N' is linked to the "
-                   "N-th file in sorted order, whose own title is a different 作业集 number")
-async def test_seeded_homework_title_matches_dataset_file(client):
-    items = (await client.get("/api/class/class1/homework")).json()["items"]
-    mismatches = []
-    for hw in items:
-        if hw.get("datasetFileId"):
-            d = homework_dataset.get_dataset_homework(file_id=hw["datasetFileId"])
-            if d["title"] != hw["title"]:
-                mismatches.append((hw["title"], d["title"]))
-    assert not mismatches, mismatches

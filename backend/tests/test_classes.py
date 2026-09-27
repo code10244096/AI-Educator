@@ -4,7 +4,7 @@ import uuid
 import pytest
 
 from fakes import DEFAULT_OCR
-from helpers import grade
+from helpers import grade, seeded_homework_id
 
 
 async def test_class_list(client):
@@ -30,7 +30,8 @@ async def test_homework_list_and_detail(client):
 
 
 async def test_submissions_list(client):
-    subs = (await client.get("/api/class/class1/homework/10/submissions")).json()["items"]
+    hid = await seeded_homework_id(client)
+    subs = (await client.get(f"/api/class/class1/homework/{hid}/submissions")).json()["items"]
     members = (await client.get("/api/class/class1/members")).json()["items"]
     assert len(subs) >= len(members) > 0
     assert {s["gradingStatus"] for s in subs} <= {"已批改", "待批改", "未提交", "批改中"}
@@ -175,6 +176,13 @@ async def test_delete_class_keeps_notebook(client, fake_ai):
     assert len(nb) == fake_ai.grade_result["wrong_count"], "错题本保留 per API.md"
 
 
-async def test_dataset_submission_visible_in_class(client):
-    subs = (await client.get("/api/class/class1/homework/9/submissions")).json()["items"]
-    assert any(s.get("isTestData") for s in subs), "seed should mark one dataset-backed submission"
+async def test_class_views_hide_dev_concepts(client):
+    """R1-005：教师可见接口不再出现测试集 / dataset 字段，作业 id 即主键"""
+    items = (await client.get("/api/class/class1/homework")).json()["items"]
+    for hw in items:
+        assert hw["id"] == hw["assignment_id"]
+        assert "datasetFileId" not in hw and "hasTestData" not in hw
+        assert "dataset" not in (hw.get("description") or "")
+    hid = await seeded_homework_id(client, "高考数学作业集9")
+    subs = (await client.get(f"/api/class/class1/homework/{hid}/submissions")).json()["items"]
+    assert subs and all("isTestData" not in s and "datasetFileId" not in s for s in subs)

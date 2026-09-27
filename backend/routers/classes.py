@@ -115,11 +115,11 @@ async def get_class_stats(class_slug: Optional[str] = None, db: AsyncSession = D
             return empty
         query = query.where(HomeworkSubmission.assignment_id.in_(assignment_ids))
 
-    submissions = (await db.execute(query)).scalars().all()
+    submissions = [s for s in (await db.execute(query)).scalars().all() if cs.is_scored(s)]
     if not submissions:
         return empty
 
-    total_students = len(set(s.student_name for s in submissions if s.student_name))
+    total_students = len({s.member_id or s.student_name for s in submissions if s.member_id or s.student_name})
     total_wrong = sum(s.wrong_count or 0 for s in submissions)
     avg_wrong = total_wrong / len(submissions) if submissions else 0
 

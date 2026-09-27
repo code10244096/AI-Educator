@@ -71,10 +71,16 @@ async def create():
                 "subject": "数学", "education_level": "高中"})
             out["question_id"] = r.json().get("id")
             out["classes"] = len((await c.get("/api/class/list")).json()["items"])
-            subs = (await c.get("/api/class/class1/homework/10/submissions")).json()["items"]
-            out["hw10_submitted"] = sum(1 for s in subs if s.get("submission_id"))
+            out["hw10_submitted"] = await _hw10_submitted(c)
     await database.engine.dispose()
     return out
+
+
+async def _hw10_submitted(c):
+    items = (await c.get("/api/class/class1/homework")).json()["items"]
+    hid = next(h["id"] for h in items if h["title"] == "高考数学作业集10")
+    subs = (await c.get(f"/api/class/class1/homework/{hid}/submissions")).json()["items"]
+    return sum(1 for s in subs if s.get("submission_id"))
 
 
 async def check():
@@ -94,8 +100,7 @@ async def check():
                 out["submission_score"] = r.json().get("score") if r.status_code == 200 else None
             out["question"] = (await c.get(f"/api/questionbank/{ids['question_id']}")).status_code
             out["classes"] = len((await c.get("/api/class/list")).json()["items"])
-            subs = (await c.get("/api/class/class1/homework/10/submissions")).json()["items"]
-            out["hw10_submitted"] = sum(1 for s in subs if s.get("submission_id"))
+            out["hw10_submitted"] = await _hw10_submitted(c)
     await database.engine.dispose()
     return out
 

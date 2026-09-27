@@ -8,7 +8,7 @@ import pytest
 
 from testenv import DATASET_HW_DIR, GAOKAO_SCAN_DIR
 from fakes import DEFAULT_OCR, FAKE_WRONG_MARKER, prompt_text
-from helpers import grade, grading_payload, poll_job, submission_id_of
+from helpers import grade, grading_payload, poll_job, seeded_homework_id, submission_id_of
 
 UPLOAD = "/api/grader/upload"
 _used_submissions: set = set()
@@ -41,7 +41,8 @@ def _grade_calls(fake):
     return [c for c in fake.calls if c["feature"] == "grade"]
 
 
-async def pending_submission(client, class_slug="class1", homework_id=10):
+async def pending_submission(client, class_slug="class1", homework_id=None):
+    homework_id = homework_id or await seeded_homework_id(client)
     r = await client.get(f"/api/class/{class_slug}/homework/{homework_id}/submissions")
     assert r.status_code == 200, r.text
     for s in r.json()["items"]:
@@ -51,7 +52,8 @@ async def pending_submission(client, class_slug="class1", homework_id=10):
     pytest.skip("no pending submission left in seed data")
 
 
-async def assignment_id_for(client, class_slug="class1", homework_id=10) -> int:
+async def assignment_id_for(client, class_slug="class1", homework_id=None) -> int:
+    homework_id = homework_id or await seeded_homework_id(client)
     r = await client.get(f"/api/class/{class_slug}/homework/{homework_id}")
     assert r.status_code == 200, r.text
     return r.json()["assignment_id"]
@@ -252,7 +254,7 @@ async def test_retry_and_delete(client, fake_ai):
 # ---------------------------------------------------------------- assignments / persistence
 
 async def test_grade_with_assignment_uses_assignment_reference(client, fake_ai):
-    aid = await assignment_id_for(client, "class1", 10)
+    aid = await assignment_id_for(client, "class1")
     r = await grade(client, UPLOAD, files={"files": ("hw.md", DEFAULT_OCR.encode(), "text/markdown")},
                     data={"assignment_id": str(aid), "student_name": "测试学生A"})
     assert r.json().get("assignment_id") == aid
@@ -281,7 +283,8 @@ async def test_grade_existing_submission_updates_class_view(client, fake_ai):
     assert gb["grading_status"] == "已批改"
     assert gb["grading_result"]["questions"][1]["is_correct"] is False
 
-    lst = (await client.get("/api/class/class1/homework/10/submissions")).json()["items"]
+    hid = await seeded_homework_id(client)
+    lst = (await client.get(f"/api/class/class1/homework/{hid}/submissions")).json()["items"]
     row = next(s for s in lst if s["submission_id"] == sid)
     assert row["gradingStatus"] == "已批改" and row["score"] == fake_ai.grade_result["score"]
 
@@ -361,7 +364,8 @@ async def test_ai_failure_on_existing_submission_marks_it_failed(client, fake_ai
                           data={"submission_id": str(sid)})
     final = await poll_job(client, r.json())
     assert final["status"] == "failed" and final["error_message"]
-    row = next(s for s in (await client.get("/api/class/class1/homework/10/submissions")).json()["items"]
+    hid = await seeded_homework_id(client)
+    row = next(s for s in (await client.get(f"/api/class/class1/homework/{hid}/submissions")).json()["items"]
                if s["submission_id"] == sid)
     assert row["gradingStatus"] != "已批改"
 

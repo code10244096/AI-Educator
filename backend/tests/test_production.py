@@ -24,7 +24,8 @@ async def main():
     except BaseException as e:
         print("BOOT_ERROR:" + str(e)); sys.exit(3)
     import httpx
-    out = {"debug": settings.DEBUG, "sql_echo": bool(database.engine.sync_engine.echo)}
+    out = {"debug": settings.DEBUG, "sql_echo": bool(database.engine.sync_engine.echo),
+           "dataset_routes": [r.path for r in app.routes if "dataset" in getattr(r, "path", "")]}
     try:
         async with app.router.lifespan_context(app):
             t = httpx.ASGITransport(app=app)
@@ -87,6 +88,7 @@ def test_production_boot_is_locked_down(tmp_path):
     assert res["docs"] == 404 and res["openapi"] == 404 and res["health"] == 200
     assert res["debug"] is False and res["sql_echo"] is False
     assert res["cors_evil"] is None
+    assert res["dataset_routes"] == [], "生产环境不注册开发用测试集接口"
     assert res["cors_good"] == "https://school.example.com"
     # 生产不播种演示数据：空库
     import sqlite3

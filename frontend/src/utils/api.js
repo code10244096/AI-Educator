@@ -97,31 +97,6 @@ export const homeworkAPI = {
     return response.data
   },
 
-  getDatasetList: async () => {
-    const response = await api.get('/homework/dataset')
-    return response.data
-  },
-
-  getDatasetDetail: async (fileId) => {
-    const response = await api.get(`/homework/dataset/${fileId}`)
-    return response.data
-  },
-
-  gradeDataset: async (fileId, options = {}) => {
-    const { subject = '数学', assignmentId, submissionId, studentName, classId, homeworkId } = options
-    const formData = new FormData()
-    formData.append('subject', subject)
-    if (assignmentId) formData.append('assignment_id', assignmentId)
-    if (submissionId) formData.append('submission_id', submissionId)
-    if (studentName) formData.append('student_name', studentName)
-    if (classId) formData.append('class_slug', classId)
-    if (homeworkId) formData.append('homework_id', homeworkId)
-    const response = await api.post(`/grader/upload-dataset/${fileId}`, formData, {
-      headers: { 'Content-Type': 'multipart/form-data' },
-    })
-    return response.data
-  },
-
   uploadWithContext: async (files, options = {}) => {
     const {
       referenceAnswer,
@@ -129,6 +104,7 @@ export const homeworkAPI = {
       assignmentId,
       submissionId,
       studentName,
+      memberId,
       onProgress = null,
     } = options
     const formData = new FormData()
@@ -138,6 +114,7 @@ export const homeworkAPI = {
     if (assignmentId) formData.append('assignment_id', assignmentId)
     if (submissionId) formData.append('submission_id', submissionId)
     if (studentName) formData.append('student_name', studentName)
+    if (memberId) formData.append('member_id', memberId)
 
     const response = await api.post('/grader/upload', formData, {
       headers: { 'Content-Type': 'multipart/form-data' },

@@ -46,8 +46,12 @@ export function useHomeworkDetail(classId, homeworkId) {
       .then(([hw, subs]) => {
         setHomework(hw)
         setStudents(subs)
+        setError(null)
       })
-      .catch(err => setError(err.message || '加载失败'))
+      .catch(err => {
+        // 静默刷新失败时保留已有数据，不打断老师操作
+        if (silent !== true) setError(err)
+      })
       .finally(() => setLoading(false))
   }, [classId, homeworkId])
 
@@ -59,7 +63,7 @@ export function useHomeworkDetail(classId, homeworkId) {
   }, [classId, homeworkId, reload])
 
   // 有学生作业正在后台批改时，定时静默刷新
-  const hasProcessing = students.some(s => s.gradingStatus === '批改中')
+  const hasProcessing = students.some(s => s.status === 'processing' || s.status === 'queued')
   useEffect(() => {
     if (!hasProcessing) return
     const timer = setInterval(() => reload(true), 4000)
@@ -129,14 +133,16 @@ export const useClassInfo = (classId) => {
 
   useEffect(() => {
     if (fromContext || !classId) return
+    setNotFound(false)
     classAPI.getDetail(classId)
-      .then(d => { setDetail({ ...d, slug: d.slug }); setNotFound(false) })
+      .then(d => { setDetail(d); setNotFound(false) })
       .catch(() => setNotFound(true))
   }, [classId, fromContext])
 
   const info = fromContext || detail
   return {
-    info: info || { name: loaded ? '' : '加载中...', subject: '', students: 0 },
-    notFound: !fromContext && notFound,
+    info: info || { name: '', subject: '', students: 0 },
+    loading: !info && !notFound,
+    notFound: !fromContext && notFound && loaded,
   }
 }

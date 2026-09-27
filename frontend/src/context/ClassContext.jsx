@@ -67,9 +67,7 @@ export const ClassProvider = ({ children }) => {
   }
 
   const updateClass = async (id, updates) => {
-    const cls = classes.find(c => c.id === id)
-    const slug = cls?.slug || `class${id}`
-    const updated = await classAPI.update(slug, {
+    const updated = await classAPI.update(String(id), {
       name: updates.name,
       subject: updates.subject,
       grade: updates.grade,
@@ -79,8 +77,7 @@ export const ClassProvider = ({ children }) => {
   }
 
   const deleteClass = async (id) => {
-    const cls = classes.find(c => c.id === id)
-    await classAPI.remove(cls?.slug || `class${id}`)
+    await classAPI.remove(String(id))
     await reloadClasses()
   }
 
