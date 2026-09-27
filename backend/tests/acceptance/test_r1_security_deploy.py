@@ -13,7 +13,6 @@ import yaml
 
 from qa_helpers import (BACKEND, FRONTEND, PROD_JWT, REPO, grep_frontend, prod_env, run_runner, uniq, upload)
 
-pytestmark = pytest.mark.xfail(reason="待开发：第②组 安全与部署（R1-003、R1-009）", run=False)
 
 
 def _out(p) -> str:
@@ -294,7 +293,9 @@ def test_no_plaintext_secrets_tracked():
     pat = r"sk-[A-Za-z0-9_-]{16,}|[\"']?api_key[\"']?\s*[:=]\s*[\"'][A-Za-z0-9_\-]{16,}[\"']|JWT_SECRET\s*=\s*[A-Za-z0-9_\-]{24,}"
     p = subprocess.run(["git", "grep", "-nIE", pat, "--", ".", ":!*package-lock.json"], cwd=REPO,
                        capture_output=True, text=True, encoding="utf-8", errors="replace")
-    hits = [l for l in p.stdout.splitlines() if not any(a in l for a in SECRET_ALLOW)]
+    fake_in_tests = re.compile(r"sk-[A-Za-z0-9_-]*(test|fake|dummy|example|looking|0{6,})", re.I)
+    hits = [l for l in p.stdout.splitlines() if not any(a in l for a in SECRET_ALLOW)
+            and not (l.startswith("backend/tests/") and fake_in_tests.search(l))]
     assert not hits, "已跟踪文件含疑似明文密钥:\n" + "\n".join(hits[:20])
 
 

@@ -306,7 +306,7 @@
 |---|---|---|---|---|---|---|
 | 基线（开发前） | d3af4d3 | 191 passed, 1 xfailed（101s） | 骨架 92 项全部 xfail（run=False） | — | — | — |
 | ① 账号与鉴权 | 0332f1e、ce4ce36 | 236 passed、74 xfailed（277s，含验收 19 项） | `test_r1_auth.py` 19/19 通过 | B-001-1/2/4/5/6/7/8、B-003-4（教师“无权限访问”、管理员可看）、B-004-2（个人资料保存后刷新、重新登录均为新值）；登录页 375px 无横向滚动 | R1-001 通过（AC6 有 1 个 P2 例外，见 D-001）；R1-002 通过 | D-001（P2） |
-| ② 安全与部署 | 待提交 | | | | | |
+| ② 安全与部署 | 32f2a84 | 干净 worktree（HEAD=30463e4）：264 passed、1 skipped、57 xfailed（88s） | `test_r1_security_deploy.py` 17/17 通过 | B-003-4（第①组时已做） | R1-003 通过（AC2 镜像实测待 Linux 补测）；R1-009 静态检查与本机演练通过（AC1/AC3/AC5 待 Linux 补测） | 无 |
 | ③ 数据清理 | 待提交 | | | | | |
 | ④ 批改可信 | 待提交 | | | | | |
 | ⑤ 批量上传 | 待提交 | | | | | |
@@ -325,6 +325,28 @@
   - 会话失效后在“修改密码”点提交，跳登录页并提示“登录已过期，请重新登录”；但在“个人资料 → 保存修改”不跳转（D-001）；
   - 登录页和设置新密码页没有“123456”“演示密码”。
 - 本组不判定的项：侧栏仍有“题库管理”“我的任务”，设置页仍有“班级管理”，属于第⑥组范围。
+
+**第②组验收记录（2026-09-27）**
+- 自动化 17/17 通过：
+  - 生产环境下缺 JWT_SECRET、用示例值、缺有效 LLM_API_KEY 时都拒绝启动；
+  - 生产环境 `/docs`、`/redoc`、`/openapi.json` 返回 404，CORS 只放行白名单，debug=false，不打印 SQL，Cookie 带 Secure；
+  - `/api/usage/*` 教师 403、管理员 200，响应里不含绝对路径；
+  - 上传：文件头与扩展名不符返回 400“文件内容与格式不符”，11 个文件返回 400；
+  - 两个 `.dockerignore` 都已入库；按规则模拟构建上下文，不含 config.json、.env、*.db、uploads、api_runs、venv、tests；
+  - 模拟镜像（上下文拷贝，没有 config.json）只靠环境变量能以生产模式启动；
+  - 已跟踪文件中没有明文密钥；
+  - nginx：`client_max_body_size 100m`，`/api/` 读写超时 300s，三个安全头在静态资源 location 中也重复声明了；另有 HTTPS 样例；
+  - compose：后端只 expose 8000，env_file 读 .env，挂载 data/uploads/logs 卷，healthcheck 调 /health，mem_limit 1g，对外只有 80/443；
+  - 备份和恢复脚本语法正确，部署文档内容完整。
+- 用例调整：`test_no_plaintext_secrets_tracked` 在 `backend/tests/` 下把明显是假值的 `sk-…test/fake/looking/000…` 加进白名单。开发新增的 `test_production.py` 用的都是测试假值，原来的规则会误报。
+- C-009-4 备份恢复演练（scratch/qa/drill，Git Bash，本机没有 sqlite3 CLI，脚本自动改用 Python 在线备份）：备份 → 改动数据并删除 data/ 和 uploads/ → `restore.sh --yes` → 各表行数和上传文件 sha256 与备份时完全一致；20 天前的旧备份被清理，7 天前的保留。
+- C-009-2 直连后端（8041）上传：9.2MB 单张返回 200；3 张各 5.9MB（共 17.6MB）返回 200；13.4MB 返回 413“文件过大：…（单个文件不超过 10MB）”。nginx 100m 上限只做了静态检查。
+- 代码评审：
+  - 生产检查在 lifespan 开头执行（`config.production_problems`）；JWT_SECRET 生产只认环境变量且至少 32 位；
+  - Dockerfile 以单进程 uvicorn 运行（队列和限流都在进程内），启用 `--proxy-headers`；
+  - 前端镜像默认只 listen 80，HTTPS 需要按文档挂载 `nginx/https.conf`，因为 Cookie 带 Secure，不配 HTTPS 就登录不上（文档已写明）。
+- 仍需 Linux 补测（风险 R-1）：`docker build` 后执行 `ls /app`、`docker compose up` 后容器 healthy、`ss -lnt` 只看到 80/443、down/up 后数据还在、`docker stats` 内存峰值。
+- 注：共享工作区里有开发未提交的第③组改动，全量回归因此在 scratch 的 git worktree（detached HEAD）里跑，避免把开发进行中的失败算到第②组头上。
 
 **环境事故（2026-09-26，已报告 main）**：QA 启动脚本里 `-replace '','/'` 写成了非法正则，`DATABASE_URL` 没设置上，8041 后端因此两次连到了真实库 `backend/teaching_assistant.db`，执行了开发新代码的无损启动迁移：加了 7 列，`homework_submissions.teacher_id` 的空值被补成 1。没有删除，业务数据没有改动。启动脚本已经修正，现在启动前会校验解析出的路径必须在 scratch 下，否则拒绝启动。
 
