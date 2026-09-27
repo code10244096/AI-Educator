@@ -110,6 +110,11 @@ async def seed_initial_data(db: AsyncSession) -> None:
     只要库里已有用户或班级就跳过，因此用户删光班级后重启也不会被重新灌入。
     种子数据全部是静态的，不调用 AI。
     """
+    from config import settings
+
+    # 演示数据只在开发环境显式开启 SEED_DEMO_DATA=true 时播种；生产强制关闭（R1-005 / L-S08）
+    if not settings.SEED_DEMO_DATA:
+        return
     has_user = (await db.execute(select(User.id).limit(1))).first()
     has_class = (await db.execute(select(ClassInfo.id).limit(1))).first()
     if has_user or has_class:

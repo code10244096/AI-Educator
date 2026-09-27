@@ -3,26 +3,47 @@ from contextlib import asynccontextmanager
 from fastapi import Depends, FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from config import settings
+from config import production_problems, settings
 from api import router, startup_event
 from auth import require_admin
 from llm import LLMError
 from usage_api import router as usage_router
 
 
+def _announce_database() -> None:
+    """启动时醒目打印实际使用的数据库，未显式配置 DATABASE_URL 时给出警告"""
+    url = settings.DATABASE_URL
+    shown = url.split("///", 1)[-1] if url.startswith("sqlite") else url.split("@")[-1]
+    print(f"[startup] 环境：{settings.APP_ENV}；数据库：{shown}（来源：{settings.DATABASE_URL_SOURCE}）", flush=True)
+    if not settings.DATABASE_URL_SOURCE.startswith("环境变量"):
+        bar = "!" * 70
+        for line in (bar, f"注意：没有设置 DATABASE_URL，正在使用 {shown}",
+                     "如果这不是你想用的库，请立即停止服务并设置 DATABASE_URL", bar):
+            print(f"[startup] {line}", flush=True)
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """启动时初始化数据库并播种演示数据（幂等、不调用 AI）"""
+    """启动：生产安全检查 → 初始化数据库 → （仅开发环境显式开启时）播种演示数据 → 恢复中断任务"""
+    problems = production_problems(settings)
+    if problems:
+        for problem in problems:
+            print(f"[startup] 拒绝启动：{problem}", flush=True)
+        raise RuntimeError("；".join(problems))
+    _announce_database()
     await startup_event()
     yield
 
 
-# 创建 FastAPI 应用
+# 创建 FastAPI 应用（生产环境关闭 /docs、/redoc、/openapi.json）
 app = FastAPI(
     title=settings.APP_NAME,
     version=settings.APP_VERSION,
     description="AI 教学助手系统 - 提供作业批改、错题本、教案生成等功能",
     lifespan=lifespan,
+    docs_url="/docs" if settings.ENABLE_API_DOCS else None,
+    redoc_url="/redoc" if settings.ENABLE_API_DOCS else None,
+    openapi_url="/openapi.json" if settings.ENABLE_API_DOCS else None,
 )
 
 
@@ -51,7 +72,6 @@ async def root():
     """根路径"""
     return {
         "name": settings.APP_NAME,
-        "version": settings.APP_VERSION,
         "status": "running"
     }
 

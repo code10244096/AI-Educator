@@ -366,7 +366,7 @@ const UsageStats = () => {
 
       {summary && (
         <p className="text-xs text-gray-400">
-          统计于 {fmtTime(summary.generated_at)} · 日志目录 <span className="font-mono">{summary.log_root}</span>
+          统计于 {fmtTime(summary.generated_at)}
         </p>
       )}
     </div>
