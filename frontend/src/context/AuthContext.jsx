@@ -14,7 +14,6 @@ export const useAuth = () => {
 // 退出 / 换账号时清掉浏览器里残留的上一位老师的数据
 const clearLocalData = () => {
   try {
-    localStorage.removeItem('globalTasks')
     localStorage.removeItem('isLoggedIn')
     localStorage.removeItem('userName')
   } catch (e) {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import { Routes, Route, useNavigate, useLocation, useParams } from 'react-router-dom'
+import { Routes, Route, useNavigate, useLocation, useParams, useSearchParams } from 'react-router-dom'
 import {
   ClipboardList,
   Archive,
@@ -102,16 +102,16 @@ const HomeworkFormModal = ({ classId, homework, onClose, onSaved }) => {
     >
       <div>
         <label className="block text-xs font-medium text-gray-600 mb-1">作业标题 *</label>
-        <input className={inputCls} value={form.title} onChange={e => setForm(f => ({ ...f, title: e.target.value }))} placeholder="例如：导数综合练习" />
+        <input autoFocus={!homework} className={inputCls} value={form.title} onChange={e => setForm(f => ({ ...f, title: e.target.value }))} placeholder="例如：导数综合练习" />
       </div>
       <div className="grid grid-cols-2 gap-4">
         <div>
           <label className="block text-xs font-medium text-gray-600 mb-1">布置日期</label>
-          <input type="date" className={inputCls} value={form.assign_date} onChange={e => setForm(f => ({ ...f, assign_date: e.target.value }))} />
+          <input type="text" inputMode="numeric" placeholder="2026-09-27" className={inputCls} value={form.assign_date} onChange={e => setForm(f => ({ ...f, assign_date: e.target.value }))} />
         </div>
         <div>
           <label className="block text-xs font-medium text-gray-600 mb-1">截止日期</label>
-          <input type="date" className={inputCls} value={form.deadline} onChange={e => setForm(f => ({ ...f, deadline: e.target.value }))} />
+          <input type="text" inputMode="numeric" placeholder="2026-09-27" className={inputCls} value={form.deadline} onChange={e => setForm(f => ({ ...f, deadline: e.target.value }))} />
         </div>
       </div>
       <div>
@@ -134,12 +134,26 @@ const HomeworkFormModal = ({ classId, homework, onClose, onSaved }) => {
 
 const HomeworkBoard = ({ classId, info }) => {
   const navigate = useNavigate()
+  const [searchParams, setSearchParams] = useSearchParams()
   const { addToast } = useToast()
   const { reloadClasses } = useClass()
   const { stats: homeworkStats, homeworkList: recentHomework, gradingTasks, alertStudents, loading, error, reload } = useHomeworkBoard(classId)
   const [classStats, setClassStats] = React.useState(null)
   const [editingHomework, setEditingHomework] = useState(undefined)
   const [deleteTarget, setDeleteTarget] = useState(null)
+
+  useEffect(() => {
+    if (searchParams.get('create') === '1') setEditingHomework(null)
+  }, [searchParams])
+
+  const closeHomeworkForm = () => {
+    setEditingHomework(undefined)
+    if (searchParams.get('create')) {
+      const next = new URLSearchParams(searchParams)
+      next.delete('create')
+      setSearchParams(next, { replace: true })
+    }
+  }
 
   React.useEffect(() => {
     classAPI.getStats(classId).then(setClassStats).catch(() => setClassStats(null))
@@ -270,11 +284,30 @@ const HomeworkBoard = ({ classId, info }) => {
           <div className="bg-white rounded-xl p-5 border border-gray-200">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-sm text-gray-500">班级平均分 / 及格率</p>
-                <p className="text-2xl font-bold text-purple-600 mt-1">
-                  {homeworkStats.avgScore || '-'}
-                  <span className="text-base text-gray-400"> / {homeworkStats.passRate ? `${homeworkStats.passRate}%` : '-'}</span>
-                </p>
+                {(currentHomework?.gradedCount || 0) > 0 ? (
+                  <>
+                    <p className="text-sm text-gray-500">《{currentHomework.title}》平均分 / 及格率</p>
+                    <p className="text-2xl font-bold text-purple-600 mt-1">
+                      {homeworkStats.avgScore || '-'}
+                      <span className="text-base text-gray-400"> / {homeworkStats.passRate ? `${homeworkStats.passRate}%` : '-'}</span>
+                    </p>
+                    <p className="text-xs text-gray-400 mt-1 leading-snug">
+                      统计《{currentHomework.title}》已批改 {currentHomework.gradedCount} 份
+                    </p>
+                  </>
+                ) : (
+                  <>
+                    <p className="text-sm text-gray-500">这次作业的成绩</p>
+                    <p className="text-2xl font-bold text-gray-400 mt-1">这次还没有成绩</p>
+                    <button
+                      type="button"
+                      onClick={() => navigate(`/class/${classId}/exams`)}
+                      className="text-xs text-blue-600 mt-1 hover:text-blue-800"
+                    >
+                      历史均分在成绩档案
+                    </button>
+                  </>
+                )}
               </div>
               <div className="p-3 bg-purple-50 rounded-lg">
                 <BarChart3 className="h-6 w-6 text-purple-500" />
@@ -337,13 +370,40 @@ const HomeworkBoard = ({ classId, info }) => {
             还没有布置作业，点击右上角「布置作业」开始
           </div>
         ) : (
-        <div className="overflow-x-auto">
+        <>
+        <div className="lg:hidden divide-y divide-gray-100">
+          {recentHomework.map((hw) => (
+            <div key={`card-${hw.assignment_id}`} className="p-4 space-y-2">
+              <button
+                type="button"
+                onClick={() => navigate(`/class/${classId}/homework/${hw.id}`)}
+                className="w-full text-left"
+              >
+                <p className="text-sm font-medium text-gray-900">{hw.title}</p>
+                <p className="mt-1 text-xs text-gray-500">{hw.date} · 提交 {hw.submitted}/{hw.total} · {hw.status}</p>
+              </button>
+              <div className="flex items-center gap-3">
+                <button
+                  type="button"
+                  onClick={() => navigate(`/class/${classId}/homework/${hw.id}`)}
+                  className="text-blue-600 hover:text-blue-800 text-sm inline-flex items-center"
+                >
+                  <Eye className="h-3.5 w-3.5 mr-1" />
+                  查看
+                </button>
+                <button type="button" onClick={() => setEditingHomework(hw)} className="text-sm text-gray-500 hover:text-gray-800">编辑</button>
+                <button type="button" onClick={() => setDeleteTarget(hw)} className="text-sm text-gray-500 hover:text-red-600">删除</button>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="hidden lg:block overflow-x-auto">
           <table className="w-full">
             <thead>
               <tr className="bg-gray-50">
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">作业名称</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">日期</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">提交情况</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap">作业名称</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap">日期</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap">提交情况</th>
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">平均分</th>
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">状态</th>
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">操作</th>
@@ -370,15 +430,15 @@ const HomeworkBoard = ({ classId, info }) => {
                     </div>
                   </td>
                   <td className="px-5 py-4 text-sm text-gray-900">{hw.avgScore > 0 ? hw.avgScore : '-'}</td>
-                  <td className="px-5 py-4">
-                    <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
+                  <td className="px-5 py-4 whitespace-nowrap">
+                    <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium whitespace-nowrap ${
                       hw.status === '已批改' ? 'bg-green-100 text-green-800' : 'bg-orange-100 text-orange-800'
                     }`}>
                       {hw.status}
                     </span>
                   </td>
-                  <td className="px-5 py-4">
-                    <div className="flex items-center space-x-3" onClick={(e) => e.stopPropagation()}>
+                  <td className="px-5 py-4 whitespace-nowrap">
+                    <div className="flex items-center space-x-3 whitespace-nowrap" onClick={(e) => e.stopPropagation()}>
                       <button
                         onClick={() => navigate(`/class/${classId}/homework/${hw.id}`)}
                         className="text-blue-600 hover:text-blue-800 text-sm inline-flex items-center"
@@ -399,6 +459,7 @@ const HomeworkBoard = ({ classId, info }) => {
             </tbody>
           </table>
         </div>
+        </>
         )}
       </div>
 
@@ -446,8 +507,8 @@ const HomeworkBoard = ({ classId, info }) => {
         <HomeworkFormModal
           classId={classId}
           homework={editingHomework}
-          onClose={() => setEditingHomework(undefined)}
-          onSaved={() => { setEditingHomework(undefined); reload(); reloadClasses() }}
+          onClose={closeHomeworkForm}
+          onSaved={() => { closeHomeworkForm(); reload(); reloadClasses() }}
         />
       )}
 
@@ -469,7 +530,15 @@ const ScoreArchive = ({ classId, info }) => {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [selectedExam, setSelectedExam] = useState(null)
+  const [chartExamId, setChartExamId] = useState(null)
   const [exporting, setExporting] = useState(false)
+
+  useEffect(() => {
+    if (!selectedExam) return undefined
+    const onKey = (e) => { if (e.key === 'Escape') setSelectedExam(null) }
+    document.addEventListener('keydown', onKey)
+    return () => document.removeEventListener('keydown', onKey)
+  }, [selectedExam])
 
   useEffect(() => {
     setLoading(true)
@@ -479,7 +548,11 @@ const ScoreArchive = ({ classId, info }) => {
       .finally(() => setLoading(false))
   }, [classId])
 
-  const latest = exams[0]
+  const chartExam = exams.find(e => e.assignment_id === chartExamId) || exams[0]
+  const openExam = (exam) => {
+    setSelectedExam(exam)
+    setChartExamId(exam.assignment_id)
+  }
 
   const handleExportPDF = async (exam) => {
     setExporting(true)
@@ -551,7 +624,7 @@ const ScoreArchive = ({ classId, info }) => {
                   <td className="px-5 py-4 text-sm text-red-600">{exam.lowest}</td>
                   <td className="px-5 py-4 text-sm text-gray-900">{exam.passRate}%</td>
                   <td className="px-5 py-4">
-                    <button onClick={() => setSelectedExam(exam)} className="text-blue-600 hover:text-blue-800 text-sm">
+                    <button onClick={() => openExam(exam)} className="text-blue-600 hover:text-blue-800 text-sm">
                       详情
                     </button>
                   </td>
@@ -563,13 +636,23 @@ const ScoreArchive = ({ classId, info }) => {
         )}
       </div>
 
-      {latest && (
+      {chartExam && (
         <div className="bg-white rounded-xl border border-gray-200">
-          <div className="p-5 border-b border-gray-200">
-            <h3 className="text-lg font-semibold text-gray-900">成绩分布（{latest.name}）</h3>
+          <div className="p-5 border-b border-gray-200 flex flex-wrap items-center justify-between gap-3">
+            <h3 className="text-lg font-semibold text-gray-900">成绩分布（{chartExam.name}）</h3>
+            <select
+              aria-label="选择要看分布的作业"
+              value={String(chartExam.assignment_id)}
+              onChange={(e) => setChartExamId(exams.find(item => String(item.assignment_id) === e.target.value)?.assignment_id ?? e.target.value)}
+              className="border border-gray-300 rounded-lg px-3 py-1.5 text-sm text-gray-700 bg-white"
+            >
+              {exams.map((exam) => (
+                <option key={exam.assignment_id} value={String(exam.assignment_id)}>{exam.name}</option>
+              ))}
+            </select>
           </div>
           <div className="p-5 space-y-3">
-            {latest.distribution.map((item, idx) => (
+            {chartExam.distribution.map((item, idx) => (
               <div key={idx} className="flex items-center space-x-4">
                 <span className="text-sm text-gray-600 w-16">{item.range}</span>
                 <div className="flex-1 bg-gray-100 rounded-full h-6 overflow-hidden">
@@ -596,7 +679,7 @@ const ScoreArchive = ({ classId, info }) => {
                 <h3 className="text-lg font-semibold text-gray-900">{selectedExam.name}</h3>
                 <p className="text-sm text-gray-500 mt-0.5">{selectedExam.date} · 已批改 {selectedExam.gradedCount} 人</p>
               </div>
-              <button onClick={() => setSelectedExam(null)} className="p-2 hover:bg-gray-100 rounded-lg">
+              <button onClick={() => setSelectedExam(null)} className="p-2 hover:bg-gray-100 rounded-lg" aria-label="关闭">
                 <X className="h-5 w-5 text-gray-500" />
               </button>
             </div>
@@ -623,23 +706,14 @@ const ScoreArchive = ({ classId, info }) => {
 
               <div className="mb-6">
                 <h4 className="text-base font-semibold text-gray-800 mb-4">成绩分布统计</h4>
-                <div className="grid grid-cols-4 gap-4">
-                  <div className="bg-green-50 rounded-lg p-4 text-center">
-                    <p className="text-sm text-green-600 mb-1">优秀 (90+)</p>
-                    <p className="text-xl font-bold text-green-700">{selectedExam.excellentCount}人</p>
-                  </div>
-                  <div className="bg-blue-50 rounded-lg p-4 text-center">
-                    <p className="text-sm text-blue-600 mb-1">良好 (80-89)</p>
-                    <p className="text-xl font-bold text-blue-700">{selectedExam.goodCount}人</p>
-                  </div>
-                  <div className="bg-yellow-50 rounded-lg p-4 text-center">
-                    <p className="text-sm text-yellow-600 mb-1">及格 (60-79)</p>
-                    <p className="text-xl font-bold text-yellow-700">{selectedExam.passCount}人</p>
-                  </div>
-                  <div className="bg-red-50 rounded-lg p-4 text-center">
-                    <p className="text-sm text-red-600 mb-1">待提高 (&lt;60)</p>
-                    <p className="text-xl font-bold text-red-700">{selectedExam.failCount}人</p>
-                  </div>
+                <div className="space-y-3">
+                  {(selectedExam.distribution || []).map((item) => (
+                    <div key={item.range} className="flex items-center gap-3 text-sm">
+                      <span className="w-16 text-gray-600">{item.range}</span>
+                      <span className="font-medium text-gray-900">{item.count} 人</span>
+                      <span className="text-gray-400">{item.percentage}%</span>
+                    </div>
+                  ))}
                 </div>
               </div>
 
@@ -661,17 +735,17 @@ const ScoreArchive = ({ classId, info }) => {
                   ))}
                 </div>
               </div>
-            </div>
 
-            <div className="sticky bottom-0 bg-white border-t border-gray-200 p-5 flex justify-end">
-              <button
-                onClick={() => handleExportPDF(selectedExam)}
-                disabled={exporting}
-                className="inline-flex items-center px-5 py-2.5 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700 disabled:opacity-50"
-              >
-                <FileText className="h-4 w-4 mr-2" />
-                {exporting ? '导出中...' : '导出PDF分析报告'}
-              </button>
+              <div className="mt-6 flex justify-end">
+                <button
+                  onClick={() => handleExportPDF(selectedExam)}
+                  disabled={exporting}
+                  className="inline-flex items-center px-5 py-2.5 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700 disabled:opacity-50"
+                >
+                  <FileText className="h-4 w-4 mr-2" />
+                  {exporting ? '导出中...' : '导出PDF分析报告'}
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -688,12 +762,14 @@ const MemberFormModal = ({ classId, member, onClose, onSaved }) => {
     student_no: member?.student_no || '',
   })
   const [saving, setSaving] = useState(false)
+  const [nameError, setNameError] = useState('')
 
   const submit = async () => {
     if (!form.name.trim()) {
-      addToast('请输入学生姓名', 'error')
+      setNameError('请填写学生姓名')
       return
     }
+    setNameError('')
     setSaving(true)
     try {
       if (member) {
@@ -726,7 +802,8 @@ const MemberFormModal = ({ classId, member, onClose, onSaved }) => {
     >
       <div>
         <label className="block text-xs font-medium text-gray-600 mb-1">姓名 *</label>
-        <input className={inputCls} value={form.name} onChange={e => setForm(f => ({ ...f, name: e.target.value }))} />
+        <input className={inputCls} value={form.name} onChange={e => { setForm(f => ({ ...f, name: e.target.value })); setNameError('') }} />
+        {nameError && <p className="text-xs text-red-600 mt-1">{nameError}</p>}
         {member && <p className="text-xs text-gray-400 mt-1">改名会同步更新该学生在本班的作业提交记录</p>}
       </div>
       <div className="grid grid-cols-2 gap-4">
@@ -792,7 +869,13 @@ const ImportMembersModal = ({ classId, onClose, onSaved }) => {
       />
       <div>
         <label className="block text-xs font-medium text-gray-600 mb-1">或上传名单文件（.txt / .csv）</label>
-        <input type="file" accept=".txt,.csv" onChange={e => setFile(e.target.files?.[0] || null)} className="text-sm" />
+        <div className="flex items-center gap-3">
+          <label className="inline-flex items-center px-3 py-1.5 border border-gray-300 rounded-lg text-sm text-gray-700 bg-white cursor-pointer hover:bg-gray-50">
+            选择文件
+            <input type="file" accept=".txt,.csv" onChange={e => setFile(e.target.files?.[0] || null)} className="sr-only" />
+          </label>
+          <span className="text-sm text-gray-500">{file ? file.name : '还没选择文件'}</span>
+        </div>
       </div>
     </Modal>
   )
@@ -838,9 +921,17 @@ const ClassMembers = ({ classId, info }) => {
     }
   }
 
-  const filteredStudents = students.filter(s =>
-    s.name.toLowerCase().includes(searchTerm.toLowerCase()) || (s.student_no || '').includes(searchTerm)
-  )
+  const hasStudentNo = students.some(s => (s.student_no || '').trim())
+  const filteredStudents = students
+    .filter(s => {
+      const term = searchTerm.trim().toLowerCase()
+      if (!term) return true
+      const nameHit = s.name.toLowerCase().includes(term)
+      const noHit = hasStudentNo && (s.student_no || '').includes(searchTerm.trim())
+      return nameHit || noHit
+    })
+    .slice()
+    .sort((a, b) => (a.rank || 9999) - (b.rank || 9999) || a.name.localeCompare(b.name, 'zh'))
 
   const statusCls = (status) => (
     status === '优秀' ? 'bg-green-100 text-green-800' :
@@ -855,7 +946,7 @@ const ClassMembers = ({ classId, info }) => {
       <div className="flex items-center justify-between flex-wrap gap-3">
         <div>
           <h2 className="text-xl font-bold text-gray-900">班级成员</h2>
-          <p className="text-sm text-gray-500 mt-1">{info.name} · {students.length}名学生</p>
+          <p className="text-sm text-gray-500 mt-1">{info.name} · {loading ? '正在加载学生' : `${students.length}名学生`}</p>
         </div>
         <div className="flex gap-2">
           <button
@@ -883,7 +974,7 @@ const ClassMembers = ({ classId, info }) => {
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
               <input
                 type="text"
-                placeholder="搜索姓名或学号..."
+                placeholder={hasStudentNo ? '搜索姓名或学号' : '搜索姓名'}
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="pl-10 pr-4 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
@@ -908,7 +999,7 @@ const ClassMembers = ({ classId, info }) => {
             <thead>
               <tr className="bg-gray-50">
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">姓名</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">学号</th>
+                {hasStudentNo && <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">学号</th>}
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">性别</th>
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">作业提交</th>
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">平均分</th>
@@ -929,11 +1020,11 @@ const ClassMembers = ({ classId, info }) => {
                       <span className="text-sm font-medium text-gray-900">{student.name}</span>
                     </div>
                   </td>
-                  <td className="px-5 py-4 text-sm text-gray-500">{student.student_no || '-'}</td>
+                  {hasStudentNo && <td className="px-5 py-4 text-sm text-gray-500">{student.student_no}</td>}
                   <td className="px-5 py-4 text-sm text-gray-500">{student.gender}</td>
                   <td className="px-5 py-4 text-sm text-gray-500">{student.submittedCount}/{student.homeworkCount}</td>
                   <td className="px-5 py-4 text-sm font-medium text-gray-900">{student.avgScore ?? '-'}</td>
-                  <td className="px-5 py-4 text-sm text-gray-500">{student.rank ? `第 ${student.rank} 名` : '-'}</td>
+                  <td className="px-5 py-4 text-sm text-gray-500 whitespace-nowrap">{student.rank ? `第${student.rank}名` : '-'}</td>
                   <td className="px-5 py-4">
                     {student.trend === 'up' ? (
                       <TrendingUp className="h-4 w-4 text-green-500" />
@@ -1060,13 +1151,21 @@ const ClassDetail = () => {
 }
 
 const ClassOverview = () => {
+  const [searchParams, setSearchParams] = useSearchParams()
+  const openCreate = searchParams.get('create') === '1'
+  const closeCreate = () => {
+    if (!searchParams.get('create')) return
+    const next = new URLSearchParams(searchParams)
+    next.delete('create')
+    setSearchParams(next, { replace: true })
+  }
   return (
     <div className="p-4 sm:p-6 max-w-4xl">
       <div className="mb-6">
         <h1 className="text-xl font-bold text-gray-900">我的班级</h1>
         <p className="text-sm text-gray-500 mt-1">新建班级、导入学生名单，点击班级查看作业、成绩与学生</p>
       </div>
-      <ClassManager />
+      <ClassManager autoOpenCreate={openCreate} onCreateClose={closeCreate} />
     </div>
   )
 }

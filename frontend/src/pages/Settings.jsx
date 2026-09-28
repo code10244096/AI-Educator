@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import { User, KeyRound, School, Save, Loader2 } from 'lucide-react'
+import { User, KeyRound, Save, Loader2, Eye, EyeOff } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
 import { useToast } from '../components/Toast'
-import ClassManager from '../components/ClassManager'
 import { getErrorMessage } from '../utils/api'
 import { PASSWORD_RULE, validateNewPassword } from '../utils/password'
 
@@ -49,6 +48,7 @@ const ProfileSection = () => {
             onChange={(e) => setForm(prev => ({ ...prev, display_name: e.target.value }))}
             className={inputClass}
           />
+          <p className="mt-1 text-xs text-gray-400">这是显示名称，可以修改</p>
         </div>
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="profile-account">账号</label>
@@ -61,6 +61,7 @@ const ProfileSection = () => {
             id="profile-school"
             type="text"
             value={form.school}
+            placeholder="选填，例如：某某中学"
             maxLength={100}
             onChange={(e) => setForm(prev => ({ ...prev, school: e.target.value }))}
             className={inputClass}
@@ -77,6 +78,34 @@ const ProfileSection = () => {
           保存修改
         </button>
       </div>
+    </div>
+  )
+}
+
+const PasswordField = ({ id, label, value, onChange, autoComplete, hint }) => {
+  const [visible, setVisible] = useState(false)
+  return (
+    <div>
+      <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor={id}>{label}</label>
+      <div className="relative">
+        <input
+          id={id}
+          type={visible ? 'text' : 'password'}
+          autoComplete={autoComplete}
+          value={value}
+          onChange={onChange}
+          className={`${inputClass} pr-10`}
+        />
+        <button
+          type="button"
+          onClick={() => setVisible(v => !v)}
+          className="absolute inset-y-0 right-0 px-3 flex items-center text-gray-400 hover:text-gray-600"
+          aria-label={visible ? '隐藏密码' : '显示密码'}
+        >
+          {visible ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
+        </button>
+      </div>
+      {hint && <p className="mt-1 text-xs text-gray-400">{hint}</p>}
     </div>
   )
 }
@@ -118,19 +147,9 @@ const PasswordSection = () => {
         {error && (
           <div className="rounded-lg bg-red-50 border border-red-200 px-3 py-2 text-sm text-red-700" role="alert">{error}</div>
         )}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="pwd-old">当前密码</label>
-          <input id="pwd-old" type="password" autoComplete="current-password" value={form.old} onChange={update('old')} className={inputClass} />
-        </div>
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="pwd-new">新密码</label>
-          <input id="pwd-new" type="password" autoComplete="new-password" value={form.next} onChange={update('next')} className={inputClass} />
-          <p className="mt-1 text-xs text-gray-400">{PASSWORD_RULE}</p>
-        </div>
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="pwd-confirm">再次输入新密码</label>
-          <input id="pwd-confirm" type="password" autoComplete="new-password" value={form.confirm} onChange={update('confirm')} className={inputClass} />
-        </div>
+        <PasswordField id="pwd-old" label="当前密码" autoComplete="current-password" value={form.old} onChange={update('old')} />
+        <PasswordField id="pwd-new" label="新密码" autoComplete="new-password" value={form.next} onChange={update('next')} hint={PASSWORD_RULE} />
+        <PasswordField id="pwd-confirm" label="再次输入新密码" autoComplete="new-password" value={form.confirm} onChange={update('confirm')} />
         <button
           type="submit"
           disabled={saving}
@@ -147,7 +166,6 @@ const PasswordSection = () => {
 const SECTIONS = [
   { id: 'profile', label: '个人资料', icon: User },
   { id: 'password', label: '修改密码', icon: KeyRound },
-  { id: 'class', label: '班级管理', icon: School },
 ]
 
 const Settings = () => {
@@ -189,12 +207,6 @@ const Settings = () => {
           <div className="bg-white rounded-xl border border-gray-200">
             {activeSection === 'profile' && <ProfileSection />}
             {activeSection === 'password' && <PasswordSection />}
-            {activeSection === 'class' && (
-              <div className="p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">班级管理</h3>
-                <ClassManager />
-              </div>
-            )}
           </div>
         </div>
       </div>

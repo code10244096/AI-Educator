@@ -9,6 +9,7 @@ API 路由聚合入口（main.py 通过 `from api import router` 引入）。
 - routers/classes.py       班级 / 学生 / 作业管理与统计
 - routers/questionbank.py  题库管理
 - routers/tasks.py         任务聚合
+- routers/workbench.py     工作台汇总（GET /dashboard）
 
 鉴权：除 `POST /auth/login`、`POST /auth/logout` 外，所有接口都需要登录；
 业务路由统一在这里通过 `dependencies=[Depends(current_user)]` 挂载，避免遗漏。
@@ -18,7 +19,7 @@ from fastapi import APIRouter, Depends
 
 from auth import current_user
 from routers import auth as auth_router
-from routers import classes, grader, lessonplan, notebook, questionbank, tasks
+from routers import classes, grader, lessonplan, notebook, questionbank, tasks, workbench
 
 router = APIRouter()
 
@@ -32,6 +33,7 @@ business.include_router(notebook.router)
 business.include_router(lessonplan.router)
 business.include_router(classes.router)
 business.include_router(tasks.router)
+business.include_router(workbench.router)
 business.include_router(questionbank.router)
 # 开发用测试集接口（/homework/dataset*、/grader/upload-dataset/*）只在非生产环境注册
 from config import settings as _settings  # noqa: E402

@@ -12,7 +12,6 @@ from qa_helpers import (NEW_PASSWORD, add_member, class_key, copy_real_db, creat
                         fresh_env, graded_submission, grep_frontend, hw_key, import_members, items_of, prod_env,
                         run_manage, run_runner, sql, uniq)
 
-pytestmark = pytest.mark.xfail(reason="待开发：第③组 数据与概念清理（R1-005、R1-011）", run=False)
 
 def sql_exec(q, params=()):
     from qa_helpers import db_path_from_url
@@ -132,9 +131,9 @@ def test_frontend_has_no_dev_concepts():
     bad = []
     for rx in (r"测试数据|测试集|调试模式|作业\s*#|使用测试数据", r"dataset|datasetFileId|isTestData|hasTestData"):
         bad += grep_frontend(rx, re.I)
-    # 班级 slug / 模型名只允许出现在管理员用量页
-    for h in grep_frontend(r"['\"`]class\$?\{?|class\d+|gpt-|gemini|deepseek", re.I):
-        if "UsageStats" not in h[0] and "className" not in h[2]:
+    # 班级 slug（class3 这类文字）/ 模型名只允许出现在管理员用量页；代码标识符（classId、'class' 分区名）不算
+    for h in grep_frontend(r"(?<![\w.-])class\d+(?!\w)|作业\s*#\s*\$?\{?|gpt-\d|gemini|deepseek", re.I):
+        if "UsageStats" not in h[0]:
             bad.append(h)
     assert not bad, "\n".join(f"{f}:{n}: {s}" for f, n, s in bad[:30])
 

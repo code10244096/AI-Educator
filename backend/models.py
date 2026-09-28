@@ -109,6 +109,12 @@ class HomeworkSubmission(Base):
     reference_answer = Column(Text)  # 本次批改使用的参考答案
     original_filenames = Column(Text)  # JSON：上传时的原始文件名
     finished_at = Column(DateTime(timezone=True))  # 批改完成/失败时间
+    # 复核（R1-008）：pending_review 待复核 / reviewed 已复核；历史数据为空表示未跟踪
+    review_status = Column(String(20))
+    reviewed_at = Column(DateTime(timezone=True))
+    needs_review = Column(Boolean, default=False)  # AI 认为至少一题需要老师复核（字迹不清 / 判定无把握）
+    teacher_modified = Column(Boolean, default=False)  # 老师改判过至少一题
+    teacher_modified_at = Column(DateTime(timezone=True))
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     
     # 关系
@@ -133,7 +139,9 @@ class WrongQuestion(Base):
     image_path = Column(String(500))  # 原题图片路径
     student_name = Column(String(50))  # 来自作业批改时的学生姓名
     submission_id = Column(Integer)  # 来自作业批改时的提交记录 ID（重批时用于替换）
-    source = Column(String(20), default="manual")  # manual 手动录入 / grading 批改同步
+    question_number = Column(String(20))  # 来自作业批改时的题号（改判时按题同步）
+    member_id = Column(Integer)  # 来自作业批改时的学生
+    source = Column(String(20), default="manual")  # manual 手动录入 / grading 批改同步 / teacher 老师改判
     
     # 关系
     user = relationship("User", back_populates="wrong_questions")

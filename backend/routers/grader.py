@@ -1,11 +1,12 @@
 """作业批改：上传 → 后台 OCR + AI 批改 → 轮询结果"""
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Optional, Tuple
 
 from fastapi import APIRouter, Depends, File, Form, HTTPException, Query, UploadFile
 from fastapi.responses import FileResponse
+from pydantic import BaseModel
 from sqlalchemy import delete, func, or_, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -78,6 +79,11 @@ def _submission_summary(sub: HomeworkSubmission) -> dict:
         "submit_time": sub.submit_time,
         "created_at": sub.created_at,
         "finished_at": sub.finished_at,
+        "review_status": sub.review_status,
+        "reviewed_at": sub.reviewed_at,
+        "needs_review": bool(sub.needs_review),
+        "teacher_modified": bool(sub.teacher_modified),
+        "teacher_modified_at": sub.teacher_modified_at,
     }
 
 
@@ -376,6 +382,96 @@ async def delete_grading_submission(submission_id: int, db: AsyncSession = Depen
         await update_assignment_status(db, assignment_id)
     await db.commit()
     return {"message": "批改记录已删除", "id": submission_id}
+
+
+class QuestionJudgement(BaseModel):
+    is_correct: Optional[bool] = None
+    teacher_comment: Optional[str] = None
+
+
+class ReviewUpdate(BaseModel):
+    review_status: str = "reviewed"
+
+
+def _require_completed(sub: HomeworkSubmission) -> dict:
+    if sub.status != "completed":
+        raise HTTPException(status_code=409, detail="这份作业还没有批改完成，暂时不能改判或复核")
+    result = _loads(sub.grading_result, {})
+    if not isinstance(result, dict) or not result.get("questions"):
+        raise HTTPException(status_code=409, detail="这份批改结果没有逐题信息，无法改判")
+    return result
+
+
+@router.patch("/grader/{submission_id}/questions/{question_number}")
+async def judge_question(
+    submission_id: int,
+    question_number: str,
+    body: QuestionJudgement,
+    db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
+    """
+    老师逐题改判（R1-008）：修改某题对错和/或老师批注；后端按逐题判定重新计算得分，
+    同步错题本（判错→加入，判对→移除），记录 teacher_modified 与修改时间。
+    """
+    from class_service import sync_rejudged_question
+    from jobs import compute_score
+
+    sub = await _get_submission(db, submission_id, user.id)
+    result = _require_completed(sub)
+    questions = result["questions"]
+    target = next((q for q in questions if str(q.get("question_number")) == str(question_number)), None)
+    if target is None:
+        raise HTTPException(status_code=404, detail=f"第 {question_number} 题不存在")
+    if body.is_correct is None and body.teacher_comment is None:
+        raise HTTPException(status_code=400, detail="请提供改判结果或批注")
+
+    now = datetime.now(timezone.utc).replace(tzinfo=None)
+    verdict_changed = False
+    if body.is_correct is not None and bool(body.is_correct) != bool(target.get("is_correct")):
+        if "ai_is_correct" not in target:
+            target["ai_is_correct"] = bool(target.get("is_correct"))
+        target["is_correct"] = bool(body.is_correct)
+        target["teacher_modified"] = target["is_correct"] != target["ai_is_correct"]
+        verdict_changed = True
+    if body.teacher_comment is not None:
+        comment = body.teacher_comment.strip()[:1000]
+        target["teacher_comment"] = comment or None
+
+    result.update(compute_score(questions))
+    result["teacher_modified_count"] = sum(1 for q in questions if q.get("teacher_modified"))
+    sub.grading_result = json.dumps(result, ensure_ascii=False)
+    sub.score = result["score"]
+    sub.wrong_count = result["wrong_count"]
+    if verdict_changed:
+        sub.teacher_modified = result["teacher_modified_count"] > 0
+        sub.teacher_modified_at = now
+        await sync_rejudged_question(db, sub, target)
+    await db.flush()
+    if sub.assignment_id:
+        await update_assignment_status(db, sub.assignment_id)
+    await db.commit()
+    await db.refresh(sub)
+    return await _submission_detail(db, sub)
+
+
+@router.post("/grader/{submission_id}/review")
+async def set_review_status(
+    submission_id: int,
+    body: ReviewUpdate,
+    db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
+    """标记复核状态：reviewed（已复核）/ pending_review（改回待复核）"""
+    if body.review_status not in ("reviewed", "pending_review"):
+        raise HTTPException(status_code=400, detail="复核状态只能是 reviewed 或 pending_review")
+    sub = await _get_submission(db, submission_id, user.id)
+    _require_completed(sub)
+    sub.review_status = body.review_status
+    sub.reviewed_at = datetime.now(timezone.utc).replace(tzinfo=None) if body.review_status == "reviewed" else None
+    await db.commit()
+    await db.refresh(sub)
+    return await _submission_detail(db, sub)
 
 
 @router.get("/grader/{submission_id}/files/{index}")

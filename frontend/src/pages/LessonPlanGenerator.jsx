@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import {
-  FileDown, FileText, Download, History, Trash2, Edit, Save, X, RotateCcw, Loader2, Search, RefreshCw,
+  FileDown, FileText, Download, History, Trash2, Edit, Save, X, Loader2, Search, RefreshCw,
 } from 'lucide-react'
 import { lessonPlanAPI, getErrorMessage } from '../utils/api'
 import ReactMarkdown from 'react-markdown'
@@ -14,6 +14,38 @@ import PageBackground from '../components/PageBackground'
 import { formatServerTime } from '../utils/time'
 import 'katex/dist/katex.min.css'
 import html2pdf from 'html2pdf.js'
+
+const plainPreview = (text) => (text || '')
+  .replace(/\$/g, '')
+  .replace(/[#>*`|]+/g, ' ')
+  .replace(/\s+/g, ' ')
+  .trim()
+
+const splitPlan = (markdown) => {
+  const text = markdown || ''
+  const chunks = text.split(/\n(?=## )/)
+  const sections = []
+  chunks.forEach((chunk) => {
+    if (!chunk.startsWith('## ')) return
+    const nl = chunk.indexOf('\n')
+    const heading = (nl === -1 ? chunk : chunk.slice(0, nl)).replace(/^##\s+/, '').trim()
+    const body = nl === -1 ? '' : chunk.slice(nl + 1).replace(/\s+$/, '')
+    sections.push({ heading, body })
+  })
+  return sections
+}
+
+const joinPlan = (title, sections) => {
+  const head = `# ${title || '教案'}`
+  const body = sections.map(s => `## ${s.heading}\n${(s.body || '').trim()}`).join('\n\n')
+  return `${head}\n\n${body}`.trim() + '\n'
+}
+
+const sectionLabel = (heading) => {
+  if (heading.includes('目标')) return '目标'
+  if (heading.includes('过程')) return '过程'
+  return heading.replace(/^\d+(?:\.\d+)*\.?\s*/, '')
+}
 
 const STATUS_BADGE = {
   processing: { label: '生成中', cls: 'bg-blue-100 text-blue-700' },
@@ -41,9 +73,12 @@ const LessonPlanGenerator = () => {
   const [editTitle, setEditTitle] = useState('')
   const [saving, setSaving] = useState(false)
   const [plans, setPlans] = useState({ items: [], total: 0 })
-  const [plansLoading, setPlansLoading] = useState(false)
+  const [plansLoading, setPlansLoading] = useState(true)
   const [keyword, setKeyword] = useState('')
+  const [appliedKeyword, setAppliedKeyword] = useState('')
   const [deleteTarget, setDeleteTarget] = useState(null)
+  const [markdownMode, setMarkdownMode] = useState(false)
+  const [sections, setSections] = useState([])
 
   const previewRef = useRef(null)
   const { tasks, addTask } = useTask()
@@ -68,8 +103,10 @@ const LessonPlanGenerator = () => {
   }, [loading])
 
   const loadPlans = useCallback((kw = keyword) => {
+    const q = typeof kw === 'string' ? kw.trim() : ''
+    setAppliedKeyword(q)
     setPlansLoading(true)
-    lessonPlanAPI.list({ limit: 50, keyword: kw || undefined })
+    lessonPlanAPI.list({ limit: 50, keyword: q || undefined })
       .then(setPlans)
       .catch(() => {})
       .finally(() => setPlansLoading(false))
@@ -185,9 +222,18 @@ const LessonPlanGenerator = () => {
   }
 
   const startEdit = () => {
-    setEditContent(result.content || '')
+    const content = result.content || ''
+    setEditContent(content)
     setEditTitle(result.title || '')
+    setSections(splitPlan(content))
+    setMarkdownMode(false)
     setEditing(true)
+  }
+
+  const updateSection = (index, body) => {
+    const next = sections.map((s, i) => (i === index ? { ...s, body } : s))
+    setSections(next)
+    setEditContent(joinPlan(editTitle, next))
   }
 
   const handleSave = async () => {
@@ -195,6 +241,7 @@ const LessonPlanGenerator = () => {
     try {
       const plan = await lessonPlanAPI.update(result.id, { title: editTitle, content: editContent })
       setResult(plan)
+      setFormData(prev => ({ ...prev, title: plan.title }))
       setEditing(false)
       loadPlans()
       addToast('教案已保存', 'success')
@@ -407,14 +454,19 @@ const LessonPlanGenerator = () => {
           <button
             type="submit"
             disabled={loading || !formData.title}
-            className={`w-full py-3 px-4 rounded-lg text-white font-medium ${
-              loading || !formData.title
-                ? 'bg-gray-400 cursor-not-allowed'
-                : 'bg-primary-600 hover:bg-primary-700'
+            className={`w-full py-3 px-4 rounded-lg font-medium ${
+              result?.id
+                ? 'border border-gray-300 bg-white text-gray-600 hover:bg-gray-50 disabled:opacity-50'
+                : loading || !formData.title
+                  ? 'bg-gray-400 text-white cursor-not-allowed'
+                  : 'bg-primary-600 text-white hover:bg-primary-700'
             }`}
           >
-            {loading ? '正在生成...' : '生成教案'}
+            {loading ? '正在生成...' : (result?.id ? '生成新教案' : '生成教案')}
           </button>
+          {result?.id && (
+            <p className="text-xs text-gray-400">这是已保存的教案。改内容请用预览旁的「保存修改」，不必重新生成。</p>
+          )}
         </form>
 
         {result && result.status === 'processing' && !loading && (
@@ -437,7 +489,14 @@ const LessonPlanGenerator = () => {
                       className="flex items-center px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 disabled:opacity-50"
                     >
                       <Save className="h-4 w-4 mr-2" />
-                      {saving ? '保存中...' : '保存'}
+                      {saving ? '保存中...' : '保存修改'}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setMarkdownMode(v => !v)}
+                      className="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-gray-900"
+                    >
+                      {markdownMode ? '返回分段' : '查看 Markdown'}
                     </button>
                     <button
                       onClick={() => setEditing(false)}
@@ -451,17 +510,17 @@ const LessonPlanGenerator = () => {
                   <>
                     <button
                       onClick={startEdit}
+                      className="flex items-center px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700"
+                    >
+                      <Save className="h-4 w-4 mr-2" />
+                      保存修改
+                    </button>
+                    <button
+                      onClick={startEdit}
                       className="flex items-center px-3 py-2 bg-purple-50 text-purple-600 rounded-lg hover:bg-purple-100 transition-colors"
                     >
                       <Edit className="h-4 w-4 mr-1.5" />
                       编辑
-                    </button>
-                    <button
-                      onClick={handleRegenerate}
-                      className="flex items-center px-3 py-2 bg-gray-50 text-gray-600 rounded-lg hover:bg-gray-100 transition-colors"
-                    >
-                      <RotateCcw className="h-4 w-4 mr-1.5" />
-                      重新生成
                     </button>
                     <button
                       onClick={() => handleExportFile('docx')}
@@ -492,6 +551,13 @@ const LessonPlanGenerator = () => {
                       <Download className="h-4 w-4 mr-1.5" />
                       {exporting ? '生成中...' : 'PDF'}
                     </button>
+                    <button
+                      type="button"
+                      onClick={handleRegenerate}
+                      className="px-2 py-2 text-sm text-gray-400 hover:text-gray-700"
+                    >
+                      重新生成
+                    </button>
                   </>
                 )}
               </div>
@@ -499,25 +565,55 @@ const LessonPlanGenerator = () => {
 
             {editing ? (
               <div className="space-y-3">
-                <input
-                  type="text"
-                  value={editTitle}
-                  onChange={(e) => setEditTitle(e.target.value)}
-                  className="w-full border border-gray-300 rounded-lg px-4 py-2"
-                  placeholder="课题名称"
-                />
-                <textarea
-                  value={editContent}
-                  onChange={(e) => setEditContent(e.target.value)}
-                  className="w-full border border-gray-300 rounded-lg px-4 py-3 font-mono text-sm"
-                  rows={24}
-                />
-                <p className="text-xs text-gray-400">支持 Markdown 与 $公式$ 语法</p>
+                <div>
+                  <label className="block text-xs font-medium text-gray-500 mb-1">课题</label>
+                  <input
+                    type="text"
+                    value={editTitle}
+                    onChange={(e) => {
+                      const title = e.target.value
+                      setEditTitle(title)
+                      if (!markdownMode) setEditContent(joinPlan(title, sections))
+                    }}
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2"
+                    placeholder="课题名称"
+                  />
+                </div>
+                {markdownMode ? (
+                  <textarea
+                    value={editContent}
+                    onChange={(e) => {
+                      setEditContent(e.target.value)
+                      setSections(splitPlan(e.target.value))
+                    }}
+                    className="w-full border border-gray-300 rounded-lg px-4 py-3 font-mono text-sm"
+                    rows={24}
+                  />
+                ) : sections.length > 0 ? (
+                  sections.map((s, i) => (
+                    <div key={`${s.heading}-${i}`}>
+                      <label className="block text-xs font-medium text-gray-500 mb-1">{sectionLabel(s.heading)}</label>
+                      <textarea
+                        value={s.body}
+                        onChange={(e) => updateSection(i, e.target.value)}
+                        className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm"
+                        rows={s.heading.includes('过程') ? 10 : 4}
+                      />
+                    </div>
+                  ))
+                ) : (
+                  <textarea
+                    value={editContent}
+                    onChange={(e) => setEditContent(e.target.value)}
+                    className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm"
+                    rows={16}
+                  />
+                )}
               </div>
             ) : (
             <div
               ref={previewRef}
-              className="border rounded-lg p-6 bg-white lesson-plan-content"
+              className="border rounded-lg p-6 bg-white lesson-plan-content max-w-full overflow-x-auto"
               style={{
                 fontFamily: '"Noto Serif SC", "Source Han Serif SC", "SimSun", serif',
                 lineHeight: '1.8'
@@ -584,6 +680,14 @@ const LessonPlanGenerator = () => {
                   overflow-x: auto;
                   overflow-y: hidden;
                 }
+                .lesson-plan-content pre,
+                .lesson-plan-content code {
+                  max-width: 100%;
+                }
+                .lesson-plan-content pre {
+                  overflow-x: auto;
+                  white-space: pre;
+                }
               `}</style>
               <ReactMarkdown
                 remarkPlugins={[remarkMath]}
@@ -621,8 +725,23 @@ const LessonPlanGenerator = () => {
               </button>
             </div>
           </div>
-          {plans.items.length === 0 ? (
-            <p className="p-8 text-center text-sm text-gray-400">还没有保存的教案</p>
+          {plansLoading && plans.items.length === 0 ? (
+            <p className="p-8 text-center text-sm text-gray-400" role="status">加载中…</p>
+          ) : plans.items.length === 0 ? (
+            appliedKeyword ? (
+              <div className="p-8 text-center">
+                <p className="text-sm text-gray-500">没有找到包含这个词的教案</p>
+                <button
+                  type="button"
+                  onClick={() => { setKeyword(''); loadPlans('') }}
+                  className="mt-3 text-sm text-purple-600 hover:underline"
+                >
+                  清空搜索
+                </button>
+              </div>
+            ) : (
+              <p className="p-8 text-center text-sm text-gray-400">还没有保存的教案</p>
+            )
           ) : (
             <div className="divide-y divide-gray-100">
               {plans.items.map(plan => {
@@ -636,14 +755,20 @@ const LessonPlanGenerator = () => {
                   >
                     <div className="min-w-0">
                       <div className="flex items-center gap-2 flex-wrap">
-                        <span className="text-sm font-medium text-gray-900">{plan.title}</span>
+                        <button
+                          type="button"
+                          className="text-sm font-medium text-gray-900 text-left hover:text-purple-700"
+                          onClick={(e) => { e.stopPropagation(); setSearchParams({ id: String(plan.id) }) }}
+                        >
+                          {plan.title}
+                        </button>
                         <span className={`px-2 py-0.5 text-xs rounded-full ${badge.cls}`}>{badge.label}</span>
                         {plan.status === 'processing' && <Loader2 className="h-3 w-3 animate-spin text-blue-500" />}
                       </div>
                       <p className="text-xs text-gray-400 mt-0.5 truncate">
                         {formatServerTime(plan.created_at)}
                         {' · '}{plan.period} · {plan.student_level}
-                        {plan.status === 'failed' ? ` · ${plan.error_message || ''}` : plan.preview ? ` · ${plan.preview}` : ''}
+                        {plan.status === 'failed' ? ` · ${plan.error_message || ''}` : plan.preview ? ` · ${plainPreview(plan.preview)}` : ''}
                       </p>
                     </div>
                     {plan.status !== 'processing' && (

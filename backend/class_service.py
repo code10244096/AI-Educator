@@ -904,6 +904,9 @@ def _empty_student(order_id: int, name: str) -> dict:
         "status": None,
         "progressStage": None,
         "errorMessage": None,
+        "review_status": None,
+        "needs_review": False,
+        "teacher_modified": False,
     }
 
 
@@ -924,6 +927,9 @@ def _submission_to_student(sub: HomeworkSubmission, order_id: int) -> dict:
         "status": sub.status,
         "progressStage": sub.progress_stage,
         "errorMessage": sub.error_message,
+        "review_status": sub.review_status if scored else None,
+        "needs_review": bool(sub.needs_review) if scored else False,
+        "teacher_modified": bool(sub.teacher_modified) if scored else False,
     }
 
 
@@ -1227,6 +1233,24 @@ async def update_assignment_status(db: AsyncSession, assignment_id: int) -> None
         assignment.status = "待批改"
 
 
+def _wrong_question_from(q: dict, *, student_name, subject, submission_id, teacher_id, member_id, source) -> WrongQuestion:
+    kp = (q.get("knowledge_point") or "").strip() if isinstance(q.get("knowledge_point"), str) else ""
+    return WrongQuestion(
+        user_id=teacher_id,
+        question_text=q.get("question_text", "") or "（无题目内容）",
+        user_answer=str(q.get("student_answer", "") or ""),
+        correct_answer=str(q.get("correct_answer", "") or ""),
+        knowledge_point=kp[:200] or (f"作业批改-{student_name}" if student_name else "作业批改"),
+        subject=subject,
+        variant_questions=json.dumps([], ensure_ascii=False),
+        student_name=student_name,
+        submission_id=submission_id,
+        question_number=str(q.get("question_number") or "")[:20] or None,
+        member_id=member_id,
+        source=source,
+    )
+
+
 async def sync_wrong_questions(
     db: AsyncSession,
     grading_result: dict,
@@ -1234,32 +1258,83 @@ async def sync_wrong_questions(
     subject: str = "数学",
     submission_id: Optional[int] = None,
     teacher_id: Optional[int] = None,
+    member_id: Optional[int] = None,
 ) -> int:
-    """将批改错题同步到该提交所属教师的错题本（同一提交重批时先清掉旧的同步记录）"""
+    """将批改错题同步到该提交所属教师的错题本（同一提交重批时先清掉旧的同步 / 改判记录）"""
     if submission_id:
         await db.execute(
             delete(WrongQuestion)
             .where(WrongQuestion.submission_id == submission_id)
-            .where(WrongQuestion.source == "grading")
+            .where(WrongQuestion.source.in_(["grading", "teacher"]))
         )
     count = 0
     for q in grading_result.get("questions", []) or []:
         if q.get("is_correct", True):
             continue
-        db.add(WrongQuestion(
-            user_id=teacher_id,
-            question_text=q.get("question_text", "") or "（无题目内容）",
-            user_answer=str(q.get("student_answer", "") or ""),
-            correct_answer=str(q.get("correct_answer", "") or ""),
-            knowledge_point=f"作业批改-{student_name}" if student_name else "作业批改",
-            subject=subject,
-            variant_questions=json.dumps([], ensure_ascii=False),
-            student_name=student_name,
-            submission_id=submission_id,
-            source="grading",
-        ))
+        db.add(_wrong_question_from(q, student_name=student_name, subject=subject, submission_id=submission_id,
+                                    teacher_id=teacher_id, member_id=member_id, source="grading"))
         count += 1
     return count
+
+
+async def sync_rejudged_question(db: AsyncSession, sub: HomeworkSubmission, question: dict) -> None:
+    """
+    老师改判一题后同步错题本（R1-008）：判错 → 保证有这道题的错题（新加的来源标注“老师改判”）；
+    判对 → 移除这道题由批改同步 / 改判产生的错题。
+    """
+    number = str(question.get("question_number") or "")
+    existing = (await db.execute(
+        select(WrongQuestion)
+        .where(WrongQuestion.submission_id == sub.id)
+        .where(WrongQuestion.source.in_(["grading", "teacher"]))
+    )).scalars().all()
+    # 旧数据没有记录题号时按题干匹配
+    matched = [w for w in existing if (w.question_number or "") == number] or \
+        [w for w in existing if not w.question_number and w.question_text == (question.get("question_text") or "（无题目内容）")]
+    if question.get("is_correct"):
+        for w in matched:
+            await db.delete(w)
+    elif not matched:
+        db.add(_wrong_question_from(question, student_name=sub.student_name, subject=sub.subject or "数学",
+                                    submission_id=sub.id, teacher_id=sub.teacher_id, member_id=sub.member_id,
+                                    source="teacher"))
+
+
+async def migrate_zero_question_results(db: AsyncSession) -> int:
+    """
+    幂等迁移（R1-008）：已有的“批改完成但一道题都没有”的记录改为失败，不再计入统计。
+    只处理 grading_result 里 total_questions == 0 或 questions 为空的；grading_result 为空的旧记录不动。
+    """
+    subs = (await db.execute(
+        select(HomeworkSubmission)
+        .where(HomeworkSubmission.status == "completed")
+        .where(HomeworkSubmission.grading_result.is_not(None))
+    )).scalars().all()
+    changed = 0
+    for sub in subs:
+        try:
+            gr = json.loads(sub.grading_result)
+        except (TypeError, ValueError):
+            continue
+        if not isinstance(gr, dict):
+            continue
+        questions = gr.get("questions")
+        if (isinstance(questions, list) and len(questions) == 0) or gr.get("total_questions") == 0:
+            sub.status = "failed"
+            sub.grading_status = "批改失败"
+            sub.progress_stage = "批改失败"
+            sub.error_message = "未识别到题目，请检查照片是否清晰、是否拍到答题区域"
+            sub.score = None
+            sub.wrong_count = None
+            sub.review_status = None
+            changed += 1
+    if changed:
+        assignment_ids = {s.assignment_id for s in subs if s.status == "failed" and s.assignment_id}
+        for aid in assignment_ids:
+            await update_assignment_status(db, aid)
+        print(f"[db] {changed} 条“0 题 0 分”的批改记录已改为失败（不再计入成绩统计）", flush=True)
+    await db.commit()
+    return changed
 
 
 # ==================== 数据归属 ====================
@@ -1293,6 +1368,7 @@ async def backfill_ownership(db: AsyncSession) -> int:
     )
     changed += res.rowcount or 0
     changed += await backfill_member_ids(db)
+    changed += await migrate_zero_question_results(db)
     # 历史演示数据的作业说明里去掉开发用语（只改播种时写入的固定文案）
     await db.execute(
         update(HomeworkAssignment)

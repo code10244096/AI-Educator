@@ -147,6 +147,11 @@ export const homeworkAPI = {
     return response.data
   },
 
+  markReviewed: async (submissionId) => {
+    const response = await api.post(`/grader/${submissionId}/review`, { review_status: 'reviewed' })
+    return response.data
+  },
+
   fileUrl: (submissionId, index) => `${API_BASE_URL}/grader/${submissionId}/files/${index}`,
 }
 
@@ -430,6 +435,22 @@ export const usageAPI = {
   getCalls: async (params = {}) => {
     const response = await api.get('/usage/calls', { params })
     return response.data
+  },
+}
+
+// 工作台汇总（R1-006）
+export const dashboardAPI = {
+  get: async () => {
+    const response = await api.get('/dashboard')
+    return response.data
+  },
+}
+
+// 后台任务（顶栏任务抽屉，服务端数据，按教师过滤）
+export const jobsAPI = {
+  list: async (limit = 20) => {
+    const response = await api.get('/tasks/jobs', { params: { limit } })
+    return response.data?.items || []
   },
 }
 

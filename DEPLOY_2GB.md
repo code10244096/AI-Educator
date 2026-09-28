@@ -139,9 +139,8 @@ docker compose exec backend python manage.py assign-orphans --username 138000000
      `openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout nginx/ssl/privkey.pem -out nginx/ssl/fullchain.pem -subj "/CN=ai-teaching"`
 2. 把证书放到 `nginx/ssl/fullchain.pem` 与 `nginx/ssl/privkey.pem`。
 3. `cp frontend/nginx-https.conf.example nginx/https.conf`，把其中两处 `server_name` 改成你的域名。该样例已包含 `listen 443 ssl`、HTTP→HTTPS 跳转、HSTS 与安全响应头、`client_max_body_size 100m`、`/api` 300 秒超时。
-4. 编辑 `docker-compose.yml`，取消 frontend 下这一行的注释：
-   `- ./nginx/https.conf:/etc/nginx/conf.d/default.conf:ro`
-5. `docker compose up -d`，浏览器访问 `https://你的域名`。
+4. `docker compose -f docker-compose.yml -f docker-compose.https.yml up -d`。之后用 `scripts/deploy.sh` 升级时，只要证书和 `nginx/https.conf` 还在，会自动带上这份 HTTPS 配置。
+5. 浏览器访问 `https://你的域名`。
 
 > 只在内网临时用 HTTP 测试时，可以在 `.env` 加 `COOKIE_SECURE=false`（正式使用前务必删掉）。
 
@@ -188,15 +187,15 @@ rm -rf data.drill uploads.drill
 
 ## 8. 升级
 
+代码推到 GitHub 的 `feat/ai-teaching-launch` 分支后，在服务器上执行一条命令。脚本会克隆该分支，覆盖程序文件，并保留 `.env`、数据库、上传文件、日志和 HTTPS 证书，然后重建容器。
+
 ```bash
-cd /opt/ai-teaching
-bash scripts/backup.sh                       # 升级前先备份
-git pull
-docker compose up -d --build                 # 重建镜像并滚动重启；数据库启动时自动补齐新字段（只加不删）
-docker compose ps && docker compose logs --tail=50 backend
+bash /opt/ai-teaching/scripts/deploy.sh
 ```
 
-如果新版本启动异常：`git checkout <上一个版本>` 后再 `docker compose up -d --build`，必要时用第 7 节的恢复步骤回到升级前的备份。
+换分支或仓库时：`DEPLOY_BRANCH=main bash /opt/ai-teaching/scripts/deploy.sh`。
+
+数据库在启动时自动补齐新字段（只加不删）。如果新版本启动异常，用第 7 节的恢复步骤回到升级前的备份，再把 `DEPLOY_BRANCH` 指回上一版所在分支重新部署。
 
 ## 9. 日常运维与常见问题
 
