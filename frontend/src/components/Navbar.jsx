@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { GraduationCap, Menu, ChevronDown, User, KeyRound, LogOut } from 'lucide-react'
 import { useLayout } from '../context/LayoutContext'
 import { useAuth } from '../context/AuthContext'
+import TaskDrawer from './TaskDrawer'
 
 const UserMenu = () => {
   const navigate = useNavigate()
@@ -44,7 +45,7 @@ const UserMenu = () => {
         <span className="w-7 h-7 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-sm font-medium">
           {name.slice(0, 1)}
         </span>
-        <span className="hidden sm:inline text-sm font-medium text-gray-700 max-w-[8rem] truncate" data-testid="navbar-user-name">{name}</span>
+        <span className="inline text-sm font-medium text-gray-700 max-w-[4.5rem] sm:max-w-[8rem] truncate" data-testid="navbar-user-name">{name}</span>
         <ChevronDown className="h-4 w-4 text-gray-400" />
       </button>
       {open && (
@@ -73,31 +74,36 @@ const UserMenu = () => {
 
 const Navbar = () => {
   const navigate = useNavigate()
-  const { toggleSidebar } = useLayout()
+  const { toggleSidebar, sidebarOpen } = useLayout()
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200 h-16">
-      <div className="h-full px-4 flex items-center justify-between">
-        <div className="flex items-center space-x-3 min-w-0">
+      <div className="h-full px-3 sm:px-4 flex items-center justify-between gap-2">
+        <div className="flex items-center gap-2 min-w-0">
+          {/* 窄屏打开菜单抽屉；桌面侧栏常驻，不需要这个按钮 */}
           <button
+            type="button"
             onClick={toggleSidebar}
-            className="p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
-            aria-label="展开或收起菜单"
+            className="lg:hidden p-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
+            aria-label={sidebarOpen ? '关闭菜单' : '打开菜单'}
           >
             <Menu className="h-5 w-5" />
           </button>
-          <div
-            className="flex items-center space-x-2 cursor-pointer hover:opacity-80 transition-opacity min-w-0"
+          <button
+            type="button"
+            className="flex items-center gap-2 hover:opacity-80 transition-opacity min-w-0"
             onClick={() => navigate('/')}
+            aria-label="回到工作台"
           >
-            <div className="bg-blue-600 rounded-lg p-1.5 flex-shrink-0">
+            <span className="bg-blue-600 rounded-lg p-1.5 flex-shrink-0">
               <GraduationCap className="h-5 w-5 text-white" />
-            </div>
+            </span>
             <span className="text-base font-bold text-gray-900 whitespace-nowrap">AI 教学助手</span>
-          </div>
+          </button>
         </div>
 
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
+          <TaskDrawer />
           <UserMenu />
         </div>
       </div>

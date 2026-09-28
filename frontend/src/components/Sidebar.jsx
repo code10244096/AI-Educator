@@ -1,228 +1,209 @@
-import React, { useState } from 'react'
-import { useNavigate, useLocation } from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import { NavLink, useLocation, useNavigate } from 'react-router-dom'
 import {
-  FileCheck,
-  FileText,
+  LayoutDashboard,
   Users,
-  FolderOpen,
-  CheckSquare,
+  FileCheck,
+  BookOpen,
+  FileText,
   Settings,
+  BarChart3,
   ChevronDown,
   ChevronRight,
-  ClipboardList,
-  Archive,
-  Database,
-  BookOpen,
-  BrainCircuit,
-  Upload,
-  Search,
-  GraduationCap,
+  ChevronsLeft,
+  ChevronsRight,
   Plus,
-  X
 } from 'lucide-react'
 import { useLayout } from '../context/LayoutContext'
 import { useClass } from '../context/ClassContext'
+import { useAuth } from '../context/AuthContext'
 
-const SidebarItem = ({ icon: Icon, label, path, isActive, onClick, hasChildren, isExpanded, children }) => {
-  return (
-    <div>
-      <button
-        onClick={onClick}
-        className={`w-full flex items-center justify-between px-4 py-2.5 text-sm transition-all duration-200 rounded-lg mx-2 ${
-          isActive
-            ? 'bg-blue-500/10 text-blue-600 font-medium'
-            : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'
-        }`}
-      >
-        <div className="flex items-center space-x-3">
-          <Icon className={`h-4 w-4 ${isActive ? 'text-blue-600' : 'text-gray-400'}`} />
-          <span>{label}</span>
-        </div>
-        {hasChildren && (
-          isExpanded ? (
-            <ChevronDown className="h-4 w-4 text-gray-400" />
-          ) : (
-            <ChevronRight className="h-4 w-4 text-gray-400" />
-          )
-        )}
-      </button>
-      {hasChildren && isExpanded && (
-        <div className="ml-8 mt-1 space-y-1">
-          {children}
-        </div>
-      )}
-    </div>
-  )
-}
+// 教师菜单（R1-006）：工作台 / 我的班级 / 作业批改 / 错题本 / 教案 ── 设置；用量统计仅管理员可见
+const MAIN_ITEMS = [
+  { id: 'home', label: '工作台', icon: LayoutDashboard, path: '/', exact: true },
+  { id: 'classes', label: '我的班级', icon: Users, path: '/class' },
+  { id: 'grader', label: '作业批改', icon: FileCheck, path: '/grader' },
+  { id: 'notebook', label: '错题本', icon: BookOpen, path: '/notebook' },
+  { id: 'lessonplan', label: '教案', icon: FileText, path: '/lessonplan' },
+]
 
-const SidebarChildItem = ({ icon: Icon, label, path, isActive, onClick }) => {
-  return (
-    <button
-      onClick={onClick}
-      className={`w-full flex items-center space-x-3 px-4 py-2 text-sm transition-all duration-200 rounded-lg ${
-        isActive
-          ? 'bg-blue-500/10 text-blue-600 font-medium'
-          : 'text-gray-500 hover:bg-gray-50 hover:text-gray-700'
-      }`}
-    >
-      <Icon className={`h-3.5 w-3.5 ${isActive ? 'text-blue-600' : 'text-gray-400'}`} />
-      <span>{label}</span>
-    </button>
-  )
+const itemClass = (active, collapsed) => [
+  'group flex w-full items-center rounded-lg text-sm transition-colors',
+  collapsed ? 'justify-center px-0 py-2.5' : 'px-3 py-2.5',
+  active ? 'bg-blue-50 text-blue-700 font-medium' : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900',
+].join(' ')
+
+const iconClass = (active) => `h-[18px] w-[18px] flex-shrink-0 ${active ? 'text-blue-600' : 'text-gray-400 group-hover:text-gray-600'}`
+
+const classPathMatches = (pathname, cls) => {
+  const ids = [String(cls.id), cls.slug].filter(Boolean)
+  return ids.some(id => pathname === `/class/${id}` || pathname.startsWith(`/class/${id}/`))
 }
 
 const Sidebar = () => {
   const navigate = useNavigate()
   const location = useLocation()
-  const { sidebarOpen, closeSidebar } = useLayout()
+  const { pathname } = location
+  const { sidebarOpen, closeSidebar, collapsed, toggleCollapsed } = useLayout()
   const { classes } = useClass()
-  const [expandedMenus, setExpandedMenus] = useState({
-    myClasses: true,
-    questionBank: false,
-  })
+  const { isAdmin } = useAuth()
+  const [classesExpanded, setClassesExpanded] = useState(true)
 
-  const toggleMenu = (key) => {
-    setExpandedMenus(prev => ({ ...prev, [key]: !prev[key] }))
-  }
+  // 窄屏抽屉：切换页面后自动收起（桌面常驻不受影响）
+  useEffect(() => {
+    closeSidebar()
+  }, [pathname, closeSidebar])
 
-  const isActive = (path) => {
-    if (path === '/') return location.pathname === '/'
-    return location.pathname.startsWith(path)
-  }
+  const isActive = (item) => (item.exact ? pathname === item.path : pathname === item.path || pathname.startsWith(`${item.path}/`))
 
-  const classItems = classes.map(cls => ({
-    label: cls.name,
-    icon: GraduationCap,
-    path: `/class/class${cls.id}`,
-  }))
+  // 窄屏抽屉里总是完整显示；只有桌面才折叠成图标栏
+  const renderNav = (isCollapsed) => (
+    <nav className="flex h-full flex-col" aria-label="主菜单">
+      <div className="flex-1 space-y-1 overflow-y-auto px-3 py-4">
+        {MAIN_ITEMS.map((item) => {
+          const Icon = item.icon
+          const active = isActive(item)
+          if (item.id !== 'classes') {
+            return (
+              <NavLink
+                key={item.id}
+                to={item.path}
+                end={item.exact}
+                title={isCollapsed ? item.label : undefined}
+                className={itemClass(active, isCollapsed)}
+                aria-current={active ? 'page' : undefined}
+              >
+                <Icon className={iconClass(active)} />
+                {!isCollapsed && <span className="ml-3 truncate">{item.label}</span>}
+              </NavLink>
+            )
+          }
 
-  const menuItems = [
-    {
-      id: 'grader',
-      label: '作业批改',
-      icon: FileCheck,
-      path: '/grader',
-    },
-    {
-      id: 'lessonplan',
-      label: '教案生成',
-      icon: FileText,
-      path: '/lessonplan',
-    },
-    {
-      id: 'notebook',
-      label: '错题本',
-      icon: BookOpen,
-      path: '/notebook',
-    },
-    {
-      id: 'myClasses',
-      label: '我的班级',
-      icon: Users,
-      path: '/class',
-      hasChildren: true,
-      children: classItems,
-    },
-    {
-      id: 'questionBank',
-      label: '题库管理',
-      icon: FolderOpen,
-      path: '/questionbank',
-      hasChildren: true,
-      children: [
-        { label: '我的题库', icon: Upload, path: '/questionbank/my' },
-        { label: '真题资源库', icon: Database, path: '/questionbank/real' },
-        { label: 'AI 智题库', icon: BrainCircuit, path: '/questionbank/ai' },
-      ],
-    },
-    {
-      id: 'tasks',
-      label: '我的任务',
-      icon: CheckSquare,
-      path: '/tasks',
-    },
-    {
-      id: 'settings',
-      label: '设置',
-      icon: Settings,
-      path: '/settings',
-    },
-  ]
+          // 我的班级：点父级进入班级列表；子项为各班，末尾“新建班级”
+          const parentActive = pathname === '/class'
+          const sectionActive = active
+          return (
+            <div key={item.id}>
+              <div
+                className={`group flex w-full items-center rounded-lg text-sm transition-colors ${
+                  parentActive
+                    ? 'bg-blue-50 font-medium text-blue-700'
+                    : sectionActive ? 'text-blue-700 hover:bg-gray-100' : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'
+                }`}
+              >
+                <NavLink
+                  to="/class"
+                  end
+                  title={isCollapsed ? item.label : undefined}
+                  className={`flex min-w-0 flex-1 items-center ${isCollapsed ? 'justify-center py-2.5' : 'py-2.5 pl-3'}`}
+                  aria-current={parentActive ? 'page' : undefined}
+                >
+                  <Icon className={iconClass(sectionActive)} />
+                  {!isCollapsed && <span className="ml-3 truncate">{item.label}</span>}
+                </NavLink>
+                {!isCollapsed && (
+                  <button
+                    type="button"
+                    onClick={() => setClassesExpanded(v => !v)}
+                    className="mr-1 rounded p-1.5 text-gray-400 hover:bg-gray-200 hover:text-gray-600"
+                    aria-label={classesExpanded ? '收起班级列表' : '展开班级列表'}
+                    aria-expanded={classesExpanded}
+                  >
+                    {classesExpanded ? <ChevronDown className="h-4 w-4" /> : <ChevronRight className="h-4 w-4" />}
+                  </button>
+                )}
+              </div>
+              {!isCollapsed && classesExpanded && (
+                <div className="mt-1 space-y-0.5 pl-9">
+                  {classes.map((cls) => {
+                    const childActive = classPathMatches(pathname, cls)
+                    return (
+                      <NavLink
+                        key={cls.id}
+                        to={`/class/${cls.id}`}
+                        className={`block truncate rounded-lg px-3 py-2 text-sm ${
+                          childActive ? 'bg-blue-50 font-medium text-blue-700' : 'text-gray-500 hover:bg-gray-100 hover:text-gray-800'
+                        }`}
+                        aria-current={childActive ? 'page' : undefined}
+                        title={cls.name}
+                      >
+                        {cls.name}
+                      </NavLink>
+                    )
+                  })}
+                  <button
+                    type="button"
+                    onClick={() => navigate('/class?create=1')}
+                    className="flex w-full items-center rounded-lg px-3 py-2 text-sm text-blue-600 hover:bg-blue-50"
+                  >
+                    <Plus className="mr-1.5 h-4 w-4" />
+                    新建班级
+                  </button>
+                </div>
+              )}
+            </div>
+          )
+        })}
+
+        <div className="my-3 border-t border-gray-100" role="separator" />
+
+        <NavLink
+          to="/settings"
+          title={isCollapsed ? '设置' : undefined}
+          className={itemClass(pathname.startsWith('/settings'), isCollapsed)}
+        >
+          <Settings className={iconClass(pathname.startsWith('/settings'))} />
+          {!isCollapsed && <span className="ml-3">设置</span>}
+        </NavLink>
+
+        {/* 运维功能：仅管理员（isAdmin）可见 */}
+        {isAdmin && (
+          <NavLink
+            to="/usage"
+            title={isCollapsed ? '用量统计' : undefined}
+            className={itemClass(pathname.startsWith('/usage'), isCollapsed)}
+          >
+            <BarChart3 className={iconClass(pathname.startsWith('/usage'))} />
+            {!isCollapsed && <span className="ml-3">用量统计</span>}
+          </NavLink>
+        )}
+      </div>
+    </nav>
+  )
 
   return (
     <>
-      {/* Overlay */}
-      {sidebarOpen && (
-        <div
-          className="fixed inset-0 bg-black/30 z-40 transition-opacity"
-          onClick={closeSidebar}
-        />
-      )}
-      
-      {/* Sidebar */}
+      {/* 桌面（≥1024px）：常驻侧栏，可折叠为 64px 图标栏 */}
       <aside
-        className={`fixed left-0 top-16 bottom-0 w-64 bg-white border-r border-gray-200 overflow-y-auto z-50 transition-transform duration-300 ease-in-out ${
-          sidebarOpen ? 'translate-x-0' : '-translate-x-full'
+        className={`fixed bottom-0 left-0 top-16 z-30 hidden flex-col border-r border-gray-200 bg-white lg:flex ${
+          collapsed ? 'w-16' : 'w-[232px]'
         }`}
       >
-        <nav className="py-4">
-          {menuItems.map((item) => {
-            const Icon = item.icon
-            const itemActive = isActive(item.path)
-            
-            if (item.hasChildren) {
-              const isExpanded = expandedMenus[item.id]
-              return (
-                <SidebarItem
-                  key={item.id}
-                  icon={Icon}
-                  label={item.label}
-                  isActive={itemActive}
-                  hasChildren={true}
-                  isExpanded={isExpanded}
-                  onClick={() => {
-                    toggleMenu(item.id)
-                    if (!isExpanded && item.children.length > 0) {
-                      navigate(item.children[0].path)
-                    }
-                  }}
-                >
-                  {item.children.map((child) => {
-                    const ChildIcon = child.icon
-                    const childActive = isActive(child.path)
-                    return (
-                      <SidebarChildItem
-                        key={child.path}
-                        icon={ChildIcon}
-                        label={child.label}
-                        path={child.path}
-                        isActive={childActive}
-                        onClick={() => {
-                          navigate(child.path)
-                          closeSidebar()
-                        }}
-                      />
-                    )
-                  })}
-                </SidebarItem>
-              )
-            }
+        <div className="min-h-0 flex-1">{renderNav(collapsed)}</div>
+        <button
+          type="button"
+          onClick={toggleCollapsed}
+          className={`flex items-center border-t border-gray-100 py-3 text-sm text-gray-400 hover:bg-gray-50 hover:text-gray-600 ${
+            collapsed ? 'justify-center' : 'px-6'
+          }`}
+          aria-label={collapsed ? '展开侧栏' : '收起侧栏'}
+          title={collapsed ? '展开侧栏' : '收起侧栏'}
+        >
+          {collapsed ? <ChevronsRight className="h-4 w-4" /> : <><ChevronsLeft className="mr-2 h-4 w-4" />收起</>}
+        </button>
+      </aside>
 
-            return (
-              <SidebarItem
-                key={item.id}
-                icon={Icon}
-                label={item.label}
-                path={item.path}
-                isActive={itemActive}
-                onClick={() => {
-                  navigate(item.path)
-                  closeSidebar()
-                }}
-              />
-            )
-          })}
-        </nav>
+      {/* 窄屏（<1024px）：抽屉 */}
+      {sidebarOpen && (
+        <div className="fixed inset-0 z-40 bg-black/30 lg:hidden" onClick={closeSidebar} aria-hidden="true" />
+      )}
+      <aside
+        className={`fixed bottom-0 left-0 top-16 z-50 w-64 max-w-[80vw] border-r border-gray-200 bg-white transition-transform duration-200 lg:hidden ${
+          sidebarOpen ? 'translate-x-0' : 'invisible -translate-x-full'
+        }`}
+        aria-hidden={!sidebarOpen}
+      >
+        {renderNav(false)}
       </aside>
     </>
   )

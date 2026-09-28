@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import { useParams, useNavigate, useLocation } from 'react-router-dom'
 import { ArrowLeft, FileCheck, Award, Target, AlertCircle, TrendingUp, BookOpen, XCircle, CheckCircle, Loader2, FileText, Paperclip } from 'lucide-react'
 import { useTask } from '../context/TaskContext'
 import { homeworkAPI, getErrorMessage } from '../utils/api'
@@ -8,6 +8,7 @@ import { formatServerTime } from '../utils/time'
 const TaskDetail = () => {
   const { taskId } = useParams()
   const navigate = useNavigate()
+  const location = useLocation()
   const { tasks, removeTask } = useTask()
   const [localTask, setLocalTask] = useState(null)
   const [serverResult, setServerResult] = useState(null)
@@ -87,7 +88,7 @@ const TaskDetail = () => {
         return
       }
     }
-    navigate('/tasks')
+    navigate(location.state?.from || '/grader')
   }
 
   const cleanLatex = (text) => {
@@ -124,7 +125,7 @@ const TaskDetail = () => {
     const knowledgePoints = {}
     
     questions.forEach((q, idx) => {
-      let category = '其他'
+      let category = '未归类'
       
       if (q.question_text?.includes('方程') || q.question_text?.includes('函数')) {
         category = '函数与方程'
@@ -179,10 +180,10 @@ const TaskDetail = () => {
             <AlertCircle className="h-12 w-12 text-gray-300 mx-auto mb-4" />
             <p className="text-gray-500">未找到任务详情</p>
             <button
-              onClick={() => navigate('/tasks')}
+              onClick={() => navigate(location.state?.from || '/grader')}
               className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
             >
-              返回任务列表
+              {location.state?.from ? '返回作业名单' : '返回作业批改'}
             </button>
           </div>
         </div>
@@ -192,9 +193,18 @@ const TaskDetail = () => {
 
   const result = serverResult || task.result
   const rawGrading = result?.grading_result
-  const gradingResult = rawGrading && Array.isArray(rawGrading.questions) ? rawGrading : null
+  const gradingResult = rawGrading && Array.isArray(rawGrading.questions) && rawGrading.questions.length ? rawGrading : null
+  const recordedScore = serverResult?.score ?? result?.score
+  const scoreOnly = !gradingResult && serverResult?.status === 'completed' && recordedScore !== null && recordedScore !== undefined
+  const rosterBack = location.state?.from || (
+    serverResult?.class_id && (serverResult.homework_id || serverResult.assignment_id)
+      ? `/class/${serverResult.class_id}/homework/${serverResult.homework_id || serverResult.assignment_id}`
+      : null
+  )
   const knowledgePoints = gradingResult?.questions ? analyzeKnowledgePoints(gradingResult.questions) : {}
   const jobStatus = serverResult?.status
+  const namedFiles = serverResult?.file_names?.length || task.files?.length || 0
+  const recordedFileCount = serverResult?.file_count || 0
 
   return (
     <div className="p-6">
@@ -202,26 +212,25 @@ const TaskDetail = () => {
         {/* 顶部导航 */}
         <div className="flex items-center space-x-4 mb-6">
           <button
-            onClick={() => navigate('/tasks')}
+            onClick={() => navigate(rosterBack || '/grader')}
             className="flex items-center space-x-2 text-gray-600 hover:text-gray-900 transition-colors"
           >
             <ArrowLeft className="h-5 w-5" />
-            <span>返回任务列表</span>
+            <span>{rosterBack ? '返回作业名单' : '返回作业批改'}</span>
           </button>
           <div className="flex-1" />
-          <button
-            onClick={() => setShowDeleteConfirm(true)}
-            className="px-4 py-2 text-red-600 border border-red-200 rounded-xl hover:bg-red-50 transition-colors"
-          >
-            删除任务
-          </button>
-          <button
-            onClick={handleExportPDF}
-            disabled={exporting || !gradingResult}
-            className="px-4 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            {exporting ? '导出中...' : '导出PDF'}
-          </button>
+          <div className="text-right">
+            <button
+              onClick={handleExportPDF}
+              disabled={exporting || !gradingResult}
+              className="px-4 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              {exporting ? '导出中...' : '导出PDF'}
+            </button>
+            {!gradingResult && (
+              <p className="mt-1 text-xs text-gray-400">没有逐题批改，没法导出 PDF</p>
+            )}
+          </div>
         </div>
 
         {/* 任务标题 */}
@@ -234,9 +243,21 @@ const TaskDetail = () => {
               <h1 className="text-xl font-bold text-gray-900">{task.title}</h1>
               <p className="text-sm text-gray-500">
                 {formatServerTime(task.createdAt)}
-                {task.files && ` | ${task.files.length} 个文件`}
+                {namedFiles > 0
+                  ? ` | ${namedFiles} 个文件`
+                  : recordedFileCount > 0
+                    ? ' | 名单上记了文件，原件没有保存'
+                    : ''}
               </p>
             </div>
+          </div>
+          <div className="mt-4 pt-4 border-t border-gray-100">
+            <button
+              onClick={() => setShowDeleteConfirm(true)}
+              className="text-sm text-gray-400 hover:text-red-600"
+            >
+              删除这份批改
+            </button>
           </div>
         </div>
 
@@ -280,9 +301,11 @@ const TaskDetail = () => {
                           <BookOpen className="h-4 w-4 text-gray-400" />
                           <span className="font-medium text-gray-700">{category}</span>
                         </div>
-                        <div className="text-sm text-gray-500 mt-1">
-                          题目 {data.questions.join(', ')}
-                        </div>
+                        {category !== '未归类' && (
+                          <div className="text-sm text-gray-500 mt-1">
+                            涉及第 {data.questions.join('、')} 题
+                          </div>
+                        )}
                       </div>
                       <div className="w-48">
                         <div className="flex items-center justify-between text-sm mb-1">
@@ -391,7 +414,23 @@ const TaskDetail = () => {
           </div>
         )}
 
-        {!gradingResult && (
+        {scoreOnly && (
+          <div className="bg-white rounded-xl border border-gray-200 p-6 mb-6">
+            <div className="flex items-end gap-6">
+              <div>
+                <div className="text-sm text-gray-500 mb-1">总分</div>
+                <div className="text-4xl font-bold text-gray-900">{recordedScore}</div>
+              </div>
+              <div>
+                <div className="text-sm text-gray-500 mb-1">错题</div>
+                <div className="text-2xl font-semibold text-gray-800">{serverResult.wrong_count ?? 0}</div>
+              </div>
+            </div>
+            <p className="mt-4 text-sm text-gray-600">这份成绩已记下，但逐题批改没有保存</p>
+          </div>
+        )}
+
+        {!gradingResult && !scoreOnly && (
           <div className="bg-white rounded-xl border border-gray-200 p-12 text-center">
             {jobStatus === 'processing' || (!serverResult && task.status === 'running') ? (
               <>

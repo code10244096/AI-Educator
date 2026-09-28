@@ -52,12 +52,10 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      # HTTPS 证书目录（见 DEPLOY_2GB.md「启用 HTTPS」）
+      # HTTPS 证书目录。站点配置由 scripts/deploy.sh 按需附加 docker-compose.https.yml
       - ./nginx/ssl:/etc/nginx/ssl:ro
-      # 启用 HTTPS 时取消下一行注释（先按 frontend/nginx-https.conf.example 准备 nginx/https.conf）
-      # - ./nginx/https.conf:/etc/nginx/conf.d/default.conf:ro
     healthcheck:
-      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/"]
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/healthz"]
       interval: 30s
       timeout: 10s
       retries: 3

@@ -164,15 +164,21 @@ class AIClient:
 - total_questions: 题目总数
 - correct_count: 正确数量
 - wrong_count: 错误数量
-- score: 分数（0-100）
 - questions: 每道题的详细批改结果数组，包含：
   - question_number: 题号
   - question_text: 题目内容
   - student_answer: 学生答案
   - correct_answer: 正确答案
-  - is_correct: 是否正确
+  - is_correct: 是否正确（true / false）
   - explanation: 解析
+  - needs_review: 是否建议老师复核（true / false）。字迹不清、识别存疑、学生答案不完整或你对判定没有把握时为 true
+  - reference_issue: 如果你认为老师给的参考答案本身有误，写明原因和你认为正确的答案；没有问题时为 null
+  - knowledge_point: 本题考查的高中数学知识点名称（如“函数的单调性”），无法判断时为 null
 
+要求：
+1. 按作业中的题号逐题批改，不要合并或遗漏题目；如果作答内容中识别不到任何题目，questions 返回空数组 []。
+2. 数学公式用 LaTeX 表示（行内用 \\( \\)）。
+3. 得分由系统按正确题数计算，你不需要给出分数。
 只返回 JSON，不要其他内容。
 """
         
@@ -273,7 +279,9 @@ class AIClient:
                 "student_answer": student_answer if student_answer else "未作答",
                 "correct_answer": correct_answer if correct_answer else "未提供",
                 "is_correct": is_correct,
-                "explanation": explanation
+                "explanation": explanation,
+                "needs_review": not student_answer,
+                "reference_issue": None,
             })
         
         total_questions = len(questions)

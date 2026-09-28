@@ -27,6 +27,9 @@ const ClassStats = ({ stats }) => {
         
         <div>
           <p className="text-sm text-gray-600 mb-2">高频错题</p>
+          {(stats.common_wrong_questions || []).length === 0 ? (
+            <p className="text-sm text-gray-500">这次作业还没有可统计的错题</p>
+          ) : (
           <div className="space-y-2">
             {(stats.common_wrong_questions || []).map((q, idx) => (
               <div key={idx} className="flex items-start">
@@ -35,6 +38,7 @@ const ClassStats = ({ stats }) => {
               </div>
             ))}
           </div>
+          )}
         </div>
       </div>
     </div>

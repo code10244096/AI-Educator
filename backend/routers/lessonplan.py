@@ -4,7 +4,8 @@ import re
 from typing import Optional
 from urllib.parse import quote
 
-from fastapi import APIRouter, Depends, Form, HTTPException, Query
+from fastapi import APIRouter, Depends, Form, HTTPException, Query, Request
+from fastapi.exceptions import RequestValidationError
 from fastapi.responses import Response
 from pydantic import BaseModel
 from sqlalchemy import func, or_, select
@@ -49,7 +50,9 @@ def _plan_to_dict(plan: LessonPlan) -> dict:
 
 def _plan_summary(plan: LessonPlan) -> dict:
     content = plan.content or ""
-    preview = re.sub(r"[#>*`\-\|]+", " ", content)
+    # 去掉 Markdown 标记，但保留正文里的普通连字符（如 QA-教案-一次函数）
+    preview = re.sub(r"[#>*`\|$]+", " ", content)
+    preview = re.sub(r"(?<!\S)-+(?!\S)", " ", preview)
     preview = re.sub(r"\s+", " ", preview).strip()[:120]
     data = _plan_to_dict(plan)
     data.pop("content")
@@ -83,7 +86,7 @@ async def _run_or_spawn(db: AsyncSession, plan: LessonPlan, wait: bool) -> dict:
 
 @router.post("/lessonplan/generate")
 async def generate_lesson_plan(
-    title: str = Form(...),
+    request: Request,
     period: str = Form("1 课时"),
     student_level: str = Form("中等"),
     requirements: str = Form(""),
@@ -95,7 +98,18 @@ async def generate_lesson_plan(
     创建教案生成任务（集成题库 RAG 检索）。
     默认立即返回 status=processing，前端轮询 GET /lessonplan/{id}；wait=true 时同步等待生成完成。
     """
-    title = (title or "").strip()
+    # Form(...) 会把空字符串当成缺字段，在进入本函数前就返回 422。
+    # 这里直接读表单：未传 title 仍是 422，title="" 与纯空白走下面的中文 400。
+    form = await request.form()
+    if "title" not in form:
+        raise RequestValidationError([{
+            "type": "missing",
+            "loc": ("body", "title"),
+            "msg": "Field required",
+            "input": None,
+        }])
+    raw_title = form.get("title")
+    title = raw_title.strip() if isinstance(raw_title, str) else ""
     if not title:
         raise HTTPException(status_code=400, detail="请输入课题名称")
 

@@ -13,7 +13,8 @@ import {
   AlertTriangle,
 } from 'lucide-react'
 import { useHomeworkDetail, useClassInfo } from '../hooks/useClassHomework'
-import { classHomeworkAPI } from '../utils/api'
+import { classHomeworkAPI, homeworkAPI, getErrorMessage } from '../utils/api'
+import { useToast } from '../components/Toast'
 import useAsync from '../hooks/useAsync'
 import MathText from '../components/MathText'
 import { Empty, ErrorState, Loading } from '../components/PageState'
@@ -24,6 +25,7 @@ const STATUS_FILTERS = [
   { id: 'missing', label: '未上传' },
   { id: 'processing', label: '批改中' },
   { id: 'failed', label: '失败' },
+  { id: 'pending', label: '待批改' },
   { id: 'graded', label: '已批改' },
   { id: 'review', label: '待复核' },
 ]
@@ -31,10 +33,12 @@ const STATUS_FILTERS = [
 export const isProcessing = (s) => s.status === 'processing' || s.status === 'queued'
 export const isGraded = (s) => s.status === 'completed' && s.score !== null && s.score !== undefined
 export const needsReview = (s) => isGraded(s) && s.review_status === 'pending_review'
+const canStartGrade = (s) => s.uploaded && !isGraded(s) && !isProcessing(s) && s.status !== 'failed'
 
 const matchFilter = (s, filter) => {
   switch (filter) {
     case 'missing': return !s.uploaded && s.in_roster !== false
+    case 'pending': return canStartGrade(s)
     case 'processing': return isProcessing(s)
     case 'failed': return s.status === 'failed'
     case 'graded': return isGraded(s)
@@ -57,7 +61,8 @@ const GradingBadge = ({ student }) => {
   }
   if (student.status === 'failed') return <Badge className="bg-red-100 text-red-700">批改失败</Badge>
   if (isGraded(student)) {
-    if (student.review_status === 'reviewed') return <Badge className="bg-green-100 text-green-800">已复核</Badge>
+    if (student.review_status === 'pending_review') return <Badge className="bg-blue-100 text-blue-800">待你确认</Badge>
+    if (student.review_status === 'reviewed') return <Badge className="bg-green-100 text-green-800">已确认</Badge>
     return <Badge className="bg-green-100 text-green-800">已批改</Badge>
   }
   return <Badge className="bg-orange-100 text-orange-800">待批改</Badge>
@@ -74,7 +79,9 @@ const HomeworkDetail = () => {
   const { classId, homeworkId } = useParams()
   const navigate = useNavigate()
   const [searchParams, setSearchParams] = useSearchParams()
+  const { addToast } = useToast()
   const [searchTerm, setSearchTerm] = useState('')
+  const [confirmingId, setConfirmingId] = useState(null)
   const statusFilter = STATUS_FILTERS.some(f => f.id === searchParams.get('filter')) ? searchParams.get('filter') : 'all'
 
   const { homework, students, loading, error, reload } = useHomeworkDetail(classId, homeworkId)
@@ -92,7 +99,14 @@ const HomeworkDetail = () => {
     const avgScore = graded.length
       ? Math.round((graded.reduce((a, s) => a + s.score, 0) / graded.length) * 10) / 10
       : null
-    return { uploaded, missing, graded: graded.length, processing, failed, avgScore, total: roster.length }
+    const pendingReview = students.filter(needsReview)
+    const reviewAvg = pendingReview.length
+      ? Math.round((pendingReview.reduce((a, s) => a + s.score, 0) / pendingReview.length) * 10) / 10
+      : null
+    return {
+      uploaded, missing, graded: graded.length, processing, failed, avgScore, total: roster.length,
+      pendingReview: pendingReview.length, reviewAvg,
+    }
   }, [students])
 
   const filteredStudents = useMemo(() => {
@@ -122,10 +136,27 @@ const HomeworkDetail = () => {
   }
 
   const viewResult = (student) => {
+    const qs = searchParams.toString()
     navigate(`/tasks/sub-${student.submission_id}`, {
-      state: { from: `/class/${classId}/homework/${homeworkId}` },
+      state: { from: `/class/${classId}/homework/${homeworkId}${qs ? `?${qs}` : ''}` },
     })
   }
+
+  const confirmReview = async (student) => {
+    if (!student.submission_id) return
+    setConfirmingId(student.submission_id)
+    try {
+      await homeworkAPI.markReviewed(student.submission_id)
+      addToast('已确认这份批改', 'success')
+      reload()
+    } catch (err) {
+      addToast(getErrorMessage(err, '确认失败'), 'error')
+    } finally {
+      setConfirmingId(null)
+    }
+  }
+
+  const onReviewFilter = statusFilter === 'review'
 
   if (loading && !homework) {
     return <div className="p-6"><Loading text="正在加载作业…" /></div>
@@ -190,8 +221,12 @@ const HomeworkDetail = () => {
         <StatCard label="未上传" value={stats.missing} className="text-gray-700" />
         <StatCard label="批改中" value={stats.processing} className="text-blue-600" />
         <StatCard label="批改失败" value={stats.failed} className={stats.failed ? 'text-red-600' : 'text-gray-700'} />
-        <StatCard label="已批改" value={stats.graded} className="text-blue-600" />
-        <StatCard label="平均分" value={stats.avgScore ?? '-'} className="text-purple-600" />
+        {onReviewFilter ? (
+          <StatCard label="待你确认" value={stats.pendingReview} className="text-blue-600" />
+        ) : (
+          <StatCard label="已批改" value={stats.graded} className="text-blue-600" />
+        )}
+        <StatCard label="平均分" value={(onReviewFilter ? stats.reviewAvg : stats.avgScore) ?? '-'} className="text-purple-600" />
       </div>
 
       <div className="bg-white rounded-xl border border-gray-200">
@@ -203,12 +238,12 @@ const HomeworkDetail = () => {
               <span className="text-sm text-gray-400">{filteredStudents.length} 人</span>
             </div>
             <div className="flex items-center gap-3 flex-wrap">
-              <div className="flex space-x-1 bg-gray-100 rounded-lg p-1 overflow-x-auto max-w-full">
+              <div className="flex flex-wrap gap-1 bg-gray-100 rounded-lg p-1">
                 {STATUS_FILTERS.map(f => (
                   <button
                     key={f.id}
                     onClick={() => setFilter(f.id)}
-                    className={`px-3 py-1 rounded-md text-xs font-medium whitespace-nowrap transition-all ${
+                    className={`px-3 py-1 rounded-md text-xs font-medium transition-all ${
                       statusFilter === f.id ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-500 hover:text-gray-700'
                     }`}
                   >
@@ -237,7 +272,55 @@ const HomeworkDetail = () => {
             action={{ label: '去导入学生', onClick: () => navigate(`/class/${classId}/members`) }}
           />
         ) : (
-          <div className="overflow-x-auto">
+          <>
+          <div className="md:hidden divide-y divide-gray-100">
+            {filteredStudents.map((student) => (
+              <div key={`card-${student.member_id || 'x'}-${student.submission_id || student.id}`} className="p-4 space-y-2">
+                <div className="flex items-start justify-between gap-3">
+                  <div className="min-w-0">
+                    <div className="text-sm font-medium text-gray-900">{student.display_name || student.name}</div>
+                    <div className="mt-1"><GradingBadge student={student} /></div>
+                  </div>
+                  <div className="text-sm font-medium text-gray-900 shrink-0">
+                    {isGraded(student) ? `${student.score} 分` : '-'}
+                  </div>
+                </div>
+                <div className="flex items-center gap-3">
+                  {canStartGrade(student) && (
+                    <button
+                      onClick={() => goUpload(student)}
+                      className="text-blue-600 hover:text-blue-800 text-sm inline-flex items-center"
+                    >
+                      <Upload className="h-3.5 w-3.5 mr-1" />
+                      去批改
+                    </button>
+                  )}
+                  {student.submission_id && (isGraded(student) || student.status === 'failed') && (
+                    <button
+                      onClick={() => viewResult(student)}
+                      className="text-blue-600 hover:text-blue-800 text-sm inline-flex items-center"
+                    >
+                      <Eye className="h-3.5 w-3.5 mr-1" />
+                      查看
+                    </button>
+                  )}
+                  {needsReview(student) && (
+                    <button
+                      onClick={() => confirmReview(student)}
+                      disabled={confirmingId === student.submission_id}
+                      className="text-sm text-blue-700 hover:text-blue-900 disabled:opacity-50"
+                    >
+                      {confirmingId === student.submission_id ? '确认中…' : '确认'}
+                    </button>
+                  )}
+                </div>
+              </div>
+            ))}
+            {filteredStudents.length === 0 && (
+              <div className="p-8 text-center text-gray-400 text-sm">没有符合条件的学生</div>
+            )}
+          </div>
+          <div className="hidden md:block overflow-x-auto">
             <table className="w-full min-w-[760px]">
               <thead>
                 <tr className="bg-gray-50">
@@ -284,6 +367,15 @@ const HomeworkDetail = () => {
                     </td>
                     <td className="px-4 py-3">
                       <div className="flex items-center space-x-3 whitespace-nowrap">
+                        {canStartGrade(student) && (
+                          <button
+                            onClick={() => goUpload(student)}
+                            className="text-blue-600 hover:text-blue-800 text-sm inline-flex items-center"
+                          >
+                            <Upload className="h-3.5 w-3.5 mr-1" />
+                            去批改
+                          </button>
+                        )}
                         {student.submission_id && (isGraded(student) || student.status === 'failed') && (
                           <button
                             onClick={() => viewResult(student)}
@@ -291,6 +383,15 @@ const HomeworkDetail = () => {
                           >
                             <Eye className="h-3.5 w-3.5 mr-1" />
                             查看
+                          </button>
+                        )}
+                        {needsReview(student) && (
+                          <button
+                            onClick={() => confirmReview(student)}
+                            disabled={confirmingId === student.submission_id}
+                            className="text-sm text-blue-700 hover:text-blue-900 disabled:opacity-50"
+                          >
+                            {confirmingId === student.submission_id ? '确认中…' : '确认'}
                           </button>
                         )}
                         {!isProcessing(student) && student.in_roster !== false && (
@@ -313,6 +414,7 @@ const HomeworkDetail = () => {
               <div className="p-8 text-center text-gray-400 text-sm">没有符合条件的学生</div>
             )}
           </div>
+          </>
         )}
       </div>
 
@@ -362,8 +464,10 @@ const HomeworkDetail = () => {
           <Empty
             compact
             icon={BarChart3}
-            title="还没有批改完成的作业"
-            desc="上传并批改后，这里会统计每道题的正确率和做错名单"
+            title={(analysis.data?.graded_count || stats.graded) > 0 ? '有总分，但没有逐题对错' : '还没有批改完成的作业'}
+            desc={(analysis.data?.graded_count || stats.graded) > 0
+              ? '这些作业记下了分数，但没有保存每道题的对错，所以这里统计不了正确率'
+              : '上传并批改后，这里会统计每道题的正确率和做错名单'}
           />
         )}
       </div>

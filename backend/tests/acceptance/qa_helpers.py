@@ -307,6 +307,13 @@ def prod_env(tmp: Path, **overrides: str) -> Dict[str, str]:
 def copy_real_db(dst: Path) -> Path:
     """Consistent read-only copy of backend/teaching_assistant.db (source opened with mode=ro)."""
     src = BACKEND / "teaching_assistant.db"
+    if not src.exists():  # running in a git worktree: the (untracked) DB lives in the main checkout
+        try:
+            common = subprocess.run(["git", "rev-parse", "--git-common-dir"], cwd=str(REPO), capture_output=True,
+                                    text=True).stdout.strip()
+            src = (REPO / common).resolve().parent / "backend" / "teaching_assistant.db"
+        except Exception:
+            pass
     if not src.exists():
         pytest.skip("backend/teaching_assistant.db 不存在")
     s = sqlite3.connect(f"file:{src.as_posix()}?mode=ro", uri=True)

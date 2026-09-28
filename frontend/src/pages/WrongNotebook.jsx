@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react'
+import { Link } from 'react-router-dom'
 import { Plus, Calendar, CheckCircle, ExternalLink, BookOpen, FileText, FileSpreadsheet, File, AlertCircle, Trash2, Loader2, RotateCcw } from 'lucide-react'
 import { notebookAPI, getErrorMessage } from '../utils/api'
 import ReactMarkdown from 'react-markdown'
@@ -49,9 +50,10 @@ const WrongNotebook = () => {
   const [parseError, setParseError] = useState(null)
   const [uploadProgress, setUploadProgress] = useState(0)
   const [uploadedFileName, setUploadedFileName] = useState('')
-  const [listLoading, setListLoading] = useState(false)
+  const [listLoading, setListLoading] = useState(true)
   const [hasMore, setHasMore] = useState(false)
   const [stats, setStats] = useState(null)
+  const [statsLoading, setStatsLoading] = useState(true)
   const [newKnowledgePoint, setNewKnowledgePoint] = useState('')
   const [variantLoadingId, setVariantLoadingId] = useState(null)
   const [actionError, setActionError] = useState(null)
@@ -82,7 +84,11 @@ const WrongNotebook = () => {
   }, [buildParams])
 
   const loadStats = useCallback(() => {
-    notebookAPI.getStats({ subject: filter.subject || undefined }).then(setStats).catch(() => {})
+    setStatsLoading(true)
+    notebookAPI.getStats({ subject: filter.subject || undefined })
+      .then(setStats)
+      .catch(() => {})
+      .finally(() => setStatsLoading(false))
   }, [filter.subject])
 
   useEffect(() => { loadList(false, 0) }, [loadList])
@@ -207,10 +213,10 @@ const WrongNotebook = () => {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-3 mb-6">
-            <label className="flex items-center space-x-2 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-5 py-2.5 rounded-xl cursor-pointer hover:from-green-600 hover:to-emerald-600 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-[1.02]">
-              <Plus className="h-5 w-5" />
-              <span className="font-medium">录入错题</span>
+          <div className="flex flex-wrap gap-3 mb-6 items-end">
+            <label className="flex items-center space-x-2 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-5 py-2.5 rounded-xl cursor-pointer hover:from-green-600 hover:to-emerald-600 shadow-md hover:shadow-lg transition-all duration-300 max-w-full">
+              <Plus className="h-5 w-5 shrink-0" />
+              <span className="font-medium whitespace-normal text-left">上传错题文件（图片、PDF、Word、TXT、MD）</span>
               <input
                 type="file"
                 accept="image/*,.pdf,.docx,.md,.txt"
@@ -220,24 +226,32 @@ const WrongNotebook = () => {
               />
             </label>
 
-            <input
-              type="text"
-              value={newKnowledgePoint}
-              onChange={(e) => setNewKnowledgePoint(e.target.value)}
-              placeholder="录入时的知识点（如：导数）"
-              className="border border-gray-300 rounded-xl px-4 py-2.5 bg-white text-sm focus:ring-2 focus:ring-green-500 focus:border-transparent"
-            />
+            <label className="flex flex-col gap-1 text-xs text-gray-500 w-full sm:w-auto sm:min-w-[16rem]">
+              上传时填写的知识点
+              <input
+                type="text"
+                value={newKnowledgePoint}
+                onChange={(e) => setNewKnowledgePoint(e.target.value)}
+                placeholder="例如：导数"
+                aria-label="上传时填写的知识点"
+                className="w-full border border-gray-300 rounded-xl px-4 py-2.5 bg-white text-sm text-gray-900 focus:ring-2 focus:ring-green-500 focus:border-transparent"
+              />
+            </label>
 
-            <select
-              value={filter.knowledgePoint}
-              onChange={(e) => setFilter(prev => ({ ...prev, knowledgePoint: e.target.value }))}
-              className="border border-gray-300 rounded-xl px-4 py-2.5 bg-white hover:border-green-400 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all cursor-pointer"
-            >
-              <option value="">全部知识点</option>
-              {(stats?.knowledge_points || []).map(kp => (
-                <option key={kp.name} value={kp.name}>{kp.name}（{kp.count}）</option>
-              ))}
-            </select>
+            <label className="flex flex-col gap-1 text-xs text-gray-500">
+              筛选知识点
+              <select
+                value={filter.knowledgePoint}
+                onChange={(e) => setFilter(prev => ({ ...prev, knowledgePoint: e.target.value }))}
+                aria-label="筛选知识点"
+                className="border border-gray-300 rounded-xl px-4 py-2.5 bg-white hover:border-green-400 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all cursor-pointer"
+              >
+                <option value="">全部知识点</option>
+                {(stats?.knowledge_points || []).map(kp => (
+                  <option key={kp.name} value={kp.name}>{kp.name}（{kp.count}）</option>
+                ))}
+              </select>
+            </label>
 
             <select
               value={filter.subject}
@@ -261,10 +275,16 @@ const WrongNotebook = () => {
             </select>
           </div>
 
-          {stats && (
+          {(statsLoading || (listLoading && questions.length === 0)) ? (
+            <p className="text-sm text-gray-500 mb-4">正在统计</p>
+          ) : stats && stats.total > 0 ? (
             <p className="text-sm text-gray-500 mb-4">
               共 {stats.total} 道错题 · 已掌握 {stats.mastered} · 待巩固 {stats.unmastered}
-              <span className="text-gray-400">（作业批改中的错题会自动收录）</span>
+            </p>
+          ) : (
+            <p className="text-sm text-gray-600 mb-4">
+              这里还没有错题。班级作业里的错题请先到对应作业查看。
+              <Link to="/class" className="ml-1 text-green-700 underline">我的班级</Link>
             </p>
           )}
 
@@ -421,7 +441,7 @@ const WrongNotebook = () => {
         {questions.length === 0 && !loading && listLoading && (
           <div className="flex items-center justify-center py-16 text-gray-500">
             <Loader2 className="h-5 w-5 mr-2 animate-spin" />
-            加载错题...
+            正在统计错题...
           </div>
         )}
 
@@ -431,7 +451,7 @@ const WrongNotebook = () => {
               <BookOpen className="h-12 w-12 text-green-500" />
             </div>
             <p className="text-gray-500 text-lg font-medium">暂无错题记录</p>
-            <p className="text-sm text-gray-400 mt-2">点击上方"录入错题"按钮添加</p>
+            <p className="text-sm text-gray-400 mt-2">点击上方「上传错题文件」添加</p>
           </div>
         )}
 

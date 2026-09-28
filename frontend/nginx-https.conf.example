@@ -4,14 +4,26 @@
 #   1. mkdir -p nginx/ssl && 把证书放到 nginx/ssl/fullchain.pem、nginx/ssl/privkey.pem
 #      （云厂商免费证书或 Let's Encrypt；没有域名时可先用自签证书内测）
 #   2. cp frontend/nginx-https.conf.example nginx/https.conf，把 server_name 改成你的域名
-#   3. 在 docker-compose.yml 里取消 frontend 下 “./nginx/https.conf:/etc/nginx/conf.d/default.conf:ro” 这一行的注释
-#   4. docker compose up -d
+#   3. 服务器上执行 bash scripts/deploy.sh（证书和 nginx/https.conf 都在时会自动挂上 HTTPS）
 
-# HTTP 一律跳转到 HTTPS
+# HTTP：探活和证书续期放行，其余跳转到 HTTPS
 server {
     listen 80;
     server_name your-school-domain.example;
-    return 301 https://$host$request_uri;
+
+    location = /healthz {
+        access_log off;
+        default_type text/plain;
+        return 200 "ok\n";
+    }
+
+    location ^~ /.well-known/acme-challenge/ {
+        root /var/www/certbot;
+    }
+
+    location / {
+        return 301 https://$host$request_uri;
+    }
 }
 
 server {

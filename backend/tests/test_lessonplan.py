@@ -5,6 +5,8 @@ import pytest
 
 from fakes import DEFAULT_LESSONPLAN, prompt_text
 from helpers import generate_plan, poll_job
+from models import LessonPlan
+from routers.lessonplan import _plan_summary
 
 GEN = "/api/lessonplan/generate"
 
@@ -57,9 +59,38 @@ async def test_get_missing_plan_404(client):
 
 
 async def test_generate_requires_title(client, fake_ai):
-    assert (await client.post(GEN, data={})).status_code == 422
-    assert (await client.post(GEN, data={"title": "   "})).status_code == 400
+    missing = await client.post(GEN, data={})
+    assert missing.status_code == 422
+    assert missing.json()["detail"][0]["loc"] == ["body", "title"]
+
+    empty = await client.post(GEN, data={"title": ""})
+    assert empty.status_code == 400
+    assert empty.json()["detail"] == "请输入课题名称"
+
+    multipart = await client.post(GEN, files={"title": (None, "")})
+    assert multipart.status_code == 400
+    assert multipart.json()["detail"] == "请输入课题名称"
+
+    spaces = await client.post(GEN, data={"title": "   "})
+    assert spaces.status_code == 400
+    assert spaces.json()["detail"] == "请输入课题名称"
     assert fake_ai.calls == []
+
+
+def test_plan_summary_keeps_hyphens():
+    plan = LessonPlan(
+        title="QA-教案-一次函数",
+        content="# QA-教案-一次函数图像\n\n- 列表项\n\n**强调** `代码`\n\n---\n\n教学目标",
+        status="completed",
+    )
+    data = _plan_summary(plan)
+    assert data["title"] == "QA-教案-一次函数"
+    assert "QA-教案-一次函数图像" in data["preview"]
+    assert "列表项" in data["preview"]
+    assert "- 列表" not in data["preview"]
+    assert "#" not in data["preview"]
+    assert "*" not in data["preview"]
+    assert "`" not in data["preview"]
 
 
 async def test_ai_failure_marks_plan_failed(client, fake_ai):

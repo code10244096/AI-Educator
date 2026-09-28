@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { School, Plus, Edit, Trash2, X, Users } from 'lucide-react'
 import { useClass } from '../context/ClassContext'
@@ -10,22 +10,34 @@ import { getErrorMessage } from '../utils/api'
 const GRADES = ['高一', '高二', '高三']
 
 // 班级的新建 / 编辑 / 删除（只做高中数学，学科固定为数学）
-const ClassManager = ({ autoOpenCreate = false }) => {
+const ClassManager = ({ autoOpenCreate = false, onCreateClose }) => {
   const navigate = useNavigate()
   const { classes, loaded, loadError, reloadClasses, addClass, updateClass, deleteClass } = useClass()
   const { addToast } = useToast()
   const [showAdd, setShowAdd] = useState(autoOpenCreate)
+
+  useEffect(() => {
+    if (autoOpenCreate) setShowAdd(true)
+  }, [autoOpenCreate])
+
+  const closeAdd = () => {
+    setShowAdd(false)
+    setNameError('')
+    onCreateClose?.()
+  }
   const [newClass, setNewClass] = useState({ name: '', grade: '高一' })
   const [editingId, setEditingId] = useState(null)
   const [editForm, setEditForm] = useState({ name: '', grade: '高一' })
   const [deleteTarget, setDeleteTarget] = useState(null)
   const [saving, setSaving] = useState(false)
+  const [nameError, setNameError] = useState('')
 
   const handleAdd = async () => {
     if (!newClass.name.trim()) {
-      addToast('请输入班级名称', 'error')
+      setNameError('请填写班级名称')
       return
     }
+    setNameError('')
     setSaving(true)
     try {
       const created = await addClass({ name: newClass.name.trim(), grade: newClass.grade, subject: '数学' })
@@ -92,12 +104,13 @@ const ClassManager = ({ autoOpenCreate = false }) => {
                 id="new-class-name"
                 type="text"
                 value={newClass.name}
-                onChange={(e) => setNewClass(prev => ({ ...prev, name: e.target.value }))}
+                onChange={(e) => { setNewClass(prev => ({ ...prev, name: e.target.value })); setNameError('') }}
                 onKeyDown={(e) => { if (e.key === 'Enter') handleAdd() }}
                 placeholder="例如：高一5班"
                 className={inputClass}
                 autoFocus
               />
+              {nameError && <p className="text-xs text-red-600 mt-1">{nameError}</p>}
             </div>
             <div>
               <label className="block text-xs font-medium text-gray-600 mb-1" htmlFor="new-class-grade">年级</label>
@@ -112,7 +125,7 @@ const ClassManager = ({ autoOpenCreate = false }) => {
             </div>
           </div>
           <div className="flex justify-end space-x-3">
-            <button onClick={() => setShowAdd(false)} className="px-4 py-2 border border-gray-300 rounded-lg text-sm text-gray-600 hover:bg-white">
+            <button onClick={closeAdd} className="px-4 py-2 border border-gray-300 rounded-lg text-sm text-gray-600 hover:bg-white">
               取消
             </button>
             <button onClick={handleAdd} disabled={saving} className="px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700 disabled:opacity-60">

@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useEffect, useMemo } from 'react'
-import { useSearchParams, useNavigate } from 'react-router-dom'
+import { Link, useSearchParams, useNavigate } from 'react-router-dom'
 import { useDropzone } from 'react-dropzone'
 import {
   Upload, X, FileText, File, AlertCircle, Loader2, CheckCircle, History,
@@ -11,6 +11,7 @@ import { useTask, estimateProgress } from '../context/TaskContext'
 import { clearHomeworkCache } from '../services/homeworkService'
 import { useToast } from '../components/Toast'
 import ConfirmDialog from '../components/ConfirmDialog'
+import PageBackground from '../components/PageBackground'
 
 const MAX_FILE_SIZE = 10 * 1024 * 1024
 const ALLOWED_EXTS = ['png', 'jpg', 'jpeg', 'gif', 'bmp', 'webp', 'pdf', 'docx', 'txt', 'md']
@@ -44,8 +45,9 @@ const HomeworkGrader = () => {
   const [taskId, setTaskId] = useState(null)
   const [finishedResult, setFinishedResult] = useState(null)
   const [history, setHistory] = useState({ items: [], total: 0 })
-  const [historyLoading, setHistoryLoading] = useState(false)
+  const [historyLoading, setHistoryLoading] = useState(true)
   const [deleteTarget, setDeleteTarget] = useState(null)
+  const [isVisible, setIsVisible] = useState(false)
 
   const gradeContext = useMemo(() => ({
     classId: searchParams.get('classId'),
@@ -57,6 +59,10 @@ const HomeworkGrader = () => {
   }), [searchParams])
   const { getClassBySlug } = useClass()
   const [contextHomework, setContextHomework] = useState(null)
+
+  useEffect(() => {
+    setIsVisible(true)
+  }, [])
 
   // 批改上下文横幅显示“班级 · 作业名 · 学生”，不显示内部编号
   useEffect(() => {
@@ -229,16 +235,22 @@ const HomeworkGrader = () => {
     : currentTask?.progressLabel || '处理中'
 
   return (
-    <div className="p-6">
-      <div className="max-w-4xl mx-auto space-y-6">
-        <div className="bg-white rounded-xl border border-gray-200 p-6">
-          <div className="flex items-center space-x-3 mb-6">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center">
-              <Upload className="h-5 w-5 text-white" />
+    <PageBackground gradient="grader">
+      <div className={`max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12 space-y-6 transition-all duration-1000 ${
+        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+      }`}>
+        <div className="bg-white/90 backdrop-blur-md rounded-2xl shadow-xl p-4 sm:p-8 border border-white/20">
+          <div className="flex items-center space-x-3 mb-8">
+            <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center shadow-lg">
+              <Upload className="h-6 w-6 text-white" />
             </div>
             <div>
-              <h2 className="text-xl font-bold text-gray-900">AI 作业批改助手</h2>
-              <p className="text-sm text-gray-500">拍照上传，智能批改，结果自动保存</p>
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">AI 作业批改助手</h2>
+              <p className="text-sm text-gray-600">
+                这里是临时批一份。班级作业请到
+                <Link to="/class" className="mx-1 text-blue-600 hover:underline">我的班级</Link>
+                。
+              </p>
             </div>
           </div>
 
@@ -322,6 +334,9 @@ const HomeworkGrader = () => {
               </span>
             ) : '开始批改'}
           </button>
+          {!processing && files.length === 0 && (
+            <p className="mt-2 text-sm text-gray-500 text-center">请先选择作业文件</p>
+          )}
 
           {processing && (
             <div className="mt-4">
@@ -381,8 +396,8 @@ const HomeworkGrader = () => {
           )}
         </div>
 
-        <div className="bg-white rounded-xl border border-gray-200">
-          <div className="p-5 border-b border-gray-200 flex items-center justify-between">
+        <div className="bg-white/90 backdrop-blur-md rounded-2xl shadow-xl border border-white/20">
+          <div className="p-5 border-b border-gray-100 flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <History className="h-5 w-5 text-gray-500" />
               <h3 className="text-lg font-semibold text-gray-900">最近批改记录</h3>
@@ -392,8 +407,14 @@ const HomeworkGrader = () => {
               <RefreshCw className={`h-4 w-4 ${historyLoading ? 'animate-spin' : ''}`} />
             </button>
           </div>
-          {history.items.length === 0 ? (
-            <p className="p-8 text-center text-sm text-gray-400">还没有批改记录</p>
+          {historyLoading && history.items.length === 0 ? (
+            <p className="p-8 text-center text-sm text-gray-400" role="status">正在加载批改记录</p>
+          ) : history.items.length === 0 ? (
+            <p className="p-8 text-center text-sm text-gray-500">
+              还没有临时批改。班级里已经批过的作业在
+              <Link to="/class" className="mx-1 text-blue-600 hover:underline">我的班级</Link>
+              ，不会出现在这个列表里。
+            </p>
           ) : (
             <div className="divide-y divide-gray-100">
               {history.items.map(item => {
@@ -453,7 +474,7 @@ const HomeworkGrader = () => {
         confirmText="确认删除"
         cancelText="再想想"
       />
-    </div>
+    </PageBackground>
   )
 }
 
