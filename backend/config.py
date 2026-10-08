@@ -146,7 +146,9 @@ class Settings:
         # 演示数据：仅开发环境显式开启时播种（生产强制关闭）
         self.SEED_DEMO_DATA = _env_bool("SEED_DEMO_DATA", False) and not self.IS_PRODUCTION
         # 公测：打开网站即可进入，不为每位访客展示登录页；各自一个体验账号，数据互不可见
-        self.PUBLIC_BETA = _env_bool("PUBLIC_BETA", False)
+        # 环境变量优先，其次 config.json 的 app.public_beta
+        self.PUBLIC_BETA = _env_bool(
+            "PUBLIC_BETA", bool(config.get("app", {}).get("public_beta", False)))
 
         # 批改队列：全局同时运行的批改任务数、每位教师每天最多提交的批改份数
         self.GRADING_CONCURRENCY = max(1, _env_int("GRADING_CONCURRENCY", 4))

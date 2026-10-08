@@ -64,7 +64,7 @@ async def test_login_success_sets_httponly_cookie_and_hashes_password(app, anon_
     assert r.status_code == 200, r.text
     body = r.json()
     assert body == {"id": uid, "username": username, "display_name": "王老师", "school": "实验中学",
-                    "role": "teacher", "must_change_password": True}
+                    "role": "teacher", "must_change_password": True, "is_guest": False}
     set_cookie = r.headers["set-cookie"].lower()
     assert "aiedu_session=" in set_cookie and "httponly" in set_cookie and "samesite=lax" in set_cookie
     # 初始密码：只能访问账号接口，业务接口 403
@@ -209,6 +209,40 @@ def test_manage_errors():
         manage.reset_password("no_such_user_zz")
     users = manage.list_users()
     assert any(u["username"] == "pytest_teacher" and u["can_login"] for u in users)
+
+
+async def test_enter_requires_login_when_public_beta_off(anon_client):
+    from config import settings
+    previous = settings.PUBLIC_BETA
+    settings.PUBLIC_BETA = False
+    try:
+        r = await anon_client.post("/api/auth/enter")
+        assert r.status_code == 401 and r.json()["detail"] == "请先登录"
+    finally:
+        settings.PUBLIC_BETA = previous
+
+
+async def test_public_beta_enter_creates_isolated_guest(anon_client):
+    from config import settings
+    previous = settings.PUBLIC_BETA
+    settings.PUBLIC_BETA = True
+    try:
+        r = await anon_client.post("/api/auth/enter")
+        assert r.status_code == 200, r.text
+        body = r.json()
+        assert body["is_guest"] is True and body["public_beta"] is True
+        assert body["role"] == "teacher" and body["must_change_password"] is False
+        assert body["username"].startswith("beta_")
+        assert "aiedu_session=" in r.headers["set-cookie"].lower()
+
+        me = await anon_client.get("/api/auth/me")
+        assert me.status_code == 200 and me.json()["id"] == body["id"]
+        assert (await anon_client.get("/api/class/list")).status_code == 200
+
+        again = await anon_client.post("/api/auth/enter")
+        assert again.status_code == 200 and again.json()["id"] == body["id"]
+    finally:
+        settings.PUBLIC_BETA = previous
 
 
 @pytest.mark.slow

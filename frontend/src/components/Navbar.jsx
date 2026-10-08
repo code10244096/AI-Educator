@@ -45,7 +45,7 @@ const UserMenu = () => {
         <span className="w-7 h-7 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-sm font-medium">
           {name.slice(0, 1)}
         </span>
-        <span className="inline text-sm font-medium text-gray-700 max-w-[4.5rem] sm:max-w-[8rem] truncate" data-testid="navbar-user-name">{name}</span>
+        <span className="hidden sm:inline text-sm font-medium text-gray-700 max-w-[8rem] truncate" data-testid="navbar-user-name">{name}</span>
         <ChevronDown className="h-4 w-4 text-gray-400" />
       </button>
       {open && (
@@ -108,9 +108,9 @@ const Navbar = () => {
             <span className="bg-blue-600 rounded-lg p-1.5 flex-shrink-0">
               <GraduationCap className="h-5 w-5 text-white" />
             </span>
-            <span className="text-base font-bold text-gray-900 whitespace-nowrap">AI 教学助手</span>
+            <span className="hidden min-[400px]:inline text-base font-bold text-gray-900 whitespace-nowrap">AI 教学助手</span>
             {user?.is_guest && (
-              <span className="text-xs font-medium text-blue-700 bg-blue-50 border border-blue-100 rounded-full px-2 py-0.5">公测</span>
+              <span className="hidden min-[400px]:inline text-xs font-medium text-blue-700 bg-blue-50 border border-blue-100 rounded-full px-2 py-0.5">公测</span>
             )}
           </button>
         </div>

@@ -101,6 +101,14 @@ export const AuthProvider = ({ children }) => {
     })
   }, [adoptEnter])
 
+  const startTrial = useCallback(async () => {
+    const data = adoptEnter(await authAPI.enter())
+    clearLocalData()
+    setNotice('')
+    setUser(data)
+    return data
+  }, [adoptEnter])
+
   const login = useCallback(async (username, password) => {
     const data = await authAPI.login(username, password)
     clearLocalData()
@@ -141,6 +149,7 @@ export const AuthProvider = ({ children }) => {
       notice,
       setNotice,
       login,
+      startTrial,
       logout,
       changePassword,
       updateProfile,
