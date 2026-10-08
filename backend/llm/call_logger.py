@@ -1,7 +1,7 @@
 """
 模型调用日志：每次调用追加一行到 api_calls.jsonl。
 
-目录结构与 api_call_with_yibu.py 保持一致，api_yibu_sumarize.py 可直接统计：
+目录由本模块写入，api_yibu_sumarize.py 可直接统计：
   api_runs/
     <YYYYmmdd_HHMMSS>_backend_key<后四位>_<run前8位>/
       api_calls.jsonl    # 每次调用一行（schema api_call_log_v4）
