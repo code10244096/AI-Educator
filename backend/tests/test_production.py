@@ -115,7 +115,7 @@ def test_env_only_llm_config(monkeypatch):
     cfg = load_llm_config({}, {})
     assert cfg.enabled and cfg.base_url == "https://gw.example/v1"
     assert cfg.model_for("grade") == "grade-x" and cfg.model_chain("grade") == ["grade-x", "a", "b"]
-    assert cfg.model_for("ocr") == "gpt-6-astra"
+    assert cfg.model_for("ocr") == "gpt-5.5"
 
 
 # ---------------------------------------------------------------- 上传：文件头 + 数量

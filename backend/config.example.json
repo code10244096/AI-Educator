@@ -41,10 +41,10 @@
     "api_key": "your_api_key_here",
     "base_url": "https://yibuapi.com/v1",
     "models": {
-      "default": "gpt-6-astra",
-      "ocr": "gpt-6-astra",
+      "default": "gemini-3.1-pro-preview",
+      "ocr": "gpt-5.5",
       "grade": "gemini-3.1-pro-preview",
-      "variant": "gpt-6-astra",
+      "variant": "gemini-3.1-pro-preview",
       "lessonplan": "gemini-3.1-pro-preview"
     },
     "timeout": 600,
@@ -56,18 +56,18 @@
     "log_request_content": true,
     "fallbacks": {
       "ocr": [
-        "gpt-5.5"
+        "deepseek-v4.1-flash"
       ],
       "grade": [
-        "gpt-6-astra"
+        "deepseek-v4.1-flash"
       ],
       "variant": [
         "deepseek-v4-pro"
       ],
       "lessonplan": [
-        "deepseek-v4-pro"
+        "deepseek-v4.1-flash"
       ]
     },
-    "_comment_models": "按模块分配模型（2026-09-26 实测）：ocr=astra（deepseek 无视觉、glm 会编造内容，禁用），grade/lessonplan=gemini-3.1-pro，variant=astra；fallbacks 为主模型失败时的备用"
+    "_comment_models": "2026-10-08 实测：ocr=gpt-5.5（识别准且省 token；deepseek-v4.1-flash 可看图，作备用）。grade/variant/lessonplan=gemini-3.1-pro-preview。glm-5.2 不接入（识别无正文、错因解释不可靠）。gpt-6-astra 本次多次超时，不再作为主模型。"
   }
 }

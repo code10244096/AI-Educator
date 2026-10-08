@@ -9,18 +9,20 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 
 # 只用环境变量部署（没有 config.json）时的默认网关与分功能模型（2026-09 实测选型，见 config.example.json）
 DEFAULT_BASE_URL = "https://yibuapi.com/v1"
+# 2026-10-08 网关实测：识别用 gpt-5.5（准、省 token）；批改/变式/教案用 gemini（判题和行文更稳）。
+# ds-v4-1 在网关上的名字是 deepseek-v4.1-flash，适合做备用。glm-5.2 识别空回复、解析不可靠，不接入。
 DEFAULT_MODELS = {
-    "default": "gpt-6-astra",
-    "ocr": "gpt-6-astra",
+    "default": "gemini-3.1-pro-preview",
+    "ocr": "gpt-5.5",
     "grade": "gemini-3.1-pro-preview",
-    "variant": "gpt-6-astra",
+    "variant": "gemini-3.1-pro-preview",
     "lessonplan": "gemini-3.1-pro-preview",
 }
 DEFAULT_FALLBACKS = {
-    "ocr": ["gpt-5.5"],
-    "grade": ["gpt-6-astra"],
+    "ocr": ["deepseek-v4.1-flash"],
+    "grade": ["deepseek-v4.1-flash"],
     "variant": ["deepseek-v4-pro"],
-    "lessonplan": ["deepseek-v4-pro"],
+    "lessonplan": ["deepseek-v4.1-flash"],
 }
 FEATURES = ("ocr", "grade", "variant", "lessonplan")
 
@@ -38,7 +40,7 @@ def load_llm_config(raw: dict, legacy_ai: dict) -> LLMConfig:
     fallbacks = {}
     if raw:
         models = dict(raw.get("models") or {})
-        models.setdefault("default", raw.get("model") or "gpt-6-astra")
+        models.setdefault("default", raw.get("model") or DEFAULT_MODELS["default"])
         api_key = raw.get("api_key", "")
         base_url = raw.get("base_url", DEFAULT_BASE_URL)
         fallbacks = {k: [m for m in v if m] for k, v in (raw.get("fallbacks") or {}).items()}
