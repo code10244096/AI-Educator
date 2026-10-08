@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # 功能说明：
-# 统计 api_runs/ 下的模型调用日志（CLI 脚本 api_call_with_yibu.py 产生的 v3 日志，
-# 以及后端产生的 v4 日志），输出命令行表格、CSV、JSON 和 HTML dashboard。
+# 统计 api_runs/ 下后端 LLM 网关写入的调用日志，输出命令行表格、CSV、JSON 和 HTML dashboard。
 #
 # 聚合逻辑统一放在 backend/usage_stats.py，本脚本只负责参数解析与输出渲染：
 #   - 自动跳过 run_summary 行，不读取 responses.jsonl（避免重复统计）；

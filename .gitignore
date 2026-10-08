@@ -57,8 +57,8 @@ Thumbs.db
 /uploads/
 /backups/
 
-# 部署脚本（可选）
-deploy.sh
+# 仅忽略仓库根目录的临时部署脚本；scripts/deploy.sh 需要随代码发布
+/deploy.sh
 
 # SSL 证书与本机 HTTPS 站点配置（含域名，不入库）
 nginx/ssl/*.pem
