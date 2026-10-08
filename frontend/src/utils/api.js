@@ -28,6 +28,7 @@ api.interceptors.response.use(
     const method = (error?.config?.method || 'get').toLowerCase()
     // 只有登录、退出和启动时的 GET /auth/me 自己处理 401；PUT /auth/me（保存资料）失效时同样跳登录页
     const isAuthCall = url.startsWith('/auth/login') || url.startsWith('/auth/logout') ||
+      url.startsWith('/auth/enter') ||
       (url.startsWith('/auth/me') && method === 'get')
     if (status === 401 && !isAuthCall) {
       authHandlers.onUnauthorized?.(MSG_SESSION_EXPIRED)
@@ -42,6 +43,12 @@ api.interceptors.response.use(
 export const authAPI = {
   login: async (username, password) => {
     const response = await api.post('/auth/login', { username, password })
+    return response.data
+  },
+
+  // 公测：没有会话时由服务端发放体验账号；未开启公测时返回 401
+  enter: async () => {
+    const response = await api.post('/auth/enter')
     return response.data
   },
 

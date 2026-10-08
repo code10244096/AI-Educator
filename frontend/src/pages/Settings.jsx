@@ -169,21 +169,23 @@ const SECTIONS = [
 ]
 
 const Settings = () => {
+  const { user } = useAuth()
   const [searchParams, setSearchParams] = useSearchParams()
+  const sections = user?.is_guest ? SECTIONS.filter(s => s.id !== 'password') : SECTIONS
   const requested = searchParams.get('section')
-  const activeSection = SECTIONS.some(s => s.id === requested) ? requested : 'profile'
+  const activeSection = sections.some(s => s.id === requested) ? requested : 'profile'
 
   return (
     <div className="p-4 sm:p-6">
       <div className="mb-6">
         <h2 className="text-xl font-bold text-gray-900">设置</h2>
-        <p className="text-sm text-gray-500 mt-1">个人资料与登录密码</p>
+        <p className="text-sm text-gray-500 mt-1">{user?.is_guest ? '公测体验可以改显示姓名和学校' : '个人资料与登录密码'}</p>
       </div>
 
       <div className="flex flex-col md:flex-row gap-6">
         <div className="md:w-56 flex-shrink-0">
           <nav className="bg-white rounded-xl border border-gray-200 overflow-hidden flex md:block">
-            {SECTIONS.map((section) => {
+            {sections.map((section) => {
               const Icon = section.icon
               return (
                 <button

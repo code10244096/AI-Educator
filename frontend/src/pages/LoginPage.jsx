@@ -21,7 +21,7 @@ const LoginPage = () => {
     document.title = '登录 - AI 教学助手'
   }, [])
 
-  if (!loading && user) {
+  if (!loading && user && !user.is_guest) {
     return <Navigate to={user.must_change_password ? `/set-password?redirect=${encodeURIComponent(redirect)}` : redirect} replace />
   }
 
@@ -133,6 +133,15 @@ const LoginPage = () => {
           </button>
 
           <p className="text-center text-xs text-gray-400">忘记密码？请联系学校管理员重置</p>
+          {user?.is_guest && (
+            <button
+              type="button"
+              onClick={() => navigate('/')}
+              className="w-full text-sm text-blue-600 hover:text-blue-700"
+            >
+              返回工作台
+            </button>
+          )}
         </form>
       </div>
     </div>

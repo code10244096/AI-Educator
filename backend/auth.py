@@ -23,6 +23,7 @@ from database import get_db
 from models import User
 
 SESSION_COOKIE = "aiedu_session"
+GUEST_USERNAME_PREFIX = "beta_"
 _BCRYPT_MAX_BYTES = 72
 
 PASSWORD_RULE = "新密码至少 8 位，且需同时包含字母和数字"
@@ -118,6 +119,10 @@ def _token_from_request(request: Request) -> Optional[str]:
     return None
 
 
+def is_guest_user(user: User) -> bool:
+    return (user.username or "").startswith(GUEST_USERNAME_PREFIX)
+
+
 def user_to_dict(user: User) -> dict:
     return {
         "id": user.id,
@@ -126,6 +131,7 @@ def user_to_dict(user: User) -> dict:
         "school": user.school or "",
         "role": user.role or "teacher",
         "must_change_password": bool(user.must_change_password),
+        "is_guest": is_guest_user(user),
     }
 
 
