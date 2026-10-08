@@ -52,20 +52,29 @@ const UserMenu = () => {
         <div className="absolute right-0 mt-2 w-44 bg-white border border-gray-200 rounded-xl shadow-lg py-1 z-50" role="menu">
           <div className="px-3 py-2 border-b border-gray-100">
             <div className="text-sm font-medium text-gray-900 truncate">{name}</div>
-            <div className="text-xs text-gray-400 truncate">{user.username}</div>
+            <div className="text-xs text-gray-400 truncate">{user.is_guest ? '公测体验' : user.username}</div>
           </div>
           <button role="menuitem" onClick={() => go('/settings')} className="w-full flex items-center space-x-2 px-3 py-2 text-sm text-gray-700 hover:bg-gray-50">
             <User className="h-4 w-4 text-gray-400" />
             <span>个人资料</span>
           </button>
-          <button role="menuitem" onClick={() => go('/settings?section=password')} className="w-full flex items-center space-x-2 px-3 py-2 text-sm text-gray-700 hover:bg-gray-50">
-            <KeyRound className="h-4 w-4 text-gray-400" />
-            <span>修改密码</span>
-          </button>
-          <button role="menuitem" onClick={handleLogout} className="w-full flex items-center space-x-2 px-3 py-2 text-sm text-red-600 hover:bg-red-50">
-            <LogOut className="h-4 w-4" />
-            <span>退出登录</span>
-          </button>
+          {user.is_guest ? (
+            <button role="menuitem" onClick={() => go('/login')} className="w-full flex items-center space-x-2 px-3 py-2 text-sm text-gray-700 hover:bg-gray-50">
+              <KeyRound className="h-4 w-4 text-gray-400" />
+              <span>已有账号登录</span>
+            </button>
+          ) : (
+            <button role="menuitem" onClick={() => go('/settings?section=password')} className="w-full flex items-center space-x-2 px-3 py-2 text-sm text-gray-700 hover:bg-gray-50">
+              <KeyRound className="h-4 w-4 text-gray-400" />
+              <span>修改密码</span>
+            </button>
+          )}
+          {!user.is_guest && (
+            <button role="menuitem" onClick={handleLogout} className="w-full flex items-center space-x-2 px-3 py-2 text-sm text-red-600 hover:bg-red-50">
+              <LogOut className="h-4 w-4" />
+              <span>退出登录</span>
+            </button>
+          )}
         </div>
       )}
     </div>
@@ -75,6 +84,7 @@ const UserMenu = () => {
 const Navbar = () => {
   const navigate = useNavigate()
   const { toggleSidebar, sidebarOpen } = useLayout()
+  const { user } = useAuth()
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200 h-16">
@@ -99,6 +109,9 @@ const Navbar = () => {
               <GraduationCap className="h-5 w-5 text-white" />
             </span>
             <span className="text-base font-bold text-gray-900 whitespace-nowrap">AI 教学助手</span>
+            {user?.is_guest && (
+              <span className="text-xs font-medium text-blue-700 bg-blue-50 border border-blue-100 rounded-full px-2 py-0.5">公测</span>
+            )}
           </button>
         </div>
 

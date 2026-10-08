@@ -1,14 +1,23 @@
-"""账号：登录 / 退出 / 当前用户 / 修改资料 / 修改密码（账号由管理员用 manage.py 开通，不开放注册）"""
-from datetime import datetime, timezone
-from typing import Optional
+"""账号：登录 / 退出 / 当前用户 / 修改资料 / 修改密码（账号由管理员用 manage.py 开通，不开放注册）
 
-from fastapi import APIRouter, Depends, HTTPException, Response
+公测开启时，POST /auth/enter 会为没有会话的访客自动开通一个体验账号。
+"""
+import secrets
+import threading
+import time
+from datetime import datetime, timezone
+from typing import Dict, List, Optional
+
+from fastapi import APIRouter, Depends, HTTPException, Request, Response
 from pydantic import BaseModel
 from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from auth import (
+    GUEST_USERNAME_PREFIX,
     MSG_BAD_CREDENTIALS,
+    MSG_NOT_LOGGED_IN,
+    _authenticate,
     check_password_for_timing,
     clear_session_cookie,
     current_user,
@@ -21,6 +30,7 @@ from auth import (
     validate_new_password,
     verify_password,
 )
+from config import settings
 from database import get_db
 from models import User
 
@@ -40,6 +50,74 @@ class ProfileUpdate(BaseModel):
 class PasswordChange(BaseModel):
     old_password: str
     new_password: str
+
+
+class _GuestLimiter:
+    """同一 IP 每小时最多新开若干个体验账号，避免脚本刷库。已有会话不会计次。"""
+
+    WINDOW = 60 * 60
+    MAX_CREATES = 30
+
+    def __init__(self) -> None:
+        self._hits: Dict[str, List[float]] = {}
+        self._lock = threading.Lock()
+
+    def too_many(self, ip: str) -> bool:
+        now = time.time()
+        with self._lock:
+            recent = [t for t in self._hits.get(ip, []) if now - t < self.WINDOW]
+            if len(recent) >= self.MAX_CREATES:
+                self._hits[ip] = recent
+                return True
+            recent.append(now)
+            self._hits[ip] = recent
+            return False
+
+
+_guest_limiter = _GuestLimiter()
+
+
+def _client_ip(request: Request) -> str:
+    forwarded = (request.headers.get("x-forwarded-for") or "").split(",")[0].strip()
+    if forwarded:
+        return forwarded
+    if request.client and request.client.host:
+        return request.client.host
+    return "unknown"
+
+
+@router.post("/auth/enter")
+async def enter(request: Request, response: Response, db: AsyncSession = Depends(get_db)):
+    """进入应用。已有会话则直接返回；公测开启且没有会话时，新建一个体验老师并写入 Cookie。"""
+    try:
+        user = await _authenticate(request, db)
+        return {**user_to_dict(user), "public_beta": bool(settings.PUBLIC_BETA)}
+    except HTTPException:
+        pass
+
+    if not settings.PUBLIC_BETA:
+        raise HTTPException(status_code=401, detail=MSG_NOT_LOGGED_IN)
+
+    ip = _client_ip(request)
+    if _guest_limiter.too_many(ip):
+        raise HTTPException(status_code=429, detail="体验人数较多，请稍后再试")
+
+    username = GUEST_USERNAME_PREFIX + secrets.token_hex(8)
+    user = User(
+        username=username,
+        display_name="体验老师",
+        role="teacher",
+        password_hash=hash_password(secrets.token_urlsafe(24)),
+        must_change_password=False,
+        is_active=True,
+        session_version=0,
+        last_login_at=datetime.now(timezone.utc).replace(tzinfo=None),
+    )
+    db.add(user)
+    await db.commit()
+    await db.refresh(user)
+    set_session_cookie(response, user)
+    return {**user_to_dict(user), "public_beta": True}
 
 
 @router.post("/auth/login")
