@@ -54,13 +54,16 @@ const Modal = ({ title, onClose, children, footer, wide = false }) => (
 
 const HomeworkFormModal = ({ classId, homework, onClose, onSaved }) => {
   const { addToast } = useToast()
-  const today = new Date().toISOString().slice(0, 10)
+  // 用本地时区格式化（toISOString 是 UTC，清晨会差一天）
+  const fmtDate = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+  const today = fmtDate(new Date())
+  const tomorrow = fmtDate(new Date(Date.now() + 24 * 60 * 60 * 1000))
   const [form, setForm] = useState({
     title: homework?.title || '',
     description: homework?.description || '',
     reference_answer: homework?.referenceAnswer || '',
     assign_date: homework?.date || today,
-    deadline: homework?.deadline || today,
+    deadline: homework?.deadline || tomorrow,
   })
   const [saving, setSaving] = useState(false)
 
@@ -107,11 +110,11 @@ const HomeworkFormModal = ({ classId, homework, onClose, onSaved }) => {
       <div className="grid grid-cols-2 gap-4">
         <div>
           <label className="block text-xs font-medium text-gray-600 mb-1">布置日期</label>
-          <input type="text" inputMode="numeric" placeholder="2026-09-27" className={inputCls} value={form.assign_date} onChange={e => setForm(f => ({ ...f, assign_date: e.target.value }))} />
+          <input type="text" inputMode="numeric" placeholder={today} className={inputCls} value={form.assign_date} onChange={e => setForm(f => ({ ...f, assign_date: e.target.value }))} />
         </div>
         <div>
           <label className="block text-xs font-medium text-gray-600 mb-1">截止日期</label>
-          <input type="text" inputMode="numeric" placeholder="2026-09-27" className={inputCls} value={form.deadline} onChange={e => setForm(f => ({ ...f, deadline: e.target.value }))} />
+          <input type="text" inputMode="numeric" placeholder={tomorrow} className={inputCls} value={form.deadline} onChange={e => setForm(f => ({ ...f, deadline: e.target.value }))} />
         </div>
       </div>
       <div>
@@ -998,15 +1001,15 @@ const ClassMembers = ({ classId, info }) => {
           <table className="w-full">
             <thead>
               <tr className="bg-gray-50">
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">姓名</th>
-                {hasStudentNo && <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">学号</th>}
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">性别</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">作业提交</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">平均分</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">班级排名</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">趋势</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">状态</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">操作</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap min-w-[7rem]">姓名</th>
+                {hasStudentNo && <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap">学号</th>}
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap min-w-[3.5rem]">性别</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap">作业提交</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap min-w-[4rem]">平均分</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap min-w-[5rem]">班级排名</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap min-w-[3.5rem]">趋势</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap">状态</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap">操作</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200">
@@ -1014,18 +1017,18 @@ const ClassMembers = ({ classId, info }) => {
                 <tr key={student.id} className="hover:bg-gray-50">
                   <td className="px-5 py-4">
                     <div className="flex items-center space-x-3">
-                      <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                      <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center shrink-0">
                         <span className="text-sm font-medium text-blue-600">{student.name[0]}</span>
                       </div>
-                      <span className="text-sm font-medium text-gray-900">{student.name}</span>
+                      <span className="text-sm font-medium text-gray-900 whitespace-nowrap">{student.name}</span>
                     </div>
                   </td>
-                  {hasStudentNo && <td className="px-5 py-4 text-sm text-gray-500">{student.student_no}</td>}
-                  <td className="px-5 py-4 text-sm text-gray-500">{student.gender}</td>
-                  <td className="px-5 py-4 text-sm text-gray-500">{student.submittedCount}/{student.homeworkCount}</td>
-                  <td className="px-5 py-4 text-sm font-medium text-gray-900">{student.avgScore ?? '-'}</td>
+                  {hasStudentNo && <td className="px-5 py-4 text-sm text-gray-500 whitespace-nowrap">{student.student_no}</td>}
+                  <td className="px-5 py-4 text-sm text-gray-500 whitespace-nowrap">{student.gender}</td>
+                  <td className="px-5 py-4 text-sm text-gray-500 whitespace-nowrap">{student.submittedCount}/{student.homeworkCount}</td>
+                  <td className="px-5 py-4 text-sm font-medium text-gray-900 whitespace-nowrap">{student.avgScore ?? '-'}</td>
                   <td className="px-5 py-4 text-sm text-gray-500 whitespace-nowrap">{student.rank ? `第${student.rank}名` : '-'}</td>
-                  <td className="px-5 py-4">
+                  <td className="px-5 py-4 whitespace-nowrap">
                     {student.trend === 'up' ? (
                       <TrendingUp className="h-4 w-4 text-green-500" />
                     ) : student.trend === 'down' ? (
@@ -1034,12 +1037,12 @@ const ClassMembers = ({ classId, info }) => {
                       <span className="text-gray-400">-</span>
                     )}
                   </td>
-                  <td className="px-5 py-4">
-                    <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${statusCls(student.status)}`}>
+                  <td className="px-5 py-4 whitespace-nowrap">
+                    <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium whitespace-nowrap ${statusCls(student.status)}`}>
                       {student.status}
                     </span>
                   </td>
-                  <td className="px-5 py-4">
+                  <td className="px-5 py-4 whitespace-nowrap">
                     <div className="flex items-center space-x-2">
                       <button onClick={() => setEditing(student)} className="text-gray-400 hover:text-gray-700" title="编辑">
                         <Edit className="h-4 w-4" />

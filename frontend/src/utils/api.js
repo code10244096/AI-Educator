@@ -159,6 +159,12 @@ export const homeworkAPI = {
     return response.data
   },
 
+  // 把匿名/未识别姓名的提交指派给班级里的真实学生（成绩与错题一并归属）
+  assignStudent: async (submissionId, memberId) => {
+    const response = await api.post(`/grader/${submissionId}/assign`, { member_id: memberId })
+    return response.data
+  },
+
   fileUrl: (submissionId, index) => `${API_BASE_URL}/grader/${submissionId}/files/${index}`,
 }
 

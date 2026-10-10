@@ -1,23 +1,26 @@
-import React, { useEffect } from 'react'
+import React, { Suspense, lazy, useEffect } from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { Loader2 } from 'lucide-react'
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import RequireAuth from './components/RequireAuth'
 import Workbench from './pages/Workbench'
-import HomeworkGrader from './pages/HomeworkGrader'
-import LessonPlanGenerator from './pages/LessonPlanGenerator'
-import WrongNotebook from './pages/WrongNotebook'
-import ClassData from './pages/ClassData'
-import TaskDetail from './pages/TaskDetail'
-import Settings from './pages/Settings'
-import UsageStats from './pages/UsageStats'
-import LoginPage from './pages/LoginPage'
-import SetPasswordPage from './pages/SetPasswordPage'
 import { TaskProvider } from './context/TaskContext'
 import { LayoutProvider, useLayout } from './context/LayoutContext'
 import { ClassProvider } from './context/ClassContext'
 import { AuthProvider, useAuth } from './context/AuthContext'
 import { ToastProvider } from './components/Toast'
+
+// 批改、教案、错题本带公式和导出，体积大，打开对应页面时再加载
+const HomeworkGrader = lazy(() => import('./pages/HomeworkGrader'))
+const LessonPlanGenerator = lazy(() => import('./pages/LessonPlanGenerator'))
+const WrongNotebook = lazy(() => import('./pages/WrongNotebook'))
+const ClassData = lazy(() => import('./pages/ClassData'))
+const TaskDetail = lazy(() => import('./pages/TaskDetail'))
+const Settings = lazy(() => import('./pages/Settings'))
+const UsageStats = lazy(() => import('./pages/UsageStats'))
+const LoginPage = lazy(() => import('./pages/LoginPage'))
+const SetPasswordPage = lazy(() => import('./pages/SetPasswordPage'))
 
 // 运维页面仅管理员可见；教师直接访问显示“无权限”
 const AdminOnly = ({ children }) => {
@@ -46,6 +49,12 @@ const MainLayout = ({ children }) => {
   )
 }
 
+const PageFallback = () => (
+  <div className="min-h-[40vh] flex items-center justify-center">
+    <Loader2 className="h-6 w-6 text-blue-500 animate-spin" />
+  </div>
+)
+
 function App() {
   return (
     <BrowserRouter>
@@ -54,6 +63,7 @@ function App() {
           <ClassProvider>
             <ToastProvider>
               <TaskProvider>
+                <Suspense fallback={<PageFallback />}>
                 <Routes>
                   {/* 登录 / 设置新密码 - 全屏展示 */}
                   <Route path="/login" element={<LoginPage />} />
@@ -81,6 +91,7 @@ function App() {
                     </RequireAuth>
                   } />
                 </Routes>
+                </Suspense>
               </TaskProvider>
             </ToastProvider>
           </ClassProvider>

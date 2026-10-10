@@ -1,8 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { ListChecks, FileCheck, FileText, Loader2, CheckCircle2, XCircle, ChevronRight, RotateCw } from 'lucide-react'
+import { ListChecks, FileCheck, FileText, Loader2, CheckCircle2, XCircle, ChevronRight, RotateCw, Trash2 } from 'lucide-react'
 import { useTask } from '../context/TaskContext'
 import { useLayout } from '../context/LayoutContext'
+import { useToast } from './Toast'
+import ConfirmDialog from './ConfirmDialog'
+import { homeworkAPI, lessonPlanAPI, getErrorMessage } from '../utils/api'
 import { formatRelative } from '../utils/time'
 
 // 顶栏“后台任务”：进行中数字角标；点开显示最近的批改 / 教案任务、进度、失败原因，可跳转（R1-006）
@@ -18,12 +21,23 @@ const targetOf = (task) => {
   return '/grader'
 }
 
+// 真正删除记录：批改走 /grader/{id}（连同同步到错题本的错题），教案走 /lessonplan/{id}
+const deleteRecord = (task) => {
+  if (task.type === 'grader' && task.submissionId) return homeworkAPI.deleteSubmission(task.submissionId)
+  if (task.type === 'lessonplan' && task.planId) return lessonPlanAPI.remove(task.planId)
+  return Promise.resolve() // 刚提交、服务端还没建档的占位任务：只从面板移除
+}
+
 const TaskDrawer = () => {
   const navigate = useNavigate()
   const { closeSidebar } = useLayout()
-  const { tasks, runningCount, unseenCount, markSeen, refresh } = useTask()
+  const { tasks, runningCount, unseenCount, markSeen, refresh, removeTask } = useTask()
+  const { addToast } = useToast()
   const [open, setOpen] = useState(false)
   const [refreshing, setRefreshing] = useState(false)
+  const [deleteTarget, setDeleteTarget] = useState(null)
+  const [clearConfirm, setClearConfirm] = useState(false)
+  const [deleting, setDeleting] = useState(false)
   const ref = useRef(null)
 
   useEffect(() => {
@@ -56,6 +70,41 @@ const TaskDrawer = () => {
   }
 
   const list = tasks.slice(0, 20)
+  // 已结束（完成 / 失败）的记录才可以删除与清空；进行中的任务不动
+  const finishedList = list.filter(t => t.status !== 'running')
+
+  const handleDeleteOne = async () => {
+    if (!deleteTarget || deleting) return
+    setDeleting(true)
+    try {
+      await deleteRecord(deleteTarget)
+      removeTask(deleteTarget.id)
+      addToast('记录已删除', 'success')
+    } catch (err) {
+      addToast(getErrorMessage(err, '删除失败，请重试'), 'error')
+    } finally {
+      setDeleting(false)
+      setDeleteTarget(null)
+    }
+  }
+
+  const handleClearFinished = async () => {
+    if (deleting) return
+    setDeleting(true)
+    const results = await Promise.allSettled(finishedList.map(deleteRecord))
+    let failed = 0
+    results.forEach((r, i) => {
+      if (r.status === 'fulfilled') removeTask(finishedList[i].id)
+      else failed += 1
+    })
+    if (failed) {
+      addToast(`已删除 ${finishedList.length - failed} 条，${failed} 条删除失败，请重试`, 'error')
+    } else {
+      addToast(`已清空 ${finishedList.length} 条记录`, 'success')
+    }
+    setDeleting(false)
+    setClearConfirm(false)
+  }
 
   return (
     <div className="relative" ref={ref}>
@@ -94,15 +143,27 @@ const TaskDrawer = () => {
               <div className="text-sm font-semibold text-gray-900">后台任务</div>
               <div className="text-xs text-gray-400">{runningCount ? `${runningCount} 个进行中，可以离开页面，完成后会提示` : '批改和教案生成都在后台进行'}</div>
             </div>
-            <button
-              type="button"
-              onClick={handleRefresh}
-              className="rounded-lg p-1.5 text-gray-400 hover:bg-gray-100 hover:text-gray-600"
-              aria-label="刷新"
-              title="刷新"
-            >
-              <RotateCw className={`h-4 w-4 ${refreshing ? 'animate-spin' : ''}`} />
-            </button>
+            <div className="flex items-center gap-1">
+              {finishedList.length > 0 && (
+                <button
+                  type="button"
+                  onClick={() => setClearConfirm(true)}
+                  className="rounded-lg px-2 py-1.5 text-xs text-gray-400 hover:bg-red-50 hover:text-red-600"
+                  title="删除所有已完成和已失败的记录（进行中的任务不受影响）"
+                >
+                  清空已完成
+                </button>
+              )}
+              <button
+                type="button"
+                onClick={handleRefresh}
+                className="rounded-lg p-1.5 text-gray-400 hover:bg-gray-100 hover:text-gray-600"
+                aria-label="刷新"
+                title="刷新"
+              >
+                <RotateCw className={`h-4 w-4 ${refreshing ? 'animate-spin' : ''}`} />
+              </button>
+            </div>
           </div>
           <div className="max-h-[60vh] overflow-y-auto">
             {list.length === 0 ? (
@@ -114,12 +175,20 @@ const TaskDrawer = () => {
               <ul className="divide-y divide-gray-50">
                 {list.map((task) => {
                   const TypeIcon = task.type === 'lessonplan' ? FileText : FileCheck
+                  const running = task.status === 'running'
                   return (
-                    <li key={task.id}>
-                      <button
-                        type="button"
+                    <li key={task.id} className="group relative">
+                      <div
+                        role="button"
+                        tabIndex={0}
                         onClick={() => go(task)}
-                        className="flex w-full items-start gap-3 px-4 py-3 text-left hover:bg-gray-50"
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault()
+                            go(task)
+                          }
+                        }}
+                        className="flex w-full cursor-pointer items-start gap-3 px-4 py-3 text-left hover:bg-gray-50"
                       >
                         <TypeIcon className="mt-0.5 h-4 w-4 flex-shrink-0 text-gray-400" />
                         <div className="min-w-0 flex-1">
@@ -148,7 +217,29 @@ const TaskDrawer = () => {
                           <StatusIcon status={task.status} />
                           <ChevronRight className="h-4 w-4 text-gray-300" />
                         </div>
-                      </button>
+                      </div>
+                      {running ? (
+                        <span
+                          className="absolute right-14 top-3 rounded-lg p-1.5 text-gray-200 opacity-0 transition-opacity group-hover:opacity-100"
+                          title="任务进行中，完成后才能删除"
+                          aria-hidden="true"
+                        >
+                          <Trash2 className="h-4 w-4" />
+                        </span>
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={(e) => {
+                            e.stopPropagation()
+                            setDeleteTarget(task)
+                          }}
+                          className="absolute right-14 top-3 rounded-lg p-1.5 text-gray-300 opacity-0 transition-opacity hover:bg-red-50 hover:text-red-500 focus:opacity-100 group-hover:opacity-100"
+                          title="删除这条记录"
+                          aria-label={`删除记录：${task.title}`}
+                        >
+                          <Trash2 className="h-4 w-4" />
+                        </button>
+                      )}
                     </li>
                   )
                 })}
@@ -157,6 +248,27 @@ const TaskDrawer = () => {
           </div>
         </div>
       )}
+
+      <ConfirmDialog
+        isOpen={!!deleteTarget}
+        title="删除这条记录"
+        message={deleteTarget
+          ? `确定删除「${deleteTarget.title}」吗？${deleteTarget.type === 'grader' ? '同步到错题本的对应错题也会一并移除，' : ''}删除后无法恢复。`
+          : ''}
+        onConfirm={handleDeleteOne}
+        onCancel={() => !deleting && setDeleteTarget(null)}
+        confirmText={deleting ? '删除中…' : '确认删除'}
+        cancelText="再想想"
+      />
+      <ConfirmDialog
+        isOpen={clearConfirm}
+        title="清空已完成"
+        message={`将删除面板里 ${finishedList.length} 条已完成 / 已失败的记录（进行中的任务不受影响），确定吗？`}
+        onConfirm={handleClearFinished}
+        onCancel={() => !deleting && setClearConfirm(false)}
+        confirmText={deleting ? '清空中…' : '全部删除'}
+        cancelText="再想想"
+      />
     </div>
   )
 }

@@ -7,7 +7,7 @@ from typing import List, Optional, Tuple
 from fastapi import APIRouter, Depends, File, Form, HTTPException, Query, UploadFile
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
-from sqlalchemy import delete, func, or_, select
+from sqlalchemy import delete, func, or_, select, update
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from auth import current_user
@@ -469,6 +469,61 @@ async def set_review_status(
     _require_completed(sub)
     sub.review_status = body.review_status
     sub.reviewed_at = datetime.now(timezone.utc).replace(tzinfo=None) if body.review_status == "reviewed" else None
+    await db.commit()
+    await db.refresh(sub)
+    return await _submission_detail(db, sub)
+
+
+class AssignStudent(BaseModel):
+    member_id: int
+
+
+@router.post("/grader/{submission_id}/assign")
+async def assign_submission_to_student(
+    submission_id: int,
+    body: AssignStudent,
+    db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
+    """
+    把一份（通常是匿名/识别不到姓名的）提交指派给班级里的真实学生：
+    成绩与同步到错题本的错题一并归属该学生；待复核的提交在指派的同时视为老师已确认。
+    """
+    sub = await _get_submission(db, submission_id, user.id)
+    if sub.status in ("processing", "queued"):
+        raise HTTPException(status_code=409, detail="该作业正在批改中，完成后再指派")
+    if not sub.assignment_id:
+        raise HTTPException(status_code=400, detail="只有班级作业的提交才能指派给学生")
+    assignment = await db.get(HomeworkAssignment, sub.assignment_id)
+    if not assignment:
+        raise HTTPException(status_code=404, detail="作业不存在")
+    member = await db.get(ClassMember, body.member_id)
+    if not member or member.class_id != assignment.class_id:
+        raise HTTPException(status_code=400, detail="该学生不在这个作业所属的班级里")
+
+    if sub.member_id != member.id:
+        existing = await db.scalar(
+            select(func.count(HomeworkSubmission.id))
+            .where(HomeworkSubmission.assignment_id == assignment.id)
+            .where(HomeworkSubmission.member_id == member.id)
+            .where(HomeworkSubmission.id != sub.id)
+        )
+        if existing:
+            raise HTTPException(status_code=409, detail=f"{member.name} 这次作业已有一份提交，请先查看或删除那一份")
+        sub.member_id = member.id
+    sub.student_name = member.name
+    # 错题归属一并转移
+    await db.execute(
+        update(WrongQuestion)
+        .where(WrongQuestion.submission_id == sub.id)
+        .values(member_id=member.id, student_name=member.name)
+    )
+    # 指派动作本身就是老师的确认
+    if sub.review_status == "pending_review":
+        sub.review_status = "reviewed"
+        sub.reviewed_at = datetime.now(timezone.utc).replace(tzinfo=None)
+    await db.flush()
+    await update_assignment_status(db, assignment.id)
     await db.commit()
     await db.refresh(sub)
     return await _submission_detail(db, sub)
