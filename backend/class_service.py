@@ -714,12 +714,19 @@ def _assignment_to_dict(assignment: HomeworkAssignment, stats: dict, total: Opti
     }
 
 
-async def _submission_stats(db: AsyncSession, assignment_id: int) -> dict:
+async def _submission_stats(db: AsyncSession, assignment: HomeworkAssignment) -> dict:
     result = await db.execute(
-        select(HomeworkSubmission).where(HomeworkSubmission.assignment_id == assignment_id)
+        select(HomeworkSubmission).where(HomeworkSubmission.assignment_id == assignment.id)
     )
     submissions = result.scalars().all()
-    submitted = len(submissions)
+    # 提交数按「归属到花名册学生的提交」统计：没写姓名、还没指派的提交（幽灵条目）不计入，
+    # 与作业详情页名录口径一致（未提交 = 班级真实人数 − 已归属提交数）
+    members = await _class_members(db, assignment.class_id) if assignment.class_id else []
+    if members:
+        by_member = _subs_by_member(members, submissions)
+        submitted = sum(1 for m in members if by_member.get(m.id))
+    else:
+        submitted = len(submissions)
     scores = [s.score for s in submissions if is_scored(s)]
     avg_score = round(sum(scores) / len(scores), 1) if scores else 0
     return {
@@ -748,7 +755,7 @@ async def get_homework_list(db: AsyncSession, class_slug_value: str, *, teacher_
     total = await _member_count(db, cls.id)
     items = []
     for a in assignments:
-        stats = await _submission_stats(db, a.id)
+        stats = await _submission_stats(db, a)
         items.append(_assignment_to_dict(a, stats, total if total > 0 else None))
     return items
 
@@ -766,7 +773,7 @@ async def get_homework_by_id(db: AsyncSession, class_slug_value: str, homework_i
     a = await get_assignment_record(db, class_slug_value, homework_id, teacher_id=teacher_id)
     if not a:
         return None
-    stats = await _submission_stats(db, a.id)
+    stats = await _submission_stats(db, a)
     return _assignment_to_dict(a, stats, await _assignment_total(db, a))
 
 
@@ -793,7 +800,7 @@ async def create_assignment(db: AsyncSession, class_slug_value: str, data: dict,
     db.add(assignment)
     await db.commit()
     await db.refresh(assignment)
-    stats = await _submission_stats(db, assignment.id)
+    stats = await _submission_stats(db, assignment)
     return _assignment_to_dict(assignment, stats, total)
 
 
@@ -816,7 +823,7 @@ async def update_assignment(db: AsyncSession, class_slug_value: str, homework_id
         raise InvalidInputError("作业标题不能为空")
     await db.commit()
     await db.refresh(a)
-    stats = await _submission_stats(db, a.id)
+    stats = await _submission_stats(db, a)
     return _assignment_to_dict(a, stats, await _assignment_total(db, a))
 
 

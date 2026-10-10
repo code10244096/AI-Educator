@@ -247,9 +247,17 @@ const HomeworkGrader = () => {
             <div>
               <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">AI 作业批改助手</h2>
               <p className="text-sm text-gray-600">
-                这里是临时批一份。班级作业请到
-                <Link to="/class" className="mx-1 text-blue-600 hover:underline">我的班级</Link>
-                。
+                {gradeContext.classId ? (
+                  contextHomework?.title
+                    ? `正在为《${contextHomework.title}》上传，批改后计入该班级`
+                    : '正在为班级作业上传，批改后计入该班级'
+                ) : (
+                  <>
+                    这里是临时批一份。班级作业请到
+                    <Link to="/class" className="mx-1 text-blue-600 hover:underline">我的班级</Link>
+                    。
+                  </>
+                )}
               </p>
             </div>
           </div>

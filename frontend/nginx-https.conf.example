@@ -48,6 +48,9 @@ server {
     add_header Referrer-Policy "strict-origin-when-cross-origin" always;
 
     gzip on;
+    gzip_comp_level 6;
+    gzip_min_length 256;
+    gzip_vary on;
     gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
 
     location ~* \.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$ {

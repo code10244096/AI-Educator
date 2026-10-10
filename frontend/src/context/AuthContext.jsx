@@ -48,24 +48,21 @@ export const AuthProvider = ({ children }) => {
 
   useEffect(() => {
     let cancelled = false
-    authAPI.me()
-      .then((data) => { if (!cancelled) setUser(data) })
-      .catch(async (err) => {
-        if (cancelled) return
-        if (skipAutoEnter()) {
-          if (err?.response?.data?.detail === MSG_SESSION_EXPIRED) setNotice(MSG_SESSION_EXPIRED)
-          setUser(null)
-          return
-        }
-        try {
-          const data = adoptEnter(await authAPI.enter())
-          if (!cancelled) setUser(data)
-        } catch (enterErr) {
-          if (cancelled) return
-          if (enterErr?.response?.data?.detail === MSG_SESSION_EXPIRED) setNotice(MSG_SESSION_EXPIRED)
-          setUser(null)
-        }
-      })
+    const fail = (err) => {
+      if (cancelled) return
+      if (err?.response?.data?.detail === MSG_SESSION_EXPIRED) setNotice(MSG_SESSION_EXPIRED)
+      setUser(null)
+    }
+    // 公测直接走 enter：已有会话就返回，没有就建体验账号。少一次“先问我是谁”的往返。
+    if (skipAutoEnter()) {
+      authAPI.me()
+        .then((data) => { if (!cancelled) setUser(data) })
+        .catch(fail)
+    } else {
+      authAPI.enter()
+        .then((data) => { if (!cancelled) setUser(adoptEnter(data)) })
+        .catch(fail)
+    }
     return () => { cancelled = true }
   }, [adoptEnter])
 

@@ -4,6 +4,7 @@ import { ArrowLeft, FileCheck, Award, Target, AlertCircle, TrendingUp, BookOpen,
 import { useTask } from '../context/TaskContext'
 import { homeworkAPI, getErrorMessage } from '../utils/api'
 import { formatServerTime } from '../utils/time'
+import MathText from '../components/MathText'
 
 const TaskDetail = () => {
   const { taskId } = useParams()
@@ -89,36 +90,6 @@ const TaskDetail = () => {
       }
     }
     navigate(location.state?.from || '/grader')
-  }
-
-  const cleanLatex = (text) => {
-    if (!text) return ''
-    return text
-      .replace(/\\\(/g, '')
-      .replace(/\\\)/g, '')
-      .replace(/\\\[/g, '')
-      .replace(/\\\]/g, '')
-      .replace(/\\frac\{([^}]+)\}\{([^}]+)\}/g, '($1)/($2)')
-      .replace(/\\mathbb\{([^}]+)\}/g, '$1')
-      .replace(/\\triangle/g, '△')
-      .replace(/\\circ/g, '°')
-      .replace(/\\cdot/g, '·')
-      .replace(/\\times/g, '×')
-      .replace(/\\div/g, '÷')
-      .replace(/\\pm/g, '±')
-      .replace(/\\leq/g, '≤')
-      .replace(/\\geq/g, '≥')
-      .replace(/\\neq/g, '≠')
-      .replace(/\\approx/g, '≈')
-      .replace(/\\infty/g, '∞')
-      .replace(/\\pi/g, 'π')
-      .replace(/\\alpha/g, 'α')
-      .replace(/\\beta/g, 'β')
-      .replace(/\\gamma/g, 'γ')
-      .replace(/\\Delta/g, 'Δ')
-      .replace(/\\sqrt\{([^}]+)\}/g, '√($1)')
-      .replace(/\\text\{([^}]+)\}/g, '$1')
-      .replace(/\\\\/g, '\n')
   }
 
   const analyzeKnowledgePoints = (questions) => {
@@ -383,27 +354,28 @@ const TaskDetail = () => {
                       </div>
                     </div>
                     <div className="bg-white/60 rounded-xl p-4 mb-3">
-                      <p className="text-gray-900 leading-relaxed">{cleanLatex(q.question_text)}</p>
+                      <MathText text={q.question_text} block className="text-gray-900 leading-relaxed" />
                     </div>
                     <div className="space-y-2">
                       <p className="text-sm">
                         <span className="font-medium text-gray-600">你的答案：</span>
-                        <span className={`font-medium ${q.is_correct ? 'text-green-600' : 'text-red-600'}`}>
-                          {cleanLatex(q.student_answer)}
-                        </span>
+                        <MathText
+                          text={q.student_answer}
+                          className={`font-medium ${q.is_correct ? 'text-green-600' : 'text-red-600'}`}
+                        />
                       </p>
                       {!q.is_correct && (
                         <p className="text-sm">
                           <span className="font-medium text-gray-600">正确答案：</span>
-                          <span className="font-medium text-green-600">{cleanLatex(q.correct_answer)}</span>
+                          <MathText text={q.correct_answer} className="font-medium text-green-600" />
                         </p>
                       )}
                       {q.explanation && (
                         <div className="bg-white/60 rounded-xl p-4 mt-3">
-                          <p className="text-sm">
+                          <div className="text-sm">
                             <span className="font-medium text-gray-600">解析：</span>
-                            <span className="text-gray-700">{cleanLatex(q.explanation)}</span>
-                          </p>
+                            <MathText text={q.explanation} className="text-gray-700" />
+                          </div>
                         </div>
                       )}
                     </div>
@@ -476,9 +448,9 @@ const TaskDetail = () => {
               </div>
             )}
             {serverResult.ocr_result && (
-              <pre className="whitespace-pre-wrap text-sm text-gray-700 bg-gray-50 rounded-xl p-4 border border-gray-100 max-h-96 overflow-y-auto">
-                {serverResult.ocr_result}
-              </pre>
+              <div className="text-sm text-gray-700 bg-gray-50 rounded-xl p-4 border border-gray-100 max-h-96 overflow-y-auto">
+                <MathText text={serverResult.ocr_result} block />
+              </div>
             )}
           </div>
         )}

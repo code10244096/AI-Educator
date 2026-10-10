@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Plus, Calendar, CheckCircle, ExternalLink, BookOpen, FileText, FileSpreadsheet, File, AlertCircle, Trash2, Loader2, RotateCcw } from 'lucide-react'
 import { notebookAPI, getErrorMessage } from '../utils/api'
 import ReactMarkdown from 'react-markdown'
+import MathText from '../components/MathText'
 import PageBackground from '../components/PageBackground'
 
 const SUPPORTED_FORMATS = {
@@ -330,24 +331,24 @@ const WrongNotebook = () => {
                 q.is_mastered ? 'border-green-200 bg-gradient-to-r from-green-50 to-emerald-50' : 'border-gray-200 bg-white hover:border-green-300'
               }`}
             >
-              <div className="flex justify-between items-start mb-4">
+              <div className="flex justify-between items-start flex-wrap gap-2 mb-4">
                 <div className="flex items-center space-x-2">
-                  <div className="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center">
+                  <div className="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center shrink-0">
                     <Calendar className="h-4 w-4 text-green-600" />
                   </div>
-                  <span className="text-sm text-gray-600">
+                  <span className="text-sm text-gray-600 whitespace-nowrap">
                     {new Date(q.error_date).toLocaleDateString('zh-CN')}
                   </span>
                 </div>
-                <div className="flex items-center space-x-2">
-                  <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">
+                <div className="flex flex-wrap items-center justify-end gap-2">
+                  <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium whitespace-nowrap">
                     {q.knowledge_point}
                   </span>
-                  <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-medium">
+                  <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-medium whitespace-nowrap">
                     {q.subject}
                   </span>
                   {q.source === 'grading' && (
-                    <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-xs font-medium">批改同步</span>
+                    <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-xs font-medium whitespace-nowrap">批改同步</span>
                   )}
                 </div>
               </div>
@@ -357,7 +358,7 @@ const WrongNotebook = () => {
                   <span className="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>
                   原题
                 </p>
-                <p className="text-gray-900 leading-relaxed whitespace-pre-wrap">{q.question_text}</p>
+                <MathText text={q.question_text} block className="text-gray-900 leading-relaxed" />
               </div>
 
               <div className="grid grid-cols-2 gap-4 mb-4">
@@ -366,14 +367,18 @@ const WrongNotebook = () => {
                     <span className="w-1.5 h-1.5 bg-red-500 rounded-full mr-2"></span>
                     我的答案
                   </p>
-                  <p className="text-red-700">{q.user_answer || '未作答'}</p>
+                  <div className="text-red-700">
+                    {q.user_answer ? <MathText text={q.user_answer} block /> : '未作答'}
+                  </div>
                 </div>
                 <div className="bg-green-50 rounded-xl p-4 border border-green-100">
                   <p className="text-sm font-medium text-green-600 mb-1 flex items-center">
                     <span className="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>
                     正确答案
                   </p>
-                  <p className="text-green-700 whitespace-pre-wrap">{q.correct_answer || '未提供'}</p>
+                  <div className="text-green-700">
+                    {q.correct_answer ? <MathText text={q.correct_answer} block /> : '—'}
+                  </div>
                 </div>
               </div>
 
@@ -386,12 +391,14 @@ const WrongNotebook = () => {
                   <div className="space-y-3">
                     {q.variant_questions.map((v, idx) => (
                       <div key={idx} className="bg-gradient-to-r from-blue-50 to-cyan-50 p-4 rounded-xl border border-blue-100">
-                        <p className="text-sm text-gray-800">
-                          <span className="font-medium text-blue-600">变式{idx + 1}:</span> {v.question_text}
-                        </p>
-                        <p className="text-sm text-gray-600 mt-2 bg-white/60 rounded-lg px-3 py-2">
-                          <span className="font-medium">答案:</span> {v.answer}
-                        </p>
+                        <div className="text-sm text-gray-800">
+                          <span className="font-medium text-blue-600">变式{idx + 1}:</span>{' '}
+                          <MathText text={v.question_text} />
+                        </div>
+                        <div className="text-sm text-gray-600 mt-2 bg-white/60 rounded-lg px-3 py-2">
+                          <span className="font-medium">答案:</span>{' '}
+                          <MathText text={v.answer} />
+                        </div>
                       </div>
                     ))}
                   </div>

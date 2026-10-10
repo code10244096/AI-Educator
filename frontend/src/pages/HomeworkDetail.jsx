@@ -75,6 +75,69 @@ const StatCard = ({ label, value, className = 'text-gray-900' }) => (
   </div>
 )
 
+// 匿名/未识别姓名的提交确认时，先让老师在班级名单里选真实学生（P0-2）
+const AssignStudentModal = ({ target, members, assigning, onPick, onClose }) => {
+  const [term, setTerm] = useState('')
+  const keyword = term.trim().toLowerCase()
+  const list = members.filter(m =>
+    !keyword || `${m.display_name || m.name}${m.student_no || ''}`.toLowerCase().includes(keyword))
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+      <div className="absolute inset-0 bg-black/40" onClick={onClose} />
+      <div className="relative w-full max-w-md bg-white rounded-xl shadow-xl max-h-[80vh] flex flex-col">
+        <div className="p-5 border-b border-gray-200">
+          <h3 className="text-lg font-semibold text-gray-900">这份作业是谁的？</h3>
+          <p className="text-sm text-gray-500 mt-1">
+            「{target?.display_name || target?.name}」不在班级名单里。选定真实学生后，成绩与错题会并入该学生名下。
+          </p>
+          <div className="relative mt-3">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
+            <input
+              autoFocus
+              type="text"
+              placeholder="搜索姓名或学号"
+              value={term}
+              onChange={(e) => setTerm(e.target.value)}
+              className="pl-9 pr-3 py-2 w-full border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            />
+          </div>
+        </div>
+        <div className="overflow-y-auto divide-y divide-gray-100">
+          {list.map(m => (
+            <button
+              key={m.member_id}
+              type="button"
+              disabled={assigning || m.uploaded}
+              onClick={() => onPick(m)}
+              className="w-full px-5 py-3 flex items-center justify-between gap-3 text-left hover:bg-blue-50 disabled:opacity-50 disabled:hover:bg-transparent"
+            >
+              <span className="min-w-0">
+                <span className="block text-sm font-medium text-gray-900 truncate">{m.display_name || m.name}</span>
+                {m.student_no && <span className="block text-xs text-gray-400">学号 {m.student_no}</span>}
+              </span>
+              {m.uploaded
+                ? <span className="text-xs text-gray-400 shrink-0">已有一份提交</span>
+                : <span className="text-xs text-blue-600 shrink-0">{assigning ? '指派中…' : '指派给 TA'}</span>}
+            </button>
+          ))}
+          {list.length === 0 && (
+            <p className="p-6 text-center text-sm text-gray-400">没有匹配的学生</p>
+          )}
+        </div>
+        <div className="p-4 border-t border-gray-200 flex justify-end">
+          <button
+            type="button"
+            onClick={onClose}
+            className="px-4 py-2 border border-gray-300 rounded-lg text-sm text-gray-600 hover:bg-gray-50"
+          >
+            取消
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 const HomeworkDetail = () => {
   const { classId, homeworkId } = useParams()
   const navigate = useNavigate()
@@ -82,6 +145,8 @@ const HomeworkDetail = () => {
   const { addToast } = useToast()
   const [searchTerm, setSearchTerm] = useState('')
   const [confirmingId, setConfirmingId] = useState(null)
+  const [assignTarget, setAssignTarget] = useState(null)
+  const [assigning, setAssigning] = useState(false)
   const statusFilter = STATUS_FILTERS.some(f => f.id === searchParams.get('filter')) ? searchParams.get('filter') : 'all'
 
   const { homework, students, loading, error, reload } = useHomeworkDetail(classId, homeworkId)
@@ -90,9 +155,11 @@ const HomeworkDetail = () => {
   const analysis = useAsync(() => classHomeworkAPI.getAnalysis(classId, homeworkId), [classId, homeworkId, gradedTotal])
 
   const stats = useMemo(() => {
+    // 统计口径与作业看板一致：只算花名册里的真实学生；幽灵条目（未归属的提交）不计入
     const roster = students.filter(s => s.in_roster !== false)
-    const uploaded = students.filter(s => s.uploaded).length
-    const missing = roster.filter(s => !s.uploaded).length
+    const ghosts = students.filter(s => s.in_roster === false)
+    const uploaded = roster.filter(s => s.uploaded).length
+    const missing = roster.length - uploaded
     const graded = students.filter(isGraded)
     const processing = students.filter(isProcessing).length
     const failed = students.filter(s => s.status === 'failed').length
@@ -105,7 +172,7 @@ const HomeworkDetail = () => {
       : null
     return {
       uploaded, missing, graded: graded.length, processing, failed, avgScore, total: roster.length,
-      pendingReview: pendingReview.length, reviewAvg,
+      pendingReview: pendingReview.length, reviewAvg, ghosts: ghosts.length,
     }
   }, [students])
 
@@ -144,6 +211,11 @@ const HomeworkDetail = () => {
 
   const confirmReview = async (student) => {
     if (!student.submission_id) return
+    // 不在花名册的提交不能直接确认，必须先指派给真实学生（P0-2）
+    if (student.in_roster === false) {
+      setAssignTarget(student)
+      return
+    }
     setConfirmingId(student.submission_id)
     try {
       await homeworkAPI.markReviewed(student.submission_id)
@@ -155,6 +227,26 @@ const HomeworkDetail = () => {
       setConfirmingId(null)
     }
   }
+
+  const assignToMember = async (member) => {
+    if (!assignTarget?.submission_id || assigning) return
+    setAssigning(true)
+    try {
+      await homeworkAPI.assignStudent(assignTarget.submission_id, member.member_id)
+      addToast(`已并入 ${member.display_name || member.name} 名下`, 'success')
+      setAssignTarget(null)
+      reload()
+    } catch (err) {
+      addToast(getErrorMessage(err, '指派失败'), 'error')
+    } finally {
+      setAssigning(false)
+    }
+  }
+
+  const rosterMembers = useMemo(
+    () => students.filter(s => s.in_roster !== false && s.member_id),
+    [students],
+  )
 
   const onReviewFilter = statusFilter === 'review'
 
@@ -235,7 +327,12 @@ const HomeworkDetail = () => {
             <div className="flex items-center space-x-2">
               <Users className="h-5 w-5 text-gray-500" />
               <h3 className="text-lg font-semibold text-gray-900">学生名录</h3>
-              <span className="text-sm text-gray-400">{filteredStudents.length} 人</span>
+              <span className="text-sm text-gray-400">{stats.total} 人</span>
+              {stats.ghosts > 0 && (
+                <span className="px-2 py-0.5 bg-amber-50 text-amber-700 text-xs rounded-full whitespace-nowrap">
+                  +{stats.ghosts} 份待指派
+                </span>
+              )}
             </div>
             <div className="flex items-center gap-3 flex-wrap">
               <div className="flex flex-wrap gap-1 bg-gray-100 rounded-lg p-1">
@@ -310,7 +407,15 @@ const HomeworkDetail = () => {
                       disabled={confirmingId === student.submission_id}
                       className="text-sm text-blue-700 hover:text-blue-900 disabled:opacity-50"
                     >
-                      {confirmingId === student.submission_id ? '确认中…' : '确认'}
+                      {confirmingId === student.submission_id ? '确认中…' : (student.in_roster === false ? '确认并指派' : '确认')}
+                    </button>
+                  )}
+                  {student.in_roster === false && isGraded(student) && (
+                    <button
+                      onClick={() => setAssignTarget(student)}
+                      className="text-sm text-amber-700 hover:text-amber-900"
+                    >
+                      指派给学生
                     </button>
                   )}
                 </div>
@@ -391,7 +496,15 @@ const HomeworkDetail = () => {
                             disabled={confirmingId === student.submission_id}
                             className="text-sm text-blue-700 hover:text-blue-900 disabled:opacity-50"
                           >
-                            {confirmingId === student.submission_id ? '确认中…' : '确认'}
+                            {confirmingId === student.submission_id ? '确认中…' : (student.in_roster === false ? '确认并指派' : '确认')}
+                          </button>
+                        )}
+                        {student.in_roster === false && isGraded(student) && (
+                          <button
+                            onClick={() => setAssignTarget(student)}
+                            className="text-sm text-amber-700 hover:text-amber-900"
+                          >
+                            指派给学生
                           </button>
                         )}
                         {!isProcessing(student) && student.in_roster !== false && (
@@ -480,6 +593,16 @@ const HomeworkDetail = () => {
           <XCircle className="h-4 w-4" />
           有 {stats.failed} 份作业批改失败（不计入成绩），点击查看并重新上传
         </button>
+      )}
+
+      {assignTarget && (
+        <AssignStudentModal
+          target={assignTarget}
+          members={rosterMembers}
+          assigning={assigning}
+          onPick={assignToMember}
+          onClose={() => { if (!assigning) setAssignTarget(null) }}
+        />
       )}
     </div>
   )
