@@ -9,7 +9,8 @@ import {
   AlertTriangle,
   BarChart3,
 } from 'lucide-react'
-import { usageAPI } from '../utils/api'
+import { useAuth } from '../context/AuthContext'
+import { feedbackAPI, usageAPI } from '../utils/api'
 
 const RANGES = [
   { id: 'today', label: '今天' },
@@ -117,11 +118,15 @@ const TokenBar = ({ value, max }) => {
 }
 
 const UsageStats = () => {
+  const { isAdmin } = useAuth()
   const [range, setRange] = useState('7d')
   const [summary, setSummary] = useState(null)
   const [calls, setCalls] = useState([])
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  const [feedbacks, setFeedbacks] = useState([])
+  const [feedbackLoading, setFeedbackLoading] = useState(false)
+  const [feedbackError, setFeedbackError] = useState('')
 
   const load = useCallback(async () => {
     setLoading(true)
@@ -142,9 +147,27 @@ const UsageStats = () => {
     }
   }, [range])
 
+  const loadFeedback = useCallback(async () => {
+    if (!isAdmin) return
+    setFeedbackLoading(true)
+    setFeedbackError('')
+    try {
+      const data = await feedbackAPI.list()
+      setFeedbacks(data?.items || [])
+    } catch (e) {
+      setFeedbackError(e?.response?.data?.detail || e?.message || '加载失败')
+    } finally {
+      setFeedbackLoading(false)
+    }
+  }, [isAdmin])
+
   useEffect(() => {
     load()
   }, [load])
+
+  useEffect(() => {
+    loadFeedback()
+  }, [loadFeedback])
 
   const overview = summary?.overview || {}
   const byFeature = summary?.by_feature || []
@@ -183,11 +206,11 @@ const UsageStats = () => {
             ))}
           </div>
           <button
-            onClick={load}
-            disabled={loading}
+            onClick={() => { load(); if (isAdmin) loadFeedback() }}
+            disabled={loading || feedbackLoading}
             className="inline-flex items-center space-x-2 px-4 py-2 border border-gray-300 rounded-xl text-sm text-gray-600 hover:bg-gray-50 disabled:opacity-50"
           >
-            {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <RefreshCw className="h-4 w-4" />}
+            {loading || feedbackLoading ? <Loader2 className="h-4 w-4 animate-spin" /> : <RefreshCw className="h-4 w-4" />}
             <span>刷新</span>
           </button>
         </div>
@@ -368,6 +391,82 @@ const UsageStats = () => {
         <p className="text-xs text-gray-400">
           统计于 {fmtTime(summary.generated_at)}
         </p>
+      )}
+
+      {isAdmin && (
+        <Card title="用户反馈" hint="最近 200 条，按时间倒序">
+          {feedbackError && (
+            <div className="flex items-center space-x-2 px-4 py-3 text-sm text-red-700">
+              <AlertTriangle className="h-4 w-4" />
+              <span>反馈加载失败：{String(feedbackError)}</span>
+            </div>
+          )}
+          <table className="w-full">
+            <thead className="bg-gray-50">
+              <tr>
+                <Th align="left">时间</Th>
+                <Th align="left">提交人</Th>
+                <Th align="left">问题标签</Th>
+                <Th align="left">意见内容</Th>
+                <Th align="left">联系方式</Th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-100">
+              {!feedbackError && feedbacks.length === 0 && (
+                <tr>
+                  <td colSpan={5} className="px-4 py-8 text-center text-sm text-gray-400">
+                    {feedbackLoading ? '加载中…' : '暂无反馈'}
+                  </td>
+                </tr>
+              )}
+              {feedbacks.map((f) => (
+                <tr key={f.id} className="hover:bg-gray-50">
+                  <Td align="left" className="text-gray-500">{fmtTime(f.created_at)}</Td>
+                  <Td align="left">
+                    <span className="text-gray-900">
+                      {f.user_id != null ? `用户 #${f.user_id}` : '未知用户'}
+                    </span>
+                    {f.is_guest ? (
+                      <span className="ml-2 px-2 py-0.5 bg-amber-50 text-amber-700 text-xs rounded-full">体验账号</span>
+                    ) : (
+                      <span className="ml-2 px-2 py-0.5 bg-gray-100 text-gray-500 text-xs rounded-full">正式账号</span>
+                    )}
+                  </Td>
+                  <Td align="left" className="!whitespace-normal">
+                    {(f.topics || []).length === 0 ? (
+                      <span className="text-gray-400">—</span>
+                    ) : (
+                      <div className="flex flex-wrap gap-1 max-w-xs">
+                        {f.topics.map((t) => (
+                          <span
+                            key={t}
+                            className="px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded-full"
+                          >
+                            {t}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </Td>
+                  <Td align="left" className="!whitespace-normal max-w-md">
+                    {f.content ? (
+                      <span className="text-gray-700 whitespace-pre-wrap break-words">{f.content}</span>
+                    ) : (
+                      <span className="text-gray-400">—</span>
+                    )}
+                  </Td>
+                  <Td align="left">
+                    {f.contact ? (
+                      <span className="text-gray-700">{f.contact}</span>
+                    ) : (
+                      <span className="text-gray-400">—</span>
+                    )}
+                  </Td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </Card>
       )}
     </div>
   )

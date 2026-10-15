@@ -15,11 +15,13 @@ const TOPIC_OPTIONS = [
 
 const OTHER_TOPIC = '其他'
 const MAX_CONTENT = 300
+const MAX_CONTACT = 100
 
 const FeedbackDialog = ({ isOpen, onClose }) => {
   const { addToast } = useToast()
   const [topics, setTopics] = useState([])
   const [content, setContent] = useState('')
+  const [contact, setContact] = useState('')
   const [submitting, setSubmitting] = useState(false)
 
   if (!isOpen) return null
@@ -27,6 +29,7 @@ const FeedbackDialog = ({ isOpen, onClose }) => {
   const resetForm = () => {
     setTopics([])
     setContent('')
+    setContact('')
   }
 
   const handleClose = () => {
@@ -56,6 +59,7 @@ const FeedbackDialog = ({ isOpen, onClose }) => {
       await feedbackAPI.submit({
         topics,
         content: content.trim().slice(0, MAX_CONTENT),
+        contact: contact.trim().slice(0, MAX_CONTACT),
         page: window.location.pathname || '',
       })
       addToast('感谢反馈，我们会认真改进', 'success')
@@ -122,7 +126,7 @@ const FeedbackDialog = ({ isOpen, onClose }) => {
           </div>
         </fieldset>
 
-        <div className="mb-5">
+        <div className="mb-4">
           <label htmlFor="feedback-content" className="block text-sm font-medium text-gray-700 mb-2">
             还有什么想告诉我们的？（选填，{MAX_CONTENT} 字以内）
           </label>
@@ -138,6 +142,22 @@ const FeedbackDialog = ({ isOpen, onClose }) => {
           <div className="mt-1 text-right text-xs text-gray-400">
             {content.length}/{MAX_CONTENT}
           </div>
+        </div>
+
+        <div className="mb-5">
+          <label htmlFor="feedback-contact" className="block text-sm font-medium text-gray-700 mb-2">
+            联系方式（选填）
+          </label>
+          <input
+            id="feedback-contact"
+            type="text"
+            value={contact}
+            onChange={(e) => setContact(e.target.value.slice(0, MAX_CONTACT))}
+            disabled={submitting}
+            maxLength={MAX_CONTACT}
+            placeholder="微信或手机号，方便我们回访（选填）"
+            className="w-full rounded-xl border border-gray-300 px-3 py-2.5 text-sm text-gray-800 placeholder:text-gray-400 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-100 disabled:bg-gray-50"
+          />
         </div>
 
         <div className="flex space-x-3">
