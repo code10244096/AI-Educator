@@ -1,0 +1,40 @@
+{
+  "total_questions": 3,
+  "correct_count": 0,
+  "wrong_count": 3,
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "题目内容缺失，无法获取原题",
+      "student_answer": "\\(f'(x)=2x+1\\)",
+      "correct_answer": "无法确定（缺少题干）",
+      "is_correct": false,
+      "explanation": "学生给出了导数结果 \\(f'(x)=2x+1\\)，但作业中未提供原函数或求导题目，无法判断该结果是否正确。请补充题目后复核。",
+      "needs_review": true,
+      "reference_issue": null,
+      "knowledge_point": "导数的运算"
+    },
+    {
+      "question_number": 2,
+      "question_text": "题目内容缺失，无法获取原题",
+      "student_answer": "切线方程 \\(y=3x-2\\)",
+      "correct_answer": "无法确定（缺少题干）",
+      "is_correct": false,
+      "explanation": "学生给出了切线方程 \\(y=3x-2\\)，但缺少曲线和切点信息，无法验证其正确性。建议补充题目后复核。",
+      "needs_review": true,
+      "reference_issue": null,
+      "knowledge_point": "导数的几何意义（切线方程）"
+    },
+    {
+      "question_number": 3,
+      "question_text": "题目内容缺失，无法获取原题",
+      "student_answer": "极小值点 \\(x=2, f(2)=1\\)",
+      "correct_answer": "无法确定（缺少题干）",
+      "is_correct": false,
+      "explanation": "学生给出了极小值点 \\(x=2, f(2)=1\\)，但缺少原函数，无法判断该极值点是否正确。建议补充题目后复核。",
+      "needs_review": true,
+      "reference_issue": null,
+      "knowledge_point": "利用导数研究函数的极值"
+    }
+  ]
+}

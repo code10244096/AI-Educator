@@ -1,0 +1,73 @@
+{
+  "description": "OCR 对照实验 ground truth。关键行用于归一化后命中匹配；notes 记录主观抽查要点。",
+  "images": {
+    "A": {
+      "file": "homework_test.png",
+      "source": "D:\\KimiData\\kimi\\tasks\\2026-10-09\\20-20-58-8177df69\\homework_test.png",
+      "difficulty": "easy / 干净打印体",
+      "key_lines": [
+        "导数基础小测",
+        "1. f'(x) = 2x + 1",
+        "2. 切线方程 y = 3x - 2",
+        "3. 极小值点 x = 2, f(2) = 1"
+      ],
+      "notes": "干净打印体，所有模型都应全对，用于验证基本连通性。"
+    },
+    "B": {
+      "file": "images/B_hard_handwriting.png",
+      "difficulty": "hard / 低对比灰墨 + 整体旋转 2.2° + 楷体手写抖动",
+      "key_lines": [
+        "周末作业（自测）",
+        "1. 已知 a=log3 2，则 log3 18 = ______（用 a 表示）",
+        "答：2+a",
+        "2. 函数 f(x)=√3·sinx+cosx 的最大值为 ______",
+        "答：2",
+        "3. 计算 ∫(0→1) x^2 dx = ______",
+        "答：1/3",
+        "4. 若 x+y=5，xy=3，则 x^2+y^2 = ______",
+        "答：19"
+      ],
+      "notes": "重点看：答案行抖动字迹是否识别正确（2+a / 2 / 1/3 / 19）；log3 是否被误读为 log_3 以外的内容；积分符号 ∫(0→1) 的识别。"
+    },
+    "C": {
+      "file": "images/C_mixed_messy.png",
+      "difficulty": "hard / 混排 + 涂改划线 + 页面污渍",
+      "key_lines": [
+        "课堂练习",
+        "1. 解方程 x^2-5x+6=0",
+        "改为：x=2 或 x=3",
+        "2. 求 f(x)=x^3-3x 的极值点",
+        "x=1 和 x=-1",
+        "3. 已知 tanα=2，求 (sinα+cosα)/(sinα-cosα)",
+        "原式=3",
+        "4. 计算 log2 8",
+        "log2 8=3"
+      ],
+      "notes": "重点看：涂改处——被划掉的『解：x=2』不应计入最终答案，『改为：x=2 或 x=3』才是答案；混排时题目与答案是否串行。"
+    }
+  },
+  "grade_cases": {
+    "grade-1": {
+      "ocr_result": "导数基础小测\n1. f'(x) = 2x + 1\n2. 切线方程 y = 3x - 2\n3. 极小值点 x = 2, f(2) = 1",
+      "reference_answer": "1. f'(x)=2x+1；2. y=3x-2；3. 极小值点 x=1, f(1)=-2",
+      "expected_verdicts": ["correct", "correct", "wrong"],
+      "notes": "第 3 题学生答案与参考答案不一致，应判错。"
+    },
+    "grade-2": {
+      "ocr_result": "1. x=2 或 x=3\n2. y=3x-2\n3. log2 8 = 4\n4. f'(x)=3x^2\n5. （未作答）",
+      "reference_answer": "1. x=2, x=3；2. 3x-y-2=0；3. 3；4. 3x^2；5. 1/2",
+      "expected_verdicts": ["correct", "correct", "wrong", "correct", "wrong"],
+      "notes": "第 2 题考查等价形式判定（y=3x-2 ≡ 3x-y-2=0 应判对）；第 5 题未作答应判错或标记未作答。"
+    }
+  },
+  "lessonplan_case": {
+    "topic": "导数的几何意义",
+    "period": "1 课时",
+    "student_level": "中等"
+  },
+  "variant_case": {
+    "question_text": "已知 tanα=2，求 (sinα+cosα)/(sinα-cosα) 的值",
+    "knowledge_point": "同角三角函数关系",
+    "count": 3
+  }
+}
