@@ -4,6 +4,7 @@ import { Plus, Calendar, CheckCircle, ExternalLink, BookOpen, FileText, FileSpre
 import { notebookAPI, getErrorMessage } from '../utils/api'
 import ReactMarkdown from 'react-markdown'
 import MathText from '../components/MathText'
+import { isBlankText, orDash } from '../utils/mathText'
 import PageBackground from '../components/PageBackground'
 
 const SUPPORTED_FORMATS = {
@@ -358,7 +359,7 @@ const WrongNotebook = () => {
                   <span className="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>
                   原题
                 </p>
-                <MathText text={q.question_text} block className="text-gray-900 leading-relaxed" />
+                <MathText text={orDash(q.question_text)} block className="text-gray-900 leading-relaxed" />
               </div>
 
               <div className="grid grid-cols-2 gap-4 mb-4">
@@ -368,7 +369,7 @@ const WrongNotebook = () => {
                     我的答案
                   </p>
                   <div className="text-red-700">
-                    {q.user_answer ? <MathText text={q.user_answer} block /> : '未作答'}
+                    {isBlankText(q.user_answer) ? '—' : <MathText text={q.user_answer} block />}
                   </div>
                 </div>
                 <div className="bg-green-50 rounded-xl p-4 border border-green-100">
@@ -377,7 +378,7 @@ const WrongNotebook = () => {
                     正确答案
                   </p>
                   <div className="text-green-700">
-                    {q.correct_answer ? <MathText text={q.correct_answer} block /> : '—'}
+                    {isBlankText(q.correct_answer) ? '—' : <MathText text={q.correct_answer} block />}
                   </div>
                 </div>
               </div>
@@ -393,11 +394,11 @@ const WrongNotebook = () => {
                       <div key={idx} className="bg-gradient-to-r from-blue-50 to-cyan-50 p-4 rounded-xl border border-blue-100">
                         <div className="text-sm text-gray-800">
                           <span className="font-medium text-blue-600">变式{idx + 1}:</span>{' '}
-                          <MathText text={v.question_text} />
+                          <MathText text={orDash(v.question_text)} />
                         </div>
                         <div className="text-sm text-gray-600 mt-2 bg-white/60 rounded-lg px-3 py-2">
                           <span className="font-medium">答案:</span>{' '}
-                          <MathText text={v.answer} />
+                          <MathText text={orDash(v.answer)} />
                         </div>
                       </div>
                     ))}

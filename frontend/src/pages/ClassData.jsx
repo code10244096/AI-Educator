@@ -407,9 +407,9 @@ const HomeworkBoard = ({ classId, info }) => {
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap">作业名称</th>
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap">日期</th>
                 <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap">提交情况</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">平均分</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">状态</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">操作</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap">平均分</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap">状态</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap">操作</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200">
@@ -606,27 +606,27 @@ const ScoreArchive = ({ classId, info }) => {
           <table className="w-full">
             <thead>
               <tr className="bg-gray-50">
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">作业名称</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">日期</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">已批改</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">平均分</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">最高分</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">最低分</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">及格率</th>
-                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase">操作</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap min-w-[10rem]">作业名称</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap">日期</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap min-w-[4rem]">已批改</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap min-w-[4rem]">平均分</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap min-w-[4rem]">最高分</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap min-w-[4rem]">最低分</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap min-w-[4rem]">及格率</th>
+                <th className="px-5 py-3 text-left text-xs font-medium text-gray-500 uppercase whitespace-nowrap">操作</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200">
               {exams.map((exam) => (
                 <tr key={exam.assignment_id} className="hover:bg-gray-50">
-                  <td className="px-5 py-4 text-sm font-medium text-gray-900">{exam.name}</td>
-                  <td className="px-5 py-4 text-sm text-gray-500">{exam.date}</td>
-                  <td className="px-5 py-4 text-sm text-gray-500">{exam.gradedCount} 人</td>
-                  <td className="px-5 py-4 text-sm text-gray-900">{exam.avgScore}</td>
-                  <td className="px-5 py-4 text-sm text-green-600">{exam.highest}</td>
-                  <td className="px-5 py-4 text-sm text-red-600">{exam.lowest}</td>
-                  <td className="px-5 py-4 text-sm text-gray-900">{exam.passRate}%</td>
-                  <td className="px-5 py-4">
+                  <td className="px-5 py-4 text-sm font-medium text-gray-900 whitespace-nowrap">{exam.name}</td>
+                  <td className="px-5 py-4 text-sm text-gray-500 whitespace-nowrap">{exam.date}</td>
+                  <td className="px-5 py-4 text-sm text-gray-500 whitespace-nowrap">{exam.gradedCount} 人</td>
+                  <td className="px-5 py-4 text-sm text-gray-900 whitespace-nowrap">{exam.avgScore}</td>
+                  <td className="px-5 py-4 text-sm text-green-600 whitespace-nowrap">{exam.highest}</td>
+                  <td className="px-5 py-4 text-sm text-red-600 whitespace-nowrap">{exam.lowest}</td>
+                  <td className="px-5 py-4 text-sm text-gray-900 whitespace-nowrap">{exam.passRate}%</td>
+                  <td className="px-5 py-4 whitespace-nowrap">
                     <button onClick={() => openExam(exam)} className="text-blue-600 hover:text-blue-800 text-sm">
                       详情
                     </button>

@@ -5,6 +5,7 @@ import { useTask } from '../context/TaskContext'
 import { homeworkAPI, getErrorMessage } from '../utils/api'
 import { formatServerTime } from '../utils/time'
 import MathText from '../components/MathText'
+import { isBlankText, orDash } from '../utils/mathText'
 
 const TaskDetail = () => {
   const { taskId } = useParams()
@@ -354,23 +355,23 @@ const TaskDetail = () => {
                       </div>
                     </div>
                     <div className="bg-white/60 rounded-xl p-4 mb-3">
-                      <MathText text={q.question_text} block className="text-gray-900 leading-relaxed" />
+                      <MathText text={orDash(q.question_text)} block className="text-gray-900 leading-relaxed" />
                     </div>
                     <div className="space-y-2">
                       <p className="text-sm">
                         <span className="font-medium text-gray-600">你的答案：</span>
                         <MathText
-                          text={q.student_answer}
+                          text={orDash(q.student_answer)}
                           className={`font-medium ${q.is_correct ? 'text-green-600' : 'text-red-600'}`}
                         />
                       </p>
                       {!q.is_correct && (
                         <p className="text-sm">
                           <span className="font-medium text-gray-600">正确答案：</span>
-                          <MathText text={q.correct_answer} className="font-medium text-green-600" />
+                          <MathText text={orDash(q.correct_answer)} className="font-medium text-green-600" />
                         </p>
                       )}
-                      {q.explanation && (
+                      {!isBlankText(q.explanation) && (
                         <div className="bg-white/60 rounded-xl p-4 mt-3">
                           <div className="text-sm">
                             <span className="font-medium text-gray-600">解析：</span>

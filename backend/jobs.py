@@ -91,6 +91,17 @@ def compute_score(questions: list) -> Dict[str, float]:
     return {"total_questions": total, "correct_count": correct, "wrong_count": total - correct, "score": score}
 
 
+# 模型偶尔会把空字段写成字面占位文案；入库前统一归一化为空串，前端遇空显示「—」
+_SENTINEL_TEXTS = frozenset({"未提供", "未知", "未作答", "null", "none", "n/a"})
+
+
+def _clean_text(value) -> str:
+    if value is None:
+        return ""
+    s = str(value).strip()
+    return "" if s.lower() in _SENTINEL_TEXTS else s
+
+
 def normalize_grading_result(result: dict) -> dict:
     """
     规范化模型返回的批改结果：逐题补齐 is_correct / needs_review / reference_issue，
@@ -109,6 +120,9 @@ def normalize_grading_result(result: dict) -> dict:
         q["question_number"] = q.get("question_number") if q.get("question_number") not in (None, "") else idx + 1
         q["is_correct"] = _as_bool(q.get("is_correct"))
         q["needs_review"] = _as_bool(q.get("needs_review"))
+        # 题面 / 答案 / 解析：哨兵占位文案归一化为空串
+        for field in ("question_text", "student_answer", "correct_answer", "explanation"):
+            q[field] = _clean_text(q.get(field))
         issue = q.get("reference_issue")
         q["reference_issue"] = issue.strip() if isinstance(issue, str) and issue.strip() and \
             issue.strip().lower() not in ("null", "none", "无") else None

@@ -159,7 +159,7 @@ const assignmentSummary = (a) => {
   const parts = []
   if (a.total_members > 0) parts.push(`已上传 ${a.uploaded}/${a.total_members}`)
   else parts.push(`已上传 ${a.uploaded}`)
-  if (a.missing > 0) parts.push(`未交 ${a.missing}`)
+  // 「未交 N」由右侧橙色徽标（AssignmentBadges）承担，这里不重复
   const waitingGrade = Math.max(0, (a.uploaded || 0) - (a.completed || 0) - (a.processing || 0) - (a.failed || 0))
   if (waitingGrade > 0) parts.push(`待批改 ${waitingGrade}`)
   if (a.processing > 0) parts.push(`批改中 ${a.processing}`)
