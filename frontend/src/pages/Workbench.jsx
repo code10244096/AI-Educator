@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
   ClipboardCheck, Loader2, AlertTriangle, Inbox, Plus, Upload, ChevronRight, Users, FileText,
-  UserPlus, ClipboardList, CheckCircle2,
+  UserPlus, ClipboardList, CheckCircle2, MessageSquarePlus,
 } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
 import { useClass } from '../context/ClassContext'
@@ -10,6 +10,7 @@ import { useTask } from '../context/TaskContext'
 import { dashboardAPI } from '../utils/api'
 import useAsync from '../hooks/useAsync'
 import { Loading, ErrorState, Empty } from '../components/PageState'
+import FeedbackDialog from '../components/FeedbackDialog'
 import { formatRelative } from '../utils/time'
 
 // 工作台（R1-006）：登录后首页，一眼看到今天要做的事——待复核、批改中、需处理、收集中，最近作业与快捷入口
@@ -247,6 +248,7 @@ const Workbench = () => {
   const { data, loading, error, reload } = useAsync(() => dashboardAPI.get(), [])
   const [expanded, setExpanded] = useState(null)
   const [showAllTargets, setShowAllTargets] = useState(false)
+  const [feedbackOpen, setFeedbackOpen] = useState(false)
 
   // 有批改在进行时静默刷新（数字随进度变化）；后台任务数变化时也刷新一次
   const processing = data?.counts?.processing || 0
@@ -309,10 +311,26 @@ const Workbench = () => {
     </div>
   )
 
+  const feedbackFab = (
+    <>
+      <button
+        type="button"
+        onClick={() => setFeedbackOpen(true)}
+        className="fixed bottom-6 right-6 z-40 inline-flex items-center gap-2 rounded-full bg-blue-600 px-4 py-3 text-sm font-medium text-white shadow-lg hover:bg-blue-700 transition-colors"
+        aria-label="意见反馈"
+      >
+        <MessageSquarePlus className="h-5 w-5" />
+        <span>反馈</span>
+      </button>
+      <FeedbackDialog isOpen={feedbackOpen} onClose={() => setFeedbackOpen(false)} />
+    </>
+  )
+
   if (loading) {
     return (
       <div className="mx-auto max-w-6xl space-y-6 p-4 sm:p-6">
         {header}
+        {feedbackFab}
         <div className="grid grid-cols-2 gap-3 lg:grid-cols-4" aria-hidden="true">
           {CARDS.map(c => <div key={c.key} className="h-[116px] animate-pulse rounded-xl border border-gray-100 bg-white" />)}
         </div>
@@ -325,6 +343,7 @@ const Workbench = () => {
     return (
       <div className="mx-auto max-w-6xl space-y-6 p-4 sm:p-6">
         {header}
+        {feedbackFab}
         <div className="rounded-xl border border-gray-200 bg-white">
           <ErrorState error={error} title="工作台加载失败" onRetry={() => reload()} />
         </div>
@@ -349,6 +368,7 @@ const Workbench = () => {
   return (
     <div className="mx-auto max-w-6xl space-y-6 p-4 sm:p-6" data-testid="workbench">
       {header}
+      {feedbackFab}
 
       {showGuide && <GuideSteps data={data} navigate={navigate} />}
 

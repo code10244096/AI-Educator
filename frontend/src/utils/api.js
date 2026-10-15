@@ -457,6 +457,11 @@ export const feedbackAPI = {
     const response = await api.post('/feedback', payload)
     return response.data
   },
+
+  list: async () => {
+    const response = await api.get('/feedback/list')
+    return response.data
+  },
 }
 
 // 工作台汇总（R1-006）

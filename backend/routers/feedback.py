@@ -22,6 +22,7 @@ _last_submit_at: dict[int, float] = {}
 class FeedbackCreate(BaseModel):
     topics: list[str] = []
     content: str = ""
+    contact: str = ""
     page: str = ""
 
 
@@ -34,6 +35,7 @@ async def submit_feedback(
     """提交使用改进意见（体验账号与正式账号均可）"""
     topics = [str(t).strip()[:50] for t in (body.topics or []) if str(t).strip()]
     content = (body.content or "").strip()[:300]
+    contact = (body.contact or "").strip()[:100]
     page = (body.page or "").strip()[:200]
 
     if not topics and not content:
@@ -47,6 +49,7 @@ async def submit_feedback(
     row = Feedback(
         topics=json.dumps(topics, ensure_ascii=False),
         content=content,
+        contact=contact,
         page=page,
         user_id=user.id,
     )
@@ -79,6 +82,7 @@ async def list_feedback(
             "id": feedback.id,
             "topics": topics,
             "content": feedback.content or "",
+            "contact": feedback.contact or "",
             "page": feedback.page or "",
             "user_id": feedback.user_id,
             "is_guest": is_guest_user(user) if user else False,

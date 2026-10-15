@@ -50,6 +50,7 @@ class Feedback(Base):
     id = Column(Integer, primary_key=True, index=True)
     topics = Column(Text)  # JSON 字符串数组
     content = Column(Text, default="")
+    contact = Column(String(100), default="")  # 联系方式（选填）
     page = Column(String(200), default="")
     user_id = Column(Integer, ForeignKey("users.id"))
     created_at = Column(DateTime(timezone=True), server_default=func.now())
