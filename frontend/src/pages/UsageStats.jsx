@@ -436,15 +436,24 @@ const UsageStats = () => {
                     {(f.topics || []).length === 0 ? (
                       <span className="text-gray-400">—</span>
                     ) : (
-                      <div className="flex flex-wrap gap-1 max-w-xs">
-                        {f.topics.map((t) => (
-                          <span
-                            key={t}
-                            className="px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded-full"
-                          >
-                            {t}
-                          </span>
-                        ))}
+                      <div className="flex flex-col gap-1.5 max-w-xs">
+                        {f.topics.map((t, i) => {
+                          const name = typeof t === 'string' ? t : (t?.name || '')
+                          const detail = typeof t === 'object' && t?.detail ? String(t.detail) : ''
+                          if (!name) return null
+                          return (
+                            <div key={`${name}-${i}`}>
+                              <span className="inline-block px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded-full">
+                                {name}
+                              </span>
+                              {detail ? (
+                                <div className="mt-0.5 text-xs text-gray-500 whitespace-pre-wrap break-words pl-0.5">
+                                  {detail}
+                                </div>
+                              ) : null}
+                            </div>
+                          )
+                        })}
                       </div>
                     )}
                   </Td>

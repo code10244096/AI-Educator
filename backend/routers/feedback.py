@@ -19,8 +19,13 @@ _RATE_LIMIT_SECONDS = 60
 _last_submit_at: dict[int, float] = {}
 
 
+class TopicInput(BaseModel):
+    name: str
+    detail: str = ""
+
+
 class FeedbackCreate(BaseModel):
-    topics: list[str] = []
+    topics: list[TopicInput] = []
     content: str = ""
     contact: str = ""
     page: str = ""
@@ -33,7 +38,13 @@ async def submit_feedback(
     user: User = Depends(current_user),
 ):
     """提交使用改进意见（体验账号与正式账号均可）"""
-    topics = [str(t).strip()[:50] for t in (body.topics or []) if str(t).strip()]
+    topics = []
+    for t in body.topics or []:
+        name = (t.name or "").strip()[:50]
+        if not name:
+            continue
+        detail = (t.detail or "").strip()[:200]
+        topics.append({"name": name, "detail": detail})
     content = (body.content or "").strip()[:300]
     contact = (body.contact or "").strip()[:100]
     page = (body.page or "").strip()[:200]
