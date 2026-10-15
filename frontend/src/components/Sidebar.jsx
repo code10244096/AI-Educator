@@ -13,18 +13,21 @@ import {
   ChevronsLeft,
   ChevronsRight,
   Plus,
+  MessageSquarePlus,
 } from 'lucide-react'
 import { useLayout } from '../context/LayoutContext'
 import { useClass } from '../context/ClassContext'
 import { useAuth } from '../context/AuthContext'
+import FeedbackDialog from './FeedbackDialog'
 
-// 教师菜单（R1-006）：工作台 / 我的班级 / 作业批改 / 错题本 / 教案 ── 设置；用量统计仅管理员可见
+// 教师菜单（R1-006）：工作台 / 我的班级 / 作业批改 / 错题本 / 教案 / 意见反馈 ── 设置；用量统计仅管理员可见
 const MAIN_ITEMS = [
   { id: 'home', label: '工作台', icon: LayoutDashboard, path: '/', exact: true },
   { id: 'classes', label: '我的班级', icon: Users, path: '/class' },
   { id: 'grader', label: '作业批改', icon: FileCheck, path: '/grader' },
   { id: 'notebook', label: '错题本', icon: BookOpen, path: '/notebook' },
   { id: 'lessonplan', label: '教案', icon: FileText, path: '/lessonplan' },
+  { id: 'feedback', label: '意见反馈', icon: MessageSquarePlus, action: 'feedback' },
 ]
 
 const itemClass = (active, collapsed) => [
@@ -48,6 +51,7 @@ const Sidebar = () => {
   const { classes } = useClass()
   const { isAdmin } = useAuth()
   const [classesExpanded, setClassesExpanded] = useState(true)
+  const [feedbackOpen, setFeedbackOpen] = useState(false)
 
   // 窄屏抽屉：切换页面后自动收起（桌面常驻不受影响）
   useEffect(() => {
@@ -62,6 +66,22 @@ const Sidebar = () => {
       <div className="flex-1 space-y-1 overflow-y-auto px-3 py-4">
         {MAIN_ITEMS.map((item) => {
           const Icon = item.icon
+
+          if (item.action === 'feedback') {
+            return (
+              <button
+                key={item.id}
+                type="button"
+                title={isCollapsed ? item.label : undefined}
+                className={itemClass(false, isCollapsed)}
+                onClick={() => setFeedbackOpen(true)}
+              >
+                <Icon className={iconClass(false)} />
+                {!isCollapsed && <span className="ml-3 truncate">{item.label}</span>}
+              </button>
+            )
+          }
+
           const active = isActive(item)
           if (item.id !== 'classes') {
             return (
@@ -205,6 +225,8 @@ const Sidebar = () => {
       >
         {renderNav(false)}
       </aside>
+
+      <FeedbackDialog isOpen={feedbackOpen} onClose={() => setFeedbackOpen(false)} />
     </>
   )
 }

@@ -68,6 +68,7 @@
         "deepseek-v4.1-flash"
       ]
     },
-    "_comment_models": "2026-10-08 实测：ocr=gpt-5.5（识别准且省 token；deepseek-v4.1-flash 可看图，作备用）。grade/variant/lessonplan=gemini-3.1-pro-preview。glm-5.2 不接入（识别无正文、错因解释不可靠）。gpt-6-astra 本次多次超时，不再作为主模型。"
+    "_comment_models": "2026-10-08 实测：ocr=gpt-5.5（识别准且省 token；deepseek-v4.1-flash 可看图，作备用）。grade/variant/lessonplan=gemini-3.1-pro-preview。glm-5.2 不接入（识别无正文、错因解释不可靠）。gpt-6-astra 本次多次超时，不再作为主模型。现配置继续生效，试验配置见 _comment_ab_test。",
+    "_comment_ab_test": "试验配置（2026-10 选型研究，用 backend/tests/acceptance/real_eval 做 A/B 对比后决定是否转正）： grade（批改）: qwen3.8-max，fallback gemini-3.1-pro-preview —— 幻觉控制/指令遵循国产最强，批改最怕误判； variant（变式出题）: deepseek-v4-flash，fallback deepseek-v4-pro —— 数学推理强且最便宜，注意 DeepSeek 峰谷计价（北京时间 9-12/14-18 点翻倍），批量任务排低谷； lessonplan（教案）: kimi-k3，fallback qwen3.8-max —— 1M 上下文可吃下整份课标教材，中文行文好； ocr（识别）: gpt-5.5 保留，fallback 可试 glm-5.3-flash（原生多模态、便宜）；glm-5.2 的空回复问题需在 5.3 上重新验证。"
   }
 }

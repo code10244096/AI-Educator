@@ -451,6 +451,14 @@ export const usageAPI = {
   },
 }
 
+// 使用改进意见反馈
+export const feedbackAPI = {
+  submit: async (payload) => {
+    const response = await api.post('/feedback', payload)
+    return response.data
+  },
+}
+
 // 工作台汇总（R1-006）
 export const dashboardAPI = {
   get: async () => {

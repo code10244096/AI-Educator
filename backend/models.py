@@ -43,6 +43,18 @@ class ClassInfo(Base):
     members = relationship("ClassMember", back_populates="class_info")
 
 
+class Feedback(Base):
+    """使用改进意见反馈表"""
+    __tablename__ = "feedback"
+
+    id = Column(Integer, primary_key=True, index=True)
+    topics = Column(Text)  # JSON 字符串数组
+    content = Column(Text, default="")
+    page = Column(String(200), default="")
+    user_id = Column(Integer, ForeignKey("users.id"))
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+
 class ClassMember(Base):
     """班级成员表"""
     __tablename__ = "class_members"
