@@ -17,6 +17,16 @@ const LATEX_N_COMMANDS = new Set([
 
 const isLetter = (c) => (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')
 
+// 历史数据里的占位哨兵文案（后端已改为写空串，这里兼容旧数据）：空或哨兵视为空白
+const SENTINEL_TEXTS = new Set(['未提供', '未知', '未作答'])
+export const isBlankText = (v) => {
+  if (v === null || v === undefined) return true
+  const s = String(v).trim()
+  return !s || SENTINEL_TEXTS.has(s)
+}
+/** 空白（含哨兵）显示为「—」，否则返回原文 */
+export const orDash = (v) => (isBlankText(v) ? '—' : v)
+
 /** 统一换行：CRLF、字面量 \n；双重转义的 \\( \\) \\[ \\] 还原为单个反斜杠 */
 export function normalizeMathText(input) {
   if (input === null || input === undefined) return ''

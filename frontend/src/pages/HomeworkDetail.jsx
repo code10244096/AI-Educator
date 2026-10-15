@@ -17,6 +17,7 @@ import { classHomeworkAPI, homeworkAPI, getErrorMessage } from '../utils/api'
 import { useToast } from '../components/Toast'
 import useAsync from '../hooks/useAsync'
 import MathText from '../components/MathText'
+import { isBlankText } from '../utils/mathText'
 import { Empty, ErrorState, Loading } from '../components/PageState'
 
 // 名录筛选；工作台卡片跳转时带 ?filter=review|failed|processing|missing
@@ -429,13 +430,13 @@ const HomeworkDetail = () => {
             <table className="w-full min-w-[760px]">
               <thead>
                 <tr className="bg-gray-50">
-                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500">学生</th>
-                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500">上传</th>
-                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500">上传时间</th>
-                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500">批改状态</th>
-                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500">得分</th>
-                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500">错题数</th>
-                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500">操作</th>
+                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 whitespace-nowrap">学生</th>
+                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 whitespace-nowrap">上传</th>
+                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 whitespace-nowrap">上传时间</th>
+                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 whitespace-nowrap">批改状态</th>
+                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 whitespace-nowrap">得分</th>
+                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 whitespace-nowrap">错题数</th>
+                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 whitespace-nowrap">操作</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100">
@@ -550,7 +551,7 @@ const HomeworkDetail = () => {
                 <div className="flex items-start justify-between gap-3">
                   <div className="text-sm font-medium text-gray-700 min-w-0">
                     <span className="mr-1">第 {q.question_number} 题</span>
-                    {q.question_text && <MathText text={q.question_text} className="text-gray-600 font-normal" />}
+                    {!isBlankText(q.question_text) && <MathText text={q.question_text} className="text-gray-600 font-normal" />}
                   </div>
                   <span className="text-sm text-gray-500 shrink-0">
                     正确率 {q.correct_rate}%（{q.correct}/{q.total}）
