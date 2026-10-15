@@ -82,4 +82,14 @@ server {
     location / {
         try_files $uri $uri/ /index.html;
     }
+
+    # index.html 不缓存：部署新版本后用户立即拿到最新入口（hash 资源仍可长缓存）
+    location = /index.html {
+        expires -1;
+        add_header Cache-Control "no-cache, must-revalidate" always;
+        add_header Strict-Transport-Security "max-age=31536000" always;
+        add_header X-Content-Type-Options "nosniff" always;
+        add_header X-Frame-Options "SAMEORIGIN" always;
+        add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+    }
 }
