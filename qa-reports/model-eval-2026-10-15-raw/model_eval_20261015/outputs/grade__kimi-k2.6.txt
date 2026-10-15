@@ -1,0 +1,40 @@
+{
+  "total_questions": 3,
+  "correct_count": 3,
+  "wrong_count": 0,
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "（原题未提供，推断为求导数题）求函数 $f(x)=x^2+x$ 的导数 $f'(x)$",
+      "student_answer": "$f'(x)=2x+1$",
+      "correct_answer": "$f'(x)=2x+1$",
+      "is_correct": true,
+      "explanation": "若原题为求 $f(x)=x^2+x$（或相差常数项）的导数，则 $f'(x)=2x+1$ 计算完全正确。由于原题未提供，此判断基于常见题型的合理推断，建议老师结合原题核对原函数。",
+      "needs_review": true,
+      "reference_issue": null,
+      "knowledge_point": "导数的计算"
+    },
+    {
+      "question_number": 2,
+      "question_text": "（原题未提供，推断为切线方程题）求曲线在指定点处的切线方程",
+      "student_answer": "切线方程 $y=3x-2$",
+      "correct_answer": "（原题未知，推断正确答案为 $y=3x-2$）",
+      "is_correct": true,
+      "explanation": "学生给出的切线方程形式规范。若原题为求曲线 $y=x^3$ 在点 $(1,1)$ 处的切线（或 $y=x^2+x-1$ 在点 $(1,1)$ 处的切线），则导数在该点的值为 $3$，由点斜式得切线方程为 $y-1=3(x-1)$，即 $y=3x-2$，答案正确。由于缺少原题，建议老师根据实际原函数与切点进行复核。",
+      "needs_review": true,
+      "reference_issue": null,
+      "knowledge_point": "导数的几何意义"
+    },
+    {
+      "question_number": 3,
+      "question_text": "（原题未提供，推断为极值题）求函数的极小值点",
+      "student_answer": "极小值点 $x=2, f(2)=1$",
+      "correct_answer": "极小值点为 $x=2$，极小值为 $f(2)=1$",
+      "is_correct": true,
+      "explanation": "若原题为求 $f(x)=x^2-4x+5$ 的极小值，则 $f'(x)=2x-4$，令 $f'(x)=0$ 得 $x=2$，且 $f''(x)=2>0$，故 $x=2$ 为极小值点，$f(2)=1$，学生答案正确。由于原题未提供，建议老师根据实际题目确认。",
+      "needs_review": true,
+      "reference_issue": null,
+      "knowledge_point": "函数的极值与导数"
+    }
+  ]
+}

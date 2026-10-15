@@ -1,0 +1,229 @@
+[
+  {
+    "feature": "ocr",
+    "model": "gpt-5.5",
+    "ok": true,
+    "output_file": "logs/model_eval_20261015/outputs/ocr__gpt-5.5.txt",
+    "output_chars": 70,
+    "output_is_error": false,
+    "wall_seconds": 5.98,
+    "calls": [
+      {
+        "feature": "ocr",
+        "model": "gpt-5.5",
+        "usage": {
+          "prompt_tokens": 569,
+          "completion_tokens": 153,
+          "total_tokens": 722,
+          "reasoning_tokens": 91
+        },
+        "elapsed_seconds": 5.97,
+        "finish_reason": "stop"
+      }
+    ],
+    "total_tokens": 722
+  },
+  {
+    "feature": "ocr",
+    "model": "qwen3-vl-235b-a22b-instruct",
+    "ok": false,
+    "error": "LLMError: AI 模型请求失败：404 - Error code: 404 - {'error': {'message': 'Model not exist.', 'type': 'invalid_request_error', 'param': '', 'code': 'model_not_found'}}",
+    "wall_seconds": 3.46,
+    "calls": [],
+    "total_tokens": 0
+  },
+  {
+    "feature": "ocr",
+    "model": "gemini-3.1-pro-preview",
+    "ok": true,
+    "output_file": "logs/model_eval_20261015/outputs/ocr__gemini-3.1-pro-preview.txt",
+    "output_chars": 82,
+    "output_is_error": false,
+    "wall_seconds": 15.62,
+    "calls": [
+      {
+        "feature": "ocr",
+        "model": "gemini-3.1-pro-preview",
+        "usage": {
+          "prompt_tokens": 1161,
+          "completion_tokens": 765,
+          "total_tokens": 1926,
+          "reasoning_tokens": 706
+        },
+        "elapsed_seconds": 15.62,
+        "finish_reason": "stop"
+      }
+    ],
+    "total_tokens": 1926
+  },
+  {
+    "feature": "grade",
+    "model": "gemini-3.1-pro-preview",
+    "ok": true,
+    "output_file": "logs/model_eval_20261015/outputs/grade__gemini-3.1-pro-preview.txt",
+    "output_is_error": false,
+    "grade_summary": {
+      "total_questions": 3,
+      "correct_count": 0,
+      "needs_review_count": 3
+    },
+    "wall_seconds": 123.11,
+    "calls": [
+      {
+        "feature": "grade",
+        "model": "gemini-3.1-pro-preview",
+        "usage": {
+          "prompt_tokens": 377,
+          "completion_tokens": 4845,
+          "total_tokens": 5222,
+          "reasoning_tokens": 4400
+        },
+        "elapsed_seconds": 123.11,
+        "finish_reason": "stop"
+      }
+    ],
+    "total_tokens": 5222
+  },
+  {
+    "feature": "grade",
+    "model": "deepseek-v4.1-pro",
+    "ok": false,
+    "error": "LLMError: AI 模型请求失败：503 - Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model deepseek-v4.1-pro under group default (distributor)', 'type': 'new_api_error'}}",
+    "wall_seconds": 1.48,
+    "calls": [],
+    "total_tokens": 0
+  },
+  {
+    "feature": "grade",
+    "model": "kimi-k2.6",
+    "ok": true,
+    "output_file": "logs/model_eval_20261015/outputs/grade__kimi-k2.6.txt",
+    "output_is_error": false,
+    "grade_summary": {
+      "total_questions": 3,
+      "correct_count": 3,
+      "needs_review_count": 3
+    },
+    "wall_seconds": 193.94,
+    "calls": [
+      {
+        "feature": "grade",
+        "model": "kimi-k2.6",
+        "usage": {
+          "prompt_tokens": 346,
+          "completion_tokens": 8275,
+          "total_tokens": 8621,
+          "reasoning_tokens": 7595
+        },
+        "elapsed_seconds": 193.93,
+        "finish_reason": "stop"
+      }
+    ],
+    "total_tokens": 8621
+  },
+  {
+    "feature": "lessonplan",
+    "model": "gemini-3.1-pro-preview",
+    "ok": true,
+    "output_file": "logs/model_eval_20261015/outputs/lessonplan__gemini-3.1-pro-preview.txt",
+    "output_chars": 3103,
+    "output_is_error": false,
+    "wall_seconds": 49.39,
+    "calls": [
+      {
+        "feature": "lessonplan",
+        "model": "gemini-3.1-pro-preview",
+        "usage": {
+          "prompt_tokens": 288,
+          "completion_tokens": 4175,
+          "total_tokens": 4463,
+          "reasoning_tokens": 1939
+        },
+        "elapsed_seconds": 49.39,
+        "finish_reason": "stop"
+      }
+    ],
+    "total_tokens": 4463
+  },
+  {
+    "feature": "lessonplan",
+    "model": "claude-4-sonnet",
+    "ok": false,
+    "error": "LLMError: AI 模型请求失败：503 - Error code: 503 - {'error': {'message': 'No available channel for model claude-4-sonnet under group default (distributor)', 'type': 'new_api_error', 'param': '', 'code': 'model_not_found'}}",
+    "wall_seconds": 1.64,
+    "calls": [],
+    "total_tokens": 0
+  },
+  {
+    "feature": "lessonplan",
+    "model": "kimi-k2.6",
+    "ok": true,
+    "output_file": "logs/model_eval_20261015/outputs/lessonplan__kimi-k2.6.txt",
+    "output_chars": 3482,
+    "output_is_error": false,
+    "wall_seconds": 139.49,
+    "calls": [
+      {
+        "feature": "lessonplan",
+        "model": "kimi-k2.6",
+        "usage": {
+          "prompt_tokens": 256,
+          "completion_tokens": 5444,
+          "total_tokens": 5700,
+          "reasoning_tokens": 3305
+        },
+        "elapsed_seconds": 139.49,
+        "finish_reason": "stop"
+      }
+    ],
+    "total_tokens": 5700
+  },
+  {
+    "feature": "variant",
+    "model": "gemini-3.1-pro-preview",
+    "ok": true,
+    "output_file": "logs/model_eval_20261015/outputs/variant__gemini-3.1-pro-preview.txt",
+    "variant_count": 3,
+    "output_is_error": false,
+    "wall_seconds": 289.39,
+    "calls": [
+      {
+        "feature": "variant",
+        "model": "gemini-3.1-pro-preview",
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 2855,
+          "total_tokens": 3024,
+          "reasoning_tokens": 2188
+        },
+        "elapsed_seconds": 289.39,
+        "finish_reason": "stop"
+      }
+    ],
+    "total_tokens": 3024
+  },
+  {
+    "feature": "variant",
+    "model": "deepseek-v4.1-flash",
+    "ok": true,
+    "output_file": "logs/model_eval_20261015/outputs/variant__deepseek-v4.1-flash.txt",
+    "variant_count": 3,
+    "output_is_error": false,
+    "wall_seconds": 22.78,
+    "calls": [
+      {
+        "feature": "variant",
+        "model": "deepseek-v4.1-flash",
+        "usage": {
+          "prompt_tokens": 183,
+          "completion_tokens": 2628,
+          "total_tokens": 2811,
+          "reasoning_tokens": 2189
+        },
+        "elapsed_seconds": 22.78,
+        "finish_reason": "stop"
+      }
+    ],
+    "total_tokens": 2811
+  }
+]
