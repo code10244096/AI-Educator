@@ -7,21 +7,21 @@ from .gateway import LLMConfig, LLMError, LLMGateway, LLMResult
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
-# 只用环境变量部署（没有 config.json）时的默认网关与分功能模型（2026-09 实测选型，见 config.example.json）
+# 只用环境变量部署（没有 config.json）时的默认网关与分功能模型（见 config.example.json）
 DEFAULT_BASE_URL = "https://yibuapi.com/v1"
-# 2026-10-08 网关实测：识别用 gpt-5.5（准、省 token）；批改/变式/教案用 gemini（判题和行文更稳）。
-# ds-v4-1 在网关上的名字是 deepseek-v4.1-flash，适合做备用。glm-5.2 识别空回复、解析不可靠，不接入。
+# 2026-10-15 实测：变式用 deepseek-v4.1-flash（较 gemini 快约 13 倍且数学全对），OCR 兜底用 qwen3-vl-plus；
+# 识别主模型仍为 gpt-5.5；批改/教案主模型仍为 gemini。glm-5.2 识别空回复、解析不可靠，不接入。
 DEFAULT_MODELS = {
     "default": "gemini-3.1-pro-preview",
     "ocr": "gpt-5.5",
     "grade": "gemini-3.1-pro-preview",
-    "variant": "gemini-3.1-pro-preview",
+    "variant": "deepseek-v4.1-flash",
     "lessonplan": "gemini-3.1-pro-preview",
 }
 DEFAULT_FALLBACKS = {
-    "ocr": ["deepseek-v4.1-flash"],
+    "ocr": ["qwen3-vl-plus"],
     "grade": ["deepseek-v4.1-flash"],
-    "variant": ["deepseek-v4-pro"],
+    "variant": ["gemini-3.1-pro-preview"],
     "lessonplan": ["deepseek-v4.1-flash"],
 }
 FEATURES = ("ocr", "grade", "variant", "lessonplan")
