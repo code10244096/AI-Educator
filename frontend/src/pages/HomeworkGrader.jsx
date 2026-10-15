@@ -380,7 +380,12 @@ const HomeworkGrader = () => {
               </div>
               <h3 className="text-xl font-bold mb-2">批改完成</h3>
               <p className="text-white/90 mb-1">
-                得分 <span className="text-2xl font-bold">{finishedResult.score ?? '-'}</span>
+                得分{' '}
+                {finishedResult.grading_result?.score_pending ? (
+                  <span className="inline-block rounded-full bg-white/20 px-3 py-0.5 text-lg font-semibold">待复核</span>
+                ) : (
+                  <span className="text-2xl font-bold">{finishedResult.score ?? '-'}</span>
+                )}
                 {' '}· 共 {finishedResult.grading_result?.total_questions ?? '-'} 题 · 错 {finishedResult.wrong_count ?? 0} 题
               </p>
               <p className="text-white/70 text-sm mb-6">结果已保存，错题已同步到错题本</p>

@@ -239,7 +239,13 @@ const TaskDetail = () => {
             <div className="grid grid-cols-4 gap-4 mb-6">
               <div className="bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl p-5 text-white text-center">
                 <div className="text-sm opacity-80 mb-1">总分</div>
-                <div className="text-4xl font-bold">{gradingResult.score}</div>
+                {gradingResult.score_pending ? (
+                  <div className="mt-2">
+                    <span className="inline-block rounded-full bg-white/20 px-3 py-1 text-lg font-semibold">待复核</span>
+                  </div>
+                ) : (
+                  <div className="text-4xl font-bold">{gradingResult.score}</div>
+                )}
               </div>
               <div className="bg-gradient-to-br from-green-500 to-emerald-500 rounded-xl p-5 text-white text-center">
                 <div className="text-sm opacity-80 mb-1">总题数</div>

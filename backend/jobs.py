@@ -83,12 +83,16 @@ def _as_bool(value) -> bool:
     return bool(value)
 
 
-def compute_score(questions: list) -> Dict[str, float]:
-    """统一计分口径（Q6）：score = 正确题数 / 总题数 × 100，保留 1 位小数；不采用模型自报的分数"""
+def compute_score(questions: list) -> Dict:
+    """统一计分口径（Q6）：score = 正确题数 / 总题数 × 100，保留 1 位小数；不采用模型自报的分数。
+    无参考答案时模型会把每题标为 needs_review，此时附加 score_pending=True，避免前端把 0 分当真分。"""
     total = len(questions)
     correct = sum(1 for q in questions if q.get("is_correct"))
     score = round(correct / total * 100, 1) if total else 0
-    return {"total_questions": total, "correct_count": correct, "wrong_count": total - correct, "score": score}
+    out = {"total_questions": total, "correct_count": correct, "wrong_count": total - correct, "score": score}
+    if total and all(q.get("needs_review") for q in questions):
+        out["score_pending"] = True
+    return out
 
 
 # 模型偶尔会把空字段写成字面占位文案；入库前统一归一化为空串，前端遇空显示「—」
