@@ -79,6 +79,8 @@ def test_legacy_homework_accessed_by_primary_key(tmp_path):
     """R1-005 AC3：旧库（含 dataset 作业）迁移后，每个作业按主键访问都得到它自己（不撞号）；
     R1-011 方案：存量提交按班级+姓名回填 member_id。"""
     db = copy_real_db(tmp_path / "qa.db")
+    if sql("SELECT COUNT(*) FROM homework_assignments WHERE class_id IS NOT NULL", db=db)[0][0] == 0:
+        pytest.skip("本机 teaching_assistant.db 无存量作业数据，按主键访问断言无从验证")
     env = fresh_env(tmp_path)
     p, _ = run_runner("initdb", env)
     assert p.returncode == 0, (p.stdout + p.stderr)[-800:]

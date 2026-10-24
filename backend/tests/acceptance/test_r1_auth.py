@@ -456,6 +456,8 @@ async def test_ownership_columns_and_llm_teacher_id(world):
 def test_assign_orphans_on_real_db_copy(tmp_path):
     """R1-002 AC4：用 teaching_assistant.db 副本迁移 + assign-orphans 到 A；A 看到全部旧数据，新教师 C 看不到。"""
     db = copy_real_db(tmp_path / "qa.db")
+    if sql("SELECT COUNT(*) FROM homework_submissions", db=db)[0][0] == 0:
+        pytest.skip("本机 teaching_assistant.db 无存量作业数据，迁移可见性断言无从验证")
     env = fresh_env(tmp_path)
     tables = ["classes", "class_members", "homework_assignments", "homework_submissions",
               "wrong_questions", "lesson_plans"]
