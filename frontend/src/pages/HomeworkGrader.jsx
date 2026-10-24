@@ -6,6 +6,8 @@ import {
   RotateCcw, Trash2, Eye, RefreshCw,
 } from 'lucide-react'
 import { homeworkAPI, classHomeworkAPI, getErrorMessage } from '../utils/api'
+import { useAuth } from '../context/AuthContext'
+import { subjectsFor } from '../utils/stageSubjects'
 import { useClass } from '../context/ClassContext'
 import { useTask, estimateProgress } from '../context/TaskContext'
 import { clearHomeworkCache } from '../services/homeworkService'
@@ -33,6 +35,7 @@ const STATUS_BADGE = {
 }
 
 const HomeworkGrader = () => {
+  const { user } = useAuth()
   const [searchParams] = useSearchParams()
   const navigate = useNavigate()
   const { tasks, addTask } = useTask()
@@ -48,6 +51,7 @@ const HomeworkGrader = () => {
   const [historyLoading, setHistoryLoading] = useState(true)
   const [deleteTarget, setDeleteTarget] = useState(null)
   const [isVisible, setIsVisible] = useState(false)
+  const [gradeSubject, setGradeSubject] = useState(user?.subject || '')
 
   const gradeContext = useMemo(() => ({
     classId: searchParams.get('classId'),
@@ -63,6 +67,10 @@ const HomeworkGrader = () => {
   useEffect(() => {
     setIsVisible(true)
   }, [])
+
+  useEffect(() => {
+    setGradeSubject((prev) => prev || user?.subject || '')
+  }, [user?.subject])
 
   // 批改上下文横幅显示“班级 · 作业名 · 学生”，不显示内部编号
   useEffect(() => {
@@ -168,7 +176,7 @@ const HomeworkGrader = () => {
     try {
       const resp = await homeworkAPI.uploadWithContext(files, {
         referenceAnswer,
-        subject: '数学',
+        subject: gradeSubject || user?.subject || '',
         assignmentId: gradeContext.assignmentId,
         submissionId: gradeContext.submissionId,
         studentName: gradeContext.studentName,
@@ -263,6 +271,24 @@ const HomeworkGrader = () => {
           </div>
 
           {contextBanner}
+
+          <div className="mb-6 rounded-xl border border-blue-100 bg-blue-50 px-4 py-3">
+            <p className="text-sm text-blue-800">
+              正在以「{[user?.education_stage, gradeSubject || user?.subject].filter(Boolean).join(' · ') || '未选择学科'}」批改
+            </p>
+            <label className="mt-2 block text-xs font-medium text-gray-600" htmlFor="grade-subject">本次学科</label>
+            <select
+              id="grade-subject"
+              value={gradeSubject}
+              onChange={(e) => setGradeSubject(e.target.value)}
+              className="mt-1 w-full max-w-xs rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm"
+            >
+              {(gradeSubject && !subjectsFor(user?.education_stage).includes(gradeSubject)
+                ? [gradeSubject, ...subjectsFor(user?.education_stage)]
+                : subjectsFor(user?.education_stage)
+              ).map((item) => <option key={item} value={item}>{item}</option>)}
+            </select>
+          </div>
 
           <div className="mb-6">
             <label className="block text-sm font-medium text-gray-700 mb-3">

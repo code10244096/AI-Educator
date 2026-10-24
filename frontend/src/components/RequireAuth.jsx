@@ -27,6 +27,10 @@ const RequireAuth = ({ children }) => {
     return <Navigate to={`/set-password${redirect}`} replace />
   }
 
+  if (user.needs_profile) {
+    return <Navigate to="/login" replace />
+  }
+
   return children
 }
 

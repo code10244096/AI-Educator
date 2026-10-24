@@ -5,27 +5,52 @@ import { useAuth } from '../context/AuthContext'
 import { useToast } from '../components/Toast'
 import { getErrorMessage } from '../utils/api'
 import { PASSWORD_RULE, validateNewPassword } from '../utils/password'
+import { STAGE_SUBJECTS, subjectsFor } from '../utils/stageSubjects'
 
 const inputClass = 'w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
 
 const ProfileSection = () => {
   const { user, updateProfile } = useAuth()
   const { addToast } = useToast()
-  const [form, setForm] = useState({ display_name: user?.display_name || '', school: user?.school || '' })
+  const [form, setForm] = useState({
+    display_name: user?.display_name || '',
+    school: user?.school || '',
+    education_stage: user?.education_stage || '',
+    subject: user?.subject || '',
+  })
   const [saving, setSaving] = useState(false)
+  const subjectOptions = subjectsFor(form.education_stage)
 
   useEffect(() => {
-    setForm({ display_name: user?.display_name || '', school: user?.school || '' })
-  }, [user?.display_name, user?.school])
+    setForm({
+      display_name: user?.display_name || '',
+      school: user?.school || '',
+      education_stage: user?.education_stage || '',
+      subject: user?.subject || '',
+    })
+  }, [user?.display_name, user?.school, user?.education_stage, user?.subject])
 
   const handleSave = async () => {
     if (!form.display_name.trim()) {
       addToast('姓名不能为空', 'error')
       return
     }
+    if (!form.education_stage) {
+      addToast('请选择学段', 'error')
+      return
+    }
+    if (!form.subject || !subjectOptions.includes(form.subject)) {
+      addToast('请选择该学段下的学科', 'error')
+      return
+    }
     setSaving(true)
     try {
-      await updateProfile({ display_name: form.display_name.trim(), school: form.school.trim() })
+      await updateProfile({
+        display_name: form.display_name.trim(),
+        school: form.school.trim(),
+        education_stage: form.education_stage,
+        subject: form.subject,
+      })
       addToast('个人资料已保存', 'success')
     } catch (err) {
       addToast(getErrorMessage(err, '保存失败，请重试'), 'error')
@@ -54,6 +79,30 @@ const ProfileSection = () => {
           <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="profile-account">账号</label>
           <input id="profile-account" type="text" value={user?.username || ''} disabled className={`${inputClass} bg-gray-50 text-gray-500`} />
           <p className="mt-1 text-xs text-gray-400">账号不能修改，如需更换请联系学校管理员</p>
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="profile-stage">学段</label>
+          <select
+            id="profile-stage"
+            value={form.education_stage}
+            onChange={(e) => setForm(prev => ({ ...prev, education_stage: e.target.value, subject: '' }))}
+            className={inputClass}
+          >
+            <option value="">请选择</option>
+            {Object.keys(STAGE_SUBJECTS).map((item) => <option key={item} value={item}>{item}</option>)}
+          </select>
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="profile-subject">学科</label>
+          <select
+            id="profile-subject"
+            value={form.subject}
+            onChange={(e) => setForm(prev => ({ ...prev, subject: e.target.value }))}
+            className={inputClass}
+          >
+            <option value="">{form.education_stage ? '请选择' : '请先选择学段'}</option>
+            {subjectOptions.map((item) => <option key={item} value={item}>{item}</option>)}
+          </select>
         </div>
         <div className="sm:col-span-2">
           <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="profile-school">学校</label>

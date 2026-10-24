@@ -2,6 +2,8 @@ import React, { useState, useEffect, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import { Plus, Calendar, CheckCircle, ExternalLink, BookOpen, FileText, FileSpreadsheet, File, AlertCircle, Trash2, Loader2, RotateCcw } from 'lucide-react'
 import { notebookAPI, getErrorMessage } from '../utils/api'
+import { useAuth } from '../context/AuthContext'
+import { subjectsFor } from '../utils/stageSubjects'
 import ReactMarkdown from 'react-markdown'
 import MathText from '../components/MathText'
 import { isBlankText, orDash } from '../utils/mathText'
@@ -45,9 +47,10 @@ const ERROR_MESSAGES = {
 const PAGE_SIZE = 20
 
 const WrongNotebook = () => {
+  const { user } = useAuth()
   const [questions, setQuestions] = useState([])
   const [loading, setLoading] = useState(false)
-  const [filter, setFilter] = useState({ knowledgePoint: '', subject: '数学', mastered: '' })
+  const [filter, setFilter] = useState({ knowledgePoint: '', subject: '', mastered: '' })
   const [isVisible, setIsVisible] = useState(false)
   const [parseError, setParseError] = useState(null)
   const [uploadProgress, setUploadProgress] = useState(0)
@@ -63,6 +66,11 @@ const WrongNotebook = () => {
   useEffect(() => {
     setIsVisible(true)
   }, [])
+
+  useEffect(() => {
+    if (!user?.subject) return
+    setFilter((prev) => (prev.subject ? prev : { ...prev, subject: user.subject }))
+  }, [user?.subject])
 
   const buildParams = useCallback((offset) => {
     const params = { limit: PAGE_SIZE, offset }
@@ -136,7 +144,7 @@ const WrongNotebook = () => {
       const response = await notebookAPI.upload(
         file,
         newKnowledgePoint.trim() || filter.knowledgePoint || '未分类',
-        filter.subject || '数学'
+        filter.subject || user?.subject || ''
       )
 
       clearInterval(progressInterval)
@@ -234,7 +242,7 @@ const WrongNotebook = () => {
                 type="text"
                 value={newKnowledgePoint}
                 onChange={(e) => setNewKnowledgePoint(e.target.value)}
-                placeholder="例如：导数"
+                placeholder="例如：本课知识点"
                 aria-label="上传时填写的知识点"
                 className="w-full border border-gray-300 rounded-xl px-4 py-2.5 bg-white text-sm text-gray-900 focus:ring-2 focus:ring-green-500 focus:border-transparent"
               />
@@ -261,9 +269,10 @@ const WrongNotebook = () => {
               className="border border-gray-300 rounded-xl px-4 py-2.5 bg-white hover:border-green-400 focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all cursor-pointer"
             >
               <option value="">全部学科</option>
-              <option value="数学">数学</option>
-              <option value="物理">物理</option>
-              <option value="化学">化学</option>
+              {(filter.subject && !subjectsFor(user?.education_stage).includes(filter.subject)
+                ? [filter.subject, ...subjectsFor(user?.education_stage)]
+                : subjectsFor(user?.education_stage)
+              ).map((item) => <option key={item} value={item}>{item}</option>)}
             </select>
 
             <select

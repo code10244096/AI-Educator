@@ -2,16 +2,21 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { School, Plus, Edit, Trash2, X, Users } from 'lucide-react'
 import { useClass } from '../context/ClassContext'
+import { useAuth } from '../context/AuthContext'
 import { useToast } from './Toast'
 import ConfirmDialog from './ConfirmDialog'
 import { Empty, ErrorState, Loading } from './PageState'
 import { getErrorMessage } from '../utils/api'
+import { classNameExample, defaultSubject, gradesFor, subjectsFor } from '../utils/stageSubjects'
 
-const GRADES = ['高一', '高二', '高三']
+const withCurrent = (options, current) => (current && !options.includes(current) ? [current, ...options] : options)
 
-// 班级的新建 / 编辑 / 删除（只做高中数学，学科固定为数学）
 const ClassManager = ({ autoOpenCreate = false, onCreateClose }) => {
   const navigate = useNavigate()
+  const { user } = useAuth()
+  const stage = user?.education_stage || ''
+  const gradeOptions = gradesFor(stage)
+  const subjectOptions = subjectsFor(stage)
   const { classes, loaded, loadError, reloadClasses, addClass, updateClass, deleteClass } = useClass()
   const { addToast } = useToast()
   const [showAdd, setShowAdd] = useState(autoOpenCreate)
@@ -25,9 +30,17 @@ const ClassManager = ({ autoOpenCreate = false, onCreateClose }) => {
     setNameError('')
     onCreateClose?.()
   }
-  const [newClass, setNewClass] = useState({ name: '', grade: '高一' })
+  const [newClass, setNewClass] = useState({ name: '', grade: '', subject: '' })
   const [editingId, setEditingId] = useState(null)
-  const [editForm, setEditForm] = useState({ name: '', grade: '高一' })
+  const [editForm, setEditForm] = useState({ name: '', grade: '', subject: '' })
+
+  useEffect(() => {
+    setNewClass((prev) => ({
+      ...prev,
+      grade: prev.grade || gradeOptions[0] || '',
+      subject: prev.subject || defaultSubject(stage, user?.subject),
+    }))
+  }, [stage, user?.subject, gradeOptions])
   const [deleteTarget, setDeleteTarget] = useState(null)
   const [saving, setSaving] = useState(false)
   const [nameError, setNameError] = useState('')
@@ -40,8 +53,12 @@ const ClassManager = ({ autoOpenCreate = false, onCreateClose }) => {
     setNameError('')
     setSaving(true)
     try {
-      const created = await addClass({ name: newClass.name.trim(), grade: newClass.grade, subject: '数学' })
-      setNewClass({ name: '', grade: newClass.grade })
+      const created = await addClass({
+        name: newClass.name.trim(),
+        grade: newClass.grade || gradeOptions[0],
+        subject: newClass.subject || defaultSubject(stage, user?.subject),
+      })
+      setNewClass({ name: '', grade: newClass.grade, subject: newClass.subject })
       setShowAdd(false)
       addToast('班级已创建，下一步导入学生名单', 'success')
       navigate(`/class/${created.id}/members`)
@@ -59,7 +76,11 @@ const ClassManager = ({ autoOpenCreate = false, onCreateClose }) => {
     }
     setSaving(true)
     try {
-      await updateClass(editingId, { name: editForm.name.trim(), grade: editForm.grade, subject: '数学' })
+      await updateClass(editingId, {
+        name: editForm.name.trim(),
+        grade: editForm.grade,
+        subject: editForm.subject || defaultSubject(stage, user?.subject),
+      })
       setEditingId(null)
       addToast('班级信息已更新', 'success')
     } catch (err) {
@@ -97,7 +118,7 @@ const ClassManager = ({ autoOpenCreate = false, onCreateClose }) => {
 
       {showAdd && (
         <div className="mb-4 p-4 border border-blue-200 rounded-xl bg-blue-50">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-3">
             <div>
               <label className="block text-xs font-medium text-gray-600 mb-1" htmlFor="new-class-name">班级名称</label>
               <input
@@ -106,7 +127,7 @@ const ClassManager = ({ autoOpenCreate = false, onCreateClose }) => {
                 value={newClass.name}
                 onChange={(e) => { setNewClass(prev => ({ ...prev, name: e.target.value })); setNameError('') }}
                 onKeyDown={(e) => { if (e.key === 'Enter') handleAdd() }}
-                placeholder="例如：高一5班"
+                placeholder={classNameExample(stage)}
                 className={inputClass}
                 autoFocus
               />
@@ -114,13 +135,34 @@ const ClassManager = ({ autoOpenCreate = false, onCreateClose }) => {
             </div>
             <div>
               <label className="block text-xs font-medium text-gray-600 mb-1" htmlFor="new-class-grade">年级</label>
+              {stage === '大学' ? (
+                <input
+                  id="new-class-grade"
+                  value={newClass.grade}
+                  onChange={(e) => setNewClass(prev => ({ ...prev, grade: e.target.value }))}
+                  placeholder="例如：本科"
+                  className={inputClass}
+                />
+              ) : (
+                <select
+                  id="new-class-grade"
+                  value={newClass.grade}
+                  onChange={(e) => setNewClass(prev => ({ ...prev, grade: e.target.value }))}
+                  className={inputClass}
+                >
+                  {withCurrent(gradeOptions, newClass.grade).map(g => <option key={g} value={g}>{g}</option>)}
+                </select>
+              )}
+            </div>
+            <div>
+              <label className="block text-xs font-medium text-gray-600 mb-1" htmlFor="new-class-subject">学科</label>
               <select
-                id="new-class-grade"
-                value={newClass.grade}
-                onChange={(e) => setNewClass(prev => ({ ...prev, grade: e.target.value }))}
+                id="new-class-subject"
+                value={newClass.subject}
+                onChange={(e) => setNewClass(prev => ({ ...prev, subject: e.target.value }))}
                 className={inputClass}
               >
-                {GRADES.map(g => <option key={g} value={g}>{g}</option>)}
+                {withCurrent(subjectOptions, newClass.subject).map(item => <option key={item} value={item}>{item}</option>)}
               </select>
             </div>
           </div>
@@ -159,13 +201,30 @@ const ClassManager = ({ autoOpenCreate = false, onCreateClose }) => {
                   placeholder="班级名称"
                   aria-label="班级名称"
                 />
+                {stage === '大学' ? (
+                  <input
+                    value={editForm.grade}
+                    onChange={(e) => setEditForm(prev => ({ ...prev, grade: e.target.value }))}
+                    className="px-2 py-1.5 border border-gray-300 rounded-lg text-sm"
+                    aria-label="年级"
+                  />
+                ) : (
+                  <select
+                    value={editForm.grade}
+                    onChange={(e) => setEditForm(prev => ({ ...prev, grade: e.target.value }))}
+                    className="px-2 py-1.5 border border-gray-300 rounded-lg text-sm"
+                    aria-label="年级"
+                  >
+                    {withCurrent(gradeOptions, editForm.grade).map(g => <option key={g} value={g}>{g}</option>)}
+                  </select>
+                )}
                 <select
-                  value={editForm.grade}
-                  onChange={(e) => setEditForm(prev => ({ ...prev, grade: e.target.value }))}
+                  value={editForm.subject}
+                  onChange={(e) => setEditForm(prev => ({ ...prev, subject: e.target.value }))}
                   className="px-2 py-1.5 border border-gray-300 rounded-lg text-sm"
-                  aria-label="年级"
+                  aria-label="学科"
                 >
-                  {GRADES.map(g => <option key={g} value={g}>{g}</option>)}
+                  {withCurrent(subjectOptions, editForm.subject).map(item => <option key={item} value={item}>{item}</option>)}
                 </select>
                 <button onClick={handleSaveEdit} disabled={saving} className="px-3 py-1.5 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700">保存</button>
                 <button onClick={() => setEditingId(null)} className="p-1.5 text-gray-400 hover:text-gray-600 rounded-lg hover:bg-gray-100" aria-label="取消编辑">
@@ -181,13 +240,13 @@ const ClassManager = ({ autoOpenCreate = false, onCreateClose }) => {
                   <div className="min-w-0">
                     <p className="text-sm font-medium text-gray-900 truncate">{cls.name}</p>
                     <p className="text-xs text-gray-500 flex items-center">
-                      <Users className="h-3 w-3 mr-1" />{cls.students} 名学生 · {cls.grade}
+                      <Users className="h-3 w-3 mr-1" />{cls.students} 名学生 · {cls.grade}{cls.subject ? ` · ${cls.subject}` : ''}
                     </p>
                   </div>
                 </button>
                 <div className="flex items-center space-x-1 flex-shrink-0">
                   <button
-                    onClick={() => { setEditingId(cls.id); setEditForm({ name: cls.name, grade: cls.grade || '高一' }) }}
+                    onClick={() => { setEditingId(cls.id); setEditForm({ name: cls.name, grade: cls.grade || gradeOptions[0] || '', subject: cls.subject || defaultSubject(stage, user?.subject) }) }}
                     className="px-3 py-1.5 text-sm text-gray-600 hover:bg-gray-100 rounded-lg flex items-center space-x-1"
                   >
                     <Edit className="h-3.5 w-3.5" />

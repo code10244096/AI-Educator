@@ -33,6 +33,8 @@ import ConfirmDialog from '../components/ConfirmDialog'
 import { useToast } from '../components/Toast'
 import { useClass } from '../context/ClassContext'
 import { classAPI, classHomeworkAPI, getErrorMessage } from '../utils/api'
+import { useAuth } from '../context/AuthContext'
+import { topicExamples } from '../utils/topicExamples'
 
 const inputCls = 'w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
 
@@ -54,6 +56,8 @@ const Modal = ({ title, onClose, children, footer, wide = false }) => (
 
 const HomeworkFormModal = ({ classId, homework, onClose, onSaved }) => {
   const { addToast } = useToast()
+  const { user } = useAuth()
+  const titleExample = topicExamples(user?.education_stage, user?.subject)[0] || '本课练习'
   // 用本地时区格式化（toISOString 是 UTC，清晨会差一天）
   const fmtDate = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
   const today = fmtDate(new Date())
@@ -105,7 +109,7 @@ const HomeworkFormModal = ({ classId, homework, onClose, onSaved }) => {
     >
       <div>
         <label className="block text-xs font-medium text-gray-600 mb-1">作业标题 *</label>
-        <input autoFocus={!homework} className={inputCls} value={form.title} onChange={e => setForm(f => ({ ...f, title: e.target.value }))} placeholder="例如：导数综合练习" />
+        <input autoFocus={!homework} className={inputCls} value={form.title} onChange={e => setForm(f => ({ ...f, title: e.target.value }))} placeholder={`例如：${titleExample}`} />
       </div>
       <div className="grid grid-cols-2 gap-4">
         <div>

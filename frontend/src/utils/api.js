@@ -28,7 +28,7 @@ api.interceptors.response.use(
     const method = (error?.config?.method || 'get').toLowerCase()
     // 只有登录、退出和启动时的 GET /auth/me 自己处理 401；PUT /auth/me（保存资料）失效时同样跳登录页
     const isAuthCall = url.startsWith('/auth/login') || url.startsWith('/auth/logout') ||
-      url.startsWith('/auth/enter') ||
+      url.startsWith('/auth/enter') || url.startsWith('/auth/phone-code') ||
       (url.startsWith('/auth/me') && method === 'get')
     if (status === 401 && !isAuthCall) {
       authHandlers.onUnauthorized?.(MSG_SESSION_EXPIRED)
@@ -46,9 +46,9 @@ export const authAPI = {
     return response.data
   },
 
-  // 公测：没有会话时由服务端发放体验账号；未开启公测时返回 401
-  enter: async () => {
-    const response = await api.post('/auth/enter')
+  // 公测：用手机号领取注册码。已有密码的账号不会被覆盖。
+  phoneCode: async (phone) => {
+    const response = await api.post('/auth/phone-code', { phone })
     return response.data
   },
 
@@ -78,7 +78,7 @@ export const authAPI = {
 
 // 作业批改 API
 export const homeworkAPI = {
-  upload: async (files, referenceAnswer, subject = '数学', onProgress = null) => {
+  upload: async (files, referenceAnswer, subject = '', onProgress = null) => {
     const formData = new FormData()
     files.forEach(file => {
       formData.append('files', file)
@@ -110,7 +110,7 @@ export const homeworkAPI = {
   uploadWithContext: async (files, options = {}) => {
     const {
       referenceAnswer,
-      subject = '数学',
+      subject = '',
       assignmentId,
       submissionId,
       studentName,
@@ -184,7 +184,7 @@ export const getErrorMessage = (error, fallback = '操作失败，请重试') =>
 
 // 错题本 API
 export const notebookAPI = {
-  upload: async (file, knowledgePoint, subject = '数学') => {
+  upload: async (file, knowledgePoint, subject = '') => {
     const formData = new FormData()
     formData.append('file', file)
     formData.append('knowledge_point', knowledgePoint)
@@ -440,6 +440,57 @@ export const questionBankAPI = {
 
 // 模型用量统计 API
 export const usageAPI = {
+  getAccounts: async (params = {}) => {
+    const response = await api.get('/usage/accounts', { params })
+    return response.data
+  },
+
+  dailyQuota: async () => {
+    const response = await api.get('/usage/daily')
+    return response.data
+  },
+
+  listRecords: async () => {
+    const response = await api.get('/usage/records')
+    return response.data
+  },
+
+  recordDays: async () => {
+    const response = await api.get('/usage/records/days')
+    return response.data
+  },
+
+  downloadDays: async (days) => {
+    const response = await api.get('/usage/records/download', {
+      params: { days: days.join(',') },
+      responseType: 'blob',
+    })
+    return response.data
+  },
+
+  listAccountRecords: async (username) => {
+    const response = await api.get(`/usage/records/${encodeURIComponent(username)}`)
+    return response.data
+  },
+
+  getRecord: async (username, kind, name) => {
+    const response = await api.get(`/usage/records/${encodeURIComponent(username)}/${kind}/${encodeURIComponent(name)}`)
+    return response.data
+  },
+
+  downloadAccount: async (username) => {
+    const response = await api.get(`/usage/records/${encodeURIComponent(username)}/archive`, { responseType: 'blob' })
+    return response.data
+  },
+
+  downloadRecord: async (username, kind, name, format) => {
+    const response = await api.get(
+      `/usage/records/${encodeURIComponent(username)}/${kind}/${encodeURIComponent(name)}/file`,
+      { params: format ? { format } : undefined, responseType: 'blob' },
+    )
+    return response.data
+  },
+
   getSummary: async (params = {}) => {
     const response = await api.get('/usage/summary', { params })
     return response.data

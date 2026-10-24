@@ -4,6 +4,8 @@ import {
   FileDown, FileText, Download, History, Trash2, Edit, Save, X, Loader2, Search, RefreshCw,
 } from 'lucide-react'
 import { lessonPlanAPI, getErrorMessage } from '../utils/api'
+import { useAuth } from '../context/AuthContext'
+import { topicExamples } from '../utils/topicExamples'
 import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
@@ -54,6 +56,8 @@ const STATUS_BADGE = {
 }
 
 const LessonPlanGenerator = () => {
+  const { user } = useAuth()
+  const examples = topicExamples(user?.education_stage, user?.subject)
   const [searchParams, setSearchParams] = useSearchParams()
   const [formData, setFormData] = useState({
     title: '',
@@ -373,8 +377,21 @@ const LessonPlanGenerator = () => {
               value={formData.title}
               onChange={(e) => setFormData(prev => ({ ...prev, title: e.target.value }))}
               className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-              placeholder="例如：导数的几何意义"
+              placeholder={`例如：${examples[0]}`}
             />
+            <div className="mt-2 flex flex-wrap items-center gap-2">
+              <span className="text-xs text-gray-400">试试这些课题</span>
+              {examples.map((item) => (
+                <button
+                  key={item}
+                  type="button"
+                  onClick={() => setFormData(prev => ({ ...prev, title: item }))}
+                  className="rounded-full border border-purple-200 bg-purple-50 px-2.5 py-1 text-xs text-purple-700 hover:bg-purple-100"
+                >
+                  {item}
+                </button>
+              ))}
+            </div>
           </div>
 
           <div className="grid grid-cols-2 gap-4">

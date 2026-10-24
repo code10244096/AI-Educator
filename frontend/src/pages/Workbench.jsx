@@ -7,7 +7,7 @@ import {
 import { useAuth } from '../context/AuthContext'
 import { useClass } from '../context/ClassContext'
 import { useTask } from '../context/TaskContext'
-import { dashboardAPI } from '../utils/api'
+import { dashboardAPI, usageAPI } from '../utils/api'
 import useAsync from '../hooks/useAsync'
 import { Loading, ErrorState, Empty } from '../components/PageState'
 import FeedbackDialog from '../components/FeedbackDialog'
@@ -27,11 +27,74 @@ const greeting = () => {
 const teacherTitle = (user) => {
   const name = (user?.display_name || '').trim()
   if (!name) return '老师'
-  if (name.endsWith('老师')) return name
+  if (name.includes('老师')) return name
   return name.length <= 3 ? `${name.slice(0, 1)}老师` : `${name}老师`
 }
 
 const homeworkPath = (t, filter) => `/class/${t.class_id}/homework/${t.assignment_id}${filter ? `?filter=${filter}` : ''}`
+
+const fmtTokens = (value) => {
+  const n = Number(value || 0)
+  if (n >= 10000) return `${(n / 1000).toFixed(1)}K`
+  return n.toLocaleString('zh-CN')
+}
+
+const AdminHistory = () => {
+  const navigate = useNavigate()
+  const [overview, setOverview] = useState(null)
+  const [calls, setCalls] = useState([])
+  const [error, setError] = useState('')
+
+  useEffect(() => {
+    let cancelled = false
+    Promise.all([usageAPI.getSummary(), usageAPI.getCalls({ limit: 20 })])
+      .then(([summary, list]) => {
+        if (cancelled) return
+        setOverview(summary?.overview || {})
+        setCalls(list?.items || [])
+      })
+      .catch((err) => {
+        if (!cancelled) setError(err?.response?.data?.detail || err?.message || '历史用量加载失败')
+      })
+    return () => { cancelled = true }
+  }, [])
+
+  return (
+    <section className="rounded-xl border border-gray-200 bg-white" aria-label="历史用量">
+      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-gray-100 px-4 py-3">
+        <div>
+          <h2 className="text-base font-semibold text-gray-900">历史用量</h2>
+          <p className="mt-0.5 text-sm text-gray-500">
+            {overview
+              ? `全部 ${Number(overview.calls || 0).toLocaleString('zh-CN')} 次调用，${fmtTokens(overview.total_tokens)} tokens`
+              : '正在读取全部历史调用'}
+          </p>
+        </div>
+        <button type="button" onClick={() => navigate('/usage')} className="text-sm text-blue-600 hover:underline">
+          查看每一次调用
+        </button>
+      </div>
+      {error && <p className="px-4 py-3 text-sm text-red-600">{error}</p>}
+      {!error && calls.length === 0 && <p className="px-4 py-3 text-sm text-gray-400">还没有读到调用记录</p>}
+      {calls.length > 0 && (
+        <ul className="divide-y divide-gray-50">
+          {calls.slice(0, 8).map((call) => (
+            <li key={call.call_id} className="flex items-center justify-between gap-3 px-4 py-2 text-sm">
+              <span className="min-w-0 truncate text-gray-700">
+                {call.teacher_id == null ? '未记到老师名下' : '账号已删除'}
+                <span className="mx-2 text-gray-300">·</span>
+                {call.feature || '未标注'}
+                <span className="mx-2 text-gray-300">·</span>
+                <span className="font-mono text-xs text-gray-400">{call.task_id || '-'}</span>
+              </span>
+              <span className="shrink-0 text-gray-900">{fmtTokens(call.usage?.total_tokens)} tokens</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+  )
+}
 
 const formatEta = (seconds) => {
   if (!seconds || seconds <= 0) return ''
@@ -242,7 +305,7 @@ const CARDS = [
 
 const Workbench = () => {
   const navigate = useNavigate()
-  const { user } = useAuth()
+  const { user, isAdmin } = useAuth()
   const { classes } = useClass()
   const { runningCount } = useTask()
   const { data, loading, error, reload } = useAsync(() => dashboardAPI.get(), [])
@@ -289,10 +352,19 @@ const Workbench = () => {
     }
   }
 
+  const subjectLabel = [user?.education_stage, user?.subject].filter(Boolean).join(' · ')
+
   const header = (
     <div className="flex flex-wrap items-center justify-between gap-3">
       <div className="min-w-0">
-        <h1 className="text-xl font-semibold text-gray-900">{teacherTitle(user)}，{greeting()}</h1>
+        <h1 className="flex flex-wrap items-center gap-2 text-xl font-semibold text-gray-900">
+          <span>{teacherTitle(user)}，{greeting()}</span>
+          {subjectLabel && (
+            <span className="inline-flex items-center rounded-full bg-blue-50 px-2.5 py-0.5 text-sm font-medium text-blue-700">
+              {subjectLabel}
+            </span>
+          )}
+        </h1>
         <p className="mt-0.5 text-sm text-gray-500">
           {new Date().toLocaleDateString('zh-CN', { month: 'long', day: 'numeric', weekday: 'long' })}
         </p>
@@ -369,6 +441,8 @@ const Workbench = () => {
     <div className="mx-auto max-w-6xl space-y-6 p-4 sm:p-6" data-testid="workbench">
       {header}
       {feedbackFab}
+
+      {isAdmin && <AdminHistory />}
 
       {showGuide && <GuideSteps data={data} navigate={navigate} />}
 
