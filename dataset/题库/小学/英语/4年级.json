@@ -1,0 +1,2858 @@
+[
+  {
+    "question_text": "哪个单词的意思是「朋友」？\nA. friend\nB. strong\nC. quiet\nD. friendly",
+    "answer": "A. friend",
+    "solution": "friend 的意思是朋友。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "描述朋友",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p067_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「strong」的中文意思是哪一个？\nA. 朋友\nB. 强壮的\nC. 安静的\nD. 友好的",
+    "answer": "B. 强壮的",
+    "solution": "strong 的意思是强壮的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "描述朋友",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p067_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「安静的」的单词。\nA. friend\nB. strong\nC. quiet\nD. friendly",
+    "answer": "C. quiet",
+    "solution": "表示安静的的单词是 quiet。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "描述朋友",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p067_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「友好的」？\nA. friend\nB. strong\nC. quiet\nD. friendly",
+    "answer": "D. friendly",
+    "solution": "friendly 的意思是友好的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "描述朋友",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p067_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "He ____ a new pen. 横线上应填哪个词？\nA. have\nB. has\nC. is\nD. are",
+    "answer": "B. has",
+    "solution": "He 后面用 has。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "He has 与 I have",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p068_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. She have a bag.\nB. She has are a bag.\nC. She has a bag.\nD. She having a bag.",
+    "answer": "C. She has a bag.",
+    "solution": "She 后面用 has。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "He has 与 I have",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p068_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I ____ a ruler. 横线上应填哪个词？\nA. has\nB. am\nC. is\nD. have",
+    "answer": "D. have",
+    "solution": "I 后面用 have。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "He has 与 I have",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p068_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "He has glasses. 这句的意思是？\nA. 他有眼镜\nB. 他没有眼镜\nC. 他是眼镜\nD. 眼镜有他",
+    "answer": "A. 他有眼镜",
+    "solution": "has glasses 是有眼镜。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "He has 与 I have",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p068_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "介绍一个强壮的朋友，应说哪一句？\nA. He is quiet.\nB. He is friendly.\nC. He is strong.\nD. He is tall.",
+    "answer": "C. He is strong.",
+    "solution": "强壮是 strong。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "介绍朋友",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p069_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "She is friendly. 她怎么样？\nA. 很安静\nB. 很强壮\nC. 很矮\nD. 很友好",
+    "answer": "D. 很友好",
+    "solution": "friendly 是友好的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "介绍朋友",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p069_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "What is his name? 这句是在问什么？\nA. 他叫什么名字\nB. 他在哪里\nC. 他有什么\nD. 他来自哪里",
+    "answer": "A. 他叫什么名字",
+    "solution": "What is his name 问名字。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "介绍朋友",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p069_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "My friend is quiet. 哪一句和这句话意思相同？\nA. 我的朋友很强壮。\nB. 我的朋友很安静。\nC. 我的朋友很友好。\nD. 我的朋友很高。",
+    "answer": "B. 我的朋友很安静。",
+    "solution": "quiet 是安静的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "介绍朋友",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p069_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：I have a friend. He is strong. His name is John. 朋友叫什么？\nA. Mike\nB. Amy\nC. Sarah\nD. John",
+    "answer": "D. John",
+    "solution": "His name is John。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂朋友介绍",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p070_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：She is quiet and friendly. 哪一句和短文一致？\nA. 她安静而且友好。\nB. 她强壮而且高。\nC. 她不友好。\nD. 他很安静。",
+    "answer": "A. 她安静而且友好。",
+    "solution": "quiet and friendly，主语是 She。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂朋友介绍",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p070_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：He has a blue bag. 他有什么？\nA. 一个红色的包\nB. 一个蓝色的包\nC. 一副眼镜\nD. 一把尺子",
+    "answer": "B. 一个蓝色的包",
+    "solution": "a blue bag。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂朋友介绍",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p070_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：My friend is Amy. She has long hair. 谁留着长头发？\nA. John\nB. Mike\nC. Amy\nD. Chen Jie",
+    "answer": "C. Amy",
+    "solution": "Amy 是朋友，She has long hair。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂朋友介绍",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p070_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「卧室」？\nA. kitchen\nB. bedroom\nC. bathroom\nD. study",
+    "answer": "B. bedroom",
+    "solution": "bedroom 的意思是卧室。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家里的房间",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p072_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「kitchen」的中文意思是哪一个？\nA. 卧室\nB. 卫生间\nC. 厨房\nD. 书房",
+    "answer": "C. 厨房",
+    "solution": "kitchen 的意思是厨房。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家里的房间",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p072_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「卫生间」的单词。\nA. bedroom\nB. kitchen\nC. study\nD. bathroom",
+    "answer": "D. bathroom",
+    "solution": "表示卫生间的单词是 bathroom。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家里的房间",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p072_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「书房」？\nA. study\nB. bedroom\nC. kitchen\nD. bathroom",
+    "answer": "A. study",
+    "solution": "study 的意思是书房。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家里的房间",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p072_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "She ____ in the kitchen. 横线上应填哪个词？\nA. am\nB. are\nC. is\nD. be",
+    "answer": "C. is",
+    "solution": "She 和 is 搭配。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "is 和 are 说明人在哪里",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p073_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句表示「他在书房」？\nA. He are in the study.\nB. He am in the study.\nC. He be in the study.\nD. He is in the study.",
+    "answer": "D. He is in the study.",
+    "solution": "He 后面用 is。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "is 和 are 说明人在哪里",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p073_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Where is she? 这句是在问什么？\nA. 她在哪里\nB. 她是谁\nC. 她喜欢什么\nD. 她有什么",
+    "answer": "A. 她在哪里",
+    "solution": "Where is she 问地点。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "is 和 are 说明人在哪里",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p073_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "They ____ in the bedroom. 横线上应填哪个词？\nA. is\nB. are\nC. am\nD. be",
+    "answer": "B. are",
+    "solution": "They 和 are 搭配。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "is 和 are 说明人在哪里",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p073_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想问妈妈在哪里，应说哪一句？\nA. Who is my mother?\nB. What is my mother?\nC. How is my mother?\nD. Where is my mother?",
+    "answer": "D. Where is my mother?",
+    "solution": "问位置用 Where is。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "询问家人在哪个房间",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p074_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "She is in the kitchen. 她在哪里？\nA. 厨房\nB. 卧室\nC. 卫生间\nD. 书房",
+    "answer": "A. 厨房",
+    "solution": "kitchen 是厨房。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "询问家人在哪个房间",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p074_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Go to the bathroom. 这句是让人去哪里？\nA. 书房\nB. 卫生间\nC. 厨房\nD. 卧室",
+    "answer": "B. 卫生间",
+    "solution": "bathroom 是卫生间。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "询问家人在哪个房间",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p074_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Is she in the study? 这句是在问什么？\nA. 她在厨房吗\nB. 书房是谁的\nC. 她在书房吗\nD. 书房有多大",
+    "answer": "C. 她在书房吗",
+    "solution": "study 是书房。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "询问家人在哪个房间",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p074_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：My father is in the study. My mother is in the kitchen. 爸爸在哪里？\nA. 书房\nB. 厨房\nC. 卧室\nD. 卫生间",
+    "answer": "A. 书房",
+    "solution": "father is in the study。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂家里的位置",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p075_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：The cat is in the bedroom. 哪一句和文字一致？\nA. 猫在厨房。\nB. 猫在卧室。\nC. 猫在书房。\nD. 妈妈在卧室。",
+    "answer": "B. 猫在卧室。",
+    "solution": "bedroom 是卧室。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂家里的位置",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p075_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Where is Amy? She is in the bathroom. Amy 在哪里？\nA. 书房\nB. 厨房\nC. 卫生间\nD. 卧室",
+    "answer": "C. 卫生间",
+    "solution": "bathroom 是卫生间。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂家里的位置",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p075_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：They are in the living room. 这句说他们在客厅。哪一个词是「他们」？\nA. She\nB. He\nC. It\nD. They",
+    "answer": "D. They",
+    "solution": "They 表示他们。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂家里的位置",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p075_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「医生」？\nA. nurse\nB. doctor\nC. driver\nD. farmer",
+    "answer": "B. doctor",
+    "solution": "doctor 的意思是医生。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "职业",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p080_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「nurse」的中文意思是哪一个？\nA. 医生\nB. 司机\nC. 护士\nD. 农民",
+    "answer": "C. 护士",
+    "solution": "nurse 的意思是护士。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "职业",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p080_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「司机」的单词。\nA. doctor\nB. nurse\nC. farmer\nD. driver",
+    "answer": "D. driver",
+    "solution": "表示司机的单词是 driver。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "职业",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p080_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「农民」？\nA. farmer\nB. doctor\nC. nurse\nD. driver",
+    "answer": "A. farmer",
+    "solution": "farmer 的意思是农民。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "职业",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p080_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "问「他的职业是什么」，应选哪一句？\nA. What is he job?\nB. Where is his job?\nC. What is his job?\nD. Who is his job?",
+    "answer": "C. What is his job?",
+    "solution": "询问职业说 What is his job?",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "询问职业与 his、her",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p081_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "He is a doctor. 他的职业是？\nA. 护士\nB. 司机\nC. 农民\nD. 医生",
+    "answer": "D. 医生",
+    "solution": "doctor 是医生。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "询问职业与 his、her",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p081_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "My father is a driver. 爸爸的职业是？\nA. 司机\nB. 医生\nC. 护士\nD. 农民",
+    "answer": "A. 司机",
+    "solution": "driver 是司机。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "询问职业与 his、her",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p081_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句表示「她的妈妈是护士」？\nA. His mother is a nurse.\nB. Her mother is a nurse.\nC. Her mother is a doctor.\nD. His father is a nurse.",
+    "answer": "B. Her mother is a nurse.",
+    "solution": "她的用 Her，护士是 nurse。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "询问职业与 his、her",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p081_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说叔叔是农民，应说哪一句？\nA. My uncle is a doctor.\nB. My uncle is a nurse.\nC. My uncle is a driver.\nD. My uncle is a farmer.",
+    "answer": "D. My uncle is a farmer.",
+    "solution": "农民是 farmer。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "介绍家人的职业",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p082_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Is this your baby brother? 这句是在问什么？\nA. 这是你的小弟弟吗\nB. 这是你的爸爸吗\nC. 这是你的叔叔吗\nD. 这是你的阿姨吗",
+    "answer": "A. 这是你的小弟弟吗",
+    "solution": "baby brother 是小弟弟。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "介绍家人的职业",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p082_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "She is a nurse. 哪一句和这句话意思相同？\nA. 她是医生。\nB. 她是护士。\nC. 他是护士。\nD. 她是司机。",
+    "answer": "B. 她是护士。",
+    "solution": "She 是她，nurse 是护士。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "介绍家人的职业",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p082_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "What is your aunt's job? 这句是在问什么？\nA. 你爸爸做什么工作\nB. 你妈妈在哪里\nC. 你姑姑或阿姨做什么工作\nD. 你几岁了",
+    "answer": "C. 你姑姑或阿姨做什么工作",
+    "solution": "aunt 是姑姑或阿姨，job 是职业。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "介绍家人的职业",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p082_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：This is my father. He is a doctor. 爸爸的职业是？\nA. 医生\nB. 护士\nC. 司机\nD. 农民",
+    "answer": "A. 医生",
+    "solution": "He is a doctor。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂家人职业",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p083_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：My mother is a nurse. My uncle is a driver. 谁是司机？\nA. 妈妈\nB. 叔叔\nC. 爸爸\nD. 阿姨",
+    "answer": "B. 叔叔",
+    "solution": "uncle is a driver。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂家人职业",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p083_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：She is a farmer. 哪一句和文字一致？\nA. 他是农民。\nB. 她是医生。\nC. 她是农民。\nD. 她是护士。",
+    "answer": "C. 她是农民。",
+    "solution": "She 是她，farmer 是农民。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂家人职业",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p083_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：His father is a doctor. Her mother is a teacher. 谁的爸爸是医生？\nA. 她的爸爸\nB. 他的妈妈\nC. 她的妈妈\nD. 他的爸爸",
+    "answer": "D. 他的爸爸",
+    "solution": "His father 是他的爸爸。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂家人职业",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p083_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「学校」？\nA. playground\nB. school\nC. library\nD. computer",
+    "answer": "B. school",
+    "solution": "school 的意思是学校。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "学校场所",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p084_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「playground」的中文意思是哪一个？\nA. 学校\nB. 图书馆\nC. 操场\nD. 计算机",
+    "answer": "C. 操场",
+    "solution": "playground 的意思是操场。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "学校场所",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p084_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「图书馆」的单词。\nA. school\nB. playground\nC. computer\nD. library",
+    "answer": "D. library",
+    "solution": "表示图书馆的单词是 library。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "学校场所",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p084_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「计算机」？\nA. computer\nB. school\nC. playground\nD. library",
+    "answer": "A. computer",
+    "solution": "computer 的意思是计算机。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "学校场所",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p084_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The library is on the second floor. 图书馆在第几层？",
+    "answer": "2",
+    "solution": "second 是第二，所以是第 2 层。",
+    "question_type": "填空题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "楼层与 first、second",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p085_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "first floor 是第几层？\nA. 第 2 层\nB. 第 3 层\nC. 第 4 层\nD. 第 1 层",
+    "answer": "D. 第 1 层",
+    "solution": "first 是第一。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "楼层与 first、second",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p085_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想问「教师办公室在哪里」，应选哪一句？\nA. Where is the teachers' office?\nB. What is the teachers' office?\nC. Who is the teachers' office?\nD. How is the teachers' office?",
+    "answer": "A. Where is the teachers' office?",
+    "solution": "问地点用 Where is。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "楼层与 first、second",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p085_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "It is on the first floor. 这句是在说什么？\nA. 在第二层\nB. 在第一层\nC. 在操场上\nD. 在图书馆里",
+    "answer": "B. 在第一层",
+    "solution": "first floor 是第一层。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "楼层与 first、second",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p085_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想问图书馆在哪里，应说哪一句？\nA. Where is the playground?\nB. Where is the classroom?\nC. Do you have a library?\nD. Where is the library?",
+    "answer": "D. Where is the library?",
+    "solution": "图书馆是 library。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "问路：学校里的场所",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p086_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The playground is on the first floor. 操场在第几层？\nA. 第 1 层\nB. 第 2 层\nC. 第 3 层\nD. 第 4 层",
+    "answer": "A. 第 1 层",
+    "solution": "first floor 是第一层。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "问路：学校里的场所",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p086_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Do you have a computer room? 这句是在问什么？\nA. 计算机教室在哪里\nB. 你们有计算机教室吗\nC. 你喜欢计算机吗\nD. 计算机是谁的",
+    "answer": "B. 你们有计算机教室吗",
+    "solution": "Do you have 问有没有。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "问路：学校里的场所",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p086_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "This is my school. 哪一句和这句话意思相同？\nA. 这是我的教室。\nB. 这是图书馆。\nC. 这是我的学校。\nD. 这是操场。",
+    "answer": "C. 这是我的学校。",
+    "solution": "school 是学校。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "问路：学校里的场所",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p086_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：The library is on the second floor. 图书馆在第几层？\nA. 第 2 层\nB. 第 1 层\nC. 第 3 层\nD. 第 4 层",
+    "answer": "A. 第 2 层",
+    "solution": "second floor 是第二层。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂学校平面说明",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p087_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：We have a big playground. 哪一句和短文一致？\nA. 我们没有操场。\nB. 我们有一个大操场。\nC. 图书馆很大。\nD. 操场在第二层。",
+    "answer": "B. 我们有一个大操场。",
+    "solution": "a big playground。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂学校平面说明",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p087_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：The computer room is next to the library. 计算机教室在哪里？\nA. 在操场上\nB. 在教室里\nC. 在图书馆旁边\nD. 在第一层的门后",
+    "answer": "C. 在图书馆旁边",
+    "solution": "next to the library 是在图书馆旁边。文字没有写楼层。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂学校平面说明",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p087_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Classroom 2 is on the first floor. 二班教室在第几层？\nA. 第 2 层\nB. 第 3 层\nC. 第 4 层\nD. 第 1 层",
+    "answer": "D. 第 1 层",
+    "solution": "on the first floor；2 是教室编号，不是楼层。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂学校平面说明",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p087_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「早餐」？\nA. lunch\nB. breakfast\nC. dinner\nD. music",
+    "answer": "B. breakfast",
+    "solution": "breakfast 的意思是早餐。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "一天中的活动",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p088_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「lunch」的中文意思是哪一个？\nA. 早餐\nB. 晚餐\nC. 午餐\nD. 音乐",
+    "answer": "C. 午餐",
+    "solution": "lunch 的意思是午餐。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "一天中的活动",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p088_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「晚餐」的单词。\nA. breakfast\nB. lunch\nC. music\nD. dinner",
+    "answer": "D. dinner",
+    "solution": "表示晚餐的单词是 dinner。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "一天中的活动",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p088_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「音乐」？\nA. music\nB. breakfast\nC. lunch\nD. dinner",
+    "answer": "A. music",
+    "solution": "music 的意思是音乐。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "一天中的活动",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p088_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想问「现在几点」，应选哪一句？\nA. What time it is?\nB. How many time is it?\nC. What time is it?\nD. Where is the time?",
+    "answer": "C. What time is it?",
+    "solution": "问时刻说 What time is it?",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "What time is it",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p089_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "It is 6 o'clock. 现在几点？\nA. 5 点\nB. 7 点\nC. 9 点\nD. 6 点",
+    "answer": "D. 6 点",
+    "solution": "6 o'clock 是 6 点。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "What time is it",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p089_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "It is time for lunch. 该做什么了？\nA. 吃午饭\nB. 吃早饭\nC. 吃晚饭\nD. 上音乐课",
+    "answer": "A. 吃午饭",
+    "solution": "lunch 是午饭。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "What time is it",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p089_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "It is 7 o'clock. It is time for breakfast. 该吃哪一餐？\nA. 午饭\nB. 早饭\nC. 晚饭\nD. 下午茶",
+    "answer": "B. 早饭",
+    "solution": "breakfast 是早饭。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "What time is it",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p089_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "现在 9 点，该上音乐课了，应说哪一句？\nA. It is 9 o'clock. It is time for lunch.\nB. It is 6 o'clock. It is time for breakfast.\nC. It is 12 o'clock. It is time for dinner.\nD. It is 9 o'clock. It is time for music.",
+    "answer": "D. It is 9 o'clock. It is time for music.",
+    "solution": "音乐是 music，时刻要和 9 点一致。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说时刻和该做的事",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p090_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "What time is it? 若是 12 点，应回答哪一句？\nA. It is 12 o'clock.\nB. It is 10 o'clock.\nC. It is 2 o'clock.\nD. It is 8 o'clock.",
+    "answer": "A. It is 12 o'clock.",
+    "solution": "12 点说 It is 12 o'clock。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说时刻和该做的事",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p090_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "It is time for English. 该上什么课？\nA. 音乐\nB. 英语\nC. 数学\nD. 体育",
+    "answer": "B. 英语",
+    "solution": "English 是英语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说时刻和该做的事",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p090_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Hurry up! It is time for school. 这句是在催什么？\nA. 该吃晚饭了\nB. 该睡觉了\nC. 该去上学了\nD. 该回家了",
+    "answer": "C. 该去上学了",
+    "solution": "time for school 是该上学了。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说时刻和该做的事",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p090_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：It is 7 o'clock. It is time for breakfast. 7 点该做什么？\nA. 吃早饭\nB. 吃午饭\nC. 吃晚饭\nD. 上音乐课",
+    "answer": "A. 吃早饭",
+    "solution": "breakfast 是早饭。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂作息时刻",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p091_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：It is 12 o'clock. Have some lunch. 几点吃午饭？\nA. 7 点\nB. 12 点\nC. 6 点\nD. 9 点",
+    "answer": "B. 12 点",
+    "solution": "12 o'clock。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂作息时刻",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p091_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Music is at 9 o'clock. 音乐课是几点？",
+    "answer": "9",
+    "solution": "at 9 o'clock 是 9 点。",
+    "question_type": "填空题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂作息时刻",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p091_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：It is 6 o'clock. It is time for dinner. 哪一句和短文一致？\nA. 6 点该吃早饭了。\nB. 7 点该吃晚饭了。\nC. 6 点该上音乐课了。\nD. 6 点该吃晚饭了。",
+    "answer": "D. 6 点该吃晚饭了。",
+    "solution": "6 o'clock 和 dinner。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂作息时刻",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p091_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「温暖的」？\nA. cold\nB. warm\nC. cool\nD. hot",
+    "answer": "B. warm",
+    "solution": "warm 的意思是温暖的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "天气",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p092_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「cold」的中文意思是哪一个？\nA. 温暖的\nB. 凉爽的\nC. 寒冷的\nD. 炎热的",
+    "answer": "C. 寒冷的",
+    "solution": "cold 的意思是寒冷的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "天气",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p092_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「凉爽的」的单词。\nA. warm\nB. cold\nC. hot\nD. cool",
+    "answer": "D. cool",
+    "solution": "表示凉爽的的单词是 cool。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "天气",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p092_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「炎热的」？\nA. hot\nB. warm\nC. cold\nD. cool",
+    "answer": "A. hot",
+    "solution": "hot 的意思是炎热的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "天气",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p092_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想问天气，应选哪一句？\nA. What is the weather is?\nB. How the weather like?\nC. What is the weather like?\nD. Where is the weather?",
+    "answer": "C. What is the weather like?",
+    "solution": "问天气说 What is the weather like?",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "It is 描述天气",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p093_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "It is cold. 天气怎么样？\nA. 很热\nB. 很暖和\nC. 很凉爽\nD. 很冷",
+    "answer": "D. 很冷",
+    "solution": "cold 是冷。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "It is 描述天气",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p093_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "It is sunny in Beijing. 北京的天气怎么样？\nA. 晴朗\nB. 下雨\nC. 下雪\nD. 有风",
+    "answer": "A. 晴朗",
+    "solution": "sunny 是晴朗。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "It is 描述天气",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p093_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句表示「今天很热」？\nA. It is cold today.\nB. It is hot today.\nC. It is cool today.\nD. It is warm today.",
+    "answer": "B. It is hot today.",
+    "solution": "热是 hot。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "It is 描述天气",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p093_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "外面很冷，应说哪一句？\nA. It is hot outside.\nB. It is warm outside.\nC. It is cool outside.\nD. It is cold outside.",
+    "answer": "D. It is cold outside.",
+    "solution": "冷是 cold。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论天气并给建议",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p094_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "It is warm. We can fly a kite. 为什么可以放风筝？\nA. 因为天气暖和\nB. 因为很冷\nC. 因为在下雨\nD. 因为是夜晚",
+    "answer": "A. 因为天气暖和",
+    "solution": "It is warm 是天气暖和。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论天气并给建议",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p094_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Can I go outside? 这句是在问什么？\nA. 天气怎么样\nB. 我可以出去吗\nC. 现在几点\nD. 你喜欢冷天吗",
+    "answer": "B. 我可以出去吗",
+    "solution": "go outside 是出去。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论天气并给建议",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p094_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "It is hot. Have some water. 这句建议做什么？\nA. 穿上外套\nB. 放风筝\nC. 喝些水\nD. 关窗",
+    "answer": "C. 喝些水",
+    "solution": "Have some water 是喝些水。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论天气并给建议",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p094_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：It is cold and snowy in Harbin. 哈尔滨的天气怎么样？\nA. 又冷又下雪\nB. 很热\nC. 很暖和\nD. 只是有风",
+    "answer": "A. 又冷又下雪",
+    "solution": "cold and snowy。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂天气预报",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p095_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：It is sunny in Beijing. It is rainy in Shanghai. 哪里下雨？\nA. 北京\nB. 上海\nC. 哈尔滨\nD. 两个城市都下雨",
+    "answer": "B. 上海",
+    "solution": "rainy 写在 Shanghai。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂天气预报",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p095_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：It is warm today. Let's fly a kite. 哪一句和短文一致？\nA. 今天很冷。\nB. 今天在下雨。\nC. 今天暖和，建议放风筝。\nD. 不建议出去。",
+    "answer": "C. 今天暖和，建议放风筝。",
+    "solution": "warm，并且 Let's fly a kite。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂天气预报",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p095_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Here is the world weather. It is cool in London. 伦敦怎么样？\nA. 炎热\nB. 寒冷\nC. 下雪\nD. 凉爽",
+    "answer": "D. 凉爽",
+    "solution": "cool 是凉爽。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂天气预报",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p095_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「西红柿」？\nA. potato\nB. tomato\nC. horse\nD. cow",
+    "answer": "B. tomato",
+    "solution": "tomato 的意思是西红柿。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "农场",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p096_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「potato」的中文意思是哪一个？\nA. 西红柿\nB. 马\nC. 土豆\nD. 奶牛",
+    "answer": "C. 土豆",
+    "solution": "potato 的意思是土豆。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "农场",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p096_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「马」的单词。\nA. tomato\nB. potato\nC. cow\nD. horse",
+    "answer": "D. horse",
+    "solution": "表示马的单词是 horse。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "农场",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p096_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「奶牛」？\nA. cow\nB. tomato\nC. potato\nD. horse",
+    "answer": "A. cow",
+    "solution": "cow 的意思是奶牛。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "农场",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p096_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "指着近处的几只鸭子，应选哪一句？\nA. This is ducks.\nB. These is ducks.\nC. These are ducks.\nD. That are ducks.",
+    "answer": "C. These are ducks.",
+    "solution": "近处的复数用 These are。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "These are 与 Those are",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p097_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Those are horses. 这句在说什么？\nA. 近处的这一个是马\nB. 近处的这些是马\nC. 远处的那一个是马\nD. 远处的那些是马",
+    "answer": "D. 远处的那些是马",
+    "solution": "Those are 是远处的复数。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "These are 与 Those are",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p097_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "These are potatoes. 这句里的 potatoes 是？\nA. 复数\nB. 单数\nC. 一个人名\nD. 一种颜色",
+    "answer": "A. 复数",
+    "solution": "potatoes 是 potato 的复数。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "These are 与 Those are",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p097_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句说的是不止一头牛？\nA. That is a cow.\nB. These are cows.\nC. This is a cow.\nD. It is a cow.",
+    "answer": "B. These are cows.",
+    "solution": "These are cows 是复数。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "These are 与 Those are",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p097_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "指着近处的西红柿问，应说哪一句？\nA. Are these potatoes?\nB. Is this a horse?\nC. Are these cows?\nD. Are these tomatoes?",
+    "answer": "D. Are these tomatoes?",
+    "solution": "西红柿是 tomatoes。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "在农场谈论动物和蔬菜",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p098_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Are these horses? 若是，应回答哪一句？\nA. Yes, they are.\nB. Yes, it is.\nC. No, it is not.\nD. Yes, these is.",
+    "answer": "A. Yes, they are.",
+    "solution": "these 的肯定回答是 Yes, they are。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "在农场谈论动物和蔬菜",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p098_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Those are cows. 远处的是什么？\nA. 马\nB. 奶牛\nC. 土豆\nD. 西红柿",
+    "answer": "B. 奶牛",
+    "solution": "cows 是奶牛。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "在农场谈论动物和蔬菜",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p098_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The potatoes are big. 什么很大？\nA. 西红柿\nB. 马\nC. 土豆\nD. 奶牛",
+    "answer": "C. 土豆",
+    "solution": "potatoes 是土豆。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "在农场谈论动物和蔬菜",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p098_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：These are tomatoes. They are red. 近处这些是什么？\nA. 西红柿\nB. 土豆\nC. 马\nD. 奶牛",
+    "answer": "A. 西红柿",
+    "solution": "tomatoes 是西红柿。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂农场短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p099_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Those are horses. They are brown. 马是什么颜色？\nA. 红色\nB. 棕色\nC. 绿色\nD. 黄色",
+    "answer": "B. 棕色",
+    "solution": "brown 是棕色。文字没有说它们是黑色。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂农场短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p099_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：I see seventeen cows and eleven horses. 奶牛有几头？",
+    "answer": "17",
+    "solution": "seventeen cows 是 17 头。",
+    "question_type": "填空题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂农场短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p099_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：The potatoes are big. The tomatoes are small. 哪一句和短文一致？\nA. 土豆小，西红柿大。\nB. 土豆和西红柿一样大。\nC. 没有写大小。\nD. 土豆大，西红柿小。",
+    "answer": "D. 土豆大，西红柿小。",
+    "solution": "potatoes are big，tomatoes are small。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂农场短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p099_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「衬衫」？\nA. dress\nB. shirt\nC. skirt\nD. pants",
+    "answer": "B. shirt",
+    "solution": "shirt 的意思是衬衫。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "衣服",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p100_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「dress」的中文意思是哪一个？\nA. 衬衫\nB. 裙子\nC. 连衣裙\nD. 裤子",
+    "answer": "C. 连衣裙",
+    "solution": "dress 的意思是连衣裙。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "衣服",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p100_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「裙子」的单词。\nA. shirt\nB. dress\nC. pants\nD. skirt",
+    "answer": "D. skirt",
+    "solution": "表示裙子的单词是 skirt。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "衣服",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p100_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「裤子」？\nA. pants\nB. shirt\nC. dress\nD. skirt",
+    "answer": "A. pants",
+    "solution": "pants 的意思是裤子。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "衣服",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p100_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "问「这是谁的帽子」，应选哪一句？\nA. Who hat is this?\nB. Where hat is this?\nC. Whose hat is this?\nD. What hat is this?",
+    "answer": "C. Whose hat is this?",
+    "solution": "问属于谁用 Whose。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "Whose 与名词所有格",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p101_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "It is Amy's dress. 裙子是谁的？\nA. Mike 的\nB. 老师的\nC. 我的\nD. Amy 的",
+    "answer": "D. Amy 的",
+    "solution": "Amy's 表示 Amy 的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "Whose 与名词所有格",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p101_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Whose pants are these? 这句是在问什么？\nA. 这条裤子是谁的\nB. 裤子是什么颜色\nC. 裤子多少钱\nD. 裤子在哪里",
+    "answer": "A. 这条裤子是谁的",
+    "solution": "Whose pants 问裤子是谁的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "Whose 与名词所有格",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p101_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "This is Chen Jie's skirt. 裙子是谁的？\nA. Amy 的\nB. Chen Jie 的\nC. John 的\nD. Sarah 的",
+    "answer": "B. Chen Jie 的",
+    "solution": "Chen Jie's 表示 Chen Jie 的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "Whose 与名词所有格",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p101_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说自己喜欢这条裙子，应说哪一句？\nA. I like this shirt.\nB. I like this dress.\nC. I like these pants.\nD. I like this skirt.",
+    "answer": "D. I like this skirt.",
+    "solution": "裙子是 skirt。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论穿着",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p102_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Whose shirt is this? 若是 Mike 的，应回答哪一句？\nA. It is Mike's.\nB. It is Amy's.\nC. It is Sarah's.\nD. It is Chen Jie's.",
+    "answer": "A. It is Mike's.",
+    "solution": "Mike 的要说 Mike's。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论穿着",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p102_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "These pants are Zhang Peng's. 裤子是谁的？\nA. Amy 的\nB. Zhang Peng 的\nC. Sarah 的\nD. John 的",
+    "answer": "B. Zhang Peng 的",
+    "solution": "Zhang Peng's 是 Zhang Peng 的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论穿着",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p102_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Put on your shirt. 这句是在说什么？\nA. 脱下你的裙子\nB. 这是谁的裤子\nC. 穿上你的衬衫\nD. 我喜欢这条连衣裙",
+    "answer": "C. 穿上你的衬衫",
+    "solution": "Put on your shirt 是穿上衬衫。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论穿着",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p102_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：This is Amy's dress. It is red. 连衣裙是谁的？\nA. Amy 的\nB. Mike 的\nC. John 的\nD. Sarah 的",
+    "answer": "A. Amy 的",
+    "solution": "Amy's dress。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂衣服是谁的",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p103_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Whose pants are these? They are Zhang Peng's. 裤子是谁的？\nA. Amy 的\nB. Zhang Peng 的\nC. Chen Jie 的\nD. 老师的",
+    "answer": "B. Zhang Peng 的",
+    "solution": "回答是 Zhang Peng's。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂衣服是谁的",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p103_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：I like that green skirt. 喜欢的裙子是什么颜色？\nA. 红色\nB. 蓝色\nC. 绿色\nD. 黄色",
+    "answer": "C. 绿色",
+    "solution": "green skirt。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂衣服是谁的",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p103_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：My shirt is white. Sarah's shirt is blue. 谁的衬衫是蓝色的？\nA. 我的\nB. Amy 的\nC. Mike 的\nD. Sarah 的",
+    "answer": "D. Sarah 的",
+    "solution": "Sarah's shirt is blue。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂衣服是谁的",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p103_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「手套」？\nA. scarf\nB. glove\nC. umbrella\nD. sunglasses",
+    "answer": "B. glove",
+    "solution": "glove 的意思是手套。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "商店物品",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p104_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「scarf」的中文意思是哪一个？\nA. 手套\nB. 雨伞\nC. 围巾\nD. 太阳镜",
+    "answer": "C. 围巾",
+    "solution": "scarf 的意思是围巾。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "商店物品",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p104_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「雨伞」的单词。\nA. glove\nB. scarf\nC. sunglasses\nD. umbrella",
+    "answer": "D. umbrella",
+    "solution": "表示雨伞的单词是 umbrella。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "商店物品",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p104_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「太阳镜」？\nA. sunglasses\nB. glove\nC. scarf\nD. umbrella",
+    "answer": "A. sunglasses",
+    "solution": "sunglasses 的意思是太阳镜。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "商店物品",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p104_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想问「这件衬衫多少钱」，应选哪一句？\nA. How many is this shirt?\nB. How old is this shirt?\nC. How much is this shirt?\nD. How tall is this shirt?",
+    "answer": "C. How much is this shirt?",
+    "solution": "问价格用 How much。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "How much 询问价格",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p105_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The sunglasses are 50 yuan. 太阳镜多少元？",
+    "answer": "50",
+    "solution": "句子里写的是 50 yuan。",
+    "question_type": "填空题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "How much 询问价格",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p105_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The gloves are 8 yuan. 手套多少钱？\nA. 8 元\nB. 7 元\nC. 18 元\nD. 80 元",
+    "answer": "A. 8 元",
+    "solution": "8 yuan 是 8 元。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "How much 询问价格",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p105_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "How much is it? 这句是在问什么？\nA. 它有多重\nB. 它多少钱\nC. 它有多高\nD. 它有多少个",
+    "answer": "B. 它多少钱",
+    "solution": "How much 问价钱。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "How much 询问价格",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p105_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "售货员招呼顾客，常说哪一句？\nA. How old are you?\nB. Where are you from?\nC. Let's clean the room.\nD. Can I help you?",
+    "answer": "D. Can I help you?",
+    "solution": "商店里常说 Can I help you?",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "在商店购物",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p106_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说「这条围巾很漂亮」，应说哪一句？\nA. This scarf is pretty.\nB. This umbrella is pretty.\nC. These gloves are pretty.\nD. These sunglasses are pretty.",
+    "answer": "A. This scarf is pretty.",
+    "solution": "围巾是 scarf。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "在商店购物",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p106_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "How much is this umbrella? 若是 15 元，应回答哪一句？\nA. It is 50 yuan.\nB. It is 15 yuan.\nC. They are 8 yuan.\nD. It is 5 yuan.",
+    "answer": "B. It is 15 yuan.",
+    "solution": "一把伞用 It is，价格是 15 元。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "在商店购物",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p106_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "They are too expensive. 这句的意思是？\nA. 它们很便宜\nB. 我要买它们\nC. 它们太贵了\nD. 它们是 10 元",
+    "answer": "C. 它们太贵了",
+    "solution": "too expensive 是太贵。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "在商店购物",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p106_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：The scarf is 20 yuan. The umbrella is 15 yuan. 围巾多少钱？\nA. 20 元\nB. 15 元\nC. 50 元\nD. 8 元",
+    "answer": "A. 20 元",
+    "solution": "scarf is 20 yuan。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂价签",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p107_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：The sunglasses are 50 yuan. 太阳镜多少元？",
+    "answer": "50",
+    "solution": "50 yuan。",
+    "question_type": "填空题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂价签",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p107_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Can I help you? The gloves are 8 yuan. 哪一句和文字一致？\nA. 手套是 15 元。\nB. 雨伞是 8 元。\nC. 手套是 8 元。\nD. 围巾是 8 元。",
+    "answer": "C. 手套是 8 元。",
+    "solution": "gloves are 8 yuan。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂价签",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p107_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：The umbrella is cheap. It is 10 yuan. 雨伞怎么样？\nA. 很贵，50 元\nB. 便宜，20 元\nC. 没写价格\nD. 便宜，10 元",
+    "answer": "D. 便宜，10 元",
+    "solution": "cheap 是便宜，价格是 10 yuan。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂价签",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p107_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「安静地」？\nA. quietly\nB. talk\nC. keep\nD. desk",
+    "answer": "A. quietly",
+    "solution": "quietly 的意思是安静地。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "规则用词",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p151_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「talk」的中文意思是哪一个？\nA. 安静地\nB. 说话\nC. 保持\nD. 书桌",
+    "answer": "B. 说话",
+    "solution": "talk 的意思是说话。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "规则用词",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p151_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「保持」的单词。\nA. quietly\nB. talk\nC. keep\nD. desk",
+    "answer": "C. keep",
+    "solution": "表示保持的单词是 keep。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "规则用词",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p151_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「书桌」？\nA. quietly\nB. talk\nC. keep\nD. desk",
+    "answer": "D. desk",
+    "solution": "desk 的意思是书桌。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "规则用词",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p151_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是祈使句？\nA. You talk quietly?\nB. Talk quietly.\nC. She talks quietly.\nD. Talking quietly is.",
+    "answer": "B. Talk quietly.",
+    "solution": "祈使句用动词原形开头。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "祈使句",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p152_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Keep to the right. 这句是在说什么？\nA. 靠左走\nB. 保持安静\nC. 靠右走\nD. 把桌子擦干净",
+    "answer": "C. 靠右走",
+    "solution": "Keep to the right 是靠右。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "祈使句",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p152_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Do not talk. 这句的意思是？\nA. 请说话\nB. 正在说话\nC. 喜欢说话\nD. 不要说话",
+    "answer": "D. 不要说话",
+    "solution": "Do not talk 是不要说话。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "祈使句",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p152_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句表示「请安静」？\nA. Be quiet.\nB. Is quiet.\nC. Are quiet.\nD. Quiet is be.",
+    "answer": "A. Be quiet.",
+    "solution": "祈使句说 Be quiet。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "祈使句",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p152_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "图书馆里要小声说话，应说哪一句？\nA. Talk loudly.\nB. Keep to the left.\nC. Talk quietly.\nD. Do not read.",
+    "answer": "C. Talk quietly.",
+    "solution": "小声是 quietly。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说规则",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p153_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Keep your desk clean. 这句是在说什么？\nA. 靠右走\nB. 不要说话\nC. 可以跑\nD. 保持书桌干净",
+    "answer": "D. 保持书桌干净",
+    "solution": "desk clean。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说规则",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p153_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Do not eat in the library. 图书馆里不可以做什么？\nA. 吃东西\nB. 看书\nC. 安静地说话\nD. 靠右走",
+    "answer": "A. 吃东西",
+    "solution": "Do not eat。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说规则",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p153_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Work quietly. 这句是在要求什么？\nA. 大声说话\nB. 安静地做事\nC. 出去玩\nD. 吃午饭",
+    "answer": "B. 安静地做事",
+    "solution": "quietly 是安静地。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说规则",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p153_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Talk quietly. Do not eat. Keep your desk clean. 不可以做什么？\nA. 安静说话\nB. 保持书桌干净\nC. 看书\nD. 吃东西",
+    "answer": "D. 吃东西",
+    "solution": "Do not eat。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂规则",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p154_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Keep to the right. 哪一句和文字一致？\nA. 请靠右。\nB. 请靠左。\nC. 请吃东西。\nD. 请大声说话。",
+    "answer": "A. 请靠右。",
+    "solution": "Keep to the right。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂规则",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p154_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：We are reading in the library. Please work quietly. 人们正在哪里？\nA. 操场\nB. 图书馆\nC. 食堂\nD. 公园",
+    "answer": "B. 图书馆",
+    "solution": "in the library。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂规则",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p154_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Do not run in the classroom. Walk quietly. 教室里应该怎样走？\nA. 跑\nB. 吃东西\nC. 安静地走\nD. 大声说话",
+    "answer": "C. 安静地走",
+    "solution": "Walk quietly，并且 Do not run。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂规则",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p154_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I ____ go to bed before 9:30. 我得九点半前睡觉。\nA. can\nB. have to\nC. has to\nD. am",
+    "answer": "B. have to",
+    "solution": "主语是 I，用 have to。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家规：have to 与 can't",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p199_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「我们不能在床上吃东西」哪一句正确？\nA. We can eat in bed.\nB. We don't can eat in bed.\nC. We can't eats in bed.\nD. We can't eat in bed.",
+    "answer": "D. We can't eat in bed.",
+    "solution": "can't 后面接动词原形。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家规：have to 与 can't",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p199_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "He ____ help with the dishes. 他得帮忙洗碗。\nA. have to\nB. haves to\nC. has to\nD. have",
+    "answer": "C. has to",
+    "solution": "主语 he 是第三人称单数，用 has to。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家规：have to 与 can't",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p199_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一条是家规？\nA. I like apples.\nB. Clean your room on Saturdays.\nC. It is sunny today.\nD. She is my sister.",
+    "answer": "B. Clean your room on Saturdays.",
+    "solution": "说要做什么的祈使句才是规矩。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家规：have to 与 can't",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p199_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「小麦」？\nA. white\nB. weather\nC. wheat\nD. water",
+    "answer": "C. wheat",
+    "solution": "wheat 是小麦。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "从农场到餐桌的食物",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p200_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Milk comes from ____. 牛奶来自哪里？\nA. cows\nB. trees\nC. fish\nD. hens",
+    "answer": "A. cows",
+    "solution": "牛奶来自奶牛 cows。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "从农场到餐桌的食物",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p200_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Eggs come from ____.\nA. hens\nB. sheep\nC. cows\nD. rice",
+    "answer": "A. hens",
+    "solution": "鸡蛋来自母鸡 hens。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "从农场到餐桌的食物",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p200_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「大米」？\nA. rice\nB. race\nC. nice\nD. ice",
+    "answer": "A. rice",
+    "solution": "rice 是米饭、大米。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "从农场到餐桌的食物",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p200_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  }
+]

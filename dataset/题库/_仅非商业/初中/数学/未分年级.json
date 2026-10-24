@@ -1,0 +1,3202 @@
+[
+  {
+    "question_text": "若点A（ $x_1$，-3 ），B（ $x_2$，-2 ），C（ $x_3$，1）在反比例函数 $y=-\\dfrac{k^{2}+1}{x}$的图象上，则$x_1$ ，$x_2$ ，$x_3$ 的大小关系是为____\nA. $x_{1}<x_{2}<x_{3}$\nB. $x_{3}<x_{1}<x_{2}$\nC. $x_{2}<x_{1}<x_{3}$\nD. $x_{3}<x_{2}<x_{1}$",
+    "answer": "B. $x_{3}<x_{1}<x_{2}$",
+    "solution": "1. 首先，对于反比例函数 $y=-\\frac{k^{2}+1}{x}$，有$-(k^2+1)<0$。因此，图象分别位于第二、四象限，每一个象限内，从左往右，y随x的增大而增大。\n2. 其次我们观察点A、B、C的y坐标，发现A的y坐标为-3，B的y坐标为-2，C的y坐标为1。根据反比例函数的性质，我们可以得出：A，B位于第四象限，且$x_2>x_1>0$；C位于第二象限，则$x_3<0$。\n3. 最后，我们将第2步的结论整理：$x_{3}<x_{1}<x_{2}$。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-dev-0",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知点P（-1，4）在反比例函数$y=\\frac{k}{x}$ (k≠0)的图象上，则k的值是____\nA. $-\\frac{1}{4}$\nB. $\\frac{1}{4}$\nC. $4$\nD. $-4$",
+    "answer": "D. $-4$",
+    "solution": "1. 首先，我们需要知道反比例函数的形式：$y=\\frac{k}{x}$，其中k是常数，x和y是变量。\n2. 其次，题目给出点P（-1，4）在反比例函数的图象上，代入反比例函数中，得到$4=\\frac{k}{-1}$。\n3. 接着，得到$k=-4$。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-dev-1",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若$x=-2$是关于x 的方程$3x-k+1=0$ 的解，则k的值为____\nA. $-5$\nB. $-1$\nC. $5$\nD. $\\frac{1}{3}$",
+    "answer": "A. $-5$",
+    "solution": "1. 首先，将$x=-2$代入方程$3x-k+1=0$，得到$3(-2)-k+1=0$。\n2. 然后，解得$k=-5$。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-dev-2",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲队有工人 272人，乙队有工人 196人，如果要求乙队的人数是甲队人数的$\\frac{1}{3}$ ，应从乙队调多少人去甲队？如果设应从乙队调 x人到甲队，列出的方程正确的是____\nA. $\\frac{1}{3}\\times272+x=196-x$\nB. $\\frac{1}{3}\\left(272-x\\right)=196-x$\nC. $\\frac{1}{3}\\left(272+x\\right)=196-x$\nD. $\\frac{1}{3}\\left(272+x\\right)=196+x$",
+    "answer": "C. $\\frac{1}{3}\\left(272+x\\right)=196-x$",
+    "solution": "1. 首先，题目要求乙队的人数是甲队人数的$\\frac{1}{3}$，即$\\frac{乙队人数}{甲队人数}=\\frac{1}{3}$。\n2. 其次，我们需要从乙队调$x$人到甲队。调整后，甲队的人数变为$272+x$，乙队的人数变为$196-x$。\n3. 接着，我们将调整后的甲队和乙队人数代入第1步中的比例关系，得到$\\frac{196-x}{272+x}=\\frac{1}{3}$。\n4. 最后，我们将这个比例关系转换为方程，即$\\frac{1}{3}\\left(272+x\\right)=196-x$。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-dev-3",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知关于x的不等式组$\\left\\{\\begin{matrix}x<3a+2,\\\\ 2x-4>0,\\end{matrix}\\right.$恰有两个整数解，则a的取值范围为____\nA. $2\\leq a\\leq3$\nB. $\\frac{2}{3}<a\\leq1$\nC. $2<a\\leq3$\nD. $\\frac{2}{3}\\leq a<1$",
+    "answer": "B. $\\frac{2}{3}<a\\leq1$",
+    "solution": "1. 首先，我们需要解第二个不等式$2x-4>0$。将其化简得到$x>2$。\n2. 接着，我们将两个不等式组合在一起，得到$x>2$且$x<3a+2$。由题意，这个不等式组恰有两个整数解，因此，$x=3$和$x=4$。\n3. 最后，我们需要找到a的取值范围。将这两个$x$取值代入不等式$x<3a+2$，得到$3<3a+2$和$4<3a+2$。解这两个不等式，我们得到$a>\\frac{1}{3}$和$a>\\frac{2}{3}$，合并两个条件得到$a>\\frac{2}{3}$。由于题目要求恰有两个整数解，因此，$x< 5$。所以有$x<3a+2\\le 5$，化简后得到$a\\leq 1$。因此，a的取值范围为$\\frac{2}{3}<a\\leq1$。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-dev-4",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "当$x=-3$ 时，下列分式无意义的是____\nA. $\\frac{x-3}{x}$\nB. $\\frac{x+3}{x}$\nC. $\\frac{x}{x-3}$\nD. $\\frac{x}{x+3}$",
+    "answer": "D. $\\frac{x}{x+3}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-0",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果 $x=3$是关于 x的$2x+m=7$方程 的解，那么 $m$的值为____\nA. -1\nB. 2\nC. 1\nD. -2",
+    "answer": "C. 1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-1",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⊙O是一个正n边形的外接圆，若⊙O的半径与这个正n边形的边长相等，则n的值为____\nA. 3\nB. 4\nC. 5\nD. 6",
+    "answer": "D. 6",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-2",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列等式变形错误的是 ____\nA. 若$a=b$,则$3a-1=3b-1$\nB. 若$a=b$,则$a c^{2}=b c^{2}$\nC. 若$\\frac{a}{c^{2}}=\\frac{b}{c^{2}}$,则$a =b $\nD. 若$a c^{2}=b c^{2}$,则$a=b$",
+    "answer": "D. 若$a c^{2}=b c^{2}$,则$a=b$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-3",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“垃圾分类”已经在全国开展得如火如荼，某回收公司有四包可回收垃圾，每包以标准克数（ 千克）为基准，超过的千克数记作正数，不足的千克数记作负数，以下数据是记录结果，其中表示实际重量最接近标准千克数的是 ____\nA. -1\nB. 2\nC. -0.5\nD. 0",
+    "answer": "D. 0",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-4",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某施工队承接了60公里的修路任务，为了提前完成任务，实际每天的工作效率比原计划提高了25％，结果提前60天完成了这项任务．设原计划每天修路x公里，根据题意列出的方程正确的是____\nA. $\\frac{60\\times (1+25 \\%)}{x} -\\frac{60}{x}=60$\nB. $\\frac{60}{x}-\\frac{60\\times (1+25 \\%)}{x} =60$\nC. $\\frac{60 }{ (1+25 \\%)x} -\\frac{60}{x}=60$\nD. $ \\frac{60}{x}-\\frac{60 }{ (1+25 \\%)x} =60$",
+    "answer": "D. $ \\frac{60}{x}-\\frac{60 }{ (1+25 \\%)x} =60$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-5",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "线段$AB=9$ ，点C在线段$AB$上，且有$AC=\\frac{1}{3}AB$ ， M是AB 的中点，则 MC等于____\nA. $3$\nB. $\\frac{3}{2}$\nC. $\\frac{9}{2}$\nD. $\\frac{15}{2}$",
+    "answer": "B. $\\frac{3}{2}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-6",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列命题正确的是____\nA. 三角形的重心是三条高线的交点\nB. 等腰三角形底边上的中线不一定垂直于底边\nC. 线段垂直平分线上的点到线段两端的距离相等\nD. 含根号的数都是无理数",
+    "answer": "C. 线段垂直平分线上的点到线段两端的距离相等",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-7",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列各组代数式中为同类项的是____\nA. $-2xy$与$2x$\nB. $5x^2y$与$-2xy^2$\nC. $5x^5y^4$与$-5x^5z^4$\nD. $-xy$与$\\frac{3}{2}y x$",
+    "answer": "D. $-xy$与$\\frac{3}{2}y x$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-8",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列命题是真命题的是____\nA. 两条直线被第三条直线所截，同旁内角互补\nB. 三角形内角和为180°\nC. 三角形的一个外角等于它的两个内角之和\nD. 同角的余角互补",
+    "answer": "B. 三角形内角和为180°",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-9",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "抛物线$y=-x^2+2x-2$的顶点坐标为____\nA. (-1,1)\nB. (1,-1)\nC. (-1,-1)\nD. (1,-3)",
+    "answer": "B. (1,-1)",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-10",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某商场销售甲、乙两种服装，已知乙服装每件的成本比甲服装贵50元，甲、乙服装均按成本价提高40％   作为标价出售.一段时间后，甲服装卖出了350件，乙服装卖出了200件，销售金额为 129500元，若用方程$350\\times1.4x+200\\times1.4\\times\\left(x+50\\right)=129500$   表示其中的数量关系，则式子中 所表示的量是____\nA. 甲服装的标价\nB. 乙服装的标价\nC. 甲服装的成本价\nD. 乙服装的成本价",
+    "answer": "C. 甲服装的成本价",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-11",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列说法正确的是____(1)抛一枚硬币，正面一定朝上； (2)掷一颗骰子，点数一定不大于6；(3)为了解一种灯泡的使用寿命，宜采用普查的方法；(4)“明天的降水概率为80%”，表示明天会有80％的地方下雨．\nA. 1个\nB. 2个\nC. 3个\nD. 4个",
+    "answer": "A. 1个",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-12",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国古代数学著作《孙子算经》中有一道题：“今有木，不知长短，引绳度之，余绳四尺五，屈绳量之，不足一尺，问木长几何？”大致意思是：“用一根绳子去量一根木条，绳子剩余4.5尺，将绳子对折再量木条，木条剩余1尺，问木条长多少尺？”设绳子长x尺，木条长y尺，则根据题意所列方程组正确的是____\nA. $\\begin{cases}x-y=4.5,\\\\ \\dfrac{1}{2}x-y=1\\end{cases}$\nB. $\\begin{cases}x-y=4.5,\\\\ y-\\dfrac{1}{2}x=1\\end{cases}$\nC. $\\left\\{\\begin{matrix}x+y=4.5,\\\\ y-\\dfrac{1}{2}x=1\\end{matrix}\\right.$\nD. $\\left\\{\\begin{matrix}x-y=4.5,\\\\ x-\\frac{1}{2}y=1\\end{matrix}\\right.$",
+    "answer": "B. $\\begin{cases}x-y=4.5,\\\\ y-\\dfrac{1}{2}x=1\\end{cases}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-13",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙两班学生参加植树造林，已知甲班每天比乙班多植5棵树，甲班植80棵树所用的天数与乙班植70棵树所用的天数相等．若设甲班每天植树x棵，则根据题意得出的方程是____\nA. $\\frac{80}{x-5}=\\frac{70}{x}$\nB. $\\frac{80}{x}=\\frac{70}{x+5}$\nC. $\\frac{80}{x+5}=\\frac{70}{x}$\nD. $\\frac{80}{x}=\\frac{70}{x-5}$",
+    "answer": "D. $\\frac{80}{x}=\\frac{70}{x-5}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-14",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列判断错误的的是____\nA. $2x^{2}y^{2}$是二次单项式\nB. 单项式 $a$的系数和次数都是 1\nC. 数字3是单项式\nD. $2\\pi r$的系数是$2\\pi$",
+    "answer": "A. $2x^{2}y^{2}$是二次单项式",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-15",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列图形中有稳定性的是____\nA. 平行四边形\nB. 直角三角形\nC. 长方形\nD. 正方形",
+    "answer": "B. 直角三角形",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-16",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "阳光文具店出售笔袋和水笔，笔袋每个12元，水笔每个2元，促销期间购一个笔袋送一个水笔，某人共付款 150元，购得笔袋、水笔共 35个（含赠品），则此人购得笔袋的个数为____\nA. 9\nB. 10\nC. 11\nD. 12",
+    "answer": "B. 10",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-17",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一元二次方程$x^2-3x=1$的两个实数根为$\\alpha$,$\\beta$,则$\\alpha+\\beta$的值为____\nA. 3\nB. -1\nC. -3\nD. 1",
+    "answer": "A. 3",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-val-18",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列四个判断中，不正确的是____\nA. 0既不是正数也不是负数\nB. 0的倒数是0\nC. 0的相反数是 0\nD. 零是绝对值最小的有理数",
+    "answer": "B. 0的倒数是0",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-0",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列数中，最小的有理数是____\nA. 0\nB. 1\nC. -2\nD. 3",
+    "answer": "C. -2",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-1",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一种花瓣的花粉颗粒直径用科学记数法表示为 $6.5\\times 10^{-6}$，这个数用小数表示为____\nA. 0.00065\nB. 0.000065\nC. 0.0000065\nD. 0.00000065",
+    "answer": "C. 0.0000065",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-2",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "小李2019年全年支付宝总支出金额为20400元，将20400用科学计数法可表示为____\nA. $0.204\\times10^5$\nB. $2.04\\times10^4$\nC. $20.4\\times10^3$\nD. $204\\times10^2$",
+    "answer": "B. $2.04\\times10^4$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-3",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在等腰$\\triangle ABC$ 中 ,$AB=AC$ ，中线 BD将这个三角形的周长分为15和12两个部分，则这个等腰三角形的底边长为____\nA. 7\nB. 11\nC. 7或11\nD. 7或10",
+    "answer": "C. 7或11",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-4",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有理数-2的相反数是____\nA. $2$\nB. $-2$\nC. $\\frac{1}{2}$\nD. $-2x-9$",
+    "answer": "A. $2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-5",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "$x=2$是方程$mx+5=0$的解，则函数 的图象不经过____\nA. 第一象限\nB. 第二象限\nC. 第三象限\nD. 第四象限",
+    "answer": "A. 第一象限",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-6",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面各式中，计算正确的是____\nA. $-4^{2}=16$\nB. $\\left(-\\frac{1}{2}\\right)^{3}=-\\frac{1}{8}$\nC. $2^{3}=6$\nD. $-5-2=-3$",
+    "answer": "B. $\\left(-\\frac{1}{2}\\right)^{3}=-\\frac{1}{8}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-7",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知$2a-7=1$ ，则$2+6a=$____\nA. 20\nB. 26\nC. -16\nD. -20",
+    "answer": "B. 26",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-8",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知反比例函数的图象经过点(-1，2)，则它的解析式是____\nA. $y=-\\frac{1}{2x}$\nB. $y=-\\frac{2}{x}$\nC. $y=\\frac{2}{x}$\nD. $y=\\frac{1}{x}$",
+    "answer": "B. $y=-\\frac{2}{x}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-9",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一艘轮船在静水中的最大航速是 30km/h，它以最大航速沿江顺流航行90km所用时间，与它以最大航速逆流航行60km所用时间相等．如果设江水的流速为x km/h，所列方程正确的是____\nA. $\\frac{90}{x+30}=\\frac{60}{x-30}$\nB. $\\frac{60}{x+30}=\\frac{90}{x-30}$\nC. $\\frac{90}{x+30}=\\frac{60}{30-x}$\nD. $\\frac{60}{x+30}=\\frac{90}{30-x}$",
+    "answer": "C. $\\frac{90}{x+30}=\\frac{60}{30-x}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-10",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于x的方程$x^2-2x+n=0$ 无实数根，则一次函数$y=(n-1)x-n$ 的图像不经过____\nA. 第一象限\nB. 第二象限\nC. 第三象限\nD. 第四象限",
+    "answer": "B. 第二象限",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-11",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "抛物线 $y=x^2-2x+m$与x轴有两个交点，则 的取值范围为____\nA. $m>1$\nB. $m=1$\nC. $m<1$\nD. $m<4$",
+    "answer": "C. $m<1$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-12",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "0.010010001…(每两个1之间依次加一个0)，3.14，$\\pi$，$\\sqrt 10$，$\\frac{4}{3}$ 中有理数的个数为____\nA. 5个\nB. 4个\nC. 3个\nD. 2个",
+    "answer": "D. 2个",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-13",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我们探究得方程 $x+y=2$的正整数解只有1组，方程$x+y=3$ 的正整数解只有2组，方程$x+y=4$ 的正整数解只有3组……那么方程$x+y+z=10$ 的正整数解的组数是____\nA. 34\nB. 35\nC. 36\nD. 37",
+    "answer": "C. 36",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-14",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "二元一次方程$x+3y=9$ 的非负整数解有____\nA. 无数个\nB. 2个\nC. 3个\nD. 4个",
+    "answer": "D. 4个",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-15",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某边防哨卡运来一筐苹果，共有60个，计划每名战士分得数量相同的若干个苹果，结果还剩5个苹果；改为每名战士再多分1个，结果还差6个苹果．若设该哨卡共有x名战士，则所列方程为____\nA. $\\frac{60+6}{x}=\\frac{60-5}{x}-1$\nB. $\\frac{60+6}{x}=\\frac{60-5}{x}+1$\nC. $\\frac{60-6}{x}=\\frac{60+5}{x}-1$\nD. $\\frac{60-6}{x}=\\frac{60+5}{x}+1$",
+    "answer": "B. $\\frac{60+6}{x}=\\frac{60-5}{x}+1$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-16",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若关于x的一元二次方程$x^2-4x+2m=0$有一个根为-1，则另一个根为____\nA. 5\nB. -3\nC. -5\nD. 4",
+    "answer": "A. 5",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-17",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一元二次方程$x^2-x=0$的根是____\nA. $x=1$\nB. $x=0$\nC. $x_1=0, x_2=1$\nD. $x_1=0, x_2=-1$",
+    "answer": "C. $x_1=0, x_2=1$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-18",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某种产品，商品的标价为120元，若以九折降价出售，相对于进货价仍获利 20％，该商品的进货价为____\nA. 80元\nB. 85元\nC. 90元\nD. 95元",
+    "answer": "C. 90元",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-19",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校为了了解七年级学生喜欢的课外书中语文课外阅读书、数学辅导书及英语读物所占的比例，通常采用的统计图是____\nA. 条形统计图\nB. 扇形统计图\nC. 折线统计图\nD. 以上均可",
+    "answer": "B. 扇形统计图",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-20",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某项工程甲单独做6天完成，乙单独做8天完成．若甲先做1天，然后甲、乙合做完成此项工程，甲、乙合做了x天，则所列方程为____\nA. $\\frac{x+1}{6}+\\frac{x}{8}=1$\nB. $\\frac{x}{6}+\\frac{x+1}{8}=1$\nC. $\\frac{x}{6}+\\frac{x-1}{8}=1$\nD. $\\frac{x}{6}+\\frac{1}{6}+\\frac{x-1}{8}=1$",
+    "answer": "A. $\\frac{x+1}{6}+\\frac{x}{8}=1$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-21",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "正方形是轴对称图形，对称轴有____条\nA. 2\nB. 3\nC. 4\nD. 5",
+    "answer": "C. 4",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-22",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "$\\vert a\\vert+\\vert b\\vert=\\vert a+b\\vert$,则a,b的关系是____\nA. a,b的绝对值相等\nB. a,b异号\nC. $a+b$的和是非负数\nD. a, b 同号或其中至少一个为零",
+    "answer": "D. a, b 同号或其中至少一个为零",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-23",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列说法不正确的是____\nA. 用一个平面去截正方体，截面可能是七边形\nB. 用一个平面去截一个球，截面一定是圆\nC. 棱柱的截面不可能是圆\nD. 用一个平面去截圆锥，截面可能是圆",
+    "answer": "A. 用一个平面去截正方体，截面可能是七边形",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-24",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一张半径为6cm的扇形纸片卷成一个圆锥的侧面，要求圆锥底面圆的半径为4cm，那么这张扇形纸片的圆心角度数是____\nA. 150°\nB. 240°\nC. 200°\nD. 180°",
+    "answer": "B. 240°",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-25",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某种电脑病毒传播的非常快，如果一台电脑被感染，经过两轮感染后就会有81台电脑被感染，若病毒得不到有效控制，三轮感染后，被感染的电脑有____台．\nA. 81\nB. 648\nC. 700\nD. 729",
+    "answer": "D. 729",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-26",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一直角三角形的两边长分别为3和4．则第三边的长为____\nA. 5\nB. $\\sqrt 7$\nC. $\\sqrt 5$\nD. 5或者$\\sqrt 7$",
+    "answer": "D. 5或者$\\sqrt 7$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-27",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在实数 $\\sqrt{5}$,$\\frac{7}{22}$, $\\sqrt[3]{-8}$, $0$, $-1.414$, $\\frac{\\pi}{2}$, $\\sqrt 36$,  $0.1010010001$中，无理数有____\nA. 2个\nB. 3个\nC. 4个\nD. 5个",
+    "answer": "A. 2个",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-28",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个多边形截去一个角后，形成另一个多边形的内角和为720° ，那么原多边形的边数为____\nA. 5\nB. 5或6\nC. 5或7\nD. 5或6或7",
+    "answer": "D. 5或6或7",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-29",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某品牌乒乓球的标准质量为2.7克，误差为$\\pm 0.03$克，若从符合要求的乒乓球中随意取出两只，则这两只乒乓球的质量最多相差____\nA. 0.03克\nB. 0.06克\nC. 2.73克\nD. 2.67克",
+    "answer": "B. 0.06克",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-30",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列各组数中，互为相反数的是____\nA. $-(-1)$与$1$\nB. $(-1)^2$与$1$\nC. $|-1|$与$1$\nD. $-1^2$与$1$",
+    "answer": "D. $-1^2$与$1$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-31",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲乙两个码头相距s千米，某船在静水中的速度为a千米 时，水流速度为b千米 时，则船一次往返两个码头所需的时间为____小时.\nA. $\\frac{2s}{a+b}$\nB. $\\frac{2s}{a-b}$\nC. $\\frac{s}{a}+frac{s}{b}$\nD. $\\frac{s}{a+b} + \\frac{s}{a-b}$",
+    "answer": "D. $\\frac{s}{a+b} + \\frac{s}{a-b}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-32",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "长度分别为 2，7 ，x 的三条线段能组成一个三角形， 的值可能是____\nA. 4\nB. 5\nC. 6\nD. 9",
+    "answer": "C. 6",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-33",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列从左到右的变形，错误的是____\nA. $-m+n=-\\left(m+n\\right)$\nB. $-a-b=-(a+b )$\nC. $\\left(m-n\\right)^{3}=-\\left(n-m\\right)^{3}$\nD. $(y-x)^{2}=\\left(x-y\\right)^{2}$",
+    "answer": "A. $-m+n=-\\left(m+n\\right)$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-34",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "顺次连接矩形四边中点所组成的四边形是____\nA. 平行四边形\nB. 菱形\nC. 矩形\nD. 以上图形都不是",
+    "answer": "B. 菱形",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-35",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果两个三角形中两条边和其中一边上的高对应相等，那么这两个三角形的第三条边所对的角的关系是____\nA. 相等\nB. 不相等\nC. 互余或相等\nD. 互补或相等",
+    "answer": "D. 互补或相等",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-36",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某蔬菜公司收购到某种蔬菜140吨，准备加工上市销售．该公司的加工能力是：每天可以精加工6吨或粗加工16吨．现计划用15天完成加工任务，该公司应按排几天精加工，几天粗加工？设安排x天精加工，y 天粗加工．为解决这个问题，所列方程组正确的是____\nA. $\\left\\{\\begin{matrix}x+y=140\\\\ 16x+6y=15\\end{matrix}\\right.$\nB. $\\left\\{\\begin{array}{l}x+y=140\\\\ 6x+16y=15\\end{array}\\right.$\nC. $\\left\\{\\begin{matrix}x+y=15\\\\ 16x+6y=140\\end{matrix}\\right.$\nD. $\\left\\{\\begin{matrix}x+y=15\\\\ 6x+16y=140\\end{matrix}\\right.$",
+    "answer": "D. $\\left\\{\\begin{matrix}x+y=15\\\\ 6x+16y=140\\end{matrix}\\right.$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-37",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在Rt△ABC中，∠C=90°，BC=3，AB=5，则sinA的值为____\nA. $\\frac{3}{5}$\nB. $\\frac{4}{5}$\nC. $\\frac{3}{4}$\nD. 以上都不对",
+    "answer": "A. $\\frac{3}{5}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-38",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列式子从左到右变形不正确的是____\nA. $\\frac{ax}{ay}=\\frac{x}{y}$\nB. $\\frac{y}{x}=\\frac{ay}{ax}$\nC. $\\frac{(a^{2}+1) x}{(a^{2}+1)y}=\\frac{x}{y}$\nD. $\\frac{y}{x}=\\frac{(a^{2}+1)y}{\\left(a^{2}+1\\right)x}$",
+    "answer": "B. $\\frac{y}{x}=\\frac{ay}{ax}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-39",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "工人师傅在给小明家安装晾衣架时，一般先在阳台天花板上选取两个点，然后再进行安装．这样做的数学原理是____\nA. 过一点有且只有一条直线\nB. 两点之间，线段最短\nC. 两点确定一条直线\nD. 连接两点之间的线段的长度叫两点间的距离",
+    "answer": "C. 两点确定一条直线",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-40",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列运算结果正确的是____\nA. $5x-x=5$\nB. $2x^{2}+2x^{3}=4x^{5}$\nC. $-4b+b=-3b$\nD. $a^{2}b-a b^{2}=0$",
+    "answer": "C. $-4b+b=-3b$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-41",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某项工程甲单独做5天完成，乙单独做10天完成.现在由甲先做两天，然后甲、乙合作完成此项工程，若设甲一共做了x天，则所列方程正确的是____\nA. $\\frac{x+2}{5}+\\frac{x}{10}=1$\nB. $\\frac{x}{5}+\\frac{x+2}{10}=1$\nC. $\\frac{x}{5}+\\frac{x-2}{10}=1$\nD. $\\frac{x}{5}+\\frac{2}{5}+\\frac{x-2}{10}=1$",
+    "answer": "C. $\\frac{x}{5}+\\frac{x-2}{10}=1$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-42",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "过多边形的一个顶点的所有对角线把多边形分成 个三角形，这个多边形的边数是____\nA. 8\nB. 9\nC. 10\nD. 11",
+    "answer": "C. 10",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-43",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "北京市将在2019年北京世园会园区、北京新机场、2022年冬奥会场馆等地，率先开展5G网络的商用示范．目前，北京市已经在怀柔试验场对5G进行相应的试验工作．现在4G网络在理想状态下，峰值速率约100Mbps，未来5G网络峰值速率是4G网络的204.8倍，那么未来5G网络峰值速率约为____\nA. $1\\times10^{2}$Mbps\nB. $2.048\\times10^{2}$Mbps\nC. $2.048\\times10^{3}$Mbps\nD. $2.048\\times10^{4}$Mbps",
+    "answer": "D. $2.048\\times10^{4}$Mbps",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-44",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列说法正确的是____\nA. 平角的始边与终边在一条直线上\nB. 一条射线是一个周角\nC. 两条射线组成的图形叫做角\nD. 两边在一直线上的角是平角",
+    "answer": "A. 平角的始边与终边在一条直线上",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-45",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知$\\left\\{\\begin{matrix}x=2\\\\ y=-1\\end{matrix}\\right.$ 是关于x，y的二元一次方程 $2x+m y=7$的解，则m的值为____\nA. $3$\nB. $-3$\nC. $\\frac{9}{2}$\nD. $-11$",
+    "answer": "B. $-3$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-46",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一元二次方程$4x^2-1=5x$的二次项系数、一次项系数、常数项分别为____\nA. 4,-1,5\nB. 4,-5,-1\nC. 4,5,-1\nD. 4,-1,-5",
+    "answer": "B. 4,-5,-1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-47",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列合并同类项的结果正确的是____\nA. $a+3a=3a^{2}$\nB. $3a-a=2$\nC. $3a+b=3a b$\nD. $a^{2}-3a^{2}=-2a^{2}$",
+    "answer": "D. $a^{2}-3a^{2}=-2a^{2}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-48",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果分式$\\frac{x^2-4}{x-2}$的值等于0，那么____\nA. $x=\\pm2$\nB. $x=2$\nC. $x=-2$\nD. $x \\neq 2$",
+    "answer": "C. $x=-2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-49",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知点$A\\left(x_1,y_1\\right)$ 、$B\\left(x_{2},y_{2}\\right)$ 在二次函数$y=-x^{2}+2x+4$的图象上.若$x_1>x_2>1$ ，则$y_1$  与$y_2$ 的大小关系是____\nA. $y_{1}\\geq y_{2}$\nB. $y_{1}=y_{2}$\nC. $y_1>y_2$\nD. $y_1<y_2$",
+    "answer": "D. $y_1<y_2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-50",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "抛物线$y=-x^2+2kx+2$ 与 x轴交点的个数为____\nA. 0\nB. 1\nC. 2\nD. 以上都不对",
+    "answer": "C. 2",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-51",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列各式运算的结果为$a^6$的是____\nA. $a^{3}\\cdot a^{3}$\nB. $(a^3)^3$\nC. $a^3+a^3$\nD. $a^{12} \\div a^2$",
+    "answer": "A. $a^{3}\\cdot a^{3}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-52",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一元二次方程$x^2+6x-6=0$配方后化为____\nA. $(x-3)^2=3$\nB. $(x-3)^2=15$\nC. $(x+3)^2=15$\nD. $(x+3)^2=3$",
+    "answer": "C. $(x+3)^2=15$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-53",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "a表示一个一位数， b表示一个两位数，若把 a放在 b的左边，组成一个三位数，则这个三位数表示为____\nA. a+b\nB. 10a+b\nC. 100a+b\nD. 10b+a",
+    "answer": "C. 100a+b",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-54",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某班同学毕业时都将自己的照片向全班其他同学各送一张表示留念，全班共送1035张照片，如果全班有x名同学，根据题意，列出方程为____\nA. $x(x+1)=1035$\nB. $x(x-1)=1035$\nC. $\\frac{1}{2}x(x+1)=1035$\nD. $\\frac{1}{2}x(x-1)=1035$",
+    "answer": "B. $x(x-1)=1035$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-55",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列说法：①“掷一枚质地均匀的硬币，朝上一面可能是正面”；②“从一副普通扑克牌中任意抽取一张，点数一定是3”____\nA. 只有①正确\nB. 只有②正确\nC. ①②都正确\nD. ①②都错误",
+    "answer": "A. 只有①正确",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-56",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一元二次方程$4x^2+1=4x$的根的情况是____\nA. 没有实数根\nB. 只有一个实数根\nC. 有两个相等的实数根\nD. 有两个不相等的实数根",
+    "answer": "C. 有两个相等的实数根",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-57",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列各式$\\frac{a-b}{2}$，$\\frac{x+3}{x}$ ，$\\frac{5+y}{\\pi}$ ，$\\frac{x^2}{4}$ ，$\\frac{a+b}{a-b}$ ，$\\frac{x-y}{m}$ ， 中分式有____个\nA. 2\nB. 3\nC. 4\nD. 5",
+    "answer": "B. 3",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-58",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于x的一元二次方程$x^2-3x+m=0$有两个不相等的实数根，则实数m的值范围为____\nA. $m\\geq \\frac{9}{4}$\nB. $m< \\frac{9}{4}$\nC. $m=\\frac{9}{4}$\nD. $m< -\\frac{9}{4}$",
+    "answer": "B. $m< \\frac{9}{4}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-59",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "反比例函数$y=\\frac{6}{x}$ 的图象位于____\nA. 第一、第二象限\nB. 第一、第三象限\nC. 第二、第三象限\nD. 第二、第四象限",
+    "answer": "B. 第一、第三象限",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-60",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列函数中，当x＞0时，y随x的增大而减小的是____\nA. $y=\\frac{x}{2}$\nB. $y=-\\frac{4}{x}$\nC. $y=3x+2$\nD. $y=x^2-3$",
+    "answer": "A. $y=\\frac{x}{2}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-61",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "等腰三角形的底和腰是方程$x^2-6x+8=0$的两根，则这个三角形的周长为____\nA. 8\nB. 10\nC. 8或者10\nD. 不能确定",
+    "answer": "B. 10",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-62",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列方程中是一元一次方程的是____\nA. $1-\\frac{x}{2}=3y-2$\nB. $\\frac{1}{y}-2=y$\nC. $3x+1=2x$\nD. $3x^{2}+1=0$",
+    "answer": "C. $3x+1=2x$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-63",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "将抛物线  $y=\\frac{1}{2}x^2+1$绕原点O旋转180°，则旋转后的抛物线的解析式为____\nA. $y=-2x^2+1$\nB. $y=-2x^2-1$\nC. $y=-\\frac{1}{2}x^{2}+1$\nD. $y=-\\frac{1}{2}x^{2}-1$",
+    "answer": "D. $y=-\\frac{1}{2}x^{2}-1$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-64",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "等式$\\sqrt{x+1}\\cdot\\sqrt{x-1}=\\sqrt{x^{2}-1}$成立的条件是____\nA. x≥1\nB. x≥﹣1\nC. -1≤x≤1\nD. x≥1或x≤﹣1",
+    "answer": "A. x≥1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-65",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列算式中，你认为正确的是____\nA. $\\frac{b}{a-b}-\\frac{a}{b-a}=-1$\nB. $1\\div \\frac{b}{a}\\times\\frac{a}{b}=1$\nC. $3a^{-1}=\\frac{1}{3a}$\nD. $\\frac{1}{(a+b)^{2}}\\cdot\\frac{a^{2}-b^{2}}{a-b}=\\frac{1}{a+b}$",
+    "answer": "D. $\\frac{1}{(a+b)^{2}}\\cdot\\frac{a^{2}-b^{2}}{a-b}=\\frac{1}{a+b}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-66",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "方程$2x+1=3$的解是____\nA. $x=-1$\nB. $x=1$\nC. $x=2$\nD. $x=-2$",
+    "answer": "B. $x=1$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-67",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个多边形的内角和是720°，这个多边形是____\nA. 五边形\nB. 六边形\nC. 七边形\nD. 八边形",
+    "answer": "B. 六边形",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-68",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某校组织七年级学生外出研学， (1)班人数38人，居各班之首，(2) 班人数 30人，位居第二，且这两个班男生一共有 人参加，则下列说法一定正确的是：____\nA. (1)班女生比 (2)班男生人数多\nB. (2)班女生比 (1)班男生人数多\nC. (2)班女生比 (2)班男生人数多\nD. (1)班女生比 (1)班男生人数多",
+    "answer": "A. (1)班女生比 (2)班男生人数多",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-69",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若点 P(2,a)关于x轴的对称点为Q(b,1) ,则$(a+b)^3$的值是____\nA. -27\nB. -1\nC. 1\nD. 27",
+    "answer": "C. 1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-71",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙两个工程队共同参与一项筑路工程，甲队单独施工需90天完成．甲队先单独施工 30天，然后增加了乙队，两队又合做了 15天，总工程刚好全部完成．设乙队单独施工需x天完成．根据题意可得方程____\nA. $\\frac{45}{90}+\\frac{15}{x}=1$\nB. $\\frac{30}{90}+\\frac{15}{x}=1$\nC. $\\frac{15}{90}+\\frac{30}{x}=1$\nD. $\\frac{15}{90}+\\frac{45}{x}=1$",
+    "answer": "A. $\\frac{45}{90}+\\frac{15}{x}=1$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-72",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "方程 $x^2=2x$的解是____\nA. $x_1=x_2=0$\nB. $x_1=x_2=2$\nC. $x_{1}=0,x_{2}=2$\nD. $x_{1}=0,x_{2}=\\sqrt{2}$",
+    "answer": "C. $x_{1}=0,x_{2}=2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-73",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知0≤a-b≤1且1≤a+b≤4，则a的取值范围是____\nA. 1≤a≤2\nB. 2≤a≤3\nC. $\\frac{1}{2}$≤a≤$\\frac{5}{2}$\nD. $\\frac{3}{2}$≤a≤$\\frac{5}{2}$",
+    "answer": "C. $\\frac{1}{2}$≤a≤$\\frac{5}{2}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-74",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "去年济川中学有近1千名考生参加中考，为了了解这些考生的数学成绩，从中抽取50名考生的数学成绩进行统计分析，以下说法正确的是____\nA. 这50名考生是总体的一个样本\nB. 近1千名考生是总体\nC. 每位考生的数学成绩是个体\nD. 50名学生是样本容量",
+    "answer": "C. 每位考生的数学成绩是个体",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-75",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知点(1,m)和点(3,n)是一次函数$y=-2x+3$图象上的两个点，则m与n的大小关系是____\nA. m>n\nB. m<n\nC. m=n\nD. 以上都不对",
+    "answer": "A. m>n",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-76",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如$(x+m)$与$(x+3)$的乘积中不含x的一次项，则m的值为____\nA. -3\nB. 3\nC. 0\nD. 1",
+    "answer": "A. -3",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-77",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知∠AOB，P是任一点，过点P画一条直线与OA平行，则这样的直线____\nA. 有且仅有一条\nB. 有两条\nC. 不存在\nD. 有一条或不存在",
+    "answer": "D. 有一条或不存在",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-78",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆汽车在笔直的公路上行驶，在两次转弯后，仍在原来的方向上平行前进，那么这两次转弯的角度可以是____。\nA. 先右转80°，再左转100°\nB. 先左转80°，再右转80°\nC. 先左转80°，再右转100\nD. 先右转80°，再右转80°",
+    "answer": "B. 先左转80°，再右转80°",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-79",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "使二次根式$\\sqrt{x-2}$ 有意义的x的取值范围为____\nA. $x>2$\nB. $x\\geq 2$\nC. $x=2$\nD. $x\\neq2$",
+    "answer": "B. $x\\geq 2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-80",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "Rt 三角形ABC 中，两直角边的长分别为$3$和 $\\sqrt 3$，则其斜边上的中线长为____\nA. $sqrt 3$\nB. $2sqrt 3$\nC. $3$\nD. $6$",
+    "answer": "A. $sqrt 3$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-81",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列式子计算正确的是____\nA. $2x+3y=5x y$\nB. $3a^{2}b-5b a^{2}=-2a^{2}b$\nC. $-\\left(3x-1\\right)=-3x-1$\nD. $\\left(a-b\\right)-\\left(c-b\\right)=a-2b-c$",
+    "answer": "B. $3a^{2}b-5b a^{2}=-2a^{2}b$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-82",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于x ,y 的二元一次方程组 $\\left\\{\\begin{matrix}3x+y=1+a,\\\\ x+3y=3\\end{matrix}\\right.$的解满足$x<y$ , 则 a的取值范围是____\nA. a＞-3\nB. a＜-3\nC. a＞2\nD. a＜2",
+    "answer": "D. a＜2",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-83",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果 $\\angle A$是锐角，且$\\sin A=\\frac{1}{2}$ ，那么  $\\angle A$的度数是____\nA. 90°\nB. 60°\nC. 45°\nD. 30°",
+    "answer": "D. 30°",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-84",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若关于x的方程$\\frac{x+a}{x+3}-\\frac{2}{x+3}=0$ 有增根，则 a的值为____\nA. 2\nB. 3\nC. 4\nD. 5",
+    "answer": "D. 5",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-85",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列代数式中不是单项式的是____\nA. $-12a b$\nB. $\\frac{2}{\\pi}$\nC. $\\frac{2x-3y}{5}$\nD. $0$",
+    "answer": "C. $\\frac{2x-3y}{5}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-86",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若二次函数$y=x^2-4x+m$的图象经过A(-1,y1),B(2,y2),C(4,y3)三点，则y1、y2、y3的关系是____\nA. y1<y2<y3\nB. y3<y2<y1\nC. y3<y1<y2\nD. y2<y3<y1",
+    "answer": "D. y2<y3<y1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-87",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "$-2$的倒数是____\nA. $-2$\nB. $2$\nC. $-\\frac{1}{2}$\nD. $\\frac{1}{2}$",
+    "answer": "C. $-\\frac{1}{2}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-88",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若三角形三边分别为 a，b ，c ，且分式$\\frac{ab-ac+bc-b^2}{a-c}$的值为0 ，则此三角形一定是____\nA. 不等边三角形\nB. 腰与底边不等的等腰三角形\nC. 等边三角形\nD. 直角三角形",
+    "answer": "B. 腰与底边不等的等腰三角形",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-89",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若代数式 $\\frac{x}{x-3}$的值为零，则实数x的值为____\nA. x =0\nB. x≠0\nC. x =3\nD. x≠3",
+    "answer": "A. x =0",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-90",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "将抛物线$y=-2x^2+1$向左平移1个单位，再向下平移3个单位长度，所得的抛物线为____\nA. $y=-2(x-1)^2-2$\nB. $y=-2(x+1)^2-2$\nC. $y=-2(x-1)^2+4$\nD. $y=-2(x+1)^2+4$",
+    "answer": "B. $y=-2(x+1)^2-2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-91",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列运算中正确的是____\nA. $a^{5}+a^{5}=2a^{5}$\nB. $a^{3}a^{2}=a^{6}$\nC. $2x\\cdot3x=6x$\nD. $\\left(a^{3}\\right)^{4}=a^{7}$",
+    "answer": "A. $a^{5}+a^{5}=2a^{5}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-92",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "把方程$\\frac{x+1}{0.4}-\\frac{0.2x-1}{0.7}=1$中分母化整数，其结果应为____\nA. $\\frac{10x+1}{4}-\\frac{2x-1}{7}=1$\nB. $\\frac{10x+1}{4}-\\frac{2x-1}{7}=10$\nC. $\\frac{10x+10}{4}-\\frac{2x-10}{7}=1$\nD. $\\frac{10x+10}{4}-\\frac{2x-10}{7}=10$",
+    "answer": "C. $\\frac{10x+10}{4}-\\frac{2x-10}{7}=1$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-93",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列二次根式中的最简二次根式是____\nA. $\\sqrt{30}$\nB. $\\sqrt{12}$\nC. $\\sqrt{8}$\nD. $\\sqrt{\\frac{1}{2}}$",
+    "answer": "A. $\\sqrt{30}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-94",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "方程 $x^{2}-x+3=0$的根的情况是____\nA. 有两个不相等的实数根\nB. 有两个相等的实数根\nC. 无实数根\nD. 只有一个实数根",
+    "answer": "C. 无实数根",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-95",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "要使分式$\\frac{x}{x-1}$有意义，则x的取值范围是____\nA. $x\\neq 1$\nB. $x\\neq 0$\nC. $0<x<1$\nD. $x\\neq -1$",
+    "answer": "A. $x\\neq 1$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-96",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "为了简明扼要地说明空气中多种混合气体情况，使用的统计图最好是____\nA. 条形统计图\nB. 折线统计图\nC. 扇形统计图\nD. 频数分布直方图",
+    "answer": "C. 扇形统计图",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-97",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某工艺品车间有 20名工人，平均每人每天可制作 12个大花瓶或 10个小饰品，已知2 个大花瓶与 5个小饰品配成一套，则要安排 x名工人制作大花瓶，才能使每天制作的大花瓶和小饰品刚好配套，方程正确的是____\nA. $2\\times12\\left(x-20\\right)=5\\times10x$\nB. $2\\times12x=5\\times10\\left(20-x\\right)$\nC. $5\\times12\\left(x-20\\right)=2\\times10x$\nD. $5\\times12x=2\\times10\\left(20-x\\right)$",
+    "answer": "D. $5\\times12x=2\\times10\\left(20-x\\right)$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-98",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若 a，b 为实数，且$b=\\frac{\\sqrt{a^{2}-9}+\\sqrt{9-a^{2}}}{a+3}+4$ ，则$a+b$ 的值为____\nA. -1\nB. 1\nC. 1或7\nD. 7",
+    "answer": "D. 7",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-99",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果 $y=-x+3$，且 $x\\neq y$，那么代数式$\\frac{x^{2}}{x-y}+\\frac{y^{2}}{y-x}$的值为____\nA. $3$\nB. $-3$\nC. $\\frac{1}{3}$\nD. $-frac{1}{3}$",
+    "answer": "A. $3$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-100",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列二次根式中属于最简二次根式的是____\nA. $\\sqrt 8$\nB. $\\sqrt {\\frac{2}{3}}$\nC. $\\sqrt {14}$\nD. $\\sqrt {5x^3}$",
+    "answer": "C. $\\sqrt {14}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-101",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果一个三角形的两边长分别是2和4，则第三边可能是____\nA. 2\nB. 4\nC. 6\nD. 8",
+    "answer": "B. 4",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-102",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若点P(1-m,3 )在第二象限，则m的取值范围是____\nA. m<1\nB. m<0\nC. m>0\nD. m>1",
+    "answer": "D. m>1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-103",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "抛物线 $y=\\left(x-1\\right)^{2}+3$的顶点坐标为____\nA. (1,3)\nB. (-1,3)\nC. (-1,-3)\nD. (3,1)",
+    "answer": "A. (1,3)",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-104",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "口袋中装有形状、大小与质地都相同的红球2个，黄球1个，下列事件为随机事件的是____\nA. 随机摸出1个球，是白球\nB. 随机摸出1个球，是红球\nC. 随机摸出1个球，是红球或黄球\nD. 随机摸出2个球，都是黄球",
+    "answer": "B. 随机摸出1个球，是红球",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-105",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "比较 $-2.4$，$-0.5$,$-(-2)$,$-\\pi$  的大小，下列正确的____\nA. $-\\pi>-2.4>-\\left(-2\\right)>-0.5$\nB. $-(-2)>-\\pi>-2.4>-0.5$\nC. $-(-2)>-0.5>-2.4>-\\pi$\nD. $-\\pi>-\\left(-2\\right)>-2.4>-0.5$",
+    "answer": "C. $-(-2)>-0.5>-2.4>-\\pi$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-106",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若$x=-1$是关于 x的方程$2x+5a=3$ 的解，则 $a$的值为____\nA. $\\frac{1}{5}$\nB. 2\nC. 1\nD. -1",
+    "answer": "C. 1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-107",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "二次函数$y=(x-1)^{2}-3$ 的顶点坐标是____\nA. (1,-3)\nB. (-1,-3)\nC. (1,3)\nD. (-1,3)",
+    "answer": "A. (1,-3)",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-108",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "分式方程$\\frac{x+1}{x-1}-1=\\frac{4}{x^{2}-1}$若有增根，则增根可能是____\nA. 1\nB. -1\nC. 1或-1\nD. 0",
+    "answer": "A. 1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-109",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "﹣（﹣2019）的相反数是____\nA. $-2019$\nB. $2019$\nC. $\\frac{1}{2019}$\nD. $-\\frac{1}{2019}$",
+    "answer": "A. $-2019$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-110",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "方程$x^2+4x+1=0$的解是____\nA. $x_1=2+\\sqrt 3 ,x_2=2-\\sqrt 3$\nB. $x_1=2+\\sqrt 3 ,x_2=-2+\\sqrt 3$\nC. $x_1=-2+\\sqrt 3 ,x_2=-2-\\sqrt 3$\nD. $x_1=-2-\\sqrt 3 ,x_2=2+\\sqrt 3$",
+    "answer": "C. $x_1=-2+\\sqrt 3 ,x_2=-2-\\sqrt 3$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-111",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列命题中，真命题有____。\r\n（1）有且只有一条直线与已知直线平行 \r\n（2）垂直于同一条直线的两条直线互相垂直\r\n（3）两条直线被第三条直线所截，内错角相等\r\n（4）在平面内过一点有且只有一条直线与已知直线垂直。\nA. 一个\nB. 2个\nC. 3个\nD. 4个",
+    "answer": "A. 一个",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-112",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知二次函数$y=-(x+k)^2+h$，当x>-2时，y随x的增大而减小，则函数中k的取值范围是____\nA. $k \\geq -2$\nB. $k \\leq -2$\nC. $k \\geq 2$\nD. $k \\leq 2$",
+    "answer": "B. $k \\leq -2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-113",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "$-2$的绝对值是____\nA. $-2$\nB. $2$\nC. $\\frac{1}{2}$\nD. $-\\frac{1}{2}$",
+    "answer": "B. $2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-114",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列各式中能用完全平方公式分解因式的是____\nA. $x^2+x+1$\nB. $x^2+2x+1$\nC. $x^2+2x-1$\nD. $x^2-2x-1$",
+    "answer": "B. $x^2+2x+1$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-115",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若 $\\sqrt {x-1}$在实数范围内有意义，则x的取值范围是____\nA. x≥1\nB. x>1\nC. x≤1\nD. x≠1",
+    "answer": "A. x≥1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-116",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个等腰三角形两边的长分别为 3和 7，那么这个三角形的周长是____\nA. 10\nB. 13\nC. 17\nD. 13或17",
+    "answer": "C. 17",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-117",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列运算中，正确的是____\nA. $2x+2y=2x y$\nB. $\\left(x y\\right)^{2}\\div\\frac{1}{x y}=(x y)^{3}$\nC. $\\left(x^2y^3\\right)^2=x^4y^5$\nD. $2x y-3y x=x y$",
+    "answer": "B. $\\left(x y\\right)^{2}\\div\\frac{1}{x y}=(x y)^{3}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-118",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列函数中，一定是二次函数是____\nA. $y=ax^2 +bx+c$\nB. $y=x(-x+1)$\nC. $y=(x-1^)2-x^2$\nD. $y=\\frac{1}{x^2}$",
+    "answer": "B. $y=x(-x+1)$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-119",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "因式分解$x^{2}+m x-12=\\left(x+p\\right)\\left(x+q\\right)$，其中 m，p ，q 都为整数，则这样的m的最大值是____\nA. 1\nB. 4\nC. 11\nD. 12",
+    "answer": "C. 11",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-120",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若 $a>b$，则下列不等式变形正确的是____\nA. $a+5<b+5$\nB. $\\frac{a}{3}<\\frac{b}{3}$\nC. $-4a>-4b$\nD. $3a-2>3b-2$",
+    "answer": "D. $3a-2>3b-2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-121",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知方程组 $\\left\\{\\begin{matrix}2x+2y=k\\\\ 2x+y=1\\end{matrix}\\right.$的解满足$x-y=3$ ，则$k$ 的值为____\nA. 2\nB. -2\nC. 1\nD. -1",
+    "answer": "B. -2",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-122",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "要调查某城区七年级8000名学生对禁毒知识的了解情况，下列调查方式最合适的是____\nA. 在某校七年级学生中随机选取180名学生\nB. 在城区七年级学生中随机选取180名女生\nC. 在城区七年级学生中随机选取180名学生\nD. 在某校七年级学生中随机选取180名男生",
+    "answer": "C. 在城区七年级学生中随机选取180名学生",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-123",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "分式$\\frac{xy}{x+y}$中 x，y 的值都扩大到原来的 倍，则分式的值____\nA. 扩大到原来的9倍\nB. 不变\nC. 缩小到原来的$\\frac{1}{3}$\nD. 扩大到原来的3倍",
+    "answer": "D. 扩大到原来的3倍",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-124",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于抛物线$y=x^2-4x+4$,下列说法错误的是____\nA. 开口向上\nB. 与x轴只有一个交点\nC. 对称轴是直线x=2\nD. 当x>0时，y随x的增大而增大",
+    "answer": "D. 当x>0时，y随x的增大而增大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-125",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知∠A为锐角，且sinA=$\\frac{\\sqrt{3}}{2}$ ，那么∠A等于____\nA. 15°\nB. 30°\nC. 45°\nD. 60°",
+    "answer": "D. 60°",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-126",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列说法正确的有____个 ①同位角相等；②一条直线有无数条平行线；③在同一平面内，两条不相交的线段是平行线；④如果 a//b，b//c ，则 a//c；⑤过一点有且只有一条直线与已知直线平行\nA. 2个\nB. 3个\nC. 4个\nD. 5个",
+    "answer": "A. 2个",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-127",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知单项式 $2x^{3}y^{1+2m}$与 $3x^{n+1}y^{3}$的和是单项式，则 $m+n$的值是____\nA. -3\nB. 3\nC. 6\nD. -6",
+    "answer": "B. 3",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-128",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列语句中是命题的有____①如果两个角都等于70°，那么这两个角是对顶角;    ②三角形内角和等于180°；  ③画线段AB=3 cm．\nA. 0个\nB. 1个\nC. 2个\nD. 3个",
+    "answer": "C. 2个",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-129",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果收入3万元，记作+3万元，那么-2 万元表示____\nA. 收入2万元\nB. 支出5万元\nC. 支出2万元\nD. 利润是2万元",
+    "answer": "C. 支出2万元",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-130",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "$2020$的相反数是____\nA. $-\\frac{1}{2000}$\nB. $\\frac{1}{2000}$\nC. $2020$\nD. $-2020$",
+    "answer": "D. $-2020$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-131",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知代数式 $3x^{2}-2y+6=8$，则代数式 $\\frac{3}{2}x^{2}-y+1$的值是____\nA. 1\nB. 2\nC. 3\nD. 4",
+    "answer": "B. 2",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-132",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面是某同学在一次测验中的计算摘录：①$3a+2b=5ab$ ；②$4m^3n-5mn^3=-m^3n$ ；③ $3x^{3}\\cdot\\left(-2x^{2}\\right)=-6x^{5}$；④ $4a^{3}b\\div\\left(-2a^{2}b\\right)=-2a$；⑤$(a^3)^2=a^5$ ；⑥$\\left(-a\\right)^{2}\\div \\left(-a\\right)=-a^{2}$ ．其中正确的个数有____\nA. 1个\nB. 2个\nC. 3个\nD. 4个",
+    "answer": "B. 2个",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-133",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列说法，其中正确的结论有____①最大的负整数是-1 ；② $a$的倒数是 $\\frac{1}{a}$；③若$a$ ，$b$ 互为相反数，则$\\frac{a}{b}=-1$ ；\r\n④ $(-2)^3=-2^3$；  ⑤单项式 $-frac{2x^2y}{3}$的系数是-2 ；⑥多项式$xy^2-xy+2^4$ 是关于x y 的三次多项式.\nA. 1个\nB. 2个\nC. 3个\nD. 4个",
+    "answer": "C. 3个",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-134",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列计算结果正确的是____\nA. $\\sqrt{2}+\\sqrt{5}=\\sqrt{7}$\nB. $2\\sqrt{2}\\times2\\sqrt{3}=2\\sqrt{6}$\nC. $3\\sqrt{2}-\\sqrt{2}=3$\nD. $\\sqrt{27}\\div\\sqrt{3}=3$",
+    "answer": "D. $\\sqrt{27}\\div\\sqrt{3}=3$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-135",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若⊙P的半径为5，圆心P的坐标为（-3，4），则平面直角坐标系的原点O与⊙P的位置关系是____\nA. 在⊙P内\nB. 在⊙P上\nC. 在⊙P外\nD. 无法确定",
+    "answer": "B. 在⊙P上",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-136",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "点P(5,-4)关于 轴对称点是____\nA. (5,4)\nB. (5,-4)\nC. (4,-5)\nD. (-5,-4)",
+    "answer": "A. (5,4)",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-137",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列运算正确的是____\nA. $4a-a=3$\nB. $a^{3}-a^{2}=a$\nC. $2a b-b a=a b$\nD. $a^{2}b-a b^{2}=0$",
+    "answer": "C. $2a b-b a=a b$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-138",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某市2004年底已有绿化面积300公顷，经过两年绿化，绿化面积逐年增加，到2006年底增加到363公顷．设绿化面积平均每年的增长率为x，由题意，所列方程正确的是____\nA. $300(1+x)=363$\nB. $300(1+x)^2=363$\nC. $300(1+2x)=363$\nD. $363(1-x)^2=300$",
+    "answer": "B. $300(1+x)^2=363$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-139",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某工厂一月份生产机器100台，计划二、三月份共生产机器240台，设二、三月份的平均增长率为x,则根据题意列出方程是____\nA. $100(1+x)^2=240$\nB. $100(1+x)+100(1+x)^2=240$\nC. $100+100(1+x)+100(1+x)^2=240$\nD. $100(1-x)^2=240$",
+    "answer": "B. $100(1+x)+100(1+x)^2=240$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-140",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列各式$\\frac{a-b}{2}$ ，$\\frac{x+3}{x}$ ，$\\frac{5+y}{\\pi}$ ，$\\frac{\\sqrt 3}{4}(x^2+1)$ ，$\\frac{a+b}{a-b}$ ，$\\frac{1}{m}(x-y)$ 中，是分式的共有____\nA. 1个\nB. 2个\nC. 3个\nD. 4个",
+    "answer": "C. 3个",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-141",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "把一些图书分给某班的学习小组，如果每组分11本，则剩余1本；如果每组分12 本，则有一组少7本，设该班共有 x个学习小组，则 满足的方程是____\nA. $11x-1=12x-7$\nB. $11x+1=12x-7$\nC. $11x+1=12(x-1)-5$\nD. $11x-1=12(x-1)-5$",
+    "answer": "B. $11x+1=12x-7$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-142",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "根据等式的性质，下列变形正确的是____\nA. 如果 $2x=3$，那么 $\\frac{2x}{a}=\\frac{3}{a}$\nB. 如果$x=y$ ,那么$x-5=5-y$\nC. 如果 $x=y$，那么$-2x=-2y$\nD. 如果 $\\frac{1}{2}x=6$，那么$x=3$",
+    "answer": "C. 如果 $x=y$，那么$-2x=-2y$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-143",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "抛物线的顶点坐标为(-2，3)，开口方向和大小与抛物线$y=x^2$相同，则其解析式为____\nA. $y=(x-2)^2+3$\nB. $y=(x-2)^2-3$\nC. $y=(x+2)^2+3$\nD. $y=-(x+2)^2+3$",
+    "answer": "C. $y=(x+2)^2+3$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-144",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "据统计， 2019年安徽省常住人口数为6323.6万人.请将6323.6万用科学记数法表示为____\nA. $6.3036\\times10^3$\nB. $6.3036\\times10^4$\nC. $6.3036\\times10^7$\nD. $6.3036\\times10^8$",
+    "answer": "C. $6.3036\\times10^7$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-145",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "为调查某校九年级学生体育锻炼情况，下列调查对象最合适的____\nA. 选50名男生\nB. .选一个班级的学生\nC. 选50名女生\nD. 随机选取九年级50名学生",
+    "answer": "D. 随机选取九年级50名学生",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-146",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列现象属于平移的是____\r\n① 打气筒活塞的轮复运动，② 电梯的上下运动，③ 钟摆的摆动，④ 转动的门，\r\n⑤ 汽车在一条笔直的马路上行走\nA. ③\nB. ②③\nC. ①②④\nD. ①②⑤",
+    "answer": "D. ①②⑤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-147",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "A，B，C 三点在同一直线上，线段$AB=5cm$ ，$BC=4cm$ ，那么A ，C 两点的距离是____\nA. 1cm\nB. 9cm\nC. 1cm或9cm\nD. 以上答案都不对",
+    "answer": "C. 1cm或9cm",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-148",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "小马虎在做作业，不小心将方程中的一个常数污染了，被污染的方程是 $2(x-3)-.=x+1$ ，怎么办呢？他想了想便翻看书后的答案，方程的解是$x=9$ ，请问这个被污染的常数是____\nA. 1\nB. 2\nC. 3\nD. 4",
+    "answer": "B. 2",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-149",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列解方程的步骤正确的是____\nA. 由$2x+4=3x+1$，得$2x+3x=1+4$\nB. 由$0.5x-0.7x=5-1.3x$,得 $5x-7=5-13x$\nC. 由$\\left(x-2\\right)=2\\left(x+3\\right)$,得 $3x-6=2x+6$\nD. 由$\\frac{x-1}{2}-\\frac{x+2}{6}=2$,得 $2x-2-x+2=12$",
+    "answer": "C. 由$\\left(x-2\\right)=2\\left(x+3\\right)$,得 $3x-6=2x+6$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-150",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果$\\sqrt {(2a-1)^2}=1-2a$，则____\nA. $a< \\frac{1}{2}$\nB. $a \\leq\\frac{1}{2}$\nC. $a> \\frac{1}{2}$\nD. $a \\geq \\frac{1}{2}$",
+    "answer": "B. $a \\leq\\frac{1}{2}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-151",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列二次根式中，是最简二次根式的是____\nA. $\\sqrt {17}$\nB. $\\sqrt {27}$\nC. $\\sqrt {\\frac{1}{2}}$\nD. $\\sqrt {a^2}$",
+    "answer": "A. $\\sqrt {17}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-152",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "将二次函数$y=x^2-4x+1$ 化成 $y=a(x-h)^2+k$的形式为____\nA. $y=\\left(x-4\\right)^2+1$\nB. $y=(x-4)^2-3$\nC. $y=(x-2)^2-3$\nD. $y=(x+2)^2-3$",
+    "answer": "C. $y=(x-2)^2-3$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-153",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某超市为了吸引顾客，设计了一种返现促销活动：在一个不透明的箱子里放有4个相同的小球，球上分别标有“0元”、“10元”、“20元”、“30元”的字样。规定：顾客在本超市一次性消费满200元，就可以在箱子里一次性摸出两个小球，两球数字之和即为返现金额。某顾客刚好消费200元，则该顾客所获得返现金额不低于30元的概率是____\nA. $\\frac{3}{4}$\nB. $\\frac{2}{3}$\nC. $\\frac{1}{2}$\nD. $\\frac{1}{3}$",
+    "answer": "B. $\\frac{2}{3}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-154",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算$0.25^{2013}\\times4^{2015}$____\nA. 1\nB. 8\nC. 16\nD. 2",
+    "answer": "C. 16",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-155",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若单项式$x^my^2$ 与$-2x^3y^n$ 的和仍是单项式，则$n^m$的值为____\nA. -8\nB. -9\nC. 9\nD. 8",
+    "answer": "D. 8",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-156",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列各式中正确的是____\nA. $\\sqrt{(-7)^{2}}=-7$\nB. $\\sqrt{9}=\\pm3$\nC. $(-\\sqrt{2})^{2}=4$\nD. $\\sqrt{48}-\\sqrt{3}=3\\sqrt{3}$",
+    "answer": "D. $\\sqrt{48}-\\sqrt{3}=3\\sqrt{3}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-157",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有下面的说法：①全等三角形的形状相同；②全等三角形的对应边相等；③全等三角形的对应角相等；④全等三角形的周长、面积分别相等．其中正确的说法有____\nA. 1个\nB. 2个\nC. 3个\nD. 4个",
+    "answer": "D. 4个",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-158",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "点A(a,4) 、点B(3,b) 关于 轴对称，则$(a+b)^{2010}$ 的值为____\nA. 0\nB. -1\nC. 1\nD. $7^{2010}$",
+    "answer": "C. 1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-159",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在平面直角坐标系中，点A(-4,-2)关于轴对称的点的坐标是____\nA. (-4,2)\nB. (4,-2)\nC. (4,2)\nD. (-2,4)",
+    "answer": "B. (4,-2)",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-160",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "4的平方根是____\nA. $2$\nB. $-2$\nC. $\\pm 2$\nD. $16$",
+    "answer": "C. $\\pm 2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-161",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在下列运算中，正确的是____\nA. $(x-y)^2=x^2-y^2$\nB. $(a+2)(a-3)=a^2-6$\nC. $(a+2b)^2=a^2+4ab+4b^2$\nD. $(2x-y)(2x+y)=2x^2-y^2$",
+    "answer": "D. $(2x-y)(2x+y)=2x^2-y^2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-162",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "新型冠状肺炎疫情正在全球蔓延肆虐，口罩成了人们生活中必不可少的物品，某口罩厂有26 名工人，每人每天可以生产800 个口罩面或 1000个口罩耳绳．一个口罩面需要配两个耳绳，为使每天生产的口罩面和口罩耳绳刚好配套，设安排 $x$名工人生产口罩面，则下面所列方程正确的是____\nA. $2\\times1000\\left(26-x\\right)=800x$\nB. $1000\\left(13-x\\right)=2\\times800x$\nC. $1000\\left(26-x\\right)=2\\times800x$\nD. $1000\\left(26-x\\right)=800x$",
+    "answer": "C. $1000\\left(26-x\\right)=2\\times800x$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-163",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "化简$\\frac{m^2-3m}{9-m^2}$的结果是____\nA. $\\frac{m}{m+3}$\nB. $-\\frac{m}{m+3}$\nC. $\\frac{m}{m-3}$\nD. $\\frac{m}{3-m}$",
+    "answer": "B. $-\\frac{m}{m+3}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-164",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若 a，b 互为倒数，则 -4ab的值为____\nA. -4\nB. -1\nC. 1\nD. 0",
+    "answer": "A. -4",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-165",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "平面直角坐标系中，直线 $y=-\\frac{1}{2}x+2$和x、y轴交于A、B两点，在第二象限内找一\t点P，使△PAO和△AOB相似的三角形个数为____\nA. 2\nB. 3\nC. 4\nD. 5",
+    "answer": "C. 4",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-166",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "$\\sqrt4$的平方根是____\nA. $2$\nB. $\\pm2$\nC. $\\sqrt 2$\nD. $\\pm \\sqrt 2$",
+    "answer": "D. $\\pm \\sqrt 2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-167",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一元二次方程$x^2+px-2=0$的一个根为-1，则p的值为____\nA. 1\nB. 2\nC. -1\nD. -2",
+    "answer": "C. -1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-168",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列正比例函数中， y的值随着x值的增大而减小的是____\nA. $y=0.2x$\nB. $y=\\left(\\sqrt{2}-\\sqrt{3}\\right)x$\nC. $y=\\frac{1}{5}x$\nD. $y=2x$",
+    "answer": "B. $y=\\left(\\sqrt{2}-\\sqrt{3}\\right)x$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-169",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知 $\\frac{1}{a}-\\frac{1}{b}=\\frac{1}{2}$，则$\\frac{a b}{a-b}$的值是____\nA. $\\frac{1}{2}$\nB. $-\\frac{1}{2}$\nC. $2$\nD. $-2$",
+    "answer": "D. $-2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-170",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知 $a^{2}-5=2a$，代数式$\\left(a-2\\right)^{2}+2\\left(a+1\\right)$ 的值为____\nA. -11\nB. -1\nC. 1\nD. 11",
+    "answer": "D. 11",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-171",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "以下命题：①直径相等的圆是等圆；②长度相等弧是等弧；③相等的弦所对的弧也相等；④圆的对称轴是直径；其中正确的个数是____\nA. 4\nB. 3\nC. 2\nD. 1",
+    "answer": "D. 1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-172",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一元二次方程$2x^2+3x+1=0$的根的情况是____\nA. 有两个相等的实数根\nB. 有两个不相等的实数根\nC. 没有实数根\nD. 无法确定",
+    "answer": "B. 有两个不相等的实数根",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-173",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在下列所给出坐标的点中，在第二象限的是____\nA. (2,3)\nB. (-2,3)\nC. (-2,-3)\nD. (2,3)",
+    "answer": "B. (-2,3)",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-174",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列各组数据中不能构成直角三角形三边长的是____\nA. 0.7,2.4,2.5\nB. 3,4,5\nC. 2,3,4\nD. 1,$\\sqrt 2$, $\\sqrt 3$",
+    "answer": "C. 2,3,4",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-175",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "$|-2020|$的倒数是____\nA. $2020$\nB. $\\frac{1}{2020}$\nC. $-\\frac{1}{2020}$\nD. $-2020$",
+    "answer": "B. $\\frac{1}{2020}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中数学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_mathematics-test-176",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  }
+]

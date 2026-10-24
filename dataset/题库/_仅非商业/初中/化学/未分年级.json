@@ -1,0 +1,3058 @@
+[
+  {
+    "question_text": "物质的性质决定物质的用途，下列物质的用途与化学性质相关的是____\nA. 铜丝用作导线\nB. 金刚石用于切割玻璃\nC. 干冰用于人工降雨\nD. 熟石灰用于改良酸性土壤",
+    "answer": "D. 熟石灰用于改良酸性土壤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-0",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "化学与生产、生活密切相关，下列说法错误的是____\nA. 人体缺碘会引起贫血\nB. 碳酸氢铵（$NH_4HCO_3$）是一种氮肥\nC. 炒菜时油锅着火，用锅盖盖灭\nD. 铁制品表面刷漆可防止生锈",
+    "answer": "A. 人体缺碘会引起贫血",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-1",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "空气是人类生存所必需的重要资源，空气中最多的气体是____\nA. $\\text{N}_2$\nB. $\\text{O}_2$\nC. $\\text{CO}_2$\nD. $\\text{H}_2 \\text{O}$",
+    "answer": "A. $\\text{N}_2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-2",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "推理是学习化学的重要方法之一，但盲目地类摧又可能得出错误结论。下列类推正确的是____\nA. 硫和氧气的反应既是氧化反应也是化合反应，则物质和氧气的反应均是化合反应\nB. 一般情况下，合金的熔点和硬度都比组成合金的纯金属的高\nC. 碱的溶液能使酚酞溶液变红，但能使酚酞溶液变红的溶液不一定是碱的溶液\nD. 锌能与稀硫酸反应放出氢气，则铜也能与稀硫酸反应放出氢气",
+    "answer": "C. 碱的溶液能使酚酞溶液变红，但能使酚酞溶液变红的溶液不一定是碱的溶液",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-3",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2022年2月4日，北京冬奥会火炬首次采用“绿氢”作为火炬燃料，其储存采用了高压储气的方式。下列关于该储气过程的说法正确的是____\nA. 氢分子的体积变小\nB. 氢分子的质量变小\nC. 氢分子的数目变少\nD. 氢分子间的间隔变小",
+    "answer": "D. 氢分子间的间隔变小",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-4",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "化学与环境保护、人体键康息息相关。下列叙述错误的是____\nA. 天然气是比较清洁的化石燃料\nB. 研发高效低毒农药有助于保障粮食安全\nC. 生活污水集中处理达标后排放\nD. 蒸煮能完全清除霉变食物中的有害物质",
+    "answer": "D. 蒸煮能完全清除霉变食物中的有害物质",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-5",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2022年6月5日是第51个世界环境日，中国主题为“共建清洁美丽世界”，下列措施与该主题不相符的是____\nA. 绿色出行，积极践行“低碳生活”\nB. 用布袋代替塑料袋，减少“白色污染”\nC. 植树造林，努力营造“绿水青山”\nD. 大量开采利用化石燃料，缓解“能源危机”",
+    "answer": "D. 大量开采利用化石燃料，缓解“能源危机”",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-6",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列成语中不涉及化学变化的是____\nA. 星火燎原\nB. 披荆斩棘\nC. 死灰复燃\nD. 百炼成钢",
+    "answer": "B. 披荆斩棘",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-7",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "逻辑推理是学习化学常用的思维方法，下列推理正确的是____\nA. 物质燃烧都能放热，能放热的化学反应都是燃烧\nB. 有机化合物都含有碳元素，则含有碳元素的化合物都是有机物\nC. 碱性溶液可以使石蕊溶液变蓝，则能使石蕊溶液变蓝的溶液都显碱性\nD. 中和反应生成盐和水，则生成盐和水的反应都是中和反应",
+    "answer": "C. 碱性溶液可以使石蕊溶液变蓝，则能使石蕊溶液变蓝的溶液都显碱性",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-8",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "$Na_2CO_3$俗称纯碱，侯德榜为纯碱工业的发展做出了杰出贡献。$Na_2CO_3$属于____\nA. 氧化物\nB. 盐\nC. 有机物\nD. 混合物",
+    "answer": "B. 盐",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-9",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关溶液的说法正确的是____\nA. 均一、稳定的液体一定是溶液\nB. 洗涤剂能洗去衣服上的油污，原因是洗涤剂具有溶解作用\nC. 溶液中的溶质可以是固体、液体或气体\nD. 实验室利用氯化钠固体和水配制50g质量分数为6%的氯化钠溶液的步骤是：计算、量取、溶解、贮存",
+    "answer": "C. 溶液中的溶质可以是固体、液体或气体",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-10",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "将100mL水与100mL酒精混合，所得溶液体积小于200mL。下列对此现象的解释最合理的是____\nA. 分子是由原子构成的\nB. 分子的质量和体积都是很小的\nC. 分子是不断运动的\nD. 分子间是有间隔的",
+    "answer": "D. 分子间是有间隔的",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-11",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某同学用pH计测得生活中一些物质的pH值如下、其中酸性最强的是____\nA. 肥皂水pH：10.2\nB. 料酒pH：6.5\nC. 西瓜汁pH：5.8\nD. 苹果汁pH：2.4",
+    "answer": "D. 苹果汁pH：2.4",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-12",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "为了探究某稀盐酸中溶质的质量分数，甲、乙两同学分别取溶质质量分数相等的稀盐酸100g，甲同学向其中加入氧化铜8g，反应结束后观察到固体全部消失；乙同学向其中加入氧化铜16g，反应结束后观察到固体有剩余。下列有关实验的推断正确的是____\nA. 反应后乙同学所得溶液中一定包含盐酸\nB. 反应后向甲同学所得的溶液中滴加少量氢氧化钠溶液，一定会有蓝色沉淀生成\nC. 反应后甲、乙两同学所得的溶液中溶质的质量分数可能相等\nD. 原稀盐酸中溶质的质量分数一定大于7.3%小于14.6%",
+    "answer": "C. 反应后甲、乙两同学所得的溶液中溶质的质量分数可能相等",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-13",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "垃圾分类已成为新时尚。下列物质应该放入可回收垃圾箱的是____\nA. 矿泉水瓶\nB. 果皮\nC. 废电池\nD. 废口罩",
+    "answer": "A. 矿泉水瓶",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-14",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "疫情期间，教室喷洒“84消毒液”进行消毒时，可闻到刺鼻的气味，说明了____\nA. 分子数目变大\nB. 分子之间有间隔\nC. 分子在不断运动\nD. 反应生成新物质",
+    "answer": "C. 分子在不断运动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-15",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列化学用语既能表示一种元素，又能表示一个原子，还能表示一种物质的是____\nA. O\nB. Cu\nC. N\nD. $CO_2$",
+    "answer": "B. Cu",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-16",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "治疗胃酸过多药物铝碳酸镁片[主要成分$Al_2Mg_6(OH)_{16}CO_3·4H_2O$]不能长期服用，是因为其中含有人体非必需元素____\nA. Mg\nB. Hg\nC. C\nD. Al",
+    "answer": "D. Al",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-18",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列现象的微观解释中，不正确的是____\nA. 食物腐败----分子性质发生变化\nB. 热胀冷缩----分子大小随温度变化而变化\nC. 夏天炎热，自行车易爆胎-----温度升高，分子间的间隔变大\nD. 缉毒犬可以嗅出毒品藏匿处----分子不停地运动",
+    "answer": "B. 热胀冷缩----分子大小随温度变化而变化",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-val-19",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "物质的俗名与化学式相对应正确的是____\nA. 生石灰：$CaCO_3$\nB. 熟石灰：$Ca（OH）_2$\nC. 烧碱：$Na_2CO_3$\nD. 纯碱：$NaOH$",
+    "answer": "B. 熟石灰：$Ca（OH）_2$",
+    "solution": "1. 生石灰是$CaO$的俗名、熟石灰是$Ca(OH)_2$的俗名、烧碱是$NaOH$的俗名、纯碱是$Na_2CO_3$的俗名。\n2. 对照选项和俗名对应的化学式，可知选项B是正确的。",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-dev-0",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列现象，用分子的相关知识解释不正确的是____\nA. 石油气经加压后贮存在钢罐中，说明分子间有间隔\nB. 水汽化后，水蒸气体积变大，说明分子的大小发生了改变\nC. 湿衣服晾在太阳底下干得快，说明分子运动速率与温度有关\nD. 水在通电情况下分解成氢气和氧气，说明分子在化学变化中可分",
+    "answer": "B. 水汽化后，水蒸气体积变大，说明分子的大小发生了改变",
+    "solution": "1. 分析选项：气体分子之间的距离相对较大，加压后间隔会变小，(A)选项正确。\n2. 水分子在液态和气态下大小是相同的，水蒸气体积变大是因为分子间的相互作用力减弱，分子之间的距离增大，(B)选项错误。\n3. 温度升高会增加分子的平均动能，从而加快了水分子的蒸发速度，(C)选项正确。\n4. 在电解水反应中，分子发生化学键的断裂和形成，从而产生新的分子，(D)选项正确。",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-dev-1",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "取一定量的氧化铁与氧化铜的混合物，加入溶质质量分数为9.8%的稀硫酸100g，恰好完全反应生成盐和水.原混合物中氧元素的质量是____\nA. 6.4g\nB. 3.2g\nC. 1.8g\nD. 1.6g",
+    "answer": "D. 1.6g",
+    "solution": "1. 首先，我们需要知道氧化铁和氧化铜与稀硫酸反应的化学方程式：$Fe_2O_3 + 3H_2SO_4 → Fe_2(SO_4)_3 + 3H_2O$；$CuO + H_2SO_4 → CuSO_4 + H_2O$。根据题目描述，这两个反应都发生了，且完全反应。\n2. 其次，分析化学方程式可知氧化物中氧元素全部转变为水中的氧元素。\n3. 接着，我们需要计算生成的水的质量。设生成水的质量是x g：由方程式可以看出硫酸与生成水的关系为$\\frac{98}{100 \\times 8\\%}=\\frac{18}{x}$,解得x=1.8 g,所以水中氧元素的质量为：$1.8 g \\times \\frac{16}{18}=1.6 g$。",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-dev-2",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "百合具有润肺止咳、养颜美容等功效，百合中含有秋水仙碱，其化学式为$C_{22}H_{25}NO_6$，下列说法中正确的是____\nA. 秋水仙碱由碳、氢、氧三种元素组成\nB. 一个秋水仙碱分子由22个碳原子、25个氢原子、1个氮原子和3个氧分子构成\nC. 秋水仙碱分子中碳、氢、氮、氧原子个数比为22：25：1：6\nD. 秋水仙碱中氢元素的质量分数最大",
+    "answer": "C. 秋水仙碱分子中碳、氢、氮、氧原子个数比为22：25：1：6",
+    "solution": "1. 首先，我们需要了解秋水仙碱的化学式$C_{22}H_{25}NO_6$，其中$C$表示碳，$H$表示氢，$N$表示氮，$O$表示氧。\n2. 其次，我们需要根据化学式计算出秋水仙碱分子中各元素的质量比。根据化学式，碳元素的质量为：12×22=264；氢元素的质量为1×25=25；氮元素的质量为14；氧元素的质量为16×6=96。\n3. 然后，我们需要判断哪个选项正确。选项A中只提到了碳、氢、氧三种元素，没有提到氮元素；选项B中的氧原子个数不正确；选项C中的原子个数比与实际比例一致；选项D中认为氢元素的质量分数最大，但实际上是碳元素最大。",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-dev-3",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关实验现象的描述正确的是____\nA. 硫在氧气中燃烧发出淡蓝色火焰\nB. 无色酚酞试液遇稀盐酸变成红色\nC. 硫酸铜溶液和氢氧化钠溶液反应会产生蓝色沉淀\nD. 红磷在空气中燃烧产生白雾",
+    "answer": "C. 硫酸铜溶液和氢氧化钠溶液反应会产生蓝色沉淀",
+    "solution": "1. 分析选项：(A) 硫在氧气中燃烧发出的火焰是蓝紫色的，”淡蓝色火焰“错误。(B) 稀盐酸显酸性，遇无色酚酞溶液不变色，”变成红色“错误；(C) 硫酸铜溶液和氢氧化钠溶液反应会产生蓝色沉淀是正确的，产生的蓝色沉淀是氢氧化铜；(D) 红磷在空气中燃烧产生大量白烟，”白雾“错误。",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-dev-4",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "垃圾分类投放已成为新时尚。下列四种生活垃圾不能投放到可回收垃圾桶内的是____\nA. 玻璃啤酒瓶\nB. 废弃水果皮\nC. 塑料饮料瓶\nD. 废旧报纸",
+    "answer": "B. 废弃水果皮",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-0",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "嫦娥五号执行的下列探月任务一定涉及化学变化的是____\nA. 漫步月面\nB. 采集月壤\nC. 展示国旗\nD. 点火返航",
+    "answer": "D. 点火返航",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-1",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关氧气的说法中，正确的是____\nA. 鱼类能在水中生存，说明氧气易溶于水\nB. 焊接或切割金属时使用空气而不是纯氧以获得更高的温度\nC. 植物的光合作用是减少空气中二氧化碳气体含量的唯一方法\nD. 研究表明纯氧会使人中毒，所以医疗急救中使用的氧气不是纯氧",
+    "answer": "D. 研究表明纯氧会使人中毒，所以医疗急救中使用的氧气不是纯氧",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-2",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "二百多年前，利用定量的方法研究了空气成分的法国化学家是____\nA. 侯德榜\nB. 屠呦呦\nC. 门捷列夫\nD. 拉瓦锡",
+    "answer": "D. 拉瓦锡",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-3",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "物质分类是学习化学的基础，下列物质中属于氧化物的是____\nA. 氧气\nB. 氧化汞\nC. 高锰酸钾\nD. 氯化钠溶液",
+    "answer": "B. 氧化汞",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-4",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列过程中发生了化学变化的是____\nA. 光合作用\nB. 酒精挥发\nC. 摩擦生热\nD. 湿衣晾干",
+    "answer": "A. 光合作用",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-5",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "世卫组织(WHO)发表声明称，地塞米松($C_{22}H_{29}FO_3$)可挽救新冠肺炎重症患者生命。下列关于地塞米松的说法正确的是____\nA. 地塞米松属于氧化物\nB. 地塞米松由 4 种元素组成\nC. 地塞米松中碳、氧元素的质量比为 22：3\nD. 地塞米松中氢元素的质量分数最大",
+    "answer": "B. 地塞米松由 4 种元素组成",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-7",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列变化属于化学变化的是____\nA. 石蜡熔化\nB. 谷物酿酒\nC. 蔗糖溶解\nD. 酒精挥发",
+    "answer": "B. 谷物酿酒",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-8",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关说法正确的是____\nA. 高钙豆奶粉中的“钙”指的是单质\nB. 化学反应伴随着能量变化，燃料燃烧时一定放出热量\nC. 洗涤剂能洗掉餐具上的油污，因为洗涤剂能溶解油污形成溶液\nD. 金刚石、石墨和$\\text{C}_60$都是由碳原子构成的单质，它们的结构不同但性质相同",
+    "answer": "B. 化学反应伴随着能量变化，燃料燃烧时一定放出热量",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-9",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于氧气的说法中，不正确的是____\nA. 液氧用于火箭发射是利用氧气的可燃性\nB. 氧气不易溶于水\nC. 实验室可用加热高锰酸钾的方法制取氧气\nD. 氧气可用于医疗急救",
+    "answer": "A. 液氧用于火箭发射是利用氧气的可燃性",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-10",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "江西物产丰富。下列食品中最适宜在出现头晕等低血糖症状时食用的是____\nA. 南昌瓦罐汤\nB. 安福火腿\nC. 丰城冻米糖\nD. 临川菜梗",
+    "answer": "C. 丰城冻米糖",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-11",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列各组离子在pH大于7的溶液中，能大量共存的是____\nA. $H^{+}$、$\\text{Ba}^{2+}$、$\\text{NO}_3^-$、$\\text{CO}_3^{2-}$\nB. $\\text{Mg}^{2+}$、$K^{+}$、$\\text{NO}_3^-$、$Cl^{-}$\nC. $Na^{+}$、$\\text{Ba}^{2+}$、$\\text{HCO}_3^{-}$、$\\text{SO}_4^{2-}$\nD. $Na^{+}$、$\\text{Ba}^{2+}$、$OH^{-}$、$Cl^{-}$",
+    "answer": "D. $Na^{+}$、$\\text{Ba}^{2+}$、$OH^{-}$、$Cl^{-}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-12",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在推断实验室无色废液的成分时，四位同学得出了四种结论，其中可能合理的是____\nA. NaCl、$\\text{Cu}\\text{SO}_4$、$\\text{Na}\\text{NO}_3$\nB. NaCl、$\\text{K}_2 \\text{SO}_4$、NaOH\nC. HCl、NaOH、$\\text{Ca}\\text{Cl}_2$\nD. $\\text{K}_2 \\text{CO}_3$、$\\text{K}\\text{NO}_3$、$\\text{Ba}\\text{Cl}_2$",
+    "answer": "B. NaCl、$\\text{K}_2 \\text{SO}_4$、NaOH",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-13",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "把金属X放入$\\text{Cu}(\\text{NO}_3)_2$溶液中，X表面有红色固体析出；若放入$\\text{Mg}(\\text{NO}_3)_2$溶液中，无明显现象。则X、Cu、Mg三种金属活动性由强到弱的顺序正确的是 ____\nA. Mg、X、Cu\nB. X、Mg、Cu\nC. Mg、Cu、X\nD. Cu、X、Mg",
+    "answer": "A. Mg、X、Cu",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-14",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于浓盐酸的说法错误的是____\nA. 易挥发\nB. 有腐蚀性\nC. 有较强吸水性\nD. 密度比水大",
+    "answer": "C. 有较强吸水性",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-15",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某实验需要12.6g食盐，小华称量后发现指针向右偏转，他应进行的操作是____\nA. 向左调节平衡螺母\nB. 向左调节游码\nC. 添加适量食盐\nD. 去除适量食盐",
+    "answer": "C. 添加适量食盐",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-16",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2022年“世界环境日“的主题是“共建清洁美丽世界”，下列做法对人类的生存环境会遭成危害的是____\nA. 不随意丢弃旧电池\nB. 工业废水处理达标后再排放\nC. 加大使用农药和化肥，提高农业产量\nD. 大力植树造林，严禁乱砍滥伐森林S",
+    "answer": "C. 加大使用农药和化肥，提高农业产量",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-17",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "把相同质量、相同溶质质量分数的稀盐酸分别加入盛有X、Y、Z三种金属的试管中，只有Z始终无明显变化们X、Y表面都有气泡产生，但是Y产生气泡的速度明显比X的快。这三种金属的活动性顺序是____\nA. X>Y>Z\nB. X>Z>Y\nC. Z>Y>X\nD. Y>X>Z",
+    "answer": "D. Y>X>Z",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-18",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "化学与生产生活密切相连?下列说法正确的是____\nA. 室内着火，应立即打开门窗，让风吹灭火焰\nB. 铵态氮肥与熟石灰混合使用可以提高肥效\nC. 使用新型可降解塑料，可减少白色污染\nD. $H_2$是一种清洁高效的燃料，点燃时无需验纯",
+    "answer": "C. 使用新型可降解塑料，可减少白色污染",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-19",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一些饮品的 pH 范围如下，其中呈碱性的是____\nA. 柠檬汁（2.0~3.0）\nB. 咖啡（4.5~5.5）\nC. 西瓜汁（5.2~6.2）\nD. 苏打水（7.7~9.0）",
+    "answer": "D. 苏打水（7.7~9.0）",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-20",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "20℃时，NaCl的溶解度为36g。配制此温度下20g质量分数为5%的NaCl溶液，下列说法正确的是____\nA. 配制该溶液需要5g NaCl\nB. 该溶液为饱和溶液\nC. 将该溶液长时间敞口放置，最终有晶体析出\nD. 配溶液时，量取所需体积的水倒入烧杯，有少量水洒出，则所配溶液浓度小于5%",
+    "answer": "C. 将该溶液长时间敞口放置，最终有晶体析出",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-21",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于氧气的说法不正确的是____\nA. 氧气在低温、高压时能变成液体或固体\nB. 铁丝伸入盛有氧气的集气瓶中剧烈燃烧，火星四射\nC. 用带火星的木条可以检验氧气\nD. 空气中的氧气分子和氮气分子均匀地混合在一起",
+    "answer": "B. 铁丝伸入盛有氧气的集气瓶中剧烈燃烧，火星四射",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-22",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "为了防控新冠肺炎疫情，需要养成勤消毒的卫生习惯，常用的消毒液是体积分数为 75%的酒精溶液，下列有关酒精溶液的说法不正确的是____\nA. 属于混合物\nB. 溶质是酒精，溶剂是水\nC. 喷洒时能闻到气味，说明分子在不断运动\nD. 静置时会分层",
+    "answer": "D. 静置时会分层",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-24",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于过氧化氢（$\\text{H}_2 \\text{O}_2$）的说法正确的是____\nA. 过氧化氢由氢分子和氧分子构成的\nB. 过氧化氢由氢原子和氧原子构成的\nC. 过氧化氢的摩尔质量是34\nD. 过氧化氢中氢、氧原子物质的量比为1：1",
+    "answer": "D. 过氧化氢中氢、氧原子物质的量比为1：1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-25",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "以下食谱描述正确的是____\nA. 蔬菜富含维生素\nB. 瘦肉富含糖类\nC. 米饭富含蛋白质\nD. 鸡蛋富含淀粉",
+    "answer": "A. 蔬菜富含维生素",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-26",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "科学家发现半胱氨酸能增强艾滋病毒感染者的免疫力。已知半胱氨酸的分子化学式为$C_3H_7NSO_2$。下列说法错误的是____\nA. 一个半胱氨酸分子由14个原子构成\nB. 半胱氨酸的相对分子质量为121\nC. 半胱氨酸由5种元素组成\nD. C、H、N、S、O元素的质量比为3：7：1：1：2",
+    "answer": "D. C、H、N、S、O元素的质量比为3：7：1：1：2",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-27",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关化学史的叙述错误的是____\nA. 汤姆森发现电子\nB. 卢瑟福发现原子核\nC. 门捷列夫编制了元素周期表\nD. 拉瓦锡发现酸碱指示剂",
+    "answer": "D. 拉瓦锡发现酸碱指示剂",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-28",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "实验室用NaCl固体配制50g15%NaCl溶液。下列仪器一般不需要用到的是____\nA. 烧杯\nB. 玻璃棒\nC. 酒精灯\nD. 托盘天平",
+    "answer": "C. 酒精灯",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-29",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关水的说法正确的是____\nA. 水是取之不尽、用之不竭的资源\nB. 自来水厂净水过程中，必须有蒸馏步骤\nC. 硬水中加入肥皂水并振荡后，会出现大量浮渣\nD. 为节约水资源，提倡直接用工业废水浇灌农田",
+    "answer": "C. 硬水中加入肥皂水并振荡后，会出现大量浮渣",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-30",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列的物质性质和用途，有直接联系的是____\nA. 浓硫酸有腐蚀性，在实验室中可用作干燥剂\nB. 熟石灰溶于水呈碱性，可用于改良酸性土壤\nC. 碳酸氢铵受热易分解，可用作化肥\nD. 金刚石无色透明，可用于制作钻头",
+    "answer": "B. 熟石灰溶于水呈碱性，可用于改良酸性土壤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-31",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列实验现象描述正确的是____\nA. 将明矾加入浑浊的井水中，静置，井水变澄清\nB. 碳在空气中燃烧，生成了二氧化碳气体\nC. 一氧化碳燃烧时，放出大量的热，火焰呈黄色\nD. 在氢氧化钠溶液中滴入几滴酚酞溶液，溶液不变色",
+    "answer": "A. 将明矾加入浑浊的井水中，静置，井水变澄清",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-32",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列对历史上几项重要化学研究成果的介绍错误的是____\nA. 波义耳发现了质量守恒定律\nB. 居里夫妇发现了钋和镭\nC. 门捷列夫发表了元素周期表\nD. 侯德榜创新了纯碱制法",
+    "answer": "A. 波义耳发现了质量守恒定律",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-33",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某化学反应的化学方程式为aA+bB= cC+dD，下列说法正确的是____\nA. a+b一定等于c+d\nB. 若B、D是化合物，该反应一定是置换反应\nC. a : b一定等于c : d\nD. 该反应一定不是化合反应",
+    "answer": "D. 该反应一定不是化合反应",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-34",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2011年3月，日本福岛发生了核泄漏事故，核电站泄漏出来的放射性物质中含有铯—137，过量摄入铯—137会使人的造血系统和神经系统受到损伤。已知铯—137的质子数为55，中子数为82，下列有关铯—137的说法正确的是 ____\nA. 铯—137原子的核外电子数为82\nB. 铯—137的相对原子质量为137 g\nC. 铯—137原子的核电荷数为55\nD. 铯—137属于非金属元素",
+    "answer": "C. 铯—137原子的核电荷数为55",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-35",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列活动中发生了化学变化的是____\nA. 堆雪人\nB. 放烟花\nC. 捏泥人\nD. 剪窗花",
+    "answer": "B. 放烟花",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-36",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "化学肥料是农作物的“粮食”。下列关于化学肥料的说法正确的是____\nA. 尿素($CO(NH_2)_2$)属于复合肥料\nB. 大量施用化肥以提高农作物产量\nC. 化肥的过度使用会造成土壤酸化，可用熟石灰改良\nD. 棉花叶片枯黄，应施用硫酸钾等钾肥",
+    "answer": "C. 化肥的过度使用会造成土壤酸化，可用熟石灰改良",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-37",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列日常生活中的变化，属于化学变化的是____\nA. 燃放烟花\nB. 冰雪融化\nC. 西瓜榨汁\nD. 蔗糖溶解",
+    "answer": "A. 燃放烟花",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-38",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "化学与生活息息相关，日常生活中的下列做法不正确的是____\nA. 饮料瓶应放入可回收垃圾桶\nB. 室内发生大火应立即打开窗户求救\nC. 青少年应多晒晒太阳利于补钙\nD. 用活性炭可除去冰箱中的异味",
+    "answer": "B. 室内发生大火应立即打开窗户求救",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-39",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "党的十八大以来，以习近平同志为核心的党中央提出全面推进农村人居环境整治，建设生态宜居的美丽乡村。下列做法与建设美丽乡村理念不相符的是____\nA. 固体垃圾直接倒入江河\nB. 农业上合理使用化肥和农药\nC. 进行农户厕所污水、厨房污水、洗涤污水的有效治理\nD. 植树造林，发展农业经济",
+    "answer": "A. 固体垃圾直接倒入江河",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-40",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "生活中区分硬水和软水常用的试剂是____\nA. 食盐水\nB. 稀盐酸\nC. 蔗糖水\nD. 肥皂水",
+    "answer": "D. 肥皂水",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-42",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国科学家最近成功合成了世界上首个全氮阴离子盐(化学式为$H_{25}N_{34}O_3Cl$),该物质是超高能材料，在航空航天上可做推进剂。下列有关该物质的说法正确的是____\nA. 属于有机物\nB. 由四种非金属元素组成\nC. $H_{25}N_{34}O_3Cl$中原子总数为62\nD. 氢、氮、氧、氯的原子个数比为1:7:8:17",
+    "answer": "B. 由四种非金属元素组成",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-43",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列物质中，属于纯净物的是____\nA. 洁净的空气\nB. 水泥砂浆\nC. 液氮\nD. 汽水",
+    "answer": "C. 液氮",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-44",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "植物生长过程中，若出现叶片发黄，应施加的化肥是____\nA. $K_2SO_4$\nB. $Ca_3(PO_4)_2$\nC. $CO(NH_2)_2$\nD. KCl",
+    "answer": "C. $CO(NH_2)_2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-45",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "地壳中和人体中含量最多的元素是____\nA. 氧\nB. 硅\nC. 铝\nD. 铁",
+    "answer": "A. 氧",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-46",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“宏观辨识与微观探析”是化学的核心素养之一，对下列生产生活中的现象的微观解释不正确的是____\nA. “家的味道，就是一进门那熟悉的饭菜香味”是因为分子在不断地运动\nB. “酸、苦、甘、辛、咸”，不同的食品给我们不同的味觉，是因为物质不同，构成物质的微粒不同，性质不同\nC. “5L黄豆和5L芝麻均匀混合，体积小于10L”，是因为分子之间有间隔\nD. “沁人心脾的花香”可以感受得到却看不到，是因为分子很小肉眼不可辨",
+    "answer": "C. “5L黄豆和5L芝麻均匀混合，体积小于10L”，是因为分子之间有间隔",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-47",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列说法对空气描述正确的是____\nA. 无色、无气味的气体一定是空气\nB. 空气是氧气和氮气组成的\nC. 空气的成分是固定的不变的\nD. 按体积计算，空气中氮气占78%，氧气占21%",
+    "answer": "D. 按体积计算，空气中氮气占78%，氧气占21%",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-48",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "生活中一些常见物质的 pH 如下：厕所清洁剂 pH=1、食盐水 pH=7、肥皂水 pH=10、炉具清洁剂 pH=12，其中碱性最强的是____\nA. 厕所清洁剂\nB. 食盐水\nC. 肥皂水\nD. 炉具清洁剂",
+    "answer": "D. 炉具清洁剂",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-49",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2020年世界环境日中国宣传主题是“美丽中国，我是行动者”。下列做法与这一主题不相符的是____\nA. 垃圾分类投放\nB. 野炊明火烧烤\nC. 控制汽车鸣笛\nD. 坚持绿色出行",
+    "answer": "B. 野炊明火烧烤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-50",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“神舟十三号”执行的下列任务中，一定涉及化学变化的是____\nA. 出舱行走\nB. 展示国旗\nC. 采集水样\nD. 点火返回",
+    "answer": "D. 点火返回",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-51",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "将下列家庭中常用物质放入水中，不能形成溶液的是____\nA. 食盐\nB. 纯碱\nC. 蔗糖\nD. 花生油",
+    "answer": "D. 花生油",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-52",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "分类是认识和研究物质及其变化的常用的科学方法，如物质可分为纯净物和混合物。下列物质属于化合物的是____\nA. 盐酸\nB. 镁铝合金\nC. 氢氧化钠\nD. 氮气",
+    "answer": "C. 氢氧化钠",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-53",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "推理是学习化学的一种方法，但不合理的推理会得到错误结论。以下推理正确的是 ____\nA. 分子可以构成物质——物质一定由分子构成\nB. 溶液具有均一性和稳定性——具有均一性、稳定性的液体一定是溶液\nC. 含碳元素的物质燃烧会生成二氧化碳——燃烧能生成二氧化碳的物质一定含有碳元素\nD. 酸碱中和反应能生成盐和水——生成盐和水的反应一定是中和反应",
+    "answer": "C. 含碳元素的物质燃烧会生成二氧化碳——燃烧能生成二氧化碳的物质一定含有碳元素",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-54",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "生活中一些物质的pH如下面所示， 其中显酸性的是____ \r\n番茄汁 pH=4，糖水 pH=7，牙膏 pH=9，肥皂水 pH=10\nA. 番茄汁\nB. 糖水\nC. 牙膏\nD. 肥皂水",
+    "answer": "A. 番茄汁",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-55",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "生活中的下列做法合理的是____\nA. 楼房着火时乘电梯逃生\nB. 保存海鲜时用甲醛溶液浸泡\nC. 在高原上用高压锅煮饭\nD. 雷雨时打着伞在开阔地行走",
+    "answer": "C. 在高原上用高压锅煮饭",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-56",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "合成材料的应用与发展，大大方便了人类的生活。下列物品是用有机合成材料制作的是____\nA. 塑料桶\nB. 纯羊毛衫\nC. 铅笔芯\nD. 青铜铸像",
+    "answer": "A. 塑料桶",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-57",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "大气平流层中的臭氧（$O_3$）能吸收大部分紫外线，保护地球生物，臭氧属于____\nA. 纯净物\nB. 混合物\nC. 氧化物\nD. 化合物",
+    "answer": "A. 纯净物",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-59",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列物质的用途中，利用其化学性质的是____\nA. 干冰用于人工降雨\nB. 天然气用作燃料\nC. 活性炭用作吸附冰箱中异味\nD. 氦气填充探空气球",
+    "answer": "B. 天然气用作燃料",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-60",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "三角烯（化学式为$C_{22}H_{14}$）应用于量子计算、量子信息处理和自旋电子学等领域。下列有关三角烯的说法正确的是____\nA. 由36个原子构成\nB. 含有7个氢分子\nC. 碳、氢元素的质量比为11：7\nD. 三角烯的相对分子质量为278",
+    "answer": "D. 三角烯的相对分子质量为278",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-61",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "地壳中含量最多的金属元素的是____\nA. O\nB. Ca\nC. Al\nD. Cl",
+    "answer": "C. Al",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-62",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知下列食物的近似pH，其中酸性最强的是____\nA. 葡萄汁：3.5~4.5\nB. 苹果汁：2.3~3.4\nC. 牛奶：6.4~6.5\nD. 鸡蛋清：7.7~8.0",
+    "answer": "B. 苹果汁：2.3~3.4",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-63",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关溶液说法正确的是____\nA. 均一、稳定的液体都是溶液\nB. 硝酸铵溶于水会放出大量的热\nC. 汽油和洗涤剂除油污的原理是相同的\nD. 生活中可用白醋除去水壶中的水垢",
+    "answer": "D. 生活中可用白醋除去水壶中的水垢",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-64",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "燃料是人类社会重要的能源，下列说法不正确的是____\nA. 煤的燃烧可能造成酸雨的原因是排放大量$CO_2$\nB. 石油炼制可得到石油气、汽油、煤油等产品\nC. 汽车燃料改用压缩天然气可减少对空气的污染\nD. 乙醇（$C_2H_5OH$）在空气中完全燃烧只生成二氧化碳和水",
+    "answer": "A. 煤的燃烧可能造成酸雨的原因是排放大量$CO_2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-65",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关金属的说法正确的是____\nA. 所有金属都呈银白色\nB. 常温下，所有的金属都是固体\nC. 为了增加金属产量，大量开采金属矿物\nD. 金属的回收利用，能减少对环境的污染",
+    "answer": "D. 金属的回收利用，能减少对环境的污染",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-66",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列化学用语正确的是____\nA. 2个氢原子：$H_2$\nB. 镁离子：$Mg^{+2}$\nC. 高锰酸钾：$K_2MnO_4$\nD. 3个水分子：$3H_2O$",
+    "answer": "D. 3个水分子：$3H_2O$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-67",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "合理使用化肥是农作物增产的有效措施之一。下列物质中可用作氮肥的是 ____\nA. $\\text{MgSO}_4$\nB. KCl\nC. $\\text{NH}_4\\text{NO}_3$\nD. $\\text{Ca}_3(\\text{PO}_4)_2$",
+    "answer": "C. $\\text{NH}_4\\text{NO}_3$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-68",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列富含蛋白质的食物是____\nA. 苹果\nB. 花生油\nC. 红烧牛肉\nD. 米饭",
+    "answer": "C. 红烧牛肉",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-69",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "科学家对人类文明和社会可持续发展作出了重要贡献。下列选项正确的是____\nA. 拉瓦锡编制了元素周期表\nB. 门捷列夫提出了近代原子学说\nC. 道尔顿确定了空气的组成\nD. 屠呦呦因研究青蒿素获诺贝尔奖",
+    "answer": "D. 屠呦呦因研究青蒿素获诺贝尔奖",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-70",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列分类正确的是____\nA. 冰、干冰、可燃冰都是氧化物\nB. 金属、玻璃、石墨都是导体\nC. 钙、锌、碘都是人体必需元素\nD. 钳子、羊角锤、定滑轮都是省力杠杆",
+    "answer": "C. 钙、锌、碘都是人体必需元素",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-71",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2021年世界环境日的主题为“人与自然和谐共生”。下列做法或认识不符合这一主题的是____\nA. 提倡绿色出行，少开私家车\nB. 加强植树造林，改善空气质量\nC. 将废电池填埋，避免重金属污染\nD. 用风能和太阳能发电代替燃煤发电",
+    "answer": "C. 将废电池填埋，避免重金属污染",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-72",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "空气是一种复杂的混合物，含有氮气、氧气、二氧化碳、稀有气体等成分，下列说法错误的是____\nA. 氧气可用于化工生产、航空航天、医疗急救等领域\nB. 医疗上可在液氮冷冻麻醉条件下做手术\nC. 因为二氧化碳能与水反应生成碳酸，所以二氧化碳能造成酸雨\nD. 庆祝节假日时，美丽的霓虹灯与稀有气体的应用有关",
+    "answer": "C. 因为二氧化碳能与水反应生成碳酸，所以二氧化碳能造成酸雨",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-73",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在“一定质量分数的氯化钠溶液的配制”和“粗盐中难溶性杂质的去除”两个实验中，下列说法错误的是____\nA. 两个实验中都需要的玻璃仪器有烧杯、玻璃棒、量筒\nB. 溶液配制步骤包括计算、称量、量取、溶解、装瓶贴签\nC. 配制溶液时，量取水时仰视读数会导致溶质的质量分数偏大\nD. 在粗盐提纯中蒸发时，有较多固体析出时就停止加热，用余热蒸干",
+    "answer": "C. 配制溶液时，量取水时仰视读数会导致溶质的质量分数偏大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-74",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列广东美食中富含淀粉的是____\nA. 客家豆腐\nB. 广式腊肠\nC. 深井烧鹅\nD. 陈村米粉",
+    "answer": "D. 陈村米粉",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-75",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "食品安全与人体健康密切相关。下列做法不会危害人体健康的是 ____\nA. 将工业用盐亚硝酸钠（$NaNO_2$）用于腌制火腿\nB. 用甲醛溶液浸泡水产品\nC. 霉变的大米经过反复蒸煮后食用\nD. 在煲好的鸡汤中放入适量的加碘食盐",
+    "answer": "D. 在煲好的鸡汤中放入适量的加碘食盐",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-76",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "发芽的土豆中含有一种对人体有害的生物碱称龙葵碱，对人体胃肠黏膜有刺激作用，并有溶血及麻痹呼吸中枢的作用。发芽土豆的芽眼芽根和变绿的部位含量更高，人吃了会有咽喉痒、恶心、呕吐、腹痛等症状，重者会死亡。龙葵碱的化学式为$C_{45}H_{73}O_{15}N$，下列有关龙葵碱的说法正确的是____\nA. 龙葵碱中的相对原子质量为：（45×12+1×73+15×16+1×7）g\nB. 龙葵碱属于有机高分子化合物\nC. 龙葵碱中碳原子与氧原子的个数比为3：1\nD. 龙葵碱由45个碳原子、73个氢原子、15个氧原子和1个氮原子构成",
+    "answer": "C. 龙葵碱中碳原子与氧原子的个数比为3：1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-77",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "过氧化氢($\\text{H}_2 \\text{O}_2$)是隐形眼镜的洗液成分,下列说法正确的是____\nA. 它由氢气和氧气组成\nB. 它由一个氢分子和一个氧分子构成\nC. 它由两个氢元素和两个氧元素构成\nD. 它由氢元素和氧元素组成",
+    "answer": "D. 它由氢元素和氧元素组成",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-78",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "材料在人类生产、生活中有着重要的作用。下列对材料的分类判断正确的是____\nA. 陶瓷属于合成材料\nB. 棉线、蚕丝属于天然纤维\nC. 不锈钢属于复合材料\nD. 玻璃钢属于金属材料",
+    "answer": "B. 棉线、蚕丝属于天然纤维",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-79",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "酚酞($C_{20}H_{14}O_4$)是常见的酸碱指示剂。下列关于酚酞的说法正确的是____\nA. 属于无机化合物\nB. 相对分子质量为(12×20+1×14+16×4)g\nC. C、H、O三种元素的质量比为(12×20)：(1×14)：(16×4)\nD. 碳元素的质量分数为$\\frac{20}{20+14+4}\\times100\\%$",
+    "answer": "C. C、H、O三种元素的质量比为(12×20)：(1×14)：(16×4)",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-80",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列物质的用途主要是由化学性质决定的是____\nA. 氢气用于填充彩色气球\nB. 压缩空气给轮胎充气\nC. 钨用于制作白炽灯丝\nD. 二氧化碳用作气体肥料",
+    "answer": "D. 二氧化碳用作气体肥料",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-81",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面是小洁同学归纳整理的“化学之最”，其中都正确的一组是____\nA. 科学家之最：汤姆森-最早发现了电子；侯德榜-最早发现了制烧碱的方法；门捷列夫-最早绘出了元素周期表\nB. 物质之最：甲烷-最简单的有机物；水—相对分子质量最小的氧化物；铁—用量最大的金属\nC. 化学与健康之最：蛋白质—人体最主要的供能物质；钙—人体中含量最多的金属元素；氧—人体中含量最多的非金属元素\nD. 元素之最：硅—地壳中含量最多的元素；铁—地壳中含量最多的金属元素；碳—形成化合物种类最多的元素",
+    "answer": "B. 物质之最：甲烷-最简单的有机物；水—相对分子质量最小的氧化物；铁—用量最大的金属",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-82",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "现在普遍人应用电脑比较多，科学家发现富含维生素食品具有较好的防辐射损伤功能。下列食物中富含维生素的是____\nA. 瘦肉\nB. 蔬菜\nC. 豆腐\nD. 米饭",
+    "answer": "B. 蔬菜",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-83",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "生活处处皆化学，下列对宏观现象的微观解释不正确的是____\nA. 升温温度计水银柱上升一一受热使汞原子间的间隔变大\nB. 溶液能够导电一一溶液中有大量自由移动的离子\nC. 稀盐酸和稀硫酸都能使紫色石蕊溶液变红一一都含有H+\nD. 氯化钠溶于水一一氯化钠均匀分散到水中以分子形式存在",
+    "answer": "D. 氯化钠溶于水一一氯化钠均匀分散到水中以分子形式存在",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-84",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列物质属于纯净物的是____\nA. 液态氧\nB. 铁矿石\nC. 生铁\nD. 不锈钢",
+    "answer": "A. 液态氧",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-85",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "化学与生活息息相关，日常生活中的下列做法正确的是____\nA. 在铁制品表面刷漆或涂油，防止生锈\nB. 在加油站、加气站、面粉加工厂等处吸烟或打电话\nC. 霉变食物经高温蒸煮后，继续食用\nD. 冬天用煤火取暖时，紧闭门窗",
+    "answer": "A. 在铁制品表面刷漆或涂油，防止生锈",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-86",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "坚持生态优先、绿色发展理念，建设美丽中国。下列举措不正确的是____\nA. 天更蓝﹣使用清洁能源\nB. 地更净﹣垃圾分类回收\nC. 水更清﹣污水直排长江\nD. 景更美﹣城市绿化美化",
+    "answer": "C. 水更清﹣污水直排长江",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-88",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "安徽有很多地方特产。下列安徽特产中富含糖类的是____\nA. 黄山臭桂鱼\nB. 巢湖大米\nC. 萧县葡萄\nD. 六安瓜片",
+    "answer": "B. 巢湖大米",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-89",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "通过对宏观现象的观察推理，可以建立起对微观粒子的认识。下列对于宏观事实的微观解释错误的是____\nA. 水银温度计的汞柱升高或降低——汞原子间有间隔\nB. 金刚石和石墨物理性质不同——碳分子排列方式不同\nC. 稀盐酸和稀硫酸有相似的化学性质——酸溶液中含有相同的阳离子 H+\nD. 水能通电分解生成氢气和氧气——化学变化中分子分为原子，原子又结合成新的分子",
+    "answer": "B. 金刚石和石墨物理性质不同——碳分子排列方式不同",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-90",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "化学与人类的生产生活密切相关，下列说法不正确的是____\nA. 人体中铁元素含量过低，会引起缺铁性贫血\nB. 铁制品表面喷刷油漆，可以防止铁制品锈蚀\nC. 生活中用过滤的方法，可以降低水的硬度\nD. 利用洗涤剂的乳化作用，可以清洗餐具上的油污",
+    "answer": "C. 生活中用过滤的方法，可以降低水的硬度",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-91",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "广东咸肉粽口感鲜香，配料中五花肉富含的营养素是____\nA. 油脂\nB. 维生素\nC. 糖类\nD. 无机盐",
+    "answer": "A. 油脂",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-92",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "鉴别下列各组物质，不能达到目的的是____\nA. 氢氧化钠溶液和碳酸钠溶液：滴入石蕊试液后观察颜色\nB. 棉线和羊毛线：灼烧后闻气味\nC. 硫酸铵固体和氯化铵固体：加熟石灰混合研磨后闻气味\nD. 氢氧化钠固体和硝酸铵固体：加水溶解后测温度",
+    "answer": "C. 硫酸铵固体和氯化铵固体：加熟石灰混合研磨后闻气味",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-93",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "为了预防贫血，应该补充的元素是____\nA. 铁\nB. 奶\nC. 磷\nD. 钾",
+    "answer": "A. 铁",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-94",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "金属材料是人类生产、生活不可分割的元素。下列有关金属材科的说法正确的是____\nA. 钢是纯净物，生铁是混合物\nB. 铁在干燥的空气中容易生锈\nC. 硬铝（铝合金）的硬度小于纯铝\nD. 金属资源的回收利用既保护了环境，又节约了金属资源",
+    "answer": "D. 金属资源的回收利用既保护了环境，又节约了金属资源",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-95",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列对物质的分类正确的是____\nA. 晶体﹣铝、冰、海波\nB. 绝缘体﹣塑料、橡胶、石墨\nC. 混合物﹣乙醇、海水、碳酸氢钠\nD. 复合肥料﹣尿素、硝酸钾、磷酸二氢铵",
+    "answer": "A. 晶体﹣铝、冰、海波",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-96",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "依据国家相关法律规定，自2011年5月1日起，机动车驾驶员醉驾将受到刑事处罚。 检测驾驶员是否酒后驾车，可用一种装有重铬酸钾($\\text{K}_2\\text{Cr}_2\\text{O}_7$)的仪器。在$\\text{K}_2\\text{Cr}_2\\text{O}_7$中铬元素(Cr)的化合价是____\nA. 2\nB. 3\nC. 6\nD. 7",
+    "answer": "C. 6",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-97",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列化学方程式的书写和对反应类型的判断，都正确的是____\nA. $\\text{H}_2+\\text{Cl}_2\\overset{点燃}{=}\\text{2HCl}$ 化合反应\nB. $\\text{HgO}\\overset{\\Delta}{=}\\text{Hg}+\\text{O}_ 2\\uparrow$ 分解反应\nC. $\\text{CuO+CO}\\overset{\\Delta}{=}\\text{Cu+CO}_2$ 置换反应\nD. $\\text{KCl+HNO}_3=\\text{KNO}_3+\\text{HCl}$ 复分解反应",
+    "answer": "A. $\\text{H}_2+\\text{Cl}_2\\overset{点燃}{=}\\text{2HCl}$ 化合反应",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-98",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "金刚石、石墨和$\\text{C}_{60}$都是碳的单质，下列有关叙述正确的是____\nA. 都是黑色固体\nB. 一定条件下，石墨转化为金刚石是物理变化\nC. 碳原子的排列方式相同\nD. 在氧气中充分燃烧时都生成二氧化碳",
+    "answer": "D. 在氧气中充分燃烧时都生成二氧化碳",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-99",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "实验室配制50g溶质质量分数为15%的氯化钠溶液。下列说法正确的是____\nA. 托盘天平未经调零即用来称取氯化钠固体\nB. 称量时托盘天平指针偏左，移动游码至天平平衡\nC. 量取水时，用规格为50mL的量筒\nD. 把配制好的氯化钠溶液倒入刚用蒸馏水润洗过的试剂瓶中，并贴上标签",
+    "answer": "C. 量取水时，用规格为50mL的量筒",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-100",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "配制溶液时，下列溶剂中最常用的是____\nA. 酒精\nB. 水\nC. 汽油\nD. 植物油",
+    "answer": "B. 水",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-101",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列化学符号中数字“2”表示的意义正确的是____\nA. 2H：2个氢元素\nB. $CO_2$：二氧化碳中有2个氧原子\nC. $Cu^{2+}$：一个铜离子带2个单位正电荷\nD. $\\mathop{Ca}\\limits^{+2}O$：氧化钙的化合价为+2价",
+    "answer": "C. $Cu^{2+}$：一个铜离子带2个单位正电荷",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-102",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "分类和推理是重要的化学学习方法。以下有关的推理中正确的是____\nA. 酸在水中能电离出$H^{+}$，故含氢元素的物质是酸\nB. 生成气体是复分解反应发生的条件之一，故在溶液中能生成气体的反应一定是复分解反应\nC. 离子都带电荷，故带电荷的粒子一定是离子\nD. 溶液具有均一性和稳定性，但具有均一性和稳定性的液体不一定是溶液",
+    "answer": "D. 溶液具有均一性和稳定性，但具有均一性和稳定性的液体不一定是溶液",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-103",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列变化中，属于化学变化的是____\nA. 石蜡熔化\nB. 汽油挥发\nC. 湿衣晾干\nD. 木柴燃烧",
+    "answer": "D. 木柴燃烧",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-104",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列实验不能得出相应结论的是____\nA. 加入肥皂水振荡，泡沫很少、浮渣多，说明试管中的水是硬水\nB. 对着玻璃片哈气，玻璃片上出现水雾，说明空气中含有水蒸气\nC. 在装满水的烧杯中向下按易拉罐，溢出水越多，手受到的压力越大，说明物体排开水的体积越大，物体受到的浮力越大\nD. 在材料、粗糙程度相同的水平面上匀速拉物体，物体越重，拉力越大，说明在其他条件不变时，压力越大，滑动摩擦力越大",
+    "answer": "B. 对着玻璃片哈气，玻璃片上出现水雾，说明空气中含有水蒸气",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-105",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "化学在生活、生产中应用广泛，下列过程不属于化学变化的是____\nA. 光合作用\nB. 高炉炼铁\nC. 葡萄酿酒\nD. 活性炭除臭",
+    "answer": "D. 活性炭除臭",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-106",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关化学史的说法不正确的是____\nA. 道尔顿提出原子论\nB. 门捷列夫发现了元素周期律并编制出元素周期表\nC. 拉瓦锡用定量的方法研究了空气的成分\nD. 侯德榜改进制碱技术制得了烧碱",
+    "answer": "D. 侯德榜改进制碱技术制得了烧碱",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-107",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一些物质的pH范围如下，其中呈碱性的是____\nA. 柠檬汁（2-3）\nB. 葡萄汁（3.5-4.5）\nC. 西瓜汁（5-6）\nD. 肥皂水（9~10）",
+    "answer": "D. 肥皂水（9~10）",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-109",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列区分物质的方法中，正确的是____\nA. 用盐酸区分氯化铵和氯化钾\nB. 用观察法区分氧化铜粉末和碳粉\nC. 用水区分硝酸铵固体和氢氧化钠固体\nD. 用酚酞溶液区分氢氧化钠溶液和碳酸钠溶液",
+    "answer": "C. 用水区分硝酸铵固体和氢氧化钠固体",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-110",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于资源、能源的叙述不正确的是____\nA. 金属的回收利用，不仅可以节约金属资源，还可以节约95%的能源\nB. 废旧电池随意丢弃会带来对环境的污染，但不会危害人体健康\nC. 地球上的金属资源中金、银等以单质形式存在外，其余都以化合物形式存在\nD. 防止金属腐蚀是保护金属资源的有效途径",
+    "answer": "B. 废旧电池随意丢弃会带来对环境的污染，但不会危害人体健康",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-111",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "化学是一门以实验为基础的自然学科，规范的实验操作是完成实验任务的保证。下列实验操作中，不合理的是____\nA. 酒精洒在实验桌上燃烧起来，立即用湿抹布盖灭\nB. 实验室制取$O_2$时，应先检查装置气密性，再装药品\nC. 稀释浓硫酸时，将浓硫酸注入盛有水的量筒中，并不断搅拌\nD. 做铁丝在氧气中燃烧的实验时，集气瓶内预留少量的水或细沙",
+    "answer": "C. 稀释浓硫酸时，将浓硫酸注入盛有水的量筒中，并不断搅拌",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-112",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "食盐的主要成分是NaCl，是重要的调味品，同学们熟悉的“配制一定质量分数的NaCl溶液”和“粗盐中难溶性杂质去除”这两个与NaCl有关的实验中均不需用到的玻璃仪器是____\nA. 玻璃棒\nB. 烧杯\nC. 漏斗\nD. 试管",
+    "answer": "D. 试管",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-114",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“黑火药”是我国古代四大发明之一，它由硝酸钾、硫磺、木炭组成。“黑火药”属于 ____\nA. 纯净物\nB. 化合物\nC. 单质\nD. 混合物",
+    "answer": "D. 混合物",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-115",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "成都围绕“人、城、境、业”开展公园城市示范区建设，相关举措有误的是____\nA. 简约适度、低碳生活\nB. 城园相融、人城和谐\nC. 水润天府、绿满蓉城\nD. 减少污染、关停企业",
+    "answer": "D. 减少污染、关停企业",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-116",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于水的说法正确的是____\nA. 水分子是由氢分子和氧原子构成的\nB. 过滤和加热均能使硬水转化为软水\nC. 蒸馏或用活性炭吸附均可使海水转化为淡水\nD. 肥皂水可区分硬水和软水",
+    "answer": "D. 肥皂水可区分硬水和软水",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-117",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列变化中，只涉及物理变化的是____\nA. 汽油挥发\nB. 大米酿酒\nC. 酒精燃烧\nD. 食物腐烂",
+    "answer": "A. 汽油挥发",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-118",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于浓盐酸和浓硫酸的下列说法中，说法错误的是____\nA. 盐酸可用来制造药物\nB. 浓硫酸是油状的黏稠液体，有刺激性气味\nC. 打开浓盐酸的瓶口可以看到“白雾”\nD. 浓硫酸可用作某些气体的干燥剂",
+    "answer": "B. 浓硫酸是油状的黏稠液体，有刺激性气味",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-119",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "化学与生活息息相关，人类的生活离不开化学。生活中下列做法错误的是____\nA. 食品包装中充氮气防腐\nB. 用过滤和蒸馏等方法净化水\nC. 用灼烧方法区分棉纤维和合成纤维\nD. 用硬水洗涤衣服有利于节约肥皂",
+    "answer": "D. 用硬水洗涤衣服有利于节约肥皂",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-120",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列物质的俗名与化学式不相符的是____\nA. 水银——Ag\nB. 纯碱——$\\text{Na}_2 \\text{CO}_3$\nC. 生石灰——CaO\nD. 烧碱——NaOH",
+    "answer": "A. 水银——Ag",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-121",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "王亚平在太空做了油和水 “难分难舍”的神奇实验：她用力摇晃装有油和水的瓶子，让油水充分混合、静置，发现油水不分层。下列说法不正确的是____\nA. 太空中水不能作溶剂\nB. 在地面油水混合物会产生分层现象\nC. 不同环境中同一实验可能现象不同\nD. 在地面向油水混合物中加入洗涤剂会产生乳化现象",
+    "answer": "A. 太空中水不能作溶剂",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-122",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列属于复合肥的是____\nA. $MgSO_4$\nB. $Ca(NO_3)_2$\nC. $NH_4NO_3$\nD. $NH_4H_2PO_4$",
+    "answer": "D. $NH_4H_2PO_4$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-124",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某份晚餐的搭配：东莞米粉、清炒土豆丝、紫菜西红柿汤。为均衡摄入营养素，这份晚餐还需搭配的食物是____\nA. 苹果\nB. 米饭\nC. 鸡蛋\nD. 食盐",
+    "answer": "C. 鸡蛋",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-125",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某同学用托盘天平称量5.4g物体时，在右盘加5.0g砝码，游码移至标尺上0.4克处加药品，此时发现指针偏左，这时该同学的操作是____\nA. 加药品\nB. 减药品\nC. 游码左移\nD. 游码右移",
+    "answer": "B. 减药品",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-126",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国制碱工业的先驱是____\nA. 张青莲\nB. 屠呦呦\nC. 钱学森\nD. 侯德榜",
+    "answer": "D. 侯德榜",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-127",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "疫情防控期间用到一种免洗手消毒凝胶，其中含有正丙醇（化学式为$C_3H_8O$）。下列有关正丙醇的说法，正确的是____\nA. 属于无机物\nB. 一个分子含12个原子\nC. 相对分子质量为60g\nD. 碳、氢元素的质量比为3:8",
+    "answer": "B. 一个分子含12个原子",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-128",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列对有关实验异常现象分析合理的是 ____\nA. 铁丝在氧气中燃烧时集气瓶瓶底炸裂——铁丝没有制成螺旋状\nB. 向澄清石灰水中通入二氧化碳无明显现象——可能是石灰水变质\nC. 将表面未处理的铝丝插入硫酸铜溶液中无明显现象——铝的金属活动性比铜弱\nD. 在粗盐提纯实验中过滤速率过慢——没用玻璃棒引流",
+    "answer": "B. 向澄清石灰水中通入二氧化碳无明显现象——可能是石灰水变质",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-130",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列物质中属于氧化物的是____\nA. $O_2$\nB. $SiO_2$\nC. $\\text{H}_2 \\text{SiO}_3$\nD. $\\text{Na}_2 \\text{SiO}_3$",
+    "answer": "B. $SiO_2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-131",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "端午节是中国传统节日，这一天人们会挂艾草、赛龙舟、吃粽子等。制作龙舟常用樟木、桧木，如今也可以用玻璃钢制作，既环保又方便。玻璃钢属于____\nA. 复合材料\nB. 天然材料\nC. 合成材料\nD. 无机材料",
+    "answer": "A. 复合材料",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-132",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在测定锌、铟等元素的相对原子质量方面做出卓越献的中国科学家是____\nA. 杨振宁\nB. 屠呦呦\nC. 侯德榜\nD. 张青莲",
+    "answer": "D. 张青莲",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-133",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "空气是人类赖以生存的物质基础。下列有关说法错误的是____\nA. 空气中的氧气是一种常见的燃料\nB. 二氧化硫是空气污染物之一\nC. 空气中氮气的体积分数约为78%\nD. 植树造林有利于保护空气",
+    "answer": "A. 空气中的氧气是一种常见的燃料",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-134",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列未计入空气质量评价的主要污染物的是____\nA. $\\text{PM}_{2.5}$\nB. $\\text{NO}_2$\nC. CO\nD. $\\text{O}_2$",
+    "answer": "D. $\\text{O}_2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-135",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "受新冠疫情影响，国家鼓励发展“地摊经济”。下列地摊活动中涉及化学变化的是____\nA. 露天烧烤\nB. 手工刺绣\nC. 现场素描\nD. 西瓜榨汁",
+    "answer": "A. 露天烧烤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-137",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列物质的用途主要由物理性质决定的是____\nA. 氧气用于医疗急救\nB. 氦气可用于制造低温环境\nC. 一氧化碳用于炼铁\nD. 天然气用作燃料",
+    "answer": "B. 氦气可用于制造低温环境",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-138",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关灭火原理的说法中，错误的是____\nA. 清除可燃物\nB. 使可燃物与其他物品隔离\nC. 隔绝空气\nD. 降低可燃物的着火点",
+    "answer": "D. 降低可燃物的着火点",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-140",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关营养与健康的认识，正确的是____\nA. 剧烈运动后，大量饮用碳酸饮料\nB. 碘是人体必需的微量元素，摄入越多越好\nC. 成人每天需摄入一定量的蛋白质，青少年需要量更大\nD. 人体活动所需的能量主要来自维生素，需大量摄入",
+    "answer": "C. 成人每天需摄入一定量的蛋白质，青少年需要量更大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-141",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "连花清瘟胶囊源自传统中医名方，可用于治疗流感，现代仪器测得其成分之一是没食子酸（化学式为$C_7H_6O_5$）。下列有关没食子酸的说法，正确的是____\nA. 属于氧化物\nB. 碳、氢、氧元素的质量比为12∶1∶16\nC. 含有3个原子\nD. 完全燃烧生成$CO_2$和$H_2O$",
+    "answer": "D. 完全燃烧生成$CO_2$和$H_2O$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-144",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "日常生活中的许多活动与化学有关。下列活动中存在化学变化的是____\nA. 毛线织衣\nB. 晾干湿衣\nC. 雕刻石像\nD. 木柴燃烧",
+    "answer": "D. 木柴燃烧",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-145",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "水对于生命活动、工农业生产具有重要意义。下列有关水的说法错误的是____\nA. 农业上采用喷灌和滴灌可以节约用水\nB. 工业废水可以不经处理直接排入河道\nC. 生活中可以用煮沸的方法降低水的硬度\nD. 工业上可采用蒸馏法从海水中获取淡水",
+    "answer": "B. 工业废水可以不经处理直接排入河道",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-146",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列物质属于溶液的是____\nA. 豆浆\nB. 泥浆\nC. 蒸馏水\nD. 白糖水",
+    "answer": "D. 白糖水",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-147",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于人体所需的营养物质，下列叙述正确的是____\nA. 人体所需的水只能靠饮水补充\nB. 人体缺少维生素C会引起贫血，吃水果可以为人体补充维生素\nC. 蛋白质、糖类、油脂都属于有机物，在体内消化会放出热量，维持体温\nD. 青少年正在长身体，应多吃富含蛋白质的肉类，少吃蔬菜、水果",
+    "answer": "C. 蛋白质、糖类、油脂都属于有机物，在体内消化会放出热量，维持体温",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-148",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有X、Y、2三种金属，X在常温下就能与氧气反应，Y、2在常温下几乎不与氧气反应；如果把Y和2分别放入稀硫酸中，Y溶解并产生氢气， Z不反应。根据以上实验事实判断，X、Y、2三种金属的活动性由强至弱的顺序正确的是____\nA. X Z Y\nB. X Y Z\nC. Y Z X\nD. Z Y X",
+    "answer": "B. X Y Z",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-149",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2022年3月1日起，河南依法禁止生产、销售和使用不可降解的一次性塑料制品。该措施能缓解的环境问题是____\nA. 酸雨\nB. 温室效应\nC. 白色污染\nD. 雾霾",
+    "answer": "C. 白色污染",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-150",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "科学探究，其乐无穷！向静置的$\\text{Ba}\\left(\\text{OH}\\right)_2$溶液中滴加酚酞试液观察到美丽的颜色，振荡后逐渐滴加稀硫酸，并静静观察，会看到神奇的变化。下列有关说法错误的是____\nA. 滴加酚酞试液后液滴周围变红，并逐渐扩散开来\nB. 开始滴加稀硫酸，液滴处红色瞬间消失复又变红\nC. 继续滴加稀硫酸，溶液中沉淀保持不变但pH增大\nD. 发生了中和反应：$\\text{Ba}\\left(\\text{OH}\\right)_2+\\text{H}_2\\text{SO}_4=\\text{BaSO}_4\\downarrow+2\\text{H}_2\\text{O}$",
+    "answer": "C. 继续滴加稀硫酸，溶液中沉淀保持不变但pH增大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-151",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "分类是学习化学的常用方法。下列分类中正确的是____\nA. 有机物：乙醇、乙酸、碳酸钙\nB. 人体必需的微量元素：铁、锌、钙\nC. 混合物：空气、碘酒、合金\nD. 合成材料：塑料、橡胶、合成纤维",
+    "answer": "C. 混合物：空气、碘酒、合金",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-153",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "从人类生活的环境考虑，最理想的能源是____\nA. 煤\nB. 石油\nC. 天然气\nD. 太阳能",
+    "answer": "D. 太阳能",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-154",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列为一些常见食物的近似pH，胃酸过多的人空腹时最适宜吃的食物是____\nA. 苹果：2.9~3.3\nB. 橘子：3.0~4.0\nC. 葡萄：3.5-4.5\nD. 玉米粥：6.8~8.0",
+    "answer": "D. 玉米粥：6.8~8.0",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-155",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列说法中正确的是____\nA. 木炭燃烧后生成黑色固体\nB. 硫燃烧后生成有刺激性气味的气体\nC. 红磷在空气中燃烧产生白雾\nD. 铁丝伸入盛有氧气的集气瓶中剧烈燃烧S",
+    "answer": "B. 硫燃烧后生成有刺激性气味的气体",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-156",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "钛和钛合金被认为是21世纪的重要金属材料，它们具有熔点高、密度小、抗腐蚀性能好等优良性能，因此被广泛用于火箭、航天飞机、船舶和化工等。已知钛原子的质子数为22，中子数为26，则钛原子的核外电子数为____\nA. 48\nB. 26\nC. 22\nD. 4",
+    "answer": "C. 22",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-157",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关空气的说法中正确的是____\nA. 空气中的氧气具有可燃性，可用作火箭燃料\nB. 汽车尾气不会造成空气污染\nC. 稀有气体可用于制作多种用途的电光源\nD. 空气中氮气与氧气体积比约为5：1",
+    "answer": "C. 稀有气体可用于制作多种用途的电光源",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-159",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于碳和碳的氧化物的说法不正确的是____\nA. C可以将CuO中的Cu还原出来\nB. 在一定条件下$\\text{CO}_{2}$能够转变成CO\nC. $CO_2$能使被石蕊染成紫色的干花变红\nD. 金刚石，石墨和$\\text{C}_{60}$都是碳元素的单质",
+    "answer": "C. $CO_2$能使被石蕊染成紫色的干花变红",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-160",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "溶液对自然界中的生命活动和人类的生产活动具有重要意义。下列说法正确的是____\nA. 只有固体和液体物质可以作为溶质\nB. 长期放置不分层的液体就是溶液\nC. 饱和溶液升温一定变为不饱和溶液\nD. 溶液中溶质可以是一种或者多种",
+    "answer": "D. 溶液中溶质可以是一种或者多种",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-161",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列做法正确的是____\nA. 服用适量的氢氧化钙治疗胃酸过多\nB. 天然气报警器安装在灶台的上方\nC. 生活中常采用蒸馏的方法软化硬水\nD. 装食品用聚氯乙烯塑料袋，用加热的方法封口",
+    "answer": "B. 天然气报警器安装在灶台的上方",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-162",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列事实能够说明“分子在不停地运动”的是____\nA. 公园里花香四溢\nB. 春天里柳絮飞扬\nC. 海面上浪花飞溅\nD. 天空中乌云翻滚",
+    "answer": "A. 公园里花香四溢",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-165",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "压缩气体可使气体液化，气体液化后____\nA. 分子的质量变大\nB. 分子的体积变小\nC. 分子的数目减少\nD. 分子的间隙变小",
+    "answer": "D. 分子的间隙变小",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-166",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "石家庄入选冬奥会菜单的“锦鲫戏明珠”，其主要食材豆腐、鲫鱼中富含的营养素为____\nA. 糖类\nB. 油脂\nC. 无机盐\nD. 蛋白质",
+    "answer": "D. 蛋白质",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-167",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "坚持低碳生活、绿色发展，促进人与自然和谐共生，下列做法与这一理念不相符的是____\nA. 限制燃放烟花\nB. 发展燃煤发电\nC. 分类处理垃圾\nD. 倡导公交出行",
+    "answer": "B. 发展燃煤发电",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-168",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "将98%的浓硫酸用水稀释为20%的稀硫酸，下列说法不正确的是____\nA. 量取浓硫酸的量筒必须干燥\nB. 将浓硫酸缓慢地注入水中\nC. 用玻璃棒不断搅拌散热\nD. 浓硫酸和稀硫酸化学性质完全相同",
+    "answer": "D. 浓硫酸和稀硫酸化学性质完全相同",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-169",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "20世纪20年代，改进了西方的制碱方法，发明了联合制碱法的科学家是____\nA. 张青莲\nB. 屠呦呦\nC. 侯德榜\nD. 拉瓦锡",
+    "answer": "C. 侯德榜",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-171",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2011年是联合国确定的“国际化学年”。我国举行了以“化学———我们的生活，我们的未来”为主题的“国际化学年在中国”系列活动，其中一项活动的主题是“环境化学与城市可持续发展”。下列不属于此主题研究内容的是____\nA. 土壤污染与修复、固体废物处理\nB. 涉及生命分析技术的仪器开发\nC. 资源转化中的环境化学\nD. 环境分析方法与标准",
+    "answer": "B. 涉及生命分析技术的仪器开发",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-172",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "比较归纳是化学学习中常用的一种方法.以下是C、$CH_4$、CO三种物质转化为$CO_2$的转化关系，即：①C→$CO_2$②$CH_4$→$CO_2$③CO→$CO_2$，对它们的比较归纳正确的是____\nA. 三种转化发生的都是化合反应\nB. 三种物质都只能跟氧气反应转化为二氧化碳\nC. 三种物质都可以在点燃条件下转化为二氧化碳\nD. 三种转化所有的生成物在常温下都是气体",
+    "answer": "C. 三种物质都可以在点燃条件下转化为二氧化碳",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-173",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于空气中各种气体的性质或用途说法不正确的是____\nA. 氧气可用于医疗急救和炼钢\nB. 氮气能直接作为氮肥\nC. 二氧化碳可用作气体肥料\nD. 稀有气体能应用于激光灯等电光源",
+    "answer": "B. 氮气能直接作为氮肥",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-174",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列过程中发生的变化时化学变化的是____\nA. 食物腐败变质\nB. 分离液体空气制氧气\nC. 水结冰\nD. 海水晒盐",
+    "answer": "A. 食物腐败变质",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-175",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "过氧乙酸是常用的一种消毒剂，其化学式为$C_2H_4O_3$，下列叙述正确的是____\nA. 过氧乙酸属于氧化物\nB. 过氧乙酸中碳元素的质量分数最高\nC. 过氧乙酸中碳、氢、氧三种元素的质量比为6：1：12\nD. 过氧乙酸由2个碳原子、4个氢原子和3个氧原子构成",
+    "answer": "C. 过氧乙酸中碳、氢、氧三种元素的质量比为6：1：12",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-176",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "5月20日为“中国学生营养日”，青少年应关注营养与健康。下列有关说法正确的是____\nA. 微量元素氟能防治龋齿，补充越多越好\nB. 奶茶具有良好的口感，可取代水长期饮用\nC. 油脂是提供能量的重要物质，可大量食用\nD. 糖类是人体所需营养成分之一，每天应适量摄入",
+    "answer": "D. 糖类是人体所需营养成分之一，每天应适量摄入",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-177",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关空气成分的说法错误的是____\nA. 利用氦气可制作霓虹灯\nB. 食品包装中充入氮气用来防腐\nC. 铁在氧气中燃烧生成氧化铁\nD. 敞口放置在空气中的饼干变软是因为吸收了空气中的水蒸气",
+    "answer": "C. 铁在氧气中燃烧生成氧化铁",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-178",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "分类是学习化学的方法之一，下列物质是按单质、盐、混合物的顺序排列的是____\nA. 氧气、碳酸钙、空气\nB. 氢气、硫酸钠、水\nC. 甲烷、食盐、冰水\nD. 金刚石、熟石灰、石油",
+    "answer": "A. 氧气、碳酸钙、空气",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-179",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "推理是学习化学的重要方法，但盲目类推又可能得出错误结论。以下类推正确的是____\nA. 元素的种类是由质子数决定的，所以质子数相同的粒子一定属于同种元素\nB. 单质是由同种元素组成的，则由同种元素组成的物质一定是单质\nC. 含碳元素的物质燃烧会生成$CO_2$，所以燃烧能生成$CO_2$的物质一定含有碳元素\nD. 在同一化合物中，金属元素显正价，则非金属元素一定显负价",
+    "answer": "C. 含碳元素的物质燃烧会生成$CO_2$，所以燃烧能生成$CO_2$的物质一定含有碳元素",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-180",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "袁隆平院士为我国杂交水稻高产稳产做出了突出贡献。大米为我们提供的营养素主要是____\nA. 油脂\nB. 维生素\nC. 蛋白质\nD. 糖类",
+    "answer": "D. 糖类",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-181",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "化学就在我们身边，下列说法或做法不正确的是____\nA. 熟石灰可用来改良酸性土壤\nB. 发生森林火灾时，开辟防火隔离带的目的是隔离可燃物\nC. 夜晚天然气泄漏，应立即开灯查找原因\nD. 用炭黑墨汁书写的字经久不褪色，是因为常温下碳的化学性质稳定",
+    "answer": "C. 夜晚天然气泄漏，应立即开灯查找原因",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-182",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关空气成分的说法不正确的是____\nA. $O_2$的化学性质比较活泼\nB. 空气中$N_2$的体积分数最大\nC. $CO_2$是一种空气污染物\nD. 稀有气体可用于制作电光源",
+    "answer": "C. $CO_2$是一种空气污染物",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-183",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有关人体的组成元素的说法中错误的是____\nA. 组成人体自身的元素约有50多种\nB. 人体内的碳、氢、氧、氮四种元素主要以糖类、油脂、蛋白质和维生素形式存在\nC. 人体内含量较多的元素有11种\nD. 由于微量元素的含量非常少，因此，对人体健康的影响也很小",
+    "answer": "D. 由于微量元素的含量非常少，因此，对人体健康的影响也很小",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "化学",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中化学"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_chemistry-test-184",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  }
+]

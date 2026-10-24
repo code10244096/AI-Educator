@@ -1,0 +1,4737 @@
+[
+  {
+    "question_text": "下式中，$$\\square $$和△分别代表（~~~~~ ）．  $$\\square $$+$$\\square $$+$$\\square $$+△+△+△$$=27$$  △+△+$$\\square $$$$=12$$\nA. $$3$$和$$4$$\nB. $$3$$和$$6$$\nC. $$4$$和$$6$$\nD. $$6$$和$$3$$",
+    "answer": "D. $$6$$和$$3$$",
+    "solution": "由``$$\\square $$+$$\\square $$+$$\\square $$$$+$$△$$+$$△$$+$$△$$=27$$''可得``$$\\square $$+△$$=9$$''，又由于``$$△$$+$$△$$+$$\\square $$$$=12$$''可得△$$=3$$，$$\\square $$=$$6$$．题目问的是$$\\square $$和△分别代表什么，所以选$$\\text{D}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814518d5240145201b5b8e0a7b",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲乙两人在春节一共得$$200$$元压岁钱，甲给乙$$40$$元，还比乙多$$10$$元，那么，原来甲得了~\\uline{~~~~~~~~~~}~元压岁钱．\nA. $$145$$\nB. $$140$$\nC. $$125$$\nD. $$120$$",
+    "answer": "A. $$145$$",
+    "solution": "因为甲给乙$$40$$元，还比乙多$$10$$元，所以甲比乙多$$40\\times 2+10=90$$元，  所以甲：$$(200+90)\\div 2=145$$（元）",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "知识点",
+      "应用题模块",
+      "和差倍问题",
+      "和差问题",
+      "二量和差问题",
+      "明和暗差"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-e09083f6d6a24c49930dca942c84d66a",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$1+2+3+\\cdots +15$$的个位数是多少？\nA. $$0$$\nB. $$1$$\nC. $$2$$\nD. $$3$$",
+    "answer": "A. $$0$$",
+    "solution": "原式$$=120$$，各位是$$0$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-dab968be167c44bcae1128fe64a12c43",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$42$$的因数共有（  ）个。\nA. $$7$$\nB. $$8$$\nC. $$9$$\nD. $$10$$",
+    "answer": "B. $$8$$",
+    "solution": "$$42=2\\times 3\\times 7$$，因数个数等于指数加$$1$$再连乘，$$\\left( 1+1 \\right)\\times \\left( 1+1 \\right)\\times \\left( 1+1 \\right)=8$$（个）。所以选B。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "数论模块",
+      "因数与倍数",
+      "因数个数定理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ee4afca412024e8597a8987053c078f0",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "奶奶折一个纸鹤用$$3$$分钟，每折好一个需要休息$$1$$分钟，奶奶从$$2$$时$$30$$分开始折，她折好第$$5$$个纸鹤时已经到了（~~~~~~~ ）．\nA. $$2$$时$$45$$分\nB. $$2$$时$$49$$分\nC. $$2$$时$$50$$分\nD. $$2$$时$$53$$分",
+    "answer": "B. $$2$$时$$49$$分",
+    "solution": "$$3\\times 5+1\\times 4=19$$，折好第$$5$$个时已经到了$$2$$时$$49$$分．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "基本排列的周期问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814518d5240145190941300312",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "幼儿园老师给小朋友分糖果，每个小朋友分$$5$$颗糖果，就多出$$24$$颗；每个小朋友分$$7$$颗糖果，就少$$16$$颗糖果．一共有糖果颗．\nA. $$120$$\nB. $$124$$\nC. $$126$$\nD. $$130$$",
+    "answer": "B. $$124$$",
+    "solution": "两次分糖剩余之差：$$24+16=40$$（颗），  每次分糖数之差：$$7-5=2$$（颗）．  小朋友人数：$$40\\div2=20$$（人），  糖果总数：$$20\\times5+24=124$$（颗）．  所以选择$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-478d3e6c4aea43fa835715a1f7e96e68",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "从$$1$$至$$10$$这$$10$$个整数中，至少取个数，才能保证其中有两个数的和等于$$10$$。（把和为$$10$$的两个数看成是一双袜子，利用抽屉原理来做）\nA. $$4$$\nB. $$5$$\nC. $$6$$\nD. $$7$$",
+    "answer": "D. $$7$$",
+    "solution": "先找到和为$$10$$的组合：$$(1$$，$$9)$$、$$(2$$，$$8)$$、$$(3$$，$$7)$$、$$(4$$，$$6)$$，剩下$$5$$、$$10$$，若前面四组数中各取一个，后面$$5$$、$$10$$全取，这样还不能满足题目要求的两数和为$$10$$，如果再取剩下四个中的任意一个，必定会凑出和为$$10$$的组合，故最少要取$$6+1=7$$（个）。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "抽屉原理",
+      "简单抽屉原理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-b850000f15514a08992ffaf46c7d12b4",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "罗马数字是由罗马人发明的，它一共由（  ）个数字组成。\nA. $$5$$\nB. $$6$$\nC. $$7$$",
+    "answer": "C. $$7$$",
+    "solution": "解：罗马数字是由罗马人发明的，它一共由$$7$$个数字组成；  故选:C。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计数模块",
+      "加乘原理",
+      "加法原理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-09ef30e2f87641fa950e0e8d329ac6e7",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "（2018 YMO, Grade 3, Question\\#4）  According to this set of number, $$3$$，$$1$$，$$2$$，$$3$$，$$1$$，$$2$$，$$\\cdots \\cdots $$, what will be the $$53$$\\textsuperscript{rd} one? ．  有一列数：$$3$$，$$1$$，$$2$$，$$3$$，$$1$$，$$2$$，$$\\cdots \\cdots $$那么第$$53$$个数是．\nA. $$3$$\nB. $$1$$\nC. $$2$$",
+    "answer": "B. $$1$$",
+    "solution": "这列数按照``$$3$$，$$1$$，$$2$$''的周期排列，则，$$53\\div 3=17$$（组）$$\\cdots \\cdots 2$$（个），  所以第$$53$$个数位这个周期的第$$2$$个数，即为$$1$$．  故选择$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-81b1619d26fb4f8cbcc718a64acdad55",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$2019$$年元旦是星期二，$$2019$$年的国庆节是星期．\nA. 一\nB. 二\nC. 三\nD. 四",
+    "answer": "B. 二",
+    "solution": "从$$2019$$年的$$1$$月$$1$$日至$$2019$$年的$$10$$月$$1$$日共：$$31+28+31+30+31+30+31+31+30+1=274$$（天），  根据``二、三、四、五、六、日、一''的周期规律：$$274\\div 7=39$$（周）$$\\cdots \\cdots 1$$（天）．  所以$$10$$月$$1$$日是这个周期的第$$1$$天，即星期二．  故选$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "实践应用"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-9ccec85772724f31bca78aac0e84ae7d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面哪个算式的计算结果是偶数？\nA. $$\\left( 784-455 \\right)\\times 39+44\\times 11$$\nB. $$11\\times 1+22\\times 2+33\\times 3+44\\times 4+55\\times 5+66\\times 6+77\\times 7+88\\times 8+99\\times 9$$\nC. $$11\\times 2+22\\times 2+33\\times 3+44\\times 4+55\\times 5+66\\times 6+77\\times 7+88\\times 8+99\\times 9$$\nD. $$123\\times 456+789$$\nE. $$2\\times 4\\times 6\\times \\cdots \\times 2018\\times 2020-1\\times 3\\times 5\\times \\cdots \\times 2017\\times 2019$$",
+    "answer": "C. $$11\\times 2+22\\times 2+33\\times 3+44\\times 4+55\\times 5+66\\times 6+77\\times 7+88\\times 8+99\\times 9$$",
+    "solution": "暂无",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "整数",
+      "整数提取公因数",
+      "整数乘法巧算之提取公因数（普通型）"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-52ccb806e2444b7d902d7881174c3f8d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙、丙、丁和戊参加$$100$$米比赛，比赛结束后丁说：``我比乙跑得快。''丙说：``戊在我前面冲过终点线。''甲说：``我的名次排在丁的前面，丙的后面。''请根据他们的话排出名次（  ）\nA. 戊$$\\textgreater$$丙$$\\textgreater$$丁$$\\textgreater$$甲$$\\textgreater$$乙\nB. 甲$$\\textgreater$$乙$$\\textgreater$$丙$$\\textgreater$$丁$$\\textgreater$$戊\nC. 乙$$\\textgreater$$丁$$\\textgreater$$甲$$\\textgreater$$丙$$\\textgreater$$戊\nD. 戊$$\\textgreater$$丙$$\\textgreater$$甲$$\\textgreater$$丁$$\\textgreater$$乙",
+    "answer": "D. 戊$$\\textgreater$$丙$$\\textgreater$$甲$$\\textgreater$$丁$$\\textgreater$$乙",
+    "solution": "解：根据分析，由丁说的可得``丁$$\\textgreater$$乙''，根据丙说的可得``戊$$\\textgreater$$丙''，  根据甲说的可得``丙$$\\textgreater$$甲$$\\textgreater$$丁''，综合可得``戊$$\\textgreater$$丙$$\\textgreater$$甲$$\\textgreater$$丁$$\\textgreater$$乙''。  故选：D。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "逻辑推理",
+      "条件型逻辑推理",
+      "神推理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-0b6eb76b77e9451ea2f3bca0c95c4383",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$9+99+999+9999+\\cdots +9999999999$$（最后一项有$$10$$位数字）的和的十位数是多少？\nA. $$0$$\nB. $$1$$\nC. $$2$$\nD. $$3$$",
+    "answer": "A. $$0$$",
+    "solution": "十位数是$$0$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-d7527b0ef227431983da56358e036b82",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：$$1+2+3+\\cdots +50+\\cdots +3+2+1=$$（  ）\nA. $$50$$\nB. $$100$$\nC. $$2500$$",
+    "answer": "C. $$2500$$",
+    "solution": "原式$$=50\\times50=2500$$",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "数列与数表",
+      "数列规律",
+      "金字塔数列"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-2abe4d2652c7431a9b6e3161568fe826",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "约翰的钱比吉尔多$$20$$美元，他们两个总共有$$40$$美元．约翰有美元 .\nA. $$20$$\nB. $$30$$\nC. $$10$$\nD. $$40$$",
+    "answer": "B. $$30$$",
+    "solution": "$$(40+20)\\div 2=30$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "整体思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-9ba11ad6d9ff4b93a4134a542a652d35",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "灰太狼给儿子买了一本叫《捕羊宝典$$300$$篇》的书，这本书共$$301$$页，这本书的页码共用了~\\uline{~~~~~~~~~~}~个数字．\nA. $$2916$$\nB. $$856$$\nC. $$795$$\nD. $$660$$",
+    "answer": "C. $$795$$",
+    "solution": "把页码进行分类：  ①页码是一位数的是$$1\\tilde{  }9$$，共$$9$$个数字；  ②页码是两位数的是$$10\\tilde{  }99$$，共$$90\\times 2=180$$个数字；  ③页码是三位数的是$$100\\tilde{  }301$$，共$$202\\times 3=606$$个数字；所以，总共有``数字''个数为$$9+180+606=795$$个．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "数学思想",
+      "分类讨论思想"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-264f2e4f31b74547acb3309a623a6d8d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把$$123456789$$除以$$10000$$的商转化为小数以后，十位和千分位的积是多少？\nA. $$8$$\nB. $$12$$\nC. $$32$$\nD. $$48$$",
+    "answer": "C. $$32$$",
+    "solution": "$$123456789$$除以$$10000$$，小数点朝前移动四位，答案是$$12345.6789$$，此时，十位是$$4$$，千分位是$$8$$，积为$$32$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "Overseas Competition",
+      "知识点",
+      "计算模块",
+      "小数",
+      "拓展思维",
+      "小数基础",
+      "小数点的移动规律"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-1fc02823eda14413b6376433d0201f13",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一次考试中，总共有$$40$$道题，学生答对一道题获得$$4$$分，答错一道题或者未作答扣$$1$$分．如果小明在考试中获得$$95$$分，那么他答对了多少道题？\nA. $$25$$\nB. $$26$$\nC. $$27$$\nD. $$28$$",
+    "answer": "C. $$27$$",
+    "solution": "$$40-(40\\times 4-95)\\div (4+1)=27$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ec42755dc8594603a34577b570bf2f57",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙、丙三个非零自然数满足：甲和乙的最大公因数恰有$$1$$个因数，乙和丙的最大公因数恰有$$2$$个因数，丙和甲的最大公因数恰有$$3$$个因数．那么，甲、乙、丙三数之和的最小值是~\\uline{~~~~~~~~~~}~（中上）\nA. $$19$$\nB. $$20$$\nC. $$21$$\nD. $$22$$",
+    "answer": "A. $$19$$",
+    "solution": "$$\\left( 甲，乙\\right)=1$$，则甲、乙互质；$$\\left(乙，丙 \\right)=$$质数；$$\\left(甲，丙 \\right)=$$质数的平方，最小的质数的平方为$$4$$，$$\\therefore $$丙最小：$$3\\times ~4=12$$，甲：$$4$$，乙$$3$$．$$12+4+3=19$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-9b8e079dce3b43a4b22e865909ae0f5a",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "从$$1$$至$$10$$这$$10$$个整数中．至少取（~ ）个数，才能保证其中有两个数的和等于$$10$$．\nA. $$4$$\nB. $$5$$\nC. $$6$$\nD. $$7$$",
+    "answer": "D. $$7$$",
+    "solution": "将和为$$10$$的两个数作为一组，有$$\\left( 1,9 \\right)$$，$$\\left( 2,8 \\right)$$，$$\\left( 3,7 \\right)$$，$$\\left( 4,6 \\right)$$、$$\\left( 5,10 \\right)$$，考虑极端情况，若在前$$4$$组中各取一个数字，再取$$5$$和$$10$$，不会有两数和为$$10$$，若再在剩下的数中取任何一个，都会使两数凑成$$10$$，所以至少需要取$$7$$个数．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "抽屉原理",
+      "最不利原则"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-d2f6a81bc34c4a009e91e9cf18c944b3",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小何、小琳和小俊参加了一次数独比赛，赛后，他们对比赛结果进行了预测．  小何说：``我是第$$1$$，小琳是第$$2$$，小俊是第$$3$$．''  小琳说：``我是第$$1$$，小何是第$$2$$，小俊是第$$3$$．''  小俊说：``我是第$$1$$，小琳是第$$2$$，小何是第$$3$$．''  如果他们$$3$$人中，有$$1$$人$$3$$句话都预测正确，其余两人都只预测正确了$$1$$句话，那么，$$3$$人的名次按小何、小琳、小俊的顺序组成的$$3$$位数是~\\uline{~~~~~~~~~~}~．\nA. $$123$$\nB. $$132$$\nC. $$213$$\nD. $$231$$\nE. $$312$$",
+    "answer": "A. $$123$$",
+    "solution": "方法一：由于$$3$$人中有且仅有$$1$$人全预测正确，故可枚举全正确的人的情况：  若小何全正确，则小琳只有第$$3$$句正确，小俊只有第$$2$$句正确，符合要求；  若小琳全正确，则小俊全错，不符合要求；  若小俊全正确，则小琳全错，不符合要求；  方法二：注意到小琳和小俊的预测全都不同，故知全正确的人不可能在这两人之中（否则另一个人就全错，不符合要求）  综上，小何全正确，答案为$$123$$.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "Overseas Competition",
+      "知识点",
+      "组合模块",
+      "逻辑推理",
+      "拓展思维",
+      "假设型逻辑推理",
+      "真假话",
+      "找矛盾"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-7f2cf61995b74d2191197593dab47b2d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "将$$6$$、$$7$$、$$8$$、$$9$$填入右边算式的方格中：``$$\\square\\times\\square＋\\square \\square$$''那么这个算式的结果最大为（~~~~~~）．\nA. $$152$$\nB. $$145$$\nC. $$140$$\nD. $$154$$",
+    "answer": "A. $$152$$",
+    "solution": "结果最大应该是$$7\\times 8+96=152$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "数字谜",
+      "横式数字谜",
+      "横式数字谜的最值"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814518d5240145201ad07c0a74",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "在下列算式的空格中填入互不相同的数字 $$\\square \\times \\left( \\square +\\square \\square \\right)\\times \\left( \\square +\\square +\\square +\\square \\square \\right)\\text{=}2014$$， 其中五个一位数的和最大是（  ）。\nA. $$15$$\nB. $$24$$\nC. $$30$$\nD. $$35$$",
+    "answer": "C. $$30$$",
+    "solution": "$$2014=2\\times 19\\times 53$$，五个一位数之和最大，则两位数应最小  $$2\\times \\left( a+\\overline{1b} \\right)\\times \\left( c+d+e+\\overline{3f} \\right)=2014$$可得$$a+b=9=9+0$$，$$c+d+e+f=23=8+6+5+4$$，则五个一位数的和的最大值为$$2+a+c+d+e=2+9+8+6+5=30$$。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "数字谜"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-fdbf88c6401d45f5b6dac5c626b07456",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "同学们一起去划船，但公园船不够多，如果每船坐$$4$$人，会多出$$10$$人；如果每船坐$$5$$人，还会多出$$1$$人．共有只船．\nA. $$8$$\nB. $$9$$\nC. $$46$$\nD. $$52$$",
+    "answer": "B. $$9$$",
+    "solution": "盈盈类问题：共有$$(10-1)\\div (5-4)=9$$（只）船．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "盈亏问题",
+      "盈亏基本类型",
+      "盈亏基本类型盈亏问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ef845155f3ff4170a8e2cbdd33e20584",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小刚用一根绳子测量一口枯井的深度．他把绳子放入井里，当绳子到达井底后，井外还留有$$12$$米．小刚又把这根绳子对折后再放入井里，绳子到达井底后，井外还留有$$2$$米，这口井深米．\nA. $$6$$\nB. $$7$$\nC. $$8$$\nD. $$9$$",
+    "answer": "C. $$8$$",
+    "solution": "第$$1$$次井外$$12$$米，  第$$2$$次井外共有$$2\\times 2=4$$（米），  故井深$$12-4=8$$（米）．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "还原问题",
+      "单一变量还原问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-c65538f8553c4aaf81a54caee42ec516",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校买了$$2$$张桌子和$$3$$把椅子，共付了$$99$$元．一张桌子的价钱和$$4$$把椅子的价钱相等，一张桌子~\\uline{~~~~~~~~~~}~元．\nA. $$9$$\nB. $$36$$\nC. $$45$$\nD. $$27$$",
+    "answer": "B. $$36$$",
+    "solution": "设一张桌子$$x$$元，一把椅子$$y$$元．  则可得出方程：$$\\begin{cases}2x+3y=99    x=4y \\end{cases}$$，代入消元法，解得方程：$$x=36$$，$$y=9$$．  所以一张桌子$$36$$元，一把椅子$$9$$元．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "实践应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-3cdd2c9a02b947eabd4f5d72bb47f3a9",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某个闰年的元旦是星期日，那么这一年的$$2$$月有$$5$$个．\nA. 星期一\nB. 星期二\nC. 星期三\nD. 星期四\nE. 星期五\nF. 星期六\nG. 星期日",
+    "answer": "C. 星期三",
+    "solution": "周期问题：  元旦$$1$$月$$1$$日是星期日，则周期：星期日、星期一、星期二、星期三、星期四、星期五、星期六$$\\cdots\\cdots$$  从$$1$$月$$1$$日到$$2$$月$$1$$日一共有$$31+1=32$$（天），  $$32\\div7=4$$（周）$$\\cdots\\cdots4$$（天），  所以$$2$$月$$1$$日是星期三，则$$2$$月份的周期：星期三、星期四、星期五、星期六、星期日、星期一、星期二$$\\cdots\\cdots$$  闰年的$$2$$月有$$29$$天，$$29\\div7=4$$（周）$$\\cdots\\cdots1$$（天），  所以$$2$$月$$29$$日是星期三，  因此这一年的$$2$$月有$$5$$个星期三．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-8a94ad76e8dd464980593bd6e8879911",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "在一道没有余数的除法中，被除数、除数与商三个数的和是$$103$$，商是$$3$$。被除数是（  ）。\nA. $$25$$\nB. $$50$$\nC. $$75$$",
+    "answer": "C. $$75$$",
+    "solution": "因为除数$$=$$被除数$\\div3$  所以被除数是：  $100\\div (3+1)\\times3$  $=100\\div4\\times3$  $=75$  故选：$$\\text{C}$$．\n<p>除数：$$(103-3)\\div (3+1)=25$$</p>\n<p>被除数：$$25\\times3=75$$</p>",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "和倍问题",
+      "二量和倍问题",
+      "两量和倍"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-45cf29af50dc4d13b48d9c7a4cf9e3c5",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙、丙、丁和戊参加$$100$$米比赛，比赛结束后丁说：``我比乙跑得快．''丙说：``戊在我前面冲过终点线．''甲说：``我的名次排在丁的前面，丙的后面．''请根据他们的话排出名次：（~~~~~ ）．\nA. 戊＞丙＞丁＞甲＞乙\nB. 甲＞乙＞丙＞丁＞戊\nC. 乙＞丁＞甲＞丙＞戊\nD. 戊＞丙＞甲＞丁＞乙",
+    "answer": "D. 戊＞丙＞甲＞丁＞乙",
+    "solution": "根据丁说的可得``丁＞乙''，根据丙说的可得``戊＞丙''，根据甲说的可得``丙＞甲＞丁''，综合可得``戊＞丙＞甲＞丁＞乙''．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "逐步调整思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814518d5240145201ad74d0a76",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$12$$枚硬币的总值是$$9$$角，其中只有$$5$$分和$$1$$角两种，那么每种硬币各（  ）枚。\nA. $$4$$\nB. $$5$$\nC. $$6$$\nD. $$7$$",
+    "answer": "C. $$6$$",
+    "solution": "解：$$5$$分的数量：  $$(12\\times 1-9)\\div \\left( 1-0.5 \\right)$$  $$=3\\div 0.5$$  $$=6$$（枚）；  $$1$$角的硬币数量为：$$12-6=6$$（枚）。  答：每种硬币各$$6$$枚。  故选:C。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "鸡兔同笼问题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-3d16e81a5b234934ba3ccfeeac8b5932",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小何、小琳和小俊参加了一次数独比赛，赛后，他们对比赛结果进行了预测．  小何说：``我是第$$1$$，小琳是第$$2$$，小俊是第$$3$$．''  小琳说：``我是第$$1$$，小何是第$$2$$，小俊是第$$3$$．''  小俊说：``我是第$$1$$，小琳是第$$2$$，小何是第$$3$$．''  如果他们$$3$$人中，有$$1$$人$$3$$句话都预测正确，其余两人都只预测正确了$$1$$句话，那么，$$3$$人的名次按小何、小琳、小俊的顺序组成的$$3$$位数是~\\uline{~~~~~~~~~~}~．\nA. 1,2,3\nB. 1,3,2\nC. 2,1,3\nD. 2,3,1\nE. 3,1,2",
+    "answer": "A. 1,2,3",
+    "solution": "方法一：由于$$3$$人中有且仅有$$1$$人全预测正确，故可枚举全正确的人的情况：  若小何全正确，则小琳只有第$$3$$句正确，小俊只有第$$2$$句正确，符合要求；  若小琳全正确，则小俊全错，不符合要求；  若小俊全正确，则小琳全错，不符合要求；  方法二：注意到小琳和小俊的预测全都不同，故知全正确的人不可能在这两人之中（否则另一个人就全错，不符合要求）  综上，小何全正确，答案为$$123$$.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "逻辑推理",
+      "假设型逻辑推理",
+      "真假话",
+      "找矛盾",
+      "海外竞赛体系",
+      "Knowledge Point",
+      "Calculation Modules"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-deb031b3a5604895ab6cca363b2393cb",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有一个正方形的操场，在它的外面一圈插上小红旗，四个角上都插一面小红旗，每边都插$$16$$面，一共插了面小红旗．\nA. $$56$$\nB. $$58$$\nC. $$60$$\nD. $$62$$",
+    "answer": "C. $$60$$",
+    "solution": "根据题意分析可知，四个角都插上一面小红旗，每边都插$$16$$面，  所以除了端点，每一边有小红旗：$$16-2=14$$（面），  因为是正方形，每边都有$$14$$面，再加上四个端点，那么一共插了：$$14\\times4+4=60$$（面）红旗，  故答案为：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "构造模型",
+      "模型思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-6b7d26127e7e48d687ca1771204c5f54",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "同学们一起去划船，但公园船不够多，如果每船坐$$4$$人，会多出$$10$$人；如果每船坐$$5$$人，还会多出$$1$$人，共有（  ）人去划船。\nA. $$36$$\nB. $$46$$\nC. $$51$$\nD. $$52$$",
+    "answer": "B. $$46$$",
+    "solution": "解：$$\\left( 10-1 \\right)\\div \\left( 5-4 \\right)$$  $$=9\\div 1$$  $$=9$$（条）  $$4\\times 9+10$$  $$=36+10$$  $$=46$$（人）  答：共有$$46$$人去划船。  故选:B。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "盈亏问题",
+      "盈亏基本类型",
+      "盈盈问题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-5917ed654f034251818421fa0f1ea64d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "同学们一起去划船，但公园船不够多，如果每船坐$$4$$人，会多出$$10$$人；如果每船坐$$5$$人，还会多出$$1$$人，共有人去划船．\nA. $$36$$\nB. $$46$$\nC. $$51$$\nD. $$52$$",
+    "answer": "B. $$46$$",
+    "solution": "盈盈类问题：共有$$(10-1)\\div (5-4)=9$$（只）船，共有$$4\\times 9+10=46$$（人）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "盈亏问题",
+      "盈亏基本类型",
+      "盈亏基本类型盈亏问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-dde1e86a4979445582e940394e5aa3ee",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲乙两人在春节一共得$$210$$元压岁钱，甲给乙$$40$$元，还比乙多$$10$$元，那么，原来甲得了~\\uline{~~~~~~~~~~}~元压岁钱．\nA. $$150$$\nB. $$140$$\nC. $$125$$\nD. $$120$$",
+    "answer": "A. $$150$$",
+    "solution": "因为甲给乙$$40$$元，还比乙多$$10$$元，所以甲比乙多$$40\\times 2+10=90$$元，  所以甲：$$(210+90)\\div 2=150$$",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "和差问题",
+      "二量和差问题",
+      "明和暗差"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-5dd8260d1b704801a88c7ec17b59e801",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "前$$10$$个正整数的积，末尾有几个$$0$$？\nA. $$1$$\nB. $$2$$\nC. $$3$$\nD. $$4$$",
+    "answer": "B. $$2$$",
+    "solution": "求积末尾$$0$$的个数，需要看$$2$$和$$5$$的因数个数．$$2$$的个数多余$$5$$的个数，因此找出前$$10$$个数里有多少个$$5$$，$$5$$本身一个，$$10=2\\times 5$$，一共两个$$5$$，因此，末尾两个$$0$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-cad90299340348b2ad86bf7a794ecb38",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小胖和爸爸一起去超市购物．爸爸钱包里有$$2$$张$$100$$元和$$1$$张$$10$$元，他买了一些物品．当小胖四处张望的时候，只听到收银员说：``谢谢，这是找您的$$50$$元．''他看到爸爸的手里只有$$1$$张找回来的$$50$$元钱，请问爸爸买的物品可能是（~ ）元钱．\nA. $$40$$\nB. $$60$$\nC. $$80$$\nD. $$30$$",
+    "answer": "B. $$60$$",
+    "solution": "因为找回的是$$50$$元，则有可能是$$100-50=50$$元，$$100+10-50=60$$元，$$100+100-50=150$$元，$$100+100+10-50=160$$元，则选项中只有$$B$$符合．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "实践应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-38bf3d9c9dbf48ed8b8078109b84be9f",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "由两个$$4$$和一个$$5$$组成的所有不同的三位数的平均数是~\\uline{~~~~~~~~~~}~．\nA. $$481$$\nB. $$471$$\nC. $$454$$\nD. $$544$$\nE. $$445$$",
+    "answer": "A. $$481$$",
+    "solution": "组成的三位数分别为$$445$$，$$454$$，$$544$$，平均数为$$\\left( 445 + 454 + 544 \\right) \\div 3 = 481$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "平均数问题",
+      "公式类",
+      "直接求平均数",
+      "Overseas Competition",
+      "知识点"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-2b69d57da6a84ac6943a130dbd356f2f",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "爸爸、妈妈、哥哥、姐姐和我站成一排照相，我挨着爸爸，也挨着妈妈；姐姐挨着妈妈，也挨着哥哥．那么，站在正中间的人是谁？\nA. 爸爸\nB. 妈妈\nC. 哥哥\nD. 姐姐\nE. 我",
+    "answer": "B. 妈妈",
+    "solution": "由题干可推拍照顺序可能为爸爸~ 我~ 妈妈~ 姐姐~ 哥哥； 或者 哥哥~ 姐姐~ 妈妈~ 我~ 爸爸，因此妈妈在中间．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "逻辑推理",
+      "条件型逻辑推理",
+      "神推理"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-87d44c560cad43bc9cf4250742293227",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$12$$枚硬币的总值是$$9$$角，其中只有$$5$$分和$$1$$角的两种，那么每种硬币各（~~~ ）个．\nA. $$4$$\nB. $$5$$\nC. $$6$$\nD. $$7$$",
+    "answer": "C. $$6$$",
+    "solution": "鸡兔同笼，假设$$12$$枚都是$$5$$分硬币，则1角硬币共$$(90-12\\times 5)\\div (10-5)=6$$枚，每种硬币各$$6$$枚．\n<p>$$5$$分的数量：</p>\n<p>$$(12\\times 1-9)\\div \\left( 1-0.5 \\right)$$</p>\n<p>$$=3\\div 0.5$$</p>\n<p>$$=6$$（枚）；</p>\n<p>$$1$$角的硬币数量为：$$12-6=6$$（枚）．</p>\n<p>答：每种硬币各$$6$$枚．</p>\n<p>故选：$$\\text{C}$$．</p>",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "鸡兔同笼问题",
+      "假设法解鸡兔同笼",
+      "基本型",
+      "变型题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-7b887d7572ef4014aa92e1a5914bdba9",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "约翰的钱比吉尔多$$20$$美元，他们两个总共有$$40$$美元，约翰有美元 .\nA. $$20$$\nB. $$30$$\nC. $$10$$\nD. $$40$$",
+    "answer": "B. $$30$$",
+    "solution": "$$(40+20)\\div 2=30$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "整体思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-19168869c06743ffbb63a55b6cfe6023",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "幼儿园买了$$8$$辆玩具车，每辆玩具车需要$$92$$元，李老师带了$$720$$元够吗？下面的解答比较合理的是\nA. 因为$$92\\times 8\\approx$$ 720（元），$$92\\times$$ 8\\textgreater720，所以$$92\\times$$ 8\\textgreater720，够\nB. 因为$$92\\times 8\\approx$$ 800（元），$$92\\times$$ 8\\textless800，所以$$92\\times$$ 8\\textless720，够\nC. 因为$$92\\times 8\\approx$$ 720（元），$$92\\times$$ 8\\textgreater720，所以$$92\\times$$ 8\\textgreater720，不够\nD. 因为$$92\\times 8\\approx$$ 800（元），$$92\\times$$ 8\\textgreater800，所以$$92\\times$$ 8\\textgreater720，不够",
+    "answer": "C. 因为$$92\\times 8\\approx$$ 720（元），$$92\\times$$ 8\\textgreater720，所以$$92\\times$$ 8\\textgreater720，不够",
+    "solution": "92\\textgreater90，总价大于$$720$$元，所以不够",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "年龄问题",
+      "年龄问题之差倍型"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-7624955dc94a44d88966ffaf11da3f36",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "~周末，妈妈去商场买了一些家庭用品，分别是洗衣机（$$1258$$元）、台灯（$$59$$元）、电饭煲（$$365$$元）、电吹风（$$230$$元），这些用品一共需要花费（~）元．\nA. $$2012$$\nB. $$2013$$\nC. $$2014$$\nD. $$2022$$",
+    "answer": "A. $$2012$$",
+    "solution": "为了简化计算，我们常把一些数拆开来使它与其他数字之和是整十、整百、整千$$ \\cdots ~\\cdots $$这种方法叫作借数凑整法，我们发现如果将$$1258$$和$$159$$分别拆成$$1250 + 8$$和$$150 + 9$$时，便可以凑出整百，$$365$$可以拆成$$360 + 5$$，也可以拆成$$370 - 5$$，但是由于后面要加上$$230$$，所以拆成$$370 - 5$$时会与$$230$$凑成整百，所以总的花费  $$ = \\left( 1250 + 150 \\right) + \\left( 370 + 230 \\right) + \\left( 8 + 9 - 5 \\right) = 1400 + 600 + 12 = 2012$$（元）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-14d411094ee44edcadf9b41fd981ec74",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明说：``我妈妈比我大$$24$$岁，两年前妈妈的年龄是我的$$4$$倍。''那么小明今年（  ）岁。\nA. $$6$$\nB. $$7$$\nC. $$8$$\nD. $$10$$",
+    "answer": "D. $$10$$",
+    "solution": "$$24\\div \\left( 4-1 \\right)+2=24\\div 3+2=8+2=10$$ （岁）",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "年龄问题",
+      "年龄问题之差倍型"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-2ea39d8a4f494098bc248ab886b55ea3",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有$$3$$盒同样重的苹果，如果从每盒中都取出$$4$$千克，那么盒子里剩下的苹果的重量正好等于原来$$1$$盒苹果的重量，原来每盒苹果重（  ）千克。\nA. $$4$$\nB. $$6$$\nC. $$8$$\nD. $$12$$",
+    "answer": "B. $$6$$",
+    "solution": "解：$$3\\times 4\\div 2$$  $$=12\\div 2$$  $$=6$$（千克）  答：每盒苹果重$$6$$千克。  故选:B。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "列方程解应用题",
+      "列方程解应用题等量代换"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-e74a54f02e91402680069dd6e0d4802b",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "找出规律，将你认为合适的数填入（  ），$$2$$、$$4$$、$$3$$、$$9$$、$$4$$、$$16$$、$$5$$、（  ）、（  ）、$$36$$、$$7$$、$$\\cdots $$  那么正确的数是（  ）\nA. $$18$$、$$6$$\nB. $$22$$、$$6$$\nC. $$25$$、$$6$$",
+    "answer": "C. $$25$$、$$6$$",
+    "solution": "解：注意到：  $$4$$是$$2$$的平方，  $$9$$是$$3$$的平方，  $$16$$是$$4$$的平方，  $$25$$是$$5$$的平方，  $$36$$是$$6$$的平方，  $$\\cdots $$  根据这个规律，可知中间两个括号分别应填$$25$$和$$6$$。  故选:C。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "数列与数表",
+      "数列规律",
+      "数列找规律填数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-9d29382b4ef549d0adfcdae100750f10",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "祖玛游戏中，龙嘴里不断吐出很多颜色的龙珠，先$$4$$颗红珠，接着$$3$$颗黄珠，再$$2$$颗绿珠，最后$$1$$颗白珠，按此方式不断重复，从龙嘴里吐出的第$$2021$$颗龙珠是．\nA. 红珠\nB. 黄珠\nC. 绿珠\nD. 白珠",
+    "answer": "A. 红珠",
+    "solution": "$$2021\\div (4+3+2+1)=201（组）\\ldots\\ldots1（个）$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "基本排列的周期问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-15f86cf9cb0e435dbbaf1a0968b068aa",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "房间里有$$3$$种小动物：小白鼠、小花猫、小黄狗．房间里如果猫的数量不超过狗，狗就会欺负猫；如果鼠的数量不超过猫，猫就会欺负鼠；如果猫、狗数量之和不超过鼠，鼠就会偷吃东西．现在小白鼠、小花猫、小黄狗三种小动物在房间里相安无事，但是再进来任意一只，都会打破平衡．那么，原来房间里有多少只小动物？\nA. $$7$$\nB. $$9$$\nC. $$10$$\nD. $$11$$\nE. $$12$$",
+    "answer": "B. $$9$$",
+    "solution": "不超过表示等于或小于均可．现在相安无事，说明猫比狗多，鼠比猫多，猫与狗之和比鼠多，从再进来任意$$1$$只，都会打破平衡可知，猫比狗多$$1$$只，鼠比猫多$$1$$只，猫与狗之和比鼠多$$1$$只，经尝试知有$$4$$只鼠，$$3$$只猫，$$2$$只狗．  再进$$1$$只猫，会打破平衡，所以鼠比猫多$$1$$只；  再进$$1$$只狗，会打破平衡，所以猫比狗多$$1$$只；  再进$$1$$只鼠，会打破平衡，所以猫与狗的和比鼠多$$1$$只；  比较第一个条件和第三个条件可知，猫有$$3$$只，进而求得鼠有$$4$$只，狗有$$2$$只．  共有$$4+3+2=9$$（只）小动物．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "逻辑推理",
+      "比较型逻辑推理",
+      "Overseas Competition",
+      "知识点"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-7741650d7d8b4cd2b911605b443a3d65",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某次小明坐缆车上山，从他坐上车开始，一路上他一直在数对面交错而过的缆车数量，一共是$$60$$辆，则在这一整条索道上（双向）共有辆缆车？\nA. $$30$$辆\nB. $$60$$辆\nC. $$61$$辆\nD. $$120$$辆",
+    "answer": "C. $$61$$辆",
+    "solution": "缆车是循环的，它遇到的第一辆就是紧随其后的，那么他遇到的最后一辆就是它前面的，所以除了它自己这辆，还有$$60$$辆，一共是$$60+1=61$$辆．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "七大能力",
+      "实践应用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-51ebb2ff78fc476b9ca7bde2063b04ca",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "你能根据以下的线索找出百宝箱的密码吗？  （$$1$$）密码是一个八位数；  （$$2$$）密码既是$$3$$的倍数又是$$25$$的倍数；  （$$3$$）这个密码在$$20000000$$到$$30000000$$之间；  （$$4$$）百万位与十万位上的数字相同；  （$$5$$）百位数字比万位数字小$$2$$；  （$$6$$）十万位、万位、千位上数字组成的三位数除以千万位、百万位上数字组成的两位数，商是$$25$$。  依据上面的条件，推理出这个密码应该是（  ）\nA. $$25526250$$\nB. $$26650350$$\nC. $$27775250$$\nD. $$28870350$$",
+    "answer": "B. $$26650350$$",
+    "solution": "解：（$$1$$）四个选项都是$$8$$位数；  （$$2$$）四选项都是$$25$$的倍数，C的数字和是$$35$$不是$$3$$的倍数，排除C；  （$$3$$）都满足条件；  （$$4$$）都满足条件；  （$$5$$）A百位数字和万位数字相等，D百位数字比万位数字少$$4$$，不满足条件；  （$$6$$）B满足条件。  故选：B。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "数论模块",
+      "余数问题",
+      "余数问题带余除法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-0fcc3db86db240ec86eb7c52f32d138b",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个四口之家，由爸爸、妈妈、大儿子和小儿子组成，他们的年龄之和是$$68$$岁，爸爸比妈妈大$$2$$岁．$$3$$年前，这个家庭的成员的年龄之和是$$57$$岁；$$5$$年前，这个家庭的成员的年龄之和是$$52$$岁．请问这个家庭每个成员现在的年龄各是多少岁？  There are four members in a family, dad, mom, elder brother, and little brother. Their sum of the ages this year is $68$, and dad is $2$ years older than mom. $3$ years ago from now, their sum of the ages was $57$; $5$ years ago from now, their sum of ages was $52$. How old is dad this year?\nA. $$35$$\nB. $$32$$\nC. $$30$$\nD. $$27$$\nE. $$25$$",
+    "answer": "B. $$32$$",
+    "solution": "$$3$$年前，四人年龄之和是$$68-3\\times 4=56$$（岁），但实际上是$$57$$岁，这说明$$3$$ 年前小儿子还没有出生，是$$2$$年前出生的，所以小儿子今年是$$2$$岁．则其余$$3$$人年龄之和是$$66$$岁．$$5$$年前，$$3$$人的年龄和应该是$$66-5\\times 3=51$$（岁），但实际上是$$52$$岁，这说明$$5$$年前大儿子还没有出生，是$$4$$年前出生的，所以大儿子今年是$$4$$岁．则爸爸妈妈的年龄和是$$62$$岁，而爸爸比妈妈大两岁，所以爸爸今年$$32$$岁，妈妈今年$$30$$岁．     $3$ years ago from now, their sum of ages should be $$68-3\\times 4=56$$ but actually it was $57$, which means the little brother was not born $3$ years ago. He was born $2$ years ago. Thus, the little brother this year is $2$ years old and the sum of the other three members this year is $68-2=66$ years old.     $5$ years ago from now, the sum of the three members ages should be $66-5\\times 3=51$ but actually it was $52$, whcih means the elder brother was not born $5$ years ago. He was born $4$ years ago. Thus, the elder brother is $4$ years old this year.     Thus, the sum of ages of mom and dad this year is $66-4=62$. Dad is $2$ years older than mom, which means dad is $32$ years old and mom is $30$ years old.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析",
+      "Overseas Competition",
+      "知识点",
+      "应用题模块",
+      "年龄问题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-447832eddfca452aa873c251cb58becf",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "约翰的钱比吉尔多$$20$$美元，他们两个总共有$$40$$美元．请问约翰有多少美元？\nA. $$20$$\nB. $$30$$\nC. $$10$$\nD. $$40$$",
+    "answer": "B. $$30$$",
+    "solution": "$$(40+20)\\div 2=30$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "和差问题",
+      "二量和差问题",
+      "明和明差"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-984077c7a7314eadb8f80d45e8f4c266",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "在小镇大学里，学生们的专业是音乐、美术，或两者．如果有$$500$$个学生是音乐专业，$$600$$个学生是美术专业，$$300$$个学生是音乐和美术专业，那么大学里有多少个学生？\nA. $$500$$\nB. $$800$$\nC. $$1000$$\nD. $$1400$$",
+    "answer": "B. $$800$$",
+    "solution": "$$500+600-300=800$$个．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "数学思想",
+      "逆向思想"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-129728b71137438c948bd0243da469aa",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "星期天，小军帮助妈妈做一些家务。各项家务花的时间为：叠被子$$3$$分钟，洗碗$$8$$分钟，用洗衣机洗衣服$$30$$分钟，晾衣服$$5$$分钟，拖地板$$10$$分钟，削土豆皮$$12$$分钟。  想一想：以上事件中哪些是必须要按顺序完成的？\nA. 叠被子$$-$$洗碗\nB. 用洗衣机洗衣服$$-$$晾衣服\nC. 拖地板$$-$$削土豆皮\nD. 洗碗$$-$$晾衣服",
+    "answer": "B. 用洗衣机洗衣服$$-$$晾衣服",
+    "solution": "解： 先用洗衣机洗衣服，然后晾衣服。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "操作与策略",
+      "统筹规划",
+      "简单时间统筹问题",
+      "时间总和问题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-1be042552e18453d8fcc5111d611feca",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆大卡车一次可以装煤$$2.5$$吨，现在要一次性运走$$48$$吨煤，那么至少需要（  ）辆这样的大卡车。\nA. $$18$$\nB. $$19$$\nC. $$20$$\nD. $$21$$",
+    "answer": "C. $$20$$",
+    "solution": "解：$$48\\div 2.5=19.2\\approx 20$$（辆），由实际情况可知需要$$20$$辆。  答：至少需要$$20$$辆这样的大卡车。  故选：C。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "归一归总问题",
+      "乘除法应用",
+      "除法应用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-7a440e0b1596478fab2214e3249eb5c0",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "【数学人教版】下列算式结果为$$500$$的是．\nA. $$5\\times99+1$$\nB. $$100+25\\times4$$\nC. $$88\\times4+37\\times4$$\nD. $$100\\times0\\times5$$",
+    "answer": "C. $$88\\times4+37\\times4$$",
+    "solution": "A等于$$5\\times(100-1)+1=500-5+1=496$$，$$B$$等于$$100+100=200$$ ，$$C$$等于$$(88+37)\\times4=125\\times 4=500$$ ，$$D$$等于$$0$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "课内知识点",
+      "数与运算",
+      "混合运算",
+      "整数四则混合运算"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-683e2de76d25496aa07892c7c46f00a9",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某部$$87$$集的电视连续剧，每周日、周一、周四、周五、周六都要播出一集，周二、周三停播．这部剧周一大结局，请问它是周几开播的？\nA. 一\nB. 四\nC. 五\nD. 六\nE. 日",
+    "answer": "E. 日",
+    "solution": "$$87$$集的电视连续剧在某个星期日开播，每周日、周一、周四、周五、周六都要播一集，五天一周期，$$87\\div 5=17$$（周）$$\\cdots \\cdots 2$$（天），所以最后一集在周一播出，选项$$\\text{A}$$正确．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "实践应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-fdd247543f0547ba8232b0e5b695617f",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有一列数：$$3$$，$$3$$，$$1$$，$$1$$，$$2$$，$$3$$，$$3$$，$$1$$，$$1$$，$$2$$，$$\\cdots \\cdots $$那么第$$53$$个数是．\nA. $$3$$\nB. $$1$$\nC. $$2$$",
+    "answer": "B. $$1$$",
+    "solution": "这列数按照``$$3$$，$$1$$，$$2$$''的周期排列，则，$$53\\div 3=17\\cdots \\cdots 2$$，  所以第$$53$$个数位这个周期的第$$2$$个数，即为$$1$$．  故选择$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff75f93ed1ce4b3d888aea71ed00259f",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一桶油连桶重$$9$$千克，用去一半后，连桶重$$5$$千克，原来桶里的油重（  ）千克。\nA. $$4$$\nB. $$8$$",
+    "answer": "B. $$8$$",
+    "solution": "一半重量为$$9-5=4$$（千克），则原来有油$$4\\times 2=8$$（千克）。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "加减法应用",
+      "同增同减应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-8f5bd4faf340411da4e57b67b5e98663",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "奶奶折一个纸鹤用$$3$$分钟，每折好一个需要休息$$1$$分钟，奶奶从$$2$$时$$30$$分开始折，她折好第$$5$$个纸鹤时已经到了（  ）\nA. $$2$$时$$45$$分\nB. $$2$$时$$49$$分\nC. $$2$$时$$50$$分\nD. $$2$$时$$53$$分",
+    "answer": "B. $$2$$时$$49$$分",
+    "solution": "解：$$1\\times \\left( 5-1 \\right)=4$$（分钟）  $$3\\times 5=15$$（分钟）  $$2$$时$$30$$分$$+4$$分钟$$+15$$分钟$$=2$$时$$49$$分  答：她折好第$$5$$个纸鹤时已经到了$$2$$时$$49$$分。  故选:B。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "间隔问题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ce4fd87703c1411ab13f5d6a69dc4469",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "祖玛游戏中，龙嘴里不断吐出很多颜色的龙珠，先$$4$$颗红珠，接着$$3$$颗黄珠，再$$2$$颗绿珠，最后$$1$$颗白珠，按此方式不断重复，从龙嘴里吐出的第$$200$$颗龙珠是．\nA. 红珠\nB. 黄珠\nC. 绿珠\nD. 白珠",
+    "answer": "D. 白珠",
+    "solution": "$$200\\div (4+3+2+1)=20$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "基本排列的周期问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-79f8a60c99024a13ae9d98b06b318cf4",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲乙两人在春节一共得了$$200$$元压岁钱，甲给乙$$40$$元，还比乙多$$10$$元，那么，原来甲得了元压岁钱．\nA. $$150$$\nB. $$145$$\nC. $$140$$\nD. $$125$$\nE. $$120$$",
+    "answer": "B. $$145$$",
+    "solution": "因为甲给乙$$40$$元，还比乙多$$10$$元，所以甲比乙多$$40\\times 2+10=90$$（元），  所以甲：$$(200+90)\\div 2=145$$（元）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "Overseas Competition",
+      "知识点",
+      "应用题模块",
+      "和差倍问题",
+      "拓展思维",
+      "和差问题",
+      "二量和差问题",
+      "明和暗差"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-2ea0bbea40ee45ed9ebc3d6c9a7f5a0f",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "毛毛用围棋子摆成一个四层空心方阵，最外一层每边有围棋子$$10$$个．摆这个方阵共用围棋子个．\nA. $$96$$\nB. $$108$$\nC. $$120$$\nD. $$132$$",
+    "answer": "B. $$108$$",
+    "solution": "由题意知，用围棋子摆成一个三层空心方阵，最外一层每边有围棋子$$12$$个，由于相邻两层每边相差$$2$$个，则由外向里的两层每边分别是$$(12-2)$$个、$$(12-2\\times 2)$$个，根据``四周的个数$$=$$（每边的个数$$-1$$）$$\\times 4$$''可分别求得这三层棋子的个数，再相加就是所用的总个数，据此解答．  本题关键是求出每层的个数；方阵问题相关的知识点是：四周的个数$$=$$（每边的个数$$-1$$）$$\\times 4$$，每边的个数$$=$$四周的个数$$\\div 4+1$$，中实方阵的总个数$$=$$每边的个数$$\\times $$每边的个数，空心方阵的总个数$$=$$（最外层每边的个数$$-$$空心方阵的层数）$$\\times $$空心方阵的层数$$\\times 4$$，外层边长数$$^{2}-$$中空边长数$$^{2}=$$实面积数．  最外边一层棋子个数：$$(12-1)\\times 4=44$$（个），  第二层棋子个数：$$(12-2-1)\\times 4=36$$（个），  第三层棋子个数：$$(12-2\\times 2-1)\\times 4=28$$（个），  摆这个方阵共用棋子：$$44+36+28=108$$（个）．  故选$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-c1740269c7ab40d9895347bf871a053d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算．  $$24+63+52+17+49+81+74+38=$$~\\uline{~~~~~~~~~~}~\nA. $$398$$\nB. $$408$$\nC. $$393$$",
+    "answer": "A. $$398$$",
+    "solution": "$$\\textasciitilde\\textasciitilde\\textasciitilde\\textasciitilde$$$$24+63+52+17+49+81+74+38=$$  $$=(38+52)+(63+17)+(49+81)+74+24$$  $$= 90+80+130+98$$  $$=398$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "转化与化归的思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-a2ac4f9c464c48f69101e73baec27dfc",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某年的三月份正好有$$4$$个星期三和$$4$$个星期六，那么这年$$3$$月$$1$$日是星期．\nA. 一\nB. 二\nC. 三\nD. 四\nE. 五\nF. 六\nG. 日",
+    "answer": "G. 日",
+    "solution": "$$3$$月有$$31$$天，从中任取连续$$28$$天，正好是四周，恰好有$$4$$个周三和$$4$$个周六，  因此，剩下的$$3$$天中不能有周三和周六  不妨取$$3$$月$$4$$日到$$3$$月$$31$$日，这$$28$$天中恰有$$4$$个周三和$$4$$个周六  剩下的$$1$$日到$$3$$日是连续的三天，其中有不能有周三和周六，发现这三天只能是周日、周一、周二  因此，$$3$$月$$1$$日是周日．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "课内知识点",
+      "数学广角",
+      "简单的周期",
+      "简单的周期计算"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-e51d914817c549788928a8d2749836c6",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "家中电度表上的一度电表示的耗电量为（ ~~）．\nA. $$0.1$$千瓦小时\nB. $$1$$千瓦小时\nC. $$100$$瓦小时",
+    "answer": "B. $$1$$千瓦小时",
+    "solution": "家中电度表上的一度电表示的耗电量为$$1$$千瓦小时．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-d896d1a82cbf4282bb8706c1a23e1b80",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面哪个算式的计算结果是偶数？\nA. $$\\left( 784-455 \\right)\\times 39+44\\times 11$$\nB. $$11\\times 1+22\\times 2+33\\times 3+44\\times 4+55\\times 5+66\\times 6+77\\times 7+88\\times 8+99\\times 9$$\nC. $$11\\times 1+22\\times 2+33\\times 3+44\\times 4+55\\times 5+66\\times 6+77\\times 7+88\\times 8+99\\times 9$$\nD. $$123\\times 456+789$$\nE. $$2\\times 4\\times 6\\times \\cdots \\times 2018\\times 2020-1\\times 3\\times 5\\times \\cdots \\times 2017\\times 2019$$",
+    "answer": "C. $$11\\times 1+22\\times 2+33\\times 3+44\\times 4+55\\times 5+66\\times 6+77\\times 7+88\\times 8+99\\times 9$$",
+    "solution": "暂无",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解",
+      "程序性计算"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-c665adacea3d42579645f883a733cce6",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "【$$2021$$三年级卷第$$13$$题】五盘水果排成一排．苹果和橘子相邻，橘子和草莓相邻，苹果和香蕉不相邻，香蕉和芒果不相邻．那么一定和芒果相邻的是．\nA. 只有苹果\nB. 只有橘子\nC. 只有草莓\nD. 香蕉和草莓\nE. 橘子和香蕉",
+    "answer": "A. 只有苹果",
+    "solution": "根据题意分析可知，苹果和草莓都与橘子相邻，  所以可以确定橘子在苹果和草莓的中间，  假设苹果、橘子、草莓这样排列，  则香蕉在草莓的右边，芒果在苹果的左边，  即苹果与芒果一定相邻，  故选：$$\\text{A}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "实践应用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-57ed0b9139244c77b9582438caf2f919",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "在一列数$$8$$、$$6$$、$$4$$、$$2$$、$$6$$、\\ldots 中，从第$$3$$个数开始，每个数都是它前面两个数的和的个位数字．在这串数中，有个数在重复循环.\nA. $$4$$\nB. $$5$$\nC. $$6$$",
+    "answer": "A. $$4$$",
+    "solution": "$$2$$、$$2$$、$$4$$、$$8$$、$$2$$、$$6$$、$$2$$、$$2$$、$$4$$、$$8$$\\ldots 发现$$6$$个一循环，$$2004\\div 6=334$$（组），所以第$$2004$$个数和第$$6$$个相同为$$6$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "基本排列的周期问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-1f77d69d07704ed89bf1190388e0304e",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "长方形的周长是$$48$$厘米，已知长是宽的$$2$$倍，那么长方形的长是。\nA. $$8$$厘米\nB. $$16$$厘米\nC. $$24$$厘米",
+    "answer": "B. $$16$$厘米",
+    "solution": "暗和型：  周长是$$48$$厘米，那么长$$+$$宽的和：$$48\\div$$ 2=24（厘米）  宽：$$24\\div$$ （2+1）=8（厘米）  长：$$8\\times$$ 2=16（厘米）",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "和倍问题",
+      "二量和倍问题",
+      "两量和倍"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-afee1c54792d4e8f9df06db4b552c4b7",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$10$$本相同的笔记本分给$$3$$个人，每人至少一本，共有种不同的分配方案．\nA. $$20$$\nB. $$28$$\nC. $$36$$\nD. $$45$$",
+    "answer": "C. $$36$$",
+    "solution": "根据题意，$$10$$个相同的小球分给$$3$$个人，每人至少$$1$$个，就是将$$10$$个球分成$$3$$组，  一个人最多分：$$10-1-1=8$$（支），  $$8+7+6+5+4+3+2+1=36$$（种），  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-b64bafe77a3e4ae485f343a5c7caad6b",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "搬家公司要搬运$$100$$只花瓶，规定完整运送$$1$$只花瓶得$$3$$元，打破$$1$$只要赔偿$$2$$元．全部搬完后搬家公司共得$$260$$元，若假设他们完整运送了$$x$$只花瓶，则$$x$$表示只．\nA. $$92$$\nB. $$90$$\nC. $$88$$\nD. $$80$$",
+    "answer": "A. $$92$$",
+    "solution": "他们完整运送了$$x$$只花瓶，则打破的有$$\\left( 100-x \\right)$$只，  根据题意可列方程：$$3x-2\\times \\left( 100-x \\right)=260$$，  解得$$x=92$$，  即完整运送了$$92$$只花瓶．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "七大能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-0abf5bfd5961457c8de69ea56f3bbbba",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "从$$1$$至$$10$$这$$10$$个整数中，至少取（  ）个数，才能保证其中有两个数的和等于$$10$$。\nA. $$4$$\nB. $$5$$\nC. $$6$$\nD. $$7$$",
+    "answer": "D. $$7$$",
+    "solution": "先找到和为$$10$$的组合：$$(1$$，$$9)$$、$$(2$$，$$8)$$、$$(3$$，$$7)$$、$$(4$$，$$6)$$，剩下$$5$$、$$10$$，若前面四组数中各取一个，后面$$5$$、$$10$$全取，这样还不能满足题目要求的两数和为$$10$$，如果再取剩下四个中的任意一个，必定会凑出和为$$10$$的组合，故最少要取$$6+1=7$$（个）。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "抽屉原理",
+      "简单抽屉原理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-682e9d91470d4461ab4cf4e4c9def511",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "幼儿园买了$$8$$辆玩具车，每辆玩具车需要$$92$$元，李老师带了$$720$$元够吗？下面的解答比较合理的是．\nA. 因为$$92\\times 8\\approx$$ 720（元），$$92\\times$$ 8\\textgreater720，所以$$92\\times$$ 8\\textgreater720，够\nB. 因为$$92\\times 8\\approx$$ 800（元），$$92\\times$$ 8\\textless800，所以$$92\\times$$ 8\\textless720，够\nC. 因为$$92\\times 8\\approx$$ 720（元），$$92\\times$$ 8\\textgreater720，所以$$92\\times$$ 8\\textgreater720，不够\nD. 因为$$92\\times 8\\approx$$ 800（元），$$92\\times$$ 8\\textgreater800，所以$$92\\times$$ 8\\textgreater720，不够",
+    "answer": "C. 因为$$92\\times 8\\approx$$ 720（元），$$92\\times$$ 8\\textgreater720，所以$$92\\times$$ 8\\textgreater720，不够",
+    "solution": "92\\textgreater90，总价大于$$720$$元，所以不够",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "年龄问题",
+      "年龄问题之差倍型"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-b44f55e4c069493ab535accc2642a889",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "从$$1$$，$$2$$，$$3$$，$$\\cdots $$，$$7$$中选择若干个不同的数，使得其中偶数之和等于奇数之和，则符合条件的选法共有（  ）种。\nA. $$6$$\nB. $$7$$\nC. $$8$$\nD. $$9$$",
+    "answer": "B. $$7$$",
+    "solution": "偶数：$$2$$、$$4$$、$$6$$；奇数$$1$$、$$3$$、$$5$$、$$7$$；偶数少，所以看偶数和；  偶数和有：$$2$$（舍掉）、$$4$$、$$6$$、$$8$$、$$10$$、$$12$$；  $$4$$：$$4=1+3$$，$$1$$组  $$6$$：$$6=2+4=1+5$$，$$2$$组  $$8$$：$$2+6=1+7=3+5$$，$$2$$组  $$10$$：$$4+6=3+7$$，$$1$$组  $$12$$：$$2+4+6=5+7$$，$$1$$组  所以共有$$1+2+2+1+1=7$$（组）。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "组合模块最值问题",
+      "和一定型最值问题",
+      "多数之积的最值",
+      "拆分数的数目确定"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-a4796eace85240b4b0dfc9d8e2d0b497",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "从$$1$$到$$20$$的$$20$$个整数，每个整数除以$$6$$，所得的余数的总和是多少？\nA. $$48$$\nB. $$47$$\nC. $$46$$\nD. $$45$$",
+    "answer": "A. $$48$$",
+    "solution": "$$1$ $5$$除以$$6$$的余数分别是$$1$$，$$2$$，$$3$$，$$4$$，$$5$$；  $$7$ $11$$除以$$6$$的余数分别是$$1$$，$$2$$，$$3$$，$$4$$，$$5$$；  $$13$ $17$$除以$$6$$的余数分别是$$1$$，$$2$$，$$3$$，$$4$$，$$5$$；  $$19$$，$$20$$除以$$6$$的余数分别是$$1$$，$$2$$；  所以余数和为$$\\left(1+2+3+4+5\\right)\\times 3+3=48$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-5641119262844a56b6472cdc7aa3d8ba",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一次考试有三道题，四个好朋友考完后互相交流了成绩．发现四人各对了$$3$$、$$2$$、$$1$$、$$0$$题．这时一个路人问：你们考的怎么样啊？  甲：``我对了两道题，而且比乙对的多，丙考的不如丁．''  乙：``我全对了，丙全错了，甲考的不如丁．''  丙：``我对了一道，丁对了两道，乙考的不如甲．''  丁：``我全对了，丙考的不如我，甲考的不如乙．''  已知大家都是对了几道题就说几句真话，那么对了$$2$$题的人是（~~~~~ ）．\nA. 甲\nB. 乙\nC. 丙\nD. 丁",
+    "answer": "B. 乙",
+    "solution": "全对的人不会说自己对的题少于$$3$$，故只有乙、丁可能全对．若乙全对，则排名是乙、丁、甲、丙，与丙所说的``丁对了$$2$$道''是假话相矛盾；若丁全对，则丙的后两句是假话，不可能是第二名，又由丁的``甲考得不如乙''能知道第二名是乙，故丙全错，甲只有``丙考得不如丁''是真话，排名是丁、乙、甲、丙且$$4$$人的话没有矛盾．综上，答案是B．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "实践应用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814518d52401451919f1a60385",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知$$\\triangle +\\triangle =\\bigcirc +\\bigcirc +\\bigcirc $$，$$\\bigcirc +\\bigcirc +\\bigcirc =\\square +\\square +\\square $$，$$\\bigcirc +\\square +\\triangle +\\triangle =100$$，则$$\\triangle =$$．\nA. $$20$$\nB. $$25$$\nC. $$30$$\nD. $$36$$",
+    "answer": "C. $$30$$",
+    "solution": "因为$$\\triangle +\\triangle =\\bigcirc +\\bigcirc +\\bigcirc $$即$$2\\triangle =3\\bigcirc $$；  $$\\bigcirc +\\bigcirc +\\bigcirc =\\square +\\square +\\square $$即$$3\\bigcirc =3\\square $$，则$$\\bigcirc =\\square $$；  $$\\bigcirc +\\square +\\triangle +\\triangle =\\bigcirc +\\bigcirc +3\\bigcirc =5\\bigcirc =100$$，  所以$$\\bigcirc =20$$，则$$\\square =20$$，$$\\triangle =30$$．  故选：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "方程基础",
+      "等量代换",
+      "不可直接计算的算式代换"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-b7f83fc9ea96422aa39cd1ae5c8476a7",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有一列数：$$3$$，$$1$$，$$2$$，$$3$$，$$1$$，$$2$$，$$\\cdots \\cdots $$那么第$$53$$个数是．\nA. $$3$$\nB. $$1$$\nC. $$2$$",
+    "answer": "B. $$1$$",
+    "solution": "这列数按照``$$3$$，$$1$$，$$2$$''的周期排列，则，$$53\\div 3=17$$（组）$$\\cdots \\cdots 2$$（个），  所以第$$53$$个数位这个周期的第$$2$$个数，即为$$1$$．  故选择$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "归纳总结",
+      "归纳推理"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-d35eaeeb6e4740639ca9d2383b393d9a",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有$$125$$个同样大小的正方体木块，木块的每个面的面积均为$$1$$平方厘米，其中$$63$$个表面涂上白色，还有$$62$$个表面涂上蓝色．将这$$125$$个正方体木块粘在一起，形成一个棱长为$$5$$厘米大正方体木块．这个大正方体木块的表面上，蓝色的面积最多是~\\uline{~~~~~~~~~~}~平方厘米．\nA. $$110$$\nB. $$112$$\nC. $$114$$\nD. $$116$$\nE. $$118$$",
+    "answer": "C. $$114$$",
+    "solution": "显然大正方体表面不能全为蓝色，$$8$$个顶点上的正方体木块表面积是$$3$$平方厘米，棱上的正方体木块表面积是$$2$$平方厘米，面上的正方体木块表面积是$$1$$平方厘米，所以要先在顶点和棱上放蓝色的正方体木块，剩下的放在面上，不放在内部．所以让正方体顶点和棱均为蓝色方块时蓝色表面积最大．此时蓝色的面积为：$$8\\times3+2\\times（5-2）\\times12+（62-8-36）=114$$（平方厘米）.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "海外竞赛体系",
+      "知识点",
+      "数论模块",
+      "质数与合数",
+      "特殊质数运用",
+      "特殊质数2",
+      "拓展思维",
+      "能力",
+      "空间想象",
+      "立体几何加工"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-b1d2180c09b14b68bec5ebdcbf9e19cf",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某年的$$2$$月份有$$5$$个星期一，这年的$$2$$月$$22$$号是．\nA. 星期日\nB. 星期一\nC. 星期二\nD. 不确定",
+    "answer": "B. 星期一",
+    "solution": "根据题意分析可知，某年的$$2$$月份有$$5$$个星期一，  因为$$2$$月有$$28$$天则只有$$4$$个周一，  所以这一年的$$2$$月有$$29$$天，且$$2$$月$$1$$日为星期一，  则$$2$$月$$22$$日为星期一．  故选$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-7aaee706a02748478ad7d733376ca52b",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$2013$$年$$12$$月$$21$$日是星期六，那么$$2014$$年的春节，即$$2014$$年$$1$$月$$31$$日是星期．\nA. 一\nB. 四\nC. 五\nD. 六",
+    "answer": "C. 五",
+    "solution": "方法一：星期六有：$$21\\to 28\\to 4(35)\\to 11\\to 18\\to 25$$，所以 $$31$$日是星期五．  方法二：$$10+31=41$$（天），$$41\\div7=5\\cdots 6$$ ，差一天是星期六，所以$$31$$日是星期五．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "时间中的周期问题",
+      "日期中的周期"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-7095ae3210d24b349eacf43461fcbbab",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "从$$1$$开始的连续若干个自然数，其奇数之和比偶数之和多$$20$$，那么共有个自然数．\nA. $$39$$\nB. $$40$$\nC. $$41$$\nD. $$43$$",
+    "answer": "A. $$39$$",
+    "solution": "将从$$0$$开始的连续自然数倒序书写，则相邻的奇数与偶数之差为$$1$$，共计$$20$$组．  所以会得到$$20$$个奇数，$$20$$个偶数．共计$$40$$个数，所以从$$0\\sim 39$$会有$$40$$个数．  故选择$$\\text{A}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "转化与化归的思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-d5c68f9eadb343e7bde3ed15d1ceea55",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：$$325\\times 337+650\\times 330+975=$$ ．\nA. $$33700$$\nB. $$65000$$\nC. $$32500$$\nD. $$325000$$",
+    "answer": "D. $$325000$$",
+    "solution": "原式$$=325\\times 337+325\\times 2\\times 330+325\\times 3$$  $$=325\\times (337+2\\times 330+3)$$  $$=325\\times 1000$$  $$=325000$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "七大能力",
+      "运算求解",
+      "课内体系"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-88b40b13de9f4e29b3aaf2aa4a7700fc",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "按规律填数，那么横线上填入的数是．  $$1$$，$$1$$，$$2$$，$$3$$，$$5$$，$$8$$，$$13$$，~\\uline{~~~~~~~~~~}~， $$34$$，$$55$$，$\\cdots\\cdots$\nA. $$16$$\nB. $$19$$\nC. $$21$$\nD. $$23$$",
+    "answer": "C. $$21$$",
+    "solution": "斐波那契数串，从第$$3$$个数开始，每个数等于前两个数的和．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "学习能力",
+      "七大能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-4265583ddad14c6d905fa6242e3ad3fd",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "祖玛游戏中，龙嘴里不断吐出很多颜色的龙珠，先$$4$$颗红珠，接着$$3$$颗黄珠，再$$2$$颗绿珠，最后$$1$$颗白珠，按此方式不断重复，从龙嘴里吐出的第$$252$$颗龙珠是．\nA. 红珠\nB. 黄珠\nC. 绿珠\nD. 白珠",
+    "answer": "A. 红珠",
+    "solution": "$$252\\div (4+3+2+1)=25······2$$．红色",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "基本排列的周期问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-fbdb7b81f0e245e1bd2e5cfb64dff707",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "兄弟俩今年的年龄和是$$35$$岁，当哥哥像弟弟现在这样大时，弟弟的年龄恰好是哥哥年龄的一半，弟弟今年岁．\nA. $$12$$\nB. $$13$$\nC. $$14$$\nD. $$15$$",
+    "answer": "C. $$14$$",
+    "solution": "题目中有$$2$$个时间线，一是现在的年龄和$$35$$岁的现在时，二是当哥哥像弟弟现在这样大时的过去时．  在过去时中：弟弟的年龄是$$1$$份，则哥哥为$$2$$份，所以哥哥比弟弟多$$1$$份．  到现在时的时候：弟弟的年龄$$2$$份，则哥哥为$$3$$份．差仍然是$$1$$份．  所以现在：$$35\\div$$ （2+3）=7（岁/份）  弟弟：$$2\\times$$ 7=14（岁）  哥哥：$$3\\times$$ 7=21（岁）",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "列方程解应用题",
+      "一元一次方程解应用题",
+      "方程法解其他问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-3772c637cf22432cb9b5a0ae1cf6254c",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "今年爸爸是$$32$$ 岁，儿子是$$4$$ 岁，当父子俩年龄之和是$$50$$ 岁时，应该是~\\uline{~~~~~~~~~~}~年之后的事．\nA. $$18$$\nB. $$46$$\nC. $$14$$\nD. $$7$$",
+    "answer": "D. $$7$$",
+    "solution": "今年年龄和：$$32+4=36$$（岁），两人共长：$$50-36=14$$（岁），经过的年头：$$14\\div 2=7$$（年）．  答：当父子年龄和是$$50$$时，应该是$$7$$年以后的事．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "年龄问题",
+      "年龄问题基本关系",
+      "年龄和"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-d0269d3f3d7c4b9892a517aa6eaca1a2",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某年的三月份正好有$$4$$个星期三和$$4$$个星期六，那么这年$$3$$月$$1$$日是星期~\\uline{~~~~~~~~~~}~．\nA. 四\nB. 五\nC. 六\nD. 日",
+    "answer": "D. 日",
+    "solution": "$$3$$月有$$31$$天，从中任取连续$$28$$天，正好是四周，恰好有$$4$$个周三和$$4$$个周六，  因此，剩下的$$3$$天中不能有周三和周六  不妨取$$3$$月$$4$$日到$$3$$月$$31$$日，这$$28$$天中恰有$$4$$个周三和$$4$$个周六  剩下的$$1$$日到$$3$$日是连续的三天，其中有不能有周三和周六，发现这三天只能是周日、周一、周二  因此，$$3$$月$$1$$日是周日．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "课内知识点",
+      "数学广角",
+      "简单的周期",
+      "简单的周期计算"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-8a124d778c2f48d59e8fcb232ec182f1",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "过年了，小明家买了很多瓶果汁．年三十喝了总量的一半少$$1$$瓶；初一又喝了剩下的一半；初二又喝了剩下的一半多$$1$$瓶，这时还剩$$2$$瓶没有喝，那么小明家一共买了（~~~~~ ）瓶果汁．\nA. $$20$$\nB. $$22$$\nC. $$24$$\nD. $$26$$",
+    "answer": "B. $$22$$",
+    "solution": "还原法，初二没喝之前有$$(2+1)\\times 2=6$$（瓶），初一没喝之前有$$6\\times 2=12$$（瓶），开始有$$(12-1)\\times 2=22$$（瓶）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "还原问题",
+      "多量还原问题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814518d5240145201acb9d0a72",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "开学前6天，小明还没做寒假数学作业，而小强已完成了60道题，开学时，两人都完成了数学作业. 在这6天中，小明做的题的数目是小强的3倍，他平均每天做（ ）道题.\nA. 6\nB. 9\nC. 12\nD. 15",
+    "answer": "D. 15",
+    "solution": "由于开学前6天时小强比小明多做了60道题，而开学时两人做的题一样多，所以这6天中小明比小强多做了60道题，而这6天中小明做的题的数目是小强的3倍，所以这6天小明做了$$60\\div \\left( 3-1 \\right)\\times 3=90$$(道) 题，他平均每天做$$90\\div 6=15$$题.正确答案为 D.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "差倍",
+      "两量差倍",
+      "暗差型二量差倍问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-aefb399b9b4545ec8f81b2372ab9d680",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有一串数，第一个数是$$6$$，第二个数是$$3$$，从第二个数起，每个数都比它前面的那个数与后面的那个数的和小$$5$$，那么这串数的前$$200$$个数之和是~\\uline{~~~~~~~~~~}~.\nA. $$990$$\nB. $$996$$\nC. $$998$$\nD. $$999$$\nE. $$1009$$\nF. $$1010$$",
+    "answer": "D. $$999$$",
+    "solution": "第一个数为$$6$$，第二个数为$$3$$，  根据``从第二个数起，每个数都比它前面的那个数与后面的那个数的和小$$5$$''，可以得到第三个数为$$3+5-6=2$$；  同理，后面的数依次得到为:$$6$$、$$3$$、$$2$$、$$4$$、$$7$$、$$8$$、$$6$$、$$3$$、$$2$$、$$4$$\\ldots\\ldots．  易知，每$$6$$个数为一个周期循环．$$200\\div 6=33$$（组）$$\\cdots \\cdots 2$$（个）．  所以前$$200$$个数的和为$$33\\times \\left( 6+3+2+4+7+8 \\right)+6+3=999$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "数列操作周期问题",
+      "数的周期"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-5f9c17c5300b4bd9aaaf15a7cf3498c0",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$6$$人围成一圈玩狼人游戏，他们中有狼人和平民，平民说真话，狼人说假话．在回答``你左边相邻的人是狼人吗？''这个问题时，有$$2$$人回答``是''，有$$4$$人回答``不是''．这$$6$$人中最多有个狼人？\nA. $$1$$\nB. $$2$$\nC. $$3$$\nD. $$4$$\nE. $$5$$",
+    "answer": "E. $$5$$",
+    "solution": "暂无",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "推理推导",
+      "言语逻辑推理"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-1b8f3c3c402845fda15b5ad6771782d8",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面结果哪个是奇数．\nA. even $$\\times$$ odd\nB. odd $$\\times$$ even\nC. odd $$+$$ even\nD. odd $$+$$ odd",
+    "answer": "C. odd $$+$$ even",
+    "solution": "本题题意为``下面结果哪个是奇数''，  $$\\text{A}$$选项是偶数$$\\times $$奇数$$=$$偶数，  $$\\text{B}$$选项是奇数$$\\times $$偶数$$=$$偶数，  $$\\text{C}$$选项是奇数$$+$$偶数$$=$$奇数，  $$\\text{D}$$选项是奇数$$+$$奇数$$=$$偶数，  综上结果为奇数的只有$$\\text{C}$$选项．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-03388d396a5643298fcb9ac0f6cfedfb",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙两人玩拿火柴棍游戏，桌上共有$$10$$根火柴棍，谁取走最后一根谁胜。甲每次可以取走$$1$$根、$$3$$根或$$4$$根（只能取恰好的数量，如果最后剩$$2$$根火柴棍，甲只能取$$1$$根），乙每次可以取$$1$$根或$$2$$根。如果甲先取，那么甲为了取胜，第一次应（  ）。\nA. 取$$1$$根\nB. 取$$3$$根\nC. 取$$4$$根\nD. 无论怎么取都无法获胜",
+    "answer": "D. 无论怎么取都无法获胜",
+    "solution": "解：无论甲怎么取，乙只要让最后火柴棍剩两根，甲这时只能取$$1$$根，乙胜；  在这之前只要保证火柴剩下$$5$$根，甲取$$1$$根，则乙取$$2$$根，剩$$2$$根，乙胜；  或者甲取$$3$$根，乙取$$2$$根，乙胜；或者甲取$$4$$根，乙取$$1$$根，乙胜。  所以甲无论怎么取都无法获胜。  故选:D。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "智巧趣题",
+      "数学趣题",
+      "火柴棒问题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-a0006f0cc1c64f2a9a9e328114af2d15",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "按规律写算式：$$100+2$$，$$98-5$$，$$96+8$$，$$94-11$$，$$\\cdots $$第$$10$$个算式是．\nA. $$80-27$$\nB. $$82-29$$\nC. $$82+29$$\nD. $$82-27$$",
+    "answer": "B. $$82-29$$",
+    "solution": "规律：每个算式第一个数是从$$100$$开始，依次少$$2$$，  第二个数是从$$2$$开始，依次多$$3$$，  算式中间的符号是``$$+-$$''循环，  则第$$10$$个算式，中间符号为``$$-$$''，  第$$1$$个数为$$100-9\\times 2=82$$，  第$$2$$个数为$$2+3\\times 9=29$$，  则第$$10$$个算式为``$$82-29$$''．  故选$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "数据处理"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-5345059d7e034de98c9d9c42c9007bfb",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "算式$$19+28+37+46+55+64+73+82+91$$的计算结果是．\nA. $$450$$\nB. $$485$$\nC. $$495$$\nD. $$505$$",
+    "answer": "C. $$495$$",
+    "solution": "$$19+28+37+46+55+64+73+82+91$$  $$=(19+91)+(28+82)+(37+73)+(46+64)+55$$  $$=110+110+110+110+55$$  $$=495$$．  所以选择$$\\text C$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "转化与化归的思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-73fe62bbcd374e61b799428e9ae13120",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "现有甲、乙、丙三人同时说了以下三句话。甲说：``乙正在说谎。''乙说：``丙正在说谎。''丙说：``他俩正在说谎。''根据三人的对话情况，请你分析，（  ）说的是真话。\nA. 甲\nB. 乙\nC. 丙",
+    "answer": "B. 乙",
+    "solution": "解：若甲说的是真话，则乙说谎，丙说真话，但丙说甲在说谎，所以矛盾。因此，甲说谎。 甲说谎，则乙说的是真话，丙是说谎的，此时符合。 所以，三人中，甲说谎，乙说真话，丙说谎。  故答案为：B。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "逻辑推理",
+      "假设型逻辑推理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-932cd703d4394fbdb4ac975234945c98",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "妈妈回到家，发现她的一个孩子把家里的巧克力都吃光了．她问了她的每个孩子是谁做的，他们的回答如下所示．  奥斯汀:卡洛斯吃了巧克力．  本尼:奥斯汀吃了巧克力．  卡洛斯:本尼在撒谎．  丹妮拉:吃巧克力的不是卡洛斯．  艾拉:我没有吃巧克力．  如果只有两个孩子说的是真话，那么是谁吃了巧克力?\nA. Austin\nB. Carlos\nC. Daniela\nD. Ella",
+    "answer": "D. Ella",
+    "solution": "因为$$Austin$$和$$Daniela$$说的话是矛盾的，$$Benny$$和$$Carlos$$说的话是矛盾的，而五个孩子中有两个孩子说的真话，$$Ella$$说的一定是假话，真相是巧克力是$$Ella$$吃的.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "逻辑推理",
+      "假设型逻辑推理",
+      "真假话",
+      "找一致（同伙）",
+      "Overseas Competition",
+      "知识点"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-24a3c6acbb454ffdb9cd9adbd9706d08",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "幼儿园买了$$8$$辆玩具车，每辆玩具车需要$$92$$元，李老师买这些玩具车，带了$$720$$元够吗？下面的解答比较合理的是．\nA. 因为$$92\\times 8\\approx$$ 720（元），$$92\\times$$ 8\\textgreater720，所以$$92\\times$$ 8\\textgreater720，够\nB. 因为$$92\\times 8\\approx$$ 800（元），$$92\\times$$ 8\\textless800，所以$$92\\times$$ 8\\textless720，够\nC. 因为$$92\\times 8\\approx$$ 720（元），$$92\\times$$ 8\\textgreater720，所以$$92\\times$$ 8\\textgreater720，不够\nD. 因为$$92\\times 8\\approx$$ 800（元），$$92\\times$$ 8\\textgreater800，所以$$92\\times$$ 8\\textgreater720，不够",
+    "answer": "C. 因为$$92\\times 8\\approx$$ 720（元），$$92\\times$$ 8\\textgreater720，所以$$92\\times$$ 8\\textgreater720，不够",
+    "solution": "92\\textgreater90，总价大于$$720$$元，所以不够",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "年龄问题",
+      "年龄问题之差倍型"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-31e16d1aa6504a0f9215af0e624f5b64",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "青青老师给一些同学发臭豆腐，，如果每人发$$4$$块，还剩下$$10$$块；如果每人发$$5$$块，还会剩下$$1$$块，青青老师共有多少块臭豆腐？\nA. $$36$$\nB. $$46$$\nC. $$51$$\nD. $$52$$",
+    "answer": "B. $$46$$",
+    "solution": "盈盈类问题：共有$$(10-1)\\div (5-4)=9$$人，共有$$4\\times 9+10=46$$块臭豆腐．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "盈亏问题",
+      "盈亏基本类型",
+      "盈亏基本类型盈亏问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-1c653a6c39064c869a3c0c73413fc883",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$1$$只小猪的重量等于$$6$$只鸡的重量；$$3$$只鸡的重量等于$$4$$只鸭的重量；$$2$$只鸭的重量等于$$6$$条鱼的重量，那么$$2$$只小猪的重量等于（  ）条鱼的重量。\nA. $$48$$\nB. $$36$$\nC. $$24$$\nD. $$18$$",
+    "answer": "A. $$48$$",
+    "solution": "解：$$6\\div 3\\times 4$$  $$=2\\times 4$$  $$=8$$（只）  $$8\\div 2\\times 6$$  $$=4\\times 6$$  $$=24$$（条）  $$24\\times 2=48$$（条）  答：$$2$$只小猪的重量等于$$48$$条鱼的重量。  故选:A。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "列方程解应用题",
+      "列方程解应用题等量代换"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-9ad695d973374524967b72bdf05346fe",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "五盘水果排成一排．苹果和橘子相邻，橘子和草莓相邻，苹果和香蕉不相邻，香蕉和芒果不相邻．那么一定和芒果相邻的是．\nA. 只有苹果\nB. 只有橘子\nC. 只有草莓\nD. 香蕉和草莓\nE. 橘子和香蕉",
+    "answer": "A. 只有苹果",
+    "solution": "根据题意分析可知，苹果和草莓都与橘子相邻，  所以可以确定橘子在苹果和草莓的中间，  假设苹果、橘子、草莓这样排列，  则香蕉在草莓的右边，芒果在苹果的左边，  即苹果与芒果一定相邻，  故选：$$\\text{A}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-7b6e6513fd054d61a2e2078ff46c055a",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "五盘水果排成一排．苹果和橘子相邻，橘子和草莓相邻，苹果和香蕉不相邻，香蕉和芒果不相邻．那么一定和芒果相邻的是谁？\nA. 只有苹果\nB. 只有橘子\nC. 香蕉和草莓\nD. 橘子和香蕉",
+    "answer": "A. 只有苹果",
+    "solution": "根据题意分析可知，苹果和草莓都与橘子相邻，  所以可以确定橘子在苹果和草莓的中间，  假设苹果、橘子、草莓这样排列，  则香蕉在草莓的右边，芒果在苹果的左边，  即苹果与芒果一定相邻，  故选：$$\\text{A}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析",
+      "Overseas Competition",
+      "知识点",
+      "组合模块",
+      "逻辑推理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-4c864fb304a0488e9d1546a2c9a381c2",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "在``神庙大逃亡''游戏中，吃一个黄色钱币可以得$$1$$元钱；吃一个红色钱币可以得$$3$$元钱；吃一个蓝色钱币可以得$$5$$元钱。已知阿奇在一次游戏中一共吃了$$2800$$个钱币，共获得$$7800$$元，并且吃到蓝色钱币比红色钱币多$$200$$个，那么阿奇吃到了（  ）个红色钱币。\nA. $$700$$\nB. $$900$$\nC. $$1200$$\nD. $$1500$$",
+    "answer": "A. $$700$$",
+    "solution": "解：根据分析，把蓝色钱币比红色钱币多的$$200$$个在总数上减去，可以得到他一共吃了：$$2800-200=260$$个钱币， 共获得：$$7800-5\\times 200=6800$$（元），由于红色蓝色一样多后可以看做有两种钱币，一种1元的黄色钱币， 一种是：$$(3+5)\\div 2=4$$元的红蓝钱币，假设$$2600$$个钱币全部是一元的， 那么可得红蓝钱币一共有：$$(6800-2600\\times 1)\\div \\left( 4-1 \\right)=1400$$（个）， 则红色钱币有：$$1400\\div 2=700$$（个）。  故选:A。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "鸡兔同笼问题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-f02eea4451b748db87a6a7026ffbb4bd",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某个等差数列第$$8$$项是$$50$$，前$$10$$项的和为$$325$$．那么，在这个数列前$$99$$项中有~\\uline{~~~~~~~~~~}~个奇数．\nA. $$0$$\nB. $$33$$\nC. $$49$$\nD. $$50$$\nE. $$99$$",
+    "answer": "D. $$50$$",
+    "solution": "根据题意：  $$\\begin{cases},{{a}_{1}}+7d=50    ({{a}_{1}}+{{a}_{1}}+9d)\\times 5=325 \\end{cases}$$  整理得：$$\\begin{cases},{{a}_{1}}+7d=50    2{{a}_{1}}+9d=65 \\end{cases}$$  解得：$$\\begin{cases},{{a}_{1}}=1    d=7 \\end{cases}$$  因此：该数列首项为奇数，公差为奇数，  故数列中奇数项为奇数，偶数项为偶数．  前$$99$$项中共有奇数$$(99+1)\\div 2=50$$（个）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "Overseas Competition",
+      "知识点",
+      "计数模块",
+      "几何计数",
+      "分类枚举法数图形",
+      "常规图形枚举计数",
+      "拓展思维",
+      "计算模块",
+      "数列与数表",
+      "等差数列",
+      "等差数列与估算"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-861170ebe9cd4f7fb7c3135d2defe865",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一条大街上原有路灯$$201$$盏，相邻两盏路灯相距$$50$$米；现在换新路灯增加了$$50$$盏，相邻两盏路灯的距离是~\\uline{~~~~~~~~~~}~米．\nA. $$40$$\nB. $$35$$\nC. $$45$$\nD. $$50$$\nE. $$30$$",
+    "answer": "A. $$40$$",
+    "solution": "先利用原有的路灯盏数和间隔长度，  求出这条大街的总长度是$$\\left( 201-1 \\right)\\times 50=10000$$（米），换新路灯后，一共有路灯$$201+50=251$$盏，此时的间隔数是$$251-1=250$$，由此即可求出$$1$$个间隔的长度是$$10000\\div 250=40$$（米）．  $$\\left( 201-1 \\right)\\times 5\\div \\left( 201+50-1 \\right)=200\\times 50\\div 250=40$$（米）．  所以相邻的两盏路灯的距离是$$40$$米．  故答案为：$$40$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "Overseas Competition",
+      "知识点",
+      "计算模块",
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-e18c40d8b5b940098204434be7f82fe7",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一只大熊猫从$$A$$地往$$B$$地运送竹子，他每次可以运送$$50$$根，但是他从$$A$$地走到$$B$$地和从$$B$$地返回$$A$$地都要吃$$5$$根，$$A$$地现在有$$200$$根竹子，那么大熊猫最多可以运到$$B$$地（~~~~~~~ ）根．\nA. $$150$$\nB. $$155$$\nC. $$160$$\nD. $$165$$",
+    "answer": "D. $$165$$",
+    "solution": "运四次，去四次回三次，吃掉了$$5\\times (4+3)=35$$根，则最多可以运到$$B$$地$$200-35=165$$根．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "构造模型",
+      "模型思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814502fa24014507b673810ba4",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "按规律填数，那么横线上填入的数是．  $$1$$，$$1$$，$$2$$，$$3$$，$$5$$，$$8$$，$$13$$，~\\uline{~~~~~~~~~~}~， $$34$$，$$55$$\nA. $$16$$\nB. $$19$$\nC. $$21$$\nD. $$23$$",
+    "answer": "C. $$21$$",
+    "solution": "斐波那契数串：从第$$3$$个数开始，每个数都等于它前两个数之和．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "数列与数表",
+      "数列规律",
+      "斐波那契数列（兔子数列）"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-34c5d343f6ab4065aa0ef14302b41139",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "超市中的某种汉堡每个$$10$$元，这种汉堡最近推出了``买二送一''的优惠活动，即花钱买两个汉堡，就可以免费获得一个汉堡，已知东东和朋友需要买$$9$$个汉堡，那么他们最少需要花~\\uline{~~~~~~~~~~}~元钱．\nA. $$40$$\nB. $$60$$\nC. $$70$$\nD. $$90$$",
+    "answer": "B. $$60$$",
+    "solution": "相当于每$$3$$个汉堡$$20$$元，所以$$9$$个汉堡需要$$60$$元．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "整体思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-8e0a28c8674643558fcbf8fcc0af6972",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "(2016 Math League, Grade3）  Running Man is running a certain distance at a constant speed of $$300$$m/min and can finish the entire distance in $$3$$ hours. If he ran at a constant speed of $$360$$m/min, how many minutes less would it take him to run this distance?  Running Man是以$300$ m/min的恒定速度跑完一段距离，可以在$3$小时内跑完全程$$.$$ 如果以以$360$ m/min的恒定速度跑完这段距离会少花多少分钟?\nA. $$30$$\nB. $$150$$\nC. $$180$$\nD. $$360$$",
+    "answer": "A. $$30$$",
+    "solution": "某人跑步，每分钟$$300$$米，$$3$$小时跑完．假设他提速到每分钟$$360$$米，跑完全程比之前节省几分钟？  $$300\\times 180\\div 360=150$$分钟，$$180-150=30$$分钟．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "Overseas Competition",
+      "知识点",
+      "行程模块",
+      "直线型行程问题",
+      "路程速度时间",
+      "拓展思维",
+      "单人简单行程问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-8690bb882f6346ef908aed1643b7fdb5",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$63$$不能表示成个连续整数的和．\nA. $$2$$\nB. $$3$$\nC. $$5$$\nD. $$7$$\nE. $$9$$",
+    "answer": "C. $$5$$",
+    "solution": "暂无",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-873810896bfc41ab9092cda32692a4b6",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "三年级二班的同学在上游泳课，男生戴蓝泳帽，女生戴红泳帽。  男体育委员说：``我看见的蓝泳帽比红泳帽的$$4$$倍多$$1$$个。''  女体育委员说：``我看见的蓝泳帽比红泳帽多$$24$$个。''  根据两位体育委员的话，算出三年级二班共有（  ）位同学。\nA. $$35$$\nB. $$36$$\nC. $$37$$\nD. $$38$$",
+    "answer": "C. $$37$$",
+    "solution": "解：男体育委员少看到一个蓝色帽子，所以实际蓝泳帽比红泳帽的$$4$$倍多$$2$$个，女体育委员少看到一个红色帽子，所以实际蓝泳帽比红泳帽多$$23$$个，红泳帽有$$\\left( 23-2 \\right)\\div \\left( 4-1 \\right)=7$$个，蓝泳帽有$$7+23=30$$个，共有$$30+7=37$$位同学。  故选:C。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "差倍",
+      "两量差倍",
+      "暗倍型二量差倍问题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-8dd335589fdf43c8bf06ca09b1dc1fb2",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算．  $$24+63+52+17+49+81+74+38+95=$$~\\uline{~~~~~~~~~~}~\nA. $$493$$\nB. $$483$$\nC. $$505$$",
+    "answer": "A. $$493$$",
+    "solution": "凑整法：  原式$$=(38+52)+(63+17)+(49+81)+74+24+95$$  $$= 90+80+130+98+95$$  $$=493$$．  拆分凑整法  原式$$=(20+4+60+3+50+2+10+7+40+9+80+1+70+4+30+8+90+5$$  $$=20+80+60+40+10+90+70+30+50+3+7+1+9+2+8+4+4+5$$  $$=100+100+100+100+50+10+10+10+13$$  $$=493$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "转化与化归的思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-b1fabdf7caa5451bb3cb50d535675e66",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "长方形的周长是$$48$$厘米，已知长是宽的$$2$$倍，那么长方形的长是（  ）。\nA. $$8$$厘米\nB. $$16$$厘米\nC. $$24$$厘米",
+    "answer": "B. $$16$$厘米",
+    "solution": "解：$$48\\div 2\\div (1+2)\\times 2$$  $$=24\\div 3\\times 2$$  $$=16$$ （厘米）  答：长方形的长是$$16$$厘米。  故选：B。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "和倍问题",
+      "二量和倍问题",
+      "两量和倍"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-23c374eaf30a4a28b2f9f0530fe2b05c",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "春节时，妈妈买了$$3$$个完全一样的福袋，小悦想把$$10$$枚相同的一元硬币放到这三个福袋里，如果每个福袋里至少放$$1$$枚，不考虑福袋的先后顺序的话，共有（~~~~~ ）种放法．\nA. $$6$$\nB. $$7$$\nC. $$8$$\nD. $$9$$",
+    "answer": "C. $$8$$",
+    "solution": "枚举法，$$10$$能被拆成哪三个数相加，$$10=1+1+8$$，$$10=1+2+7$$，$$10=1+3+6$$，$$10=1+4+5$$，$$10=2+2+6$$，$$10=2+3+5$$，$$10=2+4+4$$，$$10=3+3+4$$，共$$8$$种．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "构造模型",
+      "模型思想"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814518d5240145201b528a0a79",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "湖边种着一排柳树，每两棵树之间相距$$6$$米。小明从第一棵树跑到第$$200$$棵，一共跑了（  ）米。\nA. $$1200$$米\nB. $$1206$$米\nC. $$1194$$米",
+    "answer": "C. $$1194$$米",
+    "solution": "解：$$\\left( 200-1 \\right)\\times 6$$  $$=199\\times 6$$  $$=1194$$（米）  答：小明一共跑了$$1194$$米。  故选：C。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "间隔问题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-a8d3db742e8043f6bb99817f4b526260",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有一些三位数的各位数字都不是$$0$$，且各位数字之和为$$6$$，这样的三位数共有个．\nA. $$7$$\nB. $$8$$\nC. $$9$$\nD. $$10$$",
+    "answer": "D. $$10$$",
+    "solution": "枚举，第$$1$$位为$$1$$，有$$114$$，$$123$$，$$132$$，$$141$$，  第$$1$$位为$$2$$，有$$213$$，$$222$$，$$231$$，  第$$1$$位为$$3$$，有$$312$$，$$321$$，  第$$1$$位为$$4$$，有$$411$$，  共有：$$1+2+3+4=10$$（个）．  故选：$$\\text{D}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "数据处理"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-e87d2e6b25934d4e911f4901424b35fa",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "【2021三年级卷第$$30$$题】某个闰年的元旦是星期日，那么这一年的$$2$$月有$$5$$个．\nA. 星期一\nB. 星期二\nC. 星期三\nD. 星期四\nE. 星期五\nF. 星期六\nG. 星期日",
+    "answer": "C. 星期三",
+    "solution": "周期问题：  元旦$$1$$月$$1$$日是星期日，则周期：星期日、星期一、星期二、星期三、星期四、星期五、星期六$$\\cdots\\cdots$$  从$$1$$月$$1$$日到$$2$$月$$1$$日一共有$$31+1=32$$（天），  $$32\\div7=4$$（周）$$\\cdots\\cdots4$$（天），  所以$$2$$月$$1$$日是星期三，则$$2$$月份的周期：星期三、星期四、星期五、星期六、星期日、星期一、星期二$$\\cdots\\cdots$$  闰年的$$2$$月有$$29$$天，$$29\\div7=4$$（周）$$\\cdots\\cdots1$$（天），  所以$$2$$月$$29$$日是星期三，  因此这一年的$$2$$月有$$5$$个星期三．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "时间中的周期问题",
+      "日期中的周期"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ef4c741430774ee9b0352c87c8b515f6",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "``数学趣味题数学趣味题$$\\cdots \\cdots $$''依次重复排列，第$$2019$$个字是．\nA. 趣\nB. 味\nC. 题",
+    "answer": "B. 味",
+    "solution": "观察题干可知，$$5$$个字一个循环周期，分别按照数、学、趣、味、题，依次排列，据此求出第$$2019$$个字是第几个循环周期的第几个字即可解答问题．  $$2019\\div 5=403$$（组）$$\\cdots \\cdots 4$$（个），  所以第$$2019$$个字是第$$403$$循环周期的第$$4$$个字，是``味''．  答：第$$2019$$个字是味．  故选：$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "基本排列的周期问题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-070f7b7b9f0d4a8b92587b575f200be2",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$2019$$年元旦是星期二，当年的国庆节是星期．\nA. 一\nB. 二\nC. 三\nD. 四",
+    "answer": "B. 二",
+    "solution": "从$$2019$$年的$$1$$月$$1$$日至$$2019$$年的$$10$$月$$1$$日共：$$31+28+31+30+31+30+31+31+30+1=274$$（天），  根据``二、三、四、五、六、日、一''的周期规律：$$274\\div 7=39$$（周）$$\\cdots \\cdots 1$$（天）．  所以$$10$$月$$1$$日是这个周期的第$$1$$天，即星期二．  故选$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-4ece93595c12425ebf3b895cc4982e44",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲乙两人在春节一共得$$200$$元压岁钱，甲给乙$$40$$元，甲和乙钱数相等，那么，原来甲得了~\\uline{~~~~~~~~~~}~元压岁钱．\nA. $$150$$\nB. $$140$$\nC. $$130$$\nD. $$120$$",
+    "answer": "B. $$140$$",
+    "solution": "因为甲给乙$$40$$元，甲和乙钱数相等，所以甲$$200+40\\times$$ 2=280（元），$$280\\div$$ 2=140（元）",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "和差问题",
+      "二量和差问题",
+      "明和暗差"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-aa17b0eeda1044eeab6524b91d0c7619",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "四个海盗杰克、吉米、汤姆和桑吉共分$$280$$个金币．杰克说：``我分到的金币比吉米少$$11$$ 个，比汤姆多$$15$$个，比桑吉少$$20$$个．''那么，桑吉分到了个金币．\nA. $$84$$\nB. $$85$$\nC. $$86$$\nD. $$87$$",
+    "answer": "C. $$86$$",
+    "solution": "设杰克分到的金币为$$1$$份量，则有  $$\\left. \\begin{matrix}1+11    1-15    1+20   \\end{matrix} \\right }\\Rightarrow 4+16=280\\Rightarrow 1=66\\Rightarrow 66+20=86$$",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "和差问题",
+      "多量和差问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-9512418177684402a37a381a589cb735",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列算式结果为$$500$$的是（~ ~ ~ ~）．\nA. $$5\\times99+1$$\nB. $$100+25\\times4$$\nC. $$88\\times4+37\\times4$$\nD. $$100\\times0\\times5$$",
+    "answer": "C. $$88\\times4+37\\times4$$",
+    "solution": "A等于$$5\\times(100-1)+1=500-5+1=496$$，B等于$$100+100=200$$ ，C等于$$(88+37)\\times4=125\\times 4=500$$ ，D等于$$0$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "整数",
+      "四则混合运算"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814502fa2401450bc68de1159c",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面问题不可以用算式$$50\\times 2\\times 3$$解决的是。\nA. 惠民超市一天卖出$$3$$盒保温杯，每盒装有$$2$$个杯子，每个杯子$$50$$元，一共卖了多少元\nB. 乐乐在长$$50$$米的游泳池里游了三个来回，他游了多少米\nC. 2箱蜜蜂一年可以产$$50$$千克的蜂蜜，照这样计算，$$3$$箱蜜蜂一年可以产多少千克的蜂蜜\nD. 悠悠一家三口人，每人每天早上各吃一个$$50$$克的鸡蛋，两天吃的鸡蛋共多少克",
+    "answer": "C. 2箱蜜蜂一年可以产$$50$$千克的蜂蜜，照这样计算，$$3$$箱蜜蜂一年可以产多少千克的蜂蜜",
+    "solution": "略",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "年龄问题",
+      "年龄问题之差倍型"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-e86f2a4c61c94a8fb7f81def197071a1",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "泡泡比毛毛小$$7$$岁，再过$$4$$年泡泡的年龄将是毛毛年龄的一半，他们今年的年龄总和是（  ）岁。\nA. $$21$$\nB. $$3$$\nC. $$10$$\nD. $$13$$",
+    "answer": "D. $$13$$",
+    "solution": "再过$$4$$年毛毛的年龄将是泡泡年龄的$$2$$倍，所以那时泡泡的年龄为$$7$$岁，毛毛为$$7\\times 2=14$$(岁)，他们今年的年龄总和为$$7+14-4\\times 2=13$$(岁)。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "年龄问题",
+      "年龄问题之差倍型"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-2c1a889ea182405fa104a43cd1037568",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$100 + 99 - 98 + 97 - 96 + ~\\cdots ~+ 3 - 2 + 1$$的结果是（ ~~）．\nA. $$101$$\nB. $$150$$\nC. $$149$$\nD. $$151$$",
+    "answer": "B. $$150$$",
+    "solution": "观察$$100$$和$$1$$之间的数，将$$\\left( 99 - 98\\right)$$、$$\\left( 97 - 96 \\right)$$、$$\\left( 95 - 94 \\right)$$、$$ \\cdots $$、$$\\left( 3 - 2 \\right)$$进行组合（ 除去$${1}$$和$${100}$$后，奇数前面是加号，偶数前面是减号），所以一共有$$\\left( 100 - 2 \\right) \\div 2 = 49$$个$$1$$，所以原式$$ = 100 + 1 + 49 = 150$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解",
+      "程序性计算"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-cec43207b7064e98a2023c039129eb74",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某部$$87$$集的电视连续剧在某个星期日开播，每周日、周一、周四、周五、周六都要播出一集，周二、周三停播．问：最后一集在周几播出？．\nA. 一\nB. 四\nC. 五\nD. 六\nE. 日",
+    "answer": "A. 一",
+    "solution": "$$87$$集的电视连续剧在某个星期日开播，每周日、周一、周四、周五、周六都要播一集，五天一周期，$$87\\div 5=17$$（周）$$\\cdots \\cdots 2$$（天），所以最后一集在周一播出，选项$$\\text{A}$$正确．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "时间中的周期问题",
+      "日期中的周期"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-84f3bc739ab64c62a29a5a388ea6fc20",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "在琼斯食堂里，每份晚餐有$$8$$个肉丸和$$3$$块蒜蓉面包．今天卖出的肉丸数量比卖出的蒜蓉面包数量多$$600$$．今天琼斯卖出了多少份晚餐？\nA. $$100$$\nB. $$120$$\nC. $$360$$\nD. $$960$$",
+    "answer": "B. $$120$$",
+    "solution": "每一份晚餐肉丸比蒜蓉多$$5$$，一共多了$$600$$，因此卖了$$600\\div 5=120$$（份）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-4bf45b311f7c4546a9e2c659338b1782",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有一个正方形的操场，在它的外面一圈插上小红旗，四个角上都插一面小红旗，每边都插$$26$$面，一共插了面小红旗．\nA. $$92$$\nB. $$96$$\nC. $$100$$\nD. $$104$$",
+    "answer": "C. $$100$$",
+    "solution": "根据题意分析可知，四个角都插上一面小红旗，每边都插$$26$$面，  所以每一边有小红旗：$$26-1=25$$（面），  因为是正方形，每边都有$$25$$面，那么一共插了：$$25\\times4=100$$（面）红旗，  故答案为：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "间隔问题",
+      "封闭型",
+      "封闭型植树问题",
+      "封闭植树类型问题(段数大于10)"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-510c3c2136034398848f809af597d5f4",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$2014$$年$$2$$月$$6$$日是星期四，小胖决定从这天起（含$$2$$月$$6$$日）练习计算，一直练习到$$2$$月$$17$$日，（含$$2$$月$$17$$日）开学为止．但是中间如果遇到周六和周日，小胖还是决定休息一下，不做练习．已知他第一天做$$1$$道题，第二天做$$3$$道题，第三天做$$5$$道题，依此变化做下去，那么小胖这段时间一共做了道计算练习题.\nA. $$144$$\nB. $$100$$\nC. $$81$$\nD. $$64$$",
+    "answer": "D. $$64$$",
+    "solution": "解：依题意可知：  从$$2$$月$$6$$日到$$2$$月$$17$$日为止，一共有$$17-6+1=12$$（天）；  其中有$$2$$个星期六，星期日，工作了$$12-4=8$$（天）.  共完成$$1+3+5+7+9+11+13+15=64$$（道）题.  故选：$$\\text{D}$$.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "逐步调整思想"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-40e4d19b1773495095f7f918478a5f13",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "祖玛游戏中，龙嘴里不断吐出很多颜色的龙珠，先$$4$$颗红珠，接着$$3$$颗黄珠，再$$2$$颗绿珠，最后$$1$$颗白珠，按此方式不断重复，从龙嘴里吐出的第$$2000$$颗龙珠是（  ）\nA. 红珠\nB. 黄珠\nC. 绿珠\nD. 白珠",
+    "answer": "D. 白珠",
+    "solution": "解：$$2000\\div (4+3+2+1)$$  $$=2000\\div 10$$  $$=200$$（组）  商是$$200$$，没有余数，说明第$$2000$$颗龙珠是$$200$$组的最后一个，是白珠。  答：从龙嘴里吐出的第$$2000$$颗龙珠是白珠。  故选:D。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "基本排列的周期问题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-f22edb1683e848a7a49cda2fcc48df1b",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "同学们一起去划船，但公园船不够多，如果每条船坐$$4$$人，会多出$$10$$人；如果每条船坐$$5$$人，还会多出$$1$$人，共有人去划船．\nA. $$36$$\nB. $$46$$\nC. $$51$$\nD. $$52$$",
+    "answer": "B. $$46$$",
+    "solution": "盈盈类问题：共有$$(10-1)\\div (5-4)=9$$（条）船，共有$$4\\times 9+10=46$$人．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "盈亏问题",
+      "盈亏基本类型",
+      "盈亏基本类型盈亏问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-4a3abc651f774b6daf03e28723631671",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "找出规律，将你认为合适的数填入(~ ~ ~ ），$$2$$、$$4$$、$$3$$、$$9$$、$$4$$、$$16$$、$$5$$、 ~( ~ ~ ~ ~ ~)、 ~( ~ ~ ~ ~ )、$$36$$、 $$7$$、$$\\cdots$$那么正确的数是（~~~~~~ ）．\nA. $$18$$、$$6$$\nB. $$22$$、$$6$$\nC. $$25$$、$$6$$\nD. $$25$$、$$26$$",
+    "answer": "C. $$25$$、$$6$$",
+    "solution": "$$2$$、$${ 2 }^{ 2 }$$、$$3$$、$${ 3 }^{ 2 }$$、$$4$$、$${ 4 }^{ 2 }$$、$$5$$、（$${5 }^{ 2 }$$）、（$$6$$ ）、$${ 6 }^{ 2 }$$、$$7$$$$\\cdots$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814518d5240145201b60020a7d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算．  $$13+16+19+22+ 25+ 28+31+34+37+40=$$．\nA. $$286$$\nB. $$265$$\nC. $$258$$",
+    "answer": "B. $$265$$",
+    "solution": "原式$$=\\left( 13+40 \\right)+\\left( 16+37 \\right)+\\left( 19+34 \\right)+\\left( 22+31 \\right)+\\left( 25+28 \\right)$$  $$=53\\times 5$$  $$=265$$．  $$(13+40)\\times 10\\div 2=265$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "数列与数表",
+      "等差数列",
+      "等差数列求和"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-6c8666acdc714e3280eef1f4f87e0d06",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一次考试有三道题，四个好朋友考完后互相交流了成绩，发现四人各对了$$3$$、$$2$$、$$1$$、$$0$$ 道题。这时一个路人问：``你们考得怎么样啊？''  甲：``我对了两道题，而且比乙对的多，丙考得不如丁。''  乙：``我全对了，丙全错了，甲考得不如丁。''  丙：``我对了一道，丁对了两道，乙考得不如甲。''  丁：``我全对了，丙考得不如我，甲考得不如乙。''  已知大家都是对了几道题就说几句真话，那么对了$$2$$题的人是~\\uline{~~~~~~~~}~。\nA. 甲\nB. 乙\nC. 丙\nD. 丁",
+    "answer": "B. 乙",
+    "solution": "全对的人不会说自己对的题少于$$3$$，故只有乙、丁可能全对。若乙全对，则排名是乙、丁、甲、丙，与丙所说的``丁对了$$2$$道''是假话相矛盾；若丁全对，则丙的后两句是假话，不可能是第二名，又由丁的``甲考得不如乙''能知道第二名是乙，故丙全错，甲只有``丙考得不如丁''是真话，排名是丁、乙、甲、丙且$$4$$人的话没有矛盾。综上，答案是B。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "逻辑推理",
+      "假设型逻辑推理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-83d78f31dfcc4276b36d670b7c3e11a8",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某次数学竞赛，试题共有$$10$$道，每做对一题得$$6$$分，每做错一题倒扣$$2$$分，小红最终得$$44$$分，做对的题比做错的题多~\\uline{~~~~~~~~~~}~道．\nA. $$6$$\nB. $$2$$\nC. $$8$$",
+    "answer": "A. $$6$$",
+    "solution": "$$\\left( 60-44 \\right)\\div 8=2$$，做错$$2$$道题，做对$$8$$道题，对的比错的多$$6$$道．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "学习能力",
+      "七大能力",
+      "运算求解"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-28bee930d52440d999bd63254b1386d0",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "祖玛游戏中，龙嘴里不断吐出很多颜色的龙珠，先$$4$$颗红珠，接着$$3$$颗黄珠，再$$2$$颗绿珠，最后$$1$$颗白珠，按此方式不断重复，从龙嘴里吐出的第$$2000$$颗龙珠是．  （2014年二年级竞赛初赛第$$8$$题）\nA. 红珠\nB. 黄珠\nC. 绿珠\nD. 白珠",
+    "answer": "D. 白珠",
+    "solution": "$$2000\\div (4+3+2+1)=200$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "基本排列的周期问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-5555b5f7b08e49ea90cb331c12a11968",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "【2021三年级卷第$$13$$题】五盘水果排成一排．苹果和橘子相邻，橘子和草莓相邻，苹果和香蕉不相邻，香蕉和芒果不相邻．那么一定和芒果相邻的是．\nA. 只有苹果\nB. 只有橘子\nC. 只有草莓\nD. 香蕉和草莓\nE. 橘子和香蕉",
+    "answer": "A. 只有苹果",
+    "solution": "根据题意分析可知，苹果和草莓都与橘子相邻，  所以可以确定橘子在苹果和草莓的中间，  假设苹果、橘子、草莓这样排列，  则香蕉在草莓的右边，芒果在苹果的左边，  即苹果与芒果一定相邻，  故选：$$\\text{A}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ccdcc8cc15134479a41511e22d245f16",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一只大熊猫从$$A$$地往$$B$$地运送竹子，它每次可以运送$$50$$根，但是它从$$A$$地走到$$B$$地和从$$B$$地返回$$A$$地都要吃$$5$$根，$$A$$地现在有$$200$$根竹子，那么大熊猫最多可以运到$$B$$地（  ）根。\nA. $$150$$\nB. $$155$$\nC. $$160$$\nD. $$165$$",
+    "answer": "D. $$165$$",
+    "solution": "解：由题意，运四次，去四次回三次，吃掉了$$5\\times (4+3)=35$$根，则最多可以运到$$B$$地$$200-35=165$$根。  故选:D。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "归一归总问题",
+      "乘除法应用",
+      "乘法应用（顺口溜）"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-54dc63565f814fb3a0489aa7127b94e8",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "若$$100$$个数的平均数为$$1$$，增加一个数$$102$$之后，这$$101$$个数的平均数为．\nA. $$2$$\nB. $$3$$\nC. $$4$$",
+    "answer": "A. $$2$$",
+    "solution": "$$1\\times 100+102\\div（ 100+1）=2$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "平均数问题",
+      "公式类",
+      "加权平均数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-1c065f5617f046ec8c3cf057e06cd16f",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：$$9+99+999+9999+99999=$$~\\uline{~~~~~~~~~~}~．\nA. $$111105$$\nB. $$1111105$$\nC. $$111104$$\nD. $$111005$$",
+    "answer": "A. $$111105$$",
+    "solution": "根据题意，把$$9$$、$$99$$、$$999$$、$$9999$$、$$99999$$看作$$\\left(10-1\\right)$$、$$\\left(100-1\\right)$$、$$\\left(1000-1\\right)$$、$$\\left(10000-1\\right)$$、$$\\left(100000-1\\right)$$，再进行计算．   $$9+99+999+9999+99999$$  $$=\\left(10-1\\right)+\\left(100-1\\right)+\\left(1000-1\\right)+\\left(10000-1\\right)+\\left(100000-1\\right)$$  $$=\\left(100000+10000+1000+100+10\\right)-\\left(1+1+1+1+1\\right)$$  $$=111110-5$$  $$=111105$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "课内体系",
+      "能力",
+      "运算求解",
+      "拓展思维",
+      "计算模块",
+      "整数",
+      "整数加减",
+      "整数加减巧算之凑整法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-19074618ec8d40a5ada6edb7ddb5965e",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$2$$个樱桃的价钱与$$3$$个苹果的价钱一样，但是一个苹果的大小却是一个樱桃的$$12$$倍，如果妈妈用买$$1$$箱樱桃的钱买同样大小箱子的苹果，能买(  )箱。\nA. $$4$$\nB. $$6$$\nC. $$18$$\nD. $$27$$",
+    "answer": "C. $$18$$",
+    "solution": "$$12$$个樱桃的钱可以买$$18$$个苹果，大小是$$1$$个苹果的大小，所以$$1$$个苹果大小的樱桃可以买到$$18$$个苹果，所以$$1$$箱樱桃的钱可以买$$18$$箱苹果。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "方程基础",
+      "等量代换"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-0203e0f25745468e9e0547dc86ed62fc",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "毛毛用围棋子摆成一个三层空心方阵，最外一层每边有围棋子$$12$$个．摆这个方阵共用围棋子个．\nA. $$96$$\nB. $$108$$\nC. $$120$$\nD. $$132$$",
+    "answer": "B. $$108$$",
+    "solution": "由题意知，用围棋子摆成一个三层空心方阵，最外一层每边有围棋子$$12$$个，由于相邻两层每边相差$$2$$个，则由外向里的两层每边分别是$$(12-2)$$个、$$(12-2\\times 2)$$个，根据``四周的个数$$=$$（每边的个数$$-1$$）$$\\times 4$$''可分别求得这三层棋子的个数，再相加就是所用的总个数，据此解答．  本题关键是求出每层的个数；方阵问题相关的知识点是：四周的个数$$=$$（每边的个数$$-1$$）$$\\times 4$$，每边的个数$$=$$四周的个数$$\\div 4+1$$，中实方阵的总个数$$=$$每边的个数$$\\times $$每边的个数，空心方阵的总个数$$=$$（最外层每边的个数$$-$$空心方阵的层数）$$\\times $$空心方阵的层数$$\\times 4$$，外层边长数$$^{2}-$$中空边长数$$^{2}=$$实面积数．  最外边一层棋子个数：$$(12-1)\\times 4=44$$（个），  第二层棋子个数：$$(12-2-1)\\times 4=36$$（个），  第三层棋子个数：$$(12-2\\times 2-1)\\times 4=28$$（个），  摆这个方阵共用棋子：$$44+36+28=108$$（个）．  故选$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "整体思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-6221023c036e4605a77dd2bda14d0d19",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个程序员给编号为$$1-40$$的$$40$$个机器人写好程序，让它们来判断某句话的对错．程序员为了提高准确率，在它们都进行过一次判断后，让从编号为$$1$$的机器人开始，修改自己的答案．如果其余$$39$$个机器人回答``对''多，则自己的回答也为``对''，否则回答``错''．如果最开始有$$20$$个机器人回答``对''，$$20$$个机器人回答``错''，并且一号机器人回答``对''．那么这$$40$$个机器人按序修改自己的答案后，有多少人回答``对''？\nA. $$0$$\nB. $$19$$\nC. $$20$$\nD. $$40$$",
+    "answer": "A. $$0$$",
+    "solution": "由于第一个机器人回答对，所以说明除了第一个外的机器人，开始时$$19$$个回答对，$$20$$个回答错，第一个机器人根据判定需要改答案，其他机器根据第一个机器人改了答案判断，应该都回答错．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "逻辑推理",
+      "假设型逻辑推理",
+      "答案（数字）正误问题"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-c9301aa7fe654db6b01ecddf387f7e73",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一串彩珠按``$$1$$红$$2$$蓝$$4$$黄''的顺序依次排列，第$${32}$$颗彩珠是~\\uline{~~~~~~~~~~}~色．\nA. 红\nB. 蓝\nC. 黄\nD. 白",
+    "answer": "C. 黄",
+    "solution": "将``$$1$$红$$2$$蓝$$4$$黄''看作一组，共有$$7$$颗，$$32 \\div 7 = 4 \\cdots ~\\cdots 4$$，说明这一组共出现了$$4$$次，余数是$$4$$说明还依次出现了$$1$$颗红珠、$$2$$颗蓝珠、$$1$$颗黄珠，所以第$$32$$颗彩珠是黄色．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-80297962280f4c76bc3b146c19efe163",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果你花$$30$$分钟做了$$35$$道题目，那么用同样的速度，你做$$315$$道题目至少需要多少小时？\nA. $$3$$\nB. $$4$$\nC. $$5$$\nD. $$6$$",
+    "answer": "C. $$5$$",
+    "solution": "$$35$$个题目需要$$30$$分钟，$$315$$里面有$$9$$个$$35$$，所以需要的时间是$$30\\times 9=270$$分钟，等于$$4.5$$小时．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "拓展思维",
+      "计算模块",
+      "整数",
+      "四则混合运算"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-f5809cca601944bbb88fa8a437d631fc",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "祖玛游戏中，龙嘴里不断吐出很多颜色的龙珠，先$$4$$颗红珠，接着$$3$$颗黄珠，再$$2$$颗绿珠，最后$$1$$颗白珠，若按此方式不断重复，则从龙嘴里吐出的第$$2000$$颗龙珠是．\nA. 红珠\nB. 黄珠\nC. 绿珠\nD. 白珠",
+    "answer": "D. 白珠",
+    "solution": "$$2000\\div (4+3+2+1)=200$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "基本排列的周期问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-e4802ef280d9425ab9d8b665407580f7",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "对于两个数$$a$$和$$b$$，规定一种新运算，$$a\\Delta b=3\\times a+2\\times b$$，$$a\\nabla b=2\\times a+3\\times b$$，那么$$2\\Delta \\left( 3\\nabla 4 \\right)=$$~\\uline{~~~~~~~~~~}~．\nA. $$42$$\nB. $$47$$\nC. $$51$$",
+    "answer": "A. $$42$$",
+    "solution": "$$3\\nabla 4=2\\times 3+3\\times 4=18$$，$$2\\Delta \\left( 3\\nabla 4 \\right)=2\\Delta 18=3\\times 2+2\\times 18=42$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "定义新运算",
+      "直接运算型",
+      "普通型"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-9752800056d54be991d69bed2475b807",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$2013$$年$$12$$月$$21$$日是星期六，那么$$2014$$年的春节，即$$2014$$年$$1$$月$$31$$日是星期．  $ $  $ $  $ $\nA. 一\nB. 四\nC. 五\nD. 六",
+    "answer": "C. 五",
+    "solution": "星期六有：$$21\\to 28\\to 4(35)\\to 11\\to 18\\to 25$$，所以 $$31$$日是星期五．  $$10+31=41$$（天），$$41\\div7=5\\cdots 6$$ ，差一天是星期六，所以$$31$$日是星期五．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "时间中的周期问题",
+      "日期中的周期"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-3d2e8e0f6c834ae9814ee89ed61b9b0e",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面计算结果等于$$9$$的是（  ）。\nA. $$3\\times 3\\div 3+3$$\nB. $$3\\div 3+3\\times 3$$\nC. $$3\\times 3-3+3$$\nD. $$3\\div 3+3\\div 3$$",
+    "answer": "C. $$3\\times 3-3+3$$",
+    "solution": "解：A、$$3\\times 3\\div 3+3$$  $$=3+3$$  $$=6$$  B、$$3\\div 3+3\\times 3$$  $$=1+9$$  $$=10$$  C、$$3\\times 3-3+3$$  $$=9-3+3$$  $$=9$$  D、$$3\\div 3+3\\div 3$$  $$=1+1$$  $$=2$$  故选：C。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "整数",
+      "四则混合运算"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-a57bb94584134e5fb6289af83d836e47",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个工人$$3$$小时磨了$$60$$千克面粉，照这样计算，这个工人磨完$$200$$千克面粉，一共要 小时．\nA. $$10$$\nB. $$20$$\nC. $$15$$\nD. $$5$$",
+    "answer": "A. $$10$$",
+    "solution": "一个工人$$3$$小时磨了$$60$$千克面粉，  所以$$1$$小时磨面粉$$60\\div3=20$$（千克），  这个工人磨完$$200$$千克面粉，一共要$$200\\div20=10$$（时），  所以答案为$$10$$小时．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-31a43c81eb1b4b4fb146e1d9e0c849e5",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙两人在春节一共得$$210$$元压岁钱，甲给乙$$40$$元，还比乙多$$10$$元，那么，原来甲得了元压岁钱．\nA. $$150$$\nB. $$140$$\nC. $$125$$\nD. $$120$$",
+    "answer": "A. $$150$$",
+    "solution": "因为甲给乙$$40$$元，还比乙多$$10$$元，所以甲比乙多$$40\\times 2+10=90$$元，  所以甲：$$(210+90)\\div 2=150$$",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "和差问题",
+      "二量和差问题",
+      "明和暗差"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-2cd0102c3aa04253bbc93625c0290b3c",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "春节时，妈妈买了$$3$$个完全一样的福袋，小悦想把$$10$$枚相同的一元硬币放到这三个福袋里，如果每个福袋里至少放$$1$$枚，不考虑福袋的先后顺序的话，共有（  ）种放法。\nA. $$6$$\nB. $$7$$\nC. $$8$$\nD. $$9$$",
+    "answer": "C. $$8$$",
+    "solution": "解：枚举法，$$10$$能变成哪三个数相加，$$10=1+1+8=1+2+7=1+3+6=1+4+5=2+2+6=2+3+5=2+4+4=3+3+4$$，共$$8$$种。  故选:C。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计数模块",
+      "枚举法综合",
+      "枚举法",
+      "有序枚举"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-a8a2f0bbd52c47dba3ca5ef6950bd071",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一条毛毛虫由幼虫长成成虫，每天长大一倍，$$30$$天能长到$$20$$厘米．问长到$$5$$厘米时要用天．\nA. $$28$$\nB. $$27$$\nC. $$26$$",
+    "answer": "A. $$28$$",
+    "solution": "已知一条毛毛虫由幼虫长成成虫，每天长大一倍，$$30$$天能长到$$20$$厘米，可根据最后结果出发，逐步向前一步一步推理；  按从后往前推理可知最后一天长的是前一天的$$2$$倍，最后一天是$$20$$厘米，长到$$10$$厘米的时候是$$30$$天$$-1$$天；  根据以上分析可得$$29$$天时是$$10$$厘米，由此可推出长到$$5$$厘米时是几天，进而得出答案．  $$30-1-1=28$$（天），  答：长到$$5$$厘米时要用$$28$$天．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ace45189688d456ea776c9a523e41eac",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "祖玛游戏中，龙嘴里不断吐出很多颜色的龙珠，先$$4$$颗红珠，接着$$3$$颗黄珠，再$$2$$颗绿珠，最后$$1$$颗白珠，按此方式不断重复，从龙嘴里吐出的第$$2000$$颗龙珠是．  （2017年迎春杯二年级竞赛初赛第$$8$$题）\nA. 红珠\nB. 黄珠\nC. 绿珠\nD. 白珠",
+    "answer": "D. 白珠",
+    "solution": "$$2000\\div (4+3+2+1)=200$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "基本排列的周期问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-562ff3747b174afe858aed87590d1816",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$2017$$年元旦是星期二，$$2019$$的元旦节是星期．\nA. 一\nB. 二\nC. 三\nD. 四",
+    "answer": "B. 二",
+    "solution": "从$$2019$$年的$$1$$月$$1$$日至$$2019$$年的$$10$$月$$1$$日共：$$31+28+31+30+31+30+31+31+30+1=274$$（天），  根据``二、三、四、五、六、日、一''的周期规律：$$274\\div 7=39$$（周）$$\\cdots \\cdots 1$$（天）．  所以$$10$$月$$1$$日是这个周期的第$$1$$天，即星期二．  故选$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-3bdf3557003e4dea88801ba54a617bdb",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一只蜗牛沿着柱子往上爬，白天往上爬$$5$$米，晚上又下滑$$3$$米，已知这只蜗牛是第$$6$$天爬上柱子顶端的，那么这根柱子最长有~\\uline{~~~~~~~~~~}~米．\nA. $$12$$\nB. $$15$$\nC. $$18$$\nD. $$21$$",
+    "answer": "B. $$15$$",
+    "solution": "因为蜗牛白天爬$$5$$米，晚上下滑$$3$$米，所以相当于蜗牛一天往上爬$$5-3=2$$米，这只蜗牛前五天一共爬了$$5\\times 2=10$$米．因为这只蜗牛是第六天爬上柱子顶端的，所以这根柱子最长有$$10+5=15$$米．  故答案为：$$15$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解",
+      "课内体系",
+      "实践应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-b43ec7dc9a7e49ec99e1257a720e5feb",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$10$$本相同的笔记本分给$$3$$个人，每人至少一本，共有~\\uline{~~~~~~~~~~}~种不同的分配方案．\nA. $$20$$\nB. $$28$$\nC. $$36$$\nD. $$45$$",
+    "answer": "C. $$36$$",
+    "solution": "根据题意，$$10$$个相同的小球分给$$3$$个人，每人至少$$1$$个，就是将$$10$$个球分成$$3$$组，  一个人最多分：$$10-1-1=8$$（支），  $$8+7+6+5+4+3+2+1=36$$（种），  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-c6e3e897626b4ac3a302cae9b74d8c79",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个奇数乘$$3$$以后将会是 （~ ~ ）.\nA. 质数\nB. 合数\nC. 奇数\nD. 偶数",
+    "answer": "C. 奇数",
+    "solution": "奇数$$\\times 3$$只能是奇数．最容易做错的是选合数，反例：$$1\\times 3=3$$，$$3$$不是合数．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "数论模块",
+      "奇数与偶数",
+      "奇数与偶数的乘法规律"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-c8ef2561213f406189e50885335b32d7",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某班有$$50$$多人上体育课，他们站成一排，老师让他们按$$1$$，$$2$$，$$3$$，$$4$$，$$5$$，$$6$$，$$7$$循环报数，最后一人报的数是$$4$$，这个班有人上体育课．\nA. $$51$$\nB. $$50$$\nC. $$53$$\nD. $$57$$",
+    "answer": "C. $$53$$",
+    "solution": "也就是说，有这样一个两位数，首先他是一个十位是$$5$$的两位数，并且除以$$7$$的余数是$$4$$，那么最终只可能是$$53$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "时间中的周期问题",
+      "日期中的周期"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-7f04b52772fa43ecafd4a35b67b03870",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个三位数各个数位上的数字都不相同。把$$2$$写在这个三位数的左端得到一个四位数；把$$2$$写在这个三位数的右端得到一个四位数；这两个四位数相差$$945$$，那么这个三位数是（  ）\nA. $$117$$\nB. $$327$$\nC. $$219$$\nD. $$312$$",
+    "answer": "B. $$327$$",
+    "solution": "解：设这个三位数是$$\\overline{abc}$$，依题意可知$$\\overline{2abc}-\\overline{abc2}=945$$或者$$\\overline{abc2}-\\overline{2abc}=945$$，  按照不完全拆分把$$abc$$看成一组，  当：$$\\overline{2abc}-\\overline{abc2}=945$$，  $$2000+\\overline{abc}-10\\overline{abc}-2=945$$，  $$1998-9\\overline{abc}=945$$，  $$\\overline{abc}=117$$（与题中说互不相同矛盾），  当：$$\\overline{abc2}-\\overline{2abc}=945$$，  $$10\\overline{abc}+2-2000-\\overline{abc}=945$$，  $$9\\overline{abc}-1998=945$$，  $$\\overline{abc}=327$$（满足条件）。  故选:B。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "数论模块",
+      "位值原理与进制",
+      "位值原理运用",
+      "位值原理的综合应用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-0a8deb33bb5f4f589dadb123cf288a94",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "\\textbf{(2009 Math kangaroo Problems, Level 1-2, Question \\#7)}  After Snow White, the Prince and the 7 Dwarfs ate one apple each, there were 4 apples left in the basket. How many apples were there in the basket before they ate any？  翻译：在白雪公主之后，王子和七个小矮人也每人吃了$$1$$个苹果，篮子里还剩下$$4$$个苹果．那么他们吃苹果之前篮子里有多少苹果？\nA. $$8$$\nB. $$9$$\nC. $$13$$\nD. $$14$$",
+    "answer": "C. $$13$$",
+    "solution": "吃掉的苹果加上篮子里剩下的苹果就是原来一共的苹果数量．白雪公主吃了一个苹果，王子吃了一个苹果，再加上七个小矮人各吃了一个苹果，所以一共吃了$$1+1+7=9$$个苹果，再加上篮子里还剩下的$$4$$个苹果，那么原来没吃苹果之前就有$$9+4=13$$个苹果．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-8f23a2291bc343088c473307c9ed143e",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "现有甲、乙两个水桶，甲桶容量$7$公升，乙桶容量$$3$$公升，甲桶装满了水，甲桶给乙桶~\\uline{~~~~~~~~~~}~公升的水后，两桶的水一样多．\nA. $$2$$\nB. $$2.5$$\nC. $$3$$\nD. $$4$$\nE. $$3.5$$\nF. $$4.5$$",
+    "answer": "D. $$4$$",
+    "solution": "$$\\frac{7},{2}=3.5$$公升$$\\textgreater3$$公升，所以只能将$$3$$公升的水桶装满，且$$7$$公升水桶中仍有$$3$$公升，则$$7-3=4$$公升，即给$$4$$公升水给$$3$$公升水桶，则$$1$$公升溢出，两个容器水一样多．  故答案为：$$4$$．选$$\\text{D}$$.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析",
+      "课内体系",
+      "知识点",
+      "数学广角",
+      "优化",
+      "解决问题策略"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-829a014c892748f98cc1749659eabb88",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列算式结果为$$500$$的是(  )\nA. $$5\\times 99+1$$\nB. $$100+25\\times 4$$\nC. $$88\\times 4\\text{ }+37\\times 4$$\nD. $$100\\times 0\\times 5$$",
+    "answer": "C. $$88\\times 4\\text{ }+37\\times 4$$",
+    "solution": "$$88\\times 4+37\\times 4=\\left( 88+37 \\right)\\times 4=125\\times 4=500$$。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "整数",
+      "整数提取公因数",
+      "整数乘法巧算之提取公因数（普通型）"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-7f5fafe0caa44f569755e91c09d7f21b",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算$$(888+777)\\div (666+555+444)=$$．\nA. $$1$$\nB. $$2$$\nC. $$3$$\nD. $$4$$",
+    "answer": "A. $$1$$",
+    "solution": "前后括号同时除以$$111$$，即$$(8+7)\\div (6+5+4)=1$$．  故选$$\\text{A}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "转化与化归的思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-3cbc83dfef144ab7abc8dbf6c232db57",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "在下面的一列数中，从左向右数，第$$8$$个数是~\\uline{~~~~~~~~~~}~．  $$1$$，$$4$$，$$10$$，$$20$$，$$35$$，$$\\cdots$$\nA. $$116$$\nB. $$120$$\nC. $$140$$\nD. $$156$$\nE. $$180$$",
+    "answer": "B. $$120$$",
+    "solution": "每两个数差值为$$3$$，$$6$$，$$10$$，$$15$$，$$\\cdots$$  它们的差值为$$3$$，$$4$$，$$5$$，$$\\cdots$$  所以第$$8$$个数是$$120$$．  $$1+3=4$$，$$4+6=10$$，$$10+10=20$$，$$20+15=35$$，$$35+21=56$$，$$56+28=84$$，$$84+36=120$$，每次加上的数$$3$$，$$6$$，$$10$$，$$15$$，$$21$$，$$28$$，$$36$$又有规律，$$3+3=6$$，$$6+4=10$$，$$10+5=15$$，$$15+6=21$$，$$21+7=28$$，$$28+8=36$$，所以第$$8$$个数是$$120$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "数列与数表",
+      "数列规律",
+      "数列找规律填数"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-19977b1c84604a1aa83bd13e891ebcd4",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲乙两人在春节一共得$$210$$元压岁钱，甲给乙$$40$$元，还比乙多$$10$$元，那么，原来甲得了元压岁钱．\nA. $$150$$\nB. $$140$$\nC. $$125$$\nD. $$120$$",
+    "answer": "A. $$150$$",
+    "solution": "因为甲给乙$$40$$元，还比乙多$$10$$元，所以甲比乙多$$40\\times 2+10=90$$元，  所以甲：$$(210+90)\\div 2=150$$",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "和差问题",
+      "二量和差问题",
+      "明和暗差"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-4e47a7c8129743c5ab4cc74a25b28ab3",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "下式中，$$\\square $$和$$\\triangle $$分别代表（  ）  $$\\square +\\square +\\square +\\triangle +\\triangle +\\triangle =27$$  $$\\triangle +\\triangle +\\square =12$$。\nA. $$3$$和$$4$$\nB. $$3$$和$$6$$\nC. $$4$$和$$6$$\nD. $$6$$和$$3$$",
+    "answer": "D. $$6$$和$$3$$",
+    "solution": "解：$$\\square +\\square +\\square +\\triangle +\\triangle +\\triangle =27$$，  得$$\\square +\\triangle =9$$①，  $$\\triangle +\\triangle +\\square =12$$得$$2\\triangle +\\square =12$$②，  ②$$-$$①得：$$\\triangle =3$$，  把$$\\triangle =3$$代入①得：  $$\\square =6$$  故选：D。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "列方程解应用题",
+      "列方程解应用题等量代换"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-24f8f99b382d49359c2d7aee14e898dc",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$2013$$年$$12$$月$$21$$日是星期六，那么$$2014$$年的春节，即$$2014$$年$$1$$月$$31$$日是星期（~~~~~~~ ）．\nA. 一\nB. 四\nC. 五\nD. 六",
+    "answer": "C. 五",
+    "solution": "星期六有：$$21\\to 28\\to 4(35)\\to 11\\to 18\\to 25$$，所以 $$31$$日是星期五．  $$10+31=41$$（天），$$41\\div7=5$$（周）$$\\cdots\\cdots 6$$ （天），差一天是星期六，所以$$31$$日是星期五．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "时间中的周期问题",
+      "日期中的周期"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814518d524014519095a860317",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "超市中的某种汉堡每个$$10$$元，这种汉堡最近推出了``买二送一''的优惠活动，即花钱买两个汉堡，就可以免费获得一个汉堡，已知东东和朋友需要买$$9$$个汉堡，那么他们最少需要花元钱．\nA. $$40$$\nB. $$60$$\nC. $$70$$\nD. $$90$$",
+    "answer": "B. $$60$$",
+    "solution": "相当于每$$3$$个汉堡$$20$$元，所以$$9$$个汉堡需要$$60$$元．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "实践应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-3642e2df25894b12bc10eae9d67b2c4f",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某年的三月份正好有$$4$$个星期三和$$4$$个星期六，那么这年$$3$$月$$1$$日是星期．\nA. 日\nB. 六\nC. 五\nD. 四",
+    "answer": "A. 日",
+    "solution": "$$3$$月有$$31$$天，从中任取连续$$28$$天，正好是四周，恰好有$$4$$个周三和$$4$$个周六，  因此，剩下的$$3$$天中不能有周三和周六  不妨取$$3$$月$$4$$日到$$3$$月$$31$$日，这$$28$$天中恰有$$4$$个周三和$$4$$个周六  剩下的$$1$$日到$$3$$日是连续的三天，其中有不能有周三和周六，发现这三天只能是周日、周一、周二  因此，$$3$$月$$1$$日是周日．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "课内知识点",
+      "数学广角",
+      "简单的周期",
+      "简单的周期计算"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-b1aec7bae406482eaac7625009683830",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "定义新运算：$$a*b=5a-4b$$，则$$3*2*1=$$~\\uline{~~~~~~~~~~}~．\nA. $$6$$\nB. $$7$$\nC. $$31$$\nD. $$35$$",
+    "answer": "C. $$31$$",
+    "solution": "$$3*2=5\\times 3-4\\times 2=7$$，$$7*1=5\\times 7-4\\times 1=31$$．  知识点：直接计算型的定义新运算",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "拓展思维",
+      "计算模块",
+      "定义新运算",
+      "直接运算型",
+      "普通型"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-8335b63ae51846ce9aa7d127e2d29705",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "动物园每天早上$$8:30$$开放，中午$$12$$点关闭，下午$$14:30$$开放，下午$$16:30$$关闭，那么动物园每天开放的时长是．\nA. $$7$$小时\nB. $$6$$小时$$30$$分\nC. $$6$$小时\nD. $$5$$小时$$30$$分",
+    "answer": "D. $$5$$小时$$30$$分",
+    "solution": "根据题意分析可知，上午开放的时长是：$$12:00-8:30=3:30$$；  下午开放的时长是：$$16:30-14:30=2:00$$，  所以每天开放的时长是：$$3:30+2:00=5:30$$，即$$5$$小时$$30$$分钟，  故选答案$$\\text{D}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-34f472d517c34effb1f0e746000caedb",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "长方形的周长是$$18$$厘米，已知长是宽的$$2$$倍，那么长方形的长是（  ）。\nA. $$3$$厘米\nB. $$12$$厘米\nC. $$6$$厘米",
+    "answer": "C. $$6$$厘米",
+    "solution": "解：$$18\\div 2\\div (1+2)\\times 2$$  $$=9\\div 3\\times 2$$  $$=6$$ （厘米）  答：长方形的长是$$6$$厘米。  故选：C。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "和倍问题",
+      "二量和倍问题",
+      "两量和倍"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-2ca801c0e6324939aaf3df5a1b8f70ae",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "大李和小李比赛吃包子，大李比小李多吃$$20$$个，大李比小李的$$4$$倍多$$2$$个，大李和小李一共吃了个．\nA. $$26$$\nB. $$30$$\nC. $$32$$\nD. $$36$$",
+    "answer": "C. $$32$$",
+    "solution": "根据题意大李比小李的$$4$$倍多$$2$$个，  则大李比小李多$$3$$倍加$$2$$个，  即小李吃的包子数$$\\times3+2=20$$（个）．  小李吃了$$(20-2)\\div3=6$$（个），大李吃了$$6+20=26$$（个），  两个人一共吃了$$26+6=32$$（个）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "差倍",
+      "两量差倍",
+      "非整数倍差倍剩余"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-2facccd9ebd44ad28089da85a8b30404",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个物体的$$2016$$度逆时针旋转，与它的多少度顺时针旋转是一样的？\nA. $$36$$\nB. $$72$$\nC. $$144$$\nD. $$252$$",
+    "answer": "C. $$144$$",
+    "solution": "逆时针旋转的度数$$+$$顺时针旋转的度数和是$$360$$的倍数，因此选$$\\text {C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "枚举思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-d51dee6df0fd4c489a10ddb8d9a49c36",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "两数之和为$$17$$，两数之差为$$7$$，较小的数为．\nA. $$4$$\nB. $$5$$\nC. $$6$$",
+    "answer": "B. $$5$$",
+    "solution": "$$\\textasciitilde\\textasciitilde\\textasciitilde\\textasciitilde(17-7)\\div 2$$  $$=10\\div 2$$  $$=5$$  因此较大数是$$12$$，较小数是$$5$$．选$$\\text{B}$$．  $$\\text{A}$$、$$\\text{C}$$为干扰项，排除．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "和差问题",
+      "二量和差问题",
+      "明和明差"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-1ad07204d5344856bad683311c7e256d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有一种特殊的计算器，当输入一个$$10\\sim 49$$的自然数后，计算器会先将这个数乘以$$2$$，然后将所得结果的十位和个位顺序颠倒，再加$$2$$后显示出最后的结果。那么，下列四个选项中，（  ）可能是最后显示的结果。\nA. $$44$$\nB. $$43$$\nC. $$42$$\nD. $$41$$",
+    "answer": "A. $$44$$",
+    "solution": "解：A：$$44-2=42$$，颠倒后是$$24$$，$$24\\div 2=12$$；$$12$$是$$10\\sim 49$$的自然数，符合要求；  B：$$43-2=41$$，颠倒后是$$14$$，$$14\\div 2=7$$，$$7$$不是$$10\\sim 49$$的自然数，不符合要求；  C：$$42-2=40$$，颠倒后是$$4$$，$$4\\div 2=2$$，$$2$$不是$$10\\sim 49$$的自然数，不符合要求；  D：$$41-2=39$$，颠倒后是$$93$$，$$93\\div 2=46.5$$，$$46.5$$不是$$10\\sim 49$$的自然数，不符合要求。  故选：A。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "还原问题",
+      "两量还原问题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-96886c53a6dd4f9e91e994c2071de2e2",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把$$1\\sim 5$$这$$5$$个自然数从左到右排成一排，要求从第三个数起，每个数都是前两个数的和或差，那么一共有（~~~~~~~ ）种放法．\nA. $$2$$\nB. $$4$$\nC. $$6$$\nD. $$8$$",
+    "answer": "B. $$4$$",
+    "solution": "$$5$$只能在首位或者末位，$$52314$$，$$54132$$，$$41325$$，$$23145$$，所以选B．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计数模块",
+      "枚举法综合",
+      "枚举法",
+      "有序枚举"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff808081451d64f901451d90b3b40037",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "五年级$$2$$班的同学们一起去划船，但公园船不够多，如果每船坐$$4$$人，会多出$$10$$人；如果每船坐$$5$$人，还会多出$$1$$人，共有人去划船．\nA. $$36$$\nB. $$46$$\nC. $$51$$\nD. $$52$$",
+    "answer": "B. $$46$$",
+    "solution": "盈盈类问题：共有$$(10-1)\\div (5-4)=9$$只船，共有$$4\\times 9+10=46$$人．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "知识点",
+      "应用题模块",
+      "盈亏问题",
+      "盈亏基本类型",
+      "盈亏基本类型盈亏问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-76f23b9379b54e07ac5a0ec10e42c310",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "三年级分成$$8$$个小队去种树，一共种了$$129$$棵，各小队种的棵数都不相同，其中种树最多的小队种了$$20$$棵，种树最少的小队最少种了棵．\nA. $$9$$\nB. $$10$$\nC. $$11$$\nD. $$12$$",
+    "answer": "B. $$10$$",
+    "solution": "要使某一队种的树量少，则其它队伍种树越多越好，已知种树最多的小队种了$$20$$棵，且各小队种的棵树都不相同，则令其它几个小队的种树数量为：$$19$$，$$18$$，$$17$$，$$16$$，$$15$$，$$14$$．已知$$8$$个小队一共种$$129$$棵树，故最少的小队种树：  $$129-(20+19+18+17+16+15+14)$$  $$=129-(20+14)\\times7\\div 2$$  $$=129-34\\times7\\div 2$$  $$=129-238\\div 2$$  $$=129-119$$  $$=10$$（棵）．  故选：$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "加减法应用",
+      "加减法应用顺口溜"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-12bbfd988e1d4af9baea48e1883904a6",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "四位数$$2013$$的各位数字和为$$6$$，且各位数字均不相同．在具有这些性质的四位整数中，按由小到大顺序排列，$$2013$$是第个．\nA. $$5$$\nB. $$6$$\nC. $$7$$\nD. $$8$$",
+    "answer": "C. $$7$$",
+    "solution": "根据题意，只能由$$0$$，$$1$$，$$2$$，$$3$$四个数字来组成四位数．  以``1''开头的四位数有$$3\\times2=6个$$，  因此以``$$2$$''开头的最小数应是$$2013$$，  因此$$2013$$是第$$7$$个．  答︰$$2013$$是第$$7$$个．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-1b3df3b2835d4a40a6d56169fb6a8082",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把$$1$$到$$5$$这$$5$$个自然数从左到右排成一排，要求从第三个数起，每个数都是前两个数的和或差，那么一共有（  ）种排法。\nA. $$2$$\nB. $$4$$\nC. $$6$$\nD. $$8$$",
+    "answer": "B. $$4$$",
+    "solution": "解：$$5$$只能在首位或者末位，$$52314$$，$$54132$$，$$41325$$，$$23145$$。  故选:B。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计数模块",
+      "枚举法综合",
+      "枚举法",
+      "有序枚举"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-9acdf8aae0ce49dc8493a9ea341d73de",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "大李和小李比赛吃包子，大李比小李多吃$$20$$个，大李比小李的$$4$$倍多$$2$$个，大李吃了个．\nA. $$20$$\nB. $$24$$\nC. $$26$$\nD. $$30$$",
+    "answer": "C. $$26$$",
+    "solution": "根据题意大李比小李的$$4$$倍多$$2$$个，  则大李比小李多$$3$$倍加$$2$$个，  即小李吃的包子数$$\\times3+2=20$$（个）．  小李吃了$$(20-2)\\div3=6$$（个），大李吃了$$6+20=26$$（个），  两个人一共吃了$$26+6=32$$（个）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "差倍",
+      "两量差倍",
+      "非整数倍差倍剩余"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-f03994e1c31d450f8e6852c041896173",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙两人玩拿火柴棍游戏，桌上共有$$10$$根火柴棍，谁取走最后一根谁胜．甲每次可以取走$$1$$根、$$3$$根或$$4$$根（只能取恰好的数量，如果最后剩$$2$$根火柴棍，甲只能取$$1$$根），乙每次可以取$$1$$根或$$2$$根．如果甲先取，那么甲为了取胜，第一次应（ ~ ~ ~）．\nA. 取$$1$$根\nB. 取$$3$$根\nC. ~取$$4$$根\nD. 无论怎么取都无法获胜",
+    "answer": "D. 无论怎么取都无法获胜",
+    "solution": "无论甲怎么走，乙只要让最后火柴棒剩两根，甲这时只能取$$1$$根，乙胜．在这之前只要保证火柴剩下$$5$$根，甲取$$1$$根，则乙取$$2$$根，剩$$2$$根，乙胜；或者甲取$$3$$根，乙取$$2$$根，乙胜；或者甲取$$4$$根，乙取$$1$$根，乙胜．所以甲无论怎么取都无法获胜．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "整体思想"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814518d52401451b56a194069d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙两筐苹果共重$$46$$千克，从甲筐中取出$$8$$千克苹果放入乙筐，这样乙筐比甲筐重$$2$$千克，甲筐苹果原来重千克．\nA. $$29$$\nB. $$30$$\nC. $$31$$",
+    "answer": "B. $$30$$",
+    "solution": "因为由题干可知，甲、乙两筐苹果共重$$46$$千克，从甲筐中取出$$8$$千克苹果放入乙筐，这样乙筐比甲筐重$$2$$千克，设甲筐中原来有苹果$$x$$千克，则可列方程为：  $$46-x+8=x-8+2$$，解得$$x=30$$，所以甲筐苹果原来重$$30$$千克．  故选：$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "方程思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-500a824b5cc14ae9998282e43305af00",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "从下午$$12:30$$到下午$$4:00$$经过了多少分钟\nA. $$180$$\nB. $$210$$\nC. $$240$$\nD. $$480$$",
+    "answer": "B. $$210$$",
+    "solution": "从下午$$12:30$$到下午$$4:00$$经过了$$3$$个小时$$30$$分钟，也就是$$3\\times60+30=210$$（分钟）．  故选$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-c0fa9b19cc6b46878fdd9e6f42540e60",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "用数字$$0$$、$$3$$、$$4$$、$$5$$、$$6$$最多可以组成个无重复数字的三位数．\nA. $$48$$\nB. $$60$$\nC. $$64$$\nD. $$100$$",
+    "answer": "A. $$48$$",
+    "solution": "∵首先百位数不能选$$0$$有$$4$$种选择，  当百位数确定后十位数有$$4$$种选择，  当十位数确定后个位数有$$3$$种选择，  ∴根据分步计数原理所组成的三位数为$$4\\times4\\times3=68$$种．  故选：$$\\text{A}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "学习能力",
+      "七大能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-efce77eb760e4c91b0dee8ad94b2408b",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "对于两个数字$$a$$、$$b$$，定义新运算：$$a*b=a\\times b+a+b$$，则$$9*11=$$（  ）。\nA. $$99$$\nB. $$109$$\nC. $$119$$\nD. $$129$$",
+    "answer": "C. $$119$$",
+    "solution": "根据定义，得$$9*11=9\\times 11+9+11=119$$。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "定义新运算",
+      "直接运算型",
+      "普通型"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-6a4fa91b249746588f85fdcecb6f907d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "在``神庙大逃亡''游戏中，吃一个黄色钱币可以得$$1$$元钱；吃一个红色钱币可以得$$3$$元钱；吃一个蓝色钱币可以得$$5$$元钱．已知阿奇在一次游戏中一共吃了$$2800$$个钱币，共获得$$7800$$元，并且吃到蓝色钱币比红色钱币多$$200$$个，那么阿奇吃到了（~~~~~ ）个红色钱币．\nA. $$700$$\nB. $$900$$\nC. $$1200$$\nD. $$1500$$",
+    "answer": "A. $$700$$",
+    "solution": "把蓝色钱币比红色钱币多的$$200$$个在总数上减去，  可以得到他一共吃了$$2800-200=2600$$个钱币，共获得$$7800-5\\times 200=6800$$元，  由于红色蓝色一样多后可以看做有两种钱币，一种$$1$$元的黄色钱币，一种是$$(3+5)\\div 2=4$$（元）的红蓝钱币，  假设$$2600$$个钱币全部是是一元的，  那么可得红蓝钱币一共有$$(6800-2600\\times 1)\\div (4-1)=1400$$（个），  则红色钱币有$$1400\\div2=700$$（个）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "鸡兔同笼问题",
+      "假设法解鸡兔同笼",
+      "基本型",
+      "变型题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814518d5240145201abacc0a6c",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$100 - 99 - 98 + 97 +96 -95 -94+93~ \\cdots~ +4 - 3 - 2 + 1$$的结果是．\nA. $$100$$\nB. $$150$$\nC. $$50$$\nD. $$0$$",
+    "answer": "D. $$0$$",
+    "solution": "$$00000$$",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "学习能力",
+      "七大能力",
+      "运算求解"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-9eaac274872b4049876f8d38afba491d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明妈妈花$$8$$元买了一条鱼，以$$9$$元价格卖掉，然后觉得不合算，又花$$10$$元买回来，以$$11$$元卖给另一个人，那么小明妈妈赚了元．\nA. $$3$$\nB. $$2$$\nC. $$1$$",
+    "answer": "B. $$2$$",
+    "solution": "$$\\left( 9-8 \\right)+\\left( 11-10 \\right)=2$$（元）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解",
+      "程序性计算"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-4603510f2a5a45428ef32bfc5d80d64e",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "为了减少城市交通拥堵的情况，某城市拟定从$${2014}$$年$${1}$$月$${1}$$日起开始试行新的限行规则，规定尾号为$$1$$、$$6$$的车辆周一、周二限行，尾号$$2$$、$$7$$的车辆周二、周三限行，尾号$$3$$、$$8$$的车辆周三、周四限行，尾号$$4$$、$$9$$的车辆周四、周五限行，尾号$$5$$、$$0$$的车辆周五、周一限行，周六、周日不限行。由于$$1$$月$$31$$日是春节，因此，$$1$$月$$30$$日和$$1$$月$$31$$日两天不限行。已知$$2014$$年$$1$$月$$1$$日是周三并且限行，那么$$2014$$年$$1$$月份~\\uline{~~~~}~组尾号可出行的天数最少。\nA. $$1$$、$$6$$\nB. $$2$$、$$7$$\nC. $$4$$、$$9$$\nD. $$5$$、$$0$$",
+    "answer": "B. $$2$$、$$7$$",
+    "solution": "$$1$$月份共$$31$$天，$$31\\div 7=4$$(周)$$\\cdots \\cdots 3$$(天)。由于$$1$$月$$1$$日是周三，所以$$1$$月份周三、周四、周五各$$5$$天，周一、周二各$$4$$天。其中$$1$$月$$30$$日周四、$$1$$月$$31$$日周五。所以只看周三即可。周三$$2$$、$$7$$以及$$3$$、$$8$$限行。所以此题B组尾号可出行的天数最少。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "时间中的周期问题",
+      "日期中的周期"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-b79fcf68610d4f94ac00f268b142d21b",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某老师被学生问到自己的年龄时不愿意公开，但更不愿意说谎．于是她就对学生说：``我$$6$$年后年龄的$$9$$倍，减去我$$6$$年前年龄的$$9$$倍，等于我现在年龄的$$4$$倍少$$8$$岁．''想一想，如果设该老师今年$$x$$岁，那么$$6$$年后年龄的$$9$$倍应该表示为．\nA. $$9x+6$$\nB. $$x+6\\times9$$\nC. $$9\\left( x+6\\right)$$",
+    "answer": "C. $$9\\left( x+6\\right)$$",
+    "solution": "今年老师$$x$$岁，则$$6$$年后老师的年龄是$$(x+6)$$岁，$$9$$倍就是$$9(x+6)$$岁．故选 C．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "年龄问题",
+      "年龄问题之差倍型"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-46749fc2f0064276ab399b34f0fec258",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知$$\\triangle +\\triangle =\\bigcirc +\\bigcirc +\\bigcirc $$，$$\\bigcirc +\\bigcirc +\\bigcirc =\\square +\\square +\\square $$，$$\\bigcirc +\\square +\\triangle +\\triangle =100$$，则$$\\square =$$．\nA. $$20$$\nB. $$25$$\nC. $$36$$",
+    "answer": "A. $$20$$",
+    "solution": "因为$$\\triangle +\\triangle =\\bigcirc +\\bigcirc +\\bigcirc $$即$$2\\triangle =3\\bigcirc $$；  $$\\bigcirc +\\bigcirc +\\bigcirc =\\square +\\square +\\square $$即$$3\\bigcirc =3\\square $$，则$$\\bigcirc =\\square $$；  $$\\bigcirc +\\square +\\triangle +\\triangle =\\bigcirc +\\bigcirc +3\\bigcirc =5\\bigcirc =100$$，  所以$$\\bigcirc =20$$，则$$\\square =20$$，$$\\triangle =30$$．  故选：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "方程基础",
+      "等量代换",
+      "不可直接计算的算式代换"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-f9b4fb17b4f844d496a9010598406669",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有$$7$$个数的平均数是$$11$$，前$$4$$个数的平均数是$$8$$，后$$4$$个数的平均数是$$13$$，第$$4$$个数是~\\uline{~~~~~~~~~~}~．\nA. $$17$$\nB. $$7$$\nC. 又搞事！\nD. $$5$$",
+    "answer": "B. $$7$$",
+    "solution": "$$7$$个数的平均数是$$11$$，所以$$7$$个数的总和是$$77$$．前$$4$$个数平均数是$$8$$，所以前$$4$$个数总和是$$32$$，同样的，后$$4$$个数总和是$$52$$．所以第$$4$$个数是：$$32+52-77=7$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "学习能力",
+      "七大能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-8805dcb73d604a39b72cbbfc2123f39c",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知一组等差数列的第$$17$$项为$$73$$，第$$27$$项为$$113$$，这组等差数列的第$$7$$项是．\nA. $$23$$\nB. $$33$$\nC. $$43$$\nD. $$53$$",
+    "answer": "B. $$33$$",
+    "solution": "根据中项定理，第$$7$$项$$+$$第$$27$$项$$=2$$倍的第$$17$$项．  故第$$7$$项为：$$73\\times 2-113=33$$．  故选择$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "整体思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-d3c26dc709f747f29868b4cac4f367aa",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个自然数，如果它顺着数和倒过来数都是一样的，则称这个数为``对称数''．例如，$$2$$，$$33$$，$$101$$，$$1331$$是对称数，但$$220$$不是对称数．由数字$$1$$、$$2$$、$$3$$、$$4$$组成的不超过三位数的对称数有个．\nA. $$20$$\nB. $$21$$\nC. $$24$$\nD. $$25$$",
+    "answer": "C. $$24$$",
+    "solution": "一位数有：$$1$$，$$2$$，$$3$$，$$4$$共计$$4$$个；  两位数：$$11$$，$$22$$，$$33$$，$$44$$共计$$4$$个；  三位数：$$111$$，$$121$$，$$131$$，$$141$$，$$212$$，$$222$$，$$232$$，$$242$$，$$313$$，$$323$$，$$333$$，$$343$$，$$414$$，$$424$$，$$434$$，$$444$$共计$$16$$个．  合计：$$4+4+16=24$$（个）．  故选择$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计数模块",
+      "枚举法综合",
+      "枚举法",
+      "有序枚举"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-bb0652fa867a46a5a3c06a6222bfc4cc",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$1$$只小猪的重量等于$$6$$只鸡的重量；$$3$$只鸡的重量等于$$4$$只鸭的重量；$$2$$只鸭的重量等于$$6$$条鱼的重量，那么$$2$$只小猪的重量等于（~~~~~ ）条鱼的重量．\nA. $$48$$\nB. $$36$$\nC. $$24$$\nD. $$18$$",
+    "answer": "A. $$48$$",
+    "solution": "等量代换，设小猪为$$a$$，鸡为$$b$$，鸭为$$c$$，鱼为$$d$$，根据条件可得：$$a=6b$$，$$3b=4c$$，$$2c=6d$$，则：$$2a=12b=16c=48d$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "方程基础",
+      "等量代换",
+      "文字转化为算式代换"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff808081453c067901453fffcb460303",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "同学们一起去划船，但公园船不够多，如果每船坐$$4$$人，会多出$$10$$人；如果每船坐$$5$$人，还会多出$$1$$人，共有人去划船．  $ $  $ $  $ $\nA. $$36$$\nB. $$46$$\nC. $$51$$\nD. $$52$$",
+    "answer": "B. $$46$$",
+    "solution": "盈盈类问题：共有$$(10-1)\\div (5-4)=9$$只船，共有$$4\\times 9+10=46$$人．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "知识点",
+      "应用题模块",
+      "盈亏问题",
+      "盈亏基本类型",
+      "盈亏基本类型盈亏问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-0f393ab356fa4912a7bda683ef9788cf",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有几个正三位数满足个位数是十位数和百位数的积？\nA. $$20$$~~\nB. $$23$$~\nC. $$30$$\nD. $$32$$",
+    "answer": "D. $$32$$",
+    "solution": "枚举法有序枚举：$$100$$、$$111$$、$$122$$、$$133$$、$$144$$、$$155$$、$$166$$、$$177$$、$$188$$、$$199$$、$$200$$、$$212$$、$$224$$、$$236$$、$$248$$、$$300$$、$$313$$、$$326$$、$$339$$、$$400$$、$$414$$、$$428$$、$$500$$、$$515$$、$$600$$、$$616$$、$$700$$、$$717$$、$$800$$、$$818$$、$$900$$、$$919$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-54ec17f34a9a438c8818fda94ae8f5ab",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$2014$$年$$2$$月$$6$$日是星期四，小胖决定从这天起（含$$2$$月$$6$$日）练习计算，一直练习到$$2$$月$$17$$日，（含$$2$$月$$17$$日）开学为止．但是中间如果遇到周六和周日，小胖还是决定休息一下，不做练习．已知他第一天做$$1$$道题，第二天做$$3$$道题，第三天做$$5$$道题，依此变化做下去，那么小胖这段时间一共做了（ ~ ~ ~ ~）道计算练习题．\nA. $$144$$\nB. $$100$$\nC. $$81$$\nD. $$64$$",
+    "answer": "D. $$64$$",
+    "solution": "从$$2$$月$$6$$日到$$2$$月$$17$$日为止，一共有$$17-6+1=12$$（天）其中有$$2$$个星期六，星期日．工作了$$12-4=8$$（天），共完成$$1+3+5+7+9+11+13+15=64$$（题）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814518d52401451b56b37a06a1",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "被减数、减数与差的和是$$280$$，减数是$$100$$，那么差是~\\uline{~~~~~~~~~~}~．\nA. $$20$$\nB. $$40$$\nC. $$60$$\nD. $$80$$",
+    "answer": "B. $$40$$",
+    "solution": "由题意，被减数与差的和是$$280-100=180$$，差是$$100$$，由和差问题的公式，差是较小数，差为$$\\left( 180-100 \\right)\\div 2=40$$.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想",
+      "Overseas Competition",
+      "知识点",
+      "应用题模块",
+      "和差倍问题",
+      "和差问题",
+      "二量和差问题",
+      "明和暗差"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-5c19f892b0f94376bd0ee059e6fad67d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$2019$$年元旦是星期二，今年的国庆节是星期．\nA. 一\nB. 二\nC. 三\nD. 四",
+    "answer": "B. 二",
+    "solution": "从$$2019$$年的$$1$$月$$1$$日至$$2019$$年的$$10$$月$$1$$日共：$$31+28+31+30+31+30+31+31+30+1=274$$（天），  根据``二、三、四、五、六、日、一''的周期规律：$$274\\div 7=39$$（周）$$\\cdots \\cdots 1$$（天）．  所以$$10$$月$$1$$日是这个周期的第$$1$$天，即星期二．  故选$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-7f305cb9733d41b49209feb6ea33bce3",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "妈妈回到家，发现她的一个孩子把她放在冰箱里的整个蛋糕都吃光了．她问了她的每个孩子是谁做的，他们的回答如下所示．  奥斯汀:卡洛斯吃了蛋糕．  本尼:奥斯汀吃了蛋糕．  卡洛斯:本尼在撒谎．  丹妮拉:吃蛋糕的不是卡洛斯．  艾拉:我没有吃蛋糕．  如果只有两个孩子说的是真话，那么是谁吃了蛋糕?\nA. 本尼\nB. 卡洛斯\nC. 丹妮拉\nD. 艾拉",
+    "answer": "D. 艾拉",
+    "solution": "因为奥斯汀和丹妮拉说的话是相矛盾的，本尼和卡洛斯说的话是相矛盾的，所以四句话中必有两句真话和两句假话，因此艾拉说的这能是假话，因此真实情况是艾拉吃了蛋糕.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "Overseas Competition",
+      "知识点",
+      "组合模块",
+      "逻辑推理",
+      "拓展思维",
+      "假设型逻辑推理",
+      "真假话",
+      "找一致（同伙）"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-60a69c8d909c4a7c93b24cd9781cba4a",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$113\\times 5-37\\times 15$$，这个题目中隐藏的公因数是（  ）。\nA. $$5$$\nB. $$15$$\nC. $$37$$",
+    "answer": "A. $$5$$",
+    "solution": "略",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "整数",
+      "整数提取公因数",
+      "整数构造提取",
+      "整数倍数关系"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-3f7c4a26337747359501cf36879da538",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个奇数之间的差不可能是多少？\nA. $$0$$\nB. $$6$$\nC. $$9$$\nD. $$12$$",
+    "answer": "C. $$9$$",
+    "solution": "本题题意为``两个奇数之间的差不可能是多少''，两个奇数之间的差结果是偶数，因此选项中$$\\text{C}$$选项不可能是两个奇数相减得来，因此本题选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-b4a8ca17327a4acbbfedd0227c7b4933",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "约翰的钱比吉尔多$$20$$美元，他们两个总共有$$42$$美元．请问约翰有美元.\nA. $$20$$\nB. $$30$$\nC. $$31$$\nD. $$33$$",
+    "answer": "C. $$31$$",
+    "solution": "$$(42+20)\\div 2=31$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "七大能力",
+      "实践应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-385697a9bbe8413ca971b6e904103e79",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "亮亮早上$$8:00$$从甲地出发去乙地，速度是每小时$$8$$千米。他在中间休息了$$1$$小时，结果中午$$12:00$$到达乙地。那么，甲、乙两地之间的距离是（  ）千米。\nA. $$16$$\nB. $$24$$\nC. $$32$$\nD. $$40$$",
+    "answer": "B. $$24$$",
+    "solution": "解：$$12$$时$$-8$$时$$=4$$小时  $$8\\times \\left( 4-1 \\right)$$  $$=8\\times 3$$  $$=24$$（千米）  答：甲、乙两地之间的距离是$$24$$千米。  故选：B。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "行程模块",
+      "直线型行程问题",
+      "路程速度时间",
+      "单人简单行程问题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-e951e978b3ed4871807c36d3d432b540",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "前$$6$$个正整数的最小公倍数有多少个正因数？\nA. $$5$$\nB. $$6$$\nC. $$8$$\nD. $$12$$",
+    "answer": "D. $$12$$",
+    "solution": "前$$6$$分正整数的最小公倍数是：$$2\\times 3\\times 2\\times 5$$，因数个数:$$3\\times 2\\times 2=12$$个．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "数论模块",
+      "因数与倍数",
+      "因数个数定理",
+      "因数个数定理正应用",
+      "总个数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-bcf22945d87d4bdcb87f458b3e27fea1",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "在做一道加法算式时，小芳把一个加数个位上的$$6$$看成了$$9$$．把另一个加数十位上的$$3$$看成了$$5$$，结果算成$$120$$，正确答案应该是．\nA. $$115$$\nB. $$97$$\nC. $$125$$\nD. $$143$$",
+    "answer": "B. $$97$$",
+    "solution": "个位多加了︰$$9-6=3$$，  十位多加了︰$$50-30=20$$，  正确结果是：$$120-20-3=97$$．  答︰正确结果是$$97$$．  故选$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "还原问题",
+      "小马虎题型"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-f742af557ffb452a8ff20237f785eb20",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "祖玛游戏中，龙嘴里不断吐出很多颜色的龙珠，先$$4$$颗红珠，接着$$3$$颗黄珠，再$$2$$颗绿珠，最后$$1$$颗白珠，按此方式不断重复，从龙嘴里吐出的第$$2000$$颗龙珠是．\nA. 红珠\nB. 黄珠\nC. 绿珠\nD. 白珠",
+    "answer": "D. 白珠",
+    "solution": "$$2000\\div (4+3+2+1)=200$$（组）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "基本排列的周期问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814518d5240145190945380314",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "约翰的钱比吉尔多$$20$$美元，他们两个总共有$$42$$美元．请问约翰有多少美元？\nA. $$20$$\nB. $$30$$\nC. $$31$$\nD. $$33$$",
+    "answer": "C. $$31$$",
+    "solution": "$$(42+20)\\div 2=31$$（美元）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-bf47456bd65a45f9bad6bd10d8101150",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明妈妈花$$8$$元买了一条鱼，以$$9$$元价格卖掉，然后觉得不合算，又花$$10$$元买回来，以$$11$$元卖给另一个人，那么小明妈妈赚了（  ）元。\nA. $$3$$\nB. $$2$$\nC. $$1$$",
+    "answer": "B. $$2$$",
+    "solution": "解：$$11+9-(8+10)$$  $$=20-18$$  $$=2$$（元）  答：小明妈妈赚了$$2$$元；  故选:B。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "加减法应用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-bccebc83b38742b3b8f8a78b1bf13932",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "周末，妈妈去商场买了一些家庭用品，分别是洗衣机（$$1258$$元）、台灯（$$159$$元）、电饭煲（$$365$$元）、电吹风（$$230$$元），这些用品一共需要花费元．\nA. $$2012$$\nB. $$2013$$\nC. $$2014$$\nD. $$2022$$",
+    "answer": "A. $$2012$$",
+    "solution": "为了简化计算，我们常把一些数拆开来使它与其他数之和是整十、整百、整千$$ \\cdots ~\\cdots $$这种方法叫作借数凑整法，我们发现如果将$$1258$$和$$159$$分别拆成$$1250 + 8$$和$$150 + 9$$时，便可以凑出整百，$$365$$可以拆成$$360 + 5$$，也可以拆成$$370 - 5$$，但是由于后面要加上$$230$$，所以拆成$$370 - 5$$时会与$$230$$凑成整百，所以总的花费  $$ = \\left( 1250 + 150 \\right) + \\left( 370 + 230 \\right) + \\left( 8 + 9 - 5 \\right) = 1400 + 600 + 12 = 2012$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "加减法应用",
+      "加减法应用顺口溜",
+      "课内体系",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-69cd85aaa8d144989311089130f60ff7",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知$$2$$，$$a$$，$$b$$，$$23$$这四个数成等差数列，则$$a+b=$$ ．\nA. $$19$$\nB. $$21$$\nC. $$23$$\nD. $$25$$",
+    "answer": "D. $$25$$",
+    "solution": "从题干可以知道，$$2$$，$$a$$，$$b$$，$$23$$这四个数成等差数列，  等差数列有个特点：若$$a$$，$$b$$，$$c$$三个数按这个顺序排列成等差数列，那么$$b$$叫$$a$$，$$c$$的等差中项，$$a$$，$$b$$，$$c$$满足$$b-a=c-b$$；  也就是$$a-2=b-a=23-b$$；  整理可得：$$a+b=2+23=25$$，所以$$a+b=25$$．  故选：$$\\text{D}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "公式记忆",
+      "符号化数学原理"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-767fa1ecae5c4674b5143d6dcb71fa0d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果你花$$30$$分钟做了$$35$$道题目，那么用同样的速度，你做$$315$$道题目需要多少小时？\nA. $$3$$\nB. $$4$$\nC. $$4.5$$\nD. $$270$$",
+    "answer": "C. $$4.5$$",
+    "solution": "$$35$$个题目需要$$30$$分钟，$$315$$里面有$$9$$个$$35$$，所以需要的时间是$$30\\times 9=270$$分钟，等于$$4.5$$小时．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "整数",
+      "四则混合运算"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-0513871ebda246429f546912ffa2e157",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$2020$$年元旦是星期二，今年的国庆节是星期．\nA. 一\nB. 二\nC. 三\nD. 四",
+    "answer": "C. 三",
+    "solution": "从$$2019$$年的$$1$$月$$1$$日至$$2019$$年的$$10$$月$$1$$日共：$$31+28+31+30+31+30+31+31+30+1=274$$（天），  根据``二、三、四、五、六、日、一''的周期规律：$$274\\div 7=39$$（周）$$\\cdots \\cdots 1$$（天）．  所以$$10$$月$$1$$日是这个周期的第$$1$$天，即星期二．  故选$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-3daa5797c99e40ad87b257f5008183c7",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "笑笑去上学，前$$4$$分钟走了全程的$$\\frac{1},{2}$$，接着$$4$$分钟又行了剩下路程的$$\\frac{1},{2}$$，这时距离学校还有全程的．\nA. $$\\frac{1},{2}$$\nB. $$\\frac{1},{3}$$\nC. $$\\frac{1},{4}$$",
+    "answer": "C. $$\\frac{1},{4}$$",
+    "solution": "因为由题干可知，前$$4$$分钟走了全程的$$\\frac{1},{2}$$，则还剩下全程的$$1-\\frac{1},{2}=\\frac{1},{2}$$，接着$$4$$分钟又行了剩下路程的$$\\frac{1},{2}$$，所以这时距离学校还有全程的$$\\frac{1},{2}-\\frac{1},{2}\\times \\frac{1},{2}=\\frac{1},{4}$$．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "分百应用题",
+      "量率对应求单位1"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-07d979dda21b401aa970beaa548250ec",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "星期天，许多帮助妈妈做一些家务。已知做各项家务花的时间为：叠被子$$3$$分钟，洗碗$$8$$分钟，用洗衣机洗衣服$$30$$分钟，晾衣服$$5$$分钟。为了节约时间，上面哪些事情可以同时做？（  ）\nA. 叠被子、洗碗\nB. 用洗衣机洗衣服、晾衣服\nC. 用洗衣机洗衣服、洗碗",
+    "answer": "C. 用洗衣机洗衣服、洗碗",
+    "solution": "解：合理利用空闲时间。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "操作与策略",
+      "统筹规划",
+      "简单时间统筹问题",
+      "时间总和问题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-cb63199c4b4c483b935b740a99f37b1c",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "桌上放着$$100$$张卡片，二人轮流每次取卡片，每次最少取$$1$$张、最多取$$5$$张，规定谁取走最后一张卡片谁获胜．如果第一个取的人想获胜，第一次他应该取张卡片．\nA. $$1$$\nB. $$2$$\nC. $$3$$\nD. $$4$$",
+    "answer": "D. $$4$$",
+    "solution": "由题干可知：每次每人最少取$$1$$张卡片，最多取$$5$$张卡片，  $$100\\div \\left( 5+1 \\right)=100\\div 6=16$$（组）$$\\cdots \\cdots 4$$（张），  所以首先他先拿$$4$$张，剩下的$$6$$张卡片为一组，  保证每次与对方共取一组，这样最后一张卡片必是他的．  故选$$\\text{D}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-e395458a7f3945a087dd25d869360976",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某阅览室有不同的文科类图书$$60$$本，不同的理科类图书$$80$$本，如果每类图书都最多只能借一本，则共有种不同的借法．\nA. $$80$$\nB. $$140$$\nC. $$4800$$\nD. $$4940$$",
+    "answer": "D. $$4940$$",
+    "solution": "文科书有$$60$$本，所以单借一本文科书有$$60$$种借法；  理科书有$$80$$本，所以单借一本理科书有$$80$$种借法；  同时借一本文科书和一本理科书有$$60\\times80=4800$$种借法．  则共有$$60+80+4800=4940$$种借法．  故选：$$\\text{D}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "实践应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-cdcd64f2e2b8450cab7cd34bf0cf23aa",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "【$$2021$$三年级卷第$$30$$题】某个闰年的元旦是星期日，那么这一年的$$2$$月有$$5$$个．\nA. 星期一\nB. 星期二\nC. 星期三\nD. 星期四\nE. 星期五\nF. 星期六\nG. 星期日",
+    "answer": "C. 星期三",
+    "solution": "周期问题：  元旦$$1$$月$$1$$日是星期日，则周期：星期日、星期一、星期二、星期三、星期四、星期五、星期六$$\\cdots\\cdots$$  从$$1$$月$$1$$日到$$2$$月$$1$$日一共有$$31+1=32$$（天），  $$32\\div7=4$$（周）$$\\cdots\\cdots4$$（天），  所以$$2$$月$$1$$日是星期三，则$$2$$月份的周期：星期三、星期四、星期五、星期六、星期日、星期一、星期二$$\\cdots\\cdots$$  闰年的$$2$$月有$$29$$天，$$29\\div7=4$$（周）$$\\cdots\\cdots1$$（天），  所以$$2$$月$$29$$日是星期三，  因此这一年的$$2$$月有$$5$$个星期三．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "时间中的周期问题",
+      "日期中的周期"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-e2017c1922764fd5ab1e9e3e414d436a",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "绿化队$$3$$小时种树$$21$$棵，还要种$$77$$棵，照这样的工作效率，完成任务还需要~\\uline{~~~~~~~~~~}~小时．\nA. $$7$$\nB. $$11$$\nC. $$21$$",
+    "answer": "B. $$11$$",
+    "solution": "先计算$$1$$小时的种树量$$21\\div 3=7$$棵，$$77\\div 7=11$$小时",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "拓展思维",
+      "应用题模块",
+      "归一归总问题",
+      "归总问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ebcd787d47ff4e1c92f9f3db1550cac4",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "宝宝、星星、乐乐、强强四人参加长跑比赛．他们对名次分别做了预测.  星星说：\"乐乐是第一名.\"  宝宝说：\"星星是第一名.\"  乐乐说：\"我不是第一名.\"  强强说：\"我不是第一名.\"  比赛结束后发现，只有一人预测正确，那么．\nA. 宝宝预测正确，星星是第一名\nB. 星星预测正确，乐乐是第一名\nC. 强强预测正确，乐乐是第一名\nD. 强强预测正确，宝宝是第一名\nE. 乐乐预测正确，强强是第一名",
+    "answer": "E. 乐乐预测正确，强强是第一名",
+    "solution": "暂无",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "推理推导",
+      "言语逻辑推理"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-f07d6b5fd2fa463da1d888f05258c909",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲乙两人在春节一共得了$$200$$元压岁钱，甲给乙$$40$$元，还比乙多$$10$$元，那么，原来甲得了元压岁钱．\nA. $$145$$\nB. $$140$$\nC. $$125$$\nD. $$120$$",
+    "answer": "A. $$145$$",
+    "solution": "因为甲给乙$$40$$元，还比乙多$$10$$元，所以甲比乙多$$40\\times 2+10=90$$（元），  所以甲：$$(200+90)\\div 2=145$$（元）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "和差问题",
+      "二量和差问题",
+      "明和暗差"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-61a5d203edc8481d8e9179adfbd4aa52",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "（2019 Math League, Grade 3, Question\\# 11）  Helen wrote out all the numbers from $$1$$ to $$60$$ on a piece of paper. How many times did she write the digit $5$?  海伦在纸上写下了从$1$到$60$的所有数，请问她一共写了多少个数字$5$?\nA. $$6$$\nB. $$15$$\nC. $$16$$\nD. $$17$$",
+    "answer": "C. $$16$$",
+    "solution": "海伦把从$$1$$到$$60$$的所有数字写在一张纸上．她写了多少次数字$$5$$？  在$$1\\sim 10$$中，$$5$$出现$$1$$次，  在$$11\\sim 60$$中，$$5$$在十位上出现$$10$$次，在个位上出现$$5$$次，  所以一共出现了$$1+10+5=16$$（次）．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "分类讨论思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-cf55c2289e9848fa8c90e4437e1eaea3",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "过年了，小明家买了很多瓶果汁。年三十喝了总量的一半少$$1$$瓶；初一又喝了剩下的一半；初二又喝了剩下的一半多$$1$$瓶，这时还剩$$2$$瓶没有喝，那么小明家一共买了（  ）瓶果汁。\nA. $$20$$\nB. $$22$$\nC. $$24$$\nD. $$26$$",
+    "answer": "B. $$22$$",
+    "solution": "解：初二没喝之前有：$$(2+1)\\times 2=6$$（瓶），  初一没喝之前有$$6\\times 2=12$$瓶，  一共有：$$\\left( 12-1 \\right)\\times 2$$  $$=11\\times 2$$  $$=22$$（瓶）  答：小明家一共买了$$22$$瓶果汁。  故选：B。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "还原问题",
+      "两量还原问题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-faaf5db0b43443d8b5d027480ce33472",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$2$$个樱桃的价钱与$$3$$个苹果价钱一样，但是一个苹果的大小却是一个樱桃的$$12$$倍，如果妈妈用买$$1$$箱樱桃的钱买同样大小箱子的苹果，能买（~~~~~~~ ）箱．\nA. $$4$$\nB. $$6$$\nC. $$18$$\nD. $$27$$",
+    "answer": "C. $$18$$",
+    "solution": "$$12$$ 个樱桃的钱可以买$$18$$个苹果，大小是$$1$$个苹果的大小，所以$$1$$个苹果大小的樱桃可以买到$$18$$个苹果，所以$$1$$箱樱桃的钱可以买$$18$$箱苹果．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "方程基础",
+      "等量代换",
+      "物品代换"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814502fa24014507b670c60ba0",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$4$$ years ago, Fang Fang and Jia Jia\\textquotesingle s ages were $$20$$. This year Fang Fang is $$15$$ years old. How many years later will Jia Jia be $$15$$ years old too?  $$4$$年前，方方和佳佳的年龄和是$$20$$岁．今年方方$$15$$岁，再过~\\uline{~~~~~~~~~~}~年佳佳也是$$15$$岁．\nA. $$0$$\nB. $$1$$\nC. $$2$$\nD. $$3$$\nE. $$4$$",
+    "answer": "C. $$2$$",
+    "solution": "今年年龄和为：$$20+4+4=28$$ （岁），所以今年佳佳：$$28-15=13$$ （岁）．$$15-13=2$$ （年）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "公式记忆",
+      "符号化数学原理",
+      "Overseas Competition",
+      "知识点",
+      "应用题模块",
+      "年龄问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-5f4ba313eb68409e9c6a9d11aa255fce",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$\\triangle$$ represents a number.$$\\triangle$$代表一个数.  $$\\triangle +\\triangle =a, \\triangle -\\triangle =b, \\triangle \\times \\triangle =c, \\triangle \\div \\triangle =d,$$ and $$a+b+c+d=121$$. $$\\triangle =$$~\\uline{~~~~~~~~~~}~.\nA. $$8$$\nB. $$9$$\nC. $$10$$\nD. $$11$$\nE. $$12$$",
+    "answer": "C. $$10$$",
+    "solution": "$$b=\\triangle - \\triangle =0$$  $$d=\\triangle \\div \\triangle =1$$  $$a+b+c+d$$  $$=\\triangle +\\triangle +0+\\triangle \\times \\triangle +1=121$$  $$\\triangle +\\triangle +\\triangle \\times \\triangle =120$$  $$\\triangle \\times \\left( \\triangle +2 \\right)=120=10\\times12$$  $$\\triangle =10$$",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析",
+      "代数逻辑推理",
+      "Overseas Competition",
+      "知识点",
+      "计算模块",
+      "方程基础",
+      "等量代换",
+      "字母表示数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-268037b0447044e285bad99d097d11c0",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一条毛毛虫由幼虫长成成虫，每天长大一倍，$$30$$天能长到$$20$$厘米．问长到$$5$$厘米时要用天．\nA. $$28$$\nB. $$7$$\nC. $$8$$",
+    "answer": "A. $$28$$",
+    "solution": "已知一条毛毛虫由幼虫长成成虫，每天长大一倍，$$30$$天能长到$$20$$厘米，可根据最后结果出发，逐步向前一步一步推理；  按从后往前推理可知最后一天长的是前一天的$$2$$倍，最后一天是$$20$$厘米，长到$$10$$厘米的时候是$$30$$天$$-1$$天；  根据以上分析可得$$29$$天时是$$10$$厘米，由此可推出长到$$5$$厘米时是几天，进而得出答案．  $$30-1-1=28$$（天），  答：长到$$5$$厘米时要用$$28$$天．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "七大能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-19c9e58a46874718b4b9a45867ba84af",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙、丙三人同时说了三句话．甲说：``乙正在说谎．''乙说：``丙正在说谎．''丙说：``他俩正在说谎．''那么，说谎的人是 ．\nA. 甲\nB. 乙\nC. 甲和丙\nD. 乙和丙",
+    "answer": "C. 甲和丙",
+    "solution": "甲和丙",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "学习能力",
+      "七大能力",
+      "逻辑分析"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-2c3cd6f23e9e493483eafa7181b6672f",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "同学们一起去划船，但公园船不够多，如果每船坐$$4$$人，会多出$$10$$人；如果每船坐$$5$$人，还会多出$$1$$人．共有人去划船．\nA. $$36$$\nB. $$46$$\nC. $$51$$\nD. $$52$$",
+    "answer": "B. $$46$$",
+    "solution": "盈盈类问题：共有$$(10-1)\\div (5-4)=9$$（只）船，共有$$4\\times 9+10=46$$（人）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "盈亏问题",
+      "盈亏基本类型",
+      "盈亏基本类型盈亏问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814518d524014519095fde0319",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "祖玛游戏中，龙嘴里不断吐出不同颜色的龙珠，按$$4$$颗红珠，$$3$$颗黄珠，再$$2$$颗绿珠，最后$$1$$颗白珠，按此方式不断重复，从龙嘴里吐出的第$$2000$$颗龙珠是．\nA. 红珠\nB. 黄珠\nC. 绿珠\nD. 白珠",
+    "answer": "D. 白珠",
+    "solution": "$$2000\\div (4+3+2+1)=200$$（组）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "基本排列的周期问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-0cbd59d9044746f08390b22a3de2762b",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "祖玛游戏中，龙嘴里不断吐出很多颜色的龙珠，先$$4$$颗红珠，接着$$3$$颗黄珠，再$$2$$颗绿珠，最后$$1$$颗白珠，按此方式不断重复，从龙嘴里吐出的第$$2000$$颗龙珠是．（2014年全国迎春杯三年级竞赛初赛第$$8$$题）\nA. 红珠\nB. 黄珠\nC. 绿珠\nD. 白珠",
+    "answer": "D. 白珠",
+    "solution": "$$2000\\div (4+3+2+1)=200$$（组）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "基本排列的周期问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-878acad4c29e495eb61fe6b3fba961af",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$2013$$年$$12$$月$$21$$日是星期六，那么$$2014$$年的春节，即$$2014$$年$$1$$月$$31$$日是星期（  ）。\nA. 一\nB. 四\nC. 五\nD. 六",
+    "answer": "C. 五",
+    "solution": "解：$$10+31=41$$（天）  $$41\\div 7=5$$（周）$$\\cdots \\cdots6$$（天）  余数是$$6$$，从星期六再过$$6$$天就是星期五。  答：$$2014$$年$$1$$月$$31$$日是星期五。  故选：C。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "周期问题",
+      "时间中的周期问题",
+      "日期中的周期"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-c8256fad14ef497d8bd645c928326ea4",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个儿童用棱长为$$1$$厘米的$$42$$个正方体黏合成一个各面为长方形的立体砖．如果其底面的周长是$$18$$厘米，则这块砖的高是厘米．\nA. $$3$$\nB. $$6$$\nC. $$2$$\nD. $$7$$",
+    "answer": "A. $$3$$",
+    "solution": "因为棱长为$$1\\text{cm}$$的$$42$$个正方体黏合成一个各面为长方形的立体砖，  其底面的周长是$$18\\text{cm}$$，  所以底面立方体个数一定小于$$18$$大于$$8$$，  因为$$42$$个正方体黏合成一个各面为长方形的立体砖，  即可得出组合图形整除底面个数，  所以底面个数一定是整除$$42$$，  所以符合要求的只有：$$14$$，  所以底面立方体个数为$$14$$，  所以这个立体砖的高为：$$42\\div14=3$$（厘米）．  故选$$\\text{A}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-3795262d8e3e46d6b28069e97915586a",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某次小明坐缆车上山，从他坐上车开始，一路上他一直在数对面交错而过的缆车数量，一共是$$60$$辆，则在这一整条索道上（双向）共有多少辆缆车？\nA. $$30$$辆\nB. $$60$$辆\nC. $$61$$辆\nD. $$120$$辆",
+    "answer": "C. $$61$$辆",
+    "solution": "缆车是循环的，它遇到的第一辆就是紧随其后的，那么他遇到的最后一辆就是它前面的，所以除了它自己这辆，还有$$60$$辆，一共是$$60+1=61$$辆．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "整体思想"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-9188fdf8a4364039ae170acb4a7aa94f",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "三年级二班的同学在上游泳课，男生戴蓝泳帽，女生戴红泳帽．  男体育委员说：``我看见的蓝泳帽比红泳帽的$$4$$倍多$$1$$个．''  女体育委员说：``我看见的蓝泳帽比红泳帽多$$24$$个．''  根据两位体育委员的话，算出三年级二班共有（~~~~~ ）位同学．\nA. $$35$$\nB. $$36$$\nC. $$37$$\nD. $$38$$",
+    "answer": "C. $$37$$",
+    "solution": "男体育委员少看到一个蓝色帽子，所以实际蓝泳帽比红泳帽的$$4$$倍多$$2$$个，女体育委员少看到一个红色帽子，所以实际蓝泳帽比红泳帽多$$23$$个，红泳帽有$$(23-2)\\div (4-1)=7$$（个），蓝泳帽有$$7+23=30$$（个），共有$$30+7=37$$（位）同学．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "转化与化归的思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff8080814518d5240145201ac0000a6e",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$100 - 99 + 98 - 97~ ~\\cdots ~+4 - 3 + 2 - 1$$的结果是．\nA. $$50$$\nB. $$150$$\nC. $$100$$\nD. $$0$$",
+    "answer": "A. $$50$$",
+    "solution": "$$50$$",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "拓展思维",
+      "计算模块",
+      "整数",
+      "整数加减",
+      "整数加减巧算之分组法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-3cdfded0821f4df0888bdc4474bb1a17",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "美国前总统林肯说过：``最高明的骗子，可能在某个时刻欺骗所有人，也可能在所有时刻欺骗某些人，但不可能在所有时刻欺骗所有人。''如果林肯上述判定为真，则以下（  ）为假。\nA. 林肯可能在某个时刻受骗\nB. 林肯可能在所有时刻不受骗\nC. 骗子可能在某个时刻受骗\nD. 不存在某一时刻有人可能不受骗\nE. 存在某一时刻，有人可能不受骗",
+    "answer": "D. 不存在某一时刻有人可能不受骗",
+    "solution": "A项，林肯可能遇到骗子并欺骗了他；B项，林肯可能一直遇不到骗子，从而不受骗；C项，骗子可能遇到骗子；D项，如果某一时刻有人未遇到骗子，则他可能不受骗，从而D为假；E项，骗子不可能在所有时刻欺骗所有人，故存在某一时刻，有人可能不受骗，选D。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "逻辑推理",
+      "条件型逻辑推理",
+      "神推理"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-20d68350f7444e2daae69580ca98e0fe",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  }
+]

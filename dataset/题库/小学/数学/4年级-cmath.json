@@ -1,0 +1,1922 @@
+[
+  {
+    "question_text": "牛奶16瓶装1箱，果汁24瓶装1箱，食堂买来26箱牛奶和16箱果汁，一共有多少瓶？",
+    "answer": "800",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-654",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "每箱可口可乐有24瓶，每瓶4元，爸爸拿100元钱买了一箱，还剩下多少元？",
+    "answer": "4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-655",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个林场长600米，宽50米，如果每公顷可以栽树530棵，这个林场一共可以栽树多少棵？",
+    "answer": "1590",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-656",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校买来112套课桌，课桌每张65元，椅子每把35元，一共用了多少元？",
+    "answer": "11200",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-657",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校新盖了八层的教学楼，每层有14间教室，每间教室要配25套双人课桌椅。学校一共需要购进多少套课桌椅？",
+    "answer": "2800",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-658",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "星期天小明去游泳馆游泳，他游了7个来回，游泳池长50米，小明一共游了多少米？",
+    "answer": "700",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-659",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个数，它整数部分是12，小数点后有两位。如果这个数四舍五入保留一位小数是12.0，那这个小数最小是多少？",
+    "answer": "11.95",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-660",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某8个数的平均数为50，若把其中的一个数改为90，则平均数变为了60，被改动的这个数原来是？",
+    "answer": "10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-661",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校购买了972支笔，这种笔每12支装一盒，9盒装一箱。这些笔一共有多少箱？",
+    "answer": "9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-662",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲乙两地相距320千米，一辆汽车从甲地开往乙地，2小时行128千米．照这样计算，这辆汽车从甲地到乙地要行几小时？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-663",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "四年级植树118棵，已知每棵树苗16元，购买这些树苗花了多少元？",
+    "answer": "1888",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-664",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个长方形操场，长是60米，宽是40米，扩建后长和宽各增加5米，扩建后操场的面积比原来多多少平方米？",
+    "answer": "525",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-665",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个等腰三角形的一个底角是60°，它的顶角是多少度？",
+    "answer": "60",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-666",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一堆煤共800吨，用5辆卡车正好可以运完，平均每辆卡车运多少吨？",
+    "answer": "160",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-667",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "星期天，王明和同学到郊外公园烧烤，他们共买了4箱牛肉丸，每箱有l2包，每包有25粒，一共有多少粒牛肉丸？",
+    "answer": "1200",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-668",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "王明和同学到郊外烧烤时拍了许多照片，王明整理出96张，军军整理出104张，他们相约一起到冲印店冲印照片。已知每张照片的冲印费是8角，那么冲印费一共是多少元？",
+    "answer": "160",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-669",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有100千克盐水，其中含盐3.03千克，1千克盐水含盐多少千克？",
+    "answer": "0.0303",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-670",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一长方形稻田，长240米，宽90米，这个长方形稻田面积多少平方米，合多少公顷？",
+    "answer": "2.16",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-671",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小马虎在读小数时，读错了，没读小数点，结果读成了十五万五千零四，已知原数读出两个零，原数是多少？",
+    "answer": "155.004",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-672",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "李亮在计算一道小数加法时，把其中一个加数3.62看成3.26，结果得8.5。这道题的正确结果应该是多少？",
+    "answer": "8.86",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-673",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "射洪距成都212千米，甲、乙两车同时从两地相对开出，2小时后相遇．甲车每小时行56千米，乙车每小时行多少千米？",
+    "answer": "50",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-674",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "光明小学有5位老师带着145名四年级学生去参观科技馆。儿童票，每位16元；成人票，每位28元。门票共需多少元？",
+    "answer": "2460",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-675",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一批货物承包给甲、乙、丙三个运输队，甲运了95.8吨，乙运了98.9吨，丙运了104.2吨。这批货物共有多少吨？",
+    "answer": "298.9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-676",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "在植树活动中，五年级植树179棵，四年级植树256棵，四年级和五年级共植树多少棵？",
+    "answer": "435",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-677",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "暑假期间，小芳计划20天读完《十万个为什么》这本书，每天读15页。实际每天读20页，她实际比计划提前几天读完？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-678",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "由5个十、7个十分之一和1个百分之一组成的小数是什么？",
+    "answer": "50.71",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-679",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "苹果每斤6元，如果整筐买，每筐可以少5元，一筐苹果10斤。学校购进8筐苹果，一共需要多少元？",
+    "answer": "440",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-680",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个工程队同时从两端开凿一条隧道，甲队平均每月挖95米，乙队平均每月挖105米，经过一年零十个月完工。这条隧道长多少米？",
+    "answer": "4400",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-681",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个工程队2015年二月份共开凿隧道840米，平均每天开凿多少米？",
+    "answer": "30",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-682",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明花了4元钱买贺年卡和明信片，共14张，贺年卡每张3角5分，明信片每张2角5分。他买了多少张贺年卡？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-683",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "王大伯在4公顷的山坡上种梨树，每棵梨树占地面积是5平方米，每棵梨树可收梨300千克，那么这些梨树共可以收梨多少千克？",
+    "answer": "2400000",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-684",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "水果超市第一天卖出李子67.3千克，第二天卖出52.9千克，第三天卖出62.7千克。这三天一共卖了多少千克？",
+    "answer": "182.9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-685",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个数的小数点向右移动两位后，再向左移动三位得到2.4，原来这个数是多少？",
+    "answer": "24",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-686",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一只长颈鹿身高是6.34米，比一只大猩猩高4.18米。这只大猩猩身高多少米？",
+    "answer": "2.16",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-687",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一度电可以炼钢3.2千克，1000度电可以炼钢多少千克？",
+    "answer": "3200",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-688",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "妈妈每天早上起床后要做以下事情：起床穿衣（3分）；刷牙（3分）；洗脸（2分）；煮鸡蛋（8分）；烤面包（2分）；吃早餐（6分）。妈妈最少用几分钟完成？",
+    "answer": "17",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-689",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆客车8小时行驶480千米，用同样的速度从甲城开往乙城需要24小时．甲乙两城相距多少千米？",
+    "answer": "1440",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-690",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "李叔叔和王叔叔一起加工一批零件，李叔叔每小时加工47个，王叔叔每小时加工53个，两人一起工作了8小时才完成任务。这批零件一共有多少个？",
+    "answer": "800",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-691",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "阳光小学去年有学生658人，六年级毕业离校125人，还剩下多少人？",
+    "answer": "533",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-692",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个粮食专业户在一块长400米，宽300米的地里收小麦72000千克，平均每公顷的产量是多少千克？",
+    "answer": "6000",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-693",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲种遥控车的价格是46.5元，乙种遥控车的价格是54.86元。乐乐有120元钱，买这两种遥控车各一个还剩多少元？",
+    "answer": "18.64",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-694",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个三位数，小数点向左移动1位后变为5.31，这个三位数是多少？",
+    "answer": "53.1",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-695",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "市政府开展“开荒造林活动”，打算在一块长18千米，宽6千米的长方形荒地上种树，按平均每公顷种树3000棵计算，能种多少棵树？",
+    "answer": "32400000",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-696",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "修一条长240千米的公路，已经修了80千米，剩下的要20天修完，平均每天修多少千米？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-697",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲乙两地之间的高速铁路，原来运行速度为260千米/时，将这条高速铁路提速至325千米/时后，旅客从甲地到乙地的旅途时间为4小时。原来从甲地到乙地需要多长时间？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-698",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "妈妈让小英用平底锅给客人煎饼，这只锅每次只能放4张饼，煎熟一张饼要4分钟（正反两面各要2分钟）．煎6张饼至少需要多少分钟？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-699",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "王大爷买米用了26.5元，买菜用了17.85元。王大爷买米和菜一共用了多少元？",
+    "answer": "44.35",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-700",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小亚和小巧的家相距2600米，两人同时从家里出发相向而行，小亚每分钟行50米，走了12分钟后两人还相距1220米，小巧每分钟行多少米？",
+    "answer": "65",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-701",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "李大伯在3公顷的山坡上种梨树．每棵梨树占地面积是6平方米，每棵梨树可收梨400千克，那么这些梨树共可以收梨多少千克？",
+    "answer": "2000000",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-702",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "我买了一个布娃娃9.90元，又买了一个笔记本5.50元，一共用了多少元？",
+    "answer": "15.4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-703",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "两地间的路程是600千米，一列客车和一列货车同时从两地相向开出，客车每小时行驶55千米，货车每小时行驶45千米，多少小时后客车和货车相遇？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-704",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校操场上有一条长100米的直跑道。小刚和小强同时从跑道的同一端跑向另一端，小刚每秒跑3.56米，小强每秒跑3.75米。经过20秒后，两人相距多少米？",
+    "answer": "3.8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-705",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校每月平均用电360度，照这样计算，学校一年共用电多少度？",
+    "answer": "4320",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-706",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "体育商场开展“迎亚运”优惠活动，97元可买3个篮球，69元可买2个足球。李老师要买9个篮球和6个足球，应付多少元？",
+    "answer": "498",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-707",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆卡车一次能运货5000千克，6次能运货多少千克？",
+    "answer": "30000",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-708",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "1吨煤可炼焦炭950千克，照这样计算，10吨煤可炼焦炭多少千克？",
+    "answer": "9500",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-709",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "农具厂上半年生产农具4650件，下半年生产农具5382件，上半年比下半年少生产多少件？",
+    "answer": "732",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-710",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "王老师要用80元买一些文具，他先花48元买了8本相册，并准备用剩下的钱买一些钢笔，每支钢笔4元，王老师还可以买几支钢笔？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-711",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆汽车以每小48千米的速度从学校行驶到博物馆用了10小时，从学校到博物馆相距多少千米？",
+    "answer": "480",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-712",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "爷爷早晨起来，烧开水要8分钟，整理床铺要4分钟，刷牙要3分钟，洗脸要2分钟。做完这些爷爷至少要用几分钟？",
+    "answer": "9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-713",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有645盆花，平均放进5个花坛．每个花坛放多少盆？",
+    "answer": "129",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-714",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "为庆祝“元旦”节，大华玩具厂从11月12日开始，到12月底（12月31日）共生产儿童玩具14200件，平均每天生产多少件？",
+    "answer": "284",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-715",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小红家离赤壁国贸商场有1620米，小红5分钟能走350米，照这样的速度，她走20分钟距离赤壁国贸商场还有多远？",
+    "answer": "220",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-716",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "从甲地到乙地500千米，一辆客车5小时到达，这辆客车每小时行多少千米？",
+    "answer": "100",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-717",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校有一批图书，如果每班分45本，正好可以分给12个班，如果每班分得60本，可以分给几个班级？",
+    "answer": "9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-718",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校图书室有文艺书629本，科技书956本，学校有文艺书和科技书一共有多少本？",
+    "answer": "1585",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-719",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "公园里有一块长45米，宽25米的空地，如果每平方米空地上种植4棵植物。一共可以种多少棵植物？",
+    "answer": "4500",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-720",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "奥运村内一个新建的休闲广场即将落成，广场的地面都铺上了符合地板，耗资840万，已知广场的面积为12公顷，请你算一算，符合地板的价格是每平方米多少元？",
+    "answer": "70",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-721",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "跳远比赛中，小英跳了3.36米，强强比小英多跳了0.87米，亮亮比强强少跳了0.13米。亮亮跳了多少米？",
+    "answer": "4.1",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-722",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "食堂运来一批蔬菜，原计划每天吃50千克，30天慢慢消费完这批蔬菜。后来根据大家的意见，每天比原计划多吃10千克，这批蔬菜可以吃多少天？",
+    "answer": "25",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-723",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一条绳子长26.2米，用去3.56米，还剩多少米？",
+    "answer": "22.64",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-724",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "好马每天走120千米，劣马每天走75千米，劣马先走12天，好马几天能追上劣马？",
+    "answer": "20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-725",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小东看一本故事书，12天看了84页，照这样计算，小东23天一共能看多少页？",
+    "answer": "161",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-726",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明给客人沏茶，接水1分钟，烧水6分钟，洗茶杯2分钟，拿茶叶1分钟，沏茶1分钟。小明合理安排以上事情，最少要几分钟使客人尽快喝茶？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-727",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "爸爸给安安买了一个等腰三角形的风筝，它的顶角是50度，它的一个底角是多少度？",
+    "answer": "65",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-728",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某小学四年级学生组织参观科技馆，男生有214人，女生有186人。如果每40人坐一辆汽车，一共需要多少辆汽车？",
+    "answer": "10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-729",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一筐苹果，连筐重56千克，先卖出苹果的一半，再卖出剩下苹果的一半，这时连筐共重17千克。原来这筐苹果重多少千克？",
+    "answer": "52",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-730",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校食堂买回大小两种包装的面粉各13袋，大袋每袋75千克，小袋每袋25千克，食堂一共买了多少千克面粉？",
+    "answer": "1300",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-731",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校举行篮球赛，五年级共有6个班，如果每两个班都要进行一场比赛，五年级一共要进行多少场比赛？",
+    "answer": "15",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-732",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个修路队修筑一段公路，第一天修了74.8米，第二天比第一天多修9.24米。第二天修了多少米？",
+    "answer": "84.04",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-733",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个长方形牧场长2千米，张叔叔走路以每分钟50米的速度绕一圈需要100分钟，这个牧场的面积是多少公顷？",
+    "answer": "100",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-734",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小芳：如果每件衣服卖55元，245件能卖多少元？",
+    "answer": "13475",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-735",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校栽了一些盆花。如果每个教室放6盆，可以放24个教室。如果每个教室放4盆，可以放多少个教室？",
+    "answer": "36",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-736",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一艘轮船5小时行150千米．照这样计算，一天可航行多少千米？",
+    "answer": "720",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-737",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "客车的速度是80千米/时，距离广州还有240千米。它还需要多长时间才能到达广州？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-738",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校有象棋、跳棋共28副，恰好可供80个学生同时进行活动，象棋2人下一副，跳棋6人下一副。象棋有多少副？",
+    "answer": "22",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-739",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "水果店运来8筐苹果，每筐42千克，运来的梨的重量是苹果的3倍，运来梨有多少千克？",
+    "answer": "1008",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-740",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "希望小学四年级师生共198人，他们准备包车去看小榄菊花展，旅行社包车的价格是48元人，老师应该带多少包车款？",
+    "answer": "9504",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-741",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆汽车从甲地到乙地，全程600千米，每小时行60千米，行车3小时后加快速度，每小时行80千米，行完全程还需要几小时？",
+    "answer": "5.25",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-742",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "1公顷森林一年可滞尘32吨，一天可从地下吸出约85吨水．滨海市森林公园大约有118公顷森林．滨海市森林公园一年大约可滞尘多少吨？",
+    "answer": "3776",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-743",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "树上有423个桃子，猴子摘了91个桃子，树上还有多少个？",
+    "answer": "332",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-744",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "每节车厢有108个硬座，共有12节硬座车厢，还有308张硬座车票没卖出，这列火车一共卖出了多少张硬座的火车票？",
+    "answer": "988",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-745",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某足球俱乐部星期二上午售出445张足球赛的门票，下午售出187张；星期三售出655张。这两天该足球俱乐部一共售出多少张门票？",
+    "answer": "1287",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-746",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "用火车装运一批钢材，14节车厢可装运840吨。照这样计算，一列火车有32节车厢，可装运钢材多少吨？",
+    "answer": "1920",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-747",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "四年级三个班分别制作了556、467、533面彩旗，四年级三个班一共制作了多少面彩旗？",
+    "answer": "1556",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-748",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小红到体育场看足球比赛。她的座位是19看台的21排32座，这是体育场的最后一个看台，也是最后一排的最后一个座位。如果每个看台的座位数是相同的，请问这个体育场一共有多少个座位？",
+    "answer": "12768",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-749",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "早餐店炸油饼，油锅一次最多能炸2张饼，炸熟一张饼要4分钟（正反面各2分钟）．如果一个客人要9张饼，早餐店老板最快多少分钟可以把油饼给他？",
+    "answer": "18",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-750",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个纸箱可以装35千克橘子，现在有两堆橘子，一堆114千克，另一堆是166千克，共需要准备多少个纸箱？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-751",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个正方形果园，边长是300米。如果平均每公顷栽300棵梨树，这个果园一共可以栽多少棵梨树？",
+    "answer": "2700",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-752",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把一个数扩大1000倍后，再缩小到原来的1/10是5.4，原来这个数是多少？",
+    "answer": "0.054",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-753",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某造纸厂七月份造纸1.56吨，八月份造纸1.68吨，九月份造纸数1.44吨，这三个月共造纸多少吨？",
+    "answer": "4.68",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-754",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个长200米，宽100米的长方形果园，如果长与宽都扩大1倍，那么果园的面积增加多少公顷？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-755",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小红的钱数的小数点向左移动一位是0.76元。小花存的零花钱是小红的100倍。小花存有零花钱多少元？",
+    "answer": "760",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-756",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "赵强家今年收苹果185千克，收梨365千克，苹果和梨每10千克装一个箱子，一共可以装多少箱？",
+    "answer": "55",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-757",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "1千克芝麻可以出芝麻油0.49千克，1000千克芝麻可以出芝麻油多少千克？",
+    "answer": "490",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-758",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一只箱子里装有6只脚的蟋蟀和8只脚的蜘蛛，它们共有66只脚。箱子里有蟋蟀多少只？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-759",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "两列火车分别从相距2400千米的甲乙两地同时相对开出，6小时后相遇。甲车每小时行180千米，乙车每小时行多少千米？",
+    "answer": "220",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-760",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校买来5箱矿泉水，每箱24瓶，每瓶2元，学校一共花了多少元？",
+    "answer": "240",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-761",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "王强有一个4层的书架，一共放了456本书，平均每层放了多少本书？",
+    "answer": "114",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-762",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一次数学练习题共15题。每做对一题得8分，做错或不做倒扣4分，安安得了84分，他做对了多少道题？",
+    "answer": "12",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-763",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "商店运来苹果橘子各50筐。已知每筐苹果重66千克，每筐橘子重28千克。这两种水果共重多少千克？",
+    "answer": "4700",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-764",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "客车和货车同时从A、B两地相向而行，客车每小时行60千米，货车每小时行80千米，两辆车在距离中点30千米处相遇．A、B两地相距多少千米？",
+    "answer": "420",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-765",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明家和学校相距630米．小明从学校往家走，每分走25米，妈妈从家往学校走，每分走65米，多长时间他们能相遇？",
+    "answer": "7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-766",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "在12公顷的荒地上开一个长1200米，宽50米的鱼塘后，还剩下多少公顷的荒地？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-767",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "王叔叔家有三辆货车，载质量分别是：甲货车8吨，乙货车25吨，丙货车30吨。如果要运450吨石子，乙货车单独运要比丙货车单独运多运多少次？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-768",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆客车和一辆货车同时从甲市开往乙市，客车每小时行89千米，货车每小时行71千米，3小时后两车相距多少千米？",
+    "answer": "54",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-769",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "笑笑在超市挑了三件东西，排骨12.49元、金针菇7.51元、沐浴露29.9元，她一共花了多少元？",
+    "answer": "49.9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-770",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个面点师，烤面包时，第一面要烤2分钟，第二面要烤1分钟，即烤一片面包需要3分钟，用烤面包的架子一次只能放两片面包，他家每天早上要吃5片面包，至少需要烤几分钟？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-771",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果货车的速度是70千米/时的速度，距离云浮还有423千米，它再行驶6时离云浮还有多远？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-772",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "李大伯在2公顷的山坡上种梨树．每棵梨树占地面积是8平方米，每棵梨树可收梨400千克。这些梨共可以收梨多少千克？",
+    "answer": "1000000",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 4,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "4年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-773",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  }
+]

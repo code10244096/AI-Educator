@@ -1,0 +1,2994 @@
+[
+  {
+    "question_text": "The boy likes music. 这句的主语是哪一个？\nA. likes\nB. music\nC. The boy\nD. the full stop",
+    "answer": "C. The boy",
+    "solution": "The boy 是动作的发出者，作主语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "句子成分",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h001_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The boy likes music. 这句的谓语是哪一个？\nA. The boy\nB. music\nC. a comma\nD. likes",
+    "answer": "D. likes",
+    "solution": "likes 表示动作，作谓语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "句子成分",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h001_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "She reads English every day. 这句的宾语是哪一个？\nA. English\nB. She\nC. reads\nD. every day",
+    "answer": "A. English",
+    "solution": "reads 是及物动词，English 是宾语。every day 是状语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "句子成分",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h001_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句里的 music 作宾语？\nA. Music sounds good\nB. We love music\nC. The music is loud\nD. They are students",
+    "answer": "B. We love music",
+    "solution": "love 后面的 music 是宾语。其余三句是主系表。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "句子成分",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h001_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Birds fly. 这句属于哪一种基本句型？\nA. 主谓宾\nB. 主系表\nC. 双宾语\nD. 主谓",
+    "answer": "D. 主谓",
+    "solution": "fly 是不及物动词，后面没有宾语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "五种基本句型",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h002_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "She gave me a book. 这句属于哪一种基本句型？\nA. 双宾语\nB. 主谓\nC. 主系表\nD. 只有一个宾语",
+    "answer": "A. 双宾语",
+    "solution": "gave 后面有 me 和 a book 两个宾语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "五种基本句型",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h002_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The soup tastes good. 这句属于哪一种基本句型？\nA. 主谓宾\nB. 主系表\nC. 双宾语\nD. 宾语补足语",
+    "answer": "B. 主系表",
+    "solution": "tastes 是系动词，good 是表语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "五种基本句型",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h002_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是主谓宾？\nA. The baby cried\nB. He is a doctor\nC. They play basketball\nD. She looks happy",
+    "answer": "C. They play basketball",
+    "solution": "play 是及物动词，basketball 是宾语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "五种基本句型",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h002_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "We call him Tom. 句中 Tom 是什么成分？\nA. 宾语补足语\nB. 主语\nC. 定语\nD. 状语",
+    "answer": "A. 宾语补足语",
+    "solution": "Tom 补充说明宾语 him，是宾补。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "宾语补足语",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h003_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I found the film interesting. interesting 是什么成分？\nA. 主语\nB. 宾语补足语\nC. 谓语\nD. 间接宾语",
+    "answer": "B. 宾语补足语",
+    "solution": "interesting 补充说明宾语 the film。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "宾语补足语",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h003_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句含有宾语补足语？\nA. She gave me a pen\nB. They are friends\nC. The news made her happy\nD. Birds can fly",
+    "answer": "C. The news made her happy",
+    "solution": "happy 补充说明宾语 her。gave me a pen 是双宾语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "宾语补足语",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h003_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Please keep the room clean. clean 修饰说明的是哪一个？\nA. Please\nB. keep\nC. 句末的句号\nD. the room",
+    "answer": "D. the room",
+    "solution": "clean 是宾补，说明宾语 the room 的状态。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "宾语补足语",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h003_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「校园」？\nA. lecture\nB. campus\nC. locker\nD. freshman",
+    "answer": "B. campus",
+    "solution": "campus 的意思是校园。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "校园设施",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h004_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「lecture」的中文意思是哪一个？\nA. 校园\nB. 储物柜\nC. 讲座\nD. 新生",
+    "answer": "C. 讲座",
+    "solution": "lecture 的意思是讲座。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "校园设施",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h004_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「储物柜」的单词。\nA. campus\nB. lecture\nC. freshman\nD. locker",
+    "answer": "D. locker",
+    "solution": "表示储物柜的单词是 locker。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "校园设施",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h004_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「新生」？\nA. freshman\nB. campus\nC. lecture\nD. locker",
+    "answer": "A. freshman",
+    "solution": "freshman 的意思是新生。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "校园设施",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h004_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "开学第一天，想问好并说出自己的名字，哪一句合适？\nA. Hi, my name are Lin\nB. Hi, your name is Lin\nC. Hi, my name is Lin\nD. Hi, my name Lin is",
+    "answer": "C. Hi, my name is Lin",
+    "solution": "问候并自报姓名用 Hi, my name is。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "问候并介绍自己",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h005_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "对方说 Nice to meet you. 你应回答什么？\nA. See you yesterday\nB. Nice to meeting you too\nC. Nice to meets you too\nD. Nice to meet you too",
+    "answer": "D. Nice to meet you too",
+    "solution": "回应 Nice to meet you 时加上 too。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "问候并介绍自己",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h005_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想告诉同学自己在三班，哪一句合适？\nA. I am in Class 3\nB. I am at Class 3\nC. I is in Class 3\nD. He is in Class 3",
+    "answer": "A. I am in Class 3",
+    "solution": "说明自己的班级用 I am in Class 3。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "问候并介绍自己",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h005_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "早上在教学楼遇见老师，哪一句是问候？\nA. Good mornings\nB. Good morning\nC. Goodbye\nD. Good afternoon",
+    "answer": "B. Good morning",
+    "solution": "Good morning 用来问候早晨。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "问候并介绍自己",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h005_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Lin is a new student. She is in Class 3. Her first lecture is on Monday. Lin 是什么身份？\nA. 老师\nB. 医生\nC. 司机\nD. 新生",
+    "answer": "D. 新生",
+    "solution": "短文写 She is a new student。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读新生简介",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h006_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Lin is a new student. She is in Class 3. Her first lecture is on Monday. 她在哪个班？\nA. 三班\nB. 一班\nC. 五班\nD. 九班",
+    "answer": "A. 三班",
+    "solution": "短文写 She is in Class 3。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读新生简介",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h006_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Lin is a new student. She is in Class 3. Her first lecture is on Monday. 她的第一堂讲座在哪一天？\nA. 星期二\nB. 星期一\nC. 星期五\nD. 星期日",
+    "answer": "B. 星期一",
+    "solution": "短文写 on Monday。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读新生简介",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h006_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Lin is a new student. She is in Class 3. Her first lecture is on Monday. 哪一句和短文一致？\nA. Lin is a teacher\nB. Lin is in Class 9\nC. Lin has a lecture on Monday\nD. The lecture is on Friday",
+    "answer": "C. Lin has a lecture on Monday",
+    "solution": "短文只说她是新生，周一有讲座。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读新生简介",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h006_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要点：姓名林晓、三班、喜欢音乐。哪一句三个要点都有？\nA. I am Lin Xiao in Class 3, and I like music\nB. I am Lin Xiao in Class 3\nC. I like music and football\nD. I am Lin Xiao in Class 3, and I like football",
+    "answer": "A. I am Lin Xiao in Class 3, and I like music",
+    "solution": "姓名、班级和音乐三个要点都要出现。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写自我介绍",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h007_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想用邮件向笔友介绍自己是新生，哪一句合适？\nA. I is a new student at this school\nB. I am a new student at this school\nC. I am an new student at this school\nD. I not am a new student at this school",
+    "answer": "B. I am a new student at this school",
+    "solution": "介绍自己的身份用 I am a new student。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写自我介绍",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h007_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "自我介绍要写爱好，哪一句在写爱好？\nA. The campus is large\nB. Monday is a day\nC. I enjoy playing basketball\nD. Class 3 is a room",
+    "answer": "C. I enjoy playing basketball",
+    "solution": "enjoy playing basketball 是在说爱好。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写自我介绍",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h007_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句适合放在自我介绍的开头？\nA. Hello, let me to introduce myself\nB. Hello, let me introducing myself\nC. Hello, let me introduce me\nD. Hello, let me introduce myself",
+    "answer": "D. Hello, let me introduce myself",
+    "solution": "自我介绍开头常用 Hello, let me introduce myself。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写自我介绍",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h007_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一般疑问句 Are you in Class 3? 句末通常用什么语调？\nA. 降调\nB. 升调\nC. 每个词都重读\nD. 没有语调",
+    "answer": "B. 升调",
+    "solution": "一般疑问句句末通常用升调。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "句末升调和降调",
+      "语音"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h008_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "陈述句 I am a new student. 句末通常用什么语调？\nA. 升调\nB. 先升后降再升\nC. 降调\nD. 只在 student 上不停",
+    "answer": "C. 降调",
+    "solution": "陈述句句末通常用降调。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "句末升调和降调",
+      "语音"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h008_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "特殊疑问句 Where is the lecture? 句末通常用什么语调？\nA. 升调\nB. 和一般疑问句相同的升调\nC. 只在 where 上上升\nD. 降调",
+    "answer": "D. 降调",
+    "solution": "特殊疑问句句末通常用降调。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "句末升调和降调",
+      "语音"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h008_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句朗读时句末通常用升调？\nA. Is the locker yours\nB. The locker is mine\nC. Where is the locker\nD. She is a freshman",
+    "answer": "A. Is the locker yours",
+    "solution": "Is the locker yours 是一般疑问句，句末用升调。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "句末升调和降调",
+      "语音"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h008_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「课程」？\nA. homework\nB. quiz\nC. course\nD. grade",
+    "answer": "C. course",
+    "solution": "course 的意思是课程。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "课程与作业",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h009_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「homework」的中文意思是哪一个？\nA. 课程\nB. 小测验\nC. 成绩\nD. 家庭作业",
+    "answer": "D. 家庭作业",
+    "solution": "homework 的意思是家庭作业。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "课程与作业",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h009_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「小测验」的单词。\nA. quiz\nB. course\nC. homework\nD. grade",
+    "answer": "A. quiz",
+    "solution": "表示小测验的单词是 quiz。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "课程与作业",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h009_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「成绩」？\nA. course\nB. grade\nC. homework\nD. quiz",
+    "answer": "B. grade",
+    "solution": "grade 的意思是成绩。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "课程与作业",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h009_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「挑战」？\nA. debate\nB. volunteer\nC. confident\nD. challenge",
+    "answer": "D. challenge",
+    "solution": "challenge 的意思是挑战。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "挑战与社团",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h010_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「debate」的中文意思是哪一个？\nA. 辩论\nB. 挑战\nC. 志愿者\nD. 自信的",
+    "answer": "A. 辩论",
+    "solution": "debate 的意思是辩论。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "挑战与社团",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h010_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「志愿者」的单词。\nA. challenge\nB. volunteer\nC. debate\nD. confident",
+    "answer": "B. volunteer",
+    "solution": "表示志愿者的单词是 volunteer。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "挑战与社团",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h010_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「自信的」？\nA. challenge\nB. debate\nC. confident\nD. volunteer",
+    "answer": "C. confident",
+    "solution": "confident 的意思是自信的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "挑战与社团",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h010_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The tall boy in blue 是什么短语？\nA. 名词短语\nB. 动词短语\nC. 介词单独成句\nD. 副词短语",
+    "answer": "A. 名词短语",
+    "solution": "中心词 boy 是名词，前面有限定和形容词。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "名词短语",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h011_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "My new schoolbag 在句中常作什么？\nA. 谓语\nB. 主语或宾语\nC. 系动词\nD. 助动词",
+    "answer": "B. 主语或宾语",
+    "solution": "名词短语可以作主语或宾语，不能单独作谓语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "名词短语",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h011_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一个是名词短语？\nA. runs quickly\nB. very carefully\nC. a difficult maths course\nD. looks happy",
+    "answer": "C. a difficult maths course",
+    "solution": "course 是名词中心词，前面有冠词和形容词。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "名词短语",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h011_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "She joined the school debate team. 宾语是哪一个？\nA. She\nB. joined\nC. school 这个单词单独\nD. the school debate team",
+    "answer": "D. the school debate team",
+    "solution": "the school debate team 是名词短语，作 joined 的宾语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "名词短语",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h011_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The question is very difficult. very difficult 是什么？\nA. 名词短语作主语\nB. 形容词短语作表语\nC. 动词短语作谓语\nD. 介词短语作宾语",
+    "answer": "B. 形容词短语作表语",
+    "solution": "difficult 是形容词，very 修饰它，放在系动词后面作表语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "形容词短语和副词短语",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h012_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "He spoke quite clearly. quite clearly 是什么？\nA. 名词短语作宾语\nB. 形容词短语作表语\nC. 副词短语作状语\nD. 双宾语",
+    "answer": "C. 副词短语作状语",
+    "solution": "clearly 是副词，修饰 spoke，作状语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "形容词短语和副词短语",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h012_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一个是形容词短语？\nA. the maths course\nB. speak English\nC. in the morning\nD. good at maths",
+    "answer": "D. good at maths",
+    "solution": "good 是形容词，at maths 补充说明它。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "形容词短语和副词短语",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h012_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "She is afraid of the quiz. afraid of the quiz 说明的是哪一个？\nA. She\nB. is\nC. the 这个词\nD. 句号",
+    "answer": "A. She",
+    "solution": "表语说明主语 She 的状态。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "形容词短语和副词短语",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h012_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说自己最喜欢英语课，哪一句合适？\nA. Your favourite course is English\nB. My favourite course are English\nC. My favourite course is English\nD. My favorites course is English",
+    "answer": "C. My favourite course is English",
+    "solution": "说最喜欢的课程用 My favourite course is。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论课程和社团",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h013_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "同学建议你参加辩论社，你愿意，应回答什么？\nA. That sounds good. I will joined\nB. That sounds good. I will to join\nC. That sounds good. I will joins\nD. That sounds good. I will join",
+    "answer": "D. That sounds good. I will join",
+    "solution": "接受建议可以说 That sounds good。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论课程和社团",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h013_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想问对方有没有加入社团，哪一句合适？\nA. Have you joined a club\nB. Have you joined an club\nC. Have you join a club\nD. Have you joinned a club",
+    "answer": "A. Have you joined a club",
+    "solution": "询问对方用 Have you joined a club。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论课程和社团",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h013_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说明参加志愿者活动让自己更自信，哪一句合适？\nA. Volunteering make me more confident\nB. Volunteering makes me more confident\nC. Vollunteering makes me more confident\nD. Volunteering makes I more confident",
+    "answer": "B. Volunteering makes me more confident",
+    "solution": "makes me more confident 说明活动带来的变化。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论课程和社团",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h013_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Chen likes his English course, but the maths quiz is a challenge. He also joins the debate club. Chen 喜欢哪一门课？\nA. 数学\nB. 历史\nC. 音乐\nD. 英语",
+    "answer": "D. 英语",
+    "solution": "短文写 likes his English course。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读校园生活短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h014_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Chen likes his English course, but the maths quiz is a challenge. He also joins the debate club. 什么对他来说是挑战？\nA. 数学小测验\nB. 英语课\nC. 辩论社\nD. 校园",
+    "answer": "A. 数学小测验",
+    "solution": "短文写 the maths quiz is a challenge。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读校园生活短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h014_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Chen likes his English course, but the maths quiz is a challenge. He also joins the debate club. 他参加了什么社团？\nA. 音乐社\nB. 辩论社\nC. 篮球队\nD. 科学社",
+    "answer": "B. 辩论社",
+    "solution": "短文写 the debate club。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读校园生活短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h014_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Chen likes his English course, but the maths quiz is a challenge. He also joins the debate club. 哪一句和短文一致？\nA. Chen hates English\nB. The English quiz is a challenge\nC. Chen joins the debate club\nD. Chen joins the music club",
+    "answer": "C. Chen joins the debate club",
+    "solution": "挑战的是数学小测验，不是英语课。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读校园生活短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h014_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要点：想加入辩论社、喜欢讨论、每周五有空。哪一句三个要点都有？\nA. I want to join the debate club because I like discussion and I am free on Friday\nB. I want to join the debate club\nC. I am free on Friday\nD. I like music on Monday",
+    "answer": "A. I want to join the debate club because I like discussion and I am free on Friday",
+    "solution": "三个要点要同时出现。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写社团申请句",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h015_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "申请句要说明理由，哪一句有理由？\nA. The club is a room\nB. I want to join because I like debate\nC. Friday is a day\nD. Please open the door",
+    "answer": "B. I want to join because I like debate",
+    "solution": "because 后面是加入的理由。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写社团申请句",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h015_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句适合作为申请的开头？\nA. I would liked to join the debate club\nB. I would like to joining the debate club\nC. I would like to join the debate club\nD. I would like to joins the debate club",
+    "answer": "C. I would like to join the debate club",
+    "solution": "申请开头可以直接说 I would like to join。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写社团申请句",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h015_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "老师要求用现在时介绍自己的空闲时间，哪一句符合？\nA. I was free in 1990 only\nB. I will was free\nC. I am free in Friday afternoon\nD. I am free on Friday afternoon",
+    "answer": "D. I am free on Friday afternoon",
+    "solution": "现在的空闲时间用 I am free。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写社团申请句",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h015_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「目的地」？\nA. brochure\nB. destination\nC. accommodation\nD. itinerary",
+    "answer": "B. destination",
+    "solution": "destination 的意思是目的地。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "旅行安排",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h016_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「brochure」的中文意思是哪一个？\nA. 目的地\nB. 住宿\nC. 小册子\nD. 行程",
+    "answer": "C. 小册子",
+    "solution": "brochure 的意思是小册子。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "旅行安排",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h016_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「住宿」的单词。\nA. destination\nB. brochure\nC. itinerary\nD. accommodation",
+    "answer": "D. accommodation",
+    "solution": "表示住宿的单词是 accommodation。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "旅行安排",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h016_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「行程」？\nA. itinerary\nB. destination\nC. brochure\nD. accommodation",
+    "answer": "A. itinerary",
+    "solution": "itinerary 的意思是行程。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "旅行安排",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h016_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「城堡」？\nA. waterfall\nB. temple\nC. castle\nD. scenery",
+    "answer": "C. castle",
+    "solution": "castle 的意思是城堡。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "景点",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h017_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「waterfall」的中文意思是哪一个？\nA. 城堡\nB. 寺庙\nC. 风景\nD. 瀑布",
+    "answer": "D. 瀑布",
+    "solution": "waterfall 的意思是瀑布。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "景点",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h017_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「寺庙」的单词。\nA. temple\nB. castle\nC. waterfall\nD. scenery",
+    "answer": "A. temple",
+    "solution": "表示寺庙的单词是 temple。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "景点",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h017_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「风景」？\nA. castle\nB. scenery\nC. waterfall\nD. temple",
+    "answer": "B. scenery",
+    "solution": "scenery 的意思是风景。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "景点",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h017_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I ___ Tom at the station tomorrow. 表示已经安排好的见面，横线处填哪一个？\nA. meet\nB. was meeting\nC. met\nD. am meeting",
+    "answer": "D. am meeting",
+    "solution": "已经安排的将来用现在进行时 am meeting。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "现在进行时表将来",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h018_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句表示已经安排好的将来？\nA. We are flying to Xi'an next Friday\nB. We fly every Friday\nC. We flew last Friday\nD. Birds are animals",
+    "answer": "A. We are flying to Xi'an next Friday",
+    "solution": "next Friday 加上现在进行时，表示已安排的行程。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "现在进行时表将来",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h018_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "She is leaving for Beijing tonight. 这句主要在说什么？\nA. 今晚正在睡觉\nB. 今晚已经安排离开\nC. 昨晚已经离开\nD. 她讨厌北京",
+    "answer": "B. 今晚已经安排离开",
+    "solution": "is leaving 加将来时间，表示安排。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "现在进行时表将来",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h018_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计划明天参观城堡，哪一句合适？\nA. We visit the castle yesterday\nB. We visited the castle tomorrow\nC. We are visiting the castle tomorrow\nD. We are visit tomorrow",
+    "answer": "C. We are visiting the castle tomorrow",
+    "solution": "tomorrow 不能和过去式 visited 搭配，安排用 are visiting。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "现在进行时表将来",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h018_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I will call you when I ___ there. 横线处填哪一个？\nA. arrive\nB. will arrive\nC. arrived\nD. am arrived",
+    "answer": "A. arrive",
+    "solution": "when 从句里用一般现在时表示将来。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "时间从句用现在时表将来",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h019_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "If it ___ tomorrow, we will stay in. 横线处填哪一个？\nA. will rain\nB. rains\nC. rained\nD. is rain",
+    "answer": "B. rains",
+    "solution": "if 条件从句不用 will，用 rains。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "时间从句用现在时表将来",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h019_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. I will tell her as soon as she will come\nB. I tell her as soon as she will come\nC. I will tell her as soon as she comes\nD. I told her as soon as she will come tomorrow",
+    "answer": "C. I will tell her as soon as she comes",
+    "solution": "as soon as 从句用现在时，主句用 will。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "时间从句用现在时表将来",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h019_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "We will start after the guide ___. 横线处填哪一个？\nA. will arrive\nB. arrive\nC. is arrive\nD. arrives",
+    "answer": "D. arrives",
+    "solution": "after 引导的时间从句用 arrives。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "时间从句用现在时表将来",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h019_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想告诉同学周五已经订好去西安的机票，哪一句合适？\nA. We flew to Xi'an tomorrow\nB. We are flying to Xi'an on Friday\nC. We is flying to Xi'an on Friday\nD. We are fly to Xi'an on Friday",
+    "answer": "B. We are flying to Xi'an on Friday",
+    "solution": "已经安排的行程用现在进行时。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论旅行计划",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h020_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "朋友邀请你一起去看瀑布，你愿意，应回答什么？\nA. Yes, I would loved to\nB. Yes, I would to love to\nC. Yes, I would love to\nD. Yes, I would loves to",
+    "answer": "C. Yes, I would love to",
+    "solution": "接受邀请可以说 Yes, I would love to。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论旅行计划",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h020_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想问对方的住宿订在哪里，哪一句合适？\nA. Where are your accommodation\nB. Where is your accommodasion\nC. Where is accommodation your\nD. Where is your accommodation",
+    "answer": "D. Where is your accommodation",
+    "solution": "询问住宿地点用 Where is your accommodation。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论旅行计划",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h020_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想建议先看行程再出发，哪一句合适？\nA. Let's check the itinerary before we leave\nB. Let's to check the itinerary before we leave\nC. Let's check the itinerery before we leave\nD. We left tomorrow",
+    "answer": "A. Let's check the itinerary before we leave",
+    "solution": "提建议可以用 Let's check the itinerary。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论旅行计划",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h020_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Anna is travelling to Xi'an next Friday. She is staying in a small hotel. Her itinerary includes a temple and a museum. Anna 什么时候去西安？\nA. 上周五\nB. 明年\nC. 下周五\nD. 昨天",
+    "answer": "C. 下周五",
+    "solution": "短文写 next Friday。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读行程短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h021_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Anna is travelling to Xi'an next Friday. She is staying in a small hotel. Her itinerary includes a temple and a museum. 她住在哪里？\nA. 城堡里\nB. 学校宿舍\nC. 瀑布旁边\nD. 一家小旅馆",
+    "answer": "D. 一家小旅馆",
+    "solution": "短文写 a small hotel。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读行程短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h021_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Anna is travelling to Xi'an next Friday. She is staying in a small hotel. Her itinerary includes a temple and a museum. 行程里包含什么？\nA. 寺庙和博物馆\nB. 海滩和冰川\nC. 农场和工厂\nD. 车站和机场",
+    "answer": "A. 寺庙和博物馆",
+    "solution": "短文写 a temple and a museum。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读行程短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h021_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Anna is travelling to Xi'an next Friday. She is staying in a small hotel. Her itinerary includes a temple and a museum. 作者的态度更接近哪一种？\nA. 强烈反对这次旅行\nB. 只是在说明已经安排的计划\nC. 在批评旅馆\nD. 在请求救援",
+    "answer": "B. 只是在说明已经安排的计划",
+    "solution": "短文只列时间和安排，没有表示反对。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读行程短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h021_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要点：周五出发、住小旅馆、去看兵马俑。哪一句三个要点都有？\nA. We are leaving on Friday\nB. The hotel is small\nC. I like museums\nD. We are leaving on Friday, staying in a small hotel and visiting the Terracotta Army",
+    "answer": "D. We are leaving on Friday, staying in a small hotel and visiting the Terracotta Army",
+    "solution": "出发、住宿和景点都要写到。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写行程邮件",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h022_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "邮件里表示已经订好车票，哪一句合适？\nA. I have already booked the train ticket\nB. I have already book the train ticket\nC. I not have already booked the train ticket\nD. I have alreedy booked the train ticket",
+    "answer": "A. I have already booked the train ticket",
+    "solution": "已经订好用 have booked。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写行程邮件",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h022_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句适合作为行程邮件的开头？\nA. I am write to tell you about my trip\nB. I am writing to tell you about my trip\nC. I am writing to telling you about my trip\nD. I am writing to tells you about my trip",
+    "answer": "B. I am writing to tell you about my trip",
+    "solution": "说明写信目的可以用 I am writing to tell you。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写行程邮件",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h022_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想写如果下雨就改去博物馆，哪一句正确？\nA. If it will rain, we go to the museum\nB. If it rains, we went tomorrow\nC. If it rains, we will go to the museum\nD. If rains it, we will go",
+    "answer": "C. If it rains, we will go to the museum",
+    "solution": "if 从句用 rains，主句用 will go。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写行程邮件",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h022_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「马拉松」？\nA. marathon\nB. stadium\nC. coach\nD. medal",
+    "answer": "A. marathon",
+    "solution": "marathon 的意思是马拉松。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "运动项目",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h023_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「stadium」的中文意思是哪一个？\nA. 马拉松\nB. 体育场\nC. 教练\nD. 奖牌",
+    "answer": "B. 体育场",
+    "solution": "stadium 的意思是体育场。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "运动项目",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h023_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「教练」的单词。\nA. marathon\nB. stadium\nC. coach\nD. medal",
+    "answer": "C. coach",
+    "solution": "表示教练的单词是 coach。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "运动项目",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h023_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「奖牌」？\nA. marathon\nB. stadium\nC. coach\nD. medal",
+    "answer": "D. medal",
+    "solution": "medal 的意思是奖牌。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "运动项目",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h023_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「体能」？\nA. muscle\nB. fitness\nC. diet\nD. injury",
+    "answer": "B. fitness",
+    "solution": "fitness 的意思是体能。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "健身与健康",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h024_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「muscle」的中文意思是哪一个？\nA. 体能\nB. 日常饮食\nC. 肌肉\nD. 损伤",
+    "answer": "C. 肌肉",
+    "solution": "muscle 的意思是肌肉。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "健身与健康",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h024_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「日常饮食」的单词。\nA. fitness\nB. muscle\nC. injury\nD. diet",
+    "answer": "D. diet",
+    "solution": "表示日常饮食的单词是 diet。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "健身与健康",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h024_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「损伤」？\nA. injury\nB. fitness\nC. muscle\nD. diet",
+    "answer": "A. injury",
+    "solution": "injury 的意思是损伤。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "健身与健康",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h024_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "She can swim, ___? 横线处填哪一个？\nA. can she\nB. can't he\nC. can't she\nD. doesn't she",
+    "answer": "C. can't she",
+    "solution": "前面是肯定的 can，附加问句用否定 can't she。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "附加疑问句",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h025_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "They didn't win, ___? 横线处填哪一个？\nA. didn't they\nB. do they\nC. won they\nD. did they",
+    "answer": "D. did they",
+    "solution": "前面是否定的 didn't，附加问句用肯定 did they。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "附加疑问句",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h025_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句的附加问句是正确的？\nA. He is a coach, isn't he\nB. He is a coach, is he\nC. He is a coach, isn't she\nD. He is a coach, doesn't he",
+    "answer": "A. He is a coach, isn't he",
+    "solution": "is 的否定附加问句是 isn't he。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "附加疑问句",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h025_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "You have finished the race, ___? 横线处填哪一个？\nA. have you\nB. haven't you\nC. didn't you\nD. don't you",
+    "answer": "B. haven't you",
+    "solution": "have 是助动词，肯定句后面用 haven't you。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "附加疑问句",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h025_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "She runs very quickly. very quickly 修饰哪一个？\nA. She\nB. very 单独\nC. 句号\nD. runs",
+    "answer": "D. runs",
+    "solution": "副词短语修饰动词 runs。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "副词短语作状语",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h026_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一个是副词短语？\nA. much more carefully\nB. a careful coach\nC. the big stadium\nD. looks strong",
+    "answer": "A. much more carefully",
+    "solution": "carefully 是副词，much more 修饰它。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "副词短语作状语",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h026_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "He trains quite hard before the marathon. quite hard 是什么成分？\nA. 主语\nB. 状语\nC. 宾语\nD. 定语",
+    "answer": "B. 状语",
+    "solution": "quite hard 修饰 trains，作状语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "副词短语作状语",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h026_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句里的短语作状语？\nA. They are fairly good players\nB. A fairly good player arrived\nC. They played fairly well\nD. The fairly big stadium is new",
+    "answer": "C. They played fairly well",
+    "solution": "well 修饰 played。其余 fairly 修饰的是形容词。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "副词短语作状语",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h026_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "朋友很少运动，你建议他每天步行，哪一句合适？\nA. You could walk for thirty minutes a day\nB. You could walked for thirty minutes a day\nC. You could walk for thirty minutes an day\nD. You could to walk for thirty minutes a day",
+    "answer": "A. You could walk for thirty minutes a day",
+    "solution": "提建议可以用 You could。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "提出运动建议",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h027_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "教练说 Don't train when you are injured. 你明白了，应回答什么？\nA. I will train harder tonight\nB. All right, I will rest\nC. The muscle is a coach\nD. Yesterday rest tomorrow",
+    "answer": "B. All right, I will rest",
+    "solution": "受伤时接受建议应该休息。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "提出运动建议",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h027_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想邀请同学周六一起去体育场跑步，哪一句合适？\nA. Shall we run at the stadium in Saturday\nB. Shall we run at the stadium on Satturday\nC. Shall we run at the stadium on Saturday\nD. We ran tomorrow",
+    "answer": "C. Shall we run at the stadium on Saturday",
+    "solution": "发出邀请可以用 Shall we。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "提出运动建议",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h027_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说明均衡饮食对体能有帮助，哪一句合适？\nA. A balanced diet help your fitness\nB. An balanced diet helps your fitness\nC. A balenced diet helps your fitness\nD. A balanced diet helps your fitness",
+    "answer": "D. A balanced diet helps your fitness",
+    "solution": "helps your fitness 说明饮食的作用。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "提出运动建议",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h027_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Li ran a marathon last Sunday and won a medal. His coach says he should rest because of a small injury. Li 参加了什么？\nA. 游泳\nB. 马拉松\nC. 辩论\nD. 讲座",
+    "answer": "B. 马拉松",
+    "solution": "短文写 ran a marathon。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读比赛短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h028_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Li ran a marathon last Sunday and won a medal. His coach says he should rest because of a small injury. 他得到了什么？\nA. 一座城堡\nB. 一本小册子\nC. 一块奖牌\nD. 一个储物柜",
+    "answer": "C. 一块奖牌",
+    "solution": "短文写 won a medal。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读比赛短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h028_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Li ran a marathon last Sunday and won a medal. His coach says he should rest because of a small injury. 教练为什么建议他休息？\nA. 因为他输了\nB. 因为下周还有课\nC. 因为没有教练\nD. 因为有一点损伤",
+    "answer": "D. 因为有一点损伤",
+    "solution": "短文写 because of a small injury。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读比赛短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h028_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Li ran a marathon last Sunday and won a medal. His coach says he should rest because of a small injury. 哪一句和短文一致？\nA. Li won a medal\nB. Li lost the marathon\nC. The coach wants him to train all night\nD. Li has no injury",
+    "answer": "A. Li won a medal",
+    "solution": "他赢了奖牌，但有一点损伤。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读比赛短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h028_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要点：上周日马拉松、获得奖牌、教练建议休息。哪一句三个要点都有？\nA. Li ran a marathon\nB. He won a medal\nC. Li ran a marathon last Sunday, won a medal, and his coach told him to rest\nD. The coach likes music",
+    "answer": "C. Li ran a marathon last Sunday, won a medal, and his coach told him to rest",
+    "solution": "时间、结果和建议都要出现。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写运动简讯",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h029_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "简讯要用过去时写已经结束的比赛，哪一句符合？\nA. Our team wins the game yesterday\nB. Our team will won yesterday\nC. Won our team yesterday the game\nD. Our team won the game yesterday",
+    "answer": "D. Our team won the game yesterday",
+    "solution": "yesterday 搭配过去式 won。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写运动简讯",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h029_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句适合提醒读者注意伤病？\nA. Stop training if you feel an injury\nB. Stop training if you feel a injury\nC. Stop train if you feel an injury\nD. Stop to train if you feel an injury",
+    "answer": "A. Stop training if you feel an injury",
+    "solution": "if you feel an injury 是在提醒。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写运动简讯",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h029_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "附加问句想确认读者已经看过通知，哪一句正确？\nA. You have read the notice, have you\nB. You have read the notice, haven't you\nC. You have read the notice, didn't he\nD. You read the notice, aren't you",
+    "answer": "B. You have read the notice, haven't you",
+    "solution": "have 的否定附加问句是 haven't you。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写运动简讯",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h029_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「地震」？\nA. flood\nB. hurricane\nC. drought\nD. earthquake",
+    "answer": "D. earthquake",
+    "solution": "earthquake 的意思是地震。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "自然灾害",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h030_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「flood」的中文意思是哪一个？\nA. 洪水\nB. 地震\nC. 飓风\nD. 干旱",
+    "answer": "A. 洪水",
+    "solution": "flood 的意思是洪水。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "自然灾害",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h030_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「飓风」的单词。\nA. earthquake\nB. hurricane\nC. flood\nD. drought",
+    "answer": "B. hurricane",
+    "solution": "表示飓风的单词是 hurricane。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "自然灾害",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h030_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「干旱」？\nA. earthquake\nB. flood\nC. drought\nD. hurricane",
+    "answer": "C. drought",
+    "solution": "drought 的意思是干旱。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "自然灾害",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h030_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「救援」？\nA. rescue\nB. shelter\nC. survivor\nD. warning",
+    "answer": "A. rescue",
+    "solution": "rescue 的意思是救援。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "救援",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h031_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「shelter」的中文意思是哪一个？\nA. 救援\nB. 庇护所\nC. 幸存者\nD. 警报",
+    "answer": "B. 庇护所",
+    "solution": "shelter 的意思是庇护所。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "救援",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h031_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「幸存者」的单词。\nA. rescue\nB. shelter\nC. survivor\nD. warning",
+    "answer": "C. survivor",
+    "solution": "表示幸存者的单词是 survivor。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "救援",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h031_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「警报」？\nA. rescue\nB. shelter\nC. survivor\nD. warning",
+    "answer": "D. warning",
+    "solution": "warning 的意思是警报。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "救援",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h031_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The girl ___ is singing is my classmate. 横线处填哪一个？\nA. which\nB. who\nC. where\nD. whom",
+    "answer": "B. who",
+    "solution": "先行词是人，在从句中作主语，用 who。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "关系代词定语从句",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h032_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The book ___ I bought is about disasters. 横线处填哪一个？\nA. who\nB. where\nC. that\nD. whom",
+    "answer": "C. that",
+    "solution": "先行词是物，作宾语可以用 that。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "关系代词定语从句",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h032_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. I know the doctor which saved the child\nB. I know the doctor where saved the child\nC. I know the doctor he saved the child\nD. I know the doctor who saved the child",
+    "answer": "D. I know the doctor who saved the child",
+    "solution": "doctor 是人，作主语用 who，不能用 which。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "关系代词定语从句",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h032_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "This is the warning ___ saved many lives. 横线处填哪一个？\nA. which\nB. who\nC. whom\nD. where",
+    "answer": "A. which",
+    "solution": "warning 是物，作主语用 which。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "关系代词定语从句",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h032_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The student ___ mother is a doctor sits here. 横线处填哪一个？\nA. who\nB. which\nC. whose\nD. whom",
+    "answer": "C. whose",
+    "solution": "mother 属于 the student，用 whose。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "whose 和 whom",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h033_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The man ___ we met is a survivor. 空格作 met 的宾语，且先行词是人，填哪一个？\nA. whose\nB. which\nC. where\nD. whom",
+    "answer": "D. whom",
+    "solution": "先行词是人，在从句中作宾语，用 whom。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "whose 和 whom",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h033_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句用 whose 是正确的？\nA. I helped a boy whose house was flooded\nB. I helped a boy who house was flooded\nC. I helped a boy which house was flooded\nD. I helped a boy whom house was flooded",
+    "answer": "A. I helped a boy whose house was flooded",
+    "solution": "house 属于 a boy，用 whose house。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "whose 和 whom",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h033_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The woman to ___ I spoke is a volunteer. 横线处填哪一个？\nA. whose\nB. whom\nC. which\nD. where",
+    "answer": "B. whom",
+    "solution": "介词 to 后面指人用 whom。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "whose 和 whom",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h033_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想告诉同学洪水很严重，哪一句合适？\nA. The flood are serious and many people need help\nB. The flood is serious and many peoples need help\nC. The flood is seriously and many people need help\nD. The flood is serious and many people need help",
+    "answer": "D. The flood is serious and many people need help",
+    "solution": "说明灾情可以说 The flood is serious。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说明灾情并请求帮助",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h034_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想请求对方捐出毯子，哪一句合适？\nA. Could you please donate some blankets\nB. Could you please donate some blanket\nC. Could you please donating some blankets\nD. Could you please to donate some blankets",
+    "answer": "A. Could you please donate some blankets",
+    "solution": "礼貌请求用 Could you please。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说明灾情并请求帮助",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h034_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想表达对幸存者的担心，哪一句合适？\nA. I is worried about the survivors\nB. I am worried about the survivors\nC. He is worried about the survivors\nD. I am worry about the survivors",
+    "answer": "B. I am worried about the survivors",
+    "solution": "I am worried about 用来表达担心。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说明灾情并请求帮助",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h034_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "同学说救援队已经出发，你表示庆幸，应回答什么？\nA. I am glad the team never left\nB. I is glad the rescue team has left\nC. I am glad the rescue team has left\nD. He is glad the rescue team has left",
+    "answer": "C. I am glad the rescue team has left",
+    "solution": "表示庆幸可以说 I am glad。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说明灾情并请求帮助",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h034_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A strong earthquake hit the town on Friday. Rescue teams found twenty survivors. The warning had been sent ten minutes earlier. 地震发生在哪一天？\nA. 星期五\nB. 星期一\nC. 星期日\nD. 没有写日期",
+    "answer": "A. 星期五",
+    "solution": "短文写 on Friday。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读灾害新闻",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h035_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A strong earthquake hit the town on Friday. Rescue teams found twenty survivors. The warning had been sent ten minutes earlier. 救援队找到了多少幸存者？\nA. 十人\nB. 二十人\nC. 两人\nD. 一百人",
+    "answer": "B. 二十人",
+    "solution": "短文写 twenty survivors。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读灾害新闻",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h035_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A strong earthquake hit the town on Friday. Rescue teams found twenty survivors. The warning had been sent ten minutes earlier. 警报是什么时候发出的？\nA. 地震后一天\nB. 没有发出\nC. 地震前十分钟\nD. 地震前一小时",
+    "answer": "C. 地震前十分钟",
+    "solution": "短文写 ten minutes earlier。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读灾害新闻",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h035_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A strong earthquake hit the town on Friday. Rescue teams found twenty survivors. The warning had been sent ten minutes earlier. 哪一句和短文一致？\nA. The earthquake hit on Monday\nB. No warning was sent\nC. The town had no earthquake\nD. Rescue teams found twenty survivors",
+    "answer": "D. Rescue teams found twenty survivors",
+    "solution": "人数和时间都要和短文一致。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读灾害新闻",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h035_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要点：周五地震、找到二十名幸存者、警报提前十分钟。哪一句三个要点都有？\nA. An earthquake hit on Friday\nB. An earthquake hit on Friday, rescue teams found twenty survivors, and the warning had been sent ten minutes earlier\nC. Twenty people arrived\nD. The warning was loud",
+    "answer": "B. An earthquake hit on Friday, rescue teams found twenty survivors, and the warning had been sent ten minutes earlier",
+    "solution": "三个要点都要写进同一句。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写灾害报道句",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h036_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "报道已经结束的救援，哪一句时态合适？\nA. The team rescues five people yesterday\nB. The team will rescued yesterday\nC. The team rescued five people yesterday\nD. Rescued the team yesterday five",
+    "answer": "C. The team rescued five people yesterday",
+    "solution": "yesterday 用过去式 rescued。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写灾害报道句",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h036_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句适合提醒读者去庇护所？\nA. Please go to the neerest shelter\nB. Please go to the nearrest shelter\nC. Please go to the most near shelter\nD. Please go to the nearest shelter",
+    "answer": "D. Please go to the nearest shelter",
+    "solution": "祈使句 Please go to 用来提醒。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写灾害报道句",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h036_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想用定语从句说明发出警报的电台，哪一句正确？\nA. The station that sent the warning is local\nB. The station that sent the warning are local\nC. The station where sent the warning\nD. The station he sent the warning is local",
+    "answer": "A. The station that sent the warning is local",
+    "solution": "station 是物，用 that，从句里不再重复主语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写灾害报道句",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h036_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「方言」？\nA. character\nB. accent\nC. dialect\nD. vocabulary",
+    "answer": "C. dialect",
+    "solution": "dialect 的意思是方言。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "语言与文字",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h037_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「character」的中文意思是哪一个？\nA. 方言\nB. 口音\nC. 词汇量\nD. 文字",
+    "answer": "D. 文字",
+    "solution": "character 的意思是文字。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "语言与文字",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h037_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「口音」的单词。\nA. accent\nB. dialect\nC. character\nD. vocabulary",
+    "answer": "A. accent",
+    "solution": "表示口音的单词是 accent。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "语言与文字",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h037_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「词汇量」？\nA. dialect\nB. vocabulary\nC. character\nD. accent",
+    "answer": "B. vocabulary",
+    "solution": "vocabulary 的意思是词汇量。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "语言与文字",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h037_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「不快乐的」？\nA. careful\nB. writer\nC. rewrite\nD. unhappy",
+    "answer": "D. unhappy",
+    "solution": "unhappy 的意思是不快乐的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "前缀和后缀",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h038_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「careful」的中文意思是哪一个？\nA. 仔细的\nB. 不快乐的\nC. 作者\nD. 重写",
+    "answer": "A. 仔细的",
+    "solution": "careful 的意思是仔细的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "前缀和后缀",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h038_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「作者」的单词。\nA. unhappy\nB. writer\nC. careful\nD. rewrite",
+    "answer": "B. writer",
+    "solution": "表示作者的单词是 writer。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "前缀和后缀",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h038_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「重写」？\nA. unhappy\nB. careful\nC. rewrite\nD. writer",
+    "answer": "C. rewrite",
+    "solution": "rewrite 的意思是重写。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "前缀和后缀",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h038_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I remember the day ___ we met. 横线处填哪一个？\nA. when\nB. which\nC. who\nD. whose",
+    "answer": "A. when",
+    "solution": "先行词 the day 表示时间，用 when。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "关系副词定语从句",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h039_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The village ___ I grew up is quiet. 横线处填哪一个？\nA. when\nB. where\nC. who\nD. whose",
+    "answer": "B. where",
+    "solution": "先行词 the village 表示地点，用 where。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "关系副词定语从句",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h039_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I know the reason ___ she left. 横线处填哪一个？\nA. where\nB. who\nC. why\nD. whom",
+    "answer": "C. why",
+    "solution": "先行词 the reason 表示原因，用 why。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "关系副词定语从句",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h039_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. This is the museum when we learned about characters\nB. This is the museum who we learned about characters\nC. This is the museum why we learned about characters\nD. This is the museum where we learned about characters",
+    "answer": "D. This is the museum where we learned about characters",
+    "solution": "museum 是地点，用 where。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "关系副词定语从句",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h039_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "This is the man to ___ I spoke. 横线处填哪一个？\nA. who\nB. whom\nC. whose\nD. where",
+    "answer": "B. whom",
+    "solution": "介词 to 提前时，指人用 whom。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "介词加关系代词",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h040_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The article in ___ I found the word is short. 横线处填哪一个？\nA. whom\nB. who\nC. which\nD. where",
+    "answer": "C. which",
+    "solution": "介词 in 后面指物用 which。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "介词加关系代词",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h040_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. The student with who I practised is kind\nB. The student with whose I practised is kind\nC. The student with where I practised is kind\nD. The student with whom I practised is kind",
+    "answer": "D. The student with whom I practised is kind",
+    "solution": "with 提前，指人用 whom。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "介词加关系代词",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h040_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The topic about ___ we argued is dialects. 横线处填哪一个？\nA. which\nB. whom\nC. who\nD. when",
+    "answer": "A. which",
+    "solution": "about 后面指事物 topic，用 which。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "介词加关系代词",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h040_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说汉字很有趣但难写，哪一句合适？\nA. Chinese characters are interest but hard to write\nB. Chinese characters are interesting but hard to writing\nC. Chinese characters are interesting but hard to write\nD. Chinese characters are interesting but hard to writes",
+    "answer": "C. Chinese characters are interesting but hard to write",
+    "solution": "interesting but hard 用来说明看法和理由。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论语言",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h041_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想问对方会不会说家乡话，哪一句合适？\nA. Can you speaking your local dialect\nB. Can you speak you local dialect\nC. Can you speak your local diallect\nD. Can you speak your local dialect",
+    "answer": "D. Can you speak your local dialect",
+    "solution": "询问能力用 Can you speak。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论语言",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h041_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "对方口音很重，你没听清，哪一句礼貌？\nA. Could you say that again more slowly\nB. Your accent is terrible, stop\nC. Could you say that again more slow\nD. Could you say that again more slower",
+    "answer": "A. Could you say that again more slowly",
+    "solution": "请求对方再说一遍用 Could you say that again。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论语言",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h041_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说明扩大词汇量需要阅读，哪一句合适？\nA. Reading help you build your vocabulary\nB. Reading helps you build your vocabulary\nC. Reading helps you build your vocabulery\nD. Reading helps you build your vocabullary",
+    "answer": "B. Reading helps you build your vocabulary",
+    "solution": "helps you build your vocabulary 说明阅读的作用。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论语言",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h041_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Mei is learning Chinese characters. She thinks the writing is difficult, but she likes reading short stories. Her vocabulary grows every week. Mei 在学什么？\nA. 法语语法\nB. 马拉松\nC. 救援\nD. 汉字",
+    "answer": "D. 汉字",
+    "solution": "短文写 Chinese characters。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读语言学习短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h042_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Mei is learning Chinese characters. She thinks the writing is difficult, but she likes reading short stories. Her vocabulary grows every week. 她觉得什么难？\nA. 书写\nB. 听力教室\nC. 跑步\nD. 住宿",
+    "answer": "A. 书写",
+    "solution": "短文写 the writing is difficult。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读语言学习短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h042_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Mei is learning Chinese characters. She thinks the writing is difficult, but she likes reading short stories. Her vocabulary grows every week. 她的词汇量怎么样？\nA. 已经停止\nB. 每周都在增加\nC. 完全没有\nD. 只在周五增加",
+    "answer": "B. 每周都在增加",
+    "solution": "短文写 grows every week。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读语言学习短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h042_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Mei is learning Chinese characters. She thinks the writing is difficult, but she likes reading short stories. Her vocabulary grows every week. 她对阅读的态度是哪一种？\nA. 讨厌所有阅读\nB. 只担心洪水\nC. 喜欢读短篇故事\nD. 没有态度",
+    "answer": "C. 喜欢读短篇故事",
+    "solution": "短文写 she likes reading short stories。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读语言学习短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h042_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "vocabulary 的重音在第几个音节？\nA. 第二个音节\nB. 第一个音节\nC. 第四个音节\nD. 四个音节同样重",
+    "answer": "A. 第二个音节",
+    "solution": "vo-CAB-u-la-ry 的重音在 cab。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "多音节词重音",
+      "语音"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h043_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "character 的重音在第几个音节？\nA. 第二个音节\nB. 第一个音节\nC. 第三个音节\nD. 没有重音",
+    "answer": "B. 第一个音节",
+    "solution": "CHAR-ac-ter 的重音在第一个音节。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "多音节词重音",
+      "语音"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h043_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的重音在第二个音节？\nA. dialect\nB. character\nC. disaster\nD. shelter",
+    "answer": "C. disaster",
+    "solution": "dis-AS-ter 的重音在第二个音节。dialect、character、shelter 的重音在第一个音节。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "多音节词重音",
+      "语音"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h043_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "accommodation 的重音在第几个音节？\nA. 第一个音节\nB. 第二个音节\nC. 第五个音节\nD. 第三个音节",
+    "answer": "D. 第三个音节",
+    "solution": "a-ccom-mo-DA-tion 的重音在 da，也就是第三个音节。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "多音节词重音",
+      "语音"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h043_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要点：每天认十个汉字、读短文、周末复习词汇。哪一句三个要点都有？\nA. I will learn ten characters\nB. I will learn ten characters a day, read a short text and review vocabulary at the weekend\nC. I like stories\nD. The weekend is long",
+    "answer": "B. I will learn ten characters a day, read a short text and review vocabulary at the weekend",
+    "solution": "三个要点都要出现。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写语言学习计划",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h044_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计划用时间从句说明做完作业再读课文，哪一句正确？\nA. I will read after I will finish my homework\nB. I read after I will finish tomorrow\nC. I will read after I finish my homework\nD. After I will finish, I read yesterday",
+    "answer": "C. I will read after I finish my homework",
+    "solution": "after 从句用 finish，主句用 will read。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写语言学习计划",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h044_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句适合作为计划的第一句？\nA. My plan for learning Chinese are simple\nB. My plan for learn Chinese is simple\nC. My plan for learning Chinese is simply\nD. My plan for learning Chinese is simple",
+    "answer": "D. My plan for learning Chinese is simple",
+    "solution": "计划开头可以先概括 My plan is simple。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写语言学习计划",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h044_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想用定语从句介绍帮助自己的老师，哪一句正确？\nA. I thank the teacher who helps me every week\nB. I thank the teacher which helps me every week\nC. I thank the teacher where helps me\nD. I thank the teacher he helps me every week",
+    "answer": "A. I thank the teacher who helps me every week",
+    "solution": "teacher 是人，用 who。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 10,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写语言学习计划",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h044_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  }
+]

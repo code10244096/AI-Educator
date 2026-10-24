@@ -1,0 +1,2518 @@
+[
+  {
+    "question_text": "哪个单词的意思是「遗产」？\nA. preserve\nB. relic\nC. heritage\nD. dynasty",
+    "answer": "C. heritage",
+    "solution": "heritage 的意思是遗产。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "文化遗产",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h045_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「preserve」的中文意思是哪一个？\nA. 遗产\nB. 遗物\nC. 朝代\nD. 保护",
+    "answer": "D. 保护",
+    "solution": "preserve 的意思是保护。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "文化遗产",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h045_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「遗物」的单词。\nA. relic\nB. heritage\nC. preserve\nD. dynasty",
+    "answer": "A. relic",
+    "solution": "表示遗物的单词是 relic。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "文化遗产",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h045_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「朝代」？\nA. heritage\nB. dynasty\nC. preserve\nD. relic",
+    "answer": "B. dynasty",
+    "solution": "dynasty 的意思是朝代。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "文化遗产",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h045_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「修复」？\nA. damage\nB. ancient\nC. site\nD. restore",
+    "answer": "D. restore",
+    "solution": "restore 的意思是修复。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "保护文物",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h046_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「damage」的中文意思是哪一个？\nA. 损坏\nB. 修复\nC. 古代的\nD. 遗址",
+    "answer": "A. 损坏",
+    "solution": "damage 的意思是损坏。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "保护文物",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h046_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「古代的」的单词。\nA. restore\nB. ancient\nC. damage\nD. site",
+    "answer": "B. ancient",
+    "solution": "表示古代的的单词是 ancient。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "保护文物",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h046_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「遗址」？\nA. restore\nB. damage\nC. site\nD. ancient",
+    "answer": "C. site",
+    "solution": "site 的意思是遗址。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "保护文物",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h046_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "My brother, ___ lives in Luoyang, is a guide. 横线处填哪一个？\nA. who\nB. that\nC. which\nD. whom",
+    "answer": "A. who",
+    "solution": "非限制性定语从句里，指人作主语用 who，不用 that。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "非限制性定语从句",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h047_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The temple, ___ was built in the Tang Dynasty, is famous. 横线处填哪一个？\nA. that\nB. which\nC. who\nD. where",
+    "answer": "B. which",
+    "solution": "非限制性定语从句指物用 which，不用 that。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "非限制性定语从句",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h047_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. The site, that we visited, is ancient\nB. The site which, we visited is ancient\nC. The site, which we visited, is ancient\nD. The site, who we visited, is ancient",
+    "answer": "C. The site, which we visited, is ancient",
+    "solution": "逗号后面的非限制性从句用 which。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "非限制性定语从句",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h047_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "非限制性定语从句去掉以后，主句还成立吗？\nA. 主句不能成立\nB. 从句变成主语\nC. 逗号必须删掉才正确\nD. 主句仍然成立，从句只是补充",
+    "answer": "D. 主句仍然成立，从句只是补充",
+    "solution": "非限制性从句是附加说明，去掉后主句意思仍然完整。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "非限制性定语从句",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h047_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "He missed the train, ___ made him late. 横线处填哪一个？\nA. that\nB. which\nC. who\nD. what",
+    "answer": "B. which",
+    "solution": "which 指代 missed the train 整件事。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "which 指代整句",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h048_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句里的 which 指代前面整句？\nA. The ticket which she forgot was blue\nB. The boy who forgot it is Tom\nC. She forgot the ticket, which was a pity\nD. This is the train which was late",
+    "answer": "C. She forgot the ticket, which was a pity",
+    "solution": "逗号后的 which 指忘记车票这件事。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "which 指代整句",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h048_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "They restored the site, ___ took three years. 横线处填哪一个？\nA. who\nB. that\nC. where\nD. which",
+    "answer": "D. which",
+    "solution": "which 指代修复遗址这件事。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "which 指代整句",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h048_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句不能把 that 换成指代整句的 which？\nA. The relic that we saw is small\nB. Rain came, which stopped the work\nC. He was late, which annoyed the guide\nD. The bridge fell, which shocked everyone",
+    "answer": "A. The relic that we saw is small",
+    "solution": "The relic that we saw 里的 that 指 relic，不是整句。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "which 指代整句",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h048_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说古庙应该被保护，哪一句合适？\nA. I thinks the ancient temple should be preserved\nB. I not think the ancient temple should be preserved\nC. I think the ancient temple should be preserved\nD. I think the ancient temple should be preserve",
+    "answer": "C. I think the ancient temple should be preserved",
+    "solution": "should be preserved 用来表达应该保护。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "讨论保护遗产",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h049_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说明损坏来自游客乱刻，哪一句合适？\nA. Damage is a coach\nB. The damage come from visitors cutting the walls\nC. The damage comes from visitors cut the walls\nD. The damage comes from visitors cutting the walls",
+    "answer": "D. The damage comes from visitors cutting the walls",
+    "solution": "comes from 用来说明原因。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "讨论保护遗产",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h049_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "对方认为修复太贵，你部分同意，应回答什么？\nA. I see your point, but the site is worth it\nB. I see your point, but the site are worth it\nC. I see you point, but the site is worth it\nD. I see your point, but the site is worthy it",
+    "answer": "A. I see your point, but the site is worth it",
+    "solution": "部分同意可以说 I see your point, but。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "讨论保护遗产",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h049_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想建议设立参观规则，哪一句合适？\nA. We could maked rules for visitors\nB. We could make rules for visitors\nC. We could to make rules for visitors\nD. We could makes rules for visitors",
+    "answer": "B. We could make rules for visitors",
+    "solution": "提建议用 We could make rules。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "讨论保护遗产",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h049_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The old city wall is part of the local heritage. Workers are restoring a gate that was damaged by rain. Visitors may take photos but must not touch the relics. 城墙属于什么？\nA. 一座体育场\nB. 一封邮件\nC. 一场马拉松\nD. 当地的遗产",
+    "answer": "D. 当地的遗产",
+    "solution": "短文写 local heritage。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读遗产说明",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h050_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The old city wall is part of the local heritage. Workers are restoring a gate that was damaged by rain. Visitors may take photos but must not touch the relics. 大门为什么在修复？\nA. 被雨水损坏了\nB. 游客买下了它\nC. 它是新建的\nD. 没有大门",
+    "answer": "A. 被雨水损坏了",
+    "solution": "短文写 damaged by rain。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读遗产说明",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h050_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The old city wall is part of the local heritage. Workers are restoring a gate that was damaged by rain. Visitors may take photos but must not touch the relics. 游客不能做什么？\nA. 拍照\nB. 触摸遗物\nC. 阅读说明\nD. 站在门外",
+    "answer": "B. 触摸遗物",
+    "solution": "短文写 must not touch the relics。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读遗产说明",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h050_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The old city wall is part of the local heritage. Workers are restoring a gate that was damaged by rain. Visitors may take photos but must not touch the relics. 这段文字主要在做什么？\nA. 反对保护城墙\nB. 招聘教练\nC. 说明遗产现状和参观规则\nD. 报道一场洪水",
+    "answer": "C. 说明遗产现状和参观规则",
+    "solution": "短文在介绍修复和规则，没有反对保护。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读遗产说明",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h050_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要点：城墙是遗产、雨水造成损坏、游客不要触摸。哪一句三个要点都有？\nA. The wall is heritage, rain damaged it, and visitors must not touch the relics\nB. The wall is heritage\nC. Rain is wet\nD. Visitors like photos",
+    "answer": "A. The wall is heritage, rain damaged it, and visitors must not touch the relics",
+    "solution": "三个要点都要出现。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写保护建议",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h051_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想用非限制性定语从句补充城墙的年代，哪一句正确？\nA. The wall, that dates from the Ming Dynasty, needs care\nB. The wall, which dates from the Ming Dynasty, needs care\nC. The wall which, dates from the Ming Dynasty needs care\nD. The wall, who dates from the Ming Dynasty, needs care",
+    "answer": "B. The wall, which dates from the Ming Dynasty, needs care",
+    "solution": "非限制性从句用 which，不用 that。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写保护建议",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h051_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句适合作为建议的第一句？\nA. I suggest we protecting the old city wall\nB. I suggesting we protect the old city wall\nC. I suggest we protect the old city wall\nD. I sugest we protect the old city wall",
+    "answer": "C. I suggest we protect the old city wall",
+    "solution": "建议开头可以用 I suggest。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写保护建议",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h051_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句正确使用了 which 指代整句？\nA. The stone which people carve is soft\nB. People who carve names are few\nC. This is the wall which is old\nD. Some people carve names, which damages the stone",
+    "answer": "D. Some people carve names, which damages the stone",
+    "solution": "逗号后的 which 指刻字这件事。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写保护建议",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h051_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「野生动物」？\nA. species\nB. wildlife\nC. habitat\nD. extinct",
+    "answer": "B. wildlife",
+    "solution": "wildlife 的意思是野生动物。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "野生动物",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h052_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「species」的中文意思是哪一个？\nA. 野生动物\nB. 栖息地\nC. 物种\nD. 灭绝的",
+    "answer": "C. 物种",
+    "solution": "species 的意思是物种。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "野生动物",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h052_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「栖息地」的单词。\nA. wildlife\nB. species\nC. extinct\nD. habitat",
+    "answer": "D. habitat",
+    "solution": "表示栖息地的单词是 habitat。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "野生动物",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h052_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「灭绝的」？\nA. extinct\nB. wildlife\nC. species\nD. habitat",
+    "answer": "A. extinct",
+    "solution": "extinct 的意思是灭绝的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "野生动物",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h052_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「保护区」？\nA. hunter\nB. endangered\nC. reserve\nD. plain",
+    "answer": "C. reserve",
+    "solution": "reserve 的意思是保护区。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "保护栖息地",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h053_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「hunter」的中文意思是哪一个？\nA. 保护区\nB. 濒危的\nC. 平原\nD. 捕猎者",
+    "answer": "D. 捕猎者",
+    "solution": "hunter 的意思是捕猎者。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "保护栖息地",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h053_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「濒危的」的单词。\nA. endangered\nB. reserve\nC. hunter\nD. plain",
+    "answer": "A. endangered",
+    "solution": "表示濒危的的单词是 endangered。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "保护栖息地",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h053_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「平原」？\nA. reserve\nB. plain\nC. hunter\nD. endangered",
+    "answer": "B. plain",
+    "solution": "plain 的意思是平原。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "保护栖息地",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h053_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The reserve ___ now. 表示正在被清理，横线处填哪一个？\nA. is cleaning\nB. is cleaned\nC. was being cleaned\nD. is being cleaned",
+    "answer": "D. is being cleaned",
+    "solution": "现在进行时被动是 is being 加过去分词。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "现在进行时的被动语态",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h054_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是现在进行时的被动？\nA. The antelopes are being protected\nB. The antelopes are protecting\nC. The antelopes were protected\nD. The antelopes have protected",
+    "answer": "A. The antelopes are being protected",
+    "solution": "are being protected 是正在被保护。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "现在进行时的被动语态",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h054_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A new plain ___ for the birds this week. 横线处填哪一个？\nA. is preparing\nB. is being prepared\nC. prepares\nD. is been prepared",
+    "answer": "B. is being prepared",
+    "solution": "主语是物，正在被准备，用 is being prepared。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "现在进行时的被动语态",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h054_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句的语态用错了？\nA. The habitat is being destroyed\nB. Workers are destroying the old fence\nC. The habitat is being destroy\nD. The fence is being repaired",
+    "answer": "C. The habitat is being destroy",
+    "solution": "being 后面要用过去分词 destroyed，不能用原形 destroy。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "现在进行时的被动语态",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h054_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The story is ___ (interest). 表示故事令人感兴趣，填哪一个？\nA. interesting\nB. interested\nC. interest\nD. interests",
+    "answer": "A. interesting",
+    "solution": "物作主语、说明性质用 interesting。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去分词和动词 -ing",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h055_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The children are ___ in whales. 横线处填哪一个？\nA. interesting\nB. interested\nC. interest\nD. interests",
+    "answer": "B. interested",
+    "solution": "人感到有兴趣用 interested。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去分词和动词 -ing",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h055_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. We are worrying species about the endangered\nB. The species is worried to us\nC. We are worried about the endangered species\nD. The news is worried",
+    "answer": "C. We are worried about the endangered species",
+    "solution": "人作主语用 worried。消息令人担心要用 worrying。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去分词和动词 -ing",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h055_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a ___ species 表示令人担心的物种，横线处填哪一个？\nA. worried\nB. worry\nC. worries\nD. worrying",
+    "answer": "D. worrying",
+    "solution": "修饰物种、说明它让人担心，用 worrying。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去分词和动词 -ing",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h055_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说藏羚羊正在被保护，哪一句合适？\nA. The antelopes are protecting the reserve\nB. The antelopes are being protected in the reserve\nC. The antelopes is being protected in the reserve\nD. The antellopes are being protected in the reserve",
+    "answer": "B. The antelopes are being protected in the reserve",
+    "solution": "正在被保护用 are being protected。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "讨论动物保护",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h056_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说明猎人才是危险的来源，哪一句合适？\nA. Hunters is the main danger to this species\nB. Hunter are the main danger to this species\nC. Hunters are the main danger to this species\nD. Hunter is the main danger to this species",
+    "answer": "C. Hunters are the main danger to this species",
+    "solution": "are the main danger 用来说明原因。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "讨论动物保护",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h056_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "对方说保护区没有用，你不同意，应回答什么？\nA. I don't agree, because the numbers are rise\nB. I don't agree, because the numbers is rising\nC. I don't agree, because the number are rising\nD. I don't agree, because the numbers are rising",
+    "answer": "D. I don't agree, because the numbers are rising",
+    "solution": "不同意要加上 because 说明理由。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "讨论动物保护",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h056_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想建议人们不要购买野生动物制品，哪一句合适？\nA. Please do not buy products made from wild animals\nB. Please not buy products made from wild animals\nC. Please do not buying products made from wild animals\nD. Please do not buy products make from wild animals",
+    "answer": "A. Please do not buy products made from wild animals",
+    "solution": "祈使句 Please do not buy 用来建议。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "讨论动物保护",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h056_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The Tibetan antelope was once endangered. Now the animals are being protected on the plain. Visitors are interested in the reserve but must not feed the wildlife. 藏羚羊曾经处于什么状态？\nA. 已经灭绝\nB. 数量过多\nC. 濒危\nD. 生活在城市",
+    "answer": "C. 濒危",
+    "solution": "短文写 was once endangered。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读动物保护短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h057_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The Tibetan antelope was once endangered. Now the animals are being protected on the plain. Visitors are interested in the reserve but must not feed the wildlife. 它们现在怎么样？\nA. 正在被猎杀\nB. 已经离开保护区\nC. 在喂食游客\nD. 正在平原上被保护",
+    "answer": "D. 正在平原上被保护",
+    "solution": "短文写 are being protected on the plain。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读动物保护短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h057_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The Tibetan antelope was once endangered. Now the animals are being protected on the plain. Visitors are interested in the reserve but must not feed the wildlife. 游客不能做什么？\nA. 给野生动物喂食\nB. 对保护区感兴趣\nC. 阅读说明\nD. 站在外面",
+    "answer": "A. 给野生动物喂食",
+    "solution": "短文写 must not feed the wildlife。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读动物保护短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h057_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The Tibetan antelope was once endangered. Now the animals are being protected on the plain. Visitors are interested in the reserve but must not feed the wildlife. 哪一句和短文一致？\nA. The antelope is extinct\nB. Visitors must not feed the wildlife\nC. The animals are protecting the visitors\nD. The plain has no reserve",
+    "answer": "B. Visitors must not feed the wildlife",
+    "solution": "短文说的是游客不能喂食。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读动物保护短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h057_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要点：物种曾经濒危、现在正在被保护、不要喂食。哪一句三个要点都有？\nA. This species was endangered\nB. Please do not feed it\nC. The plain is wide\nD. This species was endangered, it is being protected now, and please do not feed it",
+    "answer": "D. This species was endangered, it is being protected now, and please do not feed it",
+    "solution": "三个要点都要出现。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写保护海报句",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h058_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "海报要用进行时被动说明正在进行的工作，哪一句符合？\nA. A new fence is being built\nB. A new fence is building\nC. A new fence built being\nD. A new fence is been built",
+    "answer": "A. A new fence is being built",
+    "solution": "is being built 才是进行时被动。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写保护海报句",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h058_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句适合作为海报标题？\nA. Protect the endangerred antelope\nB. Protect the endangered antelope\nC. Protect the endangering antelope\nD. Protect the danger antelope",
+    "answer": "B. Protect the endangered antelope",
+    "solution": "标题可以用祈使句 Protect。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写保护海报句",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h058_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句正确区分了 interested 和 interesting？\nA. Children are interesting in the interested film\nB. The film is interested in children\nC. Children are interested in the interesting film\nD. Children are interest in the film",
+    "answer": "C. Children are interested in the interesting film",
+    "solution": "人用 interested，影片用 interesting。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写保护海报句",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h058_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「互联网」？\nA. Internet\nB. blog\nC. comment\nD. identity",
+    "answer": "A. Internet",
+    "solution": "Internet 的意思是互联网。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "互联网",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h059_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「blog」的中文意思是哪一个？\nA. 互联网\nB. 博客\nC. 评论\nD. 身份",
+    "answer": "B. 博客",
+    "solution": "blog 的意思是博客。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "互联网",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h059_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「评论」的单词。\nA. Internet\nB. blog\nC. comment\nD. identity",
+    "answer": "C. comment",
+    "solution": "表示评论的单词是 comment。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "互联网",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h059_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「身份」？\nA. Internet\nB. blog\nC. comment\nD. identity",
+    "answer": "D. identity",
+    "solution": "identity 的意思是身份。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "互联网",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h059_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「在线的」？\nA. privacy\nB. online\nC. password\nD. post",
+    "answer": "B. online",
+    "solution": "online 的意思是在线的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "在线行为",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h060_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「privacy」的中文意思是哪一个？\nA. 在线的\nB. 密码\nC. 隐私\nD. 发布",
+    "answer": "C. 隐私",
+    "solution": "privacy 的意思是隐私。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "在线行为",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h060_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「密码」的单词。\nA. online\nB. privacy\nC. post\nD. password",
+    "answer": "D. password",
+    "solution": "表示密码的单词是 password。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "在线行为",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h060_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「发布」？\nA. post\nB. online\nC. privacy\nD. password",
+    "answer": "A. post",
+    "solution": "post 的意思是发布。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "在线行为",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h060_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The password ___ . 表示已经被更改，横线处填哪一个？\nA. has changed\nB. has being changed\nC. has been changed\nD. was being changed",
+    "answer": "C. has been changed",
+    "solution": "现在完成时被动是 has been 加过去分词。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "现在完成时的被动语态",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h061_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是现在完成时的被动？\nA. Two comments have deleted\nB. Two comments are deleting\nC. Two comments deleted been\nD. Two comments have been deleted",
+    "answer": "D. Two comments have been deleted",
+    "solution": "have been deleted 表示已经被删除。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "现在完成时的被动语态",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h061_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "My blog ___ by many students since Monday. 横线处填哪一个？\nA. has been read\nB. has read\nC. is being read\nD. have been read",
+    "answer": "A. has been read",
+    "solution": "blog 是单数，完成时被动用 has been read。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "现在完成时的被动语态",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h061_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. The post has been share online\nB. The post has been shared online\nC. The post has being shared online\nD. The post have been shared online",
+    "answer": "B. The post has been shared online",
+    "solution": "been 后面用过去分词 shared，单数主语用 has。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "现在完成时的被动语态",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h061_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I ___ this blog since 2020. 横线处填哪一个？\nA. kept\nB. keep\nC. am keeping\nD. have kept",
+    "answer": "D. have kept",
+    "solution": "since 2020 要和现在完成时 have kept 搭配。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "since 与现在完成时",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h062_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. She has used the same password since May\nB. She used the same password since May\nC. She uses the same password since May\nD. She has used the same password since three days",
+    "answer": "A. She has used the same password since May",
+    "solution": "since 加时间点用现在完成时。since three days 缺少 ago，不作为正确项。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "since 与现在完成时",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h062_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The app ___ many times since it was posted. 横线处填哪一个？\nA. was updated\nB. has been updated\nC. is updated\nD. updated",
+    "answer": "B. has been updated",
+    "solution": "since 从句说明起点，主句用完成时被动。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "since 与现在完成时",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h062_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "since Monday 更适合和哪一种时态一起用？\nA. 一般过去时单独使用\nB. 现在进行时表安排\nC. 现在完成时\nD. 一般现在时表习惯",
+    "answer": "C. 现在完成时",
+    "solution": "since 表示从过去持续到现在，用现在完成时。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "since 与现在完成时",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h062_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想提醒同学不要公开密码，哪一句合适？\nA. Never post your password online\nB. Post your password to everyone\nC. Never post your pasword online\nD. Never post you password online",
+    "answer": "A. Never post your password online",
+    "solution": "提醒用 Never post your password。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论网络安全",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h063_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说评论已经被删除，哪一句合适？\nA. The rude comment has deleted the blog\nB. The rude comment has been deleted\nC. The rude comment have been deleted\nD. The rude comment has been delete",
+    "answer": "B. The rude comment has been deleted",
+    "solution": "已经被删除用 has been deleted。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论网络安全",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h063_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "对方问为什么要用昵称，你说明理由，哪一句合适？\nA. I use a nickname to protecting my privacy\nB. I use a nickname to protects my privacy\nC. I use a nickname to protect my privacy\nD. I use an nickname to protect my privacy",
+    "answer": "C. I use a nickname to protect my privacy",
+    "solution": "to protect my privacy 说明目的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论网络安全",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h063_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想建议对方先核对身份再加好友，哪一句合适？\nA. Check the person's idantity before you add them\nB. Check the persons identity before you add them\nC. Check the person's identify before you add them\nD. Check the person's identity before you add them",
+    "answer": "D. Check the person's identity before you add them",
+    "solution": "提建议用祈使句 Check。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论网络安全",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h063_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Since March, Lin's class blog has been read by students in three schools. One unkind comment has been deleted. Lin never posts his real name or password. 博客从什么时候开始被阅读？\nA. 昨天\nB. 三月以来\nC. 三年前的一天\nD. 没有时间",
+    "answer": "B. 三月以来",
+    "solution": "短文写 Since March。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读网络短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h064_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Since March, Lin's class blog has been read by students in three schools. One unkind comment has been deleted. Lin never posts his real name or password. 不友善的评论怎么样了？\nA. 被置顶\nB. 还在增加\nC. 已经被删除\nD. 变成了密码",
+    "answer": "C. 已经被删除",
+    "solution": "短文写 has been deleted。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读网络短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h064_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Since March, Lin's class blog has been read by students in three schools. One unkind comment has been deleted. Lin never posts his real name or password. Lin 不发布什么？\nA. 班级博客\nB. 学校名称\nC. 所有图片\nD. 真名和密码",
+    "answer": "D. 真名和密码",
+    "solution": "短文写 never posts his real name or password。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读网络短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h064_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Since March, Lin's class blog has been read by students in three schools. One unkind comment has been deleted. Lin never posts his real name or password. 作者对那条不友善评论的态度是哪一种？\nA. 把它删掉，而不是赞成它\nB. 认为它很有趣所以保留\nC. 没有提到评论\nD. 鼓励更多这样的评论",
+    "answer": "A. 把它删掉，而不是赞成它",
+    "solution": "评论被删除，说明作者不赞成它。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读网络短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h064_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要点：不发密码、保护隐私、粗鲁评论已删除。哪一句三个要点都有？\nA. Do not post your password\nB. Privacy matters\nC. Do not post your password, protect your privacy, and the rude comment has been deleted\nD. The blog is new",
+    "answer": "C. Do not post your password, protect your privacy, and the rude comment has been deleted",
+    "solution": "三个要点都要出现。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写网络提醒",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h065_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "提醒要从三月写到现在，哪一句时态合适？\nA. The rule was used since March\nB. The rule is used since March\nC. The rule has used since March\nD. The rule has been used since March",
+    "answer": "D. The rule has been used since March",
+    "solution": "since March 用现在完成时，规则是被使用，用 has been used。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写网络提醒",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h065_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句适合作为提醒的标题？\nA. Keep your identity safe online\nB. Keep your idantity safe online\nC. Keep your identify safe online\nD. Keep you identity safe online",
+    "answer": "A. Keep your identity safe online",
+    "solution": "标题可以是 Keep your identity safe online。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写网络提醒",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h065_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的完成时被动？\nA. The photo has been remove\nB. The photo has been removed\nC. The photo has being removed\nD. The photo have been removed",
+    "answer": "B. The photo has been removed",
+    "solution": "has been 加过去分词 removed。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写网络提醒",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h065_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「传统」？\nA. battle\nB. kingdom\nC. custom\nD. tradition",
+    "answer": "D. tradition",
+    "solution": "tradition 的意思是传统。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "历史传统",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h066_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「battle」的中文意思是哪一个？\nA. 战役\nB. 传统\nC. 王国\nD. 习俗",
+    "answer": "A. 战役",
+    "solution": "battle 的意思是战役。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "历史传统",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h066_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「王国」的单词。\nA. tradition\nB. kingdom\nC. battle\nD. custom",
+    "answer": "B. kingdom",
+    "solution": "表示王国的单词是 kingdom。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "历史传统",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h066_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「习俗」？\nA. tradition\nB. battle\nC. custom\nD. kingdom",
+    "answer": "C. custom",
+    "solution": "custom 的意思是习俗。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "历史传统",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h066_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「祖先」？\nA. ancestor\nB. honour\nC. gathering\nD. poem",
+    "answer": "A. ancestor",
+    "solution": "ancestor 的意思是祖先。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "节日习俗",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h067_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「honour」的中文意思是哪一个？\nA. 祖先\nB. 纪念\nC. 聚会\nD. 诗",
+    "answer": "B. 纪念",
+    "solution": "honour 的意思是纪念。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "节日习俗",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h067_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「聚会」的单词。\nA. ancestor\nB. honour\nC. gathering\nD. poem",
+    "answer": "C. gathering",
+    "solution": "表示聚会的单词是 gathering。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "节日习俗",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h067_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「诗」？\nA. ancestor\nB. honour\nC. gathering\nD. poem",
+    "answer": "D. poem",
+    "solution": "poem 的意思是诗。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "节日习俗",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h067_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a ___ castle 表示被毁坏的城堡，横线处填哪一个？\nA. ruining\nB. ruined\nC. ruin\nD. ruins",
+    "answer": "B. ruined",
+    "solution": "被毁坏的城堡用过去分词 ruined 作定语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去分词作定语和表语",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h068_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The gate is ___. 表示大门关着，横线处填哪一个？\nA. closing\nB. close\nC. closed\nD. closes",
+    "answer": "C. closed",
+    "solution": "状态用过去分词 closed 作表语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去分词作定语和表语",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h068_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. The poem writing by Li Bai is famous\nB. The poem wrote by Li Bai is famous\nC. The poem write by Li Bai is famous\nD. The poem written by Li Bai is famous",
+    "answer": "D. The poem written by Li Bai is famous",
+    "solution": "written by Li Bai 作定语，修饰 poem。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去分词作定语和表语",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h068_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The visitors were ___ by the old custom. 横线处填哪一个？\nA. surprised\nB. surprising\nC. surprise\nD. surprises",
+    "answer": "A. surprised",
+    "solution": "人感到惊讶用 surprised 作表语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去分词作定语和表语",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h068_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I heard my name ___. 表示名字被叫到，横线处填哪一个？\nA. calling\nB. call\nC. called\nD. to calling",
+    "answer": "C. called",
+    "solution": "name 是被叫的，宾补用 called。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去分词作宾补",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h069_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "She found the window ___. 表示窗户被打破了，横线处填哪一个？\nA. breaking\nB. broke\nC. break\nD. broken",
+    "answer": "D. broken",
+    "solution": "window 是被打破的，用 broken。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去分词作宾补",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h069_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. We saw the hall decorated with poems\nB. We saw the hall decorating with poems\nC. We saw the hall decorate with poems\nD. We saw the hall to decorated with poems",
+    "answer": "A. We saw the hall decorated with poems",
+    "solution": "hall 是被装饰的，宾补用 decorated。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去分词作宾补",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h069_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "They kept the tradition ___. 表示传统被保存，横线处填哪一个？\nA. preserving\nB. preserved\nC. preserve\nD. to preserving",
+    "answer": "B. preserved",
+    "solution": "tradition 是被保存的对象，用 preserved。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去分词作宾补",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h069_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想介绍清明纪念祖先的习俗，哪一句合适？\nA. On Qingming people honours their ancestors\nB. On Qingming people honour they ancestors\nC. On Qingming people honour their ancestor's\nD. On Qingming people honour their ancestors",
+    "answer": "D. On Qingming people honour their ancestors",
+    "solution": "honour their ancestors 用来介绍习俗。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论传统",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h070_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说这首诗是李白写的，哪一句合适？\nA. This is a poem written by Li Bai\nB. This is a poem writing by Li Bai\nC. This is a poem wrote by Li Bai\nD. Poem is written Li Bai by",
+    "answer": "A. This is a poem written by Li Bai",
+    "solution": "written by 作定语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论传统",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h070_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想表示自己支持保留这项聚会，哪一句合适？\nA. I support eating the tradition\nB. I support keeping this gathering\nC. I support keep this gathering\nD. I support keeping this gatherring",
+    "answer": "B. I support keeping this gathering",
+    "solution": "I support keeping 用来表态。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论传统",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h070_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "对方问你有没有看见被装饰的大厅，哪一句回答正确？\nA. Yes, I saw the hall decorating with flowers\nB. Yes, I saw the hall decorate flowers\nC. Yes, I saw the hall decorated with flowers\nD. Yes, decorated saw I the hall",
+    "answer": "C. Yes, I saw the hall decorated with flowers",
+    "solution": "宾补用 decorated，表示大厅被装饰。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论传统",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h070_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "During the festival, families hold a gathering to honour their ancestors. A poem written by a local teacher is read aloud. Last year the old hall was decorated with paper flowers. 聚会是为了什么？\nA. 纪念祖先\nB. 庆祝比赛\nC. 修复城墙\nD. 发布博客",
+    "answer": "A. 纪念祖先",
+    "solution": "短文写 honour their ancestors。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读传统短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h071_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "During the festival, families hold a gathering to honour their ancestors. A poem written by a local teacher is read aloud. Last year the old hall was decorated with paper flowers. 诗是谁写的？\nA. 李白\nB. 一位当地老师\nC. 游客\nD. 没有作者",
+    "answer": "B. 一位当地老师",
+    "solution": "短文写 written by a local teacher。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读传统短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h071_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "During the festival, families hold a gathering to honour their ancestors. A poem written by a local teacher is read aloud. Last year the old hall was decorated with paper flowers. 去年大厅怎么样？\nA. 被雨水冲毁\nB. 改成了体育场\nC. 用纸花装饰了\nD. 没有大厅",
+    "answer": "C. 用纸花装饰了",
+    "solution": "短文写 decorated with paper flowers。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读传统短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h071_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "During the festival, families hold a gathering to honour their ancestors. A poem written by a local teacher is read aloud. Last year the old hall was decorated with paper flowers. 哪一句和短文一致？\nA. The poem was written by Li Bai\nB. The hall is a new stadium\nC. There is no gathering\nD. Families honour their ancestors",
+    "answer": "D. Families honour their ancestors",
+    "solution": "短文说的是纪念祖先。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读传统短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h071_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要点：聚会纪念祖先、朗读当地老师的诗、大厅用纸花装饰。哪一句三个要点都有？\nA. Families gather\nB. Families gather to honour ancestors, read a poem written by a local teacher, and the hall is decorated with paper flowers\nC. The poem is short\nD. Paper flowers are red",
+    "answer": "B. Families gather to honour ancestors, read a poem written by a local teacher, and the hall is decorated with paper flowers",
+    "solution": "三个要点都要出现。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写传统介绍",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h072_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想用过去分词作定语，哪一句正确？\nA. The custom keeping by the village is old\nB. The custom keep by the village is old\nC. The custom kept by the village is old\nD. The custom to kept by the village is old",
+    "answer": "C. The custom kept by the village is old",
+    "solution": "kept by the village 修饰 custom。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写传统介绍",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h072_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句适合作为介绍的开头？\nA. Let me tell you about an local tradition\nB. Let me to tell you about a local tradition\nC. Let me tell you about a local traditions\nD. Let me tell you about a local tradition",
+    "answer": "D. Let me tell you about a local tradition",
+    "solution": "介绍开头可以用 Let me tell you about。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写传统介绍",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h072_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句的宾补是正确的？\nA. We found the door closed\nB. We found the door closing by nobody\nC. We found the door close\nD. We found closed the door was",
+    "answer": "A. We found the door closed",
+    "solution": "door 是被关上的，宾补用 closed。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写传统介绍",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h072_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「古典的」？\nA. band\nB. perform\nC. classical\nD. audience",
+    "answer": "C. classical",
+    "solution": "classical 的意思是古典的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "音乐",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h073_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「band」的中文意思是哪一个？\nA. 古典的\nB. 表演\nC. 听众\nD. 乐队",
+    "answer": "D. 乐队",
+    "solution": "band 的意思是乐队。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "音乐",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h073_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「表演」的单词。\nA. perform\nB. classical\nC. band\nD. audience",
+    "answer": "A. perform",
+    "solution": "表示表演的单词是 perform。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "音乐",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h073_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「听众」？\nA. classical\nB. audience\nC. band\nD. perform",
+    "answer": "B. audience",
+    "solution": "audience 的意思是听众。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "音乐",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h073_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「乐器」？\nA. stage\nB. rhythm\nC. composer\nD. instrument",
+    "answer": "D. instrument",
+    "solution": "instrument 的意思是乐器。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "演奏",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h074_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「stage」的中文意思是哪一个？\nA. 舞台\nB. 乐器\nC. 节奏\nD. 作曲家",
+    "answer": "A. 舞台",
+    "solution": "stage 的意思是舞台。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "演奏",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h074_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「节奏」的单词。\nA. instrument\nB. rhythm\nC. stage\nD. composer",
+    "answer": "B. rhythm",
+    "solution": "表示节奏的单词是 rhythm。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "演奏",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h074_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「作曲家」？\nA. instrument\nB. stage\nC. composer\nD. rhythm",
+    "answer": "C. composer",
+    "solution": "composer 的意思是作曲家。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "演奏",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h074_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a ___ band 表示正在表演的乐队，横线处填哪一个？\nA. performing\nB. performed\nC. perform\nD. to performing",
+    "answer": "A. performing",
+    "solution": "正在表演的乐队用 performing 作定语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "动词 -ing 作定语和表语",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h075_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The news is ___. 表示消息令人兴奋，横线处填哪一个？\nA. excited\nB. exciting\nC. excite\nD. excites",
+    "answer": "B. exciting",
+    "solution": "消息的性质用 exciting 作表语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "动词 -ing 作定语和表语",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h075_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. The smiled audience loved the song\nB. The smile audience loved the song\nC. The smiling audience loved the song\nD. The audience smiling loved are the song",
+    "answer": "C. The smiling audience loved the song",
+    "solution": "smiling 作定语修饰 audience，表示面带微笑。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "动词 -ing 作定语和表语",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h075_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Her job is ___ the stage. 表示工作是布置舞台，横线处填哪一个？\nA. designed\nB. design\nC. to designed\nD. designing",
+    "answer": "D. designing",
+    "solution": "is 后面说明工作内容，用 designing 作表语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "动词 -ing 作定语和表语",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h075_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "___ the violin, she walked onto the stage. 横线处填哪一个？\nA. Played\nB. Playing\nC. Play\nD. To played",
+    "answer": "B. Playing",
+    "solution": "她主动拉小提琴，状语用 Playing。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "动词 -ing 作状语和宾补",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h076_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I heard someone ___ in the hall. 表示听见某人正在唱歌，横线处填哪一个？\nA. sung\nB. sang\nC. singing\nD. to singing",
+    "answer": "C. singing",
+    "solution": "someone 主动在唱，宾补用 singing。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "动词 -ing 作状语和宾补",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h076_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. He sat in the audience, listened carefully\nB. He sat in the audience, listen carefully\nC. Listening carefully, the song was beautiful\nD. He sat in the audience, listening carefully",
+    "answer": "D. He sat in the audience, listening carefully",
+    "solution": "listening 的逻辑主语是 He。歌曲不能作 listening 的主语。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "动词 -ing 作状语和宾补",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h076_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "We watched the band ___. 表示看着乐队演奏，横线处填哪一个？\nA. performing\nB. performed\nC. perform\nD. to performed",
+    "answer": "A. performing",
+    "solution": "band 主动表演，宾补用 performing。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "动词 -ing 作状语和宾补",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h076_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "an old instrument 里，哪两个词更容易连读？\nA. old 和 instrument 的词尾\nB. instrument 内部的两个辅音\nC. an 和 old\nD. 没有任何词",
+    "answer": "C. an 和 old",
+    "solution": "an 以辅音结尾，old 以元音开头，可以连读。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "意群中的连读",
+      "语音"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h077_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "look at it 里，哪一处符合辅音连到元音？\nA. at 的 /t/ 后面没有元音所以必须停\nB. it 的开头是辅音所以连不上\nC. 三个词都要重读且断开\nD. look 的 /k/ 连到 at",
+    "answer": "D. look 的 /k/ 连到 at",
+    "solution": "look 的结尾辅音可以连到 at 的元音。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "意群中的连读",
+      "语音"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h077_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一个短语最适合练习连读？\nA. stand up\nB. big drums\nC. classical music\nD. six bands",
+    "answer": "A. stand up",
+    "solution": "stand 以辅音结尾，up 以元音开头。其余相邻处多是辅音接辅音。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "意群中的连读",
+      "语音"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h077_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "连读主要发生在什么位置？\nA. 每个元音字母上面\nB. 前一个词的辅音和后一个词的元音之间\nC. 句号后面\nD. 两个逗号之间必须停顿",
+    "answer": "B. 前一个词的辅音和后一个词的元音之间",
+    "solution": "连读是把词尾辅音和词首元音连起来。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "意群中的连读",
+      "语音"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h077_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a big band 里，哪个音常常不完全爆破？\nA. band 里的元音\nB. a 的元音\nC. 没有这样的音\nD. big 末尾的 /g/",
+    "answer": "D. big 末尾的 /g/",
+    "solution": "big 的 /g/ 和 band 的 /b/ 都是爆破音，前一个常常不完全爆破。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "不完全爆破",
+      "语音"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h078_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "which 一组含有相邻的爆破音？\nA. good time\nB. my audience\nC. high note\nD. old stage",
+    "answer": "A. good time",
+    "solution": "good 的 /d/ 和 time 的 /t/ 是相邻爆破音。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "不完全爆破",
+      "语音"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h078_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "不完全爆破时，前一个爆破音通常怎样？\nA. 必须读得特别长\nB. 口型做到，但气流不完全冲出\nC. 改成元音\nD. 直接删掉整个单词",
+    "answer": "B. 口型做到，但气流不完全冲出",
+    "solution": "前一个爆破音往往只成阻，不完全释放。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "不完全爆破",
+      "语音"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h078_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "sit down 里更容易出现不完全爆破的是哪一个？\nA. down 的元音\nB. sit 的元音\nC. sit 末尾的 /t/\nD. down 末尾的 /n/",
+    "answer": "C. sit 末尾的 /t/",
+    "solution": "/t/ 后面紧接 down 的 /d/，/t/ 常常不完全爆破。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "不完全爆破",
+      "语音"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h078_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说乐队正在舞台上表演，哪一句合适？\nA. The band is performing on the stage\nB. The band is performed on the stage\nC. The band is perform on the stage\nD. The band is performing in the stage",
+    "answer": "A. The band is performing on the stage",
+    "solution": "乐队主动表演，用 is performing。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论演出",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h079_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想邀请同学去听古典音乐会，哪一句合适？\nA. Shall we go to the clasical concert\nB. Shall we go to the classical concert\nC. Shall we going to the classical concert\nD. We went tomorrow",
+    "answer": "B. Shall we go to the classical concert",
+    "solution": "邀请用 Shall we go。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论演出",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h079_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想描述听众边听边微笑，哪一句合适？\nA. The audience sat there, smiled\nB. The audience sat there, smile\nC. The audience sat there, smiling\nD. The audeince sat there, smiling",
+    "answer": "C. The audience sat there, smiling",
+    "solution": "smiling 作状语，逻辑主语是 audience。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论演出",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h079_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说明节奏让演出很兴奋，哪一句合适？\nA. The rhythm made the show excited\nB. Exciting made the rhythm a person\nC. Show is exciting made\nD. The rhythm made the show exciting",
+    "answer": "D. The rhythm made the show exciting",
+    "solution": "演出的性质用 exciting，不是人的感受 excited。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论演出",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h079_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A student band is performing on the stage. The audience is listening, clapping at the end of each song. The composer of the last piece is a teacher at the school. 谁在舞台上表演？\nA. 作曲家一个人\nB. 一支学生乐队\nC. 听众\nD. 老师的合唱队",
+    "answer": "B. 一支学生乐队",
+    "solution": "短文写 A student band is performing。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读演出短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h080_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A student band is performing on the stage. The audience is listening, clapping at the end of each song. The composer of the last piece is a teacher at the school. 听众在每首歌结束时做什么？\nA. 离开\nB. 写诗\nC. 鼓掌\nD. 修理乐器",
+    "answer": "C. 鼓掌",
+    "solution": "短文写 clapping。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读演出短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h080_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A student band is performing on the stage. The audience is listening, clapping at the end of each song. The composer of the last piece is a teacher at the school. 最后一首曲子的作曲家是谁？\nA. 一名学生\nB. 没有作曲家\nC. 听众中的游客\nD. 学校里的一位老师",
+    "answer": "D. 学校里的一位老师",
+    "solution": "短文写 a teacher at the school。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读演出短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h080_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A student band is performing on the stage. The audience is listening, clapping at the end of each song. The composer of the last piece is a teacher at the school. 这段文字主要在做什么？\nA. 说明演出当时的情形\nB. 批评乐队\nC. 招聘猎人\nD. 反对古典音乐",
+    "answer": "A. 说明演出当时的情形",
+    "solution": "短文只是在描述表演和听众。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读演出短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h080_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要点：学生乐队、周五舞台演出、听众请准时。哪一句三个要点都有？\nA. The student band is performing\nB. Friday is busy\nC. The student band is performing on the stage on Friday, and the audience should arrive on time\nD. Please be quiet",
+    "answer": "C. The student band is performing on the stage on Friday, and the audience should arrive on time",
+    "solution": "三个要点都要出现。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写演出通知",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h081_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "通知里用 -ing 作状语描述入场，哪一句正确？\nA. Entered the hall, please keep quiet\nB. The hall entering, please keep quiet\nC. Keep quiet, the door entering\nD. Entering the hall, please keep quiet",
+    "answer": "D. Entering the hall, please keep quiet",
+    "solution": "Entering 的逻辑主语应是听话的人。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写演出通知",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h081_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句适合作为通知标题？\nA. Student band on stage this Friday\nB. Studant band on stage this Friday\nC. Student band on stages this Friday\nD. Student band in stage this Friday",
+    "answer": "A. Student band on stage this Friday",
+    "solution": "标题可以写 Student band on stage this Friday。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写演出通知",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h081_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句的定语是动词 -ing？\nA. The performed band needs two more players\nB. The performing band needs two more players\nC. The band performing needs are players two\nD. Needs the band performing players",
+    "answer": "B. The performing band needs two more players",
+    "solution": "performing 作定语，表示正在表演的乐队。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "写演出通知",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_h081_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  }
+]

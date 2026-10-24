@@ -1,0 +1,5170 @@
+[
+  {
+    "question_text": "世界面积最大的内陆国家是\nA. 哈萨克斯坦\nB. 巴基斯坦\nC. 吉尔吉斯斯坦\nD. 塔吉克斯坦",
+    "answer": "A. 哈萨克斯坦",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#dev-high_school_geography-0",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "早春季节，融雪漏⽃的形成，会导致胡杨树主⼲周围\nA. 地下⽔位下降\nB. ⾍害概率减⼩\nC. 积雪厚度变⼤\nD. 植被数量增加",
+    "answer": "D. 植被数量增加",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#dev-high_school_geography-1",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼤洋板块与⼤陆板块碰撞，可能形成\nA. 岛弧和裂⾕\nB. 海岭和裂⾕\nC. 岛弧和海沟\nD. 海岭和海沟",
+    "answer": "C. 岛弧和海沟",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#dev-high_school_geography-2",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国⽔资源的空间分布特点是\nA. 东南多，⻄北少\nB. ⻄北多，⻄南少\nC. 北⽅多，南⽅少\nD. 东北多，⻄南少",
+    "answer": "A. 东南多，⻄北少",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#dev-high_school_geography-3",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "世界上最大的岛屿是\nA. 马达加斯加岛\nB. 台湾岛\nC. 格陵兰岛\nD. 海南岛",
+    "answer": "C. 格陵兰岛",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#dev-high_school_geography-4",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有关季⻛的正确叙述是\nA. 我国只受东南季⻛的影响\nB. 季⻛⽓候都是夏季⾼温多⾬，冬季寒冷⼲燥。\nC. 季⻛环流不属于⼤⽓环流\nD. 海陆热⼒性质的差异是形成季⻛的重要因素",
+    "answer": "D. 海陆热⼒性质的差异是形成季⻛的重要因素",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-0",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国⻄北地区某地⽇光温室种植⻩⽠有膜下滴灌、膜下沟灌和沟灌三种灌溉⽅式。膜下滴灌和膜下沟灌是先将⽔灌⼊蓄⽔池中，再给作物根部供⽔，沟灌直接⽤井⽔灌溉，⽥间没有蓄⽔池。病⾍害发⽣程度与⽇光温室的相对湿度有关。膜下滴灌灌⽔⽣产效率最⾼的原因是：a灌⽔量⼩；b蓄⽔池保湿作⽤强；c地膜减少⽔分蒸发；d深层下渗作⽤强\nA. bd\nB. cd\nC. ab\nD. ac",
+    "answer": "D. ac",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-1",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "世界桥梁最多的城市是\nA. 威尼斯\nB. 杭州\nC. 巴黎\nD. 东京",
+    "answer": "A. 威尼斯",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-2",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于⼤洲的叙述正确的是\nA. 非洲的中部和南部是⿊种⼈的故乡\nB. 南美洲⽓候南北对称分布\nC. 北美洲是世界三⼤宗教的发源地\nD. 巴拿⻢运河是亚洲与非洲的分界线",
+    "answer": "A. 非洲的中部和南部是⿊种⼈的故乡",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-3",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "世界最深的河谷是\nA. 卡利甘达基峡谷\nB. 雅鲁藏布江河谷\nC. 塔拉河峡谷\nD. 淡水河谷",
+    "answer": "B. 雅鲁藏布江河谷",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-4",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "导致⽔资源不⾜和⽤⽔紧张的原因是多⽅⾯的，下列说法中与此⽆关的是\nA. 兴修⽔利⼯程\nB. ⽔污染、⽔浪费严重\nC. ⽔资源时空分布不均\nD. ⼈类对淡⽔的需求量增⼤",
+    "answer": "A. 兴修⽔利⼯程",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-5",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列诗句中，描述⽓候的是\nA. 忽如⼀夜春⻛来，千树万树梨花开\nB. 夜来⻛⾬声，花落知多少\nC. ⼈间四⽉芳菲尽，⼭寺桃花始盛开\nD. 东边⽇出⻄边⾬，道是⽆晴却有晴",
+    "answer": "C. ⼈间四⽉芳菲尽，⼭寺桃花始盛开",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-6",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "资源型城市是以矿产、森林等⾃然资源开采与加⼯为主导产业的城市，往往会经历从兴起到衰退的过程。资源型城市的共性特点是\nA. 资源枯竭，产业效益下降\nB. 经济总量不⾜，地⽅财⼒薄弱\nC. 产业结构单⼀，资源产业萎缩\nD. 采掘业产值占⼯业总产值⽐重较⼤",
+    "answer": "D. 采掘业产值占⼯业总产值⽐重较⼤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-7",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "哥本哈根会议向全⼈类提出了“低碳减排”要求，以下做法符合这个要求的（）a烧煤做饭改为烧柴；；b发展沼⽓，改变能源结构；；c街道彻夜灯⽕辉煌；d发展循环经济，提倡清洁⽣产；e经常使⽤⼀次性⽤具。\nA. ac\nB. cd\nC. bd\nD. de",
+    "answer": "C. bd",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-8",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "新疆优质煤源储量相对不⾜，为保证稳定供给⻄南地区优质煤炭的合理措施是\nA. 发展燃⽓电⼒，节省优质煤炭资源\nB. 促进煤炭加⼯转换，提⾼附加值\nC. 实施疆内“北煤南运”，置换输出\nD. 发展集装箱运煤，减少运输损耗",
+    "answer": "C. 实施疆内“北煤南运”，置换输出",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-9",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "应急产业是为突发事件预防与准备、监测与预警、处置与救援提供专业产品和服务的产业。调查发现，应急产业的相关发明专利申请数量较少。2015年，国家开始培育应急产业示范基地，截⾄2020年1⽉，全国仅公布了20家应急产业示范基地，涉及16个地区。我国应急产业相关市场发展潜⼒⼤，其原因不包括\nA. 社会经济快速发展，⽣产⽣活、交通安全事故频发\nB. 我国⾃然灾害种类多，频次⾼，范围⼴\nC. 我国地域⼴阔，⾃然资源丰富\nD. 信息⽹络技术快速发展，信息安全事故多",
+    "answer": "C. 我国地域⼴阔，⾃然资源丰富",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-10",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "地球是我们的家园，⽉球绕地球转，地球绕太阳转，太阳是银河系的⼀颗普通恒星。上述涉及的天体系统层次有\nA. 两个\nB. 三个\nC. 四个\nD. ⼀个",
+    "answer": "B. 三个",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-11",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于全球变暖的说法正确的是\nA. 保护⾬林是减少CO2含量的有效措施\nB. 内陆国家距海遥远，不必考虑海平⾯上升和⽓候变暖的影响\nC. 全球变暖会使⼤⽓降⽔增多，农作物增产\nD. ⾼纬度国家不需要防治全球变暖",
+    "answer": "A. 保护⾬林是减少CO2含量的有效措施",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-12",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2015年4⽉25⽇，南亚国尼泊尔发⽣8.1级地震，⼤量外国游客被迫滞留尼泊尔境内，地震发⽣后，中国启动撤侨事宜，接回中国游客，确保中国海外侨⺠的安全，从经济发展⽔平来看，尼泊尔属于\nA. 资本主义国家\nB. 社会主义国家\nC. 发达国家\nD. 发展中国家",
+    "answer": "D. 发展中国家",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-13",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "21世纪初期波兰纺织业向现代化转型主要体现在\nA. 淘汰纺织业基础产业部⻔\nB. 专注纺织业链条⾼端环节\nC. 国际市场拓展和品牌建设\nD. 产业结构调整和技术升级",
+    "answer": "D. 产业结构调整和技术升级",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-14",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "河西走廊和柴达木盆地界线是\nA. 祁连山脉\nB. 太行山脉\nC. 天山山脉\nD. 横断山脉",
+    "answer": "A. 祁连山脉",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-15",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "根据⾚潮发⽣的主要环境条件可以判断，在我国较易发⽣⾚潮的海域⼀般是 a南⽅近岸海域；b城市近岸海域；c北⽅近岸海域；d乡村近岸海域\nA. ab\nB. cd\nC. ad\nD. bc",
+    "answer": "A. ab",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-16",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“⼀带⼀路”东部连接快速发展的中国，⻄部连接发达的欧洲⽽中部是亟待发展的中亚、南亚等地区，东、中、⻄部的经济具有互补性，表现为（）：a东部产能增强，需要加强对外合作；b⻄部经济发达，需要引进⼤量⼈才；c中亚油⽓丰富，需要寻求消费市场；d南亚农业发达，需要扩⼤粮⻝出⼝\nA. bd\nB. bc\nC. ac\nD. ad",
+    "answer": "C. ac",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-17",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "历史上，苏州⼈利⽤当地砚瓦⼭的岩⽯做原料⽣产优质砚台。这种岩⽯岩性致密，呈薄板状。该岩⽯可能是\nA. 变质岩\nB. 喷出岩\nC. 沉积岩\nD. 侵⼊岩",
+    "answer": "A. 变质岩",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-18",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "世界最小的海是\nA. 波罗的海\nB. 马尔马拉海\nC. 里海\nD. 地中海",
+    "answer": "B. 马尔马拉海",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-19",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼀直被视为中国南⽅地区和北⽅地区分界线的⼭脉是\nA. 大兴安岭\nB. 天山山脉\nC. 秦岭\nD. 巫山",
+    "answer": "C. 秦岭",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-20",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "世界盐度最低的海是\nA. 死海\nB. 东海\nC. 波罗的海\nD. 黄海",
+    "answer": "C. 波罗的海",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-21",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "上海宝钢为实施“⾛出去”战略，将在韩国京畿道投资新建钢材加⼯配送中⼼，提供汽⻋板材仓储、剪切、配送等服务。宝钢实施“⾛出去”战略的主要⽬的是\nA. 降低运费\nB. 保护环境\nC. 输出技术\nD. 扩⼤市场",
+    "answer": "D. 扩⼤市场",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-22",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“塞上江南”是宁夏的主要农业区，其发展农业的优势条件是 a地势平坦；b光照资源丰富；c降⽔丰沛；d灌溉⽔源充⾜\nA. bcd\nB. abc\nC. acd\nD. abd",
+    "answer": "D. abd",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-23",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "地球环境中最活跃的圈层是\nA. 岩⽯圈\nB. ⽔圈\nC. ⼤⽓圈\nD. ⽣物圈",
+    "answer": "D. ⽣物圈",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-24",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "宁夏地理环境⾃南向北的变化不能体现\nA. 季⻛区向⾮季⻛区过渡\nB. 半湿润区、半⼲旱区向⼲旱区过渡\nC. ⻓江流域向⻩河流域过渡\nD. 农耕区向游牧区过渡",
+    "answer": "C. ⻓江流域向⻩河流域过渡",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-25",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "世界面积最大的平原是\nA. 图兰平原\nB. 西西伯利亚平原\nC. 亚马逊平原\nD. 东欧平原",
+    "answer": "C. 亚马逊平原",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-26",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "世界领土最狭长的国家是\nA. 墨西哥\nB. 阿根廷\nC. 智利\nD. 秘鲁",
+    "answer": "C. 智利",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-27",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“It’s not just a planet， It’s our home．”这是对地球在宇宙中地位恰如其分的评价。地球的特殊性表现在\nA. 有⽣命物质存在\nB. 质量和体积适中\nC. 只有⼀颗卫星\nD. ⾃转和公转⽅向相同",
+    "answer": "A. 有⽣命物质存在",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-28",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2018年9⽉，连接喀⻨隆克⾥⽐和巴⻄福塔雷萨的国际直连海底电缆全线贯通。该电缆由中喀两国企业合作修建，全⻓约6000千⽶。为保证海底电缆安全运⾏，需重点防范\nA. ⼤⻄洋洋中脊地震\nB. 印度洋海啸\nC. 北冰洋浮冰\nD. 环太平洋⽕⼭",
+    "answer": "A. ⼤⻄洋洋中脊地震",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-29",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列⾏为或观点符合可持续发展理念的是\nA. 推⼴使⽤⼀次性⽊筷\nB. 留得⻘⼭在，不怕没柴烧\nC. 洗⾐服时⼀直开着⽔⻰头\nD. 涸泽⽽渔",
+    "answer": "B. 留得⻘⼭在，不怕没柴烧",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-30",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "亚洲与非洲分界线不包括\nA. 红海\nB. 曼德海峡\nC. 马六甲海峡\nD. 苏伊士运河",
+    "answer": "C. 马六甲海峡",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-31",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "从投⼊—产出的⼯业联系看，应集聚的⼯⼚是\nA. 汽⻋⼚——化纤⼚\nB. ⾃⾏⻋⼚——电视机⼚\nC. 印染⼚——织布⼚\nD. 钢铁⼚——印染⼚",
+    "answer": "C. 印染⼚——织布⼚",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-32",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "相对原有的发展，资源型城市新⽣期的发展主要着眼于\nA. 延⻓原有产业链\nB. 拓宽资源进⼝通道\nC. 关闭重污染企业\nD. 培育新经济增⻓点",
+    "answer": "D. 培育新经济增⻓点",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-33",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2017年9⽉20⽇，国⼟资源部和农业部召开联合记者会，宣布我国永久基本农⽥划定⼯作总体完成。全国落实保护⾯积15.5亿亩，其中⽔⽥和⽔浇地⾯积占划定⾯积的48%；坡⻆15°以下占划定⾯积的88%；城市周边划定9740万亩，通过优先确定永久基本农⽥布局，把城市周边围住，把公路沿线包住。全国永久基本农⽥划定的主要⽬的是\nA. 摸清耕地资源分布\nB. 优化农业⽣产布局\nC. 统筹我国城乡规划\nD. 保障国家粮⻝安全",
+    "answer": "D. 保障国家粮⻝安全",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-34",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "长江中下游平原与华北平原界线是\nA. 淮河\nB. 黄河\nC. 长江\nD. 海河",
+    "answer": "A. 淮河",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-35",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "经过熟化，⽔稻⼟的结构特点及功能发⽣的变化表现为\nA. 耕作层浅薄疏松，受⼈类活动影响⼤\nB. 表⼟层软糊，提供了农作物扎根⽴⾜的条件\nC. ⺟岩层较薄，阻断了有机界与⽆机界的联系\nD. 犁底层紧实，提⾼了保⽔、保肥能⼒",
+    "answer": "D. 犁底层紧实，提⾼了保⽔、保肥能⼒",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-36",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "以下天体系统中，不包含⽕星的是\nA. 银河系\nB. 总星系\nC. 太阳系\nD. 河外星系",
+    "answer": "D. 河外星系",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-37",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "四川省涪江基岩河床上有⼀处⾯积超过10万平⽅⽶的“怪⽯滩”，每当枯⽔期就会浴⽔⽽出。⽆数的“壶⽳”（壶形凹坑），像是“嵌⼊”在周边的砂卵⽯中，当地⼈称之为“⽯⻰过江”。“⽯⻰过江”景观中，基岩河床上“壶⽳”的成因是\nA. 河流携带的砾⽯、泥沙沉积⽽成\nB. 急流、旋涡夹带砾⽯磨蚀河床\nC. 基岩河床受冰川作⽤的历史遗迹\nD. 地壳抬升，河流沉积物被⻛化",
+    "answer": "B. 急流、旋涡夹带砾⽯磨蚀河床",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-38",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "世界上一天中最早迎来旭日东升的国家是\nA. 中国\nB. 美国\nC. 斐济\nD. 冰岛",
+    "answer": "C. 斐济",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-39",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列运输⽅式的选择，正确的是\nA. 从⼭⻄运送5000吨煤到北京选择⽔路运输\nB. 从成都运送60吨钢材到拉萨选择铁路运输\nC. 从深圳运送20千克急救药品到⾹港选择⻜机运输\nD. 从⽕⻋站运送40吨货物到20千⽶远的市区各仓库选择公路运输",
+    "answer": "D. 从⽕⻋站运送40吨货物到20千⽶远的市区各仓库选择公路运输",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-40",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“新丝绸之路”横贯亚欧⼤陆，⾃东向⻄依次经过的世界⽂化圈是东亚⽂化圈与\nA. 伊斯兰⽂化圈、东欧⽂化圈、⻄欧⽂化圈\nB. 伊斯兰⽂化圈、⻄欧⽂化圈、东欧⽂化圈\nC. 东欧⽂化圈、伊斯兰⽂化圈、⻄欧⽂化圈\nD. ⻄欧⽂化圈、东欧⽂化圈、伊斯兰⽂化圈",
+    "answer": "A. 伊斯兰⽂化圈、东欧⽂化圈、⻄欧⽂化圈",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-41",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "成因与⻛带、⽓压带位置的季节移动有关的⽓候类型是\nA. 地中海⽓候\nB. 温带海洋性⽓候\nC. 亚热带季⻛⽓候\nD. 热带⾬林⽓候",
+    "answer": "A. 地中海⽓候",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-42",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "制约环境承载⼒的⾸要因素是\nA. ⼈均物质消费量\nB. 科技⽔平\nC. ⼈⼝数量\nD. 资源总量",
+    "answer": "D. 资源总量",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-43",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "上海某商厦屋顶上铺满了⼀个个种植箱，这⾥被称为“屋顶农庄”。商家专⻔从⻓⽩⼭运来优质⼟壤，吸引附近居⺠租借种植箱种植蔬果。屋顶农庄运作以来，整栋商厦夏季空调⽤电量下降...... 商家在经营屋顶农庄时，重点关注的是\nA. 地形\nB. ⼟壤\nC. 市场\nD. 劳动⼒",
+    "answer": "C. 市场",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-44",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "上海科研⼈员将太阳能技术与海⽔淡化⼯程巧妙“嫁接”，⼤幅度降低了海⽔淡化的成本。这⼀成果将惠泽“⼀带⼀路”上严重缺⽔⽽光热资源丰富的地区。这些地区主要是\nA. 东亚、南亚\nB. 中亚、⻄亚\nC. ⼤洋洲、⻄欧\nD. 东欧、东南亚",
+    "answer": "B. 中亚、⻄亚",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-45",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "第⼆届⻘奥会于2014年8⽉16⽇⾄28⽇在南京举⾏，它是继北京奥运会后中国的⼜⼀个重⼤奥运赛事，是中国⾸次举办的⻘奥会，此次⻘奥会的⼝号为“分享⻘春，共筑未来”。问第⼆届⻘奥会举⾏期间，南京的昼夜⻓短变化状况是\nA. 不能确定\nB. 昼⻓夜短\nC. 昼短夜⻓\nD. 昼夜等⻓",
+    "answer": "B. 昼⻓夜短",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-46",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼏内亚铝⼟资源丰富，所产铝⼟矿⼏乎全部供出⼝。2014年，中国某企业投资2亿美元，开采⼏内亚博凯地区的铝⼟矿。2015年9⽉29⽇，⾸条满载铝⼟矿的18万吨散装船从⼏内亚启程到达我国烟台港。⽬前，该企业正计划加⼤在⼏内亚投资，建设电解铝基地。中国企业在⼏内亚投资开采铝⼟矿的影响主要是\nA. 扩⼤⼏内亚外汇收⼊来源\nB. 降低我国铝产业⽣产成本\nC. 提⾼⼏内亚铝⼟矿附加值\nD. 提⾼我国铝⼟矿的⾃给率",
+    "answer": "A. 扩⼤⼏内亚外汇收⼊来源",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-47",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼏内亚铝⼟资源丰富，所产铝⼟矿⼏乎全部供出⼝。2014年，中国某企业投资2亿美元，开采⼏内亚博凯地区的铝⼟矿。2015年9⽉29⽇，⾸条满载铝⼟矿的18万吨散装船从⼏内亚启程到达我国烟台港。⽬前，该企业正计划加⼤在⼏内亚投资，建设电解铝基地。⼏内亚的铝⼟矿⼏乎全部供出⼝的原因是\nA. ⼯业化⽔平低，加⼯能⼒不⾜\nB. 农矿产品直接出⼝经济效益⾼\nC. ⼏内亚市场对铝制品需求量⼩\nD. 中国市场对铝⼟矿的需求量⼤",
+    "answer": "A. ⼯业化⽔平低，加⼯能⼒不⾜",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-48",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列不属于天体的是\nA. 太空试验站\nB. 陨星\nC. 星云\nD. 织女星",
+    "answer": "B. 陨星",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-49",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "世界含沙量最大的河流是\nA. 松花江\nB. 黄河\nC. 海河\nD. 长江",
+    "answer": "B. 黄河",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-50",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于地球圈层结构的叙述，正确的是\nA. 岩⽯圈包括地壳和整个地幔\nB. ⽣物圈是地球上所有⽣物的总称\nC. ⼤⽓圈的主要成分是氮和氧\nD. ⽔圈是连续⽽⼜规则的圈层",
+    "answer": "C. ⼤⽓圈的主要成分是氮和氧",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-51",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "京沪⾼铁是⼀条连接北京市与上海市的⾼速铁路，全程桥梁⽐80%，设计时速350千⽶，于2011年6⽉30⽇全线正式通⻋，运营时速300～350千⽶。京沪⾼铁\nA. 沿线低⼭丘陵⼴布，架桥可以保证运营速度\nB. 起⽌点城市运输⽅式多样，利于衔接和转运\nC. 连接途径各省会，优先满⾜需求⼤的交通点\nD. 运⾏时速⼩于设计时速体现了因地制宜原则",
+    "answer": "B. 起⽌点城市运输⽅式多样，利于衔接和转运",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-52",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "喀⻨隆\nA. 铁路线贯穿南北，与⼭脉平⾏\nB. 地处东⾮⾼原，最⾼峰超过4000⽶\nC. 沿岸主要受寒流影响，多海雾\nD. 禁猎区数量多，加强物种保护",
+    "answer": "D. 禁猎区数量多，加强物种保护",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-53",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "亚⻢孙河⼝\nA. 受亚⻢孙河年径流量⼤影响，盐度低\nB. 受蒸发与降⽔影响，盐度季节变化⼤\nC. 潮涌⼩于阿拉⽠利河⼝，因为⻛⼒⼩\nD. 潮涌⼤于阿拉⽠利河⼝，因为多沙洲",
+    "answer": "A. 受亚⻢孙河年径流量⼤影响，盐度低",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-55",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "近年来，“⼴场舞”逐渐成为深受中⽼年⼈喜爱的⼀种舞蹈形式，常⻅于城市夜间的⼴场之上（中⽼年⼈⽩天需在家照顾孩童）。2015年，⼴场舞《最炫⼩苹果》登上春晚舞台，⼈⽓爆棚。但其快速发展的同时，因噪⾳扰⺠⼜备受争议。这种争议反映了我国城市化过程中存在的问题，不包括\nA. ⼈⼝⽼龄化速度加快\nB. 失业⼈⼝增多\nC. 城市公共⽤地不⾜\nD. 城市化发展快",
+    "answer": "B. 失业⼈⼝增多",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-56",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "400毫米等降水量线不经过\nA. 兰州\nB. 大兴安岭\nC. 广州\nD. 张家口",
+    "answer": "C. 广州",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-57",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "拉尼娜现象是指⾚道附近中东太平洋海⾯温度异常降低的现象，⼜称反厄尔尼诺现象，它是⼤⽓环流系统与洋流系统相互作⽤的结果，会导致⽓候异常，⽓象灾害加剧。拉尼娜现象的出现与洋流变化相关，下列说法可信的是\nA. 秘鲁上升流消失\nB. ⾚道暖流增强\nC. ⻄⻛漂流减弱\nD. 北太平洋暖流减弱",
+    "answer": "B. ⾚道暖流增强",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-58",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果⾚潮发⽣的海域，有寒冷的沿岸流经过，其对⾚潮的影响是下列哪些（）：a使污染区域更集中；b加剧污染程度；c使污染区域更分散；d减轻污染程度\nA. cd\nB. ab\nC. ad\nD. bc",
+    "answer": "A. cd",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-59",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "世界上海外华⼈最集中的地区是\nA. 南亚\nB. 欧洲⻄部\nC. 东南亚\nD. 西亚",
+    "answer": "C. 东南亚",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-60",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "埃及的⻄⽔东调⼯程⻄起尼罗河三⻆洲，引尼罗河⽔东调⾄⻄奈半岛北部的阿⾥什河⾕，全⻓262千⽶，主要由苏伊⼠运河以⻄渠道、穿苏伊⼠运河输⽔隧洞、⻄奈北部输⽔⼯程三部分构成，规划开发耕地378万亩。⻄奈北部调⽔⼯程基本在沙漠地区进⾏，在到达阿⾥什河⾕之前采⽤压⼒管道输⽔，并在灌区建设排⽔系统。埃及兴建⻄⽔东调⼯程的主要⽬的是\nA. 形成⽔系之间的便利通道，利于航运发展\nB. 完善⻄奈半岛灌溉系统，改善农业⽣产条件\nC. 为东部⼯业、城市发展提供⽣产⽣活⽤⽔\nD. 调节尼罗河径流量季节分配不均，防治洪涝",
+    "answer": "B. 完善⻄奈半岛灌溉系统，改善农业⽣产条件",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-61",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国沿海⾚潮⼀般发⽣在\nA. 6⽉到8⽉\nB. 12⽉到2⽉\nC. 9⽉到11⽉\nD. 3⽉到5⽉",
+    "answer": "A. 6⽉到8⽉",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-62",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "促使欧洲制造业⽣产向东转移的主要原因是\nA. 寻求完善的配套设施\nB. 降低⽣产成本\nC. ⼈才向东流动\nD. 受⾼科技产业的吸引",
+    "answer": "B. 降低⽣产成本",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-63",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "与⾃然⼟壤相⽐，⽔稻⼟\nA. 结构更复杂\nB. 不含腐殖质\nC. 枯枝落叶层增厚\nD. 肥⼒⽔平下降",
+    "answer": "A. 结构更复杂",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-64",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国“坚持计划⽣育基本国策不动摇”的根本原因是\nA. 我国⼈⼝东多⻄少\nB. 我国⼈⼝基数⼤\nC. 我国⼈⼝出现负增⻓\nD. 我国⼈⼝基数⼩",
+    "answer": "B. 我国⼈⼝基数⼤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-65",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列叙述与安徽省南部地域⽂化特征相符的是\nA. 评剧、秦腔为传统地⽅戏曲\nB. 农业以种植茶、⽵等为特⾊\nC. 敬奉妈祖，盛⾏妈祖⽂化\nD. 泥草房和吊脚楼是传统⺠居",
+    "answer": "B. 农业以种植茶、⽵等为特⾊",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-66",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "以下能源的形成与太阳辐射能有关的是\nA. 地热能\nB. 核能\nC. 煤炭石油\nD. 潮汐能",
+    "answer": "C. 煤炭石油",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-67",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于⽔平⽓压梯度⼒，下列说法正确的是\nA. 平⾏于等压线，指向⾼压区\nB. 垂直于等压线，指向低压区\nC. 垂直于等压线，指向⾼压区\nD. 平⾏于等压线，指向低压区",
+    "answer": "B. 垂直于等压线，指向低压区",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-68",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "港珠澳⼤桥海底沉管隧道铺设难度⼤的原因是\nA. 海⽔含盐⾼，腐蚀性强\nB. 海底沉积物深厚，流动性强\nC. 需经过海⽔较深的海沟\nD. 位于环太平洋地震带上",
+    "answer": "B. 海底沉积物深厚，流动性强",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-69",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "6⽉22⽇，正午太阳⾼度达到⼀年中最⼤值的地区是\nA. 北回归线及其以北地区\nB. ⾚道以北地区\nC. ⾚道附近地区\nD. 南北回归线之间地区",
+    "answer": "A. 北回归线及其以北地区",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-70",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "洋脊的形成主要是由于\nA. 海底扩张处沉积物⼤量堆积\nB. 地震导致海底中间凹陷\nC. 海底扩张处岩浆涌出\nD. 地震使海底抬升",
+    "answer": "C. 海底扩张处岩浆涌出",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-71",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "南海诸岛⾬量丰沛，热量充⾜，岛上的岩⽯主要是珊瑚、⻉壳碎屑砂，质地疏松。诸岛⾯积⼩，海拔低，⻦类多，植被有200余种。除滨海地区外，⼟壤含盐量⼤部分较低。南海诸岛是⼀个独特的富磷⽣态系统，⼟壤是这个⽣态系统的纽带。南海诸岛除滨海地区外，其他地区⼟壤含盐量较低，其主要原因是\nA. 距海远，海⽔影响⼩\nB. ⽓温低，蒸发弱\nC. 降⽔多，淋溶作⽤强\nD. 植物多，吸收盐分",
+    "answer": "C. 降⽔多，淋溶作⽤强",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-72",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "正午时，地球上垂直的物体始终有影⼦且其影⼦只朝南的地区在\nA. ⾚道以南的地区\nB. 北回归线以北的地区\nC. 南回归线以南⾄南极圈以北之间的地区\nD. 北回归线以北⾄北极圈以南之间的地区",
+    "answer": "C. 南回归线以南⾄南极圈以北之间的地区",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-73",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "地球表⾯能量主要来源于\nA. ⼤⽓反射\nB. 地球内部\nC. 太阳辐射\nD. ⼤⽓辐射",
+    "answer": "C. 太阳辐射",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-74",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "近年来，我国迅速发展的⼤棚蔬菜⽣产，主要改变的⽣产条件是\nA. 市场条件\nB. 地形条件\nC. 光热条件\nD. ⼟壤条件",
+    "answer": "C. 光热条件",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-75",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "欧洲的主要地形是\nA. 丘陵\nB. 平原\nC. ⾼原\nD. ⼭地",
+    "answer": "B. 平原",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-76",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2015年地球⽇活动主题为：“珍惜地球资源转变发展⽅式﹣﹣提⾼资源利⽤效益”，下列做法与该主题思想不符合的是\nA. ⼤⼒推⼴⼀次性餐具⽤品\nB. 逐步关停⾼耗能重污染的⼯⼚\nC. 垃圾分类，资源再利⽤\nD. ⼤⼒发展节⽔农业和节⽔⼯业",
+    "answer": "A. ⼤⼒推⼴⼀次性餐具⽤品",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-77",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有关太阳辐射的叙述错误的是\nA. 到达地球⼤⽓上界的太阳辐射随纬度的增⼤⽽减少\nB. 太阳辐射是促进地球上的⽔、⼤⽓运动和⽣物活动的主要动⼒\nC. 太阳辐射我们⽇常⽣活和⽣产的主要能量来源\nD. 到达地球⼤⽓上界的太阳辐射随纬度的增⼤⽽增多",
+    "answer": "D. 到达地球⼤⽓上界的太阳辐射随纬度的增⼤⽽增多",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-78",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "第⼆届⻘奥会于2014年8⽉16⽇⾄28⽇在南京举⾏，它是继北京奥运会后中国的⼜⼀个重⼤奥运赛事，是中国⾸次举办的⻘奥会，此次⻘奥会的⼝号为“分享⻘春，共筑未来”。⻘奥会期间，宜兴正午太阳⾼度的变化状况为\nA. 逐渐增⼤\nB. 先增⼤后减⼩\nC. 先减⼩后增⼤\nD. 逐渐减⼩",
+    "answer": "D. 逐渐减⼩",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-79",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个⼤陆板块碰撞的地区，⼀般出现的地壳运动现象是\nA. 地震和⽕⼭\nB. 地震和断裂\nC. ⽕⼭和断裂\nD. ⽕⼭和褶皱",
+    "answer": "B. 地震和断裂",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-80",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2012年5⽉，我国⾸座深⽔钻井平台在南海⾸钻成功，其重要意义不包括\nA. ⾏使对钻井平台周边我国海域的管辖权\nB. 宣示我国对南海的主权\nC. 解决我国⽬前⽯油对外依存度过⾼的问题\nD. 标志我国能够独⽴进⾏深海油⽓资源开发",
+    "answer": "C. 解决我国⽬前⽯油对外依存度过⾼的问题",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-81",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "太阳能量来源于\nA. ⿊⼦和耀斑的强烈活动\nB. 太阳内部的核聚变反应\nC. 太阳内部的核裂变反应\nD. 放射性元素衰变产⽣的热能",
+    "answer": "B. 太阳内部的核聚变反应",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-82",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "19世纪20年代罗兹市纺织⼯业快速发展的重要条件是\nA. ⼯业制造技术先进\nB. 廉价劳动⼒丰富\nC. 波兰纺织市场⼴阔\nD. 市政基础设施完善",
+    "answer": "B. 廉价劳动⼒丰富",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-83",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "热⼒环流的形成过程为 a近地⾯空⽓受热或冷却；b同⼀⽔平⾯上产⽣⽓压差异；c形成⼤⽓的⽔平运动；d⽓流的上升或下降运动\nA. dbac\nB. abcd\nC. adbc\nD. acbd",
+    "answer": "C. adbc",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-84",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2019年3⽉，澳⼤利亚、中国、意⼤利、荷兰、葡萄⽛、南⾮和英国在罗⻢签署《成⽴平⽅公⾥阵列天⽂台公约》。“平⽅公⾥阵列”望远镜（SKA）是未来世界上最⼤的射电望远镜，SKA中⼼分别建在荒漠、半荒漠的南⾮共和国卡鲁地区（19°E，24°S）和澳⼤利亚默奇森地区（119°E，23°S），SKA由数千个射电碟形天线组成，碟形天线布局从中⼼5千⽶范围（占50%）向最外缘范围（占25%）延伸⾄3000千⽶。在卡鲁和默奇森地区建设SKA中⼼共同的主要优势条件是\nA. ⽆线电⼲扰⼩\nB. 资⾦实⼒雄厚\nC. 科学技术发达\nD. 可利⽤⼟地⼴",
+    "answer": "A. ⽆线电⼲扰⼩",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-85",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "除⼆氧化碳以外，甲烷、氟氯烃、⼀氧化碳等都被称为温室⽓体，其共同的原因是\nA. 通过光化学反应向⼤⽓中释放能量\nB. 强烈吸收地⾯放出的红外线⻓波辐射\nC. 吸收太阳辐射，使⼤⽓增温\nD. 温室⽓体相互反应放出能量",
+    "answer": "B. 强烈吸收地⾯放出的红外线⻓波辐射",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-86",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "与地球上出现⽣命⽆关的条件是\nA. 地球只有⼀颗卫星\nB. 地球与太阳的距离适中\nC. 地球的体积和质量适中\nD. 太阳的光照条件⽐较稳定",
+    "answer": "A. 地球只有⼀颗卫星",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-87",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "上海某商厦屋顶上铺满了⼀个个种植箱，这⾥被称为“屋顶农庄”。商家专⻔从⻓⽩⼭运来优质⼟壤，吸引附近居⺠租借种植箱种植蔬果。屋顶农庄运作以来，整栋商厦夏季空调⽤电量下降......除了经济效益外，开设屋顶农庄还可获得环境效益。因为它有助于\nA. 增强⾬岛效应\nB. 削弱紫外辐射\nC. 缓和热岛效应\nD. 减少灰霾污染",
+    "answer": "C. 缓和热岛效应",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-88",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "为了探测莫霍⾯的情况，在下⾯四点同时进⾏了地震波的测定，其中最迟接收到从莫霍⾯传来的地震波的地点是\nA. ⻓江中下游平原\nB. ⻘藏⾼原\nC. 华北平原\nD. 四川盆地",
+    "answer": "B. ⻘藏⾼原",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-89",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在世界农业地域类型中，宁夏农业主要属于\nA. 牧场畜牧业\nB. 游牧畜牧业\nC. ⽔⽥农业\nD. 旱作农业",
+    "answer": "D. 旱作农业",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-90",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于“环境问题”说法不正确的是\nA. ⼤⽓圈、⽔圈、岩⽯圈、⽣物圈等⼈类赖以⽣存的环境遭到污染，已成全球性的问题\nB. 环境问题是伴随着⼈⼝、资源、发展问题出现的，其实质就是发展问题\nC. 世界环境问题的解决要依赖发达国家和发展中国家携⼿共同努⼒\nD. 发达国家的环境问题⼗分严重，发展中国家不存在环境问题",
+    "answer": "D. 发达国家的环境问题⼗分严重，发展中国家不存在环境问题",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-91",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "上海宝钢为实施“⾛出去”战略，将在韩国京畿道投资新建钢材加⼯配送中⼼，提供汽⻋板材仓储、剪切、配送等服务。为提⾼在国际钢铁市场上的竞争⼒，宝钢不可以采取的措施有\nA. 降低钢铁⽣产能耗\nB. 建⽴境外铁矿⽯基地\nC. 加⼤产品研发投⼊\nD. 提⾼进⼝燃料⽐重",
+    "answer": "D. 提⾼进⼝燃料⽐重",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-92",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼤约⼋百年前，⻓⽩⼭天池⽕⼭⼤规模喷发，形成了全域性⽕⼭喷发物裸地。受其喷发⽅向及⻛向的影响，浮⽯和⽕⼭灰等喷发物在⽕⼭锥各坡向覆盖厚度不同，东坡最厚，北坡最薄。⽕⼭喷发后⾃然条件改变，重新形成⾃然带。东坡海拔较⾼处的⾃然带呈斑块状分布。下列推断正确的是\nA. 该地⾃然带重新演化的⾸要影响因素是地形\nB. ⽕⼭灰削弱太阳辐射，⻓⽩⼭区⽓温降低\nC. 该次⽕⼭⼤规模喷发期间，主导⻛向是东南⻛\nD. ⽕⼭灰增强⼤⽓逆辐射，⻓⽩⼭区⽓温升⾼",
+    "answer": "B. ⽕⼭灰削弱太阳辐射，⻓⽩⼭区⽓温降低",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-93",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "被北美洲，南美洲，欧洲包围的⼤洋是\nA. 印度洋\nB. ⼤⻄洋\nC. 北冰洋\nD. 太平洋",
+    "answer": "B. ⼤⻄洋",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-94",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "把农业引⼊城市，使农业⽣产与城市空间相融合，能够有效改善当前城市发展中产⽣的问题，有利于城市可持续发展。近年来，我国有学者提出了将农业与城市中的社区相融合的“有农社区”的构想（系统）。若推⼴“有农社区”，对城市可能产⽣的影响是\nA. 缓解城市内涝灾害\nB. 控制城市⽤地规模\nC. 增加城市能源消耗\nD. 完善社区商业布局",
+    "answer": "A. 缓解城市内涝灾害",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-95",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2017年9⽉20⽇，国⼟资源部和农业部召开联合记者会，宣布我国永久基本农⽥划定⼯作总体完成。全国落实保护⾯积15.5亿亩，其中⽔⽥和⽔浇地⾯积占划定⾯积的48%；坡⻆15°以下占划定⾯积的88%；城市周边划定9740万亩，通过优先确定永久基本农⽥布局，把城市周边围住，把公路沿线包住。城市周边划定永久基本农⽥主要是为了\nA. 限制城市⽤地⽆序扩张\nB. 促进都市农业健康发展\nC. 保证城市农副产品供应\nD. 限制农业⼈⼝迁⼊城市",
+    "answer": "A. 限制城市⽤地⽆序扩张",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-96",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "与地球上⽓压带和⻛带季节移动的原因⽆关的是\nA. ⻩⾚交⻆\nB. 太阳直射点的移动\nC. 地⾯摩擦⼒\nD. 地球公转",
+    "answer": "C. 地⾯摩擦⼒",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-97",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列⽇期中，北京昼夜⻓短相差最⼩的⼀天是\nA. 元旦\nB. 我国国庆节\nC. 国际劳动节\nD. 我国教师节",
+    "answer": "B. 我国国庆节",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-98",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列四种情况，昼夜温差最⼩的是\nA. 海上少云的地区\nB. 海上多云的地区\nC. 陆上多云的地区\nD. 陆上少云的地区",
+    "answer": "B. 海上多云的地区",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-99",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于⽔平⽓压梯度⼒的说法正确的选项为 a是形成⻛的直接原因；b是⼤⽓作⽤在海平⾯上产⽣的压⼒；c⽅向与等压线垂直；d从⾼压指向低压\nA. abcd\nB. bcd\nC. acd\nD. abc",
+    "answer": "C. acd",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-100",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2015年4⽉25⽇，南亚国尼泊尔发⽣8.1级地震，⼤量外国游客被迫滞留尼泊尔境内，地震发⽣后，中国启动撤侨事宜，接回中国游客，确保中国海外侨⺠的安全，此次地震成因复杂，但主要原因是尼泊尔位于\nA. 印度洋板块与太平洋板块的交界地带\nB. 亚欧板块与太平洋板块的交界地带\nC. 亚欧板块与⾮洲板块的交界地带\nD. 亚欧板块与印度洋板块的交界地带",
+    "answer": "D. 亚欧板块与印度洋板块的交界地带",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-101",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "与哈尔滨相⽐，张家⼝市发展冰雪经济的优势是\nA. 冰雪品牌的知名度更⾼\nB. 冰雪资源存留时间更⻓\nC. 冰雪活动更加丰富多样\nD. 更接近⼴阔的消费市场",
+    "answer": "D. 更接近⼴阔的消费市场",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-102",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "发达国家⼈⼝出⽣率较低，关于其原因的正确叙述是\nA. 早婚之⻛盛⾏，初婚年龄偏低\nB. 崇尚多育多⼦、重男轻⼥的传统观念\nC. 发达国家的宗教⼀般都反对⼈⼝增殖\nD. 婚姻关系不稳定，晚婚、不婚、不育现象多",
+    "answer": "D. 婚姻关系不稳定，晚婚、不婚、不育现象多",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-103",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "北半球某地（约75°W，45°N），河流清澈，森林茂密，⻛景宜⼈……⼀条⼤河由⻄南向东北流经该地，进⼊解冻季节时，该河流不容易出现的现象是\nA. ⽔位暴涨\nB. 河岸决堤\nC. 凌汛\nD. ⽔⼟流失",
+    "answer": "D. ⽔⼟流失",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-104",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "墨⻄哥城每年11⽉⾄次年4、5⽉多发⽣严重的光化学烟雾事件，主要原因有\nA. 汽⻋尾⽓和⽣产、⽣活废⽓排放量⼩\nB. 该期间多⽓旋活动，影响污染⽓体的扩散\nC. 受温室效应影响\nD. 该期间天⽓晴朗，光照强；且盆地地形，多逆温",
+    "answer": "D. 该期间天⽓晴朗，光照强；且盆地地形，多逆温",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-105",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "冰雪经济是以冰雪资源为依托，发展与冰雪活动相关的产业经济。2015年7⽉，北京市携⼿河北张家⼝市获得2022年冬奥会和冬残奥会的举办权，张家⼝市成为雪上项⽬⽐赛的主要承办地，冰雪经济迅速发展。近年来张家⼝市冰雪经济迅速发展的契机是\nA. 雪资源丰富\nB. 交通⽹络完善\nC. 基础设施⻬全\nD. 政府⼤⼒推动",
+    "answer": "D. 政府⼤⼒推动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-106",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "把农业引⼊城市，使农业⽣产与城市空间相融合，能够有效改善当前城市发展中产⽣的问题，有利于城市可持续发展。近年来，我国有学者提出了将农业与城市中的社区相融合的“有农社区”的构想（系统）。“有农社区”最主要的意义是\nA. 美化社区的⽣活环境\nB. 提供便捷的⻝物供应\nC. 改变居⺠的⽣产⽅式\nD. 实现物质的循环利⽤",
+    "answer": "D. 实现物质的循环利⽤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-107",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若⼲年前，某国际著名出版社利⽤互联⽹开办⽹上书店，消费者订购图书后，通过第三⽅⽀付平台付款即可。在⽹上书店购书不但⽅便，⽽且更加便宜。但⽹上书店也对某些企业产⽣不良影响，这些企业包括（）：a实体书店；b实体银⾏；c电信公司；d航空公司\nA. ab\nB. ad\nC. bc\nD. cd",
+    "answer": "A. ab",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-108",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "怀化市的最⾼峰苏宝顶海拔1934⽶，它与世界最⾼峰珠穆朗玛峰（8844⽶）的相对⾼度是\nA. 6910⽶\nB. 10778⽶\nC. 7010⽶\nD. 7210⽶",
+    "answer": "A. 6910⽶",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-109",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "影响农业的三⼤区位因素是\nA. 劳动⼒、⾃然条件、⽓候资源\nB. ⾃然条件、社会经济、科学技术\nC. 热量、光照、⽔分\nD. ⽓候、市场、交通",
+    "answer": "B. ⾃然条件、社会经济、科学技术",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-110",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "安徽省南部地处亚热带季⻛⽓候区，⽓候湿热，地形以⼭地为主，对外交通不便，耕地稀少，当地传统的菜肴、⺠居、戏曲、农业⽣产等明显打上了地理环境的烙印。安徽省南部传统特⾊菜的选料较多采⽤（）：a海鲜；b⽜⽺⾁；c⼭货；d腌腊制品\nA. ab\nB. bc\nC. ad\nD. cd",
+    "answer": "D. cd",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-111",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "1⽉份北半球被明显切断的⽓压带是\nA. 副极地低⽓压带\nB. 极地⾼⽓压带\nC. 所有的⽓压带\nD. 副热带⾼⽓压带",
+    "answer": "A. 副极地低⽓压带",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-112",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "南海诸岛⼟壤中富磷，磷的最主要来源是\nA. 植物死亡分解\nB. ⻥类死亡分解\nC. ⻦粪、⻦类残体\nD. 珊瑚、⻉壳碎屑",
+    "answer": "C. ⻦粪、⻦类残体",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-113",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "清代，华北饥⺠⼤批“闯关东”，主要原因之⼀是东北地区\nA. 有⼤量可开垦的⼟地\nB. 制造业⾼度发达\nC. 畜牧业⽔平⾼\nD. ⼤量征兵抗战",
+    "answer": "A. 有⼤量可开垦的⼟地",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-114",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "1⽉份南亚主要⻛向为\nA. 东北⻛\nB. 东南⻛\nC. ⻄北⻛\nD. ⻄南⻛",
+    "answer": "A. 东北⻛",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-115",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "200毫米等降水量线不经过\nA. 武夷山\nB. 阴山\nC. 祁连山\nD. 巴颜喀拉山",
+    "answer": "A. 武夷山",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-116",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "近些年探明，海底“可燃冰”（天然⽓⽔合物）储量极为丰富，其开发技术亦⽇趋成熟。开发利⽤“可燃冰”将产⽣的环境效益有\nA. 替代煤和⽯油，减轻对⼤⽓的污染\nB. 可取代⼀些核电站，减少核废料的污染\nC. 可取代⽔电站，改善⼤⽓质量\nD. ⽆CO2排放，减轻“温室效应”",
+    "answer": "B. 可取代⼀些核电站，减少核废料的污染",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_geography-117",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "山西能源资源丰富，但经济在全国中的地位并不领先，其中原因有____\nA. 能源开发规模不大\nB. 我国能源需求量不大，能源丰富难以发挥出优势\nC. 石油取代煤成为我国主要能源，煤炭开采开工不足\nD. 结构单一，生产链简短，能源的综合利用程度和附加价值不高",
+    "answer": "D. 结构单一，生产链简短，能源的综合利用程度和附加价值不高",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-0",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有关洋流对地理环境的影响叙述正确的是____\nA. 寒暖流交汇处很快产生暴雨\nB. 洋流加快了海洋污染的净化速度，但扩大了污染的范围\nC. 澳大利亚东岸气候类型的形成受寒流影响显著\nD. 秘鲁附近沿海因受寒暖流交汇影响，形成世界著名的渔场",
+    "answer": "B. 洋流加快了海洋污染的净化速度，但扩大了污染的范围",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-1",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有关森林的砍伐导致的环境变化，不正确的是____\nA. 生物物种资源减少\nB. 水土流失加重\nC. 全球变暖\nD. 土壤含水量和地下水储量增加",
+    "answer": "D. 土壤含水量和地下水储量增加",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-2",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "东部季风区自然环境南北变化的特点体现了地理环境的____\nA. 整体性\nB. 经度地带性\nC. 垂直地带性\nD. 纬度地带性",
+    "answer": "D. 纬度地带性",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-3",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "人类对宇宙空间的认识，由探索阶段进入开发利用阶段的是：____\nA. 原苏联发射的7个“火星”号探测器\nB. 美国的“阿波罗”登月计划实施\nC. 世界第一架航天飞机试航成功\nD. 我国第一颗人造地球卫星发射成功",
+    "answer": "C. 世界第一架航天飞机试航成功",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-4",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "运量大、运具与线路合二为一的运输方式是____\nA. 铁路运输\nB. 公路运输\nC. 管道运输\nD. 水路运输",
+    "answer": "C. 管道运输",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-5",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "就全球而言，地壳运动以____\nA. 垂直运动为主\nB. 水平运动为主\nC. 褶皱运动为主\nD. 断层运动为主",
+    "answer": "B. 水平运动为主",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-6",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "传统鞋业从产品设计到上架销售需要18个月左右。A跨国公司主要从事运动鞋的研发、生产和销售，产品销往全球。2016年该公司在德国建立了“高速工厂”实践基地，根据客户需求，设计好产品及相关生产程序，由机器人、针织机、3D打印机快速生产出各具特色的运动鞋，全过程仅需5小时。该公司把\"高速工厂\"实践基地建立在德国，其考虑的主要因素是____\nA. 劳动力\nB. 科技\nC. 交通\nD. 市场",
+    "answer": "B. 科技",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-7",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于海水运动的叙述，正确的是____\nA. 风浪、海啸、洋流是海水运动的三种主要形式\nB. 海啸是风浪强烈发展的一种形式，给人类带来了巨大的能量\nC. 潮汐是海水在日月引力作用下发生的周期性涨落现象\nD. 早晨的海水上涨称为潮，晚上的海水下落称为汐",
+    "answer": "C. 潮汐是海水在日月引力作用下发生的周期性涨落现象",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-8",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "长城是中国的一条重要地理界线，下列哪些现象的分布以此为界____\nA. 黄土高原与华北平原\nB. 大陆性气候与季风气候\nC. 春小麦与冬小麦\nD. 内流区与外流区",
+    "answer": "C. 春小麦与冬小麦",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-9",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "特大型船只由伦敦航行至香港，需要经过：____\nA. 北太平洋航线\nB. 好望角航线\nC. 巴拿马运河航线\nD. 苏伊士运河航线",
+    "answer": "C. 巴拿马运河航线",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-10",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于波罗的海盐度低的原因的叙述，错误的是：____\nA. 蒸发量小\nB. 降水量较大\nC. 陆地水汇入较多\nD. 受暖流影响",
+    "answer": "D. 受暖流影响",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-11",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列城市在铁矿产地发展起来的是：____\nA. 大庆\nB. 大同\nC. 抚顺\nD. 攀枝花",
+    "answer": "D. 攀枝花",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-12",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "迁都后对帕朗卡拉亚的影响有____\nA. 有利于缓解住房紧张问题\nB. 有利于缓解交通拥堵状况\nC. 有利于环境污染的治理\nD. 基础设施的完善",
+    "answer": "D. 基础设施的完善",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-13",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "据报载，我国江西省中南部山区出现大片“红色荒漠”，即在亚热带湿润的岩溶地区，土壤遭受严重侵蚀，基岩裸露，地表出现类似荒漠化景观的土地退化现象,“红色荒漠”形成的人为原因主要是____\nA. 滥伐森林\nB. 过度放牧\nC. 开山取石\nD. 环境污染",
+    "answer": "A. 滥伐森林",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-14",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "印度尼西亚计划迁都的原因是____\r\n①减少现有首都地址受到火山喷发的威胁\r\n②减少现有首都地址受到洪涝灾害的威胁\r\n③分散雅加达的非首都职能\r\n④有利于印尼各个地区的均衡发展\nA. ①②③\nB. ②③④\nC. ①②④\nD. ①③④",
+    "answer": "C. ①②④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-15",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果不考虑其他因素，在北半球中、高纬度地区物理风化作用最强的坡向是____。\nA. 东北坡\nB. 西北坡\nC. 东南坡\nD. 西南坡",
+    "answer": "D. 西南坡",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-16",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "尊重和关心保护生物群落，体现了可持续发展的原则是____\nA. 持续性原则\nB. 公平性原则\nC. 共同性原则\nD. 以上都不是",
+    "answer": "B. 公平性原则",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-17",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "对于雨林的未来，应坚持的观点是____\nA. 一边开发，一边保护\nB. 首先开发，再作保护\nC. 保护第一,并进行保护性开发\nD. 不能开发，禁止人类在林区任何活动",
+    "answer": "C. 保护第一,并进行保护性开发",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-18",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于区域环境的叙述正确的是____\nA. 区域环境是指区域内的自然环境\nB. 区域环境是指区域内的人文环境\nC. 受人类生产和生活的影响，区域环境是不断发展变化的\nD. 区域环境对人类活动的影响随人类生产力的进步而增大",
+    "answer": "C. 受人类生产和生活的影响，区域环境是不断发展变化的",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-19",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关四季的叙述，正确的是：____\nA. 我国春季始于春分，至于夏至\nB. 一般把1、2、3三个月划分为春季\nC. 夏季是一年内白昼最长，太阳最高的季节\nD. 四季的形成是地球自转的结果",
+    "answer": "C. 夏季是一年内白昼最长，太阳最高的季节",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-20",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列减少温室气体排放的措施中,不正确的是____\nA. 调整能源消费结构\nB. 提高能源利用技术和利用效率\nC. 加强国际间的合作\nD. 全球大量削减工业生产规模",
+    "answer": "D. 全球大量削减工业生产规模",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-21",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "从社会文化角度看，城市的出现要具备的基本条件有：____ ①人口的增长；②工业革命的兴起；③农业生产技术的创新，有了剩余农产品；④劳动分工。\nA. ①②③\nB. ②③④\nC. ①②\nD. ③④",
+    "answer": "D. ③④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-22",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列地点中，六月二十二日正午太阳高度最大的是：____\nA. 广州\nB. 杭州\nC. 南京\nD. 北京",
+    "answer": "B. 杭州",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-23",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "印度要承接国外棉纺企业的进入,最需要解决的问题是____\nA. 原料成本高\nB. 基础设施落后\nC. 国内市场狭小\nD. 技术水平较低",
+    "answer": "B. 基础设施落后",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-24",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列城市中，因科技发展而兴起的是____\nA. 堡\nB. 梵蒂冈\nC. 筑波\nD. 桂林",
+    "answer": "C. 筑波",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-25",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "决定自然区域差异的基本因素是____\r\n\r\n①地形 ②气候 ③水文 ④土壤 ⑤植被\nA. ①②\nB. ②⑤\nC. ③④\nD. ④⑤",
+    "answer": "A. ①②",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-26",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "云南民俗中有“女儿国”和“君子国”，这“两绝”的形成与下列哪种因素有关____\nA. 生活水平低\nB. 文化素质差\nC. 交通闭塞\nD. 开发历史短",
+    "answer": "C. 交通闭塞",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-27",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "内蒙古应建成的名优特农产品基地是____\nA. 高糖甜菜糖料生产基地\nB. 反季节蔬菜基地\nC. 优质棉花基地\nD. 烟叶生产基地",
+    "answer": "A. 高糖甜菜糖料生产基地",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-28",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有关电子的叙述正确的是：____\nA. 电子邮件是一种“门到门”的通信方式\nB. 电话和传真是电子邮件的两种具体形式\nC. 电子邮件需到当地电信局提取\nD. 电子邮件所用的地址同具体地点无关",
+    "answer": "D. 电子邮件所用的地址同具体地点无关",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-29",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "据报载，我国江西省中南部山区出现大片“红色荒漠”，即在亚热带湿润的岩溶地区，土壤遭受严重侵蚀，基岩裸露，地表出现类似荒漠化景观的土地退化现象, 根据“红色荒漠”的特点，对其进行治理首先要做的是____\nA. 大力开荒种田，保持植物覆盖率\nB. 加强农业生产综合开发\nC. 发展以畜牧业为主的农业生产\nD. 彻底退耕还林",
+    "answer": "B. 加强农业生产综合开发",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-30",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "假如手持奥运火炬登珠穆朗玛峰，在登顶过程中，最有可能导致火炬熄灭的因素是____\nA. 随高度逐渐降低的温度\nB. 随高度逐渐增多的积雪\nC. 随高度逐渐降低的气压\nD. 随高度逐渐稀薄的空气",
+    "answer": "D. 随高度逐渐稀薄的空气",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-31",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列地区的高大山岭中，垂直地域分异最典型的是____\nA. 内陆地区\nB. 高纬度地区\nC. 低纬度地区\nD. 中纬度地区",
+    "answer": "C. 低纬度地区",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-32",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "这片广袤的黄土地已经被水流蚀割得沟壑纵横，支离破碎，四分五裂，像老年人的一张粗糙的皱脸每年流入黄河的泥沙就达十六亿吨!就在这大自然无数黄色的皱褶中，世世代代生活和繁衍着千千万万的人。无论沿着哪一条皱纹走进去，你都能碰见村落和人烟，而且密集得叫你不可思议。黄土地所在的地形区____\nA. 受降水影响形成深厚土层和沟壑\nB. 地处温带草原和荒漠过渡地区\nC. 有革命圣地延安及特色窑洞景观\nD. 农业地域类型为传统稻作农业",
+    "answer": "C. 有革命圣地延安及特色窑洞景观",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-33",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "发达国家与发展中国家比较____\nA. 发达国家第一产业的产值低于发展中国家\nB. 发达国家与发展中国家第二产业的产值相当\nC. 发展中国家第三产业的产值低于发达国家\nD. 发达国家第二产业从业人口比重最大",
+    "answer": "C. 发展中国家第三产业的产值低于发达国家",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-34",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "韩国三星电子公司到印度投资建厂，可能带来的影响是____\nA. 加大印度的就业压力\nB. 降低韩国电子产品的科技含量\nC. 降低韩国制造业销售份额\nD. 促进印度第二产业的快速发展",
+    "answer": "D. 促进印度第二产业的快速发展",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-35",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "长江中上游防护林所起的生态作用是____\nA. 涵养水源、保持水土\nB. 繁衍物种、维护生物多样性\nC. 调节气候、稳定大气成分\nD. 净化空气、吸烟除尘",
+    "answer": "A. 涵养水源、保持水土",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-36",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "中国的“三北”防护林所起的主要的环保功效是____\nA. 吸烟除尘\nB. 美化环境\nC. 防风固沙\nD. 净化空气",
+    "answer": "C. 防风固沙",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-37",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列地理现象与其形成原因的组合，不正确的是____\nA. 塔里木盆地沙漠广布——气候干旱，风力侵蚀、搬运和堆积作用明显\nB. 东部季风区土壤较肥沃——气候暖湿、多森林植被\nC. 青藏地区气候严寒、冰川广布——海拔高度影响\nD. 西北地区气候干旱——纬度位置影响",
+    "answer": "D. 西北地区气候干旱——纬度位置影响",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-38",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "海洋环境问题主要包括：____\nA. 海洋污染和海洋生态破坏\nB. 海洋生态问题和洋流问题\nC. 海洋运输问题和海洋开发\nD. 海洋污染和水温升高",
+    "answer": "A. 海洋污染和海洋生态破坏",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-39",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "云贵高原、青藏高原、河套平原和新疆的农业特色依次具有下面所列的是____\nA. 河谷农业、绿洲农业、浇灌农业、坝子农业\nB. 坝子农业、河谷农业、浇灌农业、绿洲农业\nC. 坝子农业、浇灌农业、绿洲农业、河谷农业\nD. 浇灌农业、河谷农业、绿洲农业、坝子农业",
+    "answer": "B. 坝子农业、河谷农业、浇灌农业、绿洲农业",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-40",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "沟通生产和消费、城市与农村、工业与农业的桥梁和纽带是____\nA. 交通运输业\nB. 邮电业\nC. 商业\nD. 服务业",
+    "answer": "C. 商业",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-41",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于太空垃圾的叙述，正确的是____\nA. 太空垃圾主要指宇宙空间不规则运行的小天体\nB. 太空垃圾对航天器没有多大危害\nC. 航天员扔出飞船舱外的垃圾是太空垃圾的来源之一\nD. 太空垃圾已严重污染了地球大气环境、危害人类健康",
+    "answer": "C. 航天员扔出飞船舱外的垃圾是太空垃圾的来源之一",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-42",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "形成风的直接原因是____\nA. 水平气压梯度力\nB. 空气的上升或下沉\nC. 地转偏向力\nD. 摩擦力",
+    "answer": "A. 水平气压梯度力",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-43",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于西部开发的战略部署，要求根据各地区的区域特征，积极发展有特色的优势产业，推进重点地带开发。以下各地区与其特色农业发展方向相一致的是____\nA. 北疆地区——苹果园、奶业、茶叶\nB. 河湟谷地——棉花、奶业生产基地\nC. 渭河平原——棉花、制糖、番茄、葡萄酒业\nD. 云贵地区——烤烟、花卉、药用植物",
+    "answer": "D. 云贵地区——烤烟、花卉、药用植物",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-44",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "土壤中的矿物养分主要来源于：____\nA. 矿物质\nB. 有机质\nC. 水分\nD. 空气",
+    "answer": "A. 矿物质",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-45",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于板块构造学说的叙述：①全球地壳划分为六大板块；②板块交界处为地震和火山集中分布地带；③在板块张裂处常形成海沟；④澳大利亚大陆属于印度洋板块。其中正确的是____\nA. ①②\nB. ②③\nC. ②④\nD. ①④",
+    "answer": "C. ②④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-46",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "海洋是大气主要的：____\nA. 物质和氧气的主要来源\nB. 热量和水分的主要来源\nC. 氮气和水分的主要来源\nD. 热量和二氧化碳的主要来源",
+    "answer": "B. 热量和水分的主要来源",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-47",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "夏季，新疆棉田无人机植保选择在夜间喷洒作业，主要目的是____\nA. 减少农药对田间务农人员的误伤\nB. 减少农药挥发，杀虫效果更佳\nC. 降低无人机植保人员的工作强度\nD. 避免大风天气，减少药液飘移",
+    "answer": "B. 减少农药挥发，杀虫效果更佳",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-48",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有关冬季参加体育运动的说法，不宜提倡的是____\nA. 日出前后运动\nB. 远离交通主干道\nC. 河（湖）边慢跑\nD. 避免浓雾天晨运",
+    "answer": "A. 日出前后运动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-49",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "亚马孙雨林破坏严重，关于破坏原因的叙述，错误的是____\nA. 过度的迁移农业\nB. 商业性伐木\nC. 采矿修路、城镇建设\nD. 建立自然保护区",
+    "answer": "D. 建立自然保护区",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-50",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "最适宜推广无人机植保喷洒除虫的是____\nA. 密集种植、叶片较小的低秆作物\nB. 稀疏种植、叶片较小的低秆作物\nC. 密集种植、叶片较大的高秆作物\nD. 稀疏种植、叶片较大的高秆作物",
+    "answer": "A. 密集种植、叶片较小的低秆作物",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-51",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面各项中，适宜应用遥感技术的是____\nA. 人口普查\nB. 森林普查\nC. 交通定位导航\nD. 确定某点高程",
+    "answer": "B. 森林普查",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-52",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "风成地貌（风力侵蚀、搬运、堆积）景观广泛呈现的地区是____\nA. 四川盆地\nB. 新疆南疆\nC. 福建沿海\nD. 东北平原",
+    "answer": "B. 新疆南疆",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-53",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "墨脱公路建成后有利于____\nA. 发挥该县的交通优势\nB. 加强对外物资和文化的交流\nC. 改善生态环境\nD. 将经济优势转化为资源优势",
+    "answer": "B. 加强对外物资和文化的交流",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-54",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "全球只有一个的气压带是____\nA. 赤道低气压带\nB. 副热带高气压带\nC. 副极地低气压带\nD. 极地高气压带",
+    "answer": "A. 赤道低气压带",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-55",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“寒冻风化作业强烈”是以下哪个自然区的特征____\nA. 东部季风区\nB. 青藏高寒区\nC. 西北干旱半干旱区\nD. 东部季风区的北方地区",
+    "answer": "B. 青藏高寒区",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-56",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于产业升级和产业转移，下列说法错误的是____\nA. 就业人口第一产业逐渐减少，第二产业先降后增，第三产业稳步增加\nB. 一般而言，从一个区域三大产业所占比重来看，第三产业比重越大，经济发展水平越高\nC. 改革开放以来，珠江三角洲已经实现了两次大规模的产业转移\nD. 社会经济发展不平衡是产业转移的主要原因",
+    "answer": "A. 就业人口第一产业逐渐减少，第二产业先降后增，第三产业稳步增加",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-57",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "印度享有“世界药房”声誉的主导因素是____\nA. 原料\nB. 市场\nC. 政策\nD. 劳动力",
+    "answer": "C. 政策",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-58",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "据报载，我国江西省中南部山区出现大片“红色荒漠”，即在亚热带湿润的岩溶地区，土壤遭受严重侵蚀，基岩裸露，地表出现类似荒漠化景观的土地退化现象,“红色荒漠”形成的自然原因主要是____\nA. 风化作用\nB. 风蚀作用\nC. 水蚀作用\nD. 沉积作用",
+    "answer": "C. 水蚀作用",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-59",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "可持续发展从观念走向实践的必要条件是：____\nA. 工厂实行清洁生产\nB. 公众认识、接受和积极参与\nC. 实行环境标志认证\nD. 决策者的观念转变与行为改变",
+    "answer": "B. 公众认识、接受和积极参与",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-60",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "拟在我国东南沿海某地建一化工厂，厂址宜选择在居民区的：____\nA. 西北方向\nB. 南北方向\nC. 东北方向\nD. 东西方向",
+    "answer": "C. 东北方向",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-61",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "推测今年三星电子关闭中国手机工厂的主要原因是____\nA. 中国国产手机崛起，三星手机消费市场缩减\nB. 中国市场的物流体系搭建不够完善，企业运输成本上升\nC. 中国加大环境保护力度，企业环保费用升高，利润减少\nD. 中国对于世界高端制造业的吸引力正在减弱",
+    "answer": "A. 中国国产手机崛起，三星手机消费市场缩减",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-62",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列说法哪一个是我国西北干旱半干旱自然区的写照____\nA. 早穿皮袄午穿纱，晚上围着火炉吃西瓜\nB. 夏季高温多雨，冬季严寒干燥\nC. 一山有四季，十里不同天\nD. 天无三日晴，地无三里平",
+    "answer": "A. 早穿皮袄午穿纱，晚上围着火炉吃西瓜",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-63",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "造成全球变暖的的原因是____\r\n①SO2、NO2大量排放    ② CO2大量排放     ③ 水土流失   ④ 酸雨  ⑤ 化石燃料大量燃烧    ⑥ 森林遭破坏\nA. ①③④\nB. ②⑤⑥\nC. ④⑤⑥\nD. ①②④",
+    "answer": "B. ②⑤⑥",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-64",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列地区属于新兴工业区的是：____\nA. 德国南部地区\nB. 英国中部地区\nC. 美国东北部地区\nD. 意大利南部地区",
+    "answer": "A. 德国南部地区",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-65",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "山西建设坑口电站，不能达到的目标是____\nA. 减轻铁路运输压力\nB. 改善能源输出方式\nC. 增加经济产值\nD. 降低省内环境污染",
+    "answer": "D. 降低省内环境污染",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-66",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于循环经济的叙述不正确的是____\nA. 循环经济在工业上的具体体现是提高工艺水平，降低生产过程中的污染\nB. 循环经济在农村的具体体现是建设生态农业\nC. 循环经济在消费观念上体现为绿色消费\nD. 循环经济的主要原则是3R（Reduce、Recycle、Reuse）原则",
+    "answer": "A. 循环经济在工业上的具体体现是提高工艺水平，降低生产过程中的污染",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-67",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "人地关系全面呈现不协调、人地矛盾迅速激化的时期是____\nA. 采猎文明时期\nB. 农业文明时期\nC. 工业文明时期\nD. 近20年来",
+    "answer": "C. 工业文明时期",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-68",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "多云阴雨的白天，气温较低，主要是因为大气的____\nA. 吸收作用强\nB. 反射作用强\nC. 散射作用弱\nD. 保温作用弱",
+    "answer": "B. 反射作用强",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-69",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "目前，我国的城市绝大多数分布在____\nA. 第一阶梯\nB. 第二阶梯\nC. 第三阶梯\nD. 沿海地区",
+    "answer": "C. 第三阶梯",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-70",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "从东部季风区到西北干旱区再到青藏高寒区____\r\n\r\n①区域面积依次减少，人口比重依次减小\r\n\r\n②地势逐级升高，降水逐渐减少\r\n\r\n③人类活动渐次加强，自然状态变化逐渐变大\r\n\r\n④土壤发育程度逐步降低，生物种类越来越少\nA. ①②\nB. ②④\nC. ①④\nD. ①③",
+    "answer": "C. ①④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-71",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "造成这种环境问题的主要人为原因是____\nA. 降水少\nB. 土壤疏松，降水变率大\nC. 过度放牧和过度樵采\nD. 干旱和大风现象",
+    "answer": "C. 过度放牧和过度樵采",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-72",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在我国西部大开发的过程中，应该____\nA. 向西部大规模移民，以减轻东部的环境压力\nB. 在西部大范围垦荒，兴建大型商品粮基地\nC. 把发展经济放在首位，加速开发西部的石油、天然气资源，并向东部输送\nD. 控制人口增长，提高人口素质",
+    "answer": "D. 控制人口增长，提高人口素质",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-73",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "地球表面物理风化作用最弱的自然带是____。\nA. 温带荒漠带\nB. 温带草原带\nC. 热带雨林带\nD. 亚寒带针叶林带",
+    "answer": "C. 热带雨林带",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-74",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "黎明前东方天际先泛起“鱼肚白”是由于大气对太阳光的____\nA. 散射作用\nB. 反射作用\nC. 吸收作用\nD. 辐射作用",
+    "answer": "A. 散射作用",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-75",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "珠江三角洲地区工业化进程中前后两个发展阶段的主导产业分别是____\nA. 原料导向型产业、动力导向型产业\nB. 劳动力导向型产业、市场导向型产\nC. 高新技术产业、劳动密集型产业\nD. 劳动密集型产业、高新技术产业",
+    "answer": "D. 劳动密集型产业、高新技术产业",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-76",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "印度参与我国“一带一路”建设的优势有____\r\n①濒临印度洋,对外交通便利     ②自然资源丰富,有利于经济发展\r\n③人口众多,有利于参与全球分工 ④国内资金雄厚,有利于参与“一带一路”建设\nA. ①②③\nB. ②③④\nC. ①②④\nD. ①③④",
+    "answer": "A. ①②③",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-77",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "人地关系处于“利用、改造自然”的时候，对应着陆地环境影响人类活动的哪一个阶段____\nA. 采集和狩猎阶段\nB. 农业社会阶段\nC. 工业社会阶段\nD. 后工业化阶段",
+    "answer": "B. 农业社会阶段",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-78",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关自然资源的叙述正确的是：____\nA. 直接从自然环境中获取的物质和能量\nB. 土地资源是不可再生资源\nC. 陆地自然资源取之不尽\nD. 直接从自然环境中获取并用于生产和生活的物质和能量",
+    "answer": "D. 直接从自然环境中获取并用于生产和生活的物质和能量",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-79",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有关季风的正确叙述是____\nA. 季风环流不属于大气环流\nB. 我国不受西南季风的影响\nC. 海陆热力性质的差异是形成季风的重要原因\nD. 气压带和风带位置的季节移动是形成东亚季风的重要原因",
+    "answer": "C. 海陆热力性质的差异是形成季风的重要原因",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-80",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于环境污染的叙述，正确的是：____\nA. 环境问题是工业社会的产物\nB. 乡村地区不会产生“白色污染”\nC. 土地盐碱化是自然原因产生的\nD. 燃烧矿物燃料是造成大气污染的主要原因",
+    "answer": "D. 燃烧矿物燃料是造成大气污染的主要原因",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-81",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国牧区与农耕区的分界线大致相当____\nA. 地势第一、第二级阶梯分界线\nB. 400毫米等降水量线\nC. 季风区与非季风区分界线\nD. 外流区与内流区分界线",
+    "answer": "B. 400毫米等降水量线",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-82",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列天体中距离地球最近的是____\nA. 太阳\nB. 月球\nC. 金星\nD. 火星",
+    "answer": "B. 月球",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-83",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "地壳中含量最多的两种元素是：____\nA. 硅、钠\nB. 氧、铝\nC. 氧、硅\nD. 钾、镁",
+    "answer": "C. 氧、硅",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-84",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "世界发达国家城市化达到高潮的时期是：____\nA. 1925年\nB. 1750年前后\nC. 二战以后\nD. 1970年以后",
+    "answer": "C. 二战以后",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-85",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "内蒙古、新疆建设花卉生产基地的优势是____\nA. 土地广\nB. 光照强\nC. 气温高\nD. 降水多",
+    "answer": "B. 光照强",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-86",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于水平气压梯度力的叙述,正确的是____\nA. 等压线越稀疏,表明水平气压梯度力越大\nB. 水平气压梯度力方向始终与等压线垂直并指向低压\nC. 水平气压梯度力方向始终与风向相同\nD. 水平气压梯度力方向始终与风向垂直",
+    "answer": "B. 水平气压梯度力方向始终与等压线垂直并指向低压",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-87",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于我国三大自然区分布的叙述，正确的是____\nA. 都兼跨内外流区域\nB. 都兼跨三级阶梯\nC. 都兼跨四类干湿区\nD. 都兼跨四个温度带",
+    "answer": "A. 都兼跨内外流区域",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-88",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列属于天体的是____\nA. 天空中的云\nB. 陨石\nC. 山顶坠落的巨大石块\nD. 星际空间的气体",
+    "answer": "D. 星际空间的气体",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-89",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关区域的说法，正确的是____\nA. 区域都有明确的界线\nB. 区域内部差异明显，区域之间某些特征相对一致\nC. 区域是主观任意划分的\nD. 区域根据一定的指标划分的，既可以是单一指标，也可采用综合指标",
+    "answer": "D. 区域根据一定的指标划分的，既可以是单一指标，也可采用综合指标",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-90",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“不违农时”体现了农业生产的：____\nA. 地域性特点\nB. 季节性特点\nC. 周期性特点\nD. 连续性特点",
+    "answer": "B. 季节性特点",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-91",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "从自然条件上看，荷兰并不适合栽培鲜花，主要原因是____\nA. 温带海洋性气候，热量、光照不足\nB. 温带大陆性气候，降水稀少\nC. 土壤贫瘠，难以改良\nD. 自然灾害频繁",
+    "answer": "A. 温带海洋性气候，热量、光照不足",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-92",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "形成酸雨的主要有害气体是：____\nA. 二氧化硫和氮氧化物\nB. 一氧化碳和氮氧化物\nC. 氮氧化物和二氧化碳\nD. 二氧化碳和二氧化硫",
+    "answer": "A. 二氧化硫和氮氧化物",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-93",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关天体的叙述，正确的是：____\nA. 星光闪烁的恒星\nB. 拖着长尾的流星\nC. 一闪即逝的彗星\nD. 圆缺多变的行星",
+    "answer": "A. 星光闪烁的恒星",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-94",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "西岛位于海南省三亚湾内，地形以丘陵为主，海底海滩多珊瑚、贝壳等。西岛不仅有美丽的海岛森林风光，还有独特而古老的民居——珊瑚石古屋。这些古屋是上百年以前渔民拾取台风季节冲上岸的石头建造而成，门窗低而小。目前仅存约200座，而且年久失修，破旧不堪。西岛早期渔民选用珊瑚石建房的主要原因是当地____\nA. 珊瑚石料美观\nB. 经济发展落后\nC. 珊瑚石料丰富\nD. 木材原料稀少",
+    "answer": "C. 珊瑚石料丰富",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-95",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "解决城市交通环境污染的方法不合理的是：____\nA. 实施减少汽车尾气污染的技术措施\nB. 广种花草树木，绿化美化交通道路\nC. 合理规划城市道路\nD. 限制城市汽车数量",
+    "answer": "D. 限制城市汽车数量",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-96",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列区域具有明确边界的是____\r\n\r\n①行政区 ②自然带 ③热量带 ④干湿地区 ⑤三江平原 ⑥山东省青岛市\nA. ①②③\nB. ③④⑤\nC. ①⑤⑥\nD. ①⑥",
+    "answer": "D. ①⑥",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-97",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若黄赤交角变为30°时，下列说法：①太阳辐射点南北移动幅度大了；②寒带的范围变小了；③各地昼夜长短变化大了；④温带的范围是纬度30°～60°。其中说法正确的是____\nA. ①②③\nB. ②③④\nC. ①③④\nD. ①②④",
+    "answer": "C. ①③④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-98",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果黄赤交角不存在，下列哪种现象将不会产生：____\nA. 太阳直射点的位置不变\nB. 大气运动方向永远不变\nC. 没有热带和寒带\nD. 气压带和风带和季节移动",
+    "answer": "D. 气压带和风带和季节移动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-99",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在土壤形成中起主导作用的是：____\nA. 生物\nB. 水分\nC. 大气\nD. 岩石",
+    "answer": "A. 生物",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-100",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "发展中国家人口增长迅速，其带来的不良后果是：____\r\n①劳动力充足，有利于自然资源的开发②对资源需求迅速增加，不利于资源的合理利用③资源的不合理利用，扩大了消费市场，促进了生产发展④阻碍了经济发展和人民生活水平的提高，片面追求经济增长\nA. ①②\nB. ②④\nC. ①③\nD. ③④",
+    "answer": "B. ②④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-101",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于我国自然地理要素分布规律的叙述，错误的是____\nA. 我国地势西高东低，呈三级阶梯状分布\nB. 我国的年平均降水量分布从东南沿海向西北内陆递减\nC. 等温线在青藏高原出现向北弯曲的状况\nD. 东部季风区的河流多为外流河，径流的季节变化明显",
+    "answer": "C. 等温线在青藏高原出现向北弯曲的状况",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-102",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "大陆性季风气候显著是我国东部季风区最突出的气候特征，能说明我国的季风气候具有显著的大陆性特点的有____\r\n\r\n①我国大部地区的气温年较差比世界同纬度地区偏大\r\n\r\n②我国大部地区的降水比世界同纬度地区偏多\r\n\r\n③我国大部地区的气温、降水的季节变化和年际变化都较大\r\n\r\n④我国有多种多样的温度带和于湿区，气候复杂多样\nA. ①③\nB. ②③\nC. ③④\nD. ②③",
+    "answer": "A. ①③",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-103",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于新疆和西藏两个区域的比较，正确的是____\nA. 新疆的面积比西藏大，但人口比西藏少\nB. 新疆位于我国地势的第二级阶梯，西藏则位于第三阶梯\nC. 新疆和西藏都属于温带大陆性气候\nD. 种植业类型新疆为绿洲农业，西藏为河谷农业",
+    "answer": "D. 种植业类型新疆为绿洲农业，西藏为河谷农业",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-104",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有关邮政通信的叙述错误的是：____\nA. 邮政具有点多、线长、面广的特点\nB. 邮政通信会受到台风、暴雨等自然灾害的影响\nC. 目前邮政还兼营一些代理业务，如代收税款等\nD. 邮政通信的主要任务是利用交通运输工具，传递货物和旅客",
+    "answer": "D. 邮政通信的主要任务是利用交通运输工具，传递货物和旅客",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-105",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "对于海洋中的新岛礁，其归属权的划分原则是____\nA. 哪个国家先发现和占领，岛礁的归属权就归谁\nB. 哪个国家离新的岛礁最近，岛礁的归属权就归谁\nC. 新岛礁属于哪个国家所在大陆的大陆架上，岛礁的归属权就归哪个国家\nD. 由岛礁四周的国家开会协商岛礁的归属权",
+    "answer": "A. 哪个国家先发现和占领，岛礁的归属权就归谁",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-106",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列地区中地壳厚度最小的是____\nA. 喜马拉雅山\nB. 内蒙古高原\nC. 四川盆地\nD. 大西洋",
+    "answer": "D. 大西洋",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-107",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "人们开发利用水资源重点是____\nA. 静态水资源\nB. 动态水资源\nC. 地下水资源\nD. 海洋水资源",
+    "answer": "B. 动态水资源",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-108",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "河网密度大的平原地区，聚落形态多表现为：____\nA. 圆形\nB. 带状\nC. 团状\nD. 多边形",
+    "answer": "B. 带状",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-109",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国南水北调工程的主要目的是____\nA. 解决长江流域的洪涝灾难问题\nB. 连通长江、淮河、黄河、海河四大水系以发展航运\nC. 利用流域间的落差发电\nD. 缓解北方地区水资源不足的问题",
+    "answer": "D. 缓解北方地区水资源不足的问题",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-110",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "树木涂白的主要目的是____\nA. 防虫、防冻\nB. 整齐、美观\nC. 减少树皮水分蒸发\nD. 延长树木的寿命",
+    "answer": "A. 防虫、防冻",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-111",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "印度仿制医药厂林立的主要目的是____\nA. 降低生产成本\nB. 提高药品品质\nC. 增加就业机会\nD. 开拓国外市场",
+    "answer": "A. 降低生产成本",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-112",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "同一经纬度的地区，“高处不胜寒”的原因是____\nA. 气压低\nB. 到达的太阳辐射少\nC. 气压高\nD. 大气的逆辐射少",
+    "answer": "D. 大气的逆辐射少",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-113",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "印度生物医药产业发展现状对我国的启示是____\nA. 放宽仿制药进口审批\nB. 依靠政策做大药企\nC. 缩小生产规模\nD. 仿创结合，加大研发力度",
+    "answer": "D. 仿创结合，加大研发力度",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-114",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "岩石圈的范围是指____\nA. 地壳\nB. 软流层及其以上部分\nC. 地壳和上地幔顶部\nD. 地壳和上地幔",
+    "answer": "C. 地壳和上地幔顶部",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-115",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "既属于泛珠三角地区（“92”论坛），又属于我国中部经济地带的省区是____\r\n\r\n①云南 ②湖北 ③湖南 ④江西 ⑤广东 ⑥广西 ⑦福建\nA. ①③\nB. ③④\nC. ⑤⑥\nD. ⑤⑦",
+    "answer": "B. ③④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-116",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "晴朗的天空呈蔚蓝色主要是因为____\nA. 大气吸收作用\nB. 大气反射作用\nC. 大气散射作用\nD. 大气折射作用",
+    "answer": "C. 大气散射作用",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-117",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "昆明气候四季如春的决定性因素是____\nA. 西南季风的持续影响\nB. 临近滇池和森林植被覆盖率高\nC. 东南季风和西南季风的共同影响\nD. 比较低的纬度位置和比较高的海拔高度",
+    "answer": "D. 比较低的纬度位置和比较高的海拔高度",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-118",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "资源型城市兴起于____\nA. 采猎社会阶段\nB. 农业社会阶段\nC. 工业社会阶段\nD. 后工业化阶段",
+    "answer": "C. 工业社会阶段",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-119",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "其他国家及地区的资本和企业的进入对印度产生的影响有____\nA. 提高了印度的环境质量\nB. 降低了印度的城市化水平\nC. 缓解了印度的就业压力\nD. 有利于印度民族企业的发展",
+    "answer": "C. 缓解了印度的就业压力",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-120",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "山西正在建设我国最大炼铝厂，其考虑的主导因素是____\nA. 山西铝土储量丰富\nB. 山西能源资源丰富，价格低廉\nC. 山西冶金工业技术水平高\nD. 山西劳动力资源丰富",
+    "answer": "B. 山西能源资源丰富，价格低廉",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-121",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“夏季高温多雨，冬季温和少雨”是哪种气候类型的特点：____\nA. 热带季风气候\nB. 亚热带季风气候\nC. 温带季风气候\nD. 温带海洋性气候",
+    "answer": "B. 亚热带季风气候",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-122",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "造成中国长江中下游地区初夏“梅雨”天气的是____\nA. 冷锋\nB. 暖锋\nC. 准静止锋\nD. 反气旋",
+    "answer": "C. 准静止锋",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-123",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "信息高速公路是现代化高科技的产物，其所属的行业是____\nA. 邮政通信\nB. 电信通信\nC. 交通运输\nD. 商业贸易",
+    "answer": "B. 电信通信",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-124",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列不属于“研究区域和区域差异的意义”的是____\nA. 比较区域发展的自然条件、社会经济条件\nB. 探讨区域内部自然与人为要素间、区域和区域间相互联系的规律\nC. 为平衡各自然区人口分布提供第一手资料\nD. 为选择区域发展方向、调整区域产业结构提供依据",
+    "answer": "C. 为平衡各自然区人口分布提供第一手资料",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-125",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "农业部加大了农用植保无人机的推广扶持力度，最主要是考虑到植保无人机____\nA. 能降低农民生产成本\nB. 作业时间不受昼夜限制\nC. 能助力农业绿色可持续发展\nD. 作业效率高于传统植保",
+    "answer": "C. 能助力农业绿色可持续发展",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-126",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列工业部门受自然条件制约比较明显和是：____\nA. 制糖工业\nB. 有色冶金\nC. 家具制造\nD. 钢铁工业",
+    "answer": "A. 制糖工业",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-127",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列湖泊：①洞庭湖；②太湖；③洪泽湖；④巢湖；⑤滇池。其中属目前中国正在重点治理污染严重的“三湖”的是：____\nA. ①②③\nB. ②④⑤\nC. ①③⑤\nD. ③④⑤",
+    "answer": "B. ②④⑤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-128",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "世界海洋每年蒸发的水汽中，大约90%的____\nA. 在陆地上空凝结，以降水形式到达地面\nB. 在海洋上空凝结，以降水形式返回海洋\nC. 长期保存在对流层大气中，不参加水循环\nD. 在陆地上形成降水后，参加海陆间循环",
+    "answer": "B. 在海洋上空凝结，以降水形式返回海洋",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-129",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有关火山爆发叙述不正确的是：____\nA. 火山爆发有很大的危害性\nB. 火山按其活动情况可分为三类\nC. 火山爆发是地球上特有的现象\nD. 火山也可引发地震",
+    "answer": "C. 火山爆发是地球上特有的现象",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-130",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "商业中心多分布在____\nA. 河湖边缘地带\nB. 城市人口密集的道路两边\nC. 所有建筑物的底层\nD. 道路的交叉路口",
+    "answer": "B. 城市人口密集的道路两边",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-131",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列各项措施中，能有效地防治酸雨的是____\nA. 植树造林，扩大森林覆盖率\nB. 减少硫氧化物和氮氧化物的排放\nC. 禁止排放氯氟烃，研制新的制冷系统\nD. 减少煤的使用，大量使用石油和天然气",
+    "answer": "B. 减少硫氧化物和氮氧化物的排放",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-132",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关地球自转运动的叙述中,不正确的是____\nA. 地球自转的线速度因纬度不同而有差异，纬度愈高，线速度愈快\nB. 从南极上空看，地球作顺时针方向旋转\nC. 从北极上空看，地球作逆时针方向旋转\nD. 地球自转过程中，地轴北端始终指向北极星附近",
+    "answer": "A. 地球自转的线速度因纬度不同而有差异，纬度愈高，线速度愈快",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-133",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列不属于西部经济地带却属于西部大开发范围的省区是____\nA. 黑龙江\nB. 内蒙古\nC. 湖南\nD. 四川",
+    "answer": "B. 内蒙古",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-134",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列条件:①高温多雨的热带气候；②便利的海洋运输；③劳动力资源充足；④崎岖不平山地和高原。其中属热带种植园农业生产所需的区位条件是____\nA. ①②③\nB. ②③④\nC. ①③④\nD. ②④",
+    "answer": "A. ①②③",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-135",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列我国的地理事物符合由北向南排列的是____\nA. —年—熟、一年两熟、两年三熟\nB. 大庆油田、中原油田、华北油田\nC. 亚麻和春小麦、棉花和冬小麦、甘蔗和水稻\nD. 洛阳白马寺、北京故宫、苏州园林",
+    "answer": "C. 亚麻和春小麦、棉花和冬小麦、甘蔗和水稻",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-136",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "西岛珊瑚石古屋门窗建造的低而小，其主要目的是____\nA. 削弱太阳辐射\nB. 减轻台风破坏\nC. 便于防潮保温\nD. 加强安全防盗",
+    "answer": "B. 减轻台风破坏",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-137",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在野外考察旅行时，只要拥有手机大小的GPS信号接收机，你就能随时知道____\nA. 自己所在的季节\nB. 自己所在地的天气\nC. 自己所在地的地理坐标\nD. 自己所在地的气候",
+    "answer": "C. 自己所在地的地理坐标",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-138",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "广西是我国最大的食糖生产基地，主要的原因是____\nA. 市场广阔\nB. 原料充足\nC. 劳动力丰富\nD. 土地价格低",
+    "answer": "B. 原料充足",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-140",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "墨脱公路建设难度大的主要原因是____\nA. 终年多雨\nB. 植被茂密\nC. 地质条件复杂\nD. 公路设计等级高",
+    "answer": "C. 地质条件复杂",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-141",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于欧洲的三圃制农业，说法正确的是____\r\n\r\n①三圃制农业的形成主要是由当地自然地理环境决定的\r\n\r\n②三圃制农业属于混合农业\r\n\r\n③三圃制农业分布在欧洲西部平原地区\r\n\r\n④三圃制农业是一种粗放农业\nA. ①②\nB. ②④\nC. ③④\nD. ①③",
+    "answer": "A. ①②",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-142",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于昼夜的说法正确的是____\nA. 地球自转产生昼夜\nB. 昏线的东边是昼半球，晨线的西边是夜半球\nC. 晨昏线是昼夜半球的分界线\nD. 昼夜交替周期为23时56分4秒",
+    "answer": "C. 晨昏线是昼夜半球的分界线",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-143",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "城市中多雾的原因是：____\nA. 尘埃多\nB. 水汽多\nC. 温度高\nD. 二氧化碳多",
+    "answer": "A. 尘埃多",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-144",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "\"高速工厂\"的建立，可能____\nA. 增加原料成本\nB. 减少研发费用\nC. 增加人力成本\nD. 减少销售费用",
+    "answer": "D. 减少销售费用",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-145",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于太阳的叙述正确的是____\nA. 太阳是距离地球最近的天体\nB. 能量来自内部的核裂变反应\nC. 源源不断地以电磁波的形式向四周放射能量\nD. 太阳是银河系的中心天体",
+    "answer": "C. 源源不断地以电磁波的形式向四周放射能量",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-146",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "地球公转的周期是：____\nA. 1恒星年\nB. 365日5时48分46秒\nC. 1太阳日\nD. $23小时56分钟4秒$",
+    "answer": "A. 1恒星年",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-147",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于气旋、反气旋的叙述，不正确的是____\nA. 气旋中心气压低，反气旋中心气压高\nB. 气旋中心气流辐合上升，反气旋气流下沉辐散\nC. 气旋过境时容易成云致雨，反气旋过境时多晴朗天气\nD. 气旋的气流是由中心逆时针流向四周，反气旋的气流是由四周顺时针流向中心",
+    "answer": "D. 气旋的气流是由中心逆时针流向四周，反气旋的气流是由四周顺时针流向中心",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-148",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "到达地面的太阳辐射主要是：____\nA. 长波辐射\nB. 紫外线\nC. 可见光\nD. 红外线",
+    "answer": "C. 可见光",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-149",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于反气旋的叙述，正确的是：____\nA. 中心为高气压\nB. 中心为上升气流\nC. 中心为低气压\nD. 气流向中心辐合",
+    "answer": "A. 中心为高气压",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-150",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国发射在赤道上空的地球同步卫星与赤道上的对应点相比____\nA. 角速度和线速度都不同\nB. 运转方向相同，线速度同\nC. 角速度和线速度都相同\nD. 运转方向同，角速度相同",
+    "answer": "D. 运转方向同，角速度相同",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-151",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "GIS的全称是____\nA. 地理信息系统\nB. 遥感技术\nC. 全球定位系统\nD. 地球卫星导航",
+    "answer": "A. 地理信息系统",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-152",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "造成东部季风区内部差异性的主要原因是____\nA. 季风强弱不同造成的\nB. 海陆位置不同造成的\nC. 气温随纬度位置的变化造成的\nD. 海拔高低悬殊造成的",
+    "answer": "C. 气温随纬度位置的变化造成的",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-153",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "发展中国家城市化过程不应过快发展的主要原因是：____\nA. 人口素质还不高\nB. 科学技术还不高\nC. 城市建设经验不足\nD. 经济水平较低",
+    "answer": "D. 经济水平较低",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-154",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "上海积极推广“太阳能屋顶计划”主要是因为____\nA. 常规能源短缺，能源需求量大\nB. 是我国太阳能资源最丰富的地区\nC. 太阳能资源清洁、可再生、能量集中\nD. 上海经济发达，能源蕴藏量大",
+    "answer": "A. 常规能源短缺，能源需求量大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-155",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "等温线与洋流关系的叙述，正确的是：____\nA. 暖流流经海区等温线向北凸\nB. 寒流流经海区等温线向南凸\nC. 寒流流经海区等温线向低纬凸\nD. 暖流流经海区等温线向低纬凸",
+    "answer": "C. 寒流流经海区等温线向低纬凸",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-156",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列工业部门区位选择的叙述：①在有充足水电的地方建炼铝厂；②在东北原木生产基地建高档家具厂；③在天津市发展石油加工业；④在上海市建甘蔗制糖厂。正确的是____\nA. ①②\nB. ②③\nC. ①③\nD. ②④",
+    "answer": "C. ①③",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-157",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "造成西北干旱半干旱区内部差异的主要原因是____\nA. 季风强弱不同造成的\nB. 海陆位置不同造成的\nC. 气温随经度位置的变化造成的\nD. 海拔高低悬殊造成的",
+    "answer": "B. 海陆位置不同造成的",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-158",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "生产布局与自然资源不匹配的是____\nA. 天津的石油化学工业与淡水资源\nB. 海南岛的橡胶种植业与热量资源\nC. 江南丘陵的茶园与土壤资源\nD. 小兴安岭的木材加工业与森林资源",
+    "answer": "A. 天津的石油化学工业与淡水资源",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-159",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "鲁尔区衰退的主要原因是____\nA. 生产结构单一，煤炭能源地位下降\nB. 煤炭资源枯竭，环境污染\nC. 生产设备老化，生产效率太低\nD. 煤炭、钢铁产量严重过剩，工业用地十分紧张",
+    "answer": "A. 生产结构单一，煤炭能源地位下降",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-160",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "既属于东部季风区，又位于地势第二级阶梯上的地貌单元是____\nA. 塔里木盆地\nB. 内蒙古高原\nC. 黄土高原\nD. 华北平原",
+    "answer": "C. 黄土高原",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-161",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于乡村地域和城镇地域的叙述正确的是____\nA. 城镇地域的范围通常比乡村地域大\nB. 城镇地域是乡村地域发展的依托\nC. 乡村地域对城镇地域产生广泛和持续的带动作用\nD. 乡村地域与城镇地域的生产活动差别很大",
+    "answer": "D. 乡村地域与城镇地域的生产活动差别很大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-162",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于树木涂白的作用原理，正确的是____\nA. 降低树干白天和夜间的温差\nB. 减少地面长波辐射\nC. 延迟树木萌芽和开花\nD. 增加树木对阳光的吸收",
+    "answer": "A. 降低树干白天和夜间的温差",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-163",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "大气中臭氧总量减少的人为原因是____\nA. 二氧化碳含量增加\nB. 氟氯烃化合物含量增加\nC. 硫氧化物增多\nD. 太阳活动增强",
+    "answer": "B. 氟氯烃化合物含量增加",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-164",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于跨区域的调水，不正确的是____\nA. 调水可以使缺水地区增加水域，加强四大圈层之间的垂直水汽交换\nB. 可以增加受水区地表水的补给和土壤的含水量\nC. 可以减少地下水的开采，有利于水土保持和防止地面沉降\nD. 可以把输水地区的污染带到受水地区，使输水区的污染减轻",
+    "answer": "D. 可以把输水地区的污染带到受水地区，使输水区的污染减轻",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-165",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "人类在海洋中的捕鱼量，90%以上来自____\nA. 大陆架浅海区\nB. 寒暖流交汇处\nC. 大洋的深海区\nD. 上升流海区",
+    "answer": "A. 大陆架浅海区",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-166",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有关三大经济地带的说法不正确的是____\nA. 除了港澳台外，其他沿海省区全部属东部经济地带\nB. 东部经济地带经济发展最快，发展水平最高\nC. 近年来东西部差距有进一步扩大的趋势\nD. 自然差异是导致东西部经济差异的主导因素",
+    "answer": "D. 自然差异是导致东西部经济差异的主导因素",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-167",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有化石存在的成层岩石是：____\nA. 花岗岩\nB. 岩浆岩\nC. 沉积岩\nD. 变质岩",
+    "answer": "C. 沉积岩",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-168",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "传统鞋业从产品设计到上架销售需要18个月左右。A跨国公司主要从事运动鞋的研发、生产和销售，产品销往全球。2016年该公司在德国建立了“高速工厂”实践基地，根据客户需求，设计好产品及相关生产程序，由机器人、针织机、3D打印机快速生产出各具特色的运动鞋，全过程仅需5小时。“高速工厂”的生产模式可能带来____\nA. 定制产品增加\nB. 仓储费用增加\nC. 实体商店增多\nD. 工人需求增加",
+    "answer": "A. 定制产品增加",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-169",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "西部干旱半干旱地区内部景观差异由东往西应该是____\nA. 森林——森林草原——草原——荒漠草原——荒漠\nB. 荒漠——草原荒漠森林——草原——森林草原——森林\nC. 森林——草原——森林草原——荒漠——草原荒漠\nD. 荒漠——草原荒漠——草原——森林草原——森林",
+    "answer": "A. 森林——森林草原——草原——荒漠草原——荒漠",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-170",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "亚马孙雨林被称为“地球之肺”，原因是____\nA. 能够吸纳和滞蓄大量降水\nB. 促进全球水循环，调节全球水平衡\nC. 深刻影响着地球大气中的碳氧平衡\nD. 能够为人类提供大量的生物资源",
+    "answer": "C. 深刻影响着地球大气中的碳氧平衡",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-171",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "世界上最大的商品谷物农业生产国是：____\nA. 美国\nB. 加拿大\nC. 澳大利亚\nD. 阿根廷",
+    "answer": "A. 美国",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-172",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "青藏高寒区的农作物分布在河谷中的最主要的自然原因是____\nA. 河谷地区土壤肥沃\nB. 河谷地区气温较高，热量条件好\nC. 河谷地区人口稠密，劳动力多\nD. 河谷地区有丰富的水源",
+    "answer": "B. 河谷地区气温较高，热量条件好",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-173",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有关珠江三角洲的产业转移的正确叙述是____\nA. 第一次产业转移移入大量的高新技术产业\nB. 80年代本区的环境污染不断好转\nC. 90年代至今的环境质量日益恶化\nD. 20世纪90年代珠江三角洲的劳动密集型产业开始向欠发达的内地转移",
+    "answer": "D. 20世纪90年代珠江三角洲的劳动密集型产业开始向欠发达的内地转移",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-174",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "目前人类利用的淡水资源主要是：____\nA. 湖泊水、冰川水、浅层地下水\nB. 淡水湖泊水、河流水、浅层地下水\nC. 淡水湖泊水、冰川水、河流水\nD. 淡水湖泊水、河流水、地下水",
+    "answer": "B. 淡水湖泊水、河流水、浅层地下水",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-175",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于我国东部季风区的叙述，正确的是____\nA. 受冬季风影响不明显\nB. 受夏季风影响明显\nC. 位于大兴安岭以东、内蒙古高原以北、青藏高原以东\nD. 海拔较高，位于地势第二级阶梯上",
+    "answer": "B. 受夏季风影响明显",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-176",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "世界上最早的城市出现在____\nA. 美索不达米亚平原、尼日尔河下游、恒河流域、黄河流域和中美洲\nB. 美索不达米亚平原、尼日尔河下游、印度河流域、长江流域和中美洲\nC. 美索不达米亚平原、尼日尔河下游、印度河流域、黄河流域和中美洲\nD. 美索不达米亚平原、尼罗河下游、印度河流域、黄河流域和中美洲",
+    "answer": "D. 美索不达米亚平原、尼罗河下游、印度河流域、黄河流域和中美洲",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-test-177",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“数字地球”是____\nA. 指用数字表示地球的大小\nB. 把整个地球信息数字化后由计算机网络来管理的技术系统\nC. 用经纬网的数据来表示地理事物的位置\nD. 用GPS数据来表示地球上各种地理事物的位置",
+    "answer": "B. 把整个地球信息数字化后由计算机网络来管理的技术系统",
+    "solution": "1. 数字地球是一种将地球上的各种地理信息进行数字化处理，并通过计算机网络进行管理和应用的技术系统。",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-dev-0",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列自然现象与太阳辐射无关的是____\nA. 生物出现\nB. 水体的运动\nC. 风的形成\nD. 火山的喷发",
+    "answer": "D. 火山的喷发",
+    "solution": "1. 太阳辐射是促进地球上生命活动、水体的运动、大气运动的主要动力，选项(A)、(B)、(C)均与太阳辐射有关。\n2. 火山的喷发来自于地球的内能,与太阳辐射无关。",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-dev-1",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "坎儿井是下列哪个地区的水利工程____\nA. 四川盆地\nB. 新疆南疆\nC. 黄土高原\nD. 东北平原",
+    "answer": "B. 新疆南疆",
+    "solution": "1. 坎儿井是新疆南疆地区特有的水利工程。",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-dev-2",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列措施有利于广西产糖业走出困境的是____\r\n①扩大甘蔗播种面积   ②提高农业机械化水平\r\n③增加农药化肥施用量，提高甘蔗单产④培育甘蔗良种，提高含糖率\nA. ①②\nB. ③④\nC. ①③\nD. ②④",
+    "answer": "D. ②④",
+    "solution": "1. 首先，广西产糖业的困境主要包括：食糖产量下降,企业利润降低等。\n2. 接着分析选项：①扩大甘蔗种植面积不利于利润提高；②提高农业机械化水平，有利于降低生产成本，提高生产效率；③增加农药化肥施用量会导致环境污染和土壤退化，不利于产糖业的可持续发展；④培育甘蔗良种，提高含糖率，有助于提高甘蔗的品质和产量。\n3. 根据以上分析，选择②④。",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-dev-3",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "目前，许多大城市生态失调的关键在于____\nA. 绿化面积小\nB. 人口过度膨胀\nC. 交通拥挤不堪\nD. 环境污染严重",
+    "answer": "B. 人口过度膨胀",
+    "solution": "1. 分析选项：(A)绿化面积少，(C)交通拥挤不堪，(D)环境污染严重，这些都是城市化过程中产生的问题，导致这些问题的根本原因在于(B)人口过度膨胀，使生态平衡失调。",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-dev-4",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "中国实行可持续发展的核心是：____\nA. 发展是关键\nB. 经济增长为主\nC. 人民生活水平提高\nD. 自然资源合理利用B.季节性特点",
+    "answer": "A. 发展是关键",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-0",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "采用下玻璃温室生产蔬菜、花卉，属于农业分类中的：____\nA. 粗放农业\nB. 自给农业\nC. 种植园农业\nD. 密集农业",
+    "answer": "D. 密集农业",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-1",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关昼夜长短状况的叙述正确的是：____\nA. 9月23日赤道昼大于夜\nB. 12月22日南半球昼小于夜\nC. 6月22日北半球昼大于夜\nD. 3月21日有北极圈上出现极昼现象",
+    "answer": "C. 6月22日北半球昼大于夜",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-2",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "洋流因产生的动力不同，可分为____\nA. 风海流、暖流、寒流\nB. 补偿流、暖流、寒流\nC. 密度流、寒流、暖流\nD. 风海流、补偿流、密度流",
+    "answer": "D. 风海流、补偿流、密度流",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-3",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "圣诞节这天，下列城市中白昼最短的是____\nA. 广州\nB. 哈尔滨\nC. 北京\nD. 上海",
+    "answer": "B. 哈尔滨",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-4",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有关台风的叙述：①台风常发生在秋冬季节；②台风现象只发生在西太平洋上；③台风是一种强烈发展的温带锋面气旋；④台风是一种在海面上强烈发展的热带气旋；⑤飓风和台风都是热带气旋，只是发生的海域不同而名称各异。其中正确的是____\nA. ①②③\nB. ②③④\nC. ①⑤\nD. ④⑤",
+    "answer": "D. ④⑤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-5",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列不以秦岭――淮河一线为分界线的是____\nA. 亚热带季风气候和温带季风气候\nB. 水田农业和旱地农业\nC. 农耕区和牧业区\nD. 湿润地区与半湿润地区",
+    "answer": "C. 农耕区和牧业区",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-6",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "高技术工业区通常的特点有____\nA. 研究开发人员多\nB. 生产产品全部面向国内市场\nC. 产品更新换代快\nD. 从业人员全部是科学家和工程师",
+    "answer": "C. 产品更新换代快",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-7",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "农业社会时期，爪哇岛上人口聚集的原因是____\nA. 河流众多\nB. 土壤的肥力高\nC. 交通便利\nD. 气候适宜",
+    "answer": "B. 土壤的肥力高",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-8",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "地球内部圈层划分的依据是____\nA. 地震波速度的变化\nB. 温度的垂直变化\nC. 内部压力的变化\nD. 物质密度的变化",
+    "answer": "A. 地震波速度的变化",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-9",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "亚洲水稻种植业的特点是____\nA. 单产高,商品率高\nB. 人均耕地较多,多大规模经营\nC. 人力为主,机械化水平低\nD. 水热资源丰富,水利工程量小",
+    "answer": "C. 人力为主,机械化水平低",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-10",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "该县境内雅鲁藏布江河段航运价值低，其主要原因是____\nA. 封冻期长\nB. 落差大\nC. 流量小\nD. 含沙量大",
+    "answer": "B. 落差大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-11",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "可以看见下弦月的时间是____\nA. 上半夜\nB. 下半夜\nC. 子夜前后\nD. 整个夜晚",
+    "answer": "B. 下半夜",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-12",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "这片广袤的黄土地已经被水流蚀割得沟壑纵横，支离破碎，四分五裂，像老年人的一张粗糙的皱脸每年流入黄河的泥沙就达十六亿吨!就在这大自然无数黄色的皱褶中，世世代代生活和繁衍着千千万万的人。无论沿着哪一条皱纹走进去，你都能碰见村落和人烟，而且密集得叫你不可思议。生活在黄土所在地区的人们____\nA. 受热量条件制约，选择在河谷地区修路建村\nB. 借黄土肥沃优势，发展了大规模机械化农业\nC. 不合理耕作破坏植被，导致石漠化现象严重\nD. 通过植树种草及打坝淤地进行有效水土保持",
+    "answer": "D. 通过植树种草及打坝淤地进行有效水土保持",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-13",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "黄土高原最大的环境问题是____\nA. 荒漠化\nB. 水土流失\nC. 酸雨\nD. 气候变暖",
+    "answer": "B. 水土流失",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-14",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "荷兰出口的花卉占世界花卉贸易总额的40%以上，这并不得益于____\nA. 保鲜、冷藏技术的发展和交通运输的完善\nB. 花卉品种不断增多，质量不断提高\nC. 依靠科技发展玻璃温室，改造自然条件\nD. 以较低的价格赢得市场",
+    "answer": "D. 以较低的价格赢得市场",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-15",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "与广西相比，巴西发展食糖业的突出优势是____\nA. 生产成本低\nB. 产品质量高\nC. 加工技术先进\nD. 社会协作条件好",
+    "answer": "A. 生产成本低",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-16",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "1992年韩国三星电子在惠州建工厂首要的有利条件是____\nA. 劳动力充足，薪资水平低\nB. 我国市场巨大\nC. 治理污染费用较低\nD. 地价便宜",
+    "answer": "A. 劳动力充足，薪资水平低",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-17",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列天体系统中不包括地球的是____\nA. 总星系\nB. 河外星系\nC. 银河系\nD. 太阳系",
+    "answer": "B. 河外星系",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "地理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中地理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_geography-val-18",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  }
+]

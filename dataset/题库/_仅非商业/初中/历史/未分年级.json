@@ -1,0 +1,3746 @@
+[
+  {
+    "question_text": "《凡尔赛和约》的内容包括____。\r\n\r\n①阿尔萨斯和洛林交还法国        ②废除德国的普遍义务兵役制\r\n③承认波兰独立                  ④尊重中国主权和独立\nA. ①②④\nB. ①②③\nC. ①③④\nD. ②③④",
+    "answer": "B. ①②③",
+    "solution": "1. 根据历史事实，①阿尔萨斯和洛林交还法国是《凡尔赛和约》的内容之一，这两个地区在第一次世界大战中被德国占领；②废除德国的普遍义务兵役制也是《凡尔赛和约》的内容之一，这是对德国的军事限制之一；③承认波兰独立也是《凡尔赛和约》的内容之一，波兰在第一次世界大战中重新独立；④尊重中国主权和独立虽然是中国在《凡尔赛和约》中提出的要求，但并没有得到充分的保障，因此不能算作《凡尔赛和约》的内容之一。\n2. 根据以上分析，正确的内容是①②③。",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-dev-0",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“一代天骄”成吉思汗建立的政权是____\nA. 辽\nB. 金\nC. 蒙古\nD. 元",
+    "answer": "C. 蒙古",
+    "solution": "1. 成吉思汗在经历了多次战争后，统一了蒙古部落，建立了蒙古帝国。",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-dev-1",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "今年是联合国的成立65周年，当年决定成立这一重要国际组织的会议是____\nA. 雅尔塔会议\nB. 开罗会议\nC. 德黑兰会议\nD. 波茨坦会议",
+    "answer": "A. 雅尔塔会议",
+    "solution": "1. 联合国是一个由各国政府组成的国际组织，成立于1945年的雅尔塔会议。",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-dev-2",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "假如一个人出生于公元前20年，去世于公元38年，那么，这个人的年龄是多少周岁？____\nA. 57岁\nB. 58岁\nC. 59岁\nD. 18岁",
+    "answer": "A. 57岁",
+    "solution": "1. 这个人的生存年龄为（公元38年-公元前20年-1年）= 57年。",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-dev-3",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在一座城市市政府门前，有一座标志性的雕像名为拓荒牛，这座城市就是在改革开放中，被誉为“一夜崛起之城”的____\nA. 上海\nB. 深圳\nC. 珠海\nD. 厦门",
+    "answer": "B. 深圳",
+    "solution": "1. 深圳是中国的特别经济区之一，它在改革开放初期率先实行市场经济和对外开放政策，经济发展迅速，被称为“一夜崛起之城”。",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-dev-4",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "歌曲《春天的故事》中有“那是一个春天，有一位老人在中国的南海边画了一个圈”，这句歌词指的是____\nA. 实行民族区域自治\nB. 制定社会主义初级阶段的基本路线\nC. 推行家庭联产承包责任制\nD. 建立经济特区实行对外开放",
+    "answer": "D. 建立经济特区实行对外开放",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-0",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "被称为中国近代史上第一次巨变的是____\nA. 辛亥革命的胜利和中华民国的成立\nB. 洋务运动开始了中国的近代化\nC. 1840年鸦片战争\nD. 戊戌变法法令的颁布",
+    "answer": "A. 辛亥革命的胜利和中华民国的成立",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-1",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "隋朝末年，有位商人欲通过大运河从余杭运送一批粮食到洛阳，其先后要经过____\nA. 江南河→邗沟\nB. 邗沟→江南河→通济渠\nC. 江南河→邗沟→永济渠\nD. 江南河→邗沟→通济渠",
+    "answer": "D. 江南河→邗沟→通济渠",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-2",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2005年是中国电影诞生100周年。百年前，我国拍摄的第一部电影是____。\nA. 《马路天使》\nB. 《渔光曲》\nC. 《定军山》\nD. 《十字街头》",
+    "answer": "C. 《定军山》",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-3",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "七年级（一）班本月负责学校文化长廊的黑板报设计，他们选定的主题是“唐代的中外交往”，并拟定了如下四个标题，请你帮他们指出哪一项是不恰当的____\nA. 文成公主与松赞干布成亲\nB. 鉴真东渡宣扬中国文化\nC. 玄奘西游天竺取经\nD. 日本派遣唐使来华",
+    "answer": "A. 文成公主与松赞干布成亲",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-4",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "英国资产阶级革命前，新贵族和旧贵族的主要区别在于他们____\nA. 对君主专制的态度\nB. 身份和地位\nC. 对人民的态度\nD. 采用的生产方式",
+    "answer": "D. 采用的生产方式",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-5",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "历史上第一个圆了人类飞上蓝天的梦想而被称为“航天飞行器的先驱”的是____。\nA. 奥托\nB. 莱特兄弟\nC. 富兰克林\nD. 蒙特哥菲尔兄弟",
+    "answer": "B. 莱特兄弟",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-6",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“当革命的风暴横扫整个法国的时候，英国正在进行一场比较平静、但是并不因此就显得缺乏力量的变革。”这句话中的“变革”是指____。\nA. 英国资产阶级革命\nB. 光荣革命\nC. 英国组织的“反法同盟”\nD. 工业革命",
+    "answer": "D. 工业革命",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-7",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "近代中国面临着严重的民族危机，无数仁人志士都在探求救国救民的出路。下列选项搭配不正确的是____。\nA. 李鸿章→洋务运动\nB. 魏源→戊戌变法\nC. 孙中山→辛亥革命\nD. 陈独秀→新文化运动",
+    "answer": "B. 魏源→戊戌变法",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-8",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "清代皇帝在北京西郊建造的中西合璧的皇家园林──圆明园是在中____被____毁掉的。\nA. 鸦片战争、英国\nB. 第二次鸦片战争、英国和法国\nC. 甲午中日战争、日本\nD. 八国联军侵华战争、八国",
+    "answer": "B. 第二次鸦片战争、英国和法国",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-9",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列与武则天有关的表述不准确的一项是____。\nA. 代唐高宗视政，初显管理才能\nB. 自立为帝，改国号为“周”\nC. “武周政治”时期，社会经济达到前所未有的极盛时期\nD. 以残酷诛杀的手段对付李唐宗室",
+    "answer": "C. “武周政治”时期，社会经济达到前所未有的极盛时期",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-10",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "1943年2月，罗斯福在致斯大林的一封贺信中写到：“是你们制止了侵略浪潮，成为盟军反侵略战争的转折点。”这一“转折点”是指____\nA. 日本偷袭珍珠港\nB. 莫斯科保卫战\nC. 斯大林格勒会战\nD. 诺曼底登陆",
+    "answer": "C. 斯大林格勒会战",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-11",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲午中日战争失败以后，李鸿章伤感地反省说：“我办了一辈子事，练兵也，海军也，都是纸糊的老虎……不过勉强涂饰，虚有其表。”对这句话的理解，最为正确的应当是____\nA. 洋务运动一无是处\nB. 洋务运动劳而无功\nC. 洋务运动的目的在于表面做做样子\nD. 洋务运动没有达到“自强”、“求富”的目的",
+    "answer": "D. 洋务运动没有达到“自强”、“求富”的目的",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-12",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "1997年7月1日香港维多利亚港湾的会展中心灯火辉煌，0时整，伴随着嘹亮的中华人民共和国国歌，鲜艳的五星红旗冉冉升起。从这一刻起____\nA. 香港社会制度改变了\nB. 中国对香港恢复行使主权\nC. 香港经济特区成立了\nD. 香港开始实行民族区域自治",
+    "answer": "B. 中国对香港恢复行使主权",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-13",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有些人的名字往往与时代特征有一定的联系，下列名字中与他出生的时代特征不相符合的是____\nA. 出生于1949年，取名建国\nB. 出生于1951年，取名援朝\nC. 出生于1958年，取名跃进\nD. 出生于1978年，取名文革",
+    "answer": "D. 出生于1978年，取名文革",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-14",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在今天菲律宾的马克坦岛上矗立着一块双面碑，一面的碑文是纪念麦哲伦，因为他完成了人类历史上第一次环球航行；另一面是纪念菲律宾的一位勇士，因为正是他杀死了殖民头子麦哲伦。对于新航路的开辟，以下说法不确切的是____\nA. 推动了海外扩张和世界市场的初步形成\nB. 加速了欧洲的资本原始积累\nC. 打破了世界各地区的封闭和孤立状态\nD. 导致了第一次鸦片战争的发生",
+    "answer": "D. 导致了第一次鸦片战争的发生",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-15",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "把鸦片战争作为中国近代史的开端，主要是因为____\nA. 中国社会性质发生了变化\nB. 中国社会主要矛盾发生了变化\nC. 中国革命性质发生了变化\nD. 中国人民革命任务发生了变化",
+    "answer": "A. 中国社会性质发生了变化",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-16",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于河姆渡原始居民生活状况的描述，不正确的一项是____\nA. 会饲养家畜\nB. 会制造青铜器\nC. 种植水稻\nD. 会制造干栏式房屋",
+    "answer": "B. 会制造青铜器",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-17",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "改革开放以来，我国的外交事业取得重大成就的根本原因是____\nA. 综合国力的增强\nB. 独立自主的和平外交政策\nC. 中国是联合国安理会常任理事国\nD. 成功举办亚太经合组织会议",
+    "answer": "A. 综合国力的增强",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-18",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "形成日后华夏族的主要部落是____\nA. 黄帝、蚩尤部落\nB. 炎帝、蚩尤部落\nC. 黄帝、炎帝、蚩尤部落\nD. 黄帝、炎帝部落",
+    "answer": "D. 黄帝、炎帝部落",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-19",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "党在社会主义初级阶段基本路线的核心内容是“一个中心，两个基本点”，这里“一个中心”是指____\nA. 以改革开放为中心\nB. 以经济建设为中心\nC. 以四项基本原则为中心\nD. 以艰苦创业为中心",
+    "answer": "B. 以经济建设为中心",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-20",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "改革开放以来，党和政府为发展社会主义经济采取的举措不包括____\nA. 建立经济特区\nB. 农村实行家庭联产承包责任制\nC. 城市实行经济体制改革\nD. 农村建立人民公社",
+    "answer": "D. 农村建立人民公社",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-val-21",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“大将筹边尚未还，湖湘子弟满天山。新栽杨柳三千里，引得春风度玉关。”这首诗颂扬了一位清代名将率军收复新疆、治理边疆的业绩。这位名将是____。\nA. 林则徐\nB. 左宗棠\nC. 邓世昌\nD. 丁汝昌",
+    "answer": "B. 左宗棠",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-0",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "第一次次世纪大战前，始终奉行所谓“光荣孤立”政策的国家是____\nA. 德国\nB. 英国\nC. 俄国\nD. 法国",
+    "answer": "B. 英国",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-1",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "苏俄实行新经济政策，开始于____。\nA. 1917年\nB. 1919年\nC. 1921年\nD. 1925年",
+    "answer": "C. 1921年",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-2",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“打一场禁毒的人民战争”是中国政府在扫除毒品中的响亮口号。166年前，一位民族英雄在广州已经用行动表达了中国人民禁烟的决心和勇气，他就是____。\nA. 左宗棠\nB. 林则徐\nC. 魏源\nD. 邓世昌",
+    "answer": "B. 林则徐",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-3",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "目前，凡·高几乎是“荷兰”的代名词。他是荷兰历史上公认的最杰出的人物，以他命名的艺术馆应景成为荷兰最吸引参观者的地方之一。但凡·高在世时，他的作品却很少有人欣赏，这主要是因为____\nA. 没有做大量的宣传\nB. 没有名家的推荐\nC. 他出身低微\nD. 人们尚未了解其作品的艺术价值",
+    "answer": "D. 人们尚未了解其作品的艺术价值",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-4",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“印第安人”是对哪个地区土著居民的称呼____\nA. 印度次大陆\nB. 美洲\nC. 非洲\nD. 大洋洲",
+    "answer": "B. 美洲",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-5",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国是世界上最早培植水稻的国家，下列原始居民中最早种植水稻的是____\nA. 半坡原始居民\nB. 河姆渡原始居民\nC. 红山原始居民\nD. 大汶口原始居民",
+    "answer": "B. 河姆渡原始居民",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-6",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列地名属于唐朝时称“天竺”的地方是____。\nA. 印度\nB. 巴基斯坦\nC. 孟加拉\nD. 泰国",
+    "answer": "A. 印度",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-7",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "北宋兴起的景德镇，后来发展成为著名的____\nA. 丝绸之乡\nB. 鱼米之乡\nC. 瓷都\nD. 产茶中心",
+    "answer": "C. 瓷都",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-8",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "历史课上，老师介绍铁路工程师詹天佑（1861—1919年）“从少年时代就赴美留学，学习铁路专业”，他能受到这种教育应得益于____。\nA. 洋务运动\nB. 辛亥革命\nC. 新文化运动\nD. 五四运动",
+    "answer": "A. 洋务运动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-9",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "古代中国人确立姓氏后所起的主要作用是____。\nA. 明世系，别婚姻\nB. 区别人们的生活区域\nC. 区别人的民族\nD. 区别人的职业",
+    "answer": "A. 明世系，别婚姻",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-10",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国对外开放形成的新格局是____\nA. 经济特区——沿海开放城市—沿江开放城市—内地\nB. 沿海经济开放区—经济特区—沿江开放区—内地\nC. 经济特区—沿海开放城市—沿海经济开放区—内地\nD. 经济特区—沿海经济特区—内地—沿江沿边开放",
+    "answer": "C. 经济特区—沿海开放城市—沿海经济开放区—内地",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-11",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "岳飞在《满江红》中写道：“靖康耻，犹未雪。”其中“靖康耻”发生于____\nA. 1115年\nB. 1126年\nC. 1127年\nD. 1140年",
+    "answer": "C. 1127年",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-12",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列现象中，最能体现河姆渡原始居民已经定居生活的是____\nA. 打猎\nB. 捕鱼\nC. 挖掘水井\nD. 烧制陶器",
+    "answer": "C. 挖掘水井",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-13",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国第一个奴隶制王朝是____\nA. 夏朝\nB. 西周\nC. 商朝\nD. 东周",
+    "answer": "A. 夏朝",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-14",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "氏族公社繁荣时期长江流域的原始居民是____\nA. 山顶洞人\nB. 半坡原始居民\nC. 河姆渡原始居民\nD. 大汶口原始居民",
+    "answer": "C. 河姆渡原始居民",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-15",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "为“唐风洋溢奈良城”作出贡献的中国僧人是____。\nA. 鉴真\nB. 玄奘\nC. 阿倍仲麻侣\nD. 一行",
+    "answer": "A. 鉴真",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-16",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于山顶洞人的叙述，不正确的一项是____\nA. 居住在洞穴里\nB. 共同劳动，共同分配食物\nC. 没有贫富贵贱的差别\nD. 普遍使用磨制石器",
+    "answer": "C. 没有贫富贵贱的差别",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-17",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "隋朝时开凿的南北大运河以____为中心。\nA. 长安\nB. 涿郡\nC. 洛阳\nD. 余杭",
+    "answer": "C. 洛阳",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-18",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "董必武于1961年写了一首怀念战友的诗：“四十年前会上逢，南湖泛舟语从容。济南名士知多少，君与恩铭不老松。”董老诗中写的“四十年前会上逢”是指哪一次会议？____\nA. 八七会议\nB. 遵义会议\nC. 中国共产党第一次全国代表大会\nD. 中共十一届三中全会",
+    "answer": "C. 中国共产党第一次全国代表大会",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-19",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "1836—1858年，英国工人发动了以要求获得选举权为主要内容的____\nA. 宪章运动\nB. 巴黎公社\nC. 启蒙运动\nD. 马克思主义运动",
+    "answer": "A. 宪章运动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-20",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在第一届全国人民代表大会上，毛泽东说：“这次会议是标志着我国人民从1949年建国以来的新胜利和新发展的里程碑……”。这次会议被称为“里程碑”的理由是____\nA. 通过了《共同纲领》\nB. 确立了土地改革的路线\nC. 公布了“一五计划”\nD. 通过了第一部《中华人民共和国宪法》",
+    "answer": "D. 通过了第一部《中华人民共和国宪法》",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-21",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某同学拿出一些1969年发行或1971年发行的毛泽东主席像章给同学们观赏，从这些旧物可断定是____\nA. 建国初期的\nB. 抗美援朝时期\nC. 文化大革命时期的\nD. 改革开放以后的",
+    "answer": "C. 文化大革命时期的",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-22",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "19世纪六七十年代，支持中亚浩罕国阿古柏侵占中国新疆造成中国西北边疆危机的国家是____\nA. 英美\nB. 英俄\nC. 英法\nD. 俄日",
+    "answer": "B. 英俄",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-23",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于北京人的叙述，不正确的一项是____\nA. 保留了猿的特征\nB. 使用打制石器\nC. 已会人工取火\nD. 过着群居生活",
+    "answer": "C. 已会人工取火",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-24",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于唐代历史的叙述，不正确的是____。\nA. 饮茶之风风靡全国\nB. 人们可以用上青瓷碗白瓷壶\nC. 农民可以用曲辕犁犁耕，筒车灌溉\nD. 除夕夜，百姓挂年画，贴“桃符”",
+    "answer": "D. 除夕夜，百姓挂年画，贴“桃符”",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-25",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "1917年参战前，美国对协约国的贷款为20亿美元，对德国的贷款为2700万美元，这说明____\r\n\r\n①美国利用中立国的身份大发战争财  ②美国参战的目的是避免严重的债务损失  \r\n③美国在政策上更加偏袒协约国      ④美国的援助决定了交战双方的胜负\nA. ①②③④\nB. ①②③\nC. ②③\nD. ①④",
+    "answer": "B. ①②③",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-26",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "第一次工业革命是英国“一枝独秀”，第二次工业革命是欧美先进国家“遍地开花”。产生这种变化的根本原因是____\nA. 英国经济发展缓慢\nB. 美、德等国经济迅速发展\nC. 自然科学研究的重大进展\nD. 资本主义制度在世界范围确立",
+    "answer": "D. 资本主义制度在世界范围确立",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-27",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "毛泽东说：“现在我们能造什么？能造桌子椅子，能造茶碗茶壶……但是一辆汽车.一架飞机.一辆坦克.一辆拖拉机都不能造。”毛泽东这话的意思是____\nA. 对我国建设十分悲观\nB. 人民生活亟待改善\nC. 我国工农业发展不平衡\nD. 我国工业基础十分薄弱",
+    "answer": "D. 我国工业基础十分薄弱",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-28",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "1921年列宁建设社会主义思想的一大转变是____\nA. 成立人民委员会\nB. 实行新经济政策\nC. 实行战时共产主义政策\nD. 建立集体农庄，实现社会主义工业化",
+    "answer": "B. 实行新经济政策",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-29",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列事件发生在今新疆地区的是____\nA. 郑成功收复台湾\nB. 戚继光抗倭\nC. 平定大小和卓叛乱\nD. 雅克萨之战",
+    "answer": "C. 平定大小和卓叛乱",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-30",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "莫高窟被称为世界最大的艺术宝库之一，主要因为____\nA. 有大量的碑刻书法\nB. 有大量精美的彩塑和壁画\nC. 大批宝物被劫掠到国外\nD. 建筑具有独创风格",
+    "answer": "B. 有大量精美的彩塑和壁画",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-31",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "《辛丑条约》签订后，美国公使田贝说，“事实上，外国公使成为中国政府不可分割的一部分”，从而可以“任意斥责对待外国人不称职的中国官吏”。这表明____。\nA. 美国取得了在华势力的优势\nB. 帝国主义对中国的瓜分完成了\nC. 外国公使帮助清政府管理官吏\nD. 清政府完全成为列强统治中国的工具",
+    "answer": "D. 清政府完全成为列强统治中国的工具",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-32",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“农民获得自由的时候，已经被剥夺得一干二净。”这句话反映了____。\nA. 英国圈地运动中出现了“羊吃人”的悲剧\nB. 俄国废除农奴制后农民一贫如洗\nC. 日本明治维新后农民纷纷破产\nD. 美国内战后解放的黑奴的处境",
+    "answer": "B. 俄国废除农奴制后农民一贫如洗",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-33",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "火的使用是人类进化过程中的一大进步。我国境内的远古人类中，已经懂得人工取火的是____\nA. 元谋人\nB. 蓝田人\nC. 北京人\nD. 山顶洞人",
+    "answer": "D. 山顶洞人",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-34",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列人物，没有参加雅尔塔会议的是____。\nA. 希特勒\nB. 斯大林\nC. 罗斯福\nD. 丘吉尔",
+    "answer": "A. 希特勒",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-35",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“禅让”是一种部落联盟首领更替的办法。这种办法是____\nA. 父传子\nB. 母传女\nC. 兄传弟\nD. 大家推选",
+    "answer": "D. 大家推选",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-36",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果你到故宫参观，你可以在“军机处”景点的文字说明上发现这样的文字“军机处一日日程……接折（阅读奏折）---见面（请皇帝旨）---述旨（拟皇帝旨意）---过朱（皇帝过目确定）---交发（下发旨意）……”这说明了军机处的主要职能是____\nA. 纵论军务，谋划战事\nB. 辅佐皇帝，参与决策\nC. 陪读陪写，赋诗作画\nD. 跪受笔录，上传下达",
+    "answer": "D. 跪受笔录，上传下达",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-37",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "不可一世的秦始皇穿越时空隧道来到了公元前7世纪的印度，他惊讶地发现依据当地制度，他的社会地位竟然不是最高的。这种制度是____中学历史教学园地\nA. 宗法制度\nB. 种姓制度\nC. 采邑制度\nD. 民主制度 中学历",
+    "answer": "B. 种姓制度",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-38",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列哪一项成就是在第一个五年计划中取得的____\nA. 南京长江大桥\nB. 大庆油田的建成投产\nC. 长春第一汽车制造厂建成投产\nD. 上海宝山钢铁公司",
+    "answer": "C. 长春第一汽车制造厂建成投产",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-39",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "第一个全国规模的统一的资产阶级革命政党是____\nA. 兴中会\nB. 华兴会\nC. 光复会\nD. 同盟会",
+    "answer": "D. 同盟会",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-40",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“大跃进”和人民公社化运动，是党在____中的一次失误\nA. 第一个五年计划具体实施过程\nB. 探索中国自己的建设社会主义道路过程\nC. 新中国成立后土地改革过程\nD. 三大改造过程和社会主义制度建立过程",
+    "answer": "B. 探索中国自己的建设社会主义道路过程",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-41",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在甲午中日战争中，日军在下列哪一地点对我国居民实行了惨无人道的大屠杀？____\nA. 上海\nB. 南京\nC. 旅顺\nD. 广州",
+    "answer": "C. 旅顺",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-42",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "近代侵占我国领土最多的国家是____\nA. 英国\nB. 法国\nC. 美国\nD. 俄国",
+    "answer": "D. 俄国",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-43",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国古代丞相一职的设立与废除，主要是由于____\nA. 封建专制统治的需要\nB. 相权威胁皇权\nC. 国家统一的需要\nD. 权力相互制约的需要",
+    "answer": "A. 封建专制统治的需要",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-44",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "17——18世纪欧洲启蒙运动的核心是____\nA. 人文主义\nB. 理性主义\nC. 爱国主义\nD. 自由主义",
+    "answer": "B. 理性主义",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-45",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "彭德怀在《彭德怀自述》中写道：“西方殖民者几百年来只要在东方一个海岸线上架起几尊大炮就可霸占一个国家的时代是一去不复返了。”美国陆军上将.“联合国军”总司令克拉克在回忆录中说他是美国“历史上第一个在没有胜利的停战协定上签字的美国司令。”下列哪一事件是最有力的证明____\nA. 抗日战争的胜利\nB. 中华人民共和国的成立\nC. 西藏的和平解放\nD. 抗美援朝战争的胜利",
+    "answer": "D. 抗美援朝战争的胜利",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-46",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "实现了建国以来党的历史上具有深远意义的伟大转折的会议是____\nA. 中共“八大”\nB. 中共十一届三中全会\nC. 中共“十二大”\nD. 中共“十三大”",
+    "answer": "B. 中共十一届三中全会",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-47",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "《南京条约》中“协定关税”的规定主要反映列强哪一侵略要求____\nA. 鸦片贸易\nB. 掠夺金银\nC. 商品输出\nD. 资本输出",
+    "answer": "C. 商品输出",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-48",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列对我国石窟艺术的表述正确的是____。\r\n\r\n①石窟是封建统治阶级宣传佛教的产物    ②石窟是我国古代雕刻和绘画艺术的宝库\r\n③莫高窟是世界艺术宝库之一    ④石窟艺术反映了我国古代劳动人民艺术上的巨大成就\nA. ①②\nB. ①②③④\nC. ①②④\nD. ③④",
+    "answer": "B. ①②③④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-49",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2011年6月4日，在备受国人关注的2011年法国网球公开赛的女单决赛中，中国金花李娜最终战胜卫冕冠军、意大利名将斯齐亚沃尼，成为第一个捧起网球大满贯赛单打冠军的亚洲选手，书写了中国网球灿烂的辉煌时刻。而30年前的日本，同样有一支光荣的队伍，书写了中国体育事业的辉煌一页，在世界三大球比赛中第一次获得世界冠军。那么，这支队伍是____\nA. 中国女足\nB. 中国女排\nC. 中国女篮\nD. 中国女子跳水队",
+    "answer": "B. 中国女排",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-50",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列事件中，不属于唐朝对外关系的是____。\nA. 玄奘西游\nB. 尺带珠丹上书唐朝皇帝，说唐蕃已经“和同为一家”了\nC. 鉴真东渡日本\nD. 新罗派使节和留学生到唐朝学习",
+    "answer": "B. 尺带珠丹上书唐朝皇帝，说唐蕃已经“和同为一家”了",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-51",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "\"苏湖熟，天下足\"的谚语说明南宋时____\nA. 北方战乱不息，南方相对安定\nB. 封建政府对农民的剥削十分沉重\nC. 江南地区已经成为全国经济重心\nD. 江南的自然条件优越于北方",
+    "answer": "C. 江南地区已经成为全国经济重心",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-52",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "第二次世界大战爆发的标志是____。\nA. 德国吞并奥地利\nB. 德军闪击波兰，英法对德宣战\nC. 德国占领捷克斯洛伐克\nD. 德国向苏联发起全面进攻",
+    "answer": "B. 德军闪击波兰，英法对德宣战",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-53",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "元世祖对汉族官员汪惟和说：“汝家不与其他汉人比，弓矢不汝禁也，任汝执之。”这说明____\nA. 元朝统治者实行民族分化政策\nB. 元朝时，各族人民的政治.法律地位不同\nC. 元朝时，蒙古贵族勾结各族地主阶级，共同压迫各族人民\nD. 元朝时，统治者禁止汉人掌握武器",
+    "answer": "C. 元朝时，蒙古贵族勾结各族地主阶级，共同压迫各族人民",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-54",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“我希望美洲人民永远不再把国王的宝座搬到自己的土地上来”。“解放者的称号已经高于一切，因此我决不会降低身份去登上王位。”判断一下，说这番话的应是____\nA. 玻利瓦尔\nB. 克伦威尔\nC. 伊达尔哥\nD. 圣马丁",
+    "answer": "A. 玻利瓦尔",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-55",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国历史上，管形火器出现是在____\nA. 五代时期\nB. 北宋时期\nC. 南宋时期\nD. 元朝时期",
+    "answer": "B. 北宋时期",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-56",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国经济特区和香港，澳门特别行政区的最大区别在于____\nA. 主权归属不同\nB. 外交政策不同\nC. 社会制度不同\nD. 经济政策不同",
+    "answer": "C. 社会制度不同",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-57",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "1958年，“左”的错误开始泛滥的原因是____\r\n\r\n①社会主义建设缺乏经验  ②对国情认识不清  ③中苏关系恶化  ④急于求成\nA. ①②③④\nB. ①②③\nC. ①③④\nD. ①②④",
+    "answer": "D. ①②④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-58",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "《马关条约》中对中国民族资本主义发展阻碍最大的一条是____\nA. 赔款白银二亿两\nB. 清政府割辽东半岛台湾给日本\nC. 允许日本在中国开设工厂\nD. 增辟通商口岸",
+    "answer": "C. 允许日本在中国开设工厂",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-59",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "香港媒体在评论中国收回香港时说：“收回香港这篇文章，是邓小平的天才创造。”这里的“天才创造”是指____\nA. 维护中华民族的根本利益\nB. 尊重历史与现实\nC. “一国两制”构想\nD. 香港的顺利回归",
+    "answer": "C. “一国两制”构想",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-60",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列人物被尊称为中华民族“人文初祖”的是____\nA. 蚩尤\nB. 炎帝\nC. 黄帝\nD. 嫘祖",
+    "answer": "C. 黄帝",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-61",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "自称是唐朝皇帝外甥的少数民族首领是下列哪个民族的____？\nA. 吐蕃\nB. 回鹘\nC. 突厥\nD. 南诏",
+    "answer": "A. 吐蕃",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-62",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "僧人都有法号，“西天取经”的陈祎，法号是____。\nA. 三藏\nB. 玄奘\nC. 鉴真\nD. 一行",
+    "answer": "B. 玄奘",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-63",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "坦克武器最可能首先出现在哪一次战争？____。\nA. 拿破仑对外战争\nB. 美国独立战争\nC. 第一次世界大战\nD. 第二次世界大战",
+    "answer": "C. 第一次世界大战",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-64",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国进入社会主义初级阶段的标志是____\nA. 新中国成立\nB. 三大改造完成\nC. 土地改革完成\nD. 人民公社成立",
+    "answer": "B. 三大改造完成",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-65",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪位诗人的诗被誉为“诗史”？____\nA. 李白\nB. 杜甫\nC. 白居易\nD. 李杜",
+    "answer": "B. 杜甫",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-66",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "第二次工业革命给英国社会生活带来了重大变化，下列不符合实际情况的是____。\nA. 汽车在马路上奔驰\nB. 人们可以坐火车外出\nC. 电灯照亮了千家万户\nD. 手机成为重要的通讯工具",
+    "answer": "D. 手机成为重要的通讯工具",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-67",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "小说《三国演义》.《水浒传》.《西游记》的共同点是____\nA. 都是神话小说\nB. 都揭露了封建统治者的腐朽没落\nC. 都成书于元末明初\nD. 都反映了明朝封建专制制度的残酷",
+    "answer": "C. 都成书于元末明初",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-68",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列画面不应该在电视剧《贞观长歌》中出现的是____\nA. 扩充国学规模\nB. 鉴真东渡日本\nC. 文成公主入藏\nD. 玄奘西行天竺",
+    "answer": "B. 鉴真东渡日本",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-69",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "恩格斯说：“意大利是一个典型的国家，自从现代世界的曙光在那里升起的那个时代以来，它产生过许多伟大人物”。这里的“现代世界的曙光”是指____\nA. 宗教改革\nB. 新航路开辟\nC. 文艺复兴\nD. 工业革命",
+    "answer": "C. 文艺复兴",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-70",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在中国近代史上有一个国家，马克思曾经说它在中国“不花费一文钱，不出一兵一卒，而能比任何一个参战国得到更多的好处。”这个国家是____。\nA. 英国\nB. 法国\nC. 美国\nD. 俄国",
+    "answer": "D. 俄国",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-71",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "1954年中国民主与法制建设的重要内容是____\nA. 制定了《共同纲领》\nB. 开展了土地改革运动\nC. 召开全国人大颁布了第一部宪法\nD. 进行了三大改造",
+    "answer": "C. 召开全国人大颁布了第一部宪法",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-72",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "《资治通鉴》记载的是____\nA. 从传说中的黄帝到五代的历史\nB. 从传说中的黄帝到北宋的历史\nC. 从战国到五代的历史\nD. 从战国到北宋的历史",
+    "answer": "C. 从战国到五代的历史",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-73",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "新中国成立后，我国农村生产关系经历四次变革，按先后顺序排列正确的是____\r\n\r\n  ①土地改革   ②人民公社 ③家庭联产承包责任制 ④农业生产合作化\nA. ①②③④\nB. ①②④③\nC. ①④②③\nD. ①③②④",
+    "answer": "C. ①④②③",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-74",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "国民革命军北伐的主要对象军阀是____\r\n\r\n①张作霖                            ②袁世凯\r\n③孙传芳                            ④吴佩孚\nA. ①②③\nB. ②③④\nC. ①②④\nD. ①③④",
+    "answer": "D. ①③④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-75",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "现代工业崛起的标志是____。\nA. 电力的广泛使用\nB. 蒸汽成为工业生产和社会生活的主要能源\nC. 棉花时代的到来\nD. “电气时代”和“钢铁时代”的到来",
+    "answer": "D. “电气时代”和“钢铁时代”的到来",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-76",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "历史兴趣小组的同学要去实地考查辛亥革命的首发地，他们应该去____。\nA. 南京\nB. 上海\nC. 北京\nD. 武昌",
+    "answer": "D. 武昌",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-77",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "俄国十月革命爆发于公历____。\nA. 2月\nB. 3月\nC. 10月\nD. 11月",
+    "answer": "D. 11月",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-78",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在下面外国侵略者发动的侵华战争中，哪几次攻进了北京城，并大肆抢劫？____\r\n\r\n①鸦片战争                          ②第二次鸦片战争  \r\n③甲午中日战争                      ④八国联军侵华战争\nA. ①②\nB. ②④\nC. ②③\nD. ③④",
+    "answer": "B. ②④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-79",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "通过公私合营，我国基本上解决了工人阶级与资产阶级的矛盾，时间是在____\nA. 1949年\nB. 1951年\nC. 1953年\nD. 1956年底",
+    "answer": "D. 1956年底",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-80",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "你若想了解中国文学史上的第一篇幅白话小说，应该阅读____。\nA. 《文学改良刍议》\nB. 《狂人日记》\nC. 《文学革命论》\nD. 《新青年》",
+    "answer": "B. 《狂人日记》",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-81",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "著名的圆明园“大水法”的残垣断壁是历史上哪一次侵华战争的见证____。\nA. 鸦片战争\nB. 第二次鸦片战争\nC. 甲午中日战争\nD. 八国联军侵华战争",
+    "answer": "B. 第二次鸦片战争",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-82",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "俄国十月革命与以往革命的首要不同点是____。\nA. 是第一次获得胜利的无产阶级革命\nB. 是推翻了旧的统治阶级的社会革命\nC. 有广泛群众基础的革命\nD. 建立新的政治制度的革命",
+    "answer": "A. 是第一次获得胜利的无产阶级革命",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-83",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "《辛丑条约》中，最能反映清政府完全成为帝国主义统治中国的工具的一项规定是____\nA. 赔款4.5亿两白银\nB. 拆毁大沽炮台\nC. 严禁人民参加反帝活动\nD. 划定北京东交民巷为使馆界",
+    "answer": "C. 严禁人民参加反帝活动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-84",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列科技成就中，属于我国科技工作者在文革期间排除错误路线干扰，坚持科学探索而取得的是____\r\n\r\n①\t第一颗原子弹爆炸成功  ②第一颗人造卫星发射升空\r\n③首次育成籼型杂交水稻   ④成功发射第一艘无人飞船\nA. ①②\nB. ②③\nC. ③④\nD. ①④",
+    "answer": "B. ②③",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-85",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "唐朝的哪座城市，既是当时各民族交往的中心，又是一座国际性的大都市____？\nA. 洛阳\nB. 长安\nC. 扬州\nD. 成都",
+    "answer": "B. 长安",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-86",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "18世纪中期，英国手工工场的生产供不应求，这是因为____\nA. 英国殖民地遍及世界各地，市场不断扩大\nB. 英国本土资源丰富\nC. 圈地运动提供了充足的廉价劳动\nD. 殖民掠夺使英国获得了大量钱财",
+    "answer": "A. 英国殖民地遍及世界各地，市场不断扩大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-87",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "1861年颁布废除农奴制法令的俄国沙皇是____\nA. 彼得一世\nB. 亚历山大二世\nC. 尼古拉一世\nD. 尼古拉二世",
+    "answer": "B. 亚历山大二世",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-88",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在计划经济时代，物资严重匮乏。为缓和供应的紧张，国家对生产和供应加以控制。改革开放以后党提出建立社会主义市场经济体制，物资越来越丰富，购物的各种票证也相继取消。该体制的提出是在____\nA. 中共十二大\nB. 中共十三大\nC. 中共十一届三中全会\nD. 中共十四大",
+    "answer": "D. 中共十四大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-89",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "建国以来一场深刻的思想解放运动是____\nA. “两个凡是”方针的提出\nB. 关于真理标准问题的讨论\nC. 全国科学大会的召开\nD. 拨乱反正的深入",
+    "answer": "B. 关于真理标准问题的讨论",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-90",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "假如你生活在19世纪初期的英国，你无法享受到的生活方式是____。\nA. 穿印度的棉衣\nB. 打电话聊天\nC. 吃美洲产的玉米\nD. 喝中国产的茶叶",
+    "answer": "B. 打电话聊天",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-91",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列重大事件按事件顺序排列正确的是____\r\n\r\n①十一届三中全会的召开 ②恢复中国在联合国的合法地位 ③中日建立外交关系 ④中美两国正式建立外交关系\nA. ①②③④\nB. ②①④③\nC. ②③①④\nD. ②③④①",
+    "answer": "C. ②③①④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-92",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "青年历史学者袁腾飞在央视《百家讲坛》节目中主讲《两宋风云》。下列有关两宋历史说法不正确的一项是____\nA. 北宋与契丹族建立的辽和党项族建立的西夏并立\nB. 两宋时期，我国经济重心从黄河流域转移到长江流域\nC. 北宋史学家司马光主编的《资治通鉴》是我国第一部纪传体通史\nD. 北宋大画家张择端的《清明上河图》是风俗画的代表作",
+    "answer": "C. 北宋史学家司马光主编的《资治通鉴》是我国第一部纪传体通史",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-93",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "毛主席的诗词“一桥飞架南北，天堑变通途”的“一桥”指____\nA. 南京长江大桥\nB. 钱塘江大桥\nC. 武汉长江大桥\nD. 上海浦东大桥",
+    "answer": "C. 武汉长江大桥",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-94",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在美国首都华盛顿的某纪念塔内，有一块中国清政府赠送的石碑，上面有这样一段文字“……起事勇于胜广，割据雄于曹刘。既已提三尺剑，开疆万里，乃不僭位号、不伟子孙，而创为推举之法，几于天下为公，浸浸乎三代之遗志。”它描述的人物是____\nA. 华盛顿\nB. 林肯\nC. 杰斐逊\nD. 潘恩",
+    "answer": "A. 华盛顿",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-95",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "现在各国人把中国人称为“唐人”的原因是____。\nA. 中国人是唐朝人的后代\nB. 唐朝在世界上享有较高的声望\nC. 唐朝时中国才开始对外交往\nD. 中国人具有很高的制糖技术",
+    "answer": "B. 唐朝在世界上享有较高的声望",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-96",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "15—17世纪，欧洲许多冒险家多次进行海外探险，促使了新航路的开辟。新航路开辟的经济根源是____\nA. 商品经济发展需要扩大对外市场\nB. 中国的罗盘针传入欧洲\nC. 欧洲人狂热追求黄金等财富\nD. 航海造船技术的发展",
+    "answer": "C. 欧洲人狂热追求黄金等财富",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-97",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国每年的“禁毒宣传月”从6月3日开始，这是因为历史上的这一天一位民族英雄领导人民取得了禁烟斗争的伟大胜利，这位民族英雄是____\nA. 魏源\nB. 关天培\nC. 道光帝\nD. 林则徐",
+    "answer": "D. 林则徐",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-98",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "20世纪中后期，有位美国驻联合国代表曾就一件大事发表感慨：“这是联合国历史上的转折点”。这个“转折点”是 ____\nA. 1949年中华人民共和国成立\nB. 1971年中国恢复联合国合法席位\nC. 1972年中日建交\nD. 1979年中美建交",
+    "answer": "B. 1971年中国恢复联合国合法席位",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-99",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "近代史上，实际掌握清朝最高统治权力时间最长是____。\nA. 咸丰皇帝\nB. 慈禧太后\nC. 光绪帝\nD. 道光帝",
+    "answer": "B. 慈禧太后",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-100",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "当前我国提出了振兴东北老工业基地的战略，东北老工业基地是____在形成的。\nA. 解放战争期间\nB. 第一个五年计划期间\nC. 文化大革命时期\nD. 改革开放时期",
+    "answer": "B. 第一个五年计划期间",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-101",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "唐朝实行的行政制度是：____\nA. 郡县制\nB. 科举制\nC. 三省六部制\nD. “羁縻州”制度",
+    "answer": "C. 三省六部制",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-102",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "标志着法国大革命结束的事件是____\nA. 热月政变\nB. 《人权宣言》的颁布\nC. 雾月政变\nD. 攻占巴士底狱",
+    "answer": "A. 热月政变",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-103",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "中国有一座城市，它因近代史上有第一个不平等条约冠上自己的名字受辱，它是____。\nA. 南京\nB. 天津\nC. 北京\nD. 上海",
+    "answer": "A. 南京",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-104",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "促使原始人过定居生活的主要因素是____\nA. 自然环境的变化\nB. 氏族公社的形成\nC. 学会建造房屋\nD. 原始农业的发展",
+    "answer": "C. 学会建造房屋",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-105",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "历史课外兴趣小组的同学准备办一期黑板报，宣传第二次工业革命，下列适合的标题是____。\nA. 开辟新时代的“宣言”\nB. 引领时代的思考\nC. 叩响现代文明的大门\nD. 改变世界面貌的蒸汽革命",
+    "answer": "C. 叩响现代文明的大门",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-106",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "19世纪中期后，推动资产阶级革命和改革成为时代潮流的根本因素是____\nA. 西欧资本主义萌芽的出现\nB. 工业革命的发展和影响\nC. 无产阶级革命运动的兴起\nD. 殖民地独立运动的高涨",
+    "answer": "B. 工业革命的发展和影响",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-107",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "科学社会主义诞生的标志是____。\nA. 欧洲三大工人运动\nB. 共产主义者同盟的成立\nC. 《共产党宣言》的发表\nD. 马克思、恩格斯在巴黎会晤",
+    "answer": "C. 《共产党宣言》的发表",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-108",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "1940年12月，罗斯福发表了著名的“炉边谈话”。他说：“过去两年的经验已无可怀疑地证明：任何国家都不能姑息纳粹……我们知道，一个国家只有以彻底投降为代价才能与纳粹和平。”下列哪个国家的史实证明了罗斯福的这一论断____\nA. 英国\nB. 法国\nC. 西班牙\nD. 波兰",
+    "answer": "B. 法国",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-109",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2010年4月20日，在“情系玉树大爱无疆”抗震救灾大型募捐晚会上，汉藏两族著名歌手同台演唱：“藏族和汉族是一个妈妈的女儿，我们的妈妈叫中国！”西藏自古以来就是中国领土不可分割的一部分，它成为我国正式的行政区始于____\nA. 唐朝\nB. 元朝\nC. 明朝\nD. 清朝",
+    "answer": "B. 元朝",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-110",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "17世纪，英国负责对印度等亚洲国家进行殖民统治的是____\nA. 英国海军\nB. 东印度公司\nC. 西印度公司\nD. 奴隶贩子",
+    "answer": "B. 东印度公司",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-111",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“国之强弱，决定于人民之贫富，人民之贫富则系于特产之多寡，而特产之多寡又起因于是否鼓励人民之工业。”在这一思想的指导下，日本明治政府采取的措施是____\nA. 废藩置县，取消武士的特权\nB. 改革土地制度，承认土地私有\nC. 大力发展近代工业\nD. 推行“文明开化”政策",
+    "answer": "C. 大力发展近代工业",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-112",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“在欧洲以外直接依靠掠夺、奴役和杀人越货而夺得的财宝，源源流入宗主国，在这里转化为资本。”这是对哪种罪恶的揭露____。\nA. 封建制度\nB. 奴隶制度\nC. 资本主义\nD. 殖民扩张",
+    "answer": "D. 殖民扩张",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-113",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“贞观之治”是中国古代史上为政宽容、对外开放和国力强盛的时期，此局面的形成得益于____的英明统治。\nA. 隋文帝\nB. 唐太宗\nC. 武则天\nD. 唐玄宗",
+    "answer": "B. 唐太宗",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-114",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "解放“手”的最早发明是____。\nA. 珍妮机\nB. 蒸汽机\nC. 内燃机\nD. 飞梭",
+    "answer": "A. 珍妮机",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-115",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "唐朝文学里，最光彩夺目的是____。\nA. 辞赋\nB. 诗歌\nC. 散文\nD. 词曲",
+    "answer": "B. 诗歌",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-116",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "斯大林创建的政治经济模式在经济方面强调发展____。\nA. 重工业\nB. 轻工业\nC. 农业\nD. 商业",
+    "answer": "A. 重工业",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-117",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“起来，饥寒交迫的奴隶，起来，全世界受苦的人！……这是最后的斗争，团结起来，到明天，英特纳雄耐尔，就一定要实现！”这些歌词引自____。\nA. 《国际歌》\nB. 《宅地法》\nC. 《复活》\nD. 《英雄交响曲》",
+    "answer": "A. 《国际歌》",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-118",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "这是位于浙江某地的戚继光纪念馆，是为了纪念明朝抗倭英雄戚继光在此地抗击倭寇，九战九捷，荡平浙江的倭寇而修建的。那么这个地方就是今天浙江的____\nA. 杭州\nB. 温州\nC. 台州\nD. 嘉兴",
+    "answer": "C. 台州",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-119",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "20世纪初中国居民王某有四个儿子，他们的工作、生活情况不符合事实的是____。\nA. 老大在天津外国人开办的工厂干活\nB. 老二住在上海租界内\nC. 老三在北京东交民巷买了一套房子\nD. 老四参加了反清起义",
+    "answer": "C. 老三在北京东交民巷买了一套房子",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-120",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "明清时期的文学成就突出表现在____\nA. 诗歌方面\nB. 小说方面\nC. 散文方面\nD. 戏剧方面",
+    "answer": "B. 小说方面",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-121",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "你一定看过电视剧《西游记》吧！那么你知道剧中的唐僧是依据历史上哪个人物原型创作的？____\nA. 玄奘\nB. 鉴真\nC. 戒贤\nD. 普照",
+    "answer": "A. 玄奘",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-122",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "上海世博园中国馆这样一幅作品：它以动漫的形式向中外游客展示了我国古代都市的繁华。请你判断这幅作品是____\nA. 赵孟頫的《秋郊饮马图》\nB. 顾恺之的《洛神赋图》\nC. 张择端的《清明上图》\nD. 敦煌莫高窟的敦煌壁画",
+    "answer": "C. 张择端的《清明上图》",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-123",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“大将筹边尚未还，湖湘弟子满天山。新栽杨柳三千里，引得春风度玉关。”此诗反映的是____\nA. 洪秀全领导的太平天国运动。\nB. 左宗棠收复新疆。\nC. 关天培抗英\nD. 林则徐虎门销烟",
+    "answer": "B. 左宗棠收复新疆。",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-124",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "十一届三中全会后我国经济体制改革取得突破性进展，首先是在____\nA. 城市\nB. 农村\nC. 沿海地区\nD. 国有企业",
+    "answer": "B. 农村",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-125",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "太平天国运动的领袖和都城是____\nA. 石达开、西安\nB. 朱元璋、北京\nC. 洪秀全、天京\nD. 杨秀清、广州",
+    "answer": "C. 洪秀全、天京",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-126",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "右图名为“吃饭不花钱，全社共劳作”（1958），其中“社”指的是____\nA. 农业生产合作社\nB. 手工业生产合作社\nC. 农村信用社\nD. 人民公社",
+    "answer": "D. 人民公社",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-127",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "坚持四项基本原则是邓小平针对____提出来的。\nA. 经济体制改革\nB. 改革开放中出现的资产阶级自由化的问题\nC. 对外开放\nD. 关于真理标准问题的讨论",
+    "answer": "B. 改革开放中出现的资产阶级自由化的问题",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-128",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "被西藏人民亲切称为“阿姐甲沙”(意为汉族阿姐)的人是____。\nA. 昭君姑娘\nB. 文成公主\nC. 则天皇帝\nD. 金城公主",
+    "answer": "B. 文成公主",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-129",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "黄河流域原始农耕时代的居民是____\nA. 北京人\nB. 山顶洞人\nC. 半坡原始居民\nD. 河姆渡原始居民",
+    "answer": "C. 半坡原始居民",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-130",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "根据印度《梨俱吠陀》的传说，人们把社会分成四个等级，其中属于被统治阶级中的第一等级的是：____\nA. 婆罗门\nB. 刹帝利\nC. 吠舍\nD. 首陀罗",
+    "answer": "C. 吠舍",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-131",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "鸦片战争以后，中国历史进入____\nA. 资产阶级革命时期\nB. 旧民主主义革命时期\nC. 无产阶级革命时期\nD. 新民主主义革命时期",
+    "answer": "B. 旧民主主义革命时期",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-132",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "19世纪中期，美国南北矛盾无法调和，主要是围绕下列哪一问题？____。\nA. 工业品进出口问题\nB. 是否开放国内市场问题\nC. 奴隶制的存废问题\nD. 是否提高关税问题",
+    "answer": "C. 奴隶制的存废问题",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-133",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "标志着祖国大陆获得统一的是____\nA. 南京解放\nB. 开国大典\nC. 西藏和平解放\nD. 抗美援朝",
+    "answer": "C. 西藏和平解放",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-134",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面说法有误的一项是____\nA. 新文化运动的两面大旗是民主与科学\nB. 1918年新文化运动出现了新发展\nC. 陈独秀主张以白话文代替文言文\nD. 鲁迅树立了新文学的典范",
+    "answer": "C. 陈独秀主张以白话文代替文言文",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-135",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "江泽民在“十五大”报告中指出：20世纪以来，中国人民在前进道路上经历了三次历史巨变。这三次巨变是指____\r\n\r\n①辛亥革命   ②五四运动   ③抗日战争   ④中华人民共和国的成立和建立社会主义制度   ⑤改革开放，建设有中国特色是会主义\nA. ①③⑤\nB. ①④⑤\nC. ①②⑤\nD. ②④⑤",
+    "answer": "B. ①④⑤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-136",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列唐朝与国外友好交往的史事，不是发生在贞观年间的____。\nA. 日本第一批遣唐使来到中国\nB. 鉴真东渡\nC. 玄奘西游\nD. 玄奘携带大量佛经回到长安",
+    "answer": "B. 鉴真东渡",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-137",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "时代特点会在社会生活的各个方面留下烙印，人们所取的名字也能折射出不同时期的历史情况。按先后顺序排列下列名字所反映的新中国的历史进程，正确的是____\r\n\r\n①马文革     ②刘援朝      ③张跃进      ④季开放\nA. ①②③④\nB. ②③①④\nC. ③④①②\nD. ④③②①",
+    "answer": "B. ②③①④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-138",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“人以铜为镜，可以正衣冠……以人为镜，可以知得失”中的第二个“人”指的是____。\nA. 魏征\nB. 房玄龄\nC. 杜如晦\nD. 姚崇",
+    "answer": "A. 魏征",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-139",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "1935年意大利入侵____。\nA. 保加利亚\nB. 捷克斯洛伐克\nC. 西班牙\nD. 埃塞俄比亚",
+    "answer": "D. 埃塞俄比亚",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-140",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "魏源在《海国图志》中提出“师夷长技以制夷”。他所说的“长技”在当时不可能包括____。\nA. 军事技术\nB. 政治制度\nC. 科学技术\nD. 文化制度",
+    "answer": "B. 政治制度",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-141",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "每周一的早晨，我们都要举行升国旗仪式。把五星红旗定为新中国国旗的会议是____\nA. 第一届中国人民政治协商会议\nB. 十一届三中全会\nC. 中共“十二大”\nD. 第一届全国人民代表大会",
+    "answer": "A. 第一届中国人民政治协商会议",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-142",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "学习世界近代史时，某同学发现1804—1814年间欧洲国界发生了巨大变化。导致这种变化的主要原因是____。\nA. 英国资产阶级革命\nB. 法国大革命\nC. 美国独立战争\nD. 拿破仑战争",
+    "answer": "D. 拿破仑战争",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-143",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2003年8月，温家保总理在长春召开振兴东北老工业基地决策会议，正式把振兴东北等老工业基地列为国家发展战略，东北老工业基地形成于____\nA. 新中国建立时期\nB. “大跃进”运动时期\nC. 第一个五年计划期间\nD. 社会主义三大改造时期",
+    "answer": "C. 第一个五年计划期间",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-144",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "北京大学的前身是1898年设立的____。\nA. 燕京大学\nB. 京师同文馆\nC. 太学\nD. 京师大学堂",
+    "answer": "D. 京师大学堂",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-145",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "无产阶级建立政权的第一次伟大尝试是____\nA. 法国大革命\nB. 巴黎公社\nC. 英国资产阶级革命\nD. 美国内战",
+    "answer": "B. 巴黎公社",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-146",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“大江东去，浪淘尽，千古风流人物。”苏轼这句词所体现出的突出特点是____\nA. 内容丰富\nB. 豪迈奔放\nC. 别致清新\nD. 委婉真挚",
+    "answer": "B. 豪迈奔放",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-147",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“世上疮痍，诗中圣哲；民间疾苦，笔底波澜。”这幅对联称颂的是____。\nA. 屈原\nB. 李白\nC. 杜甫\nD. 白居易",
+    "answer": "C. 杜甫",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-148",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "相传仓颉发明了____\nA. 舟车\nB. 养蚕缫丝\nC. 文字\nD. 乐谱",
+    "answer": "C. 文字",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-149",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“生物是神创造的，是一成不变的”。这种18世纪中期以前的传统看法，被下面哪一位著名科学家创立的伟大理论打破？____。\nA. 牛顿\nB. 达尔文\nC. 托尔斯泰\nD. 爱因斯坦",
+    "answer": "B. 达尔文",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-150",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "”东沟海战天如墨，炮震烟迷船掀侧。致远鼓楫冲重围，万火丛中呼杀贼。”请根据所学历史知识，在下列选项中指出与此诗相关的历史事件____。\nA. 辽东半岛战役\nB. 平壤战役\nC. 黄海海战\nD. 威海卫战役",
+    "answer": "C. 黄海海战",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-151",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“开辟荆榛，千秋功业；驱逐荷虏，一代英雄”是郭沫若所写的挽联。这幅挽联称颂的是____\nA. 戚继光抗倭\nB. 郑成功收复台湾\nC. 岳飞抗金\nD. 文天祥抗元",
+    "answer": "B. 郑成功收复台湾",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-152",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "黄道婆的棉纺织技术学自____\nA. 白族\nB. 彝族\nC. 黎族\nD. 山越族",
+    "answer": "C. 黎族",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-153",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "人和动物的根本区别是____\nA. 会不会使用工具\nB. 会不会制造工具\nC. 会不会使用火\nD. 会不会说话",
+    "answer": "B. 会不会制造工具",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-154",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "司马迁和司马光都是我国古代伟大的史学家，他们生活的朝代分别是____\nA. 西汉、唐朝\nB. 西汉、北宋\nC. 秦朝、元朝\nD. 唐朝、北宋",
+    "answer": "B. 西汉、北宋",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-155",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "禹时，私有财产更多地出现的原因是____\nA. 剥削的出现\nB. 社会生产力的发展\nC. 奴隶的出现\nD. 阶级压迫的产生",
+    "answer": "B. 社会生产力的发展",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-156",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "唐都长安的“坊”实际上是____。\nA. 居民区\nB. 商业区\nC. 宗教活动场所\nD. 皇帝处理政务的地方",
+    "answer": "A. 居民区",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-157",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "唐朝实行的行政制度是____。\nA. 郡县制\nB. 科举制\nC. 三省六部制\nD. “羁縻州”制度",
+    "answer": "C. 三省六部制",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-158",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "希特勒利用“国会纵火案”打击____。\nA. 犹太人\nB. 共产党人\nC. 纳粹党人\nD. 保加利亚人",
+    "answer": "B. 共产党人",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-159",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“澶渊之盟”的后果是____ ①增加了北宋人民的负担　②宋辽之间仍处于战争状态　③宋辽之间开展了经济文化交流　④加剧了北宋政府的财政危机\nA. ①②③\nB. ②③④\nC. ①③④\nD. ①②③④",
+    "answer": "C. ①③④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-160",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "上海，自近代以来作为国际化的大都市，见证了许多具有重大意义的历史事件。以下史实与这座城市有关的有____\nA. 《马关条约》的签订\nB. 黄埔军校的建立\nC. 《中美联合公报》的发表\nD. 第29届奥运会",
+    "answer": "D. 第29届奥运会",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-161",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一位中国人在参观法国卢浮宫博物馆时，发现了一个巨大的石柱，上面刻有文字，讲解员说这石柱上刻的是一部法典，而且是现存世界上第一步比较完备的成文法典，你认为应该是____\nA. 《拿破仑法典》\nB. 《汉谟拉比法典》\nC. 《唐律疏议》\nD. 《权利法案》",
+    "answer": "B. 《汉谟拉比法典》",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-162",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "1862年秋冬，美国南方种植园的黑人奴隶们私下传递着一个惊喜万分的消息：他们可以拥有自己的财产，也可以参加联邦军队了!他们自由了!这是因为当时的美国政府颁布了____\nA. 1787年宪法\nB. 《独立宣言》\nC. 《解放黑人奴隶宣言》\nD. 《宅地法》",
+    "answer": "C. 《解放黑人奴隶宣言》",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-163",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "山顶洞人比北京人进步，表现在____\r\n\r\n①他们的模样同现代人基本相同\r\n②已经掌握磨光和钻孔技术\r\n③会使用天然火\r\n④会人工取火\nA. ①②③④\nB. ①②④\nC. ②③④\nD. ①③④",
+    "answer": "B. ①②④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-164",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "大连某中学历史兴趣小组准备参观“陆军军官学校“旧址，他们应该去的地方是____。\nA. 广州\nB. 武汉\nC. 上海\nD. 南京",
+    "answer": "A. 广州",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-165",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "毛泽东开创的农村包围城市的革命道路与邓小平开创的建设有中国特色的社会主义道路，两者最根本的共同点是____\nA. 坚定不移地走社会主义道路\nB. 坚持走群众路线\nC. 实事求是，从中国国情出发\nD. 借鉴苏联的成功经验",
+    "answer": "C. 实事求是，从中国国情出发",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-166",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于戊戌变法的说法，不正确的是____。\nA. 是维新派发动和领导的一场救亡图存的爱国运动\nB. 光绪帝颁布“明定国是”诏书，宣布变法\nC. 戊戌变法从开始至失败历时103天，因此又称“百日维新”\nD. 使中国走上资本主义发展的道路",
+    "answer": "D. 使中国走上资本主义发展的道路",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-167",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "雅尔塔会议通过俄决议包括____。\r\n\r\n①美英军队在法国北部开辟欧洲第二战场\r\n②分区占领德国，彻底摧毁军国主义和纳粹制度\r\n③苏联在结束欧战的三个月内参加对日作战\r\n④战后成立国际联盟，维护世界和平\nA. ①③\nB. ①②\nC. ①②\nD. ②③",
+    "answer": "D. ②③",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-168",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "受唐朝文化影响很大，在社会生活上至今还保留着唐朝人的某些风尚的国家是____。\nA. 朝鲜\nB. 印度\nC. 日本\nD. 印度尼西亚",
+    "answer": "C. 日本",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-169",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "从明朝废丞相到清初增设军机处的变化表明____\nA. 皇权与相权的矛盾日益加剧\nB. 皇权战胜相权\nC. 皇权与相权的矛盾日益缓和\nD. 皇权日益加强",
+    "answer": "D. 皇权日益加强",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-170",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在对外开放中，发展成为国际化经济中心和金融中心的开发区是____\nA. 厦门\nB. 深圳\nC. 海南\nD. 上海浦东",
+    "answer": "D. 上海浦东",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-171",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "隋朝的统治类似于下列哪一个朝代____？\nA. 秦朝\nB. 东汉\nC. 西晋\nD. 东晋",
+    "answer": "A. 秦朝",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-172",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "辽.北宋均亡于哪个政权____\nA. 金\nB. 西夏\nC. 蒙古\nD. 元朝",
+    "answer": "A. 金",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-173",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "唐朝时期造型美观、釉色绚丽，被誉为世界工艺珍品的著名陶器是____。\nA. 唐三彩\nB. 青花瓷\nC. 青瓷\nD. 白瓷",
+    "answer": "A. 唐三彩",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-174",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列对文字狱的解释，最准确的是____\nA. 迫害知识分子的冤狱\nB. 关押知识分子的监狱\nC. 因文字犯罪被捕入狱\nD. 为加强文化专制而设立的监狱",
+    "answer": "A. 迫害知识分子的冤狱",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-175",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "被誉为“东方医学巨典”的药物学巨著是____\nA. 《本草纲目》\nB. 《黄帝内经》\nC. 《伤寒杂病论》\nD. 《神农本草》",
+    "answer": "A. 《本草纲目》",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-176",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "唐太宗曾兴奋地说：“天下英雄，入吾彀中矣！”使他得以实现这一愿望的主要工具是____。\nA. 举荐制\nB. 九品中正制\nC. 科举制\nD. 分封赏赐有功之人",
+    "answer": "C. 科举制",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-177",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "20世纪30年代，希特勒能在德国上台的根本原因是____\nA. 垄断资产阶级要求建立恐怖统治\nB. 德国民众喜欢希特勒\nC. 纳粹党的欺骗宣传\nD. 德国国内民族复仇情绪高涨",
+    "answer": "A. 垄断资产阶级要求建立恐怖统治",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-178",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在开国大典上，随着五星红旗冉冉升起，乐队奏起《义勇军进行曲》，54门礼炮齐鸣28响。想一想，礼炮齐鸣28响的寓意是____\nA. 中国共产党领导人民英勇奋斗28年\nB. 有28个民族参加开国大典\nC. 有28个党派参加第一届中国人民政治协商会议\nD. 有28架飞机参加开国大典的阅兵仪式",
+    "answer": "A. 中国共产党领导人民英勇奋斗28年",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-179",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "英法发动第二次鸦片战争的根本原因是____\nA. 因贩卖鸦片被查禁销毁\nB. 提出修改条约遭拒绝\nC. 企图进一步打开中国市场，扩大侵略权益\nD. 要求鸦片贸易合法化",
+    "answer": "C. 企图进一步打开中国市场，扩大侵略权益",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-180",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "三民主义是孙中山领导辛亥革命的旗帜，其中不包括____\nA. 民族主义\nB. 民权主义\nC. 民生主义\nD. 民主主义",
+    "answer": "D. 民主主义",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-181",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "唐太宗是我国古代杰出的政治家，他____\r\n\r\n①吸取北宋灭亡教训；②善于用人和重视纳谏；③合并州县，减轻人民负担；④完善科举制，创设殿试和武举；⑤把文成公主嫁给松赞干布；⑥开通了大运河。\nA. ①②③④⑤⑥\nB. ②③⑤⑥\nC. ②③⑤\nD. ②⑤",
+    "answer": "C. ②③⑤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-182",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列各项中，哪一项不是宋.辽之间，宋.夏之间，宋.金之间“议和”的共同点____\nA. 结束了双方大规模的战争状态\nB. 客观上有利于双方和平相处\nC. 宋王朝都要交纳岁币\nD. 导致南北对峙局面的形成",
+    "answer": "D. 导致南北对峙局面的形成",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-183",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "5月23日，是中央人民政府和西藏地方政府签订《关于和平解放西藏办法的协议》纪念日，今年是西藏和平解放____\nA. 50周年\nB. 60周年\nC. 70周年\nD. 80周年",
+    "answer": "B. 60周年",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-184",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在土地改革中，党和政府之所以把土地分给农民，其根本原因是____\nA. 农民无地或少地，生活困苦\nB. 地主土地太多，无法耕种\nC. 农民在革命战争年代有功于革命，分土地事实上是“按功行赏”\nD. 封建剥削的土地制度严重阻碍了农村经济的发展",
+    "answer": "D. 封建剥削的土地制度严重阻碍了农村经济的发展",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-185",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在抗美援朝战争中，涌现出无数可歌可泣的英雄人物，其中正确的一项是____\r\n\r\n①黄继光  ②刘胡兰  ③董存瑞  ④邱少云\nA. ①②\nB. ①④\nC. ②③\nD. ①③④",
+    "answer": "D. ①③④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-186",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2006年10月13日，胡锦涛主席为中国航天事业50周年纪念大会发来贺信，希望航天战线的同志们继续弘扬“两弹一星”精神和载人航天精神……为祖国.为人民作出新的贡献。“两弹一星”的研制成功使我国跨入了世界核先进国家行列，作出主要贡献的是____\nA. 邓稼先  袁隆平\nB. 杨振宁  钱学森\nC. 袁隆平  钱学森\nD. 邓稼先  钱学森",
+    "answer": "D. 邓稼先  钱学森",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-187",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "美国独立战争开始的标志是____\nA. 第一届大陆会议召开\nB. 第二届大陆会议召开\nC. 《独立宣言》的发表\nD. 来克星顿的枪声",
+    "answer": "D. 来克星顿的枪声",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-188",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "1983年，一位去南方打工的衡阳小伙子给家乡亲人的信中写道：“我来到的这座城市，曾是鸦片战争中被迫开放的第一批港口之一，现在则是改革开放中建立的四个经济特区之一，国家的变化真大呀！”这个小伙子打工的城市是____\nA. 厦门\nB. 广州\nC. 海南\nD. 上海",
+    "answer": "A. 厦门",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-189",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "对1840年至1949年中国社会性质的最准确表述是____\nA. 封建社会\nB. 半封建社会\nC. 半殖民地社会\nD. 半殖民地半封建社会",
+    "answer": "D. 半殖民地半封建社会",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-190",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列科技成就中，哪一项是隋朝时期出现的____？\nA. 设计建造赵州桥\nB. 发明活字印刷术\nC. 发明地动仪\nD. 《金刚经》是世界上现存最早的、标有确切日期的雕版印刷品",
+    "answer": "A. 设计建造赵州桥",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-191",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "今天，有的国家实行君主立宪制，这一政体的最早出现与哪部历史文献有关？____。\nA. 《权利法案》\nB. 《独立宣言》\nC. 《人权宣言》\nD. 《汉谟拉比法典》",
+    "answer": "A. 《权利法案》",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-192",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "暑假是外出旅游的好日子。假如你已经去过出土我国最早人类的遗址，那么你能告诉我，它位于哪个省吗？____\nA. 广东\nB. 湖南\nC. 云南\nD. 陕西",
+    "answer": "C. 云南",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-193",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“给我一个支点，我将翻动地球”这一名言豪迈的表达了对____科学的巨大威力的信心\nA. 亚里斯多德\nB. 阿基米德\nC. 欧几里德\nD. 希波克拉底",
+    "answer": "B. 阿基米德",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-194",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "苏州的“苏”，过去往往写成“穌”，这是因为苏州自古就有“鱼米之乡”的美誉。我国水稻跃居粮食产量首位，太湖流域的苏州、湖州开始成为全国粮仓，并且民间流传“苏湖熟、天下足”谚语的朝代是____\nA. 唐朝\nB. 宋朝\nC. 明朝\nD. 清朝",
+    "answer": "B. 宋朝",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-195",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "进行诺曼底登陆的军队属于____。\r\n\r\n①英国      ②法国      ③美国        ④意大利\nA. ①②\nB. ③④\nC. ②④\nD. ①③",
+    "answer": "D. ①③",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-196",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某地一大宅门的灰墙上一副墨字对联依稀可辨：“放开肚皮吃饱饭，鼓足干劲搞生产”；横批是“多快好省”。这副对联最早应该书写于____\nA. 20世纪50年代末\nB. 20世纪60年代末\nC. 20世纪70年代初\nD. 20世纪70年代末",
+    "answer": "A. 20世纪50年代末",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-197",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "建国以来我国农村生产关系的变革、调整经历了四个步骤依次为____\nA. 土地改革、人民公社化、农业合作化、家庭联产承包责任制\nB. 土地改革、家庭联产承包责任制、农业合作化、人民公社化\nC. 土地改革、农业合作化、人民公社化、家庭联产承包责任制\nD. 农业合作化、土地改革、人民公社化、家庭联产承包责任制",
+    "answer": "C. 土地改革、农业合作化、人民公社化、家庭联产承包责任制",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-198",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "意大利作为德奥战前的盟友，在一战爆发后没有参加德奥集团，反而参加了协约国对原来的“盟友”作战，这最能说明第一次世界大战的____。\nA. 原因\nB. 性质\nC. 特征\nD. 结果",
+    "answer": "B. 性质",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-199",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在我国古代苏州城中出现这样一则事情：由于苏州任税官的横征暴敛，使得苏州许多机户关门停工。令城失业的机工有万余人。在葛成的带领下.苏州机工展开了抗税斗争。这一则事情最早有可能发生在____\nA. 秦汉时期\nB. 宋元时期\nC. 明朝晚期\nD. 清朝初期",
+    "answer": "C. 明朝晚期",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-200",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "面对于数倍于自己的敌人，雅典军队的司令官米太雅得战士们说：“雅典是披上奴隶的枷锁还是保持自由，关键就在你们身上。”结果雅典战士奋勇杀敌，以少胜多，取得了马拉松战役的胜利。这次战役发生在：____\nA. 希波战争\nB. 布匿战争\nC. 伯罗奔尼撒战争\nD. 亚历山大东征",
+    "answer": "A. 希波战争",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-201",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "影片《虎！虎！虎！》拍摄于1971年，是一部关于第二次世界大战的影片， 它的主要内容应该描写____。\nA. 慕尼黑会议\nB. 德国闪击波兰\nC. 苏德战争爆发\nD. 日军突袭珍珠港",
+    "answer": "D. 日军突袭珍珠港",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-202",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在我国全面进行社会主义建设的时期，广大人民和干部中涌现出大批先进人物，如王进喜.邓稼先.焦裕禄等，他们分别被誉为____\nA. 铁人.两弹元勋.党的好干部\nB. 党的好干部.两弹元勋.铁人\nC. 党的好干部.铁人.人民公朴\nD. 人民公朴.党的好干部.两弹元勋",
+    "answer": "A. 铁人.两弹元勋.党的好干部",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-203",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“自封建变为郡县，有天下者，汉、隋、唐、宋为盛，然幅员之广，咸不逮元”。元朝疆域空前辽阔，为对全国进行有效的统治，元朝主要实行____\nA. 分封制\nB. 宗法制\nC. 内阁制\nD. 行省制",
+    "answer": "D. 行省制",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-204",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "佛教.伊斯兰教和基督教作为世界上三大宗教，其共同特点是____\r\n\r\n①都诞生于公元以前  ②都诞生于亚洲  ③最后都为统治者所利用  ④它们的传播有利于各地区间文化交流\nA. ①②③\nB. ②③④\nC. ①③④\nD. ①②④",
+    "answer": "B. ②③④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-205",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "河姆渡、半坡原始居民都在大河流域，是因为____\nA. 交通便利，适合发展商业\nB. 战略位置重要\nC. 土质肥沃，适宜发展农业\nD. 便于生活用水",
+    "answer": "C. 土质肥沃，适宜发展农业",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "历史",
+    "education_level": "初中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "初中历史"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#middle_school_history-test-206",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  }
+]

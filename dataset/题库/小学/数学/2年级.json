@@ -1,0 +1,3710 @@
+[
+  {
+    "question_text": "分类要先定标准。按形状把扣子分开，先要确定什么？\nA. 分类标准\nB. 扣子的价钱\nC. 谁先捡到",
+    "answer": "A. 分类标准",
+    "solution": "标准不同，分出的类就不同。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分类与整理",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p037_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：5＋3＝？",
+    "answer": "8",
+    "solution": "两类分别有 5 个和 3 个，一共 8 个。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分类与整理",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p037_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "红色扣子 7 颗，蓝色扣子 4 颗。红色比蓝色多几颗？计算：7－4＝？",
+    "answer": "3",
+    "solution": "7－4＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分类与整理",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p037_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "三角形 6 个，圆形 6 个。两种图形一共有多少个？计算：6＋6＝？",
+    "answer": "12",
+    "solution": "6＋6＝12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分类与整理",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p037_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "乘法表示的是什么？\nA. 求几个相同加数的和\nB. 从总数里去掉一部分\nC. 比较谁更大",
+    "answer": "A. 求几个相同加数的和",
+    "solution": "例如 2＋2＋2 可以写成 2×3。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "乘法的意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p038_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：2＋2＋2＝？",
+    "answer": "6",
+    "solution": "3 个 2 相加是 6，也就是 2×3＝6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "乘法的意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p038_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：4＋4＝？",
+    "answer": "8",
+    "solution": "2 个 4 相加是 8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "乘法的意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p038_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每组有 3 人，有这样的 2 组。一共有多少人？计算：3＋3＝？",
+    "answer": "6",
+    "solution": "2 个 3 是 6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "乘法的意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p038_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：2×6＝？",
+    "answer": "12",
+    "solution": "2×6＝12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "2到6的乘法口诀",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p039_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：3×4＝？",
+    "answer": "12",
+    "solution": "3×4＝12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "2到6的乘法口诀",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p039_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每盒有 5 个皮球，一共 6 盒。一共有多少个？计算：5×6＝？",
+    "answer": "30",
+    "solution": "求 6 个 5 的和，用乘法，5×6＝30。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "2到6的乘法口诀",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p039_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "4×3 的得数是哪一个？\nA. 16\nB. 13\nC. 7\nD. 12",
+    "answer": "D. 12",
+    "solution": "4×3＝12。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "2到6的乘法口诀",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p039_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1 厘米大约有多长？\nA. 指甲盖的宽度大约是 1 厘米\nB. 教室大约长 1 厘米\nC. 一支铅笔大约长 1 厘米",
+    "answer": "A. 指甲盖的宽度大约是 1 厘米",
+    "solution": "1 厘米很短，大约是指甲盖的宽度。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识厘米",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p040_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "4 厘米是多少毫米？",
+    "answer": "40",
+    "solution": "1 厘米＝10 毫米，4 厘米＝40 毫米。这里先记住厘米很短。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识厘米",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p040_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两根小棒分别长 3 厘米和 2 厘米，首尾接在一起，一共长多少厘米？",
+    "answer": "5",
+    "solution": "两段长度相加，3 厘米＋2 厘米＝5 厘米。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识厘米",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p040_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一根纸条长 6 厘米，剪去 2 厘米。还剩多少厘米？计算：6－2＝？",
+    "answer": "4",
+    "solution": "6－2＝4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识厘米",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p040_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1 米等于多少厘米？\nA. 100厘米\nB. 10厘米\nC. 1000厘米",
+    "answer": "A. 100厘米",
+    "solution": "1 米＝100 厘米。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识米",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p041_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "2 米是多少厘米？",
+    "answer": "200",
+    "solution": "2×100＝200。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识米",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p041_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "4 米是多少厘米？",
+    "answer": "400",
+    "solution": "4 米＝400 厘米。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识米",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p041_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "旗杆高约 3 米，讲台长约 1 米。旗杆比讲台大约高几米？计算：3－1＝？",
+    "answer": "2",
+    "solution": "3－1＝2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识米",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p041_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：7×8＝？",
+    "answer": "56",
+    "solution": "7×8＝56。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "7、8、9的乘法口诀",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p042_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：9×3＝？",
+    "answer": "27",
+    "solution": "9×3＝27。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "7、8、9的乘法口诀",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p042_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每盒有 8 本本子，一共 6 盒。一共有多少本？计算：8×6＝？",
+    "answer": "48",
+    "solution": "求 6 个 8 的和，用乘法，8×6＝48。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "7、8、9的乘法口诀",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p042_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "9×9 的得数是哪一个？\nA. 90\nB. 81\nC. 82\nD. 18",
+    "answer": "B. 81",
+    "solution": "9×9＝81。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "7、8、9的乘法口诀",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p042_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "除法表示的是什么？\nA. 把总数平均分成几份，求每一份\nB. 求几个相同加数的和\nC. 比较两个数谁大",
+    "answer": "A. 把总数平均分成几份，求每一份",
+    "solution": "平均分用除法，除法是乘法的逆运算。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "除法的意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p043_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：12÷3＝？",
+    "answer": "4",
+    "solution": "12÷3＝4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "除法的意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p043_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：8÷2＝？",
+    "answer": "4",
+    "solution": "8÷2＝4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "除法的意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p043_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "12 颗糖平均分给 3 个同学。每人几颗？计算：12÷3＝？",
+    "answer": "4",
+    "solution": "12÷3＝4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "除法的意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p043_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：56÷7＝？",
+    "answer": "8",
+    "solution": "56÷7＝8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用7、8、9的口诀求商",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p044_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：72÷8＝？",
+    "answer": "9",
+    "solution": "72÷8＝9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用7、8、9的口诀求商",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p044_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "63 个气球，平均分成 9 份。每份有多少个？计算：63÷9＝？",
+    "answer": "7",
+    "solution": "63÷9＝7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用7、8、9的口诀求商",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p044_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "48÷8 的得数是哪一个？\nA. 7\nB. 8\nC. 5\nD. 6",
+    "answer": "D. 6",
+    "solution": "48÷8＝6。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用7、8、9的口诀求商",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p044_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1 厘米大约有多长？用身体上的尺子估测时，最短的一截常常接近什么？\nA. 指甲盖的宽度大约是 1 厘米\nB. 一步大约是 1 厘米\nC. 教室长大约是 1 厘米",
+    "answer": "A. 指甲盖的宽度大约是 1 厘米",
+    "solution": "1 厘米很短；一步要比 1 厘米长得多。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用身体上的长度估测",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p045_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一拃大约 1 分米，也就是 10 厘米。3 拃大约是多少厘米？计算：3×10＝？",
+    "answer": "30",
+    "solution": "1 分米＝10 厘米，3 拃大约 30 厘米。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用身体上的长度估测",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p045_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "课桌大约 2 拃，一拃按 10 厘米算。课桌大约多少厘米？计算：2×10＝？",
+    "answer": "20",
+    "solution": "2×10＝20。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用身体上的长度估测",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p045_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用尺量出绳子长 15 厘米，估测是 12 厘米。量出的比估的多几厘米？计算：15－12＝？",
+    "answer": "3",
+    "solution": "15－12＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用身体上的长度估测",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p045_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：18÷3＝？",
+    "answer": "6",
+    "solution": "18÷3＝6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用1到6的口诀求商",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p046_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：24÷6＝？",
+    "answer": "4",
+    "solution": "24÷6＝4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用1到6的口诀求商",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p046_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "20 张贴纸，平均分成 4 份。每份有多少张？计算：20÷4＝？",
+    "answer": "5",
+    "solution": "20÷4＝5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用1到6的口诀求商",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p046_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "30÷5 的得数是哪一个？\nA. 7\nB. 8\nC. 6\nD. 5",
+    "answer": "C. 6",
+    "solution": "30÷5＝6。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用1到6的口诀求商",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p046_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：6×4＝？",
+    "answer": "24",
+    "solution": "24÷6＝4，因为 6×4＝24。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用乘法验算除法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p047_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "小丽算出 24÷4＝6。用乘法验算，商 6 乘除数 4 等于多少？",
+    "answer": "24",
+    "solution": "验算用商×除数，6×4＝24，正好等于被除数 24，说明算对了。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用乘法验算除法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p047_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有人说 36÷6＝5。用乘法检查：6×5 是多少？和 36 一样吗？先算出 6×5。计算：6×5＝？",
+    "answer": "30",
+    "solution": "6×5＝30，不等于 36，所以商不是 5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用乘法验算除法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p047_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：9×4＝？",
+    "answer": "36",
+    "solution": "36÷9＝4，验算 9×4＝36。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用乘法验算除法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p047_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：3×6＝？",
+    "answer": "18",
+    "solution": "3×6＝18。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "表内乘法解决实际问题",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p048_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：4×7＝？",
+    "answer": "28",
+    "solution": "4×7＝28。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "表内乘法解决实际问题",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p048_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每盒有 5 个鸡蛋，一共 8 盒。一共有多少个？计算：5×8＝？",
+    "answer": "40",
+    "solution": "求 8 个 5 的和，用乘法，5×8＝40。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "表内乘法解决实际问题",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p048_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "6×9 的得数是哪一个？\nA. 60\nB. 55\nC. 15\nD. 54",
+    "answer": "D. 54",
+    "solution": "6×9＝54。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "表内乘法解决实际问题",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p048_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "东和西是什么关系？\nA. 相反的方向\nB. 同一个方向\nC. 都在南边",
+    "answer": "A. 相反的方向",
+    "solution": "东和西相反，南和北相反。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "东、南、西、北",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p049_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "地图上通常是怎样定方向的？\nA. 上北下南，左西右东\nB. 上南下北，左东右西\nC. 没有固定方向",
+    "answer": "A. 上北下南，左西右东",
+    "solution": "看地图时通常按上北下南。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "东、南、西、北",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p049_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "早晨小明面向东站着，他的背后是哪个方向？\nA. 东\nB. 西\nC. 南\nD. 北",
+    "answer": "B. 西",
+    "solution": "东和西是相反的方向，面向东时背后就是西。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "东、南、西、北",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p049_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从校门向北走 40 米，再向南走 10 米。这时在校门北面多少米？计算：40－10＝？",
+    "answer": "30",
+    "solution": "向南走是往回，40－10＝30。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "东、南、西、北",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p049_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有余数的除法里，余数和除数谁比较小？\nA. 余数比除数小\nB. 余数比除数大\nC. 余数一定是 0",
+    "answer": "A. 余数比除数小",
+    "solution": "如果余数不比除数小，还可以再分一份。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "有余数除法的意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p050_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "13 颗糖，每 5 颗装一袋。先写商，再写余数。商和余数：13÷5",
+    "answer": "2，3",
+    "solution": "13÷5＝2（袋）余 3，余数 3 比除数 5 小。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "有余数除法的意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p050_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "17 本本子，每 3 本捆一捆。先写商，再写余数。商和余数：17÷3",
+    "answer": "5，2",
+    "solution": "17÷3＝5 余 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "有余数除法的意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p050_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "先写商，再写余数。商和余数：20÷6",
+    "answer": "3，2",
+    "solution": "20÷6＝3 余 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "有余数除法的意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p050_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "先写商，再写余数。商和余数：14÷4",
+    "answer": "3，2",
+    "solution": "4×3＝12，14－12＝2，商 3 余 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用口诀求商和余数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p051_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "先写商，再写余数。商和余数：25÷7",
+    "answer": "3，4",
+    "solution": "7×3＝21，25－21＝4，商 3 余 4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用口诀求商和余数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p051_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "30 个苹果，每袋装 8 个。先写商，再写余数。商和余数：30÷8",
+    "answer": "3，6",
+    "solution": "8×3＝24，30－24＝6，商 3 余 6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用口诀求商和余数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p051_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "先写商，再写余数。商和余数：45÷6",
+    "answer": "7，3",
+    "solution": "6×7＝42，45－42＝3，商 7 余 3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用口诀求商和余数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p051_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "23 个皮球，每 5 个装一袋。先写商，再写余数。商和余数：23÷5",
+    "answer": "4，3",
+    "solution": "23÷5＝4 余 3，能装 4 袋，剩 3 个。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "有余数除法的应用",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p052_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "先写商，再写余数。商和余数：19÷4",
+    "answer": "4，3",
+    "solution": "19÷4＝4 余 3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "有余数除法的应用",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p052_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "28 人租船，每条船坐 6 人。先写商，再写余数。商和余数：28÷6",
+    "answer": "4，4",
+    "solution": "28÷6＝4 余 4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "有余数除法的应用",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p052_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "先写商，再写余数。商和余数：50÷8",
+    "answer": "6，2",
+    "solution": "50÷8＝6 余 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "有余数除法的应用",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p052_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "999 的后面一个数是几？",
+    "answer": "1000",
+    "solution": "999 再加 1 是 1000。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "万以内数的认识",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p053_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1000 的前面一个数是几？",
+    "answer": "999",
+    "solution": "1000 的前面是 999。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "万以内数的认识",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p053_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "3400 的百位是几？",
+    "answer": "4",
+    "solution": "3400 的百位是 4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "万以内数的认识",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p053_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "5060 的千位是几？",
+    "answer": "5",
+    "solution": "5060 的千位是 5，百位是 0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "万以内数的认识",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p053_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：1000－999＝？",
+    "answer": "1",
+    "solution": "1000 比 999 大 1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "万以内数的大小比较",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p054_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：3200－2800＝？",
+    "answer": "400",
+    "solution": "3200－2800＝400。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "万以内数的大小比较",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p054_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "图书馆有故事书 2500 本，科技书 1800 本。故事书比科技书多多少本？计算：2500－1800＝？",
+    "answer": "700",
+    "solution": "2500－1800＝700。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "万以内数的大小比较",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p054_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面四个数中，最大的是哪一个？\nA. 3986\nB. 4012\nC. 4001\nD. 998",
+    "answer": "B. 4012",
+    "solution": "998 是三位数最小；其余是四位数，先比千位，3 最小，4012 和 4001 千位相同，再比百位、十位，4012 最大。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "万以内数的大小比较",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p054_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "2300 里面有几个百？",
+    "answer": "23",
+    "solution": "2300 里有 23 个百。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "万以内数的组成",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p055_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "4000 里面有几个千？",
+    "answer": "4",
+    "solution": "4000 是 4 个千。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "万以内数的组成",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p055_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1600 的百位是几？",
+    "answer": "6",
+    "solution": "1600 的百位是 6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "万以内数的组成",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p055_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：2000＋300＋40＋5＝？",
+    "answer": "2345",
+    "solution": "2 个千、3 个百、4 个十和 5 个一是 2345。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "万以内数的组成",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p055_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "先乘除、后加减。算式里既有乘法又有加减法，要先算什么？\nA. 先算乘除，再算加减\nB. 一律从左往右，乘号也不优先\nC. 先算最大的数",
+    "answer": "A. 先算乘除，再算加减",
+    "solution": "先乘除、后加减。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "乘加乘减的运算顺序",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p057_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：3×4＋5＝？",
+    "answer": "17",
+    "solution": "先算 3×4＝12，再加 5 得 17。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "乘加乘减的运算顺序",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p057_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：20－2×6＝？",
+    "answer": "8",
+    "solution": "先算 2×6＝12，再算 20－12＝8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "乘加乘减的运算顺序",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p057_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每盒 4 支笔，买 3 盒，又单买 2 支。一共有多少支？计算：4×3＋2＝？",
+    "answer": "14",
+    "solution": "先算 4×3＝12，再加 2 得 14。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "乘加乘减的运算顺序",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p057_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一列数 2，5，8。每次增加的一样多，8 的后面是多少？计算：8＋3＝？",
+    "answer": "11",
+    "solution": "5－2＝3，每次加 3，8＋3＝11。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单的变化规律",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p060_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一列数 16，14，12。每次减少的一样多，12 的后面是多少？计算：12－2＝？",
+    "answer": "10",
+    "solution": "每次减 2，12－2＝10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单的变化规律",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p060_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一列数 3，6，9，12。按每次加 3，12 的后面是多少？计算：12＋3＝？",
+    "answer": "15",
+    "solution": "每次加 3，12＋3＝15。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单的变化规律",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p060_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一列数 30，25，20，15。按每次减 5，15 的后面是多少？计算：15－5＝？",
+    "answer": "10",
+    "solution": "15－5＝10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单的变化规律",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p060_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "钟面上分针走一圈是多久？\nA. 60分\nB. 60秒\nC. 12分",
+    "answer": "A. 60分",
+    "solution": "分针走一圈是 60 分，也就是 1 时。秒针走一圈才是 60 秒。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "秒的认识",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p061_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "2 分是多少秒？",
+    "answer": "120",
+    "solution": "1 分＝60 秒，2 分＝120 秒。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "秒的认识",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p061_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "3 分是多少秒？",
+    "answer": "180",
+    "solution": "3×60＝180。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "秒的认识",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p061_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "秒针从 12 出发，走了 15 秒。再走多少秒，秒针正好走满 1 分？",
+    "answer": "45",
+    "solution": "1 分是 60 秒，60－15＝45，还要再走 45 秒。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "秒的认识",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p061_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1 时等于多少分？\nA. 60分\nB. 100分\nC. 24分",
+    "answer": "A. 60分",
+    "solution": "1 时＝60 分。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "时、分、秒的进率",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p062_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "2 时是多少分？",
+    "answer": "120",
+    "solution": "2×60＝120。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "时、分、秒的进率",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p062_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "4 分是多少秒？",
+    "answer": "240",
+    "solution": "4×60＝240。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "时、分、秒的进率",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p062_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一节课 40 分，课间 10 分。从上课到下课铃后再过完课间，一共经过多少分？计算：40＋10＝？",
+    "answer": "50",
+    "solution": "40＋10＝50。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "时、分、秒的进率",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p062_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：35－20＝？",
+    "answer": "15",
+    "solution": "从 2 时 20 分到 2 时 35 分，经过 15 分。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "经过时间",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p063_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：60－45＝？",
+    "answer": "15",
+    "solution": "从 45 分到下一时的整点，经过 15 分。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "经过时间",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p063_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电影 7 时 15 分开始，7 时 50 分结束。放了多少分？计算：50－15＝？",
+    "answer": "35",
+    "solution": "都在 7 时里，50－15＝35。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "经过时间",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p063_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "跑步从 3 时 40 分开始，4 时整结束。跑了多少分？计算：60－40＝？",
+    "answer": "20",
+    "solution": "从 40 分到整点是 20 分。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "经过时间",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p063_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：300＋400＝？",
+    "answer": "700",
+    "solution": "3 个百加 4 个百是 700。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "几百几十的口算加法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p064_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：250＋30＝？",
+    "answer": "280",
+    "solution": "250＋30＝280。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "几百几十的口算加法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p064_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一箱 180 本，另一箱 140 本。两箱一共多少本？计算：180＋140＝？",
+    "answer": "320",
+    "solution": "180＋140＝320。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "几百几十的口算加法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p064_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：470＋250＝？",
+    "answer": "720",
+    "solution": "470＋250＝720。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "几百几十的口算加法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p064_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：800－300＝？",
+    "answer": "500",
+    "solution": "800－300＝500。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "几百几十的口算减法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p065_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：560－40＝？",
+    "answer": "520",
+    "solution": "560－40＝520。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "几百几十的口算减法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p065_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "图书馆有 730 本书，借出 280 本。还剩多少本？计算：730－280＝？",
+    "answer": "450",
+    "solution": "730－280＝450。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "几百几十的口算减法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p065_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：900－350＝？",
+    "answer": "550",
+    "solution": "900－350＝550。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "几百几十的口算减法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p065_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "估算是为了什么？\nA. 很快知道大约是多少\nB. 一定算出精确得数\nC. 只用于减法",
+    "answer": "A. 很快知道大约是多少",
+    "solution": "估算用来快速判断大约是多少。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "加法的估算",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p066_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：40＋30＝？",
+    "answer": "70",
+    "solution": "38 接近 40，29 接近 30，和大约是 70。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "加法的估算",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p066_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一件衣服 198 元，一顶帽子 102 元。大约一共多少元？把它们看成 200 元和 100 元来算。计算：200＋100＝？",
+    "answer": "300",
+    "solution": "198 接近 200，102 接近 100，大约 300 元。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "加法的估算",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p066_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：500＋300＝？",
+    "answer": "800",
+    "solution": "486 接近 500，312 接近 300，大约 800。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "加法的估算",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p066_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：234＋125＝？",
+    "answer": "359",
+    "solution": "234＋125＝359。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "三位数加法笔算",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p071_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：406＋270＝？",
+    "answer": "676",
+    "solution": "406＋270＝676。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "三位数加法笔算",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p071_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个仓库分别有 368 箱和 475 箱。一共有多少箱？计算：368＋475＝？",
+    "answer": "843",
+    "solution": "个位 8＋5＝13，十位 6＋7＋1＝14，得 843。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "三位数加法笔算",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p071_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：509＋286＝？",
+    "answer": "795",
+    "solution": "509＋286＝795。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "三位数加法笔算",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p071_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "笔算加法算完后，常用什么方法验算？\nA. 用减法：和减去一个加数，看是否等于另一个加数\nB. 把两个加数再乘一次\nC. 只看个位，不管其它数位",
+    "answer": "A. 用减法：和减去一个加数，看是否等于另一个加数",
+    "solution": "加法验算常用减法：和减去一个加数，应得到另一个加数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "三位数减法笔算",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p072_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：756－234＝？",
+    "answer": "522",
+    "solution": "756－234＝522。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "三位数减法笔算",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p072_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "书架上有 600 本书，搬走 248 本。还剩多少本？计算：600－248＝？",
+    "answer": "352",
+    "solution": "600－248＝352。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "三位数减法笔算",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p072_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：803－457＝？",
+    "answer": "346",
+    "solution": "连续退位，803－457＝346。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "三位数减法笔算",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p072_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每盒 6 个鸡蛋，有 4 盒，一共有多少个？",
+    "answer": "24",
+    "solution": "每份数×份数＝总数：6×4＝24。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "数量间的乘除关系",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p219_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把 18 个苹果平均分给 3 个小朋友，每人分几个？",
+    "answer": "6",
+    "solution": "总数÷份数＝每份数：18÷3＝6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "数量间的乘除关系",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p219_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 35 个气球，每 5 个扎一束，可以扎几束？",
+    "answer": "7",
+    "solution": "总数÷每份数＝份数：35÷5＝7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "数量间的乘除关系",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p219_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一张桌子坐 8 人，7 张桌子一共能坐多少人？",
+    "answer": "56",
+    "solution": "8×7＝56。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "数量间的乘除关系",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p219_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "□＋250＝600，□是多少？",
+    "answer": "350",
+    "solution": "一个加数＝和－另一个加数：600－250＝350。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "加减法各部分间的关系",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p220_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "□－180＝320，□是多少？",
+    "answer": "500",
+    "solution": "被减数＝差＋减数：320＋180＝500。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "加减法各部分间的关系",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p220_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "760－□＝430，□是多少？",
+    "answer": "330",
+    "solution": "减数＝被减数－差：760－430＝330。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "加减法各部分间的关系",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p220_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明算 523＋286＝809。用减法验算，809－286 应该等于多少？",
+    "answer": "523",
+    "solution": "和减去一个加数，等于另一个加数：809－286＝523。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "加减法各部分间的关系",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p220_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "张师傅上午修了18把椅子，下午修了29把椅子，一天共修了多少把椅子？",
+    "answer": "47",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-100",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小小图书室有52本故事书，科技书比故事书多6本，科技书有多少本？",
+    "answer": "58",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-101",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "李师傅用一根长52米的绳子做跳绳，每根跳绳长6米，最多可以做多少根跳绳？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-102",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个皮球65元，一个球拍38元，皮球比球拍多几元？",
+    "answer": "27",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-103",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "2个茶杯装一盒，19个茶杯可以装满多少盒？",
+    "answer": "9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-104",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小明和小芳一起做跳绳，小明跳了67下，小芳跳了42下。小芳再跳多少下就和小明跳的一样多？",
+    "answer": "25",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-105",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有60只灯泡，每盏吊灯需装7只灯泡。这些灯泡可以装多少盏吊灯？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-106",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有32名同学排队，每4名同学站一排，可以站几排？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-107",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小丽的妈妈买回来两根绳，一根长15米，另一根长21米，截去一些做跳绳，还剩8米，做跳绳用去多少米？",
+    "answer": "28",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-108",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "花店运来19朵玫瑰花，每2朵扎成一束，可以扎成多少束？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-109",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个三角形纸片有3个角，一个四边形纸片有4个角，那么6个三角形纸片和1个四边形共有多少个角？",
+    "answer": "22",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-110",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有25本笔记本，每5本笔记本放在一个盒子里，需要多少个盒子？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-111",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "元旦到了，二（4）班买了42个气球装点教室。如果每7个气球扎成一束，能扎成几束？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-112",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "妈妈买了3千克苹果和5千克梨，每千克梨6元，每千克苹果3元，苹果和梨共多少钱？",
+    "answer": "39",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-113",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "李立用彩纸做花，已经用了45张，还差8张，李立要用多少张彩纸？",
+    "answer": "53",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-114",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "书店有3捆书，每捆2本，每本8元，书店把这两捆书全部卖完，可以卖多少元？",
+    "answer": "48",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-115",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小方家有45只鸡，养的鸭比鸡少5只，小方家有鸭多少只？",
+    "answer": "40",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-116",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "关村要修一条长92米的马路，已经修了54米，还有多少米没修？",
+    "answer": "38",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-117",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "老师买了48根跳绳，平均分给6个班，每个班分几根？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-118",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "哥哥把21本书平均分给小里、小洛和小骏，小骏分到多少本？",
+    "answer": "7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-119",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一本笔记本卖4元。欢欢有27元，可以买多少本笔记本？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-120",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "我们小组共有12人，我的左边有7人，我的右边有多少人？",
+    "answer": "4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-121",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小华有95枚邮票，小明有83枚邮票，小明的邮票比小华多多少枚？",
+    "answer": "12",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-122",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小兰的妈妈做一套衣服用去3米布，25米布可以做多少套这样的衣服？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-123",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "二年级买来科技书18本，故事书24本。把这些书分给二年级6个班，平均每个班分多少本？",
+    "answer": "7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-124",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "同学们今天种了25棵树，前天种了12棵树，昨天种了22棵树，昨天和今天一共种了多少棵？",
+    "answer": "47",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-125",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个篮球的售价是48元，一个足球的售价是39元，一个足球的售价比一个篮球少多少元？",
+    "answer": "9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-126",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "杯子里有72颗糖，拿走38颗，杯子里还有多少颗糖？",
+    "answer": "34",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-127",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "红、黄、蓝三种气球一样多，一共15个，红气球有多少个？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-128",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小平种了26盒红花，又种了同样多的黄花，两种花共种了多少盒？",
+    "answer": "52",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-129",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "7辆小汽车收费多少元？(停车收费标准:小汽车：6元;面包车：8元)",
+    "answer": "42",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-130",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "爸爸用50元买了7本笔记本，商店的阿姨找了爸爸1元，那么一本笔记本多少元？",
+    "answer": "7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-131",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个足球要36元，小丽有24元，还差多少元才能购买一个足球？",
+    "answer": "12",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-132",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "学校买来74本课外书，平均分给9个班，每个班分多少本？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-133",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小松鼠摘松果，每个筐里放了6个松果，一共放了8筐，小松鼠一共摘了多少个松果？",
+    "answer": "48",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-134",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "2.二（2）班筹集班费87元，买一个篮球需要52元，买清洁工具需要46元，还差多少元？",
+    "answer": "11",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-135",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小丽家离学校53米远，一天她上学走了23米，想起忘记带手工纸，立即返回家中，拿了手工纸再上学，这次上学她一共走了多少米？",
+    "answer": "99",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-136",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "同学们做了5盒大红花，每盒装9朵，送三好学生32朵，还剩下多少朵？",
+    "answer": "13",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-137",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "刘老师有5盒乒乓球，每盒装6个，同学们借走了23个，还剩多少个？",
+    "answer": "7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-138",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "5头牛1天吃了30筐草，平均每头牛吃几筐草?",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-139",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "二年级有男生20人，女生25人，每9人一组参加跳绳比赛，一共可以分成几组？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-140",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一只兔子有4只脚，一只鸡有2只脚，4只兔子和一只鸡一共有多少只脚？",
+    "answer": "18",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-141",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "合唱队有男同学38人，比女同学少15人，合唱队共有多少人？",
+    "answer": "91",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-142",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "露露：我踢了45下。佳佳：我比露露多踢18下。乐乐：我比佳佳多踢21下。乐乐踢了多少下？",
+    "answer": "84",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-143",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "9只兔子有多少条腿？",
+    "answer": "36",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-144",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一批产品，4人做9天可以完成。照这样计算，这批产品要在6天完成，需要多少人？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-145",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "李明红剪五角星，第一次剪了13个，第二次和第一次剪的同样多，两次一共剪了多少个？",
+    "answer": "26",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-146",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "27个小朋友去划船，每条船可以坐3人，需要几条船？",
+    "answer": "9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-147",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一辆公交车原来有乘客46人，到西门站下车17人，又上车11人，公交车上现在有多少人？",
+    "answer": "40",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-148",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "某商店新进一批洗衣粉，共有33袋，每7袋装一箱，可以装多少箱？",
+    "answer": "4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-149",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "李奶奶养了3只公鸡，15只母鸡。6只鸡住一个鸡笼，一共需要多少个鸡笼？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-150",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "二年级（1）班借来15本书。平均分给5个小组，每组分多少本？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-151",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "妈妈今年32岁，小明比妈妈小19岁，小明今年多少岁？",
+    "answer": "13",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-152",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "妈妈买来9个桃，爸爸买来15个桃，把这些桃平均放在4个盘里，每盘放多少个桃?",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-153",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "饲养员养了20只公鸡，12只母鸡，每4只放入一个笼子，需要多少个笼子?",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-154",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "果园里有苹果树26棵，桃树35棵，苹果树和桃树一共有多少棵？",
+    "answer": "61",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-155",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "绘画组有4组，每组7人，书法组比绘画组少20人，书法组有多少人？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-156",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个花店有菊花35朵，玫瑰花27朵，百合花29朵，这三种花一共有多少朵？",
+    "answer": "91",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-157",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "同学们分4组做风车，每组做9只。送给幼儿园18只，还有多少只？",
+    "answer": "18",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-158",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有36盆盆景。把这些盆景摆成4排，平均每排摆几盆？",
+    "answer": "9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-159",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一筐桃的总重量是38千克，其中筐的重量是2千克，那么桃的重量是多少千克？",
+    "answer": "36",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-160",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "公交车上原有32人，到站后上来15人，又下车4人，现在公交车上有多少人？",
+    "answer": "43",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-161",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "共有86个西瓜，李大爷运走了39个，王叔叔运走了27个，还剩多少个？",
+    "answer": "20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-162",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "李老师去商店买粉笔，每盒粉笔7元，老师买了8盒，老师应支付多少元？",
+    "answer": "56",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-163",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "养兔场养兔8000只，昨天卖出3000只。还剩下多少只？",
+    "answer": "5000",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-164",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "食品加工厂某工作人员一上午生产了59个月饼，将这些月饼每8个装一袋，可以装满多少袋？",
+    "answer": "7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-165",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "曾老师买回33个桔子，每个住校生分得4个，可以分给多少个住校生？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-166",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "操场上打篮球的有21人，打排球的有25人，走了18人，现在操场上打篮球和排球的一共有多少人？",
+    "answer": "28",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-167",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "食堂买回30袋大米，吃了4天后，还剩2袋，平均每天吃多少袋？",
+    "answer": "7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-168",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小明有23张卡片，小丽的卡片比小明少18张，小丽和小明一共有多少张卡片？",
+    "answer": "28",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-169",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有46个人住旅馆，每间房住6个人，一共可以住满多少间房？",
+    "answer": "7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-170",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一筐松果有39个，每个篮子里装5个松果，至少需要多少个篮子？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-171",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小巧把59张彩色照片贴在相册上。每页贴了7张，可以贴多少页？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-172",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小明今年12岁，在小明出生时妈妈23岁，妈妈今年多少岁？",
+    "answer": "35",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-173",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "妈妈买了3块蛋糕，每块6元，买蛋糕用去多少元？",
+    "answer": "18",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-174",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小萌在超市买了3瓶饮料花了9元，如果买5瓶饮料需要多少元？",
+    "answer": "15",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-175",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小明看一本故事书，每天看5页，已经看了4天，还剩16页没看完，这本故事书一共有多少页？",
+    "answer": "36",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-176",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "从教室搬11张桌子布置会场，每个老师搬一张，两个同学抬一张。现在有2位老师还要多少个同学帮忙才能一次搬完？",
+    "answer": "18",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-177",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小图书室有90本故事书，借出去一些后，还剩43本，借出多少本？",
+    "answer": "47",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-178",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "妈妈今年42岁，小明今年16岁，30年后妈妈比小明大多少岁？",
+    "answer": "26",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-179",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一辆汽车上午运货23箱，下午运货12箱，下午比上午少运多少箱？",
+    "answer": "11",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-180",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "二（1）班有25名学生。平均分成5个小组，每个小组有多少名学生？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-181",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小林妈妈有98元，给小林买书包花了26元，还剩下多少元？",
+    "answer": "72",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-182",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "二年级一班的4名老师带领23名学生租两辆车去旅游，其中一辆车上坐了13人，另一辆车上坐了多少人？",
+    "answer": "14",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-183",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "爷爷有11个西瓜，一个篮子正好能装3个西瓜。爷爷的西瓜能装满多少个篮子？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-184",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一大袋洗衣粉重10千克，一大袋洗衣粉里面有2小袋，一小袋洗衣粉重多少千克？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-185",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "松鼠每天吃5个松果，吃了3天，还剩20个。原来一共有多少个松果？",
+    "answer": "35",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-186",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "王老师做了一些花奖励给明明和东东，明明得到15朵，东东得到23朵，王老师一共做了多少朵花？",
+    "answer": "38",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-187",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小明有63张卡片，小丽有45张，小丽给小明多少张后两人的卡片一样多？",
+    "answer": "18",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-188",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "同学们排成一队，小丽前面有23人，后面有19人，这一队共有多少人？",
+    "answer": "43",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-189",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一年级有52名同学，准备乘两辆车去公园，一辆车上已经坐了21名同学，另一辆车上坐了多少人？",
+    "answer": "31",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-190",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一只猴子重32千克，一只山羊比它重7千克，这只山羊重多少千克？",
+    "answer": "39",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-191",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有12个小朋友参加跳绳比赛，4个人一组，可以分成几组？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-192",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "实验小学三，四年级的同学去植树，三年级种了37棵，四年级种了45棵，这两个年级一共种了多少棵树？",
+    "answer": "82",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-193",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "花店运来19朵玫瑰花，每2朵扎成一束，还剩多少朵？",
+    "answer": "1",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-194",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "猴妈妈摘来26个桃，平均分给4只小猴，每只小猴分得多少个桃？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-195",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小红和小明去钓鱼，小红钓了27条鱼，小明钓的比小红多钓9条鱼，小明钓了多少条？",
+    "answer": "36",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-196",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "学校体育室有92个篮球，每班借5个，共有9个班。还剩多少个篮球？",
+    "answer": "47",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-197",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "把20粒珠子，平均放入红、黄、蓝、白四个袋子里。每个袋子放多少粒珠子？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-198",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "同学们擦玻璃，每间教室有4扇窗户，共有8间教室，擦了28扇，还剩多少扇窗子没擦？",
+    "answer": "4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "2年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-199",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  }
+]

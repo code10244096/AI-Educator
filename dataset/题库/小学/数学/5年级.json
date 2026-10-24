@@ -1,0 +1,4934 @@
+[
+  {
+    "question_text": "公顷是什么单位？\nA. 面积单位\nB. 质量单位\nC. 时间单位",
+    "answer": "A. 面积单位",
+    "solution": "公顷用来计量较大的土地面积。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "公顷和平方千米",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p098_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "2 公顷是多少平方米？",
+    "answer": "20000",
+    "solution": "1 公顷＝10000 平方米。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "公顷和平方千米",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p098_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "3 公顷是多少平方米？",
+    "answer": "30000",
+    "solution": "3×10000＝30000。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "公顷和平方千米",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p098_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "公园占地 4 公顷，学校占地 1 公顷。公园比学校大多少公顷？计算：4－1＝？",
+    "answer": "3",
+    "solution": "4－1＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "公顷和平方千米",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p098_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：0.3×4＝？（用小数作答）",
+    "answer": "1.2",
+    "solution": "3×4＝12，一位小数，积是 1.2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数乘整数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p132_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：1.5×2＝？（用小数作答）",
+    "answer": "3",
+    "solution": "1.5×2＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数乘整数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p132_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每支笔 1.2 元，买 4 支。一共多少元？计算：1.2×4＝？（用小数作答）",
+    "answer": "4.8",
+    "solution": "1.2×4＝4.8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数乘整数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p132_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "0.8×5 的得数是哪一个？\nA. 4\nB. 0.4\nC. 3.2\nD. 4.8",
+    "answer": "A. 4",
+    "solution": "0.8×5＝4。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数乘整数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p132_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：0.3×0.4＝？（用小数作答）",
+    "answer": "0.12",
+    "solution": "3×4＝12，一共两位小数，积是 0.12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数乘小数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p133_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：1.2×0.5＝？（用小数作答）",
+    "answer": "0.6",
+    "solution": "1.2×0.5＝0.6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数乘小数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p133_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长 1.5 米、宽 0.4 米的长方形，面积是多少平方米？计算：1.5×0.4＝？（用小数作答）",
+    "answer": "0.6",
+    "solution": "1.5×0.4＝0.6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数乘小数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p133_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "0.25×0.4 的得数是哪一个？\nA. 0.01\nB. 0.9\nC. 0.1\nD. 1",
+    "answer": "C. 0.1",
+    "solution": "0.25×0.4＝0.1。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数乘小数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p133_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：2.5×6＝？（用小数作答）",
+    "answer": "15",
+    "solution": "每千克 2.5 元，6 千克是 15 元。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数乘法的应用",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p134_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：0.8×10＝？（用小数作答）",
+    "answer": "8",
+    "solution": "0.8×10＝8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数乘法的应用",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p134_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每小时行 3.5 千米，行 2 小时。一共多少千米？计算：3.5×2＝？（用小数作答）",
+    "answer": "7",
+    "solution": "3.5×2＝7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数乘法的应用",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p134_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1.25×8 的得数是哪一个？\nA. 8\nB. 9\nC. 12\nD. 10",
+    "answer": "D. 10",
+    "solution": "1.25×8＝10。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数乘法的应用",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p134_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：1.6×2.4＝？（用小数作答）",
+    "answer": "3.84",
+    "solution": "1.6×2.4＝3.84。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "积的近似数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p135_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "3.84 保留一位小数，百分位是 4，不向十分位进 1。保留到十分位可以先算 38÷10。计算：38÷10＝？（用小数作答）",
+    "answer": "3.8",
+    "solution": "38÷10＝3.8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "积的近似数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p135_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：0.8×0.8＝？（用小数作答）",
+    "answer": "0.64",
+    "solution": "0.8×0.8＝0.64。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "积的近似数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p135_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "2.5×1.2 的得数是哪一个？\nA. 2\nB. 3\nC. 2.5\nD. 4",
+    "answer": "B. 3",
+    "solution": "2.5×1.2＝3。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "积的近似数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p135_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：0.8÷2＝？（用小数作答）",
+    "answer": "0.4",
+    "solution": "0.8÷2＝0.4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "除数是整数的小数除法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p137_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：6.3÷3＝？（用小数作答）",
+    "answer": "2.1",
+    "solution": "6.3÷3＝2.1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "除数是整数的小数除法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p137_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "3 条同样的绳子共长 4.5 米。每条多少米？计算：4.5÷3＝？（用小数作答）",
+    "answer": "1.5",
+    "solution": "4.5÷3＝1.5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "除数是整数的小数除法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p137_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "9.6÷4 的得数是哪一个？\nA. 1.4\nB. 2.2\nC. 2.4\nD. 3.4",
+    "answer": "C. 2.4",
+    "solution": "9.6÷4＝2.4。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "除数是整数的小数除法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p137_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：0.8÷0.2＝？（用小数作答）",
+    "answer": "4",
+    "solution": "0.8÷0.2＝4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "一个数除以小数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p138_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：1.5÷0.5＝？（用小数作答）",
+    "answer": "3",
+    "solution": "1.5÷0.5＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "一个数除以小数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p138_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每块橡皮 0.4 元，2.4 元可以买几块？计算：2.4÷0.4＝？（用小数作答）",
+    "answer": "6",
+    "solution": "2.4÷0.4＝6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "一个数除以小数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p138_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "3.6÷0.9 的得数是哪一个？\nA. 3\nB. 4\nC. 5\nD. 6",
+    "answer": "B. 4",
+    "solution": "3.6÷0.9＝4。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "一个数除以小数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p138_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：7.2÷8＝？（用小数作答）",
+    "answer": "0.9",
+    "solution": "7.2÷8＝0.9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数除法的应用",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p139_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：4.5÷0.5＝？（用小数作答）",
+    "answer": "9",
+    "solution": "4.5÷0.5＝9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数除法的应用",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p139_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "9.6 千米走了 3 小时。平均每小时多少千米？计算：9.6÷3＝？（用小数作答）",
+    "answer": "3.2",
+    "solution": "9.6÷3＝3.2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数除法的应用",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p139_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "5.5÷5 的得数是哪一个？\nA. 1.1\nB. 0.5\nC. 1.5\nD. 2.1",
+    "answer": "A. 1.1",
+    "solution": "5.5÷5＝1.1。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "小数除法的应用",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p139_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一定发生的事情，可能性怎样？\nA. 可能性是确定的，一定会发生\nB. 可能发生也可能不发生\nC. 不会发生",
+    "answer": "A. 可能性是确定的，一定会发生",
+    "solution": "太阳从东方升起，是一定发生的。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "可能性",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p140_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "不可能发生的事情会怎样？\nA. 不会发生\nB. 一定会发生\nC. 一半机会发生",
+    "answer": "A. 不会发生",
+    "solution": "口袋里全是红球，摸出蓝球是不可能的。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "可能性",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p140_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "盒子里有 5 个球，其中 3 个是红球，其余都是蓝球。任意摸 1 个球，可能摸到红球，也可能摸到蓝球。盒子里有几个蓝球？",
+    "answer": "2",
+    "solution": "一共 5 个球，红球 3 个，蓝球有 5－3＝2 个，所以可能摸到蓝球。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "可能性",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p140_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "盒子里有 4 个红球和 1 个蓝球，任意摸出 1 个球，下面说法正确的是哪一个？\nA. 不可能摸到蓝球\nB. 一定摸到红球\nC. 可能摸到蓝球\nD. 不可能摸到红球",
+    "answer": "C. 可能摸到蓝球",
+    "solution": "盒子里有蓝球，所以可能摸到蓝球；但也有红球，所以不能说一定摸到红球。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "可能性",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p140_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "可能性相等时，几种结果怎样？\nA. 每种结果的机会一样大\nB. 一定先出现第一种\nC. 不可能出现",
+    "answer": "A. 每种结果的机会一样大",
+    "solution": "两面一样的硬币，正面和反面机会一样大。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "可能性的大小",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p141_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "袋子里有 5 个红球和 2 个蓝球。要使摸到红球和摸到蓝球的可能性一样大，要再放进几个蓝球？",
+    "answer": "3",
+    "solution": "两种球的个数相等，可能性才一样大，蓝球要和红球一样多，需要再放 5－2＝3 个。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "可能性的大小",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p141_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "袋中红球 4 个、黄球 4 个。两种球一共多少个？计算：4＋4＝？",
+    "answer": "8",
+    "solution": "4＋4＝8，两种颜色一样多，可能性相等。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "可能性的大小",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p141_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "盒子里有 6 个白球和 2 个黑球，任意摸出 1 个球，摸到哪种球的可能性大？\nA. 白球\nB. 黑球\nC. 两种一样大\nD. 不可能摸到白球",
+    "answer": "A. 白球",
+    "solution": "白球的个数比黑球多，所以摸到白球的可能性大。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "可能性的大小",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p141_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用字母表示数时，字母表示什么？\nA. 一个可以变化的数\nB. 只能表示 1\nC. 表示一个图形的名字，不能计算",
+    "answer": "A. 一个可以变化的数",
+    "solution": "a 可以是 2，也可以是 5。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用字母表示数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p142_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a＝6 时，5×a 是多少？计算：5×6＝？",
+    "answer": "30",
+    "solution": "5×6＝30。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用字母表示数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p142_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每本笔记本 x 元，买 3 本。x＝4 时要付多少元？计算：4×3＝？",
+    "answer": "12",
+    "solution": "4×3＝12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用字母表示数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p142_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每支铅笔 a 元，买 5 支，一共要付多少元？\nA. a＋5 元\nB. 5×a 元\nC. a÷5 元\nD. a－5 元",
+    "answer": "B. 5×a 元",
+    "solution": "总价＝单价×数量，所以是 5×a 元（也可写成 5a 元）。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用字母表示数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p142_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面 4 个式子：①x＋3＝8　②5＋2＝7　③x－4＞1　④9－x＝2。其中是方程的有几个？",
+    "answer": "2",
+    "solution": "方程是含有未知数的等式：①和④是方程；②没有未知数，③不是等式。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "方程的意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p143_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：20－8＝？",
+    "answer": "12",
+    "solution": "x＋8＝20，x＝12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "方程的意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p143_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "未知数 x 加上 6 等于 15。x 是多少？计算：15－6＝？",
+    "answer": "9",
+    "solution": "15－6＝9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "方程的意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p143_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面哪个式子是方程？\nA. 12＋8＝20\nB. x＋9＞12\nC. x＋9＝30\nD. 30－9＜25",
+    "answer": "C. x＋9＝30",
+    "solution": "方程必须是含有未知数的等式。x＋9＝30 含有未知数 x，又是等式；12＋8＝20 没有未知数；x＋9＞12 和 30－9＜25 都不是等式。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "方程的意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p143_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "方程两边同时加上同一个数，相等关系怎样？\nA. 相等关系不变\nB. 左边变大、右边不变\nC. 方程就不成立了",
+    "answer": "A. 相等关系不变",
+    "solution": "两边同时加、同时减，相等关系不变。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "等式的性质",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p144_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：18－6＝？",
+    "answer": "12",
+    "solution": "x＋6＝18，两边同时减 6，x＝12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "等式的性质",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p144_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "x－4＝9。两边同时加上 4，x 是多少？计算：9＋4＝？",
+    "answer": "13",
+    "solution": "9＋4＝13。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "等式的性质",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p144_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知 a＝b，等式两边同时加上 5，下面哪个等式仍然成立？\nA. a＋5＝b\nB. a＋5＝b＋5\nC. a＝b＋5\nD. a－5＝b＋5",
+    "answer": "B. a＋5＝b＋5",
+    "solution": "等式两边同时加上同一个数，左右仍然相等，所以 a＋5＝b＋5。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "等式的性质",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p144_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：40－17＝？",
+    "answer": "23",
+    "solution": "x＋17＝40，x＝23。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "解简易方程",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p145_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：24÷3＝？",
+    "answer": "8",
+    "solution": "3x＝24，x＝8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "解简易方程",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p145_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "2x＋5＝17。先算 17－5，再看 x。17－5 是多少？计算：17－5＝？",
+    "answer": "12",
+    "solution": "17－5＝12，2x＝12，x＝6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "解简易方程",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p145_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "36÷4 的得数是哪一个？\nA. 8\nB. 12\nC. 9\nD. 32",
+    "answer": "C. 9",
+    "solution": "4x＝36，x＝9。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "解简易方程",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p145_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "买 4 个同样的文具盒付了 28 元。每个多少元？计算：28÷4＝？",
+    "answer": "7",
+    "solution": "4x＝28，x＝7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "列方程解决实际问题",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p146_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一条绳子用去 15 米，还剩 9 米。原来多少米？计算：15＋9＝？",
+    "answer": "24",
+    "solution": "x－15＝9，x＝24。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "列方程解决实际问题",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p146_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每小时行 12 千米，行了 x 小时共 36 千米。x 是多少？计算：36÷12＝？",
+    "answer": "3",
+    "solution": "12x＝36，x＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "列方程解决实际问题",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p146_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明原来有 x 张邮票，又买了 18 张，现在一共有 50 张。下面哪个方程列得对？\nA. x－18＝50\nB. x＋18＝50\nC. 18x＝50\nD. x÷18＝50",
+    "answer": "B. x＋18＝50",
+    "solution": "等量关系是：原来的张数＋买的张数＝现在的张数，所以 x＋18＝50，解得 x＝32。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "列方程解决实际问题",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p146_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "底 7 厘米、高 4 厘米的平行四边形，面积是多少平方厘米？",
+    "answer": "28",
+    "solution": "底×高＝7×4＝28。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平行四边形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p147_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "底 9 厘米、高 5 厘米的平行四边形，面积是多少平方厘米？",
+    "answer": "45",
+    "solution": "9×5＝45。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平行四边形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p147_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一块平行四边形草地底 12 米、高 6 米。面积是多少平方米？计算：12×6＝？",
+    "answer": "72",
+    "solution": "12×6＝72。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平行四边形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p147_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "8×3 的得数是哪一个？\nA. 18\nB. 24\nC. 22\nD. 32",
+    "answer": "B. 24",
+    "solution": "底 8、高 3，面积 24。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平行四边形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p147_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "底 8 厘米、高 5 厘米的三角形，面积是多少平方厘米？",
+    "answer": "20",
+    "solution": "8×5÷2＝20。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "三角形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p148_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "底 6 厘米、高 4 厘米的三角形，面积是多少平方厘米？",
+    "answer": "12",
+    "solution": "6×4÷2＝12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "三角形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p148_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一块三角形布料底 10 厘米、高 6 厘米。面积是多少平方厘米？计算：10×6÷2＝？",
+    "answer": "30",
+    "solution": "10×6÷2＝30。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "三角形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p148_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "12×4÷2 的得数是哪一个？\nA. 24\nB. 16\nC. 20\nD. 48",
+    "answer": "A. 24",
+    "solution": "12×4÷2＝24。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "三角形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p148_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "上底 2 厘米、下底 6 厘米、高 4 厘米的梯形，面积是多少平方厘米？",
+    "answer": "16",
+    "solution": "（2＋6）×4÷2＝16。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "梯形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p149_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "上底 3 厘米、下底 7 厘米、高 4 厘米的梯形，面积是多少平方厘米？",
+    "answer": "20",
+    "solution": "（3＋7）×4÷2＝20。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "梯形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p149_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一块梯形田上底 4 米、下底 8 米、高 5 米。面积是多少平方米？计算：（4＋8）×5÷2＝？",
+    "answer": "30",
+    "solution": "（4＋8）×5÷2＝30。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "梯形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p149_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "（5＋9）×2÷2 的得数是哪一个？\nA. 10\nB. 12\nC. 28\nD. 14",
+    "answer": "D. 14",
+    "solution": "（5＋9）×2÷2＝14。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "梯形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p149_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个组合图形可以分成两个长方形，面积分别是 12 平方厘米和 8 平方厘米。这个组合图形的面积是多少平方厘米？",
+    "answer": "20",
+    "solution": "把分成的两块面积加起来：12＋8＝20（平方厘米）。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "组合图形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p150_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：30－6＝？",
+    "answer": "24",
+    "solution": "大长方形 30，剪去 6，剩下 24。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "组合图形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p150_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个长方形面积 24 平方厘米，旁边拼上一个面积 10 平方厘米的三角形。一共多少平方厘米？计算：24＋10＝？",
+    "answer": "34",
+    "solution": "24＋10＝34。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "组合图形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p150_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在一张面积是 40 平方厘米的长方形纸上剪掉一个面积是 15 平方厘米的小长方形，剩下的组合图形面积是多少平方厘米？\nA. 20\nB. 35\nC. 25\nD. 55",
+    "answer": "C. 25",
+    "solution": "组合图形可以用大图形面积减去剪掉部分的面积：40－15＝25（平方厘米）。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "组合图形的面积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p150_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "植树问题要先分清什么？\nA. 两端都种、还是只种一端\nB. 树叶有几片\nC. 树干有多粗",
+    "answer": "A. 两端都种、还是只种一端",
+    "solution": "两端都种，棵数＝间隔数＋1。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "植树问题",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p151_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：5＋1＝？",
+    "answer": "6",
+    "solution": "5 个间隔、两端都种，要种 6 棵。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "植树问题",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p151_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一条路长 20 米，每隔 4 米种一棵，两端都种。间隔数是多少？计算：20÷4＝？",
+    "answer": "5",
+    "solution": "20÷4＝5，两端都种则是 6 棵。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "植树问题",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p151_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "8＋1 的得数是哪一个？\nA. 7\nB. 8\nC. 10\nD. 9",
+    "answer": "D. 9",
+    "solution": "8 个间隔、两端都种，是 9 棵。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "植树问题",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p151_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从正面、侧面、上面看简单物体，会怎样？\nA. 看到的形状可能不一样\nB. 三个方向一定相同\nC. 只能看到上面",
+    "answer": "A. 看到的形状可能不一样",
+    "solution": "三个方向的视图要合在一起才能确定物体。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "根据三个方向辨认物体",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p152_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：3×2＝？",
+    "answer": "6",
+    "solution": "正面有 3 列、每列 2 个，按 3×2 数是 6 个。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "根据三个方向辨认物体",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p152_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "上面看到 4 个方块，正面看到的层数是 2。如果每列都是 2 个高，一共多少个？计算：4×2＝？",
+    "answer": "8",
+    "solution": "4×2＝8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "根据三个方向辨认物体",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p152_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用 4 个同样的小正方体摆一个立体图形，从上面看是 4 个正方形排成一横行，从正面看也是 4 个正方形排成一横行。这个立体图形是怎样摆的？\nA. 4 个上下叠成一摞\nB. 分上下两层，每层 2 个\nC. 2 个一排，摆成两排\nD. 4 个排成一横行，只有一层",
+    "answer": "D. 4 个排成一横行，只有一层",
+    "solution": "从上面和正面看都是横着 4 个正方形，说明 4 个小正方体左右排成一行，只有一层。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "根据三个方向辨认物体",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p152_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "12 的所有因数一共有多少个？",
+    "answer": "6",
+    "solution": "12 的因数有 1、2、3、4、6、12，一共 6 个。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "因数和倍数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p153_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在 6 的倍数中，大于 20 又小于 30 的数是多少？",
+    "answer": "24",
+    "solution": "6 的倍数有 6、12、18、24、30……，其中大于 20 又小于 30 的只有 24。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "因数和倍数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p153_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "18 的一个因数是 6。18÷6 是多少？计算：18÷6＝？",
+    "answer": "3",
+    "solution": "18÷6＝3，3 也是 18 的因数。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "因数和倍数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p153_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "7×5 的得数是哪一个？\nA. 35\nB. 30\nC. 40\nD. 42",
+    "answer": "A. 35",
+    "solution": "7×5＝35，35 是 7 的倍数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "因数和倍数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p153_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "偶数的个位是哪些数字？\nA. 0、2、4、6 或 8\nB. 1、3、5、7 或 9\nC. 只能是 0",
+    "answer": "A. 0、2、4、6 或 8",
+    "solution": "个位是这些数字的数是 2 的倍数，也就是偶数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "2和5的倍数的特征",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p154_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个数的个位是 0 或 5，这个数怎样？\nA. 是 5 的倍数\nB. 一定是奇数\nC. 不能被 5 整除",
+    "answer": "A. 是 5 的倍数",
+    "solution": "个位是 0 或 5，才能被 5 整除。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "2和5的倍数的特征",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p154_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "40 的个位是几？",
+    "answer": "0",
+    "solution": "40 的个位是 0，它既是 2 的倍数，也是 5 的倍数。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "2和5的倍数的特征",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p154_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面哪个数既是 2 的倍数，又是 5 的倍数？\nA. 25\nB. 12\nC. 30\nD. 45",
+    "answer": "C. 30",
+    "solution": "个位是 0 的数既是 2 的倍数又是 5 的倍数。25 和 45 个位是 5，只是 5 的倍数；12 个位是 2，只是 2 的倍数；30 个位是 0，两者都是。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "2和5的倍数的特征",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p154_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：1＋2＋3＝？",
+    "answer": "6",
+    "solution": "123 的各位相加是 6，6 是 3 的倍数，所以 123 是 3 的倍数。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "3的倍数的特征",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p155_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：4＋5＝？",
+    "answer": "9",
+    "solution": "45 的各位相加是 9，能被 3 整除。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "3的倍数的特征",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p155_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "判断 27 是不是 3 的倍数，先算 2＋7。2＋7 是多少？计算：2＋7＝？",
+    "answer": "9",
+    "solution": "2＋7＝9，9 能被 3 整除，所以 27 是。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "3的倍数的特征",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p155_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面哪个数是 3 的倍数？\nA. 71\nB. 81\nC. 83\nD. 92",
+    "answer": "B. 81",
+    "solution": "81 各位上的数字相加 8＋1＝9，9 是 3 的倍数，所以 81 是 3 的倍数；其余各数字和分别是 8、11、11，都不是 3 的倍数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "3的倍数的特征",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p155_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "偶数的个位可以是哪些数字？\nA. 0、2、4、6 或 8\nB. 只能是 1 或 3\nC. 任何数字都可以",
+    "answer": "A. 0、2、4、6 或 8",
+    "solution": "个位是奇数的数不是偶数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "奇数和偶数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p156_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "28 的个位是几？",
+    "answer": "8",
+    "solution": "个位是 8，28 是偶数。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "奇数和偶数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p156_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：13＋1＝？",
+    "answer": "14",
+    "solution": "13 是奇数，下一个偶数是 14。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "奇数和偶数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p156_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面哪个数是奇数？\nA. 14\nB. 27\nC. 40\nD. 66",
+    "answer": "B. 27",
+    "solution": "不能被 2 整除的数是奇数。27 的个位是 7，不是 2 的倍数，所以是奇数；14、40、66 的个位是 4、0、6，都是偶数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "奇数和偶数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p156_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "质数的因数有哪些？\nA. 只有 1 和它本身\nB. 只有 1\nC. 至少有 3 个因数",
+    "answer": "A. 只有 1 和它本身",
+    "solution": "2、3、5、7 都是质数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "质数和合数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p157_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1 是质数还是合数？\nA. 1 既不是质数也不是合数\nB. 1 是最小的质数\nC. 1 是合数",
+    "answer": "A. 1 既不是质数也不是合数",
+    "solution": "1 只有一个因数，所以两边都不是。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "质数和合数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p157_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：2×2＝？",
+    "answer": "4",
+    "solution": "4＝2×2，除了 1 和 4 还有因数 2，所以 4 是合数。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "质数和合数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p157_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "3×3 的得数是哪一个？\nA. 6\nB. 9\nC. 8\nD. 12",
+    "answer": "B. 9",
+    "solution": "9＝3×3，9 是合数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "质数和合数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p157_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：12÷6＝？",
+    "answer": "2",
+    "solution": "6 是 12 和 18 的公因数，12÷6＝2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "最大公因数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p158_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：8÷4＝？",
+    "answer": "2",
+    "solution": "8 和 12 的最大公因数是 4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "最大公因数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p158_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "18 和 24 的最大公因数是 6。18÷6 是多少？计算：18÷6＝？",
+    "answer": "3",
+    "solution": "18÷6＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "最大公因数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p158_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "12 和 18 的最大公因数是几？\nA. 3\nB. 6\nC. 9\nD. 36",
+    "answer": "B. 6",
+    "solution": "12 的因数有 1、2、3、4、6、12，18 的因数有 1、2、3、6、9、18，公因数有 1、2、3、6，最大的是 6。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "最大公因数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p158_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "4 和 6 的最小公倍数是多少？",
+    "answer": "12",
+    "solution": "4 的倍数有 4、8、12……，6 的倍数有 6、12……，公有的最小的是 12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "最小公倍数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p159_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：6×5＝？",
+    "answer": "30",
+    "solution": "6 和 5 互质，最小公倍数是 30。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "最小公倍数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p159_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "2 和 8 的最小公倍数就是 8。8÷2 是多少？计算：8÷2＝？",
+    "answer": "4",
+    "solution": "8÷2＝4，8 是 2 的倍数。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "最小公倍数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p159_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "6×4÷2 的得数是哪一个？\nA. 12\nB. 8\nC. 10\nD. 24",
+    "answer": "A. 12",
+    "solution": "6 和 4 的最小公倍数是 12。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "最小公倍数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p159_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长方体有几个面？\nA. 6个\nB. 4个\nC. 8个",
+    "answer": "A. 6个",
+    "solution": "长方体有 6 个面、12 条棱、8 个顶点。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长方体和正方体的认识",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p160_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "正方体的每条棱怎样？\nA. 一样长\nB. 只有 4 条一样长\nC. 长短都不一样",
+    "answer": "A. 一样长",
+    "solution": "正方体 12 条棱长度都相等。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长方体和正方体的认识",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p160_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个长方体有 6 个面，相对的两个面完全相同。这个长方体中，形状大小完全相同的面有几对？",
+    "answer": "3",
+    "solution": "长方体上下、前后、左右各有一对相对的面，6÷2＝3 对。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长方体和正方体的认识",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p160_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个正方体一共有几条棱？\nA. 6\nB. 8\nC. 12\nD. 4",
+    "answer": "C. 12",
+    "solution": "正方体有上、下两个面各 4 条棱，加上连接上下的 4 条棱，一共 12 条棱。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长方体和正方体的认识",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p160_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：（5×4＋5×3＋4×3）×2＝？",
+    "answer": "94",
+    "solution": "三个不同的面分别是 20、15、12，和是 47，再乘 2 得 94。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长方体的表面积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p161_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：3×3×6＝？",
+    "answer": "54",
+    "solution": "正方体一个面 3×3＝9，六个面是 54。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长方体的表面积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p161_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个正方体棱长 2 厘米。一个面的面积是多少平方厘米？计算：2×2＝？",
+    "answer": "4",
+    "solution": "2×2＝4，六个面一共 24。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长方体的表面积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p161_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "4×4×6 的得数是哪一个？\nA. 96\nB. 16\nC. 48\nD. 64",
+    "answer": "A. 96",
+    "solution": "棱长 4 的正方体表面积是 96。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长方体的表面积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p161_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "体积要用什么来表示？\nA. 体积单位\nB. 长度单位\nC. 只写一个数、不用单位",
+    "answer": "A. 体积单位",
+    "solution": "立方厘米、立方分米、立方米都是体积单位。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "体积单位",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p162_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1 立方分米＝1000 立方厘米。2 立方分米等于多少立方厘米？",
+    "answer": "2000",
+    "solution": "2 立方分米是 2 个 1 立方分米，2×1000＝2000（立方厘米）。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "体积单位",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p162_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1 立方米等于 1000 立方分米。3 立方米是多少立方分米？计算：3×1000＝？",
+    "answer": "3000",
+    "solution": "3×1000＝3000。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "体积单位",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p162_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面哪个物体的体积适合用「立方米」作单位？\nA. 一块橡皮\nB. 一个文具盒\nC. 一间教室\nD. 一个火柴盒",
+    "answer": "C. 一间教室",
+    "solution": "立方米是较大的体积单位，教室的空间大，适合用立方米；橡皮、文具盒、火柴盒较小，用立方厘米或立方分米。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "体积单位",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p162_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长 5 厘米、宽 4 厘米、高 3 厘米的长方体，体积是多少立方厘米？",
+    "answer": "60",
+    "solution": "5×4×3＝60。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长方体和正方体的体积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p163_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "棱长 3 厘米的正方体，体积是多少立方厘米？",
+    "answer": "27",
+    "solution": "3×3×3＝27。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长方体和正方体的体积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p163_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个长方体容器长 8 厘米、宽 5 厘米、高 2 厘米。容积是多少立方厘米？计算：8×5×2＝？",
+    "answer": "80",
+    "solution": "8×5×2＝80。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长方体和正方体的体积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p163_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "4×4×4 的得数是哪一个？\nA. 16\nB. 64\nC. 32\nD. 48",
+    "answer": "B. 64",
+    "solution": "棱长 4 的正方体体积是 64。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长方体和正方体的体积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p163_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：1×1000＝？",
+    "answer": "1000",
+    "solution": "1 升＝1000 毫升。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "容积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p164_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：3×1000＝？",
+    "answer": "3000",
+    "solution": "3 升＝3000 毫升。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "容积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p164_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "瓶中有 750 毫升水，又倒进 250 毫升。一共多少毫升？计算：750＋250＝？",
+    "answer": "1000",
+    "solution": "750＋250＝1000，也就是 1 升。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "容积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p164_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一瓶饮料的容积是 500 毫升，2 瓶一共是多少升？\nA. 1 升\nB. 2 升\nC. 10 升\nD. 100 升",
+    "answer": "A. 1 升",
+    "solution": "500×2＝1000 毫升，1 升＝1000 毫升，所以是 1 升。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "容积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p164_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把一张纸平均分成若干份，涂色的有 5 份，涂色部分是这张纸的 5/8。这张纸被平均分成了几份？",
+    "answer": "8",
+    "solution": "分母表示把整体平均分成的份数，所以这张纸被平均分成了 8 份。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数的意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p165_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：1÷4＝？",
+    "answer": "1/4",
+    "solution": "把 1 平均分成 4 份，每份是 1/4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数的意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p165_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "8 块糖平均分成 4 份，每份是几块？计算：8÷4＝？",
+    "answer": "2",
+    "solution": "8÷4＝2，每份是这些糖的 1/4，也就是 2 块。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数的意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p165_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "12÷3 的得数是哪一个？\nA. 3\nB. 6\nC. 4\nD. 9",
+    "answer": "C. 4",
+    "solution": "12 的 1/3 是 4。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数的意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p165_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "分子比分母小的分数是什么分数？\nA. 真分数\nB. 假分数\nC. 带分数",
+    "answer": "A. 真分数",
+    "solution": "分子比分母小，这个分数小于 1。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "真分数、假分数和带分数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p166_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：7÷4＝？",
+    "answer": "7/4",
+    "solution": "7÷4＝7/4，分子比分母大，是假分数。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "真分数、假分数和带分数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p166_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "先写商，再写余数。商和余数：9÷4",
+    "answer": "2，1",
+    "solution": "9÷4＝2 余 1，所以 9/4＝2 又 1/4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "真分数、假分数和带分数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p166_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：8÷8＝？",
+    "answer": "1",
+    "solution": "8÷8＝1，假分数可以等于 1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "真分数、假分数和带分数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p166_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：1×3＝？",
+    "answer": "3",
+    "solution": "1/2 的分子分母都乘 3，新的分子是 3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数的基本性质",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p167_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把 1/2 的分子和分母同时乘 3，分数大小不变。得到的新分数，分母是多少？",
+    "answer": "6",
+    "solution": "分母 2 乘 3 得 6，分子 1 乘 3 得 3，所以 1/2＝3/6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数的基本性质",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p167_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "4/8 的分子和分母同时除以 4，分子变成多少？计算：4÷4＝？",
+    "answer": "1",
+    "solution": "4÷4＝1，所以 4/8＝1/2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数的基本性质",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p167_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "6÷3 的得数是哪一个？\nA. 1\nB. 3\nC. 4\nD. 2",
+    "answer": "D. 2",
+    "solution": "6/9 分子分母同除以 3，分子是 2。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数的基本性质",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p167_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：6÷8＝？",
+    "answer": "3/4",
+    "solution": "6 和 8 的最大公因数是 2，6/8＝3/4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "约分",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p168_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：4÷10＝？",
+    "answer": "2/5",
+    "solution": "4/10＝2/5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "约分",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p168_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把 8/12 约分，先算 8 和 12 的最大公因数。12÷4 是多少？计算：12÷4＝？",
+    "answer": "3",
+    "solution": "最大公因数是 4，12÷4＝3，8/12＝2/3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "约分",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p168_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "9÷3 的得数是哪一个？\nA. 2\nB. 6\nC. 3\nD. 12",
+    "answer": "C. 3",
+    "solution": "9/15 同除以 3，分子是 3。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "约分",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p168_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：3/5－1/5＝？",
+    "answer": "2/5",
+    "solution": "分母相同，3/5 比 1/5 大，相差 2/5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数的大小比较",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p169_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "比较 2/3 和 3/4 的大小，较大的那个分数是多少？",
+    "answer": "3/4",
+    "solution": "通分后 2/3＝8/12，3/4＝9/12，9/12 比 8/12 大，所以较大的是 3/4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数的大小比较",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p169_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一条绳子用去 3/8，另一条用去 5/8。谁用得多？先算差。计算：5/8－3/8＝？",
+    "answer": "1/4",
+    "solution": "5/8－3/8＝2/8＝1/4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数的大小比较",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p169_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "4/7－2/7 的得数是哪一个？\nA. 1/7\nB. 2/7\nC. 3/7\nD. 6/7",
+    "answer": "B. 2/7",
+    "solution": "4/7－2/7＝2/7。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数的大小比较",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p169_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：3÷10＝？（用小数作答）",
+    "answer": "0.3",
+    "solution": "3/10＝0.3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数和小数互化",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p170_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：25÷100＝？（用小数作答）",
+    "answer": "0.25",
+    "solution": "25/100＝0.25。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数和小数互化",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p170_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "0.7 是多少个 0.1？计算：0.7÷0.1＝？（用小数作答）",
+    "answer": "7",
+    "solution": "0.7＝7/10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数和小数互化",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p170_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：4÷10＝？（用小数作答）",
+    "answer": "0.4",
+    "solution": "4/10＝0.4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数和小数互化",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p170_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "旋转之后，图形的大小和形状怎样？\nA. 大小和形状都不变\nB. 一定变大\nC. 形状一定改变",
+    "answer": "A. 大小和形状都不变",
+    "solution": "旋转只改变位置和方向。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "旋转",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p171_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "风车绕中心点顺时针旋转 90 度，再顺时针旋转 90 度。风车一共旋转了多少度？",
+    "answer": "180",
+    "solution": "两次都是顺时针旋转，度数相加：90＋90＝180（度）。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "旋转",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p171_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "时针从 12 转到 3，转了 90 度。再从 3 转到 6，又转了多少度？",
+    "answer": "90",
+    "solution": "从 3 到 6 是 3 大格，每大格 30 度，3×30＝90 度。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "旋转",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p171_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "360÷4 的得数是哪一个？\nA. 90\nB. 60\nC. 80\nD. 120",
+    "answer": "A. 90",
+    "solution": "转一圈 360 度的四分之一是 90 度。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "旋转",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p171_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要把 1/2 和 1/3 通分，最小的公分母是多少？",
+    "answer": "6",
+    "solution": "公分母常用两个分母的最小公倍数，2 和 3 的最小公倍数是 6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "通分",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p172_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：4×2＝？",
+    "answer": "8",
+    "solution": "1/4 的分子分母都乘 2，得到 2/8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "通分",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p172_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要把 1/6 和 1/3 通分，公分母可以是 6。1/3 的分母变成 6，要乘几？计算：6÷3＝？",
+    "answer": "2",
+    "solution": "6÷3＝2，1/3＝2/6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "通分",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p172_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "3×4 的得数是哪一个？\nA. 7\nB. 12\nC. 9\nD. 16",
+    "answer": "B. 12",
+    "solution": "3 和 4 的最小公倍数是 12。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "通分",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p172_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：1/2＋1/4＝？",
+    "answer": "3/4",
+    "solution": "1/2＝2/4，2/4＋1/4＝3/4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "异分母分数加减",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p173_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：1/2－1/3＝？",
+    "answer": "1/6",
+    "solution": "1/2＝3/6，1/3＝2/6，相差 1/6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "异分母分数加减",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p173_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一块地，小麦占 1/2，玉米占 1/3。两种一共占这块地的几分之几？计算：1/2＋1/3＝？",
+    "answer": "5/6",
+    "solution": "1/2＋1/3＝3/6＋2/6＝5/6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "异分母分数加减",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p173_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "3/4－1/2 的得数是哪一个？\nA. 1/8\nB. 1/4\nC. 1/2\nD. 5/4",
+    "answer": "B. 1/4",
+    "solution": "3/4－2/4＝1/4。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "异分母分数加减",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p173_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：1/2＋1/4－1/4＝？",
+    "answer": "1/2",
+    "solution": "1/4 先加上再减去，结果仍是 1/2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数加减混合",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p174_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：3/4－1/4＋1/2＝？",
+    "answer": "1",
+    "solution": "3/4－1/4＝1/2，再加 1/2 得 1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数加减混合",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p174_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一杯水先喝去 1/5，又喝去 2/5。一共喝去几分之几？计算：1/5＋2/5＝？",
+    "answer": "3/5",
+    "solution": "1/5＋2/5＝3/5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数加减混合",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p174_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "5/6－1/6－1/6 的得数是哪一个？\nA. 1/6\nB. 2/3\nC. 5/6\nD. 1/2",
+    "answer": "D. 1/2",
+    "solution": "5/6－1/6－1/6＝3/6＝1/2。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分数加减混合",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p174_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "折线统计图适合看什么？\nA. 数量的变化\nB. 各部分占总数的多少\nC. 只能看出谁最高",
+    "answer": "A. 数量的变化",
+    "solution": "折线向上表示增加，向下表示减少。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "折线统计图",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p175_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某地一天的气温折线统计图上，8 时是 12 摄氏度，12 时是 18 摄氏度，这段折线是上升的。从 8 时到 12 时，气温升高了多少摄氏度？",
+    "answer": "6",
+    "solution": "折线上升表示气温升高，升高了 18－12＝6（摄氏度）。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "折线统计图",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p175_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "星期一借出 20 本，星期二借出 15 本。星期二比星期一少几本？计算：20－15＝？",
+    "answer": "5",
+    "solution": "20－15＝5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "折线统计图",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p175_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某商店周一到周三卖出的冰激凌分别是 8 个、6 个、4 个。画成折线统计图，这条折线是怎样变化的？\nA. 逐渐上升\nB. 逐渐下降\nC. 先上升后下降\nD. 保持不变",
+    "answer": "B. 逐渐下降",
+    "solution": "8、6、4 一天比一天少，折线从左到右向下走，是逐渐下降。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "折线统计图",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p175_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "找次品时每次要怎样做？\nA. 把物品分成三份来称\nB. 每次只称一个\nC. 全部放在一起称一次就够",
+    "answer": "A. 把物品分成三份来称",
+    "solution": "天平两边各放一份，剩下的一份先不放。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "找次品",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p176_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：9÷3＝？",
+    "answer": "3",
+    "solution": "9 个零件分成 3 份，每份 3 个。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "找次品",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p176_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "81 个零件，每次分成 3 份。第一次每份多少个？计算：81÷3＝？",
+    "answer": "27",
+    "solution": "81÷3＝27。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "找次品",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p176_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "27÷3 的得数是哪一个？\nA. 6\nB. 8\nC. 12\nD. 9",
+    "answer": "D. 9",
+    "solution": "27÷3＝9。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "找次品",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p176_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个组合体下层有 4 个小正方体，上层有 2 个。一共有几个小正方体？计算：4＋2＝？",
+    "answer": "6",
+    "solution": "两层相加：4＋2＝6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "观察简单组合体",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p237_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "只看从正面看到的形状，能不能一定确定组合体的样子？\nA. 只有正方体时才能\nB. 不一定能\nC. 一定能",
+    "answer": "B. 不一定能",
+    "solution": "后面可能藏着看不到的小正方体，只看一个方向不一定能确定。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "观察简单组合体",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p237_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从正面看是 3 个正方形排成一排，从上面看也是 3 个正方形排成一排。这个组合体至少用了几个小正方体？",
+    "answer": "3",
+    "solution": "一排 3 个就能同时满足两个方向，至少 3 个。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "观察简单组合体",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p237_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从上面看是 2 行、每行 2 个正方形，每个位置都叠了 2 层。一共有几个小正方体？计算：2×2×2＝？",
+    "answer": "8",
+    "solution": "每层 4 个，2 层：2×2×2＝8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "观察简单组合体",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p237_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个图形旋转之后，大小和形状怎样？\nA. 变大了\nB. 形状变了\nC. 大小和形状都不变",
+    "answer": "C. 大小和形状都不变",
+    "solution": "旋转只改变图形的方向和位置。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "图形的运动",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p238_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "钟面上的指针从 12 顺时针旋转到 3，旋转了多少度？计算：360÷4＝？",
+    "answer": "90",
+    "solution": "从 12 到 3 是周角的四分之一：360÷4＝90。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "图形的运动",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p238_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "指针从 12 顺时针旋转到 6，旋转了多少度？计算：360÷2＝？",
+    "answer": "180",
+    "solution": "从 12 到 6 是半圈：360÷2＝180。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "图形的运动",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p238_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "方格纸上一个点在第 3 列，向右平移 4 格后在第几列？计算：3＋4＝？",
+    "answer": "7",
+    "solution": "向右平移列数增加：3＋4＝7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "图形的运动",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p238_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "正三角形每个角是 60°。围绕一个点拼正三角形，几个正好拼满一周？计算：360÷60＝？",
+    "answer": "6",
+    "solution": "一周 360°：360÷60＝6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "有趣的密铺",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p239_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "正方形每个角是 90°。一个点周围要拼几个正方形？计算：360÷90＝？",
+    "answer": "4",
+    "solution": "360÷90＝4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "有趣的密铺",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p239_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "正六边形每个角是 120°。一个点周围要拼几个正六边形？计算：360÷120＝？",
+    "answer": "3",
+    "solution": "360÷120＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "有趣的密铺",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p239_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "正五边形每个角是 108°。只用正五边形能不能密铺？\nA. 能\nB. 只能铺一行\nC. 不能",
+    "answer": "C. 不能",
+    "solution": "360÷108 不是整数，拼在一点处会留空隙或重叠，所以不能。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "有趣的密铺",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p239_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "平行四边形的高是什么？\nA. 任意一条斜边\nB. 连接对角的线段\nC. 从一边上一点到对边的垂直线段",
+    "answer": "C. 从一边上一点到对边的垂直线段",
+    "solution": "从一条边上一点向对边作垂线，这点和垂足之间的线段是高。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平行四边形的底和高",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p240_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "平行四边形的一条底和它对应的高是什么关系？\nA. 不确定\nB. 互相垂直\nC. 互相平行",
+    "answer": "B. 互相垂直",
+    "solution": "高垂直于底。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平行四边形的底和高",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p240_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长方形是特殊的平行四边形。一个长方形长 8 厘米、宽 5 厘米，以长为底，对应的高是多少厘米？",
+    "answer": "5",
+    "solution": "长方形的宽就垂直于长，高是 5 厘米。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平行四边形的底和高",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p240_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在平行四边形同一条底上量出一条高是 6 厘米，同一条底上的另一条高是多少厘米？",
+    "answer": "6",
+    "solution": "两条平行线之间的距离处处相等，所以还是 6 厘米。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平行四边形的底和高",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p240_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一组学生植树，每人栽6棵还剩4棵；如果其中3人各栽5棵，其余每人各栽7棵，正好栽完。这一组学生有多少人？",
+    "answer": "10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-400",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个底面是正方形的长方体纸盒，它的侧面展开图是一个边长是21厘米的正方形。这个纸盒的表面积是多少平方厘米",
+    "answer": "2646",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-401",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "故宫的面积是72万平方米，比天安门广场面积的2倍少16万平方米．天安门广场的面积多少万平方米？",
+    "answer": "44",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-402",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一根竹竿插入水中，入水部分长5/14米，入泥部分1/14米，露出水面3/14米。这根竹竿长多少米？",
+    "answer": "9/14",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-403",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "循环使用一本教科书，一年可以节约纸张2/5千克，如果一年循环使用3本教科书，可以节约纸张多少千克？",
+    "answer": "6/5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-404",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "在20米花坛的一侧，每隔4米栽一棵树苗（只栽一端）。一共需要多少棵树苗？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-405",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "某校长方形操场面积2800平方米，因扩建，要把宽从40米增加到50米，长不变．扩建后的操场面积比原来增加多少平方米？",
+    "answer": "700",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-406",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个长方体的底面是周长16厘米的正方形，高3厘米，这个长方体的体积是多少立方厘米？",
+    "answer": "48",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-407",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "红领巾公园内一条林荫大道全长800米,在它的一侧从头到尾等距离地放着41个垃圾桶,每两个垃圾桶之间相距多少米？",
+    "answer": "20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-408",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "五年级同学到森林公园去春游，准备乘16人的面包车或乘24人的中巴客车，不论是专乘16人的面包车，还是专乘24人的中巴车，都正好坐满。五年级至少有多少同学去春游？",
+    "answer": "48",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-409",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "把5克盐放入355克水中，盐的质量占盐水的几分之几？",
+    "answer": "1/72",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-410",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一根长方体木料，体积是0.078立方分米，已知木料的长是2厘米，宽是3厘米，这根木料高是多少厘米？",
+    "answer": "13",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-411",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有11个外形完全相同的羽毛球，其中10个是正品，一个是次品，且次品稍轻一些。如果用天平称，至少称几次就一定能把这个次品找出来？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-412",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "把一根绳子对折，又对折，再对折，其中的3小段占这根绳子全长的几分之几？",
+    "answer": "3/8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-413",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个底面是正方形的长方体纸盒，将它的侧面展开正好是一个边长是6厘米的正方形，做这个纸盒至少需要纸板多少平方米？",
+    "answer": "216",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-414",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "在学校组织的“有奖读书活动”中，笑笑获得了一等奖，奖品是一本科普书，共80页，她每天看10页，那么她每天看这本书的几分之几？",
+    "answer": "1/8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-415",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "航模小组女生有4人，男生有5人，男生占小组人数的几分之几？",
+    "answer": "5/9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-416",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个圆形水池周围每隔2米栽一棵杨树,共栽了40棵,水池的周长是多少米?",
+    "answer": "80",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-417",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一座楼房每上1层要走16级台阶，到小英家要走64级台阶，小英家住在几楼？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-418",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个箱子里有20本书，其中19本质量相同，另有1本质量不足，轻一些。用天平至少称几次能保证找出这本书来？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-419",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "鸡兔同笼，鸡和兔的只数相同，两种动物的腿加起来共有42条，鸡和兔的数量是多少？",
+    "answer": "7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-420",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "爷爷的果园种着桃树和梨树，明明数了数，发觉一共有36棵，他还发现桃树的棵数是梨树的2倍．爷爷的果园里种着梨树多少棵？",
+    "answer": "12",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-421",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小熊、小羊和小鹿共同修建了一个小水池。小羊每2天到池边喝一次水，小鹿每3天到池边喝一次水，小熊每4天到池边喝一次水。7月1日的这一天，它们三个又同时来到池边喝水，并约定月底的某一天早上8:00准时到池边喝水。你知道这一天是7月几日吗？",
+    "answer": "24",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-422",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "在一条公路上两侧每隔16米架设一根电线杆,共用电线杆52根,这条公路全长多少米？",
+    "answer": "400",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-423",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "工程队修一条公路，原计划每天修路1.65千米，20天可以完成。实际只用了15天，实际平均每天修路多少千米？",
+    "answer": "2.2",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-424",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "城东小学的同学们做早操，21个同学排成一排，每相邻的两个同学之间的距离相等，第一个人到最后一个人的距离是40米，相邻两个人间距多少米？",
+    "answer": "2",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-425",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "两座楼房之间相距56米,每隔4米栽雪松一棵,一行能栽多少棵?",
+    "answer": "13",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-426",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "某年级同学春游时租船游湖，若每只船乘10人，还多2个座位；若每只船多坐2人，可少租一条船，这时每人可节省5角钱。租一只船需要多少钱？",
+    "answer": "24",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-427",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有一根木料，打算把每根锯成3段，每锯开一处，需要5分钟，全部锯完需要多少分钟?",
+    "answer": "10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-428",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "3年前晶晶和爸爸的年龄和是45，爸爸比晶晶大35岁，今年爸爸多大？",
+    "answer": "43",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-429",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "20以内最大的质数与最小的质数的2倍的和是多少？",
+    "answer": "23",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-430",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个表面积为36平方分米的正方体，沿一个面切成4个长方体后，表面积增加了多少平方分米？",
+    "answer": "36",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-431",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "学校举行书画竞赛，四、五年级共有75人获奖，其中五年级获奖人数是四年级的1.5倍，五年级各有多少同学获奖？",
+    "answer": "45",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-432",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "五（3）班有男生25人，女生20人，女生人数是男生人数的几分之几？(用最简分数表示)",
+    "answer": "4/5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-433",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个长方体，底面是个正方形，它的高是7厘米，所有的棱长之和是100厘米，这个长方体的体积是多少立方分米？",
+    "answer": "0.567",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-434",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "长方形的砖长48厘米，宽32厘米，用这样的砖铺成一块正方形的地面，至少需要砖多少块？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-435",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "战斗机的飞行速度是4000千米/时，比超音速飞机速度的3倍还多700千米，超音速飞机每小时飞行多少千米？",
+    "answer": "1100",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-436",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "跳远比赛使用的沙坑长7米，宽3米，坑内沙子的厚度为0.8米，沙坑里有沙子多少立方米？",
+    "answer": "16.8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-437",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一条公路21天修完，平均每天完成这条公路的几分之几？",
+    "answer": "1/21",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-438",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "食堂运来一些煤，第一天烧了5/8吨，第二天烧了1/4吨，两天一共烧了多少吨？",
+    "answer": "7/8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-439",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "光每秒能传播30万千米，这个距离大约比地球赤道长度的7倍还多2万千米。地球赤道大约长多少万千米？",
+    "answer": "4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-440",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个长方体玻璃容器内存水5.5升，放入一个苹果后，水位上升至6升，这个苹果的体积是多少立方分米？",
+    "answer": "0.5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-441",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "同学们去买作文书，如果每人出8元，就多出了8元；每人出7元，就多出了4元．那么有多少个同学去买书？",
+    "answer": "4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-442",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "王师傅加工一批零件，每天加工20个，可以提前1天完成。工作4天后，由于改进了技术，每天可多加工5个，结果提前3天完成。问：这批零件有多少个？",
+    "answer": "280",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-443",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "张老师从网上下载了一些图片，一共占硬盘空间12MB，现在他准备用软盘把这些图片拷贝到学校的电脑里，每张软盘的空间是1.44MB，那么这些图片至少需要多少张这样的软盘？",
+    "answer": "9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-444",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个长方形的周长是4.8米，长是宽的3倍．这个长方形的宽是多少米？",
+    "answer": "0.6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-445",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "用100千克油菜籽可以炸出41千克菜籽油。1千克油菜籽可以炸出多少千克菜籽油？",
+    "answer": "41/100",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-446",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "三个工程队合修一条公路，甲队修了全长的2/9，乙队修了全长的4/27，剩下的由丙队修。丙队修了全长的几分之几？",
+    "answer": "17/27",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-447",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一根3米长的方木，截成3断后，表面积增加了3.6平方米，这根方木的体积是多少立方米？",
+    "answer": "0.027",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-448",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "在一条长50米的跑道两旁,从头到尾每隔5米插一面彩旗,一共插多少面彩旗?",
+    "answer": "22",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-449",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个长方体水缸，长、宽、高分别是50厘米、24厘米、40厘米，若里面放进38.4升的水，水面距上口多少厘米？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-450",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "美心蛋糕房特制一种生日蛋糕，每个需要0.32千克面粉，李师傅领了4千克面粉做蛋糕。他最多可以做几个生日蛋糕？",
+    "answer": "12",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-451",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "某厂九月份计划生产6000部智能手机，实际上半月完成3600部，上半月完成全月计划的几分之几？",
+    "answer": "3/5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-452",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有一块长方形的菜地，长10.5米，宽8.2米，它的周长是多少米？",
+    "answer": "37.4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-453",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "张华离家到县城去上学，他以每分50米的速度走了2分后，发现按这个速度走下去就要迟到8分。于是他加快了速度，每分多走10米，结果到校时，离上课还有5分。张华家到学校的路程是多少？",
+    "answer": "4000",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-454",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "放假时，老师让每位学生写毛笔字25页，现在丽丽已经写完7页，没有写完的占总数的几分之几？",
+    "answer": "18/25",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-455",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "每千克花生仁批发价7.62元，零售价8.9元，刘大伯批发价买进这种花生仁240千克，零售价卖出后，一共可得毛利多少元？",
+    "answer": "307.2",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-456",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个长方形的长是9厘米，等于宽的1.5倍，这个长方形的面积是多少平方厘米？",
+    "answer": "54",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-457",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "仓库有18.6吨水泥，现在用卡车运到工地，每辆卡车运2.5吨，需要多少辆卡车？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-458",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小明的体重是35千克，他的体重比爸爸轻8/15，小明爸爸的体重是多少千克？",
+    "answer": "75",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-459",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个长方体的底面是正方形，如果高增加3厘米，就成为一个正方体，这时表面积比原来增加了48平方厘米，原来长方体的体积是多少立方厘米？",
+    "answer": "16",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-460",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个长方体的体积是56立方厘米，高是4厘米，它的底面积是多少平方厘米？",
+    "answer": "14",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-461",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "学校音乐小组有64人，现需通知外出演出，如果用打电话方式，每人通话1分钟，通知到每人需要多少分钟？",
+    "answer": "7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-462",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "在一个长方体上截下一个体积是72立方厘米的小长方体后，剩下的部分是一个棱长为6厘米的正方体，原来这个长方体的表面积是多少平方厘米？",
+    "answer": "264",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-463",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "李大爷以相同的速度在乡间布满电话线杆的小路上散步。他从第1根电话线杆走到第12根电话线杆用了22分钟。他如果走36分钟，应走到第几根电话线杆？",
+    "answer": "19",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-464",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个分数约分后得到的最简分数是5/7，已知原来的分数分子和分母的和是72，原来的分数是多少？",
+    "answer": "30/42",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-465",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "红星小学陈列馆正进行二期工程改造，现工地需要52吨沙子，用一辆载重量4.5吨的汽车运8次，余下的改用一辆载重3.5吨的汽车运，还要运多少次？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-466",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": ".李明家正在给新房子装修，已知卫生间的面积是6m2，如果用边长是0.3m的正方形瓷砖铺地，每块瓷砖的价格是9.83元，那么大约需要多少钱？（得数保留整数）",
+    "answer": "659",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-467",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有一个仓库，从里面量得长是25米，宽是10米，存货高度为3米。这个仓库最多能存放货物多少立方米？",
+    "answer": "750",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-468",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "等腰三角形一边长为4，另一边长为2，则其周长为多少？",
+    "answer": "10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-469",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一根长10米的彩带，每1.5米可以包扎一个礼盒，这根彩带可以包扎几个礼盒？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-470",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "动物园里有9只骆驼，6只老虎，老虎的数量是骆驼的几分之几？",
+    "answer": "6/9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-471",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "挂钟6点钟敲6下，10秒敲完，那么9点钟敲9下，几秒敲完?",
+    "answer": "16",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-472",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一块长是48厘米，宽和高都是6厘米的长方体铁块，把它铸造成棱长是3厘米的正方体铁块，可以铸造多少块？（损耗不计）",
+    "answer": "64",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-473",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小明每天早晨以每分钟0.15千米的速度练习跑步，每天坚持练12分钟。照这样计算，2009年共跑了多少千米？（2009年365天）",
+    "answer": "657",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-474",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "爷爷今年75岁，比小明岁数的5倍还多5岁．小明今年几岁？",
+    "answer": "14",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-475",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个旅游团有10人出去旅行，由于临时改变计划，要紧急通知，如果用打电话的方式，每1分钟通知1人，最少要在几分钟内通知到所有人？",
+    "answer": "4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-476",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一箱水果糖有31袋，其中30袋质量相同，另外有一袋质量轻些，用天平至少称几次才能保证找出较轻的一袋？",
+    "answer": "4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-477",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "每只小船租金30元，100元钱最多租几小时？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-478",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "甲数是3/20，乙数是3/10，甲数与乙数的和是多少？",
+    "answer": "9/20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-479",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "合唱队有若干人，若12人站一排，余5人；若15人站一排还是余5人，这个合唱队至少有多少人？",
+    "answer": "65",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-480",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有一块平行四边形钢板，底是8.4分米，高是3.5分米．如果每平方分米钢板重0.75千克，这块钢板重多少千克？",
+    "answer": "22.05",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-481",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个分数是18/30，把它的分子扩大2倍，要使分数的大小不变，分母应该加上多少？",
+    "answer": "30",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-482",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "凡凡和3位小朋友一共吃了1千克香蕉，平均每位小朋友吃了多少千克？",
+    "answer": "250",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-483",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "园林工人在一段公路的一边每隔4米栽一棵树，一共栽了17棵．现在要改成每隔6米栽一棵树．那么，不用移栽的树有多少棵？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-484",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有一条长800米的公路,在公路的一侧从头到尾每隔20米栽一棵杨树,需多少棵杨树苗?",
+    "answer": "41",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-485",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "从一楼跑到五楼有96个台阶，小芳从一楼跑到20楼供需迈多少个台阶？",
+    "answer": "456",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-486",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有一个梯形广告牌，它的上底长4米，下底长6.5米，高为2米，在它的正面涂上广告漆，每平方米需要10元钱，涂满整个广告牌需要花费多少钱？",
+    "answer": "105",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-487",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一本书有83000个字，如果每页排25行，每行排24个字，从第1页起，排完这些字最少需要多少张纸？",
+    "answer": "70",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-488",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "赵叔叔要完成100个零件的加工任务，已经完成了74个，剩下的零件占这批零件的几分之几？",
+    "answer": "13/50",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-489",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个两位数，它既有因数2，又有因数3，还有因数5，这个两位数最小是多少？",
+    "answer": "30",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-490",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "公园大门前的公路长80米，要在公路两边栽上白杨树，每两棵树相距8米（两端也要种）。园林工人共需要准备多少棵树？",
+    "answer": "22",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-491",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "码头上有两堆货物，第一堆有29吨，第二堆有32吨，第一堆货物的重量是第二堆的几分之几？",
+    "answer": "29/32",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-492",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有一堆同样规格的小螺丝钉，不容易数出它们的个数，称得它们的质量是1.53千克，数出100个，这100个小螺丝钉的质量是0.03千克．这堆小螺丝钉一共有多少个？",
+    "answer": "5100",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-493",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有一批正方形的砖，排成一个大正方形，余下32块；如果将它们改排成每边比原来多一块砖的正方形，就要差49块。这批砖原有多少块？",
+    "answer": "1632",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-494",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "买一块平行四边形的玻璃，底为80厘米，高为50厘米，每平方米的玻璃售价为23元，买这块玻璃共需要多少元？",
+    "answer": "9.2",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-495",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个正方体木箱的棱长是1.5米，做这个木箱需要木板多少平方米？",
+    "answer": "13.5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-496",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "同学们去植树，3人一组或5人一组都正好分完。已知参加植树的同学在40～50人之间，则这些同学最多有多少人？",
+    "answer": "45",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-497",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "合唱队有7人，暑假老师要通知合唱队的队员去演出，若每分钟通知一个人，至少需要多少分钟才能通知到每个队员？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-498",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有7个钢珠，其中有1个较轻的是次品，用天平称至少称几次，才能保证一定能找出来？",
+    "answer": "2",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 5,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "5年级应用题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-499",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  }
+]

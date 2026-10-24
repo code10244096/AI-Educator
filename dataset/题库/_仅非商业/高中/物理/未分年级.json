@@ -1,0 +1,4914 @@
+[
+  {
+    "question_text": "某⼈先向东⾛2m，接着向⻄⾛6m，最后向南⾛3m，则他在这段运动中的位移的⼤⼩和路程分别是\nA. 5m，11m\nB. 11m，11m\nC. 5m，5m\nD. 11m，5m",
+    "answer": "A. 5m，11m",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#dev-high_school_physics-0",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "两只灯泡分别接在两个电路中，下列判断正确的是（）\nA. 在电路中实际功率⼤的灯较亮\nB. 接在电压⾼的电路两端的那盏灯较亮\nC. 额定电压⾼的灯泡较亮\nD. 额定功率⼤的灯泡较亮",
+    "answer": "A. 在电路中实际功率⼤的灯较亮",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#dev-high_school_physics-1",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "根据打点计时器的纸带，我们可以从纸带直接得到的物理量是\nA. 运动物体的位移\nB. 运动物体的平均速度\nC. 运动物体的瞬时速度\nD. 运动物体的加速度",
+    "answer": "A. 运动物体的位移",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#dev-high_school_physics-2",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "油罐⻋后⾯都有⼀条拖地的铁链，其作⽤是\nA. 做为油罐⻋的标志\nB. 向外界散热\nC. 发出响声，提醒其他⻋辆和⾏⼈的注意\nD. 把电荷导⼊⼤地，避免由静电造成危害",
+    "answer": "D. 把电荷导⼊⼤地，避免由静电造成危害",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#dev-high_school_physics-3",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "汽⻋以20m/s的速度做匀速直线运动，刹⻋的加速度⼤⼩为5m/s2，那么刹⻋后4s与刹⻋后6s汽⻋通过 的位移之⽐为\nA. 1:1\nB. 4:9\nC. 4:3\nD. 2:3",
+    "answer": "A. 1:1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#dev-high_school_physics-4",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "现已建成的核电站的能量来⾃于\nA. 重核裂变放出的能量\nB. ⼈⼯放射性同位素放出的的能量\nC. 天然放射性元素衰变放出的能量\nD. 化学反应放出的能量",
+    "answer": "A. 重核裂变放出的能量",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-0",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列现象中，属于⽤热传递的⽅式改变物体内能的是\nA. 两⼿互相摩擦时⼿发热\nB. 在炉⼦上烧开⽔\nC. 菜⼑在砂轮上磨得发烫\nD. ⽤打⽓筒打⽓时筒壁发热",
+    "answer": "B. 在炉⼦上烧开⽔",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-1",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼀名观察者站在站台边，⽕⻋进站从他身边经过，⽕⻋共10节⻋厢，当第10节⻋厢完全经过他身边时，⽕⻋刚好停下。设⽕⻋做匀减速直线运动且每节⻋厢⻓度相同，则第8节和第9节⻋厢从他身边经过所⽤ 时间的⽐值为\nA. sqrt(3):sqrt(2)\nB. (sqrt(2)-1):(sqrt(3)-sqrt(2))\nC. (sqrt(3)-sqrt(2)):(sqrt(2)-1)\nD. sqrt(2):sqrt(3)",
+    "answer": "C. (sqrt(3)-sqrt(2)):(sqrt(2)-1)",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-2",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于电场，下列说法中正确的是\nA. 电场是为了便于研究电荷的运动⽽引⼊的理想模\nB. 电荷间的相互作⽤不是通过电场作媒介产⽣的\nC. 电荷周围分布的电场线就是电场\nD. 电场是电荷周围空间实际存在的物质",
+    "answer": "D. 电场是电荷周围空间实际存在的物质",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-3",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于紫外线的⼏种说法中，正确的是\nA. 紫外线可使钞票上的荧光物质发光\nB. 紫外线的频率⽐红外线的频率低\nC. 利⽤紫外线可以进⾏电视机等电器的遥控\nD. 紫外线是⼀种紫⾊的可⻅光",
+    "answer": "A. 紫外线可使钞票上的荧光物质发光",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-4",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于功和能的联系和区别，下列说法中不正确的是\nA. 功是过程量，能是状态量\nB. 功是能量转化的量度\nC. 做功的过程总对应着能量的转化过程\nD. 功就是能，能就是功",
+    "answer": "D. 功就是能，能就是功",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-5",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个质量相等的物体分别沿⾼度相同但倾⻆不同的光滑斜⾯从顶端⾃由下滑到底端，在此过程中两物体具有相同的物理量是\nA. 动量的变化\nB. 合⼒的冲量\nC. 速率的变化\nD. 重⼒的冲量",
+    "answer": "C. 速率的变化",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-7",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于瞬时速度，下列说法正确的是\nA. 是物体在某段时间内的速度\nB. 是物体在通过某⼀段位移过程中的速度\nC. 以上说法均正确\nD. 是物体通过某⼀位置时的速度",
+    "answer": "D. 是物体通过某⼀位置时的速度",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-8",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⽓体内能是所有⽓体分⼦热运动动能和势能的总和，其⼤⼩与⽓体的状态有关，分⼦热运动的平均动能与分⼦间势能分别取决于⽓体的\nA. 压强和温度\nB. 体积和压强\nC. 温度和压强\nD. 温度和体积",
+    "answer": "D. 温度和体积",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-9",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于曲线运动，下列说法中正确的是\nA. 曲线运动也可以是速度不变的运动\nB. 变速运动⼀定是曲线运动\nC. 曲线运动⼀定是变速运动\nD. 速率不变的曲线运动是匀速运动",
+    "answer": "C. 曲线运动⼀定是变速运动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-10",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⽤⼀束紫外线照射某⾦属时不能产⽣光电效应，可能使该⾦属产⽣光电效应的措施是\nA. 改⽤频率更⼩的紫外线照射\nB. 延⻓原紫外线的照射时间\nC. 改⽤强度更⼤的原紫外线照射\nD. 改⽤X射线照射",
+    "answer": "D. 改⽤X射线照射",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-11",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于作⽤⼒和反作⽤⼒，下列说法正确的是\nA. 弹⼒与摩擦⼒都有反作⽤⼒，⽽重⼒⽆反作⽤⼒\nB. 作⽤⼒与反作⽤⼒的合⼒为零\nC. 作⽤⼒与反作⽤⼒⼀定是性质相同的⼀对⼒\nD. 当作⽤⼒产⽣后，再产⽣反作⽤⼒；当作⽤⼒消失后，反作⽤⼒才慢慢的消失",
+    "answer": "C. 作⽤⼒与反作⽤⼒⼀定是性质相同的⼀对⼒",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-12",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "爱因斯坦提出了质能⽅程，揭示了质量与能量的关系，关于质能⽅程，下列说法正确的是\nA. mc2是物体能够放出能量的总和\nB. 当物体向外释放能量时，其质量必定减少，且减少的质量Δm与释放的能量ΔE满⾜ΔE＝Δmc^2\nC. 质量和能量可以相互转化\nD. 如果物体的能量增加了ΔE，那么它的质量相应减少Δm，并且ΔE＝Δmc^2",
+    "answer": "B. 当物体向外释放能量时，其质量必定减少，且减少的质量Δm与释放的能量ΔE满⾜ΔE＝Δmc^2",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-13",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "把三个都是12Ω的电阻采⽤串连、并联或混联都不可能获得的阻值是\nA. 24Ω\nB. 36Ω\nC. 8Ω\nD. 18Ω",
+    "answer": "A. 24Ω",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-14",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下⾯是四种与光有关的事实：A⽤光导纤维传播信号；B⽤透明的标准样板和单⾊光检查平⾯的平整度；C⼀束⽩光通过三棱镜形成彩⾊光带；D⽔⾯上的油膜呈现彩⾊。其中，与光的⼲涉有关的是\nA. BC\nB. AD\nC. BD\nD. AC",
+    "answer": "C. BD",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-15",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于⼒，下列说法中正确的是\nA. ⼒⼀定产⽣在两个直接接触的物体之间\nB. 滑动摩擦⼒的⽅向⼀定与物体的运动⽅向相反\nC. 作⽤⼒和反作⽤⼒的合⼒为零\nD. ⼒是使物体产⽣加速度的原因",
+    "answer": "D. ⼒是使物体产⽣加速度的原因",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-16",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼀位中学⽣对地球的吸引⼒约为\nA. 0N\nB. 100N\nC. 500N\nD. 无穷大",
+    "answer": "B. 100N",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-17",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在LC振荡电路中，⽤以下哪种办法可以使振荡频率增⼤⼀倍\nA. ⾃感L和电容C都减⼩⼀半\nB. ⾃感L减⼩⼀半，电容C增⼤⼀倍\nC. ⾃感L增⼤⼀倍，电容C减⼩⼀半;\nD. ⾃感L和电容C都增⼤⼀倍",
+    "answer": "A. ⾃感L和电容C都减⼩⼀半",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-18",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列现象发⽣的过程中，放出热量的⼀组是 A冰雪消融 B积⽔⼲涸 C滴⽔成冰 D霜满枝头\nA. AB\nB. BD\nC. AC\nD. CD",
+    "answer": "D. CD",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-19",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于⾃由落体运动，下列说法不正确的是\nA. 当空⽓阻⼒的作⽤⽐较⼩可以忽略不计时，物体⾃由下落可视为⾃由落体运动\nB. 物体竖直向下的运动⼀定是⾃由落体运动\nC. ⾃由落体运动是初速度为零、加速度为g的竖直向下的匀加速直线运动\nD. 物体只在重⼒作⽤下从静⽌开始下落的运动叫⾃由落体运动",
+    "answer": "B. 物体竖直向下的运动⼀定是⾃由落体运动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-20",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "运输家⽤电器、易碎器件等物品时，经常⽤泡沫塑料作填充物，这是为了在运输过程中\nA. 使物体的动量减⼩\nB. 使物体的动量变化率减⼩\nC. 减⼩物品受到的冲量\nD. 使物体的动量变化量减⼩",
+    "answer": "B. 使物体的动量变化率减⼩",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-21",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "卢瑟福提出了原⼦的核式结构模型，这⼀模型建⽴的基础是\nA. 对阴极射线的研究\nB. a粒⼦的散射实验\nC. 质⼦的发现\nD. 天然放射性现象的发现",
+    "answer": "B. a粒⼦的散射实验",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-22",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于重⼒、弹⼒、摩擦⼒下⾯说法正确的是\nA. 摩擦⼒可能与物体相对于地⾯的运动⽅向相同\nB. 重⼒与物体的质量和所在的地理位置⽆关\nC. 有弹⼒就⼀定有摩擦⼒\nD. 在粗糙程度⼀定的情况下，接触⾯间的压⼒越⼤，摩擦⼒也⼀定越⼤",
+    "answer": "A. 摩擦⼒可能与物体相对于地⾯的运动⽅向相同",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-23",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼀个物体做⾃由落体运动，取g = 10 m/s^2，则2s末物体的速度为\nA. 70m/s\nB. 30m/s\nC. 50m/s\nD. 20m/s",
+    "answer": "D. 20m/s",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-24",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "平静湖⾯传播着⼀列⽔⾯波，在波的传播⽅向上有相距3 m的甲、⼄两⼩⽊块随波上下运动，测得两⼩⽊块每分钟都上下运动30次，甲在波⾕时，⼄在波峰，且两⽊块之间有⼀个波峰。这列⽔⾯波\nA. 波⻓是3 m\nB. 周期是0.1 s\nC. 波速是1 m/s\nD. 频率是30 Hz",
+    "answer": "C. 波速是1 m/s",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-25",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "物体以60J的初动能，从A点出发作竖直上抛运动，在它上升到某⼀⾼度时，动能损失了30J，⽽机械能损失了10J，则该物体再落回到A处的动能为（假设空⽓阻⼒⼤⼩恒定）\nA. 50J\nB. 40J\nC. 20J\nD. 30J",
+    "answer": "C. 20J",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-26",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于圆周运动，下列说法正确的是\nA. 做圆周运动的物体加速度⼀定始终指向圆⼼\nB. 匀速圆周运动是匀速运动\nC. 匀速圆周运动是变速运动\nD. 匀速圆周运动是所受合⼒为零的运动",
+    "answer": "C. 匀速圆周运动是变速运动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-27",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "将⼀个⼒分解为两个分⼒，合⼒与分⼒的关系是\nA. 合⼒的⼤⼩⼀定等于两个分⼒⼤⼩之和\nB. 合⼒的⼤⼩不可能⼩于每⼀个分⼒的⼤⼩\nC. 合⼒的⼤⼩⼀定⽐⼀个分⼒⼤，⽐另⼀个分⼒⼩\nD. 合⼒的⼤⼩可能⽐每⼀个分⼒都⼤，也可能⽐每⼀个分⼒都⼩",
+    "answer": "D. 合⼒的⼤⼩可能⽐每⼀个分⼒都⼤，也可能⽐每⼀个分⼒都⼩",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-28",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国发射的“神州六号”载⼈⻜船，与“神州五号”⻜船相⽐，它在更⾼的轨道上绕地球做匀速圆周运动，下列说法中正确的是\nA. “神州六号”的周期更短\nB. ⻜船所受合⼒为零\nC. “神州六号”的速度较⼩\nD. ⻜船静⽌在⾚道的上空",
+    "answer": "C. “神州六号”的速度较⼩",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-29",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "做简谐振动的单摆摆⻓不变，若摆球质量增加为原来的4倍，摆球经过平衡位置时速度减⼩为原来的1/2，则单摆振动的\nA. 频率改变、振幅不变\nB. 频率、振幅都不变\nC. 频率、振幅都改变\nD. 频率不变、振幅改变",
+    "answer": "D. 频率不变、振幅改变",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-30",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在存放放射性元素时，若把放射性元素A置于⼤量⽔中；B密封于铅盒中；C与轻核元素结合成化合物。则\nA. 措施B可减缓放射性元素衰变\nB. 措施C可减缓放射性元素衰变\nC. 措施A可减缓放射性元素衰变\nD. 上述措施均⽆法减缓放射性元素衰变",
+    "answer": "D. 上述措施均⽆法减缓放射性元素衰变",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-31",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "物理学中把既有⼤⼩⼜有⽅向的物理量称为⽮量，只有⼤⼩没有⽅向的物理量称为标量。下⾯给出的物理量中，哪⼀个是标量\nA. 加速度\nB. 速度\nC. 力\nD. 质量",
+    "answer": "D. 质量",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-32",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼀辆汽⻋停在⽔平地⾯上，⼀个⼈⽤⼒⽔平推⻋，但⻋仍然静⽌，表明\nA. 推⼒越⼤，静摩擦⼒越⼩\nB. 推⼒⼤⼩变化时，静摩擦⼒⼤⼩不变\nC. 推⼒⼩于静摩擦⼒\nD. 推⼒越⼤，静摩擦⼒越⼤，推⼒与静摩擦⼒平衡",
+    "answer": "D. 推⼒越⼤，静摩擦⼒越⼤，推⼒与静摩擦⼒平衡",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-33",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "电磁波包含了射线、红外线、紫外线、⽆线电波等，按波⻓由⻓到短的排列顺序是\nA. γ射线、红外线、紫外线、⽆线电波\nB. ⽆线电波、红外线、紫外线、γ射线\nC. 红外线、⽆线电波、γ射线、紫外线\nD. 紫外线、⽆线电波、γ射线、红外线",
+    "answer": "B. ⽆线电波、红外线、紫外线、γ射线",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-34",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某物体做直线运动，位移遵循的⽅程为$x=6t-t^2$（其中，x的单位为m，t的单位为s）。则该物体 在0～4s时间内通过的路程为\nA. 10m\nB. 9m\nC. 11m\nD. 8m",
+    "answer": "A. 10m",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-35",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⽉球绕地球做匀速圆周运动的向⼼加速度⼤⼩为a，设⽉球表⾯的重⼒加速度⼤⼩为g1，在⽉球绕地球运⾏的轨道处由地球引⼒产⽣的加速度⼤⼩为g2，则\nA. g1-g2=a\nB. g1=a\nC. g2=a\nD. g1+g2=a",
+    "answer": "C. g2=a",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-36",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于电磁波谱，下列说法正确的是\nA. 在电磁波谱中，最容易发⽣衍射现象的是γ射线\nB. 伦琴射线是⾼速电⼦流射到固体上，使固体原⼦的内层电⼦受到激发⽽产⽣的\nC. γ射线是原⼦的内层电⼦受激发产⽣的\nD. 紫外线⽐紫光更容易发⽣衍射现象",
+    "answer": "B. 伦琴射线是⾼速电⼦流射到固体上，使固体原⼦的内层电⼦受到激发⽽产⽣的",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-37",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于物体的动量，下列说法中正确的是\nA. 运动物体在任意时刻的动量的⽅向⼀定是该时刻的速度⽅向\nB. 动量⼤的物体，它的速度⼀定⼤\nC. 惯性越⼤的物体，它的动量也越⼤\nD. 物体的速度⼤⼩不变，则其动量也保持不变",
+    "answer": "A. 运动物体在任意时刻的动量的⽅向⼀定是该时刻的速度⽅向",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-38",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列单位中属于国际单位制基本单位的是\nA. 瓦特\nB. 焦耳\nC. 牛顿\nD. 千克",
+    "answer": "D. 千克",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-39",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼀振动周期为T、振幅为A，位于x＝0点的波源从平衡位置沿y轴正向开始做简谐振动．该波源产⽣的⼀列简谐横波沿x轴正向传播，波速为v，传播过程中⽆能量损失．⼀段时间后，该振动传播⾄某质点P，关于质点P振动的说法正确的是\nA. 振幅不⼀定为A\nB. 开始振动的⽅向沿y轴向上或向下取决于它离波源的距离\nC. 若质点P与波源的距离x＝vT，则质点P的位移与波源的相同\nD. 速度的最⼤值⼀定为v",
+    "answer": "C. 若质点P与波源的距离x＝vT，则质点P的位移与波源的相同",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-40",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼀个质量为0.3 kg的弹性⼩球，在光滑⽔平⾯上以6 m/s的速度垂直撞到墙上，碰撞后⼩球沿相反⽅向运动，速度⼤⼩与碰撞前相同.以初速度⽅向为正⽅向，则碰撞前后⼩球动量变化△p和碰撞过程中墙对⼩球做的功分别为\nA. W=-10.8J\nB. W=10.8 J\nC. △p=-3.6 kg.m/s\nD. △p=0",
+    "answer": "C. △p=-3.6 kg.m/s",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-41",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某放射性元素经过11.4天有7/8的原⼦核发⽣了衰变，该元素的半衰期为\nA. 7.6天\nB. 11.4天\nC. 5.7天\nD. 3.8天",
+    "answer": "D. 3.8天",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-42",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“嫦娥⼀号”⽉球探测器在环绕⽉球运⾏过程中，设探测器运⾏的轨道半径为r，运⾏速率为v，当探测器在⻜越⽉球上⼀些环形⼭中的质量密集区上空时\nA. r、v都将略为减⼩\nB. r将略为减⼩，v将略为增⼤\nC. r将略为增⼤，v将略为减⼩\nD. r、v都将保持不变",
+    "answer": "B. r将略为减⼩，v将略为增⼤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-43",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼀列简谐横波沿直线传播，某时刻该列波上正好经过平衡位置的两质点相距6 m，且这两质点之间的波峰只有⼀个，则该简谐波的波⻓可能为\nA. 4 m、8 m和12 m\nB. 6 m、8 m和12 m\nC. 4 m、6 m和8 m\nD. 4 m、6 m和12 m",
+    "answer": "D. 4 m、6 m和12 m",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-45",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列过程中，与汽油机做功冲程能量转化情况相同的是\nA. 两⼿相互摩擦能发热\nB. ⽔沸腾时蒸汽冲开壶盖\nC. 压缩空⽓点⽕\nD. 锯⽊头锯⼦发烫",
+    "answer": "B. ⽔沸腾时蒸汽冲开壶盖",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-46",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列运动中不属于机械运动的有\nA. ⼩提琴琴弦的颤动\nB. ⼈体⼼脏的跳动\nC. 电视信号的发送\nD. 地球绕太阳公转",
+    "answer": "C. 电视信号的发送",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-47",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼀质量为m的运动员从下蹲状态向上起跳，经△t时间，身体伸直并刚好离开地⾯，速度为v．在此过程中\nA. 地⾯对他的冲量为mv－mg△t，地⾯对他做的功为零\nB. 地⾯对他的冲量为mv+mg△t，地⾯对他做的功为mv2/2\nC. 地⾯对他的冲量为mv+mg△t，地⾯对他做的功为零\nD. 地⾯对他的冲量为mv，地⾯对他做的功为mv2/2",
+    "answer": "C. 地⾯对他的冲量为mv+mg△t，地⾯对他做的功为零",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-48",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某物体在⽔平推⼒的作⽤下，由静⽌开始在⽔平地⾯上做匀加速直线运动，经过时间t1后，撤去⽔平推⼒，⼜经t2时间物体的速度减⼩为零，则在t1时间内⽔平推⼒与物体所受阻⼒的⼤⼩之⽐为\nA. (t1+t2):t1\nB. t2: (t1+t2)\nC. (t1+t2):t2\nD. t2：t1",
+    "answer": "A. (t1+t2):t1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-49",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼀⼩球从4m⾼处落下，被地⾯弹回，在1m⾼处被接住，则⼩球通过的路程和位移⼤⼩分别为\nA. 4m，3m\nB. 5m，5m\nC. 4m，1m\nD. 5m，3m",
+    "answer": "D. 5m，3m",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-50",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于电磁感应，下列说法中正确的是\nA. 穿过线圈的磁通量变化越快，感应电动势越⼤\nB. 穿过线圈的磁通量变化越⼤，感应电动势越⼤\nC. 穿过线圈的磁通量越⼤，感应电动势越⼤\nD. 穿过线圈的磁通量为零，感应电动势⼀定为零",
+    "answer": "A. 穿过线圈的磁通量变化越快，感应电动势越⼤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-51",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "初温相同，质量也相同的⽔和铜块，吸收相等的热量后，再将铜块投⼊⽔中，则会出现\nA. 铜块吸热，⽔放热\nB. ⽔的内能传递到铜块上\nC. 铜块与⽔之间不发⽣热传递\nD. 铜块放热，⽔吸热",
+    "answer": "D. 铜块放热，⽔吸热",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-52",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于速度和加速度的说法中，正确的是\nA. 物体的速度变化越快，加速度越⼤\nB. 物体的速度为零时，加速度也为零\nC. 物体的速度变化量越⼤，加速度越⼤\nD. 物体的速度越⼤，加速度也越⼤",
+    "answer": "A. 物体的速度变化越快，加速度越⼤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-53",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在点电荷Q所形成的电场中某点，放⼀电荷q受到的电场⼒为F，则下⾯说法正确的是\nA. 在该点放⼀个2q的电荷时，该点的电场强度变为原来的两倍\nB. 撤去电荷q，该点的电场强度为零\nC. 该点的电场强度为E=F/Q\nD. 该点的电场强度为E=F/q",
+    "answer": "D. 该点的电场强度为E=F/q",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-54",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "男⼥⽣⼆重唱中，⼥⾼⾳和男中⾳的频率、波⻓和波速分别为f1、λ1、v1和f2、λ2、v2，它们之间的关系是\nA. f1>f2，λ1<λ2，v1＝v2\nB. f1>f2，λ1>λ2，v1>v2\nC. f1<f2，λ1<λ2，v1<v2\nD. 以上说法都不正确",
+    "answer": "A. f1>f2，λ1<λ2，v1＝v2",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-55",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼀个由静⽌开始做匀加速直线运动的物体，如果运动的第1s内的位移是2m，则物体在运动的第2s内的\nA. 8m\nB. 10.8m\nC. 4m\nD. 3m",
+    "answer": "A. 8m",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-56",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "起重机将质量为m的货物以恒定的加速度a竖直吊起，在上升⾼度h的过程中起重机对货物所做的功等于\nA. m(g-a)h\nB. m(g＋a)h\nC. mah\nD. mgh",
+    "answer": "B. m(g＋a)h",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-57",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "近年来测重⼒加速度g值的⼀种⽅法叫“对称⾃由下落法”。具体做法是：将真空⻓直管沿竖直⽅向放置，⾃其中O点向上抛⼩球⼜落⾄原处所⽤时间为t2，在⼩球运动过程中经过⽐O点⾼h处，⼩球离开h处⾄⼜回到h处所⽤时间为t1，测得t1、t2、h，则重⼒加速度的表达式为\nA. $8h/((t_2)^2 -(t_1)^2)$\nB. $16h/((t_2)^2 -(t_1)^2)$\nC. $2h/((t_2)^2 -(t_1)^2)$\nD. $4h/((t_2)^2 -(t_1)^2)$",
+    "answer": "A. $8h/((t_2)^2 -(t_1)^2)$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-58",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于做功的说法正确的是\nA. 举重运动员把杠铃举过头顶后稳定3S的时间⾥，对杠铃做了功\nB. 猪⼋戒扶师⽗上⻢做了功\nC. 《⻄游记》中，沙和尚挑担千⾥，对⾏李担做功\nD. ⼩球沿⽔平⾯滚动过程中，重⼒和⽀持⼒均对⼩球做功",
+    "answer": "B. 猪⼋戒扶师⽗上⻢做了功",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-59",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼀物体静⽌在升降机的⽔平底板上，在升降机加速上升的过程中，下列说法正确的是\nA. 重⼒对物体做正功\nB. 底板对物体的⽀持⼒不做功\nC. 合外⼒对物体不做功\nD. 底板对物体的⽀持⼒做正功",
+    "answer": "D. 底板对物体的⽀持⼒做正功",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-60",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国⾃⾏研制发射的“⻛云⼀号”和“⻛云⼆号”⽓象卫星的⻜⾏轨道不同，“⻛云⼀号”是极地圆形轨道卫星，其轨道平⾯与⾚道平⾯垂直，周期为12 h ；“⻛云⼆号”是地球同步卫星，其轨道平⾯就是⾚道平⾯周期为24 h ，那么\nA. “⻛云⼀号”线速度较⼩\nB. “⻛云⼀号”离地⾯较⾼\nC. 若某时刻两卫星正好在某⼩岛上空，那么再过12 h ，他们⼜将同时到达该⼩岛上空\nD. “⻛云⼆号”每时刻观察到的地球表⾯范围较⼤",
+    "answer": "D. “⻛云⼆号”每时刻观察到的地球表⾯范围较⼤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-61",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个互相垂直的⼒F1和F2同时作⽤在同⼀物体上，使物体由静⽌开始运动，物体在通过⼀段位移的过程中，⼒F1对物体做功8J，⼒F2对物体做功6J，则F1和F2的合⼒对物体做功为\nA. 7J\nB. 14J\nC. 10J\nD. 2J",
+    "answer": "B. 14J",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-62",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "物理学中引⼊了“质点”、“单摆”、“理想⽓体”等概念，从科学⽅法上来说属于\nA. 控制变量\nB. 等效替代\nC. 类比\nD. 理想模型",
+    "answer": "D. 理想模型",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-63",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "汽⻋从平直公路驶上⼀斜坡，牵引⼒逐渐增⼤⽽输出功率保持不变，则在此过程的初始阶段，汽⻋的\nA. 加速度逐渐减⼩，速度逐渐减⼩\nB. 加速度逐渐减⼩，速度逐渐增⼤\nC. 加速度逐渐增⼤，速度逐渐增⼤\nD. 加速度逐渐增⼤，速度逐渐减⼩",
+    "answer": "A. 加速度逐渐减⼩，速度逐渐减⼩",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-64",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个相同的单摆静⽌于平衡位置，使摆球分别以⽔平初速V1、V2 （ V1>V2）在竖直平⾯内做⼩⻆度摆动，它们的频率与振幅分别为f1，f2和A1，A2，则\nA. f1>f2， A1=A2\nB. f1<f2， A1=A2\nC. f1=f2， A1>A2\nD. f1=f2， A1<A2",
+    "answer": "C. f1=f2， A1>A2",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-65",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⻢拉⻋由静⽌开始做直线运动，先加速运动，中间匀速运动⼀段时间，然后减速⾄停⽌。下列说法正确的是\nA. 加速运动时，⻢向前拉⻋的⼒⼤于⻋向后拉⻢的⼒\nB. 只有匀速运动时，⻢向前拉⻋与⻋向后拉⻢的⼒⼤⼩相等\nC. 加速运动时，⻢向前拉⻋的⼒⼩于⻋向后拉⻢的⼒\nD. 在整个运动过程中，⻢向前拉⻋与⻋向后拉⻢的⼒⼤⼩始终相等",
+    "answer": "D. 在整个运动过程中，⻢向前拉⻋与⻋向后拉⻢的⼒⼤⼩始终相等",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-66",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⽕⻋轨道在转弯处外轨⾼于内轨，其⾼度差由转弯半径与⽕⻋速度确定。若在某转弯处规定⾏驶的速度为v，则下列说法中正确的是：A 当以v的速度通过此弯路时，⽕⻋重⼒与轨道⾯⽀持⼒的合⼒提供向⼼⼒ B 当以v的速度通过此弯路时，⽕⻋重⼒、轨道⾯⽀持⼒和外轨对轮缘弹⼒的合⼒提供向⼼⼒ C 当速度⼤于v时，轮缘挤压外轨 D 当速度⼩于v时，轮缘挤压外轨\nA. BC\nB. BD\nC. AC\nD. AD",
+    "answer": "C. AC",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-67",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "真空中有两个距离保持不变的点电荷，若将它们各⾃的电量都增⼤到原来的3倍，则两电荷之间相互作⽤的静电⼒将增⼤到原来的\nA. 3倍\nB. 9倍\nC. 6倍\nD. 1倍",
+    "answer": "B. 9倍",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-68",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列说法符合实际的是\nA. 在⼈造卫星上对地球进⾏拍摄是利⽤紫外线有较好的分辨能⼒\nB. 在⼈造卫星上对地球进⾏拍摄是利⽤红外线有较好的穿透云雾烟尘的能⼒\nC. 医院⾥常⽤红外线对病房和⼿术室消毒\nD. 医院⾥常⽤X射线对病房和⼿术室消毒",
+    "answer": "B. 在⼈造卫星上对地球进⾏拍摄是利⽤红外线有较好的穿透云雾烟尘的能⼒",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-69",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "物体作初速度为零的匀加速直线运动，下列说法中正确的是\nA. 在任意两个连续相等时间内的速度都相等\nB. 在任意两个连续相等时间内的位移都相等\nC. 第1s内、第2s内、第3s内的位移之⽐是1：3：5\nD. 前1s、前2s、前3s的位移之⽐是1：3：5",
+    "answer": "C. 第1s内、第2s内、第3s内的位移之⽐是1：3：5",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-70",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "做加速直线运动的物体，依次通过A、B、C三点，时间t_AB=3t_BC，已知该物体在AB段的平均速度⼤ ⼩为2m/s，在BC段的平均速度⼤⼩为4m/s，那么，物体在AC段的平均速度⼤⼩为\nA. 2.5m/s\nB. 3m/s\nC. 3.33m/s\nD. 3.5m/s",
+    "answer": "A. 2.5m/s",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-71",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "根据⽜顿运动定律，下列表述正确的是\nA. 外⼒停⽌作⽤后，物体由于惯性会停⽌\nB. ⼒是改变物体运动状态的原因\nC. 物体做匀速直线运动时，所受合外⼒不为零\nD. ⼒是维持物体运动的原因",
+    "answer": "B. ⼒是改变物体运动状态的原因",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-72",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“⻛云”⼆号卫星发送回地⾯的红外云图是由卫星上设置的可以接收云层辐射的红外线的感应器完成的，云图上的⿊⽩程度是由辐射红外线的云层的温度⾼低决定的，这是利⽤了红外线的\nA. 热效应\nB. 化学效应\nC. 穿透性\nD. 可⻅性",
+    "answer": "A. 热效应",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-73",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "敦煌曲⼦词中有这样的诗句：“满眼⻛波多闪烁，看⼭恰似⾛来迎，仔细看⼭⼭不动，是船⾏”。其中“看⼭恰似⾛来迎”和“是船⾏”所选的参考系分别是\nA. 河岸和流⽔\nB. 地⾯和⼭\nC. 船和⼭\nD. ⼭和船",
+    "answer": "C. 船和⼭",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-74",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列说法中正确的是\nA. ⼦弹以速度v从枪⼝射出，v是指平均速度\nB. 平均速率即为平均速度的⼤⼩\nC. 瞬时速率是指瞬时速度的⼤⼩\nD. ⽕⻋以速度v经过某⼀段路，v是指瞬时速度",
+    "answer": "C. 瞬时速率是指瞬时速度的⼤⼩",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-75",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⽔平桌⾯上⼀重200⽜的物体，与桌⾯间的滑动摩擦系数为0.2，当依次⽤15N，30N，80N的⽔平拉⼒拉此物体时，物体受到的摩擦⼒依次为：（设最⼤静摩擦⼒等于滑动摩擦 ）\nA. 0N， 15N，15N；\nB. 15N，40N，40N\nC. 15N，30N，40N；\nD. 0N， 20N，40N；",
+    "answer": "C. 15N，30N，40N；",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-76",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "声波能绕过某⼀建筑物传播⽽光波却不能绕过该建筑物，这是因为\nA. 声波波⻓较⻓，光波波⻓很短\nB. 声波波速较⼩，光波波速很⼤\nC. 声波振幅⼤，光波振幅⼩\nD. 声波是纵波，光波是横波",
+    "answer": "A. 声波波⻓较⻓，光波波⻓很短",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-77",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下⾯四种情况中，能在空⽓和⽔的界⾯上发⽣全反射的是\nA. 光从空⽓射向⽔，⼊射⻆⼩于临界⻆\nB. 光从⽔射向空⽓，⼊射⻆⼤于临界⻆\nC. 光从空⽓射向⽔，⼊射⻆⼤于临界⻆\nD. 光从⽔射向空⽓，⼊射⻆⼩于临界⻆",
+    "answer": "B. 光从⽔射向空⽓，⼊射⻆⼤于临界⻆",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-78",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在伦敦奥运会上，我国选⼿陈⼀冰在吊环⽐赛中以完美的表现却意外只摘得银牌，但他的⼤度赢得了所有⼈的尊重，成为⼤家⼼⽬中的冠军。⽐赛中他先双⼿撑住吊环，然后身体下移，双臂缓慢张开，此时连接吊环的绳索与竖直⽅向的夹⻆为a。已知他的体重为G，吊环和绳索的重⼒不计。则每条绳索的张⼒为\nA. Gcos(a)/2\nB. G/2cos(a)\nC. G/2sin(a)\nD. Gsin(a)/2",
+    "answer": "B. G/2cos(a)",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-79",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼩王参加劳动，需要把⼀批相同的物品搬上七楼，每次搬的物品都相同。第⼀次搬上楼⽤了3分钟，克服重⼒做功w1，功率p1；第⼆次搬上楼⽤了2分钟，克服重⼒做功w2，功率p2 ，⽐较两次上楼克服重⼒做功⼤⼩、功率⼤⼩，正确的是\nA. w1<w2\nB. p1>p2\nC. p1<p2\nD. w1>w2",
+    "answer": "C. p1<p2",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-80",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "分⼦间的相互作⽤⼒由引⼒与斥⼒共同产⽣，并随着分⼦间距的变化⽽变化，则\nA. 分⼦间相互作⽤⼒随分⼦间距的减⼩⽽增⼤\nB. 分⼦间相互作⽤⼒随分⼦间距的增⼤⽽增⼤\nC. 分⼦间斥⼒随分⼦间距的减⼩⽽增⼤\nD. 分⼦间引⼒随分⼦间距的增⼤⽽增⼤",
+    "answer": "C. 分⼦间斥⼒随分⼦间距的减⼩⽽增⼤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-81",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "教练员分析运动员百⽶赛跑的全程录象带，测得运动员在第1s内的位移是8m，前7s跑了63m，跑到终点共⽤了10s，则\nA. 运动员在百⽶终点冲刺速度为10m/s\nB. 运动员在全程内的平均速度是10m/s\nC. 运动员在第7s末的瞬时速度是9m/s\nD. 运动员在第1s末的瞬时速度是8m/s",
+    "answer": "B. 运动员在全程内的平均速度是10m/s",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-82",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "我们知道：多数汽油机是由吸⽓、压缩、做功、排⽓四个冲程的不断循环来连续⼯作的。关于压缩冲程的作⽤，下列说法正确的是\nA. 将废⽓排出缸外\nB. 完成对外做功\nC. 压缩燃料和空⽓的混合物\nD. 吸进汽油和空⽓的混合物",
+    "answer": "C. 压缩燃料和空⽓的混合物",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-83",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "观察者站在铁道旁，⼀辆以某⼀速度运动的⽕⻋向观察者迎⾯驶来，同时发出汽笛声，下⾯判断中正确的是\nA. 传向观察者的声波的速度越来越⼤\nB. 观察者感觉汽笛声的频率越来越⾼\nC. 传向观察者的声波的频率变低\nD. 传向观察者的声波的波⻓变短",
+    "answer": "D. 传向观察者的声波的波⻓变短",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-84",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼀束单⾊光斜射到厚平板玻璃的⼀个表⾯上，经两次折射后从玻璃板另⼀个表⾯射出，出射光线相对于⼊射光线侧移了⼀段距离。在下列情况下，出射光线侧移距离最⼤的是\nA. 紫光以45度的⼊射⻆⼊射\nB. 红光以45度的⼊射⻆⼊射\nC. 红光以30度的⼊射⻆⼊射\nD. 紫光以30度的⼊射⻆⼊射",
+    "answer": "A. 紫光以45度的⼊射⻆⼊射",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-85",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列各组物理量单位中，全属于国际单位制中基本单位的是\nA. kg、T、N\nB. kg、A、s\nC. N、A、s\nD. kg、V、m／s",
+    "answer": "B. kg、A、s",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-86",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼩球由地⾯竖直上抛，上升的最⼤⾼度为H，设所受阻⼒⼤⼩恒定，地⾯为零势能⾯。在上升⾄离地⾼度h处，⼩球的动能是势能的2倍，在下落⾄离⾼度h处，⼩球的势能是动能的2倍，则h等于\nA. 4H/9\nB. 2H/9\nC. H/9\nD. 3H/9",
+    "answer": "A. 4H/9",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-87",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "伽利略的理想实验指出了\nA. ⼒是产⽣运动和维持物体运动的原因\nB. ⼀切物体都具有惯性\nC. 维持物体运动不需要⼒的作⽤\nD. ⼒是使物体产⽣加速度的原因",
+    "answer": "C. 维持物体运动不需要⼒的作⽤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-88",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "弹簧振⼦的振动周期为0.4 s时，当振⼦从平衡位置开始向右运动，经1.26 s时振⼦做的是\nA. 振⼦正向右做减速运动\nB. 振⼦正向左做加速运动\nC. 振⼦正向右做加速运动\nD. 振⼦正向左做减速运动",
+    "answer": "A. 振⼦正向右做减速运动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-89",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "通常司机都使⽤低速挡启动汽⻋，这样操作主要是为了\nA. 能在发动机输出功率不太⼤的情况下获得较⼤的驱动⼒\nB. 为了使汽⻋能很快获得速度\nC. 启动时⻋速慢⼀些⽐较安全\nD. 这是驾⻋操作规程规定的，不能违反",
+    "answer": "A. 能在发动机输出功率不太⼤的情况下获得较⼤的驱动⼒",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-90",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⽤电热壶烧⽔时，⽔沸腾后，从壶嘴⾥冒出“⽩⽓”；夏天打开冰棒纸时，可以看到冰棒周围也出现“⽩⽓”。以下说法正确的是\nA. 这两种“⽩⽓”都是⽔蒸⽓液化形成的\nB. 在这两种“⽩⽓”形成的过程中，都需要吸收热量\nC. 壶嘴⾥冒出的“⽩⽓”是⽔沸腾时产⽣的⽔蒸⽓\nD. 冰棒周围的“⽩⽓”是冰棒发⽣升华形成的⽔蒸⽓",
+    "answer": "A. 这两种“⽩⽓”都是⽔蒸⽓液化形成的",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-91",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "太阳光中包含的某种紫外线的频率为f1，VCD影碟机中读取光盘数字信号的红⾊激光的频率为f2，⼈体透视使⽤的X光的频率为f3，则下列结论正确的是\nA. 红⾊激光是原⼦的外层电⼦受激发产⽣的\nB. 紫外线是原⼦的内层电⼦受激发产⽣的\nC. 这三种频率的⼤⼩关系是f1<f2<f3\nD. X光是原⼦核受激发产⽣的",
+    "answer": "A. 红⾊激光是原⼦的外层电⼦受激发产⽣的",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-92",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⼀艘轮船以速度15m/s匀速运动，它所受到的阻⼒为1.2×107N，发动机的实际功率是\nA. 1.8×10^5 kW\nB. 9.0×10^4 kW\nC. 8.0×10^4 kW\nD. 8.0×10^3 kW",
+    "answer": "A. 1.8×10^5 kW",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-93",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有两个共点⼒，⼤⼩分别是30 N和40 N. 如果它们之间的夹⻆是90°，那么这两个⼒合⼒的⼤⼩是\nA. 0\nB. 80N\nC. 110N\nD. 50N",
+    "answer": "D. 50N",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-94",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于质点的说法中，正确的是\nA. 体积很⼩的物体都可看成质点\nB. 不论物体的质量多⼤，只要物体的尺⼨对所研究的问题没有影响或影响可以不略不计，就可以看成质点\nC. 质量很⼩的物体都可看成质点\nD. 只有低速运动的物体才可看成质点，⾼速运动的物体不可看作质点",
+    "answer": "B. 不论物体的质量多⼤，只要物体的尺⼨对所研究的问题没有影响或影响可以不略不计，就可以看成质点",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-95",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "A物体的质量是B物体质量的5倍，A从h⾼处、B从2h⾼处同时⾃由落下，在落地之前，以下说法正确的\nA. 各⾃下落1m时，它们速度不同\nB. 下落1s末，它们的速度相同\nC. A加速度⼤于B加速度\nD. 下落过程中同⼀时刻A速度⼤于B速度",
+    "answer": "B. 下落1s末，它们的速度相同",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-96",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "亚⾥⼠多德对“⼒到底如何决定运动”这个问题的回答是：⼒决定物体的运动速度。他认为，要⻢⻋跑得更快，就要⽤更多的⻢去拉，或更强的⻢去拉。所以，⼒越⼤速度越⼤，⼒越⼩速度越⼩，没有⼒时，速度就为零（静⽌不动）。对亚⾥⼠多德的观点有以下⼏种看法，其中正确的是\nA. 亚⾥⼠多德的观点完全正确，⼒决定物体的运动速度\nB. 物体速度⼤⼩不是由⼒来决定，没有⼒物体照样运动\nC. 物体受到的⼒和物体的质量是决定物体速度⼤⼩的两个因素\nD. 没有⼒物体不会运动，但运动物体的速度⼤⼩不是由⼒来决定的",
+    "answer": "B. 物体速度⼤⼩不是由⼒来决定，没有⼒物体照样运动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-97",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列⼏种表述中，涉及到的计时数据，指时间的是\nA. 2011年9⽉29⽇21时16分03秒，“天宫⼀号”在酒泉卫星发射中⼼发射升空\nB. 1997年7⽉1⽇零时中国对⾹港恢复⾏使主权\nC. 中央电视台新闻联播节⽬⽤时30分钟\nD. 北京奥运会开幕式于2008年8⽉8⽇晚8时开始",
+    "answer": "B. 1997年7⽉1⽇零时中国对⾹港恢复⾏使主权",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-98",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "质量10g、以0.70km/s⻜⾏的⼦弹与质量60kg、以10m/s奔跑的运动员相⽐\nA. ⼦弹的动能较⼤\nB. ⼆者的动能⼀样⼤\nC. ⽆法⽐较它们的动能\nD. 运动员的动能较⼤",
+    "answer": "D. 运动员的动能较⼤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-99",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列事例中属于静电应⽤的有\nA. ⻜机机轮⽤导电橡胶制成\nB. 织地毯时夹⼀些不锈钢丝\nC. 油罐⻋拖⼀条铁链\nD. 静电复印",
+    "answer": "D. 静电复印",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-100",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、⼄两个溜冰者质量分别为48 kg和50 kg，甲⼿⾥拿着质量为2 kg的球，两⼈均以2 m/s的速率在光滑的冰⾯上沿同⼀直线相向滑⾏，甲将球传给⼄，⼄再将球传给甲，这样抛接⼏次后，球⼜回到甲的⼿⾥，⼄的速度为零，则甲的速度的⼤⼩为\nA. 4m/s\nB. 0\nC. 2m/s\nD. ⽆法确定",
+    "answer": "B. 0",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-101",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "将⼀段⻓L＝0.2m、通有电流I＝2.5A的直导线放⼊磁感应强度为B的磁场中，则关于其所受安培⼒F的说法正确的是\nA. 当F为最⼤值时，通电导线⼀定与B平⾏\nB. 若B＝4T，则F⼀定为2N\nC. 若B＝2T，则F可能为1N\nD. 若F＝0，则B也⼀定为零",
+    "answer": "C. 若B＝2T，则F可能为1N",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-102",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "跳远时，跳在沙坑⾥⽐跳在⽔泥地上安全，这是由于\nA. ⼈跳在沙坑受到的冲⼒⽐跳在⽔泥地上的⼩\nB. ⼈跳在沙坑的动量⽐跳在⽔泥地上的⼩\nC. ⼈跳在沙坑受到的冲量⽐跳在⽔泥地上的⼩\nD. ⼈跳在沙坑的动量变化⽐跳在⽔泥地上的⼩",
+    "answer": "A. ⼈跳在沙坑受到的冲⼒⽐跳在⽔泥地上的⼩",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-103",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“CCTV”焦点访谈节⽬报道，2007年5⽉24⽇，重庆市开县某⼩学的四⼗多名学⽣遭受雷击，造成重⼤伤亡事故。这⼀事件告诫我们，防雷⼗分重要，在野外遇到电闪雷呜时，应当\nA. 躲进⼩⼭洞\nB. 撑着钢柄⾬伞\nC. 躲在⼤树下\nD. 站在避雷针旁边",
+    "answer": "A. 躲进⼩⼭洞",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-104",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "处于激发状态的原⼦，如果在⼊射光的电磁场的影响下，引起⾼能态向低能态跃迁，同时两个状态之间的能量差以辐射光⼦的形式发射出去，这种辐射叫做受激辐射．原⼦发⽣受激辐射时发出的光⼦的频率、发射⽅向等，都跟⼊射光⼦完全⼀样，这样使光得到加强，这就是激光产⽣的机理．在受激辐射时，产⽣激光的原⼦的总能量En、系统的电势能Ep、电⼦的动能Ek的变化情况是\nA. En增⼤、Ep增⼤、Ek增⼤\nB. En减⼩、Ep增⼤、Ek减⼩\nC. En不变、Ep减⼩、Ek增⼤\nD. En减⼩、Ep减⼩、Ek增⼤",
+    "answer": "D. En减⼩、Ep减⼩、Ek增⼤",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-105",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "⻜机降落后还要在跑道上滑⾏⼀段距离，机舱内的乘客透过窗户看到跑道旁的树⽊以⼀定的速度向后退，乘客选择的参照系是\nA. 停在机场的⻜机\nB. 候机⼤楼\nC. 乘客乘坐的⻜机\nD. ⻜机跑道",
+    "answer": "C. 乘客乘坐的⻜机",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-106",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于波速，下列说法正确的是\nA. 波速与波源的频率成正⽐\nB. 波速由介质和波源共同决定\nC. 反映了振动在介质中传播的快慢\nD. 反映了质点振动的快慢",
+    "answer": "C. 反映了振动在介质中传播的快慢",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-107",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有⼀电学元件，上⾯标有“35V 2200μF”字样，由此可知该电学元件是\nA. 电感器\nB. 电阻器\nC. 电容器\nD. 电源",
+    "answer": "C. 电容器",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-108",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "质量为m的钢球⾃⾼处落下，以速度v1碰地，碰后竖直向上弹回，弹回时的速度为v2，碰撞时间很短，则在碰撞过程中，地⾯对钢球的冲量的⽅向和⼤⼩是\nA. 向上，m(vl+v2)\nB. 向上，m(v1-v2)\nC. 向下，m(v1-v2)\nD. 向下，m(vl+v2)",
+    "answer": "B. 向上，m(v1-v2)",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/haonan-li/CMMLU#test-high_school_physics-109",
+    "teaching_tips": "来源 CMMLU，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个物体放在斜面上保持静止，该物体共受几个力的作用____\nA. 4个\nB. 3个\nC. 2个\nD. 1个",
+    "answer": "B. 3个",
+    "solution": "1. 物体受到重力、支持力的作用，同时因为静止因此必然还受到静摩擦力的作用。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-dev-0",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "A、B 两物体的动量之比为 2:1，动能的大小之比为 1:3，则它们的质量之比为____\nA. $2:1$\nB. $1:3$\nC. $2:3$\nD. $12:1$",
+    "answer": "D. $12:1$",
+    "solution": "1. 物体动量$p=mv$，动能$E_k=\\frac{1}{2}mv^2$，因此动量与动能之间满足$m=\\frac{p^2}{2E_k}$。\n2. 因此，A、B质量之比$\\frac{m_A}{m_B} = \\frac{\\frac{p_A^2}{2E_{kA}}}{\\frac{p_B^2}{2E_{kB}}} = (\\frac{p_A}{p_B})^2 \\times \\frac{E_{kB}}{E_{kA}} = \\frac{12}{1}$",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-dev-1",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "物体做匀速圆周运动时，下列说法正确的是____\nA. 物体必须受到恒力的作用\nB. 物体所受合力必定为0\nC. 物体所受合力的大小可能变化\nD. 物体所受合力的大小不变，方向不断改变",
+    "answer": "D. 物体所受合力的大小不变，方向不断改变",
+    "solution": "1. 物体做匀速圆周运动时，所受合力大小不变，方向指向圆心，因此只有(D)正确。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-dev-3",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "以下哪些运动的加速度一定是恒量____\nA. 匀速圆周运动\nB. 平抛运动\nC. 汽车加速过程\nD. 简谐运动",
+    "answer": "B. 平抛运动",
+    "solution": "1. 分析选项：匀速圆周运动加速度方向指向圆心，一直改变，(A)不符合要求。\n2. 平抛运动物体只受到重力作用，加速度恒为g，(B)符合要求。\n3. 汽车加速未必为匀加速，加速度可能改变，(C)不符合要求。\n4. 简谐运动中加速度大小、方向均与位移相关，并非恒定，(D)不符合要求。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-dev-4",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在平坦的垒球运动场上，击球手挥动球棒将垒球水平击出，垒球飞行一段时间后落地。若不计空气阻力，则____\nA. 垒球落地时瞬间速度的大小仅由初速度决定\nB. 垒球落地时瞬时速度的方向仅由击球点离地面的高度决定\nC. 垒球在空中运动的水平位移仅由初速度决定\nD. 垒球在空中运动的时间仅由击球点离地面的高度决定",
+    "answer": "D. 垒球在空中运动的时间仅由击球点离地面的高度决定",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-0",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "物理量的定义有很多种方式，比值法定义是其中比较广泛的一种，下列物理量及对应的式子不是按比值法定义给出的是____\nA. 功率$P=\\frac{w}{t}$\nB. 磁感应强度$B=\\frac{F}{IL}$\nC. 加速度$a=\\frac{F}{m}$\nD. 电流强度$I=\\frac{q}{t}$",
+    "answer": "C. 加速度$a=\\frac{F}{m}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-1",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于布朗运动，以下说法正确的选项是____\nA. 布朗运动是液体分子的无规则运动\nB. 布朗运动是悬浮微粒分子的无规则运动\nC. 悬浮颗粒越大，布朗运动越明显\nD. 液体温度越高，布朗运动越不明显",
+    "answer": "B. 布朗运动是悬浮微粒分子的无规则运动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-2",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个物体在几个力作用下做匀速直线运动，当沿与速度方向相反的一个力逐渐减小时，物体的____\nA. 加速度减小，速度减小，位移减小\nB. 加速度减小，速度减小，位移增大\nC. 加速度增大，速度增大，位移增大\nD. 加速度增大，速度增大，位移减小",
+    "answer": "C. 加速度增大，速度增大，位移增大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-3",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有一种衰变叫EC衰变，EC衰变发生于核内中子数相对过少的放射性原子核.核内的一个质子（$_{1}^{1}H$）可以俘获一个核外电子（$_{-1}^{0}e$）并发射出一个中微子而转变为一个中子（$_{1}^{0}n$）.经过一次EC衰变后原子核的____\nA. 质量数不变，原子序数减少1\nB. 质量数增加1，原子序数不变\nC. 质量数不变，原子序数不变\nD. 质量数减少1，原子序数减少1",
+    "answer": "A. 质量数不变，原子序数减少1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-4",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列说法，正确的是____\nA. 电场线是电场中实际存在的闭合曲线\nB. 电场中电场线密的地方场强弱\nC. 某点电场强度的方向与负电荷在该点的受力方向相同\nD. 某点电场强度的方向与正电荷在该点的受力方向相同",
+    "answer": "D. 某点电场强度的方向与正电荷在该点的受力方向相同",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-5",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "以下现象中属于折射现象的是____\nA. 站在河边的人看见云在水中的像\nB. 司机在观后镜中看见车后的光景\nC. 用潜望镜能够在战壕里观察外面的光景\nD. 斜插在水中的筷子，筷子变得向上弯折",
+    "answer": "D. 斜插在水中的筷子，筷子变得向上弯折",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-6",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "对静止在光滑水平面上的物体施加一水平拉力，当力刚开始作用的瞬间____\nA. 物体立即获得速度\nB. 物体立即获得加速度\nC. 物体同时获得速度和加速度\nD. 由于物体未来得及运动，所以速度、加速度都为零",
+    "answer": "B. 物体立即获得加速度",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-7",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在双缝干涉实验中,一钠灯发出的波长为589 nm的光,在距双缝1.00 m的屏上形成干涉图样。图样上相邻两明纹中心间距为0.350 cm,则双缝的间距为____\nA. $2.06\\times10^{-7}\\text{m}$\nB. $2.06\\times10^{-4}\\text{m}$\nC. $1.68\\times10^{-4}\\text{m}$\nD. $1.68\\times10^{-3}\\text{m}$",
+    "answer": "C. $1.68\\times10^{-4}\\text{m}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-8",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列叙述中正确的是____\nA. 人类发射的通讯、电视转播卫星离地面越高越好，因为其传送的范围大\nB. 某一人造地球卫星离地面越高，其机械能就越大，但其运行速度就越小\nC. 由于人造地球卫星长期受微小阻力的作用，因而其运行速度会逐渐变小\nD. 我国于1999年11月20日发射的“神舟”号飞船在落向内蒙古地面的过程中，一直处于失重状态",
+    "answer": "B. 某一人造地球卫星离地面越高，其机械能就越大，但其运行速度就越小",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-9",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "汽车以额定功率行驶时，不可能做下列哪些运动____\nA. 匀速直线运动\nB. 匀加速直线运动\nC. 减速直线运动\nD. 匀速圆周运动",
+    "answer": "B. 匀加速直线运动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-10",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "质量为1 kg的物体从倾角30°、长2 m的光滑斜面顶端静止滑下，设初始点为零势能点，当它滑到斜面中点的机械能与动能分别为____\nA. 10J，5J\nB. 10J，15J\nC. 0J，5J\nD. 20J，10J",
+    "answer": "C. 0J，5J",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-11",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "水平方向振动的弹簧振子做简谐振动的周期为Ｔ，则____\nA. 若在时间Δｔ内，弹力对振子做功为零，则Δｔ一定是T/2的整数倍\nB. 若在时间Δｔ内，弹力对振子做功为零，则Δｔ不可能小于Ｔ/2\nC. 若在时间Δｔ内，弹力对振子冲量为零，则Δｔ一定是Ｔ的整数倍\nD. 若在时间Δｔ内，弹力对振子的冲量为零，则Δｔ可能小于Ｔ/4",
+    "answer": "D. 若在时间Δｔ内，弹力对振子的冲量为零，则Δｔ可能小于Ｔ/4",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-12",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列哪组单位中都属于国际单位制中基本单位的是____\nA. N,kg,s\nB. km,mm,N\nC. s,m,min\nD. kg,m,s",
+    "answer": "D. kg,m,s",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-13",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列说法中正确的是？____\nA. 布朗运动是液体分子的运动，它说明分子永不停息地做无规则运动\nB. 叶面上的小露珠呈球形是由于液体表面张力的作用\nC. 液晶显示器是利用了液晶对光具有各向同性的特点\nD. 当两分子间距离大于平衡位置的间距r0时，分子间的距离越大，分子势能越小",
+    "answer": "B. 叶面上的小露珠呈球形是由于液体表面张力的作用",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-14",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如下哪些措施是为了防止静电产生的危害____\nA. 静电复印\nB. 在高大的烟囱中安装静电除尘器\nC. 静电喷漆\nD. 在高大的建筑物顶端装上避雷针",
+    "answer": "D. 在高大的建筑物顶端装上避雷针",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-15",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "夏天，如果将自行车内胎充气过足，又放在阳光下受暴晒，车胎极易爆裂．关于这一现象有以下描述（暴晒过程中内胎容积几乎不变）\r\n①车胎爆裂，是车胎内气体温度升高，气体分子间斥力急剧增大的结果．\r\n②在爆裂前的过程中，气体温度升高，分子无规则热运动加剧，气体压强增大．\r\n③在爆裂前的过程中，气体吸热，内能增加．\r\n④在车胎突然爆裂的瞬间，气体内能减少．\r\n描述正确的是____\nA. ①②③④\nB. ②③④\nC. ①③④\nD. ①②④",
+    "answer": "B. ②③④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-16",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于超重、失重现象的描述中，正确的是____\nA. 电梯正在减速上升，人在电梯中处于超重状态\nB. 列车在水平轨道上加速行驶，车上的人处于超重状态\nC. 荡秋千时当秋千摆到最低位置时，人处于失重状态\nD. 在国际空间站内的宇航员处于失重状态",
+    "answer": "D. 在国际空间站内的宇航员处于失重状态",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-17",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一中子与一质量数为A$(A>1)$的原子核发生弹性正碰。若碰前原子核静止,则碰撞前与碰撞后中子的速率之比为____\nA. $\\frac{A+1}{A-1}$\nB. $\\frac{A-1}{A+1}$\nC. $\\frac{4A}{(A+1)^2}$\nD. $\\frac{\\left(A+1\\right)^{2}}{\\left(A-1\\right)^{2}}$",
+    "answer": "A. $\\frac{A+1}{A-1}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-18",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "4月20日深夜，“长征三号乙”运载火箭成功发射第44颗“北斗”导航卫星。这是“北斗”导航卫星在2019年的首次发射，“北斗”卫星导航系统今年继续高密度全球组网。若某颗卫星入轨后绕地球做匀速圆周运动，其轨道半径为r，运动周期为T。已知地球半径为R，引力常量为G，下列说法正确的是____\nA. 卫星的线速度大小$v=\\frac{\\pi r}{T}$\nB. 地球的质量$M=\\frac{4\\pi^2R^3}{GT^2}$\nC. 地球的平均密度$\\rho=\\frac{3\\pi r^3}{GT^2R^3}$\nD. 地球表面重力加速度大小$g=\\frac{4\\pi^2R^3}{T^2r^2}$",
+    "answer": "C. 地球的平均密度$\\rho=\\frac{3\\pi r^3}{GT^2R^3}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-19",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如下物理量中，属于矢量的是____\nA. 质量\nB. 时间\nC. 路程\nD. 速度",
+    "answer": "D. 速度",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-20",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "电路中非静电力做功的本领取决于____\nA. 电路的总电流\nB. 电源的电动势\nC. 电源的内阻\nD. 电路的路端电压",
+    "answer": "B. 电源的电动势",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-21",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "对一定质量的理想气体，下列说法正确的是____\nA. 气体的体积是所有气体分子的体积之和\nB. 气体温度越低，气体分子的热运动就越剧烈\nC. 气体对容器的压强是由大量气体分子对容器不断碰撞而产生的\nD. 当气体膨胀时，气体分子的势能减小，因而气体的内能一定减少",
+    "answer": "C. 气体对容器的压强是由大量气体分子对容器不断碰撞而产生的",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-22",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "以下有关热力学第二定律的说法不正确的选项是____\nA. 不能能使热量由低温物体传达到高温物体，而不引起其他变化\nB. 不能够可从单一热源吸取热量并把它所实用来做功，而不引起其他变化\nC. 第二类永动机是不能能制成的\nD. 热传导的能够由低温物体向高温物体方向进行",
+    "answer": "D. 热传导的能够由低温物体向高温物体方向进行",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-23",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某消防队员从一平台上跳下，下落2ｍ后双脚着地，接着他用双腿弯曲的方法缓冲，使自身重心又下降了0.5ｍ，由此可估计在着地过程中，地面对他双脚的平均作用为自身所受重力的____\nA. 2倍\nB. 5倍\nC. 8倍\nD. 10倍",
+    "answer": "B. 5倍",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-24",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙两液体的密度比为$\\rho_甲:\\rho_乙=5:4$, 体积比V_甲:V_乙=2:3，比如容比为C_甲:C_乙=1:2,且它们的初温不等。现将它们混和(不发生化学反应)，不计混和过程中的热损失，达到热平衡后液体温度相对各自初温变化量的绝对值分别$\\Delta t_{甲}$和$\\Delta t_{乙}$，则$\\Delta t_{甲}$：$\\Delta t_{乙}$为____\nA. $16:15$\nB. $15:16$\nC. $12:5$\nD. $5:12$",
+    "answer": "C. $12:5$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-25",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个人站在高出地面h处，抛出一个质量为m的物体，物体落地时速率为v，则人对物体所做的功等于（空气阻力不计）____\nA. $mgv$\nB. $\\frac{1}{2}{mv^2}$\nC. $\\frac{1}{2}{mv^2}-mgh$\nD. $\\frac{1}{2}{mv^2} + mgh$",
+    "answer": "C. $\\frac{1}{2}{mv^2}-mgh$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-26",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一卫星绕行星做匀速圆周运动，假设万有引力常量G为已知，由以下物理量能求出行星质量的是____\nA. 卫星质量及卫星的动转周期\nB. 卫星的线速度和轨道半径\nC. 轨道半径\nD. 卫星的密度和轨道半径",
+    "answer": "B. 卫星的线速度和轨道半径",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-27",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在物理学发展的过程中，许多物理学家的科学发现推动了人类历史的进步。在对以下几位物理学家所作科学贡献的叙述中，正确的说法是____\nA. 伽利略认为力是维持物体运动的原因\nB. 牛顿总结出了万有引力定律并测出了万有引力常量的数值\nC. 达尔文第发现了磁场产生电流的条件和规律\nD. 安培最早发现了磁场能对电流产生作用",
+    "answer": "D. 安培最早发现了磁场能对电流产生作用",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-28",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某物体做匀加速直线运动，设它运动全程的平均速度是v1，运动到中间时刻的速度是v2，经过全程一半位置时的速度是v3，则下列关系中正确的是____\nA. $v_1>v_2>v_3$\nB. $v_{1}<v_{2}=v_{3}$\nC. $v_{1}=v_{2}<v_{3}$\nD. $v_1>v_2=v_3$",
+    "answer": "C. $v_{1}=v_{2}<v_{3}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-29",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "加速度定义式$a=\\frac{\\Delta v}{\\Delta t}$应用的物理方法是____\nA. 等效替代法\nB. 比值定义法\nC. 放大法\nD. 控制变量法",
+    "answer": "B. 比值定义法",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-31",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2016年11月，武汉首条有轨电车线路——大汉阳地区现代有轨电车试验线轨道铺设已经完成，轨道全线贯通，全面转入机电设备安装调试阶段。现已知质量为M的电车由静止出发作匀加速直线运动，经过时间t后，该有轨电车的运行里程为L，此时发动机恰好到达额定功率P，有轨电车所受的阻力恒定，达到额定功率后，列车保持额定功率做变加速运动，最后以$v_1$匀速运动，对此下列说法不正确的是____\nA. 有轨电车做匀加速运动时的加速度为$\\frac{2L}{t^{2}}$\nB. 有轨电车所受阻力为$\\frac{Pt}{2L}-\\frac{2ML}{t^2}$\nC. 到达速度时$v_1$，发动机做功为$\\frac{1}{2}Mv_{1}^{2}-\\frac{P t}{v_{1}}$\nD. 存在关系式$v_{1=}\\frac{2P Lt^{2}}{P t^{3}-4M L^{2}}$",
+    "answer": "C. 到达速度时$v_1$，发动机做功为$\\frac{1}{2}Mv_{1}^{2}-\\frac{P t}{v_{1}}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-32",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "带电粒子在静电场中只受静电力作用时，它不可能出现的运动状态是____\nA. 匀速直线运动\nB. 匀加速直线运动\nC. 匀变速曲线运动\nD. 匀速圆周运动",
+    "answer": "A. 匀速直线运动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-33",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "公园里灯光喷泉的水池中有处于同一深度若干彩灯，在晚上观察不同颜色彩灯的深度和水面上被照亮的面积，下列说法正确的是____\nA. 红灯看起来较浅，且照亮的水面面积较小\nB. 红灯看起来较深，且照亮的水面面积较小\nC. 红灯看起来较浅，且照亮的水面面积较大\nD. 红灯看起来较深，且照亮的水面面积较大",
+    "answer": "D. 红灯看起来较深，且照亮的水面面积较大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-34",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列哪个说法是正确的？____\nA. 体操运动员双手握住单杠吊在空中不动时处于失重状态；\nB. 蹦床运动员在空中上升和下落过程中都处于失重状态；\nC. 举重运动员在举起杠铃后不动的那段时间内处于超重状态\nD. 游泳运动员仰卧在水面静止不动时处于失重状态",
+    "answer": "B. 蹦床运动员在空中上升和下落过程中都处于失重状态；",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-35",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "金属箔是由密度大于水的材料制成的。取一片金属箔做成容器，放在盛有水的烧杯中，发现它漂浮在水面上，然后再将此金属箔揉成团放入水中，金属箔沉入水底。比较前后两种情况，下列说法正确的是____\nA. 金属箔漂浮时受到的重力比它沉底时受到的重力小\nB. 金属箔漂浮时受到的浮力比它沉底时受到的浮力大\nC. 金属箔沉底时受到的浮力等于它的重力\nD. 金属箔沉底时排开水的体积与它漂浮时排开水的体积相等",
+    "answer": "B. 金属箔漂浮时受到的浮力比它沉底时受到的浮力大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-36",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某金属在一束绿光照射下才有光电子逸出，若增大光电子的最大初动能，可以采用的方法是____\nA. 增大绿光的强度；\nB. 改用一束强度相同的红光；\nC. 改用一束强度很强的黄光；\nD. 改用一束强度较弱的紫光．",
+    "answer": "D. 改用一束强度较弱的紫光．",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-37",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于摩擦力，以下说法中正确的选项是____\nA. 关于摩擦力，以下说法中正确的选项是\nB. 静止的物体有可能碰到滑动摩擦力\nC. 滑动摩擦力的方向总是与运动方向相反\nD. 滑动摩擦力的方向不能能与运动方向一致",
+    "answer": "B. 静止的物体有可能碰到滑动摩擦力",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-38",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "a、b和c三个带电小球，c带负电，a和b相互排斥，b和c相互吸引．则____\nA. a和b均带正电\nB. a和b均负电\nC. a带负电，b带正电\nD. a带正电，b带负电",
+    "answer": "A. a和b均带正电",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-39",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "根据磁感应强度的定义式$B=\\frac{F}{IL}$，下列说法中正确的是____\nA. 在磁场中某确定位置，B与F成正比，与I、L的乘积成反比\nB. 一小段通电直导线在空间某处受磁场力$F=0$；那么该处的B一定为零\nC. 磁场中某处的B的方向跟电流在该处受磁场力F的方向相同\nD. 一小段通电直导线放在B为零的位置，那么它受到磁场力F也一定为零",
+    "answer": "D. 一小段通电直导线放在B为零的位置，那么它受到磁场力F也一定为零",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-40",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "北京地下铁道某电气列车，以12m/s的速度行驶，快进站时死机刹车使得列车做匀减速运动直至停止。加速度大小为$0.5 m/s^2$，那么从刹车开始经过30s列车的位移大小是多少____\nA. 135m\nB. 144m\nC. 180m\nD. 360m",
+    "answer": "B. 144m",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-41",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列所提的物理学家为物理学的发展做出了重大的贡献，其中描述正确的是____\nA. 法拉第在对理论和实验资料进行严格分析后提出法拉第电磁感应定律\nB. 元电荷e的数值最早是由物理学家密立根测得的\nC. 伏特发现了电流的热效应，定量给出了电能和热能之间的转换关系\nD. 库仑首先总结出电荷间的作用规律并引入电场线描述电场",
+    "answer": "B. 元电荷e的数值最早是由物理学家密立根测得的",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-42",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在原子核的人工转变中，常用中子作为轰击原子核的“炮弹”，主要原因是____\nA. 中子易获得较大的能量\nB. 中子的体积较小\nC. 中子的速度较大\nD. 中子不带电",
+    "answer": "D. 中子不带电",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-43",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一质量为m的人站在电梯中，电梯加速上升$\\frac{1}{3}g$，加速大小为，g为重力加速度。人对电梯底部的压力为____\nA. $\\frac{1}{3}mg$\nB. $2mg$\nC. $mg$\nD. $\\frac{4}{3}mg$",
+    "answer": "D. $\\frac{4}{3}mg$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-44",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙两人在一幢楼的三楼窗口比赛掷垒球，他们都全力沿水平方向掷出同样的垒球，不计空气阻力．甲掷的水平距离正好是乙的 2 倍．乙要想水平掷出相当于甲在三楼窗口掷出的距离，则乙应（设每层楼的高度同样）____\nA. 在5楼窗口水平掷出\nB. 在6楼窗口水平掷出\nC. 在9楼窗口水平掷出\nD. 在12楼窗口水平掷出",
+    "answer": "A. 在5楼窗口水平掷出",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-45",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一木箱在粗糙的水平地面上运动，受水平力F的作用，那么____\nA. 如果木箱做匀速直线运动，Ｆ一定对木箱做正功\nB. 如果木箱做匀速直线运动，Ｆ可能对木箱做正功\nC. 如果木箱做匀加速直线运动，Ｆ一定不对木箱做正功\nD. 如果木箱做匀减速直线运动，Ｆ一定对木箱做负功",
+    "answer": "A. 如果木箱做匀速直线运动，Ｆ一定对木箱做正功",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-46",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "将一根原长为40 cm、劲度系数为100 N／m的弹簧拉长为45 cm，则此时弹簧的弹力大小为____\nA. 45N\nB. 40N\nC. 85N\nD. 5N",
+    "answer": "D. 5N",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-47",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "把长0.20 m的直导线全部放入匀强磁场中,保持导线和磁场方向垂直.已知磁场的磁感应强度的大小为$5.0×10^{-3}$ T,当导线中通过的电流为2.0 A时,该直导线受到的安培力的大小是____\nA. $3.0×10^{-3}$ N\nB. $2.5×10^{-3}$ N\nC. $2.0×10^{-3}$ N\nD. $1.5×10^{-3}$ N",
+    "answer": "C. $2.0×10^{-3}$ N",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-48",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "由牛顿第二定律F=ma可知，无论怎样小的力都可能使物体产生加速度，可是当用很小的力去推很重的桌子时，却推不动，这是因为____\nA. 牛顿第二定律不适用于静止的物体\nB. 桌子加速度很小，速度增量也很小，眼睛观察不到\nC. 推力小于桌子所受到的静摩擦力，加速度为负值\nD. 桌子所受的合力为零，加速度为零",
+    "answer": "D. 桌子所受的合力为零，加速度为零",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-49",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如下运动项目中，运动员可看作质点的是____\nA. 武术\nB. 击剑\nC. 自由体操\nD. 马拉松赛跑",
+    "answer": "D. 马拉松赛跑",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-50",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2022年6月6日，神舟十四号在轨期间将开展24项航天医学实验，此项活动对航天医学领域有着重要意义。已知神州十四号的运行轨道距离地面约为400km，距离地心约为1.06倍地球半径，可以近似看成圆周运动。同步卫星距离地心约为6.6倍地球半径，下列说法正确的是____\nA. 神舟十四号在轨运行的角速度比同步卫星大\nB. 神舟十四号在轨运行的线速度比同步卫星小\nC. 神舟十四号相对地面保持相对静止\nD. 神舟十四号在轨的运行速度大于第一宇宙速度，小于第二宇宙速度",
+    "answer": "A. 神舟十四号在轨运行的角速度比同步卫星大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-51",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一根弹簧原长 10 cm，挂上 2 N 的钩码时，弹簧伸长 1 cm.当这根弹簧挂上 6 N 的重 物时，弹簧伸长了(在弹性形变时)____\nA. 3 cm\nB. 13 cm\nC. 4 cm\nD. 14 cm",
+    "answer": "A. 3 cm",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-52",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于电磁波的如下说法，正确的答案是____\nA. 电磁波可以在真空中传播\nB. 电磁波不能在空气中传播\nC. 麦克斯韦第一次通过实验验证了电磁波的存在\nD. 法拉第第一次通过实验验证了电磁波的存在",
+    "answer": "A. 电磁波可以在真空中传播",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-53",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于作用力和它的反作用力，下面说法中正确的答案是____\nA. 一个作用力和它的反作用力的合力等于零\nB. 作用力和反作用力可以是不同性质的力\nC. 作用力和反作用力同时产生，同时消失\nD. 两物体处于相对静止时，它们之间的作用力和反作用力的大小才相等",
+    "answer": "C. 作用力和反作用力同时产生，同时消失",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-54",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若引力常量G为已知，根据下面哪组数据不可能计算出地球的质量____\nA. 月球绕地球做圆周运动的周期T1及月球中心到地心的距离R1\nB. 地面的重力加速度g0及地球半径R0\nC. 地球的同步卫星离地面的高度\nD. 人造地球卫星在地面附近做圆周运动的速度v及运行周期T2",
+    "answer": "C. 地球的同步卫星离地面的高度",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-55",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于做曲线运动的物体所受的合力，下列说法正确的是____\nA. 一定是恒力\nB. 一定是变力\nC. 合力方向与速度方向不在同一直线上\nD. 合力方向与速度方向在同一直线上",
+    "answer": "C. 合力方向与速度方向不在同一直线上",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-56",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个内壁光滑、绝热的汽缸固定在地面上，绝热的活塞下方封闭着空气，若突然用竖直向上的力F将活塞向上拉一些，则缸内封闭着的气体____\nA. 每个分子对缸壁的冲力都会减小\nB. 单位时间内缸壁单位面积上受到的气体分子碰撞的次数减少\nC. 分子平均动能不变\nD. 若活塞重力不计，拉力F对活塞做的功等于缸内气体内能的改变量",
+    "answer": "B. 单位时间内缸壁单位面积上受到的气体分子碰撞的次数减少",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-57",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "赛车从静止开始做匀加速直线运动，10 s 末的速度为 50 m/s，如此该车的加速度大小是____\nA. $0.2\\text{m/s}^2$\nB. $1\\text{m/s}^2$\nC. $2.5\\text{m/s}^2$\nD. $5\\text{m/s}^2$",
+    "answer": "D. $5\\text{m/s}^2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-58",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "由牛顿第二定律可知____\nA. 同一物体的运动速度越大，受到的合外力也越大\nB. 同一物体的速度变化率越小，说明它受到的合外力越小\nC. 物体的质量与它所受的合外力成正比，与它的加速度成反比\nD. 同一物体的速度变化越大，说明它受到的合外力越大",
+    "answer": "B. 同一物体的速度变化率越小，说明它受到的合外力越小",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-59",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2021年2月10日晚，中国首次火星探测任务天问一号探测器实施近火捕获制动，环绕器3000N轨控发动机点火工作约15分钟，探测器顺利进入近火点高度约400km，倾角约10的大椭圆环火轨道，成为我国第一颗人造火星卫星。现已知火星的半径约为3400km，引力常量G=$6.67\\times10^{-11}m^{2}/k g^{2}$，火星质量约为$6.4\\times10^{23} $kg，则该火星探测器的运行速度约为____\nA. $3.3\\times10^{3}{\\text{m/s}}$\nB. $6.3\\times10^{4}{\\text{m/s}}$\nC. $2.3\\times10^{2}{\\text{m/s}}$\nD. $8.2\\times10^{5}{\\text{m/s}}$",
+    "answer": "A. $3.3\\times10^{3}{\\text{m/s}}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-61",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在物理学的重大发现中科学家们创造出了许多物理学研究方法，以下关于所用物理学研究方法的叙述不正确的是____\nA. 在不需要考虑物体本身的大小和形状时，用质点来代替物体的方法叫假设法\nB. 根据速度定义式$v=\\frac{\\Delta x}{\\Delta t}$，当$\\Delta t$非常非常小时，$\\frac{\\Delta x}{\\Delta t}$就可以表示物体在t时刻的瞬时速度，该定义应用了极限思想方法\nC. 在探究加速度、力和质量三者之间的关系时，先保持质量不变研究加速度与力的关系，再保持力不变研究加速度与质量的关系，该实验应用了控制变量法\nD. 在推导匀变速直线运动位移公式时，把整个运动过程划分成很多小段，每一小段近似看作匀速直线运动，然后把各小段的位移相加，这里采用了微元法",
+    "answer": "A. 在不需要考虑物体本身的大小和形状时，用质点来代替物体的方法叫假设法",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-62",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在物理学发展过程中，观察、实验、假说和逻辑推理等方法都起到了重要作用。下列叙述符合史实的是____\nA. 欧姆发现了电流通过导体时产生热效应的规律\nB. 库仑借助扭秤装置总结出了点电荷间的相互作用规律，并最早用实验测得元电荷e的数值\nC. 法拉第在实验中观察到电流的磁效应，该效应揭示了电和磁之间存在联系\nD. 安培根据通电螺线管的磁场和条形磁铁的磁场的相似性，提出了分子电流假说",
+    "answer": "C. 法拉第在实验中观察到电流的磁效应，该效应揭示了电和磁之间存在联系",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-63",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在静电场中，电子由a点运动到b点的过程中，战胜电场力做功$5eV$，则以下说法正确的选项是____\nA. 电场强度方向必然是沿ab连线而且由a点指向b点方向\nB. 电子的电势能增加了5eV\nC. a 点的电势比  b 点的低\nD. 由于没有确定零电势点，故不能够比较a,b两点的电势高低",
+    "answer": "B. 电子的电势能增加了5eV",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-64",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在用单摆测重力加速度的实验中, 若测出的g值比当地的重力加速度实际值偏大, 其原因可能是____\nA. 小球的质量偏大\nB. 单摆的振幅偏小\nC. 用摆线的长度当作摆长, 未加小球的半径\nD. 将单摆实际振动次数误记为n+1",
+    "answer": "D. 将单摆实际振动次数误记为n+1",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-65",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "两颗靠得较近的天体叫双星，它们以两者重心联线上的某点为圆心做匀速圆周运动，因而不至于因引力作用而吸引在一起.下列关于双星的说法中正确的是____\nA. 它们做圆周运动的角速度与其质量成反比\nB. 它们做圆周运动的线速度与其质量成反比\nC. 它们所受向心力与其质量成反比\nD. 它们做圆周运动的半径与其质量成正比",
+    "answer": "B. 它们做圆周运动的线速度与其质量成反比",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-66",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面说法中正确的是____\nA. 力是物体产生加速度的原因\nB. 匀速运动的物体，一定有力作用在该物体上\nC. 物体运动速度的方向与它受到的合外力的方向总是一致的\nD. 物体受外力恒定，它的速度也恒定",
+    "answer": "A. 力是物体产生加速度的原因",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-67",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "物理学上经常用物理学家的名字命名物理量的单位，以纪念他们做出的突出贡献。下列说法正确的是____\nA. 用赫兹的名字命名频率的单位\nB. 用法拉第的名字命名电量的单位\nC. 用库伦的名字命名自感系数的单位\nD. 用奥斯特的名字命名磁通量的单位",
+    "answer": "A. 用赫兹的名字命名频率的单位",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-68",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "对于人造地球卫星，可以判断____\nA. 由$v=\\sqrt{g R}$，环绕速度随R增大而增大\nB. 环绕角速度随R增大而增大\nC. 由$F=G M m/R^{2},$，当R增大到原来的2倍时，卫星需要的向心力减小为原来的1/4\nD. 由$F=\\frac{mv^2}{R},$，当R增大到原来的2倍时，卫星需要的向心力减小为原来的1/2",
+    "answer": "C. 由$F=G M m/R^{2},$，当R增大到原来的2倍时，卫星需要的向心力减小为原来的1/4",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-69",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在物理学的发展过程中，科学家们应用了许多物理学研究方法，以下关于物理学研究方法的叙述错误的是____\nA. 根据速度的定义式，当△t非常小时，就可以表示物体在t时刻的瞬时速度，该定义运用了极限思想法\nB. “总电阻”，“交流电的有效值”用的是“等效替代”的方法\nC. 在探究加速度、力和质量三者之间的关系时，先保持质量不变研究加速度与力的关系，再保持力不变研究加速度与质量的关系，该探究运用了假设法\nD. 在推导匀变速直线运动位移公式时，把整个运动过程等分成很多小段，每一小段近似看做匀速直线运动，然后粑各小段的位移相加，这里运用了微元法",
+    "answer": "C. 在探究加速度、力和质量三者之间的关系时，先保持质量不变研究加速度与力的关系，再保持力不变研究加速度与质量的关系，该探究运用了假设法",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-70",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "做匀速圆周运动的质点____\nA. 线速度大的角速度一定大\nB. 角速度大的转速一定大\nC. 转速大的周期一定大\nD. 周期长的线速度一定小",
+    "answer": "B. 角速度大的转速一定大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-71",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "无论是木锯还是钢锯，它们的锯齿都是东倒西歪不在一个平面上，这是因为：____\nA. 这样使锯齿更锋利\nB. 这样使锯更耐受撞击\nC. 锯用得太久，齿被撞歪\nD. 可以使锯口加宽，减小材料对锯的摩擦力。",
+    "answer": "D. 可以使锯口加宽，减小材料对锯的摩擦力。",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-72",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "从地面上方同一点向东与向西分别平抛出两个等质量的小物体，抛出速度大小分别为v和2v不计空气阻力，则两个小物体①从抛出到落地动量的增量相同。②从抛出到落地重力做的功相同．③从抛出到落地重力的平均功率相同．④落地时重力做功的瞬时功率相同．以上说法正确的是____\nA. ①②\nB. ③④\nC. ②③④\nD. ①②③④",
+    "answer": "D. ①②③④",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-73",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面不是气体分子运动特点的是____\nA. 气体分子间的碰撞频繁\nB. 同种气体中所有的分子运动速率基本相等\nC. 气体分子向各个方向运动的可能性是相同的\nD. 气体分子的运动速率分布具有“中间多，两头少”特点",
+    "answer": "B. 同种气体中所有的分子运动速率基本相等",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-74",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "以下说法中正确的是____\nA. 熵增加原理说明一切自然过程总是向着分子热运动的无序性减小的方向进行\nB. 在绝热条件下压缩气体，气体的内能一定增加\nC. 布朗运动是在显微镜中看到的液体分子的无规则运动\nD. 水可以浸润玻璃，但是不能浸润石蜡，这个现象表明一种液体是否浸润某种固体与这两种物质的性质没有关系",
+    "answer": "B. 在绝热条件下压缩气体，气体的内能一定增加",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-75",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在“利用单摆周期测重力加速度”实验中，若测得的 g 值偏大，可能的原因是____\nA. 摆球的质量太大\nB. 测摆长时，仅测了线长，未加小球半径\nC. 测周期时，把 n 次全振动误记为（n+1）次\nD. 摆球上端未固定牢固，振动中出现松动（摆长变长）",
+    "answer": "C. 测周期时，把 n 次全振动误记为（n+1）次",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-76",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于运动物体的速度和加速度,以下说法中错误的是____\nA. 速度值大的物体加速度值一定大\nB. 速度等于零的时刻加速度不一定等于零\nC. 速度不变,加速度一定为零\nD. 速度变化量大,加速度可能很小",
+    "answer": "A. 速度值大的物体加速度值一定大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-77",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在月球上以初速度为$v_0$竖直上抛一小球，经过时间T落回月面，已知月球半径为R，则月球的第一宇宙速度是____\nA. $\\sqrt{\\frac{2v_0T}{R}}$\nB. $\\sqrt{\\frac{2v_0R}{T}}$\nC. $\\sqrt{\\frac{v_0^2R}{T}}$\nD. $\\sqrt{\\frac{v_0R}{T}}$",
+    "answer": "B. $\\sqrt{\\frac{2v_0R}{T}}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-78",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2022年6月5日10时44分10秒，航天员陈冬、刘洋、蔡旭哲乘坐神舟十四号载人飞船从酒泉卫星发射中心升空，飞船采取径向对接方式与天宫空间站实现对接，在对接过程中，神舟飞船轨道半径缓慢增大，可近似地看成在不同轨道上做稳定的圆周运动。关于对接过程中的神州十四号，以下选项正确的是____\nA. 飞船中的航天员处于完全失重状态，因此万有引力等于零\nB. 飞船飞行速度大于第二宇宙速度\nC. 飞船运行周期变小\nD. 飞船的加速度变小",
+    "answer": "D. 飞船的加速度变小",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-79",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "烟雾探测器使用了一种半衰期为432年的放射性元素镅$^{241}_{95}\\mathrm{Am}$来探测烟雾。当正常空气分子穿过探测器时，镅$^{241}_{95}\\mathrm{Am}$会释放出射线将它们电离，从而产生电流。烟尘一旦进入探测腔内，烟尘中的微粒会吸附部分射线，导致电流减小，从而触发警报。则下列说法正确的是____\nA. 镅$^{241}_{95}\\mathrm{Am}$发出的是$\\alpha$射线\nB. 镅$^{241}_{95}\\mathrm{Am}$发出的是$\\beta$射线\nC. 0.2 mg的镅经864年将衰变完。\nD. 发生火灾时，由于温度升高，会使镅的半衰期减小。",
+    "answer": "A. 镅$^{241}_{95}\\mathrm{Am}$发出的是$\\alpha$射线",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-80",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在某次检测国产某品牌汽车的刹车性能时，通过传感器发现踩下刹车后，汽车的位移与时间的关系满足$x=30t-5t^2$，则关于该次测试，下列说法正确的是____\nA. 汽车4s内的位移是40m\nB. 汽车的加速度是$-5m/s^{2}$\nC. 汽车的初速度是$20m/s$\nD. 汽车刹车2s后的速度是$10m/s$",
+    "answer": "D. 汽车刹车2s后的速度是$10m/s$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-81",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "以下说法符合物理史实的是____\nA. 牛顿通过理想斜面实验发现了物体的运动不需要力来维持\nB. 亚里士多德发现了力是改变物体运动状态的原因\nC. 伽利略认为自由落体运动速度随时间均匀变化\nD. 笛卡尔对牛顿第三定律的建立做出了贡献",
+    "answer": "C. 伽利略认为自由落体运动速度随时间均匀变化",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-82",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "真空中两个相同的带等量异号电荷的金属球A和B（均可看成点电荷），分别固定在两处，两球间的静电力为F。现用一个不带电的完全相同金属小球C先与A接触，再与B接触，然后移开C，再让A、B的间距增大为原来的2倍，此时A、B间的静电力为____\nA. $\\frac{F}{4}$\nB. $\\frac{F}{8}$\nC. $\\frac{F}{16}$\nD. $\\frac{F}{32}$",
+    "answer": "D. $\\frac{F}{32}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-83",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆娱乐电瓶车，工作电压为24V，工作电流为10A，效率为80%，车和人的总重为2000N，行驶时受到的阻力为车和人总重的0.1倍，那么该车匀速行驶120m需多长时间____\nA. 80秒\nB. 100秒\nC. 125秒\nD. 150秒",
+    "answer": "D. 150秒",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-84",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列描述中不符合物理学史的是____\nA. 第谷测出了引力常量\nB. 开普勒总结出了太阳系中行星的运动规律\nC. 牛顿总结出了万有引力定律\nD. 亚当斯和勒威耶分别独立计算出海王星的运行轨道",
+    "answer": "A. 第谷测出了引力常量",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-85",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知月球的半径为R，在月球表面以初速度$v_0$竖直上抛一小球，经时间t落回到手中．如果在月球上发射一颗绕月球做匀速圆周运动的卫星，以下说法正确的是____\nA. 卫星的线速度不可能大于$\\sqrt{\\frac{2v_0R}{t}}$\nB. 卫星的加速度可能大于$\\frac{2v_0}{t}$\nC. 卫星的角速度不可能小于$\\sqrt{\\frac{2v_0}{Rt}}$\nD. 卫星的周期可能小于$\\sqrt{\\frac{2 \\pi^2Rt}{v_0}}$",
+    "answer": "A. 卫星的线速度不可能大于$\\sqrt{\\frac{2v_0R}{t}}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-86",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一定质量气体，在体积不变的情况下，温度升高，关于压强增大的原因，下列说法错误的是？____\nA. 温度升高后，气体分子的平均速率变大\nB. 温度升高后，气体分子的平均动能变大\nC. 温度升高后，分子撞击器壁的平均作用力增大\nD. 温度升高后，单位体积内的分子数增多，撞击到单位面积器壁上的分子数增多了",
+    "answer": "D. 温度升高后，单位体积内的分子数增多，撞击到单位面积器壁上的分子数增多了",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-87",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一汽车在路面情况相同的公路上直线行驶，下面关于车速、惯性、质量和滑行路程的讨论，正确的是____\nA. 车速越大，它的惯性越小\nB. 质量越大，它的惯性越大\nC. 车速越大，刹车后滑行的路程越短\nD. 车速越大，刹车后滑行的路程越长，所以惯性越大",
+    "answer": "B. 质量越大，它的惯性越大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-88",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "质点作匀速直线运动，前一半行程的速度是v1，后一半行程的速度是v2则全程的平均速度是____\nA. $\\frac{v_{1} + v_{2}}{2}$\nB. $\\frac{2v_{1}v_{2}}{v_{1} + v_{2}}$\nC. $\\frac{v_{1}v_{2}}{v_{1} + v_{2}}$\nD. $\\frac{v_{1} + v_{2}}{v_{1}v_{2}}$",
+    "answer": "B. $\\frac{2v_{1}v_{2}}{v_{1} + v_{2}}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-89",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某同学身高1.6m，在运动会上他参加跳高比赛，起跳后身体横越过了1.6ｍ高度的横杆，据此可估算出他起跳时竖直向上的速度大约为（ｇ取$10m/s^2$）____\nA. $1.6m/s^2$\nB. $2m/s^2$\nC. $4m/s^2$\nD. $7.2m/s^2$",
+    "answer": "C. $4m/s^2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-90",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "自然界中有很多物体做曲线运动，在曲线运动中，物体的运动速度____\nA. 方向一定改变\nB. 方向一定不变\nC. 大小一定改变\nD. 大小一定不变",
+    "answer": "A. 方向一定改变",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-91",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列对电现象及规律的认识中,正确的是____\nA. 自然界中只存在正、负两种电荷\nB. 同种电荷相互吸引,异种电荷相互排斥\nC. 摩擦起电说明了电荷可以被创造\nD. 点电荷间的静电力随它们之间距离的增大而增大",
+    "answer": "A. 自然界中只存在正、负两种电荷",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-92",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "氕、氘、氚是同位素，它拥有同样的____\nA. 质量\nB. 质子数\nC. 中子数\nD. 核子数",
+    "answer": "B. 质子数",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-93",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "游客坐过山车，在圆弧轨道最低点处获得的向心加速度达到20 m/s^2，g取10 m/s^2，那么此位置座椅对游客的作用力相当于游客重力的____\nA. 1倍\nB. 2倍\nC. 3倍\nD. 4倍",
+    "answer": "C. 3倍",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-94",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列叙述中，正确的是____\nA. 物体温度越高，每个分子的动能也越大\nB. 布朗运动就是液体分子的运动\nC. 一定质量的理想气体从外界吸收热量，其内能可能不变\nD. 可能不变",
+    "answer": "C. 一定质量的理想气体从外界吸收热量，其内能可能不变",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-95",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "用10N的力N把木块压在竖直墙面上，木块与墙面间的动摩擦因数为0.4.若木块所受重力为10N，为使木块能匀速下滑，作用在木块上的向上拉力F的大小为____\nA. 4N\nB. 6N\nC. 10N\nD. 14N",
+    "answer": "B. 6N",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-96",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2020年11月10日，“奋斗者”号载人潜水器在马里亚纳海沟成功坐底，坐底深度10909米。“奋斗者”号这条庞然“大鱼”有几十吨重，两人多高，从“蛟龙”号到“奋斗者”号，中国深潜勇士不断向洋底最深处进军。在这则新闻中涉及了长度、质量和时间及其单位，下列说法正确的是____\nA. “深度10909米”中，“米”是国际单位制中力学三个基本物理量之一\nB. 力学中的三个基本物理量是长度、质量、时间，物理学中所有的物理量都有单位\nC. “有几十吨重”中，“吨”是国际单位制中的导出单位\nD. “千克米每二次方秒”被定义为“牛顿”，“牛顿”是国际单位制中的导出单位",
+    "answer": "D. “千克米每二次方秒”被定义为“牛顿”，“牛顿”是国际单位制中的导出单位",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-97",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在研究物体的“加速度、作用力和质量”三个物理量的关系时，我们用实验研究了小车“在质量一定的情况下，加速度和作用力的关系”；又研究了“在作用力一定的情况下，加速度和质量之间的关系”．这种研究物理问题的科学方法是____\nA. 建立理想模型的方法\nB. 控制变量法\nC. 等效替代法\nD. 类比法",
+    "answer": "B. 控制变量法",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-98",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于物理学思想方法，下列说法中正确的是____\nA. 在推导匀变速直线运动位移公式时，把整个运动过程划分成很多小段，每一段近似看成匀速直线运动，然后把各小段的位移相加，这里运用了等效替代法\nB. 在研究加速度a和外力F，质量m的关系时，主要应用了理想模型的方法\nC. “验证力的平行四边形定则”时，主要应用了理想实验方法\nD. 在定义“速度”、“加速度”、“密度”等物理量时，主要应用了比值法定义物理量",
+    "answer": "D. 在定义“速度”、“加速度”、“密度”等物理量时，主要应用了比值法定义物理量",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-99",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "物理现象与历史人物之间总有着密切的关系，下列说法中错误的是____\nA. 爱因斯坦在光的粒子性的基础上，建立了光电效应方程\nB. 康普顿效应揭示了光的波动性\nC. 光电效应现象说明光具有粒子性\nD. 在光的双缝干涉实验中，狭缝变窄，在光的亮度不变的情况下，明暗条纹间的距离变宽",
+    "answer": "B. 康普顿效应揭示了光的波动性",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-100",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在“探究加速度与力、质量的关系”的实验中，下列说法中正确的是____\nA. 在探究加速度与质量的关系时，应该改变拉力的大小\nB. 在探究加速度与外力的关系时，应该改变小车的质量\nC. 在探究加速度a与小车质量M的关系时，为了直观判断二者间的关系，应作出a－1M图象\nD. 当小车的质量远大于盘和砝码的总质量时，可以认为细线对小车的拉力大小等于盘和砝码的总重力大小",
+    "answer": "C. 在探究加速度a与小车质量M的关系时，为了直观判断二者间的关系，应作出a－1M图象",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-101",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于电磁波在真空中的传播速度,下列说法正确的是____\nA. 频率越高,传播速度越大\nB. 电磁波的能量越强,传播速度越大\nC. 波长越长,传播速度越大\nD. 频率、波长、强弱都不影响电磁波的传播速度",
+    "answer": "D. 频率、波长、强弱都不影响电磁波的传播速度",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-102",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "人乘电梯上楼,先后经历匀加速直线运动、匀速直线运动和匀减速直线运动三个过程.则人处于超重状态的是____\nA. 匀加速直线运动过程\nB. 匀速直线运动过程\nC. 匀减速直线运动过程\nD. 匀速直线运动和匀减速直线运动过程",
+    "answer": "A. 匀加速直线运动过程",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-103",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一汽车从制动到停止用了4s。这段时间内，汽车每1s前进的距离分别是7m、5m、3m、1m，下列说法正确的是____\nA. 汽车的加速度大小为$2m/s^2$\nB. 汽车的初速度大小为16m/s\nC. 汽车前2s的平均速度大小为3m/s\nD. 汽车第3s内的平均速度大于后3s的平均速度",
+    "answer": "A. 汽车的加速度大小为$2m/s^2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-104",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在做“探究求合力的方法”实验时，橡皮条的一端固定在木板上，用两个弹簧测力计把橡皮条的另一端拉到某一确定的O点。以下操作中正确的是____\nA. 同一次实验过程中，O位置允许变动\nB. 实验中，弹簧测力计必须保持与木板平行，读数时视线要正对弹簧测力计刻度\nC. 实验中，先将其中一个弹簧测力计沿某一方向拉到最大量程，然后只需调节另一弹簧测力计的大小和方向，把橡皮条另一端拉到O点\nD. 实验中，把橡皮条的另一端拉到O点时，两个弹簧测力计之间夹角应取90°，以便于算出合力大小",
+    "answer": "B. 实验中，弹簧测力计必须保持与木板平行，读数时视线要正对弹簧测力计刻度",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-105",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2021年4月18日22时11分在台湾花莲县发生6.1级地震，震源深度7km，绣湖小区的几幢高楼里的居民反映“震感明显”，而X市民普遍反映“没有感觉”。针对这一事件，下列同学的认识中科学合理的是____\nA. X市民没有感觉是因为地震波到达X市时，还未发生受迫振动\nB. 绣湖小区高楼的固有频率与当时地震波的频率更加接近\nC. 地震波在X市发生叠加，绣湖小区处在振动加强带上，X市民恰好处在振动减弱带上\nD. 应对绣湖小区的高楼采取物理措施改变它们的固有频率以防止地震危害",
+    "answer": "B. 绣湖小区高楼的固有频率与当时地震波的频率更加接近",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-106",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "打开同步卫星上的发动机使其速度加大，待它运动到距离地面的高度比原来大的位置，再定位使它绕地球做匀速圆周运动成为另一个轨道的卫星，与原来相比____\nA. 速率增大\nB. 周期减小\nC. 机械能增大\nD. 动能增大",
+    "answer": "C. 机械能增大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-107",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "为了使理想变压器的输入功率变为原来的2倍，在其他条件不变的情况下，可使____\nA. 负载电阻R变为原来的1/4\nB. 初极线圈的匝数n1变为原来的1/2\nC. 次极线圈的匝数n2变为原来的2倍\nD. 使R与n2都变为原来的2倍",
+    "answer": "D. 使R与n2都变为原来的2倍",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-108",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "雨滴由静止开始下落，遇到水平方向吹来的风，下述说法中正确的是____\nA. 风速越大，雨滴下落时间越长\nB. 风速越大，雨滴着地时速度越小\nC. 雨滴下落时间与风速无关\nD. 雨滴着地速度与风速无关",
+    "answer": "C. 雨滴下落时间与风速无关",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-109",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一根轻质弹性绳（产生的弹力与其伸长量满足胡克定律）的一端固定在水平天花板上，其自然伸直的长度为72cm，若将一钩码挂在弹性绳的下端点，平衡时弹性绳的总长度为80cm；若将弹性绳的两端固定在天花板上的同一点，用同样的钩码挂在弹性绳的中点，平衡时弹性绳的总长度变为（弹性绳的伸长始终处于弹性限度内）____\nA. 74cm\nB. 76cm\nC. 80cm\nD. 88cm",
+    "answer": "B. 76cm",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-110",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "从同一高度分别抛出质量相等的三个小球，一个坚直上抛，一个坚直下抛，另一个平抛．则它们从抛出到落地____\nA. 运动的时间相等\nB. 加速度相同\nC. 落地时的速度相同\nD. 落地时的动能相等",
+    "answer": "B. 加速度相同",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-111",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列说法错误的是____\nA. 伽利略的斜面实验是牛顿第一定律的实验基础\nB. 物体不受外力作用时，一定处于静止状态\nC. 力是改变物体运动状态的原因\nD. 牛顿第一定律是利用逻辑思维对事实进行分析的产物，不可能用实验直接验证",
+    "answer": "B. 物体不受外力作用时，一定处于静止状态",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-112",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某人站在地面上，先将两腿弯曲，再用力蹬地，向上跳离地面。人能跳离地面的直接原因是____\nA. 人对地面的作用力大于人的重力\nB. 地面对人的作用力大于人对地面的作用力\nC. 地面对人的作用力大于人的重力\nD. 人除受地面的弹力外，还受到一个向上的力",
+    "answer": "C. 地面对人的作用力大于人的重力",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-113",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某人在平直公路上骑自行车，见前方较远处红色交通信号灯亮起，他便停止蹬车，此后的一小段时间内，自行车前轮和后轮受到地面的摩擦力分别为$f_1$和$f_2$，则____\nA. $f_1$向后,$f_2$向前\nB. $f_1$向前,$f_2$向后\nC. $f_1$向后,$f_2$向后\nD. $f_1$向前,$f_2$向前",
+    "answer": "C. $f_1$向后,$f_2$向后",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-114",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一颗子弹沿水平方向射中一悬挂着的砂袋并留在其中，子弹的动能有部分转化为内能，为了使转化为内能的量在子弹原来的机械能中占的比例增加，可采用的方法是____\nA. 使悬挂砂袋的绳变短\nB. 使子弹的速度增大\nC. 使子弹质量增加\nD. 使砂袋的质量增大",
+    "answer": "D. 使砂袋的质量增大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-115",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "物体做简谐振动，每当物体到达同一位置时，保持不变的物理量有____\nA. 速度\nB. 加速度，速度和动量\nC. 动量\nD. 动能",
+    "answer": "D. 动能",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-116",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在物理学的开展过程中，许多物理学家的科学发现推动了人类历史的进步．在对以 下几位物理学家所作科学贡献的表示中，正确的说法是____\nA. 法拉第发现了电流的磁效应\nB. 麦克斯韦建立了完整的电磁场理论并首先验证了电磁波存在\nC. 法拉第发现了在磁场中产生电流的条件和规律\nD. 牛顿发现了电流在磁场中受到磁场力的作用规律",
+    "answer": "C. 法拉第发现了在磁场中产生电流的条件和规律",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-117",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙两个物体在同一直线上沿正方向运动,$a_甲=4 m/s^2$,$a_乙=-4m/s^2$,那么对甲、乙两物体判断正确的是____\nA. 甲的加速度大于乙的加速度\nB. 甲做加速直线运动,乙做减速直线运动\nC. 甲的速度比乙的速度变化快\nD. 甲、乙在相等时间内速度变化可能相等",
+    "answer": "B. 甲做加速直线运动,乙做减速直线运动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-118",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列实例属于超重现象的是____\nA. 汽车驶过拱形桥顶端\nB. 荡秋千的小孩通过最高点\nC. 跳水运动员被跳板弹起，离开跳板向上运动\nD. 火箭点火后加速升空。",
+    "answer": "D. 火箭点火后加速升空。",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-119",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有一种新颖的“静电\"绝缘纤维布制成的预防新型冠状病毒肺炎口罩。熔喷布经驻极工艺，表面带有电荷，它能阻隔几微米的病毒，这种静电的阻隔作用属于____\nA. 静电感应\nB. 摩擦起电\nC. 静电吸附\nD. 电磁感应",
+    "answer": "C. 静电吸附",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-120",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于运动和力的关系，以下说法正确的选项是____\nA. 当物体所受合外力不变时，运动状态必然不变\nB. 当物体所受合外力为零时，速度大小必然不变\nC. 当物体运动轨迹为直线时，所受合外力必然为零\nD. 当物体速度为零时，所受合外力必然为零",
+    "answer": "B. 当物体所受合外力为零时，速度大小必然不变",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-121",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于力和运动的关系,下列说法正确的是____\nA. 物体的速度不断增大,则物体可能不受力的作用\nB. 物体的位移不断增大,则物体必受力的作用\nC. 若物体的位移与运动时间的平方成正比,则物体必受力的作用\nD. 物体的速率不变,则其所受合外力必为零",
+    "answer": "C. 若物体的位移与运动时间的平方成正比,则物体必受力的作用",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-122",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "烟雾自动报警器的探测器中装有放射性元素镅241，其衰变方程为$_{95}^{241}Am\\rightarrow_{93}^{237}Np+_{2}^{4}He+\\gamma$,下列说法正确的是____\nA. $\\gamma$是光子，不具有能量\nB. $_{2}^{4}He$是$\\alpha$粒子，有很强的贯穿本领\nC. $_{93}^{237}Np$比$_{95}^{241}Am$的原子核更稳定\nD. 冬天气温较低时，镅241的半衰期会变小",
+    "answer": "C. $_{93}^{237}Np$比$_{95}^{241}Am$的原子核更稳定",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-123",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于分子运动和热现象的说法正确的是____\nA. 气体如果失去了容器的约束就会散开，这是因为气体分子之间存在引力的缘故\nB. 一定量100℃的水变成100℃的水蒸气，其分子之间的势能减小\nC. 对于一定量的气体，如果压强不变，体积增大，那么它一定从外界吸热\nD. 如果气体分子总数不变，而气体温度升高，气体分子的平均动能增大，因此压强必然增大",
+    "answer": "C. 对于一定量的气体，如果压强不变，体积增大，那么它一定从外界吸热",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-124",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "将橡皮条拉长时（未拉断），它内部分子间的____\nA. 分子间的斥力大于引力\nB. 分子间的斥力等于引力\nC. 分子间的斥力小于引力\nD. 分子间的距离过大，不能够产生足够的引力",
+    "answer": "C. 分子间的斥力小于引力",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-125",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在光滑的斜面上自由下滑的物体，所受的力为____\nA. 重力和斜面的支持力\nB. 重力、下滑力和斜面的支持力\nC. 重力和下滑力\nD. 重力、下滑力、斜面的支持力和紧压斜面的力",
+    "answer": "A. 重力和斜面的支持力",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-126",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于分子力和分子势能的说法中，正确的是____\nA. 当分子力表现为引力时，分子力和分子势能总是随分子间距离的增大而增大\nB. 当分子力表现为引力时，分子力和分子势能总是随分子间距离的增大而减小\nC. 当分子力表现为斥力时，分子力和分子势能总是随分子间距离的减小而增大\nD. 当分子力表现为斥力时，分子力和分子势能总是随分子间距离的减小而减小",
+    "answer": "C. 当分子力表现为斥力时，分子力和分子势能总是随分子间距离的减小而增大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-127",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "以下关于电容器的说法，正确的选项是____\nA. 电容器带电量越多，电容越大\nB. 电容器两板电势差越小，电容越大\nC. 电容器的电容与带电量成正比，与电势差成反比\nD. 随着电容器电量的增加，电容器两极板间的电势差也增大",
+    "answer": "D. 随着电容器电量的增加，电容器两极板间的电势差也增大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-128",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "伽利略在著名的斜面实验中，让小球分别沿倾角不同、阻力很小的斜面从静止开始滚下，他通过实验观察和逻辑推理，得到的正确结论有____\nA. 倾角一定时，小球在斜面上的位移与时间成正比\nB. 倾角一定时，小球在斜面上的速度与时间成正比\nC. 斜面长度一定时，小球从顶端滚到底端时的速度与倾角无关\nD. 斜面长度一定时，小球从顶端滚到底端所需的时间与倾角无关",
+    "answer": "B. 倾角一定时，小球在斜面上的速度与时间成正比",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-129",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于动量定理，下列说法正确的是____\nA. 动量越大，合外力的冲量越大\nB. 动量变化量越大，合外力冲量越大\nC. 动量变化率越大，合外力越小\nD. 冲量方向与动量方向相同",
+    "answer": "B. 动量变化量越大，合外力冲量越大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-130",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于速度、加速度、合外力之间的关系，正确的是____\nA. 物体的速度越大，则加速度越大，所受的合外力也越大\nB. 物体的速度为零，则加速度为零，所受的合外力也为零\nC. 物体的速度为零，但加速度可能很大，所受的合外力也可能很大\nD. 物体的速度很大，加速度也一定大",
+    "answer": "C. 物体的速度为零，但加速度可能很大，所受的合外力也可能很大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-131",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "双缝干涉的实验中，若是在光屏上的 P处是亮条纹。那么光波从缝S1、S2到P处的行程差 r1,r2应是____\nA. 波长的整数倍\nB. 半波长的奇数倍\nC. 可是波长的奇数倍\nD. 可是半波长的奇数倍",
+    "answer": "A. 波长的整数倍",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-132",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙两船质量都是M，开始船尾靠近且静止在平静的湖面上，一质量为m的人先站在甲船上，然后由甲船跳到乙船，再由乙船跳回甲船，最后从甲船以乙船相同的速度跳入水中，不计水对船的阻力，则甲、乙两船速度大小之比是____\nA. 人从甲船跳入水中前，两船速度之比是M:(M+m)\nB. 人从甲船跳入水中前，两船速度之比(M+m):m\nC. 人从甲船跳入水中后，两船速度之比是2M:(M+m)\nD. 人从甲船跳入水中后，两船速度之比是1∶1",
+    "answer": "A. 人从甲船跳入水中前，两船速度之比是M:(M+m)",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-133",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "吊在大厅天花板上的电扇重力为Ｇ，静止时固定杆对它的拉力为Ｔ，扇叶水平转动起来后，杆对它的拉力为$T^{\\prime}$，则____\nA. $T=G,T^{\\prime}=T$\nB. $T=G,T^{\\prime}>T$\nC. $T=G,T^{\\prime}<T$\nD. $T^{\\prime}=G,T^{\\prime}>T$",
+    "answer": "C. $T=G,T^{\\prime}<T$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-134",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列现象中,与离心运动无关的是____\nA. 火车转弯时,外侧车道略高于内侧车道\nB. 汽车急刹车时,乘客向前倾\nC. 洗衣机脱水桶旋转,衣服紧贴在桶壁上\nD. 棉花糖的制作",
+    "answer": "B. 汽车急刹车时,乘客向前倾",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-135",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在某运动过程中，重力对物体做功200 J，则____\nA. 物体的动能一定增加200J\nB. 物体的动能一定减少200 J\nC. 物体的重力势能一定增加200 J\nD. 物体的重力势能一定减少200 J",
+    "answer": "D. 物体的重力势能一定减少200 J",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-136",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "当人走向银行门口时，门就会自动打开，是因为门上安装了如下哪种传感器____\nA. 温度传感器\nB. 压力传感器\nC. 红外线传感器\nD. 声音传感器",
+    "answer": "C. 红外线传感器",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-137",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "如下关于节约用电的做法，不正确的答案是____\nA. 较长时间不使用计算机时，关闭显示器，启用休眠状态\nB. 选购电冰箱时，选择低能耗产品\nC. 傍晚做作业时，不到完全看不见，坚持不开灯\nD. 养成习惯，人走关灯",
+    "answer": "C. 傍晚做作业时，不到完全看不见，坚持不开灯",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-138",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于速度、加速度、合力间的关系，正确的是____\nA. 物体的速度越大，则物体的加速度越大，所受合力也越大\nB. 物体的速度为零，则物体的加速度一定为零，所受合力也为零\nC. 若物体的速度发生反向，加速度也发生反向\nD. 物体的速度很大，加速度可能为零，所受的合力也可能为零",
+    "answer": "D. 物体的速度很大，加速度可能为零，所受的合力也可能为零",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-140",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "对于一定量的稀薄气体,下列说法正确的是____\nA. 压强变大时,分子热运动必然变得剧烈\nB. 保持压强不变时,分子热运动可能变得剧烈\nC. 压强变大时,分子间的平均距离必然变小\nD. 压强变小时,分子间的平均距离可能变小",
+    "answer": "D. 压强变小时,分子间的平均距离可能变小",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-141",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "a，b两物体同时、同地、同向做匀变速直线运动，若加速度相同，初速度不同，则在运动过程中，下列说法正确的是____\nA. ａ、ｂ两物体速度之差会变化\nB. ａ、ｂ两物体速度之差与时间成正比\nC. ａ、ｂ两物体位移之差与时间成正比\nD. ａ、ｂ两物体位移之差与时间平方成正比",
+    "answer": "C. ａ、ｂ两物体位移之差与时间成正比",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-142",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于质点做曲线运动的说法中，正确的是____\nA. 加速度方向与速度方向可能平行\nB. 加速度方向与速度方向不可能垂直\nC. 速度可能不变，如匀速圆周运动\nD. 某一位置的速度方向与曲线在这一点的切线方向一致",
+    "answer": "D. 某一位置的速度方向与曲线在这一点的切线方向一致",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-143",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "很多相同的绝缘铜圆环沿竖直方向叠放,形成一很长的竖直圆筒。一条形磁铁沿圆筒的中心轴竖直放置,其下端与圆筒上端开口平齐。让条形磁铁从静止开始下落。条形磁铁在圆筒中的运动速率____\nA. 均匀增大\nB. 先增大,后减小\nC. 逐渐增大,趋于不变\nD. 先增大,再减小,最后不变",
+    "answer": "C. 逐渐增大,趋于不变",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-144",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "若用国际单位制基本单位的符号来表示弹簧劲度系数的单位，则正确的是____\nA. $m/N$\nB. $kg/m$\nC. $kg/s$\nD. $kg/s^2$",
+    "answer": "D. $kg/s^2$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-145",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "地球表面附近某区域存在大小为150 N/C、方向竖直向下的电场。一质量为$1.00×10{-4}$ kg、带电量为$-1.00×10{-7}$ C的小球从静止释放,在电场区域内下落10.0 m。对此过程,该小球的电势能和动能的改变量分别为d多少？(重力加速度大小取$9.80 m/s^2$,忽略空气阻力)____\nA. $-1.50\\times10^{-4}$和$9.95\\times10^{-3}  J$\nB. $1.50\\times10^{-4}$和$9.95\\times10^{-3}  J$\nC. $-1.50\\times10^{-4}$和$9.65\\times10^{-3}  J$\nD. $1.50\\times10^{-4}$和$9.65\\times10^{-3}  J$",
+    "answer": "D. $1.50\\times10^{-4}$和$9.65\\times10^{-3}  J$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-146",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "16世纪纪末，伽利略用实验和推理，推翻了已在欧洲流行了近两千年的亚里士多德关于力和运动的理论，开启了物理学发展的新纪元。在以下说法中，与亚里士多德观点相反的是____\nA. 四匹马拉拉车比两匹马拉的车跑得快：这说明，物体受的力越大，速度就越大\nB. 一个运动的物体，如果不再受力了，它总会逐渐停下来，这说明，静止状态才是物体长时间不受力时的“自然状态”\nC. 两物体从同一高度自由下落，较重的物体下落较快\nD. 一个物体维持匀速直线运动，不需要受力",
+    "answer": "D. 一个物体维持匀速直线运动，不需要受力",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-147",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "人的体温是由“下丘脑〞中特殊神经细胞组织控制的，它对人体体温的变化很敏感，当下丘脑温度高于37℃时，人体散热机制〔如血管舒张、出汗等〕就会活泼起来。37℃时蒸发20克汗水所需能量为4780J。现有一中年人步行时，每秒钟体内产生的热量为35J，而此时人体通过传导、辐射等方式〔不包括出汗〕产生的散热功率只有33W，因此还要通过出汗的方式才能保持37℃的体温不变。那么此人步行30分钟出汗约为____\nA. 10g\nB. 15g\nC. 20g\nD. 25g",
+    "answer": "B. 15g",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-149",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "土星外层上有一个环，为了判断它是土星的一部分还是土星的卫星群，可以根据环中各层的线速度v与该层到土星中心的距离R之间的关系来判断____\nA. 若$v \\propto R$，则该层是土星的一部分\nB. 若$v^2 \\propto R$，则该层是土星的卫星群\nC. 若$v \\propto 1 / R$，则该层不是土星的一部分\nD. 若$v^2 \\propto 1/R$，则该层是土星的卫星群",
+    "answer": "A. 若$v \\propto R$，则该层是土星的一部分",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-150",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于核聚变，下列说法错误的是____\nA. 聚变又叫热核反应\nB. 太阳就是一个巨大的热核反应堆\nC. 高温能使原子核克服核力而聚变\nD. 对相同质量的核燃料，轻核聚变比重核裂变产能多",
+    "answer": "C. 高温能使原子核克服核力而聚变",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-151",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙两辆汽车质量之比m1:m2=1:2,在完全相同的水平路面上匀速行驶,它们的速度之比v1:v2=2:1,关闭发动机后它们分别滑行了s1和s2距离后静止,则s1:s2为____\nA. $1:2$\nB. $1:1$\nC. $2:1$\nD. $4:1$",
+    "answer": "D. $4:1$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-152",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于近代物理知识的描述正确的是____\nA. 处于n=4能级状态的大量氢原子自发跃迁时，能发出4种频率的光子\nB. 衰变中产生的β射线实际上是原子的核外电子挣脱原子核的束缚而形成的\nC. 当用蓝色光照射某金属表面时有电子逸出，则改用紫光照射也一定会有电子逸出\nD. 在$^{14}_{7}H + ^{4}_{2}He \\to ^{17}_{8}O + X$核反应中，X是质子，这个反应过程叫$\\alpha$衰变",
+    "answer": "C. 当用蓝色光照射某金属表面时有电子逸出，则改用紫光照射也一定会有电子逸出",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-153",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "以下关于放射性元素的半衰期的说法中正确的选项是____\nA. 半衰期仅跟原子所处的化学状态有关\nB. 半衰期仅跟原子所处的物理状态有关\nC. 半衰期跟原子所处的化学状态和物理状态有关\nD. 半衰期跟原子所处的化学状和物理状态没关",
+    "answer": "D. 半衰期跟原子所处的化学状和物理状态没关",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-154",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "设想人类开发月球，不断把月球上的矿藏搬运到地球上，假定经过长时间开采后，地球仍可看作是均匀的球体，月球仍沿开采前的圆周轨道运动，则与开采前相比____\nA. 月球的质量不变\nB. 地球与月球间的万有引力将变大\nC. 月球绕地球运动的周期将变长\nD. 月球绕地球运动的周期将变短",
+    "answer": "D. 月球绕地球运动的周期将变短",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-155",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "质量为M的木块位于粗糙水平桌面上,若用大小为F的水平恒力拉木块,其加速度为a.当拉力方向不变,大小变为2F时,木块的加速度为a＇,则____\nA. a＇=a\nB. a＇<2a\nC. a＇>2a\nD. a＇=2a",
+    "answer": "C. a＇>2a",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-156",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在天体运动中有这样的现象：两个星球绕它们连线上的一点做匀速圆周运动（称为双星），若两星体的质量分别为m1和m2，且m1＞m2，则____\nA. 两星球做圆周运动的线速度大小相等\nB. 两星球做圆周运动的角速度大小不同\nC. 两星球做圆周运动的向心加速度大小相等\nD. 在相等时间内两星球的动量改变量大小相等",
+    "answer": "D. 在相等时间内两星球的动量改变量大小相等",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-157",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "宇宙飞船要与环绕地球运转的轨道空间站对接，飞船为了追上轨道空间站____\nA. 只能从较低轨道上加速\nB. 只能从较高轨道上加速\nC. 只能从与空间站同一高度轨道上加速\nD. 无论在什么轨道上，只要加速都行",
+    "answer": "A. 只能从较低轨道上加速",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-158",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一石块从高度为H处自由下落，当速度达到落地速度的一半时，它下落的距离等于____\nA. H/2\nB. H/4\nC. 3H/2\nD. $\\sqrt{2}H/{2}$",
+    "answer": "B. H/4",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-159",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "汽车从静止开始沿平直公路做匀加速运动,所受阻力始终不变,在此过程中,如下说法正确的答案是____\nA. 汽车发动机的输出功率保持不变\nB. 汽车发动机的输出功率逐渐减小\nC. 在任意两相等的位移内,汽车的动能变化相等\nD. 在任意两相等的位移内,汽车的速度变化相等",
+    "answer": "C. 在任意两相等的位移内,汽车的动能变化相等",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-160",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "有电动势为6V、内电阻为$1.5\\Omega$的蓄电池，串联后向$R=30\\Omega$的外电路供电，则电路的路端电压为____\nA. 6V\nB. 5V\nC. 4V\nD. 3V",
+    "answer": "C. 4V",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-161",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "国际单位制基本单位是由物理学家订定的基本标准单位。缩写为SI，国际单位制中共有七个基本单位。下列单位中不属于国际单位制中基本单位的是____\nA. N\nB. kg\nC. s\nD. m",
+    "answer": "A. N",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-162",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列单位中属于国际单位制基本单位的是____\nA. 千克\nB. 牛顿\nC. 焦耳\nD. 瓦特",
+    "answer": "A. 千克",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-163",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个筛子用四根相同的弹簧支起来，筛子上装一个电动偏心轮，它转动过程中，给筛子以周期性的驱动力，这就做成了一个共振筛．筛子做自由振动时，完成20次全振动用时10ｓ，在某电压下，电动偏心轮的转速是90转／分钟，已知增大电动偏心轮的驱动电压，可以使其转速提高，增加筛子的质量，可以增大筛子的固有周期，要使筛子的振幅增大，下列办法可行的是____\nA. 降低偏心轮的驱动电压\nB. 提高偏心轮的驱动电压\nC. 增加筛子的质量并且降低偏心轮的驱动电压\nD. 减小筛子的质量",
+    "answer": "B. 提高偏心轮的驱动电压",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-164",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "普朗克常量$h=6.626\\times10^{-34}J\\cdot s$光速为c，电子质量为$m_e$,则$\\frac{h}{m_{e}c}$在国际单位制下的单位是____\nA. $J/s$\nB. m\nC. $j \\cdot m$\nD. $m/s$",
+    "answer": "B. m",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-165",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "质量为50kg的一学生从1.8m高处跳下，双脚触地后，他紧接着弯曲双腿使重心下降0.6m，则着地过程中，地面对他的平均作用力为____\nA. 500N\nB. 1500N\nC. 2000N\nD. 1000N",
+    "answer": "C. 2000N",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-166",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "对质点运动来说，以下说法中正确的是____\nA. 某时刻速度为零，则此时刻加速度一定为零\nB. 当质点的加速度逐渐减小时，其速度一定会逐渐减小\nC. 加速度恒定的运动可能是曲线运动\nD. 匀变速直线运动的加速度是0",
+    "answer": "C. 加速度恒定的运动可能是曲线运动",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-167",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "电子秤称量物体质量,是因为电子秤安装了什么传感器____\nA. 温度传感器\nB. 红外线传感器\nC. 压力传感器\nD. 生物传感器",
+    "answer": "C. 压力传感器",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-168",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "低碳生活代表着更健康、更自然、更安全的生活，同时也是一种低成本、低代价的生活方式．低碳不仅是企业行为，也是一项符合时代潮流的生活方式．人类在采取节能减排措施的同时，也在研究控制温室气体的新方法，目前专家们正在研究二氧化碳的深海处理技术．在某次实验中，将一定质量的二氧化碳气体封闭在一可自由压缩的导热容器中，将容器缓慢移到海水某深处，气体体积减为原来的一半，不计温度变化，关于此过程的说法，错误的是____\nA. 外界对封闭气体做正功\nB. 封闭气体向外界传递热量\nC. 封闭气体分子的平均动能增大\nD. 封闭气体由于气体分子密度增大，而使压强增大",
+    "answer": "C. 封闭气体分子的平均动能增大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-169",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "当一弹簧振子在竖直方向上做简谐运动时，下列说法正确的是____\nA. 振子在振动过程中，速度相同时，弹簧的长度一定相等\nB. 振子从最低点向平衡位置运动过程中，弹簧弹力始终做负功\nC. 振子在振动过程中的回复力由弹簧的弹力和振子的重力的合力提供\nD. 振子在振动过程中，系统的机械能不守恒",
+    "answer": "C. 振子在振动过程中的回复力由弹簧的弹力和振子的重力的合力提供",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-170",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "用ｍ表示地球通讯卫星的质量, h表示它离地面的高度，$R_0$表示地球的半径，$g_0$表示地球表面处的重力加速度，$\\omega_0$表示地球自转的角速度，则通讯卫星所受地球对它的万有引力的大小不正确的是____\nA. 0\nB. $m\\omega_0^2(R_0+h)$\nC. $mR_0^2g_0/(R_0+h)^2$\nD. $m\\sqrt[3]{R_{0}^{2}g_{0}\\omega_{0}^{4}}$",
+    "answer": "A. 0",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-171",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "2021年10月21日，湖南省足球协会青少年锦标赛（男子甲组）在湖南省网球足球运动管理中心拉开帷幕，关于足球运动，下列说法正确的是____\nA. 守门员看到足球迎面飞来，守门员描述足球的运动选取的参考系是足球\nB. 研究如何踢出“香蕉球”时，可将足球看成质点\nC. 一场球赛90分钟，这里的“90分钟”指的是时间间隔\nD. 运动中的足球，其位移大小一定等于路程",
+    "answer": "C. 一场球赛90分钟，这里的“90分钟”指的是时间间隔",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-172",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "启动卫星的发动机使其速度加大，待它运动到距离地面的高度比原来大的位置，再定位使它绕地球做匀速圆周运动成为另一轨道的卫星，该卫星后一轨道与前一轨道相比____\nA. 速率增大\nB. 周期增大\nC. 机械能减小\nD. 加速度增大",
+    "answer": "B. 周期增大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-173",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "由于地球的自转，地球表面上各点均做匀速圆周运动，所以____\nA. 地球表面各处具有相同大小的角速度\nB. 地球表面各处具有相同大小的线速度\nC. 地球表面各处具有相同大小的向心加速度\nD. 地球表面各处的向心加速度方向都指向地球球心",
+    "answer": "A. 地球表面各处具有相同大小的角速度",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-test-174",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在物理学的重大发现中科学家们创造出了许多物理学研究方法，如理想实验法、控制变量法 、极限思想法、微元法和建立物理模型法等。以下关于所用物理学研究方法的叙述正确的是____\nA. 在物体本身的大小和形状对研究的问题影响非常小时，物体可简化为一个具有质量的点，这种方法叫极限思想法\nB. 根据功率的定义式，当时间间隔非常小时，就可以用这一间隔内的平均功率表示间隔内某一时刻的瞬时功率，这应用了控制变量法\nC. 如果一个力的作用效果与另外两个力的作用效果相同，这个力就是那两个力的合力。这里采用了理想实验法\nD. 在推导弹簧弹力做功的表达式时，把整个做功过程划分成很多小段，每一小段近似看作恒力做功，然后把各小段弹力所做的功相加，这里采用了微元法",
+    "answer": "D. 在推导弹簧弹力做功的表达式时，把整个做功过程划分成很多小段，每一小段近似看作恒力做功，然后把各小段弹力所做的功相加，这里采用了微元法",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-0",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "原子的核式结构学说,是卢瑟福根据以下哪个实验或现象提出来的____\nA. 光电效应实验\nB. 氢原子光谱实验\nC. $\\alpha$粒子散射实验\nD. 天然放射现象",
+    "answer": "C. $\\alpha$粒子散射实验",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-1",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "小船在静水中的速度是4m/s，一条河宽120m，河水流速为5m/s，下列说法正确的是____\nA. 小船在河中运动的最大速度是9m/s\nB. 小船渡河的最短时间是24s\nC. 小船能到达河的正对岸\nD. 小船渡河的最小位移是200m",
+    "answer": "A. 小船在河中运动的最大速度是9m/s",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-2",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "“神舟六号”飞船从发射至返回的各阶段中，机械能守恒的是____\nA. 加速升空阶段\nB. 在圆轨道绕地球运行阶段\nC. 进入大气层减速阶段\nD. 降落伞张开后下降阶段",
+    "answer": "B. 在圆轨道绕地球运行阶段",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-3",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "站在地面上，先将两腿弯曲，再用力蹬地，就能跳离地面，人能跳起离开地面的原因是:____\nA. 人除了受到地面的弹力外，还受到一个向上的力\nB. 地面对人的支持力大于人受到的重力\nC. 地面对人的支持力大于人对地面的压力\nD. 人对地面的压力和地面对人的支持力是一对平衡力",
+    "answer": "B. 地面对人的支持力大于人受到的重力",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-4",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "当你从商店买回一只标有“220V，100W”字样的白炽灯后，直接用多用电表测量白炽灯的电阻值，关于测量结果，以下说法正确的选项是____\nA. 测量值等于$484\\Omega$\nB. 测量值小于$484\\Omega$\nC. 测量值大于$484\\Omega$\nD. 无法判断测量值与$484\\Omega$之间的大小关系",
+    "answer": "B. 测量值小于$484\\Omega$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-5",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一只电炉的电阻丝和一台电动机线圈电阻相同，将它们并联接入电路，当电动机正常工作时，通过电动机的电流与通过电炉的电流的关系为____\nA. 电动机的电流大于电炉的电流\nB. 电动机的电流等于电炉的电流\nC. 电动机的电流小于电炉的电流\nD. 无法判断",
+    "answer": "C. 电动机的电流小于电炉的电流",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-6",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列有关物理学史的内容，说法正确的是____\nA. 开普勒阐述了行星的运动定律，并提出了万有引力定律\nB. 牛顿提出了万有引力定律，并通过实验精确测量了引力常量G的数值\nC. 法拉第提出一种观点，认为在电荷的周围存在由它产生的电场\nD. 库仑通过实验测定了元电荷$e$的数值约为$1.6\\times10^{-19}\\text{C}$",
+    "answer": "C. 法拉第提出一种观点，认为在电荷的周围存在由它产生的电场",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-7",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "物体在合外力F作用下，产生加速度a，下面说法中正确的是____\nA. 在匀减速直线运动中，a与F反向\nB. 只有在匀加速直线运动中，a才与F同向\nC. 不论在什么运动中，a与F的方向总是一致的\nD. 以上说法都不对",
+    "answer": "C. 不论在什么运动中，a与F的方向总是一致的",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-8",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "某同学身高1.8m，在运动会上他参加跳高比赛中，起跳后身体横着越过了1.8m高度的横杆，据此我们可估算出他起跳时竖直向上的速度大约为（取g=$10m/s^2$）____\nA. 2m/s\nB. 4m/s\nC. 6m/s\nD. 8m/s",
+    "answer": "B. 4m/s",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-9",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个质量为2kg的物体同时受到两个力的作用，这两个力的大小分别为2N和6N，当两个力的方向发生变化时，物体的加速度大小不可能为____\nA. $1m/s^{2}$\nB. $2m/s^{2}$\nC. $3m/s^{2}$\nD. $4m/s^{2}$",
+    "answer": "A. $1m/s^{2}$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-10",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "人类在探索自然规律的进程中总结了许多科学方法，如分析归纳法、演绎法、等效替代法、控制变量法、理想实验法等．在下列研究中，运用理想实验法进行研究的是____\nA. 爱因斯坦提出光子假说\nB. 麦克斯韦提出电磁场理论\nC. 卢瑟福提出原子的核式结构模型\nD. 伽利略得出力不是维持物体运动原因的结论",
+    "answer": "D. 伽利略得出力不是维持物体运动原因的结论",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-11",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "质量为m的滑块沿高为h，长为l的粗糙斜面匀速下滑，在滑块从斜面顶端滑至低端的过程中____\nA. 重力对滑块所做的功为$mgh$\nB. 滑块克服摩擦所做的功为$mgl$\nC. 滑块的机械能保持不变\nD. 滑块的重力势能增加了$mgh$",
+    "answer": "A. 重力对滑块所做的功为$mgh$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-12",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "北京时间2022年3月5日14时01分，我国在西昌卫星发射中心使用长征二号丙运载火箭，采用“一箭多星”技术，成功将银河航天02批卫星（6颗）及其搭载的1颗商业遥感卫星发射升空。遥感卫星进入距地表约500km的近地轨道做匀速圆周运动。已知引力常量为G，地球半径为R，地球表面重力加速度为g。下列说法正确的是____\nA. 该遥感卫星的轨道属于地球同步轨道\nB. 根据题目已知条件，可以估算该遥感卫星的线速度大小\nC. 根据已知条件可以计算该遥感卫星所受万有引力大小\nD. 该遥感卫星在轨道上的角速度比月球绕地球的角速度小",
+    "answer": "B. 根据题目已知条件，可以估算该遥感卫星的线速度大小",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-13",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "两列振动方向相同、振幅分别为A1和A2的相干简谐横波相遇。下列说法正确的是____\nA. 波峰与波谷相遇处质点的振幅为$|A_1-A_2|$\nB. 波峰与波峰相遇处质点离开平衡位置的位移始终为$A_{1}+A_{2}$\nC. 波峰与波谷相遇处质点的位移总是小于波峰与波峰相遇处质点的位移\nD. 波峰与波峰相遇处质点的振幅一定小于波峰与波谷相遇处质点的振幅",
+    "answer": "A. 波峰与波谷相遇处质点的振幅为$|A_1-A_2|$",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-14",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "三种不同样的入射光A、B、C 分别射在三种不同样的金属a，b，c 表面，均可使金属中逸出光子，三种入射光的波长$\\lambda_A > \\lambda_B > \\lambda_C$，则____\nA. 用入射光A照射金属b或c，金属b，c均可以发生光电效应现象\nB. 用入射光A与B同时照射金属c，金属c可发生光电效应现象\nC. 用入射光C照射金属a或b，金属a，b均可以发生光电效应现象\nD. 用入射光B或C照射金属a，不可使金属a发生光电效应现象",
+    "answer": "C. 用入射光C照射金属a或b，金属a，b均可以发生光电效应现象",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-15",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "提出“电场线”的科学家是____\nA. 库仑\nB. 法拉第\nC. 麦克斯韦\nD. 爱因斯坦",
+    "answer": "B. 法拉第",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-16",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于必然质量的气体，以下有关气体的压强、体积、温度之间关系的说法正确的选项是____\nA. 若是保持气体的体积不变，温度高升，压强减小\nB. 若是保持气体的体积不变，温度降低，压强增大\nC. 若是保持气体的温度不变，体积越小，压强越小\nD. 若是保持气体的温度不变，体积越小，压强越大",
+    "answer": "D. 若是保持气体的温度不变，体积越小，压强越大",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-17",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  },
+  {
+    "question_text": "在通常情况下固体分子间的平均距离为r0，分子间引力和斥力恰好大小相等，由此可以判定，在通常情况下____\nA. 固体收缩时，分子间距增大，分子力表现为引力\nB. 固体膨胀时，分子间距增大，分子力表现为斥力\nC. 固体收缩时，分子间距减小，分子力表现为引力\nD. 固体收缩时，分子间距减小，分子力表现为斥力",
+    "answer": "D. 固体收缩时，分子间距减小，分子力表现为斥力",
+    "solution": "",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "综合练习",
+    "knowledge_points": [
+      "高中物理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://huggingface.co/datasets/ceval/ceval-exam#high_school_physics-val-18",
+    "teaching_tips": "来源 C-Eval，许可 CC BY-NC-SA 4.0。只能非商业使用，再分发须保持相同许可。原数据没有细分年级，使用前请老师核对。"
+  }
+]

@@ -1,0 +1,3794 @@
+[
+  {
+    "question_text": "小民身高110厘米，小红身高140厘米，小民比小红矮几厘米？",
+    "answer": "30",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-417",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校组织三年级学生军训，教练将参加军训的48名学生平均分成3队，每队平均分成2组，每组有几名学生？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-418",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个长方形的周长与一个边长12厘米的正方形的周长相等．这个长方形的宽是10厘米，它的长是多少厘米？",
+    "answer": "14",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-419",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "爷爷出生于1928年2月29日，到2005年元旦他一共过了多少个生日？",
+    "answer": "19",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-420",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "六年级有15人去上海旅游，有16人去北京旅游，其中有6人既去了上海旅游，又去了北京旅游。去上海和北京旅游的人数共有多少人？",
+    "answer": "25",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-421",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "李叔叔家用边长是6分米的地砖铺客厅，一共用了200块，李叔叔家的客厅面积是多少平方分米？",
+    "answer": "7200",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-422",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个长方形果园，长86米，宽55米．如果在果园四周围上篱笆，篱笆长多少米？",
+    "answer": "282",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-423",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "赵云、孙林、李红、周丽四人进行羽毛球比赛，每两人之间进行一场比赛，一共进行了几场比赛？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-424",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "东方小学六年级同学参加植树劳动，5人一组，每组平均植树9棵，共植树270棵。参加植树劳动的六年级同学一共有多少人？",
+    "answer": "150",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-425",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "幼儿园买来一批儿童读物，分给11个班，每班32本，还剩15本，幼儿园共买来儿童读物多少本？",
+    "answer": "367",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-426",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆小轿车可以坐4人，一辆公共汽车可以乘坐的人数比小轿车多8倍，一辆公共汽车可以坐多少人？",
+    "answer": "36",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-427",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校在开学前为教师备课购买了30盒钢笔，每盒12支，一共买了多少支钢笔？",
+    "answer": "360",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-428",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一家餐厅长20米，宽12米，用面积是8平方分米的地砖铺地，需要多少块这样的地砖？",
+    "answer": "3000",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-429",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "文星印刷厂装订车间的6个工人2天装订《智力问答》516本。平均每个工人每天装订多少本书？",
+    "answer": "43",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-430",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "铺设一条1800米的管道，5天铺了300米，还要几天可以铺完？",
+    "answer": "25",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-431",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "用两个边长是2分米的正方形拼成一个长方形，这个长方形的周长是多少分米？",
+    "answer": "12",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-432",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某洗衣店因更新了洗衣机，一个星期可节约用水1400千克，平均每天节约用水多少千克？",
+    "answer": "200",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-433",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明家装修房屋，用边长4分米的方砖480块正好铺满书房地面。如果改用边长8分米的方砖，需要多少块？",
+    "answer": "120",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-434",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一块正方形水泥砖边长为5分米，砖面的面积是多少平方分米？",
+    "answer": "25",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-435",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一只鸵鸟的高度为2.7米，一只羚羊的高度为0.8米，鸵鸟比羚羊高多少？",
+    "answer": "1.9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-436",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "李老师去文具店买文具盒，标价为13元一个，李老师要买32个，一共需要多少钱？",
+    "answer": "416",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-437",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "丁丁买一盒跳棋，付了10元，找回1.2元。一盒跳棋多少钱？",
+    "answer": "8.8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-438",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "杨老师给三（2）班的同学出了两道思考题，批改后发现，全班每人至少做对1道，第1题做对的有30人，第2题做对的有25人，两道都做对的有13人。三（2）班一共有多少名学生？",
+    "answer": "42",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-439",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆大巴车可以乘坐33人，30辆这样的大巴车可以乘坐多少人？",
+    "answer": "990",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-440",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某工厂一月份用水160吨，二月份用水130吨，这两个月一共用了多少吨水？",
+    "answer": "290",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-441",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆汽车2小时行60千米．照这样计算，7小时行多少千米？",
+    "answer": "210",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-442",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一瓶果汁倒出3/5，喝了剩余的1/2，最后瓶子里剩下多少果汁？",
+    "answer": "1/5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-443",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "80个西瓜，如果每次运5个，多少次能全部运走？",
+    "answer": "16",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-444",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆汽车4小时行120千米，照这样计算，行180千米要用几小时？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-445",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有960本书，放在3个书架上，每个书架有8层，平均每层放多少本书？",
+    "answer": "40",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-446",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "明城小学三年级有80人参加体操表演，如果站成4行，每行有多少人？",
+    "answer": "20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-447",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "三年级同学在校办工厂劳动，5个同学糊了35个纸盒．照这样计算，12个同学一共可以糊多少个纸盒？",
+    "answer": "84",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-448",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "水果店有36千克鸭梨，要放在2个货架上，平均每个货架上放多少千克鸭梨？",
+    "answer": "18",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-449",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "北京市八月份的平均气温是31.4℃，黑龙江省八月份的平均气温是29.5℃，北京市和黑龙江省八月份的平均气温相差多少摄氏度？",
+    "answer": "1.9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-450",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "三(5)班有56人，做操时站成4列纵队，平均每列纵队站多少人？",
+    "answer": "14",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-451",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "李明在元旦放假三天中，第一天完成了所有作业的6/10，第二天完成了全部作业的3/10，两天一共完成了全部作业的几分之几？",
+    "answer": "9/10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-452",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校买来录音磁带，每盒4元，一共买了25盒。如果用这些钱买5元一盒的磁带，可以买多少盒？",
+    "answer": "20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-453",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个大足球的价钱是84元，买一个大足球的钱能买3个小足球，买一个小足球多少钱？",
+    "answer": "28",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-454",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "胜利钢厂每天节约用煤39吨，一个月(按30天计算)能节约多少吨煤？",
+    "answer": "1170",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-455",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "现有84根萝卜，平均分给4个小白兔，每人分几个？",
+    "answer": "21",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-456",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "新华书店的一种新书有600本，卖出192本，还剩下多少本？",
+    "answer": "408",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-457",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "同学们举行队列表演，每列20人，一共排了10列，共有多少人参加队列表演？",
+    "answer": "200",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-458",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "将一条红绳剪成7段，每剪一次的时间都相同。剪一次所用的时间是总时间的几分之几？",
+    "answer": "1/6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-459",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把96个西红柿平均装进3个袋里，每袋应该装多少个？",
+    "answer": "32",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-460",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "星星家电商城今年七月份销售了265台空调，八月份销售的空调台数是七月份的4倍，八月份销售了多少台空调？",
+    "answer": "1060",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-461",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "王老师买铅笔花了20元钱，买钢笔花的钱数是买铅笔的12倍，王老师一共花了多少钱？",
+    "answer": "260",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-462",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有360张照片，每本相册有15页，每页可以插入6张照片，若将照片全部插完，需要这样的相册多少本？",
+    "answer": "4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-463",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "出租车的起步价为3千米以内4元，每增加1千米1.5元。毛毛家到体育场有5千米，他坐出租车去体育场要多少钱？",
+    "answer": "7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-464",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "图书馆有故事书15.42万册．比科技书少5.8万册，科技书有多少万册？",
+    "answer": "21.22",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-465",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "玩具厂生产了834辆玩具汽车。每6辆装一箱，最多可以装多少箱？",
+    "answer": "139",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-466",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有一批货物，每次运12吨，10次可以运完。如果要6次运完，平均每次要运多少吨？",
+    "answer": "20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-467",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "兴隆超市新进80箱牛奶，准备摆在4个货架上。平均每个货架要摆多少箱？",
+    "answer": "20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-468",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "用载重量10吨的大卡车4辆来运木材，运5次就可以将全部木材运完。这批木材一共有多少吨？",
+    "answer": "200",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-469",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "公路每一侧种了243棵树，两侧一共种植了多少棵树？",
+    "answer": "486",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-470",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "市政公司打算今年春天改造某大街，计划用45天完成，每天改造68米，这条大街共有多少米？",
+    "answer": "3060",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-471",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "妈妈买回一些苹果，小明把这些苹果的1/2送给了幼儿园小朋友，把余下的1/2送给了奶奶，再把余下的1/2留给了妈妈，这时还有5个苹果留给自己。妈妈一共买回多少个苹果？",
+    "answer": "40",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-472",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "佳艺鲜花店买进276枝玫瑰花，为了促进消费，林阿姨准备把这些花扎成束进行销售。每3枝扎一束，可以扎多少束？",
+    "answer": "92",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-473",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一条铁丝可以围成一个长19厘米，宽13厘米的长方形，如果用它围成一个正方形，正方形的边长是多少厘米？",
+    "answer": "16",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-474",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "仓库里有一些水泥，第一天用去一半，第二天用去剩下的一半，最后还剩下4吨，仓库里原来有多少水泥？",
+    "answer": "16",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-475",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "体育老师买了5个同样的篮球，一共花了510元，每个篮球多少元钱？",
+    "answer": "102",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-476",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一间长方形会议室长12米，宽6米。这个会议室地面面积是多少平方米？",
+    "answer": "72",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-477",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "棉纺厂5天织布250千米，照这样计算，16天一共能织布多少千米？",
+    "answer": "800",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-478",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校图书馆有故事书726本，是科技书的3倍。借出一些科技书后，剩下科技书158本，借出科技书多少本？",
+    "answer": "84",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-479",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "星期天，爸爸、妈妈、小航3人举行家庭羽毛球比赛，规定每2人比赛1场，一共要赛几场？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-480",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "新华小学为灾区小朋友捐书250本，兴隆小学捐书460本，两所小学一共捐书多少本？",
+    "answer": "710",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-481",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一根彩带长4米，第一次用去总长的2/4，又接上原来总长的1/4，第二次又用去原来总长的2/4，这时还剩原来总长的几分之几？",
+    "answer": "1/4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-482",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "修一条公路，原计划60人工作，80天完成。现在工作20天后，又增加了30人，这样剩下的部分再用多少天可以完成？",
+    "answer": "40",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-483",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个边长7厘米的正方形，如果一组对边增加3厘米，它的周长就增加多少厘米？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-484",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "乐乐童装店运进95件休闲童装，每件售价25元。已经售出62件，收款多少元？",
+    "answer": "1550",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-485",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "水果店运进318千克荔枝，上午卖出276千克，还剩多少千克？",
+    "answer": "42",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-486",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有93个玉米棒，平均装在3个篮子里，每个篮子装多少个？",
+    "answer": "31",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-487",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "中国国家博物馆的大清受命之宝玉玺的印面为正方形，边长是14厘米。印面的周长是多少？",
+    "answer": "56",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-488",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "蔬菜批发点1天卖出西红柿85千克，卖出的土豆比西红柿的12倍少28千克，卖出土豆多少千克？",
+    "answer": "992",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-489",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "妈妈给小军买了一盒糖，每天吃3粒则能吃40天，如果每天吃2粒，能吃几天？",
+    "answer": "60",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-490",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "工人师傅给一个礼堂铺地砖，上午铺了2/7，下午铺了3/7．一天一共铺了几分之几？",
+    "answer": "5/7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-491",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "幼儿园老师买来一包糖发给小朋友，35个小朋友每人领到16颗糖，还剩下10颗糖。请问这包糖一共有多少颗？",
+    "answer": "570",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-492",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一盒水彩笔的零售价是2.5元，一支钢笔的价格是7.8元。买一盒水彩笔和一支钢笔一共要多少钱？",
+    "answer": "10.3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-493",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "为迎国庆，学校进行方阵训练，有3个方阵，每个方阵有12行，每行有18人，进行方阵训练的一共有多少人？",
+    "answer": "648",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-494",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "200个同学乘4辆汽车去郊游．前3辆车各坐52个同学，第4辆车要坐多少个同学？",
+    "answer": "44",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-495",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个新建住宅区安装煤气管道，三月份安装了272.8米，四月份比三月份多安装了37.6米，还剩117.4米。这个住宅区需安装煤气管道多少米？",
+    "answer": "700.6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-496",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "用载重量12吨的大卡车4辆来运水泥，运5次就可以将一堆水泥全部运完，如果要求2次运完，需要增加载重量相同的卡车几辆？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-497",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "明明家有48头奶牛，每头奶牛每天平均产奶29千克，照这样计算，明明家的奶牛一天共产奶多少千克？",
+    "answer": "1392",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-498",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有一个长10分米、宽7分米的木板，锯下一个最大的正方形后，剩下木板的周长是多少分米？",
+    "answer": "20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-499",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一架飞机每分钟飞行21千米，48分钟大约飞行多少千米？",
+    "answer": "1008",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-500",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆汽车上午9点30从车站开出，16点30到达终点站，路上平均每小时行80千米，这辆车一共行了多少千米？",
+    "answer": "560",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-501",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "三年级同学准备制作160个小灯笼庆祝“六一”儿童节。已经做了76个，剩下的分给7名同学去做，平均每人要做多少个？",
+    "answer": "12",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-502",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "“音乐之声”音乐会，每张入场券是14元，礼堂可容纳294位小朋友。已售出门票94张，应收入多少元？",
+    "answer": "1316",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-503",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果平均每个苹果重150g，80个苹果有多重？",
+    "answer": "12000",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-504",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校新到一批书，一年级分到全部的1/5，四年级分到全部的2/5，两个年级一共分到所有书的几分之几？",
+    "answer": "3/5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-505",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "教师旅游团有46人去游览星海公园，每张门票70元，应付多少元？",
+    "answer": "3220",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-506",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "五年级有24人订阅《语文报》，有45人订阅《数学报》，两种报都订的有8人。订阅报纸的一共有多少人？",
+    "answer": "61",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-507",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "买一台洗衣机要780元，买一台彩色电视机可以买4台洗衣机。买一台洗衣机比买一台彩色电视机要少花多少元？",
+    "answer": "2340",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-508",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一根铁丝正好能围成一个边长为4分米的正方形，如果用这根铁丝围成一个长为5分米的长方形，这个长方形的面积是多少平方分米？",
+    "answer": "15",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-509",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一枝铅笔原来长5厘米，用去了7毫米，还剩多少毫米？",
+    "answer": "43",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-510",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个长方形菜地，面积是200平方米，宽是8米，长是多少米？",
+    "answer": "25",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-511",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "晓丽家的客厅长5米，宽4米。这个客厅的面积是多少平方米？",
+    "answer": "20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-512",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "三年一班有学生55人，参加学校绘画比赛的有20人，既参加绘画比赛又参加书法比赛的有12人，两项比赛都没参加的有14人，参加书法比赛的有多少人？",
+    "answer": "33",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-513",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一根长320厘米的竹竿，现在要削去一部分，使其变成长2米，那么削去部分长度是多少米？",
+    "answer": "1.2",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-514",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校图书馆新增了7200本新书，平均放在8个书架上，每个书架上放多少本？",
+    "answer": "900",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-515",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一列火车有9节车厢，每节车厢有112个座位，这列火车一共有多少个座位？",
+    "answer": "1008",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-516",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "汽车销售公司从2014年2月26日到3月4日共销售汽车105辆，平均每天销售汽车多少辆？",
+    "answer": "15",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-517",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "体育路安居小区新建了12栋楼房，每栋可以住22户。这个安居小区可容纳多少户人家？",
+    "answer": "264",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-518",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "服装厂原来做件衣服用20分米布，改进裁剪方法后，每件衣服用15分米布。原来做30件衣服的布料现在可以多做多少件？",
+    "answer": "10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-519",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "工人叔叔铺公路，每天铺500米，4天能铺多少米？",
+    "answer": "2000",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-520",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "贝贝要给好朋友丽丽买寄两本故事书，一本的价钱是15.4元，另一本的价钱是9.8元，邮寄时，每本还要交1.5元的邮费，贝贝一共要花多少钱？",
+    "answer": "28.2",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-521",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "同学们排成一个方队做广播操，小林前边有19人后边有10人，左边有20人，右边有9人，一共有多少个同学做操？",
+    "answer": "900",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-522",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "机床厂计划20天制造100台机器，实际每天比原计划多制造3台，实际每天制造多少台？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-523",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "贝贝去游泳池游泳，她在泳道上游了3个来回，共游了480米。这个游泳池的泳道有多长？",
+    "answer": "80",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-524",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一段水渠预计由40名民工15天挖完，挖了5天后又增加了10名民工，每个民工的工作效率相同。还需要几天完成？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-525",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "弟弟今年7岁，爸爸的年龄是弟弟的6倍少4岁，爸爸今年多少岁？",
+    "answer": "38",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-526",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小红家的客厅是长方形的，宽3米，长是宽的4倍，爸爸想在房顶的四周贴上漂亮的装饰木条，需要多长的木条？",
+    "answer": "30",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-527",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "欢欢家平均每个月要用9吨水，欢欢家一年要用多少吨水？",
+    "answer": "108",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-528",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "天天粮店一个星期共卖出大米595袋，平均每天卖出多少袋？",
+    "answer": "85",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-529",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "三年级同学在校办工厂劳动，5个同学糊了35个纸盒．照这样计算，要糊140个纸盒需要多少个同学？",
+    "answer": "20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-530",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "同学们采摘葡萄，共摘了525串，每5串放一篮。一共能放多少篮？",
+    "answer": "105",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-531",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个卫生间用长方形的地砖铺地，每行铺15块，铺了10行。如果每块地砖长3分米，宽2分米，这个卫生间的面积是多少平方米？",
+    "answer": "9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-532",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一条长9/10米的彩带，用去了5/10米，还剩多少米？",
+    "answer": "4/10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-533",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "第一车间有90人，5天用粮450千克。第二车间有50人，目前有粮食250千克。照一车间用粮情况推算，二车间吃7天，还必须再拨给他们粮食多少千克？",
+    "answer": "100",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-534",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "王叔叔用24根1米长的木棍围成一个长方形羊圈，如果围成的羊圈长8米，面积大约是多少平方米？",
+    "answer": "32",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-535",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一件上衣88.8元，一条裤子35.8元。买这样一套衣服要多少钱？",
+    "answer": "124.6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-536",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "街道要更换一批水管，已知新水管每根8米，原有的旧水管每根5米。现在有新水管400根，可以换掉多少根旧水管？",
+    "answer": "640",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-537",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "三（4）班同学在本学期的期中考试中，有36人数学获得优秀，有29人语文获得优秀，有28人语文和数学都获得了优秀，同时有9人语文数学都没有获得优秀，三（4）班总共有多少学生？",
+    "answer": "46",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-538",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "现在600株树苗要平均分给两所学校，每所学校3个班。平均每个班能分多少株树苗？",
+    "answer": "200",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-539",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆汽车从上午8时到下午3时共行驶了420千米。这辆汽车平均每小时行驶多少千米？",
+    "answer": "60",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-540",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校购进练习本16捆，每捆100本，现在把练习本分成40本一捆，正好够分给每班一捆，学校一共有多少个班级？",
+    "answer": "40",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-541",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "从田边到池塘有9米，青蛙从田边到池塘，每跳3米要用5秒，停1秒，青蛙从田边跳到池塘需要多长时间？",
+    "answer": "17",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-542",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某电视机厂今年三月份平均每小时生产电视机16台，一天生产6个小时，15天共生产多少台电视机？",
+    "answer": "1440",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-543",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一本《水浒传》售价为25.8元，妈妈付钱后，营业员找回4.2元。妈妈付给营业员多少钱？",
+    "answer": "30",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-544",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "王昆到某商场买了一个篮球49.8元，又买了一个排球48.5元。他付给收银员100元，应找回多少元？",
+    "answer": "1.7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-545",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校买回一批图书，平均分给25个班，每班分56本，正好分完。这批图书一共有多少本？",
+    "answer": "1400",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-546",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "苹果树和梨树一共42棵，苹果树的棵树是梨树的5倍。梨树有多少棵？",
+    "answer": "7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-547",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校食堂买回黄瓜和西红柿共96千克，其中黄瓜的重量是西红柿的3倍，食堂买回西红柿多少千克？",
+    "answer": "24",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-548",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "育英小学参加排练体操的有416人，每4人一组，可以分成多少组？",
+    "answer": "104",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-549",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个长方形广告牌，长9米，宽5米，用油漆刷这块广告牌，每平方米用油漆2千克。这块广告牌要用油漆多少千克？",
+    "answer": "90",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-550",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小丽有一条长16米的彩带，连续对折3次后，折叠后的长度是多少米？",
+    "answer": "2",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-551",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆汽车从A城开往B城，第一小时行驶了34.5km，比第二小时多行4.7km，比第三小时少行1.2km。这辆汽车3小时一共行驶了多少千米？",
+    "answer": "100",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-552",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "李华家住在京华大厦13楼，这栋楼每上一层要走16级台阶，李华回家要走多少级台阶？",
+    "answer": "192",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-553",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一块菜地，用它的2/9种白菜，用它的5/9种花菜，还剩这块菜地的几分几之？",
+    "answer": "2/9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-554",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把一张长10厘米，宽8厘米的长方形纸片的长剪成与宽同样长的正方形．剪去的纸片的面积是多少？",
+    "answer": "16",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-555",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一次排球锦标赛，有46个队参加，每队有12名运动员，一共有多少名运动员？",
+    "answer": "552",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-556",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "人民公园票价如下：成人每位22元；儿童每位10元。买12张成人票要花多少钱？",
+    "answer": "264",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-557",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个没关紧的水龙头，一星期能流失约672千克的水。平均每天大约流失多少千克的水？",
+    "answer": "96",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-558",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小红是集邮爱好者。如果在集邮册中每页放6枚邮票，32页就可以放完。如果每页放4枚邮票，需要几页才能放完呢？",
+    "answer": "48",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-559",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "王奶奶买牛肉用了18.6元钱，买鱼的钱比买牛肉的钱少4.7元。买鱼用了多少元？",
+    "answer": "13.9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-560",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "在一个边长为15厘米的正方形纸的一角剪去一个长5厘米、宽2厘米的长方形，余下纸的周长是多少厘米？",
+    "answer": "60",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-561",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "两队合铺一条长94.6千米的公路，甲队铺了48.5千米，乙队铺了多少千米？",
+    "answer": "46.1",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-562",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小华骑车行2千400米用2小时，平均每小时骑车行多少米？",
+    "answer": "1200",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-563",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有一块长方形的稻田，长55米。由于修路的需要，这块稻田的长缩短了15米，于是面积减少了450平方米．现在这块稻田的面积是多少平方米？",
+    "answer": "1200",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-564",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "五年级有10人参加电脑制作比赛，有12人参加绘画比赛，其中有6人既参加了电脑制作比赛，又参加了绘画比赛。参加电脑制作比赛和绘画比赛的共有多少人？",
+    "answer": "16",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-565",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一段20米长的铁丝，第一次用去4.3米，第二次比第一次多用3.2米，还剩多少米？",
+    "answer": "8.2",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-566",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一枝铅笔大约重6克．照这样推算，l万枝铅笔大约重多少千克？",
+    "answer": "60",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-567",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校教学楼有教室32间，每间教室可坐学生45人。整个数学楼可以容纳学生多少人？",
+    "answer": "1440",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-568",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "明明家到学校的距离是763米，他从家出发7分钟走到学校，他平均每分钟走多少米？",
+    "answer": "109",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-569",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "15名士兵去执行任务，每人带有45发子弹，他们一共带了多少发子弹？",
+    "answer": "675",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-570",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "火车6小时行725千米，汽车6小时行425千米，火车平均每小时比汽车多行多少千米？",
+    "answer": "50",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-571",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一张方形桌面的边长是9分米，如果给桌面配一块桌布，并要求四周各下垂2分米，这块桌布的面积是多少平方分米？",
+    "answer": "169",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-572",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "加工一批零件，如果用30人每天工作8小时，那么加工15天可以完成．加工了5天后，余下的任务要在8天内完成，每人需要工作几小时？（每人每天的工作量相同）",
+    "answer": "10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-573",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "果园里收了100筐苹果，每筐重100千克，共重多少吨？",
+    "answer": "10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-574",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "果园里有120棵苹果树，每棵树可摘80千克苹果。这个果园可以摘多少千克",
+    "answer": "9600",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-575",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有848千克桃和8千克梨，桃的重量是梨的多少倍？",
+    "answer": "106",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-576",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "桌子：64元/张，椅子：25元/把。三年(1)班有46名同学，需要买46套桌椅。一共要用多少钱？",
+    "answer": "4094",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-577",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "从仓库里运走水泥35.6吨，还剩51.7吨。仓库里原有水泥多少吨？",
+    "answer": "87.3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-578",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "幼儿园有720个孩子，其中男孩有382个，女孩有多少个？",
+    "answer": "338",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-579",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校参加数学兴趣小组的有45人，参加计算机兴趣小组的有68人。既参加数学兴趣小组又参加计算机兴趣小组的有15人，参加这两个兴趣小组的同学共有多少人？",
+    "answer": "98",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-580",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "工地上一共有7吨沙子，一辆大卡车运走了3000千克，还剩多少千克？",
+    "answer": "4000",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-581",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "三年级有203人，四年级有279人，三、四年级一共有多少人？",
+    "answer": "482",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-582",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一根铁丝能做一个长2分米，宽6厘米的长方形，如果用这根铁丝做一个正方形，这个正方形的面积是多少？",
+    "answer": "169",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-583",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "工地上运来5吨水泥，用去3200千克，还剩多少千克？",
+    "answer": "1800",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-584",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一块正方形菜地周长是64米，它的边长是多少？",
+    "answer": "16",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-585",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "教室窗户的长是25分米，宽是20分米．它的面积是多少平方分米？",
+    "answer": "500",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-586",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一件工程原计划10人每天工作8小时。少用2人，每天工作10小时，多少天可以完成？（假定每人的工作效率相同）",
+    "answer": "1",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-587",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "用28米长的铁丝环绕一个正方形场地一圈，铁丝正好用完，这个场地的边长是多少米？",
+    "answer": "7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-588",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明放寒假时乘火车去姥姥家。火车每小时行120千米，需要8小时才能到姥姥家。小明家离姥姥家有多少千米？",
+    "answer": "960",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-589",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "妈妈买了5斤苹果，30斤梨，妈妈买的梨是苹果的多少倍？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-590",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙、丙三人站成一排照相，如果甲必须站在两头中的任何一头，有几种排法？",
+    "answer": "4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-591",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "五年级二班有40名同学，其中有25人没参加数学小组，有18人参加航模小组，有10人两个小组都参加。那么只参加了这两个小组之一的学生共有多少人？",
+    "answer": "13",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-592",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一块正方形喷水池的周长是72米，现在用彩砖在游泳池的四周铺一条1米宽的甬路，甬路的面积是多少平方米？",
+    "answer": "76",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-593",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "冷饮店运来20箱饮料，每箱装24瓶，一共运来多少瓶饮料？",
+    "answer": "480",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-594",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "爸爸给天天买了一套《喜羊羊与灰太狼》，天天每天看17页，20天把它看完了。这套《喜羊羊与灰太狼》一共有多少页？",
+    "answer": "340",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-595",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明5分钟走300米，照这样的速度，他家离学校1200米，要走多少分钟？",
+    "answer": "20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-596",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一本《童话》7.8元，一本《故事大王》16.5元。一本《童话》比一本《故事大王》便宜多少元？",
+    "answer": "8.7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-597",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "育才小学从7月4日起放暑假，到9月1日开学，算一算暑假共放了多少天？",
+    "answer": "59",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-598",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校有16个体育小组进行健身活动，每个小组需要24根跳绳，学校应买多少根跳绳？",
+    "answer": "384",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-599",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一项工作，8个人10天可以完成，如果增加2人，每个人工作效率相同，可以提前几天完成？",
+    "answer": "2",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-600",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "电影院每天放3场电影，昨天和今天共售出996张票，平均每场售出多少张票？",
+    "answer": "116",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-601",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一盒中国象棋14元钱，商店新进12盒象棋，一共花了多少元？",
+    "answer": "168",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-602",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "卫生大扫除，明明负责擦玻璃，他已经擦了2/6。请问：他还要擦几分之几才能全部擦完？",
+    "answer": "4/6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-603",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校运动会上，六（1）班同学有22人参加拔河比赛，有12人参加迎面接力赛跑，有10人参加集体跳绳。其中有6人既参加拔河比赛又参加了接力赛跑，还有8人既参加了迎面接力赛跑又参加了集体跳绳。六（1）班同学一共有多少人参加了比赛？",
+    "answer": "30",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-604",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "王博看一本108页的书，计划9天看完。现在看了12页，剩下的要6天看完。现在每天要看多少页？",
+    "answer": "16",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-605",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一座办公楼的高度是22米，某电视塔总高度是办公楼的18倍，某电视塔的高度是多少米？",
+    "answer": "396",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-606",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明5分钟走300米，照这样的速度，他从家到学校要走15分钟，他家离学校有多少米？",
+    "answer": "900",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-607",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "亮亮家今年收了48箱广柑，每箱重35千克。亮亮家今年一共收了多少千克广柑？",
+    "answer": "1680",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-608",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有百合、玫瑰、向日葵3种花，如果每两种搭配成一束送给妈妈，有多少种搭配方法？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-609",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一支钢笔3.8元，小明买了2支这样的钢笔，应付多少元？",
+    "answer": "7.6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-610",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一间礼堂长18米，宽10米，用面积为1平方米的地砖铺地面，需要这种地砖多少块？",
+    "answer": "180",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-611",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "李明拿了100元钱，缴电话要用去54.8元，缴电费用去31.2元，还剩多少钱？",
+    "answer": "14",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-612",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "新城小学有男生689人，女生比男生少145人。女生有多少人？",
+    "answer": "544",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-613",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一块展板的长是3米，宽是15分米，在上面张贴学生作品，每张作品的面积是9平方分米，最多可以张贴多少幅作品？",
+    "answer": "50",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-614",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一列火车3小时行312千米，一辆汽车5小时行260千米，火车的速度是汽车的多少倍？",
+    "answer": "2",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-615",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "爸爸坐火车从天津13：20出发，到济南时是16：20，一共行360千米，火车平均每小时行多少千米？",
+    "answer": "120",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-616",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一只山雀每天可以吃掉40只害虫，16只山雀一星期可以吃掉多少只害虫？",
+    "answer": "4480",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-617",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一堆水泥重525千克，每5千克装一袋，需要要装多少袋？",
+    "answer": "105",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-618",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校召开秋季田径运动会，五年级三位班主任统计参加比赛项目的人数如下：参加径赛的有37人，参加田赛的有25人，其中既参加田赛又参加径赛的有10人，田赛径赛都没参加的有113人。这可把余老师搞糊涂了！听说你挺会动脑筋，快告诉老师五年级有多少学生。",
+    "answer": "165",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-619",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "丁丁长胖了，现在有44.2千克，比上个月增加了0.9千克。丁丁上个月重多少千克？",
+    "answer": "43.3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-620",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个长方形的停车场宽60米，比长少20米．它的周长是多少米？",
+    "answer": "280",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-621",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个商店进了15箱热水瓶，每箱有4个，每个售价25元，一共可以卖多少元？",
+    "answer": "1500",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-622",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "动物园里有三只狮子，小狮子体重332.1公斤，比它的妈妈（母狮子）轻102.5公斤，它的爸爸（雄狮）体重比母狮子重33.7公斤。动物园里的雄狮子体重是多少？",
+    "answer": "468.3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-623",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "王师傅用3小时加工了18个零件，照这样计算，几个小时可以加工60个零件？",
+    "answer": "10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-624",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "我校的兴趣小组中，书法小组有30人，舞蹈小组有6人，书法小组是舞蹈小组的几倍？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-625",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校买来9张桌子，每张桌子45元，一共要花多少钱？",
+    "answer": "405",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-626",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "假日游从7月28日开始，8月5日结束。这次假日游共多少天？",
+    "answer": "9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-627",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小红骑自行车6分钟可以行1200米，照这样计算，其5分钟可行多少米路？",
+    "answer": "1000",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-628",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一根4.8米长的竹竿直插入水池中，竹竿的入泥部分是0.4米，露出水面的部分是0.8米，池水深多少？",
+    "answer": "3.6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-629",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "果园里有苹果树320棵，梨树170棵，梨树和苹果树一共多少棵？",
+    "answer": "490",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-630",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "教室长8米，宽60分米，教室的面积是多少平方米？",
+    "answer": "48",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-631",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "某小学1月20日起放寒假，2月18日开学，一共放假多少天？",
+    "answer": "29",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-632",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校买来排球13个，每个排球33元，买这些排球一共花了多少元？",
+    "answer": "429",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-633",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有一个跑马场，宽150米，长比宽的2倍少20米．这个跑马场的面积有多少？",
+    "answer": "42000",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-634",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一块长方形玻璃的长是40分米，宽是30分米，面积是多少平方分米？",
+    "answer": "1200",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-635",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "福源超市上周卖出54箱冰泉饮料，每箱12瓶。超市上周卖了多少瓶冰泉饮料？",
+    "answer": "648",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-636",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "佳佳5分钟走300米，照这样的速度，她从家里到学校还要走15分钟，佳佳家到学校的路程有多少米？",
+    "answer": "1200",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-637",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一台影碟机789元，一台电视机1200元，一台电视机比一台影碟机贵多少元？",
+    "answer": "411",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-638",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "三年级有20个同学参加竞赛，其中参加数学竞赛的有15人，参加作文竞赛的有13人，既参加数学竞赛又参加作文竞赛的有几人？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-639",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "明明身高130厘米，妈妈身高1米60厘米，明明再长多高就和妈妈一样高？",
+    "answer": "30",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-640",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "要修一条1000米长的水渠，前5天修了200米。照这样速度，再修多少天可以完工？",
+    "answer": "20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-641",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "同学们为了迎接国庆节，美化校园环境，在学校教学楼前摆红花90盆，摆的黄花是红花的12倍。黄花有多少盆？",
+    "answer": "1080",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-642",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "司机王叔叔要运36吨货物，他的卡车载重量为9000千克。王叔叔要运几次才能把货物全部运完？",
+    "answer": "4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-643",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆汽车每小时行75千米，这辆汽车从甲地到乙地一共行驶了20小时，甲乙两地相距多少千米？",
+    "answer": "1500",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-644",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个长方形和一个正方形的周长相等，已知长方形的面积是48平方厘米，宽4厘米，正方形的面积是多少平方厘米？",
+    "answer": "64",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-645",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明在数学学习平台上第一阶段得到640点，第二阶段得到770点．小明在两个阶段中得到点数和是多少？",
+    "answer": "1410",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-646",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校食堂买来120瓶牛奶，平均分给5个班，每班有8位小朋友，每位小朋友可以分得几瓶牛奶？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-647",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有384盆花，每个花坛放8排，每排摆6盆，一共可以摆成几个花坛？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-648",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个电影院有普通座和嘉宾座两种座位，普通座有37排，每排有51个座位，嘉宾座有9排，每排26个座位。普通座能坐多少人？",
+    "answer": "1887",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-649",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "3辆汽车一个月要用汽油1200升，5辆汽车4个月共用汽油多少升？",
+    "answer": "8000",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-650",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "冰冰的床长20分米，宽15分米，要铺上与床面同样大小的席子，这块席子的面积是多少平方分米？",
+    "answer": "300",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-651",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "四年级所有的48个同学都参加了歌舞小组或声乐小组，也有一些同学两个小组都参加了。已知参加歌舞小组的有26人，参加声乐小组的有29人，两个小组都参加的有多少人？",
+    "answer": "7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-652",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  },
+  {
+    "question_text": "张婷婷要用边长是1分米的正方形纸折纸鹤，妈妈给她一张1平方米的大正方形纸，最多可以折多少只纸鹤？",
+    "answer": "100",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 3,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "3年级应用题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://huggingface.co/datasets/weitianwen/cmath#test-653",
+    "teaching_tips": "来源 XiaoMi/cmath 测试集（weitianwen/cmath），许可 CC BY 4.0。小学应用题，使用前请老师核对。"
+  }
+]

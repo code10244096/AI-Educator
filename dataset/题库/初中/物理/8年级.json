@@ -1,0 +1,3538 @@
+[
+  {
+    "question_text": "长度的国际单位是什么？\nA. 厘米（cm）\nB. 千米（km）\nC. 秒（s）\nD. 米（m）",
+    "answer": "D. 米（m）",
+    "solution": "国际单位制中长度的基本单位是米，符号 m；秒是时间单位。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长度和时间的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_001_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1.5 h 等于多少分钟？\nA. 150 min\nB. 90 min\nC. 15 min\nD. 1.5 min",
+    "answer": "B. 90 min",
+    "solution": "1 h = 60 min，1.5 × 60 = 90 min。把 1.5 h 当成 1 h 50 min 是常见错误。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长度和时间的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_001_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用分度值为 1 mm 的刻度尺测一支铅笔，下列记录中正确的是哪一个？\nA. 17.5 cm\nB. 17.520 cm\nC. 175 mm\nD. 17.52 cm",
+    "answer": "D. 17.52 cm",
+    "solution": "分度值 1 mm = 0.1 cm，读数要估读到分度值的下一位，即 0.01 cm，所以记成 17.52 cm。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长度和时间的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_001_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "四次测得同一本书的宽度分别为 18.52 cm、18.51 cm、18.53 cm、18.52 cm，取平均值作为结果是多少 cm？（只填数值）",
+    "answer": "18.52",
+    "solution": "(18.52+18.51+18.53+18.52)÷4 = 18.52 cm。多次测量取平均值可以减小误差。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "长度和时间的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_001_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "坐在行驶的列车里的乘客，以哪个物体为参照物时，他是静止的？\nA. 铁轨\nB. 路边的树\nC. 站台\nD. 他坐的车厢",
+    "answer": "D. 他坐的车厢",
+    "solution": "乘客相对于车厢位置不变，所以以车厢为参照物他是静止的；相对于铁轨、树、站台他在运动。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "运动的描述",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_002_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列现象中，不属于机械运动的是哪一个？\nA. 花香四溢\nB. 汽车在公路上行驶\nC. 地球绕太阳公转\nD. 落叶飘下",
+    "answer": "A. 花香四溢",
+    "solution": "机械运动是物体位置随时间的变化。花香四溢是分子的热运动，不是物体位置的机械运动。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "运动的描述",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_002_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "加油机在空中给战斗机加油时，若说战斗机是静止的，选的参照物是什么？\nA. 地面\nB. 加油机\nC. 白云\nD. 地面上的观众",
+    "answer": "B. 加油机",
+    "solution": "加油时两机速度相同、相对位置不变，以加油机为参照物，战斗机是静止的。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "运动的描述",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_002_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明说“月亮在云中穿行”，他选的参照物是什么？\nA. 云\nB. 月亮\nC. 地面\nD. 小明自己",
+    "answer": "A. 云",
+    "solution": "说月亮在运动，要选一个与月亮位置在变化的物体作参照物，这里是云。不能选被研究的物体本身作参照物。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "运动的描述",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_002_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一辆汽车 2 h 行驶了 144 km，它的平均速度是多少？\nA. 288 km/h\nB. 72 km/h\nC. 20 km/h\nD. 146 km/h",
+    "answer": "B. 72 km/h",
+    "solution": "v = s/t = 144 km ÷ 2 h = 72 km/h。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "运动的快慢",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_003_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "72 km/h 等于多少 m/s？\nA. 259.2 m/s\nB. 72 m/s\nC. 2 m/s\nD. 20 m/s",
+    "answer": "D. 20 m/s",
+    "solution": "1 m/s = 3.6 km/h，所以 72 ÷ 3.6 = 20 m/s。把 72 乘以 3.6 是常见错误。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "运动的快慢",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_003_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "声音在空气中以 340 m/s 传播，听到雷声比看到闪电晚 3 s，打雷处离人约多少 m？（只填数值）",
+    "answer": "1020",
+    "solution": "光速很大，光传播的时间可以忽略。s = vt = 340 m/s × 3 s = 1020 m。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "运动的快慢",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_003_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "小华前一半路程的速度是 4 m/s，后一半路程的速度是 6 m/s，全程平均速度是多少？\nA. 5 m/s\nB. 10 m/s\nC. 4.8 m/s\nD. 2.4 m/s",
+    "answer": "C. 4.8 m/s",
+    "solution": "设一半路程为 s，总时间 t = s/4 + s/6 = 5s/12，平均速度 = 2s ÷ (5s/12) = 4.8 m/s。直接求速度的平均值 5 m/s 是错的。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "运动的快慢",
+      "运动和相互作用"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_003_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "测量小车沿斜面下滑的平均速度，实验原理是什么？\nA. v = s/t\nB. s = vt\nC. t = s/v\nD. v = t/s",
+    "answer": "A. v = s/t",
+    "solution": "测出路程 s 和时间 t，用 v = s/t 算出平均速度。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "速度的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_004_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "测小车平均速度时，除了斜面、小车、金属片外，还必须用到哪两种测量工具？\nA. 天平和停表\nB. 刻度尺和温度计\nC. 刻度尺和停表\nD. 弹簧测力计和刻度尺",
+    "answer": "C. 刻度尺和停表",
+    "solution": "要测路程和时间，所以用刻度尺和停表。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "速度的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_004_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "小车从斜面顶端滑到底端，全程 0.8 m 用时 4 s，前半程用时 2.5 s。后半程的平均速度是多少？\nA. 0.2 m/s\nB. 0.27 m/s\nC. 0.16 m/s\nD. 0.32 m/s",
+    "answer": "B. 0.27 m/s",
+    "solution": "后半程路程 0.4 m，用时 4 - 2.5 = 1.5 s，v = 0.4 ÷ 1.5 ≈ 0.27 m/s。小车越滑越快，后半程比全程平均速度 0.2 m/s 大。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "速度的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_004_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "为了更准确地测量小车运动的时间，斜面的坡度应该怎样？\nA. 较大一些\nB. 较小一些\nC. 越陡越好\nD. 坡度与时间无关",
+    "answer": "B. 较小一些",
+    "solution": "坡度小，小车运动得慢，所用时间长，计时误差相对更小。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "速度的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_004_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "声音是怎样产生的？\nA. 由物体振动产生\nB. 由物体运动产生\nC. 由空气流动产生\nD. 由物体发热产生",
+    "answer": "A. 由物体振动产生",
+    "solution": "一切正在发声的物体都在振动，振动停止，发声也停止。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "声音的产生与传播",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_005_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "宇航员在太空舱外不能直接对话，原因是什么？\nA. 太空太冷\nB. 真空不能传声\nC. 声音传得太快\nD. 宇航员发声太小",
+    "answer": "B. 真空不能传声",
+    "solution": "声音的传播需要介质，太空中接近真空，所以要用无线电交流。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "声音的产生与传播",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_005_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一般情况下，声音在下列哪种介质中传播得最快？\nA. 钢铁\nB. 空气\nC. 水\nD. 真空",
+    "answer": "A. 钢铁",
+    "solution": "一般情况下声速 v固 > v液 > v气，真空不能传声。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "声音的产生与传播",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_005_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "敲鼓时在鼓面上放些纸屑，纸屑跳动。这个实验运用了什么方法？\nA. 转换法\nB. 控制变量法\nC. 等效替代法\nD. 理想模型法",
+    "answer": "A. 转换法",
+    "solution": "鼓面振动不易直接看到，用纸屑跳动把微小振动显示出来，这是转换法。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "声音的产生与传播",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_005_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "“闻其声而知其人”，主要是根据声音的哪个特性？\nA. 音色\nB. 音调\nC. 响度\nD. 频率",
+    "answer": "A. 音色",
+    "solution": "不同人的声带结构不同，发出声音的音色不同。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "声音的特性",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_006_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "“引吭高歌”中的“高”指的是声音的哪个特性？\nA. 音调高\nB. 音色好\nC. 频率高\nD. 响度大",
+    "answer": "D. 响度大",
+    "solution": "引吭高歌是放开嗓子大声唱，指响度大；“女高音”的高才是音调高。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "声音的特性",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_006_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用相同的力拨动钢尺，伸出桌面的部分越短，声音有什么变化？\nA. 音调越高\nB. 响度越大\nC. 音调越低\nD. 音色改变",
+    "answer": "A. 音调越高",
+    "solution": "伸出部分越短，振动越快，频率越高，音调越高。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "声音的特性",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_006_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "人耳能听到的声音频率范围大约是多少？\nA. 20 Hz～20000 Hz\nB. 0～20 Hz\nC. 20000 Hz 以上\nD. 20 Hz～2000 Hz",
+    "answer": "A. 20 Hz～20000 Hz",
+    "solution": "人耳听觉范围约 20～20000 Hz；低于 20 Hz 是次声，高于 20000 Hz 是超声。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "声音的特性",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_006_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "医生用 B 超检查身体，利用了声的什么作用？\nA. 传递信息\nB. 传递能量\nC. 改变音调\nD. 减弱噪声",
+    "answer": "A. 传递信息",
+    "solution": "B 超通过回声获得体内的信息，是声传递信息。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "声的利用",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_007_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列事例中，属于利用声传递能量的是哪一个？\nA. 蝙蝠回声定位\nB. 敲西瓜判断生熟\nC. 超声波清洗眼镜\nD. 汽车倒车雷达",
+    "answer": "C. 超声波清洗眼镜",
+    "solution": "超声波清洗利用声能使污垢振落，是传递能量；其余三项都是获得信息。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "声的利用",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_007_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "向海底发出超声波，经 4 s 收到回波。海水中声速取 1500 m/s，海水深多少 m？（只填数值）",
+    "answer": "3000",
+    "solution": "声波往返一次用 4 s，单程 2 s，深度 = 1500 × 2 = 3000 m。忘记除以 2 会算成 6000 m。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "声的利用",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_007_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列哪种情况不能用超声波测距？\nA. 测量海底深度\nB. 倒车测障碍物距离\nC. 测量鱼群位置\nD. 测量地球到月球的距离",
+    "answer": "D. 测量地球到月球的距离",
+    "solution": "地月之间是真空，声音不能传播，所以不能用超声波测地月距离。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "声的利用",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_007_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "声音的强弱等级用什么单位表示？\nA. 赫兹（Hz）\nB. 米每秒（m/s）\nC. 焦耳（J）\nD. 分贝（dB）",
+    "answer": "D. 分贝（dB）",
+    "solution": "人们用分贝来划分声音强弱的等级；赫兹是频率单位。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "噪声的危害和控制",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_008_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在道路两旁植树，是在哪里减弱噪声？\nA. 传播过程中\nB. 声源处\nC. 人耳处\nD. 以上都不是",
+    "answer": "A. 传播过程中",
+    "solution": "树木能吸收、反射声音，在传播过程中减弱噪声。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "噪声的危害和控制",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_008_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "摩托车加装消声器，是在哪里控制噪声？\nA. 声源处\nB. 传播过程中\nC. 人耳处\nD. 接收处",
+    "answer": "A. 声源处",
+    "solution": "消声器直接减小摩托车排气发出的噪声，属于在声源处减弱。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "噪声的危害和控制",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_008_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "为保证休息和睡眠，声音不能超过多少分贝？\nA. 90 dB\nB. 50 dB\nC. 120 dB\nD. 0 dB",
+    "answer": "B. 50 dB",
+    "solution": "为保证休息和睡眠，声音不能超过 50 dB；为保护听力不能超过 90 dB。0 dB 是人耳刚能听到的声音。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "噪声的危害和控制",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_008_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列材料中，做隔音房间模型的内衬隔音效果较好的是哪一种？\nA. 光滑的玻璃板\nB. 薄铁皮\nC. 多孔的泡沫塑料\nD. 硬纸板表面刷油漆",
+    "answer": "C. 多孔的泡沫塑料",
+    "solution": "多孔、松软的材料能吸收声音，隔音效果较好；光滑坚硬的表面容易反射声音。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作隔音房间模型",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_009_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "隔音房间主要是在哪里减弱噪声？\nA. 声源处\nB. 人耳处\nC. 频率上\nD. 传播过程中",
+    "answer": "D. 传播过程中",
+    "solution": "隔音房间阻挡声音传播，属于在传播过程中减弱噪声。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作隔音房间模型",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_009_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "比较两种材料的隔音效果时，下列哪种做法是对的？\nA. 使用同一声源、相同音量和距离，只换材料\nB. 两种材料用不同的声源\nC. 一次放音乐，一次放闹铃\nD. 测量时离声源的距离随意",
+    "answer": "A. 使用同一声源、相同音量和距离，只换材料",
+    "solution": "用控制变量法：只改变材料，其他条件（声源、音量、距离）保持相同。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作隔音房间模型",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_009_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用手机分贝计测隔音效果，盒外 70 dB，放入甲盒后 52 dB，放入乙盒后 45 dB，哪个盒子隔音效果更好？\nA. 甲盒\nB. 一样好\nC. 无法判断\nD. 乙盒",
+    "answer": "D. 乙盒",
+    "solution": "盒内声音越小，说明隔音效果越好；乙盒外测得 45 dB，比甲盒的 52 dB 小。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作隔音房间模型",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_009_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "常用液体温度计是根据什么原理制成的？\nA. 液体的热胀冷缩\nB. 固体的热胀冷缩\nC. 气体的热胀冷缩\nD. 液体的沸腾",
+    "answer": "A. 液体的热胀冷缩",
+    "solution": "液体温度计利用液体（水银、酒精、煤油等）热胀冷缩的性质。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "温度",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_010_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在 1 个标准大气压下，冰水混合物的温度是多少？\nA. 0 ℃\nB. 100 ℃\nC. 4 ℃\nD. -10 ℃",
+    "answer": "A. 0 ℃",
+    "solution": "摄氏温度规定：标准大气压下冰水混合物为 0 ℃，沸水为 100 ℃。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "温度",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_010_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "温度计液柱的上表面在 0 ℃ 下方第 6 小格，分度值为 1 ℃，读数是多少？\nA. 6 ℃\nB. -4 ℃\nC. -6 ℃\nD. -16 ℃",
+    "answer": "C. -6 ℃",
+    "solution": "液面在 0 ℃ 以下，读数为负；向下 6 格，每格 1 ℃，读作 -6 ℃（零下 6 摄氏度）。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "温度",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_010_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一支体温计示数是 38.5 ℃，没有甩就给一位体温 37 ℃ 的人测体温，示数是多少？\nA. 37 ℃\nB. 38.5 ℃\nC. 37.5 ℃\nD. 75.5 ℃",
+    "answer": "B. 38.5 ℃",
+    "solution": "体温计有缩口，液柱不会自己退回。被测温度低于原示数时，示数仍是 38.5 ℃。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "温度",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_010_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "物质从固态变成液态叫什么？\nA. 凝固\nB. 液化\nC. 升华\nD. 熔化",
+    "answer": "D. 熔化",
+    "solution": "固态→液态是熔化，液态→固态是凝固。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "熔化和凝固",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_011_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列物质中属于晶体的是哪一个？\nA. 松香\nB. 玻璃\nC. 冰\nD. 沥青",
+    "answer": "C. 冰",
+    "solution": "冰有固定的熔点，是晶体；松香、玻璃、沥青没有固定熔点，是非晶体。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "熔化和凝固",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_011_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某晶体熔化图像中，温度在 48 ℃ 保持不变共 6 min。这段时间内物质怎样？\nA. 不吸热，温度不变\nB. 放出热量\nC. 继续吸热，温度不变\nD. 温度不变，所以没有在熔化",
+    "answer": "C. 继续吸热，温度不变",
+    "solution": "晶体熔化过程中要持续吸热，但温度保持在熔点不变。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "熔化和凝固",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_011_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "北方冬天在菜窖里放几桶水，可以防止菜冻坏，利用了什么？\nA. 水凝固时吸热\nB. 水蒸发时吸热\nC. 水汽化时放热\nD. 水凝固时放热",
+    "answer": "D. 水凝固时放热",
+    "solution": "水结冰（凝固）时放出热量，使菜窖温度不会太低。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "熔化和凝固",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_011_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "夏天从冰箱里拿出的饮料瓶外壁会“出汗”，这是什么物态变化？\nA. 汽化\nB. 熔化\nC. 液化\nD. 升华",
+    "answer": "C. 液化",
+    "solution": "空气中的水蒸气遇到冷的瓶壁放热，液化成小水珠。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "汽化和液化",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_012_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列做法中，能加快蒸发的是哪一个？\nA. 把湿衣服展开晾在通风向阳处\nB. 把湿衣服叠起来放在阴凉处\nC. 给蔬菜套上保鲜袋\nD. 把酒精瓶盖拧紧",
+    "answer": "A. 把湿衣服展开晾在通风向阳处",
+    "solution": "增大液体表面积、提高温度、加快液面上方空气流动都能加快蒸发。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "汽化和液化",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_012_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "水沸腾后继续加热，水的温度会怎样？\nA. 继续升高\nB. 保持不变\nC. 先升高后降低\nD. 降低",
+    "answer": "B. 保持不变",
+    "solution": "液体沸腾时继续吸热，但温度保持在沸点不变。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "汽化和液化",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_012_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "高山上用普通锅煮饭不易煮熟，原因是什么？\nA. 气压高，水的沸点高\nB. 气压低，水的沸点低\nC. 气压低，水的沸点高\nD. 高山上火力小",
+    "answer": "B. 气压低，水的沸点低",
+    "solution": "海拔越高气压越低，水的沸点越低，锅内温度达不到 100 ℃。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "汽化和液化",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_012_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "冬天窗玻璃内侧出现的冰花，是什么物态变化形成的？\nA. 凝固\nB. 凝华\nC. 液化\nD. 升华",
+    "answer": "B. 凝华",
+    "solution": "室内水蒸气遇冷的玻璃直接变成固态的冰晶，是凝华。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "升华和凝华",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_013_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "衣柜里的樟脑丸放久了会变小甚至消失，这是什么现象？\nA. 熔化\nB. 汽化\nC. 凝华\nD. 升华",
+    "answer": "D. 升华",
+    "solution": "樟脑丸由固态直接变为气态，是升华。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "升华和凝华",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_013_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列物态变化中都放热的一组是哪一组？\nA. 熔化、汽化、升华\nB. 熔化、液化、凝华\nC. 凝固、汽化、升华\nD. 凝固、液化、凝华",
+    "answer": "D. 凝固、液化、凝华",
+    "solution": "熔化、汽化、升华吸热；凝固、液化、凝华放热。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "升华和凝华",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_013_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "秋天早晨草叶上的露珠是怎样形成的？\nA. 水蒸气凝华\nB. 水蒸气液化\nC. 冰熔化\nD. 水汽化",
+    "answer": "B. 水蒸气液化",
+    "solution": "露是空气中的水蒸气遇冷液化成的小水珠；霜才是凝华。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "升华和凝华",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_013_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "揭开蒸锅盖时，被锅里出来的水蒸气烫伤往往比被同温度的开水烫伤更严重，原因是什么？\nA. 水蒸气温度一定更高\nB. 水蒸气液化时还要放出大量热\nC. 水蒸气凝华放热\nD. 开水不会放热",
+    "answer": "B. 水蒸气液化时还要放出大量热",
+    "solution": "100 ℃ 的水蒸气先液化放热，再以 100 ℃ 的水继续放热，所以烫伤更重。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：探索厨房中的物态变化问题",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_014_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从冰箱冷冻室拿出的冻肉表面有一层白霜，霜是怎么形成的？\nA. 水凝固\nB. 水蒸气液化\nC. 水蒸气凝华\nD. 冰升华",
+    "answer": "C. 水蒸气凝华",
+    "solution": "冷冻室里的水蒸气遇冷直接凝华成小冰晶，形成霜。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：探索厨房中的物态变化问题",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_014_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "炖汤时，汤沸腾后把大火改成小火，汤的温度会怎样？\nA. 明显降低\nB. 继续升高\nC. 基本不变，仍保持沸腾\nD. 马上停止沸腾",
+    "answer": "C. 基本不变，仍保持沸腾",
+    "solution": "只要能继续吸热保持沸腾，温度就保持在沸点；改小火可以节约燃料。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：探索厨房中的物态变化问题",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_014_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "冷冻的饮料瓶放在桌上，外壁先出现霜，后来霜变成水珠，后一过程是什么？\nA. 液化\nB. 凝华\nC. 熔化\nD. 汽化",
+    "answer": "C. 熔化",
+    "solution": "霜是固态，变成水是固态→液态，属于熔化。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：探索厨房中的物态变化问题",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_014_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列物体中属于光源的是哪一个？\nA. 月亮\nB. 闪闪发亮的钻石\nC. 正在发光的萤火虫\nD. 电影银幕",
+    "answer": "C. 正在发光的萤火虫",
+    "solution": "自身能发光的物体才是光源；月亮、钻石、银幕都是反射别的光。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的直线传播",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_015_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "光在真空中的传播速度约是多少？\nA. 3×10⁸ m/s\nB. 340 m/s\nC. 3×10⁵ m/s\nD. 3×10⁸ km/s",
+    "answer": "A. 3×10⁸ m/s",
+    "solution": "真空中光速 c ≈ 3×10⁸ m/s = 3×10⁵ km/s；340 m/s 是空气中的声速。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的直线传播",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_015_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "“光年”是什么物理量的单位？\nA. 长度（距离）\nB. 时间\nC. 速度\nD. 年份",
+    "answer": "A. 长度（距离）",
+    "solution": "光年是光在一年内传播的距离，是长度单位。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的直线传播",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_015_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "小孔成像中，像的形状由什么决定？\nA. 小孔的形状\nB. 光屏的形状\nC. 小孔的大小\nD. 物体的形状",
+    "answer": "D. 物体的形状",
+    "solution": "小孔成像是光沿直线传播形成的倒立实像，像的形状与物体相同，与小孔形状无关。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的直线传播",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_015_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "入射光线与法线的夹角是 40°，反射角是多少？\nA. 50°\nB. 80°\nC. 40°\nD. 140°",
+    "answer": "C. 40°",
+    "solution": "反射角等于入射角，入射角是入射光线与法线的夹角，所以反射角是 40°。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的反射",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_016_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "我们能从各个方向看到黑板上的字，是因为光在字上发生了什么？\nA. 镜面反射\nB. 漫反射\nC. 折射\nD. 直线传播",
+    "answer": "B. 漫反射",
+    "solution": "粗糙表面把光向各个方向反射，是漫反射。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的反射",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_016_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "如图，入射光线 AO 与镜面的夹角是 30°，反射角是多少？\nA. 30°\nB. 120°\nC. 60°\nD. 90°",
+    "answer": "C. 60°",
+    "solution": "入射角是入射光线与法线的夹角：90° - 30° = 60°，反射角也是 60°。直接把 30° 当入射角是常见错误。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的反射",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_016_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在探究光的反射规律时，把纸板 F 向后折，就看不到反射光，这说明了什么？\nA. 反射角等于入射角\nB. 光路是可逆的\nC. 反射光线消失了\nD. 反射光线、入射光线和法线在同一平面内",
+    "answer": "D. 反射光线、入射光线和法线在同一平面内",
+    "solution": "纸板折转后不在同一平面内，就看不到反射光线，说明三线共面。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的反射",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_016_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "人站在平面镜前 2 m 处，人与镜中像的距离是多少？\nA. 2 m\nB. 1 m\nC. 0 m\nD. 4 m",
+    "answer": "D. 4 m",
+    "solution": "像到镜面的距离等于人到镜面的距离 2 m，人与像相距 2 + 2 = 4 m。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面镜成像",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_017_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "人走近平面镜时，镜中像的大小会怎样？\nA. 变大\nB. 变小\nC. 先变大后变小\nD. 不变",
+    "answer": "D. 不变",
+    "solution": "平面镜所成的像与物体大小相等，与距离无关；看起来变大只是视角变大。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面镜成像",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_017_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "探究平面镜成像特点时，用玻璃板代替平面镜，主要目的是什么？\nA. 使像更清晰\nB. 便于确定像的位置\nC. 使像变大\nD. 能成实像",
+    "answer": "B. 便于确定像的位置",
+    "solution": "玻璃板既能成像又能透光，可以看到后面的蜡烛，从而确定像的位置。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面镜成像",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_017_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在像的位置放一块光屏，光屏上能看到像吗？\nA. 能，成的是实像\nB. 能，但像是倒立的\nC. 只有在暗室里能\nD. 不能，平面镜成的是虚像",
+    "answer": "D. 不能，平面镜成的是虚像",
+    "solution": "平面镜成的是虚像，不是实际光线会聚而成，光屏承接不到。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面镜成像",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_017_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "光从空气斜射入水中时，折射角与入射角相比怎样？\nA. 折射角大于入射角\nB. 折射角小于入射角\nC. 折射角等于入射角\nD. 折射角为 0",
+    "answer": "B. 折射角小于入射角",
+    "solution": "光从空气斜射入水或玻璃中，折射光线向法线偏折，折射角小于入射角。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的折射",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_018_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从岸上看清澈的池水，觉得比实际浅，这是什么原因？\nA. 光的反射\nB. 光的直线传播\nC. 光的折射\nD. 光的色散",
+    "answer": "C. 光的折射",
+    "solution": "池底反射的光从水中斜射入空气时发生折射，人看到的是变浅的虚像。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的折射",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_018_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "光从空气垂直射入玻璃中时，折射角是多少？\nA. 90°\nB. 45°\nC. 0°\nD. 大于 0° 的某个角",
+    "answer": "C. 0°",
+    "solution": "垂直入射时入射角是 0°，传播方向不变，折射角也是 0°。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的折射",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_018_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "渔民用鱼叉叉鱼时，应该对准看到的鱼的哪个位置？\nA. 看到的鱼的上方\nB. 看到的鱼的下方\nC. 正对看到的鱼\nD. 看到的鱼的左方",
+    "answer": "B. 看到的鱼的下方",
+    "solution": "看到的是鱼变浅的虚像，实际的鱼在像的下方，所以要叉向下方。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的折射",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_018_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "光的三原色是哪三种？\nA. 红、绿、蓝\nB. 红、黄、蓝\nC. 红、绿、黄\nD. 黄、绿、蓝",
+    "answer": "A. 红、绿、蓝",
+    "solution": "色光的三原色是红、绿、蓝；红、黄、蓝是颜料的三原色。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的色散",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_019_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "雨后天空出现彩虹，属于什么现象？\nA. 光的反射\nB. 光的色散\nC. 光的直线传播\nD. 平面镜成像",
+    "answer": "B. 光的色散",
+    "solution": "太阳光经过空中的小水珠折射后分解成各种色光，是色散。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的色散",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_019_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电视机遥控器发出的是什么光？\nA. 紫外线\nB. 红光\nC. 红外线\nD. X 射线",
+    "answer": "C. 红外线",
+    "solution": "遥控器利用看不见的红外线传递信号；验钞机用紫外线。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的色散",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_019_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在暗室里用红光照一件白色衬衫，看到衬衫是什么颜色？\nA. 白色\nB. 黑色\nC. 绿色\nD. 红色",
+    "answer": "D. 红色",
+    "solution": "白色物体反射所有色光，红光照射时只反射红光，看起来是红色。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "光的色散",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_019_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "中间厚、边缘薄的透镜叫什么？\nA. 凹透镜\nB. 凸透镜\nC. 平面镜\nD. 三棱镜",
+    "answer": "B. 凸透镜",
+    "solution": "中间厚边缘薄的是凸透镜，中间薄边缘厚的是凹透镜。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "透镜",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_020_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "平行于主光轴的光经过凸透镜后会怎样？\nA. 发散开\nB. 会聚于焦点\nC. 传播方向不变\nD. 原路返回",
+    "answer": "B. 会聚于焦点",
+    "solution": "凸透镜对光有会聚作用，平行于主光轴的光经折射后会聚于焦点。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "透镜",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_020_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "通过凸透镜光心的光线，经过透镜后传播方向怎样？\nA. 向主光轴偏折\nB. 不变\nC. 远离主光轴偏折\nD. 会聚于焦点",
+    "answer": "B. 不变",
+    "solution": "过光心的光线传播方向不改变。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "透镜",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_020_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用一个凸透镜正对太阳光，在离透镜 10 cm 处得到最小最亮的光斑，该透镜的焦距约是多少？\nA. 10 cm\nB. 20 cm\nC. 5 cm\nD. 无法确定",
+    "answer": "A. 10 cm",
+    "solution": "最小最亮的光斑就是焦点，焦点到光心的距离是焦距，约 10 cm。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "透镜",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_020_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "照相机成的是什么像？\nA. 倒立、放大的实像\nB. 正立、放大的虚像\nC. 倒立、缩小的实像\nD. 正立、缩小的虚像",
+    "answer": "C. 倒立、缩小的实像",
+    "solution": "照相机物距大于 2 倍焦距，成倒立、缩小的实像。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "生活中的透镜",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_021_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用放大镜看邮票时，看到的是什么像？\nA. 倒立、放大的实像\nB. 正立、缩小的虚像\nC. 正立、放大的虚像\nD. 倒立、缩小的实像",
+    "answer": "C. 正立、放大的虚像",
+    "solution": "物体在放大镜焦点以内时，成正立、放大的虚像。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "生活中的透镜",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_021_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "投影仪在屏幕上成的是什么像？\nA. 倒立、放大的实像\nB. 正立、放大的虚像\nC. 倒立、缩小的实像\nD. 正立、放大的实像",
+    "answer": "A. 倒立、放大的实像",
+    "solution": "投影仪物距在 1 倍和 2 倍焦距之间，成倒立、放大的实像，所以投影片要倒着放。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "生活中的透镜",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_021_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "实像和虚像最主要的区别是什么？\nA. 实像都是放大的\nB. 虚像都是倒立的\nC. 实像能用光屏承接，虚像不能\nD. 实像只能用眼睛看到",
+    "answer": "C. 实像能用光屏承接，虚像不能",
+    "solution": "实像由实际光线会聚而成，能在光屏上呈现；虚像不能。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "生活中的透镜",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_021_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "凸透镜焦距 10 cm，蜡烛放在离透镜 30 cm 处，成什么像？\nA. 倒立、放大的实像\nB. 正立、放大的虚像\nC. 不成像\nD. 倒立、缩小的实像",
+    "answer": "D. 倒立、缩小的实像",
+    "solution": "u = 30 cm > 2f = 20 cm，成倒立、缩小的实像。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "凸透镜成像的规律",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_022_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "凸透镜焦距 10 cm，物体放在离透镜 15 cm 处，成什么像？\nA. 倒立、放大的实像\nB. 倒立、缩小的实像\nC. 正立、放大的虚像\nD. 正立、缩小的实像",
+    "answer": "A. 倒立、放大的实像",
+    "solution": "f < u = 15 cm < 2f，成倒立、放大的实像。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "凸透镜成像的规律",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_022_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "成实像时，把蜡烛向凸透镜靠近，光屏应怎样移动才能再次得到清晰的像？\nA. 靠近透镜，像变小\nB. 远离透镜，像变小\nC. 远离透镜，像变大\nD. 不用移动",
+    "answer": "C. 远离透镜，像变大",
+    "solution": "成实像时物近像远像变大。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "凸透镜成像的规律",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_022_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "物体离凸透镜 20 cm 时，在光屏上得到倒立、缩小的实像，透镜的焦距可能是多少？\nA. 10 cm\nB. 15 cm\nC. 8 cm\nD. 25 cm",
+    "answer": "C. 8 cm",
+    "solution": "成倒立缩小实像要求 u > 2f，即 20 cm > 2f，f < 10 cm，只有 8 cm 满足。f = 10 cm 时成等大的像。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "凸透镜成像的规律",
+      "运动和相互作用"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_022_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "近视眼应该配戴什么透镜矫正？\nA. 凸透镜\nB. 平面镜\nC. 三棱镜\nD. 凹透镜",
+    "answer": "D. 凹透镜",
+    "solution": "近视眼晶状体太厚、折光能力太强，像成在视网膜前方，用发散的凹透镜矫正。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "眼睛和眼镜",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_023_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "物体在正常眼睛的视网膜上成什么像？\nA. 倒立、缩小的实像\nB. 正立、缩小的实像\nC. 倒立、放大的实像\nD. 正立、放大的虚像",
+    "answer": "A. 倒立、缩小的实像",
+    "solution": "眼睛相当于照相机，在视网膜上成倒立、缩小的实像。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "眼睛和眼镜",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_023_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "远视眼看近处物体时，像成在什么位置？\nA. 视网膜前方\nB. 视网膜上\nC. 视网膜后方\nD. 晶状体上",
+    "answer": "C. 视网膜后方",
+    "solution": "远视眼晶状体折光能力太弱，近处物体的像成在视网膜后方，用凸透镜矫正。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "眼睛和眼镜",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_023_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长时间近距离看手机，容易使晶状体怎样变化而形成近视？\nA. 变厚，折光能力变强\nB. 变薄，折光能力变弱\nC. 变厚，折光能力变弱\nD. 不发生变化",
+    "answer": "A. 变厚，折光能力变强",
+    "solution": "长时间看近处，睫状体疲劳，晶状体变厚、折光能力变强，远处物体的像成在视网膜前。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "眼睛和眼镜",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_023_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "由两个凸透镜组成的望远镜，靠近眼睛的透镜叫什么？\nA. 物镜\nB. 目镜\nC. 反光镜\nD. 凹透镜",
+    "answer": "B. 目镜",
+    "solution": "靠近眼睛的是目镜，靠近被观察物体的是物镜。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作望远镜",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_024_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "望远镜的物镜对远处物体成什么像？\nA. 正立、放大的虚像\nB. 倒立、缩小的实像\nC. 倒立、放大的实像\nD. 正立、缩小的虚像",
+    "answer": "B. 倒立、缩小的实像",
+    "solution": "远处物体在物镜 2 倍焦距以外，物镜成倒立、缩小的实像。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作望远镜",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_024_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "望远镜的目镜起什么作用？\nA. 相当于照相机\nB. 相当于投影仪\nC. 把光线发散掉\nD. 相当于放大镜，把物镜成的像放大",
+    "answer": "D. 相当于放大镜，把物镜成的像放大",
+    "solution": "物镜所成的像在目镜焦点以内，目镜成正立、放大的虚像。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作望远镜",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_024_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用两个凸透镜做望远镜，手上有焦距 50 cm 和 5 cm 的透镜，物镜应选哪一个？\nA. 焦距 5 cm 的透镜\nB. 焦距 50 cm 的透镜\nC. 两个都可以\nD. 必须用凹透镜",
+    "answer": "B. 焦距 50 cm 的透镜",
+    "solution": "开普勒望远镜的物镜焦距长、目镜焦距短，物镜选 50 cm 的透镜。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作望远镜",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_024_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一名中学生的质量大约是多少？\nA. 50 g\nB. 500 kg\nC. 5 kg\nD. 50 kg",
+    "answer": "D. 50 kg",
+    "solution": "中学生质量约 50 kg；估测是本节要求之一。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "质量",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_025_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一块冰熔化成水后，质量怎样变化？\nA. 变大\nB. 变小\nC. 不变\nD. 无法确定",
+    "answer": "C. 不变",
+    "solution": "质量是物体的属性，不随状态改变；冰熔化后体积变小，但质量不变。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "质量",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_025_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用天平称物体，右盘砝码 50 g、20 g、5 g 各一个，游码示数 2.4 g，物体质量是多少？\nA. 75 g\nB. 72.6 g\nC. 77.4 g\nD. 77 g",
+    "answer": "C. 77.4 g",
+    "solution": "物体质量 = 砝码总质量 + 游码示数 = 75 + 2.4 = 77.4 g。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "质量",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_025_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "调节天平横梁平衡时，指针偏向分度盘左侧，平衡螺母应怎样调？\nA. 向右调\nB. 向左调\nC. 移动游码\nD. 在右盘加砝码",
+    "answer": "A. 向右调",
+    "solution": "调节横梁平衡时“左偏右调、右偏左调”；称量过程中才通过加减砝码、移动游码来平衡。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "质量",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_025_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "水的密度是 1.0×10³ kg/m³，它的物理意义是什么？\nA. 1 kg 的水体积是 1.0×10³ m³\nB. 1 m³ 的水质量是 1.0 kg\nC. 水的质量是 1.0×10³ kg\nD. 1 m³ 的水质量是 1.0×10³ kg",
+    "answer": "D. 1 m³ 的水质量是 1.0×10³ kg",
+    "solution": "密度表示单位体积的某种物质的质量。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "密度",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_026_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一块金属质量 54 g，体积 20 cm³，它的密度是多少？\nA. 1080 g/cm³\nB. 2.7 g/cm³\nC. 0.37 g/cm³\nD. 2.7 kg/m³",
+    "answer": "B. 2.7 g/cm³",
+    "solution": "ρ = m/V = 54 g ÷ 20 cm³ = 2.7 g/cm³（铝）。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "密度",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_026_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把一瓶油用去一半，剩下的油密度怎样？\nA. 变为原来的一半\nB. 变为原来的 2 倍\nC. 无法判断\nD. 不变",
+    "answer": "D. 不变",
+    "solution": "密度是物质的特性，与质量、体积无关；质量和体积都减半，比值不变。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "密度",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_026_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "2.7 g/cm³ 等于多少 kg/m³？（只填数值）",
+    "answer": "2700",
+    "solution": "1 g/cm³ = 1000 kg/m³，所以 2.7 g/cm³ = 2700 kg/m³。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "密度",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_026_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用量筒测水的体积，读数时视线应怎样？\nA. 与凹液面的顶部相平\nB. 与凹液面的底部相平\nC. 从上往下俯视\nD. 从下往上仰视",
+    "answer": "B. 与凹液面的底部相平",
+    "solution": "量筒读数时视线要与凹液面最低处相平；俯视读数偏大，仰视读数偏小。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "测量液体和固体的密度",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_027_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "量筒中原有水 40 mL，放入一块小石块后水面到 60 mL，石块质量 52 g。石块密度是多少 g/cm³？（只填数值）",
+    "answer": "2.6",
+    "solution": "V = 60 - 40 = 20 mL = 20 cm³，ρ = 52 ÷ 20 = 2.6 g/cm³。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "测量液体和固体的密度",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_027_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "测盐水密度时，下列步骤顺序误差最小的是哪一个？\nA. 先测空烧杯质量→再测烧杯和盐水总质量→全部倒入量筒读体积\nB. 先用量筒测体积→再倒入空烧杯测质量\nC. 只测烧杯和盐水总质量\nD. 测烧杯和盐水总质量→倒一部分入量筒读体积→测剩余盐水和烧杯质量",
+    "answer": "D. 测烧杯和盐水总质量→倒一部分入量筒读体积→测剩余盐水和烧杯质量",
+    "solution": "前两种做法中烧杯或量筒壁会残留盐水，使体积或质量偏小；用剩余法算倒出部分的质量和体积，误差最小。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "测量液体和固体的密度",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_027_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1 mL 等于多少 cm³？\nA. 1 cm³\nB. 1000 cm³\nC. 0.001 cm³\nD. 10 cm³",
+    "answer": "A. 1 cm³",
+    "solution": "1 mL = 1 cm³，1 L = 1000 mL = 1 dm³。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "测量液体和固体的密度",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_027_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一块冰的体积是 2 m³，冰的密度取 0.9×10³ kg/m³，它的质量是多少 kg？（只填数值）",
+    "answer": "1800",
+    "solution": "m = ρV = 900 × 2 = 1800 kg。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "密度的应用",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_028_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "冬天室外的自来水管容易冻裂，原因是什么？\nA. 水结冰后质量变大\nB. 水结冰后质量不变、体积变大\nC. 水结冰后密度变大\nD. 水管遇冷变大",
+    "answer": "B. 水结冰后质量不变、体积变大",
+    "solution": "冰的密度比水小，质量不变时体积变大，把水管胀裂。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "密度的应用",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_028_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个金属块质量 158 g、体积 20 cm³，查表可知它可能是什么？\nA. 铝（2.7 g/cm³）\nB. 铜（8.9 g/cm³）\nC. 铁（7.9 g/cm³）\nD. 铅（11.3 g/cm³）",
+    "answer": "C. 铁（7.9 g/cm³）",
+    "solution": "ρ = 158 ÷ 20 = 7.9 g/cm³，与铁的密度相同。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "密度的应用",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_028_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个瓶子最多装 500 g 水，用它装酒精（0.8 g/cm³），最多能装多少？\nA. 500 g\nB. 625 g\nC. 400 g\nD. 800 g",
+    "answer": "C. 400 g",
+    "solution": "瓶子容积 V = 500 g ÷ 1 g/cm³ = 500 cm³，装酒精 m = 0.8 × 500 = 400 g。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "密度的应用",
+      "物质"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_028_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "力的单位是什么？\nA. 千克（kg）\nB. 帕斯卡（Pa）\nC. 焦耳（J）\nD. 牛顿（N）",
+    "answer": "D. 牛顿（N）",
+    "solution": "力的单位是牛顿，简称牛，符号 N；千克是质量单位。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "力",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_029_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "游泳时人向后划水，人却向前进，说明了什么？\nA. 力能改变物体的形状\nB. 物体间力的作用是相互的\nC. 力的作用效果与大小无关\nD. 人不受力也能前进",
+    "answer": "B. 物体间力的作用是相互的",
+    "solution": "手向后推水，水同时向前推手，物体间力的作用是相互的。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "力",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_029_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用力推门，推门的位置离门轴越远越容易推开，说明力的作用效果与什么有关？\nA. 力的作用点\nB. 力的大小\nC. 力的方向\nD. 门的质量",
+    "answer": "A. 力的作用点",
+    "solution": "推力的大小、方向不变，只改变推的位置，效果不同，说明作用效果与作用点有关。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "力",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_029_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列现象中，力改变了物体运动状态的是哪一个？\nA. 用力把弹簧拉长\nB. 用力捏橡皮泥\nC. 风把小树吹弯\nD. 守门员接住飞来的足球",
+    "answer": "D. 守门员接住飞来的足球",
+    "solution": "足球由运动变为静止，运动状态改变；其余三项是改变物体形状。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "力",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_029_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列力中不属于弹力的是哪一个？\nA. 绳子对物体的拉力\nB. 地球对物体的吸引力\nC. 桌面对书的支持力\nD. 手对弹簧的拉力",
+    "answer": "B. 地球对物体的吸引力",
+    "solution": "弹力是物体发生弹性形变时产生的力；地球对物体的吸引力是重力。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "弹力",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_030_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "弹簧测力计是根据什么原理制成的？\nA. 在弹性限度内，弹簧的伸长量与拉力成正比\nB. 弹簧的长度与拉力成正比\nC. 弹簧的质量与拉力成正比\nD. 弹簧越长弹力越小",
+    "answer": "A. 在弹性限度内，弹簧的伸长量与拉力成正比",
+    "solution": "是伸长量（不是总长度）与拉力成正比。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "弹力",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_030_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一根弹簧原长 10 cm，挂 2 N 的物体时长 12 cm。在弹性限度内挂 5 N 的物体时，弹簧长多少 cm？（只填数值）",
+    "answer": "15",
+    "solution": "每 1 N 伸长 1 cm，5 N 伸长 5 cm，总长 10 + 5 = 15 cm。把 12 cm 当伸长量是常见错误。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "弹力",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_030_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个人同时用 5 N 的力向两端拉一个弹簧测力计，测力计的示数是多少？\nA. 5 N\nB. 10 N\nC. 0 N\nD. 2.5 N",
+    "answer": "A. 5 N",
+    "solution": "测力计示数等于挂钩上受到的拉力 5 N；另一端的力只是使它保持平衡。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "弹力",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_030_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "质量为 50 kg 的同学，受到的重力是多少 N？（g 取 10 N/kg，只填数值）",
+    "answer": "500",
+    "solution": "G = mg = 50 kg × 10 N/kg = 500 N。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "重力",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_031_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "重力的方向是怎样的？\nA. 竖直向下\nB. 垂直向下\nC. 垂直于地面向下\nD. 指向运动方向",
+    "answer": "A. 竖直向下",
+    "solution": "重力方向总是竖直向下；在斜面上“垂直于斜面向下”不对。建筑工人用重垂线检查墙是否竖直。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "重力",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_031_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "宇航员把一块 2 kg 的岩石从月球带回地球，岩石的质量和重力怎样变化？\nA. 质量和重力都变大\nB. 质量变大，重力不变\nC. 质量不变，重力变大\nD. 质量和重力都不变",
+    "answer": "C. 质量不变，重力变大",
+    "solution": "质量是物体的属性，不随位置改变；地球上 g 比月球大，所以重力变大。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "重力",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_031_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个物体重 30 N，它的质量是多少？（g 取 10 N/kg）\nA. 300 kg\nB. 30 kg\nC. 0.3 kg\nD. 3 kg",
+    "answer": "D. 3 kg",
+    "solution": "m = G/g = 30 ÷ 10 = 3 kg。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "重力",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_031_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一切物体在没有受到力的作用时，总保持什么状态？\nA. 静止状态或匀速直线运动状态\nB. 静止状态\nC. 匀速直线运动状态\nD. 慢慢停下来",
+    "answer": "A. 静止状态或匀速直线运动状态",
+    "solution": "这是牛顿第一定律：原来静止的保持静止，原来运动的保持匀速直线运动。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "牛顿第一定律",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_032_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列关于惯性的说法正确的是哪一个？\nA. 运动的物体才有惯性\nB. 速度越大惯性越大\nC. 系安全带可以减小惯性\nD. 一切物体都有惯性",
+    "answer": "D. 一切物体都有惯性",
+    "solution": "惯性是物体的属性，大小只与质量有关，与速度无关；安全带减小的是惯性带来的危害。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "牛顿第一定律",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_032_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "牛顿第一定律是怎样得出的？\nA. 在实验基础上经过科学推理得出\nB. 直接由实验得出\nC. 凭空想象得出\nD. 由数学计算得出",
+    "answer": "A. 在实验基础上经过科学推理得出",
+    "solution": "现实中不存在完全不受力的物体，牛顿第一定律是在实验基础上推理得出的。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "牛顿第一定律",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_032_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "汽车急刹车时，车内乘客会向哪个方向倾倒？\nA. 向前倾\nB. 向后倒\nC. 向左倒\nD. 不会倾倒",
+    "answer": "A. 向前倾",
+    "solution": "刹车时脚随车停下，上身由于惯性保持原来的运动状态，所以向前倾。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "牛顿第一定律",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_032_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "静止在水平桌面上的书，受到的平衡力是哪一对？\nA. 书对桌面的压力和桌面对书的支持力\nB. 书受到的重力和书对桌面的压力\nC. 桌子受到的重力和书受到的重力\nD. 书受到的重力和桌面对书的支持力",
+    "answer": "D. 书受到的重力和桌面对书的支持力",
+    "solution": "平衡力作用在同一物体上；压力和支持力是一对相互作用力，作用在两个物体上。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "二力平衡",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_033_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "如图，杯子静止在水平桌面上，重力 G 为 3 N，桌面对杯子的支持力 F 是多少？\nA. 0 N\nB. 3 N\nC. 6 N\nD. 1.5 N",
+    "answer": "B. 3 N",
+    "solution": "杯子静止，G 和 F 是一对平衡力，大小相等，F = 3 N。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "二力平衡",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_033_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用 20 N 的水平力推着木箱在水平地面上匀速直线运动，木箱受到的摩擦力是多少？\nA. 0 N\nB. 20 N\nC. 大于 20 N\nD. 小于 20 N",
+    "answer": "B. 20 N",
+    "solution": "匀速直线运动是平衡状态，推力和摩擦力是一对平衡力，摩擦力等于 20 N。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "二力平衡",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_033_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列物体中处于平衡状态的是哪一个？\nA. 正在加速起飞的飞机\nB. 在弯道上匀速转弯的汽车\nC. 竖直上抛到最高点的小球\nD. 在平直公路上匀速直线行驶的汽车",
+    "answer": "D. 在平直公路上匀速直线行驶的汽车",
+    "solution": "平衡状态是静止或匀速直线运动；转弯时方向在变，最高点小球只受重力，都不是平衡状态。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "二力平衡",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_033_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "滑动摩擦力的大小与下列哪个因素有关？\nA. 物体运动的速度\nB. 接触面积的大小\nC. 接触面的粗糙程度\nD. 物体的体积",
+    "answer": "C. 接触面的粗糙程度",
+    "solution": "滑动摩擦力与压力大小和接触面粗糙程度有关，与速度、接触面积无关。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "摩擦力",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_034_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "自行车轮胎上有凹凸不平的花纹，目的是什么？\nA. 增大摩擦\nB. 减小摩擦\nC. 减小压强\nD. 使车更美观",
+    "answer": "A. 增大摩擦",
+    "solution": "花纹增大接触面的粗糙程度，从而增大摩擦。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "摩擦力",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_034_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用弹簧测力计测木块受到的滑动摩擦力，为什么要水平匀速直线拉动木块？\nA. 这样摩擦力最小\nB. 这时拉力与摩擦力二力平衡，大小相等\nC. 这样拉力最大\nD. 这样木块不受摩擦力",
+    "answer": "B. 这时拉力与摩擦力二力平衡，大小相等",
+    "solution": "匀速直线运动时木块受力平衡，测力计示数就等于滑动摩擦力。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "摩擦力",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_034_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列做法中，属于减小摩擦的是哪一个？\nA. 冬天在结冰的路面上撒沙子\nB. 用力捏自行车车闸\nC. 鞋底做出花纹\nD. 给门轴加润滑油",
+    "answer": "D. 给门轴加润滑油",
+    "solution": "加润滑油使接触面分离，减小摩擦；其余都是增大摩擦。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "摩擦力",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_034_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "同一直线上方向相同的 3 N 和 5 N 两个力，合力是多少？\nA. 2 N\nB. 15 N\nC. 0 N\nD. 8 N",
+    "answer": "D. 8 N",
+    "solution": "方向相同时，合力 F = F₁ + F₂ = 8 N，方向与两力相同。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "同一直线上二力的合成",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_035_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "同一直线上方向相反的 3 N 和 5 N 两个力，合力是多少？\nA. 8 N，方向与 5 N 的力相同\nB. 2 N，方向与 3 N 的力相同\nC. 0 N\nD. 2 N，方向与 5 N 的力相同",
+    "answer": "D. 2 N，方向与 5 N 的力相同",
+    "solution": "方向相反时，合力 F = F₁ - F₂ = 2 N，方向与较大的力相同。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "同一直线上二力的合成",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_035_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "竖直向上抛出一个重 2 N 的小球，上升时受到的空气阻力是 0.5 N，小球受到的合力是多少 N？（只填数值）",
+    "answer": "2.5",
+    "solution": "上升时重力向下，阻力也向下（与运动方向相反），合力 = 2 + 0.5 = 2.5 N，方向竖直向下。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "同一直线上二力的合成",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_035_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用 30 N 的力竖直向上提一个重 50 N 的物体，没有提起，物体所受合力是多少？\nA. 20 N\nB. 0 N\nC. 80 N\nD. 30 N",
+    "answer": "B. 0 N",
+    "solution": "物体静止，处于平衡状态，合力为 0（地面还提供了 20 N 的支持力）。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "同一直线上二力的合成",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_035_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "压强的单位是什么？\nA. 帕斯卡（Pa）\nB. 牛顿（N）\nC. 千克（kg）\nD. 焦耳（J）",
+    "answer": "A. 帕斯卡（Pa）",
+    "solution": "压强的单位是帕斯卡，1 Pa = 1 N/m²。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "压强",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_036_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列做法中，为了增大压强的是哪一个？\nA. 书包带做得较宽\nB. 菜刀的刀刃磨得很薄\nC. 铁轨下铺枕木\nD. 坦克装有宽大的履带",
+    "answer": "B. 菜刀的刀刃磨得很薄",
+    "solution": "压力一定时，减小受力面积可以增大压强；其余三项都是增大受力面积、减小压强。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "压强",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_036_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个重 600 N 的人双脚站在水平地面上，每只脚与地面的接触面积为 0.02 m²，他对地面的压强是多少 Pa？（只填数值）",
+    "answer": "15000",
+    "solution": "受力面积 S = 2 × 0.02 = 0.04 m²，p = F/S = 600 ÷ 0.04 = 15000 Pa。只算一只脚会得到 30000 Pa。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "压强",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_036_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "压力 50 N 作用在 100 cm² 的面积上，压强是多少？\nA. 5000 Pa\nB. 0.5 Pa\nC. 50 Pa\nD. 5000 N",
+    "answer": "A. 5000 Pa",
+    "solution": "100 cm² = 0.01 m²，p = 50 ÷ 0.01 = 5000 Pa。不换算面积会算成 0.5 Pa。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "压强",
+      "运动和相互作用"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_036_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "水深 2 m 处，水产生的压强是多少 Pa？（ρ水 = 1.0×10³ kg/m³，g 取 10 N/kg，只填数值）",
+    "answer": "20000",
+    "solution": "p = ρgh = 1000 × 10 × 2 = 20000 Pa。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "液体的压强",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_037_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "拦河大坝修成“上窄下宽”的形状，主要原因是什么？\nA. 液体压强与液体密度有关\nB. 液体压强随深度增加而增大\nC. 为了美观\nD. 液体只对坝底有压强",
+    "answer": "B. 液体压强随深度增加而增大",
+    "solution": "越深处水的压强越大，坝底要做得更宽更牢固。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "液体的压强",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_037_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列装置中，不是利用连通器原理工作的是哪一个？\nA. 茶壶\nB. 船闸\nC. 锅炉水位计\nD. 注射器吸药液",
+    "answer": "D. 注射器吸药液",
+    "solution": "茶壶、船闸、锅炉水位计都是上端开口、下部连通的连通器；注射器吸药液利用大气压。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "液体的压强",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_037_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用压强计探究液体压强，在同一深度把探头转向各个方向，U 形管液面高度差不变，说明什么？\nA. 液体压强与深度无关\nB. 液体压强与密度有关\nC. 同种液体同一深度，向各个方向的压强相等\nD. 液体只向下有压强",
+    "answer": "C. 同种液体同一深度，向各个方向的压强相等",
+    "solution": "同种液体、同一深度，液体向各个方向的压强相等。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "液体的压强",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_037_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "首先证明大气压存在的著名实验是什么？\nA. 托里拆利实验\nB. 伽利略斜面实验\nC. 奥斯特实验\nD. 马德堡半球实验",
+    "answer": "D. 马德堡半球实验",
+    "solution": "马德堡半球实验证明了大气压的存在；托里拆利实验测出了大气压的值。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "大气压强",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_038_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用吸管吸饮料，饮料是被什么压进嘴里的？\nA. 嘴的吸力\nB. 饮料的重力\nC. 吸管的弹力\nD. 大气压",
+    "answer": "D. 大气压",
+    "solution": "吸气使管内气压减小，外界大气压把饮料压进嘴里。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "大气压强",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_038_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1 个标准大气压能支持多高的水银柱？\nA. 76 mm\nB. 10.3 m\nC. 760 mm\nD. 1 m",
+    "answer": "C. 760 mm",
+    "solution": "托里拆利实验中标准大气压能支持约 760 mm 高的水银柱（能支持约 10.3 m 高的水柱）。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "大气压强",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_038_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "登山运动员登上高山后，大气压会怎样变化？\nA. 增大\nB. 不变\nC. 减小\nD. 先减小后增大",
+    "answer": "C. 减小",
+    "solution": "大气压随海拔高度增加而减小。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "大气压强",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_038_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "活塞式抽水机是利用什么把水抽上来的？\nA. 大气压\nB. 水的重力\nC. 活塞的推力\nD. 水的浮力",
+    "answer": "A. 大气压",
+    "solution": "活塞上提时下方气压减小，外界大气压把水压入圆筒。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易活塞式抽水机",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_039_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在 1 个标准大气压下，活塞式抽水机最多能把水抽到大约多高？\nA. 76 cm\nB. 100 m\nC. 10 m\nD. 1 m",
+    "answer": "C. 10 m",
+    "solution": "1 个标准大气压能支持约 10.3 m 高的水柱，所以抽水高度约 10 m。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易活塞式抽水机",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_039_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "自制抽水机的活塞与筒壁间漏气，会出现什么问题？\nA. 抽得更快\nB. 水会变热\nC. 抽不上水或抽水高度变小\nD. 没有影响",
+    "answer": "C. 抽不上水或抽水高度变小",
+    "solution": "漏气时活塞下方气压不能足够减小，大气压压上来的水就少，甚至抽不上来。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易活塞式抽水机",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_039_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在高原上使用同一台活塞式抽水机，最大抽水高度会怎样？\nA. 变大\nB. 不变\nC. 变小\nD. 先变大后变小",
+    "answer": "C. 变小",
+    "solution": "高原上大气压较小，能支持的水柱高度变小。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易活塞式抽水机",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_039_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "流体中流速越大的位置，压强怎样？\nA. 越大\nB. 不变\nC. 与流速无关\nD. 越小",
+    "answer": "D. 越小",
+    "solution": "流体在流速大的地方压强小。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "流体压强与流速的关系",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_040_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "火车站台上设置安全线，乘客必须站在安全线以外，原因是什么？\nA. 列车驶过时空气流速小、压强大\nB. 列车会把人吸过去是因为磁力\nC. 防止人被列车的灯光晃到\nD. 列车驶过时，人和车之间空气流速大、压强小",
+    "answer": "D. 列车驶过时，人和车之间空气流速大、压强小",
+    "solution": "人与列车之间空气流速大、压强小，人外侧压强大，会把人推向列车。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "流体压强与流速的关系",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_040_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "飞机机翼上表面凸起、下表面较平，飞行时机翼上方空气的压强怎样？\nA. 比下方小，产生向上的升力\nB. 比下方大，产生向下的压力\nC. 与下方相等\nD. 比下方小，产生向下的力",
+    "answer": "A. 比下方小，产生向上的升力",
+    "solution": "机翼上方空气流速大、压强小，下方流速小、压强大，形成向上的压力差即升力。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "流体压强与流速的关系",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_040_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "向两张自然下垂的纸中间吹气，两张纸会怎样运动？\nA. 向中间靠拢\nB. 向两边分开\nC. 保持不动\nD. 一起向前飘",
+    "answer": "A. 向中间靠拢",
+    "solution": "中间空气流速大、压强小，外侧压强大，把纸压向中间。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "流体压强与流速的关系",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_040_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "浮力的方向是怎样的？\nA. 垂直向上\nB. 竖直向上\nC. 与重力方向相同\nD. 指向液体流动方向",
+    "answer": "B. 竖直向上",
+    "solution": "浮力方向总是竖直向上。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "浮力",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_041_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个物体在空气中称重 8 N，浸没在水中时测力计示数为 5 N，它受到的浮力是多少？\nA. 13 N\nB. 3 N\nC. 8 N\nD. 5 N",
+    "answer": "B. 3 N",
+    "solution": "称重法：F浮 = G - F示 = 8 - 5 = 3 N。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "浮力",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_041_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "物体浸没在水中后继续往下移动（未触底），它受到的浮力怎样变化？\nA. 变大\nB. 变小\nC. 先变大后变小\nD. 不变",
+    "answer": "D. 不变",
+    "solution": "浸没后排开水的体积不变，浮力不变，浮力与浸没的深度无关。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "浮力",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_041_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "浮力产生的原因是什么？\nA. 液体对物体向上和向下的压力差\nB. 物体排开了液体\nC. 液体有重力\nD. 物体有质量",
+    "answer": "A. 液体对物体向上和向下的压力差",
+    "solution": "下表面受到向上的压力大于上表面受到向下的压力，压力差就是浮力。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "浮力",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_041_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "根据阿基米德原理，物体受到的浮力大小等于什么？\nA. 物体所受的重力\nB. 物体的质量\nC. 它排开的液体所受的重力\nD. 液体的总重力",
+    "answer": "C. 它排开的液体所受的重力",
+    "solution": "F浮 = G排，是排开液体的重力，不是物体自身的重力。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "阿基米德原理",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_042_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "体积为 2×10⁻⁴ m³ 的铁块浸没在水中，受到的浮力是多少 N？（g 取 10 N/kg，只填数值）",
+    "answer": "2",
+    "solution": "F浮 = ρ水 g V排 = 1000 × 10 × 2×10⁻⁴ = 2 N。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "阿基米德原理",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_042_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "同一个铁块分别浸没在水和酒精中，在哪种液体中受到的浮力大？\nA. 酒精中\nB. 一样大\nC. 水中\nD. 无法判断",
+    "answer": "C. 水中",
+    "solution": "V排 相同，水的密度比酒精大，由 F浮 = ρ液 g V排 知在水中浮力大。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "阿基米德原理",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_042_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个物体浸没在水中受到 5 N 的浮力，它的体积是多少？（g 取 10 N/kg）\nA. 5×10⁻³ m³\nB. 5 m³\nC. 0.5 m³\nD. 5×10⁻⁴ m³",
+    "answer": "D. 5×10⁻⁴ m³",
+    "solution": "V = V排 = F浮/(ρ水 g) = 5 ÷ (1000 × 10) = 5×10⁻⁴ m³。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "阿基米德原理",
+      "运动和相互作用"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_042_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "实心物体的密度小于液体密度时，放入液体中最终会怎样？\nA. 下沉\nB. 悬浮\nC. 漂浮\nD. 沉底",
+    "answer": "C. 漂浮",
+    "solution": "ρ物 < ρ液 时上浮，最终漂浮；ρ物 = ρ液 时悬浮；ρ物 > ρ液 时下沉。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "物体的浮沉条件及应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_043_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "潜水艇是靠改变什么来实现上浮和下沉的？\nA. 受到的浮力\nB. 海水的密度\nC. 自身的重力\nD. 自身的体积",
+    "answer": "C. 自身的重力",
+    "solution": "潜水艇浸没时浮力不变，通过向水舱充水或排水改变自身重力。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "物体的浮沉条件及应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_043_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一艘轮船从长江驶入大海，它受到的浮力怎样变化？\nA. 变大\nB. 不变\nC. 变小\nD. 无法判断",
+    "answer": "B. 不变",
+    "solution": "轮船始终漂浮，F浮 = G船，重力不变，浮力不变；海水密度大，船会上浮一些。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "物体的浮沉条件及应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_043_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个重 6 N 的木块漂浮在水面上，它受到的浮力是多少？\nA. 大于 6 N\nB. 小于 6 N\nC. 6 N\nD. 0 N",
+    "answer": "C. 6 N",
+    "solution": "漂浮时浮力等于重力，F浮 = 6 N。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "物体的浮沉条件及应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_043_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "同一支密度计放在不同液体中都漂浮，它受到的浮力有什么关系？\nA. 相等\nB. 在密度大的液体中大\nC. 在密度小的液体中大\nD. 无法比较",
+    "answer": "A. 相等",
+    "solution": "漂浮时浮力都等于密度计的重力，所以相等。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作微型密度计",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_044_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "密度计在液体中浸入得越深，说明液体密度怎样？\nA. 越小\nB. 越大\nC. 不变\nD. 与浸入深度无关",
+    "answer": "A. 越小",
+    "solution": "浮力一定时，由 F浮 = ρ液 g V排，V排 越大，ρ液 越小。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作微型密度计",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_044_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "密度计上的刻度值，从上到下怎样变化？\nA. 上小下大\nB. 上大下小\nC. 上下一样\nD. 中间最大",
+    "answer": "A. 上小下大",
+    "solution": "液体密度越大，浸入越浅，液面对应的刻度越靠下，所以刻度值上小下大。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作微型密度计",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_044_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用吸管和铜丝做密度计，在吸管下端缠铜丝的目的是什么？\nA. 增大浮力\nB. 降低重心，使吸管能竖直漂浮\nC. 减小重力\nD. 让吸管沉底",
+    "answer": "B. 降低重心，使吸管能竖直漂浮",
+    "solution": "缠铜丝使重心降低，密度计才能竖直漂浮在液体中。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作微型密度计",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_044_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列情况中，人对物体做了功的是哪一个？\nA. 把箱子从地面搬到桌上\nB. 提着水桶在水平路面上匀速行走\nC. 用力推汽车，汽车没动\nD. 举着杠铃静止不动",
+    "answer": "A. 把箱子从地面搬到桌上",
+    "solution": "做功要有力且在力的方向上移动距离；提桶水平走时力竖直、移动水平，不做功。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "功",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_045_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用 50 N 的水平推力把箱子沿水平地面推动 4 m，推力做的功是多少 J？（只填数值）",
+    "answer": "200",
+    "solution": "W = Fs = 50 × 4 = 200 J。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "功",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_045_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把重 20 N 的书包从地面提到 1.5 m 高的桌面上，人对书包至少做功多少 J？（只填数值）",
+    "answer": "30",
+    "solution": "W = Gh = 20 × 1.5 = 30 J。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "功",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_045_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "足球被踢出后在草地上滚动了 20 m，在滚动过程中，脚对足球做的功是多少？\nA. 无法计算\nB. 等于足球重力乘以 20 m\nC. 0 J\nD. 等于踢力乘以 20 m",
+    "answer": "C. 0 J",
+    "solution": "足球滚动时脚已经离开球，不再对球施力，脚对球不做功。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "功",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_045_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "功率是表示什么的物理量？\nA. 做功多少\nB. 做功快慢\nC. 力的大小\nD. 能量多少",
+    "answer": "B. 做功快慢",
+    "solution": "功率表示做功的快慢，做功多不一定功率大。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "功率",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_046_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "起重机在 10 s 内做了 5×10⁴ J 的功，它的功率是多少 W？（只填数值）",
+    "answer": "5000",
+    "solution": "P = W/t = 50000 ÷ 10 = 5000 W。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "功率",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_046_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "汽车上坡时司机通常换低速挡，目的是什么？\nA. 增大功率\nB. 节省燃油\nC. 功率一定时，减小速度来增大牵引力\nD. 增大速度",
+    "answer": "C. 功率一定时，减小速度来增大牵引力",
+    "solution": "由 P = Fv，功率一定时速度越小牵引力越大。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "功率",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_046_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "汽车以 20 m/s 的速度匀速行驶，牵引力为 3000 N，发动机的功率是多少 W？（只填数值）",
+    "answer": "60000",
+    "solution": "P = Fv = 3000 × 20 = 60000 W。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "功率",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_046_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "动能的大小与哪些因素有关？\nA. 质量和高度\nB. 速度和高度\nC. 只与速度有关\nD. 质量和速度",
+    "answer": "D. 质量和速度",
+    "solution": "物体质量越大、速度越大，动能越大。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "动能和势能",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_047_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "被举高的重锤具有什么能？\nA. 重力势能\nB. 动能\nC. 弹性势能\nD. 内能（只有内能）",
+    "answer": "A. 重力势能",
+    "solution": "被举高的物体具有重力势能。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "动能和势能",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_047_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在探究动能大小与速度关系的实验中，让同一小球从斜面不同高度由静止滚下，这样做的目的是什么？\nA. 控制质量相同，改变小球到达水平面时的速度\nB. 控制速度相同，改变质量\nC. 改变小球的重力势能大小与速度无关\nD. 让小球滚得更远",
+    "answer": "A. 控制质量相同，改变小球到达水平面时的速度",
+    "solution": "同一小球质量相同；从不同高度滚下，到达底端的速度不同。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "动能和势能",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_047_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "为什么交通部门对大货车的限速比小汽车低？\nA. 大货车惯性小\nB. 大货车的重力势能小\nC. 大货车刹车距离更短\nD. 速度相同时，质量大的车动能大，危险更大",
+    "answer": "D. 速度相同时，质量大的车动能大，危险更大",
+    "solution": "动能与质量有关，速度相同时大货车动能大，发生事故危害大，所以限速低。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "动能和势能",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_047_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "苹果从树上加速下落，能量是怎样转化的？\nA. 重力势能转化为动能\nB. 动能转化为重力势能\nC. 动能转化为弹性势能\nD. 没有能量转化",
+    "answer": "A. 重力势能转化为动能",
+    "solution": "高度减小、速度增大，重力势能转化为动能。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "机械能及其转化",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_048_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "人造地球卫星从近地点向远地点运动时，能量怎样转化？\nA. 重力势能转化为动能\nB. 动能转化为重力势能\nC. 机械能转化为内能\nD. 动能和势能都增大",
+    "answer": "B. 动能转化为重力势能",
+    "solution": "从近地点到远地点，高度增大、速度减小，动能转化为重力势能。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "机械能及其转化",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_048_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "不计空气阻力，竖直上抛的小球在上升过程中机械能怎样？\nA. 增大\nB. 减小\nC. 不变\nD. 先增大后减小",
+    "answer": "C. 不变",
+    "solution": "只有动能和重力势能相互转化，机械能守恒。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "机械能及其转化",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_048_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个皮球从高处落下，弹起的高度越来越低，说明什么？\nA. 机械能守恒\nB. 皮球的质量变小了\nC. 皮球的重力变小了\nD. 机械能有一部分转化为内能",
+    "answer": "D. 机械能有一部分转化为内能",
+    "solution": "空气阻力和撞击时的形变使部分机械能转化为内能，机械能减小。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "机械能及其转化",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_048_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列工具中属于费力杠杆的是哪一个？\nA. 撬棒\nB. 核桃夹\nC. 钓鱼竿\nD. 瓶起子",
+    "answer": "C. 钓鱼竿",
+    "solution": "钓鱼竿动力臂小于阻力臂，是费力杠杆，但省距离；其余是省力杠杆。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "杠杆",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_049_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "力臂是指什么？\nA. 支点到力的作用线的距离\nB. 支点到力的作用点的距离\nC. 动力作用点到阻力作用点的距离\nD. 杠杆的长度",
+    "answer": "A. 支点到力的作用线的距离",
+    "solution": "力臂是从支点到力的作用线的垂直距离，不是到作用点的距离。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "杠杆",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_049_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "如图，轻质杠杆在水平位置平衡，左端挂 G = 60 N 的物体，左侧力臂 0.4 m，右侧竖直向下的拉力 F 的力臂 1.2 m，F 是多少？\nA. 180 N\nB. 60 N\nC. 30 N\nD. 20 N",
+    "answer": "D. 20 N",
+    "solution": "由 F₁l₁ = F₂l₂：60 × 0.4 = F × 1.2，F = 20 N。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "杠杆",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_049_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "探究杠杆平衡条件时，为什么要使杠杆在水平位置平衡？\nA. 使杠杆不受重力\nB. 使拉力更小\nC. 使结论更有普遍性\nD. 便于从杠杆上直接读出力臂",
+    "answer": "D. 便于从杠杆上直接读出力臂",
+    "solution": "杠杆水平、拉力竖直时，力臂就在杠杆上，可以直接读出。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "杠杆",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_049_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "杆秤是利用什么原理称量物体质量的？\nA. 二力平衡\nB. 阿基米德原理\nC. 连通器原理\nD. 杠杆平衡条件",
+    "answer": "D. 杠杆平衡条件",
+    "solution": "杆秤是一种杠杆，秤砣移动改变力臂，使杆秤平衡。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易杆秤",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_050_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "杆秤的刻度分布有什么特点？\nA. 均匀\nB. 越往外越密\nC. 越往外越疏\nD. 没有规律",
+    "answer": "A. 均匀",
+    "solution": "被称物体质量与秤砣到提纽的距离成一次关系，所以刻度均匀。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易杆秤",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_050_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果秤砣被磨损掉一些，用这杆秤称物体，读数会怎样？\nA. 偏大\nB. 偏小\nC. 不变\nD. 无法读数",
+    "answer": "A. 偏大",
+    "solution": "秤砣变轻，要平衡同一物体需把秤砣往外移，读数偏大。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易杆秤",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_050_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "简易杆秤的提纽到挂钩的距离为 5 cm，秤砣质量 100 g，称某物体时秤砣挂在提纽另一侧 20 cm 处平衡（不计秤杆自重），物体质量是多少 g？（只填数值）",
+    "answer": "400",
+    "solution": "m物 × 5 = 100 × 20，m物 = 400 g。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易杆秤",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_050_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "旗杆顶部的滑轮是什么滑轮？它有什么作用？\nA. 动滑轮，省力\nB. 定滑轮，改变力的方向\nC. 定滑轮，省力\nD. 动滑轮，改变力的方向",
+    "answer": "B. 定滑轮，改变力的方向",
+    "solution": "旗杆顶的滑轮不随旗移动，是定滑轮，能改变力的方向。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "滑轮",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_051_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用一个动滑轮匀速提起重 100 N 的物体（不计滑轮重和摩擦），拉力是多少？\nA. 100 N\nB. 200 N\nC. 25 N\nD. 50 N",
+    "answer": "D. 50 N",
+    "solution": "动滑轮省一半力，F = G/2 = 50 N。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "滑轮",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_051_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用滑轮组提升重 240 N 的物体，承担物重的绳子有 3 段，动滑轮重 30 N（不计绳重和摩擦），拉力是多少 N？（只填数值）",
+    "answer": "90",
+    "solution": "F = (G + G动)/n = (240 + 30) ÷ 3 = 90 N。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "滑轮",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_051_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用承重绳子为 3 段的滑轮组把物体提高 2 m，绳子自由端要拉过多长？\nA. 2 m\nB. 3 m\nC. 0.67 m\nD. 6 m",
+    "answer": "D. 6 m",
+    "solution": "s = nh = 3 × 2 = 6 m，省力但费距离。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "滑轮",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_051_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "使用任何机械时，机械效率总是怎样？\nA. 大于 1\nB. 等于 1\nC. 可能大于 1\nD. 小于 1（100%）",
+    "answer": "D. 小于 1（100%）",
+    "solution": "使用机械总要做额外功，有用功总小于总功，所以机械效率小于 100%。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "机械效率",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_052_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用滑轮组提升重物，有用功是 600 J，总功是 800 J，机械效率是多少？\nA. 133%\nB. 25%\nC. 75%\nD. 80%",
+    "answer": "C. 75%",
+    "solution": "η = W有/W总 = 600 ÷ 800 = 75%。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "机械效率",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_052_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用斜面把重 500 N 的箱子推上 1 m 高的平台，沿斜面推力 250 N，斜面长 4 m。斜面的机械效率是百分之多少？（只填数值）",
+    "answer": "50",
+    "solution": "W有 = Gh = 500 J，W总 = Fs = 1000 J，η = 500 ÷ 1000 = 50%。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "机械效率",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_052_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用同一个滑轮组提升不同的重物，下列做法能提高机械效率的是哪一个？\nA. 增加物体被提升的高度\nB. 加快提升速度\nC. 增加被提升物体的重力\nD. 增加动滑轮的重力",
+    "answer": "C. 增加被提升物体的重力",
+    "solution": "额外功基本不变时，物体越重，有用功占比越大，效率越高；提升高度和速度不影响效率。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 8,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "机械效率",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_052_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  }
+]

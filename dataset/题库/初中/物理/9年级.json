@@ -1,0 +1,2722 @@
+[
+  {
+    "question_text": "质量为 2 kg 的水温度升高 10 ℃，吸收多少 J 的热量？（c水 = 4.2×10³ J/(kg·℃)，只填数值）",
+    "answer": "84000",
+    "solution": "Q = cmΔt = 4200 × 2 × 10 = 84000 J。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "热量 比热容",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_053_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "沿海地区昼夜温差比内陆小，主要是因为水的什么性质？\nA. 比热容大\nB. 密度大\nC. 沸点高\nD. 热值大",
+    "answer": "A. 比热容大",
+    "solution": "水的比热容大，吸收或放出相同热量时温度变化小。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "热量 比热容",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_053_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一杯水倒掉一半后，剩下水的比热容怎样？\nA. 不变\nB. 变为原来的一半\nC. 变为原来的 2 倍\nD. 无法确定",
+    "answer": "A. 不变",
+    "solution": "比热容是物质的特性，与质量多少无关。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "热量 比热容",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_053_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "质量为 0.5 kg 的某金属吸收 4.6×10³ J 的热量后温度升高 20 ℃，它的比热容是多少 J/(kg·℃)？（只填数值）",
+    "answer": "460",
+    "solution": "c = Q/(mΔt) = 4600 ÷ (0.5 × 20) = 460 J/(kg·℃)。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "热量 比热容",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_053_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "走进花园闻到花香，说明了什么？\nA. 分子在不停地做无规则运动\nB. 分子间有引力\nC. 分子间有斥力\nD. 分子很大",
+    "answer": "A. 分子在不停地做无规则运动",
+    "solution": "花香分子运动到空气中进入鼻子，这是扩散现象。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分子动理论的初步知识",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_054_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列现象中能说明分子在运动的是哪一个？\nA. 扫地时尘土飞扬\nB. 雪花纷纷落下\nC. 糖放入热水中，水很快变甜\nD. 柳絮漫天飞舞",
+    "answer": "C. 糖放入热水中，水很快变甜",
+    "solution": "尘土、雪花、柳絮是肉眼可见的物体的机械运动，不是分子运动。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分子动理论的初步知识",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_054_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两块表面干净的铅块压紧后能吊起重物，说明了什么？\nA. 分子间存在斥力\nB. 分子间存在引力\nC. 分子在不停运动\nD. 铅块有磁性",
+    "answer": "B. 分子间存在引力",
+    "solution": "压紧后分子距离很近，分子间的引力使它们结合在一起。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分子动理论的初步知识",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_054_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "将红墨水分别滴入冷水和热水中，哪杯水颜色变化得快？\nA. 冷水\nB. 一样快\nC. 热水\nD. 无法判断",
+    "answer": "C. 热水",
+    "solution": "温度越高，分子无规则运动越剧烈，扩散越快。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分子动理论的初步知识",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_054_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "冬天搓手取暖，是通过什么方式改变手的内能的？\nA. 热传递\nB. 热辐射\nC. 分子扩散\nD. 做功",
+    "answer": "D. 做功",
+    "solution": "搓手时克服摩擦做功，机械能转化为内能。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "内能",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_055_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列说法正确的是哪一个？\nA. 一切物体都有内能\nB. 0 ℃ 的冰没有内能\nC. 温度高的物体含有的热量多\nD. 物体内能增加一定是吸收了热量",
+    "answer": "A. 一切物体都有内能",
+    "solution": "一切物体都有内能；热量是过程量，不能说“含有”；内能增加也可能是外界做功。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "内能",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_055_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用热水袋暖手，是通过什么方式改变内能的？\nA. 做功\nB. 摩擦\nC. 热传递\nD. 压缩",
+    "answer": "C. 热传递",
+    "solution": "热量从热水袋传给手，属于热传递。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "内能",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_055_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "晶体熔化时持续吸热，温度不变，它的内能怎样？\nA. 不变\nB. 增大\nC. 减小\nD. 先减小后增大",
+    "answer": "B. 增大",
+    "solution": "吸热使内能增大，温度不变不代表内能不变。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "内能",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_055_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "能量守恒定律指出，在能量转化和转移的过程中，能量的总量怎样？\nA. 逐渐减少\nB. 逐渐增加\nC. 先增后减\nD. 保持不变",
+    "answer": "D. 保持不变",
+    "solution": "能量既不会凭空消灭也不会凭空产生，总量保持不变。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能量的转化与守恒",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_056_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电风扇工作时，主要的能量转化是什么？\nA. 机械能转化为电能\nB. 内能转化为电能\nC. 电能转化为机械能\nD. 化学能转化为电能",
+    "answer": "C. 电能转化为机械能",
+    "solution": "电风扇消耗电能，扇叶转动获得机械能。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能量的转化与守恒",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_056_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "为什么“永动机”不可能制成？\nA. 违背了能量守恒定律\nB. 材料不够结实\nC. 技术还不够先进\nD. 需要的电太多",
+    "answer": "A. 违背了能量守恒定律",
+    "solution": "不消耗能量却源源不断对外做功，违背能量守恒定律。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能量的转化与守恒",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_056_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "汽车刹车时，车的动能主要转化成了什么？\nA. 电能\nB. 化学能\nC. 内能\nD. 重力势能",
+    "answer": "C. 内能",
+    "solution": "刹车片与车轮摩擦生热，动能转化为内能，而且这部分能量不能自动再变回动能（能量转化有方向性）。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能量的转化与守恒",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_056_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "汽油机的哪个冲程把内能转化为机械能？\nA. 做功冲程\nB. 压缩冲程\nC. 吸气冲程\nD. 排气冲程",
+    "answer": "A. 做功冲程",
+    "solution": "做功冲程中燃气推动活塞做功，内能转化为机械能；压缩冲程则相反。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "热机",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_057_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "汽油机的压缩冲程中，能量是怎样转化的？\nA. 内能转化为机械能\nB. 机械能转化为内能\nC. 化学能转化为电能\nD. 没有能量转化",
+    "answer": "B. 机械能转化为内能",
+    "solution": "活塞压缩气体做功，机械能转化为内能，气体温度升高。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "热机",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_057_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某单缸四冲程汽油机飞轮转速为 1800 r/min，它每秒对外做功多少次？（只填数值）",
+    "answer": "15",
+    "solution": "每秒转 30 圈；一个工作循环飞轮转 2 圈、做功 1 次，所以每秒做功 15 次。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "热机",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_057_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "汽油机一个工作循环中，有几个冲程？\nA. 2 个\nB. 1 个\nC. 4 个\nD. 3 个",
+    "answer": "C. 4 个",
+    "solution": "一个工作循环包括吸气、压缩、做功、排气四个冲程。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "热机",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_057_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "完全燃烧 0.2 kg 汽油放出多少 J 的热量？（q汽油 = 4.6×10⁷ J/kg，只填数值）",
+    "answer": "9200000",
+    "solution": "Q = mq = 0.2 × 4.6×10⁷ = 9.2×10⁶ J。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "热机的效率",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_058_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一桶汽油用去一半后，剩下汽油的热值怎样？\nA. 变为一半\nB. 变为 2 倍\nC. 不变\nD. 无法判断",
+    "answer": "C. 不变",
+    "solution": "热值是燃料的特性，与质量无关。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "热机的效率",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_058_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某热机燃料完全燃烧放出 1×10⁸ J 的热量，其中 3×10⁷ J 用来做有用功，热机效率是百分之多少？（只填数值）",
+    "answer": "30",
+    "solution": "η = 3×10⁷ ÷ 1×10⁸ = 30%。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "热机的效率",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_058_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列做法中，不能提高热机效率的是哪一个？\nA. 使燃料燃烧更充分\nB. 换用热值更大的燃料\nC. 减少各种热损失\nD. 保持良好润滑，减小摩擦",
+    "answer": "B. 换用热值更大的燃料",
+    "solution": "热机效率是有用能量占总能量的比例，换热值大的燃料不改变这个比例。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "热机的效率",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_058_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "试管中的水沸腾后，水蒸气把塞子冲出，这一过程相当于汽油机的哪个冲程？\nA. 压缩冲程\nB. 吸气冲程\nC. 排气冲程\nD. 做功冲程",
+    "answer": "D. 做功冲程",
+    "solution": "水蒸气对塞子做功，内能转化为机械能，与做功冲程相同。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易热机模型",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_059_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "蒸汽小船（“噗噗船”）向前运动的能量最终来自哪里？\nA. 燃料燃烧放出的热量\nB. 水的浮力\nC. 空气的推力\nD. 船的重力",
+    "answer": "A. 燃料燃烧放出的热量",
+    "solution": "燃料燃烧放热，水汽化喷出推动小船，内能转化为机械能。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易热机模型",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_059_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "塞子被水蒸气冲出后，试管口出现“白气”，原因是什么？\nA. 水蒸气对外做功，内能减小，温度降低而液化\nB. 水蒸气吸热汽化\nC. 塞子摩擦生热\nD. 空气中的水升华",
+    "answer": "A. 水蒸气对外做功，内能减小，温度降低而液化",
+    "solution": "水蒸气对外做功内能减小、温度降低，液化成小水珠形成“白气”。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易热机模型",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_059_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要提高自制热机模型的效率，下列措施合理的是哪一个？\nA. 把燃料换成热值大的\nB. 把模型做得更重\nC. 加大散热\nD. 给加热部分加保温罩，减少热量散失",
+    "answer": "D. 给加热部分加保温罩，减少热量散失",
+    "solution": "减少热损失能提高有用能量占比；换燃料并不能改变效率。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易热机模型",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_059_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电荷间的相互作用规律是什么？\nA. 同种电荷相互吸引，异种电荷相互排斥\nB. 所有电荷都相互吸引\nC. 同种电荷相互排斥，异种电荷相互吸引\nD. 所有电荷都相互排斥",
+    "answer": "C. 同种电荷相互排斥，异种电荷相互吸引",
+    "solution": "同种电荷相互排斥，异种电荷相互吸引。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "两种电荷",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_060_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用丝绸摩擦过的玻璃棒带正电，是因为什么？\nA. 玻璃棒得到了电子\nB. 玻璃棒得到了质子\nC. 摩擦创造了正电荷\nD. 玻璃棒失去了电子",
+    "answer": "D. 玻璃棒失去了电子",
+    "solution": "摩擦起电是电子的转移，玻璃棒失去电子带正电，电荷并没有被创造。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "两种电荷",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_060_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列物体中，通常情况下属于导体的是哪一个？\nA. 橡皮\nB. 铅笔芯\nC. 塑料尺\nD. 玻璃杯",
+    "answer": "B. 铅笔芯",
+    "solution": "铅笔芯主要成分是石墨，是导体。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "两种电荷",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_060_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "验电器的金属箔片张开，说明什么？\nA. 金属箔片带了同种电荷而相互排斥\nB. 金属箔片带了异种电荷\nC. 金属箔片没有带电\nD. 金属箔片受到了磁力",
+    "answer": "A. 金属箔片带了同种电荷而相互排斥",
+    "solution": "验电器根据同种电荷相互排斥的原理工作。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "两种电荷",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_060_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "物理学中规定的电流方向是什么？\nA. 正电荷定向移动的方向\nB. 负电荷定向移动的方向\nC. 电子定向移动的方向\nD. 从电源负极流向正极（电源外部）",
+    "answer": "A. 正电荷定向移动的方向",
+    "solution": "规定正电荷定向移动的方向为电流方向；在电源外部，电流从正极流向负极，与电子移动方向相反。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流和电路",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_061_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在电路中，电源的作用是什么？\nA. 消耗电能\nB. 控制电路通断\nC. 提供电能\nD. 输送电能",
+    "answer": "C. 提供电能",
+    "solution": "电源把其他形式的能转化为电能，为电路提供电能。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流和电路",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_061_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用导线直接把电源正、负极连接起来，这种情况叫什么？\nA. 通路\nB. 断路\nC. 开路\nD. 电源短路",
+    "answer": "D. 电源短路",
+    "solution": "电源短路时电流很大，会损坏电源，必须避免。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流和电路",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_061_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个完整的电路，至少由哪几部分组成？\nA. 电源和用电器\nB. 电源、开关和导线\nC. 电源、用电器、开关和导线\nD. 用电器、开关和导线",
+    "answer": "C. 电源、用电器、开关和导线",
+    "solution": "完整电路由电源、用电器、开关和导线组成。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流和电路",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_061_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "家庭电路中的电灯、电视机、冰箱之间是怎样连接的？\nA. 串联\nB. 并联\nC. 有的串联有的并联\nD. 无法判断",
+    "answer": "B. 并联",
+    "solution": "家用电器能各自独立工作，互不影响，所以是并联。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串联电路和并联电路",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_062_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两盏灯串联，其中一盏灯的灯丝断了，另一盏灯会怎样？\nA. 仍然亮\nB. 变得更亮\nC. 也不亮\nD. 亮度不变",
+    "answer": "C. 也不亮",
+    "solution": "串联电路只有一条电流路径，一处断开，整个电路都没有电流。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串联电路和并联电路",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_062_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "教室里一个开关同时控制两盏日光灯，一盏坏了另一盏仍能亮，两盏灯是怎样连接的？\nA. 串联\nB. 并联，开关在干路上\nC. 并联，开关在支路上\nD. 无法判断",
+    "answer": "B. 并联，开关在干路上",
+    "solution": "两灯互不影响说明并联；一个开关控制两盏灯，说明开关在干路上。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串联电路和并联电路",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_062_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列电路中，各元件之间是串联的是哪一个？\nA. 教室里的各盏灯\nB. 马路上的路灯（一盏坏了其他仍亮）\nC. 家里的电视机和冰箱\nD. 开关和它所控制的电灯",
+    "answer": "D. 开关和它所控制的电灯",
+    "solution": "开关必须和它控制的用电器串联；其余都是并联。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串联电路和并联电路",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_062_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电流表应怎样接入电路？\nA. 并联在被测用电器两端\nB. 串联在被测电路中\nC. 直接接在电源两极\nD. 随便怎样接都可以",
+    "answer": "B. 串联在被测电路中",
+    "solution": "电流表要串联在被测电路中；直接接在电源两极会烧坏电流表。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_063_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "0.25 A 等于多少 mA？（只填数值）",
+    "answer": "250",
+    "solution": "1 A = 1000 mA，0.25 A = 250 mA。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_063_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "使用电流表时，指针向左（反向）偏转，原因是什么？\nA. 量程选小了\nB. 量程选大了\nC. 电流表短路了\nD. 正、负接线柱接反了",
+    "answer": "D. 正、负接线柱接反了",
+    "solution": "电流从负接线柱流入时指针反偏。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_063_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电流表选用 0~0.6 A 量程，却按 0~3 A 量程读出 1.5 A，实际电流是多少？\nA. 1.5 A\nB. 7.5 A\nC. 0.15 A\nD. 0.3 A",
+    "answer": "D. 0.3 A",
+    "solution": "0~3 A 量程的读数是 0~0.6 A 量程读数的 5 倍，实际电流 1.5 ÷ 5 = 0.3 A。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_063_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两只不同的灯泡串联，通过它们的电流有什么关系？\nA. 通过亮的灯电流大\nB. 通过暗的灯电流大\nC. 相等\nD. 无法确定",
+    "answer": "C. 相等",
+    "solution": "串联电路中电流处处相等，与灯泡亮暗无关。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串、并联电路中电流的规律",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_064_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两盏灯并联，通过它们的电流分别是 0.3 A 和 0.5 A，干路电流是多少 A？（只填数值）",
+    "answer": "0.8",
+    "solution": "I = I₁ + I₂ = 0.3 + 0.5 = 0.8 A。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串、并联电路中电流的规律",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_064_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "并联电路中干路电流为 1.2 A，一条支路电流为 0.4 A，另一条支路电流是多少 A？（只填数值）",
+    "answer": "0.8",
+    "solution": "I₂ = I - I₁ = 1.2 - 0.4 = 0.8 A。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串、并联电路中电流的规律",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_064_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "探究串联电路电流规律时，换用不同规格的灯泡多次实验，目的是什么？\nA. 减小测量误差\nB. 使灯泡更亮\nC. 使结论具有普遍性\nD. 保护电流表",
+    "answer": "C. 使结论具有普遍性",
+    "solution": "多次实验、换不同规格灯泡是为了避免偶然性，得到普遍规律。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串、并联电路中电流的规律",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_064_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国家庭电路的电压是多少？\nA. 1.5 V\nB. 220 V\nC. 36 V\nD. 380 V",
+    "answer": "B. 220 V",
+    "solution": "我国家庭电路电压为 220 V；一节干电池 1.5 V。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电压",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_065_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电压表应怎样接入电路？\nA. 串联在被测电路中\nB. 并联在被测电路两端\nC. 只能接在电源两端\nD. 与电流表的接法相同",
+    "answer": "B. 并联在被测电路两端",
+    "solution": "电压表并联在被测电路两端，电流从“+”接线柱流入。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电压",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_065_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "3 节新干电池串联组成的电池组，电压是多少 V？（只填数值）",
+    "answer": "4.5",
+    "solution": "每节 1.5 V，串联电压相加：3 × 1.5 = 4.5 V。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电压",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_065_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "如图所示电路中，电压表测量的是哪一部分的电压？\nA. R₂ 两端的电压\nB. R₁ 两端的电压\nC. 电源电压\nD. 电流表两端的电压",
+    "answer": "B. R₁ 两端的电压",
+    "solution": "电压表的两端分别接在 R₁ 的两端，与 R₁ 并联，测 R₁ 两端的电压。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电压",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_065_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个电阻串联在 6 V 的电源上，其中一个电阻两端的电压为 2 V，另一个电阻两端的电压是多少 V？（只填数值）",
+    "answer": "4",
+    "solution": "U₂ = U - U₁ = 6 - 2 = 4 V。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串、并联电路中电压的规律",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_066_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两盏灯并联接在 3 V 的电源上，每盏灯两端的电压是多少？\nA. 3 V\nB. 1.5 V\nC. 6 V\nD. 0 V",
+    "answer": "A. 3 V",
+    "solution": "并联电路各支路两端电压相等，都等于电源电压。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串、并联电路中电压的规律",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_066_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "如图，电源电压 6 V，电压表示数为 2.5 V，R₂ 两端的电压是多少？\nA. 3.5 V\nB. 2.5 V\nC. 6 V\nD. 8.5 V",
+    "answer": "A. 3.5 V",
+    "solution": "电压表测 R₁ 两端电压，串联电路 U₂ = 6 - 2.5 = 3.5 V。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串、并联电路中电压的规律",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_066_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "家里的电视和电灯同时工作，它们两端的电压有什么关系？\nA. 电视的电压大\nB. 电灯的电压大\nC. 相等，都是 220 V\nD. 二者之和为 220 V",
+    "answer": "C. 相等，都是 220 V",
+    "solution": "家用电器并联，两端电压相等，都等于 220 V。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串、并联电路中电压的规律",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_066_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "导体的电阻与下列哪个因素无关？\nA. 导体两端的电压\nB. 导体的材料\nC. 导体的长度\nD. 导体的横截面积",
+    "answer": "A. 导体两端的电压",
+    "solution": "电阻是导体本身的性质，与是否通电、电压大小无关。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电阻",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_067_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "材料和横截面积相同的两根导线，较长的那根电阻怎样？\nA. 较大\nB. 较小\nC. 相等\nD. 无法比较",
+    "answer": "A. 较大",
+    "solution": "其他条件相同时，导体越长，电阻越大。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电阻",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_067_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "2 kΩ 等于多少 Ω？（只填数值）",
+    "answer": "2000",
+    "solution": "1 kΩ = 1000 Ω。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电阻",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_067_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把一根导线均匀拉长到原来的 2 倍，它的电阻怎样变化？\nA. 变为原来的 4 倍\nB. 变为原来的 2 倍\nC. 不变\nD. 变为原来的一半",
+    "answer": "A. 变为原来的 4 倍",
+    "solution": "长度变为 2 倍，横截面积变为一半，两个因素都使电阻变为 2 倍，所以电阻变为 4 倍。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电阻",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_067_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "滑动变阻器是通过改变什么来改变电阻的？\nA. 电阻丝的横截面积\nB. 电阻丝的材料\nC. 电阻丝的温度\nD. 接入电路中电阻丝的长度",
+    "answer": "D. 接入电路中电阻丝的长度",
+    "solution": "移动滑片改变接入电路的电阻丝长度，从而改变电阻。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "变阻器",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_068_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "滑动变阻器铭牌上标有“20 Ω 1 A”，“20 Ω”表示什么？\nA. 最小阻值为 20 Ω\nB. 正常工作时阻值为 20 Ω\nC. 最大阻值为 20 Ω\nD. 允许通过的电流是 20 A",
+    "answer": "C. 最大阻值为 20 Ω",
+    "solution": "20 Ω 是最大阻值，1 A 是允许通过的最大电流。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "变阻器",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_068_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "闭合开关前，滑动变阻器的滑片应放在什么位置？\nA. 阻值最小处\nB. 中间位置\nC. 阻值最大处\nD. 任意位置",
+    "answer": "C. 阻值最大处",
+    "solution": "放在最大阻值处，使电路中电流最小，保护电路。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "变阻器",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_068_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "滑动变阻器同时接两个下面的接线柱，移动滑片时会怎样？\nA. 电阻变化很大\nB. 电阻为零\nC. 电路断开\nD. 电阻不变，相当于一个定值电阻",
+    "answer": "D. 电阻不变，相当于一个定值电阻",
+    "solution": "接两个下接线柱时整根电阻丝都接入，移动滑片不改变电阻。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "变阻器",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_068_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "简易调光台灯中，灯泡和滑动变阻器应怎样连接？\nA. 并联\nB. 可以并联也可以串联\nC. 串联\nD. 不需要连接",
+    "answer": "C. 串联",
+    "solution": "变阻器与灯泡串联，改变变阻器电阻才能改变通过灯泡的电流。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易调光台灯",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_069_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "调光台灯中，变阻器接入电路的电阻变大时，灯泡的亮度怎样变化？\nA. 变暗\nB. 变亮\nC. 不变\nD. 先变亮后变暗",
+    "answer": "A. 变暗",
+    "solution": "总电阻变大，电流变小，灯泡变暗。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易调光台灯",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_069_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用铅笔芯代替电阻丝制作调光台灯，利用了铅笔芯的什么性质？\nA. 铅笔芯是绝缘体\nB. 铅笔芯电阻为零\nC. 铅笔芯是导体，且长度改变时电阻改变\nD. 铅笔芯能发光",
+    "answer": "C. 铅笔芯是导体，且长度改变时电阻改变",
+    "solution": "铅笔芯能导电，接入长度越长电阻越大，可以起到变阻器的作用。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易调光台灯",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_069_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "自制调光台灯时，下列做法正确的是哪一个？\nA. 直接接在 220 V 家庭电路上做实验\nB. 用湿手调节\nC. 用干电池等低压电源做实验\nD. 把导线裸露部分缠在一起不包绝缘胶布",
+    "answer": "C. 用干电池等低压电源做实验",
+    "solution": "自制电路应使用安全的低压电源，注意绝缘和用电安全。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易调光台灯",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_069_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在电阻一定时，通过导体的电流与导体两端的电压是什么关系？\nA. 成反比\nB. 无关\nC. 成正比\nD. 相等",
+    "answer": "C. 成正比",
+    "solution": "电阻一定时，电流与电压成正比。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流与电压、电阻的关系",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_070_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在电压一定时，通过导体的电流与导体的电阻是什么关系？\nA. 成正比\nB. 成反比\nC. 无关\nD. 相等",
+    "answer": "B. 成反比",
+    "solution": "电压一定时，电流与电阻成反比。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流与电压、电阻的关系",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_070_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "探究电流与电阻的关系时，把 5 Ω 的电阻换成 10 Ω 后，应怎样调节滑动变阻器？\nA. 使电流保持不变\nB. 使变阻器阻值不变\nC. 不需要调节\nD. 使电阻两端的电压保持不变",
+    "answer": "D. 使电阻两端的电压保持不变",
+    "solution": "探究电流与电阻关系要控制电阻两端的电压不变。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流与电压、电阻的关系",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_070_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某定值电阻两端电压为 2 V 时电流为 0.2 A，电压增大到 6 V 时，电流是多少 A？（只填数值）",
+    "answer": "0.6",
+    "solution": "电阻一定时电流与电压成正比，电压变为 3 倍，电流也变为 3 倍：0.6 A。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流与电压、电阻的关系",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_070_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个 10 Ω 的电阻两端电压为 3 V，通过它的电流是多少 A？（只填数值）",
+    "answer": "0.3",
+    "solution": "I = U/R = 3 ÷ 10 = 0.3 A。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "欧姆定律",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_071_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "通过一个 20 Ω 电阻的电流为 0.5 A，它两端的电压是多少 V？（只填数值）",
+    "answer": "10",
+    "solution": "U = IR = 0.5 × 20 = 10 V。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "欧姆定律",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_071_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于 R = U/I，下列说法正确的是哪一个？\nA. 电阻与电压成正比\nB. 电阻与电流成反比\nC. 电压为零时电阻为零\nD. 电阻是导体本身的性质，与电压、电流无关",
+    "answer": "D. 电阻是导体本身的性质，与电压、电流无关",
+    "solution": "R = U/I 只是计算电阻的方法，电阻由材料、长度、横截面积和温度决定。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "欧姆定律",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_071_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某导体两端加 4 V 电压时电流为 0.2 A，当它两端电压为 0 时，它的电阻是多少？\nA. 0 Ω\nB. 无穷大\nC. 20 Ω\nD. 10 Ω",
+    "answer": "C. 20 Ω",
+    "solution": "R = 4 ÷ 0.2 = 20 Ω；电阻与电压无关，电压为 0 时仍为 20 Ω。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "欧姆定律",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_071_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "伏安法测电阻的原理是什么？\nA. R = U/I\nB. P = UI\nC. I = U + R\nD. W = UIt",
+    "answer": "A. R = U/I",
+    "solution": "用电压表测 U、电流表测 I，由 R = U/I 求电阻。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电阻的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_072_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "伏安法测电阻时，电压表和电流表分别怎样连接？\nA. 电压表与电阻串联，电流表与电阻并联\nB. 两表都与电阻串联\nC. 电压表与电阻并联，电流表与电阻串联\nD. 两表都与电阻并联",
+    "answer": "C. 电压表与电阻并联，电流表与电阻串联",
+    "solution": "电压表并联，电流表串联。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电阻的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_072_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "测某定值电阻时三次得到的阻值分别为 9.8 Ω、10.0 Ω、10.2 Ω，该电阻的阻值应记为多少 Ω？（只填数值）",
+    "answer": "10",
+    "solution": "多次测量求平均值减小误差：(9.8 + 10.0 + 10.2) ÷ 3 = 10 Ω。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电阻的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_072_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "测小灯泡电阻时，发现不同电压下电阻不同，主要原因是什么？\nA. 灯丝电阻随温度的升高而增大\nB. 测量误差太大\nC. 电压表坏了\nD. 灯丝的长度变了",
+    "answer": "A. 灯丝电阻随温度的升高而增大",
+    "solution": "电压越大灯丝温度越高，电阻越大，所以不能求平均值作为灯泡电阻。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电阻的测量",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_072_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "5 Ω 和 10 Ω 的电阻串联，总电阻是多少 Ω？（只填数值）",
+    "answer": "15",
+    "solution": "串联总电阻 R = R₁ + R₂ = 15 Ω。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "欧姆定律在串、并联电路中的应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_073_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "如图，R₁ = 10 Ω，R₂ = 20 Ω，电源电压 6 V，电流表示数是多少？\nA. 0.6 A\nB. 0.3 A\nC. 0.9 A\nD. 0.2 A",
+    "answer": "D. 0.2 A",
+    "solution": "串联总电阻 30 Ω，I = 6 ÷ 30 = 0.2 A。只用 R₁ 算会得到 0.6 A。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "欧姆定律在串、并联电路中的应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_073_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "R₁ = 6 Ω 和 R₂ = 12 Ω 并联在 6 V 电源上，干路电流是多少 A？（只填数值）",
+    "answer": "1.5",
+    "solution": "I₁ = 6 ÷ 6 = 1 A，I₂ = 6 ÷ 12 = 0.5 A，干路 I = 1.5 A。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "欧姆定律在串、并联电路中的应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_073_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个电阻并联后的总电阻与其中较小的电阻相比怎样？\nA. 等于两电阻之和\nB. 介于两电阻之间\nC. 比较小的电阻还小\nD. 比较大的电阻还大",
+    "answer": "C. 比较小的电阻还小",
+    "solution": "并联相当于增大了导体横截面积，总电阻小于任何一个分电阻。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "欧姆定律在串、并联电路中的应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_073_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1 kW·h 等于多少焦耳？\nA. 3.6×10⁶ J\nB. 3.6×10³ J\nC. 1000 J\nD. 3600 J",
+    "answer": "A. 3.6×10⁶ J",
+    "solution": "1 kW·h = 1000 W × 3600 s = 3.6×10⁶ J。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电能 电功",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_074_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电能表月初示数 1235.6 kW·h，月末示数 1335.6 kW·h，这个月用电多少 kW·h？（只填数值）",
+    "answer": "100",
+    "solution": "用电量 = 月末示数 - 月初示数 = 100 kW·h。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电能 电功",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_074_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电压 6 V，电流 0.5 A，通电 100 s，电流做功多少 J？（只填数值）",
+    "answer": "300",
+    "solution": "W = UIt = 6 × 0.5 × 100 = 300 J。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电能 电功",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_074_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电能表上标有“3000 r/(kW·h)”，表示什么？\nA. 每小时转 3000 转\nB. 电能表允许的最大功率是 3000 W\nC. 转盘每转一圈消耗 3000 J\nD. 每消耗 1 kW·h 电能，转盘转 3000 转",
+    "answer": "D. 每消耗 1 kW·h 电能，转盘转 3000 转",
+    "solution": "3000 r/(kW·h) 表示接在这个电能表上的用电器每消耗 1 kW·h 的电能，转盘转 3000 转。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电能 电功",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_074_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一盏灯两端电压 220 V，通过的电流为 0.2 A，它的电功率是多少 W？（只填数值）",
+    "answer": "44",
+    "solution": "P = UI = 220 × 0.2 = 44 W。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电功率",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_075_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个 1000 W 的电热水壶正常工作 0.5 h，消耗多少 kW·h 的电能？（只填数值）",
+    "answer": "0.5",
+    "solution": "W = Pt = 1 kW × 0.5 h = 0.5 kW·h。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电功率",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_075_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "灯泡的亮暗由什么决定？\nA. 实际功率\nB. 额定功率\nC. 额定电压\nD. 通过的电流方向",
+    "answer": "A. 实际功率",
+    "solution": "灯泡亮度由实际功率决定，实际功率越大越亮。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电功率",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_075_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "标有“220 V 100 W”的灯泡，正常发光时的电阻是多少？\nA. 2.2 Ω\nB. 0.45 Ω\nC. 484 Ω\nD. 22000 Ω",
+    "answer": "C. 484 Ω",
+    "solution": "R = U²/P = 220² ÷ 100 = 484 Ω。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电功率",
+      "能量"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_075_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一台 100 W 的电视机每天待机和观看共 5 h，一个月（30 天）消耗多少 kW·h 的电能？（只填数值）",
+    "answer": "15",
+    "solution": "W = Pt = 0.1 kW × 5 h × 30 = 15 kW·h。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：为家庭节约用电提建议",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_076_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列做法中，有利于节约用电的是哪一个？\nA. 夏天空调温度调到 16 ℃\nB. 用 LED 灯替换白炽灯\nC. 电视长时间待机\nD. 冰箱门经常打开",
+    "answer": "B. 用 LED 灯替换白炽灯",
+    "solution": "LED 灯发光效率高，相同亮度下功率小。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：为家庭节约用电提建议",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_076_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把 40 W 的白炽灯换成亮度相当的 8 W LED 灯，每天用 5 h，每天可以节约多少 kW·h 的电能？（只填数值）",
+    "answer": "0.16",
+    "solution": "节约 = (0.04 - 0.008) kW × 5 h = 0.16 kW·h。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：为家庭节约用电提建议",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_076_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从 W = Pt 看，节约用电可以从哪两方面入手？\nA. 增大功率和延长时间\nB. 提高电压\nC. 减小用电器功率和缩短用电时间\nD. 增大电流",
+    "answer": "C. 减小用电器功率和缩短用电时间",
+    "solution": "W = Pt，减小 P 或减小 t 都能减少消耗的电能。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：为家庭节约用电提建议",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_076_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电流 2 A 通过 10 Ω 的电阻，通电 60 s 产生多少 J 的热量？（只填数值）",
+    "answer": "2400",
+    "solution": "Q = I²Rt = 2² × 10 × 60 = 2400 J。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "焦耳定律",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_077_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电炉丝热得发红，与它连接的导线却不怎么热，主要原因是什么？\nA. 导线中电流比电炉丝中小\nB. 导线电阻比电炉丝小得多\nC. 导线散热快\nD. 导线中没有电流",
+    "answer": "B. 导线电阻比电炉丝小得多",
+    "solution": "二者串联电流相等，由 Q = I²Rt，电阻大的电炉丝产生的热量多。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "焦耳定律",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_077_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列用电器中，利用电流热效应工作的是哪一个？\nA. 电风扇\nB. 电视机\nC. 电冰箱\nD. 电饭锅",
+    "answer": "D. 电饭锅",
+    "solution": "电饭锅把电能主要转化为内能；电风扇主要转化为机械能。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "焦耳定律",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_077_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电流不变时，把电阻丝的通电时间增加到原来的 2 倍，产生的热量变为原来的多少倍？\nA. 2 倍\nB. 4 倍\nC. 1 倍\nD. 0.5 倍",
+    "answer": "A. 2 倍",
+    "solution": "由 Q = I²Rt，热量与时间成正比。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "焦耳定律",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_077_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "对人体安全的电压是多少？\nA. 220 V\nB. 不高于 36 V\nC. 380 V\nD. 不高于 360 V",
+    "answer": "B. 不高于 36 V",
+    "solution": "一般情况下对人体安全的电压不高于 36 V。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "安全用电",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_078_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "发现有人触电，首先应该怎样做？\nA. 立即切断电源\nB. 用手把人拉开\nC. 用湿木棍挑开电线\nD. 大声呼救后等待",
+    "answer": "A. 立即切断电源",
+    "solution": "首先切断电源，或用干燥的绝缘棒挑开电线，不能直接用手去拉。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "安全用电",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_078_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列做法中符合安全用电原则的是哪一个？\nA. 用湿手拔插头\nB. 更换灯泡前先断开开关\nC. 在高压线附近放风筝\nD. 多个大功率用电器同时用一个插座",
+    "answer": "B. 更换灯泡前先断开开关",
+    "solution": "更换灯泡、维修电器前要先断开电源。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "安全用电",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_078_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "雷雨天不能在大树下避雨，原因是什么？\nA. 大树会倒\nB. 大树容易遭雷击，电流可能经过人体\nC. 大树挡不住雨\nD. 大树会吸收热量",
+    "answer": "B. 大树容易遭雷击，电流可能经过人体",
+    "solution": "高大的树木容易被雷击中，强大的电流可能通过人体造成伤害。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "安全用电",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_078_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用试电笔辨别火线和零线时，氖管发光的是哪一根？\nA. 火线\nB. 零线\nC. 地线\nD. 都会发光",
+    "answer": "A. 火线",
+    "solution": "接触火线时氖管发光；使用时手要接触笔尾金属体。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家庭电路的基本组成",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_079_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "家庭电路中电流过大的原因是什么？\nA. 电压过低\nB. 用电器太少\nC. 导线太粗\nD. 短路或用电器总功率过大",
+    "answer": "D. 短路或用电器总功率过大",
+    "solution": "短路或总功率过大都会使干路电流过大。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家庭电路的基本组成",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_079_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "洗衣机、电冰箱等用电器要使用三线插头，目的是什么？\nA. 使用电器更省电\nB. 使插头插得更牢\nC. 使金属外壳接地，防止外壳带电时触电\nD. 增大电流",
+    "answer": "C. 使金属外壳接地，防止外壳带电时触电",
+    "solution": "三线插头的第三根线把金属外壳与大地相连。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家庭电路的基本组成",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_079_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "控制电灯的开关应接在哪根线上？\nA. 零线\nB. 地线\nC. 哪根都可以\nD. 火线",
+    "answer": "D. 火线",
+    "solution": "开关接在火线上，断开时灯与火线断开，更换灯泡更安全。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家庭电路的基本组成",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_079_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某房间同时使用 1100 W 的空调和 220 W 的电视，干路电流是多少 A？（电压 220 V，只填数值）",
+    "answer": "6",
+    "solution": "总功率 1320 W，I = P/U = 1320 ÷ 220 = 6 A。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：为家庭电路做设计",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_080_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "设计家庭电路时，房间里的插座和电灯应怎样连接？\nA. 串联\nB. 并联\nC. 插座串联、电灯并联\nD. 随意连接",
+    "answer": "B. 并联",
+    "solution": "家用电器和插座都应并联，才能独立工作。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：为家庭电路做设计",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_080_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电能表上标有“220 V 10 A”，这个家庭电路允许同时使用的用电器总功率最大是多少？\nA. 2200 W\nB. 22 W\nC. 220 W\nD. 10 W",
+    "answer": "A. 2200 W",
+    "solution": "P = UI = 220 × 10 = 2200 W。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：为家庭电路做设计",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_080_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "为大功率空调单独设计一条线路时，下列做法合理的是哪一个？\nA. 选用较细的导线\nB. 去掉保险装置\nC. 选用较粗的导线并加装合适的空气开关\nD. 把开关接在零线上",
+    "answer": "C. 选用较粗的导线并加装合适的空气开关",
+    "solution": "大功率用电器电流大，要用较粗的导线减小发热，并有保护装置。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：为家庭电路做设计",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_080_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "磁极间的相互作用规律是什么？\nA. 同名磁极相互吸引，异名磁极相互排斥\nB. 同名磁极相互排斥，异名磁极相互吸引\nC. 所有磁极都相互吸引\nD. 所有磁极都相互排斥",
+    "answer": "B. 同名磁极相互排斥，异名磁极相互吸引",
+    "solution": "同名磁极相互排斥，异名磁极相互吸引。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁现象 磁场",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_081_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在磁体外部，磁感线的方向是怎样的？\nA. 从 N 极出发，回到 S 极\nB. 从 S 极出发，回到 N 极\nC. 从中间指向两极\nD. 没有方向",
+    "answer": "A. 从 N 极出发，回到 S 极",
+    "solution": "磁体外部磁感线从 N 极出发回到 S 极。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁现象 磁场",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_081_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "地磁场的 N 极在地理的哪个位置附近？\nA. 地理南极附近\nB. 地理北极附近\nC. 赤道附近\nD. 地心",
+    "answer": "A. 地理南极附近",
+    "solution": "地磁 N 极在地理南极附近，所以指南针的 N 极指向地理北方。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁现象 磁场",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_081_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列物体中能被磁铁吸引的是哪一个？\nA. 铜钥匙\nB. 铝勺\nC. 玻璃杯\nD. 铁钉",
+    "answer": "D. 铁钉",
+    "solution": "磁体能吸引铁、钴、镍等物质，不能吸引铜、铝。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁现象 磁场",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_081_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "首先发现电流周围存在磁场的科学家是谁？\nA. 法拉第\nB. 牛顿\nC. 欧姆\nD. 奥斯特",
+    "answer": "D. 奥斯特",
+    "solution": "1820 年奥斯特发现通电导线能使小磁针偏转；法拉第发现了电磁感应。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电生磁",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_082_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "通电螺线管外部的磁场与哪种磁体的磁场相似？\nA. 蹄形磁体\nB. 条形磁体\nC. 环形磁体\nD. 没有磁场",
+    "answer": "B. 条形磁体",
+    "solution": "通电螺线管外部磁场和条形磁体相似，两端是 N、S 极。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电生磁",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_082_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "安培定则：用右手握住螺线管，让四指指向螺线管中电流的方向，则什么所指的那端是 N 极？\nA. 食指\nB. 小指\nC. 手腕\nD. 大拇指",
+    "answer": "D. 大拇指",
+    "solution": "右手握住螺线管，四指指向电流方向，大拇指所指那端是 N 极。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电生磁",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_082_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "改变通电螺线管中的电流方向，它的磁极会怎样？\nA. 不变\nB. N、S 极对调\nC. 磁性消失\nD. 磁性增强",
+    "answer": "B. N、S 极对调",
+    "solution": "螺线管磁极与电流方向有关，电流方向改变磁极对调。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电生磁",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_082_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列方法中，能增强电磁铁磁性的是哪一个？\nA. 减小线圈中的电流\nB. 增加线圈匝数\nC. 抽出铁芯\nD. 改变电流方向",
+    "answer": "B. 增加线圈匝数",
+    "solution": "电流越大、匝数越多（有铁芯），电磁铁磁性越强；改变电流方向只改变磁极。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁铁 电磁继电器",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_083_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电磁铁与永磁体相比，优点是什么？\nA. 磁性有无和强弱可以控制\nB. 磁性永远不消失\nC. 不需要电\nD. 没有磁极",
+    "answer": "A. 磁性有无和强弱可以控制",
+    "solution": "电磁铁通电有磁性、断电无磁性，磁性强弱可以通过电流调节。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁铁 电磁继电器",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_083_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电磁继电器的实质是什么？\nA. 利用电磁铁控制工作电路通断的开关\nB. 一种电源\nC. 一种用电器\nD. 一种电阻",
+    "answer": "A. 利用电磁铁控制工作电路通断的开关",
+    "solution": "电磁继电器用低电压、弱电流的控制电路控制高电压、强电流的工作电路。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁铁 电磁继电器",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_083_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电磁铁的铁芯一般用什么材料？\nA. 钢\nB. 铜\nC. 铝\nD. 软铁",
+    "answer": "D. 软铁",
+    "solution": "软铁断电后磁性立即消失；钢会被磁化后保留磁性，铜、铝不能被磁化。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁铁 电磁继电器",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_083_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电动机是根据什么原理工作的？\nA. 电磁感应\nB. 电流的热效应\nC. 电荷间的相互作用\nD. 通电导线在磁场中受到力的作用",
+    "answer": "D. 通电导线在磁场中受到力的作用",
+    "solution": "电动机利用通电线圈在磁场中受力转动；电磁感应是发电机原理。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电动机",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_084_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电动机工作时，主要的能量转化是什么？\nA. 机械能转化为电能\nB. 内能转化为电能\nC. 电能转化为机械能\nD. 电能转化为化学能",
+    "answer": "C. 电能转化为机械能",
+    "solution": "电动机消耗电能，输出机械能。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电动机",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_084_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要改变直流电动机的转动方向，可以怎样做？\nA. 同时改变电流方向和磁场方向\nB. 增大电流\nC. 增加线圈匝数\nD. 只改变电流方向",
+    "answer": "D. 只改变电流方向",
+    "solution": "受力方向与电流方向和磁场方向有关，只改变其中一个才能使转向改变。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电动机",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_084_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "直流电动机中换向器的作用是什么？\nA. 改变磁场方向\nB. 增大电流\nC. 把交流电变为直流电\nD. 线圈转过平衡位置时自动改变线圈中的电流方向",
+    "answer": "D. 线圈转过平衡位置时自动改变线圈中的电流方向",
+    "solution": "换向器使线圈刚转过平衡位置时电流方向改变，线圈能持续转动。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电动机",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_084_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "制作简易电动机时，线圈引线一端漆皮全刮掉、另一端只刮半周，作用相当于什么？\nA. 电源\nB. 换向器\nC. 磁体\nD. 开关（只控制通断）",
+    "answer": "B. 换向器",
+    "solution": "刮半周使线圈转过平衡位置后半圈不通电，靠惯性转过，作用相当于换向器。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易直流电动机",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_085_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要让自制电动机转得更快，可以怎样做？\nA. 换用电压更低的电池\nB. 换用磁性更强的磁体\nC. 减少线圈匝数到一圈\nD. 把磁体拿远一些",
+    "answer": "B. 换用磁性更强的磁体",
+    "solution": "增强磁场或增大电流能增大线圈受力，使转速加快。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易直流电动机",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_085_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "接好电路后线圈不转，用手轻轻一拨就转起来了，原因可能是什么？\nA. 线圈恰好处于平衡位置\nB. 磁体磁性太强\nC. 电池电压太高\nD. 线圈匝数太多",
+    "answer": "A. 线圈恰好处于平衡位置",
+    "solution": "线圈在平衡位置时受力平衡，不能自行启动，拨动后离开平衡位置就能转动。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易直流电动机",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_085_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "自制电动机工作一段时间后电池发热明显，主要原因是什么？\nA. 磁体发热传给电池\nB. 电池电压太低\nC. 线圈电阻小，电路中电流很大\nD. 线圈转得太慢",
+    "answer": "C. 线圈电阻小，电路中电流很大",
+    "solution": "漆包线电阻很小，电流较大，电池内部发热；应缩短通电时间。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：制作简易直流电动机",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_085_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "发现电磁感应现象的科学家是谁？\nA. 奥斯特\nB. 安培\nC. 焦耳\nD. 法拉第",
+    "answer": "D. 法拉第",
+    "solution": "1831 年法拉第发现了电磁感应现象。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁生电",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_086_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "发电机是根据什么原理制成的？\nA. 电磁感应\nB. 通电导线在磁场中受力\nC. 电流的磁效应\nD. 电流的热效应",
+    "answer": "A. 电磁感应",
+    "solution": "发电机利用电磁感应，把机械能转化为电能。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁生电",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_086_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "产生感应电流的条件是什么？\nA. 闭合电路的一部分导体在磁场中做切割磁感线运动\nB. 导体在磁场中运动\nC. 导体中有电流\nD. 电路断开，导体静止在磁场中",
+    "answer": "A. 闭合电路的一部分导体在磁场中做切割磁感线运动",
+    "solution": "必须是闭合电路，且导体做切割磁感线运动；只在磁场中运动不一定切割磁感线。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁生电",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_086_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "我国家庭电路使用的交流电，频率是多少？\nA. 50 Hz\nB. 220 Hz\nC. 60 Hz\nD. 100 Hz",
+    "answer": "A. 50 Hz",
+    "solution": "我国交流电的频率是 50 Hz，电流方向每秒改变 100 次。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁生电",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_086_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电磁波在真空中的传播速度是多少？\nA. 340 m/s\nB. 3×10⁵ m/s\nC. 3×10⁸ m/s\nD. 不能在真空中传播",
+    "answer": "C. 3×10⁸ m/s",
+    "solution": "电磁波在真空中的传播速度与光速相同，约 3×10⁸ m/s。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁波的海洋",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_087_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某电台发射的电磁波频率为 1×10⁸ Hz，它的波长是多少 m？（只填数值）",
+    "answer": "3",
+    "solution": "λ = c/f = 3×10⁸ ÷ 1×10⁸ = 3 m。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁波的海洋",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_087_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电磁波与声波相比，下列说法正确的是哪一个？\nA. 声波能在真空中传播，电磁波不能\nB. 电磁波能在真空中传播，声波不能\nC. 二者都不能在真空中传播\nD. 二者传播速度相同",
+    "answer": "B. 电磁波能在真空中传播，声波不能",
+    "solution": "声音的传播需要介质，电磁波不需要介质。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁波的海洋",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_087_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电磁波的频率越高，它的波长怎样？\nA. 越长\nB. 不变\nC. 与频率无关\nD. 越短",
+    "answer": "D. 越短",
+    "solution": "波速一定，由 c = λf，频率越高波长越短。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁波的海洋",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_087_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "手机通话时，是利用什么传递信息的？\nA. 超声波\nB. 电磁波\nC. 次声波\nD. 导线中的电流",
+    "answer": "B. 电磁波",
+    "solution": "手机利用电磁波传递信息。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "广播、电视和移动通信",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_088_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于手机，下列说法正确的是哪一个？\nA. 手机只能接收电磁波\nB. 手机只能发射电磁波\nC. 手机用声波通信\nD. 手机既能发射电磁波，又能接收电磁波",
+    "answer": "D. 手机既能发射电磁波，又能接收电磁波",
+    "solution": "手机既是无线电发射台，又是接收台。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "广播、电视和移动通信",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_088_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "收音机接收到的电台信号，是通过什么从电台传过来的？\nA. 声波\nB. 光纤中的激光\nC. 空气振动\nD. 电磁波",
+    "answer": "D. 电磁波",
+    "solution": "广播电台把声音信号加载到电磁波上发射，收音机接收电磁波还原出声音。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "广播、电视和移动通信",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_088_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "飞机上要求关闭手机或开启飞行模式，主要原因是什么？\nA. 手机会爆炸\nB. 手机发射的电磁波可能干扰飞机的通信导航\nC. 手机会发出噪声\nD. 手机会消耗飞机的电",
+    "answer": "B. 手机发射的电磁波可能干扰飞机的通信导航",
+    "solution": "手机工作时发射电磁波，可能干扰飞机的通信和导航系统。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "广播、电视和移动通信",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_088_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "北斗卫星导航系统是利用什么传递信息的？\nA. 超声波\nB. 次声波\nC. 光纤\nD. 电磁波",
+    "answer": "D. 电磁波",
+    "solution": "卫星与地面之间利用电磁波传递信息。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "卫星通信和光纤通信",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_089_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "光纤通信中，激光在光导纤维中是怎样传播的？\nA. 沿光纤中心直线传播\nB. 在光纤内壁多次反射向前传播\nC. 沿光纤外表面传播\nD. 靠声音带动传播",
+    "answer": "B. 在光纤内壁多次反射向前传播",
+    "solution": "激光在光纤内壁上多次反射，从一端传到另一端。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "卫星通信和光纤通信",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_089_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "与普通电缆相比，光纤通信的优点是什么？\nA. 传播速度比光速快\nB. 不需要任何能量\nC. 容量大、抗干扰能力强\nD. 只能在真空中使用",
+    "answer": "C. 容量大、抗干扰能力强",
+    "solution": "光纤通信容量大、不受电磁干扰、损耗小。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "卫星通信和光纤通信",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_089_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "地球同步通信卫星相对于地面是怎样的？\nA. 运动的\nB. 静止的\nC. 时而静止时而运动\nD. 无法判断",
+    "answer": "B. 静止的",
+    "solution": "同步卫星与地球自转同步，以地面为参照物是静止的。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "卫星通信和光纤通信",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_089_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列能源中属于不可再生能源的是哪一个？\nA. 石油\nB. 太阳能\nC. 风能\nD. 水能",
+    "answer": "A. 石油",
+    "solution": "煤、石油、天然气等化石能源短期内不能再生，是不可再生能源。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能源利用的现状和面临的挑战",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_090_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列能源中属于二次能源的是哪一个？\nA. 煤\nB. 电能\nC. 太阳能\nD. 风能",
+    "answer": "B. 电能",
+    "solution": "电能由其他能源转化而来，是二次能源。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能源利用的现状和面临的挑战",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_090_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "大量燃烧化石燃料带来的主要环境问题是什么？\nA. 臭氧增多\nB. 噪声减少\nC. 水资源增加\nD. 温室效应和大气污染",
+    "answer": "D. 温室效应和大气污染",
+    "solution": "燃烧化石燃料产生大量二氧化碳和有害气体，加剧温室效应、造成大气污染。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能源利用的现状和面临的挑战",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_090_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "能量守恒，为什么还要节约能源？\nA. 能量会被消灭\nB. 能量总量在减少\nC. 能量的转化和转移具有方向性，可利用的能源会减少\nD. 节约能源能创造能量",
+    "answer": "C. 能量的转化和转移具有方向性，可利用的能源会减少",
+    "solution": "能量总量不变，但转化有方向性，散失的内能难以再利用，可利用的能源会越来越少。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能源利用的现状和面临的挑战",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_090_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "目前核电站获得核能的途径是什么？\nA. 核聚变\nB. 化学反应\nC. 燃烧铀\nD. 核裂变",
+    "answer": "D. 核裂变",
+    "solution": "核电站利用可控的核裂变释放能量。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "新能源的发展",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_091_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "太阳能来自太阳内部发生的什么反应？\nA. 核裂变\nB. 燃烧\nC. 化学分解\nD. 核聚变",
+    "answer": "D. 核聚变",
+    "solution": "太阳内部氢原子核发生聚变，释放巨大能量。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "新能源的发展",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_091_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "太阳能电池板工作时，把太阳能转化为什么能？\nA. 化学能\nB. 机械能\nC. 电能\nD. 核能",
+    "answer": "C. 电能",
+    "solution": "太阳能电池直接把光能转化为电能。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "新能源的发展",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_091_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于核能，下列说法正确的是哪一个？\nA. 核废料有放射性，需要妥善处理\nB. 核能是可再生能源\nC. 核电站没有任何风险\nD. 核电站利用核聚变发电",
+    "answer": "A. 核废料有放射性，需要妥善处理",
+    "solution": "核燃料不可再生，核电站利用核裂变；核泄漏和核废料的放射性必须严格防护。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "新能源的发展",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_091_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校 50 盏 40 W 的日光灯，课间每天少开 2 h，每天可节约多少 kW·h 的电能？（只填数值）",
+    "answer": "4",
+    "solution": "W = 50 × 0.04 kW × 2 h = 4 kW·h。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：为节约能源设计方案",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_092_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列做法不符合节约能源理念的是哪一个？\nA. 白天教室光线充足时仍开着灯\nB. 随手关灯\nC. 使用节能灯具\nD. 提倡步行和骑自行车",
+    "answer": "A. 白天教室光线充足时仍开着灯",
+    "solution": "光线充足时开灯浪费电能。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：为节约能源设计方案",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_092_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用太阳能热水器代替电热水器，主要的好处是什么？\nA. 利用可再生能源，减少电能消耗\nB. 水温更高\nC. 不需要任何材料\nD. 能把水变成燃料",
+    "answer": "A. 利用可再生能源，减少电能消耗",
+    "solution": "太阳能是可再生能源，能减少对电能和化石能源的消耗。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：为节约能源设计方案",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_092_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个家庭每月用电 200 kW·h，采取节能措施后每月节约 15%，每月可节约多少 kW·h？（只填数值）",
+    "answer": "30",
+    "solution": "200 × 15% = 30 kW·h。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "初中",
+    "grade": 9,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "跨学科实践：为节约能源设计方案",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_092_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  }
+]

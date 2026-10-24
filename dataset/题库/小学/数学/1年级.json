@@ -1,0 +1,4186 @@
+[
+  {
+    "question_text": "3 的后面一个数是几？",
+    "answer": "4",
+    "solution": "3 的后面是 4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "1到5各数的认识",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p001_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "4 的前面一个数是几？",
+    "answer": "3",
+    "solution": "4 的前面是 3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "1到5各数的认识",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p001_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "2 的后面一个数是几？",
+    "answer": "3",
+    "solution": "从 2 再数一个就是 3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "1到5各数的认识",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p001_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "第几是看顺序，从 1 开始数。排队时左边第 1 个，表示的是什么？\nA. 顺序，从 1 开始数\nB. 一共有多少个\nC. 比别人多几个",
+    "answer": "A. 顺序，从 1 开始数",
+    "solution": "第几说的是位置顺序，不是总数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "1到5各数的认识",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p001_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：4－2＝？",
+    "answer": "2",
+    "solution": "4 比 2 大，4－2＝2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内数的大小",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p002_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：5－1＝？",
+    "answer": "4",
+    "solution": "5－1＝4，所以 5 比 1 大。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内数的大小",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p002_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明有 5 颗珠子，小红有 3 颗。小明比小红多几颗？计算：5－3＝？",
+    "answer": "2",
+    "solution": "多几颗用减法，5－3＝2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内数的大小",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p002_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "盘子里有 4 个苹果，碗里有 2 个梨。哪种水果多？\nA. 苹果多\nB. 梨多\nC. 一样多\nD. 无法比较",
+    "answer": "A. 苹果多",
+    "solution": "4 比 2 大，所以苹果多。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内数的大小",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p002_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "4 的后面一个数是几？",
+    "answer": "5",
+    "solution": "第 4 个的后面是第 5 个，数是 5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "几和第几",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p003_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从左数，排在最前面的是第几个？\nA. 第1个\nB. 第5个\nC. 一共有5个",
+    "answer": "A. 第1个",
+    "solution": "最前面是第1个；「一共有几个」说的是总数，不是第几。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "几和第几",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p003_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：3＋1＝？",
+    "answer": "4",
+    "solution": "第 3 个再往后一个是第 4 个，3＋1＝4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "几和第几",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p003_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "5 个小朋友排成一队，小华排在第 5 个，小丽排在小华的前面一个。小丽排第几？",
+    "answer": "4",
+    "solution": "小华是第 5 个，排在他前面一个的是第 4 个，5－1＝4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "几和第几",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p003_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "5 可以分成 2 和几？",
+    "answer": "3",
+    "solution": "5 分成 2 和 3，因为 2＋3＝5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内数的分与合",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p004_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：1＋4＝？",
+    "answer": "5",
+    "solution": "1＋4＝5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内数的分与合",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p004_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 4 个圆片，又放进来 1 个。一共有多少个？计算：4＋1＝？",
+    "answer": "5",
+    "solution": "把两部分合起来，4＋1＝5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内数的分与合",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p004_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "3＋2 的得数是哪一个？\nA. 6\nB. 4\nC. 7\nD. 5",
+    "answer": "D. 5",
+    "solution": "3＋2＝5。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内数的分与合",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p004_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：3－3＝？",
+    "answer": "0",
+    "solution": "3 个全部拿走，一个也没有，就是 0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "0的认识",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p005_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "0 表示一个也没有。盘子里一个苹果也没有，用哪个数表示？\nA. 0\nB. 1\nC. 5",
+    "answer": "A. 0",
+    "solution": "一个也没有，用 0 表示。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "0的认识",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p005_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：5－5＝？",
+    "answer": "0",
+    "solution": "5－5＝0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "0的认识",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p005_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：0＋4＝？",
+    "answer": "4",
+    "solution": "一个也没有，再放上 4 个，还是 4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "0的认识",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p005_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：2＋3＝？",
+    "answer": "5",
+    "solution": "2＋3＝5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内的加法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p006_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：1＋3＝？",
+    "answer": "4",
+    "solution": "1＋3＝4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内的加法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p006_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 2 朵花，又放进来 2 朵。一共有多少朵？计算：2＋2＝？",
+    "answer": "4",
+    "solution": "把两部分合起来，2＋2＝4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内的加法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p006_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "4＋1 的得数是哪一个？\nA. 6\nB. 5\nC. 4\nD. 7",
+    "answer": "B. 5",
+    "solution": "4＋1＝5。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内的加法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p006_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：5－2＝？",
+    "answer": "3",
+    "solution": "5－2＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内的减法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p007_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：4－1＝？",
+    "answer": "3",
+    "solution": "4－1＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内的减法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p007_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 5 个气球，拿走 3 个。还剩多少个？计算：5－3＝？",
+    "answer": "2",
+    "solution": "从总数里去掉一部分，5－3＝2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内的减法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p007_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "3－1 的得数是哪一个？\nA. 2\nB. 3\nC. 4\nD. 1",
+    "answer": "A. 2",
+    "solution": "3－1＝2。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "5以内的减法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p007_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "9 的后面一个数是几？",
+    "answer": "10",
+    "solution": "9 再添 1 是 10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "6到10各数的认识",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p008_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "8 的前面一个数是几？",
+    "answer": "7",
+    "solution": "8 的前面是 7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "6到10各数的认识",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p008_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "6 的后面一个数是几？",
+    "answer": "7",
+    "solution": "6 的后面是 7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "6到10各数的认识",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p008_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：10－1＝？",
+    "answer": "9",
+    "solution": "10 的前面一个数是 9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "6到10各数的认识",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p008_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：9－6＝？",
+    "answer": "3",
+    "solution": "9－6＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内数的比较",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p009_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：10－7＝？",
+    "answer": "3",
+    "solution": "10－7＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内数的比较",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p009_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一串有 10 颗珠子，另一串有 8 颗。10 颗的比 8 颗的多几颗？计算：10－8＝？",
+    "answer": "2",
+    "solution": "10－8＝2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内数的比较",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p009_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "比 7 大又比 9 小的数是几？\nA. 6\nB. 7\nC. 8\nD. 9",
+    "answer": "C. 8",
+    "solution": "7、8、9 里，比 7 大又比 9 小的只有 8。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内数的比较",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p009_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：6＋3＝？",
+    "answer": "9",
+    "solution": "6＋3＝9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内的加法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p010_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：7＋2＝？",
+    "answer": "9",
+    "solution": "7＋2＝9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内的加法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p010_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 4 支铅笔，又放进来 5 支。一共有多少支？计算：4＋5＝？",
+    "answer": "9",
+    "solution": "把两部分合起来，4＋5＝9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内的加法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p010_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "8＋2 的得数是哪一个？\nA. 11\nB. 9\nC. 12\nD. 10",
+    "answer": "D. 10",
+    "solution": "8＋2＝10。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内的加法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p010_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：10－3＝？",
+    "answer": "7",
+    "solution": "10－3＝7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内的减法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p011_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：9－4＝？",
+    "answer": "5",
+    "solution": "9－4＝5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内的减法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p011_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 8 颗糖果，拿走 2 颗。还剩多少颗？计算：8－2＝？",
+    "answer": "6",
+    "solution": "从总数里去掉一部分，8－2＝6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内的减法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p011_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "10－6 的得数是哪一个？\nA. 4\nB. 5\nC. 6\nD. 3",
+    "answer": "A. 4",
+    "solution": "10－6＝4。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内的减法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p011_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：2＋3＋4＝？",
+    "answer": "9",
+    "solution": "先算 2＋3＝5，再算 5＋4＝9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "连加和连减",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p012_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：9－2－3＝？",
+    "answer": "4",
+    "solution": "先算 9－2＝7，再算 7－3＝4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "连加和连减",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p012_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "树上先停 1 只鸟，又飞来 6 只，再飞来 2 只。现在有几只？计算：1＋6＋2＝？",
+    "answer": "9",
+    "solution": "1＋6＝7，7＋2＝9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "连加和连减",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p012_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 10 块饼干，吃了 1 块，又吃了 4 块。还剩几块？计算：10－1－4＝？",
+    "answer": "5",
+    "solution": "10－1＝9，9－4＝5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "连加和连减",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p012_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：5＋3－2＝？",
+    "answer": "6",
+    "solution": "先 5＋3＝8，再 8－2＝6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内加减混合",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p013_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：8－3＋2＝？",
+    "answer": "7",
+    "solution": "先 8－3＝5，再 5＋2＝7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内加减混合",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p013_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 4 支笔，又买来 5 支，送出 6 支。还剩几支？计算：4＋5－6＝？",
+    "answer": "3",
+    "solution": "4＋5＝9，9－6＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内加减混合",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p013_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：9－4＋3＝？",
+    "answer": "8",
+    "solution": "9－4＝5，5＋3＝8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "10以内加减混合",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p013_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面哪一个是长方体？积木盒子常常是这种形状。\nA. 长方体\nB. 球\nC. 圆柱",
+    "answer": "A. 长方体",
+    "solution": "长方体有平平的面，相对的面一样大。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识长方体、正方体、圆柱和球",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p014_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面哪一个是圆柱？茶叶罐常常是这种形状。\nA. 球\nB. 圆柱\nC. 长方体",
+    "answer": "B. 圆柱",
+    "solution": "圆柱上下一样粗，侧面是弯曲的。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识长方体、正方体、圆柱和球",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p014_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "球滚起来最容易。下面哪一种最好滚？\nA. 球\nB. 长方体\nC. 正方体",
+    "answer": "A. 球",
+    "solution": "球没有平平的面，所以最容易滚。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识长方体、正方体、圆柱和球",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p014_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面哪一个是长方体？冰箱更接近哪一种形状？\nA. 圆柱\nB. 球\nC. 长方体",
+    "answer": "C. 长方体",
+    "solution": "冰箱有六个平平的面，接近长方体。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识长方体、正方体、圆柱和球",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p014_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "面向黑板站好，你正对着的那一边叫什么？\nA. 前面\nB. 后面\nC. 左边",
+    "answer": "A. 前面",
+    "solution": "正对着的方向是前面，背对的是后面。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "上下前后左右",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p015_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：1＋1＝？",
+    "answer": "2",
+    "solution": "左边 1 个、右边 1 个，一共 2 个。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "上下前后左右",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p015_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "书架上面有 3 本书，下面有 2 本书。上下一共有几本？计算：3＋2＝？",
+    "answer": "5",
+    "solution": "3＋2＝5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "上下前后左右",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p015_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "前面有 4 个同学，后面有 1 个同学。前后一共有几人？计算：4＋1＝？",
+    "answer": "5",
+    "solution": "4＋1＝5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "上下前后左右",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p015_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "19 的后面一个数是几？",
+    "answer": "20",
+    "solution": "19 的后面是 20。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "11到20各数的认识",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p016_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "11 的前面一个数是几？",
+    "answer": "10",
+    "solution": "11 的前面是 10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "11到20各数的认识",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p016_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "15 的后面一个数是几？",
+    "answer": "16",
+    "solution": "15 的后面是 16。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "11到20各数的认识",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p016_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "十位上是 1、个位上是 4，这个两位数是多少？",
+    "answer": "14",
+    "solution": "1 个十和 4 个一是 14。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "11到20各数的认识",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p016_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "17 的十位是几？",
+    "answer": "1",
+    "solution": "17 的十位是 1，表示 1 个十。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十位和个位",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p017_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "17 的个位是几？",
+    "answer": "7",
+    "solution": "17 的个位是 7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十位和个位",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p017_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "十位上是 1、个位上是 8，这个两位数是多少？",
+    "answer": "18",
+    "solution": "1 个十和 8 个一是 18。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十位和个位",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p017_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "20 的个位是几？",
+    "answer": "0",
+    "solution": "20 的个位是 0，表示没有单个的一。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十位和个位",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p017_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：12＋3＝？",
+    "answer": "15",
+    "solution": "个位 2＋3＝5，十位仍是 1，得 15。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "20以内不进位加法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p018_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：10＋7＝？",
+    "answer": "17",
+    "solution": "10＋7＝17。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "20以内不进位加法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p018_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 11 支彩笔，又拿来 4 支。一共有几支？计算：11＋4＝？",
+    "answer": "15",
+    "solution": "11＋4＝15。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "20以内不进位加法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p018_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：14＋5＝？",
+    "answer": "19",
+    "solution": "个位 4＋5＝9，不进位，得 19。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "20以内不进位加法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p018_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用凑十法算 9＋3 时，把 3 拆成几和几更方便？\nA. 1和2\nB. 3和0\nC. 2和3",
+    "answer": "A. 1和2",
+    "solution": "9再加1就凑成10，所以把3拆成1和2：9＋1＝10，10＋2＝12。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "凑十法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p019_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：9＋1＝？",
+    "answer": "10",
+    "solution": "9＋1＝10，这是凑十的第一步。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "凑十法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p019_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "盒子里有 9 块糖，再放进 4 块。先凑成 10，一共有几块？计算：9＋4＝？",
+    "answer": "13",
+    "solution": "9＋1＝10，10＋3＝13。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "凑十法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p019_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：8＋2＝？",
+    "answer": "10",
+    "solution": "8＋2＝10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "凑十法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p019_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：9＋2＝？",
+    "answer": "11",
+    "solution": "9＋2＝11。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "9加几",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p020_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：9＋5＝？",
+    "answer": "14",
+    "solution": "9＋5＝14。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "9加几",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p020_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 9 张贴纸，又放进来 4 张。一共有多少张？计算：9＋4＝？",
+    "answer": "13",
+    "solution": "把两部分合起来，9＋4＝13。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "9加几",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p020_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "9＋6 的得数是哪一个？\nA. 16\nB. 14\nC. 17\nD. 15",
+    "answer": "D. 15",
+    "solution": "9＋6＝15。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "9加几",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p020_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：8＋3＝？",
+    "answer": "11",
+    "solution": "8＋3＝11。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "8、7、6加几",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p021_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：7＋5＝？",
+    "answer": "12",
+    "solution": "7＋5＝12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "8、7、6加几",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p021_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 6 个皮球，又放进来 6 个。一共有多少个？计算：6＋6＝？",
+    "answer": "12",
+    "solution": "把两部分合起来，6＋6＝12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "8、7、6加几",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p021_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "8＋7 的得数是哪一个？\nA. 15\nB. 16\nC. 14\nD. 17",
+    "answer": "A. 15",
+    "solution": "8＋7＝15。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "8、7、6加几",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p021_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "分类要先定标准。把铅笔按颜色分开，要先确定什么？\nA. 分类标准\nB. 一共有多少支\nC. 哪支最长",
+    "answer": "A. 分类标准",
+    "solution": "先定标准，才能把物品分成不同的类。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用数介绍和简单分类",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p022_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：3＋2＝？",
+    "answer": "5",
+    "solution": "红色 3 支、蓝色 2 支，一共 5 支。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用数介绍和简单分类",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p022_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "游戏里数出三角 4 个、圆 3 个。一共有几个图形？计算：4＋3＝？",
+    "answer": "7",
+    "solution": "4＋3＝7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用数介绍和简单分类",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p022_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "同学按男女分成两组，男生 6 人、女生 4 人。一共有几人？计算：6＋4＝？",
+    "answer": "10",
+    "solution": "6＋4＝10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用数介绍和简单分类",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p022_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面哪一个是三角形？\nA. 三角形\nB. 圆\nC. 长方形",
+    "answer": "A. 三角形",
+    "solution": "三角形有 3 条边、3 个角。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识长方形、正方形、三角形和圆",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p023_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面哪一个是正方形？\nA. 长方形\nB. 正方形\nC. 三角形",
+    "answer": "B. 正方形",
+    "solution": "正方形四条边一样长。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识长方形、正方形、三角形和圆",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p023_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长方形有几条边？\nA. 3条\nB. 4条\nC. 没有边",
+    "answer": "B. 4条",
+    "solution": "长方形有 4 条边。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识长方形、正方形、三角形和圆",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p023_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "正方形的四条边怎样？\nA. 四条边都相等\nB. 只有三条边\nC. 没有角",
+    "answer": "A. 四条边都相等",
+    "solution": "正方形四条边一样长。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识长方形、正方形、三角形和圆",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p023_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用 2 个三角形和 2 个正方形拼成一幅小房子图，一共用了几个图形？",
+    "answer": "4",
+    "solution": "三角形 2 个，正方形 2 个，合起来 2＋2＝4 个。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面图形的拼组",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p024_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一棵小树图案是用 3 个三角形和 1 个正方形拼成的。三角形比正方形多几个？",
+    "answer": "2",
+    "solution": "三角形有 3 个，正方形有 1 个，3－1＝2，多 2 个。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面图形的拼组",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p024_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用 2 个三角形和 1 个正方形拼图。一共用了几个图形？计算：2＋1＝？",
+    "answer": "3",
+    "solution": "2＋1＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面图形的拼组",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p024_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "七巧板里拿出 4 块，又放回 1 块。还在外面的有几块？计算：4－1＝？",
+    "answer": "3",
+    "solution": "4－1＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面图形的拼组",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p024_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "破十法是先把十几分成 10 和几。算 13－9，先把 13 分成 10 和几？\nA. 3\nB. 4\nC. 9",
+    "answer": "A. 3",
+    "solution": "13 分成 10 和 3，10－9＝1，再加 3 得 4。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十几减9",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p025_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：12－9＝？",
+    "answer": "3",
+    "solution": "12－9＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十几减9",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p025_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 15 支笔，用去 9 支。还剩几支？计算：15－9＝？",
+    "answer": "6",
+    "solution": "15－9＝6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十几减9",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p025_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "14－9 的得数是哪一个？\nA. 4\nB. 6\nC. 23\nD. 5",
+    "answer": "D. 5",
+    "solution": "14－9＝5。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十几减9",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p025_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：14－8＝？",
+    "answer": "6",
+    "solution": "14－8＝6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十几减8、7、6",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p026_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：13－7＝？",
+    "answer": "6",
+    "solution": "13－7＝6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十几减8、7、6",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p026_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 15 个小球，拿走 6 个。还剩多少个？计算：15－6＝？",
+    "answer": "9",
+    "solution": "从总数里去掉一部分，15－6＝9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十几减8、7、6",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p026_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "12－8 的得数是哪一个？\nA. 5\nB. 6\nC. 3\nD. 4",
+    "answer": "D. 4",
+    "solution": "12－8＝4。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十几减8、7、6",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p026_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：13－5＝？",
+    "answer": "8",
+    "solution": "13－5＝8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十几减5、4、3、2",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p027_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：16－4＝？",
+    "answer": "12",
+    "solution": "16－4＝12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十几减5、4、3、2",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p027_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 12 颗纽扣，拿走 3 颗。还剩多少颗？计算：12－3＝？",
+    "answer": "9",
+    "solution": "从总数里去掉一部分，12－3＝9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十几减5、4、3、2",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p027_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "11－2 的得数是哪一个？\nA. 9\nB. 10\nC. 11\nD. 8",
+    "answer": "A. 9",
+    "solution": "11－2＝9。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "十几减5、4、3、2",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p027_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "39 的后面一个数是几？",
+    "answer": "40",
+    "solution": "39 的后面是 40。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内数的认识",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p028_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "50 的前面一个数是几？",
+    "answer": "49",
+    "solution": "50 的前面是 49。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内数的认识",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p028_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "十位上是 4、个位上是 6，这个两位数是多少？",
+    "answer": "46",
+    "solution": "4 个十和 6 个一是 46。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内数的认识",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p028_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "70 里面有几个十？",
+    "answer": "7",
+    "solution": "70 是 7 个十。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内数的认识",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p028_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：40－20＝？",
+    "answer": "20",
+    "solution": "40 比 20 大 20。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内数的大小",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p029_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：35－30＝？",
+    "answer": "5",
+    "solution": "十位相同，比个位，35－30＝5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内数的大小",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p029_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "小华拍球 28 下，小丽拍球 20 下。小华比小丽多几下？计算：28－20＝？",
+    "answer": "8",
+    "solution": "28－20＝8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内数的大小",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p029_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在 47、74、39、58 这几个数中，最大的数是几？\nA. 47\nB. 74\nC. 39\nD. 58",
+    "answer": "B. 74",
+    "solution": "先比十位：7 最大，所以 74 最大。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内数的大小",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p029_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：30＋20＝？",
+    "answer": "50",
+    "solution": "3 个十加 2 个十是 5 个十，等于 50。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "整十数的加减",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p030_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：50－20＝？",
+    "answer": "30",
+    "solution": "5 个十减 2 个十是 3 个十，等于 30。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "整十数的加减",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p030_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 4 捆小棒，每捆 10 根，另外还有 8 根。一共有多少根？计算：40＋8＝？",
+    "answer": "48",
+    "solution": "40＋8＝48。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "整十数的加减",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p030_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：70－40＝？",
+    "answer": "30",
+    "solution": "70－40＝30。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "整十数的加减",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p030_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "个位满十要向十位进 1。27＋5 的个位 7＋5 满十了，十位要怎样？\nA. 向十位进 1\nB. 向个位借 1\nC. 十位改成 0",
+    "answer": "A. 向十位进 1",
+    "solution": "个位写成 2，十位 2 加进来的 1 变成 3，得 32。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内口算加法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p031_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：26＋3＝？",
+    "answer": "29",
+    "solution": "个位 6＋3＝9，不进位，得 29。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内口算加法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p031_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "停车处有 34 辆车，又开来 20 辆。现在有多少辆？计算：34＋20＝？",
+    "answer": "54",
+    "solution": "34＋20＝54。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内口算加法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p031_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：48＋6＝？",
+    "answer": "54",
+    "solution": "8＋6＝14，向十位进 1，得 54。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内口算加法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p031_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "退位减法要向十位借 1 当 10。32－7 个位不够减，要怎样？\nA. 向十位借 1 当 10\nB. 向个位进 1\nC. 直接用 7 减 2",
+    "answer": "A. 向十位借 1 当 10",
+    "solution": "借 1 后个位是 12－7＝5，十位剩下 2，得 25。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内口算减法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p032_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：58－4＝？",
+    "answer": "54",
+    "solution": "个位够减，58－4＝54。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内口算减法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p032_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 46 本故事书，借出 20 本。还剩多少本？计算：46－20＝？",
+    "answer": "26",
+    "solution": "46－20＝26。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内口算减法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p032_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：43－8＝？",
+    "answer": "35",
+    "solution": "个位 3 不够减 8，退位后得 35。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内口算减法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p032_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：23＋14＝？",
+    "answer": "37",
+    "solution": "个位 3＋4＝7，十位 2＋1＝3，得 37。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内笔算加法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p033_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：32＋25＝？",
+    "answer": "57",
+    "solution": "32＋25＝57。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内笔算加法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p033_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一班 27 人、二班 16 人去植树。两班一共有多少人？计算：27＋16＝？",
+    "answer": "43",
+    "solution": "个位 7＋6＝13，进 1，得 43。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内笔算加法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p033_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：48＋35＝？",
+    "answer": "83",
+    "solution": "8＋5＝13，进 1，4＋3＋1＝8，得 83。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内笔算加法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p033_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：67－24＝？",
+    "answer": "43",
+    "solution": "67－24＝43。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内笔算减法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p034_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：80－30＝？",
+    "answer": "50",
+    "solution": "80－30＝50。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内笔算减法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p034_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 52 张纸，用去 18 张。还剩多少张？计算：52－18＝？",
+    "answer": "34",
+    "solution": "个位不够减，退位后得 34。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内笔算减法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p034_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：70－26＝？",
+    "answer": "44",
+    "solution": "0 减 6 要退位，70－26＝44。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "100以内笔算减法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p034_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：20＋15＝？",
+    "answer": "35",
+    "solution": "两个部分相加得到总数，20＋15＝35。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "部分与总数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p035_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：35－15＝？",
+    "answer": "20",
+    "solution": "总数减去一部分，35－15＝20。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "部分与总数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p035_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "果园里有桃树和梨树共 40 棵，桃树 18 棵。梨树有多少棵？计算：40－18＝？",
+    "answer": "22",
+    "solution": "40－18＝22。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "部分与总数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p035_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "男生 16 人，女生 14 人。全班一共有多少人？计算：16＋14＝？",
+    "answer": "30",
+    "solution": "16＋14＝30。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "部分与总数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p035_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "人民币 1 元等于多少角？\nA. 10角\nB. 100角\nC. 2角",
+    "answer": "A. 10角",
+    "solution": "1 元＝10 角。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识人民币",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p036_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "3 元是多少角？",
+    "answer": "30",
+    "solution": "1 元是 10 角，3 元是 30 角。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识人民币",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p036_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "5 角是多少分？",
+    "answer": "50",
+    "solution": "1 角＝10 分，5 角＝50 分。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识人民币",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p036_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一本本子 2 元，一块橡皮 1 元。一共要付多少元？计算：2＋1＝？",
+    "answer": "3",
+    "solution": "2＋1＝3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "认识人民币",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p036_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：15－9＝？ 15 比 9 多几？",
+    "answer": "6",
+    "solution": "15－9＝6，所以 15 比 9 多 6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "求两数相差几",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p217_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "红花有 42 朵，黄花有 30 朵。红花比黄花多多少朵？",
+    "answer": "12",
+    "solution": "求相差几用大数减小数：42－30＝12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "求两数相差几",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p217_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明跳绳跳了 56 下，小军跳了 71 下。小明比小军少跳多少下？",
+    "answer": "15",
+    "solution": "少几也是求相差几：71－56＝15。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "求两数相差几",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p217_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一班有 38 人，二班有 45 人。两个班相差多少人？",
+    "answer": "7",
+    "solution": "45－38＝7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "求两数相差几",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p217_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "小猫钓了 12 条鱼，小狗比小猫多钓 5 条。小狗钓了多少条？",
+    "answer": "17",
+    "solution": "比 12 多 5，用加法：12＋5＝17。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "求比一个数多（少）几的数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p218_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "树上有 40 只鸟，地上的比树上少 8 只。地上有多少只？",
+    "answer": "32",
+    "solution": "比 40 少 8，用减法：40－8＝32。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "求比一个数多（少）几的数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p218_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "妈妈买了 35 个苹果，梨比苹果少 9 个。梨有多少个？",
+    "answer": "26",
+    "solution": "35－9＝26。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "求比一个数多（少）几的数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p218_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明有 24 张卡片，小红比小明多 7 张，小丽比小红少 10 张。小丽有多少张？",
+    "answer": "21",
+    "solution": "先算小红：24＋7＝31；再算小丽：31－10＝21。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "求比一个数多（少）几的数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_p218_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "芳芳买了一本书有99页，看了90页，她还剩多少页没有看？",
+    "answer": "9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-0",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小勇拍皮球，第一次拍了77下，第二次比第一次少了9下，第二次拍了多少下？",
+    "answer": "68",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-1",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "妈妈带了30元，买了一条鱼，剩6元，这条鱼多少钱？",
+    "answer": "24",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-2",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一年级有84人去郊游，二年级比一年级多去8人，二年级有多少人去郊游？",
+    "answer": "92",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-3",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "同学们要种18棵树，第一组种了8棵，第二组种了7棵树，还有多少棵需要种？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-4",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "妈妈和小丽在家包饺子，妈妈包了15个，丽丽包了3个。丽丽还要包几个饺子才与妈妈一样多？",
+    "answer": "12",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-5",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小强原来有4辆小汽车。爸爸送给他一辆新车作为生日礼物。小强现在有几辆小汽车？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-6",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "草坪上有灰鸽子19只，白鸽子比灰鸽子多9只。草坪上有白鸽子多少只？",
+    "answer": "28",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-7",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "学校有菊花30盆，兰花70盆，一共有多少盆花？",
+    "answer": "100",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-8",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "马路两边各种40棵树，一共种树多少棵？",
+    "answer": "80",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-9",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "教室里有42把椅子，拿走一些，还剩8把，拿走了多少把？",
+    "answer": "34",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-10",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个皮球60元，一个毽子10元，毽子比皮球便宜多少元？",
+    "answer": "50",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-11",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "学校原有25瓶胶水，又买回9瓶，现在有多少瓶？",
+    "answer": "34",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-12",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "琪琪买零食花了17元，妹妹花了7元，琪琪比妹妹多花了几元？",
+    "answer": "10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-13",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "公共汽车上有7个人，第一站上来6个人，第二站上来3个人，现在车上有几个人？",
+    "answer": "16",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-14",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小明家住五楼，每上一层楼要用1分钟，小明从一楼走到五楼，要走多少分钟？",
+    "answer": "4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-15",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "娜娜有23个糖果，婷婷有30个，两人一共有多少个糖果？",
+    "answer": "53",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-16",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "学校里有58盆黄菊花，50盆红菊花，黄菊花比红菊花多多少盆？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-17",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "丽丽借给3位好朋友各4本故事书，她一共借出了多少本故事书？",
+    "answer": "12",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-18",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一盘花生有48颗，梅梅拿出几颗后，还剩下40颗？",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-19",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "喜羊羊和灰太狼比赛骑木马，喜羊羊骑了50下，灰太狼骑了40下。喜羊羊比灰太狼多骑了多少下？",
+    "answer": "10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-20",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "妈妈买了一些梨，小刚吃了3个，妈妈吃了2个，小刚和妈妈一共吃了多少个？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-21",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小苹种7盆红花，又种了同样多的黄花，两种花共多少盆？",
+    "answer": "14",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-22",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "光明小区棋牌院有69副象棋，60副跳棋，象棋比跳棋多多少副？",
+    "answer": "9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-23",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有67颗五角星，第一大组发了14颗，第二大组发了6颗，还剩多少颗五角星？",
+    "answer": "47",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-24",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "妈妈买来18个鸡蛋，吃了5个后，还剩多少个鸡蛋？",
+    "answer": "13",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-25",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小明有9只纸飞机，比小军多3只。小军有多少只纸飞机？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-26",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "汽车站有40辆汽车，第一次开走20辆，第二次开走10辆，还剩多少辆？",
+    "answer": "10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-27",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "学雷锋小组上午修了20把椅子，下午修了10把，一天总共修了多少把椅子？",
+    "answer": "30",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-28",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "老师买回14盒白粉笔和2盒彩粉笔，上课用了1盒粉笔，还剩几盒粉笔？",
+    "answer": "15",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-29",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "同学们要做29个灯笼，已经做好了9个，还要做多少个？",
+    "answer": "20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-30",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "森林运动会上，小狐狸比小狗多跑9米，小兔比小狗多跑4米，小狐狸比小兔多跑多少米？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-31",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小灰兔拔了9个萝卜，小白兔拔的是小灰兔的2倍。它们一共拔了多少个萝卜？",
+    "answer": "27",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-32",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "树上有21只小松鼠，树下有8只，一共有多少只小松鼠？",
+    "answer": "29",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-33",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小红已经写了8个字，还差5个字没写，小红要多少个字？",
+    "answer": "13",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-34",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "杉杉捡了20个贝壳，还要捡39个，一共要捡多少个贝壳？",
+    "answer": "59",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-35",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "学校体育室里有23个足球，被人借走了10个，还有多少个？",
+    "answer": "13",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-36",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小兔拔了26个萝卜，比小猪少6个，小猪拔了多少个？",
+    "answer": "32",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-37",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "商店里有16个蛋糕，卖出去5个，还剩多少个？",
+    "answer": "11",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-38",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一艘船可以坐50人，船上已经有30人，还可以坐几人？",
+    "answer": "20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-39",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "马场上有20匹马，又来了21匹，现在马场上有多少匹？",
+    "answer": "41",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-40",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "节日里，欢欢买了7个气球，回家路上爆了3个，他带回家几个气球？",
+    "answer": "4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-41",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "乐乐有19枚邮票，文文有8枚邮票，一共有多少枚邮票？",
+    "answer": "27",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-42",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "农民伯伯上午摘了16筐番茄，运送到食堂3筐后，下午又摘了6筐。现在农民伯伯需要把多少筐番茄运到市场上卖？",
+    "answer": "19",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-43",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "亮亮有15张画片，送给弟弟5张，还剩下几张画片？",
+    "answer": "10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-44",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "电饭锅卖了8个，还剩下7个，原来一共有多少个？",
+    "answer": "15",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-45",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "从前面数，贝贝排9，从后面数他排12，这一排一共有几人？",
+    "answer": "20",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-46",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "阳阳有102张1元的纸币，他最多能换几张50元的纸币？",
+    "answer": "2",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-47",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "活动课上打乒乓球的有8人，做操的有24人。打乒乓球球和做操的同学共有多少人？",
+    "answer": "32",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-48",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "苗苗家里有50个苹果，有30个梨，有20个桃。桃比苹果少多少个？",
+    "answer": "30",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-49",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小明有8本书，小丽有9本书，小强有6本书。小明和小丽的书总数比小强多几本？",
+    "answer": "11",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-50",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "爸爸买一条毛巾要付4元，买一支笔用去同样多的钱，一共要付多少元钱?",
+    "answer": "8",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-51",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "婷婷买了12只气球，娜娜买了10只，她们一共买了多少只气球？",
+    "answer": "22",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-52",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "商店新进了79台电脑，卖出9台后，还剩多少台电脑？",
+    "answer": "70",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-53",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "弟弟今年4岁，哥哥比弟弟大8岁，2年前哥哥多少岁？",
+    "answer": "10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-54",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "修一条99米的路，第一天修了22米，第二天修了8米，还要修多少米才能修完？",
+    "answer": "69",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-55",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "学校运动会中，参加游泳的有32名同学，参加跑步的有30名，参加这两项比赛的一共有多少名同学？",
+    "answer": "62",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-56",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "伟伟现在身高98厘米，比去年长高了7厘米，伟伟去年身高多少厘米?",
+    "answer": "91",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-57",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "停车场里有4辆小轿车，后来又开来3辆，停车场里一共有多少辆小轿车？",
+    "answer": "7",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-58",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "有2个小猴子各摘了8个桃子，一个小猴子吃了2个后，他们把剩下的都放进盒子里。盒子里有几个桃子？",
+    "answer": "14",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-59",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "晚上停电，小文在家点了8支蜡烛，先被风吹灭了1支蜡烛，后来又被风吹灭了2支，最后还剩多少支蜡烛？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-60",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "李伯伯家养了33只鸡，30只鸭，9只鹅。鸭和鹅一共多少只？",
+    "answer": "39",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-61",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一列火车的第10号车厢原有85人，到下一站后有23人下车，又到一站后有7人下车。再开车时，这节车厢有多少人？",
+    "answer": "55",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-62",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "飞机场上有75架飞机，飞走了50架，现在机场上有飞机多少架？",
+    "answer": "25",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-63",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "妈咪带了98元，买菜花了23元，买水果花了7元，还剩多少元？",
+    "answer": "68",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-64",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "果园有96棵梨树，90棵桃树。果园里梨树比桃树多多少棵？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-65",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "水果店运进19个西瓜，卖出7个后，又运进了5个，水果店现在有多少个西瓜？",
+    "answer": "17",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-66",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小路要买一本书，要付13元，他只有4元，还差多少元钱？",
+    "answer": "9",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-67",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小红有7本新书，又买了4本。一共有多少本？",
+    "answer": "11",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-68",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "狗妈妈生了9只小狗，这9只小狗分别住宅3个小房子里，最小的房子里住了2只小狗，稍大些的房子里住了3只小狗，那么最大的房子里住几只小狗？",
+    "answer": "4",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-69",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一根彩带长67米，第一次用去14米，第二次用去6米，现在还剩多少米？",
+    "answer": "47",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-70",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "幼儿园小朋友叠纸鹤，小刚叠了7个，小丽叠了5个，小红叠了6个，三个小朋友共叠多少个？",
+    "answer": "18",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-71",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个饭盒7元，一条毛巾4元，妈妈只带了10元，买这两样东西还差多少元钱？",
+    "answer": "1",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-72",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一次上体育课排队，从左边开始报数，明明报了“7”，林林报了“10”;从右边开始报数，明明报了“7”，林林应该报几？",
+    "answer": "3",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-73",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "妈妈买来30个苹果，吃了一些，还剩下20个，那么妈妈吃了多少个苹果？",
+    "answer": "10",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-74",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "买一个书包需要30元，买一本书需要20元，买一个玩具小汽车需要40元。买一个书包和一本书一共用多少元？",
+    "answer": "50",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-75",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "树上一共有32个桃子，猴哥哥摘了13个，猴弟弟摘了7个，树上还剩多少个桃子？",
+    "answer": "12",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-76",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "豆豆买一个羊肉串用了4元，买一瓶汽水用了2元，一共用了多少元钱？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-77",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "我和小朋友玩捉迷藏的游戏。一共有16个小朋友藏起来了，我已经找到了5个，还有几个小朋友没找到？",
+    "answer": "11",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-78",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "王叔叔家有白兔70只，黑兔20只，灰兔40只。白兔和黑兔共有多少只？",
+    "answer": "90",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-79",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一个贝壳37元，一个海螺20元，各买一个需要多少钱？",
+    "answer": "57",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-80",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小狮子今年8岁，狮妈妈是小狮子年龄的3倍，狮妈妈今年多少岁？",
+    "answer": "24",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-81",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小红爸爸给她买了4支铅笔，妈妈又给她买了一盒，小红现在有16支铅笔，妈妈买的那一盒铅笔有多少根？",
+    "answer": "12",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-82",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "老师奖励小红花，小红有4朵，王利有6朵，张鹏有5朵，他们三人一共有多少朵？",
+    "answer": "15",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-83",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "妈咪有39元，买梨子用了8元，还剩多少元？",
+    "answer": "31",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-84",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一只羽毛球要2元，波波付了50元，应找回多少元？",
+    "answer": "48",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-85",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "学校舞蹈小组有33人，其中女生有20人，男生有多少人？",
+    "answer": "13",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-86",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "同学们参加劳动，摘黄瓜46筐，摘的白瓜比黄瓜少10筐，摘白瓜多少筐？",
+    "answer": "36",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-87",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一（1）班上男生有26人，女生有20人。女生比男生少多少人？",
+    "answer": "6",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-88",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "小苹种7盆红花，又种了同样多的黄花和紫花，三种花共多少盆？",
+    "answer": "21",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-89",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "玩具飞机价格是30元，玩具汽车价格是15元，布娃娃价格是20元。一架飞机比一辆汽车贵多少钱？",
+    "answer": "15",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-90",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "公交车上原来有10名乘客，到站后下来4个人，又上去8个人，现在车上有多少人？",
+    "answer": "14",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-91",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "菲菲书包有15本书，我书包有10本，菲菲书包里的书比我的多多少本?",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-92",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "鸟巢里有10只小鸟，先飞走了7只，又飞来了2只，鸟巢现在有几只小鸟？",
+    "answer": "5",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-93",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一双球鞋29元，一双布鞋比一双球鞋便宜9元。买一双球鞋和一双布鞋一共要用多少元?",
+    "answer": "49",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-94",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "欣欣上午吃了26块饼干，下午吃了6块，一天一共吃了多少块饼干？",
+    "answer": "32",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-95",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一共有14个足球，小熊抱走了4，小狗抱来了3个，现在有多少个？",
+    "answer": "13",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-96",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "奇奇和美美一共拍了80下篮球，其中奇奇拍了50下，那么美美拍了多少下？",
+    "answer": "30",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-97",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "姐姐今年8岁，姐姐比弟弟大2岁，哥哥比弟弟大5岁，哥哥今年几岁？",
+    "answer": "11",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-98",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  },
+  {
+    "question_text": "一（1）班有男生23人，女生20人，一共有多少人？",
+    "answer": "43",
+    "solution": "",
+    "question_type": "解答题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 1,
+    "exam_type": "应用题",
+    "knowledge_points": [
+      "1年级应用题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/XiaoMi/cmath#dev-99",
+    "teaching_tips": "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+  }
+]

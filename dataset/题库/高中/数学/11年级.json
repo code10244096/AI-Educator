@@ -1,0 +1,4422 @@
+[
+  {
+    "question_text": "向量和数量的差别是？\nA. 向量有方向，数量没有方向\nB. 向量没有大小\nC. 数量必须带方向\nD. 两者完全相同",
+    "answer": "A. 向量有方向，数量没有方向",
+    "solution": "向量用有向线段表示，大小是模，另外还要方向。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面向量的概念",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h079_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个向量的模是 5。它的长度是多少？",
+    "answer": "5",
+    "solution": "模就是向量的长度，这里是 5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面向量的概念",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h079_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "零向量的模是？\nA. 1\nB. 不能确定\nC. 0\nD. 等于单位向量",
+    "answer": "C. 0",
+    "solution": "零向量的长度是 0。它的方向不定，不拿来和别的向量比方向。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面向量的概念",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h079_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有向线段表示向量时，必须指出？\nA. 只写长度\nB. 只写起点\nC. 只写所在直线\nD. 起点、终点和方向",
+    "answer": "D. 起点、终点和方向",
+    "solution": "没有方向就只剩下长度，不再是确定的向量。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面向量的概念",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h079_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个向量相等，是指？\nA. 只要模相等\nB. 模相等并且方向相同\nC. 只要方向相同\nD. 起点必须相同",
+    "answer": "B. 模相等并且方向相同",
+    "solution": "相等与起点无关。平行移动后仍然可以相等。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "相等向量与共线向量",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h080_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "方向相反、模相等的两个向量？\nA. 相等\nB. 既不相等也不共线\nC. 共线但不相等\nD. 一定是零向量",
+    "answer": "C. 共线但不相等",
+    "solution": "共线包括同向和反向。反向就不相等。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "相等向量与共线向量",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h080_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "向量 a 的模是 4，与 a 相等的向量模是多少？",
+    "answer": "4",
+    "solution": "相等向量的模必须相同。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "相等向量与共线向量",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h080_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "单位向量是指？\nA. 模为 1 的向量\nB. 模为 0 的向量\nC. 与坐标轴平行的向量\nD. 任意非零向量",
+    "answer": "A. 模为 1 的向量",
+    "solution": "单位向量只限制长度为 1，方向可以不同。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "相等向量与共线向量",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h080_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "向量 (1，2) 与 (3，4) 的和的横坐标是多少？",
+    "answer": "4",
+    "solution": "坐标分别相加，横坐标 1+3=4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量加法",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h081_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "向量 (1，2) 与 (3，4) 的和的纵坐标是多少？",
+    "answer": "6",
+    "solution": "坐标分别相加，纵坐标 2+4=6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量加法",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h081_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "向量 (5，−1) 与 (−2，1) 的和的横坐标是多少？",
+    "answer": "3",
+    "solution": "5−2=3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量加法",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h081_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "向量加法可以用？\nA. 只把长度相加、不管方向\nB. 三角形法则或平行四边形法则\nC. 只能用坐标、不能作图\nD. 必须先取数量积",
+    "answer": "B. 三角形法则或平行四边形法则",
+    "solution": "首尾相接是三角形法则，共起点作平行四边形也可以。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量加法",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h081_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "向量 (5，1) 减去 (2，3)，差的横坐标是多少？",
+    "answer": "3",
+    "solution": "坐标分别相减，5−2=3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量减法",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h082_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "上一问里差的纵坐标是多少？",
+    "answer": "-2",
+    "solution": "1−3=−2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量减法",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h082_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a=(4，4)，求 a−a 的模。",
+    "answer": "0",
+    "solution": "任何向量减自身都是零向量，模是 0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量减法",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h082_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a−b 等于？\nA. a 的模减去 b 的模\nB. 只改变 a 的方向\nC. a 加上 b 的相反向量\nD. a 与 b 的数量积",
+    "answer": "C. a 加上 b 的相反向量",
+    "solution": "减法定义为加上相反向量，不是长度直接相减。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量减法",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h082_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "3 乘以向量 (1，−2)，纵坐标是多少？",
+    "answer": "-6",
+    "solution": "每个坐标都乘 3，纵坐标是 −6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量数乘",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h083_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "向量 (3，4) 的模是 5。2 倍这个向量的模是多少？",
+    "answer": "10",
+    "solution": "正数倍之后，模乘这个正数，2×5=10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量数乘",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h083_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "−1 乘以向量 (2，−5) 的横坐标是多少？",
+    "answer": "-2",
+    "solution": "相反向量的横坐标是 −2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量数乘",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h083_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "实数 k<0 时，k 倍非零向量的方向？\nA. 与原向量相同\nB. 变成零向量\nC. 与原向量垂直\nD. 与原向量相反",
+    "answer": "D. 与原向量相反",
+    "solution": "负数倍把方向改成相反方向，模乘 |k|。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量数乘",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h083_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "向量 (2，4) 是 (1，2) 的多少倍？",
+    "answer": "2",
+    "solution": "2×(1，2)=(2，4)，倍数是 2，所以共线。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量共线定理",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h084_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "若 (k，6) 与 (2，3) 共线，且由第二坐标得 k/2=6/3。k 是多少？",
+    "answer": "4",
+    "solution": "对应坐标成比例，k/2=2，k=4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量共线定理",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h084_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(1，0) 与 (0，1) 是否共线？\nA. 共线\nB. 只有在起点相同时共线\nC. 方向相反所以共线\nD. 不共线",
+    "answer": "D. 不共线",
+    "solution": "不存在实数 λ 使 (0，1)=λ(1，0)，因为第一坐标会迫使 λ=0，第二坐标却是 1。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量共线定理",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h084_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "零向量与任意向量的位置关系按共线定义？\nA. 零向量与任意向量共线\nB. 只与零向量共线\nC. 与任意向量垂直\nD. 不能讨论",
+    "answer": "A. 零向量与任意向量共线",
+    "solution": "取 λ=0 就有 0=λa。教材把零向量看作与任意向量共线。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量共线定理",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h084_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "作为平面向量基底的两个向量必须？\nA. 模都是 1\nB. 互相垂直\nC. 不共线\nD. 起点不同",
+    "answer": "C. 不共线",
+    "solution": "共线的两个向量张不成整个平面。垂直和单位长度都不是必须的。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面向量基本定理",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h085_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "e1=(1，0)，e2=(0，1)。向量 (3，5)=3 e1+5 e2。e1 前面的系数是多少？",
+    "answer": "3",
+    "solution": "按基本定理，系数就是在这组基底下的坐标，这里是 3 和 5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面向量基本定理",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h085_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "上一问里 e2 前面的系数是多少？",
+    "answer": "5",
+    "solution": "纵坐标 5 就是 e2 的系数。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面向量基本定理",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h085_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在基底 e1=(1，0)、e2=(0，1) 下，向量 (3，5) 的分解？\nA. 可以有无数种系数\nB. 是唯一的\nC. 只有正交基底才唯一\nD. 系数必须为正",
+    "answer": "B. 是唯一的",
+    "solution": "e1、e2 不共线，可作基底。基本定理保证 (3，5)=3 e1+5 e2 这种分解存在并且唯一。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面向量基本定理",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h085_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "起点 (1，2)，终点 (4，6)。这个向量的横坐标是多少？",
+    "answer": "3",
+    "solution": "横坐标等于终点的 x 减去起点的 x，4−1=3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量的坐标表示",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h086_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "上一问里向量的纵坐标是多少？",
+    "answer": "4",
+    "solution": "6−2=4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量的坐标表示",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h086_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "起点和终点都是 (2，−1) 时，向量的模是多少？",
+    "answer": "0",
+    "solution": "坐标是 (0，0)，这是零向量。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量的坐标表示",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h086_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "向量坐标与起点是否有关？\nA. 无关，只看方向\nB. 只与长度有关\nC. 有关，坐标等于终点减起点\nD. 必须把起点放在原点",
+    "answer": "C. 有关，坐标等于终点减起点",
+    "solution": "相等向量坐标相同，但计算某一个有向线段的坐标时要用它自己的起终点。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量的坐标表示",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h086_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a=(2，−1)，b=(1，4)。2a+b 的横坐标是多少？",
+    "answer": "5",
+    "solution": "2×2+1=5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "坐标运算",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h087_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a=(2，−1)，b=(1，4)。2a+b 的纵坐标是多少？",
+    "answer": "2",
+    "solution": "纵坐标是 2×(−1)+4=2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "坐标运算",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h087_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a=(3，1)，b=(3，1)。a−b 的模是多少？",
+    "answer": "0",
+    "solution": "差是零向量。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "坐标运算",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h087_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a=(1，0)，b=(0，1)。a+b 的两个坐标是多少？",
+    "answer": "1，1",
+    "solution": "和是 (1，1)。两个坐标都要写，顺序不限。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "坐标运算",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h087_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "求 (1，2)·(3，4)。",
+    "answer": "11",
+    "solution": "1×3+2×4=11。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量数量积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h088_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "求 (1，0)·(0，1)。",
+    "answer": "0",
+    "solution": "坐标基向量互相垂直，数量积是 0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量数量积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h088_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a=(2，−1)，求 a·a。",
+    "answer": "5",
+    "solution": "4+1=5，等于模的平方。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量数量积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h088_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数量积的结果是？\nA. 一个实数\nB. 一个向量\nC. 一条直线\nD. 一个点",
+    "answer": "A. 一个实数",
+    "solution": "数量积又叫点积，结果是数，不是向量。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量数量积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h088_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a=(3，4)。|a|²=a·a，|a| 是多少？",
+    "answer": "5",
+    "solution": "3²+4²=25，模是 5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "数量积的运算律",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h089_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a=(1，2)，b=(3，0)，c=(1，1)。先算 a·c 与 b·c 再相加，结果是多少？",
+    "answer": "6",
+    "solution": "(a+b)·c=a·c+b·c，1+2+3=6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "数量积的运算律",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h089_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "若 a·b=4，则 (2a)·b 是多少？",
+    "answer": "8",
+    "solution": "数可以提到数量积外面，2×4=8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "数量积的运算律",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h089_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一般地，a·b 是否等于 b·a？\nA. 不等于\nB. 等于\nC. 只有垂直时等于\nD. 只有平行时等于",
+    "answer": "B. 等于",
+    "solution": "数量积满足交换律，坐标相乘的顺序不影响和。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "数量积的运算律",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h089_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "求向量 (3，4) 的模。",
+    "answer": "5",
+    "solution": "√(9+16)=√25=5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量的模与夹角",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h090_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "求向量 (5，12) 的模。",
+    "answer": "13",
+    "solution": "√(25+144)=√169=13。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量的模与夹角",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h090_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a=(1，2)，b=(2，−1)。a·b 是多少？由此判断是否垂直。",
+    "answer": "0",
+    "solution": "2−2=0，数量积为 0，两个向量垂直。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量的模与夹角",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h090_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个非零向量垂直的充要条件是？\nA. 模相等\nB. 和是零向量\nC. 数量积等于 0\nD. 坐标分别相等",
+    "answer": "C. 数量积等于 0",
+    "solution": "a·b=|a||b|cosθ=0，模都不为 0，所以 cosθ=0。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量的模与夹角",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h090_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两边为 2 和 3，夹角的余弦是 1/2。第三边的平方是多少？",
+    "answer": "7",
+    "solution": "c²=a²+b²−2ab cosC=4+9−6=7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "余弦定理",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h091_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两边为 3 和 4，夹角为 90°，余弦是 0。第三边的平方是多少？",
+    "answer": "25",
+    "solution": "直角时余弦项为 0，3²+4²=25。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "余弦定理",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h091_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "上一问中第三边的长是多少？",
+    "answer": "5",
+    "solution": "√25=5，这就是勾股定理。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "余弦定理",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h091_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "余弦定理在夹角为锐角时，−2ab cosC 这一项？\nA. 一定是正数\nB. 一定是 0\nC. 与夹角无关\nD. 是负数，第三边平方小于两平方和",
+    "answer": "D. 是负数，第三边平方小于两平方和",
+    "solution": "锐角余弦为正，减去正数，所以比两平方和更小。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "余弦定理",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h091_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a=2，A=30°，sin30°=1/2。a/sinA 等于多少？",
+    "answer": "4",
+    "solution": "2÷(1/2)=4。这个值等于外接圆直径 2R。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "正弦定理",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h092_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在直角三角形中，斜边对 90°，sin90°=1。若斜边 c=6，则 c/sinC 是多少？",
+    "answer": "6",
+    "solution": "6/1=6，也就是斜边本身，因为斜边是外接圆直径。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "正弦定理",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h092_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A=90°，a=10。外接圆半径 R 满足 2R=a/sinA。R 是多少？",
+    "answer": "5",
+    "solution": "sin90°=1，2R=10，R=5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "正弦定理",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h092_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "正弦定理适合用来？\nA. 已知两角和一边，或已知两边及其中一边的对角\nB. 只用来求向量的模\nC. 代替所有余弦定理\nD. 只在等边三角形中成立",
+    "answer": "A. 已知两角和一边，或已知两边及其中一边的对角",
+    "solution": "正弦定理把边和它所对的角的正弦联系起来。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "正弦定理",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h092_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "三角形两边为 6 和 8，夹角 90°。第三边是多少？",
+    "answer": "10",
+    "solution": "直角，第三边 √(36+64)=10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "解三角形",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h093_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等边三角形边长为 2，每个内角是多少度？",
+    "answer": "60",
+    "solution": "三边相等则三角相等，每个角是 60°。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "解三角形",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h093_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "三角形内角和是多少度？",
+    "answer": "180",
+    "solution": "解三角形时，已知两角就可以用内角和求第三角。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "解三角形",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h093_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知三边求角，优先用？\nA. 正弦定理\nB. 余弦定理\nC. 只量一次量角器\nD. 向量加法",
+    "answer": "B. 余弦定理",
+    "solution": "三边都知道时，余弦定理可以直接求出一个角的余弦。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "解三角形",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h093_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "船从岸边垂直驶出 12 千米，再沿垂直方向驶 5 千米。离出发点的直线距离是多少千米？",
+    "answer": "13",
+    "solution": "两段互相垂直，距离 √(144+25)=13。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "解三角形的实际应用",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h094_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "斜坡的垂直高度是 3 米，水平距离是 4 米。坡面长度是多少米？",
+    "answer": "5",
+    "solution": "直角三角形的斜边是 5 米。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "解三角形的实际应用",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h094_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "直角三角形的斜边为 2，一个锐角为 30°。这个角的对边是多少？",
+    "answer": "1",
+    "solution": "对边等于斜边乘正弦，2×1/2=1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "解三角形的实际应用",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h094_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把实际测量化成解三角形时，首先要？\nA. 直接套正弦定理、不看是哪条边\nB. 只测量一次长度\nC. 画示意图并标出已知的边和角\nD. 忽略直角",
+    "answer": "C. 画示意图并标出已知的边和角",
+    "solution": "先看清已知元素是边还是角，再选择定理。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "解三角形的实际应用",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h094_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "平行四边形邻边向量为 (2，1) 和 (1，−2)。它们的数量积是多少？",
+    "answer": "0",
+    "solution": "2−2=0，所以这两条邻边垂直。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量方法研究图形",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h095_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "向量 (6，8) 的模是多少？",
+    "answer": "10",
+    "solution": "√(36+64)=10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量方法研究图形",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h095_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A(0，0)，B(3，4)。线段 AB 的长是多少？",
+    "answer": "5",
+    "solution": "向量 AB=(3，4)，模是 5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量方法研究图形",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h095_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用向量证明两线垂直，只要证明对应向量？\nA. 模相等\nB. 和为零向量\nC. 坐标都是正数\nD. 数量积为 0",
+    "answer": "D. 数量积为 0",
+    "solution": "非零向量数量积为 0 就是垂直。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "向量方法研究图形",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h095_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "三角形顶点 A(0，0)、B(4，0)、C(0，3)。边 BC 的长是多少？",
+    "answer": "5",
+    "solution": "向量 BC=(4，−3)，模 √(16+9)=5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用向量研究三角形",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h096_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "三角形顶点 A(0，0)、B(4，0)、C(0，3)。边 AB 的长是多少？",
+    "answer": "4",
+    "solution": "向量 AB=(4，0)，模 √(16+0)=4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用向量研究三角形",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h096_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "三角形顶点 A(0，0)、B(4，0)、C(0，3)。边 AC 的长是多少？",
+    "answer": "3",
+    "solution": "向量 AC=(0，3)，模 √(0+9)=3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用向量研究三角形",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h096_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "这项探究主要想说明？\nA. 向量可以把三角形的边角关系变成坐标运算\nB. 向量不能用于三角形\nC. 只能用量角器研究三角形\nD. 探究不需要具体例子",
+    "answer": "A. 向量可以把三角形的边角关系变成坐标运算",
+    "solution": "用一个直角三角形就能看到 AB²+AC²=BC²，和余弦定理一致。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用向量研究三角形",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h096_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "复数 3−2i 的实部是多少？",
+    "answer": "3",
+    "solution": "实部是不含 i 的那一项，这里是 3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数的概念",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h097_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "复数 3−2i 的虚部是多少？",
+    "answer": "-2",
+    "solution": "虚部是 i 前面的实数，这里是 −2，不是 −2i。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数的概念",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h097_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "i² 等于多少？",
+    "answer": "-1",
+    "solution": "虚数单位的平方规定为 −1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数的概念",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h097_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "实数 5 写成复数时，虚部是？\nA. 5\nB. 0\nC. 1\nD. i",
+    "answer": "B. 0",
+    "solution": "5=5+0i，虚部是 0。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数的概念",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h097_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "复数 3+4i 的模是多少？",
+    "answer": "5",
+    "solution": "对应点 (3，4)，到原点的距离是 5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数的几何意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h098_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "复数 −6 的模是多少？",
+    "answer": "6",
+    "solution": "对应点 (−6，0)，到原点的距离是 6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数的几何意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h098_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "复数 a+bi 对应复平面上的点是？\nA. (b，a)\nB. (a，b)\nC. (a，bi)\nD. (i，a)",
+    "answer": "B. (a，b)",
+    "solution": "实部作横坐标，虚部作纵坐标。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数的几何意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h098_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "纯虚数 2i 对应的点在？\nA. 实轴上\nB. 原点\nC. 虚轴上\nD. 直线 y=x 上",
+    "answer": "C. 虚轴上",
+    "solution": "实部是 0，点是 (0，2)，在虚轴上。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数的几何意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h098_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "若 x+2i=3+yi，且 x、y 为实数，则 x 是多少？",
+    "answer": "3",
+    "solution": "实部相等，x=3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数相等",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h099_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "上一问中 y 是多少？",
+    "answer": "2",
+    "solution": "虚部相等，y=2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数相等",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h099_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "若 (m+1)+(n−1)i=0，则 m 是多少？",
+    "answer": "-1",
+    "solution": "0=0+0i，实部 m+1=0，m=−1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数相等",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h099_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个复数相等，必须？\nA. 只看模相等\nB. 只看实部\nC. 虚部的绝对值相等即可\nD. 实部相等并且虚部相等",
+    "answer": "D. 实部相等并且虚部相等",
+    "solution": "代数形式的实部、虚部是唯一的，所以两边都要相等。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数相等",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h099_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(1+2i)+(3+4i) 的实部是多少？",
+    "answer": "4",
+    "solution": "实部 1+3=4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数加法与减法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h100_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(1+2i)+(3+4i) 的虚部是多少？",
+    "answer": "6",
+    "solution": "虚部与虚部相加，2+4=6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数加法与减法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h100_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(5+i)−(2+3i) 的实部是多少？",
+    "answer": "3",
+    "solution": "实部 5−2=3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数加法与减法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h100_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(5+i)−(2+3i) 的虚部是多少？",
+    "answer": "-2",
+    "solution": "虚部 1−3=−2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数加法与减法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h100_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "复数 3 与 4i 的模分别是 3 和 4。它们的和 3+4i 的模是多少？",
+    "answer": "5",
+    "solution": "两个向量垂直，和的模是 5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数加减的几何意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h101_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "上一问中，两个模的和是多少？",
+    "answer": "7",
+    "solution": "3+4=7，大于和的模 5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数加减的几何意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h101_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "复数 2 与 5 都在实轴上。和的模是多少？",
+    "answer": "7",
+    "solution": "同方向时，模可以直接相加，和是 7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数加减的几何意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h101_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "|z1+z2| 与 |z1|+|z2| 的关系是？\nA. 总是严格大于\nB. |z1+z2| 小于或等于 |z1|+|z2|\nC. 总是相等\nD. 没有确定关系",
+    "answer": "B. |z1+z2| 小于或等于 |z1|+|z2|",
+    "solution": "这是三角不等式。方向相同时等号成立。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数加减的几何意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h101_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算 (1+i)(1−i) 的结果。",
+    "answer": "2",
+    "solution": "(1+i)(1−i)=1−(i)²=1−(−1)=2。虚部为 0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数乘法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h102_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算 i²。",
+    "answer": "-1",
+    "solution": "按定义，i²=−1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数乘法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h102_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算 i⁴。",
+    "answer": "1",
+    "solution": "i⁴=(i²)²=(−1)²=1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数乘法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h102_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(2+i)(1+0i) 的实部是多少？",
+    "answer": "2",
+    "solution": "乘以 1 后复数不变，实部仍是 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数乘法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h102_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(4+6i)/2 的实部是多少？",
+    "answer": "2",
+    "solution": "实部和虚部同时除以 2，实部是 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数除法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h103_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(4+6i)/2 的虚部是多少？",
+    "answer": "3",
+    "solution": "虚部 6/2=3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数除法",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h103_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1+i 的共轭是 1−i。两者的积是多少？",
+    "answer": "2",
+    "solution": "z 与共轭的积等于模的平方，这里是 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数除法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h103_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(1+i)/(1+i) 等于多少？",
+    "answer": "1",
+    "solution": "非零复数除以自己等于 1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数除法",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h103_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "i³=−i。它的虚部是多少？",
+    "answer": "-1",
+    "solution": "i³=i²·i=−i，虚部是 −1，实部是 0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数的幂",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h104_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算 (1+2i)(1−2i)。",
+    "answer": "5",
+    "solution": "1−(2i)²=1−4i²=1+4=5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数的幂",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h104_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算 (3+i)(3−i)。",
+    "answer": "10",
+    "solution": "模的平方是 9+1=10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数的幂",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h104_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "i 的正整数次幂从 i¹ 起循环的是？\nA. i，−1，−i，1\nB. 1，−1 两种\nC. 只有 i\nD. 1，i，−1 三种",
+    "answer": "A. i，−1，−i，1",
+    "solution": "每 4 次循环一次：i、−1、−i、1。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "复数的幂",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h104_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长方体有多少个顶点？",
+    "answer": "8",
+    "solution": "上下底各 4 个顶点，共 8 个。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "棱柱的结构",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h105_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长方体有多少条棱？",
+    "answer": "12",
+    "solution": "每个底面 4 条，再加 4 条侧棱，共 12 条。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "棱柱的结构",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h105_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "三棱柱有多少个面？",
+    "answer": "5",
+    "solution": "2 个底面加 3 个侧面，共 5 个面。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "棱柱的结构",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h105_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "棱柱的两个底面？\nA. 一定垂直\nB. 互相平行并且全等\nC. 一定是矩形\nD. 可以不平行",
+    "answer": "B. 互相平行并且全等",
+    "solution": "棱柱的侧棱把两个全等的底面平行地连起来。直棱柱的侧棱还垂直于底面。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "棱柱的结构",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h105_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "圆柱可以看成？\nA. 直角三角形绕一条直角边旋转一周\nB. 半圆绕直径旋转一周\nC. 平行四边形平移\nD. 矩形绕它的一条边旋转一周",
+    "answer": "D. 矩形绕它的一条边旋转一周",
+    "solution": "矩形绕一边旋转得到圆柱。直角三角形旋转得到圆锥，半圆旋转得到球。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "圆柱、圆锥与球",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h106_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个圆柱有 2 个底面。若再算上侧面，计算「底面个数 + 1」是多少？",
+    "answer": "3",
+    "solution": "底面 2 个，侧面是一个曲面，按题意 2+1=3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "圆柱、圆锥与球",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h106_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "球面上任意一点到球心的距离？\nA. 有的等于直径\nB. 都等于半径\nC. 可以是任意正数\nD. 等于圆周长",
+    "answer": "B. 都等于半径",
+    "solution": "球是到定点距离等于半径的点的集合。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "圆柱、圆锥与球",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h106_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "圆锥的母线是？\nA. 底面直径\nB. 高所在的线段且一定等于半径\nC. 顶点与底面圆周上点的连线\nD. 侧面展开图的宽",
+    "answer": "C. 顶点与底面圆周上点的连线",
+    "solution": "母线在侧面上，长度一般不等于高。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "圆柱、圆锥与球",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h106_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个几何体由 1 个圆柱和 1 个圆锥拼成。基本几何体的个数是多少？",
+    "answer": "2",
+    "solution": "拆开后是两个基本几何体。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单组合体",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h107_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "若圆柱底面半径与圆锥底面半径相同，都是 3。这个共同半径是多少？",
+    "answer": "3",
+    "solution": "题目已经给出共同半径 3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单组合体",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h107_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "求组合体的体积时，通常？\nA. 一定用一个公式一次算完\nB. 只算最大的那一块\nC. 分成几个基本几何体再相加或相减\nD. 忽略凹进去的部分",
+    "answer": "C. 分成几个基本几何体再相加或相减",
+    "solution": "组合体没有统一的新公式，要按组成部分计算。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单组合体",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h107_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "挖去一个小球的大球，体积应？\nA. 两体积相加\nB. 只算小球\nC. 等于表面积之差\nD. 大球体积减去小球体积",
+    "answer": "D. 大球体积减去小球体积",
+    "solution": "挖去是作差，不是相加。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单组合体",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h107_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "水平放置的图形中，平行于横轴的线段长 6。直观图上这条线段画成多长？",
+    "answer": "6",
+    "solution": "平行于横轴的线段长度不变。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "斜二测画法",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h108_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "平行于纵轴的线段长 8。按斜二测，直观图上画成多长？",
+    "answer": "4",
+    "solution": "平行于纵轴的线段长度画成原来的一半，是 4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "斜二测画法",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h108_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "原图形里平行于纵轴的线段在直观图上长 3。它原来的长度是多少？",
+    "answer": "6",
+    "solution": "画出来是一半，原来是 6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "斜二测画法",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h108_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "斜二测画法中，横轴与纵轴的夹角通常画成？\nA. 45° 或 135°\nB. 必须是 90°\nC. 必须是 30°\nD. 可以是 0°",
+    "answer": "A. 45° 或 135°",
+    "solution": "直观图里原来垂直的两条轴不再画成直角，常用 45°。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "斜二测画法",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h108_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "正方形边长为 4，放在水平面上，一条边平行于横轴。这条边在直观图上的长度是多少？",
+    "answer": "4",
+    "solution": "平行于横轴，长度仍是 4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "水平放置的平面图形直观图",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h109_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "这个正方形中垂直于它的另一条边，在直观图上的长度是多少？",
+    "answer": "2",
+    "solution": "平行于纵轴的边画成一半，是 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "水平放置的平面图形直观图",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h109_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "原来互相平行的线段，在斜二测直观图中？\nA. 仍然平行\nB. 变成垂直\nC. 一定等长\nD. 不能再画",
+    "answer": "A. 仍然平行",
+    "solution": "斜二测保持平行关系，但纵方向的长度减半。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "水平放置的平面图形直观图",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h109_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "直观图上两条都平行于横轴的线段，原来长 5 和 5。它们在直观图上的长度之和是多少？",
+    "answer": "10",
+    "solution": "两条长度都不变，和是 10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "水平放置的平面图形直观图",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h109_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "棱长为 3 的正方体，表面积是多少？",
+    "answer": "54",
+    "solution": "6 个面，每个面面积 9，表面积 54。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单几何体的表面积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h110_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长、宽、高分别为 2、3、4 的长方体，表面积是多少？",
+    "answer": "52",
+    "solution": "2×(6+12+8)=52。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单几何体的表面积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h110_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "圆柱侧面展开是长方形。若底面周长为 10、高为 4，侧面积是多少？",
+    "answer": "40",
+    "solution": "侧面积等于底面周长乘高，这里直接给出周长，不必再算 π。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单几何体的表面积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h110_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "圆锥的侧面积展开后是？\nA. 矩形\nB. 两个圆\nC. 扇形\nD. 三角形",
+    "answer": "C. 扇形",
+    "solution": "沿母线剪开，侧面展开成扇形。底面另是一个圆。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单几何体的表面积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h110_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "底面积为 20、高为 4 的棱柱，体积是多少？",
+    "answer": "80",
+    "solution": "柱体体积等于底面积乘高，80。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单几何体的体积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h111_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "底面积为 10、高为 6 的圆柱，体积是多少？",
+    "answer": "60",
+    "solution": "圆柱也是柱体，体积等于底面积乘高。底面积已经给出。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单几何体的体积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h111_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "底面积为 9、高为 3 的圆锥，体积是多少？",
+    "answer": "9",
+    "solution": "锥体体积是同底等高柱体的三分之一，9×3/3=9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单几何体的体积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h111_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "同底等高的圆锥体积与圆柱体积的比是？\nA. 1:2\nB. 1:1\nC. 2:3\nD. 1:3",
+    "answer": "D. 1:3",
+    "solution": "圆锥体积公式带有 1/3，圆柱没有。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单几何体的体积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h111_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "半径变为原来的 2 倍时，球的体积变为原来的多少倍？",
+    "answer": "8",
+    "solution": "体积与半径立方成正比，2³=8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "球的体积与表面积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h112_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "半径变为原来的 3 倍时，球的表面积变为原来的多少倍？",
+    "answer": "9",
+    "solution": "表面积与半径平方成正比，3²=9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "球的体积与表面积",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h112_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "半径为 1 的球与半径为 2 的球，体积比是多少？用较大体积除以较小体积。",
+    "answer": "8",
+    "solution": "8/1=8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "球的体积与表面积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h112_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "球的体积公式中，半径使用？\nA. 三次方\nB. 二次方\nC. 一次方\nD. 不出现半径",
+    "answer": "A. 三次方",
+    "solution": "V=4/3 π r³。本题只考次数，不要求背出带 π 的小数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "球的体积与表面积",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h112_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "经过不在同一条直线上的三点，可以确定几个平面？\nA. 一个也没有\nB. 恰好两个\nC. 有且只有一个\nD. 无数个",
+    "answer": "C. 有且只有一个",
+    "solution": "不共线的三点确定唯一的平面。共线的三点则不能确定。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面的基本事实",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h113_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果两个不重合的平面有一个公共点，那么？\nA. 只有这一个公共点\nB. 必定重合\nC. 没有公共直线\nD. 它们有且只有一条过该点的公共直线",
+    "answer": "D. 它们有且只有一条过该点的公共直线",
+    "solution": "两个平面相交，交线是一条直线。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面的基本事实",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h113_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长方体 8 个顶点里，选出一条棱上的 2 个端点。这两个点和棱的中点是否共线？共线回答 1，不共线回答 0。",
+    "answer": "1",
+    "solution": "端点和中点都在同一条棱上，三点共线。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面的基本事实",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h113_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "经过一条直线和直线外一点，可以确定？\nA. 唯一的直线\nB. 唯一的平面\nC. 两个平面\nD. 不能确定平面",
+    "answer": "B. 唯一的平面",
+    "solution": "直线外一点和直线上两点构成不共线三点，确定一个平面。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面的基本事实",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h113_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "异面直线是指？\nA. 相交但不垂直的直线\nB. 平行的直线\nC. 在同一平面内但不相交的直线\nD. 不同在任何一个平面内的两条直线",
+    "answer": "D. 不同在任何一个平面内的两条直线",
+    "solution": "平行直线是共面的。异面直线既不相交也不平行。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "空间直线的位置关系",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h114_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长方体中，上底面的一条棱和下底面一条与它不平行、也不在同一侧面的棱？\nA. 可能异面\nB. 一定相交\nC. 一定平行\nD. 一定重合",
+    "answer": "A. 可能异面",
+    "solution": "不在同一平面、也不平行的棱是异面直线。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "空间直线的位置关系",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h114_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "空间中两条相交直线的交点个数是多少？",
+    "answer": "1",
+    "solution": "相交就是有且只有一个公共点。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "空间直线的位置关系",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h114_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "平行直线在空间中？\nA. 一定异面\nB. 一定垂直\nC. 共面且没有公共点\nD. 一定相交",
+    "answer": "C. 共面且没有公共点",
+    "solution": "平行的定义要求在同一平面内并且没有公共点。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "空间直线的位置关系",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h114_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "直线与平面的位置关系有几种？\nA. 在平面内、平行、相交，共三种\nB. 只有平行和垂直\nC. 只有相交\nD. 有四种，包括异面",
+    "answer": "A. 在平面内、平行、相交，共三种",
+    "solution": "直线要么在平面内，要么和平面平行，要么和平面相交。异面是直线与直线的关系。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面、平面与平面的位置",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h115_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个不重合的平面？\nA. 可以异面\nB. 平行或相交\nC. 一定垂直\nD. 一定重合",
+    "answer": "B. 平行或相交",
+    "solution": "不重合的两个平面若不相交，就是平行。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面、平面与平面的位置",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h115_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "直线与平面相交时，公共点有几个？",
+    "answer": "1",
+    "solution": "相交于一个点。若有两个公共点，直线就落在平面内。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面、平面与平面的位置",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h115_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "若一条直线上有两个点在平面内，则？\nA. 直线与平面平行\nB. 直线与平面只有一个交点\nC. 直线与平面垂直\nD. 整条直线都在这个平面内",
+    "answer": "D. 整条直线都在这个平面内",
+    "solution": "这是平面基本事实的直接推论。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面、平面与平面的位置",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h115_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "直线 a 不在平面内，且 a 平行于平面内的直线 b。则？\nA. a 与平面相交\nB. a 与这个平面平行\nC. a 也在平面内\nD. a 与平面垂直",
+    "answer": "B. a 与这个平面平行",
+    "solution": "这是线面平行的判定定理。a 必须在平面外。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面平行的判定",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h116_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果 a 平行于平面内的 b，但 a 自己也在这个平面内，结论是？\nA. 仍然平行\nB. 一定垂直\nC. 不能说 a 与平面平行\nD. a 是异面直线",
+    "answer": "C. 不能说 a 与平面平行",
+    "solution": "在平面内的直线不是「与平面平行」。平行要求没有公共点。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面平行的判定",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h116_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "判定定理要用到平面内的几条直线作为参照？",
+    "answer": "1",
+    "solution": "只要平面内有一条与它平行的直线即可。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面平行的判定",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h116_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "线面平行时，直线与平面的公共点有几个？\nA. 0 个\nB. 1 个\nC. 无数个\nD. 2 个",
+    "answer": "A. 0 个",
+    "solution": "平行就是没有公共点。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面平行的判定",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h116_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "直线 a 平行于平面 α。过 a 的平面与 α 交于 b。则？\nA. a 垂直于 b\nB. a 与 b 相交\nC. a 平行于 b\nD. a 与 b 异面",
+    "answer": "C. a 平行于 b",
+    "solution": "这是线面平行的性质：交线和原来的直线平行。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面平行的性质",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h117_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "判定定理和性质定理的差别是？\nA. 两者完全一样\nB. 性质用来画直观图\nC. 判定只用于垂直\nD. 判定是条件推出平行，性质是已经平行推出新的平行",
+    "answer": "D. 判定是条件推出平行，性质是已经平行推出新的平行",
+    "solution": "先有平行再用它推出别的平行，是性质；用别的平行推出线面平行，是判定。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面平行的性质",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h117_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "性质定理里，交线有几条？",
+    "answer": "1",
+    "solution": "两个平面相交得到一条交线。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面平行的性质",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h117_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "若直线与平面平行，它的方向？\nA. 一定垂直于平面\nB. 与平面内一组平行的交线方向一致\nC. 一定穿过平面\nD. 不能与任何平面内直线平行",
+    "answer": "B. 与平面内一组平行的交线方向一致",
+    "solution": "性质定理正是找出平面内与它平行的直线。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面平行的性质",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h117_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "平面 α 内两条相交直线都平行于平面 β。则？\nA. α 与 β 相交\nB. α 与 β 垂直\nC. 只能得到线面平行\nD. α 平行于 β",
+    "answer": "D. α 平行于 β",
+    "solution": "两条相交直线都与另一平面平行，才能保证两个平面平行。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面与平面平行的判定",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h118_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果只用平面内的一条直线平行于另一平面，能否判定面面平行？\nA. 不能\nB. 能\nC. 只有这条直线是侧棱时能\nD. 只有在长方体里能",
+    "answer": "A. 不能",
+    "solution": "一条直线只能得到线面平行。平面还可以绕它倾斜。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面与平面平行的判定",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h118_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "判定定理要求平面内用来参照的相交直线有几条？",
+    "answer": "2",
+    "solution": "需要两条，并且它们相交。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面与平面平行的判定",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h118_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "这两条直线若互相平行而不是相交，则？\nA. 仍然可以判定面面平行\nB. 两个平面一定垂直\nC. 不能直接用这个判定\nD. 两条直线异面",
+    "answer": "C. 不能直接用这个判定",
+    "solution": "平行的两条直线确定的方向不够，定理要求相交。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面与平面平行的判定",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h118_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个平行平面被第三个平面所截，得到的两条交线？\nA. 互相平行\nB. 互相垂直\nC. 一定相交\nD. 一定异面",
+    "answer": "A. 互相平行",
+    "solution": "这是面面平行的性质定理。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面与平面平行的性质",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h119_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长方体上下底面平行。一个侧面与这两个底面各有一条交线。这两条交线是否平行？平行回答 1，不平行回答 0。",
+    "answer": "1",
+    "solution": "侧面截一对平行平面，交线就是上下底面的两条对应棱，它们平行。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面与平面平行的性质",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h119_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "若两个平面平行，则其中一个平面内的直线与另一个平面？\nA. 相交\nB. 在另一个平面内\nC. 平行\nD. 垂直",
+    "answer": "C. 平行",
+    "solution": "否则直线会把两个平面连到一个公共点，平面就相交了。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面与平面平行的性质",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h119_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "面面平行时，两平面的公共点有几个？\nA. 1 个\nB. 一条直线上的无数个\nC. 全部点\nD. 0 个",
+    "answer": "D. 0 个",
+    "solution": "平行的平面没有公共点。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面与平面平行的性质",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h119_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "直线 l 垂直于平面内两条相交直线。则？\nA. l 只平行于平面\nB. l 垂直于这个平面\nC. l 在平面内\nD. 还不能判断",
+    "answer": "B. l 垂直于这个平面",
+    "solution": "这是线面垂直的判定定理。两条直线必须相交。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面垂直的判定",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h120_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "只垂直于平面内的一条直线，能否判定线面垂直？\nA. 能\nB. 这条直线过圆心就能\nC. 不能\nD. 在直观图里能",
+    "answer": "C. 不能",
+    "solution": "一条不够，还可能只是和某一个方向垂直。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面垂直的判定",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h120_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "判定定理中，平面内的相交直线需要几条？",
+    "answer": "2",
+    "solution": "两条相交直线。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面垂直的判定",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h120_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长方体的侧棱与底面？\nA. 垂直\nB. 平行\nC. 异面\nD. 在底面内",
+    "answer": "A. 垂直",
+    "solution": "侧棱垂直于底面的两条相交边，所以垂直于底面。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面垂直的判定",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h120_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "垂直于同一个平面的两条直线？\nA. 一定相交\nB. 一定异面\nC. 互相平行\nD. 一定垂直",
+    "answer": "C. 互相平行",
+    "solution": "这是线面垂直的性质。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面垂直的性质",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h121_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长方体有 4 条侧棱，都垂直于底面。相邻两条侧棱是否平行？平行回答 1，不平行回答 0。",
+    "answer": "1",
+    "solution": "都垂直于底面，所以侧棱互相平行。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面垂直的性质",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h121_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "若一条直线垂直于一个平面，则它垂直于？\nA. 这个平面内的所有直线\nB. 只垂直于两条\nC. 平面外的所有直线\nD. 只垂直于侧棱",
+    "answer": "A. 这个平面内的所有直线",
+    "solution": "线面垂直的定义就是与平面内每一条直线都垂直。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面垂直的性质",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h121_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "性质定理的结论是两条直线的什么关系？\nA. 垂直\nB. 平行\nC. 相交\nD. 异面",
+    "answer": "B. 平行",
+    "solution": "由共同的垂面推出这两条直线平行。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "直线与平面垂直的性质",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h121_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个平面经过另一个平面的一条垂线，则这两个平面？\nA. 互相平行\nB. 一定重合\nC. 不能确定\nD. 互相垂直",
+    "answer": "D. 互相垂直",
+    "solution": "这是面面垂直的判定。垂线落在其中一个平面内。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面与平面垂直",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h122_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "正方体中指定一个面为底面后，与这个底面垂直的面有几个？",
+    "answer": "4",
+    "solution": "四个侧面都经过底面的垂线（侧棱）。由面面垂直的判定，它们都与底面垂直；对面与底面平行。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面与平面垂直",
+      "图形与几何"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h122_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长方体相邻的两个侧面都垂直于底面。其中一个侧面内有几条与底面垂直的侧棱（只数这个侧面自己的侧棱）？",
+    "answer": "2",
+    "solution": "一个侧面是矩形，左右两条侧棱都垂直于底面。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面与平面垂直",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h122_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "墙面与地面通常抽象成？\nA. 两个平行平面\nB. 两条异面直线\nC. 两个互相垂直的平面\nD. 一个球面",
+    "answer": "C. 两个互相垂直的平面",
+    "solution": "墙面和地面的交线是墙脚，墙面过地面的垂线。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "平面与平面垂直",
+      "图形与几何"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h122_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想知道一批灯泡的使用寿命，又不能把灯泡全部用坏。更合适的是？\nA. 抽样试验\nB. 对所有灯泡做普查\nC. 只问一个人的感觉\nD. 不收集数据",
+    "answer": "A. 抽样试验",
+    "solution": "寿命试验是破坏性的，适合抽样，而不是把全部产品试完。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "获取数据的途径",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h123_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "查看统计局已经公布的人口数据，属于？\nA. 随机试验\nB. 查阅资料\nC. 面对面问卷调查\nD. 设计新的实验",
+    "answer": "B. 查阅资料",
+    "solution": "资料已经存在，直接查阅即可。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "获取数据的途径",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h123_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个班 40 人，如果做普查，要收集多少人的数据？",
+    "answer": "40",
+    "solution": "普查是全体都收集，这里是 40。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "获取数据的途径",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h123_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "获取数据之前首先要明确？\nA. 先画直方图\nB. 先计算方差\nC. 先写结论\nD. 要研究的问题",
+    "answer": "D. 要研究的问题",
+    "solution": "问题决定收集什么、向谁收集。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "获取数据的途径",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h123_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "总体有 20 人，用简单随机抽样抽 1 人。每个人被抽到的概率是多少？",
+    "answer": "1/20",
+    "solution": "每个人机会相同，概率是 1/20。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单随机抽样",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h124_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "总体 10 件，简单随机抽取 2 件。不同的抽法有多少种？",
+    "answer": "45",
+    "solution": "组合数 C(10,2)=45。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单随机抽样",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h124_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "简单随机抽样要求？\nA. 只抽成绩好的\nB. 按班级比例抽\nC. 样本必须等于总体\nD. 每个个体被抽到的可能性相同",
+    "answer": "D. 每个个体被抽到的可能性相同",
+    "solution": "机会均等是简单随机抽样的要点。按比例是分层抽样。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单随机抽样",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h124_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "抽签法要把号码？\nA. 充分混合后抽取\nB. 按从小到大的顺序只取前面的\nC. 只取偶数\nD. 重复抽取同一个人直到满意",
+    "answer": "A. 充分混合后抽取",
+    "solution": "不混合就会让后面的号码几乎抽不到。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "简单随机抽样",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h124_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲层 40 人、乙层 60 人，按 1/10 分层抽样。甲层应抽多少人？",
+    "answer": "4",
+    "solution": "40×1/10=4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分层随机抽样",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h125_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲层 40 人、乙层 60 人，按 1/10 分层抽样。乙层应抽多少人？",
+    "answer": "6",
+    "solution": "按各层人数的 1/10 分配，乙层 60×1/10=6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分层随机抽样",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h125_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两层合起来的样本量是多少？",
+    "answer": "10",
+    "solution": "4+6=10，也等于总人数 100 的 1/10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分层随机抽样",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h125_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "分层抽样适用于？\nA. 总体只有 2 个个体\nB. 总体由差异明显的几层组成\nC. 每个个体都完全相同\nD. 不能分组的连续生产",
+    "answer": "B. 总体由差异明显的几层组成",
+    "solution": "层内比较整齐、层间差异大时，按比例抽更能代表总体。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "分层随机抽样",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h125_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校三个年级人数差很多，要了解全校每天的作业时间。更合适的是？\nA. 只抽一个年级\nB. 把三个年级混在一起却不看人数\nC. 只调查老师\nD. 分层随机抽样",
+    "answer": "D. 分层随机抽样",
+    "solution": "年级之间可能不同，应按人数比例分层。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "抽样方法的选择",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h126_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "20 支钢笔放在同一个盒子里，除了外观没有其他分层信息。抽 4 支检查，用？\nA. 简单随机抽样\nB. 必须分层\nC. 普查\nD. 只抽第一支",
+    "answer": "A. 简单随机抽样",
+    "solution": "没有明显的层，简单随机抽样即可。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "抽样方法的选择",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h126_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "样本量为 8，不表示总体只有 8。若总体是 80，样本量是总体的几分之一？",
+    "answer": "1/10",
+    "solution": "8/80=1/10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "抽样方法的选择",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h126_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "抽样推断的结果？\nA. 一定等于总体参数\nB. 不能用来做任何判断\nC. 是估计，不一定等于总体的精确值\nD. 只对样本里的人有效、与总体无关",
+    "answer": "C. 是估计，不一定等于总体的精确值",
+    "solution": "样本提供估计，带有随机误差。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "抽样方法的选择",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h126_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "组距为 5，频率除以组距等于 0.04，样本容量为 50。这一组的频数是多少？",
+    "answer": "10",
+    "solution": "频率=0.04×5=0.2，频数=0.2×50=10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "频率分布直方图",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h127_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两组的频率分别是 0.3 和 0.7。频率之和是多少？",
+    "answer": "1",
+    "solution": "全部小长方形的面积之和是 1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "频率分布直方图",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h127_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "组距为 10，某一组频数为 20，样本容量为 100。这一组的频率除以组距，结果用分数表示。",
+    "answer": "1/50",
+    "solution": "频率=20/100=1/5，再除以组距 10，得到 1/50。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "频率分布直方图",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h127_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "直方图中小长方形的高表示？\nA. 频数本身\nB. 样本容量\nC. 组距\nD. 频率除以组距",
+    "answer": "D. 频率除以组距",
+    "solution": "用面积表示频率，所以高必须是频率/组距。组距不同时不能直接比高度当频率。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "频率分布直方图",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h127_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "样本容量 40，某组频率 0.25。这一组的频数是多少？",
+    "answer": "10",
+    "solution": "0.25×40=10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "从直方图读取信息",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h128_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲组频率 0.2，乙组频率 0.35。乙组比甲组多出的频率是多少？",
+    "answer": "3/20",
+    "solution": "0.35−0.20=0.15。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "从直方图读取信息",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h128_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "样本容量 80，频率 1/5 的组有多少个数据？",
+    "answer": "16",
+    "solution": "80/5=16。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "从直方图读取信息",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h128_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "组距相同的直方图里，更高的小长方形表示？\nA. 这一组的频率更大\nB. 这一组的数据更小\nC. 样本容量更大\nD. 平均数更大",
+    "answer": "A. 这一组的频率更大",
+    "solution": "组距相同，高度与频率成正比。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "从直方图读取信息",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h128_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数据 1，2，3，4 已按从小到大排列，n=4。求第 50 百分位数。规则：i=n×50%；i 是整数时取第 i 个和第 i+1 个的平均数。",
+    "answer": "5/2",
+    "solution": "i=2，取第 2 个和第 3 个，即 2 和 3，平均数是 5/2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "百分位数",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h129_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数据 2，4，6，8，10 已排好，n=5。求第 20 百分位数。i=n×20% 若是整数，取第 i 个和第 i+1 个的平均数。",
+    "answer": "3",
+    "solution": "i=1，取第 1 个和第 2 个，即 2 和 4，平均数是 3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "百分位数",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h129_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数据 1，3，5，7，9 已排好，n=5。求第 50 百分位数。i=2.5 不是整数，取它后的第一个整数位置，也就是第 3 个。",
+    "answer": "5",
+    "solution": "第 3 个是 5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "百分位数",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h129_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "百分位数描述的是？\nA. 一定是平均数\nB. 样本中处于某个百分比位置的数值\nC. 一定是众数\nD. 样本容量",
+    "answer": "B. 样本中处于某个百分比位置的数值",
+    "solution": "它看的是排序后的位置，不是把所有数加起来平均。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "百分位数",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h129_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "样本 2，4，6，8 的平均数是多少？",
+    "answer": "5",
+    "solution": "(2+4+6+8)/4=5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用样本估计总体的中心",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h130_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "样本 1，3，3，7 的中位数是多少？",
+    "answer": "3",
+    "solution": "排序后中间两个数都是 3，中位数是 3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用样本估计总体的中心",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h130_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "样本 1，2，9 的平均数是多少？",
+    "answer": "4",
+    "solution": "(1+2+9)/3=4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用样本估计总体的中心",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h130_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数据里有一个特别大的数时，估计总体中心更稳健的常常是？\nA. 一定改用极差\nB. 只看最大数\nC. 中位数\nD. 样本容量",
+    "answer": "C. 中位数",
+    "solution": "中位数不受两端极端值的拉动，平均数会被拉开。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用样本估计总体的中心",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h130_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数据 2，4，4，6 的极差是多少？",
+    "answer": "4",
+    "solution": "最大减最小，6−2=4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用样本估计总体的离散程度",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h131_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数据 2，4，4，6 的方差是多少？按除以 n 计算。",
+    "answer": "2",
+    "solution": "平均数是 4，偏差平方和是 8，除以 4 得 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用样本估计总体的离散程度",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h131_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数据 5，5，5 的方差是多少？按除以 n 计算。",
+    "answer": "0",
+    "solution": "每个数都等于平均数，方差是 0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用样本估计总体的离散程度",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h131_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "方差越大，表示？\nA. 平均数越大\nB. 数据个数越多\nC. 中位数越大\nD. 数据波动越大",
+    "answer": "D. 数据波动越大",
+    "solution": "方差衡量离开平均数的程度，不直接等于平均数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用样本估计总体的离散程度",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h131_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要看各部分占总体的百分比，更合适的是？\nA. 折线图\nB. 扇形图\nC. 茎叶图不必、这里用扇形\nD. 只写方差",
+    "answer": "B. 扇形图",
+    "solution": "扇形图用扇形的大小表示比例。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "统计图表的选择",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h132_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "要看一个月内每天气温的变化，更合适的是？\nA. 扇形图\nB. 一个只画总数的条形\nC. 折线图\nD. 只写众数",
+    "answer": "C. 折线图",
+    "solution": "折线图能看出随时间的升降。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "统计图表的选择",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h132_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "扇形图中三类的百分比是 20、30、50。它们的和是多少？",
+    "answer": "100",
+    "solution": "全部类别应占 100%。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "统计图表的选择",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h132_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "比较几个连续区间上的数据分布，用？\nA. 频率分布直方图\nB. 只画一个扇形\nC. 只算一个平均数\nD. 不分组",
+    "answer": "A. 频率分布直方图",
+    "solution": "直方图专门表示分组后的频率分布。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "统计图表的选择",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h132_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲组 4 人的体重数据 60，62，64，66。平均数是多少？",
+    "answer": "63",
+    "solution": "(60+62+64+66)/4=63。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "统计案例",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h133_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "乙组 70，70，70 的平均数是多少？",
+    "answer": "70",
+    "solution": "三个数都是 70。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "统计案例",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h133_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "乙组平均数减去甲组平均数是多少？",
+    "answer": "7",
+    "solution": "70−63=7。只能说明这两组样本的差异，还要看抽样是否合适。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "统计案例",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h133_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "由样本得到的案例结论应该怎样使用？\nA. 当成全体的精确值\nB. 作为估计，并说明样本是怎么抽的\nC. 不再需要样本容量\nD. 可以改数据让结论更好看",
+    "answer": "B. 作为估计，并说明样本是怎么抽的",
+    "solution": "统计案例要同时报告数据来源和结论的局限。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "统计案例",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h133_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "抛一枚均匀硬币 2 次，样本点有多少个？",
+    "answer": "4",
+    "solution": "每次正反两种，两次共 4 个：正正、正反、反正、反反。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "样本点与样本空间",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h134_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个袋子有 3 个不同的球，摸出 1 个。样本点有多少个？",
+    "answer": "3",
+    "solution": "每个球是一个样本点。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "样本点与样本空间",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h134_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "样本空间是？\nA. 只含最可能的那个结果\nB. 所有样本点组成的集合\nC. 概率等于 1 的事件\nD. 已经发生的结果",
+    "answer": "B. 所有样本点组成的集合",
+    "solution": "样本空间在做试验之前就列好，包含每一个可能结果。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "样本点与样本空间",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h134_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用集合表示样本空间，依靠的是？\nA. 把概率看成元素\nB. 只能用列举法且不能用描述法\nC. 把结果看成元素\nD. 不能有空集",
+    "answer": "C. 把结果看成元素",
+    "solution": "高中概率用集合语言，结果就是元素。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "样本点与样本空间",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h134_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "必然事件的概率是？\nA. 1\nB. 0\nC. 1/2\nD. 可以大于 1",
+    "answer": "A. 1",
+    "solution": "每次都发生，概率是 1。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "随机事件",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h135_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "不可能事件对应的集合是？\nA. 样本空间\nB. 空集\nC. 只含一个样本点的集合\nD. 全体实数",
+    "answer": "B. 空集",
+    "solution": "没有样本点能使它发生。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "随机事件",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h135_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "样本空间有 5 个样本点，某事件含其中 5 个。这个事件的概率若按古典概型计算是多少？",
+    "answer": "1",
+    "solution": "全部样本点都在事件里，概率是 1，这是必然事件。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "随机事件",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h135_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "随机事件是指？\nA. 一定发生的事件\nB. 一定不发生的事件\nC. 样本空间外面的对象\nD. 可能发生也可能不发生的事件",
+    "answer": "D. 可能发生也可能不发生的事件",
+    "solution": "概率严格在 0 和 1 之间的是随机事件。必然和不可能是两种极端。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "随机事件",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h135_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "样本空间有 8 个样本点，事件 A 有 3 个。A 的对立事件有几个样本点？",
+    "answer": "5",
+    "solution": "对立事件是补集，8−3=5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "事件的关系与运算",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h136_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A 有 4 个样本点，B 有 5 个，A∩B 有 2 个。A∪B 有几个样本点？",
+    "answer": "7",
+    "solution": "并集个数是 4+5−2=7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "事件的关系与运算",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h136_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A∩B 表示？\nA. A 或 B 至少一个发生\nB. A 不发生\nC. 样本空间\nD. A 和 B 同时发生",
+    "answer": "D. A 和 B 同时发生",
+    "solution": "交是公共部分，两个事件都发生。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "事件的关系与运算",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h136_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "对立事件除了互斥，还要满足？\nA. 并起来是整个样本空间\nB. 交集不是空集\nC. 概率都是 1/2\nD. 只能各含一个样本点",
+    "answer": "A. 并起来是整个样本空间",
+    "solution": "互斥只是不能同时发生。对立还要求两者必有一个发生。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "事件的关系与运算",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h136_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "袋中 5 红 3 蓝，共 8 个球，随机摸 2 个。摸到 2 个红球的概率是多少？",
+    "answer": "5/14",
+    "solution": "C(5,2)/C(8,2)=10/28=5/14。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "古典概型",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h137_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "掷一枚均匀骰子，点数大于 4 的概率是多少？",
+    "answer": "1/3",
+    "solution": "5 和 6 两点，共 6 种等可能结果，概率 1/3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "古典概型",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h137_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从 1，2，3，4 中等可能取一个数，取到偶数的概率是多少？",
+    "answer": "1/2",
+    "solution": "偶数是 2 和 4，概率 1/2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "古典概型",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h137_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "古典概型要求样本点？\nA. 可以无限个\nB. 有限个并且每个等可能\nC. 概率可以不相等\nD. 必须是连续区间",
+    "answer": "B. 有限个并且每个等可能",
+    "solution": "不等可能时不能用「个数除以个数」。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "古典概型",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h137_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A、B 互斥，P(A)=1/4，P(B)=1/5。P(A∪B) 是多少？",
+    "answer": "9/20",
+    "solution": "互斥时概率相加，1/4+1/5=9/20。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "概率的加法",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h138_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "P(A)=1/2，P(B)=1/3，P(A∩B)=1/6。P(A∪B) 是多少？",
+    "answer": "2/3",
+    "solution": "不互斥时要减去同时发生的部分，1/2+1/3−1/6=2/3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "概率的加法",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h138_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "对立事件的概率是 1/5。原事件的概率是多少？",
+    "answer": "4/5",
+    "solution": "对立事件概率之和为 1，原事件是 4/5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "概率的加法",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h138_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "互斥事件的概率可以直接相加，因为？\nA. 它们互相独立\nB. 它们的概率都是 1\nC. 它们不能同时发生，交集为空\nD. 样本点个数无限",
+    "answer": "C. 它们不能同时发生，交集为空",
+    "solution": "互斥和独立不是一回事。这里用的是交集为空。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "概率的加法",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h138_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "对立一定互斥吗？\nA. 一定\nB. 一定不\nC. 只有概率为 1/2 时才\nD. 无法判断",
+    "answer": "A. 一定",
+    "solution": "对立事件不能同时发生，所以互斥，并且还要盖住整个样本空间。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "互斥与对立",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h139_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "互斥是否一定对立？\nA. 一定\nB. 不一定\nC. 在古典概型里一定\nD. 只有两个样本点时才不一定",
+    "answer": "B. 不一定",
+    "solution": "两个事件可以都不发生。例如掷骰子「1 点」和「2 点」互斥，但不是对立。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "互斥与对立",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h139_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "P(A)=0.3。若 B 是 A 的对立事件，P(B) 用分数表示是多少？0.3=3/10。",
+    "answer": "7/10",
+    "solution": "1−3/10=7/10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "互斥与对立",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h139_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "样本空间 6 个等可能结果。事件「点数为 1」和「点数为 2」一起含几个结果？",
+    "answer": "2",
+    "solution": "两个互斥事件的结果数相加，1+1=2。它们的并不是必然事件。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "互斥与对立",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h139_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A 与 B 相互独立，P(A)=1/2，P(B)=1/3。P(A∩B) 是多少？",
+    "answer": "1/6",
+    "solution": "独立时同时发生的概率等于概率相乘，1/6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "事件的相互独立",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h140_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两次独立抛硬币，第一次正面概率 1/2，第二次正面概率 1/2。两次都正面的概率是多少？",
+    "answer": "1/4",
+    "solution": "1/4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "事件的相互独立",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h140_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "若 A、B 都不是不可能事件，并且互斥，则它们？\nA. 一定相互独立\nB. 概率都是 0\nC. 不能求交\nD. 不相互独立",
+    "answer": "D. 不相互独立",
+    "solution": "互斥时 P(A∩B)=0，而 P(A)P(B)>0，两者不相等。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "事件的相互独立",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h140_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "相互独立是指？\nA. 一个事件发生与否不改变另一个的概率\nB. 两个事件不能同时发生\nC. 两个事件必然同时发生\nD. 概率之和为 1",
+    "answer": "A. 一个事件发生与否不改变另一个的概率",
+    "solution": "独立看的是概率相乘，不是交集为空。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "事件的相互独立",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h140_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每次命中概率为 1/2，三次独立射击都命中的概率是多少？",
+    "answer": "1/8",
+    "solution": "(1/2)³=1/8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "独立事件的概率计算",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h141_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每次未命中的概率是 1/2。三次都未命中的概率是多少？",
+    "answer": "1/8",
+    "solution": "同样是 1/8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "独立事件的概率计算",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h141_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一次命中概率 1/2。至少命中一次的对立是三次都未命中。三次独立射击至少命中一次的概率是多少？",
+    "answer": "7/8",
+    "solution": "1−1/8=7/8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "独立事件的概率计算",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h141_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "这里用「至少一次」的对立来算，有没有用到条件概率？\nA. 用了\nB. 没有\nC. 必须先知道第一次已经命中\nD. 只有古典概型才不用",
+    "answer": "B. 没有",
+    "solution": "对立事件和独立性就够了。条件概率是选择性必修的内容。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "独立事件的概率计算",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h141_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "做了 200 次试验，事件出现 40 次。频率是多少？",
+    "answer": "1/5",
+    "solution": "40/200=1/5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "频率与概率",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h142_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "又做了 100 次，出现 20 次。这一批的频率是多少？",
+    "answer": "1/5",
+    "solution": "20/100=1/5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "频率与概率",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h142_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "频率稳定在 1/5 附近，说明？\nA. 概率已经变成频率的下一个值\nB. 可以把概率估计为 1/5\nC. 下一次一定发生\nD. 试验可以停止且结果不再变化",
+    "answer": "B. 可以把概率估计为 1/5",
+    "solution": "频率是估计。下一次仍是随机的。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "频率与概率",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h142_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "频率和概率的差别是？\nA. 两者永远相等\nB. 频率可以大于 1\nC. 频率来自已做的试验，概率是事件本身的规律\nD. 概率会随试验次数改变",
+    "answer": "C. 频率来自已做的试验，概率是事件本身的规律",
+    "solution": "概率是确定的模型值，频率会波动并逐渐稳定。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "频率与概率",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h142_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1000 次试验中事件出现 320 次。用频率估计的概率是多少？",
+    "answer": "8/25",
+    "solution": "320/1000=8/25。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用频率估计概率",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h143_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "另一次只做了 10 次，出现 8 次。这 10 次的频率是多少？",
+    "answer": "4/5",
+    "solution": "8/10=4/5。次数少，波动会更大。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用频率估计概率",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h143_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "同样的试验，哪一次估计通常更可信？\nA. 频率更大的那一次\nB. 次数更少的那一次\nC. 试验次数更多的那一次\nD. 最先做的那一次",
+    "answer": "C. 试验次数更多的那一次",
+    "solution": "次数越多，频率越稳定。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用频率估计概率",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h143_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "若估计的概率是 1/4，在 40 次试验中大约期望出现多少次？",
+    "answer": "10",
+    "solution": "期望次数是 40×1/4=10。实际次数仍会有波动。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": 11,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用频率估计概率",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h143_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  }
+]

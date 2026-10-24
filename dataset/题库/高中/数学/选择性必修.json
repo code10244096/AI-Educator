@@ -1,0 +1,5102 @@
+[
+  {
+    "question_text": "下面哪一项最能说明数列和数集的差别？\nA. 数列不能有重复的数\nB. 数列必须有无穷多项\nC. 数列讲究顺序，数集不讲究顺序\nD. 数列的每一项必须是正数",
+    "answer": "C. 数列讲究顺序，数集不讲究顺序",
+    "solution": "数列按顺序排列。同样的数换顺序，一般是不同的数列。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "数列的概念",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h197_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数列 3，5，7，9 的第 3 项是多少？",
+    "answer": "7",
+    "solution": "从第 1 项数起，第 3 项是 7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "数列的概念",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h197_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数列 2，4，6，8，10 一共有多少项？",
+    "answer": "5",
+    "solution": "写出的五项都要数进去。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "数列的概念",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h197_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数列 1，1，1，1 是不是一个数列？\nA. 不是，因为有重复\nB. 是，各项相等也可以\nC. 不是，因为没有递增\nD. 不是，因为通项不存在",
+    "answer": "B. 是，各项相等也可以",
+    "solution": "常数列也是数列，每一项都是 1。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "数列的概念",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h197_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "通项公式 a_n=2n+1。第 4 项是多少？",
+    "answer": "9",
+    "solution": "把 n=4 代入，得 8+1=9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "数列的表示",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h198_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数列的图象通常是什么样子？\nA. 一串孤立的点\nB. 一条连续直线\nC. 一条抛物线的全部\nD. 一个圆",
+    "answer": "A. 一串孤立的点",
+    "solution": "序号是正整数，所以图象只在正整数处有点，不是连续曲线。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "数列的表示",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h198_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数列前四项是 1，3，5，7。第 1 项与第 4 项的和是多少？",
+    "answer": "8",
+    "solution": "1+7=8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "数列的表示",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h198_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用通项公式表示数列时，n 通常取什么数？\nA. 任意实数\nB. 任意负数\nC. 正整数\nD. 只取 0",
+    "answer": "C. 正整数",
+    "solution": "项的序号从 1 开始，是正整数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "数列的表示",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h198_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a_n=3n−1。a_4 等于多少？",
+    "answer": "11",
+    "solution": "3×4−1=11。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "通项公式",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h199_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a_n=n²。a_5 等于多少？",
+    "answer": "25",
+    "solution": "5 的平方是 25。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "通项公式",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h199_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a_n=10−n。a_3 等于多少？",
+    "answer": "7",
+    "solution": "10−3=7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "通项公式",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h199_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "通项公式 a_n=2n 的前三项是？\nA. 1，2，3\nB. 2，3，4\nC. 1，3，5\nD. 2，4，6",
+    "answer": "D. 2，4，6",
+    "solution": "n=1、2、3 时分别得 2、4、6。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "通项公式",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h199_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a_1=3，a_{n+1}=a_n+4。a_2 等于多少？",
+    "answer": "7",
+    "solution": "后一项比前一项大 4，a_2=7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "简单递推关系",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h200_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a_1=2，a_{n+1}=3a_n。a_3 等于多少？",
+    "answer": "18",
+    "solution": "a_2=6，a_3=18。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "简单递推关系",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h200_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a_1=5，a_{n+1}=a_n−1。a_4 等于多少？",
+    "answer": "2",
+    "solution": "从第 1 项到第 4 项减了 3 次，得 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "简单递推关系",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h200_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a_{n+1}=a_n+2 给出的是什么？\nA. 递推关系\nB. 直接写出任意一项的通项，不需要首项\nC. 数列的和\nD. 函数的导数",
+    "answer": "A. 递推关系",
+    "solution": "它用前一项表示后一项，还要知道首项才能确定整个数列。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "简单递推关系",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h200_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等差数列 3，7，11，15 的公差是多少？",
+    "answer": "4",
+    "solution": "后一项减前一项：7−3=4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的概念",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h201_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数列 2，5，8，11 是不是等差数列？\nA. 不是，因为各项都是正数\nB. 不是，因为项数有限\nC. 是，公差为 2\nD. 是，公差为 3",
+    "answer": "D. 是，公差为 3",
+    "solution": "相邻差都是 3，所以是公差为 3 的等差数列。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的概念",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h201_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等差数列的首项是 6，公差是 −2。第 2 项是多少？",
+    "answer": "4",
+    "solution": "6−2=4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的概念",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h201_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "常数列 5，5，5，5 是不是等差数列？\nA. 不是，公差必须是正数\nB. 是，公差为 0\nC. 不是，因为差是 0\nD. 是，公差为 5",
+    "answer": "B. 是，公差为 0",
+    "solution": "相邻差都是 0，公差为 0，仍然是等差数列。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的概念",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h201_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等差数列 a_1=3，d=4。a_6 等于多少？",
+    "answer": "23",
+    "solution": "a_6=3+(6−1)×4=23。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的通项",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h202_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等差数列 a_1=10，d=−3。a_4 等于多少？",
+    "answer": "1",
+    "solution": "10+(4−1)×(−3)=1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的通项",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h202_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等差数列 a_3=8，a_7=20。公差是多少？",
+    "answer": "3",
+    "solution": "中间隔 4 个公差，(20−8)/4=3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的通项",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h202_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等差数列的通项公式是一次式。n 增加 1 时，项怎么变？\nA. 变成原来的 2 倍\nB. 一定不变\nC. 增加一个公差\nD. 变成平方",
+    "answer": "C. 增加一个公差",
+    "solution": "相邻两项相差 d，序号每增加 1，项就加一个公差。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的通项",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h202_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "5 和 11 的等差中项是多少？",
+    "answer": "8",
+    "solution": "(5+11)/2=8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差中项",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h203_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等差中项是 6，前一个数是 2。后一个数是多少？",
+    "answer": "10",
+    "solution": "2×6=2+后一个数，后一个数是 10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差中项",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h203_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "三个数 4，k，10 成等差数列。k 等于多少？",
+    "answer": "7",
+    "solution": "2k=14，k=7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差中项",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h203_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a、b、c 成等差数列，等价于哪一个等式？\nA. 2b=ac\nB. b=a+c\nC. b²=ac\nD. 2b=a+c",
+    "answer": "D. 2b=a+c",
+    "solution": "中间项的 2 倍等于两端之和。b²=ac 是等比中项的关系。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差中项",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h203_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等差数列 a_1=3，a_6=23。前 6 项和是多少？",
+    "answer": "78",
+    "solution": "S_6=6×(3+23)/2=78。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的前 n 项和",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h204_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等差数列 a_1=2，d=3。前 5 项和是多少？",
+    "answer": "40",
+    "solution": "S_5=5×2+5×4×3/2=10+30=40。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的前 n 项和",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h204_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等差数列前 10 项和是 100，前 9 项和是 81。第 10 项是多少？",
+    "answer": "19",
+    "solution": "第 10 项等于 S_10−S_9=19。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的前 n 项和",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h204_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "求等差数列前 n 项和时，首项加末项再乘项数，还要怎样？\nA. 再除以 2\nB. 再乘 2\nC. 再平方\nD. 不用再运算",
+    "answer": "A. 再除以 2",
+    "solution": "公式是 n 乘首末两项之和，再除以 2。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的前 n 项和",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h204_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "通项 a_n=4n−1。公差是多少？",
+    "answer": "4",
+    "solution": "一次项系数 4 就是公差。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列与一次函数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h205_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "通项 a_n=4n−1。首项是多少？",
+    "answer": "3",
+    "solution": "n=1 时得 3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列与一次函数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h205_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等差数列的图象落在哪一种函数图象上？\nA. 一次函数的图象\nB. 指数函数的图象\nC. 反比例函数的图象\nD. 一个圆",
+    "answer": "A. 一次函数的图象",
+    "solution": "通项是 n 的一次式，这些点在一条直线上。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列与一次函数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h205_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "公差是 −2、首项是 9 的等差数列，a_n 的一次项系数是多少？",
+    "answer": "-2",
+    "solution": "a_n=−2n+常数，一次项系数就是公差 −2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列与一次函数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h205_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "剧场第 1 排 20 个座位，往后每排多 2 个。第 6 排有多少个座位？",
+    "answer": "30",
+    "solution": "这是 a_1=20、d=2 的等差数列，a_6=30。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的应用",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h206_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "剧场第 1 排 20 个座位，往后每排多 2 个。前 6 排一共多少个座位？",
+    "answer": "150",
+    "solution": "末项 30，S_6=6×50/2=150。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的应用",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h206_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每月存款比上个月多 10 元，第 1 个月存 100 元。第 4 个月存多少元？",
+    "answer": "130",
+    "solution": "a_4=100+3×10=130。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的应用",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h206_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每天比前一天多走固定的步数，总步数适合用什么求和？\nA. 等比数列的前 n 项和\nB. 只把第一天乘天数\nC. 等差数列的前 n 项和\nD. 导数的平均值",
+    "answer": "C. 等差数列的前 n 项和",
+    "solution": "每天增加的量固定，是等差数列。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等差数列的应用",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h206_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等比数列 2，6，18，54 的公比是多少？",
+    "answer": "3",
+    "solution": "后一项除以前一项：6/2=3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的概念",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h207_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数列 5，5，5，5 是不是等比数列？\nA. 不是，公比不能是 1\nB. 是，公比为 1\nC. 不是，因为差是 0\nD. 是，公比为 5",
+    "answer": "B. 是，公比为 1",
+    "solution": "相邻比都是 1，公比为 1，它同时是等差数列和等比数列。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的概念",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h207_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "首项是 3，公比是 −2。第 2 项是多少？",
+    "answer": "-6",
+    "solution": "3×(−2)=−6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的概念",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h207_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等比数列的各项可以有 0 吗？\nA. 可以，公比为 0\nB. 可以，只要项数有限\nC. 必须每一项都是 0\nD. 不可以，否则后一项与前一项的比没有意义或不能保持同一公比",
+    "answer": "D. 不可以，否则后一项与前一项的比没有意义或不能保持同一公比",
+    "solution": "若某一项是 0，下一项与它的比不能是固定的非零常数。教材要求公比不为 0，各项也不为 0。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的概念",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h207_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等比数列 a_1=2，q=3。a_4 等于多少？",
+    "answer": "54",
+    "solution": "a_4=2×3³=54。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的通项",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h208_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等比数列 a_1=5，q=2。a_3 等于多少？",
+    "answer": "20",
+    "solution": "5×4=20。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的通项",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h208_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等比数列 a_2=6，a_5=48，公比为正。公比是多少？",
+    "answer": "2",
+    "solution": "a_5=a_2·q³，48=6q³，q³=8，q=2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的通项",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h208_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "公比是 −1 的等比数列，相邻两项怎样？\nA. 互为相反数\nB. 始终相等\nC. 每一项都是 0\nD. 公差是 −1",
+    "answer": "A. 互为相反数",
+    "solution": "乘 −1 后变号，所以相邻两项互为相反数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的通项",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h208_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "2 和 8 的正等比中项是多少？",
+    "answer": "4",
+    "solution": "G²=16，取正数 G=4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比中项",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h209_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "正数 3 和 12 的等比中项是多少？",
+    "answer": "6",
+    "solution": "G²=36，G=6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比中项",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h209_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个正数的等比中项满足什么？\nA. 平方等于这两个数的积\nB. 二倍等于这两个数的和\nC. 等于这两个数的差\nD. 等于这两个数的和",
+    "answer": "A. 平方等于这两个数的积",
+    "solution": "G²=ab。二倍等于两端之和的是等差中项。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比中项",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h209_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "三个正数 4，k，16 成等比数列。k 等于多少？",
+    "answer": "8",
+    "solution": "k²=64，k=8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比中项",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h209_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等比数列 a_1=2，q=3。前 4 项和是多少？",
+    "answer": "80",
+    "solution": "S_4=2×(81−1)/2=80。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的前 n 项和",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h210_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等比数列 a_1=5，q=1。前 4 项和是多少？",
+    "answer": "20",
+    "solution": "公比是 1 时每项都是 5，和是 20。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的前 n 项和",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h210_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等比数列 a_1=1，q=2。前 5 项和是多少？",
+    "answer": "31",
+    "solution": "S_5=1×(32−1)/1=31。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的前 n 项和",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h210_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "公比 q=1 时，为什么不能直接用 S_n=a1(q^n−1)/(q−1)？\nA. 公比等于 1 的数列不存在\nB. 首项必须是 0\nC. 分母是 0\nD. 项数必须是无穷",
+    "answer": "C. 分母是 0",
+    "solution": "q−1=0，公式的分母没有意义，要改用 S_n=na1。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的前 n 项和",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h210_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a_n=3×2^(n−1)。公比是多少？",
+    "answer": "2",
+    "solution": "每一项乘 2 得到下一项，公比是 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列与指数函数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h211_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "a_n=3×2^(n−1)。a_1 等于多少？",
+    "answer": "3",
+    "solution": "2^0=1，首项是 3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列与指数函数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h211_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "等比数列的项和指数函数 y=a1·q^(x−1) 相比，主要差别是？\nA. 数列的底数必须是负数\nB. 指数函数不能取正值\nC. 数列的自变量只取正整数\nD. 两者完全没有关系",
+    "answer": "C. 数列的自变量只取正整数",
+    "solution": "通项公式的形状一样，但 n 只取正整数，图象是孤立的点。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列与指数函数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h211_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "公比是 4、首项是 1 的等比数列，a_3 等于多少？",
+    "answer": "16",
+    "solution": "a_3=4²=16。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列与指数函数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h211_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一种细菌每小时数量变为原来的 2 倍，开始有 3 个。3 小时后有多少个？",
+    "answer": "24",
+    "solution": "经过 3 次加倍，3×2³=24。若把开始记为第 1 项，3 小时后是第 4 项。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的应用",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h212_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "存款每年变为原来的 2 倍，第 1 年末是 100 元。第 3 年末是多少元？",
+    "answer": "400",
+    "solution": "从第 1 年末到第 3 年末乘了两次 2，得 400。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的应用",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h212_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "纸每次对折，层数变为 2 倍。对折 1 次是 2 层。对折 4 次是多少层？",
+    "answer": "16",
+    "solution": "对折 4 次是 16 层。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的应用",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h212_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每年都乘同一个增长率，这类问题适合用什么模型？\nA. 等比数列\nB. 公差不为 0 的等差数列\nC. 只用来平均数\nD. 一次函数的斜率",
+    "answer": "A. 等比数列",
+    "solution": "相邻两项的比固定，是等比数列。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "等比数列的应用",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h212_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数学归纳法的第一步通常做什么？\nA. 直接假设对所有正整数都成立\nB. 先求导数\nC. 验证起始的正整数成立\nD. 先画图而不验证",
+    "answer": "C. 验证起始的正整数成立",
+    "solution": "要先确认起点，例如 n=1 时命题成立。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "数学归纳法的原理",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h213_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "第二步要证明的是什么？\nA. 若 n=k 时成立，则 n=1 时成立\nB. 只验证 n=2 和 n=3\nC. 证明公差为 0\nD. 若 n=k 时成立，则 n=k+1 时也成立",
+    "answer": "D. 若 n=k 时成立，则 n=k+1 时也成立",
+    "solution": "这一步是从任意一个成立的 k 推到下一项。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "数学归纳法的原理",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h213_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用归纳法证明前 n 个正奇数的和是 n²。n=1 时，这个和是多少？",
+    "answer": "1",
+    "solution": "第一个正奇数是 1，1²=1，起点成立。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "数学归纳法的原理",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h213_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "只算出 n=1、2、3、4 都成立，能不能代替数学归纳法？\nA. 能，四个例子就够了\nB. 不能，有限个例子不是证明\nC. 能，只要都是正数\nD. 不能，因为归纳法不许验证起点",
+    "answer": "B. 不能，有限个例子不是证明",
+    "solution": "归纳法要用递推把起点以后的所有正整数都盖住，不能只抽查几项。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "数学归纳法的原理",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h213_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "前 n 个正整数的和是 n(n+1)/2。n=5 时，这个和是多少？",
+    "answer": "15",
+    "solution": "公式给出 15。直接相加 1+2+3+4+5 也是 15。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用数学归纳法证明简单命题",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h214_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "命题「n²+n 是偶数」。n=4 时，n²+n 等于多少？",
+    "answer": "20",
+    "solution": "16+4=20，确实是偶数。归纳证明还要再写从 k 到 k+1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用数学归纳法证明简单命题",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h214_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "归纳步骤里，哪一句可以直接当作已知？\nA. n=k+1 时命题已经成立\nB. n=k 时命题成立\nC. 对所有实数都成立\nD. 公差是 1",
+    "answer": "B. n=k 时命题成立",
+    "solution": "这就是归纳假设。目标是推出 n=k+1。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用数学归纳法证明简单命题",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h214_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "前 n 个正奇数的和是 n²。n=6 时，和是多少？",
+    "answer": "36",
+    "solution": "6²=36。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用数学归纳法证明简单命题",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h214_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x²。从 x=1 到 x=3 的平均变化率是多少？",
+    "answer": "4",
+    "solution": "(9−1)/(3−1)=4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "平均变化率",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h215_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=2x+1。从 x=0 到 x=4 的平均变化率是多少？",
+    "answer": "2",
+    "solution": "一次函数的平均变化率就是斜率 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "平均变化率",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h215_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "路程从 t=0 的 0 米变为 t=5 的 20 米。平均速度是多少？",
+    "answer": "4",
+    "solution": "20/5=4，单位是米每秒。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "平均变化率",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h215_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "平均变化率对应函数图象上的哪一条线的斜率？\nA. 过其中一点的切线\nB. 垂直于 x 轴的直线\nC. 渐近线\nD. 两个端点的割线",
+    "answer": "D. 两个端点的割线",
+    "solution": "割线连接区间两端的图象点，它的斜率就是平均变化率。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "平均变化率",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h215_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x²。从 2 到 2.5 的平均变化率是多少？",
+    "answer": "9/2",
+    "solution": "f(2.5)=6.25，f(2)=4，增量 2.25，除以 0.5 得 4.5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "瞬时变化率与极限思想",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h216_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x²。从 2 到 2 的右邻点若增量为 0 的极限意义下，瞬时变化率等于 f 在 2 处的导数。2x 在 x=2 的值是多少？",
+    "answer": "4",
+    "solution": "x² 的导数是 2x，在 x=2 处是 4。平均变化率会随着增量变小而靠近 4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "瞬时变化率与极限思想",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h216_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "瞬时变化率是怎样得到的？\nA. 任意一个平均变化率\nB. 函数值本身\nC. 定义域的长度\nD. 平均变化率在增量趋于 0 时的极限",
+    "answer": "D. 平均变化率在增量趋于 0 时的极限",
+    "solution": "先算平均变化率，再让区间长度趋于 0。这就是导数里的极限思想。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "瞬时变化率与极限思想",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h216_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x² 在 x=1 附近，增量 h=1 时平均变化率是多少？",
+    "answer": "3",
+    "solution": "(4−1)/1=3。h 再变小，结果会靠近导数 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "瞬时变化率与极限思想",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h216_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x²，则 f'(x)=2x。f'(3) 等于多少？",
+    "answer": "6",
+    "solution": "把 x=3 代入导函数，得 6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数的概念",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h217_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x³，则 f'(x)=3x²。f'(2) 等于多少？",
+    "answer": "12",
+    "solution": "3×4=12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数的概念",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h217_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "导数 f'(x) 是什么？\nA. 关于自变量的一个函数\nB. 一个与 x 无关的固定线段\nC. 函数的定义域\nD. 函数图象本身",
+    "answer": "A. 关于自变量的一个函数",
+    "solution": "每一点可以有一个导数值，这些值又组成导函数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数的概念",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h217_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "常函数 f(x)=5 的导数是 0。f'(4) 等于多少？",
+    "answer": "0",
+    "solution": "常函数没有变化，任意一点的导数都是 0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数的概念",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h217_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f'(x)=3x²−3。f'(2) 等于多少？",
+    "answer": "9",
+    "solution": "3×4−3=9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导函数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h218_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f'(x)=4x。f'(0) 等于多少？",
+    "answer": "0",
+    "solution": "4×0=0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导函数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h218_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x² 与 f'(x)=2x 的关系是？\nA. 两个函数是同一个函数\nB. 2x 是 x² 的导函数\nC. 2x 是 x² 的定义域\nD. 2x 是 x² 的图象",
+    "answer": "B. 2x 是 x² 的导函数",
+    "solution": "导函数由原函数求得，一般是另一个函数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导函数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h218_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f'(x)=−2x+4。f'(1) 等于多少？",
+    "answer": "2",
+    "solution": "−2+4=2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导函数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h218_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "曲线 y=x² 在 x=1 处的导数是 2。切线斜率是多少？",
+    "answer": "2",
+    "solution": "导数就是切线斜率，所以斜率是 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数的几何意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h219_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f'(x0)>0 时，曲线在对应点的切线怎样？\nA. 从左到右下降\nB. 从左到右上升\nC. 垂直于 x 轴\nD. 与曲线没有交点",
+    "answer": "B. 从左到右上升",
+    "solution": "斜率为正，切线上升。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数的几何意义",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h219_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f'(x)=2x。曲线在 x=−1 处的切线斜率是多少？",
+    "answer": "-2",
+    "solution": "斜率是 −2，切线下降。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数的几何意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h219_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "导数不存在，可能对应切线的什么情况？\nA. 切线斜率一定是 0\nB. 曲线一定没有定义\nC. 切线一定经过原点\nD. 切线垂直于 x 轴，斜率不存在",
+    "answer": "D. 切线垂直于 x 轴，斜率不存在",
+    "solution": "例如尖点或铅直切线。斜率不存在时，不能把导数写成一个实数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数的几何意义",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h219_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "曲线 y=x² 在点 (1，1) 处的切线斜率是 2。切线在 y 轴上的截距是多少？",
+    "answer": "-1",
+    "solution": "y−1=2(x−1)。x=0 时 y=−1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "切线方程",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h220_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "曲线 y=x² 在 x=0 处的切线斜率是多少？",
+    "answer": "0",
+    "solution": "导数 2x 在 0 处是 0，切线是水平的 y=0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "切线方程",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h220_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x³，f'(x)=3x²。x=1 时切线斜率是多少？",
+    "answer": "3",
+    "solution": "3×1=3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "切线方程",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h220_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "写切线方程时，点斜式里的点必须用什么？\nA. 切点\nB. 原点，不论切点在哪里\nC. 与曲线无关的任意点\nD. 焦点",
+    "answer": "A. 切点",
+    "solution": "切线过切点，斜率是该点的导数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "切线方程",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h220_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x³ 的导函数在 x=2 的值是多少？",
+    "answer": "12",
+    "solution": "(x³)'=3x²，在 x=2 处是 12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "基本初等函数的导数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h221_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x^4。f'(1) 等于多少？",
+    "answer": "4",
+    "solution": "4x³ 在 x=1 处是 4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "基本初等函数的导数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h221_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=7。f'(5) 等于多少？",
+    "answer": "0",
+    "solution": "常数的导数是 0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "基本初等函数的导数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h221_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(x²)' 等于哪一个函数？\nA. x²\nB. 2x\nC. 2\nD. x",
+    "answer": "B. 2x",
+    "solution": "幂的指数放到前面，指数再减 1：2x。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "基本初等函数的导数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h221_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x²+3x。f'(1) 等于多少？",
+    "answer": "5",
+    "solution": "f'(x)=2x+3，在 x=1 处是 5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数的四则运算",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h222_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=4x³−x。f'(1) 等于多少？",
+    "answer": "11",
+    "solution": "f'(x)=12x²−1，在 x=1 处是 11。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数的四则运算",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h222_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=5x²。f'(2) 等于多少？",
+    "answer": "20",
+    "solution": "(5x²)'=10x，在 x=2 处是 20。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数的四则运算",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h222_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "和的导数等于什么？\nA. 导数的积\nB. 导数的商\nC. 导数的和\nD. 原来两个函数的积",
+    "answer": "C. 导数的和",
+    "solution": "(u+v)'=u'+v'。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数的四则运算",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h222_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "y=(2x+1)²。在 x=1 处的导数是多少？",
+    "answer": "12",
+    "solution": "外层 2(2x+1)，再乘内层导数 2。x=1 时是 2×3×2=12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "简单复合函数的导数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h223_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "y=(3x−1)²。在 x=1 处的导数是多少？",
+    "answer": "12",
+    "solution": "2×2×3=12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "简单复合函数的导数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h223_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x²，y=f(2x)。y 在 x=1 处的导数是多少？",
+    "answer": "8",
+    "solution": "(x²)' 在 2x 处是 2×(2x)，再乘 2。x=1 时是 8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "简单复合函数的导数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h223_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "求 (ax+b) 的平方的导数时，最后还要乘上什么？\nA. 一定乘 0\nB. 一定除以 a\nC. 不用再乘\nD. 内层的系数 a",
+    "answer": "D. 内层的系数 a",
+    "solution": "复合函数求导要把内层导数乘上去，这里内层导数是 a。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "简单复合函数的导数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h223_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x²，f'(x)=2x。f'(−1) 等于多少？",
+    "answer": "-2",
+    "solution": "−2<0，所以 x² 在 x=−1 附近是递减的。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数与单调性",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h224_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在一个开区间上恒有 f'(x)>0，函数在这个区间上怎样？\nA. 递减\nB. 是常函数\nC. 递增\nD. 没有单调性",
+    "answer": "C. 递增",
+    "solution": "导数为正，函数值随自变量增大而增大。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数与单调性",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h224_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f'(x)=−2x。f'(3) 等于多少？",
+    "answer": "-6",
+    "solution": "−6<0，函数在 x=3 附近递减。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数与单调性",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h224_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f'(x) 在区间上为负，函数图象从左到右怎样？\nA. 下降\nB. 上升\nC. 保持水平\nD. 变成圆",
+    "answer": "A. 下降",
+    "solution": "导数为负对应递减，图象下降。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "导数与单调性",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h224_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x²−4x。f'(x)=0 时，x 等于多少？",
+    "answer": "2",
+    "solution": "f'(x)=2x−4=0，x=2。左边递减，右边递增。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用导数求单调区间",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h225_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x³−3x。f'(1) 等于多少？",
+    "answer": "0",
+    "solution": "f'(x)=3x²−3=3(x²−1)，在 x=1 处是 0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用导数求单调区间",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h225_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x³−3x。f'(2) 等于多少？",
+    "answer": "9",
+    "solution": "3×4−3=9>0，所以在 x=2 附近递增。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用导数求单调区间",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h225_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f'(x)=2x−4。f'(x)>0 的解是？\nA. x<2\nB. x>2\nC. x=2\nD. 任意实数",
+    "answer": "B. x>2",
+    "solution": "2x−4>0，得 x>2，这就是递增区间。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用导数求单调区间",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h225_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x²−4x+1。可能的极值点横坐标是多少？",
+    "answer": "2",
+    "solution": "f'(x)=2x−4=0，x=2。左侧导数为负、右侧为正，是极小值点。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "极值的条件",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h226_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x²−4x+1 在 x=2 处的函数值是多少？",
+    "answer": "-3",
+    "solution": "4−8+1=−3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "极值的条件",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h226_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "可导函数在极值点处，导数通常怎样？\nA. 一定大于 0\nB. 等于 0\nC. 一定小于 0\nD. 一定不存在",
+    "answer": "B. 等于 0",
+    "solution": "极值的必要条件是导数为 0。反过来，导数为 0 不一定是极值，还要看两侧是否变号。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "极值的条件",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h226_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "左侧导数为正、右侧导数为负的点是？\nA. 极小值点\nB. 一定不是极值\nC. 极大值点\nD. 间断点",
+    "answer": "C. 极大值点",
+    "solution": "函数先增后减，这个点是极大值点。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "极值的条件",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h226_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x²−2x 在 [0，3] 上的最大值是多少？",
+    "answer": "3",
+    "solution": "f'(x)=2x−2，驻点 x=1。f(0)=0，f(1)=−1，f(3)=3，最大值是 3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "闭区间上的最值",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h227_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x²−2x 在 [0，3] 上的最小值是多少？",
+    "answer": "-1",
+    "solution": "三个候选值是 0、−1、3，最小值是 −1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "闭区间上的最值",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h227_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=−x²+4 在 [−1，1] 上，端点 x=1 的函数值是多少？",
+    "answer": "3",
+    "solution": "−1+4=3。顶点 x=0 的函数值是 4，更大。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "闭区间上的最值",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h227_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "闭区间上求最值，除了导数为 0 的点，还要比较什么？\nA. 只比较原点\nB. 只比较导数为 1 的点\nC. 不用再比较\nD. 区间的两个端点",
+    "answer": "D. 区间的两个端点",
+    "solution": "最值可能出现在端点，不能只看驻点。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "闭区间上的最值",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h227_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "矩形周长是 20。当长和宽相等时面积最大。这个最大面积是多少？",
+    "answer": "25",
+    "solution": "正方形边长是 5，面积是 25。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用导数解决优化问题",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h228_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "矩形周长是 20，一边长 x，另一边长 10−x。面积 S=x(10−x)。S'(x)=0 时 x 等于多少？",
+    "answer": "5",
+    "solution": "S=10x−x²，S'=10−2x=0，x=5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用导数解决优化问题",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h228_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一边靠墙，另外三边总长 24 米围矩形。垂直于墙的边长是 x，平行于墙的边长是 24−2x。面积最大时 x 等于多少？",
+    "answer": "6",
+    "solution": "S=x(24−2x)=24x−2x²，S'=24−4x=0，x=6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用导数解决优化问题",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h228_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用导数做优化，最后一步要做什么？\nA. 比较驻点和定义域端点的函数值\nB. 只把导数设为 1\nC. 只看定义域的长度\nD. 把函数换成它的导数后不再计算",
+    "answer": "A. 比较驻点和定义域端点的函数值",
+    "solution": "实际问题的最值要落在允许的范围内，驻点还要检验是不是最大或最小。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用导数解决优化问题",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h228_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x³−3x+1。f'(0) 等于多少？",
+    "answer": "-3",
+    "solution": "f'(x)=3x²−3，在 0 处是 −3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "不超过三次的多项式函数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h229_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=x³−3x。f'(x)=0 时，正的那个 x 是多少？",
+    "answer": "1",
+    "solution": "3x²−3=0，x²=1，正根是 1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "不超过三次的多项式函数",
+      "数与代数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h229_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "f(x)=2x³。f'(1) 等于多少？",
+    "answer": "6",
+    "solution": "(2x³)'=6x²，在 x=1 处是 6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "不超过三次的多项式函数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h229_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "三次多项式的导函数是几次多项式？\nA. 三次\nB. 二次\nC. 一次\nD. 常数",
+    "answer": "B. 二次",
+    "solution": "求导后次数降 1，三次变成二次。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "不超过三次的多项式函数",
+      "数与代数"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h229_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从甲地到乙地，汽车有 3 班，火车有 2 班，两类不能同时乘坐。一共有多少种走法？",
+    "answer": "5",
+    "solution": "两类互斥，办法数相加：3+2=5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分类加法计数原理",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h230_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "书架上有数学书 4 本、语文书 5 本。只取 1 本，有多少种取法？",
+    "answer": "9",
+    "solution": "取数学书或取语文书，两类相加得 9。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分类加法计数原理",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h230_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "分类加法计数原理适用于哪种情形？\nA. 必须把每一类都做一遍\nB. 若干类办法互斥，完成这件事只要选用其中一类\nC. 每一步都要接着做下一步\nD. 办法可以同时属于两类还要相加",
+    "answer": "B. 若干类办法互斥，完成这件事只要选用其中一类",
+    "solution": "分类时各类互斥，做完其中一类就算完成。重叠时不能直接相加。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分类加法计数原理",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h230_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "报名唱歌的有 6 人，报名跳舞的有 4 人，没有人两项都报。报名的一共有多少人？",
+    "answer": "10",
+    "solution": "两类没有交集，6+4=10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分类加法计数原理",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h230_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "有 3 件上衣、4 条裤子。上衣和裤子各选 1 件，有多少种搭配？",
+    "answer": "12",
+    "solution": "先选上衣再选裤子，3×4=12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分步乘法计数原理",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h231_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从 A 到 B 有 2 条路，从 B 到 C 有 3 条路。从 A 经过 B 到 C，有多少种走法？",
+    "answer": "6",
+    "solution": "两步相乘：2×3=6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分步乘法计数原理",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h231_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "分步乘法计数原理适用于哪种情形？\nA. 只要完成其中一步即可\nB. 各步的办法数应该相加\nC. 必须依次完成每一步，事情才算完成\nD. 各步可以颠倒成互斥的类别",
+    "answer": "C. 必须依次完成每一步，事情才算完成",
+    "solution": "分步时每一步都要做。总办法数是各步办法数的乘积。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分步乘法计数原理",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h231_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个三位密码，每一位都可以是 0 到 9 这 10 个数字，允许重复。一共有多少个密码？",
+    "answer": "1000",
+    "solution": "三位各自独立选取，10×10×10=1000。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分步乘法计数原理",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h231_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从 3 名男生和 2 名女生中选 1 人做代表，再从 4 本笔记本中选 1 本发给代表。一共有多少种做法？",
+    "answer": "20",
+    "solution": "选人是分类相加，得到 5；再选笔记本是下一步，5×4=20。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分类与分步综合计数",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h232_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "去北京可以坐 2 班飞机或 3 班高铁，到达后从 4 家旅馆中选 1 家。一共有多少种安排？",
+    "answer": "20",
+    "solution": "交通方式相加得 5，再乘旅馆数 4，得 20。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分类与分步综合计数",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h232_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "先选交通方式、再选旅馆，交通方式有飞机和高铁两类。计数时应怎样做？\nA. 把交通方式和旅馆的数目全部相加\nB. 只计算旅馆的数目\nC. 把飞机班次和高铁班次相乘后再加旅馆\nD. 交通方式的数目相加，再与旅馆的数目相乘",
+    "answer": "D. 交通方式的数目相加，再与旅馆的数目相乘",
+    "solution": "交通方式互斥，用加法；选完交通还要选旅馆，用乘法。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分类与分步综合计数",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h232_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "早餐有 2 种，午餐有 3 种。早餐和午餐各选 1 种，有多少种搭配？",
+    "answer": "6",
+    "solution": "两步都要完成，2×3=6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分类与分步综合计数",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h232_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面哪一项是排列？\nA. 从 4 名同学中选 2 名组成一组，不计顺序\nB. 把 4 本书并成一堆，不区分左右\nC. 从 4 名同学中选 2 名排成先后顺序\nD. 只关心选出了哪些人",
+    "answer": "C. 从 4 名同学中选 2 名排成先后顺序",
+    "solution": "排列要排成顺序。只分组、不计顺序，是组合。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "排列的概念",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h233_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从 4 个不同元素中取出 2 个排成一列。有多少种排法？",
+    "answer": "12",
+    "solution": "先选第一个有 4 种，再选第二个有 3 种，4×3=12。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "排列的概念",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h233_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "字母 A、B、C 都不相同，把它们全部排成一列。有多少种排法？",
+    "answer": "6",
+    "solution": "3×2×1=6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "排列的概念",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h233_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个排列相同，需要满足什么？\nA. 只要取出的元素相同\nB. 取出的元素相同，而且顺序也相同\nC. 只要元素个数相同\nD. 只要第一个位置相同",
+    "answer": "B. 取出的元素相同，而且顺序也相同",
+    "solution": "排列既看元素，也看每个位置上是谁。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "排列的概念",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h233_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A(6,2) 等于多少？",
+    "answer": "30",
+    "solution": "6×5=30。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "排列数公式",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h234_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A(5,1) 等于多少？",
+    "answer": "5",
+    "solution": "只取 1 个，有 5 种。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "排列数公式",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h234_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A(4,4) 等于多少？",
+    "answer": "24",
+    "solution": "4 个元素全排列：4×3×2×1=24。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "排列数公式",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h234_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A(n,k) 的一种写法是什么？\nA. n 的阶乘乘以 k 的阶乘\nB. k 的阶乘除以 n 的阶乘\nC. n 的阶乘除以 (n−k) 的阶乘\nD. n 与 k 的和",
+    "answer": "C. n 的阶乘除以 (n−k) 的阶乘",
+    "solution": "A(n,k)=n!/(n−k)!，其中 k 不能大于 n。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "排列数公式",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h234_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "5 名同学站成一排拍照，每人都要站。有多少种站法？",
+    "answer": "120",
+    "solution": "5 人全排列：5×4×3×2×1=120。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "排列的简单应用",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h235_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "7 本不同的书分给甲、乙、丙三人，每人 1 本。有多少种分法？",
+    "answer": "210",
+    "solution": "人不同，书的分配有顺序，A(7,3)=7×6×5=210。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "排列的简单应用",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h235_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用数字 1、2、3、4，每个数字最多用一次，能组成多少个三位数？",
+    "answer": "24",
+    "solution": "百位、十位、个位是排列，A(4,3)=24。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "排列的简单应用",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h235_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把 3 本不同的书分给 3 个不同的人，每人 1 本。这是哪一种计数？\nA. 从 3 本里选 1 本的组合\nB. 把 3 本书的数目相加\nC. 不计谁拿到哪一本\nD. 3 个元素的全排列",
+    "answer": "D. 3 个元素的全排列",
+    "solution": "人不同，谁拿哪一本要区分，所以是全排列。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "排列的简单应用",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h235_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下面哪一项是组合？\nA. 从 4 名同学中选 2 名排成一队\nB. 从 4 名同学中选 2 名参加会议，不计先后\nC. 用 3 个不同数字组成三位数\nD. 5 个人站成前后不同的一排",
+    "answer": "B. 从 4 名同学中选 2 名参加会议，不计先后",
+    "solution": "组合只关心选了哪些人，不排列顺序。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合的概念",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h236_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从 4 个不同元素中取出 2 个，不计顺序。有多少种取法？",
+    "answer": "6",
+    "solution": "有顺序时是 12 种，去掉顺序后每种组合对应 2 种排列，12/2=6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合的概念",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h236_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从 5 名同学中选 2 名值日，不计谁先谁后。有多少种选法？",
+    "answer": "10",
+    "solution": "C(5,2)=10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合的概念",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h236_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一组元素如果只是交换顺序，作为组合应当怎样算？\nA. 仍然是同一种组合\nB. 变成另一种组合\nC. 变成排列数的阶乘\nD. 不能再称为组合",
+    "answer": "A. 仍然是同一种组合",
+    "solution": "组合不区分顺序。交换顺序不产生新的组合。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合的概念",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h236_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "C(6,2) 等于多少？",
+    "answer": "15",
+    "solution": "6×5/2=15。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合数公式",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h237_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "C(5,0) 等于多少？",
+    "answer": "1",
+    "solution": "一个都不取，只有 1 种空的取法。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合数公式",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h237_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "C(10,3) 等于多少？",
+    "answer": "120",
+    "solution": "10×9×8/(3×2×1)=120。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合数公式",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h237_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "C(n,k) 和 A(n,k) 的关系是什么？\nA. 组合数等于排列数乘以 k\nB. 组合数等于排列数除以 k 的阶乘\nC. 组合数等于 n 的阶乘\nD. 两者总是相等",
+    "answer": "B. 组合数等于排列数除以 k 的阶乘",
+    "solution": "每种组合内部还有 k! 种排列，所以 C(n,k)=A(n,k)/k!。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合数公式",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h237_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知 C(8,3)=C(8,5)。C(8,5) 等于多少？",
+    "answer": "56",
+    "solution": "C(8,5)=C(8,3)=56。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合数的性质",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h238_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "C(6,2)+C(6,3) 等于多少？",
+    "answer": "35",
+    "solution": "15+20=35，也等于 C(7,3)。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合数的性质",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h238_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "C(n,k) 等于下面哪一个？\nA. C(k,n)\nB. C(n,n−k)\nC. C(n,k)+n\nD. A(n,n−k)",
+    "answer": "B. C(n,n−k)",
+    "solution": "取出 k 个和留下 k 个是同一件事的两面，所以 C(n,k)=C(n,n−k)。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合数的性质",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h238_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "C(5,1)+C(5,2) 等于多少？",
+    "answer": "15",
+    "solution": "5+10=15。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合数的性质",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h238_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从 6 名同学中选 3 人参加活动，不计顺序。有多少种选法？",
+    "answer": "20",
+    "solution": "C(6,3)=20。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合的简单应用",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h239_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "5 名男生、4 名女生中，选 2 名男生和 1 名女生。有多少种选法？",
+    "answer": "40",
+    "solution": "男生 C(5,2)=10，女生 C(4,1)=4，相乘得 40。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合的简单应用",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h239_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "10 件产品里有 2 件次品。抽 3 件，恰有 1 件次品的抽法有多少种？",
+    "answer": "56",
+    "solution": "次品里选 1 件有 2 种，合格品里选 2 件有 28 种，2×28=56。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合的简单应用",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h239_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "从 8 人中选 3 人组成小组，不设职务。应该用什么？\nA. 排列数 A(8,3)\nB. 8+3\nC. 8 的阶乘\nD. 组合数 C(8,3)",
+    "answer": "D. 组合数 C(8,3)",
+    "solution": "小组内部不计顺序，也不设不同职务，所以用组合。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "组合的简单应用",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h239_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(1+x)^3 的展开式中，x² 的系数是多少？",
+    "answer": "3",
+    "solution": "对应 k=2 的二项式系数 C(3,2)=3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项式定理",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h240_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(a+b)^4 的展开式一共有多少项？",
+    "answer": "5",
+    "solution": "k 从 0 到 4，共 5 项。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项式定理",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h240_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "二项式定理展开 (a+b)^n，一般项是什么？\nA. a 的 n 次方加上 b 的 n 次方\nB. n 乘以 a 乘以 b\nC. 只有 a 的 n 次方和 b 的 n 次方两项\nD. C(n,k) 乘以 a 的 (n−k) 次方再乘以 b 的 k 次方",
+    "answer": "D. C(n,k) 乘以 a 的 (n−k) 次方再乘以 b 的 k 次方",
+    "solution": "每一项都带一个组合数，a、b 的指数之和是 n。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项式定理",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h240_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(a+b)^2 展开后，ab 的系数是多少？",
+    "answer": "2",
+    "solution": "(a+b)^2=a²+2ab+b²，ab 的系数是 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项式定理",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h240_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(a+b)^5 按 a 的降幂排列，第 3 项的二项式系数是多少？",
+    "answer": "10",
+    "solution": "第 3 项对应 k=2，C(5,2)=10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项展开式的指定项",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h241_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(2x+1)^4 的展开式中，x² 的系数是多少？",
+    "answer": "24",
+    "solution": "x 的指数为 2 时，(2x) 的指数是 2，k=2。C(4,2)×2²=6×4=24。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项展开式的指定项",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h241_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(x+1)^6 的展开式中，常数项是多少？",
+    "answer": "1",
+    "solution": "常数项不含 x，即 x 的指数为 0，系数 C(6,6)=1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项展开式的指定项",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h241_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "通项 T_(k+1) 里，a 和 b 的指数有什么关系？\nA. 两个指数都等于 k\nB. 两个指数相加等于 n\nC. 两个指数相乘等于 n\nD. 两个指数相加等于 k",
+    "answer": "B. 两个指数相加等于 n",
+    "solution": "a 的指数是 n−k，b 的指数是 k，和为 n。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项展开式的指定项",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h241_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(a+b)^4 的全部二项式系数之和是多少？",
+    "answer": "16",
+    "solution": "令 a=b=1，左边是 2^4=16。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项式系数的和",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h242_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "(a+b)^6 的全部二项式系数之和是多少？",
+    "answer": "64",
+    "solution": "2^6=64。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项式系数的和",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h242_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把 (1+1)^n 展开，左边等于什么？\nA. n 的阶乘\nB. 2 的 n 次方\nC. n\nD. 0",
+    "answer": "B. 2 的 n 次方",
+    "solution": "(1+1)^n=2^n，右边正好是全部二项式系数的和。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项式系数的和",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h242_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "C(4,0)+C(4,1)+C(4,2)+C(4,3)+C(4,4) 等于多少？",
+    "answer": "16",
+    "solution": "这是 (a+b)^4 的系数和，等于 16。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项式系数的和",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h242_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把 (a+b)^n 的二项式系数排成一行，n 从 0 开始。n=5 这一行、从左数第 3 个数（对应 k=2）是多少？",
+    "answer": "10",
+    "solution": "这个位置是 C(5,2)=10。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "杨辉三角的性质",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h243_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "n=4 这一行所有数相加，和是多少？",
+    "answer": "16",
+    "solution": "二项式系数之和是 2^4=16。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "杨辉三角的性质",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h243_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "杨辉三角中，C(5,1)+C(5,2) 等于下一行的哪一个组合数的值？先算出这个和。",
+    "answer": "15",
+    "solution": "C(6,2)=C(5,1)+C(5,2)=5+10=15。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "杨辉三角的性质",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h243_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "杨辉三角和二项式定理是什么关系？\nA. 每一行都是自然数 1、2、3 的依次排列\nB. 它只用来计算等差数列的和\nC. 它与组合数没有关系\nD. 每一行就是一次二项式展开的系数",
+    "answer": "D. 每一行就是一次二项式展开的系数",
+    "solution": "第 n 行（从 0 数）正是 (a+b)^n 的二项式系数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "杨辉三角的性质",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h243_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "袋中有 5 个红球、3 个蓝球。已经取出 1 个红球并且不放回。再取 1 个球，取到红球的概率是多少？",
+    "answer": "1/2",
+    "solution": "剩下 4 个红球、3 个蓝球，共 8 个。取到红球的概率是 4/8=1/2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "条件概率",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h244_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "掷一枚均匀骰子，已知点数是偶数。在这个条件下，点数大于 3 的概率是多少？",
+    "answer": "2/3",
+    "solution": "偶数结果是 2、4、6。其中大于 3 的是 4 和 6，概率是 2/3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "条件概率",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h244_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "P(A|B) 的定义是什么？\nA. P(A) 除以 P(B)\nB. P(A) 加上 P(B)\nC. P(A) 乘以 P(B) 之后再加 1\nD. P(A 与 B 同时发生) 除以 P(B)",
+    "answer": "D. P(A 与 B 同时发生) 除以 P(B)",
+    "solution": "条件概率把样本空间缩小到 B 已经发生的部分。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "条件概率",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h244_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一次试验有 8 个等可能结果。事件 B 含 4 个结果，A 与 B 的公共结果有 1 个。P(A|B) 是多少？",
+    "answer": "1/4",
+    "solution": "在 B 的 4 个结果里，属于 A 的有 1 个，概率是 1/4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "条件概率",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h244_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "P(A)=1/2，P(B|A)=1/3。P(A 与 B 同时发生) 是多少？",
+    "answer": "1/6",
+    "solution": "乘法公式：1/2×1/3=1/6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "概率的乘法公式",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h245_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "袋中 5 个红球、5 个蓝球，共 10 个。不放回地依次抽 2 个。先红后蓝的概率是多少？",
+    "answer": "5/18",
+    "solution": "第一次红是 5/10，第二次蓝是 5/9，相乘得 5/18。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "概率的乘法公式",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h245_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "乘法公式 P(A∩B)=P(A)P(B|A) 里，第二个因数是什么？\nA. 在 A 已经发生的条件下 B 的概率\nB. B 的对立事件的概率\nC. A 与 B 的和\nD. 样本点的个数",
+    "answer": "A. 在 A 已经发生的条件下 B 的概率",
+    "solution": "先发生 A，再在这个条件下看 B。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "概率的乘法公式",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h245_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每次试验成功的概率都是 1/2，两次试验互不影响。两次都成功的概率是多少？",
+    "answer": "1/4",
+    "solution": "第二次在第一次成功的条件下仍是 1/2，相乘得 1/4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "概率的乘法公式",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h245_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲箱有 2 个红球、1 个白球，乙箱有 1 个红球、2 个白球。等可能地先选一箱，再从该箱抽 1 球。抽到红球的概率是多少？",
+    "answer": "1/2",
+    "solution": "选甲再抽红是 1/3，选乙再抽红是 1/6，相加得 1/2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "全概率公式",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h246_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "机器 A 生产全部产品的 3/5，次品率 1/10；机器 B 生产 2/5，次品率 1/5。任取 1 件是次品的概率是多少？",
+    "answer": "7/50",
+    "solution": "3/50+4/50=7/50。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "全概率公式",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h246_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "使用全概率公式时，那些原因应当满足什么？\nA. 可以互相重叠\nB. 互斥，并且并起来是全部可能\nC. 每个原因的概率都必须相等\nD. 只能有一个原因",
+    "answer": "B. 互斥，并且并起来是全部可能",
+    "solution": "先把情况分成没有重叠、又没有遗漏的几类，再加权相加。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "全概率公式",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h246_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "三条通道被选中的概率分别是 1/2、1/3、1/6，通过率分别是 1、1/2、0。总的通过概率是多少？",
+    "answer": "2/3",
+    "solution": "1/2+1/6+0=2/3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "全概率公式",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h246_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "机器 A 生产 3/5，次品率 1/10；机器 B 生产 2/5，次品率 1/5。已知取出的 1 件是次品，它来自 A 的概率是多少？",
+    "answer": "3/7",
+    "solution": "分子是 3/50，分母是 7/50，结果是 3/7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "贝叶斯公式",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h247_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲箱红球概率 2/3，乙箱红球概率 1/3，两箱等可能。已知抽到红球，它来自甲箱的概率是多少？",
+    "answer": "2/3",
+    "solution": "分子 1/3，分母 1/2，结果是 2/3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "贝叶斯公式",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h247_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "贝叶斯公式主要用来做什么？\nA. 只计算原因发生之前的概率\nB. 把所有概率都加到大于 1\nC. 在结果已经发生后，计算它来自某个原因的概率\nD. 代替排列数公式",
+    "answer": "C. 在结果已经发生后，计算它来自某个原因的概率",
+    "solution": "它把条件概率的方向倒过来：由结果推原因。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "贝叶斯公式",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h247_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "P(D)=1/5，P(阳性|D)=4/5，P(阳性|不是 D)=1/5，且不是 D 的概率是 4/5。已知阳性，真有 D 的概率是多少？",
+    "answer": "1/2",
+    "solution": "分子和另一部分都是 4/25，条件概率是 1/2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "贝叶斯公式",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h247_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A 与 B 相互独立，P(B)=1/3。P(B|A) 是多少？",
+    "answer": "1/3",
+    "solution": "独立时，条件概率等于事件自己的概率，仍是 1/3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "条件概率与独立性",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h248_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A 与 B 相互独立，P(A)=1/2，P(B)=1/4。P(A 与 B 同时发生) 是多少？",
+    "answer": "1/8",
+    "solution": "独立时可以相乘：1/8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "条件概率与独立性",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h248_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "相互独立的两个事件，条件概率有什么特点？\nA. P(B|A) 一定等于 0\nB. P(B|A) 一定等于 1\nC. P(A 与 B 同时发生) 一定等于 0\nD. P(B|A) 等于 P(B)",
+    "answer": "D. P(B|A) 等于 P(B)",
+    "solution": "A 的发生不改变 B 的概率。同时发生的概率为 0 是互斥，不是独立。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "条件概率与独立性",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h248_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "互斥和独立是一回事吗？\nA. 不是。互斥说的是不能同时发生，独立说的是发生与否互不影响\nB. 是，两个词完全同义\nC. 是，互斥就一定独立\nD. 不是，独立是指两个事件的概率相等",
+    "answer": "A. 不是。互斥说的是不能同时发生，独立说的是发生与否互不影响",
+    "solution": "概率都为正时，互斥事件不能独立，因为一个发生后另一个的条件概率变成 0。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "条件概率与独立性",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h248_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "掷一枚均匀骰子，用 X 表示点数。X 有多少个不同的可能取值？",
+    "answer": "6",
+    "solution": "点数可以是 1 到 6，共 6 个值。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "离散型随机变量",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h249_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "离散型随机变量的取值有什么特点？\nA. 可以取到某一区间里的每一个实数\nB. 不能用数字表示\nC. 取值必须是负数\nD. 只取有限个或者可以逐个列出的值",
+    "answer": "D. 只取有限个或者可以逐个列出的值",
+    "solution": "骰子点数、次品件数都是离散型。一段区间上的全部实数则不是。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "离散型随机变量",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h249_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "抛一枚均匀硬币 2 次，X 表示正面朝上的次数。X 有多少个不同的可能取值？",
+    "answer": "3",
+    "solution": "可以是 0 次、1 次或 2 次。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "离散型随机变量",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h249_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "袋中球的标号只有 1、2、3，抽出 1 个并用 X 表示标号。X=2 对应多少个标号？",
+    "answer": "1",
+    "solution": "标号 2 只有一个，这个取值对应一种结果。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "离散型随机变量",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h249_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "X 的取值是 1、2、3。P(X=1)=1/2，P(X=2)=1/3。P(X=3) 是多少？",
+    "answer": "1/6",
+    "solution": "三项概率之和为 1，所以第三项是 1/6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分布列",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h250_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "X 只取 0 和 1，P(X=0)=1/4。P(X=1) 是多少？",
+    "answer": "3/4",
+    "solution": "1−1/4=3/4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分布列",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h250_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个分布列必须满足什么？\nA. 每个概率都大于 1\nB. 每个概率不小于 0，并且全部概率之和等于 1\nC. 概率之和等于取值的个数\nD. 概率可以是负数，只要和为 1",
+    "answer": "B. 每个概率不小于 0，并且全部概率之和等于 1",
+    "solution": "概率不能为负，全部可能取值的概率要正好分完 1。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分布列",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h250_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "P(X=0)=1/5，P(X=1)=4/5。这两个概率之和是多少？",
+    "answer": "1",
+    "solution": "1/5+4/5=1，可以作为完整的分布列。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "分布列",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h250_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "X 服从两点分布，P(X=1)=1/4。P(X=0) 是多少？",
+    "answer": "3/4",
+    "solution": "失败概率是 1−p=3/4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "两点分布",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h251_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两点分布中 P(X=1)=1/4。X 的均值是多少？",
+    "answer": "1/4",
+    "solution": "0×(1−p)+1×p=p，均值就是 1/4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "两点分布",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h251_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两点分布用来描述什么？\nA. 一次试验有无穷多个结果\nB. 必须连续做 n 次\nC. 一次试验只有成功和失败两种结果\nD. 取值可以是任意整数",
+    "answer": "C. 一次试验只有成功和失败两种结果",
+    "solution": "成功记为 1，失败记为 0，所以只有两个点。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "两点分布",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h251_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把硬币正面记为 1、反面记为 0，硬币均匀。P(X=1) 是多少？",
+    "answer": "1/2",
+    "solution": "正面概率是 1/2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "两点分布",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h251_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "X 取值 1、2、3，概率分别是 1/2、1/3、1/6。X 的均值是多少？",
+    "answer": "5/3",
+    "solution": "1/2+2/3+1/2=5/3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "离散型随机变量的均值",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h252_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "X 取值 0、1，概率分别是 3/4、1/4。均值是多少？",
+    "answer": "1/4",
+    "solution": "均值等于 1/4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "离散型随机变量的均值",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h252_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "离散型随机变量的均值是怎样平均的？\nA. 把所有取值直接相加\nB. 只取概率最大的那个值\nC. 用取值的个数去除最大值\nD. 用概率做权，把取值加权相加",
+    "answer": "D. 用概率做权，把取值加权相加",
+    "solution": "概率大的取值对均值影响更大。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "离散型随机变量的均值",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h252_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "X 取值 2 和 4，概率都是 1/2。均值是多少？",
+    "answer": "3",
+    "solution": "1+2=3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "离散型随机变量的均值",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h252_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "X 取值 0 和 1，概率都是 1/2。方差是多少？",
+    "answer": "1/4",
+    "solution": "均值是 1/2。两个平方都是 1/4，再各乘 1/2，方差是 1/4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "离散型随机变量的方差",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h253_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "X 取值 1 和 3，概率都是 1/2。方差是多少？",
+    "answer": "1",
+    "solution": "均值是 2。两个偏差平方都是 1，加权后方差是 1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "离散型随机变量的方差",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h253_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "方差描述的是什么？\nA. 取值相对均值的离散程度\nB. 取值的个数\nC. 最大取值\nD. 概率之和",
+    "answer": "A. 取值相对均值的离散程度",
+    "solution": "离均值越远、而且这种偏离的概率越大，方差越大。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "离散型随机变量的方差",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h253_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "X 总是取 5，也就是 P(X=5)=1。方差是多少？",
+    "answer": "0",
+    "solution": "取值没有偏离均值，方差是 0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "离散型随机变量的方差",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h253_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "每次成功概率都是 1/5，而且各次独立。失败概率是多少？",
+    "answer": "4/5",
+    "solution": "失败概率是 1−p=4/5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "伯努利试验",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h254_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "伯努利试验需要满足哪些条件？\nA. 每次只有两个结果，成功概率不变，而且各次独立\nB. 每次可以有很多个结果\nC. 成功概率一次比一次大\nD. 各次结果必须互斥地合成一个结果",
+    "answer": "A. 每次只有两个结果，成功概率不变，而且各次独立",
+    "solution": "两个结果、概率不变、相互独立，这三条都要有。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "伯努利试验",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h254_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把同一个试验独立重复 4 次。试验次数 n 是多少？",
+    "answer": "4",
+    "solution": "重复了 4 次，n=4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "伯努利试验",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h254_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "n=3，每次成功概率 p=1/2。单次失败的概率是多少？",
+    "answer": "1/2",
+    "solution": "1−1/2=1/2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "伯努利试验",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h254_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "X 服从 B(4,1/2)。P(X=2) 是多少？",
+    "answer": "3/8",
+    "solution": "C(4,2)×(1/2)^4=6/16=3/8。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项分布",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h255_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "X 服从 B(3,1/3)。P(X=0) 是多少？",
+    "answer": "8/27",
+    "solution": "三次都失败：(2/3)^3=8/27。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项分布",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h255_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "X 服从 B(2,1/2)。P(X=1) 是多少？",
+    "answer": "1/2",
+    "solution": "C(2,1)×1/4=1/2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项分布",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h255_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "二项分布 B(n,p) 里的 X 表示什么？\nA. 每一次试验的成功概率\nB. 试验失败时的取值个数\nC. 样本空间的全部结果数\nD. n 次独立重复试验中的成功次数",
+    "answer": "D. n 次独立重复试验中的成功次数",
+    "solution": "X 取 0、1、…、n，记录成功了几次。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项分布",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h255_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "X 服从 B(10,1/5)。均值是多少？",
+    "answer": "2",
+    "solution": "np=10×1/5=2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项分布的均值与方差",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h256_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "X 服从 B(10,1/5)。方差是多少？",
+    "answer": "8/5",
+    "solution": "np(1−p)=2×4/5=8/5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项分布的均值与方差",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h256_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "X 服从 B(4,1/2)。均值是多少？",
+    "answer": "2",
+    "solution": "4×1/2=2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项分布的均值与方差",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h256_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "二项分布的方差公式是哪一个？\nA. np(1−p)\nB. np\nC. n+p\nD. p 除以 n",
+    "answer": "A. np(1−p)",
+    "solution": "均值是 np。方差再乘上失败概率 1−p。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "二项分布的均值与方差",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h256_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "10 件产品中有 4 件次品，不放回地抽 3 件。恰有 1 件次品的概率是多少？",
+    "answer": "1/2",
+    "solution": "C(4,1)×C(6,2)/C(10,3)=4×15/120=1/2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "超几何分布",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h257_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "10 件产品中有 4 件次品，不放回地抽 3 件。3 件都是次品的概率是多少？",
+    "answer": "1/30",
+    "solution": "C(4,3)×C(6,0)/120=4/120=1/30。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "超几何分布",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h257_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "10 件产品中有 4 件次品，不放回地抽 3 件。没有次品的概率是多少？",
+    "answer": "1/6",
+    "solution": "C(6,3)/120=20/120=1/6。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "超几何分布",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h257_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "超几何分布和二项分布的抽取方式有什么不同？\nA. 超几何分布每次都放回\nB. 超几何分布是不放回抽取\nC. 两者都要求无限总体\nD. 超几何分布不能使用组合数",
+    "answer": "B. 超几何分布是不放回抽取",
+    "solution": "不放回时，箱里剩下的次品数会变，所以用组合数而不是固定的 p。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "超几何分布",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h257_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "总体 10 件，其中指定类 4 件，不放回地抽 3 件。抽到的指定类件数的均值是多少？",
+    "answer": "6/5",
+    "solution": "nK/N=12/10=6/5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "超几何分布的均值",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h258_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "总体 8 件，其中指定类 2 件，不放回地抽 4 件。均值是多少？",
+    "answer": "1",
+    "solution": "8/8=1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "超几何分布的均值",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h258_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "超几何分布均值 nK/N 中，K 表示什么？\nA. 抽取的件数\nB. 总体里指定类的件数\nC. 总体的件数\nD. 抽取后剩下的件数",
+    "answer": "B. 总体里指定类的件数",
+    "solution": "N 是总体件数，n 是抽取件数，K 是总体中那一类的件数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "超几何分布的均值",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h258_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "总体 6 件，其中指定类 3 件，不放回地抽 2 件。均值是多少？",
+    "answer": "1",
+    "solution": "6/6=1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "超几何分布的均值",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h258_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个正态分布的均值是 5。正态曲线对称轴对应的横坐标是多少？",
+    "answer": "5",
+    "solution": "对称轴是 x 等于均值，所以是 5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "正态分布的特征",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h259_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "正态曲线的形状有什么特点？\nA. 有两个峰，并且向左偏\nB. 单峰，并且关于均值对称\nC. 是一条直线\nD. 只在负数一边有值",
+    "answer": "B. 单峰，并且关于均值对称",
+    "solution": "中间高、两边低，左右对称。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "正态分布的特征",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h259_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "方差变大时，正态曲线怎样变化？\nA. 变得更瘦更高\nB. 对称轴移动到 0\nC. 变得更平坦，更向两边展开\nD. 变成折线",
+    "answer": "C. 变得更平坦，更向两边展开",
+    "solution": "方差大表示数据更分散，曲线就更扁。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "正态分布的特征",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h259_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "标准正态分布的均值是多少？",
+    "answer": "0",
+    "solution": "标准正态的均值是 0，方差是 1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "正态分布的特征",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h259_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "正态分布的均值是 10，标准差是 2。均值左右 1 个标准差的区间，半宽是几个标准差？",
+    "answer": "1",
+    "solution": "题目所问的就是 1 个标准差。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "正态曲线的经验规则",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h260_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "按常用的经验规则，大约 95% 的取值落在哪里？\nA. 均值左右 1 个标准差之内\nB. 只落在均值这一点\nC. 均值左右 2 个标准差之内\nD. 均值左右 10 个标准差之外",
+    "answer": "C. 均值左右 2 个标准差之内",
+    "solution": "1 个标准差约 68%，2 个标准差约 95%。这是近似说法。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "正态曲线的经验规则",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h260_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "标准正态分布的标准差是 1。均值左右 3 个标准差，正方向的端点是多少？",
+    "answer": "3",
+    "solution": "均值 0 再加上 3×1，端点是 3。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "正态曲线的经验规则",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h260_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "经验规则里的 68% 和 95% 应当怎样理解？\nA. 近似描述，不是由本题数据精确算出来的\nB. 必须等于样本里的准确百分比\nC. 只适用于均匀分布\nD. 表示方差等于 68",
+    "answer": "A. 近似描述，不是由本题数据精确算出来的",
+    "solution": "它们是正态曲线下面积的常用近似，真正的面积需要积分。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "正态曲线的经验规则",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h260_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "散点大致从左下到右上，这表示什么？\nA. 负相关\nB. 一定是函数关系 y=x\nC. 正相关\nD. 没有相关性",
+    "answer": "C. 正相关",
+    "solution": "x 增大时 y 总体也增大，称为正相关。点不在同一条直线上，所以不是确定的函数。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "成对数据的统计相关性",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h261_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "散点大致从左上到右下，这表示什么？\nA. 正相关\nB. 方差为 0\nC. 样本容量为 0\nD. 负相关",
+    "answer": "D. 负相关",
+    "solution": "x 增大时 y 总体减小，称为负相关。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "成对数据的统计相关性",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h261_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "三组成对数据是 (1，2)、(2，3)、(3，5)。第二个数大于第一个数的有多少组？",
+    "answer": "3",
+    "solution": "2>1，3>2，5>3，三组都是第二个数更大。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "成对数据的统计相关性",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h261_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "统计相关和函数关系的差别是什么？\nA. 两者完全相同\nB. 相关允许点在直线附近波动，函数关系要求每个 x 对应确定的 y\nC. 相关要求所有点重合\nD. 函数关系不能画在坐标系里",
+    "answer": "B. 相关允许点在直线附近波动，函数关系要求每个 x 对应确定的 y",
+    "solution": "成对数据通常有波动，所以说相关，不说每一个点都满足同一个等式。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "成对数据的统计相关性",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h261_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数据 (1，2)、(2，4)、(3，6)。x 的平均数是 2，y 的平均数是 4。离差乘积之和是多少？",
+    "answer": "4",
+    "solution": "离差分别是 (−1,−2)、(0,0)、(1,2)，乘积之和是 2+0+2=4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "样本相关系数",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h262_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "数据 (1，1)、(2，2)、(3，3)。x 和 y 的平均数都是 2。离差乘积之和是多少？",
+    "answer": "2",
+    "solution": "乘积是 1、0、1，和为 2。这组数据的相关系数是 1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "样本相关系数",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h262_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "样本相关系数 r 的取值范围是什么？\nA. 从 0 到 100\nB. 从 −1 到 1\nC. 任意正整数\nD. 只能是 0 或 1",
+    "answer": "B. 从 −1 到 1",
+    "solution": "r=1 是完全正相关，r=−1 是完全负相关，r=0 表示没有线性相关。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "样本相关系数",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h262_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "r 等于 0 说明什么？\nA. 一定完全正相关\nB. 样本容量是 0\nC. 这组数据没有线性相关\nD. 每一个 y 都等于 x 的平方",
+    "answer": "C. 这组数据没有线性相关",
+    "solution": "r=0 只否定线性关系，不能由此推出没有任何别的关系。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "样本相关系数",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h262_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个样本相关系数是 −3/5 和 1/5。表示线性相关更强的那个绝对值是多少？",
+    "answer": "3/5",
+    "solution": "|−3/5|=3/5，大于 1/5。负号只说明方向相反。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "比较相关性的强弱",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h263_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "|r|=0.9 和 |r|=0.2 哪一个线性相关更强？\nA. |r|=0.2 更强\nB. |r|=0.9 更强\nC. 两者一样强\nD. 无法用绝对值比较",
+    "answer": "B. |r|=0.9 更强",
+    "solution": "绝对值越接近 1，线性相关越强。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "比较相关性的强弱",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h263_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "r=0.8 和 r=−0.8 的线性相关强弱是否相同？\nA. 不相同，正数一定更强\nB. 不相同，负数没有相关\nC. 相同，因为绝对值相等\nD. 相同，因为两个数的和是 0",
+    "answer": "C. 相同，因为绝对值相等",
+    "solution": "符号表示正负相关，绝对值才表示强弱。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "比较相关性的强弱",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h263_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "|−4/5| 等于多少？",
+    "answer": "4/5",
+    "solution": "绝对值是 4/5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "比较相关性的强弱",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h263_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一元线性回归模型的基本形式是什么？\nA. 响应变量等于解释变量的平方\nB. 响应变量等于一次函数再加上随机误差\nC. 两个变量必须相等\nD. 模型里不能有误差",
+    "answer": "B. 响应变量等于一次函数再加上随机误差",
+    "solution": "观测点在直线附近波动，波动用随机误差表示。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "一元线性回归模型",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h264_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "若一次部分是 y=2x+1，且把误差先看成 0。x=3 时，这个一次部分等于多少？",
+    "answer": "7",
+    "solution": "2×3+1=7。实际观测还可能再加上误差。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "一元线性回归模型",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h264_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "回归模型里，通常用哪一个量去估计另一个量？\nA. 用样本容量估计方差\nB. 用相关系数代替所有数据\nC. 不用数据，只靠排序\nD. 用解释变量估计响应变量",
+    "answer": "D. 用解释变量估计响应变量",
+    "solution": "解释变量是输入，响应变量是想预测的量。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "一元线性回归模型",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h264_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "直线 y=−1+2x 在 x=0 处的值是多少？",
+    "answer": "-1",
+    "solution": "把 x=0 代入，得 −1。这是直线的截距。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "一元线性回归模型",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h264_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某个点的观测值是 5，直线给出的预测值是 3。残差是多少？",
+    "answer": "2",
+    "solution": "残差=观测−预测=2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "最小二乘原理",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h265_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个点 (0，0) 和 (2，2) 都在直线 y=x 上。这两个点的残差平方和是多少？",
+    "answer": "0",
+    "solution": "两个残差都是 0，平方和是 0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "最小二乘原理",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h265_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "最小二乘法选择直线的标准是什么？\nA. 残差平方和达到最小\nB. 残差的个数达到最小\nC. 斜率必须是 1\nD. 截距必须是 0",
+    "answer": "A. 残差平方和达到最小",
+    "solution": "每个残差先平方再相加，避免正负抵消。使这个和最小的直线就是回归直线。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "最小二乘原理",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h265_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "观测值是 4，预测值是 4。残差的平方是多少？",
+    "answer": "0",
+    "solution": "残差是 0，平方仍是 0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "最小二乘原理",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h265_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "点 (1，1)、(2，3)、(3，5)。用最小二乘公式，斜率 b 是多少？",
+    "answer": "2",
+    "solution": "分子 3×22−54=12，分母 42−36=6，斜率是 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "回归系数的最小二乘估计",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h266_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "点 (1，1)、(2，3)、(3，5) 的回归斜率是 2，y 的平均数是 3，x 的平均数是 2。截距 a 是多少？",
+    "answer": "-1",
+    "solution": "a=ȳ−b x̄=3−4=−1。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "回归系数的最小二乘估计",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h266_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "点 (0，1)、(1，3)。斜率 (3−1)/(1−0) 是多少？",
+    "answer": "2",
+    "solution": "这两点确定的斜率是 2。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "回归系数的最小二乘估计",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h266_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "算出斜率 b 之后，截距 a 常用什么计算？\nA. x 的平均数除以 y 的平均数\nB. 把所有 x 相加\nC. y 的平均数减去 b 乘以 x 的平均数\nD. 斜率的倒数",
+    "answer": "C. y 的平均数减去 b 乘以 x 的平均数",
+    "solution": "回归直线经过样本中心 (x̄，ȳ)，所以 a=ȳ−b x̄。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "回归系数的最小二乘估计",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h266_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "回归直线是 y=2x−1。x=4 时，y 的预测值是多少？",
+    "answer": "7",
+    "solution": "8−1=7。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用回归直线做预测",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h267_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "回归直线是 y=−2+3x。x=2 时，预测值是多少？",
+    "answer": "4",
+    "solution": "−2+6=4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用回归直线做预测",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h267_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用回归直线得到的数应当称作什么？\nA. 必须等于下一次的实测值\nB. 样本容量\nC. 预测值，实际观测还可能偏离它\nD. 相关系数本身",
+    "answer": "C. 预测值，实际观测还可能偏离它",
+    "solution": "直线给出的是估计。随机误差会使实测值不同。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用回归直线做预测",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h267_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "回归直线是 y=5−x。x=0 时，预测值是多少？",
+    "answer": "5",
+    "solution": "x=0 时预测值就是截距 5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "用回归直线做预测",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h267_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "列联表四格人数是 10、6、4、10。总人数是多少？",
+    "answer": "30",
+    "solution": "四格相加：10+6+4+10=30。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "2×2 列联表",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h268_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "列联表第一行的两格是 10 和 6。这一行的合计是多少？",
+    "answer": "16",
+    "solution": "10+6=16。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "2×2 列联表",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h268_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "2×2 列联表用来整理什么？\nA. 一组连续测量的平均数\nB. 一条回归直线的斜率\nC. 排列数 A(n,k)\nD. 两个各有两类的分类变量",
+    "answer": "D. 两个各有两类的分类变量",
+    "solution": "每个对象同时落入两个分类，所以可以放进四格表。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "2×2 列联表",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h268_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "四格人数 3、5、2、6。总人数是多少？",
+    "answer": "16",
+    "solution": "3+5+2+6=16。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "2×2 列联表",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h268_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "独立性检验开始时先做什么假设？\nA. 假设两个变量一定有因果关系\nB. 假设样本容量是 0\nC. 假设两个分类变量相互独立\nD. 假设回归斜率是 1",
+    "answer": "C. 假设两个分类变量相互独立",
+    "solution": "先假设独立。若数据偏离得太远，再怀疑这个假设。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "独立性检验的思想",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h269_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "列联表 a=2，b=3，c=4，d=6。ad−bc 等于多少？",
+    "answer": "0",
+    "solution": "12−12=0。交叉乘积相等时，这种关联的对比是 0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "独立性检验的思想",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h269_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "观测到的列联表偏离独立假设很远时，可以怎样说？\nA. 有较充分的证据认为两个变量有关联\nB. 已经证明两个变量没有关系\nC. 必须把概率改成大于 1\nD. 说明样本是全体总体",
+    "answer": "A. 有较充分的证据认为两个变量有关联",
+    "solution": "检验给出的是统计证据，不是逻辑上的绝对证明。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "独立性检验的思想",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h269_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "独立性检验关注的是哪一类变量？\nA. 只能是连续的回归残差\nB. 分类变量\nC. 只能是排列数\nD. 只能是正态标准差",
+    "answer": "B. 分类变量",
+    "solution": "列联表记录的是类别的频数，所以对象是分类变量。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "独立性检验的思想",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h269_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "列联表 a=20，b=5，c=5，d=20。按 χ²=n(ad−bc)²/((a+b)(c+d)(a+c)(b+d)) 计算，结果是多少？",
+    "answer": "18",
+    "solution": "n=50，ad−bc=375，分母是 25 的四次方。结果是 18。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "独立性检验的统计量",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h270_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "列联表 a=4，b=1，c=1，d=4。用同一个 χ² 公式，结果是多少？",
+    "answer": "18/5",
+    "solution": "n=10，ad−bc=15。10×225/625=18/5。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "独立性检验的统计量",
+      "统计与概率"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h270_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "这个统计量很大时，说明什么？\nA. 两个变量的频数一定都是 0\nB. 更倾向认为两个分类变量不独立\nC. 必须接受独立假设\nD. 样本相关系数一定是 1",
+    "answer": "B. 更倾向认为两个分类变量不独立",
+    "solution": "偏离独立假设越远，统计量越大。是否拒绝还要和临界值比较。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "独立性检验的统计量",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h270_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "列联表四格都是 1。用同一个 χ² 公式，结果是多少？",
+    "answer": "0",
+    "solution": "ad−bc=0，所以统计量是 0。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "独立性检验的统计量",
+      "统计与概率"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h270_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "已经建立的直线是 y=3x+2。x=5 时，预测值是多少？",
+    "answer": "17",
+    "solution": "15+2=17。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "建立统计模型进行预测",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h271_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用统计模型做预测，比较完整的顺序是什么？\nA. 先写结论，再决定要不要收集数据\nB. 提出问题，整理成对数据，建立模型，再检验预测\nC. 只计算排列数\nD. 用一次测验的名次代替全部数据",
+    "answer": "B. 提出问题，整理成对数据，建立模型，再检验预测",
+    "solution": "模型要经过数据和预测效果的检查，不是先写下答案。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "建立统计模型进行预测",
+      "综合与实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h271_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "预测值是 10，随后的实测值是 8。绝对误差是多少？",
+    "answer": "2",
+    "solution": "|10−8|=2。误差大时要回头检查模型。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "建立统计模型进行预测",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h271_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "模型甲的残差平方和是 4，模型乙的是 9。按残差平方和较小来选择，选中的那个和是多少？",
+    "answer": "4",
+    "solution": "4 小于 9，选择甲，对应的和是 4。",
+    "question_type": "填空题",
+    "subject": "数学",
+    "education_level": "高中",
+    "grade": null,
+    "exam_type": "选择性必修",
+    "knowledge_points": [
+      "建立统计模型进行预测",
+      "综合与实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnm_h271_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  }
+]

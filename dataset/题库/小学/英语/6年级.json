@@ -1,0 +1,2790 @@
+[
+  {
+    "question_text": "哪个单词的意思是「医院」？\nA. hospital\nB. cinema\nC. bookstore\nD. post office",
+    "answer": "A. hospital",
+    "solution": "hospital 的意思是医院。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "城市场所",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p155_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「cinema」的中文意思是哪一个？\nA. 医院\nB. 电影院\nC. 书店\nD. 邮局",
+    "answer": "B. 电影院",
+    "solution": "cinema 的意思是电影院。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "城市场所",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p155_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「书店」的单词。\nA. hospital\nB. cinema\nC. bookstore\nD. post office",
+    "answer": "C. bookstore",
+    "solution": "表示书店的单词是 bookstore。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "城市场所",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p155_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「邮局」？\nA. hospital\nB. cinema\nC. bookstore\nD. post office",
+    "answer": "D. post office",
+    "solution": "post office 的意思是邮局。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "城市场所",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p155_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说「在书店左转」，应选哪一句？\nA. Turn right at the bookstore.\nB. Turn left at the bookstore.\nC. Go straight at the bookstore.\nD. Turn bookstore left.",
+    "answer": "B. Turn left at the bookstore.",
+    "solution": "左转是 Turn left。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "左转、右转和直行",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p156_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Where is the hospital? 这句是在问什么？\nA. 医院是谁的\nB. 医院里有什么\nC. 医院在哪里\nD. 怎么去电影院",
+    "answer": "C. 医院在哪里",
+    "solution": "Where is 问地点。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "左转、右转和直行",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p156_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Go straight. 这句是在说什么？\nA. 左转\nB. 右转\nC. 停下\nD. 直行",
+    "answer": "D. 直行",
+    "solution": "Go straight 是直行。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "左转、右转和直行",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p156_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Turn right at the cinema. 在电影院怎么走？\nA. 右转\nB. 左转\nC. 直行\nD. 往回走",
+    "answer": "A. 右转",
+    "solution": "Turn right 是右转。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "左转、右转和直行",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p156_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想问怎么去医院，应说哪一句？\nA. Where is a turn left?\nB. What is the hospital like?\nC. How can I get to the hospital?\nD. When is the hospital?",
+    "answer": "C. How can I get to the hospital?",
+    "solution": "问路说 How can I get to。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "问路和指路",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p157_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The bookstore is next to the cinema. 书店在哪里？\nA. 在医院里\nB. 在邮局对面很远\nC. 在学校里面\nD. 在电影院旁边",
+    "answer": "D. 在电影院旁边",
+    "solution": "next to the cinema 是在电影院旁边。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "问路和指路",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p157_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Turn left at the post office. 在邮局怎样走？\nA. 左转\nB. 右转\nC. 直行\nD. 停下",
+    "answer": "A. 左转",
+    "solution": "Turn left。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "问路和指路",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p157_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Is it far? 若很近，应回答哪一句？\nA. Yes. It is far.\nB. No. It is near.\nC. Turn right.\nD. Go to the hospital.",
+    "answer": "B. No. It is near.",
+    "solution": "近是 near，所以用 No。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "问路和指路",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p157_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Go straight. Turn left at the bookstore. The hospital is on the right. 在书店怎样走？\nA. 右转\nB. 停下\nC. 往回走\nD. 左转",
+    "answer": "D. 左转",
+    "solution": "Turn left at the bookstore。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂指路",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p158_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：The cinema is next to the hospital. 电影院在哪里？\nA. 在医院旁边\nB. 在书店里面\nC. 在邮局里\nD. 离医院很远",
+    "answer": "A. 在医院旁边",
+    "solution": "next to the hospital。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂指路",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p158_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：How can I get to the post office? Turn right at the cinema. 去邮局要在哪里右转？\nA. 在书店\nB. 在电影院\nC. 在医院\nD. 在学校",
+    "answer": "B. 在电影院",
+    "solution": "Turn right at the cinema。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂指路",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p158_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：It is not far. Go straight and you can see it. 哪一句和短文一致？\nA. 很远，要左转。\nB. 在书店左转。\nC. 不远，直行就能看见。\nD. 医院在右边。",
+    "answer": "C. 不远，直行就能看见。",
+    "solution": "not far，Go straight。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂指路",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p158_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「公共汽车」？\nA. bus\nB. plane\nC. ship\nD. train",
+    "answer": "A. bus",
+    "solution": "bus 的意思是公共汽车。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "交通工具",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p159_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「plane」的中文意思是哪一个？\nA. 公共汽车\nB. 飞机\nC. 轮船\nD. 火车",
+    "answer": "B. 飞机",
+    "solution": "plane 的意思是飞机。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "交通工具",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p159_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「轮船」的单词。\nA. bus\nB. plane\nC. ship\nD. train",
+    "answer": "C. ship",
+    "solution": "表示轮船的单词是 ship。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "交通工具",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p159_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「火车」？\nA. bus\nB. plane\nC. ship\nD. train",
+    "answer": "D. train",
+    "solution": "train 的意思是火车。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "交通工具",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p159_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句表示「你必须停」？\nA. You must stops.\nB. You must stop.\nC. You are must stop.\nD. You stop must.",
+    "answer": "B. You must stop.",
+    "solution": "must 后面用动词原形 stop。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "must 与交通规则",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p160_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Do not go at a red light. 红灯时应该怎样？\nA. 可以走\nB. 必须跑\nC. 不要走\nD. 左转",
+    "answer": "C. 不要走",
+    "solution": "Do not go 是不要走。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "must 与交通规则",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p160_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "We must look right before crossing. 过马路前必须看哪边？\nA. 左边\nB. 上面\nC. 后面\nD. 右边",
+    "answer": "D. 右边",
+    "solution": "句子写的是 look right。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "must 与交通规则",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p160_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I must pay attention to the traffic lights. 这句是在说什么？\nA. 必须注意交通信号灯\nB. 可以不看信号灯\nC. 信号灯在书店\nD. 我不会看信号灯",
+    "answer": "A. 必须注意交通信号灯",
+    "solution": "must pay attention to the traffic lights。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "must 与交通规则",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p160_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说自己骑自行车来学校，应说哪一句？\nA. I come to school by bus.\nB. I come to school by train.\nC. I come to school by bike.\nD. I come to school by plane.",
+    "answer": "C. I come to school by bike.",
+    "solution": "自行车是 by bike。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说明出行方式",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p161_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "How do you come to school? 这句是在问什么？\nA. 学校在哪里\nB. 你必须停下吗\nC. 你喜欢公共汽车吗\nD. 你怎么来学校",
+    "answer": "D. 你怎么来学校",
+    "solution": "How do you come 问方式。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说明出行方式",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p161_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I usually walk. 这个人通常怎么来？\nA. 步行\nB. 坐公共汽车\nC. 坐火车\nD. 坐飞机",
+    "answer": "A. 步行",
+    "solution": "walk 是步行。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说明出行方式",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p161_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Slow down and stop at a yellow light. 黄灯时应该怎样？\nA. 加速通过\nB. 减速并停下\nC. 不必看灯\nD. 可以跑",
+    "answer": "B. 减速并停下",
+    "solution": "Slow down and stop。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "说明出行方式",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p161_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：I come to school by bus. Amy says, \"I come by bike.\" Amy 怎么来学校？\nA. 坐公共汽车\nB. 步行\nC. 坐火车\nD. 骑自行车",
+    "answer": "D. 骑自行车",
+    "solution": "引号里写的是 I come by bike。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂交通规则",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p162_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Do not go at a red light. You must stop. 红灯时必须怎样？\nA. 停下\nB. 走\nC. 跑\nD. 左转",
+    "answer": "A. 停下",
+    "solution": "must stop。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂交通规则",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p162_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：In China, people drive on the right. 在中国，车靠哪边行驶？\nA. 左边\nB. 右边\nC. 中间\nD. 短文没写",
+    "answer": "B. 右边",
+    "solution": "on the right。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂交通规则",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p162_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Some children come by subway. 哪一句和短文一致？\nA. 所有孩子步行。\nB. 孩子们坐飞机来。\nC. 有些孩子坐地铁来。\nD. 孩子们不来学校。",
+    "answer": "C. 有些孩子坐地铁来。",
+    "solution": "by subway。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂交通规则",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p162_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「电影」？\nA. film\nB. trip\nC. supermarket\nD. dictionary",
+    "answer": "A. film",
+    "solution": "film 的意思是电影。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "周末计划",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p163_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「trip」的中文意思是哪一个？\nA. 电影\nB. 旅行\nC. 超市\nD. 词典",
+    "answer": "B. 旅行",
+    "solution": "trip 的意思是旅行。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "周末计划",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p163_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「超市」的单词。\nA. film\nB. trip\nC. supermarket\nD. dictionary",
+    "answer": "C. supermarket",
+    "solution": "表示超市的单词是 supermarket。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "周末计划",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p163_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「词典」？\nA. film\nB. trip\nC. supermarket\nD. dictionary",
+    "answer": "D. dictionary",
+    "solution": "dictionary 的意思是词典。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "周末计划",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p163_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句表示「我打算去旅行」？\nA. I am go to take a trip.\nB. I am going to take a trip.\nC. I going to take a trip.\nD. I are going to take a trip.",
+    "answer": "B. I am going to take a trip.",
+    "solution": "I 用 am going to。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "be going to 一般将来时",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p164_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "What are you going to do? 这句是在问什么？\nA. 你正在做什么\nB. 你昨天做了什么\nC. 你打算做什么\nD. 你会做什么",
+    "answer": "C. 你打算做什么",
+    "solution": "going to 问打算。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "be going to 一般将来时",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p164_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "She is going to see a film. 她打算做什么？\nA. 买词典\nB. 去超市\nC. 看望祖父母\nD. 看电影",
+    "answer": "D. 看电影",
+    "solution": "see a film。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "be going to 一般将来时",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p164_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "We are going to the supermarket. 我们打算去哪里？\nA. 超市\nB. 电影院\nC. 书店\nD. 医院",
+    "answer": "A. 超市",
+    "solution": "the supermarket。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "be going to 一般将来时",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p164_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说自己明天打算去旅行，应说哪一句？\nA. I am going to see a film tomorrow.\nB. I am going to the supermarket tomorrow.\nC. I am going to take a trip tomorrow.\nD. I am going to buy a dictionary tomorrow.",
+    "answer": "C. I am going to take a trip tomorrow.",
+    "solution": "旅行是 take a trip。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论计划",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p165_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "What are you going to do this weekend? 这句是在问什么？\nA. 这个周末你正在做什么\nB. 上个周末你做了什么\nC. 你每天做什么\nD. 这个周末你打算做什么",
+    "answer": "D. 这个周末你打算做什么",
+    "solution": "this weekend 加上 going to 是打算。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论计划",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p165_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "He is going to buy a dictionary. 他打算买什么？\nA. 词典\nB. 电影票\nC. 旅行票\nD. 超市里的面包",
+    "answer": "A. 词典",
+    "solution": "a dictionary。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论计划",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p165_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Have a good time! 这句是在说什么？\nA. 你必须停下\nB. 祝你玩得开心\nC. 请靠右走\nD. 这太贵了",
+    "answer": "B. 祝你玩得开心",
+    "solution": "Have a good time 是祝对方玩得开心。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论计划",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p165_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：I am going to see a film. Amy is going to the supermarket. Amy 打算去哪里？\nA. 电影院\nB. 书店\nC. 医院\nD. 超市",
+    "answer": "D. 超市",
+    "solution": "Amy is going to the supermarket。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂周末计划",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p166_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：We are going to take a trip next week. 哪一句和短文一致？\nA. 我们下周打算去旅行。\nB. 我们正在旅行。\nC. 我们上周旅行了。\nD. 我们不去旅行。",
+    "answer": "A. 我们下周打算去旅行。",
+    "solution": "are going to take a trip next week。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂周末计划",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p166_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Mike is going to buy a dictionary this evening. Mike 今晚打算买什么？\nA. 电影票\nB. 词典\nC. 面包\nD. 地图",
+    "answer": "B. 词典",
+    "solution": "a dictionary。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂周末计划",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p166_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Sarah says, \"I am going to read a book.\" Sarah 打算做什么？\nA. 看电影\nB. 去超市\nC. 看书\nD. 去旅行",
+    "answer": "C. 看书",
+    "solution": "引号里是 read a book。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂周末计划",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p166_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句表示「你应该去看医生」？\nA. You should sees a doctor.\nB. You should see a doctor.\nC. You are should see a doctor.\nD. You see should a doctor.",
+    "answer": "B. You should see a doctor.",
+    "solution": "should 后面用动词原形 see。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "should 提建议",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p176_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I feel ill. 这句的意思是？\nA. 我很高兴\nB. 我很生气\nC. 我感到不舒服\nD. 我很害怕",
+    "answer": "C. 我感到不舒服",
+    "solution": "ill 是不舒服。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "should 提建议",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p176_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "You should wear warm clothes. 这是在做什么？\nA. 描述过去\nB. 询问价格\nC. 问路\nD. 提出建议",
+    "answer": "D. 提出建议",
+    "solution": "should 用来提建议。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "should 提建议",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p176_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Do not be sad. 这句的意思是？\nA. 别难过\nB. 别生气\nC. 别害怕\nD. 别高兴",
+    "answer": "A. 别难过",
+    "solution": "sad 是难过。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "should 提建议",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p176_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Sarah is sad. She should talk to her friends. Sarah 感觉怎样？\nA. 生气\nB. 害怕\nC. 高兴\nD. 难过",
+    "answer": "D. 难过",
+    "solution": "sad。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂感受和建议",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p178_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：I am ill. I should see a doctor. 哪一句和短文一致？\nA. 我不舒服，应该去看医生。\nB. 我很高兴。\nC. 我不应该看医生。\nD. 我很害怕猫。",
+    "answer": "A. 我不舒服，应该去看医生。",
+    "solution": "ill，should see a doctor。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂感受和建议",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p178_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：He is angry. He should take a deep breath. 他应该做什么？\nA. 去旅行\nB. 深呼吸\nC. 买词典\nD. 骑自行车",
+    "answer": "B. 深呼吸",
+    "solution": "take a deep breath。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂感受和建议",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p178_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：The cat is happy. The mouse is afraid. 谁很高兴？\nA. 老鼠\nB. 医生\nC. 猫\nD. 两个都高兴",
+    "answer": "C. 猫",
+    "solution": "The cat is happy。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂感受和建议",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p178_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一般疑问句通常用什么语调？\nA. 升调\nB. 降调\nC. 先降后升再降\nD. 没有语调",
+    "answer": "A. 升调",
+    "solution": "Do you like apples? 这一类一般疑问句通常用升调。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "陈述句和疑问句的语调",
+      "语音"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p179_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "陈述句 I am ten. 朗读时通常用什么语调？\nA. 升调\nB. 降调\nC. 一直升到最高\nD. 不读语调",
+    "answer": "B. 降调",
+    "solution": "陈述句通常用降调。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "陈述句和疑问句的语调",
+      "语音"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p179_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "祈使句 Open the door. 朗读时通常用什么语调？\nA. 升调\nB. 先升后降再升\nC. 降调\nD. 不读语调",
+    "answer": "C. 降调",
+    "solution": "祈使句通常用降调。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "陈述句和疑问句的语调",
+      "语音"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p179_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Where is the cat? 这一句通常用什么语调？\nA. 升调\nB. 只升不降\nC. 没有语调\nD. 降调",
+    "answer": "D. 降调",
+    "solution": "以 Where 开头的特殊疑问句通常用降调。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "陈述句和疑问句的语调",
+      "语音"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p179_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「米」？\nA. kilogram\nB. metre\nC. size\nD. heavy",
+    "answer": "B. metre",
+    "solution": "metre 的意思是米。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "身高和体重",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p180_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「kilogram」的中文意思是哪一个？\nA. 米\nB. 尺码\nC. 千克\nD. 重的",
+    "answer": "C. 千克",
+    "solution": "kilogram 的意思是千克。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "身高和体重",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p180_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「尺码」的单词。\nA. metre\nB. kilogram\nC. heavy\nD. size",
+    "answer": "D. size",
+    "solution": "表示尺码的单词是 size。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "身高和体重",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p180_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「重的」？\nA. heavy\nB. metre\nC. kilogram\nD. size",
+    "answer": "A. heavy",
+    "solution": "heavy 的意思是重的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "身高和体重",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p180_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "tall 的比较级是哪一个？\nA. more tall\nB. tallest\nC. taller\nD. tallier",
+    "answer": "C. taller",
+    "solution": "tall 的比较级是 taller。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "形容词比较级",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p181_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. He is more taller.\nB. He is tallier.\nC. He is more tall.\nD. He is taller.",
+    "answer": "D. He is taller.",
+    "solution": "taller 前面不要再加 more。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "形容词比较级",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p181_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "long 的比较级是哪一个？\nA. longer\nB. more long\nC. longest\nD. longger",
+    "answer": "A. longer",
+    "solution": "long 的比较级是 longer。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "形容词比较级",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p181_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "heavy 的比较级是哪一个？\nA. more heavy\nB. heavier\nC. heaviest\nD. heavyer",
+    "answer": "B. heavier",
+    "solution": "heavy 的比较级是 heavier。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "形容词比较级",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p181_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的比较？\nA. I am more taller than you.\nB. I am taller then you.\nC. I am tall than you.\nD. I am taller than you.",
+    "answer": "D. I am taller than you.",
+    "solution": "比较两者说 taller than。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用 than 比较",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p182_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Amy is 1.5 metres tall. John is 1.6 metres tall. 谁更高？\nA. John\nB. Amy\nC. 一样高\nD. 无法从这两句知道",
+    "answer": "A. John",
+    "solution": "1.6 大于 1.5，所以 John 更高。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用 than 比较",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p182_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Zhang Peng is 48 kilograms. Sarah is 42 kilograms. 更重的那个人是多少千克？",
+    "answer": "48",
+    "solution": "48 大于 42，所以更重的体重是 48 千克。",
+    "question_type": "填空题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用 than 比较",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p182_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "This dinosaur is bigger than that one. 这句在比较什么？\nA. 谁更高\nB. 谁更重\nC. 谁更大\nD. 谁更老",
+    "answer": "C. 谁更大",
+    "solution": "bigger 是更大。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用 than 比较",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p182_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想问对方多高，应说哪一句？\nA. How tall are you?\nB. How old are you?\nC. How heavy are you?\nD. How much is it?",
+    "answer": "A. How tall are you?",
+    "solution": "问身高说 How tall are you?",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "询问身高",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p183_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I am 1.6 metres tall. 这句话在说什么？\nA. 体重是 1.6 千克\nB. 身高是 1.6 米\nC. 年龄是 16 岁\nD. 鞋子是 36 码",
+    "answer": "B. 身高是 1.6 米",
+    "solution": "metres 说的是身高。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "询问身高",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p183_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "How heavy are you? 若是 40 千克，应回答哪一句？\nA. I am 1.5 metres.\nB. I am 12 years old.\nC. I am 40 kilograms.\nD. I am size 36.",
+    "answer": "C. I am 40 kilograms.",
+    "solution": "体重用 kilograms。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "询问身高",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p183_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Your feet are bigger than mine. 这句在比较什么？\nA. 身高\nB. 体重\nC. 年龄\nD. 脚的大小",
+    "answer": "D. 脚的大小",
+    "solution": "feet 和 bigger 是在比脚。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "询问身高",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p183_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Amy is 1.5 metres. John is 1.6 metres. John is taller than Amy. 谁更高？\nA. Amy\nB. John\nC. 一样高\nD. 短文没比较",
+    "answer": "B. John",
+    "solution": "1.6 大于 1.5，而且句子写 John is taller。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂比较短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p184_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：The dinosaur is 4 metres tall. The boy is 1 metre tall. 恐龙高几米？",
+    "answer": "4",
+    "solution": "4 metres。",
+    "question_type": "填空题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂比较短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p184_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Sarah is 42 kilograms. Zhang Peng is 48 kilograms. 谁更重？\nA. Sarah\nB. 一样重\nC. 无法知道\nD. Zhang Peng",
+    "answer": "D. Zhang Peng",
+    "solution": "48 大于 42。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂比较短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p184_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：My shoes are size 37. Yours are size 35. 哪一句和短文一致？\nA. 我的鞋是 37 码，你的是 35 码。\nB. 我的鞋是 35 码。\nC. 两个人的鞋一样大。\nD. 没有写尺码。",
+    "answer": "A. 我的鞋是 37 码，你的是 35 码。",
+    "solution": "size 37 和 size 35。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂比较短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p184_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "clean 的过去式是哪一个？\nA. cleans\nB. cleaning\nC. cleaned\nD. clean",
+    "answer": "C. cleaned",
+    "solution": "规则动词 clean 的过去式是 cleaned。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "规则动词过去式",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p185_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句表示「我上周末打扫了房间」？\nA. I clean my room last weekend.\nB. I cleaning my room last weekend.\nC. I cleans my room last weekend.\nD. I cleaned my room last weekend.",
+    "answer": "D. I cleaned my room last weekend.",
+    "solution": "last weekend 要和过去式 cleaned 一起用。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "规则动词过去式",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p185_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "watched 是哪个动词的过去式？\nA. watch\nB. wash\nC. walk\nD. want",
+    "answer": "A. watch",
+    "solution": "watched 来自 watch。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "规则动词过去式",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p185_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I stayed at home. 这句说的是什么时候的事？\nA. 正在发生的事\nB. 已经发生的事\nC. 将要做的事\nD. 每天的习惯",
+    "answer": "B. 已经发生的事",
+    "solution": "stayed 是过去式。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "规则动词过去式",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p185_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "____ you clean your room? 问过去的事，横线上应填哪个词？\nA. Do\nB. Does\nC. Are\nD. Did",
+    "answer": "D. Did",
+    "solution": "问过去用 Did。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "Did 提问",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p186_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Did you watch TV? 肯定回答应选哪一句？\nA. Yes, I did.\nB. Yes, I do.\nC. Yes, I was.\nD. Yes, I watched.",
+    "answer": "A. Yes, I did.",
+    "solution": "Did 的肯定回答是 Yes, I did。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "Did 提问",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p186_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. Did he washed his clothes?\nB. Did he wash his clothes?\nC. Does he washed his clothes?\nD. Did he washes his clothes?",
+    "answer": "B. Did he wash his clothes?",
+    "solution": "Did 后面用动词原形 wash。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "Did 提问",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p186_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I did not stay at home. 这句的意思是？\nA. 我待在家里\nB. 我正待在家里\nC. 我没有待在家里\nD. 我将待在家里",
+    "answer": "C. 我没有待在家里",
+    "solution": "did not stay 表示过去没有待着。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "Did 提问",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p186_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想问上周末做了什么，应说哪一句？\nA. What did you do last weekend?\nB. What do you do on the weekend?\nC. What are you going to do?\nD. What are you doing?",
+    "answer": "A. What did you do last weekend?",
+    "solution": "问过去用 What did you do last weekend?",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论上周末",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p187_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I cleaned my room and watched TV. 做了哪两件事？\nA. 洗衣服和睡觉\nB. 打扫房间和看电视\nC. 只打扫房间\nD. 只看电视",
+    "answer": "B. 打扫房间和看电视",
+    "solution": "cleaned my room and watched TV。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论上周末",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p187_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Did you wash your clothes? 若洗了，应回答哪一句？\nA. Yes, I do.\nB. Yes, I was.\nC. Yes, I did.\nD. No, I did not wash do.",
+    "answer": "C. Yes, I did.",
+    "solution": "Did 的肯定回答是 Yes, I did。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论上周末",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p187_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I stayed at home all weekend. 这个人周末在哪里？\nA. 去了公园\nB. 去了医院\nC. 去旅行了\nD. 待在家里",
+    "answer": "D. 待在家里",
+    "solution": "stayed at home。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论上周末",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p187_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Last weekend I cleaned my room. I did not watch TV. 这个人看电视了吗？\nA. 看了\nB. 没有\nC. 只看了一会儿\nD. 短文没写",
+    "answer": "B. 没有",
+    "solution": "did not watch TV。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂上周末日记",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p188_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Amy washed her clothes on Saturday. 哪一句和日记一致？\nA. Amy 星期六看了电视。\nB. Amy 没有洗衣服。\nC. Amy 星期六洗了衣服。\nD. Amy 星期日洗了衣服。",
+    "answer": "C. Amy 星期六洗了衣服。",
+    "solution": "washed her clothes on Saturday。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂上周末日记",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p188_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Did you stay at home? Yes, I did. 这个人待在家里了吗？\nA. 没有\nB. 去了公园\nC. 没回答\nD. 待了",
+    "answer": "D. 待了",
+    "solution": "Yes, I did。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂上周末日记",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p188_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：I watched a film on Sunday. 星期日做了什么？\nA. 看了一部电影\nB. 打扫了房间\nC. 洗了衣服\nD. 去旅行了",
+    "answer": "A. 看了一部电影",
+    "solution": "watched a film。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂上周末日记",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p188_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "go 的过去式是哪一个？\nA. goed\nB. goes\nC. went\nD. going",
+    "answer": "C. went",
+    "solution": "go 的过去式是 went。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "不规则动词过去式",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p189_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "see 的过去式是哪一个？\nA. seed\nB. seen\nC. sees\nD. saw",
+    "answer": "D. saw",
+    "solution": "see 的过去式是 saw。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "不规则动词过去式",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p189_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是正确的？\nA. I went to the park.\nB. I goed to the park.\nC. I go to the park yesterday.\nD. I going to the park yesterday.",
+    "answer": "A. I went to the park.",
+    "solution": "过去去了某地说 went。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "不规则动词过去式",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p189_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "eat 的过去式是哪一个？\nA. eated\nB. ate\nC. eats\nD. eating",
+    "answer": "B. ate",
+    "solution": "eat 的过去式是 ate。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "不规则动词过去式",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p189_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想问对方去了哪里，应说哪一句？\nA. Where do you go?\nB. Where are you going?\nC. Where did you went?\nD. Where did you go?",
+    "answer": "D. Where did you go?",
+    "solution": "问过去去向用 Where did you go?",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论去过哪里",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p190_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I went to Xinjiang. 去了哪里？\nA. 新疆\nB. 北京\nC. 上海\nD. 海南",
+    "answer": "A. 新疆",
+    "solution": "Xinjiang 是新疆。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论去过哪里",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p190_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "What did you do there? 这句是在问什么？\nA. 你要去哪里\nB. 你在那里做了什么\nC. 你正在做什么\nD. 你喜欢那里吗",
+    "answer": "B. 你在那里做了什么",
+    "solution": "did you do there 问过去在那里做的事。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论去过哪里",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p190_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I saw grapes and ate good food. 做了什么？\nA. 只去了公园\nB. 洗了衣服\nC. 看见了葡萄，还吃了好吃的\nD. 看了电影",
+    "answer": "C. 看见了葡萄，还吃了好吃的",
+    "solution": "saw grapes and ate good food。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "谈论去过哪里",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p190_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：I went to Hainan. I saw the beach. 去了哪里？\nA. 海南\nB. 新疆\nC. 北京\nD. 上海",
+    "answer": "A. 海南",
+    "solution": "went to Hainan。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂旅行日记",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p191_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：We ate fresh food and took pictures. 哪一句和日记一致？\nA. 我们没有吃东西。\nB. 我们吃了新鲜的食物，还拍了照片。\nC. 我们去了学校。\nD. 我们洗了衣服。",
+    "answer": "B. 我们吃了新鲜的食物，还拍了照片。",
+    "solution": "ate fresh food and took pictures。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂旅行日记",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p191_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Where did you go? I went to a forest. 去了什么地方？\nA. 一片海滩\nB. 一家医院\nC. 一片森林\nD. 一家商店",
+    "answer": "C. 一片森林",
+    "solution": "a forest。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂旅行日记",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p191_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：I saw a mule. It was interesting. 看见了什么？\nA. 一匹马\nB. 一只猫\nC. 一条狗\nD. 一头骡子",
+    "answer": "D. 一头骡子",
+    "solution": "a mule 是骡子。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂旅行日记",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p191_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「以前」？\nA. different\nB. ago\nC. active\nD. Internet",
+    "answer": "B. ago",
+    "solution": "ago 的意思是以前。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去和现在",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p192_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「different」的中文意思是哪一个？\nA. 以前\nB. 活跃的\nC. 不同的\nD. 互联网",
+    "answer": "C. 不同的",
+    "solution": "different 的意思是不同的。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去和现在",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p192_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "选择表示「活跃的」的单词。\nA. ago\nB. different\nC. Internet\nD. active",
+    "answer": "D. active",
+    "solution": "表示活跃的的单词是 active。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去和现在",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p192_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「互联网」？\nA. Internet\nB. ago\nC. different\nD. active",
+    "answer": "A. Internet",
+    "solution": "Internet 的意思是互联网。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "过去和现在",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p192_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "There ____ no library in my school ten years ago. 横线上应填哪个词？\nA. is\nB. were\nC. was\nD. are",
+    "answer": "C. was",
+    "solution": "单数 library 的过去式用 There was。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "was 与 were",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p193_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句表示「以前我很矮」？\nA. I were short.\nB. I was shorted.\nC. I am short yesterday.\nD. I was short.",
+    "answer": "D. I was short.",
+    "solution": "I 的过去式用 was。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "was 与 were",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p193_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "They ____ young then. 横线上应填哪个词？\nA. were\nB. was\nC. are\nD. is",
+    "answer": "A. were",
+    "solution": "They 的过去式用 were。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "was 与 were",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p193_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "There were no computers in the old school. 这句的意思是？\nA. 以前学校里有电脑\nB. 以前学校里没有电脑\nC. 现在学校里没有电脑\nD. 电脑在图书馆里",
+    "answer": "B. 以前学校里没有电脑",
+    "solution": "There were no 表示过去没有。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "was 与 were",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p193_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "想说以前很安静，现在很活跃，应说哪一句？\nA. Before, I am quiet. Now, I was active.\nB. Before, I were quiet. Now, I am active.\nC. Now, I was quiet. Before, I am active.\nD. Before, I was quiet. Now, I am active.",
+    "answer": "D. Before, I was quiet. Now, I am active.",
+    "solution": "过去用 was，现在用 am。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "比较过去和现在",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p194_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "There was no Internet ten years ago. 这句的意思是？\nA. 十年前没有互联网\nB. 现在没有互联网\nC. 十年前就有互联网\nD. 互联网在图书馆里",
+    "answer": "A. 十年前没有互联网",
+    "solution": "was no Internet ten years ago。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "比较过去和现在",
+      "日常表达"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p194_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "How did you change? 这句是在问什么？\nA. 你现在多高\nB. 你有什么变化\nC. 你上周末做了什么\nD. 你怎么去学校",
+    "answer": "B. 你有什么变化",
+    "solution": "change 是变化。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "比较过去和现在",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p194_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Now there is a gym. 现在有什么？\nA. 一个图书馆\nB. 互联网\nC. 一个体育馆\nD. 一台电脑",
+    "answer": "C. 一个体育馆",
+    "solution": "a gym 是体育馆。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "比较过去和现在",
+      "日常表达"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p194_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：Before, there was no library. Now, there is a big library. 现在有图书馆吗？\nA. 有\nB. 没有\nC. 只有体育馆\nD. 短文没写现在",
+    "answer": "A. 有",
+    "solution": "Now, there is a big library。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂今昔对比",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p195_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：I was short before. Now I am tall. 哪一句和短文一致？\nA. 我以前高，现在矮。\nB. 我以前矮，现在高。\nC. 我一直很矮。\nD. 我以前就很高。",
+    "answer": "B. 我以前矮，现在高。",
+    "solution": "was short before，Now I am tall。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂今昔对比",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p195_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：There were no computers in my old school. 以前的学校有电脑吗？\nA. 有\nB. 只有一台\nC. 没有\nD. 短文说现在没有",
+    "answer": "C. 没有",
+    "solution": "were no computers。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂今昔对比",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p195_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读一读：People did not use the Internet then. Now we use it every day. 现在人们用互联网吗？\nA. 不用\nB. 只用电话\nC. 短文没写现在\nD. 用",
+    "answer": "D. 用",
+    "solution": "Now we use it every day。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂今昔对比",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p195_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "____ is a book on the desk. 横线上应填哪个词？\nA. Their\nB. There\nC. They are\nD. Theirs",
+    "answer": "B. There",
+    "solution": "表示「有」用 There is。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "易混词 there、its、too",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p196_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The dog wagged ____ tail. 横线上应填哪个词？\nA. it's\nB. it is\nC. its\nD. its is",
+    "answer": "C. its",
+    "solution": "「它的」用 its，没有撇号。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "易混词 there、its、too",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p196_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I have two pens. I want one, ____. 横线上应填哪个词？\nA. two\nB. to\nC. and\nD. too",
+    "answer": "D. too",
+    "solution": "表示「也」用 too。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "易混词 there、its、too",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p196_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "____ books are on the desk. 意思是「他们的书」。横线上应填哪个词？\nA. Their\nB. There\nC. They are\nD. Theirs",
+    "answer": "A. Their",
+    "solution": "「他们的」用 Their。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "易混词 there、its、too",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p196_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读短信：Dear Amy, I went to the park last Sunday. I saw a lake. Love, Mike. Mike 上星期日去了哪里？\nA. 湖边的学校\nB. 医院\nC. 公园\nD. 超市",
+    "answer": "C. 公园",
+    "solution": "went to the park。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂一封短信",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p197_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读短信：I am going to visit you in June. 写信人打算几月去看望对方？\nA. 五月\nB. 三月\nC. 十月\nD. 六月",
+    "answer": "D. 六月",
+    "solution": "in June。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂一封短信",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p197_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句适合写在信的开头？\nA. Dear Sarah,\nB. Love, Sarah,\nC. Yours, Sarah,\nD. How tall are you, Sarah,",
+    "answer": "A. Dear Sarah,",
+    "solution": "称呼常用 Dear 加上名字。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂一封短信",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p197_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "读短信：Before, I could not swim. Now I can. 哪一句和短信一致？\nA. 我以前会游泳。\nB. 我以前不会游泳，现在会了。\nC. 我现在不会游泳。\nD. 我打算去游泳。",
+    "answer": "B. 我以前不会游泳，现在会了。",
+    "solution": "could not swim before，Now I can。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂一封短信",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p197_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "pocket money 的意思是？\nA. 口袋\nB. 商店\nC. 零花钱\nD. 钱包",
+    "answer": "C. 零花钱",
+    "solution": "pocket money 是零花钱。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "金钱与花销词汇",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p201_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I want to ____ money for a new bike. 我想为买新车攒钱。\nA. cost\nB. spend\nC. save\nD. sell",
+    "answer": "C. save",
+    "solution": "攒钱用 save。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "金钱与花销词汇",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p201_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「花钱」用哪个英文动词？\nA. spend\nB. send\nC. spell\nD. save",
+    "answer": "A. spend",
+    "solution": "spend money 是花钱。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "金钱与花销词汇",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p201_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The book ____ 20 yuan. 这本书要 20 元。\nA. saves\nB. spends\nC. buys\nD. costs",
+    "answer": "D. costs",
+    "solution": "物品价格用 cost，主语单数用 costs。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "金钱与花销词汇",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p201_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "three hundred and five 是多少？\nA. 305\nB. 350\nC. 35\nD. 3005",
+    "answer": "A. 305",
+    "solution": "three hundred 是 300，and five 是 5。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用 hundred 和 thousand 说价格",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p202_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1,200 用英语怎么读？\nA. one hundred two thousand\nB. twelve thousand\nC. one thousand two hundred\nD. one thousand twenty",
+    "answer": "C. one thousand two hundred",
+    "solution": "1,000 是 one thousand，200 是 two hundred。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用 hundred 和 thousand 说价格",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p202_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个写法正确表示 500？\nA. fifty hundred\nB. five hundreds\nC. five hundred and\nD. five hundred",
+    "answer": "D. five hundred",
+    "solution": "具体数字前的 hundred 不加 s。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用 hundred 和 thousand 说价格",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p202_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The bike is 680 yuan. 680 读作？\nA. six hundred and eighty\nB. sixty-eight\nC. six thousand eighty\nD. six hundred and eighteen",
+    "answer": "A. six hundred and eighty",
+    "solution": "680 = 600 + 80。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用 hundred 和 thousand 说价格",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p202_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I get 40 yuan a week. I spend 15 yuan on books and save the rest. 每周存多少元？\nA. 55\nB. 25\nC. 40\nD. 15",
+    "answer": "B. 25",
+    "solution": "40 − 15 = 25。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂零花钱计划",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p203_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Amy saves 10 yuan every week. How much does she save in 4 weeks?\nA. 10 yuan\nB. 4 yuan\nC. 40 yuan\nD. 14 yuan",
+    "answer": "C. 40 yuan",
+    "solution": "10 × 4 = 40。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂零花钱计划",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p203_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Tom: I don't buy snacks. I put the money in my piggy bank. Tom 在做什么？\nA. 花钱买零食\nB. 丢了钱\nC. 存钱\nD. 借钱",
+    "answer": "C. 存钱",
+    "solution": "piggy bank 是存钱罐，他在存钱。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂零花钱计划",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p203_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句是好的用钱建议？\nA. Spend all your money at once.\nB. Never count your money.\nC. Buy everything you see.\nD. Make a plan before you spend money.",
+    "answer": "D. Make a plan before you spend money.",
+    "solution": "先做计划再花钱。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂零花钱计划",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p203_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪个单词的意思是「行星」？\nA. planet\nB. plant\nC. plate\nD. plane",
+    "answer": "A. planet",
+    "solution": "planet 是行星。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "太空词汇",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p204_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "We live on the ____. 我们住在地球上。\nA. moon\nB. star\nC. earth\nD. sun",
+    "answer": "C. earth",
+    "solution": "人类住在地球 earth 上。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "太空词汇",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p204_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "At night, we can see the ____ and stars.\nA. rocket\nB. sun\nC. rain\nD. moon",
+    "answer": "D. moon",
+    "solution": "夜里能看到月亮和星星。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "太空词汇",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p204_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "space 在 Exploring space 中的意思是？\nA. 太空\nB. 地方\nC. 空房间\nD. 空格",
+    "answer": "A. 太空",
+    "solution": "Exploring space 是探索太空。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "太空词汇",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p204_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "I ____ be an astronaut in the future.\nA. will\nB. am\nC. did\nD. was",
+    "answer": "A. will",
+    "solution": "说将来用 will 加动词原形。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用 will 说未来的太空生活",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p205_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句正确？\nA. We wills visit Mars one day.\nB. We will visits Mars one day.\nC. We will visit Mars one day.\nD. We will visiting Mars one day.",
+    "answer": "C. We will visit Mars one day.",
+    "solution": "will 后面接动词原形。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用 will 说未来的太空生活",
+      "语法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p205_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Will people travel to space? 肯定回答是？\nA. Yes, they are.\nB. Yes, they will.\nC. Yes, they do.\nD. Yes, they did.",
+    "answer": "B. Yes, they will.",
+    "solution": "Will 提问用 will 回答。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用 will 说未来的太空生活",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p205_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "「机器人将会帮助宇航员」哪一句对？\nA. Robots will help astronauts.\nB. Robots are help astronauts.\nC. Robots will helped astronauts.\nD. Robots helped astronauts.",
+    "answer": "A. Robots will help astronauts.",
+    "solution": "will help 表示将来。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "用 will 说未来的太空生活",
+      "语法"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p205_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Shenzhou-5 took Yang Liwei into space in 2003. 是哪一年？\nA. 2013\nB. 2003\nC. 2005\nD. 2030",
+    "answer": "B. 2003",
+    "solution": "原文写 in 2003。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂太空短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p206_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Chang'e-5 brought back soil from the moon. 带回了什么？\nA. 月球土壤\nB. 太空水\nC. 火星石头\nD. 星星",
+    "answer": "A. 月球土壤",
+    "solution": "soil from the moon 是月球土壤。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂太空短文",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p206_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "The astronauts live and work in the space station for six months. 他们在空间站待多久？\nA. 六个月\nB. 六年\nC. 六天\nD. 六周",
+    "answer": "A. 六个月",
+    "solution": "six months 是六个月。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂太空短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p206_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Tiangong is China's space station. Tiangong 是什么？\nA. 一枚火箭\nB. 一颗行星\nC. 一个月亮\nD. 中国的空间站",
+    "answer": "D. 中国的空间站",
+    "solution": "space station 是空间站。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂太空短文",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p206_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "turn off the lights 的意思是？\nA. 修灯\nB. 开灯\nC. 换灯\nD. 关灯",
+    "answer": "D. 关灯",
+    "solution": "turn off 是关掉。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能源与节约词汇",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p207_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "solar energy 是什么能？\nA. 水能\nB. 煤炭\nC. 风能\nD. 太阳能",
+    "answer": "D. 太阳能",
+    "solution": "solar 和太阳有关。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能源与节约词汇",
+      "词汇"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p207_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "We can ____ energy by taking the bus. 坐公交可以节约能源。\nA. spend\nB. save\nC. make\nD. waste",
+    "answer": "B. save",
+    "solution": "节约用 save。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能源与节约词汇",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p207_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪种做法会浪费能源？\nA. Leave the TV on all night.\nB. Walk to school.\nC. Use both sides of paper.\nD. Turn off the lights.",
+    "answer": "A. Leave the TV on all night.",
+    "solution": "整夜开着电视浪费电。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能源与节约词汇",
+      "词汇"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p207_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Please ride a bike or walk to school. 这条倡议鼓励什么？\nA. 在家上课\nB. 多买自行车\nC. 绿色出行\nD. 多坐出租车",
+    "answer": "C. 绿色出行",
+    "solution": "骑车或步行是绿色出行。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂节能倡议",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p208_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Don't leave the lights on. 意思是？\nA. 灯坏了\nB. 不要买灯\nC. 不要开着灯不关\nD. 不要关灯",
+    "answer": "C. 不要开着灯不关",
+    "solution": "leave the lights on 是让灯一直亮着。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂节能倡议",
+      "读写"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p208_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "Save energy, save our earth! 这句话的主题是？\nA. 学好英语\nB. 节约零花钱\nC. 节约能源，保护地球\nD. 探索太空",
+    "answer": "C. 节约能源，保护地球",
+    "solution": "energy 是能源，earth 是地球。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂节能倡议",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p208_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "哪一句适合写进节能倡议？\nA. Open the fridge often.\nB. Use the stairs, not the lift, for one floor.\nC. Keep the air conditioner on all day.\nD. Print every page twice.",
+    "answer": "B. Use the stairs, not the lift, for one floor.",
+    "solution": "走楼梯少用电梯，能省电。",
+    "question_type": "选择题",
+    "subject": "英语",
+    "education_level": "小学",
+    "grade": 6,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "读懂节能倡议",
+      "读写"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cne_p208_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  }
+]

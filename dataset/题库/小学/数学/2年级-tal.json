@@ -1,0 +1,2128 @@
+[
+  {
+    "question_text": "谎言岛有一半的人只在星期三、星期五、星期六说谎，另一半的人只在星期二、星期四、星期日说谎．某一天，岛上的所有人都说：``我明天说真话．''那么，这一天是．（2021年新希望杯二年级竞赛初赛数学试卷）\nA. 星期二\nB. 星期三\nC. 星期五\nD. 星期六\nE. 星期日",
+    "answer": "C. 星期五",
+    "solution": "前一半$$7$$天的情况：真、真、假、真、假、假、真，  后一半$$7$$天的情况：真、假、真、假、真、真、假，  $$\\text{A}$$选项：若这一天是星期二，则前一半人在今天说的是真话，那么明天应该说真话才合理，但星期三他们说的是假话，相互矛盾．后一半人在今天说的是假话，那么明天应该说假话才合理，但是星期三他们说的是真话，也相互矛盾，故$$\\text{A}$$错误；  $$\\text{B}$$选项：若这一天是星期三，则前一半人在今天说的是假话，那么明天应该说假话才合理，但星期四他们说的是真话，相互矛盾．后一半人在今天说的是真话，那么明天应该说真话才合理，但是星期四他们说的是假话，也相互矛盾，故$$\\text{B}$$错误；  $$\\text{C}$$选项：若这一天是星期五，则前一半人在今天说的是假话，那么明天应该说假话才合理，星期六他们说的正好是假话，符合．后一半人在今天说的是真话，那么明天应该说真话才合理，星期六他们说的正好是真话，符合，故$$\\text{C}$$正确；  $$\\text{D}$$选项：若这一天是星期六，则前一半人在今天说的是假话，那么明天应该说假话才合理，但星期日他们说的是真话，相互矛盾．后一半人在今天说的是真话，那么明天应该说真话才合理，但是星期日他们说的是假话，也相互矛盾，故$$\\text{D}$$错误；  E选项：若这一天是星期日，则前一半人在今天说的是真话，那么明天应该说真话才合理，星期一他们说的是真话，符合．后一半人在今天说的是假话，那么明天应该说假话才合理，但是星期一他们说的是真话，相互矛盾，故$$\\text{E}$$错误．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "逐步调整思想"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-1a49b835c49a4037b98bd3a778b616da",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把$$15$$个玻璃球分成数量不同的$$2$$堆，共有种不同的分法．\nA. $$4$$\nB. $$5$$\nC. $$6$$\nD. $$7$$",
+    "answer": "C. $$6$$",
+    "solution": "根据题意可得：  $$15=1+2+3+9$$；$$15=1+2+4+8$$；  $$15=1+2+5+7$$；$$15=1+3+4+7$$；  $$15=1+3+5+6$$；$$15=2+3+4+6$$；  一共有$$6$$种．  答：共有$$6$$种不同的分法．  故选：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-a3f78a6d920649c78a55ec9d267e4e84",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "请你根据数串的规律再横线上填上正确的答案：3,6,9,12~\\uline{~~~~~~~~~~}~，18.\nA. $$10$$\nB. $$12$$\nC. $$14$$\nD. $$15$$",
+    "answer": "D. $$15$$",
+    "solution": "后一个数等于前一个数$$+$$ 3",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "数形结合思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-22fa6501a31e41319a1941678ef43fdb",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "今年哥哥$$16$$岁，弟弟$$8$$岁，问年前，哥哥的年龄是弟弟的$$3$$倍．\nA. $$2$$\nB. $$4$$\nC. $$6$$\nD. $$8$$",
+    "answer": "B. $$4$$",
+    "solution": "从题干中可以知道，今年哥哥$$16$$岁，弟弟$$8$$岁，二者相差，$$16-8=8$$（岁），  那么题目问几年前，哥哥的年龄是弟弟的$$3$$倍，  也就是二者年龄差应该是弟弟的$$2$$倍，$$8\\div 2=4$$（岁），$$8-4=4$$（年），  即$$4$$年前，哥哥的年龄是弟弟的$$3$$倍．  我们可以验证一下，四年前，哥哥的年龄是：$$16-4=12$$（岁），弟弟的年龄是：$$8-4=4$$（岁）．  $$12$$岁正好是$$4$$岁的$$3$$倍．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-a12889b5e75941d2873393dfc5a0177d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "谎言岛有一半的人只在星期三、星期五、星期六说谎，另一半的人只在星期二、星期四、星期日说谎．某一天，岛上的所有人都说：``我明天说真话．''那么，这一天是．\nA. 星期二\nB. 星期三\nC. 星期五\nD. 星期六\nE. 星期日",
+    "answer": "C. 星期五",
+    "solution": "前一半$$7$$天的情况：真、真、假、真、假、假、真，  后一半$$7$$天的情况：真、假、真、假、真、真、假，  $$\\text{A}$$选项：若这一天是星期二，则前一半人在今天说的是真话，那么明天应该说真话才合理，但星期三他们说的是假话，相互矛盾．后一半人在今天说的是假话，那么明天应该说假话才合理，但是星期三他们说的是真话，也相互矛盾，故$$\\text{A}$$错误；  $$\\text{B}$$选项：若这一天是星期三，则前一半人在今天说的是假话，那么明天应该说假话才合理，但星期四他们说的是真话，相互矛盾．后一半人在今天说的是真话，那么明天应该说真话才合理，但是星期四他们说的是假话，也相互矛盾，故$$\\text{B}$$错误；  $$\\text{C}$$选项：若这一天是星期五，则前一半人在今天说的是假话，那么明天应该说假话才合理，星期六他们说的正好是假话，符合．后一半人在今天说的是真话，那么明天应该说真话才合理，星期六他们说的正好是真话，符合，故$$\\text{C}$$正确；  $$\\text{D}$$选项：若这一天是星期六，则前一半人在今天说的是假话，那么明天应该说假话才合理，但星期日他们说的是真话，相互矛盾．后一半人在今天说的是真话，那么明天应该说真话才合理，但是星期日他们说的是假话，也相互矛盾，故$$\\text{D}$$错误；  E选项：若这一天是星期日，则前一半人在今天说的是真话，那么明天应该说真话才合理，星期一他们说的是真话，符合．后一半人在今天说的是假话，那么明天应该说假话才合理，但是星期一他们说的是真话，相互矛盾，故$$\\text{E}$$错误．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "分类讨论思想"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-031197a17061487db7badbb2648908d1",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有一种靶子，上面有$$1$$环、$$3$$环、$$5$$环、$$7$$环和$$9$$环表示射中的环数． 甲说：``我打了$$5$$枪，每枪都中靶，共中了$$35$$环．'' 乙说：``我打了$$6$$枪，每枪都中靶，共中了$$36$$环．'' 丙说：``我打了$$3$$枪，每枪都中靶，共中了$$24$$环．'' 丁说：``我打了$$4$$枪，只有$$1$$枪没中靶，共中了$$21$$环．'' 已知他们四人中，只有一人说了假话．那么说假话的是．\nA. 甲\nB. 乙\nC. 丙\nD. 丁",
+    "answer": "C. 丙",
+    "solution": "单双数加减的性质是：单数个单数和为单，双数个单数和为双．  甲：$$9+9+9+1+7=35$$，正确．  乙：$$9+9+9+1+1+7=36$$，正确．  丙：三个单数的和为单数，结果$$24$$为双数，错误．  丁：$$7+7+7+0=21$$，正确．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "拓展思维",
+      "组合模块",
+      "逻辑推理",
+      "假设型逻辑推理",
+      "真假话",
+      "找矛盾"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-88856aef562c4200ac34e26b6c173c0d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "古时候某国有两座城，一座``真城''，一座``假城''，真城的人都说真话，假城的人都说假话.一天，一个国外游客来到其中的一座城，他向遇到的一位该国国民提了一个问题，就明白了自己到的是真城还是假城.以下（ ）最可能是游客提的问题.\nA. 你是真城的人吗?\nB. 你是假城的人吗?\nC. 你是说真话的人吗?\nD. 你是说假话的人吗?\nE. 你是这座城的人吗?",
+    "answer": "E. 你是这座城的人吗?",
+    "solution": "对于A，B，C，D，不论问哪个城里的人，很明显得到的是相同的答案，无法判断真假，只有问E时，真城里的人会回答``是''，而假城里的人的答案是``不是''.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "逻辑推理",
+      "假设型逻辑推理"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-e05104d6577e498b8bdd505b82ac5abc",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "五一到了，花花想要出去旅游，她有$$2$$顶帽子、$$3$$条项链、$$5$$种头花、$$2$$双鞋、$$3$$条裙子，每类物品中各选一类进行搭配．那么，一共有种不同的搭配方法．\nA. $$200$$\nB. $$160$$\nC. $$180$$\nD. $$170$$",
+    "answer": "C. $$180$$",
+    "solution": "$$2\\times 2\\times 3=12$$（种）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "课内体系",
+      "能力",
+      "运算求解",
+      "拓展思维",
+      "计数模块",
+      "加乘原理",
+      "乘法原理",
+      "物品搭配"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-d7733d6409ad4b6ba55131ce03af17e4",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果$$1$$斤菠萝可以做$$2$$个菠萝蛋糕，那么要做$$10$$个菠萝蛋糕，需要斤菠萝．\nA. $$2$$\nB. $$5$$\nC. $$10$$\nD. $$8$$",
+    "answer": "B. $$5$$",
+    "solution": "根据$$1$$斤菠萝可以做$$2$$个菠萝蛋糕，那么要做$$10$$个菠萝蛋糕，需要菠萝$$10\\div2=5$$（斤）．故选择$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "归一归总问题",
+      "乘除法应用",
+      "除法应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-bf6caaf45c044ca4accdeecc12f9c345",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "鸭妈妈带着小鸭们在池塘里游玩，黄小鸭发现：有$$2$$只小鸭在它的前面，$$3$$只小鸭在它的后面．池塘里共有几只小鸭？\nA. $$4$$\nB. $$5$$\nC. $$6$$\nD. $$7$$\nE. $$8$$",
+    "answer": "C. $$6$$",
+    "solution": "根据题意分析可知，用黄小鸭前面的数量加上后面的数量再加上自己所以一共有：  $$2+3+1=6$$（只）小鸭，  故答案为：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-2aea0cb99cf2476d97b40a86bc4c1036",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把$$15$$个玻璃球分成数量不同的$$2$$堆，共有种不同的分法．（每堆至少分$$1$$个）\nA. $$4$$\nB. $$5$$\nC. $$6$$\nD. $$7$$",
+    "answer": "C. $$6$$",
+    "solution": "根据题意可得：  $$15=1+2+3+9$$；$$15=1+2+4+8$$；  $$15=1+2+5+7$$；$$15=1+3+4+7$$；  $$15=1+3+5+6$$；$$15=2+3+4+6$$；  一共有$$6$$种．  答：共有$$6$$种不同的分法．  故选：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计数模块",
+      "枚举法综合",
+      "整数分拆",
+      "整数拆分应用",
+      "加法拆数（应用）"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-15e7c56860744089b21f7bd13d4fd783",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$42$ children line up for the autumn outing. Counting from front to back, $Y$ is the $22$\\textsuperscript{nd}. Counting from back to front, $M$ is the $22$\\textsuperscript{nd}. How many children are there between $Y$ and $M$?  $$42$$个小朋友排成一队去秋游，从排头往后数，小$$Y$$是第$$22$$个，从排尾往前数，小$$M$$是第$$22$$个，小$$Y$$和小$$M$$中间有个人．\nA. $$0$$\nB. $$1$$\nC. $$2$$\nD. $$3$$",
+    "answer": "A. $$0$$",
+    "solution": "根据题意分析可知，小$$Y$$后面有$$42-22=20$$（人），$$22-20-1=1$$（人）．那么小$$M$$应该在小$$Y$$的正前方，所以小$$Y$$和小$$M$$之间有$$0$$个人．  故选：$$\\text{A}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解",
+      "Overseas Competition",
+      "知识点",
+      "计数模块",
+      "加乘原理",
+      "排队问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-63bef6464e6848b8a61255b434fc6194",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：$$3+5+7+9+11+13+15+17=$$~\\uline{~~~~~~~~~~}~．\nA. $$60$$\nB. $$70$$\nC. $$80$$\nD. $$90$$",
+    "answer": "C. $$80$$",
+    "solution": "此题分为两种思路：一种可以直接使用凑整的方法，共有$$4$$对，$$20\\times ~4=80$$；另一种可以使用等差数列求和的方法：$$\\left( 3+17 \\right)\\times ~8\\div2=80$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "整数",
+      "整数加减",
+      "整数加减巧算之分组法"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-e1d55053f0464d648e3bde4f7b5d1003",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "妈妈带了一些钱去买书，刚好够买一套《窗边的小豆豆》；这些钱如果买$$10$$元一本的《安徒生童话》可以买$$4$$本，那么，一套《窗边的小豆豆》的价格是~\\uline{~~~~~~~~~~}~元．\nA. $$10$$\nB. $$20$$\nC. $$30$$\nD. $$40$$\nE. $$50$$",
+    "answer": "D. $$40$$",
+    "solution": "$$10\\times 4=40$$（元）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "和差倍问题",
+      "倍的基本计算",
+      "两量倍",
+      "海外竞赛体系",
+      "知识点",
+      "分百应用题",
+      "认识单位1"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-b7d27b21eed747ccbf14d0fcbd854e42",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "少先队员排队去参观科技馆，从排头数起小明是第$$10$$个；从排尾数起，小英是第$$13$$个。小明的前面就是小英，这队少先队员共有（  ）人。\nA. $$24$$\nB. $$23$$\nC. $$22$$\nD. $$21$$",
+    "answer": "D. $$21$$",
+    "solution": "解：$$10-1+13-1=21$$（人）  答：这队少先队员共有$$21$$人。  故答案选：D。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "应用题模块排队问题"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-0eee928faf1f4a9eb0b3f8f4b0dc32c6",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小皮、小舒和小贝是同班同学，他们中一个是班长，一个是学习委员，一个是体育委员．  （2020年希望杯二年级竞赛模拟数学试卷）  现在知道：  ①小皮的年龄比体育委员的年龄大；  ②小舒比学习委员的年龄大；  ③小贝和学习委员年龄不同．  那么小皮、小舒和小贝分别担任．\nA. 班长，学习委员，体育委员\nB. 学习委员，体育委员，班长\nC. 学习委员，班长，体育委员\nD. 班长，体育委员，学习委员\nE. 体育委员，班长，学习委员",
+    "answer": "C. 学习委员，班长，体育委员",
+    "solution": "由②小舒比学习委员的年龄大；和③小贝和学习委员年龄不同．可知小舒和小贝都不是学习委员，所以学习委员是小皮；  已知小舒比小皮大，并且小皮的年龄比体育委员的年龄大，所以小舒不是体育委员，所以小舒是班长；那么小贝就是体育委员．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-308781fbba334fb6a22da9b943571d9f",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "为了唤起人们对读书的热爱和对儿童图书的关注，$$4$$月有两个与读书有关的特别节日：$$2014$$年$$4$$月$$2$$日（星期三）是国际儿童图书日，那么，$$2014$$年$$4$$月$$23$$日世界读书日是在星期~\\uline{~~~~~~~~~~}~．\nA. 一\nB. 二\nC. 三\nD. 四\nE. 五",
+    "answer": "C. 三",
+    "solution": "$$2$$、$$9$$、$$16$$、$$23 $$星期三；或者$$(23-2+1)\\div7=3$$（周）$$\\cdots 1$$（天），周三那天．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "海外竞赛体系",
+      "知识点",
+      "应用题模块",
+      "分百应用题",
+      "认识单位1",
+      "拓展思维",
+      "能力",
+      "逻辑分析",
+      "代数逻辑推理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-1d10b06c3ad247b8bc57de360fcbe284",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个书架上有故事书、科技书、画册、字典四种书籍共$$35$$本，每种书籍的本数互不相同．其中故事书和科技书共有$$17$$本，科技书和画册共有$$16$$本．有一种书籍有$$9$$本，那么这种书籍是．\nA. 故事书\nB. 科技书\nC. 画册\nD. 字典",
+    "answer": "B. 科技书",
+    "solution": "故事书和科技书共有$$17$$本，  则画册和字典共有$$35-17=18$$本，  则画册与字典都不可能是$$9$$本，否则画册与字典都是$$9$$本，  则只能是故事书和科技书中的一类为$$9$$本，故故事书为$$9$$本，  则科技书为$$17-9=8$$本，  则画册为$$16-8=8$$本，矛盾，  故科技书为$$9$$本，  故选$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-17f92f772cd04d28a3fe537c8c5cdc06",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "李叔叔排队买票，他前面有$$5$$人，后面有$$6$$人．一共有人排队买票．\nA. $$8$$\nB. $$9$$\nC. $$10$$\nD. $$11$$",
+    "answer": "C. $$10$$",
+    "solution": "加上李叔叔自己，一共：$$5+6-1=10$$（人），  故选择：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-3403cdb6ef2e4a4985ddc1af1aca3121",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "李叔叔排队买票，他前面有$$11$$人，后面有$$12$$人．一共有人排队买票．\nA. $$22$$\nB. $$23$$\nC. $$24$$\nD. $$25$$",
+    "answer": "C. $$24$$",
+    "solution": "加上李叔叔自己，一共：$$11+1+12=24$$（人），  故选择：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-8995adcb75244f4fb75809b207c4693f",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个盒子里有一些大小相同的球，其中白的有$$8$$个，黑的有$$9$$个。不许看球，每次拿一个，至少拿~\\uline{~~~~~~~~~~}~次才能保证拿到黑球。\nA. $$9$$\nB. $$10$$\nC. $$11$$\nD. $$17$$",
+    "answer": "A. $$9$$",
+    "solution": "要保证拿出的球三种颜色都有，考虑倒霉的情况．最倒霉的是拿出的全部是黑色的球，那么这是$$9$$次，接着拿出的全部是白色的球，这是$$8$$次，最后随便拿一个肯定是黄色的，所以至少拿$$9+8+1=18$$（次）才能保证三种颜色的球都有．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "整体思想"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-0162d08da2b8459b9fc4313d182ed5ab",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一根$$30$$厘米长的木条，要锯成$$5$$厘米的小段，需要锯（  ）次。\nA. $$5$$\nB. $$6$$\nC. $$7$$",
+    "answer": "A. $$5$$",
+    "solution": "解：$$30\\div 5-1$$  $$=6-1$$  $$=5$$（次）  答：需要锯$$5$$次。  故答案为：$$5$$。",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "间隔问题",
+      "封闭型",
+      "封闭型植树问题",
+      "封闭植树类型问题(段数小于等于10)"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-a8f0b97719bc45d1abbfc1b938b797fc",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小皮、小舒和小贝是同班同学，他们中一个是班长，一个是学习委员，一个是体育委员．  （2020年希望杯二年级）  现在知道：  ①小皮的年龄比体育委员的年龄大；  ②小舒比学习委员的年龄大；  ③小贝和学习委员年龄不同．  那么小皮、小舒和小贝分别担任．\nA. 班长，学习委员，体育委员\nB. 学习委员，体育委员，班长\nC. 学习委员，班长，体育委员\nD. 班长，体育委员，学习委员\nE. 体育委员，班长，学习委员",
+    "answer": "C. 学习委员，班长，体育委员",
+    "solution": "由②小舒比学习委员的年龄大；和③小贝和学习委员年龄不同．可知小舒和小贝都不是学习委员，所以学习委员是小皮；  已知小舒比小皮大，并且小皮的年龄比体育委员的年龄大，所以小舒不是体育委员，所以小舒是班长；那么小贝就是体育委员．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-beddf9a04dc443d38eec0d91fa135a9d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个盒子里有一些大小相同的球，其中白的有$$8$$个，黑的有$$9$$个。不许看球，每次拿一个不放回，至少拿~\\uline{~~~~~~~~~~}~次才能保证拿到黑球。\nA. $$9$$\nB. $$10$$\nC. $$11$$\nD. $$17$$",
+    "answer": "A. $$9$$",
+    "solution": "要保证拿到黑球，考虑倒霉的情况．最倒霉的是拿出的全部是白色的球，那么这是$$8$$次，接着只剩黑球时，下一次一定能拿出黑球，所以至少拿$$8+1=9$$（次）才能保证拿到黑球．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "公式记忆",
+      "符号化数学原理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-898de766850d4c81a7a5520b08e2b319",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把$$10$$个玻璃球分成数量不同的$$3$$堆，共有种不同的分法．\nA. $$4$$\nB. $$5$$\nC. $$6$$\nD. $$7$$",
+    "answer": "A. $$4$$",
+    "solution": "根据题意可得：  $$15=1+2+3+9$$；$$15=1+2+4+8$$；  $$15=1+2+5+7$$；$$15=1+3+4+7$$；  $$15=1+3+5+6$$；$$15=2+3+4+6$$；  一共有$$6$$种．  答：共有$$6$$种不同的分法．  故选：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-d7de8f193557475085c056751de16bc1",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "甲、乙、丙三人中有一人是牧师，有一人是骗子，还有一人是赌徒．牧师从不说谎，骗子总是说谎，赌徒有时说真话有时说谎话．甲说:``我是牧师．''乙说:``我是骗子．''丙说:``我是赌徒．''那么，三人中，~\\uline{~~~~~~~~~~}~是牧师．\nA. 甲\nB. 乙\nC. 丙",
+    "answer": "A. 甲",
+    "solution": "根据条件，牧师不可能说假话，所以牧师一定会说自己是牧师，此题只有一个说自己是牧师．所以甲就是牧师．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "逻辑推理",
+      "假设型逻辑推理",
+      "真假话",
+      "找一致（同伙）"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-01c7c35ea418481f84b998642b3f19bc",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$42$$个小朋友排成一队去秋游，从排头往后数，小$$Y$$是第$$22$$个，从排尾往前数，小$$M$$是第$$22$$个，小$$Y$$和小$$M$$中间有个人．\nA. $$0$$\nB. $$1$$\nC. $$2$$\nD. $$3$$",
+    "answer": "A. $$0$$",
+    "solution": "根据题意分析可知，小$$Y$$后面有$$42-22=20$$（人），$$22-20-1=1$$（人）．那么小$$M$$应该在小$$Y$$的正前方，所以小$$Y$$和小$$M$$之间有$$0$$个人．  故选：$$\\text{A}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "实践应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-cac914d997734af691f9088746126770",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$10$$名同学参加$$50$$米赛跑．跑到一半的时候，小明后面有$$5$$人，前面有$$4$$人，之后，没有人超过他，而小明又超过了$$3$$人到达终点．这次比赛没有并列名次，那么小明是．\nA. 第一名\nB. 第二名\nC. 第三名\nD. 第四名\nE. 第五名",
+    "answer": "B. 第二名",
+    "solution": "刚开始小明在的名次是第$$5$$名，再超过三个人，因此$$5-3=2$$，小明变成了第$$2$$名.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "构造模型",
+      "模型思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-fc402a95c0f74317a1bab3c06e10c42b",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把$$3$$、$$3$$、$$5$$、$$9$$分别放入方格中，和最小是．  $$\\square \\square +\\square \\square $$\nA. $$56$$\nB. $$74$$\nC. $$92$$",
+    "answer": "B. $$74$$",
+    "solution": "要使得和最小，那么两个因数应该尽可能的小；  如果要求两个因数尽可能的小，那么两个因数十位应该填入较小数，  即这两个因数应该是：$$35+39=74$$，  所以和最小是$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-66219bb394c34ab4a941b52dcea65cef",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小$$Y$$和小$$M$$两人比赛爬楼梯，小$$Y$$跑到$$4$$楼时，小$$M$$恰好跑到$$3$$楼，照这样计算，小$$Y$$跑到$$16$$楼时，小$$M$$跑到了楼．\nA. $$10$$\nB. $$11$$\nC. $$12$$\nD. $$13$$",
+    "answer": "B. $$11$$",
+    "solution": "$$4-1=3$$（层楼梯），  $$3-1=2$$（层楼梯），  $$16-1=15$$（层楼梯），  $$15\\times \\frac{2},{3}=10$$（层楼梯），  $$10+1=11$$（层），  答：小$$M$$跑到了$$11$$层楼．  故选：$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "实践应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-39464b27b034493db260ea389b4a41c9",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "学校买回来$$10$$个足球和一些排球．过了一段时间丢失了$$3$$个足球，排球数量不变，这时排球比足球多$$4$$个．学校原来买了个排球．\nA. $$7$$\nB. $$9$$\nC. $$11$$\nD. $$14$$\nE. $$17$$",
+    "answer": "C. $$11$$",
+    "solution": "学校买回来$$10$$个足球和一些排球．过了一段时间丢失了$$3$$个足球，此时还剩足球$$10-3=7$$（个），这时排球比足球多$$4$$个，排球有$$7+4=11$$（个），故$$\\text{C}$$正确．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-564e65d0cfc24e149de776141f5b4d85",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把一根木料截成$$4$$段用$$12$$分钟．照这样的速度，如果把同样的木料截成$$8$$段，要用分钟．\nA. $$24$$\nB. $$26$$\nC. $$28$$\nD. $$30$$",
+    "answer": "C. $$28$$",
+    "solution": "从题干可以知道，把一根木料截成$$4$$段用$$12$$分钟；  我们要知道，锯一次可以把一根木料截成$$2$$段；锯二次可以把一根木料截成$$3$$段；  所以把一根木料截成$$4$$段需要锯三次，那么每次用时：$$12\\div3=4$$（分钟）；  照这样的速度，如果把同样的木料截成$$8$$段，即需要锯$$8-1=7$$（次）；  一共用时：$$7\\times4=28$$（分钟）；所以选择$$\\text{C}$$选项．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "逐步调整思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-55cc97d210094ea784b168a119f92ec1",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小帅第一天写$$5$$个大字，以后每一天都比前一天多写$$2$$个大字，$$6$$天后小帅一共写了个大字．\nA. $$30$$\nB. $$40$$\nC. $$60$$\nD. $$66$$",
+    "answer": "C. $$60$$",
+    "solution": "第一天$$5$$个大字，  第二天$$5+2=7$$个大字，  第三天$$7+2=9$$个大字，  第四天$$9+2=11$$个大字，  第五天$$11+2=13$$个大字，  第六天$$13+2=15$$个大字，  六天共写了$$5+7+9+11+13+15=60$$个大字．  故选：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-1c1784982f274501901989a50424d39c",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "李叔叔排队买票，他前面有$$5$$人，后面有$$6$$人．一共有人排队买票．\nA. $$9$$\nB. $$10$$\nC. $$11$$\nD. $$12$$",
+    "answer": "D. $$12$$",
+    "solution": "加上李叔叔自己，一共：$$5+6+1=12$$（人），  故选择：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-1bcb6aa08fe841d58f612105a27c703f",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$2018$$俄罗斯世界杯刚刚落下帷幕，其中世界杯英文单词``$$WORLD CUP$$''中不同字母代表 着大于$$1$$的不同数字，请问$$W+O+R+L+D+C+U+P=$$（~ ）．\nA. $$43$$\nB. $$44$$\nC. $$45$$\nD. $$54$$~",
+    "answer": "B. $$44$$",
+    "solution": "大于$$1$$的不同数字为：$$2$$、$$3$$、$$4$$、$$5$$、$$6$$、$$7$$、$$8$$、$$9$$，所以$$W+O+R+L+D+C+U+P=1+2+3+4+5+6+7+8+9=44$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-6594c3aee99648ad921473a07d788115",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "算式$$\\textasciitilde7+8\\times 9$$的正确结果是~\\uline{~~~~~~~~~~}~．\nA. $$65$$\nB. $$72$$\nC. $$79$$\nD. $$135$$",
+    "answer": "C. $$79$$",
+    "solution": "先算乘除，再算加减，$$7+8\\times 9=7+72=79$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "拓展思维",
+      "计算模块",
+      "整数",
+      "四则混合运算"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-0fa72b15204a4b69b3f40249f2c0a809",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "两人共有钱$$200$$元，如果甲借给乙$$30$$元，那么甲、乙两人的钱数相等．那么甲原来有元．\nA. $$100$$\nB. $$110$$\nC. $$120$$\nD. $$130$$",
+    "answer": "D. $$130$$",
+    "solution": "从题干可以知道，两人共有钱$$200$$元，如果甲借给乙$$30$$元，那么甲、乙两人的钱数相等；  即此时每个人有钱：$$200\\div 2=100$$（元），  那么甲原来有：$$100+30=130$$（元），  那么乙原来有：$$100-30=70$$（元）．  故选：$$\\text{D}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-f5d6ce75f0f2469399c08396f8d1e7e2",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把$$15$$个玻璃球分成数量不同的$$4$$堆，共有种不同的分法．\nA. $$4$$\nB. $$5$$\nC. $$6$$\nD. $$7$$",
+    "answer": "C. $$6$$",
+    "solution": "根据题意可得：  $$15=1+2+3+9$$；$$15=1+2+4+8$$；  $$15=1+2+5+7$$；$$15=1+3+4+7$$；  $$15=1+3+5+6$$；$$15=2+3+4+6$$；  一共有$$6$$种．  答：共有$$6$$种不同的分法．  故选：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-b215955a042543a0b05371c46e7eb8c9",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：$$79-67+121-33=$$~\\uline{~~~~~~~~~~}~．\nA. $$100$$\nB. $$200$$\nC. $$300$$\nD. $$400$$",
+    "answer": "A. $$100$$",
+    "solution": "$$\\textasciitilde\\textasciitilde\\textasciitilde\\textasciitilde79-67+121-33$$  $$=79+121-\\left( 67+33 \\right)$$  $$=200-100$$  $$=100$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "整数",
+      "整数加减",
+      "整数加减巧算之凑整法",
+      "加减法凑整综合",
+      "Overseas Competition",
+      "知识点",
+      "应用题模块",
+      "加减法应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-80b230d06a78427ab826aa6c4f43c0e7",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "【补3】小明参加$$\\text{YMO}$$竞赛，共有$$20$$道赛题，答对一题给$$5$$分，答错一题或不答扣$$1$$分．小明得了$$76$$分．小明答对了题．\nA. $$13$$\nB. $$14$$\nC. $$15$$\nD. $$16$$",
+    "answer": "D. $$16$$",
+    "solution": "根据题意分析可知，假设$$20$$道题全部做对，  则得：$$20\\times5=100$$（分），现在比满分少了$$100-76=24$$（分），  又因为答错或不答一题比答对一题少$$1+5=6$$（分），  也就是做错了：$$24\\div6=4$$（题），  所以做对了：$$20-4=16$$（题），  故选答案$$\\text{D}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "转化与化归的思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-fe56c4b2a0964c45b1563c35f76db5a4",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "李叔叔排队买票，他前面有$$11$$人，后面有$$12$$人．一共有人排队买票．\nA. $$21$$\nB. $$22$$\nC. $$23$$\nD. $$24$$\nE. $$25$$",
+    "answer": "D. $$24$$",
+    "solution": "加上李叔叔自己，一共：$$11+1+12=24$$（人），  故选择：$$\\text{D}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "应用题模块排队问题",
+      "单主角求总数",
+      "Overseas Competition",
+      "知识点",
+      "分百应用题",
+      "认识单位1"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-b9a06b0f40e746f5bc2d70392b3c3bf5",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$42$$个小朋友排成一队去秋游，从排头往后数，小$$Y$$是第$$22$$个，从排尾往前数，小$$M$$是第$$22$$个，小$$Y$$和小$$M$$中间有个人．  42 students are standing in a line. Counting from the front, Y is the 22nd. Counting from the back, M is the 22nd. There are~\\uline{~~~~~~~~~~}~people between Y and M.\nA. $$0$$\nB. $$1$$\nC. $$2$$\nD. $$3$$",
+    "answer": "A. $$0$$",
+    "solution": "根据题意分析可知，小$$Y$$后面有$$42-22=20$$（人），$$22-20-1=1$$（人）．那么小$$M$$应该在小$$Y$$的正前方，所以小$$Y$$和小$$M$$之间有$$0$$个人．  故选：$$\\text{A}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解",
+      "Overseas Competition",
+      "知识点",
+      "应用题模块",
+      "应用题模块排队问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ae77fc2e337e4aed8ad7f35ccbff16ae",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "鸭妈妈带着小鸭们在池塘里游玩，黄小鸭发现：有$$2$$只小鸭在它的前面，$$3$$只小鸭在它的后面．池塘里共有几只鸭？\nA. $$4$$\nB. $$5$$\nC. $$6$$\nD. $$7$$\nE. $$8$$",
+    "answer": "D. $$7$$",
+    "solution": "根据题意分析可知，用黄小鸭前面的数量加上后面的数量再加上自己所以一共有：  $$2+3+1=6$$（只）小鸭，再加上鸭妈妈  故答案为：$$\\text{D}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "应用题模块排队问题",
+      "单主角求总数",
+      "Overseas Competition",
+      "知识点"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-28a8a1b0ad5644608e42a1061700e5e1",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "请你根据数串的规律再横线上填上正确的答案：3,6,9,12~\\uline{~~~~~~~~~~}~，15.\nA. $$10$$\nB. $$12$$\nC. $$14$$\nD. $$16$$",
+    "answer": "D. $$16$$",
+    "solution": "后一个数等于前一个数$$\\times$$ 2",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "数形结合思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-31bb23e43e2943b882300657437ad3a0",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果$$3$$斤菠萝可以做$$6$$个菠萝蛋糕，那么要做$$10$$个菠萝蛋糕，需要斤菠萝．\nA. $$2$$\nB. $$5$$\nC. $$10$$\nD. $$20$$\nE. $$8$$",
+    "answer": "B. $$5$$",
+    "solution": "根据$$1$$斤菠萝可以做$$2$$个菠萝蛋糕，那么要做$$10$$个菠萝蛋糕，需要$$10\\div2=5$$（斤）菠萝．故选择$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-d3181eb91a844e5c8aa2ba920c02936c",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "草地上有许多兔子．数一数黑兔与白兔一共$$16$$只，黑兔与灰兔一共$$17$$只，白兔与灰兔一共$$15$$只．问草地上三种兔子一共有只．\nA. $$20$$\nB. $$22$$\nC. $$24$$\nD. $$26$$",
+    "answer": "C. $$24$$",
+    "solution": "草地上三种兔子一共有：  $$(16+17+15)\\div 2$$  $$=48\\div 2$$  $$=24$$（只）．  故选：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "列方程解应用题",
+      "列方程解应用题等量代换",
+      "等量代换替换型"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-1ebf3e9fbe7c4db697c81520ab03b217",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "熊奶奶家的水缸可以装$$8$$桶水，小熊每天早晨提$$4$$桶水，熊奶奶全家每天用$$3$$桶水．熊奶奶问小熊：``这样下去，到第天，我们家的水缸会装满水了．\nA. $$4$$\nB. $$5$$\nC. $$6$$",
+    "answer": "B. $$5$$",
+    "solution": "小熊都是早晨提$$4$$桶水，则最后一天会提$$4$$桶水到水缸，所以$$8-4=4$$（桶），而前面的每天只装水：$$4-3=1$$（桶）．所以天数为：$$4\\div1+1=5$$（天）．  故选$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-7ae8c4ad7c434d0d9b822b7de2576669",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "请你根据数串的规律再横线上填上正确的答案：3,6,12,~\\uline{~~~~~~~~~~}~，48.\nA. $$15$$\nB. $$18$$\nC. $$24$$",
+    "answer": "C. $$24$$",
+    "solution": "后一个数等于前一个数$$\\times$$ 2",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-bc5a057814404cd086848075152f1231",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有一串数按照$$1$$，$$0$$，$$2$$，$$4$$，$$1$$，$$0$$，$$2$$，$$4$$$$\\cdots \\cdots $$的顺序排列，一共写了$$21$$个数，那么这$$21$$个数的和是多少？\nA. $$35$$\nB. $$36$$\nC. $$37$$",
+    "answer": "B. $$36$$",
+    "solution": "周期是$$4$$，$$21\\div$$ 4=5（组）$$\\cdots \\cdots $$1（个），每组的和：$$1+0+2+4=7$$，共：$$5\\times$$ 7+1=36.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "整体思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-cd4e53d7390f4f05a6beae81e0669d7e",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "红花有$$22$$朵，蓝花比红花多$$16$$朵，蓝花比黄花少$$9$$朵．黄花有朵．\nA. $$15$$\nB. $$27$$\nC. $$29$$\nD. $$47$$",
+    "answer": "D. $$47$$",
+    "solution": "根据题意分析可知，已知红花的数量是$$22$$朵，蓝花比红花多$$16$$朵，即是比$$22$$多$$16$$，所以蓝花的数量是：$$22+16=38$$（朵）；蓝花比黄花少$$9$$朵也就是黄花比蓝花多$$9$$朵，所以黄花的数量是：$$38+9=47$$（朵）．  故选：$$\\text{D}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-4afa2fde865a44f4a60460e66c2e6a19",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$20$$个同学排成一队做操，从左边数小文排在第$$12$$个，从右边数小文排在第个．\nA. $$7$$\nB. $$8$$\nC. $$9$$",
+    "answer": "C. $$9$$",
+    "solution": "小文的左边有人：$$12-1=11$$（人），  所以从右边数小文排在：$$20-11=9$$（个）．  故选择$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "整体思想"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-b570f15082564ca39a789cc3bdbd8d63",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "狐狸、灰兔、小熊、小猪和松鼠都参加了跳绳比赛，小猪比狐狸少跳了$$3$$下，小猪比小熊少跳了$$1$$下，灰兔比狐狸多跳了$$3$$下，比松鼠少跳$$3$$下，狐狸是第~\\uline{~~~~~~~~~~}~名．\nA. $$1$$\nB. $$2$$\nC. $$3$$\nD. $$4$$\nE. $$5$$",
+    "answer": "C. $$3$$",
+    "solution": "根据题目描述得小猪\\textless 小熊\\textless 狐狸\\textless 灰兔\\textless 松鼠．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "Overseas Competition",
+      "知识点",
+      "组合模块",
+      "逻辑推理",
+      "拓展思维",
+      "条件型逻辑推理",
+      "神推理"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-9812d4f24482420580c6931d94c5d771",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有大、小两桶油共重$$50$$千克，两个桶都倒出同样多的油后，分别还剩$$14$$千克和$$6$$千克，小桶原来装油千克．\nA. $$18$$\nB. $$20$$\nC. $$21$$\nD. $$25$$",
+    "answer": "C. $$21$$",
+    "solution": "从题干可以知道，有大、小两桶油共重$$50$$千克，两个桶都倒出同样多的油后，分别还剩$$14$$千克和$$6$$千克，不妨设倒出来的油有$$x$$千克，那么大桶有油：$$(x+14)$$千克，小桶有油：$$\\left( x+6 \\right)$$千克．  $$\\left( x+14 \\right)+\\left( x+6 \\right)=50$$  $$2x+20=50$$  $$x=15$$．  所以倒出部分是$$15$$千克，那么小桶原来装油$$15+6=21$$（千克），即小桶原来装油$$21$$千克．  故选：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "方程思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-a8b20bb9f26d454080fb879de825eb15",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "猴子摘桃，第一天摘了树上桃子的一半，第二天又摘了余下桃子的一半多$$1$$个，这时树上还有$$9$$个桃子，原来树上有个桃子．\nA. $$32$$\nB. $$36$$\nC. $$40$$\nD. $$42$$",
+    "answer": "C. $$40$$",
+    "solution": "根据题目叙述倒推，第二天又摘了余下桃子的一半多$$1$$个，这时树上还有$$9$$个桃子，所以第一天摘完还剩桃子$$\\left(9+1\\right)\\div\\frac{1},{2}=20$$（个），因为第一天摘了树上桃子的一半，所以原来树上有$$20\\div\\frac{1},{2}=40$$（个），所以答案为$$40$$个．  故选：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "数据处理"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-686e06716f0d44aba382ad946ebafaea",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "二年级一班有$$25$$人，其中男生有$$11$$人．全班属兔的有$$8$$人，其余的同学都属龙，那么女生中至少有人属龙．\nA. $$3$$\nB. $$4$$\nC. $$5$$\nD. $$6$$\nE. $$9$$",
+    "answer": "D. $$6$$",
+    "solution": "二年级一班有$$25$$人，其中男生有$$11$$人，则女生有$$25-11=14$$人，$$8$$人属兔，则属龙的有$$25-8=17$$人，女生中至少有$$14-8=6$$人属龙．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "构造模型",
+      "模型思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-da3ca35220ff4ad596de1e7f94f384a8",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "二（$$1$$）班的同学算两道口算题，第一道算对的有$$20$$人，第二道算对的有$$31$$人，两道都对的有$$10$$人，这个班共有个同学．\nA. $$41$$\nB. $$51$$\nC. $$61$$",
+    "answer": "A. $$41$$",
+    "solution": "根据重叠问题，可知这个班上共有同学：$$20+31-10=41$$人．  故选择$$\\text{A}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "实践应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-9b9fddf4c3884f5fbcf59112ab39d4cb",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小林今年$$8$$岁．小林满$$10$$岁时，爸爸正好$$39$$岁，爸爸今年岁．\nA. $$29$$\nB. $$31$$\nC. $$37$$",
+    "answer": "C. $$37$$",
+    "solution": "爸爸比小林大：$$39-10=29$$（岁），所以今年爸爸的年龄为：$$29+8=37$$（岁）．  故选择$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-8373cebd7bc246ee9c8eb04eb97982ac",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把一张正方形纸对折$$1$$次，可以得到$$2$$个完全相同的长方形；再对折$$1$$次，可以得到$$4$$个完全相同的长方形；再对折$$1$$次，可以得到$$\\cdots \\cdots $$那么把这张正方形的纸连续对折多少次，可以得到$$128$$个完全相同的长方形？\nA. 6次\nB. 7次\nC. 8次\nD. 64次",
+    "answer": "B. 7次",
+    "solution": "（$$1$$）对折$$3$$次，得到$$8$$个完全相同的长方形；  （$$2$$）对折$$4$$次，得到$$16$$个完全相同的长方形；  （$$3$$）对折$$5$$次，得到$$32$$个完全相同的长方形；  （$$4$$）对折$$6$$次，得到$$64$$个完全相同的长方形；  （$$5$$）对折$$7$$次，得到$$128$$个完全相同的长方形；  答：把这张正方形的纸连续对折$$7$$次，可以得到$$128$$个完全相同的长方形．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-4a6c95f3b4ad41eb857ce0290604a957",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "芳芳煮熟$$2$$个生鸡蛋用$$6$$分钟，煮熟$$10$$个生鸡蛋用分钟．\nA. $$3$$\nB. $$6$$\nC. $$30$$",
+    "answer": "B. $$6$$",
+    "solution": "鸡蛋可以一起煮，所以所花的时间是一样的．  故选择$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "操作与策略",
+      "统筹规划",
+      "简单时间统筹问题",
+      "时间总和问题"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-f442abd3b0f2414f96b4d10d52bc0cc3",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把$$3$$、$$3$$、$$5$$、$$9$$分别放入方格中，不能重复使用，那么和最小是．  $$\\square \\square +\\square \\square $$\nA. $$56$$\nB. $$74$$\nC. $$92$$\nD. $$146$$\nE. $$188$$",
+    "answer": "B. $$74$$",
+    "solution": "要使得和最小，那么两个因数应该尽可能的小；  如果要求两个因数尽可能的小，那么两个因数十位应该填入较小数，  即这两个因数应该是：$$35+39=74$$，  所以和最小是$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-01d9d2aeb27a4c0c8734f9e5ee0672e8",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "五一到了，花花想要出去旅游，她有$$2$$顶帽子、$$3$$条项链、$$5$$种头花、$$2$$双鞋、$$3$$条白色裙子、$$4$$条粉色裙子、$$1$$条蓝色裙子，每类物品中各选一样进行搭配．那么，一共有种不同的搭配方法．\nA. $$20$$\nB. $$460$$\nC. $$480$$\nD. $$720$$",
+    "answer": "C. $$480$$",
+    "solution": "$$2\\times 2\\times 3=12$$（种）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "课内体系",
+      "思想",
+      "对应思想",
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-a70973afeffe4f30978d8c5952978f70",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "算式$$\\textasciitilde8+9\\times 5$$的正确结果是（~ ）．\nA. $$85$$\nB. $$55$$\nC. $$53$$\nD. $$62$$~",
+    "answer": "C. $$53$$",
+    "solution": "先算乘除，再算加减，$$8+9\\times 5=8+45=53$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "整数",
+      "四则混合运算"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ce36ce976f3b45339902bed7a3c60882",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$20$$个同学排成一队做操，从左边数小文排在第$$12$$个，从右边数小文排在第个．\nA. $$7$$\nB. $$8$$\nC. $$9$$\nD. $$10$$",
+    "answer": "C. $$9$$",
+    "solution": "小文的左边有人：$$12-1=11$$（人），  所以从右边数小文排在：$$20-11=9$$（个）．  故选择$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "整体思想"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-71bcefd196c648259f163cf044af2cdc",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小皮、小舒和小贝是同班同学，他们中一个是班长，一个是学习委员，一个是体育委员．现在知道：  ①小皮的年龄比体育委员的年龄大；  ②小舒比学习委员的年龄大；  ③小贝和学习委员年龄不同．  那么小皮、小舒和小贝分别担任．\nA. 班长，学习委员，体育委员\nB. 学习委员，体育委员，班长\nC. 学习委员，班长，体育委员\nD. 班长，体育委员，学习委员",
+    "answer": "C. 学习委员，班长，体育委员",
+    "solution": "由②小舒比学习委员的年龄大；和③小贝和学习委员年龄不同．可知小舒和小贝都不是学习委员，所以学习委员是小皮；  已知小舒比小皮大，并且小皮的年龄比体育委员的年龄大，所以小舒不是体育委员，所以小舒是班长；那么小贝就是体育委员．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-8f0f40848f6a4253be5828b817464fdd",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小$$\\text{Y}$$和小$$\\text{M}$$共同组装$$15$$个机器人玩具．小$$\\text{Y}$$每$$2$$小时组装$$1$$个机器人玩具，小$$\\text{M}$$每$$3$$小时组装一个机器人玩具，两人同时开始组装，小时能完成任务．\nA. $$10$$\nB. $$15$$\nC. $$18$$\nD. $$20$$",
+    "answer": "C. $$18$$",
+    "solution": "根据题意分析可知，用工作总量除以工作效率就能得到工作时间，小$$\\text{Y}$$的工作效率为：$$1\\div 2=\\frac{1},{2}$$，小$$\\text{M}$$的工作效率为：$$1\\div 3=\\frac{1},{3}$$，所以两人同时组装，完成的时间为：   $$15 \\div \\left( \\frac{1},{2}+ \\frac{1},{3}\\right)$$  $$=15 \\div \\frac{5},{6}$$  $$=18$$（小时）  故答案为：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-e1f07df818ed402a8a1d70bd82131f5a",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一根细绳对折两次后，从正中间剪开，最短的一段长$$1$$米，这根细绳原来长米．\nA. $$4$$\nB. $$6$$\nC. $$8$$\nD. $$10$$",
+    "answer": "A. $$4$$",
+    "solution": "根据题意分析可知，一根细绳对折两次后被分成了$$4$$段，从中间剪开后，分为两个一样长的短段和一个长段，长段的距离是短段的$$2$$倍，  所以细绳原来长：$$2+1+1=4$$（米）．  故选$$\\text{A}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "间隔问题",
+      "直线型两端都没有",
+      "剪绳子"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-e8b8f108ca294fbb8824747ebff03d9c",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "计算：$$199\\times 11-199\\times 2-199\\times 8-199$$\nA. $$198$$\nB. $$0$$\nC. $$8$$\nD. $$1990$$",
+    "answer": "B. $$0$$",
+    "solution": "原式$$\\begin{eqnarray}\\&=\\&199\\times \\left( 11-2-8-1 \\right)\\end{eqnarray}$$  $$\\begin{eqnarray}    \\&=\\&199\\times 0   \\&=\\&0\\end{eqnarray}$$",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "整数",
+      "整数提取公因数",
+      "整数乘法巧算之提取公因数（普通型）"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-4e4ba2ebd91643c280c44c266409c628",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$10$$名同学参加$$50$$米赛跑．跑到一半的时候，小明后面有$$5$$人，前面有$$4$$人，之后，没有人超过他，而小明又超过了$$3$$人到达终点．这次比赛没有并列名次，那么小明是．\nA. 第一名\nB. 第二名\nC. 第三名\nD. 第四名",
+    "answer": "B. 第二名",
+    "solution": "小明后面有$$5$$人，前面有$$4$$人，则他此时排在第$$5$$，之后，没有人超过他，小明又超过了$$3$$人后，他此时就是第二名．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "构造模型",
+      "模型思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-fd425719f59a4299ba099b7c4a89e9c0",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "个位数字与十位数字不同的两位数共有个．\nA. $$90$$\nB. $$82$$\nC. $$81$$\nD. $$80$$\nE. $$79$$",
+    "answer": "C. $$81$$",
+    "solution": "根据题意分析可知，个数数字与十位数字相同的两位数有$$10$$个，两位数一共有$$91$$个，  由此可知，个位数字与十位数字不同的两位数有$$91-10=81$$（个）．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计数模块",
+      "枚举法综合",
+      "字典排序法",
+      "组数",
+      "数字组数（规定数位大小）"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-5b14e8f16a1b4366a4d3d681ba1ced3e",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一张课桌$$60$$元，比一把椅子多$$20$$元．一套课桌椅元．\nA. $$40$$\nB. $$80$$\nC. $$100$$\nD. $$120$$",
+    "answer": "C. $$100$$",
+    "solution": "根据题意分析可知，  一张桌子比一把椅子多$$20$$元，  那么一把椅子就比一张桌子少$$20$$元，  所以一把椅子的价钱是：$$60-20=40$$（元），  那么一套桌椅的价钱是：$$60+40=100$$（元）．  故选：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-28b414e32ee84eab937c336318e812fc",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有甲、乙、丙、丁四盘苹果，乙不是最多的，但比甲、丁多，甲没有丁多．按照苹果从少到多的顺序，四盘苹果分别是．\nA. 甲、丁、乙、丙\nB. 丙、甲、乙、丁\nC. 丙、乙、丁、甲\nD. 乙、丙、丁、甲\nE. 丙、甲、丁、乙",
+    "answer": "A. 甲、丁、乙、丙",
+    "solution": "暂无",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "推理推导",
+      "言语逻辑推理"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-23a9582fffa24ced904d5cc5409748bf",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$42$$ children are lined up to go on an autumn trip,~ $$Y$$ is the $$22$$th from the front and $$M$$ is the~~$$22$$th from the back of the line. How many children are between $$Y$$ and $$X$$?  $$42$$个小朋友排成一队去秋游，从排头往后数，小$$Y$$是第$$22$$个，从排尾往前数，小$$M$$是第$$22$$个，小$$Y$$和小$$M$$中间有个人．\nA. $$0$$\nB. $$1$$\nC. $$2$$\nD. $$3$$\nE. $$4$$",
+    "answer": "A. $$0$$",
+    "solution": "根据题意分析可知，小$$Y$$后面有$$42-22=20$$（人），$$22-20-1=1$$（人）．那么小$$M$$应该在小$$Y$$的正前方，所以小$$Y$$和小$$M$$之间有$$0$$个人．  故选：$$\\text{A}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解",
+      "Overseas Competition",
+      "知识点",
+      "计数模块",
+      "加乘原理",
+      "排队问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-406d64c912ad4148906f3ffcbb6085a8",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有大、小两桶油共重$$44$$千克，两个桶都倒出同样多的油后，分别还剩$$14$$千克和$$10$$千克，小桶原来装油千克．\nA. $$18$$\nB. $$22$$\nC. $$20$$\nD. $$25$$",
+    "answer": "C. $$20$$",
+    "solution": "倒了$$44-14-10=20$$千克，倒了相同多，小桶倒了$$20\\div 2=10$$千克，小桶原来$$10+10=20$$千克。  故选：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "加减法应用",
+      "同增同减应用题",
+      "连筐（桶、瓶等）带物（考虑筐桶瓶等重量）"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-04d732ff8554407aa30528b2137215d7",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "请你根据数串的规律再横线上填上正确的答案：3,6,9,~\\uline{~~~~~~~~~~}~，15.\nA. $$10$$\nB. $$12$$\nC. $$14$$\nD. $$16$$",
+    "answer": "D. $$16$$",
+    "solution": "后一个数等于前一个数$$\\times$$ 2",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计算模块",
+      "数列与数表",
+      "数列规律",
+      "数列找规律填数"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-c7b2bb9c7dc84dd19ba03242de08e251",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "做一道减法题时，小明把减数的个位上的$$8$$看作$$3$$，十位上的$$6$$看作$$9$$，算出的差是$$75$$，正确的答案应是．\nA. $$40$$\nB. $$50$$\nC. $$100$$\nD. $$110$$",
+    "answer": "C. $$100$$",
+    "solution": "把减数$$68$$误看成$$93$$，  则误看成的数比正确的数大了：$$93-68=25$$，  根据：被减数$$-$$减数$$=$$差，  减数变大，则差就变小，所以正确的答案为：$$75+25=100$$．  故选：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-0c1cbf21bb804766b2ac778e4a899d21",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明参加$$\\text{YMO}$$竞赛，共有$$20$$道赛题，答对一题给$$5$$分，答错一题或不答扣$$1$$分．小明得了$$76$$分．小明答对了题．\nA. $$13$$\nB. $$14$$\nC. $$15$$\nD. $$16$$",
+    "answer": "D. $$16$$",
+    "solution": "根据题意分析可知，假设$$20$$道题全部做对，  则得：$$20\\times5=100$$（分），现在比满分少了$$100-76=24$$（分），  又因为答错或不答一题比答对一题少$$1+5=6$$（分），  也就是做错了：$$24\\div6=4$$（题），  所以做对了：$$20-4=16$$（题），  故选答案$$\\text{D}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "转化与化归的思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-d446037c711c4a46b5fe477a352b1660",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "一些麋鹿的骨盆骨与所有猪的骨盆骨具有许多相同的特征.虽然不是所有的麋鹿都有这些特征，但是一些动物学家声称，所有具有这些特征的动物都是麋鹿. 如果以上陈述和动物学家的声明都是真的，则以下（ ）也一定为真.\nA. 麋鹿与猪的相似之处要多于它与其他动物的相似之处.\nB. 一些麋鹿与猪在其他方面的不同之处要少得多.\nC. 所有动物，如果它们的骨盆骨具有相同的特征，那么它们的其他骨骼部位一般也会具有相同或相似的特征.\nD. 所有的猪都是麋鹿.\nE. 所有的麋鹿都是猪.",
+    "answer": "D. 所有的猪都是麋鹿.",
+    "solution": "所有猪的骨盆骨都具有那些特征，而所有具有这些特征的动物都是麋鹿，故所有的猪都是麋鹿，选D.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "组合模块",
+      "逻辑推理",
+      "假设型逻辑推理"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-17294fa6ba19451babc5b53eb5032659",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "【S】五一到了，花花想要出去旅游，她有$$2$$顶帽子、$$3$$条项链、$$5$$种头花、$$2$$双鞋、$$3$$条白色裙子、$$4$$条粉色裙子、$$1$$条蓝色裙子，每类物品中各选一样进行搭配．那么，一共有种不同的搭配方法．\nA. $$20$$\nB. $$98$$\nC. $$480$$\nD. $$720$$",
+    "answer": "C. $$480$$",
+    "solution": "$$2\\times 2\\times 3=12$$（种）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "计数模块",
+      "加乘原理",
+      "乘法原理",
+      "物品搭配",
+      "课内体系",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-68762ca39e6442efaf977619ed4e729a",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小皮、小舒和小贝是同班同学，他们中一个是班长，一个是学习委员，一个是体育委员．  现在知道：①小皮的年龄比体育委员的年龄大；  ②小舒比学习委员的年龄大；  ③小贝和学习委员年龄不同．  那么小皮、小舒和小贝分别担任．\nA. 班长，学习委员，体育委员\nB. 学习委员，体育委员，班长\nC. 学习委员，班长，体育委员\nD. 班长，体育委员，学习委员\nE. 体育委员，班长，学习委员",
+    "answer": "C. 学习委员，班长，体育委员",
+    "solution": "由②小舒比学习委员的年龄大；和③小贝和学习委员年龄不同．可知小舒和小贝都不是学习委员，所以学习委员是小皮；  已知小舒比小皮大，并且小皮的年龄比体育委员的年龄大，所以小舒不是体育委员，所以小舒是班长；那么小贝就是体育委员．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "逐步调整思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-de3cae5278324d92a37e818bc846d4b9",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果$$1$$斤菠萝可以做$$2$$个菠萝蛋糕，那么要做$$10$$个菠萝蛋糕，需要斤菠萝．\nA. $$2$$\nB. $$5$$\nC. $$10$$\nD. $$20$$\nE. $$8$$",
+    "answer": "B. $$5$$",
+    "solution": "根据$$1$$斤菠萝可以做$$2$$个菠萝蛋糕，那么要做$$10$$个菠萝蛋糕，需要$$10\\div2=5$$（斤）菠萝．故选择$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "归一归总问题",
+      "乘除法应用",
+      "除法应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-99e5f1a49ae441a2a07ba566eac2b441",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "在一列数$$8$$、$$6$$、$$4$$、$$2$$、$$6$$、\\ldots 中，从第$$3$$个数开始，每个数都是它前面两个数的和的个位数字．在这串数中，哪几个数在重复循环呢？\nA. $$4$$\nB. $$5$$\nC. $$6$$",
+    "answer": "A. $$4$$",
+    "solution": "$$2$$、$$2$$、$$4$$、$$8$$、$$2$$、$$6$$、$$2$$、$$2$$、$$4$$、$$8$$\\ldots 发现$$6$$个一循环，$$2004\\div 6=334$$（组），所以第$$2004$$个数和第$$6$$个相同为$$6$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "归纳总结",
+      "归纳推理"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-978425f2c7104d0083803cebcac8192d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有大、小两桶油共重$$44$$千克，两个桶都倒出同样多的油后，分别还剩$$14$$千克和$$10$$千克油，小桶原来装油千克．\nA. $$18$$\nB. $$22$$\nC. $$20$$\nD. $$25$$",
+    "answer": "C. $$20$$",
+    "solution": "倒了$$44-14-10=20$$千克，倒了相同多，小桶倒了$$20\\div 2=10$$千克，小桶原来$$10+10=20$$千克。  故选：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "列方程解应用题",
+      "一元一次方程解应用题",
+      "方程法解其他问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-4e5c3c9fa30b4458ae98421d0f66726d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "如果$$1$$斤菠萝可以做$$2$$个菠萝蛋糕，那么要做$$10$$个菠萝蛋糕，需要斤菠萝．\nA. $$2$$\nB. $$5$$\nC. $$10$$\nD. $$20$$",
+    "answer": "B. $$5$$",
+    "solution": "根据$$1$$斤菠萝可以做$$2$$个菠萝蛋糕，那么要做$$10$$个菠萝蛋糕，需要$$10\\div2=5$$（斤）菠萝．故选择$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "归一归总问题",
+      "乘除法应用",
+      "除法应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-3462d4be1b1a46f6ad4a3968655e2c99",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "二（$$1$$）班有$$50$$名同学参加语文、数学期末测试，每个学生至少有一门是优．语文得优的有$$38$$人，数学得优的有$$42$$人，语文、数学都得优的有人．\nA. $$80$$\nB. $$30$$\nC. $$12$$\nD. $$8$$",
+    "answer": "B. $$30$$",
+    "solution": "把语文得优秀的人数与数学得优秀的人数相加，即：$$38+42=80$$（人），$$80$$人比参加语文、数学期末测试的$$50$$人多$$80-50=30$$（人），多出的$$30$$人就是语文、数学都得优秀的人数．  $$38+42-50=30$$（人）．  答：语文、数学都得优秀的有$$30$$人．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "转化与化归的思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-03e69bea907a4b7d9f1ccd012da73fcb",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把$$3$$、$$3$$、$$5$$、$$9$$分别放入方格中，和最小是．  $$\\square \\square +\\square \\square $$\nA. $$56$$\nB. $$74$$\nC. $$92$$\nD. $$146$$\nE. $$188$$",
+    "answer": "B. $$74$$",
+    "solution": "要使得和最小，那么两个因数应该尽可能的小；  如果要求两个因数尽可能的小，那么两个因数十位应该填入较小数，  即这两个因数应该是：$$35+39=74$$，  所以和最小是$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-7347549f3cd14ee1a98e8cf249a73fdc",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "算式$$\\textasciitilde3+7\\times 4$$的正确结果是．\nA. $$21$$\nB. $$31$$\nC. $$40$$\nD. $$41$$",
+    "answer": "B. $$31$$",
+    "solution": "先算乘除，再算加减.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "学习能力",
+      "七大能力",
+      "运算求解"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-2f44fb504b5f448d9224dae3ac042a1b",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小桶一次能装$$5$$千克的油，大桶一次能装$$7$$千克的油．你能用这$$2$$个桶往空桶里倒入$$9$$千克的油吗？\nA. 可以\nB. 不可以",
+    "answer": "A. 可以",
+    "solution": "先准备好$$1$$个空桶，把大桶装满油，倒入小桶，这时大桶里还剩$$2$$千克的油，倒进空桶里，再把大桶里装满油，倒进桶里，这样空桶里就有$$9$$千克油．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "拓展思维",
+      "组合模块",
+      "操作与策略",
+      "操作问题",
+      "倒水问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-ff5f1cc6cf2d42f6b0ecb1bf885dd74d",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$\\bigcirc$，$$★$$，$\\triangle$代表三个数，  $\\bigcirc+\\bigcirc=12$，  $$★+★+★=15$$，  $$△+△+△+△=24$$  $\\bigcirc+\\bigstar+\\triangle=$．\nA. $$12$$\nB. $$14$$\nC. $$17$$\nD. $$18$$",
+    "answer": "C. $$17$$",
+    "solution": "根据题意分析可知，  $\\bigcirc+\\bigcirc=12$，即$2\\bigcirc=12$，$\\bigcirc=12\\div2=6$，  $$★+★+★=15$$，$$3★=15$$，$\\bigstar=15\\div3=5$，  $$△+△+△+△=24$$，$$4△=24$$，$\\triangle=24\\div4=6$，  由此可知，$\\bigcirc+\\bigstar+\\triangle=6+5+6=17$．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "Overseas Competition",
+      "知识点",
+      "计算模块",
+      "方程基础",
+      "等量代换",
+      "拓展思维",
+      "能力",
+      "逻辑分析",
+      "代数逻辑推理"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-1cc7f3ae861e4288af1a90306fd4225e",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "二年级从$$5$$个学生中选择$$2$$人合作主持节目，共有种不同的选择方法．\nA. $$8$$\nB. $$9$$\nC. $$10$$\nD. $$12$$",
+    "answer": "C. $$10$$",
+    "solution": "由于每个主持人都有可能和另外$$1$$个主持人去主持节目，  一共有$$5\\times (5-1)=20$$（种），  去掉重复情况共有$$20\\div 2=10$$（种），  选择$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "实践应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-24a549d324c64d8287edbdce41f47fbb",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "二年级从$$5$$个学生中选择$$2$$人合作主持节目，共有种不同的选择方法．\nA. $$8$$\nB. $$9$$\nC. $$10$$\nD. $$20$$",
+    "answer": "C. $$10$$",
+    "solution": "由于每个主持人都有可能和另外$$1$$个主持人去主持节目，  一共有$$5\\times (5-1)=20$$（种），  去掉重复情况共有$$20\\div 2=10$$（种），  选择$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-c84ccb9c10de4cf88c62108cf0ba9ad4",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "个位数字与十位数字不同的两位数共有~\\uline{~~~~~~~~~~}~个．\nA. $$90$$\nB. $$82$$\nC. $$81$$\nD. $$80$$\nE. $$79$$",
+    "answer": "C. $$81$$",
+    "solution": "根据题意分析可知，个数数字与十位数字相同的两位数有$$10$$个，两位数一共有$$91$$个，  由此可知，个位数字与十位数字不同的两位数有$$91-10=81$$（个）．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "数感认知",
+      "整数数字加工"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-d9b9ab6cb226474fa61255c56dc12d94",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "今年哥哥$$15$$岁，弟弟$$7$$岁，问年前，哥哥的年龄是弟弟的$$3$$倍．\nA. $$2$$\nB. $$3$$\nC. $$4$$\nD. $$5$$",
+    "answer": "B. $$3$$",
+    "solution": "根据题意分析可知，哥哥$$15$$岁，弟弟$$7$$岁，哥哥比弟弟大$$15-7=8$$（岁），  当哥哥的年龄是弟弟的$$3$$倍时，弟弟的年龄为：$$8\\div 2=4$$（岁），  故：$$7-4=3$$（年）前哥哥的年龄是弟弟的$$3$$倍，故选答案$$\\text{B}$$ ．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "实践应用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-d67392e4c0df4919946686cbd6807534",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把$$3$$、$$3$$、$$5$$、$$9$$分别放入方格中，和最小是．  $$\\square \\square +\\square \\square $$\nA. $$56$$\nB. $$74$$\nC. $$92$$\nD. $$146$$",
+    "answer": "B. $$74$$",
+    "solution": "要使得和最小，那么两个因数应该尽可能的小；  如果要求两个因数尽可能的小，那么两个因数十位应该填入较小数，  即这两个因数应该是：$$35+39=74$$，  所以和最小是$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-f38ec5acc4b24acca819d109a8b73c3f",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$30$$个小朋友排一队，从前面数小红排在第$$15$$个，小军排在小红后面第$$4$$个，那么小军从后往前数排第个．\nA. $$19$$\nB. $$12$$\nC. $$11$$\nD. $$20$$",
+    "answer": "B. $$12$$",
+    "solution": "从前往后数，小军排第$$15+4=19$$个，则从后往前数，小军排：$$30-19+1=12$$个．  故选择$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "课内体系",
+      "七大能力",
+      "实践应用",
+      "拓展思维"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-80dd864c9c29458d96eaf241c154b78a",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$\\bigcirc$，$$★$$，$\\triangle$代表三个数，$\\bigcirc+\\bigcirc=12$，$$★+★+★=15$$，$$△+△+△+△=24$$，$\\bigcirc+\\bigstar+\\triangle=$．\nA. $$12$$\nB. $$14$$\nC. $$17$$\nD. $$18$$",
+    "answer": "C. $$17$$",
+    "solution": "根据题意分析可知，  $\\bigcirc+\\bigcirc=12$，即$2\\bigcirc=12$，$\\bigcirc=12\\div2=6$，  $$★+★+★=15$$，$$3★=15$$，$\\bigstar=15\\div3=5$，  $$△+△+△+△=24$$，$$4△=24$$，$\\triangle=24\\div4=6$，  由此可知，$\\bigcirc+\\bigstar+\\triangle=6+5+6=17$．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-2bab57525fc741d2866b618d95725572",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "五一到了，花花想要出去旅游，她有$$2$$顶帽子、$$3$$条项链、$$5$$种头花、$$2$$双鞋、$$3$$条白色裙子、$$4$$条粉色裙子、$$1$$条蓝色裙子，每类物品中各选一样进行搭配．那么，一共有种不同的搭配方法．\nA. $$20$$\nB. $$98$$\nC. $$480$$\nD. $$720$$",
+    "answer": "C. $$480$$",
+    "solution": "$$2\\times 2\\times 3=12$$（种）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "课内体系",
+      "能力",
+      "运算求解",
+      "拓展思维",
+      "计数模块",
+      "加乘原理",
+      "乘法原理",
+      "物品搭配"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-92f708dacd5e447884580fdfa7435b66",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "谎言岛有一半的人只在星期三、星期五、星期六说谎，另一半的人只在星期二、星期四、星期日说谎．某一天，岛上的所有人都说：``我明天说真话．''那么，这一天是．（2021年新希望杯二年级竞赛）\nA. 星期二\nB. 星期三\nC. 星期五\nD. 星期六\nE. 星期日",
+    "answer": "C. 星期五",
+    "solution": "前一半$$7$$天的情况：真、真、假、真、假、假、真，  后一半$$7$$天的情况：真、假、真、假、真、真、假，  $$\\text{A}$$选项：若这一天是星期二，则前一半人在今天说的是真话，那么明天应该说真话才合理，但星期三他们说的是假话，相互矛盾．后一半人在今天说的是假话，那么明天应该说假话才合理，但是星期三他们说的是真话，也相互矛盾，故$$\\text{A}$$错误；  $$\\text{B}$$选项：若这一天是星期三，则前一半人在今天说的是假话，那么明天应该说假话才合理，但星期四他们说的是真话，相互矛盾．后一半人在今天说的是真话，那么明天应该说真话才合理，但是星期四他们说的是假话，也相互矛盾，故$$\\text{B}$$错误；  $$\\text{C}$$选项：若这一天是星期五，则前一半人在今天说的是假话，那么明天应该说假话才合理，星期六他们说的正好是假话，符合．后一半人在今天说的是真话，那么明天应该说真话才合理，星期六他们说的正好是真话，符合，故$$\\text{C}$$正确；  $$\\text{D}$$选项：若这一天是星期六，则前一半人在今天说的是假话，那么明天应该说假话才合理，但星期日他们说的是真话，相互矛盾．后一半人在今天说的是真话，那么明天应该说真话才合理，但是星期日他们说的是假话，也相互矛盾，故$$\\text{D}$$错误；  E选项：若这一天是星期日，则前一半人在今天说的是真话，那么明天应该说真话才合理，星期一他们说的是真话，符合．后一半人在今天说的是假话，那么明天应该说假话才合理，但是星期一他们说的是真话，相互矛盾，故$$\\text{E}$$错误．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "逻辑分析"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-d43e33988d494f9d83777dcc90bd1eed",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "有甲、乙、丙、丁四盘苹果，乙不是最多，但比甲、丁多．甲没有丁多．按苹果由少到多的顺序排列为．\nA. 甲、丁、乙、丙\nB. 丙、甲、乙、丁\nC. 丙、乙、丁、甲\nD. 乙、丙、丁、甲\nE. 丙、甲、丁、乙",
+    "answer": "A. 甲、丁、乙、丙",
+    "solution": "由题意可以知道：乙\\textgreater 甲、丁，但乙不是最多的，那么最多的只能是丙；  再有丁\\textgreater 甲，可以得到由少到多的排序：甲、丁、乙、丙.",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "推理推导",
+      "言语逻辑推理"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-239e13e528674e708128af78b763dd19",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小丽有$$17$$朵花，她给小明$$5$$朵后，两人的花就同样多．小明原来有朵花．\nA. $$5$$\nB. $$7$$\nC. $$12$$",
+    "answer": "B. $$7$$",
+    "solution": "小明接受小丽的$$5$$朵花之后有：$$17-5=12$$（朵）．  所以小明原来有：$$12-5=7$$（朵）．  故选择$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "平均数问题",
+      "移多补少",
+      "不等变相等（无图）"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-4eda6ff8edc34e658a8c7075d9aaaf58",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "把一根粗细均匀的木料锯成$$7$$段，每锯一次需要$$4$$分钟，一共要分钟．\nA. $$28$$\nB. $$24$$\nC. $$20$$",
+    "answer": "B. $$24$$",
+    "solution": "锯成$$7$$段需要锯$$6$$次，所以一共需要的是时间为：$$6\\times 4=24$$分钟．  故选$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "拓展思维",
+      "应用题模块",
+      "间隔问题",
+      "直线型两端都没有",
+      "锯木头类型问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-31e99edb3ec44b15b5b46f1329733a05",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "猴子摘桃，第一天摘了树上桃子的一半多$$1$$个，第二天又摘了余下桃子的一半多$$1$$个，这时树上还有$$9$$个桃子，原来树上有个桃子．\nA. $$36$$\nB. $$38$$\nC. $$40$$\nD. $$42$$",
+    "answer": "D. $$42$$",
+    "solution": "根据题意分析可知，第二天摘后剩下桃子$$9$$个，  那么第一天摘后剩下桃子$$\\left( 9+1 \\right)\\times 2=20$$（个），  由此可知，原来树上有桃子$$\\left( 20+1 \\right)\\times 2=21\\times 2=42$$（个）．  故选答案：$$\\text{D}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-67018a016d514639995663432a35038c",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "已知$$2019$$年$$4$$月$$14$$日是星期日，问$$24$$日后是星期几？\nA. 星期二\nB. 星期三\nC. 星期四\nD. 星期一\nE. 都不对",
+    "answer": "B. 星期三",
+    "solution": "$$24=7+7+7+3$$．  $$24$$日后是星期三．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "Overseas Competition",
+      "知识点",
+      "组合模块",
+      "时间问题",
+      "拓展思维",
+      "能力",
+      "逻辑分析"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-bacd85fe4e9e456884485f9802304ed1",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "时钟$$6$$点敲$$6$$下，$$10$$秒钟敲完，$$12$$点敲$$12$$下需要秒钟．\nA. $$10$$\nB. $$20$$\nC. $$22$$",
+    "answer": "C. $$22$$",
+    "solution": "敲$$6$$下，则中间停顿$$5$$次，所以每次停顿时长：$$10\\div 5=2$$秒．敲$$12$$下，则停顿$$11$$次，所以时长：$$11\\times 2=22$$秒．  故选择$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "应用题模块",
+      "间隔问题",
+      "直线型两端都有",
+      "敲钟问题"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-daddc3c52fd2411fa8e462e0bea1962b",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "根据数串的规律，括号中应填的数是．  1，$$4$$，$$7$$，$$10$$，，16\nA. $$12$$\nB. $$13$$\nC. $$14$$",
+    "answer": "B. $$13$$",
+    "solution": "等差数串，每两个数之间的差是3",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "数形结合思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-8b07a0da056143d586a33aa39791822e",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "$$10$$个小朋友排一队，从前面数小红排在第$$2$$个，小军排在小红后面第$$4$$个，那么小军从后往前数排第个．\nA. $$4$$\nB. $$5$$\nC. $$6$$",
+    "answer": "B. $$5$$",
+    "solution": "从前往后数，小军排第$$2+4=6$$个，则从后往前数，小军排：$$10-6+1=5$$个．  故选择$$\\text{B}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "构造模型",
+      "模型思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-24e4bf43bb40452e8b24e82b244a8e42",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小明今年$$7$$岁，小刚今年$$4$$岁，$$2$$年后，小明比小刚大岁．\nA. $$1$$\nB. $$2$$\nC. $$3$$\nD. $$4$$",
+    "answer": "C. $$3$$",
+    "solution": "根据题意分析可知，今年小明比小刚大：$$7-4=3$$（岁），年龄差是一直不变的，所以$$2$$年后小明也比小刚大$$3$$岁，故选答案：$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "能力",
+      "数据处理"
+    ],
+    "difficulty": 1,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-f45579d3383c4298bcfc3a076c94a4dd",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "艾迪同学在$$2017$$年$$4$$月$$1$$日养了一盆仙人掌，但是粗心的艾迪总是会忘了给仙人掌浇水，每周日和周一才记得给仙人掌浇水．如果一个月内浇仙人掌的天数少于$$9$$天，仙人掌就会退化变成仙人球．已知$$2017$$年$$4$$月$$1$$日是周六，那么在~\\uline{~~~~~~~~~~}~月，仙人掌会因为浇水天数不够而退化成仙人球．\nA. $$6$$\nB. $$7$$\nC. $$8$$\nD. $$9$$\nE. $$10$$",
+    "answer": "A. $$6$$",
+    "solution": "$$4$$月份有$$30$$天，$$30=7\\times 4+2$$，$$4$$月$$1$$日是周六，则$$4$$月$$30$$日是周日，所以$$4$$月份有$$5$$个周日，$$4$$个周一，浇水的天数等于$$9$$天，不会退化成仙人球；$$5$$月份有$$31$$天，$$31=7\\times 4+3$$，$$5$$月$$1$$日是周一，则$$5$$月$$31$$日是周三，所以$$5$$月份有$$4$$个周日，$$5$$个周一，浇水的天数等于$$9$$天，不会退化成仙人球；$$6$$月份有$$30$$天，$$30=7\\times 4+2$$，$$6$$月$$1$$日是周四，则$$6$$月$$30$$日是周五，所以$$6$$月份有$$4$$个周日，$$4$$个周一，浇水的天数小于$$9$$天，所以会退化成仙人球．  $$4$$月份有$$30$$天，每个星期有$$7$$天，  又因为$$4$$月$$1$$日是周六，  所以$$4$$月的每一个星期周期都是以周六开始，周五结束，  这样的周期共有$$30\\div7=4$$（个）$$\\cdots\\cdots2$$（天），  则$$4$$月$$30$$日是周五往后数两天，则为周日，  所以$$4$$月份有$$5$$个周日，$$4$$个周一，浇水的天数等于$$9$$天，不会退化成仙人球．  $$5$$月份有$$31$$天，$$5$$月$$1$$日是周一，每个周期从周一开始，周日结束，  这样的周期有$$31\\div7=4$$（个）$$\\cdots\\cdots3$$（天），  则$$5$$月$$31$$日是周日往后数$$3$$天，为周三，  所以$$5$$月份有$$4$$个周日，$$5$$个周一，浇水的天数等于$$9$$天，不会退化成仙人球．  $$6$$月份有$$30$$天，$$6$$月$$1$$日是周四，每个周期从周四开始周三结束，  这样的周期有$$30\\div7=4$$（个）$$\\cdots\\cdots2$$（天），  则$$6$$月$$30$$日是周三往后数$$2$$天，是周五，  所以$$6$$月份有$$4$$个周日，$$4$$个周一，浇水的天数小于$$9$$天，所以会退化成仙人球．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "Overseas Competition",
+      "知识点",
+      "应用题模块",
+      "周期问题",
+      "拓展思维",
+      "思想",
+      "逐步调整思想"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-fe4db4bd53f140829a475987fba39d57",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "算式$$\\textasciitilde4+5\\times 6$$的正确结果是~\\uline{~~~~~~~~~~}~．\nA. $$54$$\nB. $$34$$\nC. $$25$$",
+    "answer": "B. $$34$$",
+    "solution": "先算乘除，再算加减，$$4+5\\times 6=4+30=34$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "知识标签",
+      "学习能力",
+      "七大能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-bf991bb55c0145ddbc6d4d959b2a9729",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "小皮、小舒和小贝是同班同学，他们中一个是班长，一个是学习委员，一个是体育委员．已知：  ①小皮的年龄比体育委员的年龄大；  ②小舒比学习委员的年龄大；  ③小贝和学习委员年龄不同．  那么小皮、小舒和小贝分别担任．\nA. 班长，学习委员，体育委员\nB. 学习委员，体育委员，班长\nC. 学习委员，班长，体育委员\nD. 班长，体育委员，学习委员",
+    "answer": "C. 学习委员，班长，体育委员",
+    "solution": "由②小舒比学习委员的年龄大；和③小贝和学习委员年龄不同．可知小舒和小贝都不是学习委员，所以学习委员是小皮；  已知小舒比小皮大，并且小皮的年龄比体育委员的年龄大，所以小舒不是体育委员，所以小舒是班长；那么小贝就是体育委员．  故选$$\\text{C}$$．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "逐步调整思想"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-4c7ef97d72bc441b9a87282608af6ae5",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  },
+  {
+    "question_text": "五一到了，花花想要出去旅游，她有$$2$$顶帽子、$$3$$条项链、$$5$$种头花、$$2$$双鞋、$$3$$条白色裙子、$$4$$条粉色裙子、$$1$$条蓝色裙子，每类物品中各选一样进行搭配．那么，一共有种不同的搭配方法．\nA. $$20$$\nB. $$160$$\nC. $$480$$\nD. $$720$$",
+    "answer": "C. $$480$$",
+    "solution": "$$2\\times 2\\times 3=12$$（种）．",
+    "question_type": "选择题",
+    "subject": "数学",
+    "education_level": "小学",
+    "grade": 2,
+    "exam_type": "竞赛",
+    "knowledge_points": [
+      "拓展思维",
+      "思想",
+      "对应思想",
+      "课内体系",
+      "能力",
+      "运算求解"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/math-eval/TAL-SCQ5K#cn-df83562d6c8e4ec9a34994f472a8786b",
+    "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
+  }
+]

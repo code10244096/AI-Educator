@@ -1,0 +1,2518 @@
+[
+  {
+    "question_text": "摩擦起电的实质是什么？\nA. 摩擦创造了新的电荷\nB. 质子从一个物体转移到另一个物体\nC. 电子从一个物体转移到另一个物体\nD. 正电荷从一个物体转移到另一个物体",
+    "answer": "C. 电子从一个物体转移到另一个物体",
+    "solution": "原子核内的质子被束缚得很紧，不能自由转移，摩擦起电是电子的转移：失去电子的物体带正电，得到电子的物体带负电，电荷并没有被创造。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电荷",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h053_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个完全相同的金属小球分别带有 +6×10⁻⁸ C 和 −2×10⁻⁸ C 的电荷量，让它们接触后再分开，每个小球带的电荷量是多少？\nA. +4×10⁻⁸ C\nB. +3×10⁻⁸ C\nC. −2×10⁻⁸ C\nD. +2×10⁻⁸ C",
+    "answer": "D. +2×10⁻⁸ C",
+    "solution": "电荷守恒：总电荷量 = 6 − 2 = +4（×10⁻⁸ C），完全相同的小球接触后平分，各带 +2×10⁻⁸ C。+4 是忘了平分（把总电荷量当成每个球的电荷量），+3 是忽略了负电荷（6 ÷ 2），−2 是直接取了原来带负电小球的电荷量。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电荷",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h053_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把带正电的小球 C 靠近（不接触）原来不带电、彼此接触的金属球 A、B（A 靠近 C），先把 A、B 分开，再移走 C，则 A、B 的带电情况是什么？\nA. A 带正电，B 带负电\nB. A 带负电，B 带正电\nC. A、B 都带正电\nD. A、B 都不带电",
+    "answer": "B. A 带负电，B 带正电",
+    "solution": "静电感应：正电荷 C 吸引自由电子向靠近 C 的 A 端移动，A 端带负电，B 端缺电子带正电。先分开再移走 C，两球保持各自的电荷。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电荷",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h053_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个物体带负电，所带电荷量为 4.8×10⁻¹⁷ C，它比不带电时多了多少个电子？（元电荷 e = 1.6×10⁻¹⁹ C，只填数值）",
+    "answer": "300",
+    "solution": "n = Q/e = 4.8×10⁻¹⁷ ÷ 1.6×10⁻¹⁹ = 300 个。带负电说明多了电子，得到电子的数目等于电荷量除以元电荷。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电荷",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h053_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "真空中有两个静止的点电荷，电荷量都是 2×10⁻⁶ C，相距 0.2 m，它们间库仑力的大小是多少 N？（k = 9×10⁹ N·m²/C²，只填数值）",
+    "answer": "0.9",
+    "solution": "F = kq₁q₂/r² = 9×10⁹ × 2×10⁻⁶ × 2×10⁻⁶ ÷ 0.2² = 0.036 ÷ 0.04 = 0.9 N。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "库仑定律",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h054_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "真空中两个点电荷间的距离变为原来的 2 倍，其中一个电荷量变为原来的 2 倍，另一个不变，它们间的库仑力变为原来的多少？\nA. 原来的 1/4\nB. 原来的 2 倍\nC. 原来的 1/2\nD. 原来的 1/8",
+    "answer": "C. 原来的 1/2",
+    "solution": "F ∝ q₁q₂/r²，电荷量乘积变为 2 倍，r² 变为 4 倍，所以 F 变为 2/4 = 1/2。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "库仑定律",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h054_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "真空中两个点电荷 A、B，A 的电荷量是 B 的 4 倍，关于它们之间的库仑力，下列说法正确的是哪一个？\nA. A 对 B 的库仑力是 B 对 A 的库仑力的 4 倍\nB. B 对 A 的库仑力是 A 对 B 的库仑力的 4 倍\nC. A 对 B 的库仑力与 B 对 A 的库仑力大小相等\nD. A 对 B 的库仑力是 B 对 A 的库仑力的 2 倍",
+    "answer": "C. A 对 B 的库仑力与 B 对 A 的库仑力大小相等",
+    "solution": "两电荷间的库仑力是一对作用力与反作用力，由 F = kq₁q₂/r² 可知大小总是相等，与各自电荷量的大小关系无关。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "库仑定律",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h054_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "真空中固定着两个同种点电荷 A（电荷量 +4Q）和 B（电荷量 +Q），相距 0.3 m。在 A、B 连线上放入第三个点电荷 C，要使 C 所受合力为零，C 应放在距 B 多少 m 的位置？（只填数值）",
+    "answer": "0.1",
+    "solution": "C 在两者之间才能受力平衡。设距 B 为 x：k·4Q·q/(0.3 − x)² = k·Q·q/x²，得 2x = 0.3 − x，x = 0.1 m。该位置与 C 的电荷量和电性无关。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "库仑定律",
+      "运动和相互作用"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h054_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在电场中某点放入电荷量为 2×10⁻⁹ C 的试探电荷，它受到的电场力为 6×10⁻⁶ N，该点的电场强度是多少 N/C？（只填数值）",
+    "answer": "3000",
+    "solution": "E = F/q = 6×10⁻⁶ ÷ 2×10⁻⁹ = 3000 N/C。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电场强度",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h055_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电场中某点电场强度的方向与下列哪一项相同？\nA. 正电荷在该点所受电场力的方向\nB. 负电荷在该点所受电场力的方向\nC. 试探电荷在该点的运动方向\nD. 试探电荷在该点所受电场力的方向，与电荷正负无关",
+    "answer": "A. 正电荷在该点所受电场力的方向",
+    "solution": "电场强度方向规定为正电荷所受电场力的方向，负电荷受力方向与场强方向相反；电荷的运动方向与受力方向不一定相同。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电场强度",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h055_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "真空中电荷量为 4×10⁻⁹ C 的点电荷 Q 产生电场，距它 0.3 m 处的电场强度大小是多少 N/C？（k = 9×10⁹ N·m²/C²，只填数值）",
+    "answer": "400",
+    "solution": "E = kQ/r² = 9×10⁹ × 4×10⁻⁹ ÷ 0.3² = 36 ÷ 0.09 = 400 N/C。若误用 r 而不是 r² 会得到 120 N/C。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电场强度",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h055_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电场中某点放入试探电荷 q 时受到的电场力为 F，场强为 E。若把这个试探电荷换成电荷量为 2q 的试探电荷，则该点的情况是什么？\nA. 场强变为 2E，电场力变为 2F\nB. 场强仍为 E，电场力变为 2F\nC. 场强变为 E/2，电场力仍为 F\nD. 场强和电场力都不变",
+    "answer": "B. 场强仍为 E，电场力变为 2F",
+    "solution": "场强由电场本身决定，与试探电荷无关，仍为 E；电场力 F = qE，电荷量加倍则电场力加倍。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电场强度",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h055_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于电场线，下列说法正确的是哪一个？\nA. 电场线是带电粒子在电场中运动的轨迹\nB. 电场线的疏密表示场强的强弱，任意两条电场线不会相交\nC. 电场线从负电荷出发，终止于正电荷\nD. 电场线是客观存在的真实曲线",
+    "answer": "B. 电场线的疏密表示场强的强弱，任意两条电场线不会相交",
+    "solution": "电场线是为了形象描述电场而假想的曲线，不是真实存在，也不是粒子的轨迹；从正电荷出发止于负电荷；某点只有一个场强方向，所以不会相交。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电场线与电场的叠加",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h056_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两个点电荷 A、B 在空间某点 P 产生的场强大小分别为 3 N/C 和 4 N/C，方向互相垂直，P 点的合场强大小是多少 N/C？（只填数值）",
+    "answer": "5",
+    "solution": "场强是矢量，按平行四边形定则叠加：E = √(3² + 4²) = 5 N/C。直接相加得到 7 N/C 是忽略了方向。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电场线与电场的叠加",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h056_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "真空中两个等量异种点电荷，电荷量分别为 +2×10⁻⁹ C 和 −2×10⁻⁹ C，它们连线的中点距每个电荷都是 0.3 m，中点处合场强的大小是多少 N/C？（k = 9×10⁹ N·m²/C²，只填数值）",
+    "answer": "400",
+    "solution": "每个电荷在中点的场强 E₁ = kQ/r² = 9×10⁹ × 2×10⁻⁹ ÷ 0.09 = 200 N/C，方向都由正电荷指向负电荷，同向相加得 400 N/C。若是等量同种电荷，二者反向，合场强为零。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电场线与电场的叠加",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h056_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一带负电的粒子仅受电场力作用，在匀强电场中由静止释放，它的运动方向怎样？\nA. 沿着电场线的方向运动\nB. 逆着电场线的方向运动\nC. 垂直于电场线的方向运动\nD. 先沿电场线方向再逆着电场线方向",
+    "answer": "B. 逆着电场线的方向运动",
+    "solution": "负电荷所受电场力的方向与场强方向（电场线切线方向）相反，由静止开始沿受力方向做匀加速运动，所以逆着电场线运动。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电场线与电场的叠加",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h056_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "高压带电作业的工人穿着用金属丝编织的均压服，主要利用了什么原理？\nA. 尖端放电\nB. 电磁感应\nC. 静电吸附\nD. 静电屏蔽",
+    "answer": "D. 静电屏蔽",
+    "solution": "金属丝编织的衣服相当于金属网罩，形成静电屏蔽，使内部场强为零，保护人体免受高压电场影响。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "静电的防止与利用",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h057_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "避雷针能使建筑物免受雷击，主要是因为什么？\nA. 避雷针把雷电反射回云层\nB. 尖端放电，使云层的电荷不断被导入大地\nC. 避雷针的金属杆发生静电屏蔽，雷电无法靠近\nD. 避雷针自身带正电，吸收并储存雷电",
+    "answer": "B. 尖端放电，使云层的电荷不断被导入大地",
+    "solution": "避雷针尖端附近电场很强，会不断向空中放电，中和云层中的电荷，并通过导线把电荷导入大地，从而保护建筑物。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "静电的防止与利用",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h057_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于处于静电平衡状态的导体，下列说法正确的是哪一个？\nA. 导体内部电荷在做定向运动，形成稳定电流\nB. 导体内部合场强处处为零，净电荷只分布在导体表面\nC. 净电荷均匀分布在导体内部\nD. 感应电荷的电场与外电场在导体内部方向相同，使场强加倍",
+    "answer": "B. 导体内部合场强处处为零，净电荷只分布在导体表面",
+    "solution": "静电平衡时自由电荷不再定向移动，感应电荷的电场与外电场在内部大小相等、方向相反，合场强为零，净电荷分布在外表面。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "静电的防止与利用",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h057_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列做法属于防止静电危害的是哪一个？\nA. 利用静电除尘器除去烟气中的尘埃\nB. 油罐车尾部拖着一条接地的铁链\nC. 利用静电喷涂给汽车外壳上漆\nD. 激光打印机利用静电吸附墨粉",
+    "answer": "B. 油罐车尾部拖着一条接地的铁链",
+    "solution": "油罐车行驶时油与罐壁摩擦起电，铁链把电荷导入大地，避免火花引燃；其他三项都是利用静电。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "静电的防止与利用",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h057_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在孤立正点电荷 Q 形成的电场中，把一个正试探电荷从离 Q 较近的 A 点移到离 Q 较远的 B 点。静电力做功和电势能的变化是哪一个？\nA. 静电力做负功，电势能增加\nB. 静电力做正功，电势能增加\nC. 静电力做正功，电势能减少\nD. 静电力做负功，电势能减少",
+    "answer": "C. 静电力做正功，电势能减少",
+    "solution": "同种电荷相互排斥，正试探电荷远离 Q 时，静电力与位移方向夹角小于 90°，做正功；静电力做正功，电势能减少。把『远离』误当成『克服静电力』是常见错误。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势能",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h058_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电荷在电场中 A 点的电势能为 0.8 mJ。它从 A 点移到 B 点的过程中克服静电力做功 0.3 mJ，则它在 B 点的电势能是多少 mJ？（只填数值）",
+    "answer": "1.1",
+    "solution": "克服静电力做功，即静电力做负功 W_AB = −0.3 mJ。由 W_AB = E_pA − E_pB，得 E_pB = E_pA − W_AB = 0.8 + 0.3 = 1.1 mJ。若误把克服做功当作电势能减少，会得到 0.5。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势能",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h058_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于电势能，下列说法正确的是哪一个？\nA. 电荷在电场中某点的电势能一定为正值\nB. 静电力做正功时，电荷的电势能一定增加\nC. 电荷所在位置的电场强度为零，它的电势能一定为零\nD. 电势能的数值与零势能点的选取有关，电势能的变化量与之无关",
+    "answer": "D. 电势能的数值与零势能点的选取有关，电势能的变化量与之无关",
+    "solution": "电势能是相对量，零势能点选得不同，各点电势能的数值不同，但两点间的电势能差（即静电力做的功）不变。电势能可正可负；静电力做正功，电势能减少；电势能为零与场强为零之间没有必然联系。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势能",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h058_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "匀强电场的电场强度 E = 2×10³ N/C。把电荷量 q = −5×10⁻⁶ C 的点电荷沿电场线方向移动 0.2 m，它的电势能增加了多少 J？（只填数值）",
+    "answer": "0.002",
+    "solution": "负电荷所受静电力与电场线方向相反，沿电场线方向移动时静电力做负功，大小 W = |q|Ed = 5×10⁻⁶ × 2×10³ × 0.2 = 2×10⁻³ J，电势能增加 0.002 J。若误认为静电力做正功，会得出电势能减少。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势能",
+      "能量"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h058_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于电场中某点的电势，下列说法正确的是哪一个？\nA. 电势是矢量，方向与该点电场强度的方向相同\nB. 电势的数值与放入该点的试探电荷的电荷量成正比\nC. 电势是标量，其数值与零电势点的选取有关\nD. 电场强度为零的点，电势一定为零",
+    "answer": "C. 电势是标量，其数值与零电势点的选取有关",
+    "solution": "φ = E_p/q 是比值定义，由电场本身和零电势点决定，与试探电荷无关；电势是标量。电势与场强是两个独立的量，场强为零处电势不一定为零（如两等量同种电荷连线中点）。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h059_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把电荷量 q = 2×10⁻⁸ C 的正点电荷放在电场中的 A 点，它具有的电势能为 6×10⁻⁶ J（取无穷远处电势为零）。A 点的电势是多少 V？（只填数值）",
+    "answer": "300",
+    "solution": "φ_A = E_p/q = 6×10⁻⁶ ÷ 2×10⁻⁸ = 300 V。若换用电荷量更大的试探电荷，电势能同比例增大，电势不变。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h059_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "取无穷远处电势为零，在孤立的负点电荷 −Q 形成的电场中，离 −Q 越近的点，电势怎样？\nA. 越低，且为负值\nB. 越高，且为正值\nC. 越低，但仍为正值\nD. 各点电势相同，均为零",
+    "answer": "A. 越低，且为负值",
+    "solution": "电场线由无穷远指向 −Q，沿电场线方向电势降低，所以靠近 −Q 的点电势比无穷远处（零）低，为负值，且越近越负。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h059_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电场中 A 点电势为 8 V，B 点电势为 20 V。若改取 A 点为零电势点，B 点的电势变为多少 V？（只填数值）",
+    "answer": "12",
+    "solution": "两点间的电势差 φ_B − φ_A = 12 V 与零电势点的选取无关。改取 A 点为零电势点后，φ_A′ = 0，所以 φ_B′ = 12 V。若误以为电势不变，会得到 20。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h059_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把电荷量 q = 2×10⁻⁶ C 的正电荷从电场中的 A 点移到 B 点，静电力做功 6×10⁻⁴ J。A、B 两点的电势差 U_AB 是多少 V？（只填数值）",
+    "answer": "300",
+    "solution": "U_AB = W_AB/q = 6×10⁻⁴ ÷ 2×10⁻⁶ = 300 V，为正值，说明 A 点电势比 B 点高 300 V。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势差",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h060_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于电势差，下列说法正确的是哪一个？\nA. 电势差与零电势点的选取无关，且 U_AB = −U_BA\nB. 电势差的数值与零电势点的选取有关\nC. U_AB = W_AB/q 说明 U_AB 与 W_AB 成正比，与 q 成反比\nD. 电势差是矢量，U_AB 的方向由 A 指向 B",
+    "answer": "A. 电势差与零电势点的选取无关，且 U_AB = −U_BA",
+    "solution": "电势差是两点电势之差，与零电势点无关；它是标量，正负只表示两点电势的高低。U_AB 由电场及 A、B 位置决定，W_AB/q 只是计算方法，并不意味着 U_AB 随 q 改变。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势差",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h060_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把电荷量 q = −4×10⁻⁶ C 的点电荷从 A 点移到 B 点，克服静电力做功 8×10⁻⁴ J。A、B 两点的电势差 U_AB 是多少 V？（只填数值）",
+    "answer": "200",
+    "solution": "克服静电力做功，W_AB = −8×10⁻⁴ J。代入符号：U_AB = W_AB/q = (−8×10⁻⁴)/(−4×10⁻⁶) = 200 V。若把克服静电力做功误当成 W = +8×10⁻⁴ J 代入，会得到 −200 V，从而判错 A、B 两点电势的高低。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势差",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h060_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电子（电荷量为 −1.6×10⁻¹⁹ C）从 A 点移到 B 点，静电力做功 W_AB = 4×10⁻¹⁹ J。则 U_AB 为哪一个？\nA. -2.5 V\nB. 2.5 V\nC. -4 V\nD. -0.4 V",
+    "answer": "A. -2.5 V",
+    "solution": "U_AB = W_AB/q = 4×10⁻¹⁹ ÷ (−1.6×10⁻¹⁹) = −2.5 V，即 A 点电势比 B 点低 2.5 V。忘记电子带负电会得到 +2.5 V；不理会电荷量而直接取 W 的系数会得到 −4 V。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势差",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h060_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于等势面，下列说法正确的是哪一个？\nA. 同一等势面上各点的电场强度大小一定相等\nB. 电场线与等势面处处垂直，沿等势面移动电荷静电力不做功\nC. 电场线总是沿等势面的切线方向\nD. 电荷在同一等势面上移动时，静电力总是做正功",
+    "answer": "B. 电场线与等势面处处垂直，沿等势面移动电荷静电力不做功",
+    "solution": "同一等势面上各点电势相等，所以电荷在其上移动时静电力不做功，说明静电力（场强）垂直于等势面，即电场线与等势面垂直。等势面上各点场强大小不一定相等，例如等量异种电荷中垂面。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "等势面",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h061_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "画出的等势面中，相邻等势面的电势差都相等。若等势面在 A 处比在 B 处密，则下列判断正确的是哪一个？\nA. A 处的电场强度比 B 处小\nB. A 处的电势一定比 B 处高\nC. A 处的电场强度比 B 处大\nD. A、B 两处的电场强度相等",
+    "answer": "C. A 处的电场强度比 B 处大",
+    "solution": "相邻等势面电势差相同，间距越小，E ≈ U/d 越大，所以等势面密处场强大。电势高低要看电场线方向，与等势面疏密无关。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "等势面",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h061_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电势分别为 30 V 和 −10 V 的两个等势面，一个电荷量为 2×10⁻⁶ C 的正电荷从前一个等势面移到后一个等势面，静电力做多少 J 的功？（只填数值）",
+    "answer": "0.00008",
+    "solution": "U = 30 − (−10) = 40 V，W = qU = 2×10⁻⁶ × 40 = 8×10⁻⁵ J = 0.00008 J。若把电势差算成 30 − 10 = 20 V，会错得 4×10⁻⁵ J。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "等势面",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h061_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电子仅在静电力作用下运动，经过电势为 −10 V 的等势面时动能为 5 eV，之后运动到电势为 10 V 的等势面上，此时它的动能是多少 eV？（只填数值）",
+    "answer": "25",
+    "solution": "电子从低电势到高电势，静电力做正功 W = qU = (−e)(−10 − 10) V = 20 eV。由动能定理，E_k = 5 + 20 = 25 eV。若把电子当作正电荷处理，会错算成 5 − 20 < 0 而无法运动。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "等势面",
+      "运动和相互作用"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h061_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在匀强电场中，沿电场方向相距 4 cm 的两点之间的电势差是多少 V？已知电场强度 E = 500 V/m。（只填数值）",
+    "answer": "20",
+    "solution": "U = Ed = 500 × 0.04 = 20 V。注意把 cm 换算成 m，若直接用 4 会得到 2000。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势差与电场强度的关系",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h062_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于公式 E = U/d，下列说法正确的是哪一个？\nA. 公式对任何电场都成立，d 是两点间的距离\nB. 匀强电场中 U 越大，电场强度 E 一定越大\nC. 公式适用于匀强电场，d 是两点沿电场方向的距离\nD. d 指两点之间任意路径的长度",
+    "answer": "C. 公式适用于匀强电场，d 是两点沿电场方向的距离",
+    "solution": "U = Ed 的推导基于匀强电场中静电力为恒力，d 必须沿电场线方向度量。同样的 U，d 不同则 E 不同，所以不能仅凭 U 大小判断 E。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势差与电场强度的关系",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h062_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "匀强电场中 A、B 两点间的距离为 10 cm，连线与电场线方向的夹角为 60°，电场强度 E = 200 V/m，则 A、B 两点间的电势差大小是多少 V？（只填数值）",
+    "answer": "10",
+    "solution": "沿电场方向的距离 d = AB·cos60° = 0.1 × 0.5 = 0.05 m，U = Ed = 200 × 0.05 = 10 V。若直接用 0.1 m 会得到 20 V；误用 sin60° 则得到约 17.3 V。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势差与电场强度的关系",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h062_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "A、B、C 三点依次在孤立正点电荷电场的同一条电场线上，B 为 AC 的中点，A 离电荷最近。U_AB 与 U_BC 的大小关系是哪一个？\nA. U_AB = U_BC\nB. U_AB > U_BC\nC. U_AB < U_BC\nD. U_AB 与 U_BC 的大小无法比较",
+    "answer": "B. U_AB > U_BC",
+    "solution": "靠近点电荷处电场更强，AB 段平均场强大于 BC 段平均场强，而 AB = BC，所以 U_AB ≈ E̅_AB·d > E̅_BC·d ≈ U_BC。认为 U_AB = U_BC 是把 U = Ed 误用于非匀强电场。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电势差与电场强度的关系",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h062_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某电容器所带电荷量为 4 μC 时，两极板间的电压为 20 V。它的电容是多少 μF？（只填数值）",
+    "answer": "0.2",
+    "solution": "C = Q/U = 4 μC ÷ 20 V = 0.2 μF。注意 μC 与 μF 的数量级相同，不必换算成 C 再换回来。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电容器的电容",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h063_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于电容器的电容，下列说法正确的是哪一个？\nA. 电容与所带电荷量成正比\nB. 电容与两极板间的电压成反比\nC. 电容器不带电时，电容为零\nD. 电容由电容器本身的结构决定，与所带电荷量和两极板间的电压无关",
+    "answer": "D. 电容由电容器本身的结构决定，与所带电荷量和两极板间的电压无关",
+    "solution": "C = Q/U 是比值定义式，类似于 ρ = m/V。电容的大小由极板正对面积、间距、电介质决定，不带电时电容仍存在。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电容器的电容",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h063_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "平行板电容器充电后与电源断开，再增大两极板间的距离 d，则下列判断正确的是哪一个？\nA. Q 不变，C 减小，U 不变，板间场强 E 减小\nB. Q 减小，C 减小，U 不变，板间场强 E 减小\nC. Q 不变，C 增大，U 减小，板间场强 E 增大\nD. Q 不变，C 减小，U 增大，板间场强 E 不变",
+    "answer": "D. Q 不变，C 减小，U 增大，板间场强 E 不变",
+    "solution": "断开电源后电荷量 Q 不变。d 增大，C = ε_rS/(4πkd) 减小，由 U = Q/C 知 U 增大。E = U/d = 4πkQ/(ε_rS)，与 d 无关，故 E 不变。「Q 减小，C 减小，U 不变，E 减小」是『保持与电源相连』时的结论，题中已断开电源，Q 不能变。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电容器的电容",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h063_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "平行板电容器的电容 C = 0.5 μF，一直与电压 U = 20 V 的电源相连。在两极板间插入电介质后，电容变为原来的 3 倍。电容器所带电荷量增加了多少 μC？（只填数值）",
+    "answer": "20",
+    "solution": "与电源相连，U 保持 20 V。Q₁ = CU = 0.5 × 20 = 10 μC，Q₂ = 3C·U = 30 μC，ΔQ = 20 μC。若误认为 Q 不变，会得出增加量为 0。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电容器的电容",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h063_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电容器通过电阻与恒压电源相连开始充电。关于充电过程，下列说法正确的是哪一个？\nA. 充电电流由大变小，最后为零，电容器两极板间的电压增大到等于电源电压\nB. 充电电流由小变大，最后达到最大值\nC. 充电电流保持恒定，直到电容器充满\nD. 充电结束后电路中仍有恒定电流，电容器电压继续增大",
+    "answer": "A. 充电电流由大变小，最后为零，电容器两极板间的电压增大到等于电源电压",
+    "solution": "刚接通时电容器电压为零，电阻两端电压等于电源电压，电流最大；随着电容器电压升高，电阻两端电压减小，电流减小，当 U_C 等于电源电压时电流为零。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：观察电容器的充、放电现象",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h064_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "实验中先让电容器充电，再通过同一个电阻放电。电阻 R 中的电流方向，在充电和放电时分别是怎样的？\nA. 方向相同\nB. 方向相反\nC. 充电时有电流，放电时没有电流\nD. 放电时的电流方向由电容器所带电荷量的多少决定",
+    "answer": "B. 方向相反",
+    "solution": "充电时正电荷由电源正极流向与之相连的极板；放电时该极板上的正电荷经电阻回到另一极板，所以流过电阻的电流方向与充电时相反。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：观察电容器的充、放电现象",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h064_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "在电容器放电实验中，得到放电电流随时间变化的 I-t 图线。图线与坐标轴所围的面积共约 40 个小格，每小格表示 0.2 mA × 0.5 s。已知充电电压为 8 V，则该电容器的电容约是多少 μF？（只填数值）",
+    "answer": "500",
+    "solution": "每小格代表电荷量 0.2 mA × 0.5 s = 0.1 mC = 100 μC，总电荷量 Q = 40 × 100 = 4000 μC。C = Q/U = 4000 ÷ 8 = 500 μF。单位换算是易错点（mA·s = mC）。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：观察电容器的充、放电现象",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h064_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "做放电实验时，把放电电阻 R 换成阻值更大的电阻，其他条件不变。放电 I-t 图线的变化是哪一个？\nA. 起始电流变小，放电时间变短，图线与坐标轴所围面积变小\nB. 起始电流变大，放电时间变短，图线与坐标轴所围面积不变\nC. 起始电流变小，放电时间变长，图线与坐标轴所围面积不变\nD. 起始电流不变，放电时间变长，图线与坐标轴所围面积变大",
+    "answer": "C. 起始电流变小，放电时间变长，图线与坐标轴所围面积不变",
+    "solution": "放电开始时 I₀ = U/R，R 变大则 I₀ 变小。电容器放出的总电荷量 Q = CU 不变，所以面积不变；电流变小，放完电荷需要更长的时间。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：观察电容器的充、放电现象",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h064_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个 α 粒子（电荷量为 2e）从静止开始，经 500 V 的电压加速后，获得的动能是多少 eV？（只填数值）",
+    "answer": "1000",
+    "solution": "qU = 2e × 500 V = 1000 eV，所以动能为 1000 eV。1 eV 是电荷量为 e 的粒子经 1 V 电压加速所获得的动能。若忘记电荷量是 2e，会得到 500。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "带电粒子在电场中的加速",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h065_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "质子（电荷量 e，质量 m）和 α 粒子（电荷量 2e，质量 4m）从静止出发，经同一电场加速。末速度之比 v质子 : vα 是哪一个？\nA. √2 : 1\nB. 1 : √2\nC. 2 : 1\nD. 1 : 2",
+    "answer": "A. √2 : 1",
+    "solution": "由 qU = ½mv² 得 v = √(2qU/m)，v ∝ √(q/m)。质子 q/m = e/m，α 粒子 q/m = 2e/4m = e/(2m)，所以 v质子 : vα = √2 : 1。若比较的是动能，则质子与 α 之比为 1 : 2。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "带电粒子在电场中的加速",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h065_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "带电颗粒（重力不计）的电荷量 q = 2×10⁻⁶ C，质量 m = 1×10⁻⁶ kg，从静止开始经 U = 100 V 的电压加速。它获得的速度是多少 m/s？（只填数值）",
+    "answer": "20",
+    "solution": "qU = ½mv²，v = √(2qU/m) = √(2 × 2×10⁻⁶ × 100 ÷ 1×10⁻⁶) = √400 = 20 m/s。漏掉 2 会得到约 14.1 m/s。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "带电粒子在电场中的加速",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h065_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "带电粒子（不计重力）在两块平行金属板之间被匀强电场从静止加速，恰好到达另一块板。保持两板间电压不变，只把两板间距离增大为原来的 2 倍，粒子到达另一板时的速度怎样变化？\nA. 不变\nB. 变为原来的 √2 倍\nC. 变为原来的 2 倍\nD. 变为原来的 1/√2",
+    "answer": "A. 不变",
+    "solution": "qU = ½mv² 只与电势差 U 有关，U 不变，v 不变。d 增大使场强减小、加速度减小，但粒子在电场中经过的距离也增大，两个效应在动能定理中恰好抵消。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "带电粒子在电场中的加速",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h065_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "不计重力的带电粒子以初速度 v₀ 垂直射入匀强电场，粒子在电场中的轨迹是哪一个？\nA. 圆弧\nB. 直线\nC. 抛物线\nD. 椭圆",
+    "answer": "C. 抛物线",
+    "solution": "垂直电场方向不受力，做匀速运动；沿电场方向受恒定静电力，做匀加速运动，合运动与平抛运动类似，轨迹为抛物线。圆周运动需要大小不变、方向始终指向圆心的力。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "带电粒子在电场中的偏转",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h066_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "不计重力的带电粒子以 v₀ = 2×10⁶ m/s 垂直电场方向射入长 L = 0.1 m 的匀强电场，在电场中的加速度大小为 4×10¹² m/s²。粒子射出电场时沿电场方向偏移了多少 mm？（只填数值）",
+    "answer": "5",
+    "solution": "t = L/v₀ = 0.1 ÷ 2×10⁶ = 5×10⁻⁸ s，y = ½at² = ½ × 4×10¹² × (5×10⁻⁸)² = 5×10⁻³ m = 5 mm。若漏掉 ½，会得到 10 mm。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "带电粒子在电场中的偏转",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h066_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "条件同上：粒子以 v₀ = 2×10⁶ m/s 垂直射入长 L = 0.1 m 的匀强电场，加速度大小为 4×10¹² m/s²。粒子射出电场时，速度方向与初速度方向夹角的正切值 tanθ 是多少？（只填数值）",
+    "answer": "0.1",
+    "solution": "t = 5×10⁻⁸ s，v_y = at = 4×10¹² × 5×10⁻⁸ = 2×10⁵ m/s，tanθ = v_y/v₀ = 2×10⁵ ÷ 2×10⁶ = 0.1。注意 tanθ = 2y/L（y = 5 mm 时为 0.1），不是 y/L。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "带电粒子在电场中的偏转",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h066_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "质子和 α 粒子（电荷量是质子的 2 倍，质量是质子的 4 倍）都从静止开始，经同一加速电场加速后，垂直进入同一匀强偏转电场并飞出。它们在偏转电场中的偏移量 y 的关系是哪一个？\nA. α 粒子的偏移量是质子的一半\nB. α 粒子的偏移量更大，因为电荷量更大\nC. 偏移量相同，轨迹重合\nD. 质子的偏移量更大，因为质量更小",
+    "answer": "C. 偏移量相同，轨迹重合",
+    "solution": "加速：qU₁ = ½mv₀²；偏转：y = ½(qU₂/md)(L/v₀)² = U₂L²/(4dU₁)，与 q、m 无关。只比较加速度（α 的 a 只有质子的一半）而忽略速度也不同，会得出『一半』的错误结论。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "带电粒子在电场中的偏转",
+      "运动和相互作用"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h066_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "30 s 内通过导体某一横截面的电荷量是 12 C，导体中的电流是多少 A？（只填数值）",
+    "answer": "0.4",
+    "solution": "I = q/t = 12 ÷ 30 = 0.4 A。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电源和电流",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h067_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于电源的作用，下列说法正确的是哪一个？\nA. 为导体提供大量可以自由移动的电荷\nB. 保持导体两端存在电势差，使电路中有持续的电流\nC. 使导体中的自由电荷停止无规则的热运动\nD. 把电荷创造出来，由负极送到正极",
+    "answer": "B. 保持导体两端存在电势差，使电路中有持续的电流",
+    "solution": "导体中本来就有大量自由电荷，要形成持续电流，需要持续的电势差（电场）；电源通过非静电力把正电荷从负极搬到正极，维持这一电势差。电荷既不会被创造也不会被消灭。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电源和电流",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h067_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "铜导线的横截面积 S = 1 mm²，单位体积内的自由电子数 n = 8.5×10²⁸ m⁻³，电子电荷量 e = 1.6×10⁻¹⁹ C。导线中的电流 I = 3.4 A 时，自由电子定向移动的速率是多少 mm/s？（只填数值）",
+    "answer": "0.25",
+    "solution": "由 I = nevS 得 v = I/(neS) = 3.4 ÷ (8.5×10²⁸ × 1.6×10⁻¹⁹ × 1×10⁻⁶) = 2.5×10⁻⁴ m/s = 0.25 mm/s。面积需化为 m²；这说明电子定向移动速率很小，远小于热运动速率。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电源和电流",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h067_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某电解液的某一截面上，1 s 内有 2 C 的正离子向右通过，同时有 2 C 的负离子向左通过。这段时间内通过该截面的电流是哪一个？\nA. 4 A，方向向右\nB. 2 A，方向向右\nC. 0\nD. 4 A，方向向左",
+    "answer": "A. 4 A，方向向右",
+    "solution": "负离子向左移动，等效于正电荷向右移动，两种离子形成的电流同向，大小相加：I = (2 + 2) C ÷ 1 s = 4 A，方向向右。若把两种电荷的电荷量相互抵消得 0，是错把负离子的反向移动当成了电荷的中和；若只数一种离子则得 2 A。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电源和电流",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h067_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某金属导体两端电压为 4 V 时，通过它的电流为 0.5 A。若温度不变，电压增大到 10 V，通过它的电流是多少 A？（只填数值）",
+    "answer": "1.25",
+    "solution": "R = U/I = 4 ÷ 0.5 = 8 Ω，温度不变时 R 不变，I′ = U′/R = 10 ÷ 8 = 1.25 A。也可直接按正比：I′ = 0.5 × 10/4。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "欧姆定律与伏安特性曲线",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h068_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "小灯泡的 I-U 图线是一条向 U 轴一侧弯曲的曲线（斜率逐渐变小）。这说明什么？\nA. 灯丝的电阻随电压的升高而减小\nB. 灯丝的电阻是不变的，电流表读数有误差\nC. 此时 R = U/I 已经没有意义\nD. 灯丝的电阻随温度的升高而增大",
+    "answer": "D. 灯丝的电阻随温度的升高而增大",
+    "solution": "电压越高，灯丝温度越高，金属电阻率增大，电阻 R = U/I 增大，I-U 图线上各点与原点连线的斜率（1/R）减小。曲线上每个状态仍可用 R = U/I 求当时的电阻。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "欧姆定律与伏安特性曲线",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h068_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "小灯泡两端电压为 2 V 时电流为 0.25 A，电压为 6 V 时电流为 0.5 A。电压由 2 V 升高到 6 V，灯丝的电阻增大了多少 Ω？（只填数值）",
+    "answer": "4",
+    "solution": "R₁ = 2 ÷ 0.25 = 8 Ω，R₂ = 6 ÷ 0.5 = 12 Ω，ΔR = 4 Ω。若用 ΔU/ΔI = 4 ÷ 0.25 = 16 Ω 当作电阻的变化，是把非线性元件按线性元件处理的错误。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "欧姆定律与伏安特性曲线",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h068_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "欧姆定律适用于哪些导体？\nA. 任何导体，任何情况\nB. 只适用于金属导体，不适用于电解质溶液\nC. 气体导电和半导体二极管\nD. 金属导体和电解质溶液",
+    "answer": "D. 金属导体和电解质溶液",
+    "solution": "欧姆定律适用于金属导电和电解质溶液导电，对气体导电和半导体元件（如二极管、晶体管）并不适用。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "欧姆定律与伏安特性曲线",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h068_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "铜的电阻率 ρ = 1.7×10⁻⁸ Ω·m。一根长 100 m、横截面积为 1.7 mm² 的铜导线，电阻是多少 Ω？（只填数值）",
+    "answer": "1",
+    "solution": "S = 1.7 mm² = 1.7×10⁻⁶ m²，R = ρl/S = 1.7×10⁻⁸ × 100 ÷ 1.7×10⁻⁶ = 1 Ω。面积单位不换算（mm² 当作 m²）会差 10⁶ 倍。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电阻定律与电阻率",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h069_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一根均匀的电阻丝电阻为 R。把它对折后拧成一股，电阻变为多少？\nA. 原来的 1/4\nB. 原来的 1/2\nC. 原来的 2 倍\nD. 原来的 4 倍",
+    "answer": "A. 原来的 1/4",
+    "solution": "对折后长度变为 l/2，横截面积变为 2S，R′ = ρ(l/2)/(2S) = R/4。只考虑长度减半会得到 R/2。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电阻定律与电阻率",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h069_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一根粗细均匀的电阻丝电阻为 4 Ω，把它均匀拉长到原长的 3 倍（体积不变），它的电阻变为多少 Ω？（只填数值）",
+    "answer": "36",
+    "solution": "体积不变，长度变为 3 倍时横截面积变为 1/3。R′ = ρ(3l)/(S/3) = 9ρl/S = 9R = 36 Ω。若只考虑长度变化，会得到 12 Ω。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电阻定律与电阻率",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h069_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于电阻率，下列说法正确的是哪一个？\nA. 电阻率由材料决定并随温度变化，与导线的长度和横截面积无关\nB. 电阻率与导体的长度成正比\nC. 电阻率与导体的电阻成正比\nD. 金属的电阻率随温度升高而减小",
+    "answer": "A. 电阻率由材料决定并随温度变化，与导线的长度和横截面积无关",
+    "solution": "R = ρl/S 中，ρ 是材料的属性，R 才与 l、S 有关。纯金属的电阻率随温度升高而增大（有的合金几乎不变）。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电阻定律与电阻率",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h069_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用 10 分度游标卡尺测一物体的长度，主尺上整毫米读数为 23 mm，游标上第 6 条刻线与主尺某刻线对齐。物体的长度是多少 mm？（只填数值）",
+    "answer": "23.6",
+    "solution": "10 分度游标卡尺精度为 0.1 mm，读数 = 23 + 6 × 0.1 = 23.6 mm。游标卡尺不需估读。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：长度的测量及其测量工具的选用",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h070_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用 20 分度游标卡尺（精度 0.05 mm）测量，下列读数中，哪个是有可能得到的？\nA. 23.46 mm\nB. 23.47 mm\nC. 23.48 mm\nD. 23.45 mm",
+    "answer": "D. 23.45 mm",
+    "solution": "20 分度游标卡尺读数 = 主尺整毫米数 + n × 0.05 mm，小数部分只能是 0.00、0.05、0.10、0.15 … 即末位只能是 0 或 5。23.46、23.47、23.48 的末位不可能出现（23.46 只能出现在 50 分度卡尺上）。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：长度的测量及其测量工具的选用",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h070_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用 50 分度游标卡尺测量一个小圆柱体的直径，主尺上整毫米读数为 12 mm，游标上第 23 条刻线与主尺某刻线对齐。圆柱体的直径是多少 mm？（只填数值）",
+    "answer": "12.46",
+    "solution": "50 分度精度为 0.02 mm，读数 = 12 + 23 × 0.02 = 12.46 mm。若误用 0.1 mm 的精度，会得到 14.3 mm。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：长度的测量及其测量工具的选用",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h070_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用螺旋测微器测一金属丝直径，固定刻度上读数为 3.5 mm（半毫米刻线已露出），可动刻度的读数为 21.7 格（含估读一位，每格 0.01 mm）。金属丝的直径是多少 mm？（只填数值）",
+    "answer": "3.717",
+    "solution": "读数 = 固定刻度 + 可动刻度 × 0.01 mm = 3.5 + 21.7 × 0.01 = 3.717 mm。螺旋测微器需估读到 0.001 mm；忘记半毫米刻线已露出，会漏掉 0.5 mm，得到 3.217。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：长度的测量及其测量工具的选用",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h070_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用伏安法测一阻值约为几欧的金属丝电阻，电流表内阻约 0.1 Ω，电压表内阻约几千欧。应采用哪种接法，测量值与真实值相比如何？\nA. 电流表外接法，测量值偏小\nB. 电流表外接法，测量值偏大\nC. 电流表内接法，测量值偏小\nD. 电流表内接法，测量值偏大",
+    "answer": "A. 电流表外接法，测量值偏小",
+    "solution": "待测电阻远小于电压表内阻，应采用电流表外接法。外接法中电压表分流，电流表读数大于通过 Rx 的电流，R测 = U/I 偏小。内接法的误差来自电流表分压，R测 偏大，适合测大电阻。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：导体电阻率的测量",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h071_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "测金属丝电阻率时，要求通过金属丝的电流不宜过大，通电时间不宜过长。其主要原因是哪一个？\nA. 电流大、通电时间长会使金属丝的长度明显变短\nB. 电流大、通电时间长会使电压表读数偏小\nC. 电流大、通电时间长会使金属丝温度升高，电阻率发生变化，带来误差\nD. 电流大、通电时间长会使螺旋测微器的读数不准",
+    "answer": "C. 电流大、通电时间长会使金属丝温度升高，电阻率发生变化，带来误差",
+    "solution": "金属的电阻率随温度升高而增大，通电发热使金属丝电阻 R 偏大，测出的 ρ 不再是室温下的数值。长度、直径的测量与通电无关。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：导体电阻率的测量",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h071_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "测得某金属丝的直径 d = 0.50 mm，接入电路的有效长度 l = 1.0 m，电阻 R = 4 Ω。金属丝的电阻率 ρ = πd²R/(4l)，以 10⁻⁷ Ω·m 为单位，结果保留两位小数，π 取 3.14159。（只填数值）",
+    "answer": "7.85",
+    "solution": "ρ = πd²R/(4l) = 3.14159 × (0.5×10⁻³)² × 4 ÷ (4 × 1.0) = 7.85×10⁻⁷ Ω·m。若 d 当作半径代入公式，结果会偏大 4 倍。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：导体电阻率的测量",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h071_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用伏安法测电阻时，电流表内阻 R_A = 1 Ω，电压表内阻 R_V = 900 Ω。当待测电阻大于多少 Ω 时，采用电流表内接法比外接法的误差更小？（临界值 R = √(R_A·R_V)，只填数值）",
+    "answer": "30",
+    "solution": "内、外接法相对误差相等时，R_x/R_A = R_V/R_x，即 R_x = √(R_A R_V) = √(1 × 900) = 30 Ω。Rx > 30 Ω 时，R_x 与 R_A 的比值更大，电流表分压的影响小，宜用内接法。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：导体电阻率的测量",
+      "能量"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h071_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "6 Ω 和 3 Ω 的两个电阻并联，总电阻是多少 Ω？（只填数值）",
+    "answer": "2",
+    "solution": "1/R = 1/6 + 1/3 = 1/2，R = 2 Ω。若直接相加得 9 Ω，那是串联的结果。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串联电路和并联电路",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h072_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于并联电路的电阻，下列说法正确的是哪一个？\nA. 并联总电阻大于最大的支路电阻\nB. 增加并联支路，总电阻增大\nC. 并联总电阻小于任何一个支路的电阻，增加并联支路，总电阻减小\nD. 并联总电阻等于各支路电阻倒数之和",
+    "answer": "C. 并联总电阻小于任何一个支路的电阻，增加并联支路，总电阻减小",
+    "solution": "并联相当于增大了导体的横截面积，所以总电阻小于任一支路电阻；总电阻的倒数（1/R）才等于各支路电阻倒数之和。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串联电路和并联电路",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h072_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电阻 R₁ = 2 Ω 与由 R₂ = 6 Ω、R₃ = 3 Ω 并联而成的部分串联，接在 12 V 的电源两端。通过 R₃ 的电流是多少 A？（只填数值）",
+    "answer": "2",
+    "solution": "R₂₃ = 6×3/(6+3) = 2 Ω，总电阻 4 Ω，总电流 3 A，并联部分电压 U₂₃ = 3 × 2 = 6 V，I₃ = 6 ÷ 3 = 2 A。若误认为 R₃ 两端电压为 12 V，会得到 4 A。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串联电路和并联电路",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h072_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "1 Ω 和 99 Ω 的两个电阻并联，总电阻最接近下列哪个数值？\nA. 50 Ω\nB. 100 Ω\nC. 99 Ω\nD. 0.99 Ω",
+    "answer": "D. 0.99 Ω",
+    "solution": "R = 1 × 99 ÷ (1 + 99) = 0.99 Ω，接近较小的那个电阻。50 Ω 是取平均值，100 Ω 是串联的结果，99 Ω 是只取较大的电阻。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "串联电路和并联电路",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h072_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "满偏电流 I_g = 1 mA、内阻 R_g = 100 Ω 的表头，要改装成量程为 3 V 的电压表，需要串联的分压电阻是多少 Ω？（只填数值）",
+    "answer": "2900",
+    "solution": "表头满偏时总电阻 R总 = U/I_g = 3 ÷ 0.001 = 3000 Ω，串联电阻 R = 3000 − 100 = 2900 Ω。若忘记减去 R_g 会得到 3000 Ω。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电表的改装",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h073_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把小量程电流表分别改装成大量程电压表和大量程电流表，关于改装方法和改装后的内阻，下列说法正确的是哪一个？\nA. 改装电压表需并联一个电阻，改装电流表需串联一个电阻\nB. 改装电压表需串联大电阻，内阻大于表头内阻；改装电流表需并联小电阻，内阻小于表头内阻\nC. 改装成电流表后，因为多并联了一个电阻，内阻变大\nD. 两种改装后的电表内阻都等于原表头内阻",
+    "answer": "B. 改装电压表需串联大电阻，内阻大于表头内阻；改装电流表需并联小电阻，内阻小于表头内阻",
+    "solution": "串联分压电阻使电压表总内阻 R_g + R 大于 R_g；并联分流电阻使电流表总内阻 R_gR/(R_g + R) 小于 R_g。并联电阻越多，总电阻越小，所以电流表内阻变小，不是变大。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电表的改装",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h073_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "满偏电流 I_g = 10 mA、内阻 R_g = 90 Ω 的表头，要改装成量程为 0.1 A 的电流表，需要并联的分流电阻是多少 Ω？（只填数值）",
+    "answer": "10",
+    "solution": "表头两端电压 U = I_gR_g = 0.01 × 90 = 0.9 V，分流电阻中的电流 I − I_g = 0.09 A，R = 0.9 ÷ 0.09 = 10 Ω。若用 0.1 A 计算分流电阻的电流，会得到 9 Ω。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电表的改装",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h073_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把 I_g = 1 mA、R_g = 100 Ω 的表头按量程 3 V 串联了一个分压电阻，与标准电压表校对，发现改装表指示 2.4 V 时标准表读数为 3.0 V。为使改装表准确，串联电阻应减小多少 Ω？（只填数值）",
+    "answer": "750",
+    "solution": "指示值与表头电流成正比（按 3000 Ω 刻度），真实电压与总内阻成正比：3.0 ÷ 2.4 = R总′ ÷ 3000，得 R总′ = 3750 Ω，实际串联电阻 3650 Ω；准确值应为 2900 Ω，故应减小 750 Ω。改装表读数偏小，说明串联电阻偏大。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电表的改装",
+      "能量"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h073_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于多用电表红、黑表笔与电流方向的关系，下列说法正确的是哪一个？\nA. 无论测电压、电流还是电阻，电流都从红表笔流入、黑表笔流出\nB. 只有测电流时是红进黑出，测电阻时相反\nC. 测电阻时电流从红表笔流出、黑表笔流入\nD. 红、黑表笔没有区别，电流方向任意",
+    "answer": "A. 无论测电压、电流还是电阻，电流都从红表笔流入、黑表笔流出",
+    "solution": "多用电表内部的表头需要电流从固定方向流入。欧姆挡时，内部电源正极接黑表笔，电流从黑表笔流出、经被测电阻后从红表笔流入，所以仍是『红进黑出』（对电表而言）。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：练习使用多用电表",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h074_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用多用电表的欧姆挡测量电阻，选择『×100』倍率，指针指在表盘刻度 15 处。被测电阻是多少 Ω？（只填数值）",
+    "answer": "1500",
+    "solution": "欧姆表读数 = 表盘示数 × 倍率 = 15 × 100 = 1500 Ω。注意欧姆表的刻度是不均匀的，要直接读指针所指的示数。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：练习使用多用电表",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h074_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用欧姆挡测量某电阻时，发现指针偏转角度很小（指针靠近表盘 ∞ 刻度一侧）。接下来应怎样操作？\nA. 换用更小倍率的挡位，重新欧姆调零后再测\nB. 换用更大倍率的挡位，不必重新欧姆调零\nC. 换用更大倍率的挡位，重新欧姆调零后再测\nD. 保持倍率不变，转动机械调零螺丝使指针向右",
+    "answer": "C. 换用更大倍率的挡位，重新欧姆调零后再测",
+    "solution": "欧姆表偏角小说明被测电阻大，示数偏大端，读数误差大，应换大倍率使指针靠近中间刻度；每次换挡内部等效电路改变，必须重新欧姆调零。机械调零只在测量前调整电表指针的零位置。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：练习使用多用电表",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h074_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某欧姆表内电池电动势 E = 1.5 V，欧姆调零后欧姆表的总内阻为 1500 Ω。接入阻值为 4500 Ω 的电阻 Rx 时，通过表头的电流是多少 mA？（只填数值）",
+    "answer": "0.25",
+    "solution": "I = E/(R内 + Rx) = 1.5 ÷ (1500 + 4500) = 2.5×10⁻⁴ A = 0.25 mA。欧姆调零时满偏电流 I_g = E/R内 = 1 mA，所以此时指针偏转到满偏的 1/4。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：练习使用多用电表",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h074_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某用电器两端的电压为 220 V，通过的电流为 0.5 A，工作 10 min，电流做的功是多少 J？（只填数值）",
+    "answer": "66000",
+    "solution": "W = UIt = 220 × 0.5 × 600 s = 66000 J。若忘记把 10 min 换算成 600 s，会得到 1100 J。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电功和电功率",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h075_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于电功率，下列说法正确的是哪一个？\nA. 电功率越大，用电器消耗的电能一定越多\nB. 电功率表示电流做功的快慢\nC. 电功率越大，通过用电器的电流一定越大\nD. 电功率就是电流做功的多少",
+    "answer": "B. 电功率表示电流做功的快慢",
+    "solution": "P = W/t 描述做功快慢；消耗的电能还与时间有关，W = Pt。电流 I = P/U，还与电压有关。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电功和电功率",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h075_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一台功率为 1.5 kW 的空调每天运行 8 h，按 30 天计算，电价为 0.5 元/(kW·h)，一个月的电费是多少元？（只填数值）",
+    "answer": "180",
+    "solution": "耗电量 W = Pt = 1.5 kW × 8 h × 30 = 360 kW·h，电费 360 × 0.5 = 180 元。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电功和电功率",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h075_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一盏标有“220 V 100 W”的灯泡，接在 110 V 的电路中（灯丝电阻视为不变），它的实际功率是多少？\nA. 50 W\nB. 100 W\nC. 12.5 W\nD. 25 W",
+    "answer": "D. 25 W",
+    "solution": "R = U额²/P额 = 484 Ω；P实 = U²/R = 110²/484 = 25 W。电压减半，功率变为原来的 1/4，而不是 1/2。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电功和电功率",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h075_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "阻值为 10 Ω 的电阻通过 2 A 的电流，30 s 内产生的热量是多少 J？（只填数值）",
+    "answer": "1200",
+    "solution": "Q = I²Rt = 2² × 10 × 30 = 1200 J。若漏掉电流的平方，会得到 600 J。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "焦耳定律",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h076_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电动机两端电压为 U，通过的电流为 I，线圈电阻为 R。电动机线圈发热的功率是多少？\nA. UI\nB. I²R\nC. U²/R\nD. UI − I²R",
+    "answer": "B. I²R",
+    "solution": "焦耳定律 P热 = I²R 在任何电路中都成立；UI 是总电功率，UI − I²R 是机械功率；U²/R 只适用于纯电阻电路。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "焦耳定律",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h076_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一台电动机接在 220 V 电压下，通过的电流为 5 A，线圈电阻为 2 Ω。它输出的机械功率是多少 W？（只填数值）",
+    "answer": "1050",
+    "solution": "总功率 UI = 220 × 5 = 1100 W，热功率 I²R = 25 × 2 = 50 W，机械功率 = 1100 − 50 = 1050 W。若用 U²/R 算热功率，会得到 220²/2 = 24200 W，远大于总功率 1100 W，显然不合理。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "焦耳定律",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h076_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "额定电压 6 V 的电动机，线圈电阻 0.5 Ω，正常工作时电流为 1 A。若电动机被卡住不能转动（堵转），此时通过它的电流为多少？\nA. 12 A\nB. 1 A\nC. 11 A\nD. 5.5 A",
+    "answer": "A. 12 A",
+    "solution": "堵转时不再输出机械功，电动机变成纯电阻，I = U/R = 6/0.5 = 12 A，电流大、发热剧烈，容易烧毁线圈。若误把正常转动时的反电动势 5.5 V 当作加在线圈上的电压，会得到 5.5/0.5 = 11 A。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "焦耳定律",
+      "能量"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h076_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "家庭电路中，各用电器之间是怎样连接的？\nA. 串联\nB. 大功率用电器串联，小功率用电器并联\nC. 并联\nD. 同一房间的用电器串联",
+    "answer": "C. 并联",
+    "solution": "各用电器额定电压均为 220 V，并联时每个用电器两端电压都是 220 V，且互不影响。串联会使其中一个断开时全部停止工作。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家庭电路与安全用电",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h077_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某家庭同时使用 1.2 kW 的空调、0.8 kW 的电热水壶和 0.2 kW 的电视机，家庭电路电压为 220 V，干路电流是多少 A？（只填数值）",
+    "answer": "10",
+    "solution": "总功率 P = 1200 + 800 + 200 = 2200 W，I = P/U = 2200/220 = 10 A。用电器并联，总功率等于各功率之和。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家庭电路与安全用电",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h077_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "洗衣机使用三孔插座，其金属外壳通过地线接地，主要作用是什么？\nA. 增大洗衣机工作时的电流，加快转速\nB. 给洗衣机提供更高的工作电压\nC. 减小洗衣机的耗电量以节省电能\nD. 外壳漏电时电流导入大地，防止人触电",
+    "answer": "D. 外壳漏电时电流导入大地，防止人触电",
+    "solution": "金属外壳接地后，若火线与外壳接触，电流从低电阻的地线流入大地，使外壳保持与地同电势，人接触外壳就不会触电，同时大电流使断路器跳闸。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家庭电路与安全用电",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h077_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某家庭进户线上的断路器（空气开关）额定电流为 16 A，家庭电路电压 220 V，同时工作的用电器总功率最大不能超过多少 W？（只填数值）",
+    "answer": "3520",
+    "solution": "P = UI = 220 × 16 = 3520 W。超过这个总功率时干路电流超过 16 A，断路器会跳闸。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "家庭电路与安全用电",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h077_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于电源的电动势，下列说法正确的是哪一个？\nA. 等于接入电路后电源两端的电压\nB. 表示电源输出电流的大小\nC. 表示静电力移送电荷做功的多少\nD. 表示电源把其他形式的能转化为电能的本领",
+    "answer": "D. 表示电源把其他形式的能转化为电能的本领",
+    "solution": "电动势由电源本身决定，是非静电力移送单位正电荷做的功；只有开路时路端电压才等于电动势。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电动势",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h078_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电池内部的非静电力把 2 C 的正电荷从负极移到正极，做功 3 J，这个电池的电动势是多少 V？（只填数值）",
+    "answer": "1.5",
+    "solution": "E = W/q = 3/2 = 1.5 V。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电动势",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h078_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一节干电池的电动势为 1.5 V，这表示什么？\nA. 电池内部每移送 1 C 的电荷，非静电力做功 1.5 J\nB. 电池接入任何电路后两端的电压都是 1.5 V\nC. 电池每秒钟把 1.5 J 的化学能转化为电能\nD. 电路中每通过 1 C 的电荷，外电路消耗 1.5 J 的电能",
+    "answer": "A. 电池内部每移送 1 C 的电荷，非静电力做功 1.5 J",
+    "solution": "E = W/q，表示移送 1 C 电荷时转化的电能为 1.5 J，与时间无关；接入电路后有内阻压降，路端电压小于 1.5 V，外电路消耗的电能还要比 1.5 J 少。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电动势",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h078_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电动势为 12 V 的蓄电池向外供电，通过的电流恒为 5 A，持续 2 min，电池内非静电力共做功多少 J？（只填数值）",
+    "answer": "7200",
+    "solution": "q = It = 5 × 120 = 600 C，W = Eq = 12 × 600 = 7200 J。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电动势",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h078_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电源电动势 E = 6 V，内阻 r = 1 Ω，外电路只有一个 R = 5 Ω 的电阻，电路中的电流是多少 A？（只填数值）",
+    "answer": "1",
+    "solution": "I = E/(R + r) = 6/(5 + 1) = 1 A。若忘记加内阻，会得到 1.2 A。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "闭合电路的欧姆定律",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h079_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电源电动势和内阻不变，外电阻增大时，路端电压怎样变化？\nA. 减小\nB. 不变\nC. 先增大后减小\nD. 增大",
+    "answer": "D. 增大",
+    "solution": "外电阻增大，总电阻增大，I = E/(R + r) 减小，内电压 Ir 减小，路端电压 U = E − Ir 增大；断路时 U = E。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "闭合电路的欧姆定律",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h079_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电池未接入电路时两端电压为 3 V。接入 5.5 Ω 的电阻后，路端电压变为 2.75 V，电池的内阻是多少 Ω？（只填数值）",
+    "answer": "0.5",
+    "solution": "E = 3 V；I = U/R = 2.75/5.5 = 0.5 A；内电压 = 3 − 2.75 = 0.25 V；r = 0.25/0.5 = 0.5 Ω。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "闭合电路的欧姆定律",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h079_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "用电阻不计的导线直接把电池的两极连接起来（电池内阻为 r，电动势为 E），此时的情况是什么？\nA. 路端电压为 0，电流为 E/r\nB. 路端电压为 E，电流为 0\nC. 路端电压为 E，电流为 E/r\nD. 路端电压为 0，电流为 0",
+    "answer": "A. 路端电压为 0，电流为 E/r",
+    "solution": "外电阻 R = 0，I = E/r（很大），路端电压 U = E − Ir = 0，电池迅速发热，可能损坏。路端电压为 E 的是断路的情形。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "闭合电路的欧姆定律",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h079_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电源（电动势 E，内阻 r）、定值电阻 R₁、滑动变阻器 R₂ 串联，电流表串联在电路中，电压表测路端电压。当滑片移动使 R₂ 增大时，两表示数如何变化？\nA. 电流表示数增大，电压表示数增大\nB. 电流表示数增大，电压表示数减小\nC. 电流表示数减小，电压表示数减小\nD. 电流表示数减小，电压表示数增大",
+    "answer": "D. 电流表示数减小，电压表示数增大",
+    "solution": "R₂ 增大 → 总电阻增大 → I = E/(R总 + r) 减小 → 内电压 Ir 减小 → 路端电压 U = E − Ir 增大。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "闭合电路的动态分析与功率",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h080_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电源电动势 E = 6 V，内阻 r = 2 Ω，外电阻可调。电源能对外输出的最大功率是多少 W？（只填数值）",
+    "answer": "4.5",
+    "solution": "R = r = 2 Ω 时输出功率最大，Pmax = E²/(4r) = 36/8 = 4.5 W。此时电源效率只有 50%。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "闭合电路的动态分析与功率",
+      "能量"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h080_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电源 E = 12 V，r = 2 Ω，定值电阻 R₀ = 3 Ω 与阻值范围 0 ~ 10 Ω 的滑动变阻器 R 串联接在电源两端。要使 R₀ 消耗的功率最大，R 应调到多大？\nA. 2 Ω\nB. 0 Ω\nC. 5 Ω\nD. 10 Ω",
+    "answer": "B. 0 Ω",
+    "solution": "R₀ 是定值电阻，P₀ = I²R₀，I 最大时功率最大，应使总电阻最小，即 R = 0。“R = r 时功率最大”只适用于可变电阻本身的功率，不能用于定值电阻。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "闭合电路的动态分析与功率",
+      "能量"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h080_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "电源 E = 12 V，r = 2 Ω，定值电阻 R₀ = 3 Ω 与阻值范围 0 ~ 10 Ω 的滑动变阻器 R 串联接在电源两端。调节 R，滑动变阻器消耗的最大功率是多少 W？（只填数值）",
+    "answer": "7.2",
+    "solution": "把 R₀ 并入电源内阻，等效内阻 r' = R₀ + r = 5 Ω；当 R = 5 Ω（在 0 ~ 10 Ω 范围内）时 P最大 = E²/(4r') = 144/20 = 7.2 W。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "闭合电路的动态分析与功率",
+      "能量"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h080_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "测干电池电动势和内阻的实验中，由多组 (I, U) 数据作出 U–I 图线，图线的纵轴截距和斜率的绝对值分别表示什么？\nA. 电动势 E；内阻 r\nB. 内阻 r；电动势 E\nC. 短路电流；电动势 E\nD. 电动势 E；短路电流",
+    "answer": "A. 电动势 E；内阻 r",
+    "solution": "由 U = E − Ir，U 是 I 的一次函数：纵截距（I = 0）是 E，斜率的绝对值是 r。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：电池电动势和内阻的测量",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h081_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "测量干电池时得到两组数据：I₁ = 0.10 A 时 U₁ = 1.45 V，I₂ = 0.50 A 时 U₂ = 1.25 V。电池的内阻是多少 Ω？（只填数值）",
+    "answer": "0.5",
+    "solution": "r = |ΔU/ΔI| = (1.45 − 1.25)/(0.50 − 0.10) = 0.5 Ω。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：电池电动势和内阻的测量",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h081_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "实验电路中，电压表直接并联在电池两端，电流表串联在滑动变阻器所在的支路中（电流表测的是流过滑动变阻器的电流）。电流表内阻很小可忽略，电压表内阻不是无穷大。由此测得的结果为哪一个？\nA. E测 = E真，r测 > r真\nB. E测 < E真，r测 < r真\nC. E测 < E真，r测 > r真\nD. E测 > E真，r测 > r真",
+    "answer": "B. E测 < E真，r测 < r真",
+    "solution": "电压表分流，电流表读数小于流过电池的真实电流；U = 0 时（短路）电压表不分流，I 测 = I真，所以横轴截距不变而纵截距 E测 偏小，斜率绝对值 r测 = E测/I短 偏小。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：电池电动势和内阻的测量",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h081_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "为使图线更清楚，某同学把 U–I 图的纵轴从 1.00 V 开始画。图线经过 (0, 1.48 V) 和 (0.40 A, 1.00 V) 两点。电池的内阻是多少 Ω？（只填数值）",
+    "answer": "1.2",
+    "solution": "纵轴起点不为 0 时，横轴交点并不是短路电流，不能用 E/I 横截距求内阻；应由斜率 r = ΔU/ΔI = (1.48 − 1.00)/0.40 = 1.2 Ω。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "实验：电池电动势和内阻的测量",
+      "跨学科实践"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h081_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列能源中属于可再生能源的是哪一个？\nA. 煤\nB. 石油\nC. 天然气\nD. 水能",
+    "answer": "D. 水能",
+    "solution": "水能来自水的循环，可以不断得到补充；煤、石油、天然气是不可再生能源。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能源与可持续发展",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h082_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "能量守恒定律告诉我们能量不会消灭，为什么人类仍要强调节约能源？\nA. 用过的能量会凭空消失，总量越来越少\nB. 能量守恒定律在宏观过程中并不成立\nC. 能量转化有方向性，耗散的内能不能自发再利用\nD. 内能可以自发地全部变回电能再利用",
+    "answer": "C. 能量转化有方向性，耗散的内能不能自发再利用",
+    "solution": "能量总量不变，但能被人类方便利用的能量品质下降，耗散到环境中的内能不能自发地聚集起来再利用。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能源与可持续发展",
+      "跨学科实践"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h082_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "把一盏 100 W 的白炽灯换成亮度相当的 20 W LED 灯，每天使用 5 h，一年按 365 天计算，一年能节约多少 kW·h 的电？（只填数值）",
+    "answer": "146",
+    "solution": "节约功率 (100 − 20) W = 0.08 kW，节电量 0.08 × 5 × 365 = 146 kW·h。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能源与可持续发展",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h082_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某小型水电站上下游落差 50 m，每秒有 20 m³ 的水流过水轮机，水的重力势能转化为电能的效率为 80%。发电功率是多少 kW？（水的密度 1×10³ kg/m³，g 取 10 m/s²，只填数值）",
+    "answer": "8000",
+    "solution": "每秒水的质量 m = ρV = 2×10⁴ kg，重力势能减少 mgh = 2×10⁴ × 10 × 50 = 1×10⁷ J，P = 0.8 × 1×10⁷ W = 8×10⁶ W = 8000 kW。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能源与可持续发展",
+      "跨学科实践"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h082_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "物理学中规定，磁场中某点的磁场方向是下列哪一个方向？\nA. 小磁针静止时 N 极所指的方向\nB. 小磁针静止时 S 极所指的方向\nC. 通电导线在该点所受力的方向\nD. 磁感线的疏密程度所指的方向",
+    "answer": "A. 小磁针静止时 N 极所指的方向",
+    "solution": "规定小磁针静止时 N 极所指的方向（或 N 极受力方向）为该点磁场方向。通电导线受力方向与磁场方向垂直，不是磁场方向。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁场与磁感线",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h083_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于条形磁铁周围的磁感线，下列说法正确的是哪一个？\nA. 始于 N 极，终于 S 极，是不闭合的曲线\nB. 磁体外部由 S 极指向 N 极，内部相反\nC. 磁场中真实存在的曲线，两条磁感线可以相交\nD. 外部由 N 极指向 S 极，内部由 S 极指向 N 极，闭合",
+    "answer": "D. 外部由 N 极指向 S 极，内部由 S 极指向 N 极，闭合",
+    "solution": "磁感线是人为引入的模型，在磁体外部从 N 极到 S 极，内部从 S 极回到 N 极，形成闭合曲线，这一点与电场线不同。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁场与磁感线",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h083_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "悬挂的小磁针静止时 N 极总指向地理北方，这说明什么？\nA. 地磁场的 N 极在地理北极附近\nB. 地磁两极与地理两极完全重合\nC. 赤道上空磁场方向竖直向下\nD. 地磁场的 S 极在地理北极附近",
+    "answer": "D. 地磁场的 S 极在地理北极附近",
+    "solution": "异名磁极相互吸引，小磁针 N 极指北，说明地理北极附近是地磁场的 S 极。地磁两极与地理两极并不重合（存在磁偏角），赤道附近磁场近似沿水平方向由南指北。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁场与磁感线",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h083_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于磁感线的疏密和磁场强弱，下列说法正确的是哪一个？\nA. 两条磁感线之间的空白区域没有磁场\nB. 磁感线的切线方向与该点磁场方向垂直\nC. 磁感线越密的地方磁场越弱\nD. 磁感线越密的地方磁场越强，且任意两条磁感线不相交",
+    "answer": "D. 磁感线越密的地方磁场越强，且任意两条磁感线不相交",
+    "solution": "磁感线的疏密表示磁场强弱，切线方向表示该点磁场方向；若两条磁感线相交，交点处磁场就有两个方向，因此不可能相交。没画磁感线的地方同样有磁场。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁场与磁感线",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h083_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一根长直导线竖直放置，电流方向竖直向上。从上往下俯视，导线周围的磁感线方向是怎样的？\nA. 顺时针方向的同心圆\nB. 沿半径向外的射线\nC. 竖直向上的直线\nD. 逆时针方向的同心圆",
+    "answer": "D. 逆时针方向的同心圆",
+    "solution": "安培定则：右手大拇指指向电流方向（向上），弯曲四指所指方向即磁感线环绕方向，俯视为逆时针。磁感线是闭合的同心圆，与电流垂直。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流的磁场和安培定则",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h084_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "水平放置的环形导线，从上往下看，电流沿逆时针方向，则环内中心轴线上的磁场方向是怎样的？\nA. 竖直向上\nB. 竖直向下\nC. 水平向右\nD. 沿环的切线方向",
+    "answer": "A. 竖直向上",
+    "solution": "环形电流的安培定则：四指弯曲方向为电流方向，大拇指指向环内磁感线方向。逆时针（俯视）电流对应大拇指向上。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流的磁场和安培定则",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h084_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "竖直放置的通电螺线管，从上往下看，导线中电流沿顺时针方向，则对该螺线管的判断正确的是哪一个？\nA. 上端为 N 极\nB. 下端为 N 极\nC. 上、下两端均为 N 极\nD. 管内没有磁场，磁场只在管外",
+    "answer": "B. 下端为 N 极",
+    "solution": "顺时针（俯视）电流对应管内磁场方向向下，磁场从下端穿出，所以下端是 N 极。通电螺线管内部磁场较强，外部像条形磁铁。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流的磁场和安培定则",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h084_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "两根相互平行的长直导线垂直纸面放置，通有大小相等、方向相同的电流。它们连线中点处的合磁感应强度是多少？\nA. 为单根导线在该处磁感应强度的 2 倍\nB. 不为零，方向沿两导线连线\nC. 为单根导线在该处磁感应强度的一半\nD. 为零",
+    "answer": "D. 为零",
+    "solution": "两根导线在中点产生的磁感应强度大小相等，方向相反（由安培定则），相互抵消，合磁场为零。若电流反向，则两者同向叠加，合场为单根的 2 倍，方向垂直于连线。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电流的磁场和安培定则",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h084_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "长 0.2 m 的直导线通有 5 A 的电流，垂直放在匀强磁场中，受到的磁场力为 0.1 N，磁场的磁感应强度是多少 T？（只填数值）",
+    "answer": "0.1",
+    "solution": "B = F/(IL) = 0.1/(5 × 0.2) = 0.1 T。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁感应强度",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h085_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某处一小段通电导线所受的磁场力为零，能得出什么结论？\nA. 该处磁场方向一定与导线垂直\nB. 该处磁感应强度不一定为零，导线可能与磁场方向平行\nC. 该处磁场很弱，导线一定垂直于磁场\nD. 该处磁感应强度一定为零，因为 B = F/(IL)",
+    "answer": "B. 该处磁感应强度不一定为零，导线可能与磁场方向平行",
+    "solution": "B = F/(IL) 只在导线垂直于磁场时成立。导线与磁场平行时不受力，但磁感应强度并不为零；B 由磁场本身决定。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁感应强度",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h085_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某点有两个互相垂直的磁场，磁感应强度大小分别为 3 mT 和 4 mT，该点的合磁感应强度大小是多少？\nA. 5 mT\nB. 7 mT\nC. 1 mT\nD. 3.5 mT",
+    "answer": "A. 5 mT",
+    "solution": "磁感应强度是矢量，垂直时合成为 √(3² + 4²) = 5 mT。直接相加得 7 mT 是忽略了方向。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁感应强度",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h085_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于磁感应强度，下列说法正确的是哪一个？\nA. B 与 F 成正比，与 IL 成反比\nB. B 的方向就是小段通电导线所受磁场力的方向\nC. B 在数值上等于任意放置的 1 A·m 导线所受的磁场力\nD. B = F/(IL) 是比值定义，B 由磁场本身决定",
+    "answer": "D. B = F/(IL) 是比值定义，B 由磁场本身决定",
+    "solution": "比值定义的物理量与分子分母无关；B 的方向是小磁针 N 极所指方向，与通电导线受力方向垂直；只有垂直放置时 F = BIL。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁感应强度",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h085_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "匀强磁场的磁感应强度为 0.5 T，一个面积为 0.04 m² 的线圈平面与磁场垂直，穿过线圈的磁通量是多少 Wb？（只填数值）",
+    "answer": "0.02",
+    "solution": "Φ = BS = 0.5 × 0.04 = 0.02 Wb。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁通量",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h086_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "匀强磁场中的矩形线圈，线圈平面由与磁场垂直的位置转到与磁场平行，穿过线圈的磁通量如何变化？\nA. 保持不变\nB. 由最大变为零\nC. 由零变为最大\nD. 由最大变为反向最大",
+    "answer": "B. 由最大变为零",
+    "solution": "垂直时 Φ = BS 最大；平行时没有磁感线穿过线圈平面，Φ = 0。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁通量",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h086_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "匀强磁场的磁感应强度为 0.4 T，面积为 0.5 m² 的线圈平面与磁场方向的夹角为 30°，穿过线圈的磁通量是多少 Wb？（sin30° = 0.5，只填数值）",
+    "answer": "0.1",
+    "solution": "有效面积 S⊥ = S sin30° = 0.25 m²，Φ = BS⊥ = 0.4 × 0.25 = 0.1 Wb。若误用 cos30° 会得到约 0.17 Wb。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁通量",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h086_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "匀强磁场的磁感应强度为 0.2 T，一个 100 匝、面积为 0.5 m² 的线圈，原来平面与磁场垂直。把线圈翻转 180°，穿过线圈磁通量的变化量大小是多少 Wb？（只填数值）",
+    "answer": "0.2",
+    "solution": "磁通量是标量但有正负：初 Φ₁ = BS = 0.1 Wb，翻转后穿过的方向相反 Φ₂ = −0.1 Wb，|ΔΦ| = 0.2 Wb。磁通量与匝数无关，不要乘 100。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "磁通量",
+      "运动和相互作用"
+    ],
+    "difficulty": 4,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h086_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "产生感应电流的条件是下列哪一个？\nA. 导体在磁场中运动\nB. 闭合回路处在磁场中\nC. 穿过闭合回路的磁通量很大\nD. 穿过闭合回路的磁通量发生变化",
+    "answer": "D. 穿过闭合回路的磁通量发生变化",
+    "solution": "无论由什么原因，只要穿过闭合回路的磁通量变化，回路中就产生感应电流；有磁场、磁通量大都不够，必须变化。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁感应现象及应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h087_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一个矩形闭合线圈放在范围足够大的匀强磁场中，线圈平面与磁场垂直，使线圈在磁场中平动（未离开磁场）。线圈中有无感应电流？\nA. 有，因为线圈的各边都在切割磁感线\nB. 有，因为线圈在磁场中运动\nC. 没有，穿过线圈的磁通量不变\nD. 有，因为穿过线圈的磁通量最大",
+    "answer": "C. 没有，穿过线圈的磁通量不变",
+    "solution": "平动时 B、S 及夹角都不变，Φ 不变，无感应电流。“切割磁感线”要看整个闭合回路磁通量是否变化，线圈两对边产生的作用相互抵消。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁感应现象及应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h087_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "线圈 A 与电源、开关、滑动变阻器串联，线圈 B 与灵敏电流计组成闭合回路，A 放在 B 内。下列哪种情况电流计指针不偏转？\nA. 闭合开关的瞬间\nB. 断开开关的瞬间\nC. 开关闭合后，滑片保持不动\nD. 开关闭合后向右移动滑片",
+    "answer": "C. 开关闭合后，滑片保持不动",
+    "solution": "闭合、断开开关或移动滑片都会改变 A 中电流，使穿过 B 的磁通量变化，B 回路产生感应电流；电流稳定不变时磁通量不变，指针不偏转。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁感应现象及应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h087_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一根导体棒在匀强磁场中垂直磁场方向做切割磁感线的运动，棒的两端没有连接成回路。下列判断正确的是哪一个？\nA. 有持续的感应电流，因为棒在切割磁感线\nB. 有持续的感应电流，但电流很小\nC. 有持续的感应电流，方向由磁场方向决定\nD. 不能形成持续的感应电流，因为回路不闭合",
+    "answer": "D. 不能形成持续的感应电流，因为回路不闭合",
+    "solution": "产生感应电流需要闭合回路；回路不闭合时电荷无法持续流动，只会在棒两端积累电荷。“切割磁感线”只是回路磁通量变化的一种方式。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁感应现象及应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h087_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "首先用实验证实了电磁波存在的科学家是谁？\nA. 麦克斯韦\nB. 法拉第\nC. 赫兹\nD. 奥斯特",
+    "answer": "C. 赫兹",
+    "solution": "麦克斯韦在理论上预言了电磁波，赫兹用实验证实了它；法拉第发现了电磁感应，奥斯特发现了电流的磁效应。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁波的发现及应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h088_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某调频电台发射的电磁波频率为 100 MHz，它在真空中的波长是多少 m？（c = 3×10⁸ m/s，只填数值）",
+    "answer": "3",
+    "solution": "λ = c/f = 3×10⁸ / (1×10⁸ Hz) = 3 m。若把 100 MHz 当成 100 Hz，会得到 3×10⁶ m 的错误结果。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁波的发现及应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h088_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "关于电磁波，下列说法正确的是哪一个？\nA. 传播需要介质，在真空中无法传播\nB. 可在真空中传播，真空中速度都等于光速\nC. 频率越高，在真空中的传播速度越大\nD. 是机械振动在介质中传播形成的波",
+    "answer": "B. 可在真空中传播，真空中速度都等于光速",
+    "solution": "电磁场本身是物质，电磁波不需要介质；真空中速度均为 c = 3×10⁸ m/s，与频率无关，频率越高波长越短。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁波的发现及应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h088_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "下列电磁波按波长由长到短排列，正确的是哪一个？\nA. 无线电波、紫外线、红外线、X 射线\nB. X 射线、紫外线、红外线、无线电波\nC. 红外线、无线电波、紫外线、X 射线\nD. 无线电波、红外线、紫外线、X 射线",
+    "answer": "D. 无线电波、红外线、紫外线、X 射线",
+    "solution": "电磁波谱按波长由长到短依次是无线电波、红外线、可见光、紫外线、X 射线、γ 射线；波长越短，频率越高，光子能量越大。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "电磁波的发现及应用",
+      "运动和相互作用"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h088_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "普朗克提出的能量子假设认为，频率为 ν 的电磁辐射，其能量子的大小 ε 是多少（h 为普朗克常量）？\nA. hν\nB. h/ν\nC. hλ\nD. hν²",
+    "answer": "A. hν",
+    "solution": "能量子 ε = hν，与频率成正比；物体辐射或吸收的能量只能是 hν 的整数倍，即能量是“一份一份”的。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能量量子化",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h089_q1",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "某单色光频率为 5×10¹⁴ Hz，一个光子的能量是多少 ×10⁻¹⁹ J？（普朗克常量 h = 6.6×10⁻³⁴ J·s，只填数值）",
+    "answer": "3.3",
+    "solution": "ε = hν = 6.6×10⁻³⁴ × 5×10¹⁴ = 3.3×10⁻¹⁹ J。",
+    "question_type": "填空题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能量量子化",
+      "物质"
+    ],
+    "difficulty": 2,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h089_q2",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "黑体的温度升高时，下列关于黑体辐射的说法正确的是哪一个？\nA. 各种波长的辐射强度都减小，辐射强度的极大值向波长较长的方向移动\nB. 只有长波的辐射强度增加，辐射强度的极大值位置不变\nC. 各种波长的辐射强度都增加，辐射强度的极大值向波长较长的方向移动\nD. 各种波长的辐射强度都增加，辐射强度的极大值向波长较短的方向移动",
+    "answer": "D. 各种波长的辐射强度都增加，辐射强度的极大值向波长较短的方向移动",
+    "solution": "温度升高，物体辐射增强，且颜色由暗红渐变到橙、黄、白，说明极大值对应波长变短（频率变高）。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能量量子化",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h089_q3",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  },
+  {
+    "question_text": "一支激光笔发出频率为 5×10¹⁴ Hz 的光，光功率为 3.3 mW，每秒发射的光子数约为多少？（h = 6.6×10⁻³⁴ J·s）\nA. 1×10¹⁶ 个\nB. 1×10¹⁹ 个\nC. 1×10¹³ 个\nD. 1×10¹⁵ 个",
+    "answer": "A. 1×10¹⁶ 个",
+    "solution": "每个光子能量 ε = hν = 3.3×10⁻¹⁹ J；每秒发射能量 3.3×10⁻³ J，光子数 n = 3.3×10⁻³ / 3.3×10⁻¹⁹ = 1×10¹⁶ 个。把 mW 当作 W 会误得 1×10¹⁹ 个。",
+    "question_type": "选择题",
+    "subject": "物理",
+    "education_level": "高中",
+    "grade": 12,
+    "exam_type": "同步练习",
+    "knowledge_points": [
+      "能量量子化",
+      "物质"
+    ],
+    "difficulty": 3,
+    "source_url": "https://github.com/xiaoyang111222/cn-math-taxonomy#cnp_h089_q4",
+    "teaching_tips": "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
+  }
+]
