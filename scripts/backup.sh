@@ -3,6 +3,7 @@
 # AI 教学助手 每日备份（R1-009）
 #   - 数据库：SQLite 在线备份（.backup，服务运行中也能得到一致的副本）
 #   - 学生作业照片：打包 uploads/
+#   - 按账号留存的教案和批改：打包 data/user_records/
 #   - 按时间命名，默认保留最近 14 天
 #
 # 用法（在部署目录，即 docker-compose.yml 所在目录执行）：
@@ -22,6 +23,7 @@ KEEP_DAYS="${KEEP_DAYS:-14}"
 DATA_DIR="$APP_DIR/data"
 DB_FILE="$DATA_DIR/teaching_assistant.db"
 UPLOADS_DIR="$APP_DIR/uploads"
+RECORDS_DIR="$DATA_DIR/user_records"
 STAMP="$(date +%Y%m%d_%H%M%S)"
 TARGET="$BACKUP_DIR/$STAMP"
 
@@ -89,16 +91,25 @@ else
   tar -czf "$TARGET/uploads.tar.gz" --files-from /dev/null
 fi
 
-# 3) 备份说明
+# 3) 按账号留存的生成内容（没有记录时打一个空包，恢复脚本可以识别）
+if [ -d "$RECORDS_DIR" ]; then
+  tar -czf "$TARGET/user_records.tar.gz" -C "$DATA_DIR" user_records
+else
+  log "提示：没有 data/user_records 目录，跳过"
+  tar -czf "$TARGET/user_records.tar.gz" --files-from /dev/null
+fi
+
+# 4) 备份说明
 {
   echo "backup_time=$STAMP"
   echo "db_size=$(wc -c < "$TARGET/teaching_assistant.db")"
   echo "uploads_size=$(wc -c < "$TARGET/uploads.tar.gz")"
+  echo "records_size=$(wc -c < "$TARGET/user_records.tar.gz")"
 } > "$TARGET/BACKUP_INFO"
 
 log "备份完成：数据库 $(du -h "$TARGET/teaching_assistant.db" | cut -f1)，上传文件 $(du -h "$TARGET/uploads.tar.gz" | cut -f1)"
 
-# 4) 只保留最近 KEEP_DAYS（默认 14）天的备份
+# 5) 只保留最近 KEEP_DAYS（默认 14）天的备份
 find "$BACKUP_DIR" -mindepth 1 -maxdepth 1 -type d -name '20*' -mtime +"$((KEEP_DAYS - 1))" -print0 |
   while IFS= read -r -d '' old; do
     log "清理过期备份：$old"

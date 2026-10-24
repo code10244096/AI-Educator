@@ -4,7 +4,8 @@
 #   bash /opt/ai-teaching/scripts/deploy.sh
 #
 # 只覆盖程序文件。下面这些留在服务器上，不会被仓库里的版本替换：
-#   .env、data/、uploads/、logs/、backups/、nginx/ssl/、nginx/https.conf
+#   .env、data/（数据库，以及 data/user_records 里按账号留存的教案和批改）、
+#   uploads/、logs/、backups/、nginx/ssl/、nginx/https.conf
 #
 # 可选环境变量：
 #   DEPLOY_REPO    默认 https://github.com/code10244096/AI-Educator.git

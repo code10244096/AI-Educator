@@ -77,9 +77,18 @@ tar -xzf "$SRC/uploads.tar.gz" -C "$APP_DIR"
 mkdir -p "$APP_DIR/uploads"
 log "上传文件已恢复"
 
+if [ -f "$SRC/user_records.tar.gz" ]; then
+  if [ -d "$DATA_DIR/user_records" ]; then
+    mv "$DATA_DIR/user_records" "$DATA_DIR/user_records.before-restore-$STAMP"
+  fi
+  tar -xzf "$SRC/user_records.tar.gz" -C "$DATA_DIR"
+  mkdir -p "$DATA_DIR/user_records"
+  log "按账号留存的生成内容已恢复"
+fi
+
 if [ "$USE_DOCKER" = "1" ]; then
   log "启动后端容器"
   docker compose -f "$COMPOSE_FILE" start backend
 fi
 
-log "恢复完成。旧数据保留在 data/teaching_assistant.db.before-restore-$STAMP 与 uploads.before-restore-$STAMP，核对无误后可手动删除。"
+log "恢复完成。旧数据保留为 *.before-restore-$STAMP，核对无误后可手动删除。"

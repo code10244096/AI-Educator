@@ -93,6 +93,7 @@ curl -s http://127.0.0.1/health    # {"status":"healthy"}
 | 宿主机目录 | 内容 |
 |---|---|
 | `./data/teaching_assistant.db` | 数据库 |
+| `./data/user_records/` | 按登录账号留存的教案、批改、变式题 |
 | `./uploads/` | 学生作业照片等原始文件 |
 | `./logs/` | 模型调用记录（`logs/api_runs/`）、备份日志 |
 

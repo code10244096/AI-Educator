@@ -32,6 +32,14 @@ backend/config.production.json
 backend/uploads/*
 !backend/uploads/.gitkeep
 
+# 按账号留存的教案和批改（含学生内容，不入库）
+backend/user_records/
+user_records/
+backend/trial_quota.json
+
+# 题库原始下载数据（体积大，仅本地保留；入库用规范化后的题库文件）
+dataset/题库/_原始下载/
+
 # 日志
 *.log
 logs/
@@ -68,6 +76,10 @@ nginx/https.conf
 # 其他
 *.bak
 *.backup
+
+# 开源题库的原始下载文件（整理后的题目在 dataset/题库/）
+backend/dataset/open/
+dataset/题库/_原始下载/
 
 # 模型调用日志（含学生作业内容）
 api_runs/

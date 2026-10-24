@@ -19,6 +19,8 @@ services:
       - DATABASE_URL=sqlite+aiosqlite:////app/data/teaching_assistant.db
       - UPLOAD_DIR=/app/uploads
       - API_OUTPUT_ROOT=/app/logs/api_runs
+      - USER_RECORDS_DIR=/app/data/user_records
+      - TRIAL_QUOTA_FILE=/app/data/trial_quota.json
     expose:
       - "8000"
     volumes:
