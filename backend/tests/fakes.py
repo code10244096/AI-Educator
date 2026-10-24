@@ -12,11 +12,13 @@ from llm import LLMError, LLMResult
 
 FAKE_WRONG_MARKER = "FAKE_WRONG_QUESTION_MARKER"
 
+# score 与 jobs.compute_score 口径一致：正确题数/总题数×100，保留 1 位（2/3 → 66.7）；
+# 产品会忽略模型自报分数并重算，测试里凡断言 score == grade_result["score"] 都依赖此值。
 DEFAULT_GRADE = {
     "total_questions": 3,
     "correct_count": 2,
     "wrong_count": 1,
-    "score": 67,
+    "score": 66.7,
     "questions": [
         {"question_number": 1, "question_text": "1+1=?", "student_answer": "2",
          "correct_answer": "2", "is_correct": True, "explanation": "ok"},

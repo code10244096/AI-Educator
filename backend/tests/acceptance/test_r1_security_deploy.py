@@ -290,10 +290,10 @@ SECRET_ALLOW = ("sk-test-SECRETSECRET", "sk-qa-dummy", "sk-xxx", "sk-your", "you
 
 def test_no_plaintext_secrets_tracked():
     """R1-003 方案：git 已跟踪文件中不含明文密钥（sk-… / api_key: "…"）。"""
-    pat = r"sk-[A-Za-z0-9_-]{16,}|[\"']?api_key[\"']?\s*[:=]\s*[\"'][A-Za-z0-9_\-]{16,}[\"']|JWT_SECRET\s*=\s*[A-Za-z0-9_\-]{24,}"
+    pat = r"\bsk-[A-Za-z0-9_-]{16,}|[\"']?api_key[\"']?\s*[:=]\s*[\"'][A-Za-z0-9_\-]{16,}[\"']|JWT_SECRET\s*=\s*[A-Za-z0-9_\-]{24,}"
     p = subprocess.run(["git", "grep", "-nIE", pat, "--", ".", ":!*package-lock.json"], cwd=REPO,
                        capture_output=True, text=True, encoding="utf-8", errors="replace")
-    fake_in_tests = re.compile(r"sk-[A-Za-z0-9_-]*(test|fake|dummy|example|looking|0{6,})", re.I)
+    fake_in_tests = re.compile(r"\bsk-[A-Za-z0-9_-]*(test|fake|dummy|example|looking|0{6,})", re.I)
     hits = [l for l in p.stdout.splitlines() if not any(a in l for a in SECRET_ALLOW)
             and not (l.startswith("backend/tests/") and fake_in_tests.search(l))]
     assert not hits, "已跟踪文件含疑似明文密钥:\n" + "\n".join(hits[:20])

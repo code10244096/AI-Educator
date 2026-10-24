@@ -19,9 +19,18 @@ if str(ACCEPTANCE_DIR) not in sys.path:
 from qa_helpers import TeacherFactory, drain_jobs  # noqa: E402
 
 
+def _is_acceptance_item(item) -> bool:
+    """Windows-safe path check（避免 Path.parents 的盘符/斜杠比较踩坑）。"""
+    try:
+        Path(str(item.fspath)).resolve().relative_to(ACCEPTANCE_DIR)
+        return True
+    except (ValueError, OSError):
+        return False
+
+
 def pytest_collection_modifyitems(session, config, items):
     """Run acceptance tests after the developer-owned suite (stable ordering inside each group)."""
-    acc = [it for it in items if ACCEPTANCE_DIR in Path(str(it.fspath)).resolve().parents]
+    acc = [it for it in items if _is_acceptance_item(it)]
     if not acc:
         return
     rest = [it for it in items if it not in acc]

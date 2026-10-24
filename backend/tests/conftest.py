@@ -2,8 +2,10 @@
 Pytest bootstrap: isolate DB / uploads / call logs in a temp dir and force the
 model layer offline BEFORE the application is imported.
 
-Run from repo root:   python -m pytest backend/tests
-or from backend/:     python -m pytest tests
+Run from backend/:    py -m pytest tests
+（配置见 backend/pytest.ini：必须含 asyncio_mode=auto 与
+asyncio_default_*_loop_scope=session，否则 session 级 async fixture
+与 acceptance 的 module 级 fixture 会互相打坏事件循环。）
 """
 import os
 import shutil

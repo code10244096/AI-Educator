@@ -343,8 +343,10 @@ async def test_ai_failure_marks_submission_failed(client, fake_ai):
     assert r.status_code == 200
     final = await poll_job(client, r.json())
     assert final["status"] == "failed"
-    assert "fake upstream failure" in (final["error_message"] or "")
-    assert final["grading_status"] == "待批改"
+    # R1-008 / L-O05：对老师只暴露友好中文，技术细节只写日志（见 jobs.MSG_AI_UNAVAILABLE）
+    assert "稍后重试" in (final["error_message"] or "")
+    assert fake_ai.fail_message not in (final["error_message"] or "")
+    assert final["grading_status"] == "批改失败"
     assert (await client.get("/health")).status_code == 200
 
 
@@ -353,7 +355,8 @@ async def test_ai_failure_wait_true_returns_502_with_message(client, fake_ai):
     r = await client.post(UPLOAD, files={"files": ("f.md", DEFAULT_OCR.encode(), "text/markdown")},
                           data={"wait": "true"})
     assert r.status_code == 502
-    assert "fake upstream failure" in r.json()["detail"]
+    assert "稍后重试" in r.json()["detail"]
+    assert fake_ai.fail_message not in r.json()["detail"]
 
 
 async def test_ai_failure_on_existing_submission_marks_it_failed(client, fake_ai):
