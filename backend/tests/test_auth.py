@@ -11,7 +11,7 @@ import pytest
 
 from testenv import BACKEND_DIR, TEST_DB
 
-PUBLIC_ROUTES = {("POST", "/api/auth/login"), ("POST", "/api/auth/logout")}
+PUBLIC_ROUTES = {("POST", "/api/auth/login"), ("POST", "/api/auth/logout"), ("POST", "/api/auth/phone-code")}
 
 
 def _concrete(path: str) -> str:
@@ -64,7 +64,8 @@ async def test_login_success_sets_httponly_cookie_and_hashes_password(app, anon_
     assert r.status_code == 200, r.text
     body = r.json()
     assert body == {"id": uid, "username": username, "display_name": "王老师", "school": "实验中学",
-                    "role": "teacher", "must_change_password": True, "is_guest": False}
+                    "education_stage": "", "subject": "",
+                    "role": "teacher", "must_change_password": True, "is_guest": False, "needs_profile": False}
     set_cookie = r.headers["set-cookie"].lower()
     assert "aiedu_session=" in set_cookie and "httponly" in set_cookie and "samesite=lax" in set_cookie
     # 初始密码：只能访问账号接口，业务接口 403
@@ -164,6 +165,13 @@ async def test_update_profile(make_teacher):
     assert r.json()["display_name"] == "新名字" and r.json()["school"] == "第一中学"
     assert (await t.get("/api/auth/me")).json()["display_name"] == "新名字"
     assert (await t.put("/api/auth/me", json={"display_name": "  "})).status_code == 400
+    saved = await t.put("/api/auth/me", json={"education_stage": "高中", "subject": "数学"})
+    assert saved.status_code == 200
+    assert saved.json()["education_stage"] == "高中" and saved.json()["subject"] == "数学"
+    saved_other = await t.put("/api/auth/me", json={"education_stage": "高中", "subject": "物理"})
+    assert saved_other.status_code == 200 and saved_other.json()["subject"] == "物理"
+    rejected = await t.put("/api/auth/me", json={"education_stage": "小学", "subject": "物理"})
+    assert rejected.status_code == 400 and rejected.json()["detail"] == "请选择学科"
     assert (await t.put("/api/auth/me", json={"username": "hack"})).json()["username"] == t.user["username"]
 
 
@@ -222,25 +230,67 @@ async def test_enter_requires_login_when_public_beta_off(anon_client):
         settings.PUBLIC_BETA = previous
 
 
-async def test_public_beta_enter_creates_isolated_guest(anon_client):
+async def test_enter_does_not_create_guest_when_public_beta_on(anon_client):
     from config import settings
     previous = settings.PUBLIC_BETA
     settings.PUBLIC_BETA = True
     try:
         r = await anon_client.post("/api/auth/enter")
-        assert r.status_code == 200, r.text
-        body = r.json()
-        assert body["is_guest"] is True and body["public_beta"] is True
-        assert body["role"] == "teacher" and body["must_change_password"] is False
-        assert body["username"].startswith("beta_")
-        assert "aiedu_session=" in r.headers["set-cookie"].lower()
+        assert r.status_code == 401 and r.json()["detail"] == "请先登录"
+    finally:
+        settings.PUBLIC_BETA = previous
 
-        me = await anon_client.get("/api/auth/me")
-        assert me.status_code == 200 and me.json()["id"] == body["id"]
+
+async def test_phone_code_registers_then_login_and_rotate(anon_client):
+    from config import settings
+    previous = settings.PUBLIC_BETA
+    settings.PUBLIC_BETA = True
+    phone = "13900001111"
+    try:
+        bad = await anon_client.post("/api/auth/phone-code", json={"phone": "12345"})
+        assert bad.status_code == 400
+
+        issued = await anon_client.post("/api/auth/phone-code", json={"phone": phone})
+        assert issued.status_code == 200, issued.text
+        body = issued.json()
+        assert body["created"] is True and body["phone"] == phone and len(body["code"]) == 6
+        assert (await anon_client.get("/api/auth/me")).status_code == 401
+
+        logged = await anon_client.post("/api/auth/login", json={"username": phone, "password": body["code"]})
+        assert logged.status_code == 200, logged.text
+        me = logged.json()
+        assert me["username"] == phone and me["role"] == "teacher"
+        assert me["must_change_password"] is False and me["is_guest"] is False
         assert (await anon_client.get("/api/class/list")).status_code == 200
 
-        again = await anon_client.post("/api/auth/enter")
-        assert again.status_code == 200 and again.json()["id"] == body["id"]
+        again = await anon_client.post("/api/auth/phone-code", json={"phone": "139-0000-1111"})
+        assert again.status_code == 200 and again.json()["created"] is False
+        assert again.json()["code"] != body["code"]
+        old = await anon_client.post("/api/auth/login", json={"username": phone, "password": body["code"]})
+        assert old.status_code == 401
+        fresh = await anon_client.post("/api/auth/login", json={"username": phone, "password": again.json()["code"]})
+        assert fresh.status_code == 200 and fresh.json()["id"] == me["id"]
+    finally:
+        settings.PUBLIC_BETA = previous
+
+
+async def test_phone_code_does_not_replace_password_account(anon_client):
+    import manage
+    from config import settings
+    previous = settings.PUBLIC_BETA
+    settings.PUBLIC_BETA = True
+    try:
+        settings.PUBLIC_BETA = False
+        closed = await anon_client.post("/api/auth/phone-code", json={"phone": "13900002222"})
+        assert closed.status_code == 403
+
+        settings.PUBLIC_BETA = True
+        phone = "13900003333"
+        _uid, _pwd = manage.create_user(phone, "已有老师", password="Passw0rd99", must_change_password=False)
+        conflict = await anon_client.post("/api/auth/phone-code", json={"phone": phone})
+        assert conflict.status_code == 409
+        still = await anon_client.post("/api/auth/login", json={"username": phone, "password": "Passw0rd99"})
+        assert still.status_code == 200
     finally:
         settings.PUBLIC_BETA = previous
 

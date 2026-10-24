@@ -146,14 +146,24 @@ class AIClient:
         subject: str = "数学",
         feature: str = "grade",
         task_meta: Optional[Dict] = None,
+        education_stage: str = "",
     ) -> Dict:
         """批改作业"""
         # 调试模式：使用模拟批改结果
         if self.is_debug_mode:
             return self._mock_grade_homework(ocr_result, reference_answer, subject)
+
+        stage = (education_stage or (task_meta or {}).get("education_stage") or "").strip()
+        subject_name = (subject or "数学").strip()
+        point_label = f"{stage}{subject_name}" if stage else subject_name
+        formula_subjects = {"数学", "物理", "化学", "大学物理", "大学化学"}
+        if subject_name in formula_subjects:
+            formula_rule = "2. 数学公式用 LaTeX 表示（行内用 \\( \\)）。"
+        else:
+            formula_rule = "2. 用普通文字书写解析，不要使用 LaTeX。"
         
         prompt = f"""
-你是一位经验丰富且专业的{subject}老师，请批改这份作业。
+你是一位经验丰富且专业的{point_label}老师，请批改这份作业。
 
 学生作答内容：
 {ocr_result}
@@ -173,12 +183,12 @@ class AIClient:
   - explanation: 解析
   - needs_review: 是否建议老师复核（true / false）。字迹不清、识别存疑、学生答案不完整或你对判定没有把握时为 true
   - reference_issue: 如果你认为老师给的参考答案本身有误，写明原因和你认为正确的答案；没有问题时为 null
-  - knowledge_point: 本题考查的高中数学知识点名称（如“函数的单调性”），无法判断时为 null
+  - knowledge_point: 本题考查的{point_label}知识点名称，无法判断时为 null
 
 要求：
 1. 按作业中的题号逐题批改，不要合并或遗漏题目；如果作答内容中识别不到任何题目，questions 返回空数组 []。
-2. 数学公式用 LaTeX 表示（行内用 \\( \\)）。
-3. 得分由系统按正确题数计算，你不需要给出分数。
+{formula_rule}
+3. 得分由系统按正确题数计算，你不需要给出分数。学科内容必须是{subject_name}，不要写成其他学科。
 只返回 JSON，不要其他内容。
 """
         
@@ -352,6 +362,8 @@ class AIClient:
         requirements: str = "",
         question_bank_context: str = "",
         task_meta: Optional[Dict] = None,
+        subject: str = "",
+        education_stage: str = "",
     ) -> str:
         """生成教案"""
         if self.is_debug_mode:
@@ -372,17 +384,33 @@ class AIClient:
 4. 根据难度分布合理安排教学节奏
 """
         
+        stage = (education_stage or "").strip()
+        subject_name = (subject or "").strip()
+        senior_math = (not subject_name) or (subject_name == "数学" and stage in ("", "高中"))
+        if senior_math:
+            role = "高三数学把关教师"
+            practice = "一道基础模仿题，一道高考改编题（附简短解析）"
+            goal_extra = "高考常用的技巧与难度"
+            example_hint = "（比如物理瞬时速度、几何图形切线）"
+            mistake_hint = "（例如：求切线时容易忽略点是否在曲线上）"
+        else:
+            role = f"{stage}{subject_name}教师" if stage else f"{subject_name}教师"
+            practice = "一道基础模仿题，一道变式提高题（附简短解析）"
+            goal_extra = "能在当堂练习里用出来"
+            example_hint = f"（贴近{stage or '该学段'}{subject_name}课堂的具体情境）"
+            mistake_hint = "（写出学生真正容易错的地方）"
+
         prompt = f"""
 请为以下课题生成一份详细的教案：
 
-你是一位高三数学把关教师。请为{topic}课题生成一份可直接用于课堂的详细教案。
+你是一位{role}。请为{topic}课题生成一份可直接用于课堂的详细教案。
 
 要求：
-1. 导入部分必须用一个具体例子（比如物理瞬时速度、几何图形切线），不得使用"复习上节课内容"这种话。
-2. 每个知识点至少配一个学生易错点的预警（例如：求切线时容易忽略点是否在曲线上）。
-3. 课堂练习包含2道题：一道基础模仿题，一道高考改编题（附简短解析）。
+1. 导入部分必须用一个具体例子{example_hint}，不得使用"复习上节课内容"这种话。
+2. 每个知识点至少配一个学生易错点的预警{mistake_hint}。
+3. 课堂练习包含2道题：{practice}。
 4. 作业分两层：必做题（3道基础）和选做题（1道提升）。
-5. 语言简洁，不要空话。
+5. 语言简洁，不要空话。学科内容必须是{subject_name or '数学'}，不要写成其他学科。
 
 课题名称：{topic}
 课时数：{period}
@@ -391,7 +419,7 @@ class AIClient:
 {question_context}
 
 教案应包含以下内容：
-1. 教学目标（知识与技能、过程与方法、高考常用的技巧与难度）
+1. 教学目标（知识与技能、过程与方法、{goal_extra}）
 2. 教学重难点
 3. 教学方法
 4. 教学准备

@@ -219,7 +219,8 @@ def test_frontend_handles_401():
 
 # ====================================================================== R1-002
 
-PUBLIC = {("POST", "/api/auth/login"), ("POST", "/api/auth/logout")}
+PUBLIC = {("POST", "/api/auth/login"), ("POST", "/api/auth/logout"),
+          ("POST", "/api/auth/phone-code")}  # 手机验证码：登录流程前置接口，发送动作有频率限制
 
 
 def _fill(path: str) -> str:

@@ -21,6 +21,9 @@ config.*.json
 **/*.db-wal
 uploads
 uploads/**
+user_records
+user_records/**
+trial_quota.json
 data
 data/**
 

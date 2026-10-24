@@ -23,6 +23,9 @@ TEST_UPLOADS.mkdir(parents=True, exist_ok=True)
 os.environ["DATABASE_URL"] = f"sqlite+aiosqlite:///{TEST_DB.as_posix()}"
 os.environ["UPLOAD_DIR"] = str(TEST_UPLOADS)
 os.environ["API_OUTPUT_ROOT"] = str(TEST_API_RUNS)
+os.environ["USER_RECORDS_DIR"] = str(TEST_TMP / "user_records")
+os.environ["TRIAL_QUOTA_ENABLED"] = "false"
+os.environ["TRIAL_QUOTA_FILE"] = str(TEST_TMP / "trial_quota.json")
 # placeholder key => LLMConfig.enabled is False => no real network calls ever
 os.environ["LLM_API_KEY"] = "your_api_key_here"
 os.environ.setdefault("PYTHONIOENCODING", "utf-8")

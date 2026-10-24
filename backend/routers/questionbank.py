@@ -106,6 +106,7 @@ async def batch_add_questions(
 async def get_question_list(
     subject: Optional[str] = None,
     education_level: Optional[str] = None,
+    grade: Optional[int] = None,
     exam_type: Optional[str] = None,
     year: Optional[int] = None,
     question_type: Optional[str] = None,
@@ -123,6 +124,8 @@ async def get_question_list(
         query = query.where(QuestionBank.subject == subject)
     if education_level:
         query = query.where(QuestionBank.education_level == education_level)
+    if grade:
+        query = query.where(QuestionBank.grade == grade)
     if exam_type:
         query = query.where(QuestionBank.exam_type == exam_type)
     if year:
@@ -151,6 +154,7 @@ async def get_question_list(
             "question_type": q.question_type,
             "subject": q.subject,
             "education_level": q.education_level,
+            "grade": q.grade,
             "exam_type": q.exam_type,
             "year": q.year,
             "region": q.region,
@@ -219,6 +223,7 @@ async def get_question_detail(question_id: int, db: AsyncSession = Depends(get_d
         "question_type": question.question_type,
         "subject": question.subject,
         "education_level": question.education_level,
+        "grade": question.grade,
         "exam_type": question.exam_type,
         "year": question.year,
         "region": question.region,

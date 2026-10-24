@@ -18,7 +18,7 @@ from ai_client import ai_client
 from database import AsyncSessionLocal
 from file_utils import OCR_CONCURRENCY, FileParseError, extract_text, get_extension
 from llm import LLMError
-from models import HomeworkAssignment, HomeworkSubmission, LessonPlan
+from models import HomeworkAssignment, HomeworkSubmission, LessonPlan, User, WrongQuestion
 
 logger = logging.getLogger("aiedu.jobs")
 
@@ -208,6 +208,11 @@ async def _run_grading_job(submission_id: int, preset_text: Optional[str] = None
         reference_answer = sub.reference_answer
         subject = sub.subject or "数学"
         teacher_id = sub.teacher_id
+        education_stage = ""
+        if teacher_id:
+            teacher = await db.get(User, teacher_id)
+            if teacher:
+                education_stage = (teacher.education_stage or "").strip()
         if not reference_answer and sub.assignment_id:
             assignment = await db.get(HomeworkAssignment, sub.assignment_id)
             if assignment and assignment.reference_answer:
@@ -264,7 +269,8 @@ async def _run_grading_job(submission_id: int, preset_text: Optional[str] = None
         ocr_result=full_text,
         reference_answer=reference_answer,
         subject=subject,
-        task_meta={"submission_id": submission_id, "teacher_id": teacher_id},
+        education_stage=education_stage,
+        task_meta={"submission_id": submission_id, "teacher_id": teacher_id, "education_stage": education_stage},
     )
     if not isinstance(grading_result, dict) or grading_result.get("error"):
         raw = grading_result.get("raw_result") if isinstance(grading_result, dict) else grading_result
@@ -299,6 +305,7 @@ async def _run_grading_job(submission_id: int, preset_text: Optional[str] = None
         if sub.assignment_id:
             await update_assignment_status(db, sub.assignment_id)
         await db.commit()
+        await _archive_grade(sub, grading_result, full_text)
 
 
 # ==================== 教案生成 ====================
@@ -333,14 +340,21 @@ async def run_lesson_plan_job(plan_id: int) -> None:
         await _fail_plan(plan_id, f"教案生成失败：{type(e).__name__}: {e}")
 
 
-async def retrieve_question_context(db, title: str) -> Dict:
-    """从题库检索相关题目作为 RAG 上下文（失败不影响生成）"""
+async def retrieve_question_context(db, title: str, subject: str = "数学", education_level: str = "高中") -> Dict:
+    """从题库检索相关题目作为 RAG 上下文（失败不影响生成）。题库只有小学、初中、高中数学卷。"""
+    stage_name = (education_level or "").strip()
+    subject_name = (subject or "").strip()
+    if stage_name == "大学" or (subject_name and subject_name != "数学"):
+        return {"context": "", "count": 0}
+    if stage_name and stage_name not in ("小学", "初中", "高中"):
+        return {"context": "", "count": 0}
+    level = stage_name or "高中"
     try:
         from rag_retriever import QuestionRetriever
 
         retriever = QuestionRetriever()
         related = await retriever.keyword_search(
-            db=db, keyword=title, subject="数学", education_level="高中", limit=8,
+            db=db, keyword=title, subject="数学", education_level=level, limit=8,
         )
         return {"context": retriever.format_for_rag(related), "count": len(related or [])}
     except Exception as e:  # noqa: BLE001
@@ -355,10 +369,13 @@ async def _run_lesson_plan_job(plan_id: int) -> None:
             return
         title, period, level, requirements = plan.title, plan.period, plan.student_level, plan.requirements or ""
         teacher_id = plan.teacher_id
+        teacher = await db.get(User, teacher_id) if teacher_id else None
+        subject = (teacher.subject or "").strip() if teacher else ""
+        stage = (teacher.education_stage or "").strip() if teacher else ""
 
     await _set_plan_stage(plan_id, "检索题库中")
     async with AsyncSessionLocal() as db:
-        rag = await retrieve_question_context(db, title)
+        rag = await retrieve_question_context(db, title, subject=subject, education_level=stage)
 
     await _set_plan_stage(plan_id, "AI 生成中")
     content = await ai_client.generate_lesson_plan(
@@ -368,6 +385,8 @@ async def _run_lesson_plan_job(plan_id: int) -> None:
         requirements=requirements,
         question_bank_context=rag["context"],
         task_meta={"plan_id": plan_id, "teacher_id": teacher_id},
+        subject=subject,
+        education_stage=stage,
     )
     if not content or not content.strip():
         raise LLMError("AI 返回了空的教案内容，请重试")
@@ -382,6 +401,111 @@ async def _run_lesson_plan_job(plan_id: int) -> None:
         plan.error_message = None
         plan.retrieved_questions_count = rag["count"]
         await db.commit()
+        await _archive_lesson_plan(plan)
+
+
+async def _archive_grade(sub: HomeworkSubmission, grading_result: Dict, full_text: str) -> None:
+    """批改完成后按老师账号留一份。写文件失败不影响批改结果。"""
+    try:
+        from user_archive import save_record
+        async with AsyncSessionLocal() as db:
+            user = await db.get(User, sub.teacher_id) if sub.teacher_id else None
+        if not user:
+            return
+        await asyncio.to_thread(
+            save_record, user.username, user.display_name or "", "grade", sub.id,
+            f"{sub.student_name or '作业'} · {sub.subject or ''}".strip(" ·"),
+            {
+                "student_name": sub.student_name,
+                "subject": sub.subject,
+                "score": sub.score,
+                "wrong_count": sub.wrong_count,
+                "ocr_result": full_text,
+                "grading_result": grading_result,
+            },
+            None,
+            sub.finished_at or sub.created_at,
+        )
+    except Exception:  # noqa: BLE001
+        logger.exception("留存批改记录失败 submission=%s", getattr(sub, "id", None))
+
+
+async def _archive_lesson_plan(plan: LessonPlan) -> None:
+    try:
+        from user_archive import save_record
+        async with AsyncSessionLocal() as db:
+            user = await db.get(User, plan.teacher_id) if plan.teacher_id else None
+        if not user or not (plan.content or "").strip():
+            return
+        await asyncio.to_thread(
+            save_record, user.username, user.display_name or "", "lessonplan", plan.id,
+            plan.title or "教案", plan.content,
+            {"period": plan.period, "student_level": plan.student_level},
+            None,
+            plan.updated_at or plan.created_at,
+        )
+    except Exception:  # noqa: BLE001
+        logger.exception("留存教案失败 plan=%s", getattr(plan, "id", None))
+
+
+async def archive_existing_records() -> None:
+    """启动时把库里已有的生成结果补写进账号文件夹。同名文件会覆盖，不会越积越多。"""
+    from user_archive import save_record
+    async with AsyncSessionLocal() as db:
+        users = {u.id: u for u in (await db.execute(select(User))).scalars()}
+        plans = (await db.execute(select(LessonPlan))).scalars().all()
+        subs = (await db.execute(
+            select(HomeworkSubmission).where(HomeworkSubmission.status == "completed")
+        )).scalars().all()
+        questions = (await db.execute(select(WrongQuestion))).scalars().all()
+
+    def _write() -> None:
+        for plan in plans:
+            user = users.get(plan.teacher_id)
+            if not user or not (plan.content or "").strip():
+                continue
+            save_record(user.username, user.display_name or "", "lessonplan", plan.id,
+                        plan.title or "教案", plan.content,
+                        {"period": plan.period, "student_level": plan.student_level},
+                        saved_at=plan.updated_at or plan.created_at)
+        for sub in subs:
+            user = users.get(sub.teacher_id)
+            if not user or not sub.grading_result:
+                continue
+            try:
+                grading = json.loads(sub.grading_result)
+            except json.JSONDecodeError:
+                grading = sub.grading_result
+            save_record(user.username, user.display_name or "", "grade", sub.id,
+                        f"{sub.student_name or '作业'} · {sub.subject or ''}".strip(" ·"),
+                        {
+                            "student_name": sub.student_name,
+                            "subject": sub.subject,
+                            "score": sub.score,
+                            "wrong_count": sub.wrong_count,
+                            "ocr_result": sub.ocr_result,
+                            "grading_result": grading,
+                        },
+                        saved_at=sub.finished_at or sub.created_at)
+        for q in questions:
+            user = users.get(q.user_id)
+            if not user or not q.variant_questions:
+                continue
+            try:
+                variants = json.loads(q.variant_questions)
+            except json.JSONDecodeError:
+                continue
+            if not variants:
+                continue
+            save_record(user.username, user.display_name or "", "variant", q.id,
+                        (q.knowledge_point or q.question_text or "变式题")[:80],
+                        {"question_text": q.question_text, "variants": variants},
+                        saved_at=q.error_date)
+
+    try:
+        await asyncio.to_thread(_write)
+    except Exception:  # noqa: BLE001
+        logger.exception("补写历史使用记录失败")
 
 
 # ==================== 启动恢复 ====================

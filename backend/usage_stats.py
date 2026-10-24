@@ -23,6 +23,8 @@ LOG_FILE_NAME = "api_calls.jsonl"
 ERROR_MAX_CHARS = 300
 
 KNOWN_FEATURES = ("ocr", "grade", "lessonplan", "variant", "seed_grade", "other")
+# 给管理员看的产品模块。评测脚本单独成类，避免和老师的真实调用混在一起。
+MODULE_ORDER = ("grade", "lessonplan", "notebook", "ocr", "variant", "probe", "other")
 
 
 # =========================
@@ -115,6 +117,32 @@ def _error_message(err: Any) -> str:
     return msg[:ERROR_MAX_CHARS]
 
 
+def classify_module(feature: Any, task_meta: Any) -> str:
+    """把一次调用归到统计模块。错题本的识别和变式题都算错题本。"""
+    meta = task_meta if isinstance(task_meta, dict) else {}
+    source = str(meta.get("feature_source") or "").strip().lower()
+    if source == "notebook" or meta.get("wrong_question_id") not in (None, ""):
+        return "notebook"
+    name = str(feature or "").strip().lower()
+    if name == "seed_grade":
+        return "grade"
+    if name in MODULE_ORDER:
+        return name
+    return "other"
+
+
+def _teacher_id(task_meta: Any) -> Optional[int]:
+    if not isinstance(task_meta, dict):
+        return None
+    raw = task_meta.get("teacher_id")
+    if raw is None or raw == "":
+        return None
+    try:
+        return int(raw)
+    except (TypeError, ValueError):
+        return None
+
+
 def _slim_record(row: Dict[str, Any], source_file: str) -> Dict[str, Any]:
     """只保留统计字段，丢弃 request / response 正文。"""
     usage = row.get("usage") or {}
@@ -122,6 +150,8 @@ def _slim_record(row: Dict[str, Any], source_file: str) -> Dict[str, Any]:
         usage = {}
     response = row.get("response") or {}
     ts = str(row.get("ts_utc") or "")
+    feature = str(row.get("feature") or "unknown")
+    meta = row.get("task_meta")
     return {
         "schema_version": str(row.get("schema_version") or ""),
         "run_id": str(row.get("run_id") or ""),
@@ -142,7 +172,9 @@ def _slim_record(row: Dict[str, Any], source_file: str) -> Dict[str, Any]:
         "finish_reason": (response.get("finish_reason") if isinstance(response, dict) else None),
         "error_message": _error_message(row.get("error")),
         "source": str(row.get("source") or "cli"),
-        "feature": str(row.get("feature") or "unknown"),
+        "feature": feature,
+        "module": classify_module(feature, meta),
+        "teacher_id": _teacher_id(meta),
         "_source_file": source_file,
     }
 
@@ -392,7 +424,9 @@ def summarize(records: List[Dict[str, Any]], include_log_files: bool = False) ->
     返回（均可 JSON 序列化）：
       overview   总计
       by_model / by_key / by_feature / by_source   按 total_tokens 降序
+      by_module  作业批改 / 教案 / 错题本等，固定顺序，没有调用的模块也保留 0
       by_day     按本地日期升序（字段 day）
+      by_teacher 每项附 modules：该账号在各模块的次数和 token
       key_model  key + model 明细
     """
     overall = _new_stat()
@@ -400,19 +434,27 @@ def summarize(records: List[Dict[str, Any]], include_log_files: bool = False) ->
         "by_model": defaultdict(_new_stat),
         "by_key": defaultdict(_new_stat),
         "by_feature": defaultdict(_new_stat),
+        "by_module": defaultdict(_new_stat),
         "by_source": defaultdict(_new_stat),
         "by_day": defaultdict(_new_stat),
+        "by_teacher": defaultdict(_new_stat),
         "key_model": defaultdict(_new_stat),
     }
+    teacher_modules: Dict[Any, Dict[str, Dict[str, Any]]] = defaultdict(lambda: defaultdict(_new_stat))
 
     for row in records:
         key_suffix = row.get("api_key_suffix") or "unknown"
         model = row.get("model") or "unknown"
+        module = row.get("module") or classify_module(row.get("feature"), None)
+        teacher_id = row.get("teacher_id")
         _update_stat(overall, row)
         _update_stat(groups["by_model"][model], row)
         _update_stat(groups["by_key"][key_suffix], row)
         _update_stat(groups["by_feature"][row.get("feature") or "unknown"], row)
+        _update_stat(groups["by_module"][module], row)
         _update_stat(groups["by_source"][row.get("source") or "cli"], row)
+        _update_stat(groups["by_teacher"][teacher_id], row)
+        _update_stat(teacher_modules[teacher_id][module], row)
         _update_stat(groups["by_day"][_local_day(row)], row)
         _update_stat(groups["key_model"][(key_suffix, model)], row)
 
@@ -435,12 +477,38 @@ def summarize(records: List[Dict[str, Any]], include_log_files: bool = False) ->
     by_day = build("by_day", "day")
     by_day.sort(key=lambda x: x["day"])
 
+    by_module = build("by_module", "module")
+    present = {item["module"] for item in by_module}
+    for name in MODULE_ORDER:
+        if name not in present:
+            empty = {"module": name}
+            empty.update(_finalize_stat(_new_stat()))
+            by_module.append(empty)
+    order = {name: index for index, name in enumerate(MODULE_ORDER)}
+    by_module.sort(key=lambda item: (order.get(item["module"], 99), -item["total_tokens"]))
+
+    by_teacher = build("by_teacher", "teacher_id")
+    for item in by_teacher:
+        modules = {}
+        for name, stat in teacher_modules.get(item["teacher_id"], {}).items():
+            done = _finalize_stat(stat)
+            modules[name] = {
+                "calls": done["calls"],
+                "failed": done["failed"],
+                "total_tokens": done["total_tokens"],
+                "prompt_tokens": done["prompt_tokens"],
+                "completion_tokens": done["completion_tokens"],
+            }
+        item["modules"] = modules
+
     return {
         "overview": _finalize_stat(overall, include_log_files),
         "by_model": build("by_model", "model"),
         "by_key": build("by_key", "key_suffix"),
         "by_feature": build("by_feature", "feature"),
+        "by_module": by_module,
         "by_source": build("by_source", "source"),
+        "by_teacher": by_teacher,
         "by_day": by_day,
         "key_model": key_model,
     }
@@ -461,6 +529,8 @@ def recent_calls(records: List[Dict[str, Any]], limit: int = 50) -> List[Dict[st
             "call_id": r.get("call_id"),
             "task_id": r.get("task_id"),
             "feature": r.get("feature"),
+            "module": r.get("module") or classify_module(r.get("feature"), None),
+            "teacher_id": r.get("teacher_id"),
             "source": r.get("source"),
             "model": r.get("model"),
             "api_key_suffix": r.get("api_key_suffix"),

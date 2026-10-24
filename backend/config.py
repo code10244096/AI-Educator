@@ -123,6 +123,8 @@ class Settings:
 
         # 文件上传配置
         self.UPLOAD_DIR = os.getenv("UPLOAD_DIR") or config.get("upload", {}).get("dir", "./uploads")
+        # 按登录账号留存教案 / 批改 / 变式题。生产放在数据卷上，避免重建容器后丢失
+        self.USER_RECORDS_DIR = os.getenv("USER_RECORDS_DIR") or str(BACKEND_DIR / "user_records")
         self.MAX_FILE_SIZE = config.get("upload", {}).get("max_file_size",
             10 * 1024 * 1024)
         self.ALLOWED_EXTENSIONS = config.get("upload", {}).get(
@@ -145,14 +147,26 @@ class Settings:
 
         # 演示数据：仅开发环境显式开启时播种（生产强制关闭）
         self.SEED_DEMO_DATA = _env_bool("SEED_DEMO_DATA", False) and not self.IS_PRODUCTION
-        # 公测：打开网站即可进入，不为每位访客展示登录页；各自一个体验账号，数据互不可见
-        # 环境变量优先，其次 config.json 的 app.public_beta
+        # 公测：允许用手机号领取注册码登录。环境变量优先，其次 config.json 的 app.public_beta
         self.PUBLIC_BETA = _env_bool(
             "PUBLIC_BETA", bool(config.get("app", {}).get("public_beta", False)))
 
         # 批改队列：全局同时运行的批改任务数、每位教师每天最多提交的批改份数
         self.GRADING_CONCURRENCY = max(1, _env_int("GRADING_CONCURRENCY", 4))
         self.DAILY_GRADING_QUOTA = _env_int("DAILY_GRADING_QUOTA", 300)
+        # 公测体验额度（按账号、按北京时间每日）。超限文案不包含具体数字。
+        # 第一档用完后，当天提交过意见才升到第二档。
+        self.TRIAL_QUOTA_ENABLED = _env_bool("TRIAL_QUOTA_ENABLED", True)
+        self.TRIAL_BASE_TOKENS = _env_int("TRIAL_BASE_TOKENS", 10_000)
+        self.TRIAL_BASE_GRADE = _env_int("TRIAL_BASE_GRADE", 5)
+        self.TRIAL_BASE_LESSONPLAN = _env_int("TRIAL_BASE_LESSONPLAN", 2)
+        self.TRIAL_BASE_VARIANT = _env_int("TRIAL_BASE_VARIANT", 2)
+        self.TRIAL_EXT_TOKENS = _env_int("TRIAL_EXT_TOKENS", 30_000)
+        self.TRIAL_EXT_GRADE = _env_int("TRIAL_EXT_GRADE", 10)
+        self.TRIAL_EXT_LESSONPLAN = _env_int("TRIAL_EXT_LESSONPLAN", 5)
+        self.TRIAL_EXT_VARIANT = _env_int("TRIAL_EXT_VARIANT", 5)
+        self.TRIAL_CALLS_PER_MINUTE = _env_int("TRIAL_CALLS_PER_MINUTE", 5)
+        self.TRIAL_QUOTA_FILE = os.getenv("TRIAL_QUOTA_FILE") or str(BACKEND_DIR / "trial_quota.json")
         # 模拟模式下每次模拟调用的等待秒数（便于测试排队与进度）
         self.MOCK_LLM_DELAY_SECONDS = _env_float("MOCK_LLM_DELAY_SECONDS", 0.0)
 

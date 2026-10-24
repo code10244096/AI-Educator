@@ -7,6 +7,7 @@ from config import production_problems, settings
 from api import router, startup_event
 from auth import require_admin
 from llm import LLMError
+from trial_quota import TrialLimited, load_admin_exemptions, load_today_feedback
 from routers.feedback import admin_router as feedback_admin_router
 from usage_api import router as usage_router
 
@@ -33,6 +34,10 @@ async def lifespan(app: FastAPI):
         raise RuntimeError("；".join(problems))
     _announce_database()
     await startup_event()
+    from jobs import archive_existing_records
+    await archive_existing_records()
+    await load_admin_exemptions()
+    await load_today_feedback()
     yield
 
 
@@ -46,6 +51,12 @@ app = FastAPI(
     redoc_url="/redoc" if settings.ENABLE_API_DOCS else None,
     openapi_url="/openapi.json" if settings.ENABLE_API_DOCS else None,
 )
+
+
+@app.exception_handler(TrialLimited)
+async def trial_quota_handler(request: Request, exc: TrialLimited):
+    """体验额度用尽：只返回固定提示，不说明具体规则。"""
+    return JSONResponse(status_code=429, content={"detail": str(exc)})
 
 
 @app.exception_handler(LLMError)

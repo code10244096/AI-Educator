@@ -246,6 +246,8 @@ async def upload_homework(
     默认立即返回 status=processing，前端轮询 GET /grader/{submission_id}；
     传 wait=true 时同步等待批改完成（兼容旧行为，仅建议测试使用）。
     """
+    from trial_quota import enforce
+    await enforce(user, "grade", db)
     student_name = (student_name or "").strip()[:50] or None
     sub, member = await _prepare_submission(
         db, submission_id=submission_id, assignment_id=assignment_id, student_name=student_name,
@@ -584,6 +586,8 @@ async def upload_dataset_homework(
 ):
     """使用 dataset 测试集文件批改（后台任务；wait=true 时同步等待）"""
     from class_service import get_assignment_record
+    from trial_quota import enforce
+    await enforce(user, "grade", db)
 
     data = get_dataset_homework(file_id=file_id)
     if not data:

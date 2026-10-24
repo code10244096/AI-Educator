@@ -13,8 +13,11 @@ class User(Base):
     email = Column(String(100), unique=True, index=True)
     password_hash = Column(String(255), nullable=False)  # bcrypt（$2b$...）
     role = Column(String(20), default="teacher")  # teacher / admin
+    auth_method = Column(String(20), default="password")  # password：管理员开通；phone_code：公测手机号注册码
     display_name = Column(String(50))  # 老师姓名（顶栏显示）
     school = Column(String(100))
+    education_stage = Column(String(20))  # 小学 / 初中 / 高中 / 大学
+    subject = Column(String(20))  # 任教学科
     must_change_password = Column(Boolean, default=False)  # 初始密码 / 被重置后，登录后必须先改密
     is_active = Column(Boolean, default=True)  # 停用的账号不能登录，已有会话立即失效
     session_version = Column(Integer, default=0)  # 改密 / 重置 / 停用时 +1，使旧会话失效
@@ -194,6 +197,7 @@ class QuestionBank(Base):
     # 分类信息
     subject = Column(String(50), nullable=False, index=True)  # 数学/物理/化学/语文/英语等
     education_level = Column(String(50), nullable=False, index=True)  # 小学/初中/高中
+    grade = Column(Integer, index=True)  # 1-12；选择性必修为空
     exam_type = Column(String(100), index=True)  # 高考/中考/月考/模拟考/竞赛
     year = Column(Integer, index=True)  # 年份
     region = Column(String(100))  # 地区（如：全国卷/北京卷/上海卷）

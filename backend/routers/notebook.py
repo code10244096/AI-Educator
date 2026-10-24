@@ -1,4 +1,5 @@
 """错题本：录入错题、列表、标记掌握、变式题"""
+import asyncio
 import json
 from typing import Optional
 
@@ -55,6 +56,8 @@ async def upload_wrong_question(
             "error_type": "invalid_format",
             "questions": [],
         }
+    from trial_quota import TrialLimited, enforce
+    await enforce(user, "variant", db)
     saved = await save_upload(file, ext)
     filepath = saved["path"]
 
@@ -84,8 +87,10 @@ async def upload_wrong_question(
     try:
         variant_questions = await ai_client.generate_variant_questions(
             question_text=question_text, knowledge_point=knowledge_point, count=3,
-            task_meta={"teacher_id": user.id},
+            task_meta={"teacher_id": user.id, "feature_source": "notebook"},
         )
+    except TrialLimited:
+        raise
     except Exception:  # noqa: BLE001  变式题失败不影响错题录入
         variant_questions = []
 
@@ -199,15 +204,26 @@ async def generate_variants(question_id: int, count: int = Form(3), db: AsyncSes
                             user: User = Depends(current_user)):
     """为错题（重新）生成变式题（同步调用 AI，约 20-60 秒）"""
     q = await _get_question(db, question_id, user.id)
+    from trial_quota import enforce
+    await enforce(user, "variant", db)
     count = max(1, min(count, 5))
     variants = await ai_client.generate_variant_questions(
         question_text=q.question_text, knowledge_point=q.knowledge_point or "", count=count,
-        task_meta={"teacher_id": user.id, "wrong_question_id": q.id},
+        task_meta={"teacher_id": user.id, "wrong_question_id": q.id, "feature_source": "notebook"},
     )
     if not variants:
         raise HTTPException(status_code=502, detail="AI 未返回有效的变式题，请重试")
     q.variant_questions = json.dumps(variants, ensure_ascii=False)
     await db.commit()
+    from user_archive import save_record
+    try:
+        await asyncio.to_thread(
+            save_record, user.username, user.display_name or "", "variant", q.id,
+            (q.knowledge_point or q.question_text or "变式题")[:80],
+            {"question_text": q.question_text, "variants": variants},
+        )
+    except Exception:  # noqa: BLE001
+        pass
     return {"id": q.id, "variant_questions": variants}
 
 

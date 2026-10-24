@@ -124,14 +124,20 @@ def is_guest_user(user: User) -> bool:
 
 
 def user_to_dict(user: User) -> dict:
+    stage = (user.education_stage or "").strip()
+    subject = (user.subject or "").strip()
+    phone_user = (user.auth_method or "") == "phone_code"
     return {
         "id": user.id,
         "username": user.username,
         "display_name": user.display_name or user.username,
         "school": user.school or "",
+        "education_stage": stage,
+        "subject": subject,
         "role": user.role or "teacher",
         "must_change_password": bool(user.must_change_password),
         "is_guest": is_guest_user(user),
+        "needs_profile": phone_user and (not stage or not subject),
     }
 
 

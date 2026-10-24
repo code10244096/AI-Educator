@@ -148,6 +148,9 @@ class LLMGateway:
         if not self.enabled:
             raise LLMError("未配置有效的 AI API Key")
 
+        from trial_quota import before_call
+        before_call((task_meta or {}).get("teacher_id"))
+
         chain = [model] if model else self.config.model_chain(feature)
         last_error: Optional[LLMError] = None
         for attempt, candidate in enumerate(chain):
@@ -212,5 +215,7 @@ class LLMGateway:
             content=content if self.config.log_request_content else f"<{len(content)} chars>",
             finish_reason=finish_reason, response_id=getattr(response, "id", None), error=None,
         )
+        from trial_quota import add_tokens
+        add_tokens((task_meta or {}).get("teacher_id"), usage.get("total_tokens"))
         return LLMResult(content=content, model=model, usage=usage, elapsed_seconds=elapsed,
                          call_id=call_id, finish_reason=finish_reason)

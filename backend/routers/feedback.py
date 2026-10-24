@@ -67,6 +67,8 @@ async def submit_feedback(
     db.add(row)
     await db.commit()
     _last_submit_at[user.id] = now
+    from trial_quota import mark_feedback
+    mark_feedback(user.id)
     return {"ok": True}
 
 

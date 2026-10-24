@@ -112,6 +112,8 @@ async def generate_lesson_plan(
     title = raw_title.strip() if isinstance(raw_title, str) else ""
     if not title:
         raise HTTPException(status_code=400, detail="请输入课题名称")
+    from trial_quota import enforce
+    await enforce(user, "lessonplan", db)
 
     plan = LessonPlan(
         teacher_id=user.id,
@@ -183,6 +185,9 @@ async def update_lesson_plan(plan_id: int, body: LessonPlanUpdate, db: AsyncSess
         plan.error_message = None
     await db.commit()
     await db.refresh(plan)
+    if (plan.content or "").strip():
+        from jobs import _archive_lesson_plan
+        await _archive_lesson_plan(plan)
     return _plan_to_dict(plan)
 
 
@@ -205,6 +210,8 @@ async def regenerate_lesson_plan(plan_id: int, wait: bool = Form(False), db: Asy
     plan = await _get_plan(db, plan_id, user.id)
     if _plan_status(plan) == "processing":
         raise HTTPException(status_code=409, detail="教案正在生成中")
+    from trial_quota import enforce
+    await enforce(user, "lessonplan", db)
     plan.status = "processing"
     plan.progress_stage = "排队中"
     plan.error_message = None
