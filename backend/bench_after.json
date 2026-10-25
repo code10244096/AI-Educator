@@ -1,0 +1,141 @@
+{
+  "label": "after",
+  "total": 234818,
+  "indexes": [
+    [
+      "ix_question_bank_created_at",
+      "CREATE INDEX ix_question_bank_created_at ON question_bank (created_at)"
+    ],
+    [
+      "ix_question_bank_difficulty",
+      "CREATE INDEX ix_question_bank_difficulty ON question_bank (difficulty)"
+    ],
+    [
+      "ix_question_bank_education_level",
+      "CREATE INDEX ix_question_bank_education_level ON question_bank (education_level)"
+    ],
+    [
+      "ix_question_bank_exam_type",
+      "CREATE INDEX ix_question_bank_exam_type ON question_bank (exam_type)"
+    ],
+    [
+      "ix_question_bank_exam_type_year",
+      "CREATE INDEX ix_question_bank_exam_type_year ON question_bank (exam_type, year)"
+    ],
+    [
+      "ix_question_bank_grade",
+      "CREATE INDEX ix_question_bank_grade ON question_bank (grade)"
+    ],
+    [
+      "ix_question_bank_id",
+      "CREATE INDEX ix_question_bank_id ON question_bank (id)"
+    ],
+    [
+      "ix_question_bank_question_type",
+      "CREATE INDEX ix_question_bank_question_type ON question_bank (question_type)"
+    ],
+    [
+      "ix_question_bank_region",
+      "CREATE INDEX ix_question_bank_region ON question_bank (region)"
+    ],
+    [
+      "ix_question_bank_subject",
+      "CREATE INDEX ix_question_bank_subject ON question_bank (subject)"
+    ],
+    [
+      "ix_question_bank_subject_education_level",
+      "CREATE INDEX ix_question_bank_subject_education_level ON question_bank (subject, education_level)"
+    ],
+    [
+      "ix_question_bank_subject_grade_created",
+      "CREATE INDEX ix_question_bank_subject_grade_created ON question_bank (subject, grade, created_at)"
+    ],
+    [
+      "ix_question_bank_year",
+      "CREATE INDEX ix_question_bank_year ON question_bank (year)"
+    ]
+  ],
+  "params": {
+    "subject": "数学",
+    "grade": 0,
+    "level": "小学",
+    "qtype": "解答题",
+    "exam": "应用题",
+    "kp": "代数"
+  },
+  "queries": {
+    "count_all": {
+      "ms_min": 22.11,
+      "ms_avg": 22.69,
+      "ms_max": 23.55,
+      "rows": 1,
+      "plan": [
+        "(4, 0, 0, 'SCAN question_bank USING COVERING INDEX ix_question_bank_created_at')"
+      ]
+    },
+    "subject_grade": {
+      "ms_min": 0.14,
+      "ms_avg": 0.15,
+      "ms_max": 0.17,
+      "rows": 20,
+      "plan": [
+        "(7, 0, 133, 'SEARCH question_bank USING COVERING INDEX ix_question_bank_subject_grade_created (subject=? AND grade=?)')"
+      ]
+    },
+    "subject_level": {
+      "ms_min": 0.12,
+      "ms_avg": 0.14,
+      "ms_max": 0.18,
+      "rows": 10,
+      "plan": [
+        "(3, 0, 141, 'SEARCH question_bank USING COVERING INDEX ix_question_bank_subject_education_level (subject=? AND education_level=?)')"
+      ]
+    },
+    "knowledge_points_like": {
+      "ms_min": 0.17,
+      "ms_avg": 0.2,
+      "ms_max": 0.21,
+      "rows": 10,
+      "plan": [
+        "(3, 0, 194, 'SCAN question_bank')"
+      ]
+    },
+    "question_text_like": {
+      "ms_min": 1.08,
+      "ms_avg": 1.11,
+      "ms_max": 1.15,
+      "rows": 10,
+      "plan": [
+        "(3, 0, 194, 'SCAN question_bank')"
+      ]
+    },
+    "deep_offset": {
+      "ms_min": 795.63,
+      "ms_avg": 797.47,
+      "ms_max": 799.68,
+      "rows": 20,
+      "plan": [
+        "(7, 0, 149, 'SEARCH question_bank USING COVERING INDEX ix_question_bank_subject_grade_created (subject=?)')",
+        "(23, 0, 0, 'USE TEMP B-TREE FOR ORDER BY')"
+      ]
+    },
+    "question_type_filter": {
+      "ms_min": 1.09,
+      "ms_avg": 1.33,
+      "ms_max": 1.6,
+      "rows": 20,
+      "plan": [
+        "(4, 0, 162, 'SEARCH question_bank USING INDEX ix_question_bank_subject_grade_created (subject=?)')"
+      ]
+    },
+    "exam_year": {
+      "ms_min": 0.14,
+      "ms_avg": 0.15,
+      "ms_max": 0.16,
+      "rows": 20,
+      "plan": [
+        "(4, 0, 161, 'SEARCH question_bank USING COVERING INDEX ix_question_bank_exam_type_year (exam_type=?)')"
+      ]
+    }
+  }
+}

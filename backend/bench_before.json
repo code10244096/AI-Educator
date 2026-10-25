@@ -1,0 +1,115 @@
+{
+  "label": "before",
+  "total": 234818,
+  "indexes": [
+    [
+      "ix_question_bank_education_level",
+      "CREATE INDEX ix_question_bank_education_level ON question_bank (education_level)"
+    ],
+    [
+      "ix_question_bank_exam_type",
+      "CREATE INDEX ix_question_bank_exam_type ON question_bank (exam_type)"
+    ],
+    [
+      "ix_question_bank_grade",
+      "CREATE INDEX ix_question_bank_grade ON question_bank (grade)"
+    ],
+    [
+      "ix_question_bank_id",
+      "CREATE INDEX ix_question_bank_id ON question_bank (id)"
+    ],
+    [
+      "ix_question_bank_subject",
+      "CREATE INDEX ix_question_bank_subject ON question_bank (subject)"
+    ],
+    [
+      "ix_question_bank_year",
+      "CREATE INDEX ix_question_bank_year ON question_bank (year)"
+    ]
+  ],
+  "params": {
+    "subject": "数学",
+    "grade": 0,
+    "level": "小学",
+    "qtype": "解答题",
+    "exam": "应用题",
+    "kp": "代数"
+  },
+  "queries": {
+    "count_all": {
+      "ms_min": 2.52,
+      "ms_avg": 2.66,
+      "ms_max": 2.73,
+      "rows": 1,
+      "plan": [
+        "(4, 0, 0, 'SCAN question_bank USING COVERING INDEX ix_question_bank_grade')"
+      ]
+    },
+    "subject_grade": {
+      "ms_min": 110.59,
+      "ms_avg": 119.55,
+      "ms_max": 130.62,
+      "rows": 20,
+      "plan": [
+        "(8, 0, 60, 'SEARCH question_bank USING INDEX ix_question_bank_grade (grade=?)')",
+        "(27, 0, 0, 'USE TEMP B-TREE FOR ORDER BY')"
+      ]
+    },
+    "subject_level": {
+      "ms_min": 0.02,
+      "ms_avg": 0.02,
+      "ms_max": 0.03,
+      "rows": 10,
+      "plan": [
+        "(4, 0, 61, 'SEARCH question_bank USING INDEX ix_question_bank_subject (subject=?)')"
+      ]
+    },
+    "knowledge_points_like": {
+      "ms_min": 0.03,
+      "ms_avg": 0.03,
+      "ms_max": 0.03,
+      "rows": 10,
+      "plan": [
+        "(3, 0, 216, 'SCAN question_bank')"
+      ]
+    },
+    "question_text_like": {
+      "ms_min": 0.24,
+      "ms_avg": 0.26,
+      "ms_max": 0.3,
+      "rows": 10,
+      "plan": [
+        "(3, 0, 216, 'SCAN question_bank')"
+      ]
+    },
+    "deep_offset": {
+      "ms_min": 314.78,
+      "ms_avg": 541.94,
+      "ms_max": 950.41,
+      "rows": 20,
+      "plan": [
+        "(8, 0, 61, 'SEARCH question_bank USING INDEX ix_question_bank_subject (subject=?)')",
+        "(25, 0, 0, 'USE TEMP B-TREE FOR ORDER BY')"
+      ]
+    },
+    "question_type_filter": {
+      "ms_min": 0.81,
+      "ms_avg": 0.95,
+      "ms_max": 1.13,
+      "rows": 20,
+      "plan": [
+        "(4, 0, 61, 'SEARCH question_bank USING INDEX ix_question_bank_subject (subject=?)')"
+      ]
+    },
+    "exam_year": {
+      "ms_min": 430.1,
+      "ms_avg": 463.57,
+      "ms_max": 529.17,
+      "rows": 20,
+      "plan": [
+        "(5, 0, 62, 'SEARCH question_bank USING INDEX ix_question_bank_exam_type (exam_type=?)')",
+        "(22, 0, 0, 'USE TEMP B-TREE FOR ORDER BY')"
+      ]
+    }
+  }
+}
