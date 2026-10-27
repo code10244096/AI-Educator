@@ -19,6 +19,7 @@ import useAsync from '../hooks/useAsync'
 import MathText from '../components/MathText'
 import { isBlankText } from '../utils/mathText'
 import { Empty, ErrorState, Loading } from '../components/PageState'
+import { isGraded, isScorePending, needsReview, scoreLabel } from '../utils/scoreDisplay'
 
 // 名录筛选；工作台卡片跳转时带 ?filter=review|failed|processing|missing
 const STATUS_FILTERS = [
@@ -32,8 +33,7 @@ const STATUS_FILTERS = [
 ]
 
 export const isProcessing = (s) => s.status === 'processing' || s.status === 'queued'
-export const isGraded = (s) => s.status === 'completed' && s.score !== null && s.score !== undefined
-export const needsReview = (s) => isGraded(s) && s.review_status === 'pending_review'
+export { isGraded, needsReview }
 const canStartGrade = (s) => s.uploaded && !isGraded(s) && !isProcessing(s) && s.status !== 'failed'
 
 const matchFilter = (s, filter) => {
@@ -161,15 +161,16 @@ const HomeworkDetail = () => {
     const ghosts = students.filter(s => s.in_roster === false)
     const uploaded = roster.filter(s => s.uploaded).length
     const missing = roster.length - uploaded
-    const graded = students.filter(isGraded)
+    const graded = students.filter(s => isGraded(s) && !isScorePending(s))
     const processing = students.filter(isProcessing).length
     const failed = students.filter(s => s.status === 'failed').length
     const avgScore = graded.length
       ? Math.round((graded.reduce((a, s) => a + s.score, 0) / graded.length) * 10) / 10
       : null
     const pendingReview = students.filter(needsReview)
-    const reviewAvg = pendingReview.length
-      ? Math.round((pendingReview.reduce((a, s) => a + s.score, 0) / pendingReview.length) * 10) / 10
+    const reviewable = pendingReview.filter(s => !isScorePending(s))
+    const reviewAvg = reviewable.length
+      ? Math.round((reviewable.reduce((a, s) => a + s.score, 0) / reviewable.length) * 10) / 10
       : null
     return {
       uploaded, missing, graded: graded.length, processing, failed, avgScore, total: roster.length,
@@ -380,7 +381,7 @@ const HomeworkDetail = () => {
                     <div className="mt-1"><GradingBadge student={student} /></div>
                   </div>
                   <div className="text-sm font-medium text-gray-900 shrink-0">
-                    {isGraded(student) ? `${student.score} 分` : '-'}
+                    {scoreLabel(student)}
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
@@ -466,10 +467,10 @@ const HomeworkDetail = () => {
                       )}
                     </td>
                     <td className="px-4 py-3 text-sm font-medium text-gray-900">
-                      {isGraded(student) ? `${student.score} 分` : '-'}
+                      {scoreLabel(student)}
                     </td>
                     <td className="px-4 py-3 text-sm text-gray-500">
-                      {isGraded(student) ? student.wrongCount : '-'}
+                      {isGraded(student) && !isScorePending(student) ? student.wrongCount : '-'}
                     </td>
                     <td className="px-4 py-3">
                       <div className="flex items-center space-x-3 whitespace-nowrap">

@@ -54,6 +54,39 @@ async def test_generate_uses_question_bank_context(client, fake_ai):
     assert final["retrieved_questions_count"] >= 1
 
 
+async def test_generate_uses_request_subject_not_profile(make_teacher, fake_ai):
+    t = await make_teacher()
+    saved = await t.put("/api/auth/me", json={"education_stage": "小学", "subject": "数学"})
+    assert saved.status_code == 200
+    r, final = await generate_plan(t, {"title": "秋天的雨", "subject": "语文", "wait": "true"})
+    assert r.status_code == 200, r.text
+    assert final["status"] == "completed"
+    assert final["subject"] == "语文"
+    prompt = prompt_text(fake_ai.calls[0])
+    assert "必须是语文" in prompt
+    assert "必须是数学" not in prompt
+    assert "或数学" not in prompt
+
+
+async def test_generate_retrieves_chinese_not_math(make_teacher, fake_ai):
+    t = await make_teacher()
+    saved = await t.put("/api/auth/me", json={"education_stage": "小学", "subject": "语文"})
+    assert saved.status_code == 200
+    add_cn = await t.post("/api/questionbank/add", data={
+        "question_text": "古诗 CHINESE_RAG 默写", "answer": "春眠", "question_type": "填空题",
+        "subject": "语文", "education_level": "小学", "knowledge_points": '["古诗"]'})
+    add_math = await t.post("/api/questionbank/add", data={
+        "question_text": "古诗 MATH_SHOULD_NOT 求值", "answer": "1", "question_type": "填空题",
+        "subject": "数学", "education_level": "小学", "knowledge_points": '["古诗"]'})
+    assert add_cn.status_code == 200 and add_math.status_code == 200
+    _, final = await generate_plan(t, {"title": "古诗"})
+    assert final["status"] == "completed"
+    prompt = prompt_text(fake_ai.calls[0])
+    assert "CHINESE_RAG" in prompt
+    assert "MATH_SHOULD_NOT" not in prompt
+    assert final["retrieved_questions_count"] >= 1
+
+
 async def test_get_missing_plan_404(client):
     assert (await client.get("/api/lessonplan/987654")).status_code == 404
 

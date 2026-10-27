@@ -6,6 +6,7 @@ import {
 import { lessonPlanAPI, getErrorMessage } from '../utils/api'
 import { useAuth } from '../context/AuthContext'
 import { topicExamples } from '../utils/topicExamples'
+import { BANK_SUBJECTS, subjectsFor } from '../utils/stageSubjects'
 import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
@@ -57,7 +58,8 @@ const STATUS_BADGE = {
 
 const LessonPlanGenerator = () => {
   const { user } = useAuth()
-  const examples = topicExamples(user?.education_stage, user?.subject)
+  const [lessonSubject, setLessonSubject] = useState(user?.subject || '')
+  const examples = topicExamples(user?.education_stage, lessonSubject || user?.subject)
   const [searchParams, setSearchParams] = useSearchParams()
   const [formData, setFormData] = useState({
     title: '',
@@ -96,6 +98,10 @@ const LessonPlanGenerator = () => {
   }, [])
 
   useEffect(() => {
+    setLessonSubject((prev) => prev || user?.subject || '')
+  }, [user?.subject])
+
+  useEffect(() => {
     let interval
     if (loading) {
       setElapsedTime(0)
@@ -130,6 +136,7 @@ const LessonPlanGenerator = () => {
         studentLevel: plan.student_level || '中等',
         requirements: plan.requirements || '',
       })
+      if (plan.subject) setLessonSubject(plan.subject)
       window.scrollTo({ top: 0, behavior: 'smooth' })
     } catch (err) {
       addToast(getErrorMessage(err, '加载教案失败'), 'error')
@@ -180,7 +187,8 @@ const LessonPlanGenerator = () => {
         formData.title,
         formData.period,
         formData.studentLevel,
-        formData.requirements
+        formData.requirements,
+        lessonSubject || user?.subject || ''
       )
       const taskId = addTask({
         type: 'lessonplan',
@@ -364,10 +372,30 @@ const LessonPlanGenerator = () => {
                 AI 教案生成
               </h2>
               <p className="text-sm text-gray-600">一键生成，个性化定制，自动保存</p>
+              <p className="mt-1 text-xs text-gray-400">
+                将按「{[user?.education_stage, lessonSubject || user?.subject].filter(Boolean).join(' · ') || '未选择学科'}」检索题库并生成。
+              </p>
             </div>
           </div>
 
         <form onSubmit={handleSubmit} className="space-y-4 mb-8">
+          <div className="rounded-xl border border-purple-100 bg-purple-50 px-4 py-3">
+            <label className="block text-xs font-medium text-gray-600" htmlFor="lesson-subject">本次学科</label>
+            <select
+              id="lesson-subject"
+              value={lessonSubject}
+              onChange={(e) => setLessonSubject(e.target.value)}
+              className="mt-1 w-full max-w-xs rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm"
+            >
+              {(() => {
+                const options = subjectsFor(user?.education_stage)
+                const list = options.length ? options : BANK_SUBJECTS
+                return (lessonSubject && !list.includes(lessonSubject) ? [lessonSubject, ...list] : list)
+                  .map((item) => <option key={item} value={item}>{item}</option>)
+              })()}
+            </select>
+          </div>
+
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
               课题名称

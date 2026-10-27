@@ -315,24 +315,36 @@ class AIClient:
         knowledge_point: str,
         count: int = 3,
         task_meta: Optional[Dict] = None,
+        subject: str = "",
     ) -> List[Dict]:
         """生成变式题"""
         if self.is_debug_mode:
             return self._mock_variant_questions(question_text, knowledge_point, count)
+
+        subject_name = (subject or (task_meta or {}).get("subject") or "").strip()
+        formula_subjects = {"数学", "物理", "化学", "大学物理", "大学化学"}
+        if subject_name in formula_subjects:
+            format_rule = (
+                "4. question_text 和 answer 中的数学公式必须用 LaTeX 表示，"
+                "行内公式用 \\( \\) 包裹，例如：\\( f(x)=x^3-3x \\)。\n"
+                "错误示例：f(x)=x^3-3x（纯文本，前端无法渲染）\n"
+                "正确示例：\\( f(x)=x^3-3x \\)，递增区间为 \\( (-\\infty,-1) \\) 和 \\( (1,+\\infty) \\)"
+            )
+        else:
+            format_rule = "4. 题目和答案用自然文字书写，不要使用 LaTeX。"
 
         prompt = f"""
 请为以下题目生成{count}道变式题：
 
 原题：{question_text}
 知识点：{knowledge_point}
+{f'学科：{subject_name}' if subject_name else ''}
 
 每道变式题应该：
 1. 考察相同的知识点
 2. 难度相近但具体数值或条件不同
 3. 有完整的题目和答案
-4. question_text 和 answer 中的数学公式必须用 LaTeX 表示，行内公式用 \\( \\) 包裹，例如：\\( f(x)=x^3-3x \\)。
-错误示例：f(x)=x^3-3x（纯文本，前端无法渲染）
-正确示例：\\( f(x)=x^3-3x \\)，递增区间为 \\( (-\\infty,-1) \\) 和 \\( (1,+\\infty) \\)
+{format_rule}
 
 请以 JSON 数组格式返回，包含以下字段：
 - variant_number: 变式题号
@@ -386,7 +398,7 @@ class AIClient:
         
         stage = (education_stage or "").strip()
         subject_name = (subject or "").strip()
-        senior_math = (not subject_name) or (subject_name == "数学" and stage in ("", "高中"))
+        senior_math = subject_name == "数学" and stage in ("", "高中")
         if senior_math:
             role = "高三数学把关教师"
             practice = "一道基础模仿题，一道高考改编题（附简短解析）"
@@ -394,11 +406,16 @@ class AIClient:
             example_hint = "（比如物理瞬时速度、几何图形切线）"
             mistake_hint = "（例如：求切线时容易忽略点是否在曲线上）"
         else:
-            role = f"{stage}{subject_name}教师" if stage else f"{subject_name}教师"
+            role = f"{stage}{subject_name}教师" if stage or subject_name else "任课教师"
             practice = "一道基础模仿题，一道变式提高题（附简短解析）"
             goal_extra = "能在当堂练习里用出来"
-            example_hint = f"（贴近{stage or '该学段'}{subject_name}课堂的具体情境）"
+            example_hint = f"（贴近{stage or '该学段'}{subject_name or '本学科'}课堂的具体情境）"
             mistake_hint = "（写出学生真正容易错的地方）"
+        subject_rule = (
+            f"学科内容必须是{subject_name}，不要写成其他学科。"
+            if subject_name else
+            "学科必须与课题本身一致，不要擅自改写成其他学科。"
+        )
 
         prompt = f"""
 请为以下课题生成一份详细的教案：
@@ -410,7 +427,7 @@ class AIClient:
 2. 每个知识点至少配一个学生易错点的预警{mistake_hint}。
 3. 课堂练习包含2道题：{practice}。
 4. 作业分两层：必做题（3道基础）和选做题（1道提升）。
-5. 语言简洁，不要空话。学科内容必须是{subject_name or '数学'}，不要写成其他学科。
+5. 语言简洁，不要空话。{subject_rule}
 
 课题名称：{topic}
 课时数：{period}

@@ -76,6 +76,39 @@ def _migrate_add_missing_columns(connection) -> list:
     return added
 
 
+# 与 QuestionBank.__table_args__ / Column(index=True) 对齐。显式 IF NOT EXISTS，重复执行安全。
+QUESTION_BANK_INDEX_DDL = (
+    "CREATE INDEX IF NOT EXISTS ix_question_bank_subject ON question_bank (subject)",
+    "CREATE INDEX IF NOT EXISTS ix_question_bank_education_level ON question_bank (education_level)",
+    "CREATE INDEX IF NOT EXISTS ix_question_bank_grade ON question_bank (grade)",
+    "CREATE INDEX IF NOT EXISTS ix_question_bank_exam_type ON question_bank (exam_type)",
+    "CREATE INDEX IF NOT EXISTS ix_question_bank_year ON question_bank (year)",
+    "CREATE INDEX IF NOT EXISTS ix_question_bank_subject_grade_created ON question_bank (subject, grade, created_at)",
+    "CREATE INDEX IF NOT EXISTS ix_question_bank_subject_education_level ON question_bank (subject, education_level)",
+    "CREATE INDEX IF NOT EXISTS ix_question_bank_exam_type_year ON question_bank (exam_type, year)",
+    "CREATE INDEX IF NOT EXISTS ix_question_bank_question_type ON question_bank (question_type)",
+    "CREATE INDEX IF NOT EXISTS ix_question_bank_difficulty ON question_bank (difficulty)",
+    "CREATE INDEX IF NOT EXISTS ix_question_bank_created_at ON question_bank (created_at)",
+    "CREATE INDEX IF NOT EXISTS ix_question_bank_region ON question_bank (region)",
+)
+
+QUESTION_BANK_INDEX_NAMES = tuple(
+    ddl.split("IF NOT EXISTS ", 1)[1].split(" ON ", 1)[0]
+    for ddl in QUESTION_BANK_INDEX_DDL
+)
+
+
+def migrate_question_bank_indexes(connection) -> None:
+    """给已有 question_bank 补齐查询索引。CREATE INDEX IF NOT EXISTS，可重复执行。"""
+    from sqlalchemy import inspect
+
+    inspector = inspect(connection)
+    if not inspector.has_table("question_bank"):
+        return
+    for ddl in QUESTION_BANK_INDEX_DDL:
+        connection.exec_driver_sql(ddl)
+
+
 async def init_db():
     """初始化数据库：创建缺失的表 + 补齐缺失的列（安全迁移，不会删除任何数据）"""
     import models  # noqa: F401  确保所有模型已注册到 Base.metadata
@@ -86,5 +119,6 @@ async def init_db():
             added = _migrate_add_missing_columns(connection)
             if added:
                 print(f"[db] 已自动补齐字段: {', '.join(added)}")
+            migrate_question_bank_indexes(connection)
 
         await conn.run_sync(_setup)

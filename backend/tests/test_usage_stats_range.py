@@ -1,5 +1,8 @@
 """用量汇总：since / until 时间范围过滤。"""
+import re
 from datetime import datetime, timedelta, timezone
+
+from testenv import REPO_ROOT
 
 import pytest
 
@@ -34,6 +37,13 @@ def _fixture_rows():
         _row("grade", 200, 80, (now - timedelta(days=1)).isoformat().replace("+00:00", "Z"), "mid", 1),
         _row("lessonplan", 300, 120, now.isoformat().replace("+00:00", "Z"), "new", 2),
     ]
+
+
+def test_usage_page_forwards_applied_range_to_calls():
+    src = (REPO_ROOT / "frontend" / "src" / "pages" / "UsageStats.jsx").read_text(encoding="utf-8")
+    assert re.search(r"getCalls\(\s*\{\s*limit:\s*500,\s*\.\.\.params", src) or re.search(
+        r"getCalls\(\s*\{\s*\.\.\.params,\s*limit:\s*500", src
+    ), "最近调用记录必须带上当前已应用的 since/until"
 
 
 def test_since_filters_calls_and_tokens():

@@ -235,12 +235,13 @@ export const notebookAPI = {
 
 // 教案生成 API
 export const lessonPlanAPI = {
-  generate: async (title, period, studentLevel, requirements) => {
+  generate: async (title, period, studentLevel, requirements, subject = '') => {
     const formData = new FormData()
     formData.append('title', title)
     formData.append('period', period)
     formData.append('student_level', studentLevel)
     formData.append('requirements', requirements)
+    if (subject) formData.append('subject', subject)
     
     const response = await api.post('/lessonplan/generate', formData, {
       headers: {
@@ -417,12 +418,13 @@ export const questionBankAPI = {
     return response.data
   },
   
-  search: async (keyword, subject, educationLevel, limit = 10) => {
+  search: async (keyword, subject, educationLevel, limit = 10, offset = 0) => {
     const formData = new FormData()
     formData.append('keyword', keyword)
     if (subject) formData.append('subject', subject)
     if (educationLevel) formData.append('education_level', educationLevel)
     formData.append('limit', limit)
+    formData.append('offset', offset)
     
     const response = await api.post('/questionbank/search', formData, {
       headers: {
@@ -434,6 +436,11 @@ export const questionBankAPI = {
   
   getStats: async () => {
     const response = await api.get('/questionbank/stats')
+    return response.data
+  },
+
+  getSubjects: async () => {
+    const response = await api.get('/questionbank/subjects')
     return response.data
   },
 }

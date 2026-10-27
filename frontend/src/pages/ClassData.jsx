@@ -35,6 +35,7 @@ import { useClass } from '../context/ClassContext'
 import { classAPI, classHomeworkAPI, getErrorMessage } from '../utils/api'
 import { useAuth } from '../context/AuthContext'
 import { topicExamples } from '../utils/topicExamples'
+import { scoreLabel } from '../utils/scoreDisplay'
 
 const inputCls = 'w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
 
@@ -302,6 +303,14 @@ const HomeworkBoard = ({ classId, info }) => {
                       统计《{currentHomework.title}》已批改 {currentHomework.gradedCount} 份
                     </p>
                   </>
+                ) : (currentHomework?.scorePendingCount || 0) > 0 ? (
+                  <>
+                    <p className="text-sm text-gray-500">这次作业的成绩</p>
+                    <p className="text-2xl font-bold text-purple-600 mt-1">待复核</p>
+                    <p className="text-xs text-gray-400 mt-1 leading-snug">
+                      《{currentHomework.title}》有 {currentHomework.scorePendingCount} 份待复核
+                    </p>
+                  </>
                 ) : (
                   <>
                     <p className="text-sm text-gray-500">这次作业的成绩</p>
@@ -436,7 +445,7 @@ const HomeworkBoard = ({ classId, info }) => {
                       </div>
                     </div>
                   </td>
-                  <td className="px-5 py-4 text-sm text-gray-900">{hw.avgScore > 0 ? hw.avgScore : '-'}</td>
+                  <td className="px-5 py-4 text-sm text-gray-900">{hw.avgScore > 0 ? hw.avgScore : (hw.scorePendingCount > 0 ? '待复核' : '-')}</td>
                   <td className="px-5 py-4 whitespace-nowrap">
                     <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium whitespace-nowrap ${
                       hw.status === '已批改' ? 'bg-green-100 text-green-800' : 'bg-orange-100 text-orange-800'
@@ -495,8 +504,10 @@ const HomeworkBoard = ({ classId, info }) => {
                   </div>
                 </div>
                 <div className="flex items-center space-x-2">
-                  {student.score !== null && (
-                    <span className="text-sm font-bold text-red-600">{student.score}分</span>
+                  {student.score_pending ? (
+                    <span className="text-sm font-bold text-red-600">待复核</span>
+                  ) : student.score !== null && (
+                    <span className="text-sm font-bold text-red-600">{scoreLabel(student, { unit: '分', empty: '' })}</span>
                   )}
                   {student.trend === 'down' ? (
                     <TrendingDown className="h-4 w-4 text-red-500" />
@@ -1124,7 +1135,7 @@ const ClassDetail = () => {
         ) : (
           <div>
             <h1 className="text-xl font-bold text-gray-900">{info.name}</h1>
-            <p className="text-sm text-gray-500">{info.grade ? `${info.grade} · ` : ''}{info.subject || '数学'} · {info.students}名学生</p>
+            <p className="text-sm text-gray-500">{[info.grade, info.subject].filter(Boolean).join(' · ')}{info.students != null ? ` · ${info.students}名学生` : ''}</p>
           </div>
         )}
       </div>

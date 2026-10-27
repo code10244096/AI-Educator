@@ -6,6 +6,7 @@ import {
   FileCheck,
   BookOpen,
   FileText,
+  Library,
   Settings,
   BarChart3,
   ChevronDown,
@@ -27,6 +28,7 @@ const MAIN_ITEMS = [
   { id: 'grader', label: '作业批改', icon: FileCheck, path: '/grader' },
   { id: 'notebook', label: '错题本', icon: BookOpen, path: '/notebook' },
   { id: 'lessonplan', label: '教案', icon: FileText, path: '/lessonplan' },
+  { id: 'bank', label: '题库', icon: Library, path: '/bank' },
   { id: 'feedback', label: '意见反馈', icon: MessageSquarePlus, action: 'feedback' },
 ]
 

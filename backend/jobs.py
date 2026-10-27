@@ -341,12 +341,14 @@ async def run_lesson_plan_job(plan_id: int) -> None:
 
 
 async def retrieve_question_context(db, title: str, subject: str = "数学", education_level: str = "高中") -> Dict:
-    """从题库检索相关题目作为 RAG 上下文（失败不影响生成）。题库只有小学、初中、高中数学卷。"""
+    """从题库检索相关题目作为 RAG 上下文（失败不影响生成）。"""
+    from bank_subjects import BANK_STAGES
+
     stage_name = (education_level or "").strip()
     subject_name = (subject or "").strip()
-    if stage_name == "大学" or (subject_name and subject_name != "数学"):
+    if stage_name == "大学":
         return {"context": "", "count": 0}
-    if stage_name and stage_name not in ("小学", "初中", "高中"):
+    if stage_name and stage_name not in BANK_STAGES:
         return {"context": "", "count": 0}
     level = stage_name or "高中"
     try:
@@ -354,7 +356,7 @@ async def retrieve_question_context(db, title: str, subject: str = "数学", edu
 
         retriever = QuestionRetriever()
         related = await retriever.keyword_search(
-            db=db, keyword=title, subject="数学", education_level=level, limit=8,
+            db=db, keyword=title, subject=subject_name or None, education_level=level, limit=8,
         )
         return {"context": retriever.format_for_rag(related), "count": len(related or [])}
     except Exception as e:  # noqa: BLE001
@@ -370,7 +372,9 @@ async def _run_lesson_plan_job(plan_id: int) -> None:
         title, period, level, requirements = plan.title, plan.period, plan.student_level, plan.requirements or ""
         teacher_id = plan.teacher_id
         teacher = await db.get(User, teacher_id) if teacher_id else None
-        subject = (teacher.subject or "").strip() if teacher else ""
+        subject = (getattr(plan, "subject", None) or "").strip()
+        if not subject:
+            subject = (teacher.subject or "").strip() if teacher else ""
         stage = (teacher.education_stage or "").strip() if teacher else ""
 
     await _set_plan_stage(plan_id, "检索题库中")

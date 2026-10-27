@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Text, DateTime, ForeignKey, Boolean, Float
+from sqlalchemy import Column, Index, Integer, String, Text, DateTime, ForeignKey, Boolean, Float
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 from database import Base
@@ -170,6 +170,7 @@ class LessonPlan(Base):
     id = Column(Integer, primary_key=True, index=True)
     teacher_id = Column(Integer, ForeignKey("users.id"))
     title = Column(String(200), nullable=False)  # 课题名称
+    subject = Column(String(50))  # 本次学科（可与档案任教学科不同）
     period = Column(String(50))  # 课时数
     student_level = Column(String(50))  # 学生基础
     requirements = Column(Text)  # 额外要求
@@ -221,6 +222,18 @@ class QuestionBank(Base):
     
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
+
+    # 列表/RAG 常用过滤 + 排序。单列 subject/education_level/grade/exam_type/year 已由 index=True 覆盖。
+    # 复合索引供 init_db 里 CREATE INDEX IF NOT EXISTS 同步创建。
+    __table_args__ = (
+        Index("ix_question_bank_subject_grade_created", "subject", "grade", "created_at"),
+        Index("ix_question_bank_subject_education_level", "subject", "education_level"),
+        Index("ix_question_bank_exam_type_year", "exam_type", "year"),
+        Index("ix_question_bank_question_type", "question_type"),
+        Index("ix_question_bank_difficulty", "difficulty"),
+        Index("ix_question_bank_created_at", "created_at"),
+        Index("ix_question_bank_region", "region"),
+    )
     
     # 关系
     variants = relationship("QuestionVariant", back_populates="original_question")

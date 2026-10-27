@@ -305,7 +305,7 @@ const UsageStats = () => {
     try {
       const requests = [
         usageAPI.getSummary(params),
-        usageAPI.getCalls({ limit: 500 }),
+        usageAPI.getCalls({ limit: 500, ...params }),
         usageAPI.getAccounts(params),
       ]
       if (filtered) requests.push(usageAPI.getSummary())

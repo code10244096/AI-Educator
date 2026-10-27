@@ -35,6 +35,7 @@ def _plan_to_dict(plan: LessonPlan) -> dict:
     return {
         "id": plan.id,
         "title": plan.title,
+        "subject": plan.subject or "",
         "period": plan.period,
         "student_level": plan.student_level,
         "requirements": plan.requirements,
@@ -90,6 +91,7 @@ async def generate_lesson_plan(
     period: str = Form("1 课时"),
     student_level: str = Form("中等"),
     requirements: str = Form(""),
+    subject: str = Form(""),
     wait: bool = Form(False),
     db: AsyncSession = Depends(get_db),
     user: User = Depends(current_user),
@@ -115,9 +117,11 @@ async def generate_lesson_plan(
     from trial_quota import enforce
     await enforce(user, "lessonplan", db)
 
+    chosen_subject = (subject or "").strip() or (user.subject or "").strip()
     plan = LessonPlan(
         teacher_id=user.id,
         title=title[:200],
+        subject=chosen_subject,
         period=period,
         student_level=student_level,
         requirements=requirements,

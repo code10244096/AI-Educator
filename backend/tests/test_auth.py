@@ -172,6 +172,8 @@ async def test_update_profile(make_teacher):
     assert saved_other.status_code == 200 and saved_other.json()["subject"] == "物理"
     rejected = await t.put("/api/auth/me", json={"education_stage": "小学", "subject": "物理"})
     assert rejected.status_code == 400 and rejected.json()["detail"] == "请选择学科"
+    science = await t.put("/api/auth/me", json={"education_stage": "小学", "subject": "科学"})
+    assert science.status_code == 200 and science.json()["subject"] == "科学"
     assert (await t.put("/api/auth/me", json={"username": "hack"})).json()["username"] == t.user["username"]
 
 

@@ -1,12 +1,77 @@
 """
 RAG 检索模块
 用于从题库中检索相关题目，辅助 AI 生成教案和解答
+
+全文检索取舍：题干/知识点是中文连续文本。FTS5 的 simple/unicode61 按空白和标点切词，
+对中文几乎等同一整句一个 token，没有 jieba 一类分词就无法按「函数」「方程」命中。
+当前需求是子串匹配（LIKE %kw%）。前导通配无法走 B-tree；前缀 kw% 会改变语义。
+因此保持 LIKE，用 subject/education_level 等值条件缩小扫描范围，每条查询带 LIMIT。
 """
 import json
 from typing import List, Dict, Optional
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy import select
+from sqlalchemy import or_, select
+from sqlalchemy.sql import Select
 from models import QuestionBank
+
+SEARCH_MAX_LIMIT = 50
+
+
+def clamp_search_limit(limit: Optional[int], default: int = 10) -> int:
+    try:
+        value = int(limit) if limit is not None else default
+    except (TypeError, ValueError):
+        value = default
+    return max(1, min(value, SEARCH_MAX_LIMIT))
+
+
+def _eq_scope(query: Select, subject: Optional[str], education_level: Optional[str]) -> Select:
+    if subject:
+        query = query.where(QuestionBank.subject == subject)
+    if education_level:
+        query = query.where(QuestionBank.education_level == education_level)
+    return query
+
+
+def build_keyword_query(
+    keyword: str,
+    subject: Optional[str] = None,
+    education_level: Optional[str] = None,
+    limit: int = 10,
+) -> Select:
+    query = _eq_scope(select(QuestionBank), subject, education_level)
+    query = query.where(QuestionBank.question_text.like(f"%{keyword}%"))
+    return query.limit(clamp_search_limit(limit))
+
+
+def build_knowledge_point_query(
+    knowledge_points: List[str],
+    subject: Optional[str] = None,
+    education_level: Optional[str] = None,
+    limit: int = 10,
+) -> Select:
+    query = _eq_scope(select(QuestionBank), subject, education_level)
+    conditions = [QuestionBank.knowledge_points.like(f"%{kp}%") for kp in knowledge_points if kp]
+    if conditions:
+        query = query.where(or_(*conditions))
+    return query.limit(clamp_search_limit(limit))
+
+
+def build_exam_type_query(
+    exam_type: str,
+    year: Optional[int] = None,
+    region: Optional[str] = None,
+    subject: Optional[str] = None,
+    limit: int = 20,
+) -> Select:
+    query = select(QuestionBank).where(QuestionBank.exam_type == exam_type)
+    if year:
+        query = query.where(QuestionBank.year == year)
+    if region:
+        query = query.where(QuestionBank.region == region)
+    if subject:
+        query = query.where(QuestionBank.subject == subject)
+    return query.order_by(QuestionBank.year.desc()).limit(clamp_search_limit(limit, default=20))
 
 
 class QuestionRetriever:
@@ -33,16 +98,7 @@ class QuestionRetriever:
             education_level: 学龄筛选
             limit: 返回数量
         """
-        query = select(QuestionBank).where(
-            QuestionBank.question_text.like(f"%{keyword}%")
-        )
-        
-        if subject:
-            query = query.where(QuestionBank.subject == subject)
-        if education_level:
-            query = query.where(QuestionBank.education_level == education_level)
-        
-        query = query.limit(limit)
+        query = build_keyword_query(keyword, subject, education_level, limit)
         
         result = await db.execute(query)
         questions = result.scalars().all()
@@ -79,23 +135,9 @@ class QuestionRetriever:
             education_level: 学龄筛选
             limit: 返回数量
         """
-        query = select(QuestionBank)
-        
-        # 匹配任意一个知识点
-        conditions = []
-        for kp in knowledge_points:
-            conditions.append(QuestionBank.knowledge_points.like(f"%{kp}%"))
-        
-        if conditions:
-            from sqlalchemy import or_
-            query = query.where(or_(*conditions))
-        
-        if subject:
-            query = query.where(QuestionBank.subject == subject)
-        if education_level:
-            query = query.where(QuestionBank.education_level == education_level)
-        
-        query = query.limit(limit)
+        query = build_knowledge_point_query(
+            knowledge_points, subject, education_level, limit
+        )
         
         result = await db.execute(query)
         questions = result.scalars().all()
@@ -134,19 +176,7 @@ class QuestionRetriever:
             subject: 学科
             limit: 返回数量
         """
-        query = select(QuestionBank).where(
-            QuestionBank.exam_type == exam_type
-        )
-        
-        if year:
-            query = query.where(QuestionBank.year == year)
-        if region:
-            query = query.where(QuestionBank.region == region)
-        if subject:
-            query = query.where(QuestionBank.subject == subject)
-        
-        query = query.order_by(QuestionBank.year.desc())
-        query = query.limit(limit)
+        query = build_exam_type_query(exam_type, year, region, subject, limit)
         
         result = await db.execute(query)
         questions = result.scalars().all()

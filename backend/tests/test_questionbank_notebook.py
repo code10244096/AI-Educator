@@ -3,7 +3,7 @@ import uuid
 
 import pytest
 
-from fakes import DEFAULT_VARIANTS
+from fakes import DEFAULT_VARIANTS, prompt_text
 
 
 def _q(text, **extra):
@@ -47,6 +47,43 @@ async def test_questionbank_stats(client):
     assert "total" in r.json()
 
 
+async def test_questionbank_subjects_and_new_subject_filters(client):
+    opts = await client.get("/api/questionbank/subjects")
+    assert opts.status_code == 200
+    body = opts.json()
+    assert {"语文", "数学", "英语", "科学"}.issubset(body["subjects"])
+    assert body["education_levels"] == ["小学", "初中", "高中"]
+
+    marker = f"NS{uuid.uuid4().hex[:6]}"
+    for subject in ("语文", "英语", "科学"):
+        r = await client.post("/api/questionbank/add", data=_q(
+            f"{marker} {subject} 题干", subject=subject, education_level="小学"))
+        assert r.status_code == 200, r.text
+
+    chinese = (await client.get("/api/questionbank/list", params={"subject": "语文", "limit": 50})).json()
+    assert any(marker in q["question_text"] for q in chinese)
+    assert all(q["subject"] == "语文" for q in chinese)
+
+    hit = await client.post("/api/questionbank/search", data={"keyword": marker, "subject": "英语"})
+    assert hit.status_code == 200
+    rows = hit.json()
+    assert rows and all(q["subject"] == "英语" for q in rows)
+    assert any(marker in q["question_text"] for q in rows)
+
+    page_marker = f"PG{uuid.uuid4().hex[:6]}"
+    for i in range(3):
+        r = await client.post("/api/questionbank/add", data=_q(
+            f"{page_marker} 翻页{i}", subject="语文", education_level="小学"))
+        assert r.status_code == 200
+    first = (await client.post("/api/questionbank/search", data={
+        "keyword": page_marker, "subject": "语文", "limit": 2, "offset": 0})).json()
+    second = (await client.post("/api/questionbank/search", data={
+        "keyword": page_marker, "subject": "语文", "limit": 2, "offset": 2})).json()
+    assert len(first) == 2
+    assert len(second) == 1
+    assert {q["id"] for q in first}.isdisjoint({q["id"] for q in second})
+
+
 async def test_notebook_upload_txt_generates_variants(client, fake_ai):
     text = "已知 f(x)=x^2，求 f(2)。答案 4"
     r = await client.post("/api/notebook/upload",
@@ -66,6 +103,18 @@ async def test_notebook_upload_txt_generates_variants(client, fake_ai):
     lst = (await client.get("/api/notebook/list", params={"knowledge_point": "二次函数NB"})).json()
     items = lst.get("items", lst) if isinstance(lst, dict) else lst
     assert items[0]["is_mastered"] is True
+    math_prompt = prompt_text(fake_ai.calls[0])
+    assert "LaTeX" in math_prompt
+
+
+async def test_variant_prompt_skips_latex_for_chinese(client, fake_ai):
+    r = await client.post("/api/notebook/upload",
+                          files={"file": ("wq.txt", "默写《静夜思》。答案 床前明月光".encode("utf-8"), "text/plain")},
+                          data={"knowledge_point": "古诗变式", "subject": "语文"})
+    assert r.status_code == 200, r.text
+    prompt = prompt_text(fake_ai.calls[0])
+    assert "不要使用 LaTeX" in prompt
+    assert "必须用 LaTeX" not in prompt
 
 
 async def test_notebook_upload_variant_failure_still_saves(client, fake_ai):

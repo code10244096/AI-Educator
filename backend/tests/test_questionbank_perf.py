@@ -140,6 +140,16 @@ def test_search_query_clamps_limit():
         assert SEARCH_MAX_LIMIT in getattr(compiled, "params", {}).values()
 
 
+def test_search_query_supports_offset():
+    compiled = _compiled(build_search_query("方程", limit=20, offset=40))
+    sql = str(compiled).upper()
+    assert "OFFSET" in sql
+    deep = _compiled(build_search_query("方程", offset=999999))
+    deep_sql = str(deep).upper()
+    if f"OFFSET {LIST_MAX_OFFSET}" not in deep_sql:
+        assert LIST_MAX_OFFSET in getattr(deep, "params", {}).values()
+
+
 def test_list_keyset_uses_limit_without_offset():
     compiled = build_list_query(
         subject="数学",

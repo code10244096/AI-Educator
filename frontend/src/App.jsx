@@ -19,6 +19,7 @@ const ClassData = lazy(() => import('./pages/ClassData'))
 const TaskDetail = lazy(() => import('./pages/TaskDetail'))
 const Settings = lazy(() => import('./pages/Settings'))
 const UsageStats = lazy(() => import('./pages/UsageStats'))
+const BankBrowse = lazy(() => import('./pages/BankBrowse'))
 const LoginPage = lazy(() => import('./pages/LoginPage'))
 const SetPasswordPage = lazy(() => import('./pages/SetPasswordPage'))
 
@@ -78,9 +79,10 @@ function App() {
                           <Route path="/grader" element={<HomeworkGrader />} />
                           <Route path="/lessonplan" element={<LessonPlanGenerator />} />
                           <Route path="/notebook" element={<WrongNotebook />} />
+                          <Route path="/bank" element={<BankBrowse />} />
                           <Route path="/class/*" element={<ClassData />} />
-                          {/* 题库页面已下线（R1-004），旧链接回工作台 */}
-                          <Route path="/questionbank/*" element={<Navigate to="/" replace />} />
+                          {/* 旧 /questionbank 入口已改为 /bank */}
+                          <Route path="/questionbank/*" element={<Navigate to="/bank" replace />} />
                           {/* 本地任务列表页取消（R1-006），后台任务改在顶栏任务抽屉 */}
                           <Route path="/tasks" element={<Navigate to="/" replace />} />
                           <Route path="/tasks/:taskId" element={<TaskDetail />} />

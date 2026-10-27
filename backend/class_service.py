@@ -449,9 +449,47 @@ def _subs_by_member(members: List[ClassMember], subs: List[HomeworkSubmission]) 
     return result
 
 
-def is_scored(sub: HomeworkSubmission) -> bool:
-    """计入成绩统计的提交：批改完成且有分数（失败、排队、批改中、未批改都不计入）"""
+def _grading_payload(sub: HomeworkSubmission) -> dict:
+    raw = getattr(sub, "grading_result", None)
+    if not raw:
+        return {}
+    if isinstance(raw, dict):
+        return raw
+    try:
+        data = json.loads(raw)
+    except (TypeError, ValueError):
+        return {}
+    return data if isinstance(data, dict) else {}
+
+
+def is_score_pending(sub: HomeworkSubmission) -> bool:
+    """AI 全标 needs_review 时 compute_score 会带 score_pending，分数不可当真。"""
+    return bool(_grading_payload(sub).get("score_pending"))
+
+
+def is_completed_grade(sub: HomeworkSubmission) -> bool:
+    """批改已完成且写入了分数（含待复核的 0 分占位）。"""
     return sub.status == "completed" and sub.grading_status == "已批改" and sub.score is not None
+
+
+def is_scored(sub: HomeworkSubmission) -> bool:
+    """计入成绩统计的提交：批改完成且有可展示的分数（待复核 / 失败 / 未批改不计入）"""
+    return is_completed_grade(sub) and not is_score_pending(sub)
+
+
+def score_display(item) -> str:
+    """作业详情 / 预警名单：待复核显示文案，不把 0 分当真分。"""
+    if isinstance(item, dict):
+        pending = bool(item.get("score_pending"))
+        score = item.get("score")
+    else:
+        pending = is_score_pending(item)
+        score = getattr(item, "score", None)
+    if pending:
+        return "待复核"
+    if score is None:
+        return "-"
+    return f"{score} 分"
 
 
 async def list_members(db: AsyncSession, class_slug_value: str, *, teacher_id: int) -> List[dict]:
@@ -711,6 +749,7 @@ def _assignment_to_dict(assignment: HomeworkAssignment, stats: dict, total: Opti
         "pendingCount": stats["pending"],
         "processingCount": stats["processing"],
         "failedCount": stats["failed"],
+        "scorePendingCount": stats.get("score_pending", 0),
     }
 
 
@@ -733,6 +772,7 @@ async def _submission_stats(db: AsyncSession, assignment: HomeworkAssignment) ->
         "submitted": submitted,
         "avg_score": avg_score,
         "graded": len(scores),
+        "score_pending": sum(1 for s in submissions if is_completed_grade(s) and is_score_pending(s)),
         "pending": sum(1 for s in submissions if s.grading_status == "待批改" and s.status != "failed"),
         "processing": sum(1 for s in submissions if s.status in ("processing", "queued")),
         "failed": sum(1 for s in submissions if s.status == "failed"),
@@ -913,12 +953,14 @@ def _empty_student(order_id: int, name: str) -> dict:
         "errorMessage": None,
         "review_status": None,
         "needs_review": False,
+        "score_pending": False,
         "teacher_modified": False,
     }
 
 
 def _submission_to_student(sub: HomeworkSubmission, order_id: int) -> dict:
-    scored = is_scored(sub)
+    completed = is_completed_grade(sub)
+    pending = is_score_pending(sub) if completed else False
     return {
         "id": order_id,
         "submission_id": sub.id,
@@ -926,17 +968,18 @@ def _submission_to_student(sub: HomeworkSubmission, order_id: int) -> dict:
         "uploaded": True,
         "submitStatus": "已提交",
         "submitTime": sub.submit_time,
-        "score": sub.score if scored else None,
+        "score": sub.score if completed else None,
+        "score_pending": pending,
         "gradingStatus": sub.grading_status or ("已批改" if sub.status == "completed" else "待批改"),
-        "wrongCount": sub.wrong_count if scored else None,
+        "wrongCount": sub.wrong_count if completed else None,
         "fileCount": sub.file_count or 1,
         "grading_result_id": sub.id if sub.status == "completed" else None,
         "status": sub.status,
         "progressStage": sub.progress_stage,
         "errorMessage": sub.error_message,
-        "review_status": sub.review_status if scored else None,
-        "needs_review": bool(sub.needs_review) if scored else False,
-        "teacher_modified": bool(sub.teacher_modified) if scored else False,
+        "review_status": sub.review_status if completed else None,
+        "needs_review": bool(sub.needs_review) if completed else False,
+        "teacher_modified": bool(sub.teacher_modified) if completed else False,
     }
 
 
@@ -1066,10 +1109,10 @@ async def get_alert_students(db: AsyncSession, class_slug_value: str, *, teacher
         avg = round(sum(scores) / len(scores), 1)
         name = display.get(m.id, m.name)
         if avg < PASS_SCORE:
-            alerts.append({"member_id": m.id, "name": name, "score": avg, "trend": "down",
+            alerts.append({"member_id": m.id, "name": name, "score": avg, "score_pending": False, "trend": "down",
                            "warning": f"作业平均分低于{PASS_SCORE}分"})
         elif len(scores) >= 2 and scores[-2] - scores[-1] >= 15:
-            alerts.append({"member_id": m.id, "name": name, "score": scores[-1], "trend": "down",
+            alerts.append({"member_id": m.id, "name": name, "score": scores[-1], "score_pending": False, "trend": "down",
                            "warning": f"最近一次成绩下降 {round(scores[-2] - scores[-1])} 分"})
 
     homework_list = await get_homework_list(db, class_slug_value, teacher_id=teacher_id)
@@ -1086,6 +1129,7 @@ async def get_alert_students(db: AsyncSession, class_slug_value: str, *, teacher
                 "member_id": s.get("member_id"),
                 "name": s.get("display_name") or s["name"],
                 "score": None,
+                "score_pending": False,
                 "trend": "down",
                 "warning": f"未上传作业《{latest_pending['title']}》",
             })

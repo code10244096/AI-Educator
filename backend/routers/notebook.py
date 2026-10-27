@@ -87,7 +87,8 @@ async def upload_wrong_question(
     try:
         variant_questions = await ai_client.generate_variant_questions(
             question_text=question_text, knowledge_point=knowledge_point, count=3,
-            task_meta={"teacher_id": user.id, "feature_source": "notebook"},
+            subject=subject,
+            task_meta={"teacher_id": user.id, "feature_source": "notebook", "subject": subject},
         )
     except TrialLimited:
         raise
@@ -209,7 +210,9 @@ async def generate_variants(question_id: int, count: int = Form(3), db: AsyncSes
     count = max(1, min(count, 5))
     variants = await ai_client.generate_variant_questions(
         question_text=q.question_text, knowledge_point=q.knowledge_point or "", count=count,
-        task_meta={"teacher_id": user.id, "wrong_question_id": q.id, "feature_source": "notebook"},
+        subject=q.subject or "",
+        task_meta={"teacher_id": user.id, "wrong_question_id": q.id, "feature_source": "notebook",
+                   "subject": q.subject or ""},
     )
     if not variants:
         raise HTTPException(status_code=502, detail="AI 未返回有效的变式题，请重试")

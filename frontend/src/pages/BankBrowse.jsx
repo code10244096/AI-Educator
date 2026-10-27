@@ -7,6 +7,7 @@ import MathText from '../components/MathText'
 import PageBackground from '../components/PageBackground'
 
 const PAGE_SIZE = 20
+const SEARCH_OFFSET_CAP = 10000
 
 const previewText = (text) => (text || '').replace(/\s+/g, ' ').trim()
 
@@ -22,6 +23,7 @@ const BankBrowse = () => {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [cursors, setCursors] = useState([null])
+  const [truncated, setTruncated] = useState(false)
   const [selected, setSelected] = useState(null)
   const [detail, setDetail] = useState(null)
   const [detailLoading, setDetailLoading] = useState(false)
@@ -47,14 +49,15 @@ const BankBrowse = () => {
       })
   }, [])
 
-  const loadList = useCallback(async (afterId, kw) => {
+  const loadList = useCallback(async (afterId, kw, offset = 0) => {
     setLoading(true)
     setError(null)
+    setTruncated(false)
     try {
       const query = (kw || '').trim()
       let rows
       if (query) {
-        rows = await questionBankAPI.search(query, subject || undefined, stage || undefined, PAGE_SIZE)
+        rows = await questionBankAPI.search(query, subject || undefined, stage || undefined, PAGE_SIZE, offset)
       } else {
         rows = await questionBankAPI.getList({
           subject: subject || undefined,
@@ -75,6 +78,7 @@ const BankBrowse = () => {
 
   useEffect(() => {
     setCursors([null])
+    setTruncated(false)
     setAppliedKeyword('')
     setKeyword('')
     loadList(null, '')
@@ -97,13 +101,26 @@ const BankBrowse = () => {
   const handleSearch = () => {
     const q = keyword.trim()
     setAppliedKeyword(q)
-    setCursors([null])
-    loadList(null, q)
+    setTruncated(false)
+    setCursors(q ? [0] : [null])
+    loadList(null, q, 0)
   }
 
   const goNext = () => {
+    if (appliedKeyword) {
+      const currentOffset = typeof cursors[cursors.length - 1] === 'number' ? cursors[cursors.length - 1] : 0
+      const nextOffset = currentOffset + PAGE_SIZE
+      if (nextOffset >= SEARCH_OFFSET_CAP) {
+        setTruncated(true)
+        setError('结果过多，请细化筛选')
+        return
+      }
+      setCursors([...cursors, nextOffset])
+      loadList(null, appliedKeyword, nextOffset)
+      return
+    }
     const lastId = items[items.length - 1]?.id
-    if (!lastId || appliedKeyword) return
+    if (!lastId) return
     const next = [...cursors, lastId]
     setCursors(next)
     loadList(lastId, '')
@@ -113,11 +130,19 @@ const BankBrowse = () => {
     if (cursors.length <= 1) return
     const next = cursors.slice(0, -1)
     setCursors(next)
-    loadList(next[next.length - 1], appliedKeyword)
+    if (appliedKeyword) {
+      const offset = typeof next[next.length - 1] === 'number' ? next[next.length - 1] : 0
+      loadList(null, appliedKeyword, offset)
+      return
+    }
+    loadList(next[next.length - 1], '')
   }
 
+  const searchOffset = appliedKeyword && typeof cursors[cursors.length - 1] === 'number'
+    ? cursors[cursors.length - 1]
+    : 0
   const page = cursors.length
-  const hasNext = !appliedKeyword && items.length === PAGE_SIZE
+  const hasNext = items.length === PAGE_SIZE && !(appliedKeyword && searchOffset + PAGE_SIZE >= SEARCH_OFFSET_CAP)
   const hasPrev = cursors.length > 1
 
   return (
@@ -209,6 +234,9 @@ const BankBrowse = () => {
                 </button>
               </div>
             </div>
+            {truncated && (
+              <p className="border-b border-amber-100 bg-amber-50 px-4 py-2 text-xs text-amber-700">结果过多，请细化筛选</p>
+            )}
             {loading && items.length === 0 ? (
               <p className="flex items-center justify-center gap-2 p-8 text-sm text-gray-400" role="status">
                 <Loader2 className="h-4 w-4 animate-spin" />加载中…

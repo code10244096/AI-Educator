@@ -6,6 +6,7 @@ const PageBackground = ({ children, gradient = 'default' }) => {
     grader: 'from-blue-50 via-blue-100 to-cyan-50',
     notebook: 'from-green-50 via-emerald-50 to-teal-50',
     lessonplan: 'from-purple-50 via-pink-50 to-rose-50',
+    bank: 'from-teal-50 via-cyan-50 to-sky-50',
   }
 
   return (
