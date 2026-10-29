@@ -7,16 +7,12 @@ import { lessonPlanAPI, getErrorMessage } from '../utils/api'
 import { useAuth } from '../context/AuthContext'
 import { topicExamples } from '../utils/topicExamples'
 import { BANK_SUBJECTS, lessonGradesFor, subjectsFor } from '../utils/stageSubjects'
-import ReactMarkdown from 'react-markdown'
-import remarkMath from 'remark-math'
-import rehypeKatex from 'rehype-katex'
 import { useTask, estimateProgress } from '../context/TaskContext'
 import { useToast } from '../components/Toast'
 import ConfirmDialog from '../components/ConfirmDialog'
 import PageBackground from '../components/PageBackground'
+import MathText from '../components/MathText'
 import { formatServerTime } from '../utils/time'
-import 'katex/dist/katex.min.css'
-import html2pdf from 'html2pdf.js'
 
 const plainPreview = (text) => (text || '')
   .replace(/\$/g, '')
@@ -348,6 +344,7 @@ const LessonPlanGenerator = () => {
         pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
       }
 
+      const { default: html2pdf } = await import('html2pdf.js')
       await html2pdf().set(opt).from(clone).save()
       document.body.removeChild(tempContainer)
     } catch (err) {
@@ -764,12 +761,7 @@ const LessonPlanGenerator = () => {
                   white-space: pre;
                 }
               `}</style>
-              <ReactMarkdown
-                remarkPlugins={[remarkMath]}
-                rehypePlugins={[rehypeKatex]}
-              >
-                {result.content}
-              </ReactMarkdown>
+              <MathText text={result.content} markdown />
             </div>
             )}
           </div>
