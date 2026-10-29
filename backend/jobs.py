@@ -340,28 +340,128 @@ async def run_lesson_plan_job(plan_id: int) -> None:
         await _fail_plan(plan_id, f"教案生成失败：{type(e).__name__}: {e}")
 
 
-async def retrieve_question_context(db, title: str, subject: str = "数学", education_level: str = "高中") -> Dict:
-    """从题库检索相关题目作为 RAG 上下文（失败不影响生成）。"""
-    from bank_subjects import BANK_STAGES
+_TITLE_SUFFIXES = (
+    "第一课时", "第二课时", "第三课时", "第四课时",
+    "教学设计", "教案设计", "教学", "设计", "教案",
+)
+_EMPTY_RAG = {"context": "", "count": 0, "question_ids": []}
+
+
+def extract_title_keywords(title: str) -> List[str]:
+    """从课题标题提取 LIKE 候选词：去书名号与空白，再去掉常见课文后缀。"""
+    text = (title or "").replace("《", "").replace("》", "").replace("〈", "").replace("〉", "")
+    text = re.sub(r"\s+", "", text).strip()
+    if not text:
+        return []
+    candidates = [text]
+    remainder = text
+    changed = True
+    while changed:
+        changed = False
+        for suffix in _TITLE_SUFFIXES:
+            if remainder.endswith(suffix) and len(remainder) > len(suffix):
+                remainder = remainder[: -len(suffix)]
+                changed = True
+                break
+    if remainder and remainder != text and len(remainder) >= 2:
+        candidates.append(remainder)
+    seen: Set[str] = set()
+    out: List[str] = []
+    for item in candidates:
+        if item not in seen:
+            seen.add(item)
+            out.append(item)
+    return out
+
+
+async def retrieve_question_context(
+    db, title: str, subject: str = "数学", education_level: str = "高中", grade: Optional[str] = None,
+) -> Dict:
+    """从题库检索相关题目作为 RAG 上下文（失败不影响生成）。
+
+    过滤降级链（每级 LIKE limit 8；本级有命中即停止不再降级；
+    本级内合并去重后满 4 题则不再查下一个关键词）：
+    a. subject + grade 数字（仅当解析出年级；题目 grade 为 NULL 不命中）
+    b. subject + education_level
+    c. subject only
+    d. education_level only
+    """
+    from bank_subjects import BANK_STAGES, grade_to_education_level, parse_grade_number
 
     stage_name = (education_level or "").strip()
-    subject_name = (subject or "").strip()
-    if stage_name == "大学":
-        return {"context": "", "count": 0}
-    if stage_name and stage_name not in BANK_STAGES:
-        return {"context": "", "count": 0}
-    level = stage_name or "高中"
+    subject_name = (subject or "").strip() or None
+    grade_num = parse_grade_number(grade)
+    mapped_stage = grade_to_education_level(grade_num)
+
+    if not grade_num:
+        if stage_name == "大学":
+            return dict(_EMPTY_RAG)
+        if stage_name and stage_name not in BANK_STAGES:
+            return dict(_EMPTY_RAG)
+
+    level = mapped_stage or stage_name or "高中"
+    if level not in BANK_STAGES:
+        level = None
+
     try:
         from rag_retriever import QuestionRetriever
 
         retriever = QuestionRetriever()
-        related = await retriever.keyword_search(
-            db=db, keyword=title, subject=subject_name or None, education_level=level, limit=8,
-        )
-        return {"context": retriever.format_for_rag(related), "count": len(related or [])}
+        keywords = extract_title_keywords(title)
+        if not keywords:
+            return dict(_EMPTY_RAG)
+
+        collected: List[Dict] = []
+        seen: Set[int] = set()
+
+        async def _search_level(*, subject_f=None, education_level_f=None, grade_f=None) -> bool:
+            """本级有命中返回 True（调用方应停止降级）。"""
+            for kw in keywords:
+                if len(collected) >= 4:
+                    break
+                rows = await retriever.keyword_search(
+                    db=db,
+                    keyword=kw,
+                    subject=subject_f,
+                    education_level=education_level_f,
+                    grade=grade_f,
+                    limit=8,
+                )
+                for row in rows or []:
+                    qid = row.get("id")
+                    if qid in seen:
+                        continue
+                    seen.add(qid)
+                    collected.append(row)
+            return bool(collected)
+
+        # a. 学科 + 年级
+        if grade_num is not None and subject_name:
+            if await _search_level(subject_f=subject_name, grade_f=grade_num):
+                return _pack_rag(retriever, collected)
+        # b. 学科 + 学段
+        if subject_name and level:
+            if await _search_level(subject_f=subject_name, education_level_f=level):
+                return _pack_rag(retriever, collected)
+        # c. 仅学科
+        if subject_name:
+            if await _search_level(subject_f=subject_name):
+                return _pack_rag(retriever, collected)
+        # d. 仅学段
+        if level:
+            await _search_level(education_level_f=level)
+        return _pack_rag(retriever, collected)
     except Exception as e:  # noqa: BLE001
         print(f"题库检索失败: {e}")
-        return {"context": "", "count": 0}
+        return dict(_EMPTY_RAG)
+
+
+def _pack_rag(retriever, questions: List[Dict]) -> Dict:
+    return {
+        "context": retriever.format_for_rag(questions),
+        "count": len(questions),
+        "question_ids": [q["id"] for q in questions if q.get("id") is not None],
+    }
 
 
 async def _run_lesson_plan_job(plan_id: int) -> None:
@@ -376,10 +476,13 @@ async def _run_lesson_plan_job(plan_id: int) -> None:
         if not subject:
             subject = (teacher.subject or "").strip() if teacher else ""
         stage = (teacher.education_stage or "").strip() if teacher else ""
+        plan_grade = (getattr(plan, "grade", None) or "").strip() or None
 
     await _set_plan_stage(plan_id, "检索题库中")
     async with AsyncSessionLocal() as db:
-        rag = await retrieve_question_context(db, title, subject=subject, education_level=stage)
+        rag = await retrieve_question_context(
+            db, title, subject=subject, education_level=stage, grade=plan_grade,
+        )
 
     await _set_plan_stage(plan_id, "AI 生成中")
     content = await ai_client.generate_lesson_plan(
@@ -404,6 +507,7 @@ async def _run_lesson_plan_job(plan_id: int) -> None:
         plan.progress_stage = "生成完成"
         plan.error_message = None
         plan.retrieved_questions_count = rag["count"]
+        plan.referenced_question_ids = json.dumps(rag.get("question_ids") or [], ensure_ascii=False)
         await db.commit()
         await _archive_lesson_plan(plan)
 

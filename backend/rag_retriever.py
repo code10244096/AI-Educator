@@ -25,11 +25,18 @@ def clamp_search_limit(limit: Optional[int], default: int = 10) -> int:
     return max(1, min(value, SEARCH_MAX_LIMIT))
 
 
-def _eq_scope(query: Select, subject: Optional[str], education_level: Optional[str]) -> Select:
+def _eq_scope(
+    query: Select,
+    subject: Optional[str],
+    education_level: Optional[str],
+    grade: Optional[int] = None,
+) -> Select:
     if subject:
         query = query.where(QuestionBank.subject == subject)
     if education_level:
         query = query.where(QuestionBank.education_level == education_level)
+    if grade is not None:
+        query = query.where(QuestionBank.grade == grade)
     return query
 
 
@@ -38,8 +45,9 @@ def build_keyword_query(
     subject: Optional[str] = None,
     education_level: Optional[str] = None,
     limit: int = 10,
+    grade: Optional[int] = None,
 ) -> Select:
-    query = _eq_scope(select(QuestionBank), subject, education_level)
+    query = _eq_scope(select(QuestionBank), subject, education_level, grade=grade)
     query = query.where(QuestionBank.question_text.like(f"%{keyword}%"))
     return query.limit(clamp_search_limit(limit))
 
@@ -86,7 +94,8 @@ class QuestionRetriever:
         keyword: str,
         subject: Optional[str] = None,
         education_level: Optional[str] = None,
-        limit: int = 10
+        limit: int = 10,
+        grade: Optional[int] = None,
     ) -> List[Dict]:
         """
         关键词搜索
@@ -97,8 +106,9 @@ class QuestionRetriever:
             subject: 学科筛选
             education_level: 学龄筛选
             limit: 返回数量
+            grade: 数字年级（1–12）；题目 grade 为 NULL 时不命中
         """
-        query = build_keyword_query(keyword, subject, education_level, limit)
+        query = build_keyword_query(keyword, subject, education_level, limit, grade=grade)
         
         result = await db.execute(query)
         questions = result.scalars().all()
@@ -259,8 +269,10 @@ class QuestionRetriever:
         context_parts = []
         
         for i, q in enumerate(questions, 1):
+            qid = q.get("id")
+            id_tag = f"[题库ID:{qid}] " if qid is not None else ""
             part = f"""
-题目 {i}:
+{id_tag}题目 {i}:
 {q['question_text']}
 
 答案: {q['answer']}

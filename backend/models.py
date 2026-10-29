@@ -179,6 +179,8 @@ class LessonPlan(Base):
     progress_stage = Column(String(100))  # 后台生成进度文字
     error_message = Column(Text)  # 生成失败原因
     retrieved_questions_count = Column(Integer, default=0)  # RAG 检索到的题目数
+    grade = Column(String(20))  # 本课年级，如"三年级"
+    referenced_question_ids = Column(Text)  # RAG 命中的题库 ID（JSON 数组字符串）
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
 

@@ -1,5 +1,6 @@
 """教案：后台生成、列表、查看、编辑、删除、导出"""
 import io
+import json
 import re
 from typing import Optional
 from urllib.parse import quote
@@ -31,11 +32,32 @@ def _plan_status(plan: LessonPlan) -> str:
     return plan.status or "completed"
 
 
+def _parse_referenced_ids(raw) -> list:
+    if not raw:
+        return []
+    if isinstance(raw, list):
+        return [int(x) for x in raw if str(x).lstrip("-").isdigit()]
+    try:
+        data = json.loads(raw)
+    except (TypeError, ValueError):
+        return []
+    if not isinstance(data, list):
+        return []
+    out = []
+    for item in data:
+        try:
+            out.append(int(item))
+        except (TypeError, ValueError):
+            continue
+    return out
+
+
 def _plan_to_dict(plan: LessonPlan) -> dict:
     return {
         "id": plan.id,
         "title": plan.title,
         "subject": plan.subject or "",
+        "grade": plan.grade or "",
         "period": plan.period,
         "student_level": plan.student_level,
         "requirements": plan.requirements,
@@ -44,6 +66,7 @@ def _plan_to_dict(plan: LessonPlan) -> dict:
         "progress_stage": plan.progress_stage,
         "error_message": plan.error_message,
         "retrieved_questions_count": plan.retrieved_questions_count or 0,
+        "referenced_question_ids": _parse_referenced_ids(getattr(plan, "referenced_question_ids", None)),
         "created_at": plan.created_at,
         "updated_at": plan.updated_at,
     }
@@ -92,6 +115,7 @@ async def generate_lesson_plan(
     student_level: str = Form("中等"),
     requirements: str = Form(""),
     subject: str = Form(""),
+    grade: str = Form(""),
     wait: bool = Form(False),
     db: AsyncSession = Depends(get_db),
     user: User = Depends(current_user),
@@ -118,10 +142,12 @@ async def generate_lesson_plan(
     await enforce(user, "lessonplan", db)
 
     chosen_subject = (subject or "").strip() or (user.subject or "").strip()
+    chosen_grade = (grade or "").strip() or None
     plan = LessonPlan(
         teacher_id=user.id,
         title=title[:200],
         subject=chosen_subject,
+        grade=chosen_grade,
         period=period,
         student_level=student_level,
         requirements=requirements,

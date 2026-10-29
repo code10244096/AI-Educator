@@ -27,6 +27,22 @@ export function gradesFor(stage) {
   return GRADES_BY_STAGE[stage] || GRADES_BY_STAGE['高中']
 }
 
+/** 教案生成用年级：按学段联动；无学段时给 1–12 通用列表。值传中文。 */
+const LESSON_GRADES_BY_STAGE = {
+  小学: ['一年级', '二年级', '三年级', '四年级', '五年级', '六年级'],
+  初中: ['七年级', '八年级', '九年级'],
+  高中: ['高一', '高二', '高三'],
+}
+
+const ALL_LESSON_GRADES = [
+  '一年级', '二年级', '三年级', '四年级', '五年级', '六年级',
+  '七年级', '八年级', '九年级', '十年级', '十一年级', '十二年级',
+]
+
+export function lessonGradesFor(stage) {
+  return LESSON_GRADES_BY_STAGE[stage] || ALL_LESSON_GRADES
+}
+
 export function subjectsFor(stage) {
   return STAGE_SUBJECTS[stage] || []
 }

@@ -6,7 +6,7 @@ import {
 import { lessonPlanAPI, getErrorMessage } from '../utils/api'
 import { useAuth } from '../context/AuthContext'
 import { topicExamples } from '../utils/topicExamples'
-import { BANK_SUBJECTS, subjectsFor } from '../utils/stageSubjects'
+import { BANK_SUBJECTS, lessonGradesFor, subjectsFor } from '../utils/stageSubjects'
 import ReactMarkdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
@@ -59,6 +59,7 @@ const STATUS_BADGE = {
 const LessonPlanGenerator = () => {
   const { user } = useAuth()
   const [lessonSubject, setLessonSubject] = useState(user?.subject || '')
+  const [lessonGrade, setLessonGrade] = useState('')
   const examples = topicExamples(user?.education_stage, lessonSubject || user?.subject)
   const [searchParams, setSearchParams] = useSearchParams()
   const [formData, setFormData] = useState({
@@ -137,6 +138,7 @@ const LessonPlanGenerator = () => {
         requirements: plan.requirements || '',
       })
       if (plan.subject) setLessonSubject(plan.subject)
+      setLessonGrade(plan.grade || '')
       window.scrollTo({ top: 0, behavior: 'smooth' })
     } catch (err) {
       addToast(getErrorMessage(err, '加载教案失败'), 'error')
@@ -188,7 +190,8 @@ const LessonPlanGenerator = () => {
         formData.period,
         formData.studentLevel,
         formData.requirements,
-        lessonSubject || user?.subject || ''
+        lessonSubject || user?.subject || '',
+        lessonGrade || ''
       )
       const taskId = addTask({
         type: 'lessonplan',
@@ -373,27 +376,45 @@ const LessonPlanGenerator = () => {
               </h2>
               <p className="text-sm text-gray-600">一键生成，个性化定制，自动保存</p>
               <p className="mt-1 text-xs text-gray-400">
-                将按「{[user?.education_stage, lessonSubject || user?.subject].filter(Boolean).join(' · ') || '未选择学科'}」检索题库并生成。
+                将按「{[user?.education_stage, lessonSubject || user?.subject, lessonGrade].filter(Boolean).join(' · ') || '未选择学科'}」检索题库并生成。
               </p>
             </div>
           </div>
 
         <form onSubmit={handleSubmit} className="space-y-4 mb-8">
-          <div className="rounded-xl border border-purple-100 bg-purple-50 px-4 py-3">
-            <label className="block text-xs font-medium text-gray-600" htmlFor="lesson-subject">本次学科</label>
-            <select
-              id="lesson-subject"
-              value={lessonSubject}
-              onChange={(e) => setLessonSubject(e.target.value)}
-              className="mt-1 w-full max-w-xs rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm"
-            >
-              {(() => {
-                const options = subjectsFor(user?.education_stage)
-                const list = options.length ? options : BANK_SUBJECTS
-                return (lessonSubject && !list.includes(lessonSubject) ? [lessonSubject, ...list] : list)
-                  .map((item) => <option key={item} value={item}>{item}</option>)
-              })()}
-            </select>
+          <div className="rounded-xl border border-purple-100 bg-purple-50 px-4 py-3 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label className="block text-xs font-medium text-gray-600" htmlFor="lesson-subject">本次学科</label>
+              <select
+                id="lesson-subject"
+                value={lessonSubject}
+                onChange={(e) => setLessonSubject(e.target.value)}
+                className="mt-1 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm"
+              >
+                {(() => {
+                  const options = subjectsFor(user?.education_stage)
+                  const list = options.length ? options : BANK_SUBJECTS
+                  return (lessonSubject && !list.includes(lessonSubject) ? [lessonSubject, ...list] : list)
+                    .map((item) => <option key={item} value={item}>{item}</option>)
+                })()}
+              </select>
+            </div>
+            <div>
+              <label className="block text-xs font-medium text-gray-600" htmlFor="lesson-grade">年级（可选）</label>
+              <select
+                id="lesson-grade"
+                value={lessonGrade}
+                onChange={(e) => setLessonGrade(e.target.value)}
+                className="mt-1 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm"
+              >
+                <option value="">不限年级</option>
+                {(() => {
+                  const list = lessonGradesFor(user?.education_stage)
+                  return (lessonGrade && !list.includes(lessonGrade) ? [lessonGrade, ...list] : list)
+                    .map((item) => <option key={item} value={item}>{item}</option>)
+                })()}
+              </select>
+            </div>
           </div>
 
           <div>
@@ -524,7 +545,16 @@ const LessonPlanGenerator = () => {
         {result && result.status === 'completed' && (
           <div>
             <div className="flex justify-between items-center mb-4 flex-wrap gap-3">
-              <h3 className="text-xl font-bold">{editing ? '编辑教案' : '教案预览'}</h3>
+              <div className="flex items-baseline gap-3 flex-wrap">
+                <h3 className="text-xl font-bold">{editing ? '编辑教案' : '教案预览'}</h3>
+                {(() => {
+                  const refN = result.retrieved_questions_count
+                    || (Array.isArray(result.referenced_question_ids) ? result.referenced_question_ids.length : 0)
+                  return (
+                    <span className="text-xs text-gray-400">参考题库 {refN} 题</span>
+                  )
+                })()}
+              </div>
               <div className="flex flex-wrap gap-2">
                 {editing ? (
                   <>
@@ -813,6 +843,10 @@ const LessonPlanGenerator = () => {
                       <p className="text-xs text-gray-400 mt-0.5 truncate">
                         {formatServerTime(plan.created_at)}
                         {' · '}{plan.period} · {plan.student_level}
+                        {(plan.retrieved_questions_count > 0
+                          || (Array.isArray(plan.referenced_question_ids) && plan.referenced_question_ids.length > 0))
+                          ? ` · 参考题库 ${plan.retrieved_questions_count || plan.referenced_question_ids.length} 题`
+                          : ''}
                         {plan.status === 'failed' ? ` · ${plan.error_message || ''}` : plan.preview ? ` · ${plainPreview(plan.preview)}` : ''}
                       </p>
                     </div>

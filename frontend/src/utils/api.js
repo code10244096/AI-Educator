@@ -235,13 +235,14 @@ export const notebookAPI = {
 
 // 教案生成 API
 export const lessonPlanAPI = {
-  generate: async (title, period, studentLevel, requirements, subject = '') => {
+  generate: async (title, period, studentLevel, requirements, subject = '', grade = '') => {
     const formData = new FormData()
     formData.append('title', title)
     formData.append('period', period)
     formData.append('student_level', studentLevel)
     formData.append('requirements', requirements)
     if (subject) formData.append('subject', subject)
+    if (grade) formData.append('grade', grade)
     
     const response = await api.post('/lessonplan/generate', formData, {
       headers: {
