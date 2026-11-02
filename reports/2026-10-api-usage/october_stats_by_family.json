@@ -1,0 +1,145 @@
+{
+  "range_beijing": "2026-10-01 00:00 ~ 2026-10-31 24:00",
+  "grand_total": {
+    "calls": 110,
+    "prompt_tokens": 29866,
+    "completion_tokens": 125161,
+    "total_tokens": 155027
+  },
+  "by_family": [
+    {
+      "family": "Google Gemini",
+      "calls": 29,
+      "success": 26,
+      "failed": 3,
+      "prompt_tokens": 13611,
+      "completion_tokens": 67600,
+      "total_tokens": 81211,
+      "models": [
+        "gemini-2.5-flash",
+        "gemini-3.1-pro-preview"
+      ],
+      "by_source": {
+        "backend": 18,
+        "model_eval": 11
+      }
+    },
+    {
+      "family": "DeepSeek",
+      "calls": 28,
+      "success": 17,
+      "failed": 11,
+      "prompt_tokens": 3479,
+      "completion_tokens": 34945,
+      "total_tokens": 38424,
+      "models": [
+        "deepseek-v4-flash-vision-exp",
+        "deepseek-v4-pro",
+        "deepseek-v4.1-flash",
+        "deepseek-v4.1-pro"
+      ],
+      "by_source": {
+        "backend": 17,
+        "model_eval": 11
+      }
+    },
+    {
+      "family": "OpenAI GPT",
+      "calls": 28,
+      "success": 17,
+      "failed": 11,
+      "prompt_tokens": 9484,
+      "completion_tokens": 6952,
+      "total_tokens": 16436,
+      "models": [
+        "gpt-4o",
+        "gpt-5.2",
+        "gpt-5.5",
+        "gpt-6-astra"
+      ],
+      "by_source": {
+        "backend": 16,
+        "model_eval": 12
+      }
+    },
+    {
+      "family": "Moonshot Kimi",
+      "calls": 2,
+      "success": 2,
+      "failed": 0,
+      "prompt_tokens": 602,
+      "completion_tokens": 13719,
+      "total_tokens": 14321,
+      "models": [
+        "kimi-k2.6"
+      ],
+      "by_source": {
+        "model_eval": 2
+      }
+    },
+    {
+      "family": "阿里 Qwen",
+      "calls": 12,
+      "success": 4,
+      "failed": 8,
+      "prompt_tokens": 2412,
+      "completion_tokens": 457,
+      "total_tokens": 2869,
+      "models": [
+        "qwen3-235b-a22b-instruct-2507",
+        "qwen3-vl-235b-a22b-instruct",
+        "qwen3-vl-plus"
+      ],
+      "by_source": {
+        "model_eval": 12
+      }
+    },
+    {
+      "family": "智谱 GLM",
+      "calls": 9,
+      "success": 4,
+      "failed": 5,
+      "prompt_tokens": 278,
+      "completion_tokens": 1488,
+      "total_tokens": 1766,
+      "models": [
+        "glm-4.6",
+        "glm-5.2"
+      ],
+      "by_source": {
+        "backend": 7,
+        "model_eval": 2
+      }
+    },
+    {
+      "family": "Anthropic Claude",
+      "calls": 1,
+      "success": 0,
+      "failed": 1,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "models": [
+        "claude-4-sonnet"
+      ],
+      "by_source": {
+        "model_eval": 1
+      }
+    },
+    {
+      "family": "字节豆包",
+      "calls": 1,
+      "success": 0,
+      "failed": 1,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "models": [
+        "doubao-seed-2-1-pro"
+      ],
+      "by_source": {
+        "model_eval": 1
+      }
+    }
+  ]
+}
