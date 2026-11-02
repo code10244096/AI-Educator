@@ -1,0 +1,20 @@
+[
+  {
+    "variant_number": 1,
+    "question_text": "已知 tanα=3，求 (2sinα-cosα)/(sinα+2cosα) 的值",
+    "answer": "将所求式子的分子和分母同时除以 cosα，可将原式化为 (2tanα-1)/(tanα+2)。将 tanα=3 代入，得到 (2×3-1)/(3+2) = 5/5 = 1。所以该式的值为 1。",
+    "difficulty": "medium"
+  },
+  {
+    "variant_number": 2,
+    "question_text": "已知 3sinα=2cosα，求 (sinα+cosα)/(sinα-cosα) 的值",
+    "answer": "由已知等式 3sinα=2cosα，两边同除以 3cosα，可得 tanα=2/3。将所求式子的分子和分母同时除以 cosα，化为 (tanα+1)/(tanα-1)。把 tanα=2/3 代入，得到 (2/3+1)/(2/3-1) = (5/3)/(-1/3) = -5。所以该式的值为 -5。",
+    "difficulty": "medium"
+  },
+  {
+    "variant_number": 3,
+    "question_text": "已知 tanα=-2，求 (sinα-3cosα)/(2sinα+cosα) 的值",
+    "answer": "将所求式子的分子和分母同时除以 cosα，可将原式化为 (tanα-3)/(2tanα+1)。把 tanα=-2 代入，得到 (-2-3)/(2×(-2)+1) = -5/-3 = 5/3。所以该式的值为 5/3。",
+    "difficulty": "medium"
+  }
+]

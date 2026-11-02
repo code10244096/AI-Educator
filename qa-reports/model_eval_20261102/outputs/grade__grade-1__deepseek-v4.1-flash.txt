@@ -1,0 +1,40 @@
+{
+  "total_questions": 3,
+  "correct_count": 2,
+  "wrong_count": 1,
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "求函数的导数（原题题干未提供）",
+      "student_answer": "\\(f'(x)=2x+1\\)",
+      "correct_answer": "\\(f'(x)=2x+1\\)",
+      "is_correct": true,
+      "explanation": "学生答案与参考答案一致，求导结果正确。",
+      "needs_review": false,
+      "reference_issue": null,
+      "knowledge_point": "导数计算"
+    },
+    {
+      "question_number": 2,
+      "question_text": "求曲线在某点处的切线方程（原题题干未提供）",
+      "student_answer": "\\(y=3x-2\\)",
+      "correct_answer": "\\(y=3x-2\\)",
+      "is_correct": true,
+      "explanation": "学生答案与参考答案一致，切线方程正确。",
+      "needs_review": false,
+      "reference_issue": null,
+      "knowledge_point": "导数的几何意义与切线方程"
+    },
+    {
+      "question_number": 3,
+      "question_text": "求函数的极小值点及极小值（原题题干未提供）",
+      "student_answer": "极小值点 \\(x=2\\)，\\(f(2)=1\\)",
+      "correct_answer": "极小值点 \\(x=1\\)，\\(f(1)=-2\\)",
+      "is_correct": false,
+      "explanation": "按参考答案，极小值点为 \\(x=1\\)，且 \\(f(1)=-2\\)；学生写成极小值点 \\(x=2\\)、\\(f(2)=1\\)，与参考答案不一致。由于题目题干未提供，无法独立验证参考答案，建议复核。",
+      "needs_review": true,
+      "reference_issue": null,
+      "knowledge_point": "函数极值"
+    }
+  ]
+}

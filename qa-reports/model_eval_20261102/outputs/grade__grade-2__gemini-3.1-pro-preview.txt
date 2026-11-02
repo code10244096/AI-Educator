@@ -1,0 +1,62 @@
+{
+  "total_questions": 5,
+  "correct_count": 3,
+  "wrong_count": 2,
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "未提供",
+      "student_answer": "x=2 或 x=3",
+      "correct_answer": "x=2, x=3",
+      "is_correct": true,
+      "explanation": "学生的答案 \\(x=2\\) 或 \\(x=3\\) 与参考答案完全等价。在数学中，表示方程的多个解时，使用“或”连接是非常规范和严谨的表达方式。",
+      "needs_review": false,
+      "reference_issue": null,
+      "knowledge_point": "方程的解"
+    },
+    {
+      "question_number": 2,
+      "question_text": "未提供",
+      "student_answer": "y=3x-2",
+      "correct_answer": "3x-y-2=0",
+      "is_correct": true,
+      "explanation": "学生的答案是直线的斜截式方程 \\(y=3x-2\\)，参考答案是直线的一般式方程 \\(3x-y-2=0\\)。两者经过移项后完全等价，均表示同一条直线。",
+      "needs_review": false,
+      "reference_issue": null,
+      "knowledge_point": "直线方程"
+    },
+    {
+      "question_number": 3,
+      "question_text": "未提供",
+      "student_answer": "log2 8 = 4",
+      "correct_answer": "3",
+      "is_correct": false,
+      "explanation": "计算错误。根据对数的定义，因为 \\(2^3 = 8\\)，所以 \\(\\log_2 8 = 3\\)，而不是 4。",
+      "needs_review": false,
+      "reference_issue": null,
+      "knowledge_point": "对数运算"
+    },
+    {
+      "question_number": 4,
+      "question_text": "未提供",
+      "student_answer": "f'(x)=3x^2",
+      "correct_answer": "3x^2",
+      "is_correct": true,
+      "explanation": "学生的答案包含了导数符号 \\(f'(x)\\)，表达更为完整和严谨，其核心计算结果 \\(3x^2\\) 与参考答案完全一致。",
+      "needs_review": false,
+      "reference_issue": null,
+      "knowledge_point": "导数计算"
+    },
+    {
+      "question_number": 5,
+      "question_text": "未提供",
+      "student_answer": "（未作答）",
+      "correct_answer": "1/2",
+      "is_correct": false,
+      "explanation": "学生未作答本题，正确答案应为 \\(1/2\\)。",
+      "needs_review": false,
+      "reference_issue": null,
+      "knowledge_point": null
+    }
+  ]
+}

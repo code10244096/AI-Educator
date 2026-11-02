@@ -1,0 +1,62 @@
+{
+  "total_questions": 5,
+  "correct_count": 3,
+  "wrong_count": 2,
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "未提供题干",
+      "student_answer": "\\(x=2\\) 或 \\(x=3\\)",
+      "correct_answer": "\\(x=2, x=3\\)",
+      "is_correct": true,
+      "explanation": "学生的两个解与参考答案一致，“或”表示两个解均可，数学上等价。",
+      "needs_review": false,
+      "reference_issue": null,
+      "knowledge_point": "方程的解集"
+    },
+    {
+      "question_number": 2,
+      "question_text": "未提供题干",
+      "student_answer": "\\(y=3x-2\\)",
+      "correct_answer": "\\(3x-y-2=0\\)",
+      "is_correct": true,
+      "explanation": "学生答案 \\(y=3x-2\\) 与参考答案 \\(3x-y-2=0\\) 等价移项后相同；若题目要求一般式，需注意书写形式，建议复核题目形式要求。",
+      "needs_review": true,
+      "reference_issue": null,
+      "knowledge_point": "直线方程的形式"
+    },
+    {
+      "question_number": 3,
+      "question_text": "未提供题干",
+      "student_answer": "\\(\\log_2 8=4\\)",
+      "correct_answer": "\\(3\\)",
+      "is_correct": false,
+      "explanation": "因为 \\(2^3=8\\)，所以 \\(\\log_2 8=3\\)；而 \\(2^4=16\\)，学生答案错误。",
+      "needs_review": false,
+      "reference_issue": null,
+      "knowledge_point": "对数运算"
+    },
+    {
+      "question_number": 4,
+      "question_text": "未提供题干",
+      "student_answer": "\\(f'(x)=3x^2\\)",
+      "correct_answer": "\\(3x^2\\)",
+      "is_correct": true,
+      "explanation": "学生给出的导数表达式与参考答案一致。",
+      "needs_review": false,
+      "reference_issue": null,
+      "knowledge_point": "导数运算（幂函数求导）"
+    },
+    {
+      "question_number": 5,
+      "question_text": "未提供题干",
+      "student_answer": "未作答",
+      "correct_answer": "\\(\\frac{1}{2}\\)",
+      "is_correct": false,
+      "explanation": "学生未作答，无法判断解题过程，建议老师复核并要求学生补答。",
+      "needs_review": true,
+      "reference_issue": null,
+      "knowledge_point": null
+    }
+  ]
+}

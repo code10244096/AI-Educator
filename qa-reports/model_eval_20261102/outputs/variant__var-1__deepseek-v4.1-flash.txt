@@ -1,0 +1,20 @@
+[
+  {
+    "variant_number": 1,
+    "question_text": "已知 tanβ=3，求 (sinβ-cosβ)/(sinβ+cosβ) 的值。",
+    "answer": "分子与分母同除以 cosβ，得 (tanβ-1)/(tanβ+1)。代入 tanβ=3，得 (3-1)/(3+1)=1/2。",
+    "difficulty": "medium"
+  },
+  {
+    "variant_number": 2,
+    "question_text": "已知 tanθ=-1/2，求 (2sinθ+3cosθ)/(sinθ-2cosθ) 的值。",
+    "answer": "分子与分母同除以 cosθ，得 (2tanθ+3)/(tanθ-2)。代入 tanθ=-1/2，得 (2×(-1/2)+3)/(-1/2-2)=2/(-5/2)=-4/5。",
+    "difficulty": "medium"
+  },
+  {
+    "variant_number": 3,
+    "question_text": "已知 tanα=-3，求 (2sinα+cosα)/(sinα-3cosα) 的值。",
+    "answer": "分子与分母同除以 cosα，得 (2tanα+1)/(tanα-3)。代入 tanα=-3，得 (2×(-3)+1)/(-3-3)=(-5)/(-6)=5/6。",
+    "difficulty": "medium"
+  }
+]

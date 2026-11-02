@@ -1,0 +1,14 @@
+{"feature": "lessonplan", "case": "lp-1", "model": "gemini-3.1-pro-preview", "ts": 1793607072.8883016, "ok": true, "secs": 55.4, "output_file": "lessonplan__lp-1__gemini-3.1-pro-preview.txt", "output_len": 6550}
+{"feature": "lessonplan", "case": "lp-1", "model": "deepseek-v4.1-flash", "ts": 1793607128.2709312, "ok": true, "secs": 133.5, "output_file": "lessonplan__lp-1__deepseek-v4.1-flash.txt", "output_len": 10055}
+{"feature": "grade", "case": "grade-1", "model": "gemini-3.1-pro-preview", "ts": 1793607261.7778456, "ok": true, "secs": 21.5, "output_file": "grade__grade-1__gemini-3.1-pro-preview.txt", "output_len": 1313}
+{"feature": "grade", "case": "grade-2", "model": "gemini-3.1-pro-preview", "ts": 1793607283.3013017, "ok": true, "secs": 19.7, "output_file": "grade__grade-2__gemini-3.1-pro-preview.txt", "output_len": 2237}
+{"feature": "grade", "case": "grade-1", "model": "deepseek-v4.1-flash", "ts": 1793607303.01122, "ok": true, "secs": 32.8, "output_file": "grade__grade-1__deepseek-v4.1-flash.txt", "output_len": 1577}
+{"feature": "grade", "case": "grade-2", "model": "deepseek-v4.1-flash", "ts": 1793607335.802503, "ok": true, "secs": 72.1, "output_file": "grade__grade-2__deepseek-v4.1-flash.txt", "output_len": 2189}
+{"feature": "variant", "case": "var-1", "model": "deepseek-v4.1-flash", "ts": 1793607407.8566806, "ok": true, "secs": 17.7, "output_file": "variant__var-1__deepseek-v4.1-flash.txt", "output_len": 835}
+{"feature": "variant", "case": "var-1", "model": "gemini-3.1-pro-preview", "ts": 1793607425.5801437, "ok": true, "secs": 26.9, "output_file": "variant__var-1__gemini-3.1-pro-preview.txt", "output_len": 1109}
+{"feature": "ocr", "case": "A", "model": "gpt-5.5", "ts": 1793607452.5303395, "ok": true, "secs": 4.5, "output_file": "ocr__A__gpt-5.5.txt", "output_len": 98}
+{"feature": "ocr", "case": "B", "model": "gpt-5.5", "ts": 1793607457.0237372, "ok": true, "secs": 11.0, "output_file": "ocr__B__gpt-5.5.txt", "output_len": 315}
+{"feature": "ocr", "case": "C", "model": "gpt-5.5", "ts": 1793607468.0294023, "ok": true, "secs": 9.6, "output_file": "ocr__C__gpt-5.5.txt", "output_len": 277}
+{"feature": "ocr", "case": "A", "model": "deepseek-v4.1-flash", "ts": 1793607477.6145248, "ok": true, "secs": 10.4, "output_file": "ocr__A__deepseek-v4.1-flash.txt", "output_len": 110}
+{"feature": "ocr", "case": "B", "model": "deepseek-v4.1-flash", "ts": 1793607488.0070634, "ok": true, "secs": 59.5, "output_file": "ocr__B__deepseek-v4.1-flash.txt", "output_len": 329}
+{"feature": "ocr", "case": "C", "model": "deepseek-v4.1-flash", "ts": 1793607547.4928076, "ok": true, "secs": 37.7, "output_file": "ocr__C__deepseek-v4.1-flash.txt", "output_len": 280}
