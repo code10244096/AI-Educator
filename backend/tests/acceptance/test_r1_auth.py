@@ -235,23 +235,18 @@ def _fill(path: str) -> str:
 
 
 async def test_all_api_routes_require_auth(app, anon):
-    """R1-002 AC1 / L-S02：遍历 app.routes，未带凭证访问每个 /api/* 业务接口都 401。"""
-    from fastapi.routing import APIRoute
-    from config import settings
-    prefix = settings.API_PREFIX.rstrip("/") + "/"
+    """R1-002 AC1 / L-S02：遍历全部 /api/* 业务接口，未带凭证访问一律 401。"""
+    from testenv import api_routes
     checked, bad = 0, []
-    for r in app.routes:
-        if not isinstance(r, APIRoute) or not r.path.startswith(prefix):
+    for method, path in api_routes(app, "/api"):
+        if (method, path) in PUBLIC:
             continue
-        for method in sorted(r.methods - {"HEAD", "OPTIONS"}):
-            if (method, r.path) in PUBLIC:
-                continue
-            url = _fill(r.path)
-            kw = {"json": {}} if method in ("POST", "PUT", "PATCH") else {}
-            resp = await anon.request(method, url, **kw)
-            checked += 1
-            if resp.status_code != 401:
-                bad.append(f"{method} {r.path} -> {resp.status_code} {resp.text[:80]}")
+        url = _fill(path)
+        kw = {"json": {}} if method in ("POST", "PUT", "PATCH") else {}
+        resp = await anon.request(method, url, **kw)
+        checked += 1
+        if resp.status_code != 401:
+            bad.append(f"{method} {path} -> {resp.status_code} {resp.text[:80]}")
     assert checked >= 40, f"只检查到 {checked} 个接口，路由遍历可能有误"
     assert not bad, "以下接口未登录也可访问：\n" + "\n".join(bad)
     assert (await anon.get("/health")).status_code == 200

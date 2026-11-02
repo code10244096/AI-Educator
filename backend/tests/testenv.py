@@ -38,3 +38,27 @@ os.environ["APP_ENV"] = "development"
 
 if str(BACKEND_DIR) not in sys.path:
     sys.path.insert(0, str(BACKEND_DIR))
+
+
+def iter_concrete_routes(routes, prefix=""):
+    """递归展平路由表，兼容新版 Starlette 的懒加载嵌套路由。
+
+    Starlette >= 1.x 中 include_router 不再立即拍平路由，而是在 routes 里
+    挂一个 _IncludedRouter 占位对象；需要遍历具体接口时必须递归展开，
+    把各级 include 时的 prefix 拼回路径。
+    """
+    for route in routes:
+        if type(route).__name__ == "_IncludedRouter":
+            ctx = route.include_context
+            sub_prefix = prefix + (ctx.prefix or "")
+            yield from iter_concrete_routes(route.original_router.routes, sub_prefix)
+            continue
+        path = getattr(route, "path", "") or ""
+        methods = getattr(route, "methods", None) or set()
+        for m in sorted(methods - {"HEAD", "OPTIONS"}):
+            yield m, prefix + path
+
+
+def api_routes(app, prefix="/api"):
+    """返回 [(method, path)]：path 以 prefix 开头的全部具体接口。"""
+    return [(m, p) for m, p in iter_concrete_routes(app.routes) if p.startswith(prefix)]

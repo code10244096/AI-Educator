@@ -9,7 +9,7 @@ from datetime import timedelta
 
 import pytest
 
-from testenv import BACKEND_DIR, TEST_DB
+from testenv import BACKEND_DIR, TEST_DB, api_routes
 
 PUBLIC_ROUTES = {("POST", "/api/auth/login"), ("POST", "/api/auth/logout"), ("POST", "/api/auth/phone-code")}
 
@@ -20,13 +20,8 @@ def _concrete(path: str) -> str:
 
 
 def _api_routes(app):
-    for route in app.routes:
-        path = getattr(route, "path", "")
-        methods = getattr(route, "methods", None) or set()
-        if not path.startswith("/api"):
-            continue
-        for m in sorted(methods - {"HEAD", "OPTIONS"}):
-            yield m, path
+    # 新版 Starlette 懒加载嵌套路由，需递归展平（见 testenv.iter_concrete_routes）
+    yield from api_routes(app, "/api")
 
 
 async def test_every_api_route_requires_login(app, anon_client):
