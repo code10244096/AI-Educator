@@ -1,0 +1,189 @@
+{
+  "range_beijing": "2026-10-01 ~ 2026-10-31",
+  "by_key_model": {
+    "Jbs4": [
+      {
+        "model": "deepseek-v4.1-flash",
+        "calls": 3,
+        "success": 0,
+        "failed": 3,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      {
+        "model": "gemini-3.1-pro-preview",
+        "calls": 3,
+        "success": 0,
+        "failed": 3,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      }
+    ],
+    "M3ZM": [
+      {
+        "model": "gemini-3.1-pro-preview",
+        "calls": 23,
+        "success": 23,
+        "failed": 0,
+        "prompt_tokens": 9018,
+        "completion_tokens": 65957,
+        "total_tokens": 74975
+      },
+      {
+        "model": "deepseek-v4.1-flash",
+        "calls": 11,
+        "success": 10,
+        "failed": 1,
+        "prompt_tokens": 2082,
+        "completion_tokens": 24590,
+        "total_tokens": 26672
+      },
+      {
+        "model": "kimi-k2.6",
+        "calls": 2,
+        "success": 2,
+        "failed": 0,
+        "prompt_tokens": 602,
+        "completion_tokens": 13719,
+        "total_tokens": 14321
+      },
+      {
+        "model": "deepseek-v4-pro",
+        "calls": 8,
+        "success": 6,
+        "failed": 2,
+        "prompt_tokens": 1139,
+        "completion_tokens": 10162,
+        "total_tokens": 11301
+      },
+      {
+        "model": "gpt-5.5",
+        "calls": 14,
+        "success": 8,
+        "failed": 6,
+        "prompt_tokens": 4902,
+        "completion_tokens": 2091,
+        "total_tokens": 6993
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "calls": 3,
+        "success": 3,
+        "failed": 0,
+        "prompt_tokens": 4593,
+        "completion_tokens": 1643,
+        "total_tokens": 6236
+      },
+      {
+        "model": "gpt-5.2",
+        "calls": 4,
+        "success": 4,
+        "failed": 0,
+        "prompt_tokens": 1331,
+        "completion_tokens": 4287,
+        "total_tokens": 5618
+      },
+      {
+        "model": "gpt-4o",
+        "calls": 4,
+        "success": 4,
+        "failed": 0,
+        "prompt_tokens": 3164,
+        "completion_tokens": 480,
+        "total_tokens": 3644
+      },
+      {
+        "model": "qwen3-vl-plus",
+        "calls": 4,
+        "success": 4,
+        "failed": 0,
+        "prompt_tokens": 2412,
+        "completion_tokens": 457,
+        "total_tokens": 2869
+      },
+      {
+        "model": "glm-5.2",
+        "calls": 7,
+        "success": 4,
+        "failed": 3,
+        "prompt_tokens": 278,
+        "completion_tokens": 1488,
+        "total_tokens": 1766
+      },
+      {
+        "model": "deepseek-v4-flash-vision-exp",
+        "calls": 1,
+        "success": 1,
+        "failed": 0,
+        "prompt_tokens": 258,
+        "completion_tokens": 193,
+        "total_tokens": 451
+      },
+      {
+        "model": "gpt-6-astra",
+        "calls": 6,
+        "success": 1,
+        "failed": 5,
+        "prompt_tokens": 87,
+        "completion_tokens": 94,
+        "total_tokens": 181
+      },
+      {
+        "model": "claude-4-sonnet",
+        "calls": 1,
+        "success": 0,
+        "failed": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      {
+        "model": "deepseek-v4.1-pro",
+        "calls": 5,
+        "success": 0,
+        "failed": 5,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      {
+        "model": "doubao-seed-2-1-pro",
+        "calls": 1,
+        "success": 0,
+        "failed": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      {
+        "model": "glm-4.6",
+        "calls": 2,
+        "success": 0,
+        "failed": 2,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      {
+        "model": "qwen3-235b-a22b-instruct-2507",
+        "calls": 4,
+        "success": 0,
+        "failed": 4,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      {
+        "model": "qwen3-vl-235b-a22b-instruct",
+        "calls": 4,
+        "success": 0,
+        "failed": 4,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      }
+    ]
+  }
+}
