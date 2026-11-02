@@ -9,7 +9,7 @@ import httpx
 BASE = "https://ai-samrt-tutor-educator.cn"
 PASSWORD = os.environ["E2E_PASSWORD"]
 
-client = httpx.Client(base_url=BASE, timeout=60, follow_redirects=False)
+client = httpx.Client(base_url=BASE, timeout=300, follow_redirects=False, trust_env=False)
 r = client.post("/api/auth/login", json={"username": "admin", "password": PASSWORD})
 assert r.status_code == 200, r.text
 client.cookies.extract_cookies(r)
