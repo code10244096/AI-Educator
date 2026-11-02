@@ -9,8 +9,9 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 
 # 只用环境变量部署（没有 config.json）时的默认网关与分功能模型（见 config.example.json）
 DEFAULT_BASE_URL = "https://yibuapi.com/v1"
-# 2026-10-15 实测：变式用 deepseek-v4.1-flash（较 gemini 快约 13 倍且数学全对），OCR 兜底用 qwen3-vl-plus；
-# 识别主模型仍为 gpt-5.5；批改/教案主模型仍为 gemini。glm-5.2 识别空回复、解析不可靠，不接入。
+# 2026-11-02 固定模型（仅 3 个）：gemini-3.1-pro-preview（教案/批改主模型）、deepseek-v4.1-flash（变式主模型+全功能备用）、
+# gpt-5.5（OCR 识别）。依据 2026-10 全量日志统计：两者占 token 消耗 77%、成功率最高。其余试用模型（qwen3-vl-plus、
+# glm-5.2、gpt-6-astra、kimi-k3 等）不再接入。
 DEFAULT_MODELS = {
     "default": "gemini-3.1-pro-preview",
     "ocr": "gpt-5.5",
@@ -19,7 +20,7 @@ DEFAULT_MODELS = {
     "lessonplan": "gemini-3.1-pro-preview",
 }
 DEFAULT_FALLBACKS = {
-    "ocr": ["qwen3-vl-plus"],
+    "ocr": ["deepseek-v4.1-flash"],
     "grade": ["deepseek-v4.1-flash"],
     "variant": ["gemini-3.1-pro-preview"],
     "lessonplan": ["deepseek-v4.1-flash"],
