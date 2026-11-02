@@ -1,0 +1,29 @@
+{
+  "schema_version": "api_run_summary_v4",
+  "run_id": "68247eaf-1224-4912-8798-5f5a17ecd6d8",
+  "run_dir": "/app/logs/model_eval_20261015/20261015_075756_model_eval_keyM3ZM_68247eaf",
+  "run_ts_local": "20261015_075756",
+  "run_ts_utc": "2026-10-15T07:57:56.506039Z",
+  "updated_utc": "2026-10-15T07:57:56.506391Z",
+  "source": "model_eval",
+  "api_key_suffix": "M3ZM",
+  "base_url": "https://yibuapi.com/v1",
+  "total_calls": 1,
+  "success_calls": 0,
+  "failed_calls": 1,
+  "elapsed_seconds": 1.4211,
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "by_feature": {
+    "lessonplan": {
+      "calls": 1,
+      "failed": 1,
+      "total_tokens": 0
+    }
+  },
+  "success_rate": 0.0
+}

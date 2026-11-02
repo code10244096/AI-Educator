@@ -1,0 +1,15 @@
+{
+  "schema_version": "api_run_meta_v4",
+  "run_id": "c1d7fb78-b1f9-47c7-9552-456b52d6b26c",
+  "run_id_short": "c1d7fb78",
+  "run_ts_local": "20261024_202502",
+  "run_ts_utc": "2026-10-24T12:25:02.905113Z",
+  "run_dir": "E:\\AI-Educator\\api_runs\\20261024_202502_backend_keyM3ZM_c1d7fb78",
+  "source": "backend",
+  "api_key_suffix": "M3ZM",
+  "base_url": "https://yibuapi.com/v1",
+  "pid": 22316,
+  "log_jsonl": "E:\\AI-Educator\\api_runs\\20261024_202502_backend_keyM3ZM_c1d7fb78\\api_calls.jsonl",
+  "response_jsonl": "E:\\AI-Educator\\api_runs\\20261024_202502_backend_keyM3ZM_c1d7fb78\\responses.jsonl",
+  "summary_json": "E:\\AI-Educator\\api_runs\\20261024_202502_backend_keyM3ZM_c1d7fb78\\summary.json"
+}

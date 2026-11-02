@@ -1,0 +1,233 @@
+{
+  "range_beijing": "2026-10-01 00:00 ~ 2026-10-31 24:00 (北京时间)",
+  "prompt_tokens_in": 25600,
+  "completion_tokens_out": 104523,
+  "total_tokens": 130123,
+  "reasoning_tokens": 72137,
+  "calls": 70,
+  "success": 47,
+  "failed": 23,
+  "first_ts_utc": "2026-10-08T14:36:46.922188Z",
+  "last_ts_utc": "2026-10-29T01:22:56.394662Z",
+  "by_source": [
+    {
+      "source": "model_eval",
+      "calls": 52,
+      "prompt_tokens": 20174,
+      "completion_tokens": 76233,
+      "total_tokens": 96407
+    },
+    {
+      "source": "backend",
+      "calls": 18,
+      "prompt_tokens": 5426,
+      "completion_tokens": 28290,
+      "total_tokens": 33716
+    }
+  ],
+  "by_key": [
+    {
+      "key_suffix": "M3ZM",
+      "calls": 64,
+      "prompt_tokens": 25600,
+      "completion_tokens": 104523,
+      "total_tokens": 130123,
+      "success": 47,
+      "failed": 17
+    },
+    {
+      "key_suffix": "Jbs4",
+      "calls": 6,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "success": 0,
+      "failed": 6
+    }
+  ],
+  "by_model": [
+    {
+      "model": "gemini-3.1-pro-preview",
+      "calls": 20,
+      "prompt_tokens": 6960,
+      "completion_tokens": 52209,
+      "total_tokens": 59169
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "calls": 8,
+      "prompt_tokens": 1465,
+      "completion_tokens": 21907,
+      "total_tokens": 23372
+    },
+    {
+      "model": "kimi-k2.6",
+      "calls": 2,
+      "prompt_tokens": 602,
+      "completion_tokens": 13719,
+      "total_tokens": 14321
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "calls": 1,
+      "prompt_tokens": 428,
+      "completion_tokens": 7767,
+      "total_tokens": 8195
+    },
+    {
+      "model": "gpt-5.5",
+      "calls": 7,
+      "prompt_tokens": 4645,
+      "completion_tokens": 2054,
+      "total_tokens": 6699
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "calls": 3,
+      "prompt_tokens": 4593,
+      "completion_tokens": 1643,
+      "total_tokens": 6236
+    },
+    {
+      "model": "gpt-5.2",
+      "calls": 4,
+      "prompt_tokens": 1331,
+      "completion_tokens": 4287,
+      "total_tokens": 5618
+    },
+    {
+      "model": "gpt-4o",
+      "calls": 4,
+      "prompt_tokens": 3164,
+      "completion_tokens": 480,
+      "total_tokens": 3644
+    },
+    {
+      "model": "qwen3-vl-plus",
+      "calls": 4,
+      "prompt_tokens": 2412,
+      "completion_tokens": 457,
+      "total_tokens": 2869
+    },
+    {
+      "model": "deepseek-v4.1-pro",
+      "calls": 5,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "model": "qwen3-235b-a22b-instruct-2507",
+      "calls": 4,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "model": "qwen3-vl-235b-a22b-instruct",
+      "calls": 4,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "model": "glm-4.6",
+      "calls": 2,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "model": "claude-4-sonnet",
+      "calls": 1,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "model": "doubao-seed-2-1-pro",
+      "calls": 1,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    }
+  ],
+  "by_module": [
+    {
+      "module": "grade",
+      "calls": 20,
+      "prompt_tokens": 4918,
+      "completion_tokens": 43667,
+      "total_tokens": 48585
+    },
+    {
+      "module": "lessonplan",
+      "calls": 19,
+      "prompt_tokens": 3750,
+      "completion_tokens": 42216,
+      "total_tokens": 45966
+    },
+    {
+      "module": "notebook",
+      "calls": 1,
+      "prompt_tokens": 130,
+      "completion_tokens": 2932,
+      "total_tokens": 3062
+    },
+    {
+      "module": "ocr",
+      "calls": 23,
+      "prompt_tokens": 15975,
+      "completion_tokens": 5399,
+      "total_tokens": 21374
+    },
+    {
+      "module": "variant",
+      "calls": 7,
+      "prompt_tokens": 827,
+      "completion_tokens": 10309,
+      "total_tokens": 11136
+    },
+    {
+      "module": "probe",
+      "calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    {
+      "module": "other",
+      "calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    }
+  ],
+  "by_day": [
+    {
+      "day": "2026-10-08",
+      "calls": 6,
+      "total_tokens": 0
+    },
+    {
+      "day": "2026-10-09",
+      "calls": 8,
+      "total_tokens": 18427
+    },
+    {
+      "day": "2026-10-15",
+      "calls": 52,
+      "total_tokens": 96407
+    },
+    {
+      "day": "2026-10-28",
+      "calls": 3,
+      "total_tokens": 9731
+    },
+    {
+      "day": "2026-10-29",
+      "calls": 1,
+      "total_tokens": 5558
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "feature": "ocr",
+    "model": "qwen3-vl-plus",
+    "ok": true,
+    "output_file": "logs/model_eval_20261015/outputs/ocr__qwen3-vl-plus.txt",
+    "output_chars": 94,
+    "output_is_error": false,
+    "wall_seconds": 3.89,
+    "calls": [
+      {
+        "feature": "ocr",
+        "model": "qwen3-vl-plus",
+        "usage": {
+          "prompt_tokens": 481,
+          "completion_tokens": 65,
+          "total_tokens": 546,
+          "reasoning_tokens": 0
+        },
+        "elapsed_seconds": 3.88,
+        "finish_reason": "stop"
+      }
+    ],
+    "total_tokens": 546
+  },
+  {
+    "feature": "grade",
+    "model": "deepseek-v4-pro",
+    "ok": true,
+    "output_file": "logs/model_eval_20261015/outputs/grade__deepseek-v4-pro.txt",
+    "output_is_error": false,
+    "grade_summary": {
+      "total_questions": 3,
+      "correct_count": 0,
+      "needs_review_count": 3
+    },
+    "wall_seconds": 89.66,
+    "calls": [
+      {
+        "feature": "grade",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "prompt_tokens": 428,
+          "completion_tokens": 7767,
+          "total_tokens": 8195,
+          "reasoning_tokens": 7303
+        },
+        "elapsed_seconds": 89.66,
+        "finish_reason": "stop"
+      }
+    ],
+    "total_tokens": 8195
+  },
+  {
+    "feature": "lessonplan",
+    "model": "doubao-seed-2-1-pro",
+    "ok": false,
+    "error": "LLMError: AI 模型请求失败：503 - Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model doubao-seed-2-1-pro under group default (distributor)', 'type': 'new_api_error'}}",
+    "wall_seconds": 1.55,
+    "calls": [],
+    "total_tokens": 0
+  }
+]

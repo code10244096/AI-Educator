@@ -1,0 +1,15 @@
+{
+  "schema_version": "api_run_meta_v4",
+  "run_id": "a50ecbd2-c2b5-458b-a2f1-36c27302548c",
+  "run_id_short": "a50ecbd2",
+  "run_ts_local": "20261015_074859",
+  "run_ts_utc": "2026-10-15T07:48:59.438143Z",
+  "run_dir": "/app/logs/model_eval_20261015/20261015_074859_model_eval_keyM3ZM_a50ecbd2",
+  "source": "model_eval",
+  "api_key_suffix": "M3ZM",
+  "base_url": "https://yibuapi.com/v1",
+  "pid": 3102,
+  "log_jsonl": "/app/logs/model_eval_20261015/20261015_074859_model_eval_keyM3ZM_a50ecbd2/api_calls.jsonl",
+  "response_jsonl": "/app/logs/model_eval_20261015/20261015_074859_model_eval_keyM3ZM_a50ecbd2/responses.jsonl",
+  "summary_json": "/app/logs/model_eval_20261015/20261015_074859_model_eval_keyM3ZM_a50ecbd2/summary.json"
+}
