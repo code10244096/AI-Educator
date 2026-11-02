@@ -1,0 +1,176 @@
+{
+  "range_beijing": "2026-10-01 00:00 ~ 2026-10-31 24:00",
+  "criteria": "success=True 且 completion_tokens>0（真实产出内容的调用）",
+  "raw_rows_total": 115,
+  "rows_in_october": 110,
+  "consistency_check": "PASS（双通道核算一致）",
+  "producing_calls": 70,
+  "excluded_no_output_calls": 40,
+  "prompt_tokens": 29866,
+  "completion_tokens": 125161,
+  "by_model": [
+    {
+      "model": "gemini-3.1-pro-preview",
+      "calls": 23,
+      "prompt_tokens": 9018,
+      "completion_tokens": 65957,
+      "total_tokens": 74975,
+      "files": {
+        "api_runs\\20261009_024156_backend_keyM3ZM_2a48d008\\api_calls.jsonl": 1,
+        "api_runs\\20261009_030736_backend_keyM3ZM_8ae9f8f2\\api_calls.jsonl": 5,
+        "api_runs\\20261028_010813_backend_keyM3ZM_dc3f06f2\\api_calls.jsonl": 2,
+        "api_runs\\20261029_012256_backend_keyM3ZM_c5e074d5\\api_calls.jsonl": 1,
+        "local_runs\\20261008_145237_backend_keyM3ZM_c15ff03d\\api_calls.jsonl": 4,
+        "local_runs\\20261023_191704_backend_keyM3ZM_9375b5c2\\api_calls.jsonl": 1,
+        "local_runs\\20261024_202502_backend_keyM3ZM_c1d7fb78\\api_calls.jsonl": 1,
+        "model_eval_20261015\\20261015_074741_model_eval_keyM3ZM_d6ef4ea7\\api_calls.jsonl": 2,
+        "model_eval_20261015\\20261015_075634_model_eval_keyM3ZM_33a16ece\\api_calls.jsonl": 1,
+        "model_eval_20261015\\20261015_075854_model_eval_keyM3ZM_add6564c\\api_calls.jsonl": 1,
+        "model_eval_20261015\\api_runs\\20261015_080733_model_eval_keyM3ZM_0004546d\\api_calls.jsonl": 1,
+        "model_eval_20261015\\api_runs\\20261015_080936_model_eval_keyM3ZM_76695455\\api_calls.jsonl": 1,
+        "model_eval_20261015\\api_runs\\20261015_081341_model_eval_keyM3ZM_c9b44d8c\\api_calls.jsonl": 1,
+        "model_eval_20261015\\api_runs\\20261015_082052_model_eval_keyM3ZM_c5de0beb\\api_calls.jsonl": 1
+      }
+    },
+    {
+      "model": "deepseek-v4.1-flash",
+      "calls": 10,
+      "prompt_tokens": 2082,
+      "completion_tokens": 24590,
+      "total_tokens": 26672,
+      "files": {
+        "local_runs\\20261008_145237_backend_keyM3ZM_c15ff03d\\api_calls.jsonl": 4,
+        "local_runs\\20261008_150327_backend_keyM3ZM_b0c0ab24\\api_calls.jsonl": 1,
+        "model_eval_20261015\\20261015_074859_model_eval_keyM3ZM_a50ecbd2\\api_calls.jsonl": 2,
+        "model_eval_20261015\\20261015_075755_model_eval_keyM3ZM_91e83ff8\\api_calls.jsonl": 1,
+        "model_eval_20261015\\20261015_075913_model_eval_keyM3ZM_5e9076cf\\api_calls.jsonl": 1,
+        "model_eval_20261015\\api_runs\\20261015_082115_model_eval_keyM3ZM_927e45ec\\api_calls.jsonl": 1
+      }
+    },
+    {
+      "model": "kimi-k2.6",
+      "calls": 2,
+      "prompt_tokens": 602,
+      "completion_tokens": 13719,
+      "total_tokens": 14321,
+      "files": {
+        "model_eval_20261015\\api_runs\\20261015_081252_model_eval_keyM3ZM_eedeeff0\\api_calls.jsonl": 1,
+        "model_eval_20261015\\api_runs\\20261015_081602_model_eval_keyM3ZM_a6102530\\api_calls.jsonl": 1
+      }
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "calls": 6,
+      "prompt_tokens": 1139,
+      "completion_tokens": 10162,
+      "total_tokens": 11301,
+      "files": {
+        "local_runs\\20261008_145237_backend_keyM3ZM_c15ff03d\\api_calls.jsonl": 4,
+        "local_runs\\20261008_150327_backend_keyM3ZM_b0c0ab24\\api_calls.jsonl": 1,
+        "model_eval_20261015\\api_runs\\20261015_082342_model_eval_keyM3ZM_faea5cd3\\api_calls.jsonl": 1
+      }
+    },
+    {
+      "model": "gpt-5.5",
+      "calls": 8,
+      "prompt_tokens": 4902,
+      "completion_tokens": 2091,
+      "total_tokens": 6993,
+      "files": {
+        "api_runs\\20261009_030736_backend_keyM3ZM_8ae9f8f2\\api_calls.jsonl": 2,
+        "api_runs\\20261028_010813_backend_keyM3ZM_dc3f06f2\\api_calls.jsonl": 1,
+        "local_runs\\20261008_145237_backend_keyM3ZM_c15ff03d\\api_calls.jsonl": 1,
+        "model_eval_20261015\\20261015_073903_model_eval_keyM3ZM_804e0647\\api_calls.jsonl": 3,
+        "model_eval_20261015\\api_runs\\20261015_080714_model_eval_keyM3ZM_eb5fe551\\api_calls.jsonl": 1
+      }
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "calls": 3,
+      "prompt_tokens": 4593,
+      "completion_tokens": 1643,
+      "total_tokens": 6236,
+      "files": {
+        "model_eval_20261015\\20261015_074626_model_eval_keyM3ZM_f0de4e79\\api_calls.jsonl": 3
+      }
+    },
+    {
+      "model": "gpt-5.2",
+      "calls": 4,
+      "prompt_tokens": 1331,
+      "completion_tokens": 4287,
+      "total_tokens": 5618,
+      "files": {
+        "model_eval_20261015\\20261015_075019_model_eval_keyM3ZM_5b8bc93e\\api_calls.jsonl": 2,
+        "model_eval_20261015\\20261015_075827_model_eval_keyM3ZM_e86fade6\\api_calls.jsonl": 1,
+        "model_eval_20261015\\20261015_075918_model_eval_keyM3ZM_0f02f12e\\api_calls.jsonl": 1
+      }
+    },
+    {
+      "model": "gpt-4o",
+      "calls": 4,
+      "prompt_tokens": 3164,
+      "completion_tokens": 480,
+      "total_tokens": 3644,
+      "files": {
+        "model_eval_20261015\\20261015_073816_model_eval_keyM3ZM_805717cd\\api_calls.jsonl": 1,
+        "model_eval_20261015\\20261015_074658_model_eval_keyM3ZM_2634eb37\\api_calls.jsonl": 3
+      }
+    },
+    {
+      "model": "qwen3-vl-plus",
+      "calls": 4,
+      "prompt_tokens": 2412,
+      "completion_tokens": 457,
+      "total_tokens": 2869,
+      "files": {
+        "model_eval_20261015\\20261015_073928_model_eval_keyM3ZM_f203b53d\\api_calls.jsonl": 3,
+        "model_eval_20261015\\api_runs\\20261015_082212_model_eval_keyM3ZM_3f5f2eeb\\api_calls.jsonl": 1
+      }
+    },
+    {
+      "model": "glm-5.2",
+      "calls": 4,
+      "prompt_tokens": 278,
+      "completion_tokens": 1488,
+      "total_tokens": 1766,
+      "files": {
+        "local_runs\\20261008_145237_backend_keyM3ZM_c15ff03d\\api_calls.jsonl": 4
+      }
+    },
+    {
+      "model": "deepseek-v4-flash-vision-exp",
+      "calls": 1,
+      "prompt_tokens": 258,
+      "completion_tokens": 193,
+      "total_tokens": 451,
+      "files": {
+        "local_runs\\20261008_145237_backend_keyM3ZM_c15ff03d\\api_calls.jsonl": 1
+      }
+    },
+    {
+      "model": "gpt-6-astra",
+      "calls": 1,
+      "prompt_tokens": 87,
+      "completion_tokens": 94,
+      "total_tokens": 181,
+      "files": {
+        "local_runs\\20261008_150327_backend_keyM3ZM_b0c0ab24\\api_calls.jsonl": 1
+      }
+    }
+  ],
+  "excluded_by_model": {
+    "claude-4-sonnet": 1,
+    "deepseek-v4-pro": 2,
+    "deepseek-v4.1-flash": 4,
+    "deepseek-v4.1-pro": 5,
+    "doubao-seed-2-1-pro": 1,
+    "gemini-3.1-pro-preview": 3,
+    "glm-4.6": 2,
+    "glm-5.2": 3,
+    "gpt-5.5": 6,
+    "gpt-6-astra": 5,
+    "qwen3-235b-a22b-instruct-2507": 4,
+    "qwen3-vl-235b-a22b-instruct": 4
+  }
+}
