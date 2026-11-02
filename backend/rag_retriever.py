@@ -36,7 +36,9 @@ def _eq_scope(
     if education_level:
         query = query.where(QuestionBank.education_level == education_level)
     if grade is not None:
-        query = query.where(QuestionBank.grade == grade)
+        # grade=0 表示导入时未标注年级，按“未指定”处理：命中精确年级或 0，
+        # 避免大量 grade=0 的有效题目在按年级检索时被完全排除
+        query = query.where(or_(QuestionBank.grade == grade, QuestionBank.grade == 0))
     return query
 
 

@@ -343,12 +343,15 @@ async def run_lesson_plan_job(plan_id: int) -> None:
 _TITLE_SUFFIXES = (
     "第一课时", "第二课时", "第三课时", "第四课时",
     "教学设计", "教案设计", "教学", "设计", "教案",
+    "的初步认识", "初步认识", "的认识", "整理与复习", "单元复习", "复习", "练习",
 )
 _EMPTY_RAG = {"context": "", "count": 0, "question_ids": []}
 
 
 def extract_title_keywords(title: str) -> List[str]:
-    """从课题标题提取 LIKE 候选词：去书名号与空白，再去掉常见课文后缀。"""
+    """从课题标题提取 LIKE 候选词：去书名号与空白，再去掉常见课文后缀；
+    含“的”的标题补充首个词组作为候选（如“分数的初步认识”→“分数”），
+    否则整标题作为子串在题干中常常零命中。"""
     text = (title or "").replace("《", "").replace("》", "").replace("〈", "").replace("〉", "")
     text = re.sub(r"\s+", "", text).strip()
     if not text:
@@ -365,6 +368,11 @@ def extract_title_keywords(title: str) -> List[str]:
                 break
     if remainder and remainder != text and len(remainder) >= 2:
         candidates.append(remainder)
+    # “A的B”结构取 A 作为核心概念候选（A 长度 2~8 时才是有意义的检索词）
+    if "的" in text:
+        head = text.split("的", 1)[0]
+        if 2 <= len(head) <= 8 and head != remainder:
+            candidates.append(head)
     seen: Set[str] = set()
     out: List[str] = []
     for item in candidates:
