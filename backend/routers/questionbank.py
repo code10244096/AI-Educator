@@ -183,7 +183,10 @@ def build_search_query(
     limit: int = 10,
     offset: int = 0,
 ) -> Select:
-    """多字段 LIKE；空格分词后词间 AND；同义词组内 OR；知识点命中优先。"""
+    """多字段 LIKE；空格分词后词间 AND；同义词组内 OR。
+
+    相关度：KP 含原始 token > KP 含任一同义词 > question_text 命中 > 其他，再按 id DESC。
+    """
     query = select(QuestionBank)
     if subject:
         query = query.where(QuestionBank.subject == subject)
@@ -192,19 +195,22 @@ def build_search_query(
 
     tokens = [part for part in (keyword or "").split() if part.strip()]
     token_clauses = []
+    original_terms = []
     rank_terms = []
     for token in tokens:
         clause = _token_match_clause(token)
         if clause is not None:
             token_clauses.append(clause)
+            original_terms.append(token)
             rank_terms.extend(expand_search_terms(token))
     if token_clauses:
         query = query.where(and_(*token_clauses) if len(token_clauses) > 1 else token_clauses[0])
 
     if rank_terms:
-        kp_hit = or_(*(QuestionBank.knowledge_points.like(f"%{term}%") for term in rank_terms))
+        kp_original = or_(*(QuestionBank.knowledge_points.like(f"%{term}%") for term in original_terms))
+        kp_synonym = or_(*(QuestionBank.knowledge_points.like(f"%{term}%") for term in rank_terms))
         text_hit = or_(*(QuestionBank.question_text.like(f"%{term}%") for term in rank_terms))
-        relevance = case((kp_hit, 0), (text_hit, 1), else_=2)
+        relevance = case((kp_original, 0), (kp_synonym, 1), (text_hit, 2), else_=3)
         query = query.order_by(relevance, QuestionBank.id.desc())
     else:
         query = query.order_by(QuestionBank.id.desc())
