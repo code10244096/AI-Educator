@@ -8,14 +8,20 @@ import PageBackground from '../components/PageBackground'
 
 const PAGE_SIZE = 20
 const SEARCH_OFFSET_CAP = 10000
+const FALLBACK_SUBJECT = '数学'
 
 const previewText = (text) => (text || '').replace(/\s+/g, ' ').trim()
+
+const resolveBankSubject = (userSubject) => (
+  userSubject && BANK_SUBJECTS.includes(userSubject) ? userSubject : FALLBACK_SUBJECT
+)
 
 const BankBrowse = () => {
   const { user } = useAuth()
   const [subjects, setSubjects] = useState(BANK_SUBJECTS)
   const [counts, setCounts] = useState({})
-  const [subject, setSubject] = useState(user?.subject || '语文')
+  const [pickedSubject, setPickedSubject] = useState(null)
+  const subject = pickedSubject || resolveBankSubject(user?.subject)
   const [stage, setStage] = useState(user?.education_stage && BANK_STAGES.includes(user.education_stage) ? user.education_stage : '')
   const [keyword, setKeyword] = useState('')
   const [appliedKeyword, setAppliedKeyword] = useState('')
@@ -57,10 +63,10 @@ const BankBrowse = () => {
       const query = (kw || '').trim()
       let rows
       if (query) {
-        rows = await questionBankAPI.search(query, subject || undefined, stage || undefined, PAGE_SIZE, offset)
+        rows = await questionBankAPI.search(query, subject, stage || undefined, PAGE_SIZE, offset)
       } else {
         rows = await questionBankAPI.getList({
-          subject: subject || undefined,
+          subject,
           education_level: stage || undefined,
           limit: PAGE_SIZE,
           after_id: afterId || undefined,
@@ -76,13 +82,16 @@ const BankBrowse = () => {
     }
   }, [subject, stage])
 
+  const authPending = user === undefined
+
   useEffect(() => {
+    if (authPending) return
     setCursors([null])
     setTruncated(false)
     setAppliedKeyword('')
     setKeyword('')
     loadList(null, '')
-  }, [loadList])
+  }, [loadList, authPending])
 
   useEffect(() => {
     if (!selected) {
@@ -169,7 +178,7 @@ const BankBrowse = () => {
                   type="button"
                   role="tab"
                   aria-selected={active}
-                  onClick={() => setSubject(item)}
+                  onClick={() => setPickedSubject(item)}
                   className={`rounded-full border px-3 py-1.5 text-sm ${
                     active
                       ? 'border-teal-600 bg-teal-50 font-medium text-teal-800'
@@ -202,7 +211,7 @@ const BankBrowse = () => {
                 value={keyword}
                 onChange={(e) => setKeyword(e.target.value)}
                 onKeyDown={(e) => { if (e.key === 'Enter') handleSearch() }}
-                placeholder="搜索题干关键词，回车"
+                placeholder="输入知识点或关键词，如：三角函数、导数、二次函数"
                 className="w-full rounded-lg border border-gray-300 py-2 pl-9 pr-3 text-sm"
               />
             </div>
@@ -220,7 +229,7 @@ const BankBrowse = () => {
           <section className="rounded-2xl border border-white/20 bg-white/90 shadow-xl backdrop-blur-md lg:col-span-2">
             <div className="flex items-center justify-between border-b border-gray-100 px-4 py-3">
               <h2 className="text-sm font-medium text-gray-700">
-                {subject || '全部学科'}
+                {subject}
                 {stage ? ` · ${stage}` : ''}
                 {appliedKeyword ? ` · “${appliedKeyword}”` : ''}
               </h2>
@@ -244,7 +253,11 @@ const BankBrowse = () => {
             ) : error && items.length === 0 ? (
               <p className="p-8 text-center text-sm text-red-600">{error}</p>
             ) : items.length === 0 ? (
-              <p className="p-8 text-center text-sm text-gray-500">这个筛选下没有题目</p>
+              <p className="p-8 text-center text-sm text-gray-500">
+                {appliedKeyword
+                  ? '没有找到相关题目，试试更短的关键词（如：三角、导数）'
+                  : '这个筛选下没有题目'}
+              </p>
             ) : (
               <ul className="divide-y divide-gray-50">
                 {items.map((q) => (

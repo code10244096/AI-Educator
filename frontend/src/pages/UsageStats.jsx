@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import {
   Activity,
   CheckCircle,
+  ChevronDown,
   Coins,
   Timer,
   RefreshCw,
@@ -161,18 +162,35 @@ const KpiCard = ({ icon: Icon, label, value, note, color }) => (
   </div>
 )
 
-const Card = ({ title, hint, children, right }) => (
-  <div className="bg-white rounded-xl border border-gray-200">
-    <div className="px-5 py-4 border-b border-gray-100 flex items-center justify-between">
-      <div>
-        <h3 className="text-base font-semibold text-gray-900">{title}</h3>
-        {hint && <p className="text-xs text-gray-400 mt-0.5">{hint}</p>}
+const Card = ({ title, hint, children, right, collapsible = true, defaultOpen = false }) => {
+  const [open, setOpen] = useState(defaultOpen)
+  const showBody = !collapsible || open
+  return (
+    <div className="bg-white rounded-xl border border-gray-200">
+      <div className={`px-5 py-4 flex items-center justify-between gap-3 ${showBody ? 'border-b border-gray-100' : ''}`}>
+        <div className="min-w-0">
+          <h3 className="text-base font-semibold text-gray-900">{title}</h3>
+          {hint && <p className="text-xs text-gray-400 mt-0.5">{hint}</p>}
+        </div>
+        <div className="flex items-center gap-2 shrink-0">
+          {right}
+          {collapsible && (
+            <button
+              type="button"
+              onClick={() => setOpen((v) => !v)}
+              aria-expanded={open}
+              aria-label={open ? `收起${title}` : `展开${title}`}
+              className="p-1.5 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+            >
+              <ChevronDown className={`h-5 w-5 transition-transform duration-200 ${open ? 'rotate-180' : ''}`} />
+            </button>
+          )}
+        </div>
       </div>
-      {right}
+      {showBody && <div className="overflow-x-auto">{children}</div>}
     </div>
-    <div className="overflow-x-auto">{children}</div>
-  </div>
-)
+  )
+}
 
 const ALIGN = { left: 'text-left', right: 'text-right', center: 'text-center' }
 
@@ -184,11 +202,129 @@ const Td = ({ children, align = 'right', className = '' }) => (
   <td className={`px-4 py-2.5 text-sm text-gray-700 whitespace-nowrap ${ALIGN[align]} ${className}`}>{children}</td>
 )
 
-const EmptyRow = ({ cols }) => (
+const EmptyRow = ({ cols, text = '暂无数据' }) => (
   <tr>
-    <td colSpan={cols} className="px-4 py-8 text-center text-sm text-gray-400">暂无数据</td>
+    <td colSpan={cols} className="px-4 py-8 text-center text-sm text-gray-400">{text}</td>
   </tr>
 )
+
+const numText = (v, extra = '') => {
+  const n = Number(v || 0)
+  return `${extra} ${fmtInt(n)} ${fmtTokens(n)} ${n}`.trim()
+}
+
+const applyFilters = (rows, filters, getters) => {
+  const active = Object.entries(filters || {}).filter(([, q]) => String(q).trim())
+  if (!active.length) return rows
+  return rows.filter((row) => active.every(([key, q]) => {
+    const text = String(getters[key]?.(row) ?? '').toLowerCase()
+    return text.includes(String(q).trim().toLowerCase())
+  }))
+}
+
+const hasActiveFilters = (filters) => Object.values(filters || {}).some((v) => String(v).trim())
+
+const FilterRow = ({ columns, filters, onChange }) => (
+  <tr className="bg-white">
+    {columns.map((col) => (
+      <th key={col.key} className={`px-2 py-1.5 ${ALIGN[col.align || 'right']}`}>
+        {col.filter === false ? null : (
+          <input
+            type="text"
+            value={filters[col.key] || ''}
+            onChange={(e) => onChange(col.key, e.target.value)}
+            aria-label={`筛选${col.label || col.key}`}
+            className="w-full min-w-[3rem] px-1.5 py-1 text-xs border border-gray-200 rounded bg-white text-gray-600 placeholder:text-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-300"
+          />
+        )}
+      </th>
+    ))}
+  </tr>
+)
+
+const ClearFilters = ({ visible, onClick }) => {
+  if (!visible) return null
+  return (
+    <div className="flex justify-end px-4 pt-2">
+      <button type="button" onClick={onClick} className="text-xs text-gray-500 hover:text-blue-600">
+        清除筛选
+      </button>
+    </div>
+  )
+}
+
+const PIE_COLORS = ['#2563eb', '#06b6d4', '#7c3aed', '#f97316', '#10b981', '#ec4899', '#4f46e5', '#64748b']
+
+const polar = (cx, cy, r, deg) => {
+  const rad = ((deg - 90) * Math.PI) / 180
+  return [cx + r * Math.cos(rad), cy + r * Math.sin(rad)]
+}
+
+const slicePath = (cx, cy, r, start, end) => {
+  if (end - start >= 359.999) {
+    return `M ${cx} ${cy - r} A ${r} ${r} 0 1 1 ${cx} ${cy + r} A ${r} ${r} 0 1 1 ${cx} ${cy - r} Z`
+  }
+  const [x1, y1] = polar(cx, cy, r, start)
+  const [x2, y2] = polar(cx, cy, r, end)
+  const large = end - start > 180 ? 1 : 0
+  return `M ${cx} ${cy} L ${x1} ${y1} A ${r} ${r} 0 ${large} 1 ${x2} ${y2} Z`
+}
+
+const FeaturePie = ({ items }) => {
+  const rows = (items || []).filter((x) => Number(x.total_tokens) > 0)
+  const total = rows.reduce((s, x) => s + Number(x.total_tokens || 0), 0)
+  if (!total) {
+    return <p className="px-5 py-4 text-sm text-gray-400">暂无 tokens 数据</p>
+  }
+  const raw = rows.map((x) => (Number(x.total_tokens) / total) * 100)
+  const rounded = raw.map((p) => Math.round(p * 10) / 10)
+  const drift = Math.round((100 - rounded.reduce((a, b) => a + b, 0)) * 10) / 10
+  if (drift !== 0 && rounded.length) {
+    let idx = 0
+    for (let i = 1; i < rounded.length; i += 1) {
+      if (rounded[i] > rounded[idx]) idx = i
+    }
+    rounded[idx] = Math.round((rounded[idx] + drift) * 10) / 10
+  }
+  let cursor = 0
+  const slices = rows.map((x, i) => {
+    const sweep = (Number(x.total_tokens) / total) * 360
+    const start = cursor
+    cursor += sweep
+    return {
+      key: x.feature,
+      label: FEATURE_LABELS[x.feature] || x.feature,
+      tokens: Number(x.total_tokens),
+      pct: rounded[i],
+      start,
+      end: cursor,
+      color: PIE_COLORS[i % PIE_COLORS.length],
+    }
+  })
+  const cx = 80
+  const cy = 80
+  const r = 72
+  return (
+    <div className="flex flex-wrap items-center gap-6 px-5 py-4">
+      <svg viewBox="0 0 160 160" className="h-40 w-40 shrink-0" role="img" aria-label="按功能 tokens 占比">
+        {slices.map((s) => (
+          <path key={s.key} d={slicePath(cx, cy, r, s.start, s.end)} fill={s.color}>
+            <title>{`${s.label}：${fmtInt(s.tokens)} tokens`}</title>
+          </path>
+        ))}
+      </svg>
+      <ul className="space-y-1.5 text-sm">
+        {slices.map((s) => (
+          <li key={s.key} className="flex items-center gap-2">
+            <span className="h-2.5 w-2.5 rounded-sm shrink-0" style={{ background: s.color }} />
+            <span className="text-gray-700">{s.label}</span>
+            <span className="text-gray-400">{Number(s.pct).toFixed(1)}%</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
 
 const TokenBar = ({ value, max }) => {
   const pct = max > 0 ? Math.max(1, Math.min(100, (value / max) * 100)) : 0
@@ -265,6 +401,17 @@ const UsageStats = () => {
   const [selectedDays, setSelectedDays] = useState(() => new Set())
   const [downloadingDays, setDownloadingDays] = useState(false)
   const [downloadError, setDownloadError] = useState('')
+  const [tableFilters, setTableFilters] = useState({})
+
+  const setColFilter = (table, col, value) => {
+    setTableFilters((prev) => ({
+      ...prev,
+      [table]: { ...(prev[table] || {}), [col]: value },
+    }))
+  }
+  const clearColFilters = (table) => {
+    setTableFilters((prev) => ({ ...prev, [table]: {} }))
+  }
 
   const rangeParams = useCallback(() => {
     if (range === 'custom' && appliedCustom) {
@@ -528,6 +675,106 @@ const UsageStats = () => {
     [byDay]
   )
 
+  const callFilters = tableFilters.calls || {}
+  const filteredCalls = applyFilters(calls, callFilters, {
+    time: (c) => fmtTime(c.ts_utc),
+    feature: (c) => MODULE_LABELS[c.module] || FEATURE_LABELS[c.feature] || c.feature,
+    owner: (c) => callOwner(c, accounts),
+    model: (c) => c.model,
+    status: (c) => (c.success ? '成功' : `失败 ${c.error || ''}`),
+    elapsed: (c) => numText(c.elapsed_seconds, `${fmtFloat(c.elapsed_seconds)}s`),
+    prompt: (c) => numText(c.usage?.prompt_tokens),
+    completion: (c) => numText(c.usage?.completion_tokens),
+    tokens: (c) => numText(c.usage?.total_tokens),
+    task: (c) => c.task_id || '-',
+  })
+
+  const moduleFilters = tableFilters.modules || {}
+  const filteredModules = applyFilters(byModule, moduleFilters, {
+    label: (row) => row.label,
+    tokens: (row) => numText(row.total_tokens),
+    share: (row) => {
+      const share = Number(overview.total_tokens) > 0
+        ? (Number(row.total_tokens) / Number(overview.total_tokens)) * 100
+        : 0
+      return `${fmtPct(share)} ${share}`
+    },
+    calls: (row) => numText(row.calls),
+    failed: (row) => numText(row.failed),
+    prompt: (row) => numText(row.prompt_tokens),
+    completion: (row) => numText(row.completion_tokens),
+    avg: (row) => numText(Math.round(row.avg_total_tokens_per_call || 0)),
+  })
+
+  const quotaFilters = tableFilters.quota || {}
+  const filteredQuota = applyFilters(dailyQuota?.items || [], quotaFilters, {
+    username: (row) => row.username || '—',
+    name: (row) => row.display_name || '—',
+    tokens: (row) => numText(row.tokens),
+    grade: (row) => numText(row.grade),
+    lessonplan: (row) => numText(row.lessonplan),
+    variant: (row) => numText(row.variant),
+    feedback: (row) => (row.feedback ? '已提交' : '未提交'),
+    tier: (row) => (row.tier === 'extended' ? '后续额度' : '基础额度'),
+  })
+
+  const accountFilters = tableFilters.accounts || {}
+  const filteredAccounts = applyFilters(accounts, accountFilters, {
+    username: (a) => a.username || '—',
+    name: (a) => accountName(a),
+    role: (a) => (a.role === 'admin' ? '管理员' : a.auth_method === 'phone_code' ? '手机号' : a.role === 'teacher' ? '教师' : isHistoryAccount(a) ? '历史日志' : '—'),
+    grade: (a) => moduleText(a, 'grade'),
+    lessonplan: (a) => moduleText(a, 'lessonplan'),
+    notebook: (a) => moduleText(a, 'notebook'),
+    ocr: (a) => moduleText(a, 'ocr'),
+    variant: (a) => moduleText(a, 'variant'),
+    probe: (a) => moduleText(a, 'probe'),
+    total: (a) => numText(a.total_tokens),
+    calls: (a) => numText(a.calls),
+    records: (a) => (a.username && Number(a.calls) > 0 ? '记录' : ''),
+  })
+
+  const featureFilters = tableFilters.features || {}
+  const filteredFeatures = applyFilters(byFeature, featureFilters, {
+    feature: (f) => `${FEATURE_LABELS[f.feature] || f.feature} ${f.feature}`,
+    tokens: (f) => numText(f.total_tokens),
+    calls: (f) => numText(f.calls),
+    success: (f) => `${fmtPct(f.success_rate)} ${f.success_rate}`,
+    avg: (f) => numText(Math.round(f.avg_total_tokens_per_call)),
+    elapsed: (f) => numText(f.avg_elapsed_seconds, `${fmtFloat(f.avg_elapsed_seconds)}s`),
+  })
+
+  const modelFilters = tableFilters.models || {}
+  const filteredModels = applyFilters(byModel, modelFilters, {
+    model: (m) => m.model,
+    calls: (m) => numText(m.calls),
+    success: (m) => `${fmtPct(m.success_rate)} ${m.success_rate}`,
+    tokens: (m) => numText(m.total_tokens),
+    elapsed: (m) => numText(m.avg_elapsed_seconds, `${fmtFloat(m.avg_elapsed_seconds)}s`),
+  })
+
+  const dayFilters = tableFilters.days || {}
+  const filteredDays = applyFilters(byDay, dayFilters, {
+    day: (d) => d.day,
+    tokens: (d) => numText(d.total_tokens),
+    calls: (d) => numText(d.calls),
+    failed: (d) => numText(d.failed),
+    files: (d) => numText(dayFiles[d.day]?.files || 0),
+  })
+
+  const feedbackFilters = tableFilters.feedbacks || {}
+  const filteredFeedbacks = applyFilters(feedbacks, feedbackFilters, {
+    time: (f) => fmtTime(f.created_at),
+    user: (f) => `${f.user_id != null ? `用户 #${f.user_id}` : '未知用户'} ${f.is_guest ? '体验账号' : '正式账号'}`,
+    topics: (f) => (f.topics || []).map((t) => {
+      const name = typeof t === 'string' ? t : (t?.name || '')
+      const detail = typeof t === 'object' && t?.detail ? String(t.detail) : ''
+      return `${name} ${detail}`
+    }).join(' '),
+    content: (f) => f.content || '',
+    contact: (f) => f.contact || '',
+  })
+
   return (
     <div className="p-6 space-y-6">
       <div className="flex items-start justify-between flex-wrap gap-4">
@@ -637,6 +884,7 @@ const UsageStats = () => {
         title="全部历史调用"
         hint="每一次模型调用都在这里，不随上面的「今天 / 7天」变化。没有教师编号的显示为「未记到老师名下」。"
       >
+        <ClearFilters visible={hasActiveFilters(callFilters)} onClick={() => clearColFilters('calls')} />
         <table className="w-full">
           <thead className="bg-gray-50">
             <tr>
@@ -651,10 +899,26 @@ const UsageStats = () => {
               <Th>总 tokens</Th>
               <Th align="left">任务</Th>
             </tr>
+            <FilterRow
+              filters={callFilters}
+              onChange={(col, value) => setColFilter('calls', col, value)}
+              columns={[
+                { key: 'time', label: '时间', align: 'left' },
+                { key: 'feature', label: '功能', align: 'left' },
+                { key: 'owner', label: '归属', align: 'left' },
+                { key: 'model', label: '模型', align: 'left' },
+                { key: 'status', label: '状态', align: 'left' },
+                { key: 'elapsed', label: '耗时' },
+                { key: 'prompt', label: '输入' },
+                { key: 'completion', label: '输出' },
+                { key: 'tokens', label: '总 tokens' },
+                { key: 'task', label: '任务', align: 'left' },
+              ]}
+            />
           </thead>
           <tbody className="divide-y divide-gray-100">
-            {calls.length === 0 && <EmptyRow cols={10} />}
-            {calls.map((c) => (
+            {filteredCalls.length === 0 && <EmptyRow cols={10} text={hasActiveFilters(callFilters) ? '无匹配项' : '暂无数据'} />}
+            {filteredCalls.map((c) => (
               <tr
                 key={c.call_id}
                 title={c.success ? '' : c.error || '调用失败'}
@@ -688,6 +952,7 @@ const UsageStats = () => {
             其中 {fmtInt(historyAccount.calls)} 次、{fmtTokens(historyAccount.total_tokens)} tokens 当时没有教师编号。调用都在上方「全部历史调用」里，不会出现在 admin 这一行的「记录」中。
           </p>
         )}
+        <ClearFilters visible={hasActiveFilters(moduleFilters)} onClick={() => clearColFilters('modules')} />
         <table className="w-full">
           <thead className="bg-gray-50">
             <tr>
@@ -700,9 +965,24 @@ const UsageStats = () => {
               <Th>输出</Th>
               <Th>平均每次</Th>
             </tr>
+            <FilterRow
+              filters={moduleFilters}
+              onChange={(col, value) => setColFilter('modules', col, value)}
+              columns={[
+                { key: 'label', label: '模块', align: 'left' },
+                { key: 'tokens', label: 'Tokens', align: 'left' },
+                { key: 'share', label: '占比' },
+                { key: 'calls', label: '调用' },
+                { key: 'failed', label: '失败' },
+                { key: 'prompt', label: '输入' },
+                { key: 'completion', label: '输出' },
+                { key: 'avg', label: '平均每次' },
+              ]}
+            />
           </thead>
           <tbody className="divide-y divide-gray-100">
-            {byModule.map((row) => {
+            {filteredModules.length === 0 && <EmptyRow cols={8} text={hasActiveFilters(moduleFilters) ? '无匹配项' : '暂无数据'} />}
+            {filteredModules.map((row) => {
               const share = Number(overview.total_tokens) > 0
                 ? (Number(row.total_tokens) / Number(overview.total_tokens)) * 100
                 : 0
@@ -725,6 +1005,7 @@ const UsageStats = () => {
 
       <Card title="今日额度" hint="按北京时间当天统计。提交过意见的账号会升到后续额度。这里的数字只在管理后台显示">
         <div className="overflow-x-auto">
+          <ClearFilters visible={hasActiveFilters(quotaFilters)} onClick={() => clearColFilters('quota')} />
           <table className="w-full min-w-[720px]">
             <thead className="bg-gray-50">
               <tr>
@@ -737,10 +1018,24 @@ const UsageStats = () => {
                 <Th align="left">今日意见</Th>
                 <Th align="left">档位</Th>
               </tr>
+              <FilterRow
+                filters={quotaFilters}
+                onChange={(col, value) => setColFilter('quota', col, value)}
+                columns={[
+                  { key: 'username', label: '账号', align: 'left' },
+                  { key: 'name', label: '姓名', align: 'left' },
+                  { key: 'tokens', label: 'Tokens', align: 'left' },
+                  { key: 'grade', label: '批改' },
+                  { key: 'lessonplan', label: '教案' },
+                  { key: 'variant', label: '变式题' },
+                  { key: 'feedback', label: '今日意见', align: 'left' },
+                  { key: 'tier', label: '档位', align: 'left' },
+                ]}
+              />
             </thead>
             <tbody className="divide-y divide-gray-100">
-              {(dailyQuota?.items || []).length === 0 && <EmptyRow cols={8} />}
-              {(dailyQuota?.items || []).map((row) => (
+              {filteredQuota.length === 0 && <EmptyRow cols={8} text={hasActiveFilters(quotaFilters) ? '无匹配项' : '暂无数据'} />}
+              {filteredQuota.map((row) => (
                 <tr key={row.user_id} className="hover:bg-gray-50">
                   <Td align="left" className="font-mono text-gray-900">{row.username || '—'}</Td>
                   <Td align="left">{row.display_name || '—'}</Td>
@@ -758,6 +1053,7 @@ const UsageStats = () => {
       </Card>
 
       <Card title="按账号" hint="每格是「调用次数 · tokens」。历史日志是早期没有教师编号的调用，已计入上方各模块合计，不是某个老师的账单">
+        <ClearFilters visible={hasActiveFilters(accountFilters)} onClick={() => clearColFilters('accounts')} />
         <table className="w-full min-w-[1100px]">
           <thead className="bg-gray-50">
             <tr>
@@ -774,10 +1070,28 @@ const UsageStats = () => {
               <Th>调用</Th>
               <Th>内容</Th>
             </tr>
+            <FilterRow
+              filters={accountFilters}
+              onChange={(col, value) => setColFilter('accounts', col, value)}
+              columns={[
+                { key: 'username', label: '账号', align: 'left' },
+                { key: 'name', label: '姓名', align: 'left' },
+                { key: 'role', label: '身份', align: 'left' },
+                { key: 'grade', label: '批改', align: 'left' },
+                { key: 'lessonplan', label: '教案', align: 'left' },
+                { key: 'notebook', label: '错题本', align: 'left' },
+                { key: 'ocr', label: '识别', align: 'left' },
+                { key: 'variant', label: '变式题', align: 'left' },
+                { key: 'probe', label: '评测', align: 'left' },
+                { key: 'total', label: '合计', align: 'left' },
+                { key: 'calls', label: '调用' },
+                { key: 'records', label: '内容' },
+              ]}
+            />
           </thead>
           <tbody className="divide-y divide-gray-100">
-            {accounts.length === 0 && <EmptyRow cols={12} />}
-            {accounts.map((a) => (
+            {filteredAccounts.length === 0 && <EmptyRow cols={12} text={hasActiveFilters(accountFilters) ? '无匹配项' : '暂无数据'} />}
+            {filteredAccounts.map((a) => (
               <tr key={`${a.id ?? 'none'}-${a.username}`} className="hover:bg-gray-50">
                 <Td align="left" className="font-mono text-gray-900">{a.username || '—'}</Td>
                 <Td align="left">{accountName(a)}</Td>
@@ -863,6 +1177,8 @@ const UsageStats = () => {
       </Card>
 
       <Card title="按功能" hint="各功能模块的调用与 Token 消耗">
+        <FeaturePie items={byFeature} />
+        <ClearFilters visible={hasActiveFilters(featureFilters)} onClick={() => clearColFilters('features')} />
         <table className="w-full">
           <thead className="bg-gray-50">
             <tr>
@@ -873,10 +1189,22 @@ const UsageStats = () => {
               <Th>平均 tokens</Th>
               <Th>平均耗时</Th>
             </tr>
+            <FilterRow
+              filters={featureFilters}
+              onChange={(col, value) => setColFilter('features', col, value)}
+              columns={[
+                { key: 'feature', label: '功能', align: 'left' },
+                { key: 'tokens', label: 'Tokens', align: 'left' },
+                { key: 'calls', label: '调用' },
+                { key: 'success', label: '成功率' },
+                { key: 'avg', label: '平均 tokens' },
+                { key: 'elapsed', label: '平均耗时' },
+              ]}
+            />
           </thead>
           <tbody className="divide-y divide-gray-100">
-            {byFeature.length === 0 && <EmptyRow cols={6} />}
-            {byFeature.map((f) => (
+            {filteredFeatures.length === 0 && <EmptyRow cols={6} text={hasActiveFilters(featureFilters) ? '无匹配项' : '暂无数据'} />}
+            {filteredFeatures.map((f) => (
               <tr key={f.feature} className="hover:bg-gray-50">
                 <Td align="left">
                   <span className="font-medium text-gray-900">{FEATURE_LABELS[f.feature] || f.feature}</span>
@@ -895,6 +1223,7 @@ const UsageStats = () => {
 
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
         <Card title="按模型">
+          <ClearFilters visible={hasActiveFilters(modelFilters)} onClick={() => clearColFilters('models')} />
           <table className="w-full">
             <thead className="bg-gray-50">
               <tr>
@@ -904,10 +1233,21 @@ const UsageStats = () => {
                 <Th>总 tokens</Th>
                 <Th>平均耗时</Th>
               </tr>
+              <FilterRow
+                filters={modelFilters}
+                onChange={(col, value) => setColFilter('models', col, value)}
+                columns={[
+                  { key: 'model', label: '模型', align: 'left' },
+                  { key: 'calls', label: '调用' },
+                  { key: 'success', label: '成功率' },
+                  { key: 'tokens', label: '总 tokens' },
+                  { key: 'elapsed', label: '平均耗时' },
+                ]}
+              />
             </thead>
             <tbody className="divide-y divide-gray-100">
-              {byModel.length === 0 && <EmptyRow cols={5} />}
-              {byModel.map((m) => (
+              {filteredModels.length === 0 && <EmptyRow cols={5} text={hasActiveFilters(modelFilters) ? '无匹配项' : '暂无数据'} />}
+              {filteredModels.map((m) => (
                 <tr key={m.model} className="hover:bg-gray-50">
                   <Td align="left" className="font-mono text-gray-900">{m.model}</Td>
                   <Td>{fmtInt(m.calls)}</Td>
@@ -936,6 +1276,7 @@ const UsageStats = () => {
           )}
         >
           {downloadError && <p className="px-5 py-2 text-sm text-red-600">{downloadError}</p>}
+          <ClearFilters visible={hasActiveFilters(dayFilters)} onClick={() => clearColFilters('days')} />
           <table className="w-full">
             <thead className="bg-gray-50">
               <tr>
@@ -956,10 +1297,22 @@ const UsageStats = () => {
                 <Th>失败</Th>
                 <Th>文件</Th>
               </tr>
+              <FilterRow
+                filters={dayFilters}
+                onChange={(col, value) => setColFilter('days', col, value)}
+                columns={[
+                  { key: 'check', label: '选择', align: 'left', filter: false },
+                  { key: 'day', label: '日期', align: 'left' },
+                  { key: 'tokens', label: 'Tokens', align: 'left' },
+                  { key: 'calls', label: '调用' },
+                  { key: 'failed', label: '失败' },
+                  { key: 'files', label: '文件' },
+                ]}
+              />
             </thead>
             <tbody className="divide-y divide-gray-100">
-              {byDay.length === 0 && <EmptyRow cols={6} />}
-              {byDay.map((d) => {
+              {filteredDays.length === 0 && <EmptyRow cols={6} text={hasActiveFilters(dayFilters) ? '无匹配项' : '暂无数据'} />}
+              {filteredDays.map((d) => {
                 const files = dayFiles[d.day]?.files || 0
                 return (
                   <tr key={d.day} className="hover:bg-gray-50">
@@ -1011,6 +1364,7 @@ const UsageStats = () => {
               <span>反馈加载失败：{String(feedbackError)}</span>
             </div>
           )}
+          <ClearFilters visible={hasActiveFilters(feedbackFilters)} onClick={() => clearColFilters('feedbacks')} />
           <table className="w-full">
             <thead className="bg-gray-50">
               <tr>
@@ -1020,16 +1374,27 @@ const UsageStats = () => {
                 <Th align="left">意见内容</Th>
                 <Th align="left">联系方式</Th>
               </tr>
+              <FilterRow
+                filters={feedbackFilters}
+                onChange={(col, value) => setColFilter('feedbacks', col, value)}
+                columns={[
+                  { key: 'time', label: '时间', align: 'left' },
+                  { key: 'user', label: '提交人', align: 'left' },
+                  { key: 'topics', label: '问题标签', align: 'left' },
+                  { key: 'content', label: '意见内容', align: 'left' },
+                  { key: 'contact', label: '联系方式', align: 'left' },
+                ]}
+              />
             </thead>
             <tbody className="divide-y divide-gray-100">
-              {!feedbackError && feedbacks.length === 0 && (
+              {!feedbackError && filteredFeedbacks.length === 0 && (
                 <tr>
                   <td colSpan={5} className="px-4 py-8 text-center text-sm text-gray-400">
-                    {feedbackLoading ? '加载中…' : '暂无反馈'}
+                    {feedbackLoading ? '加载中…' : hasActiveFilters(feedbackFilters) ? '无匹配项' : '暂无反馈'}
                   </td>
                 </tr>
               )}
-              {feedbacks.map((f) => (
+              {filteredFeedbacks.map((f) => (
                 <tr key={f.id} className="hover:bg-gray-50">
                   <Td align="left" className="text-gray-500">{fmtTime(f.created_at)}</Td>
                   <Td align="left">

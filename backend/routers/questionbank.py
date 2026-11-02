@@ -3,11 +3,11 @@ import json
 from typing import List, Optional, Tuple
 
 from fastapi import APIRouter, Depends, Form, HTTPException
-from sqlalchemy import and_, func, or_, select
+from sqlalchemy import and_, case, func, or_, select
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.sql import Select
 
-from bank_subjects import BANK_STAGES, BANK_SUBJECTS
+from bank_subjects import BANK_STAGES, BANK_SUBJECTS, SEARCH_SYNONYMS
 from database import get_db
 from models import QuestionBank, QuestionVariant
 
@@ -131,6 +131,50 @@ def build_list_query(
     return query.offset(clamp_offset(offset)).limit(clamp_limit(limit))
 
 
+def expand_search_terms(token: str) -> list:
+    """命中 SEARCH_SYNONYMS 时展开为同义词列表；未命中则原词。大小写不敏感。"""
+    text = (token or "").strip()
+    if not text:
+        return []
+    lowered = text.lower()
+    for key, synonyms in SEARCH_SYNONYMS.items():
+        if key.lower() == lowered:
+            seen = set()
+            ordered = []
+            for item in synonyms:
+                name = (item or "").strip()
+                if not name:
+                    continue
+                mark = name.lower()
+                if mark not in seen:
+                    seen.add(mark)
+                    ordered.append(name)
+            return ordered or [text]
+    return [text]
+
+
+def _like_any_field(term: str):
+    """question_text / knowledge_points / search_keywords 任一字段 LIKE。
+
+    SQLite LIKE 对 ASCII 默认不区分大小写，sin/cos 等英文词无需再套 LOWER()。
+    """
+    pattern = f"%{term}%"
+    return or_(
+        QuestionBank.question_text.like(pattern),
+        QuestionBank.knowledge_points.like(pattern),
+        QuestionBank.search_keywords.like(pattern),
+    )
+
+
+def _token_match_clause(token: str):
+    terms = expand_search_terms(token)
+    if not terms:
+        return None
+    if len(terms) == 1:
+        return _like_any_field(terms[0])
+    return or_(*(_like_any_field(term) for term in terms))
+
+
 def build_search_query(
     keyword: str,
     *,
@@ -139,13 +183,31 @@ def build_search_query(
     limit: int = 10,
     offset: int = 0,
 ) -> Select:
+    """多字段 LIKE；空格分词后词间 AND；同义词组内 OR；知识点命中优先。"""
     query = select(QuestionBank)
     if subject:
         query = query.where(QuestionBank.subject == subject)
     if education_level:
         query = query.where(QuestionBank.education_level == education_level)
-    query = query.where(QuestionBank.question_text.like(f"%{keyword}%"))
-    query = query.order_by(QuestionBank.id.desc())
+
+    tokens = [part for part in (keyword or "").split() if part.strip()]
+    token_clauses = []
+    rank_terms = []
+    for token in tokens:
+        clause = _token_match_clause(token)
+        if clause is not None:
+            token_clauses.append(clause)
+            rank_terms.extend(expand_search_terms(token))
+    if token_clauses:
+        query = query.where(and_(*token_clauses) if len(token_clauses) > 1 else token_clauses[0])
+
+    if rank_terms:
+        kp_hit = or_(*(QuestionBank.knowledge_points.like(f"%{term}%") for term in rank_terms))
+        text_hit = or_(*(QuestionBank.question_text.like(f"%{term}%") for term in rank_terms))
+        relevance = case((kp_hit, 0), (text_hit, 1), else_=2)
+        query = query.order_by(relevance, QuestionBank.id.desc())
+    else:
+        query = query.order_by(QuestionBank.id.desc())
     return query.offset(clamp_offset(offset)).limit(clamp_limit(limit, default=10, max_limit=SEARCH_MAX_LIMIT))
 
 
@@ -411,7 +473,7 @@ async def search_questions(
     offset: int = Form(0),
     db: AsyncSession = Depends(get_db)
 ):
-    """搜索题目（用于 RAG 检索）。中文子串仍走 LIKE；两侧通配无法用 B-tree。offset 上限 LIST_MAX_OFFSET。"""
+    """搜索题目。多字段 LIKE + 空格分词 AND + 同义词 OR；两侧通配无法用 B-tree。offset 上限 LIST_MAX_OFFSET。"""
     query = build_search_query(
         keyword, subject=subject, education_level=education_level, limit=limit, offset=offset
     )
