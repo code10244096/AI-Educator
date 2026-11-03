@@ -1,8 +1,9 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import { BookOpen, ChevronLeft, ChevronRight, Loader2, Search } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import { questionBankAPI, getErrorMessage } from '../utils/api'
 import { useAuth } from '../context/AuthContext'
-import { BANK_STAGES, BANK_SUBJECTS, bankSubjects } from '../utils/stageSubjects'
+import { BANK_STAGES } from '../utils/stageSubjects'
 import MathText from '../components/MathText'
 import PageBackground from '../components/PageBackground'
 
@@ -12,20 +13,29 @@ const FALLBACK_SUBJECT = '数学'
 
 const previewText = (text) => (text || '').replace(/\s+/g, ' ').trim()
 
-const resolveBankSubject = (userSubject) => (
-  userSubject && BANK_SUBJECTS.includes(userSubject) ? userSubject : FALLBACK_SUBJECT
-)
+const GRADE_LABELS = { 10: '高一', 11: '高二', 12: '高三' }
+const gradeLabel = (grade) => GRADE_LABELS[grade] || (grade ? `${grade}年级` : '')
+
+const DifficultyDots = ({ level }) => {
+  const n = Math.max(1, Math.min(5, Number(level) || 0))
+  if (!n) return null
+  return (
+    <span className="inline-flex items-center gap-0.5" title={`难度 ${level}`}>
+      {Array.from({ length: 5 }, (_, i) => (
+        <span key={i} className={`h-1.5 w-1.5 rounded-full ${i < n ? 'bg-teal-500' : 'bg-gray-200'}`} />
+      ))}
+    </span>
+  )
+}
 
 const BankBrowse = () => {
   const { user } = useAuth()
-  const [subjects, setSubjects] = useState(BANK_SUBJECTS)
-  const [counts, setCounts] = useState({})
-  const [pickedSubject, setPickedSubject] = useState(null)
-  const subject = pickedSubject || resolveBankSubject(user?.subject)
+  const subject = user?.subject ? user.subject : FALLBACK_SUBJECT
   const [stage, setStage] = useState(user?.education_stage && BANK_STAGES.includes(user.education_stage) ? user.education_stage : '')
   const [keyword, setKeyword] = useState('')
   const [appliedKeyword, setAppliedKeyword] = useState('')
   const [items, setItems] = useState([])
+  const [fuzzy, setFuzzy] = useState(false)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [cursors, setCursors] = useState([null])
@@ -39,22 +49,6 @@ const BankBrowse = () => {
     return () => { document.title = 'AI 教学助手' }
   }, [])
 
-  useEffect(() => {
-    questionBankAPI.getSubjects()
-      .then((data) => {
-        setSubjects(bankSubjects(data.subjects || []))
-        setCounts(data.by_subject || {})
-      })
-      .catch(() => {
-        questionBankAPI.getStats()
-          .then((data) => {
-            setSubjects(bankSubjects(Object.keys(data.by_subject || {})))
-            setCounts(data.by_subject || {})
-          })
-          .catch(() => {})
-      })
-  }, [])
-
   const loadList = useCallback(async (afterId, kw, offset = 0) => {
     setLoading(true)
     setError(null)
@@ -63,7 +57,9 @@ const BankBrowse = () => {
       const query = (kw || '').trim()
       let rows
       if (query) {
-        rows = await questionBankAPI.search(query, subject, stage || undefined, PAGE_SIZE, offset)
+        const data = await questionBankAPI.search(query, subject, stage || undefined, PAGE_SIZE, offset)
+        rows = data.results || []
+        setFuzzy(Boolean(data.fuzzy))
       } else {
         rows = await questionBankAPI.getList({
           subject,
@@ -71,11 +67,13 @@ const BankBrowse = () => {
           limit: PAGE_SIZE,
           after_id: afterId || undefined,
         })
+        setFuzzy(false)
       }
       setItems(rows)
       setSelected((prev) => (rows.some((q) => q.id === prev) ? prev : (rows[0]?.id || null)))
     } catch (err) {
       setItems([])
+      setFuzzy(false)
       setError(getErrorMessage(err, '题库加载失败'))
     } finally {
       setLoading(false)
@@ -164,40 +162,24 @@ const BankBrowse = () => {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-cyan-600">题库</h1>
-              <p className="text-sm text-gray-600">按学科浏览、检索题目，用于教案生成参考</p>
+              <p className="text-sm text-gray-600">{subject}题库 · 检索题目，用于教案生成参考</p>
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-2" role="tablist" aria-label="学科">
-            {bankSubjects([subject, ...subjects]).map((item) => {
-              const active = subject === item
-              const count = counts[item]
-              return (
-                <button
-                  key={item}
-                  type="button"
-                  role="tab"
-                  aria-selected={active}
-                  onClick={() => setPickedSubject(item)}
-                  className={`rounded-full border px-3 py-1.5 text-sm ${
-                    active
-                      ? 'border-teal-600 bg-teal-50 font-medium text-teal-800'
-                      : 'border-gray-200 text-gray-700 hover:border-teal-300 hover:bg-teal-50/50'
-                  }`}
-                >
-                  {item}
-                  {count != null ? <span className="ml-1 text-xs text-gray-400">{count}</span> : null}
-                </button>
-              )
-            })}
-          </div>
+          {user && (!user.education_stage || !user.subject) && (
+            <p className="mb-4 rounded-lg border border-amber-100 bg-amber-50 px-3 py-2 text-xs text-amber-700">
+              在<Link to="/settings" className="mx-0.5 font-medium underline">个人资料</Link>里填写任教学段和学科后，这里会默认只展示你的学段与学科。
+            </p>
+          )}
 
-          <div className="mt-4 flex flex-wrap items-end gap-3">
+          <div className="flex flex-wrap items-end gap-3">
             <label className="text-xs text-gray-500">
               学段
               <select
                 value={stage}
-                onChange={(e) => setStage(e.target.value)}
+                onChange={(e) => {
+                  setStage(e.target.value)
+                }}
                 className="mt-1 block rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm"
               >
                 <option value="">全部学段</option>
@@ -211,7 +193,7 @@ const BankBrowse = () => {
                 value={keyword}
                 onChange={(e) => setKeyword(e.target.value)}
                 onKeyDown={(e) => { if (e.key === 'Enter') handleSearch() }}
-                placeholder="输入知识点或关键词，如：三角函数、导数、二次函数"
+                placeholder="输入知识点或关键词，支持模糊匹配：三角函数、力学、文言文、时态…"
                 className="w-full rounded-lg border border-gray-300 py-2 pl-9 pr-3 text-sm"
               />
             </div>
@@ -237,7 +219,7 @@ const BankBrowse = () => {
                 <button type="button" onClick={goPrev} disabled={!hasPrev || loading} className="rounded p-1 text-gray-500 hover:bg-gray-100 disabled:opacity-40" aria-label="上一页">
                   <ChevronLeft className="h-4 w-4" />
                 </button>
-                <span className="min-w-[2rem] text-center text-xs text-gray-400">{page}</span>
+                <span className="min-w-[3rem] text-center text-xs text-gray-400">第 {page} 页</span>
                 <button type="button" onClick={goNext} disabled={!hasNext || loading} className="rounded p-1 text-gray-500 hover:bg-gray-100 disabled:opacity-40" aria-label="下一页">
                   <ChevronRight className="h-4 w-4" />
                 </button>
@@ -245,6 +227,11 @@ const BankBrowse = () => {
             </div>
             {truncated && (
               <p className="border-b border-amber-100 bg-amber-50 px-4 py-2 text-xs text-amber-700">结果过多，请细化筛选</p>
+            )}
+            {appliedKeyword && fuzzy && items.length > 0 && (
+              <p className="border-b border-teal-50 bg-teal-50/60 px-4 py-2 text-xs text-teal-700">
+                没有完全匹配的结果，已为你按相关度模糊匹配 {items.length} 条
+              </p>
             )}
             {loading && items.length === 0 ? (
               <p className="flex items-center justify-center gap-2 p-8 text-sm text-gray-400" role="status">
@@ -255,8 +242,10 @@ const BankBrowse = () => {
             ) : items.length === 0 ? (
               <p className="p-8 text-center text-sm text-gray-500">
                 {appliedKeyword
-                  ? '没有找到相关题目，试试更短的关键词（如：三角、导数）'
-                  : '这个筛选下没有题目'}
+                  ? (fuzzy
+                    ? '模糊匹配也没有找到相关题目，换个关键词试试（如：三角、导数、力学）'
+                    : '没有找到相关题目，试试更短的关键词（如：三角、导数）')
+                  : '你的学科在当前学段下暂无题目，可切换学段或搜索其他关键词'}
               </p>
             ) : (
               <ul className="divide-y divide-gray-50">
@@ -267,7 +256,7 @@ const BankBrowse = () => {
                       onClick={() => setSelected(q.id)}
                       className={`block w-full px-4 py-3 text-left hover:bg-teal-50/60 ${selected === q.id ? 'bg-teal-50' : ''}`}
                     >
-                      <p className="line-clamp-2 text-sm text-gray-800">{previewText(q.question_text)}</p>
+                      <p className="line-clamp-2 text-sm text-gray-800"><MathText text={previewText(q.question_text)} /></p>
                       <p className="mt-1 text-xs text-gray-400">
                         {[q.subject, q.education_level, q.question_type].filter(Boolean).join(' · ')}
                       </p>
@@ -290,9 +279,12 @@ const BankBrowse = () => {
                 <div className="flex flex-wrap items-center gap-2 text-xs text-gray-500">
                   <span className="rounded-full bg-teal-50 px-2 py-0.5 text-teal-700">{detail.subject}</span>
                   {detail.education_level && <span>{detail.education_level}</span>}
-                  {detail.grade ? <span>{detail.grade}年级</span> : null}
+                  {detail.grade ? <span>{gradeLabel(detail.grade)}</span> : null}
                   {detail.question_type && <span>{detail.question_type}</span>}
-                  {detail.difficulty ? <span>难度 {detail.difficulty}</span> : null}
+                  {detail.difficulty ? <DifficultyDots level={detail.difficulty} /> : null}
+                  {[detail.exam_type, detail.year, detail.region].filter(Boolean).length > 0 && (
+                    <span className="text-gray-400">{[detail.exam_type, detail.year, detail.region].filter(Boolean).join(' · ')}</span>
+                  )}
                 </div>
                 <div>
                   <h3 className="mb-2 text-xs font-medium text-gray-400">题目</h3>
@@ -308,18 +300,37 @@ const BankBrowse = () => {
                     <div className="text-sm text-gray-700"><MathText text={detail.solution} markdown /></div>
                   </div>
                 ) : null}
-                {detail.teaching_tips ? (
-                  <div>
-                    <h3 className="mb-2 text-xs font-medium text-gray-400">教学提示</h3>
-                    <p className="text-sm text-gray-700">{detail.teaching_tips}</p>
-                  </div>
-                ) : null}
                 {detail.common_mistakes ? (
                   <div>
                     <h3 className="mb-2 text-xs font-medium text-gray-400">常见错误</h3>
                     <p className="text-sm text-gray-700">{detail.common_mistakes}</p>
                   </div>
                 ) : null}
+                {(detail.variants || []).length > 0 && (
+                  <div>
+                    <h3 className="mb-2 text-xs font-medium text-gray-400">变式题</h3>
+                    <ul className="space-y-3">
+                      {detail.variants.map((v) => (
+                        <li key={v.id} className="rounded-lg border border-gray-100 bg-gray-50/60 p-3">
+                          {v.variant_type ? <p className="mb-1 text-xs text-teal-600">{v.variant_type}</p> : null}
+                          <div className="text-sm text-gray-800"><MathText text={v.question_text} markdown /></div>
+                          {v.answer ? (
+                            <div className="mt-2 text-sm text-gray-600">
+                              <span className="mr-1 text-xs text-gray-400">答案</span>
+                              <MathText text={v.answer} />
+                            </div>
+                          ) : null}
+                          {v.solution ? (
+                            <div className="mt-1 text-sm text-gray-600">
+                              <span className="mr-1 text-xs text-gray-400">解析</span>
+                              <MathText text={v.solution} markdown />
+                            </div>
+                          ) : null}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
                 {(detail.knowledge_points || []).length > 0 && (
                   <p className="text-xs text-gray-400">知识点：{detail.knowledge_points.join('、')}</p>
                 )}
