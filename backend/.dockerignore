@@ -52,10 +52,9 @@ tests
 tests/reports
 tests/**
 
-# 一次性调试 / 爬虫脚本不需要进镜像
+# 一次性调试脚本不需要进镜像
 test_*.py
-crawl_*.py
-*_crawler.py
+# 注意：crawl_*.py 自 2026-11-03 起随镜像发布（crawler/daily_crawl.py 每日题库爬虫依赖 ProvinceGaokaoCrawler）
 
 # 编辑器 / 系统文件
 .git
