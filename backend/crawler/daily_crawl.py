@@ -49,7 +49,6 @@ def _sanitize_proxy_env() -> None:
 
 # backend/ 加入 path，以便 import crawl_province_gaokao / import_open_math / database
 _BACKEND = Path(__file__).resolve().parents[1]
-_ROOT = Path(__file__).resolve().parents[2]
 if str(_BACKEND) not in sys.path:
     sys.path.insert(0, str(_BACKEND))
 
@@ -82,11 +81,13 @@ USER_AGENT = (
     "Chrome/120.0.0.0 Safari/537.36"
 )
 
-LOG_DIR = _ROOT / "logs" / "crawler"
+# 容器内 _ROOT=parents[2] 会落到 /；日志应写到 /app/logs/crawler（挂载卷）
+_log_dir_env = (os.environ.get("CRAWLER_LOG_DIR") or "").strip()
+LOG_DIR = Path(_log_dir_env) if _log_dir_env else (_BACKEND / "logs" / "crawler")
 STATE_PATH = LOG_DIR / "open_sources_state.json"
 RAW_OPEN = BANK_DIR / "_原始下载"
 
-# 开放源：仓库 + 本地文件名 + 远端候选路径
+# 开放源：仓库 + 本地文件名 + 远端候选路径（API 会再动态校正）
 OPEN_REPOS: List[Dict[str, Any]] = [
     {
         "key": "cn-math-taxonomy",
@@ -94,7 +95,10 @@ OPEN_REPOS: List[Dict[str, Any]] = [
         "files": [
             {
                 "local": "cn-math-questions.json",
+                # 仓库已改名为 data/questions.json
+                "match_names": ["cn-math-questions.json", "questions.json"],
                 "remote_paths": [
+                    "data/questions.json",
                     "cn-math-questions.json",
                     "data/cn-math-questions.json",
                     "questions/cn-math-questions.json",
@@ -102,7 +106,10 @@ OPEN_REPOS: List[Dict[str, Any]] = [
             },
             {
                 "local": "cn-math-topics.json",
+                # 仓库已改名为 data/topics.json
+                "match_names": ["cn-math-topics.json", "topics.json"],
                 "remote_paths": [
+                    "data/topics.json",
                     "cn-math-topics.json",
                     "data/cn-math-topics.json",
                     "topics/cn-math-topics.json",
@@ -116,7 +123,9 @@ OPEN_REPOS: List[Dict[str, Any]] = [
         "files": [
             {
                 "local": "cmath_dev.jsonl",
+                "match_names": ["cmath_dev.jsonl"],
                 "remote_paths": [
+                    "datasets/cmath_dev.jsonl",
                     "cmath_dev.jsonl",
                     "data/cmath_dev.jsonl",
                     "dev.jsonl",
@@ -126,8 +135,22 @@ OPEN_REPOS: List[Dict[str, Any]] = [
     },
 ]
 
+# GitHub Contents 递归时跳过的目录 / 非题库数据文件名
+_GITHUB_SKIP_DIRS = {
+    ".git", ".github", "node_modules", "assets", "docs", "screenshots",
+    "scripts", "tests", "explore", "children", "diagnose", "mappings",
+    "_qbatches", "_second_pass",
+}
+_GITHUB_SKIP_NAME_SUBSTR = (
+    "changelog", "license", "readme", "package", "manifest",
+    "dependencies", "curriculum", "alias", "verification", "report",
+    "distractor", "second_pass",
+)
+
 GAOKAO_PROVINCES = ["北京卷", "上海卷", "天津卷"]
 GAOKAO_YEARS = range(2020, 2027)  # 含 2026
+GAOKAO_ZHENTI_LIST = "https://www.gk100.com/zhenti/list_4002.htm"
+GAOKAO_ZHENTI_MAX_PAGES = 8
 
 
 @dataclass
@@ -136,6 +159,7 @@ class SourceStats:
     dup: int = 0
     error: int = 0
     pages: int = 0
+    degraded: bool = False
     notes: List[str] = field(default_factory=list)
 
     def as_dict(self) -> dict:
@@ -144,6 +168,7 @@ class SourceStats:
             "dup": self.dup,
             "error": self.error,
             "pages": self.pages,
+            "degraded": self.degraded,
         }
 
 
@@ -448,6 +473,68 @@ def filter_new_rows(
 # gaokao 源
 # ---------------------------------------------------------------------------
 
+def _mark_gaokao_degraded(stats: SourceStats, logger: logging.Logger, reason: str) -> None:
+    """标记 gaokao 为 degraded：记日志与 notes，不抬高 error，以免拖垮其它源。"""
+    stats.degraded = True
+    note = f"degraded: {reason}"
+    if note not in stats.notes:
+        stats.notes.append(note)
+    logger.warning("gaokao 源 degraded: %s", reason)
+
+
+def _html_looks_image_only(html: str) -> bool:
+    """gk100 真题正文常见为整页扫描图，无可用文本题干。"""
+    if not html:
+        return False
+    img_n = len(re.findall(r"p\d?\.gk100\.com/article/|src=[\"'][^\"']+\.(?:jpg|jpeg|png|webp)", html, re.I))
+    # 有题号文本则不算纯图
+    has_numbered = bool(re.search(r"(?:^|>)\s*\d+\s*[\.、．]", html)) or "选择题" in html
+    return img_n >= 3 and not has_numbered
+
+
+def _match_zhenti_title(title: str, province: str, year: int) -> bool:
+    prov = province.replace("卷", "")
+    t = title or ""
+    return str(year) in t and prov in t and "数学" in t
+
+
+async def _collect_zhenti_links(
+    fetcher: "RateLimitedFetcher",
+    logger: logging.Logger,
+) -> List[Tuple[str, str]]:
+    """从 /zhenti/list_4002.htm 分页收集 (标题, 绝对 URL)。"""
+    out: List[Tuple[str, str]] = []
+    seen: Set[str] = set()
+    from bs4 import BeautifulSoup  # 与 ProvinceGaokaoCrawler 同依赖
+
+    for page in range(1, GAOKAO_ZHENTI_MAX_PAGES + 1):
+        if should_stop_new_pages():
+            break
+        url = GAOKAO_ZHENTI_LIST if page == 1 else f"{GAOKAO_ZHENTI_LIST}?p={page}"
+        html = await fetcher.get_text(url)
+        if not html:
+            logger.warning("zhenti 列表页不可用: %s", url)
+            break
+        soup = BeautifulSoup(html, "html.parser")
+        page_hits = 0
+        for link in soup.find_all("a", href=True):
+            href = (link.get("href") or "").strip()
+            text = " ".join((link.get_text() or "").split())
+            if "read_" not in href or not text:
+                continue
+            if href.startswith("/"):
+                href = ProvinceGaokaoCrawler.BASE_URL + href
+            if href in seen:
+                continue
+            seen.add(href)
+            out.append((text, href))
+            page_hits += 1
+        logger.info("zhenti 列表 p=%s 收录链接 %s（累计 %s）", page, page_hits, len(out))
+        if page_hits == 0:
+            break
+    return out
+
+
 async def crawl_gaokao(
     dry_run: bool,
     logger: logging.Logger,
@@ -474,6 +561,28 @@ async def crawl_gaokao(
             # 覆盖 fetch，走礼仪与预算
             crawler.fetch_page = fetcher.get_text  # type: ignore[method-assign]
 
+            # 旧 /search/?q= 已不再返回匹配真题；改走高考数学真题列表
+            zhenti_links = await _collect_zhenti_links(fetcher, logger)
+            if not zhenti_links:
+                # 诊断：旧搜索是否仍可用
+                probe = (
+                    f"{ProvinceGaokaoCrawler.BASE_URL}/search/"
+                    f"?q={GAOKAO_PROVINCES[0]}+{list(GAOKAO_YEARS)[-2]}+数学+高考真题"
+                )
+                probe_html = await fetcher.get_text(probe)
+                _mark_gaokao_degraded(
+                    stats,
+                    logger,
+                    "gk100 真题列表不可用；/search/?q= 亦无法定位题目页（站点结构变化）"
+                    + ("" if probe_html else "；搜索页抓取失败"),
+                )
+                stats.pages = page_budget[0]
+                return stats
+
+            image_only_pages = 0
+            matched_years = 0
+            parsed_questions = 0
+
             for province in GAOKAO_PROVINCES:
                 if should_stop_new_pages() or page_budget[0] >= MAX_PAGES_PER_SOURCE:
                     break
@@ -483,11 +592,30 @@ async def crawl_gaokao(
                 for year in GAOKAO_YEARS:
                     if should_stop_new_pages() or page_budget[0] >= MAX_PAGES_PER_SOURCE:
                         break
+                    targets = [
+                        url for title, url in zhenti_links
+                        if _match_zhenti_title(title, province, year)
+                    ]
+                    if not targets:
+                        logger.info("zhenti 列表未匹配 %s %s", province, year)
+                        continue
+                    matched_years += 1
                     try:
-                        questions = await _crawl_province_year_safe(
-                            crawler, province, year, logger
-                        )
-                        # 补唯一 source_url（原爬虫写死站点根 URL）
+                        questions: List[dict] = []
+                        for url in targets[:2]:
+                            html = await fetcher.get_text(url)
+                            if not html:
+                                continue
+                            qs = crawler.parse_questions_from_html(html, year, province) or []
+                            if qs:
+                                questions.extend(qs)
+                            elif _html_looks_image_only(html):
+                                image_only_pages += 1
+                                logger.info(
+                                    "gaokao 页面为图片扫描、无文本题干: %s %s %s",
+                                    province, year, url,
+                                )
+                        parsed_questions += len(questions)
                         for idx, q in enumerate(questions):
                             base = (q.get("source_url") or ProvinceGaokaoCrawler.BASE_URL).rstrip("/")
                             q["source_url"] = f"{base}/gaokao/{province}/{year}/q{idx + 1}"
@@ -507,7 +635,21 @@ async def crawl_gaokao(
             added, _dup, err = await insert_batch(pending, dry_run, logger)
             stats.new += added
             stats.error += err
-            if not pending and stats.pages == 0 and stats.error == 0:
+
+            if parsed_questions == 0 and image_only_pages > 0:
+                _mark_gaokao_degraded(
+                    stats,
+                    logger,
+                    "gk100 真题正文为图片扫描件，文本解析器无法抽取题目；"
+                    "旧搜索页 /search/?q= 已不再返回匹配结果（已改用 /zhenti/list_4002.htm）",
+                )
+            elif parsed_questions == 0 and matched_years == 0:
+                _mark_gaokao_degraded(
+                    stats,
+                    logger,
+                    "zhenti 列表无北京/上海/天津卷匹配项，且无法从页面抽取文本题",
+                )
+            elif not pending and stats.pages == 0 and stats.error == 0 and not stats.degraded:
                 stats.notes.append("未抓到页面（网络或站点结构）")
     except Exception as exc:  # noqa: BLE001
         stats.error += 1
@@ -515,49 +657,180 @@ async def crawl_gaokao(
         stats.notes.append(str(exc))
 
     logger.info(
-        "gaokao 完成 new=%s dup=%s error=%s pages=%s",
-        stats.new, stats.dup, stats.error, stats.pages,
+        "gaokao 完成 new=%s dup=%s error=%s pages=%s degraded=%s",
+        stats.new, stats.dup, stats.error, stats.pages, stats.degraded,
     )
     return stats
-
-
-async def _crawl_province_year_safe(
-    crawler: ProvinceGaokaoCrawler,
-    province: str,
-    year: int,
-    logger: logging.Logger,
-) -> List[dict]:
-    """包装 crawl_province_year；站点结构变化时返回空列表而非崩掉。"""
-    try:
-        return await crawler.crawl_province_year(province, year) or []
-    except Exception as exc:  # noqa: BLE001
-        logger.warning("crawl_province_year 失败 %s %s: %s", province, year, exc)
-        return []
 
 
 # ---------------------------------------------------------------------------
 # open 源
 # ---------------------------------------------------------------------------
 
-async def fetch_github_commit_sha(client: httpx.AsyncClient, repo: str, logger: logging.Logger) -> Optional[str]:
-    url = f"https://api.github.com/repos/{repo}/commits?per_page=1"
+def _github_headers() -> Dict[str, str]:
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": USER_AGENT,
+    }
+    token = (os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or "").strip()
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    return headers
+
+
+async def _github_api_get(
+    client: httpx.AsyncClient,
+    url: str,
+    logger: logging.Logger,
+) -> Optional[Any]:
     delay = MIN_INTERVAL_SEC
     for attempt in range(MAX_RETRIES + 1):
         try:
             await asyncio.sleep(MIN_INTERVAL_SEC if attempt == 0 else delay)
-            resp = await client.get(url, headers={"Accept": "application/vnd.github+json"})
+            resp = await client.get(url, headers=_github_headers())
             if resp.status_code == 403:
-                logger.warning("GitHub API 限流/禁止: %s", repo)
+                logger.warning("GitHub API 限流/禁止: %s", url)
+                return None
+            if resp.status_code == 404:
                 return None
             resp.raise_for_status()
-            data = resp.json()
-            if isinstance(data, list) and data:
-                return data[0].get("sha")
-            return None
+            return resp.json()
         except Exception as exc:  # noqa: BLE001
-            logger.warning("获取 commit 失败(%s) %s: %s", attempt + 1, repo, exc)
+            logger.warning("GitHub API 失败(%s) %s: %s", attempt + 1, url, exc)
             delay *= 2
     return None
+
+
+async def fetch_github_default_branch(
+    client: httpx.AsyncClient, repo: str, logger: logging.Logger
+) -> str:
+    data = await _github_api_get(client, f"https://api.github.com/repos/{repo}", logger)
+    if isinstance(data, dict) and data.get("default_branch"):
+        return str(data["default_branch"])
+    return "main"
+
+
+async def fetch_github_commit_sha(client: httpx.AsyncClient, repo: str, logger: logging.Logger) -> Optional[str]:
+    url = f"https://api.github.com/repos/{repo}/commits?per_page=1"
+    data = await _github_api_get(client, url, logger)
+    if isinstance(data, list) and data:
+        return data[0].get("sha")
+    return None
+
+
+def _is_skippable_data_name(name: str) -> bool:
+    lower = name.lower()
+    if lower.startswith("_"):
+        return True
+    return any(s in lower for s in _GITHUB_SKIP_NAME_SUBSTR)
+
+
+async def discover_repo_data_files(
+    client: httpx.AsyncClient,
+    repo: str,
+    branch: str,
+    logger: logging.Logger,
+    max_entries: int = 200,
+) -> List[Dict[str, Any]]:
+    """用 Contents API 递归列出仓库内 json/jsonl 数据文件（含 download_url）。"""
+    found: List[Dict[str, Any]] = []
+    queue: List[str] = [""]
+    seen_dirs: Set[str] = set()
+
+    while queue and len(found) < max_entries:
+        rel = queue.pop(0)
+        if rel in seen_dirs:
+            continue
+        seen_dirs.add(rel)
+        api = f"https://api.github.com/repos/{repo}/contents"
+        if rel:
+            api = f"{api}/{rel}"
+        api = f"{api}?ref={branch}"
+        data = await _github_api_get(client, api, logger)
+        if data is None:
+            continue
+        if isinstance(data, dict):
+            data = [data]
+        if not isinstance(data, list):
+            continue
+        for item in data:
+            if not isinstance(item, dict):
+                continue
+            name = item.get("name") or ""
+            path = item.get("path") or name
+            typ = item.get("type")
+            if typ == "dir":
+                base = name.lower()
+                if base in _GITHUB_SKIP_DIRS or name.startswith("."):
+                    continue
+                queue.append(path)
+                continue
+            if typ != "file":
+                continue
+            lower = name.lower()
+            if not (lower.endswith(".json") or lower.endswith(".jsonl")):
+                continue
+            if _is_skippable_data_name(name):
+                continue
+            download_url = item.get("download_url")
+            if not download_url:
+                download_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{path}"
+            found.append({
+                "name": name,
+                "path": path,
+                "download_url": download_url,
+                "size": item.get("size") or 0,
+            })
+    logger.info("%s@%s 发现数据文件 %s 个: %s", repo, branch, len(found), [f["path"] for f in found])
+    return found
+
+
+def resolve_file_download_urls(
+    file_spec: Dict[str, Any],
+    discovered: List[Dict[str, Any]],
+    repo: str,
+    branch: str,
+) -> List[str]:
+    """按 match_names / remote_paths 优先，拼出下载 URL 列表（含 gh-proxy）。"""
+    match_names = [n.lower() for n in (file_spec.get("match_names") or [file_spec["local"]])]
+    remote_paths: List[str] = list(file_spec.get("remote_paths") or [])
+    urls: List[str] = []
+
+    # 1) API 发现：按 match_names 顺序精确匹配 basename
+    for want in match_names:
+        candidates = [d for d in discovered if (d.get("name") or "").lower() == want]
+        # 优先 data/、datasets/ 下的路径
+        candidates.sort(
+            key=lambda d: (
+                0 if str(d.get("path", "")).startswith(("data/", "datasets/")) else 1,
+                -int(d.get("size") or 0),
+            )
+        )
+        for d in candidates:
+            u = d.get("download_url")
+            if u and u not in urls:
+                urls.append(u)
+
+    # 2) 静态候选路径 + 当前默认分支（再兜底 main/master）
+    branches = []
+    for b in (branch, "main", "master"):
+        if b and b not in branches:
+            branches.append(b)
+    for path in remote_paths:
+        for b in branches:
+            raw = f"https://raw.githubusercontent.com/{repo}/{b}/{path}"
+            if raw not in urls:
+                urls.append(raw)
+
+    # 3) 镜像
+    mirrored: List[str] = []
+    for u in urls:
+        mirrored.append(u)
+        if u.startswith("https://raw.githubusercontent.com/"):
+            proxied = "https://gh-proxy.com/" + u
+            if proxied not in mirrored:
+                mirrored.append(proxied)
+    return mirrored
 
 
 async def download_open_file(
@@ -568,24 +841,20 @@ async def download_open_file(
     dest: Path,
     logger: logging.Logger,
     page_budget: List[int],
+    resolved_urls: Optional[List[str]] = None,
 ) -> bool:
-    mirrors = []
-    for path in remote_paths:
-        raw = f"https://raw.githubusercontent.com/{repo}/main/{path}"
-        mirrors.append(raw)
-        mirrors.append("https://gh-proxy.com/" + raw)
-        # master 分支兜底
-        raw_m = f"https://raw.githubusercontent.com/{repo}/master/{path}"
-        mirrors.append(raw_m)
-        mirrors.append("https://gh-proxy.com/" + raw_m)
+    mirrors: List[str] = list(resolved_urls or [])
+    if not mirrors:
+        for path in remote_paths:
+            for branch in ("main", "master"):
+                raw = f"https://raw.githubusercontent.com/{repo}/{branch}/{path}"
+                mirrors.append(raw)
+                mirrors.append("https://gh-proxy.com/" + raw)
 
     fetcher = RateLimitedFetcher(client, robots, logger, page_budget)
     for url in mirrors:
         if should_stop_new_pages() or page_budget[0] >= MAX_PAGES_PER_SOURCE:
             return False
-        # raw/proxy 也可能有 robots；失败则跳过该 URL
-        text = None
-        # 二进制友好：直接 bytes
         if not await robots.allowed(url):
             continue
         elapsed = time.monotonic() - fetcher._last_request_at
@@ -662,10 +931,29 @@ async def crawl_open(
                     logger.info("%s commit 未变 (%s)，跳过下载", key, sha)
 
                 if changed:
+                    branch = await fetch_github_default_branch(client, repo, logger)
+                    discovered = await discover_repo_data_files(client, repo, branch, logger)
+                    if not discovered:
+                        logger.warning(
+                            "%s Contents API 未列出数据文件，回退静态 remote_paths（branch=%s）",
+                            key, branch,
+                        )
                     for f in spec["files"]:
                         dest = RAW_OPEN / f["local"]
+                        urls = resolve_file_download_urls(f, discovered, repo, branch)
+                        logger.info(
+                            "%s/%s 候选下载 %s 个（优先 API）: %s",
+                            key, f["local"], len(urls), urls[:4],
+                        )
                         ok = await download_open_file(
-                            client, robots, repo, f["remote_paths"], dest, logger, page_budget
+                            client,
+                            robots,
+                            repo,
+                            f["remote_paths"],
+                            dest,
+                            logger,
+                            page_budget,
+                            resolved_urls=urls,
                         )
                         if not ok:
                             stats.error += 1
@@ -676,6 +964,7 @@ async def crawl_open(
                         state[key] = {
                             "commit": sha,
                             "checked_at": now_bj().isoformat(),
+                            "branch": branch,
                             "file_hashes": {
                                 f["local"]: file_sha256(RAW_OPEN / f["local"])
                                 for f in spec["files"]
