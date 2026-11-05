@@ -230,6 +230,8 @@ class QuestionBank(Base):
     __table_args__ = (
         Index("ix_question_bank_subject_grade_created", "subject", "grade", "created_at"),
         Index("ix_question_bank_subject_education_level", "subject", "education_level"),
+        # 浏览页主路径：按学科+学段过滤后按时间倒序翻页（小学数学 21 万行避免全量排序）
+        Index("ix_question_bank_subject_level_created", "subject", "education_level", "created_at", "id"),
         Index("ix_question_bank_exam_type_year", "exam_type", "year"),
         Index("ix_question_bank_question_type", "question_type"),
         Index("ix_question_bank_difficulty", "difficulty"),
