@@ -32,6 +32,7 @@ const FEATURE_LABELS = {
   grade: '作业批改',
   lessonplan: '教案生成',
   variant: '变式题',
+  questionbank_search: '题库搜索',
   seed_grade: '种子批改',
   probe: '探测',
   other: '其他',
@@ -41,6 +42,7 @@ const FEATURE_LABELS = {
 const MODULES = [
   { id: 'grade', label: '作业批改', always: true },
   { id: 'lessonplan', label: '教案生成', always: true },
+  { id: 'questionbank', label: '题库搜索', always: true },
   { id: 'notebook', label: '错题本', always: true },
   { id: 'ocr', label: '识别', always: true },
   { id: 'variant', label: '变式题', always: true },

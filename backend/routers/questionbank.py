@@ -1,17 +1,29 @@
 """题库管理 API"""
 import json
-from typing import List, Optional, Tuple
+import re
+import threading
+import time
+from collections import OrderedDict
+from typing import Any, Dict, List, Optional, Tuple
 
 from fastapi import APIRouter, Depends, Form, HTTPException
 from sqlalchemy import and_, case, func, or_, select
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.sql import Select
 
-from bank_subjects import BANK_STAGES, BANK_SUBJECTS, SEARCH_SYNONYMS
+from auth import current_user
+from bank_subjects import BANK_STAGES_ALL, BANK_SUBJECTS, SEARCH_SYNONYMS
 from database import get_db
-from models import QuestionBank, QuestionVariant
+from jev_client import JevError, candidate_limit, get_jev_client
+from models import QuestionBank, QuestionVariant, User
 
 router = APIRouter()
+
+SEMANTIC_RELEVANCE_THRESHOLD = 0.30
+SEARCH_CACHE_TTL_SECONDS = 600
+SEARCH_CACHE_MAX_ITEMS = 256
+_search_cache: "OrderedDict[str, Tuple[float, List[Dict[str, Any]]]]" = OrderedDict()
+_search_cache_lock = threading.Lock()
 
 
 def _known_subjects(extra) -> list:
@@ -217,6 +229,188 @@ def build_search_query(
     return query.offset(clamp_offset(offset)).limit(clamp_limit(limit, default=10, max_limit=SEARCH_MAX_LIMIT))
 
 
+def _semantic_cache_key(keyword: str, subject: Optional[str], education_level: Optional[str]) -> str:
+    return json.dumps(
+        {
+            "keyword": re.sub(r"\s+", " ", (keyword or "").strip()).lower(),
+            "subject": (subject or "").strip(),
+            "education_level": (education_level or "").strip(),
+        },
+        ensure_ascii=False,
+        sort_keys=True,
+    )
+
+
+def _cache_get(key: str) -> Optional[List[Dict[str, Any]]]:
+    now = time.monotonic()
+    with _search_cache_lock:
+        item = _search_cache.get(key)
+        if not item:
+            return None
+        created_at, rows = item
+        if now - created_at > SEARCH_CACHE_TTL_SECONDS:
+            _search_cache.pop(key, None)
+            return None
+        _search_cache.move_to_end(key)
+        return rows
+
+
+def _cache_put(key: str, rows: List[Dict[str, Any]]) -> None:
+    now = time.monotonic()
+    with _search_cache_lock:
+        _search_cache[key] = (now, rows)
+        _search_cache.move_to_end(key)
+        while len(_search_cache) > SEARCH_CACHE_MAX_ITEMS:
+            _search_cache.popitem(last=False)
+
+
+def _candidate_payload(row: QuestionBank) -> Dict[str, Any]:
+    return {
+        "id": row.id,
+        "question_text": row.question_text,
+        "answer": row.answer,
+        "solution": row.solution,
+        "subject": row.subject,
+        "education_level": row.education_level,
+        "difficulty": row.difficulty,
+        "knowledge_points": _safe_json_list(row.knowledge_points),
+    }
+
+
+def _safe_json_list(raw: Optional[str]) -> List[Any]:
+    if not raw:
+        return []
+    try:
+        parsed = json.loads(raw)
+    except (TypeError, ValueError):
+        return []
+    return parsed if isinstance(parsed, list) else []
+
+
+async def _recall_semantic_candidates(
+    db: AsyncSession,
+    keyword: str,
+    *,
+    subject: Optional[str] = None,
+    education_level: Optional[str] = None,
+) -> List[Dict[str, Any]]:
+    """为 Jev 重排召回候选；LIKE 只负责召回复核，最终相关度由 Jev 判断。"""
+    limit = candidate_limit()
+    candidates: Dict[int, Dict[str, Any]] = {}
+
+    async def _collect(query: Select) -> None:
+        result = await db.execute(query)
+        for row in result.scalars().all():
+            if row.id not in candidates:
+                candidates[row.id] = _candidate_payload(row)
+            if len(candidates) >= limit:
+                return
+
+    await _collect(build_search_query(
+        keyword,
+        subject=subject,
+        education_level=education_level,
+        limit=limit,
+        offset=0,
+    ))
+
+    tokens = [part for part in (keyword or "").split() if part.strip()]
+    if len(candidates) < limit and len(tokens) > 1:
+        clauses = [_token_match_clause(token) for token in tokens]
+        clauses = [clause for clause in clauses if clause is not None]
+        if clauses:
+            query = select(QuestionBank).where(or_(*clauses))
+            if subject:
+                query = query.where(QuestionBank.subject == subject)
+            if education_level:
+                query = query.where(QuestionBank.education_level == education_level)
+            query = query.order_by(QuestionBank.id.desc()).limit(limit)
+            await _collect(query)
+
+    grams = _keyword_bigrams(keyword)
+    if len(candidates) < limit and grams:
+        gram_exprs = []
+        for gram in grams:
+            pattern = f"%{gram}%"
+            gram_exprs.append(case((
+                or_(
+                    QuestionBank.question_text.like(pattern),
+                    QuestionBank.knowledge_points.like(pattern),
+                    QuestionBank.search_keywords.like(pattern),
+                ),
+                1,
+            ), else_=0))
+        score = sum(gram_exprs)
+        threshold = max(1, len(grams) // 3)
+        query = (
+            select(QuestionBank)
+            .where(score >= threshold)
+            .order_by(score.desc(), QuestionBank.id.desc())
+            .limit(limit)
+        )
+        if subject:
+            query = query.where(QuestionBank.subject == subject)
+        if education_level:
+            query = query.where(QuestionBank.education_level == education_level)
+        await _collect(query)
+
+    return list(candidates.values())[:limit]
+
+
+async def _semantic_search_questions(
+    db: AsyncSession,
+    *,
+    keyword: str,
+    subject: Optional[str],
+    education_level: Optional[str],
+    teacher_id: Optional[int],
+    limit: int,
+    offset: int,
+) -> Optional[Dict[str, Any]]:
+    """调用 Jev 重排；失败或无可信语义结果时返回 None，由调用方走原 LIKE 降级。"""
+    normalized_keyword = re.sub(r"\s+", " ", (keyword or "").strip())
+    if not normalized_keyword:
+        return None
+
+    cache_key = _semantic_cache_key(normalized_keyword, subject, education_level)
+    cached = _cache_get(cache_key)
+    if cached is None:
+        candidates = await _recall_semantic_candidates(
+            db,
+            normalized_keyword,
+            subject=subject,
+            education_level=education_level,
+        )
+        if not candidates:
+            cached = []
+        else:
+            try:
+                ranked = await get_jev_client().rank_candidates(
+                    keyword=normalized_keyword,
+                    candidates=candidates,
+                    subject=subject,
+                    education_level=education_level,
+                    teacher_id=teacher_id,
+                )
+            except JevError:
+                return None
+            cached = [
+                {**item.candidate, "relevance": item.relevance}
+                for item in ranked
+                if item.relevance >= SEMANTIC_RELEVANCE_THRESHOLD
+            ]
+            if not cached:
+                return None
+        _cache_put(cache_key, cached)
+
+    return {
+        "results": cached[offset:offset + limit],
+        "fuzzy": False,
+        "semantic": True,
+        "matched_count": len(cached),
+    }
+
+
 # ==================== 题库管理 API ====================
 
 @router.post("/questionbank/add")
@@ -352,27 +546,15 @@ async def get_question_list(
 
     result = await db.execute(query)
     questions = result.scalars().all()
-    
+
+    # 列表只带浏览必需的轻字段；答案/解析等由 /{id} 详情接口按需取
     return [
         {
             "id": q.id,
             "question_text": q.question_text,
-            "answer": q.answer,
-            "solution": q.solution,
             "question_type": q.question_type,
             "subject": q.subject,
             "education_level": q.education_level,
-            "grade": q.grade,
-            "exam_type": q.exam_type,
-            "year": q.year,
-            "region": q.region,
-            "knowledge_points": json.loads(q.knowledge_points) if q.knowledge_points else [],
-            "difficulty": q.difficulty,
-            "score": q.score,
-            "teaching_tips": q.teaching_tips,
-            "common_mistakes": q.common_mistakes,
-            "is_verified": q.is_verified,
-            "created_at": q.created_at
         }
         for q in questions
     ]
@@ -408,16 +590,30 @@ async def get_question_stats(db: AsyncSession = Depends(get_db)):
 
 @router.get("/questionbank/subjects")
 async def get_question_subjects(db: AsyncSession = Depends(get_db)):
-    """题库合法学科/学段（固定露出语文/数学/英语/科学，并附上库内实际有题的学科）。"""
+    """题库学科/学段。
+
+    - subjects / by_subject：库内实际有题的学科与总数（浏览页选「全部学段」时用）。
+    - by_stage：每个学段下实际有题的学科数（浏览页按学段过滤学科胶囊用）。
+    """
     subject_result = await db.execute(
         select(QuestionBank.subject, func.count(QuestionBank.id))
         .group_by(QuestionBank.subject)
     )
     by_subject = {name: count for name, count in subject_result.all() if name}
+    stage_result = await db.execute(
+        select(QuestionBank.education_level, QuestionBank.subject, func.count(QuestionBank.id))
+        .group_by(QuestionBank.education_level, QuestionBank.subject)
+    )
+    by_stage: dict = {}
+    for level, name, count in stage_result.all():
+        if not name:
+            continue
+        by_stage.setdefault(level or "未标注", {})[name] = count
     return {
         "subjects": _known_subjects(by_subject.keys()),
-        "education_levels": list(BANK_STAGES),
+        "education_levels": list(BANK_STAGES_ALL),
         "by_subject": by_subject,
+        "by_stage": by_stage,
     }
 
 
@@ -477,25 +673,117 @@ async def search_questions(
     education_level: Optional[str] = Form(None),
     limit: int = Form(10),
     offset: int = Form(0),
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
 ):
-    """搜索题目。多字段 LIKE + 空格分词 AND + 同义词 OR；两侧通配无法用 B-tree。offset 上限 LIST_MAX_OFFSET。"""
-    query = build_search_query(
-        keyword, subject=subject, education_level=education_level, limit=limit, offset=offset
-    )
+    """搜索题目：优先 Jev 语义重排；失败或无可信语义结果时三级 LIKE 降级。
 
-    result = await db.execute(query)
-    questions = result.scalars().all()
-    
-    return [
-        {
-            "id": q.id,
-            "question_text": q.question_text,
-            "answer": q.answer,
-            "solution": q.solution,
-            "subject": q.subject,
-            "education_level": q.education_level,
-            "difficulty": q.difficulty
-        }
-        for q in questions
-    ]
+    返回 {"results": [...], "fuzzy": bool, "semantic": bool, "matched_count": int}；
+    fuzzy=True 表示走了第 2/3 级 LIKE 降级。
+    offset 上限 LIST_MAX_OFFSET。
+    """
+    limit = clamp_limit(limit, default=10, max_limit=SEARCH_MAX_LIMIT)
+    offset = clamp_offset(offset)
+
+    async def _run(query):
+        result = await db.execute(query)
+        return result.scalars().all()
+
+    def _serialize(rows):
+        return [
+            {
+                "id": q.id,
+                "question_text": q.question_text,
+                "answer": q.answer,
+                "solution": q.solution,
+                "subject": q.subject,
+                "education_level": q.education_level,
+                "difficulty": q.difficulty
+            }
+            for q in rows
+        ]
+
+    semantic = await _semantic_search_questions(
+        db,
+        keyword=keyword,
+        subject=subject,
+        education_level=education_level,
+        teacher_id=user.id,
+        limit=limit,
+        offset=offset,
+    )
+    if semantic is not None:
+        return semantic
+
+    # 第 1 级：分词 AND + 同义词
+    rows = await _run(build_search_query(
+        keyword, subject=subject, education_level=education_level, limit=limit, offset=offset
+    ))
+    if rows:
+        return {"results": _serialize(rows), "fuzzy": False, "semantic": False, "matched_count": len(rows)}
+
+    # 第 2 级：词间 OR 放宽
+    tokens = [part for part in (keyword or "").split() if part.strip()]
+    if len(tokens) > 1:
+        clauses = [_token_match_clause(token) for token in tokens]
+        clauses = [clause for clause in clauses if clause is not None]
+        if clauses:
+            query = select(QuestionBank).where(or_(*clauses))
+            if subject:
+                query = query.where(QuestionBank.subject == subject)
+            if education_level:
+                query = query.where(QuestionBank.education_level == education_level)
+            query = query.order_by(QuestionBank.id.desc()).offset(offset).limit(limit)
+            rows = await _run(query)
+            if rows:
+                return {"results": _serialize(rows), "fuzzy": True, "semantic": False, "matched_count": len(rows)}
+
+    # 第 3 级：二字组字形模糊
+    grams = _keyword_bigrams(keyword)
+    if grams:
+        gram_exprs = []
+        for gram in grams:
+            pattern = f"%{gram}%"
+            gram_exprs.append(case((
+                or_(
+                    QuestionBank.question_text.like(pattern),
+                    QuestionBank.knowledge_points.like(pattern),
+                    QuestionBank.search_keywords.like(pattern),
+                ),
+                1,
+            ), else_=0))
+        score = sum(gram_exprs)
+        threshold = max(1, len(grams) // 3)  # 容忍约 2/3 的字形偏差，靠 score 排序兜底
+        query = (
+            select(QuestionBank)
+            .where(score >= threshold)
+            .order_by(score.desc(), QuestionBank.id.desc())
+            .offset(offset)
+            .limit(limit)
+        )
+        if subject:
+            query = query.where(QuestionBank.subject == subject)
+        if education_level:
+            query = query.where(QuestionBank.education_level == education_level)
+        rows = await _run(query)
+        if rows:
+            return {"results": _serialize(rows), "fuzzy": True, "semantic": False, "matched_count": len(rows)}
+
+    return {"results": [], "fuzzy": False, "semantic": False, "matched_count": 0}
+
+
+def _keyword_bigrams(keyword: str) -> list:
+    """整串去空格后取相邻二字组（去重），单字查询退化为该字本身。"""
+    text = re.sub(r"\s+", "", keyword or "")
+    if not text:
+        return []
+    if len(text) == 1:
+        return [text]
+    seen = set()
+    grams = []
+    for i in range(len(text) - 1):
+        gram = text[i:i + 2]
+        if gram not in seen:
+            seen.add(gram)
+            grams.append(gram)
+    return grams

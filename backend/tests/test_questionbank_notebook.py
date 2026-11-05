@@ -24,7 +24,9 @@ async def test_add_list_detail_search(client):
     d = (await client.get(f"/api/questionbank/{qid}")).json()
     assert d["knowledge_points"] == ["函数"] and d["variants"] == []
     s = await client.post("/api/questionbank/search", data={"keyword": marker})
-    assert [q["id"] for q in s.json()] == [qid]
+    body = s.json()
+    assert body["fuzzy"] is False
+    assert [q["id"] for q in body["results"]] == [qid]
     assert (await client.get("/api/questionbank/99999999")).status_code == 404
 
 
@@ -36,7 +38,7 @@ async def test_batch_add(client):
     assert r.status_code == 200, r.text
     assert r.json()["added_count"] == 3
     s = await client.post("/api/questionbank/search", data={"keyword": marker})
-    assert len(s.json()) == 3
+    assert len(s.json()["results"]) == 3
 
 
 # FINDING F-03 (at HEAD): /questionbank/stats was shadowed by /questionbank/{question_id} -> 422. Fixed in the
@@ -52,7 +54,7 @@ async def test_questionbank_subjects_and_new_subject_filters(client):
     assert opts.status_code == 200
     body = opts.json()
     assert {"语文", "数学", "英语", "科学"}.issubset(body["subjects"])
-    assert body["education_levels"] == ["小学", "初中", "高中"]
+    assert body["education_levels"] == ["小学", "初中", "高中", "大学"]
 
     marker = f"NS{uuid.uuid4().hex[:6]}"
     for subject in ("语文", "英语", "科学"):
@@ -66,7 +68,7 @@ async def test_questionbank_subjects_and_new_subject_filters(client):
 
     hit = await client.post("/api/questionbank/search", data={"keyword": marker, "subject": "英语"})
     assert hit.status_code == 200
-    rows = hit.json()
+    rows = hit.json()["results"]
     assert rows and all(q["subject"] == "英语" for q in rows)
     assert any(marker in q["question_text"] for q in rows)
 
@@ -76,9 +78,9 @@ async def test_questionbank_subjects_and_new_subject_filters(client):
             f"{page_marker} 翻页{i}", subject="语文", education_level="小学"))
         assert r.status_code == 200
     first = (await client.post("/api/questionbank/search", data={
-        "keyword": page_marker, "subject": "语文", "limit": 2, "offset": 0})).json()
+        "keyword": page_marker, "subject": "语文", "limit": 2, "offset": 0})).json()["results"]
     second = (await client.post("/api/questionbank/search", data={
-        "keyword": page_marker, "subject": "语文", "limit": 2, "offset": 2})).json()
+        "keyword": page_marker, "subject": "语文", "limit": 2, "offset": 2})).json()["results"]
     assert len(first) == 2
     assert len(second) == 1
     assert {q["id"] for q in first}.isdisjoint({q["id"] for q in second})

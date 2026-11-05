@@ -22,9 +22,9 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 LOG_FILE_NAME = "api_calls.jsonl"
 ERROR_MAX_CHARS = 300
 
-KNOWN_FEATURES = ("ocr", "grade", "lessonplan", "variant", "seed_grade", "other")
+KNOWN_FEATURES = ("ocr", "grade", "lessonplan", "variant", "seed_grade", "questionbank_search", "other")
 # 给管理员看的产品模块。评测脚本单独成类，避免和老师的真实调用混在一起。
-MODULE_ORDER = ("grade", "lessonplan", "notebook", "ocr", "variant", "probe", "other")
+MODULE_ORDER = ("grade", "lessonplan", "questionbank", "notebook", "ocr", "variant", "probe", "other")
 
 
 # =========================
@@ -126,6 +126,8 @@ def classify_module(feature: Any, task_meta: Any) -> str:
     name = str(feature or "").strip().lower()
     if name == "seed_grade":
         return "grade"
+    if name in ("questionbank_search", "questionbank"):
+        return "questionbank"
     if name in MODULE_ORDER:
         return name
     return "other"

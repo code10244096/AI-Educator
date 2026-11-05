@@ -277,9 +277,10 @@ StudentRow：`id(序号), member_id, name, display_name, student_no, in_roster, 
 - `recent_assignments` 最多 8 条（最新布置在前），`recent_lesson_plans` 最多 5 条。新教师所有计数为 0、列表为空（前端显示三步引导）。
 - 未登录 401；需先改初始密码 403。
 
-## 题库 `routers/questionbank.py`（接口未变）
+## 题库 `routers/questionbank.py`
 `POST /questionbank/add`(form)、`POST /questionbank/batch-add`(JSON 数组)、`GET /questionbank/list`、`GET /questionbank/stats`、`GET /questionbank/{id}`、`POST /questionbank/search`(form)。
 （修复：`/questionbank/stats` 之前被 `/{question_id}` 抢先匹配返回 422，现已调整顺序。）
+（2026-11 更新：`/questionbank/search` 返回改为 `{"results": [...], "fuzzy": bool}`——零命中时自动降级为词间 OR、二字组字形模糊匹配，`fuzzy=true` 表示走了降级；`/questionbank/subjects` 新增 `by_stage`（每学段下实际有题的学科数），`education_levels` 含「大学」；`/questionbank/list` 仅返回浏览必需字段（id/question_text/question_type/subject/education_level），答案与解析走 `/{id}` 详情。语义搜索：候选题（LIKE + 词间 OR + 二字组召回，上限 `JEV_SEARCH_CANDIDATE_LIMIT`，默认 50）逐题送 Jev 模型（`jev-latest`，原生 `/v1/systemone` 接口）判断相关度，按相关度降序返回并附 `relevance`；响应新增 `{"semantic": bool, "matched_count": int}`，`semantic=true` 表示走了语义排序，相关度低于 0.30 的题被过滤；结果缓存 10 分钟（同关键词+学科+学段只计一次模型调用）。Jev 调用失败或超时自动回退原三级 LIKE 搜索（`semantic=false`）。每次真实调用逐条写入 `api_calls.jsonl`，feature=`questionbank_search`，计入体验配额（见 `jev_client.py`、环境变量 `JEV_MODEL`/`JEV_SEARCH_TIMEOUT`）。）
 
 ## 用量统计 `usage_api.py`（仅管理员）
 `GET /usage/summary`、`GET /usage/calls`，需 `role=admin`，教师 403。响应不包含服务器上的日志目录路径（原 `log_root` 字段已移除）。见 `usage_api.py`。

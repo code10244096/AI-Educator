@@ -36,6 +36,7 @@ const BankBrowse = () => {
   const [appliedKeyword, setAppliedKeyword] = useState('')
   const [items, setItems] = useState([])
   const [fuzzy, setFuzzy] = useState(false)
+  const [semantic, setSemantic] = useState(false)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [cursors, setCursors] = useState([null])
@@ -60,6 +61,7 @@ const BankBrowse = () => {
         const data = await questionBankAPI.search(query, subject, stage || undefined, PAGE_SIZE, offset)
         rows = data.results || []
         setFuzzy(Boolean(data.fuzzy))
+        setSemantic(Boolean(data.semantic))
       } else {
         rows = await questionBankAPI.getList({
           subject,
@@ -68,12 +70,14 @@ const BankBrowse = () => {
           after_id: afterId || undefined,
         })
         setFuzzy(false)
+        setSemantic(false)
       }
       setItems(rows)
       setSelected((prev) => (rows.some((q) => q.id === prev) ? prev : (rows[0]?.id || null)))
     } catch (err) {
       setItems([])
       setFuzzy(false)
+      setSemantic(false)
       setError(getErrorMessage(err, '题库加载失败'))
     } finally {
       setLoading(false)
@@ -193,7 +197,7 @@ const BankBrowse = () => {
                 value={keyword}
                 onChange={(e) => setKeyword(e.target.value)}
                 onKeyDown={(e) => { if (e.key === 'Enter') handleSearch() }}
-                placeholder="输入知识点或关键词，支持模糊匹配：三角函数、力学、文言文、时态…"
+                placeholder="输入想找的知识点或题目类型，支持语义搜索：三角函数图象、导数单调性、线面垂直…"
                 className="w-full rounded-lg border border-gray-300 py-2 pl-9 pr-3 text-sm"
               />
             </div>
@@ -228,7 +232,12 @@ const BankBrowse = () => {
             {truncated && (
               <p className="border-b border-amber-100 bg-amber-50 px-4 py-2 text-xs text-amber-700">结果过多，请细化筛选</p>
             )}
-            {appliedKeyword && fuzzy && items.length > 0 && (
+            {appliedKeyword && semantic && items.length > 0 && (
+              <p className="border-b border-teal-50 bg-teal-50/60 px-4 py-2 text-xs text-teal-700">
+                已按语义理解排序，优先展示与“{appliedKeyword}”最相关的题目
+              </p>
+            )}
+            {appliedKeyword && !semantic && fuzzy && items.length > 0 && (
               <p className="border-b border-teal-50 bg-teal-50/60 px-4 py-2 text-xs text-teal-700">
                 没有完全匹配的结果，已为你按相关度模糊匹配 {items.length} 条
               </p>
