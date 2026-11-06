@@ -97,3 +97,11 @@ def test_filter_new_rows_drops_dirty_and_counts():
     assert fresh[0]["source_url"] == "https://example.test/clean-1"
     assert stats.dirty == 3
     assert stats.dup == 0
+
+DIRTY_ADVICE_4 = "2. 科学规划后续复习：若仍在高考期间，数学考试后应迅速调整状态。"
+DIRTY_ADVICE_5 = "6. 关注官方信息，确保无误：紧盯教育招生考试院发布的官方通知。"
+
+
+def test_dirty_advice_remaining_variants_blocked():
+    assert looks_like_dirty_row(_row(DIRTY_ADVICE_4)) is True
+    assert looks_like_dirty_row(_row(DIRTY_ADVICE_5)) is True
