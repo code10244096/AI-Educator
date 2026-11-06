@@ -157,6 +157,7 @@ GAOKAO_ZHENTI_MAX_PAGES = 8
 class SourceStats:
     new: int = 0
     dup: int = 0
+    dirty: int = 0
     error: int = 0
     pages: int = 0
     degraded: bool = False
@@ -166,10 +167,65 @@ class SourceStats:
         return {
             "new": self.new,
             "dup": self.dup,
+            "dirty": self.dirty,
             "error": self.error,
             "pages": self.pages,
             "degraded": self.degraded,
         }
+
+
+# 公告/网页残留拦截：入库源头过滤脏题干
+_HTM_RESIDUE_RE = re.compile(r"\d+\.\s*htm", re.IGNORECASE)
+# 合法选择题选项标记，或数学公式特征 → 关键词规则不判脏
+_OPTION_OR_MATH_RE = re.compile(
+    r"(?:^|\n)\s*A(?:[\.、]| )|"  # A. / A、 / \nA␠
+    r"\$\$|"
+    r"\\\(|"
+    r"\\\["
+)
+_ADVICE_KEYWORDS = (
+    "平稳心态",
+    "合理利用考后",
+    "家庭沟通",
+    "积极面对",
+    "共商未来",
+)
+_NAV_SOURCE_KEYWORDS = (
+    "下一页",
+    "上一页",
+    "点击进入",
+    "本文整理",
+    "本文来源",
+    "新东方在线",
+    "无忧考网",
+    "gkxx",
+    "www.",
+    "http",
+)
+
+
+def looks_like_dirty_row(row: dict) -> bool:
+    """判断爬虫行是否为公告/网页残留脏数据（入库前拦截）。
+
+    规则：
+    1. 题干前 20 字出现 ``数字. htm`` 列表页标题残留 → 脏；
+    2. 命中考后建议或导航/来源关键词，且不含选项标记 / 公式特征 → 脏。
+    """
+    text = str(row.get("question_text") or "")
+    if not text.strip():
+        return False
+    if _HTM_RESIDUE_RE.search(text[:20]):
+        return True
+    if _OPTION_OR_MATH_RE.search(text):
+        return False
+    lowered = text.lower()
+    for kw in _ADVICE_KEYWORDS:
+        if kw in text:
+            return True
+    for kw in _NAV_SOURCE_KEYWORDS:
+        if kw.lower() in lowered:
+            return True
+    return False
 
 
 def now_bj() -> datetime:
@@ -444,8 +500,11 @@ def filter_new_rows(
     night_new_total: int,
     stats: SourceStats,
 ) -> List[dict]:
-    """两级去重 + 夜间总量上限。"""
+    """两级去重 + 脏数据拦截 + 夜间总量上限。"""
     out: List[dict] = []
+    dirty_n = 0
+    dirty_sample = ""
+    logger = logging.getLogger("daily_crawl")
     for row in records:
         if night_new_total + len(out) >= MAX_QUESTIONS_PER_NIGHT:
             stats.notes.append(f"达到夜间总量上限 {MAX_QUESTIONS_PER_NIGHT}")
@@ -454,6 +513,12 @@ def filter_new_rows(
         text = row.get("question_text") or ""
         if not text.strip():
             stats.dup += 1
+            continue
+        if looks_like_dirty_row(row):
+            dirty_n += 1
+            stats.dirty += 1
+            if not dirty_sample:
+                dirty_sample = str(text)[:60]
             continue
         h = content_hash(text)
         if url and url in existing_urls:
@@ -466,6 +531,8 @@ def filter_new_rows(
             existing_urls.add(url)
         existing_hashes.add(h)
         out.append(row)
+    if dirty_n:
+        logger.warning("拦截脏数据 %s 条，样例: %s", dirty_n, dirty_sample)
     return out
 
 

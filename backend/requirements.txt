@@ -7,6 +7,7 @@ python-dotenv>=1.0.0
 sqlalchemy>=2.0.25
 greenlet>=3.0.0
 aiosqlite>=0.19.0
+tzdata>=2024.1  # Windows 本地跑测试时 zoneinfo 需要（Linux 容器系统自带）
 httpx>=0.26.0
 Pillow>=10.2.0
 python-jose[cryptography]>=3.3.0
