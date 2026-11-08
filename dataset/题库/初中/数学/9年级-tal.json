@@ -224,7 +224,7 @@
   {
     "question_text": "已知函数$$y=\\frac{3x+m}{1-2x}$$，当$$x\\textless{}\\frac{1}{2}$$时，$$y$$随$$x$$的增大而减小，则实数$$m$$的取值范围是（~ ）．\nA. $$-\\frac{3}{2}\\textless{}m\\textless{}0$$\nB. $$m\\textless{}-\\frac{3}{2}$$\nC. $$m\\textgreater0$$\nD. $$m\\textless{}-\\frac{3}{2}$$或$$m\\textgreater0$$",
     "answer": "B. $$m\\textless{}-\\frac{3}{2}$$",
-    "solution": "令$${{x}_{2}}\\textless{},{{x}_{1}}\\textless{}\\frac{1}{2}$$，  当$$x={{x}_{1}}$$时，$$y=\\frac{3{{x}_{1}}+m}{1-2{{x}_{1}}}$$，  当$$x={{x}_{2}}$$时，$$y=\\frac{3{{x}_{2}}+m}{1-2{{x}_{2}}}$$，  ∴$$\\frac{3{{x}_{1}}+m}{1-2{{x}_{1}}}-\\frac{3{{x}_{2}}+m}{1-2{{x}_{2}}}=\\frac{(3{{x}_{1}}+m)(1-2{{x}_{2}})-(1-2{{x}_{1}})(3{{x}_{2}}+m)}{(1-2{{x}_{2}})(1-2{{x}_{1}})}=\\frac{(3+2m)({{x}_{1}}-{{x}_{2}})}{(1-2{{x}_{2}})(1-2{{x}_{1}})}$$，  ∵$$y$$随$$x$$的增大而减小，  ∴$$\\frac{3{{x}_{1}}+m}{1-2{{x}_{1}}}-\\frac{3{{x}_{2}}+m}{1-2{{x}_{2}}}\\textless{}0$$，  即$$\\frac{(3+2m)({{x}_{1}}-{{x}_{2}})}{(1-2{{x}_{2}})(1-2{{x}_{1}})}\\textless{}0$$，  解得$$m\\textless{}-\\frac{3}{2}$$．",
+    "solution": "令$${{x}_{2}}\\textless{}{{x}_{1}}\\textless{}\\frac{1}{2}$$，  当$$x={{x}_{1}}$$时，$$y=\\frac{3{{x}_{1}}+m}{1-2{{x}_{1}}}$$，  当$$x={{x}_{2}}$$时，$$y=\\frac{3{{x}_{2}}+m}{1-2{{x}_{2}}}$$，  ∴$$\\frac{3{{x}_{1}}+m}{1-2{{x}_{1}}}-\\frac{3{{x}_{2}}+m}{1-2{{x}_{2}}}=\\frac{(3{{x}_{1}}+m)(1-2{{x}_{2}})-(1-2{{x}_{1}})(3{{x}_{2}}+m)}{(1-2{{x}_{2}})(1-2{{x}_{1}})}=\\frac{(3+2m)({{x}_{1}}-{{x}_{2}})}{(1-2{{x}_{2}})(1-2{{x}_{1}})}$$，  ∵$$y$$随$$x$$的增大而减小，  ∴$$\\frac{3{{x}_{1}}+m}{1-2{{x}_{1}}}-\\frac{3{{x}_{2}}+m}{1-2{{x}_{2}}}\\textless{}0$$，  即$$\\frac{(3+2m)({{x}_{1}}-{{x}_{2}})}{(1-2{{x}_{2}})(1-2{{x}_{1}})}\\textless{}0$$，  解得$$m\\textless{}-\\frac{3}{2}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -294,7 +294,7 @@
   {
     "question_text": "满足等式$$x\\sqrt{y}+\\sqrt{x}y-\\sqrt{2003x}-\\sqrt{2003y}+\\sqrt{2003xy}=2003$$的正整数对$$\\left( x,y \\right)$$的个数是．\nA. $$1$$\nB. $$2$$\nC. $$3$$\nD. $$4$$",
     "answer": "B. $$2$$",
-    "solution": "\\textbf{（知识点：无理方程）}  已知等式可化为  $$\\sqrt{y},{{\\left( \\sqrt{x} \\right)}^{2}}+\\left[ {{\\left( \\sqrt{y} \\right)}^{2}}+\\sqrt{2003}\\sqrt{y}-\\sqrt{2003} \\right]\\sqrt{x}$$$$-\\sqrt{2003}\\left( \\sqrt{y}+\\sqrt{2003} \\right)=0$$，  所以$$\\left( \\sqrt{y}\\sqrt{x}-\\sqrt{2003} \\right)\\left( \\sqrt{x}+\\sqrt{y}+\\sqrt{2003} \\right)=0$$．  又由题意，$$\\sqrt{x}+\\sqrt{y}+\\sqrt{2003}\\textgreater0$$，  则$$\\sqrt{y}\\sqrt{x}-\\sqrt{2003}=0\\Rightarrow xy=2003$$．  而$$2003$$为质数，且$$x$$、$$y$$为正整数，所以$$\\left( x,y \\right)=\\left( 2003,1 \\right)$$，$$\\left( 1,2003 \\right)$$．所以选$$\\text{B}$$．",
+    "solution": "\\textbf{（知识点：无理方程）}  已知等式可化为  $$\\sqrt{y}{{\\left( \\sqrt{x} \\right)}^{2}}+\\left[ {{\\left( \\sqrt{y} \\right)}^{2}}+\\sqrt{2003}\\sqrt{y}-\\sqrt{2003} \\right]\\sqrt{x}$$$$-\\sqrt{2003}\\left( \\sqrt{y}+\\sqrt{2003} \\right)=0$$，  所以$$\\left( \\sqrt{y}\\sqrt{x}-\\sqrt{2003} \\right)\\left( \\sqrt{x}+\\sqrt{y}+\\sqrt{2003} \\right)=0$$．  又由题意，$$\\sqrt{x}+\\sqrt{y}+\\sqrt{2003}\\textgreater0$$，  则$$\\sqrt{y}\\sqrt{x}-\\sqrt{2003}=0\\Rightarrow xy=2003$$．  而$$2003$$为质数，且$$x$$、$$y$$为正整数，所以$$\\left( x,y \\right)=\\left( 2003,1 \\right)$$，$$\\left( 1,2003 \\right)$$．所以选$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -389,7 +389,7 @@
   {
     "question_text": "当$$a\\leqslant x\\leqslant a+1$$时，函数$$y={{x}^{2}}-2x+1$$的最小值为$$1$$，则$$a$$的值为．\nA. $$-1$$\nB. $$2$$\nC. $$0$$或$$2$$\nD. $$-1$$或$$2$$",
     "answer": "D. $$-1$$或$$2$$",
-    "solution": "当$$y=1$$时，有$${{x}^{2}}-2x+1=1$$，  解得：$${{x}_{1}}=0$$，$${{x}_{2}}=2$$．  ∵当$$a\\leqslant x\\leqslant a+1$$时，函数有最小值$$1$$，  ∴$$a=2$$或$$a+1=0$$，  ∴$$a=2$$或$$a=-1$$，  故选：$$\\text{D}$$．\n<p>∵$$y={{x}^{2}}-2x+1={{\\left( x-1 \\right)}^{2}}$$，</p>\n<p>&there4;①当$$a+1&lt;{}1$$，即$$a&lt;{}0$$时，函数的最小值为$$y={{\\left( a+1-1 \\right)}^{2}}=1$$，</p>\n<p>&there4;$$a=\\pm 1$$，</p>\n<p>&there4;$$a=-1$$．</p>\n<p>②当$$a&gt;1$$时，函数的最小值为$$y={{\\left( a-1 \\right)}^{2}}=1$$，</p>\n<p>&there4;$$a=2$$或$$a=0$$，</p>\n<p>&there4;$$a=2$$．</p>\n<p>综上所述，$$a=-1$$或$$2$$．</p>",
+    "solution": "当$$y=1$$时，有$${{x}^{2}}-2x+1=1$$，  解得：$${{x}_{1}}=0$$，$${{x}_{2}}=2$$．  ∵当$$a\\leqslant x\\leqslant a+1$$时，函数有最小值$$1$$，  ∴$$a=2$$或$$a+1=0$$，  ∴$$a=2$$或$$a=-1$$，  故选：$$\\text{D}$$．\n∵$$y={{x}^{2}}-2x+1={{\\left( x-1 \\right)}^{2}}$$，\n∴①当$$a+1<{}1$$，即$$a<{}0$$时，函数的最小值为$$y={{\\left( a+1-1 \\right)}^{2}}=1$$，\n∴$$a=\\pm 1$$，\n∴$$a=-1$$．\n②当$$a>1$$时，函数的最小值为$$y={{\\left( a-1 \\right)}^{2}}=1$$，\n∴$$a=2$$或$$a=0$$，\n∴$$a=2$$．\n综上所述，$$a=-1$$或$$2$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -407,7 +407,7 @@
   {
     "question_text": "设$${{a}^{2}}+1=3a$$，$${{b}^{2}}+1=3b$$，且$$a\\ne b$$，则代数式$$\\frac{1}{{{a}^{2}}}+\\frac{1}{{{b}^{2}}}$$的值为（~ ）．\nA. $$5$$\nB. $$7$$\nC. $$9$$\nD. $$11$$",
     "answer": "B. $$7$$",
-    "solution": "由题设条件可知$${{a}^{2}}-3a+1=0$$，$${{b}^{2}}-3b+1=0$$，且$$a\\ne b$$，所以$$ab$$是一元二次方程$${{x}^{2}}-3x+1=0$$的两根，故$$a+b=3$$，$$ab=1$$，因此$$\\frac{1}{{{a}^{2}}}+\\frac{1}{{{b}^{2}}}=\\frac{{{a}^{2}}+{{b}^{2}}}{{{a}^{2}},{{b}^{2}}}=\\frac{{{(a+b)}^{2}}-2ab}{{{(ab)}^{2}}}=\\frac{{{3}^{2}}-2\\times 1}{{{1}^{2}}}=7$$．  故选$$\\text{B}$$．",
+    "solution": "由题设条件可知$${{a}^{2}}-3a+1=0$$，$${{b}^{2}}-3b+1=0$$，且$$a\\ne b$$，所以$$ab$$是一元二次方程$${{x}^{2}}-3x+1=0$$的两根，故$$a+b=3$$，$$ab=1$$，因此$$\\frac{1}{{{a}^{2}}}+\\frac{1}{{{b}^{2}}}=\\frac{{{a}^{2}}+{{b}^{2}}}{{{a}^{2}}{{b}^{2}}}=\\frac{{{(a+b)}^{2}}-2ab}{{{(ab)}^{2}}}=\\frac{{{3}^{2}}-2\\times 1}{{{1}^{2}}}=7$$．  故选$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -586,7 +586,7 @@
   {
     "question_text": "满足等式$$x\\sqrt{y}+\\sqrt{x}y-\\sqrt{2003x}-\\sqrt{2003y}+\\sqrt{2003xy}=2003$$的正整数对$$\\left( x,y \\right)$$的个数是（  ）．\nA. $$1$$\nB. $$2$$\nC. $$3$$\nD. $$4$$",
     "answer": "B. $$2$$",
-    "solution": "已知等式可化为  $$\\sqrt{y},{{\\left( \\sqrt{x} \\right)}^{2}}+\\left[ {{\\left( \\sqrt{y} \\right)}^{2}}+\\sqrt{2003}\\sqrt{y}-\\sqrt{2003} \\right]\\sqrt{x}$$$$-\\sqrt{2003}\\left( \\sqrt{y}+\\sqrt{2003} \\right)=0$$，  故$$\\left( \\sqrt{y}\\sqrt{x}-\\sqrt{2003} \\right)\\left( \\sqrt{x}+\\sqrt{y}+\\sqrt{2003} \\right)=0$$．  又由题意，  $$\\sqrt{x}+\\sqrt{y}+\\sqrt{2003}\\textgreater0$$，  则$$\\sqrt{y}\\sqrt{x}-\\sqrt{2003}=0\\Rightarrow xy=2003$$．  而$$2003$$为质数，且$$x$$、$$y$$为正整数，故$$\\left( x,y \\right)=\\left( 2003,1 \\right)$$，$$\\left( 1,2003 \\right)$$．  故选$$\\text{B}$$．",
+    "solution": "已知等式可化为  $$\\sqrt{y}{{\\left( \\sqrt{x} \\right)}^{2}}+\\left[ {{\\left( \\sqrt{y} \\right)}^{2}}+\\sqrt{2003}\\sqrt{y}-\\sqrt{2003} \\right]\\sqrt{x}$$$$-\\sqrt{2003}\\left( \\sqrt{y}+\\sqrt{2003} \\right)=0$$，  故$$\\left( \\sqrt{y}\\sqrt{x}-\\sqrt{2003} \\right)\\left( \\sqrt{x}+\\sqrt{y}+\\sqrt{2003} \\right)=0$$．  又由题意，  $$\\sqrt{x}+\\sqrt{y}+\\sqrt{2003}\\textgreater0$$，  则$$\\sqrt{y}\\sqrt{x}-\\sqrt{2003}=0\\Rightarrow xy=2003$$．  而$$2003$$为质数，且$$x$$、$$y$$为正整数，故$$\\left( x,y \\right)=\\left( 2003,1 \\right)$$，$$\\left( 1,2003 \\right)$$．  故选$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -902,7 +902,7 @@
   {
     "question_text": "若抛物线$$y={{x}^{2}}+bx+c$$与$$x$$轴只有一个公共点，且过点$$A(m,n)$$，$$B(m-8,n)$$，则$$n=$$（~ ）．\nA. $$8$$\nB. $$12$$\nC. $$16$$\nD. $$24$$",
     "answer": "C. $$16$$",
-    "solution": "∵抛物线过点$$A(m,n)$$，$$B(m-8,n)$$，  ∴抛物线的对称轴为$$x=-\\frac{b}{2}=\\frac{m+m-8}{2}$$，  ∴$$b=8-2m$$．  ∵抛物线$$y={{x}^{2}}+bx+c$$与$$x$$轴只有一个公共点，  ∴$$\\Delta ={{b}^{2}}-4c=0$$，  ∴$$c=\\frac{1}{4},{{b}^{2}}={{(4-m)}^{2}}$$，  ∴$$n={{m}^{2}}+(8-2m)m+{{(4-m)}^{2}}=16$$．\n<p>由题意得：$${{b}^{2}}-4c=0$$，$$b=8-2m$$，</p>\n<p>&there4;$$n={{m}^{2}}+bm+c={{m}^{2}}+\\left( 8-2m \\right)m+{{\\left( 4-m \\right)}^{2}}=16$$．</p>",
+    "solution": "∵抛物线过点$$A(m,n)$$，$$B(m-8,n)$$，  ∴抛物线的对称轴为$$x=-\\frac{b}{2}=\\frac{m+m-8}{2}$$，  ∴$$b=8-2m$$．  ∵抛物线$$y={{x}^{2}}+bx+c$$与$$x$$轴只有一个公共点，  ∴$$\\Delta ={{b}^{2}}-4c=0$$，  ∴$$c=\\frac{1}{4},{{b}^{2}}={{(4-m)}^{2}}$$，  ∴$$n={{m}^{2}}+(8-2m)m+{{(4-m)}^{2}}=16$$．\n由题意得：$${{b}^{2}}-4c=0$$，$$b=8-2m$$，\n∴$$n={{m}^{2}}+bm+c={{m}^{2}}+\\left( 8-2m \\right)m+{{\\left( 4-m \\right)}^{2}}=16$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1117,7 +1117,7 @@
   {
     "question_text": "已知$$4{{x}^{4}}+3{{x}^{3}}-2{{x}^{2}}+3x+4=0$$，则$$x+\\frac{1}{x}$$的值为．\nA. $$\\frac{5}{4}$$\nB. $$-2$$或$$\\frac{5}{4}$$\nC. $$-2$$\nD. $$\\frac{3}{4}$$",
     "answer": "B. $$-2$$或$$\\frac{5}{4}$$",
-    "solution": "∵$$4{{x}^{4}}+3{{x}^{3}}-2{{x}^{2}}+3x+4={{(1+x)}^{2}}(4{{x}^{2}}-5x+4)=0$$，  ∴$$1+x=0$$或$$4{{x}^{2}}-5x+4=0$$，  当$$1+x=0$$，则$$x=-1$$，∴$$x+\\frac{1}{x}=-2$$．  当$$4{{x}^{2}}-5x+4=0$$，两边同时除以$$x$$，得$$4x-5+\\frac {4}{x}=0$$，  ∴$$4\\left (x+\\frac {1}{x}\\right )=5$$，  ∴$$x+\\frac {1}{x}=\\frac {5}{4}$$.\n<p>原方程化为$$4\\left( {{x}^{2}}+\\frac{1}{{{x}^{2}}} \\right)+3\\left( x+\\frac{1}{x} \\right)-2=0$$．</p>\n<p>故选$$\\text{B}$$．</p>",
+    "solution": "∵$$4{{x}^{4}}+3{{x}^{3}}-2{{x}^{2}}+3x+4={{(1+x)}^{2}}(4{{x}^{2}}-5x+4)=0$$，  ∴$$1+x=0$$或$$4{{x}^{2}}-5x+4=0$$，  当$$1+x=0$$，则$$x=-1$$，∴$$x+\\frac{1}{x}=-2$$．  当$$4{{x}^{2}}-5x+4=0$$，两边同时除以$$x$$，得$$4x-5+\\frac {4}{x}=0$$，  ∴$$4\\left (x+\\frac {1}{x}\\right )=5$$，  ∴$$x+\\frac {1}{x}=\\frac {5}{4}$$.\n原方程化为$$4\\left( {{x}^{2}}+\\frac{1}{{{x}^{2}}} \\right)+3\\left( x+\\frac{1}{x} \\right)-2=0$$．\n故选$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1233,7 +1233,7 @@
   {
     "question_text": "若$${{x}_{0}}$$是一元二次方程$$a{{x}^{2}}+bx+c=0(a\\ne 0)$$的根，则判别式$$\\Delta ={{b}^{2}}-4ac$$与平方式$$M={{(2a{{x}_{0}}+b)}^{2}}$$的大小关系是．\nA. $$\\Delta \\textgreater M$$\nB. $$\\Delta =M$$\nC. $$\\Delta \\textless{}M$$\nD. 不能确定",
     "answer": "B. $$\\Delta =M$$",
-    "solution": "把$${{x}_{0}}$$代入方程$$a{{x}^{2}}+bx+c=0$$中得$$ax_{0}^{2}+b{{x}_{0}}=-c$$，  ∵$${{(2a{{x}_{0}}+b)}^{2}}=4{{a}^{2}}x_{0}^{2}+4ab{{x}_{0}}+{{b}^{2}}$$，  ∴$${{(2a{{x}_{0}}+b)}^{2}}=4a(a{{x}_{0}}^{2}+b{{x}_{0}})+{{b}^{2}}=-4ac+{{b}^{2}}=\\Delta $$，  ∴$$M=\\Delta $$．  故选$$\\text{B}$$．\n<p>∵$$x_0$$是一元二次方程$$a{{x}^{2}}+bx+c=0(a\\ne 0)$$的根，</p>\n<p>&there4;$${{x}_{0}}=\\frac{-b\\pm \\sqrt{{{b}^{2}}-4ac}}{2a}$$，</p>\n<p>&there4;$${{b}^{2}}-4ac={{(2a{{x}_{0}}+b)}^{2}}$$，</p>\n<p>&there4;$$\\Delta =M$$．</p>\n<p>故选$$\\text{B}$$．</p>",
+    "solution": "把$${{x}_{0}}$$代入方程$$a{{x}^{2}}+bx+c=0$$中得$$ax_{0}^{2}+b{{x}_{0}}=-c$$，  ∵$${{(2a{{x}_{0}}+b)}^{2}}=4{{a}^{2}}x_{0}^{2}+4ab{{x}_{0}}+{{b}^{2}}$$，  ∴$${{(2a{{x}_{0}}+b)}^{2}}=4a(a{{x}_{0}}^{2}+b{{x}_{0}})+{{b}^{2}}=-4ac+{{b}^{2}}=\\Delta $$，  ∴$$M=\\Delta $$．  故选$$\\text{B}$$．\n∵$$x_0$$是一元二次方程$$a{{x}^{2}}+bx+c=0(a\\ne 0)$$的根，\n∴$${{x}_{0}}=\\frac{-b\\pm \\sqrt{{{b}^{2}}-4ac}}{2a}$$，\n∴$${{b}^{2}}-4ac={{(2a{{x}_{0}}+b)}^{2}}$$，\n∴$$\\Delta =M$$．\n故选$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1273,7 +1273,7 @@
   {
     "question_text": "若$${{x}_{1}},{{x}_{2}}$$是方程$${{x}^{2}}-2mx+{{m}^{2}}-m-1=0$$的两个根，且$${{x}_{1}}+{{x}_{2}}=1-{{x}_{1}},{{x}_{2}}$$，则$$m$$的值为（  ）\nA. $$-1$$或$$2$$\nB. $$1$$或$$-2$$\nC. $$-2$$\nD. $$1$$",
     "answer": "D. $$1$$",
-    "solution": "根据韦达定理，$${{x}_{1}}+{{x}_{2}}=2m$$，$${{x}_{1}},{{x}_{2}}={{m}^{2}}-m-1$$．  $${{x}_{1}}+{{x}_{2}}=1-{{x}_{1}},{{x}_{2}}$$，  ∴$$2m=1-({{m}^{2}}-m-1)$$，  解得$$m=-2$$或$$1$$，  而$$\\Delta =4{{m}^{2}}-4({{m}^{2}}-m-1)\\geqslant0$$，  ∴$$m\\textgreater-1$$．\n<p>∵$${{x}_{1}}$$，$${{x}_{2}}$$是方程$${{x}^{2}}-2mx+{{m}^{2}}-m-1=0$$两个根，</p>\n<p>&there4;$${{x}_{1}}+{{x}_{2}}=2m$$，$${{x}_{1}}\\cdot {{x}_{2}}={{m}^{2}}-m-1$$．</p>\n<p>∵$${{x}_{1}}+{{x}_{2}}=1-{{x}_{1}},{{x}_{2}}$$，</p>\n<p>&there4;$$2m=1-({{m}^{2}}-m-1)$$，即$${{m}^{2}}+m-2=0$$，</p>\n<p>解得：$${{m}_{1}}=-2$$，$${{m}_{2}}=1$$．</p>\n<p>∵方程$${{x}^{2}}-2mx+{{m}^{2}}-m-1=0$$有实数根，</p>\n<p>&there4;$$\\Delta ={{(-2m)}^{2}}-4({{m}^{2}}-m-1)=4m+4\\geqslant 0$$，</p>\n<p>解得：$$m\\geqslant -1$$．</p>\n<p>&there4;$$m=1$$．</p>\n<p>故选$$\\text{D}$$．</p>",
+    "solution": "根据韦达定理，$${{x}_{1}}+{{x}_{2}}=2m$$，$${{x}_{1}},{{x}_{2}}={{m}^{2}}-m-1$$．  $${{x}_{1}}+{{x}_{2}}=1-{{x}_{1}},{{x}_{2}}$$，  ∴$$2m=1-({{m}^{2}}-m-1)$$，  解得$$m=-2$$或$$1$$，  而$$\\Delta =4{{m}^{2}}-4({{m}^{2}}-m-1)\\geqslant0$$，  ∴$$m\\textgreater-1$$．\n∵$${{x}_{1}}$$，$${{x}_{2}}$$是方程$${{x}^{2}}-2mx+{{m}^{2}}-m-1=0$$两个根，\n∴$${{x}_{1}}+{{x}_{2}}=2m$$，$${{x}_{1}}\\cdot {{x}_{2}}={{m}^{2}}-m-1$$．\n∵$${{x}_{1}}+{{x}_{2}}=1-{{x}_{1}}{{x}_{2}}$$，\n∴$$2m=1-({{m}^{2}}-m-1)$$，即$${{m}^{2}}+m-2=0$$，\n解得：$${{m}_{1}}=-2$$，$${{m}_{2}}=1$$．\n∵方程$${{x}^{2}}-2mx+{{m}^{2}}-m-1=0$$有实数根，\n∴$$\\Delta ={{(-2m)}^{2}}-4({{m}^{2}}-m-1)=4m+4\\geqslant 0$$，\n解得：$$m\\geqslant -1$$．\n∴$$m=1$$．\n故选$$\\text{D}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1391,7 +1391,7 @@
   {
     "question_text": "若$$\\frac{a}{b}=20$$，$$\\frac{b}{c}=10$$，则$$\\frac{a+b}{b+c}$$的值为．\nA. $$\\frac{11}{21}$$\nB. $$\\frac{21}{11}$$\nC. $$\\frac{110}{21}$$\nD. $$\\frac{210}{11}$$",
     "answer": "D. $$\\frac{210}{11}$$",
-    "solution": "由$$\\begin{cases}\\dfrac{a}{b}=20    \\dfrac{b}{c}=10 \\end{cases}$$，得$$\\begin{cases}a=20b    b=10c \\end{cases}$$，  则$$\\frac{a+b}{b+c}=\\frac{20b+b}{10c+c}=\\frac{21b}{11c}=\\frac{21\\cdot 10c}{11c}=\\frac{210}{11}$$．\n<p>$$\\frac{a+b}{b+c}=\\frac{\\dfrac{a},{b}+1}{1+\\dfrac{c}{b}}=\\frac{20+1}{1+\\dfrac{1}{10}}=\\frac{210}{11}$$．</p>\n<p>故选$$\\text{D}$$．</p>",
+    "solution": "由$$\\begin{cases}\\dfrac{a}{b}=20    \\dfrac{b}{c}=10 \\end{cases}$$，得$$\\begin{cases}a=20b    b=10c \\end{cases}$$，  则$$\\frac{a+b}{b+c}=\\frac{20b+b}{10c+c}=\\frac{21b}{11c}=\\frac{21\\cdot 10c}{11c}=\\frac{210}{11}$$．\n$$\\frac{a+b}{b+c}=\\frac{\\dfrac{a}{b}+1}{1+\\dfrac{c}{b}}=\\frac{20+1}{1+\\dfrac{1}{10}}=\\frac{210}{11}$$．\n故选$$\\text{D}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1412,9 +1412,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "若关于\\emph{x}的不等式组$\\left {\\begin{array},{c} 3-2x\\geq 1   x\\geq m+1 \\end{array}\\right.$共有2个整数解，则\\emph{m}的取值范围是（~~~~~~~）\nA. $m=-1$\nB. $-2\\textless{} m\\leq -1$\nC. $-2\\leq m\\leq -1$\nD. $m\\textless{} -1$",
+    "question_text": "若关于\\emph{x}的不等式组$\\left {\\begin{array}{c} 3-2x\\geq 1   x\\geq m+1 \\end{array}\\right.$共有2个整数解，则\\emph{m}的取值范围是（~~~~~~~）\nA. $m=-1$\nB. $-2\\textless{} m\\leq -1$\nC. $-2\\leq m\\leq -1$\nD. $m\\textless{} -1$",
     "answer": "B. $-2\\textless{} m\\leq -1$",
-    "solution": "\\hfill\\break 【分析】\\\\ 先解不等式$3-2x\\geq 1$，得$x\\leq 1$，结合不等式组的整数解的情况，得出关于\\emph{m}的不等式组，求解即可．\\\\ 【详解】\\\\ 解不等式$3-2x\\geq 1$，得$x\\leq 1$，\\\\ ∵关于\\emph{x}的不等式组$\\left {\\begin{array},{c} 3-2x\\geq 1   x\\geq m+1 \\end{array}\\right.$共有2个整数解，\\\\ ∴这两个整数解为$0,1$，\\\\ ∴$-1\\textless{} m+1\\leq 0$，\\\\ 解得$-2\\textless{} m\\leq -1$，\\\\ 故选：B．\\\\ 【点睛】\\\\ 本题考查一元一次不等式组的整数解，解答本题的关键是明确题意，得出关于\\emph{m}的不等式组．",
+    "solution": "\\hfill\\break 【分析】\\\\ 先解不等式$3-2x\\geq 1$，得$x\\leq 1$，结合不等式组的整数解的情况，得出关于\\emph{m}的不等式组，求解即可．\\\\ 【详解】\\\\ 解不等式$3-2x\\geq 1$，得$x\\leq 1$，\\\\ ∵关于\\emph{x}的不等式组$\\left {\\begin{array}{c} 3-2x\\geq 1   x\\geq m+1 \\end{array}\\right.$共有2个整数解，\\\\ ∴这两个整数解为$0,1$，\\\\ ∴$-1\\textless{} m+1\\leq 0$，\\\\ 解得$-2\\textless{} m\\leq -1$，\\\\ 故选：B．\\\\ 【点睛】\\\\ 本题考查一元一次不等式组的整数解，解答本题的关键是明确题意，得出关于\\emph{m}的不等式组．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1455,7 +1455,7 @@
   {
     "question_text": "下列计算正确的是（~~~~~~~）\nA. $$3{{x}^{3}}\\cdot 2{{x}^{2}}y=6{{x}^{5}}$$\nB. $$2{{a}^{2}}\\cdot 3{{a}^{3}}=6{{a}^{5}}$$\nC. $$(-2x)\\cdot \\left( -5{{x}^{2}}y \\right)=-10{{x}^{3}}y$$\nD. $$(-2xy)\\cdot \\left( -3{{x}^{2}}y \\right)=6{{x}^{3}}y$$",
     "answer": "B. $$2{{a}^{2}}\\cdot 3{{a}^{3}}=6{{a}^{5}}$$",
-    "solution": "\\hfill\\break 【分析】\\\\ 根据单项式乘单项式、同底数幂的运算法则逐一计算即可得出答案．\\\\ 【详解】\\\\ 解：A.$$3{{x}^{3}}\\cdot 2{{x}^{2}}y=6{{x}^{5}}y$$，计算错误，不符合题意；\\\\ B.$$2{{a}^{2}}\\cdot 3{{a}^{3}}=6{{a}^{5}}$$，计算正确，符合题意；\\\\ C.$$(-2x)\\cdot \\left( -5{{x}^{2}}y \\right)=10{{x}^{3}}y$$，计算错误，不符合题意；\\\\ D.$$(-2xy)\\cdot \\left( -3{{x}^{2}}y \\right)=6{{x}^{3}},{{y}^{2}}$$ ，计算错误，不符合题意；\\\\ 故选B．\\\\ 【点睛】\\\\ 本题考查了单项式乘单项式、同底数幂，熟练掌握运算法则是解题的关键．",
+    "solution": "\\hfill\\break 【分析】\\\\ 根据单项式乘单项式、同底数幂的运算法则逐一计算即可得出答案．\\\\ 【详解】\\\\ 解：A.$$3{{x}^{3}}\\cdot 2{{x}^{2}}y=6{{x}^{5}}y$$，计算错误，不符合题意；\\\\ B.$$2{{a}^{2}}\\cdot 3{{a}^{3}}=6{{a}^{5}}$$，计算正确，符合题意；\\\\ C.$$(-2x)\\cdot \\left( -5{{x}^{2}}y \\right)=10{{x}^{3}}y$$，计算错误，不符合题意；\\\\ D.$$(-2xy)\\cdot \\left( -3{{x}^{2}}y \\right)=6{{x}^{3}}{{y}^{2}}$$ ，计算错误，不符合题意；\\\\ 故选B．\\\\ 【点睛】\\\\ 本题考查了单项式乘单项式、同底数幂，熟练掌握运算法则是解题的关键．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1598,7 +1598,7 @@
   {
     "question_text": "方程$${{x}^{2}}+2xy+3{{y}^{2}}=34$$的整数解$$(x,y)$$的组数为（~ ）．\nA. $$3$$\nB. $$4$$\nC. $$5$$\nD. $$6$$",
     "answer": "B. $$4$$",
-    "solution": "方程变形得：$${{(x+y)}^{2}}+2{{y}^{2}}=34$$，  ∵$$34$$与$$2{{y}^{2}}$$是偶数，  ∴$$x+y$$必须是偶数，  设$$x+y=2t$$，  则原方程变为：$${{(2t)}^{2}}+2{{y}^{2}}=34$$，  ∴$$2{{t}^{2}}+{{y}^{2}}=17$$，  它的整数解为$$\\begin{cases}t=\\pm 2    y=\\pm 3 \\end{cases}$$，  则当$$y=3$$，$$t=2$$时，$$x=1$$；  当$$y=3$$，$$t=-2$$时，$$x=-7$$；  当$$y=-3$$，$$t=2$$时，$$x=7$$；  当$$y=-3$$，$$t=-2$$时，$$x=-1$$．  ∴原方程的整数解为：$$(1,3)$$，$$(-7,3)$$，$$(7,-3)$$，$$(-1,-3)$$共$$4$$组．\n<p>$${{\\left( x+y \\right)}^{2}}+2{{y}^{2}}=34$$ 尝试可知，$${{\\left( x+y \\right)}^{2}}=16$$，$$ {{y}^{2}}=9$$，</p>\n<p>&there4;$$\\begin{cases}x=1 \\\\ y=3 \\\\\\end{cases}$$，$$\\begin{cases}x=-1 \\\\ y=-3 \\\\\\end{cases}$$，$$\\begin{cases}x=7 \\\\ y=-3 \\\\\\end{cases}$$，$$\\begin{cases}x=-7 \\\\ y=3 \\\\\\end{cases}$$．</p>\n<p>故选$$\\text{B}$$．</p>",
+    "solution": "方程变形得：$${{(x+y)}^{2}}+2{{y}^{2}}=34$$，  ∵$$34$$与$$2{{y}^{2}}$$是偶数，  ∴$$x+y$$必须是偶数，  设$$x+y=2t$$，  则原方程变为：$${{(2t)}^{2}}+2{{y}^{2}}=34$$，  ∴$$2{{t}^{2}}+{{y}^{2}}=17$$，  它的整数解为$$\\begin{cases}t=\\pm 2    y=\\pm 3 \\end{cases}$$，  则当$$y=3$$，$$t=2$$时，$$x=1$$；  当$$y=3$$，$$t=-2$$时，$$x=-7$$；  当$$y=-3$$，$$t=2$$时，$$x=7$$；  当$$y=-3$$，$$t=-2$$时，$$x=-1$$．  ∴原方程的整数解为：$$(1,3)$$，$$(-7,3)$$，$$(7,-3)$$，$$(-1,-3)$$共$$4$$组．\n$${{\\left( x+y \\right)}^{2}}+2{{y}^{2}}=34$$ 尝试可知，$${{\\left( x+y \\right)}^{2}}=16$$，$$ {{y}^{2}}=9$$，\n∴$$\\begin{cases}x=1 \\\\ y=3 \\\\\\end{cases}$$，$$\\begin{cases}x=-1 \\\\ y=-3 \\\\\\end{cases}$$，$$\\begin{cases}x=7 \\\\ y=-3 \\\\\\end{cases}$$，$$\\begin{cases}x=-7 \\\\ y=3 \\\\\\end{cases}$$．\n故选$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1616,9 +1616,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$\\triangle ABC$$三边长分别为$$a$$，$$b$$，$$c$$，面积为$$s$$．$$\\triangle {{A}^{\\prime }},{{B}^{\\prime }},{{C}^{\\prime }}$$的三边长分别为$${{a}^{\\prime }}$$、$${{b}^{\\prime }}$$、$${{c}^{\\prime }}$$，面积为$${{s}^{\\prime }}$$，且$$a\\textgreater{{a}^{\\prime }}$$，$$b\\textgreater{{b}^{\\prime }}$$，$$c\\textgreater{{c}^{\\prime }}$$，则$$s$$与$${{s}^{\\prime }}$$的大小关系一定是（~ ）．\nA. $$s\\textgreater{{s}^{\\prime }}$$\nB. $$s\\textless{},{{s}^{\\prime }}$$\nC. $$s={{s}^{\\prime }}$$\nD. 不确定",
+    "question_text": "已知$$\\triangle ABC$$三边长分别为$$a$$，$$b$$，$$c$$，面积为$$s$$．$$\\triangle {{A}^{\\prime }}{{B}^{\\prime }}{{C}^{\\prime }}$$的三边长分别为$${{a}^{\\prime }}$$、$${{b}^{\\prime }}$$、$${{c}^{\\prime }}$$，面积为$${{s}^{\\prime }}$$，且$$a\\textgreater{{a}^{\\prime }}$$，$$b\\textgreater{{b}^{\\prime }}$$，$$c\\textgreater{{c}^{\\prime }}$$，则$$s$$与$${{s}^{\\prime }}$$的大小关系一定是（~ ）．\nA. $$s\\textgreater{{s}^{\\prime }}$$\nB. $$s\\textless{}{{s}^{\\prime }}$$\nC. $$s={{s}^{\\prime }}$$\nD. 不确定",
     "answer": "D. 不确定",
-    "solution": "分别构造$$\\triangle ABC$$与$$\\triangle {{A}^{\\prime }},{{B}^{\\prime }},{{C}^{\\prime }}$$如下：  ①作$$\\triangle ABC\\backsim \\triangle {{A}^{\\prime }},{{B}^{\\prime }},{{C}^{\\prime }}$$，显然$$\\frac{s}{{{s}^{\\prime }}}={{\\left( \\frac{a}{{{a}^{\\prime }}} \\right)}^{2}}\\textgreater1$$，  ∴$$s\\textgreater{{s}^{\\prime }}$$．  ②设$$a=b=\\sqrt{101}$$，$$c=20$$，则$${{h}_{c}}=1$$，$$s=10$$，  设$${{a}^{\\prime }}={{b}^{\\prime }}={{c}^{\\prime }}=10$$，则$${{s}^{\\prime }}=\\frac{\\sqrt{3}}{4}\\times 100\\textgreater10$$，  ∴$$s\\textless{},{{s}^{\\prime }}$$．  ③设$$a=b=\\sqrt{101}$$，$$c=20$$，则$${{h}_{c}}=1$$，$$s=10$$，  $${{a}^{\\prime }}={{b}^{\\prime }}=\\sqrt{29}$$，$${{c}^{\\prime }}=10$$，则$${{h}_{c}}=2$$，$${{s}^{\\prime }}=10$$，  ∴$$s={{s}^{\\prime }}$$，  ∴$$s$$与$${{s}^{\\prime }}$$的大小关系不确定．",
+    "solution": "分别构造$$\\triangle ABC$$与$$\\triangle {{A}^{\\prime }}{{B}^{\\prime }}{{C}^{\\prime }}$$如下：  ①作$$\\triangle ABC\\backsim \\triangle {{A}^{\\prime }}{{B}^{\\prime }}{{C}^{\\prime }}$$，显然$$\\frac{s}{{{s}^{\\prime }}}={{\\left( \\frac{a}{{{a}^{\\prime }}} \\right)}^{2}}\\textgreater1$$，  ∴$$s\\textgreater{{s}^{\\prime }}$$．  ②设$$a=b=\\sqrt{101}$$，$$c=20$$，则$${{h}_{c}}=1$$，$$s=10$$，  设$${{a}^{\\prime }}={{b}^{\\prime }}={{c}^{\\prime }}=10$$，则$${{s}^{\\prime }}=\\frac{\\sqrt{3}}{4}\\times 100\\textgreater10$$，  ∴$$s\\textless{}{{s}^{\\prime }}$$．  ③设$$a=b=\\sqrt{101}$$，$$c=20$$，则$${{h}_{c}}=1$$，$$s=10$$，  $${{a}^{\\prime }}={{b}^{\\prime }}=\\sqrt{29}$$，$${{c}^{\\prime }}=10$$，则$${{h}_{c}}=2$$，$${{s}^{\\prime }}=10$$，  ∴$$s={{s}^{\\prime }}$$，  ∴$$s$$与$${{s}^{\\prime }}$$的大小关系不确定．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",

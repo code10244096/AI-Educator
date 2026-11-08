@@ -66,9 +66,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知有如下一组$$x$$，$$y$$和$$z$$的单项式：  $$7{{x}^{3}},{{z}^{2}}$$，$$8{{x}^{3}}y$$，$$\\frac{1}{2},{{x}^{2}}yz$$，$$-3x{{y}^{2}}z$$，$$9{{x}^{4}}yz$$，$$z{{y}^{2}}$$，$$-\\frac{1}{5}xyz$$，$$9{{y}^{3}}z$$，$$x{{z}^{2}}y$$，$$0.3{{z}^{3}}$$  我们用下面的方法确定它们的先后次序：对任意两个单项式，先看$$x$$的幂次，规定$$x$$的幂次高的单项式排在$$x$$的幂次低的单项式的前面；再看$$y$$的幂次．规定$$y$$的幂次高的排在$$y$$的幂次低的前面；再看$$z$$的幂次，规定$$z$$的幂次高的排在$$z$$的幂次低的前面．将这组单项式按上述法则排序，那么$$9{{y}^{3}}z$$应排在（~ ）．\nA. 第$$2$$位\nB. 第$$4$$位\nC. 第$$6$$位\nD. 第$$8$$位",
+    "question_text": "已知有如下一组$$x$$，$$y$$和$$z$$的单项式：  $$7{{x}^{3}}{{z}^{2}}$$，$$8{{x}^{3}}y$$，$$\\frac{1}{2},{{x}^{2}}yz$$，$$-3x{{y}^{2}}z$$，$$9{{x}^{4}}yz$$，$$z{{y}^{2}}$$，$$-\\frac{1}{5}xyz$$，$$9{{y}^{3}}z$$，$$x{{z}^{2}}y$$，$$0.3{{z}^{3}}$$  我们用下面的方法确定它们的先后次序：对任意两个单项式，先看$$x$$的幂次，规定$$x$$的幂次高的单项式排在$$x$$的幂次低的单项式的前面；再看$$y$$的幂次．规定$$y$$的幂次高的排在$$y$$的幂次低的前面；再看$$z$$的幂次，规定$$z$$的幂次高的排在$$z$$的幂次低的前面．将这组单项式按上述法则排序，那么$$9{{y}^{3}}z$$应排在（~ ）．\nA. 第$$2$$位\nB. 第$$4$$位\nC. 第$$6$$位\nD. 第$$8$$位",
     "answer": "D. 第$$8$$位",
-    "solution": "按照题意把这几个单项式排列如下：  $$9{{x}^{4}}zy$$，$$8{{x}^{3}}y$$，$$7{{x}^{3}},{{z}^{2}}$$，$$\\frac{1}{2},{{x}^{2}}yz$$，$$-3x{{y}^{2}}z$$，$$-\\frac{1}{5}xyz$$，$$x{{z}^{2}}y$$，$$9{{y}^{3}}z$$，$$z{{y}^{2}}$$，$$3{{z}^{3}}$$，$$0$$．  ∴$$9{{y}^{3}}z$$应排在第$$8$$位．",
+    "solution": "按照题意把这几个单项式排列如下：  $$9{{x}^{4}}zy$$，$$8{{x}^{3}}y$$，$$7{{x}^{3}}{{z}^{2}}$$，$$\\frac{1}{2},{{x}^{2}}yz$$，$$-3x{{y}^{2}}z$$，$$-\\frac{1}{5}xyz$$，$$x{{z}^{2}}y$$，$$9{{y}^{3}}z$$，$$z{{y}^{2}}$$，$$3{{z}^{3}}$$，$$0$$．  ∴$$9{{y}^{3}}z$$应排在第$$8$$位．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -273,9 +273,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "如果一个多项式的各项的次数都相同，则称该多项式为齐次多项式．例如：$${{x}^{3}}+2x{{y}^{2}}+2xyz+{{y}^{3}}$$是$$3$$次齐次多项式．若$${{x}^{m+2}},{{y}^{2}}+3x{{y}^{3}},{{z}^{2}}$$是齐次多项式，则$$m$$等于．\nA. $$1$$\nB. $$2$$\nC. $$3$$\nD. $$4$$",
+    "question_text": "如果一个多项式的各项的次数都相同，则称该多项式为齐次多项式．例如：$${{x}^{3}}+2x{{y}^{2}}+2xyz+{{y}^{3}}$$是$$3$$次齐次多项式．若$${{x}^{m+2}}{{y}^{2}}+3x{{y}^{3}}{{z}^{2}}$$是齐次多项式，则$$m$$等于．\nA. $$1$$\nB. $$2$$\nC. $$3$$\nD. $$4$$",
     "answer": "B. $$2$$",
-    "solution": "因为$${{x}^{m+2}},{{y}^{2}}+3x{{y}^{3}},{{z}^{2}}$$是齐次多项式，并且第二个单项式的次数为$$6$$，  所以$$m+2+2=6$$，即$$m=2$$．  故选$$\\text{B}$$．",
+    "solution": "因为$${{x}^{m+2}}{{y}^{2}}+3x{{y}^{3}}{{z}^{2}}$$是齐次多项式，并且第二个单项式的次数为$$6$$，  所以$$m+2+2=6$$，即$$m=2$$．  故选$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -762,7 +762,7 @@
   {
     "question_text": "甲的$$6$$张卡片上分别写有$$-4$$，$$-1$$，$$-2.5$$，$$-0.01$$，$$-3\\frac{3}{4}$$，$$-15$$，乙的$$6$$张卡片上分别写有$$-5$$，$$-1$$，$$0.1$$，$$-0.001$$，$$-8$$，$$-12\\frac{1}{2}$$，则乙的卡片上的最小数$$a$$与甲的卡片上的最大数$$b$$的比$$\\frac{a}{b}$$的值等于（~ ）．\nA. $$1250$$\nB. $$0$$\nC. $$0.1$$\nD. $$800$$",
     "answer": "A. $$1250$$",
-    "solution": "观察知，乙的卡片上的最小数$$a=-12\\frac{1}{2}$$，甲的卡片上的最大数$$b=-0.01$$．  所以$$\\frac{a}{b}=\\frac{-12\\frac{1},{2}}{-0.01}=1250$$．",
+    "solution": "观察知，乙的卡片上的最小数$$a=-12\\frac{1}{2}$$，甲的卡片上的最大数$$b=-0.01$$．  所以$$\\frac{a}{b}=\\frac{-12\\frac{1}{2}}{-0.01}=1250$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -863,7 +863,7 @@
   {
     "question_text": "身高两两不同的$$30$$个学生向老师站成一排．其中恰有$$11$$个学生高于自己左侧相邻的同学．那么高于自己右侧相邻学生的学生有（~ ）人．\nA. $$11$$\nB. $$12$$\nC. $$18$$\nD. $$19$$",
     "answer": "C. $$18$$",
-    "solution": "$$30$$个学生，从左向右数有$$29$$个相邻组$$({{a}_{i}},{{a}_{i+1}})$$，$$i=1$$，$$2$$，$$\\cdots $$，$$29$$．  因为已知$${{a}_{i}}\\textless{},{{a}_{i+1}}$$的有$$11$$对，  所以$${{a}_{i}}\\textgreater{{a}_{i+1}}$$的有$$29-11=18$$（对）．\n<p>$$30$$人有$$29$$对相邻的同学</p>\n<p>其中有$$11$$对右侧高</p>\n<p>则有$$18$$对左侧高</p>",
+    "solution": "$$30$$个学生，从左向右数有$$29$$个相邻组$$({{a}_{i}},{{a}_{i+1}})$$，$$i=1$$，$$2$$，$$\\cdots $$，$$29$$．  因为已知$${{a}_{i}}\\textless{}{{a}_{i+1}}$$的有$$11$$对，  所以$${{a}_{i}}\\textgreater{{a}_{i+1}}$$的有$$29-11=18$$（对）．\n$$30$$人有$$29$$对相邻的同学\n其中有$$11$$对右侧高\n则有$$18$$对左侧高",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -884,9 +884,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知方程组$$\\begin{cases},{{a}_{1}}x+{{b}_{1}}y={{c}_{1}},{{a}_{2}}x+{{b}_{2}}y={{c}_{1}}   \\end{cases}$$的解是$$\\begin{cases}x=6    y=8   \\end{cases}$$，则方程组$$\\begin{cases}3{{a}_{1}}x+4{{b}_{1}}y=5{{c}_{1}}    3{{a}_{2}}x+4{{b}_{2}}y=5{{c}_{1}}   \\end{cases}$$的解是．\nA. $$\\begin{cases}x=6    y=8   \\end{cases}$$\nB. $$\\begin{cases}x=8    y=6   \\end{cases}$$\nC. $$\\begin{cases}x=8    y=10   \\end{cases}$$\nD. $$\\begin{cases}x=10    y=10   \\end{cases}$$",
+    "question_text": "已知方程组$$\\begin{cases}{{a}_{1}}x+{{b}_{1}}y={{c}_{1}},{{a}_{2}}x+{{b}_{2}}y={{c}_{1}}   \\end{cases}$$的解是$$\\begin{cases}x=6    y=8   \\end{cases}$$，则方程组$$\\begin{cases}3{{a}_{1}}x+4{{b}_{1}}y=5{{c}_{1}}    3{{a}_{2}}x+4{{b}_{2}}y=5{{c}_{1}}   \\end{cases}$$的解是．\nA. $$\\begin{cases}x=6    y=8   \\end{cases}$$\nB. $$\\begin{cases}x=8    y=6   \\end{cases}$$\nC. $$\\begin{cases}x=8    y=10   \\end{cases}$$\nD. $$\\begin{cases}x=10    y=10   \\end{cases}$$",
     "answer": "D. $$\\begin{cases}x=10    y=10   \\end{cases}$$",
-    "solution": "方程组$$\\begin{cases}3{{a}_{1}}x+4{{b}_{1}}y=5{{c}_{1}}    3{{a}_{2}}x+4{{b}_{2}}y=5{{c}_{1}}   \\end{cases}$$可化为：  $$\\begin{cases},{{a}_{1}}\\cdot \\dfrac{3}{5}x+{{b}_{1}}\\cdot \\dfrac{4}{5}y={{c}_{1}},{{a}_{2}}\\cdot \\dfrac{3}{5}x+{{b}_{2}}\\cdot \\dfrac{4}{5}y={{c}_{1}}   \\end{cases}$$，  ∵方程组$$\\begin{cases},{{a}_{1}}x+{{b}_{1}}y={{c}_{1}},{{a}_{2}}x+{{b}_{2}}y={{c}_{1}}   \\end{cases}$$的解是$$\\begin{cases}x=6    y=8   \\end{cases}$$，  ∴$$\\begin{cases}\\dfrac{3}{5}x=6    \\dfrac{4}{5}y=8   \\end{cases}$$，  ∴$$\\begin{cases}x=10    y=10   \\end{cases}$$．  故选$$\\text{D}$$．",
+    "solution": "方程组$$\\begin{cases}3{{a}_{1}}x+4{{b}_{1}}y=5{{c}_{1}}    3{{a}_{2}}x+4{{b}_{2}}y=5{{c}_{1}}   \\end{cases}$$可化为：  $$\\begin{cases}{{a}_{1}}\\cdot \\dfrac{3}{5}x+{{b}_{1}}\\cdot \\dfrac{4}{5}y={{c}_{1}},{{a}_{2}}\\cdot \\dfrac{3}{5}x+{{b}_{2}}\\cdot \\dfrac{4}{5}y={{c}_{1}}   \\end{cases}$$，  ∵方程组$$\\begin{cases}{{a}_{1}}x+{{b}_{1}}y={{c}_{1}},{{a}_{2}}x+{{b}_{2}}y={{c}_{1}}   \\end{cases}$$的解是$$\\begin{cases}x=6    y=8   \\end{cases}$$，  ∴$$\\begin{cases}\\dfrac{3}{5}x=6    \\dfrac{4}{5}y=8   \\end{cases}$$，  ∴$$\\begin{cases}x=10    y=10   \\end{cases}$$．  故选$$\\text{D}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -935,7 +935,7 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "单项式$$3{{x}^{2m}},{{y}^{n-1}}$$与单项式$$-\\frac{1}{2},{{x}^{2}}y$$是同类项，则$$m-2n$$的值为．\nA. $$1$$\nB. $$0$$\nC. $$-1$$\nD. $$-3$$",
+    "question_text": "单项式$$3{{x}^{2m}}{{y}^{n-1}}$$与单项式$$-\\frac{1}{2},{{x}^{2}}y$$是同类项，则$$m-2n$$的值为．\nA. $$1$$\nB. $$0$$\nC. $$-1$$\nD. $$-3$$",
     "answer": "C. $$-1$$",
     "solution": "由题意，得：  $$2m=2$$，$$n-1=1$$．  ∴$$m=1$$，$$n=2$$．  ∴$$m-2n=1-2\\times 1=-1$$．  故选$$\\text{C}$$．",
     "question_type": "选择题",
@@ -1335,7 +1335,7 @@
   {
     "question_text": "已知$$a$$、$$b$$、$$c$$满足$${{a}^{2}}+2b=7$$，$${{b}^{2}}-2c=-1$$，$${{c}^{2}}-6a=-17$$，则$$a+b+c$$的值等于．\nA. $$2$$\nB. $$3$$\nC. $$4$$\nD. $$5$$",
     "answer": "B. $$3$$",
-    "solution": "∵$$\\begin{cases},{{a}^{2}}+2b=7①    {{b}^{2}}-2c=-1 ②   {{c}^{2}}-6a=-17③ \\end{cases}$$  ∴①$$+$$②$$+$$③得，$${{a}^{2}}+2b+{{b}^{2}}-2c+{{c}^{2}}-6a=-11$$  $${{a}^{2}}-6a+9+{{b}^{2}}+2b+1+{{c}^{2}}-2c+1=0$$  $${{(a-3)}^{2}}+{{(b+1)}^{2}}+{{(c-1)}^{2}}=0$$  ∴$$a-3=0$$，$$b+1=0$$，$$c-1=0$$  ∴$$a=3$$，$$b=-1$$，$$c=1$$  ∴$$a+b+c=3$$．",
+    "solution": "∵$$\\begin{cases}{{a}^{2}}+2b=7①    {{b}^{2}}-2c=-1 ②   {{c}^{2}}-6a=-17③ \\end{cases}$$  ∴①$$+$$②$$+$$③得，$${{a}^{2}}+2b+{{b}^{2}}-2c+{{c}^{2}}-6a=-11$$  $${{a}^{2}}-6a+9+{{b}^{2}}+2b+1+{{c}^{2}}-2c+1=0$$  $${{(a-3)}^{2}}+{{(b+1)}^{2}}+{{(c-1)}^{2}}=0$$  ∴$$a-3=0$$，$$b+1=0$$，$$c-1=0$$  ∴$$a=3$$，$$b=-1$$，$$c=1$$  ∴$$a+b+c=3$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1469,7 +1469,7 @@
   {
     "question_text": "方程组$$\\begin{cases}\\left\\textbar{} x \\right\\textbar+y=12    x+\\left\\textbar{} y \\right\\textbar=6   \\end{cases}$$的解的个数为．\nA. $$1$$\nB. $$2$$\nC. $$3$$\nD. $$4$$",
     "answer": "A. $$1$$",
-    "solution": "①当$$x\\textgreater0$$，$$y\\textgreater0$$时，原方程组为$$\\begin{cases}x+y=12    x+y=6   \\end{cases}$$显然无解；  ②当$$x ~\\textless{} ~0$$，$$y\\textgreater0$$时，原方程组为$$\\begin{cases}-x+y=12    x+y=6   \\end{cases}$$，解得$$\\begin{cases}x=-3    y=9   \\end{cases}$$；  ③当$$x\\textgreater0$$，$$y ~\\textless{} ~0$$时，原方程组为$$\\begin{cases}x+y=12    x-y=6   \\end{cases}$$，解得$$\\begin{cases}x=9    y=3   \\end{cases}$$，舍去；  ④当$$x ~\\textless{} ~0$$，$$y ~\\textless{} ~0$$时，原方程组为$$\\begin{cases}-x+y=12    x-y=6   \\end{cases}$$显然无解；  综上，只有$$1$$组解．故选$$\\text{A}$$．\n<p>若$$x\\geqslant 0$$，则$$\\begin{cases}x+y=12 \\\\ x+\\left| y \\right|=6 \\\\\\end{cases}$$，于是$$\\left| y \\right|-y=-6$$，显然不可能．</p>\n<p>若$$x &nbsp;&lt; &nbsp;0$$，则$$\\begin{cases}-x+y=12 \\\\ x+\\left| y \\right|=6 \\\\\\end{cases}$$，</p>\n<p>于是$$\\left| y \\right|+y=18$$，解得$$y=9$$，进而求得$$x=-3$$．</p>\n<p>所以，原方程组的解为$$\\begin{cases}x=-3 \\\\ y=9 \\\\\\end{cases}$$，只有$$1$$个解．</p>\n<p>故选$$\\text{A}$$．</p>",
+    "solution": "①当$$x\\textgreater0$$，$$y\\textgreater0$$时，原方程组为$$\\begin{cases}x+y=12    x+y=6   \\end{cases}$$显然无解；  ②当$$x ~\\textless{} ~0$$，$$y\\textgreater0$$时，原方程组为$$\\begin{cases}-x+y=12    x+y=6   \\end{cases}$$，解得$$\\begin{cases}x=-3    y=9   \\end{cases}$$；  ③当$$x\\textgreater0$$，$$y ~\\textless{} ~0$$时，原方程组为$$\\begin{cases}x+y=12    x-y=6   \\end{cases}$$，解得$$\\begin{cases}x=9    y=3   \\end{cases}$$，舍去；  ④当$$x ~\\textless{} ~0$$，$$y ~\\textless{} ~0$$时，原方程组为$$\\begin{cases}-x+y=12    x-y=6   \\end{cases}$$显然无解；  综上，只有$$1$$组解．故选$$\\text{A}$$．\n若$$x\\geqslant 0$$，则$$\\begin{cases}x+y=12 \\\\ x+\\left| y \\right|=6 \\\\\\end{cases}$$，于是$$\\left| y \\right|-y=-6$$，显然不可能．\n若$$x  <  0$$，则$$\\begin{cases}-x+y=12 \\\\ x+\\left| y \\right|=6 \\\\\\end{cases}$$，\n于是$$\\left| y \\right|+y=18$$，解得$$y=9$$，进而求得$$x=-3$$．\n所以，原方程组的解为$$\\begin{cases}x=-3 \\\\ y=9 \\\\\\end{cases}$$，只有$$1$$个解．\n故选$$\\text{A}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1579,9 +1579,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$\\left\\textbar{} x \\right\\textbar\\leqslant 3$$，$$\\left\\textbar{} y \\right\\textbar\\leqslant 1$$，$$\\left\\textbar{} z \\right\\textbar\\leqslant 4$$且$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$，则$${{x}^{2}},{{y}^{2011}},{{z}^{3}}$$的值是．\nA. $$432$$\nB. $$576$$\nC. $$-432$$\nD. $$-576$$",
+    "question_text": "已知$$\\left\\textbar{} x \\right\\textbar\\leqslant 3$$，$$\\left\\textbar{} y \\right\\textbar\\leqslant 1$$，$$\\left\\textbar{} z \\right\\textbar\\leqslant 4$$且$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$，则$${{x}^{2}}{{y}^{2011}}{{z}^{3}}$$的值是．\nA. $$432$$\nB. $$576$$\nC. $$-432$$\nD. $$-576$$",
     "answer": "D. $$-576$$",
-    "solution": "只要$$\\left\\textbar{} x \\right\\textbar\\textless{}3$$，$$\\left\\textbar{} y \\right\\textbar\\textless{}1$$，$$\\left\\textbar{} z \\right\\textbar\\textless{}4$$中至少有一个成立，  则$$\\left\\textbar{} x-2y+z \\right\\textbar\\leqslant \\left\\textbar{} x \\right\\textbar+2\\left\\textbar{} y \\right\\textbar+\\left\\textbar{} z \\right\\textbar\\textless{}9$$，  这与$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$矛盾，  所以当且仅当$$\\left\\textbar{} x \\right\\textbar=3$$，$$\\left\\textbar{} y \\right\\textbar=1$$，$$\\left\\textbar{} z \\right\\textbar=4$$同时成立时，才能满足$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$，  此时$$x=3$$，$$y=-1$$，$$z=4$$或$$x=-3$$，$$y=1$$，$$z=-4$$，  所以$${{x}^{2}},{{y}^{2011}},{{z}^{3}}={{3}^{2}}\\times {{(-1)}^{2011}}\\times {{4}^{3}}=-576$$或$${{x}^{2}},{{y}^{2011}},{{z}^{3}}={{(-3)}^{2}}\\times {{1}^{2011}}\\times {{(-4)}^{3}}=-576$$，  综上，$${{x}^{2}},{{y}^{2011}},{{z}^{3}}$$的值是$$-576$$．",
+    "solution": "只要$$\\left\\textbar{} x \\right\\textbar\\textless{}3$$，$$\\left\\textbar{} y \\right\\textbar\\textless{}1$$，$$\\left\\textbar{} z \\right\\textbar\\textless{}4$$中至少有一个成立，  则$$\\left\\textbar{} x-2y+z \\right\\textbar\\leqslant \\left\\textbar{} x \\right\\textbar+2\\left\\textbar{} y \\right\\textbar+\\left\\textbar{} z \\right\\textbar\\textless{}9$$，  这与$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$矛盾，  所以当且仅当$$\\left\\textbar{} x \\right\\textbar=3$$，$$\\left\\textbar{} y \\right\\textbar=1$$，$$\\left\\textbar{} z \\right\\textbar=4$$同时成立时，才能满足$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$，  此时$$x=3$$，$$y=-1$$，$$z=4$$或$$x=-3$$，$$y=1$$，$$z=-4$$，  所以$${{x}^{2}}{{y}^{2011}}{{z}^{3}}={{3}^{2}}\\times {{(-1)}^{2011}}\\times {{4}^{3}}=-576$$或$${{x}^{2}}{{y}^{2011}}{{z}^{3}}={{(-3)}^{2}}\\times {{1}^{2011}}\\times {{(-4)}^{3}}=-576$$，  综上，$${{x}^{2}}{{y}^{2011}}{{z}^{3}}$$的值是$$-576$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1759,7 +1759,7 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "$${{x}_{1}}$$、$${{x}_{2}}$$、$${{x}_{3}}$$、$${{x}_{4}}$$、$${{x}_{5}}$$满足方程组$$\\begin{cases},{{x}_{1}}+{{x}_{2}}+{{x}_{3}}={{a}_{1}},{{x}_{2}}+{{x}_{3}}+{{x}_{4}}={{a}_{2}},{{x}_{3}}+{{x}_{4}}+{{x}_{5}}={{a}_{3}},{{x}_{4}}+{{x}_{5}}+{{x}_{1}}={{a}_{4}},{{x}_{5}}+{{x}_{1}}+{{x}_{2}}={{a}_{5}} \\end{cases}$$，  其中$${{a}_{1}}$$、$${{a}_{2}}$$、$${{a}_{3}}$$、$${{a}_{4}}$$、$${{a}_{5}}$$是常数，且$${{a}_{1}}\\textgreater{{a}_{2}}\\textgreater{{a}_{3}}\\textgreater{{a}_{4}}\\textgreater{{a}_{5}}$$，则$${{x}_{1}}$$、$${{x}_{2}}$$、$${{x}_{3}}$$、$${{x}_{4}}$$、$${{x}_{5}}$$的大小顺序是．\nA. $${{x}_{1}}\\textgreater{{x}_{2}}\\textgreater{{x}_{3}}\\textgreater{{x}_{4}}\\textgreater{{x}_{5}}$$\nB. $${{x}_{4}}\\textgreater{{x}_{2}}\\textgreater{{x}_{1}}\\textgreater{{x}_{3}}\\textgreater{{x}_{5}}$$\nC. $${{x}_{3}}\\textgreater{{x}_{1}}\\textgreater{{x}_{4}}\\textgreater{{x}_{2}}\\textgreater{{x}_{5}}$$\nD. $${{x}_{5}}\\textgreater{{x}_{3}}\\textgreater{{x}_{1}}\\textgreater{{x}_{4}}\\textgreater{{x}_{2}}$$",
+    "question_text": "$${{x}_{1}}$$、$${{x}_{2}}$$、$${{x}_{3}}$$、$${{x}_{4}}$$、$${{x}_{5}}$$满足方程组$$\\begin{cases}{{x}_{1}}+{{x}_{2}}+{{x}_{3}}={{a}_{1}},{{x}_{2}}+{{x}_{3}}+{{x}_{4}}={{a}_{2}},{{x}_{3}}+{{x}_{4}}+{{x}_{5}}={{a}_{3}},{{x}_{4}}+{{x}_{5}}+{{x}_{1}}={{a}_{4}},{{x}_{5}}+{{x}_{1}}+{{x}_{2}}={{a}_{5}} \\end{cases}$$，  其中$${{a}_{1}}$$、$${{a}_{2}}$$、$${{a}_{3}}$$、$${{a}_{4}}$$、$${{a}_{5}}$$是常数，且$${{a}_{1}}\\textgreater{{a}_{2}}\\textgreater{{a}_{3}}\\textgreater{{a}_{4}}\\textgreater{{a}_{5}}$$，则$${{x}_{1}}$$、$${{x}_{2}}$$、$${{x}_{3}}$$、$${{x}_{4}}$$、$${{x}_{5}}$$的大小顺序是．\nA. $${{x}_{1}}\\textgreater{{x}_{2}}\\textgreater{{x}_{3}}\\textgreater{{x}_{4}}\\textgreater{{x}_{5}}$$\nB. $${{x}_{4}}\\textgreater{{x}_{2}}\\textgreater{{x}_{1}}\\textgreater{{x}_{3}}\\textgreater{{x}_{5}}$$\nC. $${{x}_{3}}\\textgreater{{x}_{1}}\\textgreater{{x}_{4}}\\textgreater{{x}_{2}}\\textgreater{{x}_{5}}$$\nD. $${{x}_{5}}\\textgreater{{x}_{3}}\\textgreater{{x}_{1}}\\textgreater{{x}_{4}}\\textgreater{{x}_{2}}$$",
     "answer": "C. $${{x}_{3}}\\textgreater{{x}_{1}}\\textgreater{{x}_{4}}\\textgreater{{x}_{2}}\\textgreater{{x}_{5}}$$",
     "solution": "\\textbf{（知识点：解多元一次方程组）}  给定方程组中的方程按顺序两两相减分别得：  $${{x}_{1}}-{{x}_{4}}={{a}_{1}}-{{a}_{2}}$$，$${{x}_{2}}-{{x}_{5}}={{a}_{2}}-{{a}_{3}}$$，$${{x}_{3}}-{{x}_{1}}={{a}_{3}}-{{a}_{4}}$$，$${{x}_{4}}-{{x}_{2}}={{a}_{4}}-{{a}_{5}}$$，  由于$${{a}_{1}}\\textgreater{{a}_{2}}\\textgreater{{a}_{3}}\\textgreater{{a}_{4}}\\textgreater{{a}_{5}}$$，有$${{x}_{1}}\\textgreater{{x}_{4}}$$，$${{x}_{2}}\\textgreater{{x}_{5}}$$，$${{x}_{3}}\\textgreater{{x}_{1}}$$，$${{x}_{4}}\\textgreater{{x}_{2}}$$，因此$${{x}_{3}}\\textgreater{{x}_{1}}\\textgreater{{x}_{4}}\\textgreater{{x}_{2}}\\textgreater{{x}_{5}}$$．  所以选$$\\text{C}$$．",
     "question_type": "选择题",
@@ -2190,9 +2190,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "若非零自然数$$a$$，$$b$$的最大公约数与最小公倍数之和恰等于$$a$$，$$b$$的乘积，则$${{\\left( \\frac{{{a}^{2}},{{b}^{2}}}{{{a}^{2}}+{{b}^{2}}} \\right)}^{10}}=$$（~ ）．\nA. $$1$$\nB. $$1024$$\nC. $$2104$$\nD. $$2016$$",
+    "question_text": "若非零自然数$$a$$，$$b$$的最大公约数与最小公倍数之和恰等于$$a$$，$$b$$的乘积，则$${{\\left( \\frac{{{a}^{2}}{{b}^{2}}}{{{a}^{2}}+{{b}^{2}}} \\right)}^{10}}=$$（~ ）．\nA. $$1$$\nB. $$1024$$\nC. $$2104$$\nD. $$2016$$",
     "answer": "B. $$1024$$",
-    "solution": "设$$a$$，$$b$$的最大公约数是$$c$$，  则它们的最小公倍数为$$c\\cdot \\frac{a}{c}\\cdot \\frac{b}{c}=\\frac{ab}{c}$$，  由题意，得$$c+\\frac{ab}{c}=ab$$，  ∴$$ab=\\frac{{{c}^{2}}}{c-1}$$．  若$$c$$为奇数，则$${{c}^{2}}$$为奇数，$$c-1$$为偶数，$$\\frac{{{c}^{2}}}{c-1}$$不是整数，舍去．  若$$c$$为偶数，则$${{c}^{2}}$$为偶数，$$c-1$$为奇数，当且仅当$$c=2$$时，$$\\frac{{{c}^{2}}}{c-1}$$为整数．  ∴$$ab=\\frac{{{2}^{2}}}{2-1}=4$$．  又∵$$a$$，$$b$$均为正整数，且它们的最大公约数为$$2$$，  ∴$$a=b=2$$，  ∴$${{\\left( \\frac{{{a}^{2}},{{b}^{2}}}{{{a}^{2}}+{{b}^{2}}} \\right)}^{10}}={{\\left( \\frac{16}{8} \\right)}^{10}}={{2}^{10}}=1024$$．",
+    "solution": "设$$a$$，$$b$$的最大公约数是$$c$$，  则它们的最小公倍数为$$c\\cdot \\frac{a}{c}\\cdot \\frac{b}{c}=\\frac{ab}{c}$$，  由题意，得$$c+\\frac{ab}{c}=ab$$，  ∴$$ab=\\frac{{{c}^{2}}}{c-1}$$．  若$$c$$为奇数，则$${{c}^{2}}$$为奇数，$$c-1$$为偶数，$$\\frac{{{c}^{2}}}{c-1}$$不是整数，舍去．  若$$c$$为偶数，则$${{c}^{2}}$$为偶数，$$c-1$$为奇数，当且仅当$$c=2$$时，$$\\frac{{{c}^{2}}}{c-1}$$为整数．  ∴$$ab=\\frac{{{2}^{2}}}{2-1}=4$$．  又∵$$a$$，$$b$$均为正整数，且它们的最大公约数为$$2$$，  ∴$$a=b=2$$，  ∴$${{\\left( \\frac{{{a}^{2}}{{b}^{2}}}{{{a}^{2}}+{{b}^{2}}} \\right)}^{10}}={{\\left( \\frac{16}{8} \\right)}^{10}}={{2}^{10}}=1024$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -2815,9 +2815,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "若$$a\\textless{}0$$，则下列结论中不成立的是（~ ）．\nA. $${{a}^{2}}={{(-a)}^{2}}$$\nB. $${{a}^{3}}={{(-a)}^{3}}$$\nC. $${{a}^{2}}=\\left\\textbar{},{{a}^{2}} \\right\\textbar$$\nD. $${{a}^{3}}=-\\left\\textbar{},{{a}^{3}} \\right\\textbar$$",
+    "question_text": "若$$a\\textless{}0$$，则下列结论中不成立的是（~ ）．\nA. $${{a}^{2}}={{(-a)}^{2}}$$\nB. $${{a}^{3}}={{(-a)}^{3}}$$\nC. $${{a}^{2}}=\\left\\textbar{}{{a}^{2}} \\right\\textbar$$\nD. $${{a}^{3}}=-\\left\\textbar{}{{a}^{3}} \\right\\textbar$$",
     "answer": "B. $${{a}^{3}}={{(-a)}^{3}}$$",
-    "solution": "以特殊值$$a=-2$$代入检验，易知$${{(-2)}^{2}}={{(-(-2))}^{2}}$$，$${{(-2)}^{3}}\\ne {{(-(-2))}^{3}}$$，$${{(-2)}^{2}}=\\left\\textbar{},{{(-2)}^{2}} \\right\\textbar$$，$${{(-2)}^{3}}=-\\left\\textbar{},{{(-2)}^{3}} \\right\\textbar$$，所以选$$\\text{B}$$．",
+    "solution": "以特殊值$$a=-2$$代入检验，易知$${{(-2)}^{2}}={{(-(-2))}^{2}}$$，$${{(-2)}^{3}}\\ne {{(-(-2))}^{3}}$$，$${{(-2)}^{2}}=\\left\\textbar{}{{(-2)}^{2}} \\right\\textbar$$，$${{(-2)}^{3}}=-\\left\\textbar{}{{(-2)}^{3}} \\right\\textbar$$，所以选$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -2959,7 +2959,7 @@
   {
     "question_text": "有理数$$\\frac{1}{2}$$，$$\\frac{11}{5}$$，$$8$$恰是下列三个方程的根：$$\\frac{2x-1}{3}-\\frac{10x+1}{12}=\\frac{2x+1}{4}-1$$，$$3(2y+1)=2(1+y)+3(y+3)$$，$$\\frac{1}{2}\\left[ z-\\frac{1}{2}(z-1) \\right]=\\frac{2}{3}(z-1)$$，则$$\\frac{x}{y}-\\frac{z}{x}$$的值为（~ ）．\nA. $$-\\frac{171}{40}$$\nB. $$-\\frac{347}{80}$$\nC. $$\\frac{71}{220}$$\nD. $$\\frac{142}{55}$$",
     "answer": "B. $$-\\frac{347}{80}$$",
-    "solution": "以$$\\frac{1}{2}$$，$$\\frac{11}{5}$$，$$8$$分别代入所给三个方程知：  $$x=\\frac{1}{2}$$是方程$$\\frac{2x-1}{3}-\\frac{10x+1}{12}=\\frac{2x+1}{4}-1$$的根，  $$y=8$$是方程$$3(2y+1)=2(1+y)+3(y+3)$$的根，  $$z=\\frac{11}{5}$$是方程$$\\frac{1}{2}\\left[ z-\\frac{1}{2}(z-1) \\right]=\\frac{2}{3}(z-1)$$的根，  ∴$$\\frac{x}{y}-\\frac{z}{x}=\\frac{\\frac{1},{2}}{8}-\\frac{\\frac{11},{5}}{\\frac{1}{2}}=\\frac{1}{16}-\\frac{22}{5}=-\\frac{347}{80}$$，选$$\\text{B}$$．",
+    "solution": "以$$\\frac{1}{2}$$，$$\\frac{11}{5}$$，$$8$$分别代入所给三个方程知：  $$x=\\frac{1}{2}$$是方程$$\\frac{2x-1}{3}-\\frac{10x+1}{12}=\\frac{2x+1}{4}-1$$的根，  $$y=8$$是方程$$3(2y+1)=2(1+y)+3(y+3)$$的根，  $$z=\\frac{11}{5}$$是方程$$\\frac{1}{2}\\left[ z-\\frac{1}{2}(z-1) \\right]=\\frac{2}{3}(z-1)$$的根，  ∴$$\\frac{x}{y}-\\frac{z}{x}=\\frac{\\frac{1}{2}}{8}-\\frac{\\frac{11}{5}}{\\frac{1}{2}}=\\frac{1}{16}-\\frac{22}{5}=-\\frac{347}{80}$$，选$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -2984,7 +2984,7 @@
   {
     "question_text": "当$$x=\\frac{1}{2}$$，$$y=-2$$时，代数式$$\\frac{4x-2y}{xy}$$的值是（~ ~ ）．\nA. $$-6$$\nB. $$-2$$\nC. $$2$$\nD. $$6$$",
     "answer": "A. $$-6$$",
-    "solution": "$$\\frac{4x-2y}{xy}=\\frac{4\\times \\frac{1},{2}-2\\times (-2)}{\\frac{1}{2}\\times (-2)}=\\frac{2+4}{-1}=-6$$．选$$\\text{A}$$．",
+    "solution": "$$\\frac{4x-2y}{xy}=\\frac{4\\times \\frac{1}{2}-2\\times (-2)}{\\frac{1}{2}\\times (-2)}=\\frac{2+4}{-1}=-6$$．选$$\\text{A}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -3383,7 +3383,7 @@
   {
     "question_text": "有两个两位数的质数，它们的差等于$$6$$，且它们平方的个位数字相同，这样的两位质数的组数是（~ ）．\nA. $$1$$\nB. $$2$$\nC. $$3$$\nD. $$4$$",
     "answer": "D. $$4$$",
-    "solution": "两位数的质数共有$$21$$个，它们的个位数字只有$$1$$，$$3$$，$$7$$，$$9$$；  差等于$$6$$的有：$$1$$和$$7$$；$$3$$和$$9$$；$$13$$和$$7$$，共三组；  平方数的个位数字相同的只有$$3$$和$$7$$，$$1$$和$$9$$这两组．  因此，符合题设条件的个位数字是$$3$$和$$7$$这一组．  故所求质数是$$23$$和$$17$$；$$43$$和$$37$$，$$53$$和$$47$$，$$73$$和$$67$$，共$$4$$组．\n<p>平方之后个位数字相同的数有：$$1$$和$$9$$，$$2$$和$$8$$，$$3$$和$$7$$，$$4$$和$$6$$作为两位数质数的个位，不能是偶数，两个两位数相差$$6$$个位一定是$$7$$和$$3$$$$17$$和$$23$$，$$37$$和$$43$$，$$47$$和$$53$$，$$67$$和$$73$$，共$$4$$组．</p>",
+    "solution": "两位数的质数共有$$21$$个，它们的个位数字只有$$1$$，$$3$$，$$7$$，$$9$$；  差等于$$6$$的有：$$1$$和$$7$$；$$3$$和$$9$$；$$13$$和$$7$$，共三组；  平方数的个位数字相同的只有$$3$$和$$7$$，$$1$$和$$9$$这两组．  因此，符合题设条件的个位数字是$$3$$和$$7$$这一组．  故所求质数是$$23$$和$$17$$；$$43$$和$$37$$，$$53$$和$$47$$，$$73$$和$$67$$，共$$4$$组．\n平方之后个位数字相同的数有：$$1$$和$$9$$，$$2$$和$$8$$，$$3$$和$$7$$，$$4$$和$$6$$作为两位数质数的个位，不能是偶数，两个两位数相差$$6$$个位一定是$$7$$和$$3$$$$17$$和$$23$$，$$37$$和$$43$$，$$47$$和$$53$$，$$67$$和$$73$$，共$$4$$组．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -3973,7 +3973,7 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "当$$-1\\textless{}a\\textless{}0$$时，则有（~ ）．\nA. $$\\frac{1}{a}\\textgreater a$$\nB. $$\\left\\textbar{},{{a}^{3}} \\right\\textbar\\textgreater{{a}^{3}}$$\nC. $$-a\\textgreater{{a}^{2}}$$\nD. $${{a}^{3}}\\textless{}-{{a}^{2}}$$",
+    "question_text": "当$$-1\\textless{}a\\textless{}0$$时，则有（~ ）．\nA. $$\\frac{1}{a}\\textgreater a$$\nB. $$\\left\\textbar{}{{a}^{3}} \\right\\textbar\\textgreater{{a}^{3}}$$\nC. $$-a\\textgreater{{a}^{2}}$$\nD. $${{a}^{3}}\\textless{}-{{a}^{2}}$$",
     "answer": "C. $$-a\\textgreater{{a}^{2}}$$",
     "solution": "采用特殊值法：  取$$a=-\\frac{1}{2}$$，则$$\\frac{1}{a}=-2$$，$${{a}^{2}}={(-\\frac{1}{2})^{2}}=\\frac{1}{4}$$，$${{a}^{3}}={(-\\frac{1}{2})^{3}}=-\\frac{1}{8}$$．  由$$-2\\textless{}-\\frac{1}{2}$$，排除$$\\text{A}$$；  由$$\\left\\textbar{} -\\frac{1}{8} \\right\\textbar=-(-\\frac{1}{8})$$，排除$$\\text{B}$$；  由$$-\\frac{1}{8}\\textgreater-\\frac{1}{4}$$，排除$$\\text{D}$$．",
     "question_type": "选择题",
@@ -4403,7 +4403,7 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "$$a$$是有理数，则在下列说法中正确的一个是（~ ）．\nA. $$-a$$是负数\nB. $${{a}^{2}}$$是正数\nC. $$-\\left\\textbar{},{{a}^{2}} \\right\\textbar$$是负数\nD. $${{(a-1993)}^{2}}+0.001$$是正数",
+    "question_text": "$$a$$是有理数，则在下列说法中正确的一个是（~ ）．\nA. $$-a$$是负数\nB. $${{a}^{2}}$$是正数\nC. $$-\\left\\textbar{}{{a}^{2}} \\right\\textbar$$是负数\nD. $${{(a-1993)}^{2}}+0.001$$是正数",
     "answer": "D. $${{(a-1993)}^{2}}+0.001$$是正数",
     "solution": "当$$a=0$$，显然$$\\text{A}$$，$$\\text{B}$$，$$\\text{C}$$，均不正确，应排除，所以选$$\\text{D}$$．  事实上，对任意有理数$$a$$，都有$${{(a-1993)}^{2}}\\geqslant 0$$，  所以$${{(a-1993)}^{2}}+0.001\\textgreater0$$是正数．",
     "question_type": "选择题",
@@ -4651,7 +4651,7 @@
   {
     "question_text": "设二次函数$$y={{x}^{2}}+2ax+\\frac{{{a}^{2}}}{2}$$的图象的顶点为$$A$$，与$$x$$轴的交点为$$B$$，$$C$$．当$$\\triangle ABC$$为等边三角形时，其边长为 (~ ~ ) .\nA. $$\\sqrt{6}$$\nB. $$2\\sqrt{2}$$\nC. $$2\\sqrt{3}$$\nD. $$3\\sqrt{2}$$",
     "answer": "C. $$2\\sqrt{3}$$",
-    "solution": "由题设知$$A\\left( -a,-\\frac{{{a}^{2}}}{2} \\right)$$．设$$B({{x}_{1}},0)$$，$$C({{x}_{2}},0)$$，  二次函数的图象的对称轴与$$x$$轴的交点为$$D$$，  则$$BC=\\left\\textbar{},{{x}_{1}}-{{x}_{ }}_{2} \\right\\textbar=\\sqrt{{{({{x}_{1}}+{{x}_{2}})}^{2}}-4{{x}_{1}},{{x}_{2}}}=\\sqrt{4{{a}^{2}}-4\\times \\frac{{{a}^{2}}}{2}}=\\sqrt{2{{a}^{2}}}$$.  又$$AD=\\frac{\\sqrt{3}}{2}BC$$，则$$\\left\\textbar{} -\\frac{{{a}^{2}}}{2} \\right\\textbar=\\frac{\\sqrt{3}}{2}\\cdot \\sqrt{2{{a}^{2}}}$$，解得$${{a}^{2}}=6$$或$${{a}^{2}}=0$$ (舍去)  所以，$$\\triangle ABC$$的边长$$BC=\\sqrt{2{{a}^{2}}}=2\\sqrt{3}$$．",
+    "solution": "由题设知$$A\\left( -a,-\\frac{{{a}^{2}}}{2} \\right)$$．设$$B({{x}_{1}},0)$$，$$C({{x}_{2}},0)$$，  二次函数的图象的对称轴与$$x$$轴的交点为$$D$$，  则$$BC=\\left\\textbar{}{{x}_{1}}-{{x}_{ }}_{2} \\right\\textbar=\\sqrt{{{({{x}_{1}}+{{x}_{2}})}^{2}}-4{{x}_{1}}{{x}_{2}}}=\\sqrt{4{{a}^{2}}-4\\times \\frac{{{a}^{2}}}{2}}=\\sqrt{2{{a}^{2}}}$$.  又$$AD=\\frac{\\sqrt{3}}{2}BC$$，则$$\\left\\textbar{} -\\frac{{{a}^{2}}}{2} \\right\\textbar=\\frac{\\sqrt{3}}{2}\\cdot \\sqrt{2{{a}^{2}}}$$，解得$${{a}^{2}}=6$$或$${{a}^{2}}=0$$ (舍去)  所以，$$\\triangle ABC$$的边长$$BC=\\sqrt{2{{a}^{2}}}=2\\sqrt{3}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -4670,9 +4670,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$a=2$$，$$b=3$$，则．\nA. $$a{{x}^{3}},{{y}^{2}}$$和$$b{{m}^{3}},{{n}^{2}}$$是同类项\nB. $$3{{x}^{a}},{{y}^{3}}$$和$$b{{x}^{3}},{{y}^{3}}$$是同类项\nC. $$b{{x}^{2a+1}},{{y}^{4}}$$和$$a{{x}^{5}},{{y}^{b+1}}$$是同类项\nD. $$5{{m}^{2b}},{{n}^{5a}}$$和$$6{{n}^{2b}},{{m}^{5a}}$$是同类项",
-    "answer": "C. $$b{{x}^{2a+1}},{{y}^{4}}$$和$$a{{x}^{5}},{{y}^{b+1}}$$是同类项",
-    "solution": "由同类项的定义可知，当$$a=2$$，$$b=3$$时，  $$\\text{A}$$为：$$2{{x}^{3}},{{y}^{2}}$$和$$3{{m}^{2}},{{n}^{2}}$$，显然不是同类项．  $$\\text{B}$$为$$3{{x}^{2}},{{y}^{3}}$$和$$3{{x}^{3}},{{y}^{3}}$$，$${{x}^{2}}$$与$${{x}^{3}}$$不同，所以也不是同类项．  $$\\text{C}$$为$$3{{x}^{2\\times 2+1}},{{y}^{4}}$$和$$3{{x}^{5}},{{y}^{3+1}}$$，即$$3{{x}^{5}},{{y}^{4}}$$和$$3{{x}^{5}},{{y}^{4}}$$，是同类项．  $$\\text{D}$$为$$5{{m}^{2}}\\times 3{{n}^{5\\times 2}}=5{{m}^{6}},{{n}^{10}}$$和$$6{{n}^{2\\times 3}},{{m}^{5\\times 2}}=6{{n}^{6}},{{m}^{10}}$$，显然不是．  故选$$\\text{C}$$．",
+    "question_text": "已知$$a=2$$，$$b=3$$，则．\nA. $$a{{x}^{3}}{{y}^{2}}$$和$$b{{m}^{3}}{{n}^{2}}$$是同类项\nB. $$3{{x}^{a}}{{y}^{3}}$$和$$b{{x}^{3}}{{y}^{3}}$$是同类项\nC. $$b{{x}^{2a+1}}{{y}^{4}}$$和$$a{{x}^{5}}{{y}^{b+1}}$$是同类项\nD. $$5{{m}^{2b}}{{n}^{5a}}$$和$$6{{n}^{2b}}{{m}^{5a}}$$是同类项",
+    "answer": "C. $$b{{x}^{2a+1}}{{y}^{4}}$$和$$a{{x}^{5}}{{y}^{b+1}}$$是同类项",
+    "solution": "由同类项的定义可知，当$$a=2$$，$$b=3$$时，  $$\\text{A}$$为：$$2{{x}^{3}}{{y}^{2}}$$和$$3{{m}^{2}}{{n}^{2}}$$，显然不是同类项．  $$\\text{B}$$为$$3{{x}^{2}}{{y}^{3}}$$和$$3{{x}^{3}}{{y}^{3}}$$，$${{x}^{2}}$$与$${{x}^{3}}$$不同，所以也不是同类项．  $$\\text{C}$$为$$3{{x}^{2\\times 2+1}}{{y}^{4}}$$和$$3{{x}^{5}}{{y}^{3+1}}$$，即$$3{{x}^{5}}{{y}^{4}}$$和$$3{{x}^{5}}{{y}^{4}}$$，是同类项．  $$\\text{D}$$为$$5{{m}^{2}}\\times 3{{n}^{5\\times 2}}=5{{m}^{6}}{{n}^{10}}$$和$$6{{n}^{2\\times 3}}{{m}^{5\\times 2}}=6{{n}^{6}}{{m}^{10}}$$，显然不是．  故选$$\\text{C}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -5251,9 +5251,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "例题3：  1、已知$$\\left\\textbar{} x \\right\\textbar\\leqslant 3$$，$$\\left\\textbar{} y \\right\\textbar\\leqslant 1$$，$$\\left\\textbar{} z \\right\\textbar\\leqslant 4$$且$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$，则$${{x}^{2}},{{y}^{2011}},{{z}^{3}}$$的值是．\nA. $$432$$\nB. $$576$$\nC. $$-432$$\nD. $$-576$$",
+    "question_text": "例题3：  1、已知$$\\left\\textbar{} x \\right\\textbar\\leqslant 3$$，$$\\left\\textbar{} y \\right\\textbar\\leqslant 1$$，$$\\left\\textbar{} z \\right\\textbar\\leqslant 4$$且$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$，则$${{x}^{2}}{{y}^{2011}}{{z}^{3}}$$的值是．\nA. $$432$$\nB. $$576$$\nC. $$-432$$\nD. $$-576$$",
     "answer": "D. $$-576$$",
-    "solution": "只要$$\\left\\textbar{} x \\right\\textbar\\textless{}3$$，$$\\left\\textbar{} y \\right\\textbar\\textless{}1$$，$$\\left\\textbar{} z \\right\\textbar\\textless{}4$$中至少有一个成立，  则$$\\left\\textbar{} x-2y+z \\right\\textbar\\leqslant \\left\\textbar{} x \\right\\textbar+2\\left\\textbar{} y \\right\\textbar+\\left\\textbar{} z \\right\\textbar\\textless{}9$$，  这与$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$矛盾，  所以当且仅当$$\\left\\textbar{} x \\right\\textbar=3$$，$$\\left\\textbar{} y \\right\\textbar=1$$，$$\\left\\textbar{} z \\right\\textbar=4$$同时成立时，才能满足$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$，  此时$$x=3$$，$$y=-1$$，$$z=4$$或$$x=-3$$，$$y=1$$，$$z=-4$$，  所以$${{x}^{2}},{{y}^{2011}},{{z}^{3}}={{3}^{2}}\\times {{(-1)}^{2011}}\\times {{4}^{3}}=-576$$或$${{x}^{2}},{{y}^{2011}},{{z}^{3}}={{(-3)}^{2}}\\times {{1}^{2011}}\\times {{(-4)}^{3}}=-576$$，  综上，$${{x}^{2}},{{y}^{2011}},{{z}^{3}}$$的值是$$-576$$．",
+    "solution": "只要$$\\left\\textbar{} x \\right\\textbar\\textless{}3$$，$$\\left\\textbar{} y \\right\\textbar\\textless{}1$$，$$\\left\\textbar{} z \\right\\textbar\\textless{}4$$中至少有一个成立，  则$$\\left\\textbar{} x-2y+z \\right\\textbar\\leqslant \\left\\textbar{} x \\right\\textbar+2\\left\\textbar{} y \\right\\textbar+\\left\\textbar{} z \\right\\textbar\\textless{}9$$，  这与$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$矛盾，  所以当且仅当$$\\left\\textbar{} x \\right\\textbar=3$$，$$\\left\\textbar{} y \\right\\textbar=1$$，$$\\left\\textbar{} z \\right\\textbar=4$$同时成立时，才能满足$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$，  此时$$x=3$$，$$y=-1$$，$$z=4$$或$$x=-3$$，$$y=1$$，$$z=-4$$，  所以$${{x}^{2}}{{y}^{2011}}{{z}^{3}}={{3}^{2}}\\times {{(-1)}^{2011}}\\times {{4}^{3}}=-576$$或$${{x}^{2}}{{y}^{2011}}{{z}^{3}}={{(-3)}^{2}}\\times {{1}^{2011}}\\times {{(-4)}^{3}}=-576$$，  综上，$${{x}^{2}}{{y}^{2011}}{{z}^{3}}$$的值是$$-576$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -5508,7 +5508,7 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "下面四个命题中一定不正确的命题是．\nA. $$3{{a}^{2}},{{b}^{7}}$$和$$7{{b}^{7}},{{a}^{2}}$$是同类项\nB. $$3x-1=0$$和$$3+\\frac{2}{x-1}=0$$是同解方程\nC. $$a-3$$和$$3-a$$互为倒数\nD. $${{x}^{3}}-b$$和$$-{{x}^{3}}-b$$互为相反数",
+    "question_text": "下面四个命题中一定不正确的命题是．\nA. $$3{{a}^{2}}{{b}^{7}}$$和$$7{{b}^{7}}{{a}^{2}}$$是同类项\nB. $$3x-1=0$$和$$3+\\frac{2}{x-1}=0$$是同解方程\nC. $$a-3$$和$$3-a$$互为倒数\nD. $${{x}^{3}}-b$$和$$-{{x}^{3}}-b$$互为相反数",
     "answer": "C. $$a-3$$和$$3-a$$互为倒数",
     "solution": "$$\\text{A}$$．显然正确；$$\\text{B}$$．中两个方程的解 $$x=\\frac{1}{3}$$，是同解方程；  当$$b=0$$时，$$\\text{D}$$正确；若存在$$a$$，使得$$\\left( a-3 \\right)$$与$$\\left( 3-a \\right)$$互为倒数，则  $${{\\left( a-3 \\right)}^{2}}=-1\\textless{}0$$，矛盾．  所以对任何数$$a$$，$$a-3$$与$$3-a$$都不能互为倒数．  故选$$\\text{C}$$．",
     "question_type": "选择题",
@@ -5551,9 +5551,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$\\left\\textbar{} x \\right\\textbar\\leqslant 3$$，$$\\left\\textbar{} y \\right\\textbar\\leqslant 1$$，$$\\left\\textbar{} z \\right\\textbar\\leqslant 4$$且$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$，则$${{x}^{2}},{{y}^{2011}},{{z}^{3}}$$的值是（~ ）．\nA. $$432$$\nB. $$576$$\nC. $$-432$$\nD. $$-576$$",
+    "question_text": "已知$$\\left\\textbar{} x \\right\\textbar\\leqslant 3$$，$$\\left\\textbar{} y \\right\\textbar\\leqslant 1$$，$$\\left\\textbar{} z \\right\\textbar\\leqslant 4$$且$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$，则$${{x}^{2}}{{y}^{2011}}{{z}^{3}}$$的值是（~ ）．\nA. $$432$$\nB. $$576$$\nC. $$-432$$\nD. $$-576$$",
     "answer": "D. $$-576$$",
-    "solution": "只要$$\\left\\textbar{} x \\right\\textbar\\textless{}3$$，$$\\left\\textbar{} y \\right\\textbar\\textless{}1$$，$$\\left\\textbar{} z \\right\\textbar\\textless{}4$$中至少有一个成立，  则$$\\left\\textbar{} x-2y+z \\right\\textbar\\leqslant \\left\\textbar{} x \\right\\textbar+2\\left\\textbar{} y \\right\\textbar+\\left\\textbar{} z \\right\\textbar\\textless{}9$$，  这与$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$矛盾，  所以当且仅当$$\\left\\textbar{} x \\right\\textbar=3$$，$$\\left\\textbar{} y \\right\\textbar=1$$，$$\\left\\textbar{} z \\right\\textbar=4$$同时成立时，才能满足$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$，  此时$$x=3$$，$$y=-1$$，$$z=4$$或$$x=-3$$，$$y=1$$，$$z=-4$$，  所以$${{x}^{2}},{{y}^{2011}},{{z}^{3}}={{3}^{2}}\\times {{(-1)}^{2011}}\\times {{4}^{3}}=-576$$或$${{x}^{2}},{{y}^{2011}},{{z}^{3}}={{(-3)}^{2}}\\times {{1}^{2011}}\\times {{(-4)}^{3}}=-576$$，  综上，$${{x}^{2}},{{y}^{2011}},{{z}^{3}}$$的值是$$-576$$．",
+    "solution": "只要$$\\left\\textbar{} x \\right\\textbar\\textless{}3$$，$$\\left\\textbar{} y \\right\\textbar\\textless{}1$$，$$\\left\\textbar{} z \\right\\textbar\\textless{}4$$中至少有一个成立，  则$$\\left\\textbar{} x-2y+z \\right\\textbar\\leqslant \\left\\textbar{} x \\right\\textbar+2\\left\\textbar{} y \\right\\textbar+\\left\\textbar{} z \\right\\textbar\\textless{}9$$，  这与$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$矛盾，  所以当且仅当$$\\left\\textbar{} x \\right\\textbar=3$$，$$\\left\\textbar{} y \\right\\textbar=1$$，$$\\left\\textbar{} z \\right\\textbar=4$$同时成立时，才能满足$$\\left\\textbar{} x-2y+z \\right\\textbar=9$$，  此时$$x=3$$，$$y=-1$$，$$z=4$$或$$x=-3$$，$$y=1$$，$$z=-4$$，  所以$${{x}^{2}}{{y}^{2011}}{{z}^{3}}={{3}^{2}}\\times {{(-1)}^{2011}}\\times {{4}^{3}}=-576$$或$${{x}^{2}}{{y}^{2011}}{{z}^{3}}={{(-3)}^{2}}\\times {{1}^{2011}}\\times {{(-4)}^{3}}=-576$$，  综上，$${{x}^{2}}{{y}^{2011}}{{z}^{3}}$$的值是$$-576$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -5645,9 +5645,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$a$$为实数，关于$$x$$，$$y$$的方程组$$\\left { \\begin{array},{*{35},{l}} ax+2y=24    2x+2y=a   \\end{array} \\right.$$有整数解，则$$a$$的个数为（~ ）\nA. $$2$$\nB. $$3$$\nC. $$4$$\nD. $$5$$",
+    "question_text": "已知$$a$$为实数，关于$$x$$，$$y$$的方程组$$\\left { \\begin{array}{*{35}{l}} ax+2y=24    2x+2y=a   \\end{array} \\right.$$有整数解，则$$a$$的个数为（~ ）\nA. $$2$$\nB. $$3$$\nC. $$4$$\nD. $$5$$",
     "answer": "C. $$4$$",
-    "solution": "由$$\\left { \\begin{array},{*{35},{l}} ax+2y=24    2x+2y=a   \\end{array} \\right.$$得$$\\left( a-2 \\right)x=24-a$$，∴$$x=\\frac{24-a}{a-2}=-1+\\frac{22}{a-2}$$；  由$$2x+2y=a$$，可知$$a$$必为偶数，又$$-1+\\frac{22}{a-2}$$为整数，所以$$a=0,4,24,-20$$",
+    "solution": "由$$\\left { \\begin{array}{*{35}{l}} ax+2y=24    2x+2y=a   \\end{array} \\right.$$得$$\\left( a-2 \\right)x=24-a$$，∴$$x=\\frac{24-a}{a-2}=-1+\\frac{22}{a-2}$$；  由$$2x+2y=a$$，可知$$a$$必为偶数，又$$-1+\\frac{22}{a-2}$$为整数，所以$$a=0,4,24,-20$$",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -5861,7 +5861,7 @@
   {
     "question_text": "已知非零实数$$a$$、$$b$$满足$$\\left\\textbar{} 2a-4 \\right\\textbar+\\left\\textbar{} b+2 \\right\\textbar+\\sqrt{\\left( a-3 \\right){{b}^{2}}}+4=2a$$，则$$a+b$$等于（~ ） ．\nA. $$-1$$\nB. $$0$$\nC. $$1$$\nD. $$2$$",
     "answer": "C. $$1$$",
-    "solution": "由条件得$$a\\geqslant 3$$，原等式为$$\\left\\textbar{} b+2 \\right\\textbar+\\sqrt{\\left( a-3 \\right){{b}^{2}}}=0$$，$$a+b=1$$．\n<p>由题意$$(a-3){{b}^{2}}\\geqslant 0$$，∵$${{b}^{2}}\\geqslant 0$$，&there4;$$a-3\\geqslant 0$$，&there4;$$2a-4&gt;0$$，</p>\n<p>&there4;原式可化简为$$2a-4+|b+2|+\\sqrt{(a-3){{b}^{2}}}+4=2a$$，$$|b+2|+\\sqrt{(a-3){{b}^{2}}}=0$$，</p>\n<p>&there4;$$b+2=(a-3){{b}^{2}}=0$$，&there4;$$a=3$$，$$b=-2$$，选$$\\text{C}$$．</p>",
+    "solution": "由条件得$$a\\geqslant 3$$，原等式为$$\\left\\textbar{} b+2 \\right\\textbar+\\sqrt{\\left( a-3 \\right){{b}^{2}}}=0$$，$$a+b=1$$．\n由题意$$(a-3){{b}^{2}}\\geqslant 0$$，∵$${{b}^{2}}\\geqslant 0$$，∴$$a-3\\geqslant 0$$，∴$$2a-4>0$$，\n∴原式可化简为$$2a-4+|b+2|+\\sqrt{(a-3){{b}^{2}}}+4=2a$$，$$|b+2|+\\sqrt{(a-3){{b}^{2}}}=0$$，\n∴$$b+2=(a-3){{b}^{2}}=0$$，∴$$a=3$$，$$b=-2$$，选$$\\text{C}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -6191,7 +6191,7 @@
   {
     "question_text": "设$$m=\\frac{a+2}{a+3}$$，$$n=\\frac{a+1}{a+2}$$，$$p=\\frac{a}{a+1}$$，若$$a\\textless-3$$，则（~ ~ ~）．\nA. $$m\\textless{n}\\textless{p}$$\nB. $$n\\textless{p}\\textless{m}$$\nC. $${p}\\textless{n}\\textless{m}$$\nD. $$p\\textless{m}\\textless{n}$$",
     "answer": "C. $${p}\\textless{n}\\textless{m}$$",
-    "solution": "∵$$a\\textless-3$$，令$$a=-4$$，  ∴$$m=2$$，$$n=\\frac{3}{2}$$，$$p=\\frac{4}{3}$$，  ∵$$\\frac{4}{3}\\textless\\frac{3}{2}\\textless2$$ ，  ∴$${p}\\textless{n}\\textless{m}$$．\n<p>因为$$\\frac{a+2}{a+3}=1-\\frac{1}{a+3}$$，$$\\frac{a+1}{a+2}=1-\\frac{1}{a+2}$$，$$\\frac{a}{a+1}=1-\\frac{1}{a+1}$$．</p>\n<p>又$$a+1&lt;{}a+2&lt;{}a+3&lt;{}0$$，</p>\n<p>可得$$0&lt;{}-\\left( a+3 \\right)&lt;{}-\\left( a+2 \\right)&lt;{}-\\left( a+1 \\right)$$，</p>\n<p>所以$$-\\frac{1}{a+1}&lt;{}-\\frac{1}{a+2}&lt;{}-\\frac{1}{a+3}$$，</p>\n<p>所以$$\\frac{a}{a+1}&lt;{}\\frac{a+1}{a+2}&lt;{}\\frac{a+2}{a+3}$$．</p>",
+    "solution": "∵$$a\\textless-3$$，令$$a=-4$$，  ∴$$m=2$$，$$n=\\frac{3}{2}$$，$$p=\\frac{4}{3}$$，  ∵$$\\frac{4}{3}\\textless\\frac{3}{2}\\textless2$$ ，  ∴$${p}\\textless{n}\\textless{m}$$．\n因为$$\\frac{a+2}{a+3}=1-\\frac{1}{a+3}$$，$$\\frac{a+1}{a+2}=1-\\frac{1}{a+2}$$，$$\\frac{a}{a+1}=1-\\frac{1}{a+1}$$．\n又$$a+1<{}a+2<{}a+3<{}0$$，\n可得$$0<{}-\\left( a+3 \\right)<{}-\\left( a+2 \\right)<{}-\\left( a+1 \\right)$$，\n所以$$-\\frac{1}{a+1}<{}-\\frac{1}{a+2}<{}-\\frac{1}{a+3}$$，\n所以$$\\frac{a}{a+1}<{}\\frac{a+1}{a+2}<{}\\frac{a+2}{a+3}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -6795,7 +6795,7 @@
   {
     "question_text": "已知甲瓶盐水浓度为$$8 \\%$$，乙瓶盐水浓度为$$5 \\%$$，混合后浓度为$$6.2 \\%$$．那么四分之一的甲瓶盐水与六分之一的乙瓶盐水混合后的浓度为．\nA. $$5.5 \\%$$\nB. $$6 \\%$$\nC. $$6.5 \\%$$\nD. $$7.5 \\%$$",
     "answer": "C. $$6.5 \\%$$",
-    "solution": "设甲瓶盐水重$$x$$，乙瓶盐水重$$y$$，所以$$8 \\%x+5 \\%y=6.2 \\%\\times \\left( x+y \\right)$$，  解之得$$\\frac{x}{y}=\\frac{2}{3}$$，若从甲瓶取$$\\frac{1}{4}$$盐水，从乙瓶取$$\\frac{1}{6}$$盐水，则混合后的浓度为$$6.5 \\%$$，运算如下：$$\\frac{8 \\%\\times \\dfrac{1},{4}x+5 \\%\\times \\dfrac{1},{6}y}{\\dfrac{1}{4}x+\\dfrac{1}{6}y}=\\frac{2x+\\dfrac{5},{6}y}{\\dfrac{1}{4}x+\\dfrac{1}{6}y} \\%=\\frac{2\\times \\dfrac{x},{y}+\\dfrac{5},{6}}{\\dfrac{1}{4}\\times \\dfrac{x}{y}+\\dfrac{1}{6}} \\%=\\frac{2\\times \\dfrac{2},{3}+\\dfrac{5},{6}}{\\dfrac{1}{4}\\times \\dfrac{2}{3}+\\dfrac{1}{6}} \\%=\\frac{13}{2} \\%=6.5 \\%$$．  故选$$\\text{C}$$．",
+    "solution": "设甲瓶盐水重$$x$$，乙瓶盐水重$$y$$，所以$$8 \\%x+5 \\%y=6.2 \\%\\times \\left( x+y \\right)$$，  解之得$$\\frac{x}{y}=\\frac{2}{3}$$，若从甲瓶取$$\\frac{1}{4}$$盐水，从乙瓶取$$\\frac{1}{6}$$盐水，则混合后的浓度为$$6.5 \\%$$，运算如下：$$\\frac{8 \\%\\times \\dfrac{1}{4}x+5 \\%\\times \\dfrac{1}{6}y}{\\dfrac{1}{4}x+\\dfrac{1}{6}y}=\\frac{2x+\\dfrac{5}{6}y}{\\dfrac{1}{4}x+\\dfrac{1}{6}y} \\%=\\frac{2\\times \\dfrac{x}{y}+\\dfrac{5}{6}}{\\dfrac{1}{4}\\times \\dfrac{x}{y}+\\dfrac{1}{6}} \\%=\\frac{2\\times \\dfrac{2}{3}+\\dfrac{5}{6}}{\\dfrac{1}{4}\\times \\dfrac{2}{3}+\\dfrac{1}{6}} \\%=\\frac{13}{2} \\%=6.5 \\%$$．  故选$$\\text{C}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -6818,7 +6818,7 @@
   {
     "question_text": "若实数$$a$$，$$b$$，$$c$$满足$${{a}^{2}}+{{b}^{2}}+{{c}^{2}}=9$$，代数式$${{\\left( a-b \\right)}^{2}}+{{\\left( b-c \\right)}^{2}}+{{\\left( c-a \\right)}^{2}}$$的最大值是（ ~ ~）．\nA. $$27$$\nB. $$18$$\nC. $$15$$\nD. $$12$$",
     "answer": "A. $$27$$",
-    "solution": "$${{\\left( a-b \\right)}^{2}}+{{\\left( b-c \\right)}^{2}}+{{\\left( c-a \\right)}^{2}}=3({{a}^{2}}+{{b}^{2}}+{{c}^{2}})-{{(a+b+c)}^{2}}\\leqslant 3({{a}^{2}}+{{b}^{2}}+{{c}^{2}})=27$$．  当且仅当$$a+b+c=0$$时成立．\n<p>$${{(a-b)}^{2}}+{{(b-c)}^{2}}+{{(c-a)}^{2}}=2({{a}^{2}}+{{b}^{2}}+{{c}^{2}})-2(ab+bc+ca)$$，</p>\n<p>考虑到等式$${{\\left( a+b+c \\right)}^{2}}={{a}^{2}}+{{b}^{2}}+{{c}^{2}}+2\\left( ab+bc+ca \\right)$$，</p>\n<p>将两个等式相加得到$${{\\left( a-b \\right)}^{2}}+{{\\left( b-c \\right)}^{2}}+{{\\left( c-a \\right)}^{2}}+{{(a+b+c)}^{2}}=3\\left( {{a}^{2}}+{{b}^{2}}+{{c}^{2}} \\right)=27$$，</p>\n<p>当$$a+b+c=0$$时，$${{\\left( a-b \\right)}^{2}}+{{\\left( b-c \\right)}^{2}}+{{\\left( c-a \\right)}^{2}}$$有最大值$$27$$．</p>\n<p>故选$$\\text{A}$$．</p>\n<p>原式$$=2{{a}^{2}}+2{{b}^{2}}+2{{c}^{2}}-2ab-2bc-2ca=18-2ab-2bc-2ca=18-\\left[ {{\\left( a+b+c \\right)}^{2}}-{{a}^{2}}-{{b}^{2}}-{{c}^{2}} \\right]=27-{{\\left( a+b+c \\right)}^{2}}\\leqslant 27$$，</p>\n<p>&there4;原式的最大值为$$27$$，当$$a+b+c=0$$时取到．</p>\n<p>故选$$\\text{A}$$．</p>",
+    "solution": "$${{\\left( a-b \\right)}^{2}}+{{\\left( b-c \\right)}^{2}}+{{\\left( c-a \\right)}^{2}}=3({{a}^{2}}+{{b}^{2}}+{{c}^{2}})-{{(a+b+c)}^{2}}\\leqslant 3({{a}^{2}}+{{b}^{2}}+{{c}^{2}})=27$$．  当且仅当$$a+b+c=0$$时成立．\n$${{(a-b)}^{2}}+{{(b-c)}^{2}}+{{(c-a)}^{2}}=2({{a}^{2}}+{{b}^{2}}+{{c}^{2}})-2(ab+bc+ca)$$，\n考虑到等式$${{\\left( a+b+c \\right)}^{2}}={{a}^{2}}+{{b}^{2}}+{{c}^{2}}+2\\left( ab+bc+ca \\right)$$，\n将两个等式相加得到$${{\\left( a-b \\right)}^{2}}+{{\\left( b-c \\right)}^{2}}+{{\\left( c-a \\right)}^{2}}+{{(a+b+c)}^{2}}=3\\left( {{a}^{2}}+{{b}^{2}}+{{c}^{2}} \\right)=27$$，\n当$$a+b+c=0$$时，$${{\\left( a-b \\right)}^{2}}+{{\\left( b-c \\right)}^{2}}+{{\\left( c-a \\right)}^{2}}$$有最大值$$27$$．\n故选$$\\text{A}$$．\n原式$$=2{{a}^{2}}+2{{b}^{2}}+2{{c}^{2}}-2ab-2bc-2ca=18-2ab-2bc-2ca=18-\\left[ {{\\left( a+b+c \\right)}^{2}}-{{a}^{2}}-{{b}^{2}}-{{c}^{2}} \\right]=27-{{\\left( a+b+c \\right)}^{2}}\\leqslant 27$$，\n∴原式的最大值为$$27$$，当$$a+b+c=0$$时取到．\n故选$$\\text{A}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -6906,7 +6906,7 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "关于多项式$$\\frac{1}{2},{{x}^{3}}y+5{{y}^{4}},{{x}^{2}}-2{{y}^{7}}+4$$，有以下叙述：  ①该多项式是六次三项式；  ②该多项式是七次四项式；  ③该多项式是七次三项式；  ④该多项式最高次项的系数是$$-2$$；  ⑤该多项式常数项是$$-4$$．  其中，正确的是．\nA. ①④\nB. ③⑤\nC. ②④\nD. ②⑤",
+    "question_text": "关于多项式$$\\frac{1}{2},{{x}^{3}}y+5{{y}^{4}}{{x}^{2}}-2{{y}^{7}}+4$$，有以下叙述：  ①该多项式是六次三项式；  ②该多项式是七次四项式；  ③该多项式是七次三项式；  ④该多项式最高次项的系数是$$-2$$；  ⑤该多项式常数项是$$-4$$．  其中，正确的是．\nA. ①④\nB. ③⑤\nC. ②④\nD. ②⑤",
     "answer": "C. ②④",
     "solution": "该多项式为七次四项式，最高次项的系数为$$-2$$，常数项为$$4$$．故正确的是②④．",
     "question_type": "选择题",
@@ -7155,7 +7155,7 @@
   {
     "question_text": "数学课上，全班同学每人各报一个数．如果男生所报的数之和与女生所报的数之和相等，且男生所报数的平均值是$$-\\frac{3}{8}$$，女生所报数的平均值是$$-\\frac{1}{4}$$，那么全班同学所报数的平均值是．\nA. $$-\\frac{3}{12}$$\nB. $$-\\frac{5}{8}$$\nC. $$-\\frac{3}{10}$$\nD. $$-\\frac{5}{12}$$",
     "answer": "C. $$-\\frac{3}{10}$$",
-    "solution": "设男生人数为$$x$$，女生人数为$$y$$，所有男生所报数的和为$$S$$．根据题意，$$S=-\\frac{3}{8}x=-\\frac{1}{4}y$$，该班男生与女生的人数之比，与它们的平均数之比成反比，则女生人数是男生人数的$$\\frac{y}{x}=\\left( -\\frac{3}{8} \\right)\\div \\left( -\\frac{1}{4} \\right)=\\frac{3}{2}$$．则女生人数为$$y=\\frac{3}{2}x$$．于是，全班所报数的平均数是：$$\\frac{-\\dfrac{3},{8}\\times x+\\left( -\\dfrac{1},{4} \\right)\\times \\dfrac{3},{2}x}{x+\\dfrac{3}{2}x}=\\left( -\\frac{3}{4} \\right)\\div \\left( 1+\\frac{3}{2} \\right)=-\\frac{3}{10}$$．  故选$$\\text{C}$$．",
+    "solution": "设男生人数为$$x$$，女生人数为$$y$$，所有男生所报数的和为$$S$$．根据题意，$$S=-\\frac{3}{8}x=-\\frac{1}{4}y$$，该班男生与女生的人数之比，与它们的平均数之比成反比，则女生人数是男生人数的$$\\frac{y}{x}=\\left( -\\frac{3}{8} \\right)\\div \\left( -\\frac{1}{4} \\right)=\\frac{3}{2}$$．则女生人数为$$y=\\frac{3}{2}x$$．于是，全班所报数的平均数是：$$\\frac{-\\dfrac{3}{8}\\times x+\\left( -\\dfrac{1}{4} \\right)\\times \\dfrac{3}{2}x}{x+\\dfrac{3}{2}x}=\\left( -\\frac{3}{4} \\right)\\div \\left( 1+\\frac{3}{2} \\right)=-\\frac{3}{10}$$．  故选$$\\text{C}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -7172,9 +7172,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "下面的四个判断中，不正确的是．\nA. $$34{{x}^{3}},{{y}^{6}}$$与$$34{{a}^{3}},{{b}^{6}}$$不是同类项\nB. $$3x$$和$$-3x+1$$不能互为相反数\nC. $$4(x-7)=6(5-27x)$$和$$6(5-27y)=4(y-7)$$不是同解方程\nD. $$3$$和$$\\frac{1}{a}+\\frac{1}{3}$$不能互为倒数",
+    "question_text": "下面的四个判断中，不正确的是．\nA. $$34{{x}^{3}}{{y}^{6}}$$与$$34{{a}^{3}}{{b}^{6}}$$不是同类项\nB. $$3x$$和$$-3x+1$$不能互为相反数\nC. $$4(x-7)=6(5-27x)$$和$$6(5-27y)=4(y-7)$$不是同解方程\nD. $$3$$和$$\\frac{1}{a}+\\frac{1}{3}$$不能互为倒数",
     "answer": "C. $$4(x-7)=6(5-27x)$$和$$6(5-27y)=4(y-7)$$不是同解方程",
-    "solution": "①$$34{{x}^{3}}y6$$与$$34{{a}^{3}},{{b}^{6}}$$，因字母不同，不是同类项，所以$$\\text{A}$$是正确的，排除$$\\text{A}$$．  ②若$$3x$$与$$-3x+1$$互为相反数，则$$-(3x)=-3x+1$$得出$$0=1$$的矛盾．所以``$$3x$$和$$-3x+1$$不能互为相反数''这句话正确，排除$$\\text{B}$$．  ③$$4(x-7)=6(5-27x)$$的解为$$\\frac{29}{83}$$．  $$6(5-27y)=4(y-7)$$的解也是$$\\frac{29}{83}$$．  因为这两个方程的解相同，因此，它们是同解方程．即$$\\text{C}$$``$$4(x-7)=6(5-27x)$$和$$6(5-27y)=4(y-7)$$不是同解方程''这句话不正确．  ④若$$3$$与$$\\frac{1}{a}+\\frac{1}{3}$$互为倒数，则$$\\frac{1}{3}=\\frac{1}{a}+\\frac{1}{3}\\Rightarrow 0=\\frac{1}{a}$$，矛盾．所以``$$3$$和$$\\frac{1}{a}+\\frac{1}{3}$$不能互为倒数''这句话是正确的，所以排除$$\\text{D}$$．  综上所述，应选$$\\text{C}$$．",
+    "solution": "①$$34{{x}^{3}}y6$$与$$34{{a}^{3}}{{b}^{6}}$$，因字母不同，不是同类项，所以$$\\text{A}$$是正确的，排除$$\\text{A}$$．  ②若$$3x$$与$$-3x+1$$互为相反数，则$$-(3x)=-3x+1$$得出$$0=1$$的矛盾．所以``$$3x$$和$$-3x+1$$不能互为相反数''这句话正确，排除$$\\text{B}$$．  ③$$4(x-7)=6(5-27x)$$的解为$$\\frac{29}{83}$$．  $$6(5-27y)=4(y-7)$$的解也是$$\\frac{29}{83}$$．  因为这两个方程的解相同，因此，它们是同解方程．即$$\\text{C}$$``$$4(x-7)=6(5-27x)$$和$$6(5-27y)=4(y-7)$$不是同解方程''这句话不正确．  ④若$$3$$与$$\\frac{1}{a}+\\frac{1}{3}$$互为倒数，则$$\\frac{1}{3}=\\frac{1}{a}+\\frac{1}{3}\\Rightarrow 0=\\frac{1}{a}$$，矛盾．所以``$$3$$和$$\\frac{1}{a}+\\frac{1}{3}$$不能互为倒数''这句话是正确的，所以排除$$\\text{D}$$．  综上所述，应选$$\\text{C}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -7217,7 +7217,7 @@
   {
     "question_text": "有理数$$a$$、$$b$$满足$$\\left\\textbar{} a+b \\right\\textbar\\textless{}\\left\\textbar{} a-b \\right\\textbar$$，则（~ ）．\nA. $$a+b\\geqslant 0$$\nB. $$a+b\\textless{}0$$\nC. $$ab\\textless{}0$$\nD. $$ab\\geqslant 0$$",
     "answer": "C. $$ab\\textless{}0$$",
-    "solution": "由$$\\left\\textbar{} a+b \\right\\textbar\\textless{}\\left\\textbar{} a-b \\right\\textbar$$有$${{\\left( a+b \\right)}^{2}}\\textless{},{{\\left( a-b \\right)}^{2}}$$，  即$${{a}^{2}}+2ab+{{b}^{2}}\\textless{},{{a}^{2}}-2ab+{{b}^{2}}$$．  不等式两边都减去$${{a}^{2}}+{{b}^{2}}$$，然后除以$$2$$，则有$$ab\\textless{}-ab$$，  只有$$ab\\textless{}0$$时才能成立，选$$\\text{C}$$．",
+    "solution": "由$$\\left\\textbar{} a+b \\right\\textbar\\textless{}\\left\\textbar{} a-b \\right\\textbar$$有$${{\\left( a+b \\right)}^{2}}\\textless{}{{\\left( a-b \\right)}^{2}}$$，  即$${{a}^{2}}+2ab+{{b}^{2}}\\textless{}{{a}^{2}}-2ab+{{b}^{2}}$$．  不等式两边都减去$${{a}^{2}}+{{b}^{2}}$$，然后除以$$2$$，则有$$ab\\textless{}-ab$$，  只有$$ab\\textless{}0$$时才能成立，选$$\\text{C}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -7239,9 +7239,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$a$$为实数，关于$$x$$，$$y$$的方程组$$\\left { \\begin{array},{*{35},{l}} ax+2y=22    2x+2y=a   \\end{array} \\right.$$有整数解，则$$a$$的个数为．\nA. $$5$$\nB. $$6$$\nC. $$7$$\nD. $$8$$",
+    "question_text": "已知$$a$$为实数，关于$$x$$，$$y$$的方程组$$\\left { \\begin{array}{*{35}{l}} ax+2y=22    2x+2y=a   \\end{array} \\right.$$有整数解，则$$a$$的个数为．\nA. $$5$$\nB. $$6$$\nC. $$7$$\nD. $$8$$",
     "answer": "D. $$8$$",
-    "solution": "由$$\\left { \\begin{array},{*{35},{l}} ax+2y=22    2x+2y=a   \\end{array} \\right.$$得$$\\left( a-2 \\right)x=22-a$$，∴$$x=\\frac{22-a}{a-2}=-1+\\frac{20}{a-2}$$；  由$$2x+2y=a$$，可知$$a$$必为偶数，又$$-1+\\frac{20}{a-2}$$为整数，所以$$a=0,4,6,-2,12,-8,22,-18$$",
+    "solution": "由$$\\left { \\begin{array}{*{35}{l}} ax+2y=22    2x+2y=a   \\end{array} \\right.$$得$$\\left( a-2 \\right)x=22-a$$，∴$$x=\\frac{22-a}{a-2}=-1+\\frac{20}{a-2}$$；  由$$2x+2y=a$$，可知$$a$$必为偶数，又$$-1+\\frac{20}{a-2}$$为整数，所以$$a=0,4,6,-2,12,-8,22,-18$$",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -7410,7 +7410,7 @@
   {
     "question_text": "在代数式$$x{{y}^{2}}$$中，$$x$$和$$y$$的值各减少$$25 \\%$$，则该代数式的值减少了（~ ）．\nA. $$50 \\%$$\nB. $$75 \\%$$\nC. $$\\frac{37}{64}$$\nD. $$\\frac{27}{64}$$",
     "answer": "C. $$\\frac{37}{64}$$",
-    "solution": "∵在代数式$$x{{y}^{2}}$$中，$$x$$和$$y$$的值各减少$$25 \\%$$，  ∴知$${{x}^{\\prime }}=\\frac{3}{4}x$$，$${{y}^{\\prime }}=\\frac{3}{4}y$$，  ∴$${{x}^{\\prime }},{{({{y}^{\\prime }})}^{2}}=\\left( \\frac{3}{4}x \\right)\\times {{\\left( \\frac{3}{4}y \\right)}^{2}}=\\frac{27}{64}x{{y}^{2}}$$，  ∴该代数式的值减少了$$\\frac{37}{64}$$．  故选$$\\text{C}$$．\n<p>因为$$x(1-25\\%)\\cdot {{\\left[ y(1-25\\%) \\right]}^{2}}=\\frac{27}{64}x{{y}^{2}}$$</p>\n<p>所以代数式的值减少了$$1-\\frac{27}{64}=\\frac{37}{64}$$</p>\n<p>故选$$\\text{C}$$．</p>",
+    "solution": "∵在代数式$$x{{y}^{2}}$$中，$$x$$和$$y$$的值各减少$$25 \\%$$，  ∴知$${{x}^{\\prime }}=\\frac{3}{4}x$$，$${{y}^{\\prime }}=\\frac{3}{4}y$$，  ∴$${{x}^{\\prime }},{{({{y}^{\\prime }})}^{2}}=\\left( \\frac{3}{4}x \\right)\\times {{\\left( \\frac{3}{4}y \\right)}^{2}}=\\frac{27}{64}x{{y}^{2}}$$，  ∴该代数式的值减少了$$\\frac{37}{64}$$．  故选$$\\text{C}$$．\n因为$$x(1-25\\%)\\cdot {{\\left[ y(1-25\\%) \\right]}^{2}}=\\frac{27}{64}x{{y}^{2}}$$\n所以代数式的值减少了$$1-\\frac{27}{64}=\\frac{37}{64}$$\n故选$$\\text{C}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -8334,7 +8334,7 @@
   {
     "question_text": "若$$a=\\frac{19951995}{19961996}$$，$$b=\\frac{19961996}{19971997}$$，$$c=\\frac{19971997}{19981998}$$，则（~ ）．\nA. $$a\\textless{}b\\textless{}c$$\nB. $$b\\textless{}c\\textless{}a$$\nC. $$c\\textless{}b\\textless{}a$$\nD. $$a\\textless{}c\\textless{}b$$",
     "answer": "A. $$a\\textless{}b\\textless{}c$$",
-    "solution": "设$$A=19951995$$，$$B=19961996$$，$$C=19971997$$，$$D=19981998$$，  则有$$B=A+10001$$，$$C=B+10001$$，$$D=C+10001$$．  ∵$$\\left( B+10001 \\right)\\left( B-10001 \\right)={{B}^{2}}-{{10001}^{2}}$$  亦即，$$C\\cdot A={{B}^{2}}-{{10001}^{2}}$$，∴$$C\\cdot A\\textless{},{{B}^{2}}$$．  由于$$B$$、$$C$$均为正数，不等式两边同时除以$$B\\cdot C$$，得到$$\\frac{A}{B}\\textless{}\\frac{B}{C}$$，  所以$$\\frac{19951995}{19961996}\\textless{}\\frac{19961996}{19971997}$$，同理$$\\frac{19961996}{19971997}\\textless{}\\frac{19971997}{19981998}$$，  即$$a\\textless{}b\\textless{}c$$．故选$$\\text{A}$$．",
+    "solution": "设$$A=19951995$$，$$B=19961996$$，$$C=19971997$$，$$D=19981998$$，  则有$$B=A+10001$$，$$C=B+10001$$，$$D=C+10001$$．  ∵$$\\left( B+10001 \\right)\\left( B-10001 \\right)={{B}^{2}}-{{10001}^{2}}$$  亦即，$$C\\cdot A={{B}^{2}}-{{10001}^{2}}$$，∴$$C\\cdot A\\textless{}{{B}^{2}}$$．  由于$$B$$、$$C$$均为正数，不等式两边同时除以$$B\\cdot C$$，得到$$\\frac{A}{B}\\textless{}\\frac{B}{C}$$，  所以$$\\frac{19951995}{19961996}\\textless{}\\frac{19961996}{19971997}$$，同理$$\\frac{19961996}{19971997}\\textless{}\\frac{19971997}{19981998}$$，  即$$a\\textless{}b\\textless{}c$$．故选$$\\text{A}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -8740,7 +8740,7 @@
   {
     "question_text": "某工厂去年的生产总值比前年增长$$a \\%$$，则前年比去年少的百分数是（~ ）．\nA. $$a \\%$$\nB. $$(1+a) \\%$$\nC. $$\\frac{a+1}{100a}$$\nD. $$\\frac{a}{100+a}$$",
     "answer": "D. $$\\frac{a}{100+a}$$",
-    "solution": "设前年的生产总值是$$m$$，则去年的生产总值是$$m(1+\\frac{a}{100})$$，  前年比去年少$$m(1+\\frac{a}{100})-m=\\frac{ma}{100}$$，  这个产值差占去年的$$\\frac{\\frac{ma},{100}}{m(1+\\frac{a}{100})}=\\frac{a}{100+a}$$．应选$$\\text{D}$$．",
+    "solution": "设前年的生产总值是$$m$$，则去年的生产总值是$$m(1+\\frac{a}{100})$$，  前年比去年少$$m(1+\\frac{a}{100})-m=\\frac{ma}{100}$$，  这个产值差占去年的$$\\frac{\\frac{ma}{100}}{m(1+\\frac{a}{100})}=\\frac{a}{100+a}$$．应选$$\\text{D}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -8861,9 +8861,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "$$x$$，$$y$$为实数，设$$a=\\dfrac{\\sqrt{{{\\left( -x \\right)}^{2}}}}{\\left\\textbar{} -x \\right\\textbar}$$，$$b=\\dfrac{y}{{{\\left( \\sqrt{-y} \\right)}^{2}}}$$，$$c=\\dfrac{3+\\dfrac{1},{4}}{4-\\dfrac{1}{2}}$$，则$$a$$，$$b$$，$$c$$的大小关系为．\nA. $$a\\textless{}b\\textless{}c$$\nB. $$b\\textless{}a\\textless{}c$$\nC. $$b\\textless{}c\\textless{}a$$\nD. $$a=b\\textgreater c$$",
+    "question_text": "$$x$$，$$y$$为实数，设$$a=\\dfrac{\\sqrt{{{\\left( -x \\right)}^{2}}}}{\\left\\textbar{} -x \\right\\textbar}$$，$$b=\\dfrac{y}{{{\\left( \\sqrt{-y} \\right)}^{2}}}$$，$$c=\\dfrac{3+\\dfrac{1}{4}}{4-\\dfrac{1}{2}}$$，则$$a$$，$$b$$，$$c$$的大小关系为．\nA. $$a\\textless{}b\\textless{}c$$\nB. $$b\\textless{}a\\textless{}c$$\nC. $$b\\textless{}c\\textless{}a$$\nD. $$a=b\\textgreater c$$",
     "answer": "C. $$b\\textless{}c\\textless{}a$$",
-    "solution": "$$a=\\frac{\\sqrt{{{\\left( -x \\right)}^{2}}}}{\\left\\textbar{} -x \\right\\textbar}=\\left\\textbar{} \\frac{-x}{-x} \\right\\textbar=1$$，  $$b=\\frac{y}{{{\\left( \\sqrt{-y} \\right)}^{2}}}=\\frac{y}{-y}=-1$$，  $$c=\\dfrac{3+\\dfrac{1},{4}}{4-\\dfrac{1}{2}}=\\frac{13}{14}$$．  所以$$b\\textless{}c\\textless{}a$$，选$$\\text{C}$$．",
+    "solution": "$$a=\\frac{\\sqrt{{{\\left( -x \\right)}^{2}}}}{\\left\\textbar{} -x \\right\\textbar}=\\left\\textbar{} \\frac{-x}{-x} \\right\\textbar=1$$，  $$b=\\frac{y}{{{\\left( \\sqrt{-y} \\right)}^{2}}}=\\frac{y}{-y}=-1$$，  $$c=\\dfrac{3+\\dfrac{1}{4}}{4-\\dfrac{1}{2}}=\\frac{13}{14}$$．  所以$$b\\textless{}c\\textless{}a$$，选$$\\text{C}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -9456,9 +9456,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "若$$({{a}^{m}},{{b}^{n+2}})\\cdot ({{a}^{2n}},{{b}^{2m}})={{a}^{5}},{{b}^{3}}$$，则$$m+n$$的值为．\nA. $$3$$\nB. $$2$$\nC. $$1$$\nD. $$-3$$",
+    "question_text": "若$$({{a}^{m}}{{b}^{n+2}})\\cdot ({{a}^{2n}}{{b}^{2m}})={{a}^{5}}{{b}^{3}}$$，则$$m+n$$的值为．\nA. $$3$$\nB. $$2$$\nC. $$1$$\nD. $$-3$$",
     "answer": "B. $$2$$",
-    "solution": "∵$$({{a}^{m}},{{b}^{n+2}})\\cdot ({{a}^{2n}},{{b}^{2m}})={{a}^{m+2n}},{{b}^{2m+n+2}}={{a}^{5}},{{b}^{3}}$$，  ∴$$m+2n=5$$，$$2m+n+2=3$$，  两式相加，得$$m+n=2$$．",
+    "solution": "∵$$({{a}^{m}}{{b}^{n+2}})\\cdot ({{a}^{2n}}{{b}^{2m}})={{a}^{m+2n}}{{b}^{2m+n+2}}={{a}^{5}}{{b}^{3}}$$，  ∴$$m+2n=5$$，$$2m+n+2=3$$，  两式相加，得$$m+n=2$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -9851,7 +9851,7 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "设$${{a}_{1}}$$，$${{a}_{2}}$$，$${{a}_{3}}$$是三个连续的正整数，则（~ ）．  （说明：$$a$$可被$$b$$整除，记作$$b\\textbar a$$．）\nA. $$a_{1}^{3}\\textbar({{a}_{1}},{{a}_{2}},{{a}_{3}}+{{a}_{2}})$$\nB. $$a_{2}^{3}\\textbar({{a}_{1}},{{a}_{2}},{{a}_{3}}+{{a}_{2}})$$\nC. $$a_{3}^{3}\\textbar({{a}_{1}},{{a}_{2}},{{a}_{3}}+{{a}_{2}})$$\nD. $${{a}_{1}},{{a}_{2}},{{a}_{3}}\\textbar({{a}_{1}},{{a}_{2}},{{a}_{3}}+{{a}_{2}})$$",
+    "question_text": "设$${{a}_{1}}$$，$${{a}_{2}}$$，$${{a}_{3}}$$是三个连续的正整数，则（~ ）．  （说明：$$a$$可被$$b$$整除，记作$$b\\textbar a$$．）\nA. $$a_{1}^{3}\\textbar({{a}_{1}},{{a}_{2}},{{a}_{3}}+{{a}_{2}})$$\nB. $$a_{2}^{3}\\textbar({{a}_{1}},{{a}_{2}}{{a}_{3}}+{{a}_{2}})$$\nC. $$a_{3}^{3}\\textbar({{a}_{1}},{{a}_{2}}{{a}_{3}}+{{a}_{2}})$$\nD. $${{a}_{1}},{{a}_{2}}{{a}_{3}}\\textbar({{a}_{1}}{{a}_{2}}{{a}_{3}}+{{a}_{2}})$$",
     "answer": "B. $$a_{2}^{3}\\textbar({{a}_{1}},{{a}_{2}},{{a}_{3}}+{{a}_{2}})$$",
     "solution": "依题意，设$${{a}_{1}}=n$$（$$n$$为正整数），  则$${{a}_{2}}=n+1$$，$${{a}_{3}}=n+2$$．  所以$${{a}_{1}},{{a}_{2}},{{a}_{3}}+{{a}_{2}}=n(n+1)(n+2)+(n+1)=(n+1)\\left[ n(n+2)+1 \\right]={{(n+1)}^{3}}=a_{2}^{3}$$，  所以$$a_{2}^{3}\\textbar({{a}_{1}},{{a}_{2}},{{a}_{3}}+{{a}_{2}})$$．",
     "question_type": "选择题",
