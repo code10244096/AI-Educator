@@ -7,7 +7,7 @@ export const STAGE_SUBJECTS = {
 
 /** 题库已入库、浏览/检索应露出的学科（与 backend/bank_subjects.py 对齐） */
 export const BANK_SUBJECTS = ['语文', '数学', '英语', '科学']
-export const BANK_STAGES = ['小学', '初中', '高中']
+export const BANK_STAGES = ['小学', '初中', '高中', '大学']
 
 const GRADES_BY_STAGE = {
   小学: ['一年级', '二年级', '三年级', '四年级', '五年级', '六年级'],

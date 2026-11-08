@@ -90,7 +90,7 @@ const MathSegment = ({ token, katex, failed }) => {
         <span className="math-inline" dangerouslySetInnerHTML={{ __html: html }} />
       )
     }
-    return <span className="math-raw break-all">{token.raw}</span>
+    return <span className="math-raw break-all">{token.tex}</span>
   }
   // KaTeX 未就绪（首次加载中）或加载失败：显示原文
   return <span className={`break-all ${failed ? '' : 'text-gray-400'}`}>{token.raw}</span>
