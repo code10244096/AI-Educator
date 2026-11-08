@@ -425,8 +425,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which word has a final 'y' pronounced /i/?\nA. A. happy\nB. B. my\nC. C. fly\nD. D. sky",
-    "answer": "A. A. happy",
+    "question_text": "Which word has a final 'y' pronounced /i/?\nA. happy\nB. my\nC. fly\nD. sky",
+    "answer": "A. happy",
     "solution": "happy 的词尾 y 发 /i/；其余三个单词中的 y 发 /aɪ/。",
     "question_type": "选择题",
     "subject": "英语",
@@ -442,8 +442,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which word has the same final 'y' sound as 'try'?\nA. A. baby\nB. B. fly\nC. C. sunny\nD. D. candy",
-    "answer": "B. B. fly",
+    "question_text": "Which word has the same final 'y' sound as 'try'?\nA. baby\nB. fly\nC. sunny\nD. candy",
+    "answer": "B. fly",
     "solution": "fly 的词尾 y 发 /aɪ/，与 try 中的 y 发音相同。",
     "question_type": "选择题",
     "subject": "英语",
@@ -2176,8 +2176,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which word is a food noun?\nA. A. apple\nB. B. sweet\nC. C. sour\nD. D. salty",
-    "answer": "A. A. apple",
+    "question_text": "Which word is a food noun?\nA. apple\nB. sweet\nC. sour\nD. salty",
+    "answer": "A. apple",
     "solution": "Apple表示“苹果”，是饮食名词；sweet表示“甜的”，是味道形容词。",
     "question_type": "选择题",
     "subject": "英语",
@@ -2227,8 +2227,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "The soup ______ salty.（汤尝起来是咸的。）\nA. A. sweet\nB. B. salty\nC. C. sour\nD. D. bitter",
-    "answer": "B. B. salty",
+    "question_text": "The soup ______ salty.（汤尝起来是咸的。）\nA. sweet\nB. salty\nC. sour\nD. bitter",
+    "answer": "B. salty",
     "solution": "Salty意为“咸的”。句子主语The soup是单数，taste需要加-s，组成tastes salty。",
     "question_type": "选择题",
     "subject": "英语",
@@ -2482,7 +2482,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪个单词中的ow与cow中的ow发音相同？\nA. A. how\nB. B. snow\nC. C. grow\nD. D. window",
+    "question_text": "下面哪个单词中的ow与cow中的ow发音相同？\nA. how\nB. snow\nC. grow\nD. window",
     "answer": "A",
     "solution": "cow中的ow发/aʊ/，与how中的ow发音相同。",
     "question_type": "选择题",
@@ -2499,7 +2499,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪个单词中的ow与yellow中的ow发音相同？\nA. A. now\nB. B. snow\nC. C. brown\nD. D. how",
+    "question_text": "下面哪个单词中的ow与yellow中的ow发音相同？\nA. now\nB. snow\nC. brown\nD. how",
     "answer": "B",
     "solution": "snow中的ow发/əʊ/（美式英语中常读/oʊ/），与yellow中的ow相同；now中的ow发/aʊ/。",
     "question_type": "选择题",
@@ -2703,7 +2703,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "别人问你“What would you like to drink?”，你可以怎样回答？\nA. A. I'd like some rice.\nB. B. I'd like some milk.\nC. C. I like to read.",
+    "question_text": "别人问你“What would you like to drink?”，你可以怎样回答？\nA. I'd like some rice.\nB. I'd like some milk.\nC. I like to read.",
     "answer": "B",
     "solution": "What would you like to drink? 意为“你想喝什么？”，答语可用 I'd like some milk.",
     "question_type": "选择题",
@@ -2737,7 +2737,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择合适的句子完成对话：— What would you like to eat? — ______\nA. A. I'd like some noodles.\nB. B. I'd like some juice.\nC. C. I can swim.",
+    "question_text": "选择合适的句子完成对话：— What would you like to eat? — ______\nA. I'd like some noodles.\nB. I'd like some juice.\nC. I can swim.",
     "answer": "A",
     "solution": "问句询问想吃什么，I'd like some noodles. 表示“我想吃一些面条”，回答恰当。",
     "question_type": "选择题",
@@ -2839,7 +2839,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪一组单词中，加粗字母组合的发音相同？（比较 ai）\nA. A. cat 和 cake\nB. B. rain 和 train\nC. C. book 和 moon\nD. D. dog 和 go",
+    "question_text": "下面哪一组单词中，加粗字母组合的发音相同？（比较 ai）\nA. cat 和 cake\nB. rain 和 train\nC. book 和 moon\nD. dog 和 go",
     "answer": "B",
     "solution": "在 rain 和 train 中，字母组合 ai 都发 /eɪ/；其他选项中的字母组合发音不同。",
     "question_type": "选择题",
@@ -3434,7 +3434,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "People are wearing coats. Which sentence best explains why?\nA. A. It is very hot today.\nB. B. It is very cold today.\nC. C. It is time to go to bed.\nD. D. The sun is very bright.",
+    "question_text": "People are wearing coats. Which sentence best explains why?\nA. It is very hot today.\nB. It is very cold today.\nC. It is time to go to bed.\nD. The sun is very bright.",
     "answer": "B",
     "solution": "句子说今天很冷，因此人们穿上了外套。wear 意为“穿”。",
     "question_type": "选择题",
@@ -3536,8 +3536,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which phrase means “一个苹果”？\nA. A. an apple\nB. B. a rice\nC. C. an milk",
-    "answer": "A. A. an apple",
+    "question_text": "Which phrase means “一个苹果”？\nA. an apple\nB. a rice\nC. an milk",
+    "answer": "A. an apple",
     "solution": "apple 以元音音素开头，表示一个苹果时用 an apple。",
     "question_type": "选择题",
     "subject": "英语",

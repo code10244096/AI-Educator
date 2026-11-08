@@ -1309,7 +1309,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "请把首字母和单词配对：A. f  B. h  C. a  D. m；1. hand  2. milk  3. fish  4. apple。\nA. A. f\nB. B. h\nC. C. a\nD. D. m\nE. 1. hand\nF. 2. milk\nG. 3. fish\nH. 4. apple",
+    "question_text": "请把首字母和单词配对：A. f  B. h  C. a  D. m；1. hand  2. milk  3. fish  4. apple。\nA. f\nB. h\nC. a\nD. m\nE. 1. hand\nF. 2. milk\nG. 3. fish\nH. 4. apple",
     "answer": "A-3,B-1,C-4,D-2",
     "solution": "fish 的首字母是 f；hand 的首字母是 h；apple 的首字母是 a；milk 的首字母是 m。",
     "question_type": "填空题",
@@ -6324,8 +6324,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "'that one' 的意思是什么？\nA. A. 那个\nB. B. 这个\nC. C. 这些",
-    "answer": "A. A. 那个",
+    "question_text": "'that one' 的意思是什么？\nA. 那个\nB. 这个\nC. 这些",
+    "answer": "A. 那个",
     "solution": "that one 指代远处的某个特定的人或物，意思是“那个”。",
     "question_type": "选择题",
     "subject": "英语",
@@ -6426,7 +6426,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“你多大了？”用英语怎么说？\nA. A. How are you?\nB. B. How old are you?\nC. C. How many are you?",
+    "question_text": "“你多大了？”用英语怎么说？\nA. How are you?\nB. How old are you?\nC. How many are you?",
     "answer": "B",
     "solution": "“How old”用来询问年龄，因此“How old are you?”的意思是“你多大了？”。",
     "question_type": "选择题",
@@ -6460,7 +6460,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Amy问：“How old is Tom?” 哪个回答合适？\nA. A. He is eight years old.\nB. B. I am eight years old.\nC. C. She is eight years old.",
+    "question_text": "Amy问：“How old is Tom?” 哪个回答合适？\nA. He is eight years old.\nB. I am eight years old.\nC. She is eight years old.",
     "answer": "A",
     "solution": "“How old is he?”询问男孩的年龄，回答“他八岁了”可以说“He is eight years old.”。",
     "question_type": "选择题",
@@ -6817,7 +6817,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "I can see with my eyes. 句子中的 eyes 是什么意思？\nA. A. 耳朵\nB. B. 眼睛\nC. C. 鼻子\nD. D. 嘴巴",
+    "question_text": "I can see with my eyes. 句子中的 eyes 是什么意思？\nA. 耳朵\nB. 眼睛\nC. 鼻子\nD. 嘴巴",
     "answer": "B",
     "solution": "句子说“I can see with my eyes”（我能用眼睛看），eyes 的意思是“眼睛”。",
     "question_type": "选择题",
@@ -7072,8 +7072,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "早上，老师问你“How are you?”，你应回答：\nA. A. Goodbye!\nB. B. I'm fine, thank you.\nC. C. Happy birthday!\nD. D. I'm sorry.",
-    "answer": "B. B. I'm fine, thank you.",
+    "question_text": "早上，老师问你“How are you?”，你应回答：\nA. Goodbye!\nB. I'm fine, thank you.\nC. Happy birthday!\nD. I'm sorry.",
+    "answer": "B. I'm fine, thank you.",
     "solution": "“How are you?”是在询问近况，可以回答“I'm fine, thank you.”，意思是“我很好，谢谢”。",
     "question_type": "选择题",
     "subject": "英语",
@@ -7089,8 +7089,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "同学不小心碰掉了你的铅笔，说“I'm sorry.”，你可以回答：\nA. A. Thank you.\nB. B. Good morning.\nC. C. That's OK.\nD. D. You're welcome.",
-    "answer": "C. C. That's OK.",
+    "question_text": "同学不小心碰掉了你的铅笔，说“I'm sorry.”，你可以回答：\nA. Thank you.\nB. Good morning.\nC. That's OK.\nD. You're welcome.",
+    "answer": "C. That's OK.",
     "solution": "别人说“I'm sorry.”是在道歉，可以用“That's OK.”表示“没关系”。",
     "question_type": "选择题",
     "subject": "英语",
@@ -7820,7 +7820,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个短语的意思是“这个”？\nA. A. how many\nB. B. this one\nC. C. so many",
+    "question_text": "哪个短语的意思是“这个”？\nA. how many\nB. this one\nC. so many",
     "answer": "B",
     "solution": "this one 是“这个”；how many 是“多少”，不是“这么多”。",
     "question_type": "选择题",

@@ -408,7 +408,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个单词表示“多云的”？\nA. A. rainy\nB. B. cloudy\nC. C. windy",
+    "question_text": "哪个单词表示“多云的”？\nA. rainy\nB. cloudy\nC. windy",
     "answer": "B",
     "solution": "cloudy 表示“多云的”，cloud 是“云”，加 -y 后成为描述天气的形容词。",
     "question_type": "选择题",
@@ -476,7 +476,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择合适的单词补全句子：The sun is shining. It is ______.（太阳在照耀，天气很晴朗。）\nA. A. sunny\nB. B. rainy\nC. C. cloudy",
+    "question_text": "选择合适的单词补全句子：The sun is shining. It is ______.（太阳在照耀，天气很晴朗。）\nA. sunny\nB. rainy\nC. cloudy",
     "answer": "A",
     "solution": "A sunny 表示“晴朗的”，与句意相符；rainy 是“下雨的”，cloudy 是“多云的”。",
     "question_type": "选择题",
@@ -595,7 +595,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "It is sunny. What can you do outside?\nA. A. read a book indoors\nB. B. fly a kite\nC. C. use an umbrella indoors",
+    "question_text": "It is sunny. What can you do outside?\nA. read a book indoors\nB. fly a kite\nC. use an umbrella indoors",
     "answer": "B",
     "solution": "sunny 表示晴朗。晴天适合放风筝，fly a kite 意为“放风筝”。",
     "question_type": "选择题",
@@ -3298,7 +3298,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个单词的词尾 er 通常发 /ə/ 音？\nA. A. her\nB. B. farmer\nC. C. term",
+    "question_text": "哪个单词的词尾 er 通常发 /ə/ 音？\nA. her\nB. farmer\nC. term",
     "answer": "B",
     "solution": "farmer 的 er 位于词尾，通常发 /ə/；her 和 term 中的 er 在词中，发音不同。",
     "question_type": "选择题",
@@ -3349,7 +3349,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪个单词的词尾字母组合 er 通常发 /ə/ 音？\nA. A. desk\nB. B. computer\nC. C. apple",
+    "question_text": "下面哪个单词的词尾字母组合 er 通常发 /ə/ 音？\nA. desk\nB. computer\nC. apple",
     "answer": "B",
     "solution": "computer 以 er 结尾，词尾 er 通常发 /ə/；desk 和 apple 的词尾都不是 er。",
     "question_type": "选择题",
@@ -4131,7 +4131,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个单词的意思是“胡萝卜”？\nA. A. potato\nB. B. carrot\nC. C. sheep",
+    "question_text": "哪个单词的意思是“胡萝卜”？\nA. potato\nB. carrot\nC. sheep",
     "answer": "B",
     "solution": "carrot的意思是“胡萝卜”，其复数形式是carrots。",
     "question_type": "选择题",
@@ -4216,7 +4216,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "照片放在离我们较远的桌子上。哪句话表达正确？\nA. A. These photos over there are old.\nB. B. Those photos over there are old.\nC. C. This photos over there are old.\nD. D. That photos over there are old.",
+    "question_text": "照片放在离我们较远的桌子上。哪句话表达正确？\nA. These photos over there are old.\nB. Those photos over there are old.\nC. This photos over there are old.\nD. That photos over there are old.",
     "answer": "B",
     "solution": "照片在远处，且不止一张，因此用 those；those photos 表示“那些照片”。",
     "question_type": "选择题",
@@ -4369,7 +4369,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "单词 'ball' 中 'al' 的常见发音是什么？\nA. A. /ɑː/\nB. B. /ɔː/\nC. C. /æ/",
+    "question_text": "单词 'ball' 中 'al' 的常见发音是什么？\nA. /ɑː/\nB. /ɔː/\nC. /æ/",
     "answer": "B",
     "solution": "ball 中的 al 通常发 /ɔː/，与 call 中的 al 发音相同。",
     "question_type": "选择题",
@@ -4420,7 +4420,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个单词中的 ar 通常发 /ɑː/？\nA. A. fish\nB. B. arm\nC. C. desk",
+    "question_text": "哪个单词中的 ar 通常发 /ɑː/？\nA. fish\nB. arm\nC. desk",
     "answer": "B",
     "solution": "arm 含有 ar，ar 在 arm 中通常发 /ɑː/；其他单词不含 ar。",
     "question_type": "选择题",
@@ -4437,7 +4437,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪一组单词中的字母组合 al 发音相同？\nA. A. call 和 car\nB. B. call 和 ball\nC. C. arm 和 park",
+    "question_text": "哪一组单词中的字母组合 al 发音相同？\nA. call 和 car\nB. call 和 ball\nC. arm 和 park",
     "answer": "B",
     "solution": "call 和 ball 中的 al 通常都发 /ɔː/，所以两者的 al 发音相同。",
     "question_type": "选择题",
@@ -5440,7 +5440,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下列哪组匹配正确？\nA. A. these—较近的多个物品；she—女孩\nB. B. these—较远的一个物品；she—男孩\nC. C. these—较近的一个物品；she—多个物品",
+    "question_text": "下列哪组匹配正确？\nA. these—较近的多个物品；she—女孩\nB. these—较远的一个物品；she—男孩\nC. these—较近的一个物品；she—多个物品",
     "answer": "A",
     "solution": "these表示“这些”，指较近的多个对象；she通常代替一位女性或女孩。",
     "question_type": "选择题",
@@ -7276,7 +7276,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "将下列衣物单词与中文意思连线。\nA. A. jacket\nB. B. sweater\nC. C. socks\nD. D. coat\nE. 1. 毛衣\nF. 2. 大衣\nG. 3. 夹克衫\nH. 4. 袜子",
+    "question_text": "将下列衣物单词与中文意思连线。\nA. jacket\nB. sweater\nC. socks\nD. coat\nE. 1. 毛衣\nF. 2. 大衣\nG. 3. 夹克衫\nH. 4. 袜子",
     "answer": "A-3，B-1，C-4，D-2",
     "solution": "jacket 是夹克衫，sweater 是毛衣，socks 是袜子，coat 是大衣。",
     "question_type": "填空题",
@@ -7327,7 +7327,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "It is cold outside. Please _____ your coat.\nA. A. wear\nB. B. put on\nC. C. take off",
+    "question_text": "It is cold outside. Please _____ your coat.\nA. wear\nB. put on\nC. take off",
     "answer": "B",
     "solution": "put on 表示“穿上”，强调穿衣服的动作。",
     "question_type": "选择题",
@@ -7344,7 +7344,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Amy _____ a blue skirt today.\nA. A. wears\nB. B. puts on\nC. C. takes off",
+    "question_text": "Amy _____ a blue skirt today.\nA. wears\nB. puts on\nC. takes off",
     "answer": "A",
     "solution": "wear 表示“穿着”，描述穿在身上的状态。",
     "question_type": "选择题",
@@ -7616,7 +7616,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选出正确的句子。\nA. A. That is your.\nB. B. That book is yours.\nC. C. That is yours book.",
+    "question_text": "选出正确的句子。\nA. That is your.\nB. That book is yours.\nC. That is yours book.",
     "answer": "B",
     "solution": "mine和yours都可单独表示所属关系；my和your是形容词性物主代词，后面通常要接名词。句中book已经出现，因此应选yours。",
     "question_type": "选择题",
@@ -7667,7 +7667,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选出正确的表达。\nA. A. one book\nB. B. one books",
+    "question_text": "选出正确的表达。\nA. one book\nB. one books",
     "answer": "A",
     "solution": "one 表示一个，后面通常接可数名词单数，所以应说 one book。",
     "question_type": "选择题",
@@ -8313,7 +8313,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择合适的答句：What color is your skirt?\nA. A. It's on the chair.\nB. B. It's yellow.",
+    "question_text": "选择合适的答句：What color is your skirt?\nA. It's on the chair.\nB. It's yellow.",
     "answer": "B",
     "solution": "What color询问颜色，黄色裙子可以回答It's yellow.；A是询问地点的回答。",
     "question_type": "选择题",
@@ -8330,7 +8330,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择合适的答句：Is this your pencil?\nA. A. Yes, it is.\nB. B. It's blue.",
+    "question_text": "选择合适的答句：Is this your pencil?\nA. Yes, it is.\nB. It's blue.",
     "answer": "A",
     "solution": "Is this your pencil? 是一般疑问句，可回答Yes, it is.，表示“是的，它是”。",
     "question_type": "选择题",
@@ -8347,7 +8347,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "你的同学对你说“Thank you!”你应该回答：\nA. A. Good night!\nB. B. You're welcome.",
+    "question_text": "你的同学对你说“Thank you!”你应该回答：\nA. Good night!\nB. You're welcome.",
     "answer": "B",
     "solution": "别人说Thank you.时，常用You're welcome.回应，表示“不客气”。",
     "question_type": "选择题",
@@ -8823,7 +8823,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "将英文单词与中文意思配对：A. shirt，B. skirt，C. shoes；1. 裙子，2. 衬衫，3. 鞋子。\nA. A. shirt\nB. B. skirt\nC. C. shoes\nD. 1. 裙子\nE. 2. 衬衫\nF. 3. 鞋子",
+    "question_text": "将英文单词与中文意思配对：A. shirt，B. skirt，C. shoes；1. 裙子，2. 衬衫，3. 鞋子。\nA. shirt\nB. skirt\nC. shoes\nD. 1. 裙子\nE. 2. 衬衫\nF. 3. 鞋子",
     "answer": "A-2，B-1，C-3",
     "solution": "shirt 是衬衫，skirt 是裙子，shoes 是鞋子。",
     "question_type": "填空题",
@@ -8891,7 +8891,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪一个英文单词表示“夹克衫”？\nA. A. jacket\nB. B. socks\nC. C. sweater",
+    "question_text": "哪一个英文单词表示“夹克衫”？\nA. jacket\nB. socks\nC. sweater",
     "answer": "A",
     "solution": "jacket 表示夹克衫，coat 表示大衣，因此应选 A。",
     "question_type": "选择题",
@@ -8908,7 +8908,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "想询问对方的名字，应该说哪一句？\nA. A. Where is your name?\nB. B. What is your name?\nC. C. Who is your name?",
+    "question_text": "想询问对方的名字，应该说哪一句？\nA. Where is your name?\nB. What is your name?\nC. Who is your name?",
     "answer": "B",
     "solution": "询问“你叫什么名字”用 What，句子语序为“What + is + your name?”",
     "question_type": "选择题",
@@ -8993,7 +8993,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择正确的肯定句。\nA. A. I is a pupil.\nB. B. I am a pupil.\nC. C. I are a pupil.",
+    "question_text": "选择正确的肯定句。\nA. I is a pupil.\nB. I am a pupil.\nC. I are a pupil.",
     "answer": "B",
     "solution": "I 与 be 动词 am 搭配，完整的肯定句是“I am a pupil.”",
     "question_type": "选择题",
@@ -9061,7 +9061,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择正确的肯定句。\nA. A. Tom play football.\nB. B. Tom plays football.\nC. C. Tom is play football.",
+    "question_text": "选择正确的肯定句。\nA. Tom play football.\nB. Tom plays football.\nC. Tom is play football.",
     "answer": "B",
     "solution": "Tom 是单数主语，在一般现在时中行为动词 play 要加 -s，写作 plays。A 中的 play 未变形；C 中同时使用 is 和行为动词原形，结构不正确。",
     "question_type": "选择题",

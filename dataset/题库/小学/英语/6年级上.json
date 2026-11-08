@@ -1428,7 +1428,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "What does a red octagonal STOP sign mean?\nA. A. Keep moving.\nB. B. Stop.\nC. C. Turn left.\nD. D. Ride a bike.",
+    "question_text": "What does a red octagonal STOP sign mean?\nA. Keep moving.\nB. Stop.\nC. Turn left.\nD. Ride a bike.",
     "answer": "B",
     "solution": "“Stop”表示“停下”。红色八边形的 STOP 标志提醒车辆在路口停下，确认安全后再继续行驶。",
     "question_type": "选择题",
@@ -1479,7 +1479,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "The traffic light is red. What should you do?\nA. A. Run across quickly.\nB. B. Stop and wait for the green light.\nC. C. Close your eyes and walk.\nD. D. Follow a moving car.",
+    "question_text": "The traffic light is red. What should you do?\nA. Run across quickly.\nB. Stop and wait for the green light.\nC. Close your eyes and walk.\nD. Follow a moving car.",
     "answer": "B",
     "solution": "遇到红灯应停下等待。不能因为道路看起来没有车就闯红灯。",
     "question_type": "选择题",
@@ -1513,7 +1513,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "What does a “No Entry” sign tell you?\nA. A. You can enter here.\nB. B. You must not enter from this direction.\nC. C. You should cross the road here.\nD. D. You can park your bike here.",
+    "question_text": "What does a “No Entry” sign tell you?\nA. You can enter here.\nB. You must not enter from this direction.\nC. You should cross the road here.\nD. You can park your bike here.",
     "answer": "B",
     "solution": "“No Entry”表示禁止进入。看到这个标志时，不应从该方向进入。",
     "question_type": "选择题",
@@ -1530,7 +1530,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“乘公共汽车”用英语怎么说？\nA. A. by train\nB. B. by bus\nC. C. on foot\nD. D. by plane",
+    "question_text": "“乘公共汽车”用英语怎么说？\nA. by train\nB. by bus\nC. on foot\nD. by plane",
     "answer": "B",
     "solution": "bus 表示“公共汽车”，by bus 表示“乘公共汽车”。",
     "question_type": "选择题",
@@ -1615,7 +1615,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "What does a yellow traffic light mean?\nA. A. 加速通过\nB. B. 减速并准备停车\nC. C. 停在路中间",
+    "question_text": "What does a yellow traffic light mean?\nA. 加速通过\nB. 减速并准备停车\nC. 停在路中间",
     "answer": "B",
     "solution": "Yellow light提醒人们减速，并准备停车，而不是加速通过。",
     "question_type": "选择题",
@@ -1802,7 +1802,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "If you are ill, where can you go to see a doctor?\nA. A. park\nB. B. hospital\nC. C. bookstore\nD. D. school",
+    "question_text": "If you are ill, where can you go to see a doctor?\nA. park\nB. hospital\nC. bookstore\nD. school",
     "answer": "B",
     "solution": "生病时可以去医院看医生，医院的英文是hospital。",
     "question_type": "选择题",
@@ -3978,7 +3978,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择正确的句子。\nA. A. He are going to play football.\nB. B. He is going to play football.\nC. C. He is going to plays football.",
+    "question_text": "选择正确的句子。\nA. He are going to play football.\nB. He is going to play football.\nC. He is going to plays football.",
     "answer": "B",
     "solution": "主语 he 是第三人称单数，使用 is；be going to 后接动词原形 play。",
     "question_type": "选择题",
@@ -4284,7 +4284,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个时间状语表示将来？\nA. A. yesterday\nB. B. tomorrow\nC. C. last night\nD. D. two days ago",
+    "question_text": "哪个时间状语表示将来？\nA. yesterday\nB. tomorrow\nC. last night\nD. two days ago",
     "answer": "B",
     "solution": "tomorrow 表示“明天”，next week 表示“下周”，两者都指将来的时间。",
     "question_type": "选择题",
@@ -4318,7 +4318,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择合适的动词：We ______ basketball yesterday.\nA. A. played\nB. B. play\nC. C. will play\nD. D. plays",
+    "question_text": "选择合适的动词：We ______ basketball yesterday.\nA. played\nB. play\nC. will play\nD. plays",
     "answer": "A",
     "solution": "题干中的 yesterday（昨天）表示过去，句子应使用一般过去时。played 是 play 的过去式。",
     "question_type": "选择题",
@@ -4420,7 +4420,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "She ____ going to visit her grandma tomorrow.\nA. A. am\nB. B. is\nC. C. are",
+    "question_text": "She ____ going to visit her grandma tomorrow.\nA. am\nB. is\nC. are",
     "answer": "B",
     "solution": "主语是 She，be 动词用 is；going to 后接动词原形 visit。",
     "question_type": "选择题",
@@ -4488,7 +4488,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Look at those black clouds! It ____ soon.\nA. A. is going to rain\nB. B. is going to rain\nC. C. are going to rain",
+    "question_text": "Look at those black clouds! It ____ soon.\nA. is going to rain\nB. is going to rain\nC. are going to rain",
     "answer": "B",
     "solution": "根据“Look at those black clouds”（看那些乌云）可以推测很快要下雨，因此用 be going to 表示根据当前迹象作出的推测。主语 It 搭配 is。",
     "question_type": "选择题",
@@ -4505,7 +4505,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择合适的疑问词：_____ do you get up?（你什么时候起床？）\nA. A. Where\nB. B. When\nC. C. Who\nD. D. Why",
+    "question_text": "选择合适的疑问词：_____ do you get up?（你什么时候起床？）\nA. Where\nB. When\nC. Who\nD. Why",
     "answer": "B",
     "solution": "When 用来询问时间，句意是“你什么时候起床？”",
     "question_type": "选择题",
@@ -5389,7 +5389,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which phrase means “下个月”?\nA. A. yesterday\nB. B. last month\nC. C. next month\nD. D. every day",
+    "question_text": "Which phrase means “下个月”?\nA. yesterday\nB. last month\nC. next month\nD. every day",
     "answer": "C",
     "solution": "next month 表示“下个月”，符合句意。",
     "question_type": "选择题",
@@ -5644,7 +5644,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选出表达正确的一句。\nA. A. They are going to fly kites tomorrow.\nB. B. They is going to fly kites tomorrow.\nC. C. They are going to flies kites tomorrow.",
+    "question_text": "选出表达正确的一句。\nA. They are going to fly kites tomorrow.\nB. They is going to fly kites tomorrow.\nC. They are going to flies kites tomorrow.",
     "answer": "A",
     "solution": "主语 They 对应 are；be going to 后接动词原形 fly，因此选 A。",
     "question_type": "选择题",
@@ -5780,7 +5780,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“今天上午”用英语怎么说？\nA. A. 今天下午\nB. B. 今天上午\nC. C. 下周\nD. D. 今晚",
+    "question_text": "“今天上午”用英语怎么说？\nA. 今天下午\nB. 今天上午\nC. 下周\nD. 今晚",
     "answer": "B",
     "solution": "this morning 表示“今天上午”，morning 意为“早晨、上午”。",
     "question_type": "选择题",
@@ -5814,7 +5814,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选出 this afternoon 的正确意思。\nA. A. 今晚\nB. B. 今天上午\nC. C. 今天下午\nD. D. 下周",
+    "question_text": "选出 this afternoon 的正确意思。\nA. 今晚\nB. 今天上午\nC. 今天下午\nD. 下周",
     "answer": "C",
     "solution": "this afternoon 表示“今天下午”，afternoon 是“下午”。",
     "question_type": "选择题",
@@ -6936,7 +6936,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选出正确句子：\nA. A. read\nB. B. reads\nC. C. reading\nD. D. is read",
+    "question_text": "选出正确句子：\nA. read\nB. reads\nC. reading\nD. is read",
     "answer": "B",
     "solution": "主语 Amy 是第三人称单数，read 是一般动词，需加 -s，故选 reads。",
     "question_type": "选择题",
@@ -7174,7 +7174,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择正确的词填空：My brother ______ to school by bus.\nA. A. goes\nB. B. go\nC. C. going\nD. D. are go",
+    "question_text": "选择正确的词填空：My brother ______ to school by bus.\nA. goes\nB. go\nC. going\nD. are go",
     "answer": "A",
     "solution": "主语 My brother 是第三人称单数，动词 go 要加 -es，故选 goes。",
     "question_type": "选择题",
@@ -7225,7 +7225,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择对 “Are you a student?” 的正确回答。\nA. A. Yes, I do.\nB. B. Yes, I am.\nC. C. Yes, I can.",
+    "question_text": "选择对 “Are you a student?” 的正确回答。\nA. Yes, I do.\nB. Yes, I am.\nC. Yes, I can.",
     "answer": "B",
     "solution": "一般疑问句可以用 Yes 或 No 回答。Are you a student? 的肯定回答是 Yes, I am.",
     "question_type": "选择题",
@@ -7293,7 +7293,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择正确的一般疑问句。\nA. A. Does Tom happy?\nB. B. Tom is happy?\nC. C. Is Tom happy?",
+    "question_text": "选择正确的一般疑问句。\nA. Does Tom happy?\nB. Tom is happy?\nC. Is Tom happy?",
     "answer": "C",
     "solution": "句中有 be 动词 is，构成一般疑问句时把 is 放在主语 Tom 前面，因此应为 Is Tom happy?",
     "question_type": "选择题",
@@ -8211,7 +8211,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个短语的意思是“去远足”？\nA. A. go hiking\nB. B. watch TV\nC. C. write an email",
+    "question_text": "哪个短语的意思是“去远足”？\nA. go hiking\nB. watch TV\nC. write an email",
     "answer": "go hiking",
     "solution": "go hiking 表示“去远足”。表示参加远足活动时，常用 go hiking。",
     "question_type": "选择题",
@@ -9401,7 +9401,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Leo enjoys drawing. Which sentence best connects his interest with a future job?\nA. A. I enjoy drawing, so I’d like to be a designer.\nB. B. I enjoy drawing, so I’d like to be a cook.\nC. C. I enjoy drawing, so I’d like to be a pilot.\nD. D. I enjoy drawing, so I’d like to be a farmer.",
+    "question_text": "Leo enjoys drawing. Which sentence best connects his interest with a future job?\nA. I enjoy drawing, so I’d like to be a designer.\nB. I enjoy drawing, so I’d like to be a cook.\nC. I enjoy drawing, so I’d like to be a pilot.\nD. I enjoy drawing, so I’d like to be a farmer.",
     "answer": "C",
     "solution": "Leo喜欢画画。设计师的工作常常需要绘画和设计，因此兴趣与职业工作内容相关。",
     "question_type": "选择题",
@@ -9452,8 +9452,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Amy enjoys reading stories and making up her own stories. Which sentence best explains her career choice?\nA. A. I enjoy reading stories, so I’d like to be a writer.\nB. B. I enjoy reading stories, so I’d like to be a swimmer.\nC. C. I enjoy reading stories, so I’d like to be a driver.\nD. D. I enjoy reading stories, so I’d like to be a gardener.",
-    "answer": "A. A. I enjoy reading stories, so I’d like to be a writer.",
+    "question_text": "Amy enjoys reading stories and making up her own stories. Which sentence best explains her career choice?\nA. I enjoy reading stories, so I’d like to be a writer.\nB. I enjoy reading stories, so I’d like to be a swimmer.\nC. I enjoy reading stories, so I’d like to be a driver.\nD. I enjoy reading stories, so I’d like to be a gardener.",
+    "answer": "A. I enjoy reading stories, so I’d like to be a writer.",
     "solution": "A 说明了阅读故事的兴趣与写故事的职业之间的联系。其他选项没有清楚解释这种兴趣如何与职业相关。",
     "question_type": "选择题",
     "subject": "英语",
@@ -9486,7 +9486,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Sam enjoys fixing things. Which sentence gives the clearest reason for his future job choice?\nA. A. Sam enjoys fixing things, so he’d like to be a singer because he likes repairing machines.\nB. B. Sam enjoys fixing things, so he’d like to be an engineer because he likes making and improving things.\nC. C. Sam enjoys fixing things, so he’d like to be a dancer because he likes repairing bikes.\nD. D. Sam enjoys fixing things, so he’d like to be a farmer because he likes fixing computers.",
+    "question_text": "Sam enjoys fixing things. Which sentence gives the clearest reason for his future job choice?\nA. Sam enjoys fixing things, so he’d like to be a singer because he likes repairing machines.\nB. Sam enjoys fixing things, so he’d like to be an engineer because he likes making and improving things.\nC. Sam enjoys fixing things, so he’d like to be a dancer because he likes repairing bikes.\nD. Sam enjoys fixing things, so he’d like to be a farmer because he likes fixing computers.",
     "answer": "B",
     "solution": "Sam喜欢修理东西，而工程师常常需要设计、制作或改进物品，因此 B 最清楚地说明了兴趣和职业之间的联系。",
     "question_type": "选择题",
@@ -9503,7 +9503,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which word means “教师”？\nA. A. 医生\nB. B. 教师\nC. C. 司机\nD. D. 农民",
+    "question_text": "Which word means “教师”？\nA. 医生\nB. 教师\nC. 司机\nD. 农民",
     "answer": "B",
     "solution": "teacher意为“教师”，通常在学校教书。",
     "question_type": "选择题",
@@ -9537,7 +9537,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“farmer”是什么意思？\nA. A. 农民\nB. B. 护士\nC. C. 飞行员\nD. D. 教师",
+    "question_text": "“farmer”是什么意思？\nA. 农民\nB. 护士\nC. 飞行员\nD. 教师",
     "answer": "A",
     "solution": "farmer意为“农民”，通常从事农业劳动。",
     "question_type": "选择题",
@@ -9588,7 +9588,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Where does a teacher usually work?\nA. A. hospital\nB. B. school\nC. C. farm",
+    "question_text": "Where does a teacher usually work?\nA. hospital\nB. school\nC. farm",
     "answer": "B",
     "solution": "老师通常在学校（school）工作。A项医院通常是医生或护士工作的地方。",
     "question_type": "选择题",
@@ -9605,7 +9605,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "A doctor usually works in a _____.\nA. A. hospital\nB. B. factory\nC. C. farm",
+    "question_text": "A doctor usually works in a _____.\nA. hospital\nB. factory\nC. farm",
     "answer": "A",
     "solution": "医生通常在医院（hospital）工作。",
     "question_type": "选择题",
@@ -9775,8 +9775,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "If you like helping sick people, you can be a ______.\nA. A. doctor\nB. B. farmer\nC. C. singer",
-    "answer": "A. A. doctor",
+    "question_text": "If you like helping sick people, you can be a ______.\nA. doctor\nB. farmer\nC. singer",
+    "answer": "A. doctor",
     "solution": "医生可以帮助病人，喜欢帮助和照顾别人的人可能适合成为医生。句子中的doctor以辅音音素开头，因此使用a。",
     "question_type": "选择题",
     "subject": "英语",
@@ -9826,8 +9826,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which job may suit someone who likes painting?\nA. A. a teacher\nB. B. an artist\nC. C. a driver",
-    "answer": "B. B. an artist",
+    "question_text": "Which job may suit someone who likes painting?\nA. a teacher\nB. an artist\nC. a driver",
+    "answer": "B. an artist",
     "solution": "喜欢画画的人可能适合成为艺术家。artist以元音音素开头，所以前面用an；teacher以辅音音素开头，前面用a。",
     "question_type": "选择题",
     "subject": "英语",
@@ -9843,7 +9843,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“乘公共汽车”用英语怎么说？\nA. A. on bus\nB. B. by bus\nC. C. by a bus",
+    "question_text": "“乘公共汽车”用英语怎么说？\nA. on bus\nB. by bus\nC. by a bus",
     "answer": "B",
     "solution": "by bus 意为“乘公共汽车”，by 后的交通工具前通常不加冠词。",
     "question_type": "选择题",
@@ -9911,7 +9911,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择正确表达：我们乘火车去上海。We go to Shanghai ________.\nA. A. by a train\nB. B. by train\nC. C. on train",
+    "question_text": "选择正确表达：我们乘火车去上海。We go to Shanghai ________.\nA. by a train\nB. by train\nC. on train",
     "answer": "B",
     "solution": "by train 意为“乘火车”。by 后直接接交通工具名称，通常不加 a。",
     "question_type": "选择题",
@@ -11339,7 +11339,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择合适的答句：What does your mother do?\nA. A. She is a nurse.\nB. B. She works in a hospital.\nC. C. She likes reading.",
+    "question_text": "选择合适的答句：What does your mother do?\nA. She is a nurse.\nB. She works in a hospital.\nC. She likes reading.",
     "answer": "A",
     "solution": "问句“What does your mother do?”询问妈妈的职业。“She is a nurse.”意为“她是一名护士”，回答合适。",
     "question_type": "选择题",
@@ -12478,8 +12478,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which word means “担心的”？\nA. A. happy\nB. B. worried\nC. C. angry\nD. D. afraid",
-    "answer": "B. B. worried",
+    "question_text": "Which word means “担心的”？\nA. happy\nB. worried\nC. angry\nD. afraid",
+    "answer": "B. worried",
     "solution": "worried 的意思是“担心的”，例如：She is worried about the test.（她在担心考试。）",
     "question_type": "选择题",
     "subject": "英语",
@@ -12512,7 +12512,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "朋友口渴了，你可以给他什么建议？\nA. A. Drink some water.\nB. B. See a doctor.\nC. C. Take a deep breath.",
+    "question_text": "朋友口渴了，你可以给他什么建议？\nA. Drink some water.\nB. See a doctor.\nC. Take a deep breath.",
     "answer": "A",
     "solution": "drink some water意为“喝些水”，适合在口渴时作为建议。",
     "question_type": "选择题",
@@ -12563,7 +12563,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择正确的短语：I like to ____ music after school.\nA. A. listen music\nB. B. listen to music\nC. C. listen at music\nD. D. listen with music",
+    "question_text": "选择正确的短语：I like to ____ music after school.\nA. listen music\nB. listen to music\nC. listen at music\nD. listen with music",
     "answer": "B",
     "solution": "listen to 是固定搭配，表示“听……”。因此应说 listen to music。",
     "question_type": "选择题",
@@ -12631,7 +12631,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择正确的搭配：We are waiting ____ the bus.\nA. A. wait at\nB. B. wait to\nC. C. wait for\nD. D. wait with",
+    "question_text": "选择正确的搭配：We are waiting ____ the bus.\nA. wait at\nB. wait to\nC. wait for\nD. wait with",
     "answer": "C",
     "solution": "wait for somebody 表示“等待某人”。句中需要用 for，故选 C。",
     "question_type": "选择题",
@@ -13498,7 +13498,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "You can ______ if you don't understand the question.\nA. A. ask your mum for help\nB. B. asks your mum for help\nC. C. asking your mum for help",
+    "question_text": "You can ______ if you don't understand the question.\nA. ask your mum for help\nB. asks your mum for help\nC. asking your mum for help",
     "answer": "A",
     "solution": "You can 后面接动词原形。Ask 是原形，asks 是第三人称单数形式。",
     "question_type": "选择题",
@@ -13532,7 +13532,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which sentence gives a suggestion correctly?\nA. A. Why not going for a walk?\nB. B. Why not go for a walk?\nC. C. Why not goes for a walk?",
+    "question_text": "Which sentence gives a suggestion correctly?\nA. Why not going for a walk?\nB. Why not go for a walk?\nC. Why not goes for a walk?",
     "answer": "B",
     "solution": "Why not 后接动词原形 go，因此正确表达是 Why not go for a walk?",
     "question_type": "选择题",
@@ -13634,7 +13634,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择合适的中文意思：1. be afraid；2. wear warm clothes；3. be angry；4. see a doctor。\nA. A. 生气\nB. B. 害怕\nC. C. 看医生\nD. D. 穿暖和的衣服",
+    "question_text": "选择合适的中文意思：1. be afraid；2. wear warm clothes；3. be angry；4. see a doctor。\nA. 生气\nB. 害怕\nC. 看医生\nD. 穿暖和的衣服",
     "answer": "1. B；2. A；3. D；4. C",
     "solution": "be afraid 是“害怕”；wear warm clothes 是“穿暖和的衣服”；be angry 是“生气”；see a doctor 是“看医生”。",
     "question_type": "填空题",
@@ -13719,7 +13719,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "You have a toothache. What should you do?\nA. A. Eat lots of candy.\nB. B. Tell your parent and ask for help.\nC. C. Stay up late.",
+    "question_text": "You have a toothache. What should you do?\nA. Eat lots of candy.\nB. Tell your parent and ask for help.\nC. Stay up late.",
     "answer": "B",
     "solution": "牙疼时应告诉家长并寻求帮助；吃很多糖果可能让牙齿更不舒服。",
     "question_type": "选择题",
@@ -13736,7 +13736,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "It is raining outside. What can you do?\nA. A. Take an umbrella.\nB. B. Wear sunglasses.\nC. C. Eat some ice cream.",
+    "question_text": "It is raining outside. What can you do?\nA. Take an umbrella.\nB. Wear sunglasses.\nC. Eat some ice cream.",
     "answer": "A",
     "solution": "下雨时带伞是合适的准备；戴太阳镜不能防止被雨淋湿。",
     "question_type": "选择题",
@@ -14960,7 +14960,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“How can I get to the museum?”是什么意思？\nA. A. 我什么时候离开博物馆？\nB. B. 我怎样才能到达博物馆？\nC. C. 博物馆里有什么？\nD. D. 博物馆离这里远吗？",
+    "question_text": "“How can I get to the museum?”是什么意思？\nA. 我什么时候离开博物馆？\nB. 我怎样才能到达博物馆？\nC. 博物馆里有什么？\nD. 博物馆离这里远吗？",
     "answer": "B",
     "solution": "How can I get to...? 用来询问“我怎样才能到达……？”，所以应选择“怎样到达”。",
     "question_type": "选择题",
@@ -15011,7 +15011,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "—How can I get to the library? —______\nA. A. It is a big library.\nB. B. Go straight and turn left.\nC. C. I like reading books.\nD. D. It is Monday.",
+    "question_text": "—How can I get to the library? —______\nA. It is a big library.\nB. Go straight and turn left.\nC. I like reading books.\nD. It is Monday.",
     "answer": "B",
     "solution": "题目询问怎样到达图书馆，回答需要给出路线指引；Go straight and turn left. 表示“直走，然后向左转”。",
     "question_type": "选择题",
@@ -15045,7 +15045,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "doctor 的意思是什么？\nA. A. 教师\nB. B. 医生\nC. C. 农民\nD. D. 司机",
+    "question_text": "doctor 的意思是什么？\nA. 教师\nB. 医生\nC. 农民\nD. 司机",
     "answer": "B",
     "solution": "doctor 的意思是“医生”。",
     "question_type": "选择题",
@@ -15130,7 +15130,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“Characters” 在故事要素中指什么？\nA. A. 故事发生的地点\nB. B. 故事中的人物或动物\nC. C. 故事的寓意\nD. D. 故事发生的时间",
+    "question_text": "“Characters” 在故事要素中指什么？\nA. 故事发生的地点\nB. 故事中的人物或动物\nC. 故事的寓意\nD. 故事发生的时间",
     "answer": "B",
     "solution": "Characters 是故事中参与事件的人物或动物；故事想告诉读者的道理是 Moral。",
     "question_type": "选择题",
@@ -15164,7 +15164,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“一只乌鸦站在树枝上”主要交代了哪个故事要素？\nA. A. Characters\nB. B. Setting\nC. C. Plot\nD. D. Moral",
+    "question_text": "“一只乌鸦站在树枝上”主要交代了哪个故事要素？\nA. Characters\nB. Setting\nC. Plot\nD. Moral",
     "answer": "B",
     "solution": "故事发生的地点和环境属于 Setting；Plot 指故事中发生的事件及其发展。",
     "question_type": "选择题",
@@ -15198,7 +15198,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "故事中“发生了什么事”以及事件怎样发展，主要属于哪个要素？\nA. A. Characters\nB. B. Setting\nC. C. Plot\nD. D. Moral",
+    "question_text": "故事中“发生了什么事”以及事件怎样发展，主要属于哪个要素？\nA. Characters\nB. Setting\nC. Plot\nD. Moral",
     "answer": "C",
     "solution": "故事发生的事件及其先后发展构成 Plot。角色是 Characters，地点或环境是 Setting，道理是 Moral。",
     "question_type": "选择题",
@@ -15283,7 +15283,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪一组词最符合常见的辅音加元音连读条件？\nA. A. sit down\nB. B. go home\nC. C. look at\nD. D. good boy",
+    "question_text": "下面哪一组词最符合常见的辅音加元音连读条件？\nA. sit down\nB. go home\nC. look at\nD. good boy",
     "answer": "C",
     "solution": "look 以辅音音素 /k/ 结尾，at 以元音音素 /æ/ 开头，因此两词通常可以自然连读。",
     "question_type": "选择题",
@@ -15300,7 +15300,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "I want to drink some water. I feel ____.\nA. A. hungry\nB. B. thirsty\nC. C. tired\nD. D. angry",
+    "question_text": "I want to drink some water. I feel ____.\nA. hungry\nB. thirsty\nC. tired\nD. angry",
     "answer": "B",
     "solution": "Hungry 表示“饿的”，thirsty 表示“渴的”。想喝水说明口渴了。",
     "question_type": "选择题",
@@ -15317,7 +15317,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "We can read or borrow books in a ____.\nA. A. library\nB. B. bookstore\nC. C. classroom\nD. D. playground",
+    "question_text": "We can read or borrow books in a ____.\nA. library\nB. bookstore\nC. classroom\nD. playground",
     "answer": "A",
     "solution": "“图书馆”是 library；bookstore 是书店，classroom 是教室，playground 是操场。",
     "question_type": "选择题",
@@ -15351,7 +15351,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "The weather is ____. Please put on your coat.\nA. A. hot\nB. B. sunny\nC. C. cold\nD. D. windy",
+    "question_text": "The weather is ____. Please put on your coat.\nA. hot\nB. sunny\nC. cold\nD. windy",
     "answer": "C",
     "solution": "The weather is cold 说明天气冷，因此穿上外套是合适的。Hot 是“热的”，sunny 是“晴朗的”，windy 是“有风的”。",
     "question_type": "选择题",
@@ -16660,8 +16660,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "sad 的中文意思是什么？\nA. A. 开心的\nB. B. 难过的\nC. C. 生气的",
-    "answer": "B. B. 难过的",
+    "question_text": "sad 的中文意思是什么？\nA. 开心的\nB. 难过的\nC. 生气的",
+    "answer": "B. 难过的",
     "solution": "sad 的意思是“难过的”；happy 是“开心的”，angry 是“生气的”。",
     "question_type": "选择题",
     "subject": "英语",
@@ -16677,8 +16677,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“开心的”用英语怎么说？\nA. A. happy\nB. B. scared\nC. C. worried",
-    "answer": "A. A. happy",
+    "question_text": "“开心的”用英语怎么说？\nA. happy\nB. scared\nC. worried",
+    "answer": "A. happy",
     "solution": "happy 意为“开心的”。",
     "question_type": "选择题",
     "subject": "英语",
@@ -16745,7 +16745,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "红灯亮时，我们应该怎么做？\nA. A. Run at the red light.\nB. B. Wait at the red light.\nC. C. Play at the red light.\nD. D. Sleep at the red light.",
+    "question_text": "红灯亮时，我们应该怎么做？\nA. Run at the red light.\nB. Wait at the red light.\nC. Play at the red light.\nD. Sleep at the red light.",
     "answer": "B",
     "solution": "红灯时应停下等待，所以应选 Wait（等待）。",
     "question_type": "选择题",
@@ -16796,7 +16796,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which is a safe way to cross the street?\nA. A. Look left and right before crossing.\nB. B. Close your eyes before crossing.\nC. C. Run across the street.\nD. D. Play on the street.",
+    "question_text": "Which is a safe way to cross the street?\nA. Look left and right before crossing.\nB. Close your eyes before crossing.\nC. Run across the street.\nD. Play on the street.",
     "answer": "A",
     "solution": "过马路前左右看是安全建议；before crossing 意为“过马路之前”。",
     "question_type": "选择题",
@@ -16830,7 +16830,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择正确的句子。\nA. A. I is going to visit my grandma.\nB. B. I am going to visit my grandma.\nC. C. I are going to visit my grandma.",
+    "question_text": "选择正确的句子。\nA. I is going to visit my grandma.\nB. I am going to visit my grandma.\nC. I are going to visit my grandma.",
     "answer": "B",
     "solution": "主语是 I，be 动词用 am；表示将来计划时用 am going to + 动词原形。",
     "question_type": "选择题",

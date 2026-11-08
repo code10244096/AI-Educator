@@ -629,7 +629,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选出正确的句子。\nA. A. Mr. Li is young than Mr. Wang.\nB. B. Mr. Li is younger than Mr. Wang.\nC. C. Mr. Li younger is than Mr. Wang.\nD. D. Mr. Li is younger Mr. Wang.",
+    "question_text": "选出正确的句子。\nA. Mr. Li is young than Mr. Wang.\nB. Mr. Li is younger than Mr. Wang.\nC. Mr. Li younger is than Mr. Wang.\nD. Mr. Li is younger Mr. Wang.",
     "answer": "B",
     "solution": "young 的比较级是 younger，表示“更年轻”。句子意思是“李先生比王先生年轻”。",
     "question_type": "选择题",
@@ -782,7 +782,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个英文单位表示“升”？\nA. A. litre\nB. B. gram\nC. C. metre",
+    "question_text": "哪个英文单位表示“升”？\nA. litre\nB. gram\nC. metre",
     "answer": "A",
     "solution": "litre 表示升，是容量单位；gram 是质量单位，metre 是长度单位。",
     "question_type": "选择题",
@@ -850,7 +850,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "My brother is _____ than me.（tall）\nA. A. taller\nB. B. tall\nC. C. tallest\nD. D. more tall",
+    "question_text": "My brother is _____ than me.（tall）\nA. taller\nB. tall\nC. tallest\nD. more tall",
     "answer": "A",
     "solution": "tall是一般情况下在词尾加-er构成比较级，故为taller；比较时用than连接对象。",
     "question_type": "选择题",
@@ -935,7 +935,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "在短语 a big ball（一个大球）中，哪个词表示“大”？\nA. A. ball\nB. B. big\nC. C. is",
+    "question_text": "在短语 a big ball（一个大球）中，哪个词表示“大”？\nA. ball\nB. big\nC. is",
     "answer": "B",
     "solution": "big 表示“大”，用来描述球的大小；ball 是名词，表示“球”。",
     "question_type": "选择题",
@@ -952,7 +952,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个词是表示感受的形容词？\nA. A. happy\nB. B. school\nC. C. pencil",
+    "question_text": "哪个词是表示感受的形容词？\nA. happy\nB. school\nC. pencil",
     "answer": "A",
     "solution": "happy 表示“开心的”，描述人的感受，是形容词。",
     "question_type": "选择题",
@@ -1411,7 +1411,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“The elephant is bigger than the dog.”属于哪种句型？\nA. A. 一般疑问句\nB. B. 比较级陈述句\nC. C. 特殊疑问句\nD. D. 祈使句",
+    "question_text": "“The elephant is bigger than the dog.”属于哪种句型？\nA. 一般疑问句\nB. 比较级陈述句\nC. 特殊疑问句\nD. 祈使句",
     "answer": "B",
     "solution": "句子中有“taller than”，表示把恐龙和我进行比较，因此是比较级陈述句。",
     "question_type": "选择题",
@@ -1751,7 +1751,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "The sky is full of dark clouds. What should I take before I go out?\nA. A. I will wear sunglasses.\nB. B. I will eat some ice cream.\nC. C. I will take an umbrella.",
+    "question_text": "The sky is full of dark clouds. What should I take before I go out?\nA. I will wear sunglasses.\nB. I will eat some ice cream.\nC. I will take an umbrella.",
     "answer": "C",
     "solution": "天空乌云密布，出门带伞更合理。A项戴太阳镜适合阳光强烈时，B项吃冰淇淋和句意没有直接关系。",
     "question_type": "选择题",
@@ -1768,7 +1768,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Lily is very thirsty after running. What should she do?\nA. A. She should go to bed.\nB. B. She should drink some water.\nC. C. She should put on her coat.",
+    "question_text": "Lily is very thirsty after running. What should she do?\nA. She should go to bed.\nB. She should drink some water.\nC. She should put on her coat.",
     "answer": "B",
     "solution": "莉莉口渴时，喝水最合理。阅读时要联系日常生活中的需要与对应做法。",
     "question_type": "选择题",
@@ -3383,7 +3383,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪个词表示过去的时间？\nA. A. tomorrow\nB. B. yesterday\nC. C. next week\nD. D. now",
+    "question_text": "下面哪个词表示过去的时间？\nA. tomorrow\nB. yesterday\nC. next week\nD. now",
     "answer": "B",
     "solution": "yesterday 意为“昨天”，是表示过去时间的常见词。",
     "question_type": "选择题",
@@ -3417,7 +3417,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个短语通常表示过去的时间？\nA. A. next night\nB. B. last night\nC. C. every night\nD. D. now",
+    "question_text": "哪个短语通常表示过去的时间？\nA. next night\nB. last night\nC. every night\nD. now",
     "answer": "B",
     "solution": "last night 意为“昨晚”，表示过去的时间；next night 表示“下一晚”，now 表示“现在”。",
     "question_type": "选择题",
@@ -3570,7 +3570,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Look! She ______ a book now.\nA. A. reads\nB. B. is reading\nC. C. read",
+    "question_text": "Look! She ______ a book now.\nA. reads\nB. is reading\nC. read",
     "answer": "is reading",
     "solution": "Look提示动作正在发生，用现在进行时，结构为主语 + am/is/are + 动词-ing。主语she配is，read变为reading。",
     "question_type": "选择题",
@@ -4981,7 +4981,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个英语短语的意思是“读书”？\nA. A. read a book\nB. B. see a film\nC. C. drink tea",
+    "question_text": "哪个英语短语的意思是“读书”？\nA. read a book\nB. see a film\nC. drink tea",
     "answer": "A",
     "solution": "A 正确：read a book 表示“读书”。B 的意思是“看电影”，C 的意思是“喝茶”。",
     "question_type": "选择题",
@@ -5049,7 +5049,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下列哪一个是 do 的过去式？\nA. A. doed\nB. B. did\nC. C. does\nD. D. doing",
+    "question_text": "下列哪一个是 do 的过去式？\nA. doed\nB. did\nC. does\nD. doing",
     "answer": "B",
     "solution": "do 的过去式是 did；doed 是错误形式。",
     "question_type": "选择题",
@@ -6256,7 +6256,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选出正确答案：This is _____ flower in the garden.\nA. A. beautifulest\nB. B. the most beautiful\nC. C. more beautiful",
+    "question_text": "选出正确答案：This is _____ flower in the garden.\nA. beautifulest\nB. the most beautiful\nC. more beautiful",
     "answer": "B",
     "solution": "beautiful 是较长的形容词，通常在前面加 most 构成最高级：the most beautiful。",
     "question_type": "选择题",
@@ -6511,7 +6511,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择正确的句子：她会游泳。\nA. A. She can swims.\nB. B. She can swim.\nC. C. She could swimming.",
+    "question_text": "选择正确的句子：她会游泳。\nA. She can swims.\nB. She can swim.\nC. She could swimming.",
     "answer": "B",
     "solution": "句子说她现在会游泳，因此用 can；can 后接动词原形 swim。",
     "question_type": "选择题",
@@ -6562,7 +6562,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择正确的句子：他去年不会说英语。\nA. A. He couldn’t speak English last year.\nB. B. He couldn’t spoke English last year.\nC. C. He doesn’t could speak English last year.",
+    "question_text": "选择正确的句子：他去年不会说英语。\nA. He couldn’t speak English last year.\nB. He couldn’t spoke English last year.\nC. He doesn’t could speak English last year.",
     "answer": "A",
     "solution": "couldn’t 表示过去不会，后面接动词原形 speak。",
     "question_type": "选择题",
@@ -7973,7 +7973,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择正确的句子。\nA. A. I was ten last year, but now I am eleven.\nB. B. I am ten last year, but now I was eleven.\nC. C. I were ten last year, but now I is eleven.",
+    "question_text": "选择正确的句子。\nA. I was ten last year, but now I am eleven.\nB. I am ten last year, but now I was eleven.\nC. I were ten last year, but now I is eleven.",
     "answer": "A",
     "solution": "last year 表示过去，描述那时的状态用 was；now 表示现在，主语 I 对应 am。",
     "question_type": "选择题",
@@ -9197,7 +9197,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下列哪个单词和其他三个不属于同一类别？\nA. A. doctor\nB. B. tiger\nC. C. grape\nD. D. bus",
+    "question_text": "下列哪个单词和其他三个不属于同一类别？\nA. doctor\nB. tiger\nC. grape\nD. bus",
     "answer": "A",
     "solution": "doctor（医生）、teacher（教师）和 farmer（农民）都是职业；其余选项是动物、水果或交通工具。",
     "question_type": "选择题",
@@ -9231,7 +9231,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下列哪组单词都属于衣物？\nA. A. bread\nB. B. shirt\nC. C. chair\nD. D. rabbit",
+    "question_text": "下列哪组单词都属于衣物？\nA. bread\nB. shirt\nC. chair\nD. rabbit",
     "answer": "B",
     "solution": "shirt（衬衫）、coat（外套）和 skirt（裙子）都是衣物；其他选项分别是食物、家具和动物。",
     "question_type": "选择题",
@@ -9843,7 +9843,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Lily: Look at my new schoolbag! Tom: Wow, it's beautiful! Lily: ____\nA. A. I'm sorry.\nB. B. Thank you.\nC. C. Good night.",
+    "question_text": "Lily: Look at my new schoolbag! Tom: Wow, it's beautiful! Lily: ____\nA. I'm sorry.\nB. Thank you.\nC. Good night.",
     "answer": "B",
     "solution": "看到朋友的新书包后说“Wow, it's beautiful!”是在表示赞美，回答“Thank you”最自然。",
     "question_type": "选择题",
@@ -10897,8 +10897,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "I ___ to the museum yesterday.\nA. A. go\nB. B. went\nC. C. goes\nD. D. going",
-    "answer": "B. B. went",
+    "question_text": "I ___ to the museum yesterday.\nA. go\nB. went\nC. goes\nD. going",
+    "answer": "B. went",
     "solution": "句子中的 yesterday 表示过去，主语是 I，因此用 go 的过去式 went。",
     "question_type": "选择题",
     "subject": "英语",
@@ -11135,7 +11135,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which is the past tense of “see”?\nA. A. saw\nB. B. seed\nC. C. sees\nD. D. see",
+    "question_text": "Which is the past tense of “see”?\nA. saw\nB. seed\nC. sees\nD. see",
     "answer": "A",
     "solution": "see 是不规则动词，过去式为 saw。",
     "question_type": "选择题",
@@ -11237,7 +11237,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个英文单词的意思是“骡子”？\nA. A. elephant（大象）\nB. B. horse（马）\nC. C. mule（骡子）\nD. D. tiger（老虎）",
+    "question_text": "哪个英文单词的意思是“骡子”？\nA. elephant（大象）\nB. horse（马）\nC. mule（骡子）\nD. tiger（老虎）",
     "answer": "C",
     "solution": "mule 的意思是“骡子”，因此选 C。elephant 是“大象”，horse 是“马”，tiger 是“老虎”。",
     "question_type": "选择题",
@@ -11254,7 +11254,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Yesterday, we _____ to the park.\nA. A. go\nB. B. went\nC. C. goes\nD. D. going",
+    "question_text": "Yesterday, we _____ to the park.\nA. go\nB. went\nC. goes\nD. going",
     "answer": "B",
     "solution": "yesterday 表示过去，句子应使用一般过去时。go 的过去式是 went。",
     "question_type": "选择题",
@@ -11339,7 +11339,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“去钓鱼”用英语怎么说？\nA. A. 去游泳\nB. B. 去钓鱼\nC. C. 去购物",
+    "question_text": "“去钓鱼”用英语怎么说？\nA. 去游泳\nB. 去钓鱼\nC. 去购物",
     "answer": "B",
     "solution": "go fishing 意为“去钓鱼”。",
     "question_type": "选择题",
@@ -11390,7 +11390,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“listen to music”的意思是什么？\nA. A. 听音乐\nB. B. 看电视\nC. C. 做作业",
+    "question_text": "“listen to music”的意思是什么？\nA. 听音乐\nB. 看电视\nC. 做作业",
     "answer": "A",
     "solution": "listen to music 意为“听音乐”。listen 后面接表示听的对象时，通常需要加 to。",
     "question_type": "选择题",
@@ -11985,7 +11985,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "We ___ the science museum yesterday.\nA. A. visit\nB. B. visited\nC. C. visits\nD. D. visiting",
+    "question_text": "We ___ the science museum yesterday.\nA. visit\nB. visited\nC. visits\nD. visiting",
     "answer": "B",
     "solution": "yesterday 表示昨天，句子描述过去发生的事情，动词用过去式 visited。",
     "question_type": "选择题",
@@ -12002,7 +12002,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "My brother ___ reading storybooks now.\nA. A. likes\nB. B. liked\nC. C. like\nD. D. liking",
+    "question_text": "My brother ___ reading storybooks now.\nA. likes\nB. liked\nC. like\nD. liking",
     "answer": "A",
     "solution": "now 表示现在；主语 My brother 是第三人称单数，所以一般现在时动词用 likes。",
     "question_type": "选择题",

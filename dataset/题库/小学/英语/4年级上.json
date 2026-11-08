@@ -1275,7 +1275,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“铅笔”用英语怎么说？\nA. A. ruler\nB. B. pencil\nC. C. book",
+    "question_text": "“铅笔”用英语怎么说？\nA. ruler\nB. pencil\nC. book",
     "answer": "B",
     "solution": "pencil 的意思是“铅笔”，所以应选 B。",
     "question_type": "选择题",
@@ -1326,8 +1326,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which word means “笔记本”?\nA. A. notebook\nB. B. storybook\nC. C. ruler",
-    "answer": "A. A. notebook",
+    "question_text": "Which word means “笔记本”?\nA. notebook\nB. storybook\nC. ruler",
+    "answer": "A. notebook",
     "solution": "notebook 是“笔记本”；storybook 是“故事书”，ruler 是“尺子”。",
     "question_type": "选择题",
     "subject": "英语",
@@ -1666,7 +1666,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪一句是祈使句？\nA. A. She has a new pencil.\nB. B. Is this your pencil?\nC. C. Open your book, please.\nD. D. What is your name?",
+    "question_text": "下面哪一句是祈使句？\nA. She has a new pencil.\nB. Is this your pencil?\nC. Open your book, please.\nD. What is your name?",
     "answer": "C",
     "solution": "Open 是动词原形，句子以动词开头，是请求或指令，因此属于祈使句。",
     "question_type": "选择题",
@@ -1870,7 +1870,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“球在椅子上。”用英语怎么说？\nA. A. The ball is in the chair.\nB. B. The ball is on the chair.\nC. C. The ball is under the chair.",
+    "question_text": "“球在椅子上。”用英语怎么说？\nA. The ball is in the chair.\nB. The ball is on the chair.\nC. The ball is under the chair.",
     "answer": "B",
     "solution": "on 表示“在……上面”，所以“球在椅子上”是 The ball is on the chair.",
     "question_type": "选择题",
@@ -2924,7 +2924,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "schoolbag 的中文意思是什么？\nA. A. 钥匙\nB. B. 书包\nC. C. 故事书\nD. D. 英语书",
+    "question_text": "schoolbag 的中文意思是什么？\nA. 钥匙\nB. 书包\nC. 故事书\nD. 英语书",
     "answer": "书包",
     "solution": "schoolbag 的意思是“书包”。",
     "question_type": "选择题",
@@ -2941,7 +2941,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个英文单词的意思是“钥匙”？\nA. A. storybook\nB. B. English book\nC. C. schoolbag\nD. D. key",
+    "question_text": "哪个英文单词的意思是“钥匙”？\nA. storybook\nB. English book\nC. schoolbag\nD. key",
     "answer": "key",
     "solution": "“钥匙”用英语说是 key。",
     "question_type": "选择题",
@@ -3009,8 +3009,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "别人说“I’m sorry.”时，哪句话是合适的回应？\nA. A. I’m sorry. — That’s OK.\nB. A. I’m sorry. — You’re welcome.\nC. A. I’m sorry. — See you.\nD. A. I’m sorry. — What colour is it?",
-    "answer": "A. A. I’m sorry. — That’s OK.",
+    "question_text": "别人说“I’m sorry.”时，哪句话是合适的回应？\nA. I’m sorry. — That’s OK.\nB. A. I’m sorry. — You’re welcome.\nC. A. I’m sorry. — See you.\nD. A. I’m sorry. — What colour is it?",
+    "answer": "A. I’m sorry. — That’s OK.",
     "solution": "“I’m sorry.”表示道歉，合适的回应是“That’s OK.”；“You’re welcome.”回应感谢，“See you.”用于告别。",
     "question_type": "选择题",
     "subject": "英语",
@@ -4012,7 +4012,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Tom is very _____. He is taller than his classmates.（Tom很_____，他比同学们高。）\nA. A. kind\nB. B. tall\nC. C. funny",
+    "question_text": "Tom is very _____. He is taller than his classmates.（Tom很_____，他比同学们高。）\nA. kind\nB. tall\nC. funny",
     "answer": "B",
     "solution": "tall表示“高的”，用来描述人物身高。句意是“Tom很高”。",
     "question_type": "选择题",
@@ -4029,7 +4029,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪句话正确地描述一位害羞的女孩？\nA. A. She is shy.\nB. B. He are shy.\nC. C. She am shy.",
+    "question_text": "哪句话正确地描述一位害羞的女孩？\nA. She is shy.\nB. He are shy.\nC. She am shy.",
     "answer": "A",
     "solution": "描述女孩时用she，be动词用is。She is shy意为“她很害羞”。",
     "question_type": "选择题",
@@ -4233,7 +4233,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个单词中的 o 通常读 /əʊ/？\nA. A. hot\nB. B. box\nC. C. no\nD. D. dog",
+    "question_text": "哪个单词中的 o 通常读 /əʊ/？\nA. hot\nB. box\nC. no\nD. dog",
     "answer": "C",
     "solution": "no 以元音字母 o 结尾，符合常见开音节发音规律，o 读 /əʊ/。",
     "question_type": "选择题",
@@ -4335,7 +4335,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Lily feels nervous and does not talk much when she meets new people. She is ____.\nA. A. funny\nB. B. shy\nC. C. kind",
+    "question_text": "Lily feels nervous and does not talk much when she meets new people. She is ____.\nA. funny\nB. shy\nC. kind",
     "answer": "B",
     "solution": "shy 意为“害羞的”。见到新朋友时不太敢说话，符合 shy 的含义。",
     "question_type": "选择题",
@@ -4386,7 +4386,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个选项最符合 funny 的意思？\nA. A. 有趣的\nB. B. 友善的\nC. C. 安静的",
+    "question_text": "哪个选项最符合 funny 的意思？\nA. 有趣的\nB. 友善的\nC. 安静的",
     "answer": "A",
     "solution": "funny 的意思是“有趣的、滑稽的”，所以选 A。kind 是“友善的”，quiet 是“安静的”。",
     "question_type": "选择题",
@@ -4403,7 +4403,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "想表达“她很高”，应选择哪个单词？\nA. A. tall\nB. B. long\nC. C. big",
+    "question_text": "想表达“她很高”，应选择哪个单词？\nA. tall\nB. long\nC. big",
     "answer": "A",
     "solution": "tall表示“高的”，用来描述人的身高。句子可说“She is tall.”",
     "question_type": "选择题",
@@ -4437,7 +4437,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪句话表示“她有长头发”？\nA. A. She is long hair.\nB. B. She has long hair.\nC. C. She have long hair.",
+    "question_text": "下面哪句话表示“她有长头发”？\nA. She is long hair.\nB. She has long hair.\nC. She have long hair.",
     "answer": "B",
     "solution": "描述拥有的头发时用has，long hair表示“长头发”，所以说“She has long hair.”",
     "question_type": "选择题",
@@ -4573,7 +4573,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪个单词中的 o 通常发 /əʊ/？\nA. A. hot\nB. B. book\nC. C. home\nD. D. dog",
+    "question_text": "下面哪个单词中的 o 通常发 /əʊ/？\nA. hot\nB. book\nC. home\nD. dog",
     "answer": "C",
     "solution": "home 符合常见的 o-e 结构，o 通常发 /əʊ/；hot 中 o 发短音，book 中 oo 发音，dog 中 o 也不是 /əʊ/。",
     "question_type": "选择题",
@@ -4641,7 +4641,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪个单词中的 o 通常发 /əʊ/？\nA. A. hot\nB. B. dog\nC. C. rose\nD. D. box",
+    "question_text": "下面哪个单词中的 o 通常发 /əʊ/？\nA. hot\nB. dog\nC. rose\nD. box",
     "answer": "C",
     "solution": "rose 和 home 都有常见的 o-e 结构，o 通常发 /əʊ/。",
     "question_type": "选择题",
@@ -4658,7 +4658,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "She ___ glasses.\nA. A. has\nB. B. have\nC. C. is",
+    "question_text": "She ___ glasses.\nA. has\nB. have\nC. is",
     "answer": "A",
     "solution": "glasses 是复数名词，用 have 表示“有、戴着”。",
     "question_type": "选择题",
@@ -4709,7 +4709,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选出合适的词：She has long ___.\nA. A. hairs\nB. B. hair\nC. C. a hair",
+    "question_text": "选出合适的词：She has long ___.\nA. hairs\nB. hair\nC. a hair",
     "answer": "B",
     "solution": "hair 通常作不可数名词，描述头发可说 long hair，不加复数 -s。",
     "question_type": "选择题",
@@ -7072,7 +7072,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Where can you usually find a sofa?\nA. A. kitchen\nB. B. living room\nC. C. bathroom",
+    "question_text": "Where can you usually find a sofa?\nA. kitchen\nB. living room\nC. bathroom",
     "answer": "B",
     "solution": "sofa 是“沙发”，通常放在客厅，即 living room。",
     "question_type": "选择题",
@@ -7106,7 +7106,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which room often has a table for meals?\nA. A. kitchen\nB. B. bedroom\nC. C. study",
+    "question_text": "Which room often has a table for meals?\nA. kitchen\nB. bedroom\nC. study",
     "answer": "A",
     "solution": "kitchen 是“厨房”，常见物品包括 table（桌子）。",
     "question_type": "选择题",
@@ -8330,7 +8330,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "'rice' 的中文意思是什么？\nA. A. 米饭\nB. B. 面包\nC. C. 鸡蛋\nD. D. 苹果",
+    "question_text": "'rice' 的中文意思是什么？\nA. 米饭\nB. 面包\nC. 鸡蛋\nD. 苹果",
     "answer": "A",
     "solution": "rice 的中文意思是米饭。",
     "question_type": "选择题",
@@ -8398,7 +8398,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "'apple' 的中文意思是什么？\nA. A. 汤\nB. B. 苹果\nC. C. 米饭\nD. D. 面条",
+    "question_text": "'apple' 的中文意思是什么？\nA. 汤\nB. 苹果\nC. 米饭\nD. 面条",
     "answer": "B",
     "solution": "apple 的中文意思是苹果；汤是 soup。",
     "question_type": "选择题",
@@ -8415,7 +8415,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“盘子”用英语怎么说？\nA. A. bowl\nB. B. plate\nC. C. spoon\nD. D. knife",
+    "question_text": "“盘子”用英语怎么说？\nA. bowl\nB. plate\nC. spoon\nD. knife",
     "answer": "B",
     "solution": "plate 的意思是“盘子”，其余选项分别是碗、勺子和小刀。",
     "question_type": "选择题",
@@ -8466,7 +8466,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which word means “碗”?（哪个单词的意思是“碗”？）\nA. A. bowl\nB. B. fork\nC. C. knife\nD. D. plate",
+    "question_text": "Which word means “碗”?（哪个单词的意思是“碗”？）\nA. bowl\nB. fork\nC. knife\nD. plate",
     "answer": "A",
     "solution": "bowl 意为“碗”，常用来盛汤或其他食物。",
     "question_type": "选择题",
@@ -8483,7 +8483,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪个单词中的字母 a 与 cat 中的 a 发音相同？\nA. A. cake\nB. B. bag\nC. C. name\nD. D. make",
+    "question_text": "下面哪个单词中的字母 a 与 cat 中的 a 发音相同？\nA. cake\nB. bag\nC. name\nD. make",
     "answer": "B",
     "solution": "cat 中的 a 通常发短音 /æ/，与 bag、map 中的 a 发音相同。",
     "question_type": "选择题",
@@ -8517,7 +8517,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪个单词中的 sh 与 ship 中的 sh 发音相同？\nA. A. shop\nB. B. sip\nC. C. cap\nD. D. tip",
+    "question_text": "下面哪个单词中的 sh 与 ship 中的 sh 发音相同？\nA. shop\nB. sip\nC. cap\nD. tip",
     "answer": "A",
     "solution": "在 ship 中，字母组合 sh 通常发 /ʃ/；shop 中的 sh 发音相同。",
     "question_type": "选择题",
@@ -8551,7 +8551,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪个单词中的字母 a 通常发 /eɪ/？\nA. A. cat\nB. B. cake\nC. C. bag\nD. D. map",
+    "question_text": "下面哪个单词中的字母 a 通常发 /eɪ/？\nA. cat\nB. cake\nC. bag\nD. map",
     "answer": "B",
     "solution": "在 cake 中，词尾不发音的 e 使前面的 a 通常发字母名称音 /eɪ/；cat 中的 a 发短音 /æ/。",
     "question_type": "选择题",
@@ -8585,7 +8585,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "早上见到老师，你可以说：\nA. A. Good night.\nB. B. Good morning.\nC. C. Goodbye.",
+    "question_text": "早上见到老师，你可以说：\nA. Good night.\nB. Good morning.\nC. Goodbye.",
     "answer": "B",
     "solution": "“Good morning.”用于上午见面时问候，意思是“早上好”。",
     "question_type": "选择题",
@@ -8619,7 +8619,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "你要和同学分别，并希望之后再见，可以说：\nA. A. See you later.\nB. B. Sit down, please.\nC. C. Help yourself.",
+    "question_text": "你要和同学分别，并希望之后再见，可以说：\nA. See you later.\nB. Sit down, please.\nC. Help yourself.",
     "answer": "A",
     "solution": "“See you later.”常用于告别，意思是“回头见；待会儿见”。",
     "question_type": "选择题",
@@ -9248,7 +9248,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“I am thirsty. I'd like some water.”是什么意思？\nA. A. 我饿了。我想吃点水。\nB. B. 我渴了。我想喝点水。\nC. C. 我累了。我想喝点水。\nD. D. 我冷了。我想吃点水。",
+    "question_text": "“I am thirsty. I'd like some water.”是什么意思？\nA. 我饿了。我想吃点水。\nB. 我渴了。我想喝点水。\nC. 我累了。我想喝点水。\nD. 我冷了。我想吃点水。",
     "answer": "B",
     "solution": "thirsty 表示“渴了”，渴了可以喝水，所以这句话的意思是“我渴了。我想喝点水。”",
     "question_type": "选择题",
@@ -9265,7 +9265,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Today is Monday. What day is it today?\nA. A. It is sunny.\nB. B. It is June.\nC. C. It is Monday.\nD. D. It is seven.",
+    "question_text": "Today is Monday. What day is it today?\nA. It is sunny.\nB. It is June.\nC. It is Monday.\nD. It is seven.",
     "answer": "C",
     "solution": "句子说“今天是星期一”，所以问“今天是星期几？”应回答“星期一”。",
     "question_type": "选择题",
@@ -9316,7 +9316,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Mike went to the park on Sunday. He played football with his friends. What did Mike do on Sunday?\nA. A. Mike stayed at home.\nB. B. Mike played football in the park.\nC. C. Mike went to school on Sunday.\nD. D. Mike played basketball at school.",
+    "question_text": "Mike went to the park on Sunday. He played football with his friends. What did Mike do on Sunday?\nA. Mike stayed at home.\nB. Mike played football in the park.\nC. Mike went to school on Sunday.\nD. Mike played basketball at school.",
     "answer": "B",
     "solution": "Mike 周末去了公园，并且在那里踢了足球，所以他说“我在公园踢了足球”符合短文内容。",
     "question_type": "选择题",
@@ -10132,7 +10132,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下列哪个句子是正确的祈使句？\nA. A. Please sits down.\nB. B. Please sit down.\nC. C. Don't sits down.",
+    "question_text": "下列哪个句子是正确的祈使句？\nA. Please sits down.\nB. Please sit down.\nC. Don't sits down.",
     "answer": "B",
     "solution": "祈使句表示请求或命令，动词用原形。Please sit down. 是正确表达；A缺少Don't，C中的sits不符合祈使句结构。",
     "question_type": "选择题",
@@ -10897,7 +10897,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "将下列职业单词与正确的中文意思相连。\nA. A. doctor\nB. B. nurse\nC. C. farmer\nD. D. driver\nE. 1. 司机\nF. 2. 医生\nG. 3. 农民\nH. 4. 护士",
+    "question_text": "将下列职业单词与正确的中文意思相连。\nA. doctor\nB. nurse\nC. farmer\nD. driver\nE. 1. 司机\nF. 2. 医生\nG. 3. 农民\nH. 4. 护士",
     "answer": "A-2，B-4，C-3，D-1",
     "solution": "doctor 是医生，nurse 是护士，farmer 是农民，driver 是司机。",
     "question_type": "填空题",
@@ -11169,8 +11169,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪组单词中，画线元音字母的发音不同？cat、cake（比较字母 a）\nA. A. a\nB. B. e\nC. C. i\nD. D. o",
-    "answer": "A. A. a",
+    "question_text": "下面哪组单词中，画线元音字母的发音不同？cat、cake（比较字母 a）\nA. a\nB. e\nC. i\nD. o",
+    "answer": "A. a",
     "solution": "cat 中 a 发短元音，cake 中 a 发字母名称音，两词中 a 的发音不同。",
     "question_type": "选择题",
     "subject": "英语",
@@ -11237,8 +11237,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪个单词中字母 u 的发音与其他三个不同？\nA. A. cup\nB. B. cute\nC. C. bus\nD. D. sun",
-    "answer": "B. B. cute",
+    "question_text": "下面哪个单词中字母 u 的发音与其他三个不同？\nA. cup\nB. cute\nC. bus\nD. sun",
+    "answer": "B. cute",
     "solution": "cup 中 u 发短元音；cute 中 u 发字母名称音，读音不同。",
     "question_type": "选择题",
     "subject": "英语",
@@ -11271,7 +11271,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“妈妈”用英语怎么说？\nA. A. mother\nB. B. brother\nC. C. father",
+    "question_text": "“妈妈”用英语怎么说？\nA. mother\nB. brother\nC. father",
     "answer": "A",
     "solution": "mother 的意思是“母亲、妈妈”。",
     "question_type": "选择题",
@@ -11322,7 +11322,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which word means “祖父母或外祖父母”？\nA. A. grandparents\nB. B. parents\nC. C. sister",
+    "question_text": "Which word means “祖父母或外祖父母”？\nA. grandparents\nB. parents\nC. sister",
     "answer": "A",
     "solution": "grandparents 表示祖父母或外祖父母；grandfather 是祖父或外祖父，grandmother 是祖母或外祖母。",
     "question_type": "选择题",
@@ -11356,7 +11356,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“teacher” 的中文意思是什么？\nA. A. 老师\nB. B. 医生\nC. C. 厨师",
+    "question_text": "“teacher” 的中文意思是什么？\nA. 老师\nB. 医生\nC. 厨师",
     "answer": "A",
     "solution": "teacher 的意思是“老师”，所以选 A。",
     "question_type": "选择题",
@@ -11424,7 +11424,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“driver” 的中文意思是什么？\nA. A. 司机\nB. B. 农民\nC. C. 医生",
+    "question_text": "“driver” 的中文意思是什么？\nA. 司机\nB. 农民\nC. 医生",
     "answer": "A",
     "solution": "driver 表示“司机”，因此应选 A。",
     "question_type": "选择题",
@@ -11458,7 +11458,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪个单词表示“妈妈”？\nA. A. brother\nB. B. mother\nC. C. sister",
+    "question_text": "哪个单词表示“妈妈”？\nA. brother\nB. mother\nC. sister",
     "answer": "B",
     "solution": "mother 表示妈妈；brother 表示兄弟，sister 表示姐妹。",
     "question_type": "选择题",
@@ -11645,7 +11645,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪句话正确地介绍了他的职业？\nA. A. He are a cook.\nB. B. He is a cook.\nC. C. He am a cook.",
+    "question_text": "下面哪句话正确地介绍了他的职业？\nA. He are a cook.\nB. He is a cook.\nC. He am a cook.",
     "answer": "B",
     "solution": "cook 是“厨师”；句子的主语是 He，所以 be 动词用 is，并在单数职业名词前加 a。",
     "question_type": "选择题",
@@ -12597,7 +12597,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "nurse 的中文意思是什么？\nA. A. 农民\nB. B. 护士\nC. C. 司机\nD. D. 教师",
+    "question_text": "nurse 的中文意思是什么？\nA. 农民\nB. 护士\nC. 司机\nD. 教师",
     "answer": "B",
     "solution": "nurse 的意思是“护士”。",
     "question_type": "选择题",
@@ -12648,7 +12648,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下面哪一项英汉匹配正确？\nA. A. cook—厨师\nB. B. cook—医生\nC. C. cook—农民\nD. D. cook—司机",
+    "question_text": "下面哪一项英汉匹配正确？\nA. cook—厨师\nB. cook—医生\nC. cook—农民\nD. cook—司机",
     "answer": "A",
     "solution": "teacher 是教师，cook 是厨师。",
     "question_type": "选择题",

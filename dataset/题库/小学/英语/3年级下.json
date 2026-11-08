@@ -493,7 +493,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“书在哪里？”用英语怎么说？\nA. A. Where the book is?\nB. B. Where is the book?\nC. C. What is the book?",
+    "question_text": "“书在哪里？”用英语怎么说？\nA. Where the book is?\nB. Where is the book?\nC. What is the book?",
     "answer": "B",
     "solution": "询问单数物品在哪里，用“Where is ...?”，所以选B。",
     "question_type": "选择题",
@@ -578,7 +578,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“Is it under the chair?” 的正确肯定回答是什么？\nA. A. Yes, it isn’t.\nB. B. Yes, it is.\nC. C. It under the chair.",
+    "question_text": "“Is it under the chair?” 的正确肯定回答是什么？\nA. Yes, it isn’t.\nB. Yes, it is.\nC. It under the chair.",
     "answer": "B",
     "solution": "一般疑问句“Is it under the chair?”的肯定回答是“Yes, it is.”，所以选B。",
     "question_type": "选择题",
@@ -697,7 +697,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“在盒子里面”用英语怎么说？\nA. A. on the box\nB. B. in the box\nC. C. behind the box",
+    "question_text": "“在盒子里面”用英语怎么说？\nA. on the box\nB. in the box\nC. behind the box",
     "answer": "B",
     "solution": "in 表示“在……里面”，所以“在盒子里”是 in the box。",
     "question_type": "选择题",
@@ -765,7 +765,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "哪句话表示“书在桌子上”？\nA. A. The book is in the desk.\nB. B. The book is on the desk.\nC. C. The book is under the desk.",
+    "question_text": "哪句话表示“书在桌子上”？\nA. The book is in the desk.\nB. The book is on the desk.\nC. The book is under the desk.",
     "answer": "B",
     "solution": "on 表示物品在某个表面上，因此“书在桌子上”是 The book is on the desk.",
     "question_type": "选择题",
@@ -884,8 +884,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "单词“sit”中，字母“i”通常发什么音？\nA. A. /ɪ/\nB. B. /aɪ/\nC. C. /eɪ/",
-    "answer": "A. A. /ɪ/",
+    "question_text": "单词“sit”中，字母“i”通常发什么音？\nA. /ɪ/\nB. /aɪ/\nC. /eɪ/",
+    "answer": "A. /ɪ/",
     "solution": "在单词sit中，字母i发短元音/ɪ/；bite中的i通常发字母名称音/aɪ/。",
     "question_type": "选择题",
     "subject": "英语",
@@ -935,7 +935,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "你想借同学的尺子，应该怎么说？\nA. A. Can I borrow your ruler?\nB. B. Thank you for your ruler.\nC. C. I’m sorry, ruler.",
+    "question_text": "你想借同学的尺子，应该怎么说？\nA. Can I borrow your ruler?\nB. Thank you for your ruler.\nC. I’m sorry, ruler.",
     "answer": "A",
     "solution": "Can I borrow your ruler? 意为“我可以借你的尺子吗？”，适合借东西时使用。",
     "question_type": "选择题",
@@ -969,7 +969,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "别人对你说“Thank you.”，你可以回答：\nA. A. I’m sorry.\nB. B. You’re welcome.\nC. C. Good night.",
+    "question_text": "别人对你说“Thank you.”，你可以回答：\nA. I’m sorry.\nB. You’re welcome.\nC. Good night.",
     "answer": "B",
     "solution": "别人帮助你后，应说 Thank you.；You’re welcome. 是对感谢的回应。",
     "question_type": "选择题",
@@ -1020,7 +1020,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "别人问你“How are you?”，你可以怎样回答？\nA. A. Goodbye!\nB. B. I'm fine, thank you.\nC. C. Good night!",
+    "question_text": "别人问你“How are you?”，你可以怎样回答？\nA. Goodbye!\nB. I'm fine, thank you.\nC. Good night!",
     "answer": "B",
     "solution": "How are you? 是常见问候语，常用 I'm fine, thank you. 回答。",
     "question_type": "选择题",
@@ -1037,7 +1037,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "别人对你说“Thank you!”，你可以回答什么？\nA. A. I'm sorry.\nB. B. You're welcome.\nC. C. Have a good time!",
+    "question_text": "别人对你说“Thank you!”，你可以回答什么？\nA. I'm sorry.\nB. You're welcome.\nC. Have a good time!",
     "answer": "B",
     "solution": "You're welcome. 意为“不客气”，常用来回应感谢。",
     "question_type": "选择题",
@@ -2380,7 +2380,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "想问“这是什么？”，应该用哪个特殊疑问词？\nA. A. Where\nB. B. What\nC. C. Who",
+    "question_text": "想问“这是什么？”，应该用哪个特殊疑问词？\nA. Where\nB. What\nC. Who",
     "answer": "B",
     "solution": "询问“什么”用What，所以问句是“What is this?”",
     "question_type": "选择题",
@@ -5100,7 +5100,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "“大眼睛”用英语怎么说？\nA. A. eyes big\nB. B. big eyes\nC. C. a big eyes",
+    "question_text": "“大眼睛”用英语怎么说？\nA. eyes big\nB. big eyes\nC. a big eyes",
     "answer": "B",
     "solution": "big eyes 表示“大眼睛”，形容词 big 放在名词 eyes 前面。",
     "question_type": "选择题",

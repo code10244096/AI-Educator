@@ -680,7 +680,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "单词 thin 中，字母组合 th 通常发什么音？\nA. A. /ð/\nB. B. /θ/\nC. C. /s/\nD. D. /f/",
+    "question_text": "单词 thin 中，字母组合 th 通常发什么音？\nA. /ð/\nB. /θ/\nC. /s/\nD. /f/",
     "answer": "B",
     "solution": "thin 中的 th 发清辅音 /θ/，读音开头类似 /θɪn/。发音时声带不振动。",
     "question_type": "选择题",
@@ -697,7 +697,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "单词 this 中，字母组合 th 通常发什么音？\nA. A. /ð/\nB. B. /θ/\nC. C. /t/\nD. D. /z/",
+    "question_text": "单词 this 中，字母组合 th 通常发什么音？\nA. /ð/\nB. /θ/\nC. /t/\nD. /z/",
     "answer": "A",
     "solution": "this 中的 th 发浊辅音 /ð/。发音时舌尖轻放在上下齿之间，声带振动。",
     "question_type": "选择题",
@@ -799,7 +799,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下列哪个是 'third' 的正确缩写？\nA. A. 3th\nB. B. 3st\nC. C. 3rd\nD. D. 3nd",
+    "question_text": "下列哪个是 'third' 的正确缩写？\nA. 3th\nB. 3st\nC. 3rd\nD. 3nd",
     "answer": "C",
     "solution": "third 的缩写是 3rd；4th 和 5th 都以 th 结尾。",
     "question_type": "选择题",
@@ -1122,7 +1122,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "'Where is the library?' 中的Where是在询问什么？\nA. A. 什么时候\nB. B. 在哪里\nC. C. 谁",
+    "question_text": "'Where is the library?' 中的Where是在询问什么？\nA. 什么时候\nB. 在哪里\nC. 谁",
     "answer": "B",
     "solution": "Where意为“在哪里”，用于询问地点。句子是在问图书馆的位置。",
     "question_type": "选择题",
@@ -1139,7 +1139,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "'When is the sports meet?' 的意思是什么？\nA. A. 运动会什么时候举行\nB. B. 运动会在哪里举行\nC. C. 谁参加运动会",
+    "question_text": "'When is the sports meet?' 的意思是什么？\nA. 运动会什么时候举行\nB. 运动会在哪里举行\nC. 谁参加运动会",
     "answer": "A",
     "solution": "When意为“什么时候”，句子询问运动会的日期或时间。",
     "question_type": "选择题",
@@ -2193,7 +2193,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择合适的回答：When is the singing contest?\nA. A. It’s in the music room.\nB. B. It’s on July 12th.\nC. C. It’s a singing contest.",
+    "question_text": "选择合适的回答：When is the singing contest?\nA. It’s in the music room.\nB. It’s on July 12th.\nC. It’s a singing contest.",
     "answer": "B",
     "solution": "When is the singing contest? 意为“歌唱比赛是什么时候？”，回答日期用 It’s on + 日期。",
     "question_type": "选择题",
@@ -2448,7 +2448,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "Which is the correct ordinal abbreviation for twelve?\nA. A. 12th\nB. B. 12nd\nC. C. 12st",
+    "question_text": "Which is the correct ordinal abbreviation for twelve?\nA. 12th\nB. 12nd\nC. 12st",
     "answer": "A",
     "solution": "12 的序数词是 twelfth，缩写为 12th；12 结尾用 th，不用 nd。",
     "question_type": "选择题",
@@ -3434,7 +3434,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "下列哪个单词末尾的字母组合通常发 /ŋk/？\nA. A. ring\nB. B. bank\nC. C. long\nD. D. song",
+    "question_text": "下列哪个单词末尾的字母组合通常发 /ŋk/？\nA. ring\nB. bank\nC. long\nD. song",
     "answer": "B",
     "solution": "bank 末尾是 -nk，通常发 /ŋk/；其余三个单词末尾的 -ng 通常发 /ŋ/。",
     "question_type": "选择题",
@@ -3485,7 +3485,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "关于 'pink' 和 'sing' 的结尾发音，哪项正确？\nA. A. pink 和 sing 的结尾发音都包含 /k/。\nB. B. pink 的结尾有 /k/ 音，sing 的结尾没有。\nC. C. pink 的结尾没有 /ŋ/ 音，sing 的结尾有 /k/ 音。\nD. D. pink 和 sing 的结尾发音完全相同。",
+    "question_text": "关于 'pink' 和 'sing' 的结尾发音，哪项正确？\nA. pink 和 sing 的结尾发音都包含 /k/。\nB. pink 的结尾有 /k/ 音，sing 的结尾没有。\nC. pink 的结尾没有 /ŋ/ 音，sing 的结尾有 /k/ 音。\nD. pink 和 sing 的结尾发音完全相同。",
     "answer": "B",
     "solution": "pink 的 -nk 通常发 /ŋk/；sing 的 -ng 通常发 /ŋ/，不含末尾的 /k/ 音。",
     "question_type": "选择题",
@@ -4437,8 +4437,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择合适的答句：When do you get up?\nA. A. I get up in 6:30.\nB. B. I get up at 6:30.\nC. C. I gets up at 6:30.\nD. D. I get up 6:30.",
-    "answer": "B. B. I get up at 6:30.",
+    "question_text": "选择合适的答句：When do you get up?\nA. I get up in 6:30.\nB. I get up at 6:30.\nC. I gets up at 6:30.\nD. I get up 6:30.",
+    "answer": "B. I get up at 6:30.",
     "solution": "When do you get up? 意为“你什么时候起床？”回答具体时间时用 at；选项 B 的句子结构正确。",
     "question_type": "选择题",
     "subject": "英语",
@@ -4454,8 +4454,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择正确的词填空：When ___ Tom ___ to bed?\nA. A. does; go\nB. B. do; goes\nC. C. does; goes\nD. D. do; go",
-    "answer": "A. A. does; go",
+    "question_text": "选择正确的词填空：When ___ Tom ___ to bed?\nA. does; go\nB. do; goes\nC. does; goes\nD. do; go",
+    "answer": "A. does; go",
     "solution": "主语 Tom 是第三人称单数，问句用 does；does 后的实义动词要用原形 go。",
     "question_type": "选择题",
     "subject": "英语",
@@ -4641,7 +4641,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择正确的句子来询问“她几点起床？”\nA. A. When do she get up?\nB. B. When does she get up?\nC. C. When does she gets up?\nD. D. When is she get up?",
+    "question_text": "选择正确的句子来询问“她几点起床？”\nA. When do she get up?\nB. When does she get up?\nC. When does she gets up?\nD. When is she get up?",
     "answer": "B",
     "solution": "主语是 she，疑问句用 does，主要动词 get 保持原形，故选“When does she get up?”",
     "question_type": "选择题",
@@ -6409,8 +6409,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "—When is the school trip?\n—____\nA. A. It’s Friday.\nB. B. It’s on Friday.\nC. C. It’s at Friday.",
-    "answer": "B. B. It’s on Friday.",
+    "question_text": "—When is the school trip?\n—____\nA. It’s Friday.\nB. It’s on Friday.\nC. It’s at Friday.",
+    "answer": "B. It’s on Friday.",
     "solution": "问句“When is the school trip?”询问学校旅行什么时候举行。选项B用“on Friday”回答星期，表达正确。",
     "question_type": "选择题",
     "subject": "英语",
@@ -6494,8 +6494,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择最合适的问句：\n—____\n—It’s on Sunday.\nA. A. What is the music show?\nB. B. Where is the music show?\nC. C. When is the music show?",
-    "answer": "C. C. When is the music show?",
+    "question_text": "选择最合适的问句：\n—____\n—It’s on Sunday.\nA. What is the music show?\nB. Where is the music show?\nC. When is the music show?",
+    "answer": "C. When is the music show?",
     "solution": "“When is the music show?”询问音乐演出什么时候举行，与回答“It’s on Sunday.”相匹配。具体日期或星期前通常用“on”。",
     "question_type": "选择题",
     "subject": "英语",
@@ -7378,8 +7378,8 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择正确的词填空：___ they watching TV?\nA. A. Are\nB. B. Is\nC. C. Am",
-    "answer": "A. A. Are",
+    "question_text": "选择正确的词填空：___ they watching TV?\nA. Are\nB. Is\nC. Am",
+    "answer": "A. Are",
     "solution": "主语 they 是复数，be 动词用 are。一般疑问句中 are 放在主语前。",
     "question_type": "选择题",
     "subject": "英语",
@@ -7684,7 +7684,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择合适的词组填空：I help my mother ______ my little sister.（我帮妈妈照顾我的小妹妹。）\nA. A. look after\nB. B. look at\nC. C. look for",
+    "question_text": "选择合适的词组填空：I help my mother ______ my little sister.（我帮妈妈照顾我的小妹妹。）\nA. look after\nB. look at\nC. look for",
     "answer": "A",
     "solution": "Look after 意为“照顾”，句子意思是“我帮助照顾我的小妹妹”。",
     "question_type": "选择题",
@@ -7718,7 +7718,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选择合适的词组填空：Please ______ the light before you leave the room.（离开房间前请关灯。）\nA. A. turn on\nB. B. turn off\nC. C. get up",
+    "question_text": "选择合适的词组填空：Please ______ the light before you leave the room.（离开房间前请关灯。）\nA. turn on\nB. turn off\nC. get up",
     "answer": "B",
     "solution": "Turn off 意为“关闭”，符合“离开房间前关灯”的语境。",
     "question_type": "选择题",
@@ -7752,7 +7752,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "在公园里，哪句话表示“不要乱扔垃圾”？\nA. A. Run in the park.\nB. B. Don’t litter.\nC. C. Talk loudly.",
+    "question_text": "在公园里，哪句话表示“不要乱扔垃圾”？\nA. Run in the park.\nB. Don’t litter.\nC. Talk loudly.",
     "answer": "B",
     "solution": "“Don’t litter.”的意思是“不要乱扔垃圾”，符合公园里的行为准则。",
     "question_type": "选择题",
@@ -7854,7 +7854,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "选出正确的现在进行时句子。\nA. A. She are playing football.\nB. B. She is playing football.\nC. C. She playing football.",
+    "question_text": "选出正确的现在进行时句子。\nA. She are playing football.\nB. She is playing football.\nC. She playing football.",
     "answer": "B",
     "solution": "主语She是第三人称单数，因此用is；现在进行时中play要变为playing。",
     "question_type": "选择题",
@@ -8143,7 +8143,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "______ am in Grade Five.\nA. A. Me\nB. B. I\nC. C. My\nD. D. Mine",
+    "question_text": "______ am in Grade Five.\nA. Me\nB. I\nC. My\nD. Mine",
     "answer": "B",
     "solution": "句子缺少主语，且代词指代“我”，因此使用主格I。Me是宾格，不能在这里作主语。",
     "question_type": "选择题",
@@ -9197,7 +9197,7 @@
     "teaching_tips": "来源 ChinaTextbookStudyFree 单元练习，仓库许可 MIT。题目由模型按单元生成，未逐题审核，不含课文原文，使用前请老师核对。"
   },
   {
-    "question_text": "keep clean 的中文意思是什么？\nA. A. 轮流\nB. B. 保持整洁\nC. C. 给我看看\nD. D. 保持安静",
+    "question_text": "keep clean 的中文意思是什么？\nA. 轮流\nB. 保持整洁\nC. 给我看看\nD. 保持安静",
     "answer": "B",
     "solution": "keep clean 表示“保持整洁”，因此应选择 B。",
     "question_type": "选择题",
