@@ -126,9 +126,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "将一枚六个面编号分别为$$1$$，$$2$$，$$3$$，$$4$$，$$5$$，$$6$$的质地均匀的正方体骰子先后投掷两次，记第一次掷出的点数为$$a$$，第二次掷出的点数为$$b$$，则使关于$$x$$，$$y$$的方程组$$\\begin{cases}ax+by=3    x+2y=2 \\end{cases}$$只有正数解的概率为．\nA. $$\\frac{1},{12}$$\nB. $$\\frac{2},{9}$$\nC. $$\\frac{5},{18}$$\nD. $$\\frac{13},{36}$$",
-    "answer": "D. $$\\frac{13},{36}$$",
-    "solution": "当$$2a-b=0$$时，方程组无解．  当$$2a-b\\ne 0$$时，方程组的解为$$\\begin{cases}x=\\dfrac{6-2b},{2a-b}    y=\\dfrac{2a-3},{2a-b}    \\end{cases}$$，  由已知，得$$\\begin{cases}\\dfrac{6-2b},{2a-b}\\textgreater0    \\dfrac{2a-3},{2a-b}\\textgreater0    \\end{cases}$$  即$$\\begin{cases}2a-b\\textgreater0    a\\textgreater-\\dfrac{3},{2}    b\\textless{}3    \\end{cases}$$，  或$$\\begin{cases}2a-b\\textless{}0    a\\textless{}\\dfrac{3},{2}    b\\textgreater3    \\end{cases}$$，  由$$a$$，$$b$$的实际意义为$$1$$，$$2$$，$$3$$，$$4$$，$$5$$，$$6$$，可得$$a=2$$或$$3$$或$$4$$或$$5$$或$$6$$，$$b=1$$或$$2$$，  共有$$5\\times 2=10$$种情况；或$$a=1$$，$$b=4$$或$$5$$或$$6$$，共$$3$$种情况．  又掷两次骰子出现的基本事件共$$6\\times 6=36$$种情况，故所求的概率为$$\\frac{13},{36}$$．",
+    "question_text": "将一枚六个面编号分别为$$1$$，$$2$$，$$3$$，$$4$$，$$5$$，$$6$$的质地均匀的正方体骰子先后投掷两次，记第一次掷出的点数为$$a$$，第二次掷出的点数为$$b$$，则使关于$$x$$，$$y$$的方程组$$\\begin{cases}ax+by=3    x+2y=2 \\end{cases}$$只有正数解的概率为．\nA. $$\\frac{1}{12}$$\nB. $$\\frac{2}{9}$$\nC. $$\\frac{5}{18}$$\nD. $$\\frac{13}{36}$$",
+    "answer": "D. $$\\frac{13}{36}$$",
+    "solution": "当$$2a-b=0$$时，方程组无解．  当$$2a-b\\ne 0$$时，方程组的解为$$\\begin{cases}x=\\dfrac{6-2b}{2a-b}    y=\\dfrac{2a-3}{2a-b}    \\end{cases}$$，  由已知，得$$\\begin{cases}\\dfrac{6-2b}{2a-b}\\textgreater0    \\dfrac{2a-3}{2a-b}\\textgreater0    \\end{cases}$$  即$$\\begin{cases}2a-b\\textgreater0    a\\textgreater-\\dfrac{3}{2}    b\\textless{}3    \\end{cases}$$，  或$$\\begin{cases}2a-b\\textless{}0    a\\textless{}\\dfrac{3}{2}    b\\textgreater3    \\end{cases}$$，  由$$a$$，$$b$$的实际意义为$$1$$，$$2$$，$$3$$，$$4$$，$$5$$，$$6$$，可得$$a=2$$或$$3$$或$$4$$或$$5$$或$$6$$，$$b=1$$或$$2$$，  共有$$5\\times 2=10$$种情况；或$$a=1$$，$$b=4$$或$$5$$或$$6$$，共$$3$$种情况．  又掷两次骰子出现的基本事件共$$6\\times 6=36$$种情况，故所求的概率为$$\\frac{13}{36}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -169,9 +169,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$\\angle A$$，$$\\angle B$$是两个锐角，且满足$${{\\sin }^{2}}A+{{\\cos }^{2}}B=\\frac{5},{4}t$$，$${{\\cos }^{2}}A+{{\\sin }^{2}}B=\\frac{3},{4},{{t}^{2}}$$，则实数$$t$$所有可能的值的和为．\nA. $$-\\frac{8},{3}$$\nB. $$-\\frac{5},{3}$$\nC. $$1$$\nD. $$\\frac{11},{3}$$",
+    "question_text": "已知$$\\angle A$$，$$\\angle B$$是两个锐角，且满足$${{\\sin }^{2}}A+{{\\cos }^{2}}B=\\frac{5}{4}t$$，$${{\\cos }^{2}}A+{{\\sin }^{2}}B=\\frac{3}{4},{{t}^{2}}$$，则实数$$t$$所有可能的值的和为．\nA. $$-\\frac{8}{3}$$\nB. $$-\\frac{5}{3}$$\nC. $$1$$\nD. $$\\frac{11}{3}$$",
     "answer": "C. $$1$$",
-    "solution": "根据已知得：$${{\\sin }^{2}}A+{{\\cos }^{2}}B+{{\\cos }^{2}}A+{{\\sin }^{2}}B=\\frac{3},{4},{{t}^{2}}+\\frac{5},{4}t$$，即$$2=\\frac{3},{4},{{t}^{2}}+\\frac{5},{4}t$$，  ∴$$3{{t}^{2}}+5t-8=0$$，解得$${{t}_{1}}=1$$，$${{t}_{2}}=-\\frac{8},{3}$$，又∵$${{\\sin }^{2}}A+{{\\cos }^{2}}B=\\frac{5},{4}t\\textgreater0$$，即$$t\\textgreater0$$，  ∴$$t=1$$，  故$$t$$所有可能的值的和为$$1$$．",
+    "solution": "根据已知得：$${{\\sin }^{2}}A+{{\\cos }^{2}}B+{{\\cos }^{2}}A+{{\\sin }^{2}}B=\\frac{3}{4},{{t}^{2}}+\\frac{5}{4}t$$，即$$2=\\frac{3}{4},{{t}^{2}}+\\frac{5}{4}t$$，  ∴$$3{{t}^{2}}+5t-8=0$$，解得$${{t}_{1}}=1$$，$${{t}_{2}}=-\\frac{8}{3}$$，又∵$${{\\sin }^{2}}A+{{\\cos }^{2}}B=\\frac{5}{4}t\\textgreater0$$，即$$t\\textgreater0$$，  ∴$$t=1$$，  故$$t$$所有可能的值的和为$$1$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -199,9 +199,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知实数$$a\\ne b$$，且满足$${{\\left( a+1 \\right)}^{2}}=3-3\\left( a+1 \\right)$$，$$3\\left( b+1 \\right)=3-{{\\left( b+1 \\right)}^{2}}$$，则$$b\\sqrt{\\frac{b},{a}}+a\\sqrt{\\frac{a},{b}}$$的值为（~ ）．\nA. $$23$$\nB. $$-23$$\nC. $$-2$$\nD. $$-13$$",
+    "question_text": "已知实数$$a\\ne b$$，且满足$${{\\left( a+1 \\right)}^{2}}=3-3\\left( a+1 \\right)$$，$$3\\left( b+1 \\right)=3-{{\\left( b+1 \\right)}^{2}}$$，则$$b\\sqrt{\\frac{b}{a}}+a\\sqrt{\\frac{a}{b}}$$的值为（~ ）．\nA. $$23$$\nB. $$-23$$\nC. $$-2$$\nD. $$-13$$",
     "answer": "B. $$-23$$",
-    "solution": "容易知道$$a,b$$是方程$${{\\left( x+1 \\right)}^{2}}=3-3\\left( x+1 \\right)$$的两个根，  整理得$${{x}^{2}}+5x+1=0$$，  于是有$$a+b=-5,ab=1$$，于是$$a\\textless{}0,b\\textless{}0$$，  $$b\\sqrt{\\frac{b},{a}}+a\\sqrt{\\frac{a},{b}}$$，  $$=b\\sqrt{\\frac{{{b}^{2}}},{ab}}+a\\sqrt{\\frac{{{a}^{2}}},{ab}}$$，  $$=\\frac{b\\left\\textbar{} b \\right\\textbar+a\\left\\textbar{} a \\right\\textbar},{\\sqrt{ab}}$$，  $$=-\\frac{\\left( {{a}^{2}}+{{b}^{2}} \\right)},{\\sqrt{ab}}$$，  $$=-\\frac{{{\\left( a+b \\right)}^{2}}-2ab},{\\sqrt{ab}}$$，  $$=-23$$，  故答案为$$\\text{B}$$．",
+    "solution": "容易知道$$a,b$$是方程$${{\\left( x+1 \\right)}^{2}}=3-3\\left( x+1 \\right)$$的两个根，  整理得$${{x}^{2}}+5x+1=0$$，  于是有$$a+b=-5,ab=1$$，于是$$a\\textless{}0,b\\textless{}0$$，  $$b\\sqrt{\\frac{b}{a}}+a\\sqrt{\\frac{a}{b}}$$，  $$=b\\sqrt{\\frac{{{b}^{2}}}{ab}}+a\\sqrt{\\frac{{{a}^{2}}}{ab}}$$，  $$=\\frac{b\\left\\textbar{} b \\right\\textbar+a\\left\\textbar{} a \\right\\textbar}{\\sqrt{ab}}$$，  $$=-\\frac{\\left( {{a}^{2}}+{{b}^{2}} \\right)}{\\sqrt{ab}}$$，  $$=-\\frac{{{\\left( a+b \\right)}^{2}}-2ab}{\\sqrt{ab}}$$，  $$=-23$$，  故答案为$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -222,9 +222,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知函数$$y=\\frac{3x+m},{1-2x}$$，当$$x\\textless{}\\frac{1},{2}$$时，$$y$$随$$x$$的增大而减小，则实数$$m$$的取值范围是（~ ）．\nA. $$-\\frac{3},{2}\\textless{}m\\textless{}0$$\nB. $$m\\textless{}-\\frac{3},{2}$$\nC. $$m\\textgreater0$$\nD. $$m\\textless{}-\\frac{3},{2}$$或$$m\\textgreater0$$",
-    "answer": "B. $$m\\textless{}-\\frac{3},{2}$$",
-    "solution": "令$${{x}_{2}}\\textless{},{{x}_{1}}\\textless{}\\frac{1},{2}$$，  当$$x={{x}_{1}}$$时，$$y=\\frac{3{{x}_{1}}+m},{1-2{{x}_{1}}}$$，  当$$x={{x}_{2}}$$时，$$y=\\frac{3{{x}_{2}}+m},{1-2{{x}_{2}}}$$，  ∴$$\\frac{3{{x}_{1}}+m},{1-2{{x}_{1}}}-\\frac{3{{x}_{2}}+m},{1-2{{x}_{2}}}=\\frac{(3{{x}_{1}}+m)(1-2{{x}_{2}})-(1-2{{x}_{1}})(3{{x}_{2}}+m)},{(1-2{{x}_{2}})(1-2{{x}_{1}})}=\\frac{(3+2m)({{x}_{1}}-{{x}_{2}})},{(1-2{{x}_{2}})(1-2{{x}_{1}})}$$，  ∵$$y$$随$$x$$的增大而减小，  ∴$$\\frac{3{{x}_{1}}+m},{1-2{{x}_{1}}}-\\frac{3{{x}_{2}}+m},{1-2{{x}_{2}}}\\textless{}0$$，  即$$\\frac{(3+2m)({{x}_{1}}-{{x}_{2}})},{(1-2{{x}_{2}})(1-2{{x}_{1}})}\\textless{}0$$，  解得$$m\\textless{}-\\frac{3},{2}$$．",
+    "question_text": "已知函数$$y=\\frac{3x+m}{1-2x}$$，当$$x\\textless{}\\frac{1}{2}$$时，$$y$$随$$x$$的增大而减小，则实数$$m$$的取值范围是（~ ）．\nA. $$-\\frac{3}{2}\\textless{}m\\textless{}0$$\nB. $$m\\textless{}-\\frac{3}{2}$$\nC. $$m\\textgreater0$$\nD. $$m\\textless{}-\\frac{3}{2}$$或$$m\\textgreater0$$",
+    "answer": "B. $$m\\textless{}-\\frac{3}{2}$$",
+    "solution": "令$${{x}_{2}}\\textless{},{{x}_{1}}\\textless{}\\frac{1}{2}$$，  当$$x={{x}_{1}}$$时，$$y=\\frac{3{{x}_{1}}+m}{1-2{{x}_{1}}}$$，  当$$x={{x}_{2}}$$时，$$y=\\frac{3{{x}_{2}}+m}{1-2{{x}_{2}}}$$，  ∴$$\\frac{3{{x}_{1}}+m}{1-2{{x}_{1}}}-\\frac{3{{x}_{2}}+m}{1-2{{x}_{2}}}=\\frac{(3{{x}_{1}}+m)(1-2{{x}_{2}})-(1-2{{x}_{1}})(3{{x}_{2}}+m)}{(1-2{{x}_{2}})(1-2{{x}_{1}})}=\\frac{(3+2m)({{x}_{1}}-{{x}_{2}})}{(1-2{{x}_{2}})(1-2{{x}_{1}})}$$，  ∵$$y$$随$$x$$的增大而减小，  ∴$$\\frac{3{{x}_{1}}+m}{1-2{{x}_{1}}}-\\frac{3{{x}_{2}}+m}{1-2{{x}_{2}}}\\textless{}0$$，  即$$\\frac{(3+2m)({{x}_{1}}-{{x}_{2}})}{(1-2{{x}_{2}})(1-2{{x}_{1}})}\\textless{}0$$，  解得$$m\\textless{}-\\frac{3}{2}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -314,9 +314,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "若实数$$a$$、$$b$$满足$$\\frac{1},{2}a-ab+{{b}^{2}}+2=0$$，则实数$$a$$的取值范围是．\nA. $$a\\leqslant -2$$\nB. $$a\\geqslant 4$$\nC. $$a\\leqslant -2$$或$$a\\geqslant 4$$\nD. $$-2\\leqslant a\\leqslant 4$$",
+    "question_text": "若实数$$a$$、$$b$$满足$$\\frac{1}{2}a-ab+{{b}^{2}}+2=0$$，则实数$$a$$的取值范围是．\nA. $$a\\leqslant -2$$\nB. $$a\\geqslant 4$$\nC. $$a\\leqslant -2$$或$$a\\geqslant 4$$\nD. $$-2\\leqslant a\\leqslant 4$$",
     "answer": "C. $$a\\leqslant -2$$或$$a\\geqslant 4$$",
-    "solution": "原方程即为$${{b}^{2}}-ab+\\frac{1},{2}a+2=0$$，  $$\\Delta ={{(-a)}^{2}}-4(\\frac{1},{2}a+2)\\geqslant 0$$，  解得$$a\\leqslant -2$$或$$a\\geqslant 4$$．",
+    "solution": "原方程即为$${{b}^{2}}-ab+\\frac{1}{2}a+2=0$$，  $$\\Delta ={{(-a)}^{2}}-4(\\frac{1}{2}a+2)\\geqslant 0$$，  解得$$a\\leqslant -2$$或$$a\\geqslant 4$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -405,9 +405,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "设$${{a}^{2}}+1=3a$$，$${{b}^{2}}+1=3b$$，且$$a\\ne b$$，则代数式$$\\frac{1},{{{a}^{2}}}+\\frac{1},{{{b}^{2}}}$$的值为（~ ）．\nA. $$5$$\nB. $$7$$\nC. $$9$$\nD. $$11$$",
+    "question_text": "设$${{a}^{2}}+1=3a$$，$${{b}^{2}}+1=3b$$，且$$a\\ne b$$，则代数式$$\\frac{1}{{{a}^{2}}}+\\frac{1}{{{b}^{2}}}$$的值为（~ ）．\nA. $$5$$\nB. $$7$$\nC. $$9$$\nD. $$11$$",
     "answer": "B. $$7$$",
-    "solution": "由题设条件可知$${{a}^{2}}-3a+1=0$$，$${{b}^{2}}-3b+1=0$$，且$$a\\ne b$$，所以$$ab$$是一元二次方程$${{x}^{2}}-3x+1=0$$的两根，故$$a+b=3$$，$$ab=1$$，因此$$\\frac{1},{{{a}^{2}}}+\\frac{1},{{{b}^{2}}}=\\frac{{{a}^{2}}+{{b}^{2}}},{{{a}^{2}},{{b}^{2}}}=\\frac{{{(a+b)}^{2}}-2ab},{{{(ab)}^{2}}}=\\frac{{{3}^{2}}-2\\times 1},{{{1}^{2}}}=7$$．  故选$$\\text{B}$$．",
+    "solution": "由题设条件可知$${{a}^{2}}-3a+1=0$$，$${{b}^{2}}-3b+1=0$$，且$$a\\ne b$$，所以$$ab$$是一元二次方程$${{x}^{2}}-3x+1=0$$的两根，故$$a+b=3$$，$$ab=1$$，因此$$\\frac{1}{{{a}^{2}}}+\\frac{1}{{{b}^{2}}}=\\frac{{{a}^{2}}+{{b}^{2}}}{{{a}^{2}},{{b}^{2}}}=\\frac{{{(a+b)}^{2}}-2ab}{{{(ab)}^{2}}}=\\frac{{{3}^{2}}-2\\times 1}{{{1}^{2}}}=7$$．  故选$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -426,9 +426,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$4{{x}^{4}}+3{{x}^{3}}-2{{x}^{2}}+3x+4=0$$，则$$x+\\frac{1},{x}$$的值为．\nA. $$\\frac{5},{4}$$\nB. $$-2$$或$$\\frac{5},{4}$$\nC. $$\\frac{3},{4}$$\nD. $$-2$$",
+    "question_text": "已知$$4{{x}^{4}}+3{{x}^{3}}-2{{x}^{2}}+3x+4=0$$，则$$x+\\frac{1}{x}$$的值为．\nA. $$\\frac{5}{4}$$\nB. $$-2$$或$$\\frac{5}{4}$$\nC. $$\\frac{3}{4}$$\nD. $$-2$$",
     "answer": "D. $$-2$$",
-    "solution": "∵$$4{{x}^{4}}+3{{x}^{3}}-2{{x}^{2}}+3x+4={{(1+x)}^{2}}(4{{x}^{2}}-5x+4)=0$$，  ∴$$1+x=0$$或$$4{{x}^{2}}-5x+4=0$$，  当$$1+x=0$$，则$$x=-1$$，∴$$x+\\frac{1},{x}=-2$$．  当$$4{{x}^{2}}-5x+4=0$$，$$\\Delta ={{5}^{2}}-4\\times 4\\times 4=-39\\textless{}0$$，此方程无解．  ∴$$x+\\frac{1},{x}=-2$$．  原方程化为$$4\\left( {{x}^{2}}+\\frac{1},{{{x}^{2}}} \\right)+3\\left( x+\\frac{1},{x} \\right)-2=0$$．  故选$$\\text{D}$$",
+    "solution": "∵$$4{{x}^{4}}+3{{x}^{3}}-2{{x}^{2}}+3x+4={{(1+x)}^{2}}(4{{x}^{2}}-5x+4)=0$$，  ∴$$1+x=0$$或$$4{{x}^{2}}-5x+4=0$$，  当$$1+x=0$$，则$$x=-1$$，∴$$x+\\frac{1}{x}=-2$$．  当$$4{{x}^{2}}-5x+4=0$$，$$\\Delta ={{5}^{2}}-4\\times 4\\times 4=-39\\textless{}0$$，此方程无解．  ∴$$x+\\frac{1}{x}=-2$$．  原方程化为$$4\\left( {{x}^{2}}+\\frac{1}{{{x}^{2}}} \\right)+3\\left( x+\\frac{1}{x} \\right)-2=0$$．  故选$$\\text{D}$$",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -450,7 +450,7 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$a$$，$$b$$，$$c$$都是实数，并且$$a\\textgreater b\\textgreater c$$，那么下列式子中正确的是．\nA. $$ab\\textgreater bc$$\nB. $$a+b\\textgreater b+c$$\nC. $$a-b\\textgreater b-c$$\nD. $$\\frac{a},{c}\\textgreater\\frac{b},{c}$$",
+    "question_text": "已知$$a$$，$$b$$，$$c$$都是实数，并且$$a\\textgreater b\\textgreater c$$，那么下列式子中正确的是．\nA. $$ab\\textgreater bc$$\nB. $$a+b\\textgreater b+c$$\nC. $$a-b\\textgreater b-c$$\nD. $$\\frac{a}{c}\\textgreater\\frac{b}{c}$$",
     "answer": "B. $$a+b\\textgreater b+c$$",
     "solution": "根据不等式性质：  ∵$$a\\textgreater b\\textgreater c$$，  ∴$$a+b\\textgreater b+c$$，故$$\\text{B}$$正确，  ∵$$a$$、$$b$$、$$c$$的符号不确定，∴$$\\text{A}$$、$$\\text{C}$$、$$\\text{D}$$不成立，  故选$$\\text{B}$$．",
     "question_type": "选择题",
@@ -518,9 +518,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "若数$$a$$使关于$$x$$的不等式组$$\\begin{cases}\\dfrac{x-1},{2}\\textless{}\\dfrac{1+x},{3}    5x-2\\geqslant x+a \\end{cases}$$有且只有四个整数解，且使关于$$y$$的方程$$\\frac{y+a},{y-1}+\\frac{2a},{1-y}=2$$的解为非负数，则符合条件的所有整数$$a$$的和为．\nA. $$-3$$\nB. $$-2$$\nC. $$1$$\nD. $$2$$",
+    "question_text": "若数$$a$$使关于$$x$$的不等式组$$\\begin{cases}\\dfrac{x-1}{2}\\textless{}\\dfrac{1+x}{3}    5x-2\\geqslant x+a \\end{cases}$$有且只有四个整数解，且使关于$$y$$的方程$$\\frac{y+a}{y-1}+\\frac{2a}{1-y}=2$$的解为非负数，则符合条件的所有整数$$a$$的和为．\nA. $$-3$$\nB. $$-2$$\nC. $$1$$\nD. $$2$$",
     "answer": "C. $$1$$",
-    "solution": "$$\\begin{cases}\\dfrac{x-1},{2}\\textless{}\\dfrac{1+x},{3}    5x-2\\geqslant x+a \\end{cases}$$，  不等式组整理得：$$\\begin{cases}x\\textless{}5    x\\geqslant \\dfrac{a+2},{4} \\end{cases}$$，  由不等式组有且只有四个整数解，得到$$0\\textless{}\\frac{a+2},{4}\\leqslant 1$$，  解得：$$-2\\textless{}a\\leqslant 2$$，即整数$$a=-1$$，$$0$$，$$1$$，$$2$$，  $$\\frac{y+a},{y-1}+\\frac{2a},{1-y}=2$$，  分式方程去分母得：$$y+a-2a=2(y-1)$$，  解得：$$y=2-a$$，  由分式方程的解为非负数以及分式有意义的条件，得到$$a$$为$$-1$$，$$0$$，$$2$$，之和为$$1$$．",
+    "solution": "$$\\begin{cases}\\dfrac{x-1}{2}\\textless{}\\dfrac{1+x}{3}    5x-2\\geqslant x+a \\end{cases}$$，  不等式组整理得：$$\\begin{cases}x\\textless{}5    x\\geqslant \\dfrac{a+2}{4} \\end{cases}$$，  由不等式组有且只有四个整数解，得到$$0\\textless{}\\frac{a+2}{4}\\leqslant 1$$，  解得：$$-2\\textless{}a\\leqslant 2$$，即整数$$a=-1$$，$$0$$，$$1$$，$$2$$，  $$\\frac{y+a}{y-1}+\\frac{2a}{1-y}=2$$，  分式方程去分母得：$$y+a-2a=2(y-1)$$，  解得：$$y=2-a$$，  由分式方程的解为非负数以及分式有意义的条件，得到$$a$$为$$-1$$，$$0$$，$$2$$，之和为$$1$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -541,9 +541,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "若关于$$x$$ 的一元二次方程$$k{{x}^{2}}-x+1=0$$有实数根，则$$k$$的取值范围是．\nA. $$k\\textgreater\\frac{1},{4}$$且$$k\\ne 0$$\nB. $$k\\textless{}\\frac{1},{4}$$且$$k\\ne 0$$\nC. $$k\\leqslant \\frac{1},{4}$$且$$k\\ne 0$$\nD. $$k\\textless{}\\frac{1},{4}$$",
-    "answer": "C. $$k\\leqslant \\frac{1},{4}$$且$$k\\ne 0$$",
-    "solution": "∵关于$$x$$的一元二次方程$$k{{x}^{2}}-x+1=0$$有实数根，  ∴$$k\\ne 0$$且$$\\Delta ={{b}^{2}}-4ac\\geqslant 0$$，  ∴$$1-4k\\geqslant 0$$，  ∴解得：$$k\\leqslant \\frac{1},{4}$$．  综上，$$k\\leqslant \\frac{1},{4}$$且$$k\\ne 0$$．  故选$$\\text{C}$$．",
+    "question_text": "若关于$$x$$ 的一元二次方程$$k{{x}^{2}}-x+1=0$$有实数根，则$$k$$的取值范围是．\nA. $$k\\textgreater\\frac{1}{4}$$且$$k\\ne 0$$\nB. $$k\\textless{}\\frac{1}{4}$$且$$k\\ne 0$$\nC. $$k\\leqslant \\frac{1}{4}$$且$$k\\ne 0$$\nD. $$k\\textless{}\\frac{1}{4}$$",
+    "answer": "C. $$k\\leqslant \\frac{1}{4}$$且$$k\\ne 0$$",
+    "solution": "∵关于$$x$$的一元二次方程$$k{{x}^{2}}-x+1=0$$有实数根，  ∴$$k\\ne 0$$且$$\\Delta ={{b}^{2}}-4ac\\geqslant 0$$，  ∴$$1-4k\\geqslant 0$$，  ∴解得：$$k\\leqslant \\frac{1}{4}$$．  综上，$$k\\leqslant \\frac{1}{4}$$且$$k\\ne 0$$．  故选$$\\text{C}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -564,9 +564,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知关于$$x$$的不等式组$$\\begin{cases}\\dfrac{2x+5},{3}-x\\textgreater-5    \\dfrac{x+3},{2}-t ~\\textless{} ~x   \\end{cases}$$，恰有$$5$$个整数解，则$$t$$的取值范围是．\nA. $$-6 ~\\textless{} ~t ~\\textless{} ~-\\frac{11},{2}$$\nB. $$-6\\leqslant t ~\\textless{} ~-\\frac{11},{2}$$\nC. $$-6 ~\\textless{} ~t\\leqslant -\\frac{11},{2}$$\nD. $$-6\\leqslant t\\leqslant -\\frac{11},{2}$$",
-    "answer": "C. $$-6 ~\\textless{} ~t\\leqslant -\\frac{11},{2}$$",
-    "solution": "根据题设知不等式组有解，解得，$$3-2t ~\\textless{} ~x ~\\textless{} ~20$$.  由于不等式组恰有$$5$$个整数解，这$$5$$个整数解只能为$$15$$，$$16$$，$$17$$，$$18$$，$$19$$，因此$$14\\leqslant 3-2t ~\\textless{} ~15$$，解得$$-6\\textless t\\leqslant -\\frac{11},{2}$$．  故选$$\\text{C}$$．",
+    "question_text": "已知关于$$x$$的不等式组$$\\begin{cases}\\dfrac{2x+5}{3}-x\\textgreater-5    \\dfrac{x+3}{2}-t ~\\textless{} ~x   \\end{cases}$$，恰有$$5$$个整数解，则$$t$$的取值范围是．\nA. $$-6 ~\\textless{} ~t ~\\textless{} ~-\\frac{11}{2}$$\nB. $$-6\\leqslant t ~\\textless{} ~-\\frac{11}{2}$$\nC. $$-6 ~\\textless{} ~t\\leqslant -\\frac{11}{2}$$\nD. $$-6\\leqslant t\\leqslant -\\frac{11}{2}$$",
+    "answer": "C. $$-6 ~\\textless{} ~t\\leqslant -\\frac{11}{2}$$",
+    "solution": "根据题设知不等式组有解，解得，$$3-2t ~\\textless{} ~x ~\\textless{} ~20$$.  由于不等式组恰有$$5$$个整数解，这$$5$$个整数解只能为$$15$$，$$16$$，$$17$$，$$18$$，$$19$$，因此$$14\\leqslant 3-2t ~\\textless{} ~15$$，解得$$-6\\textless t\\leqslant -\\frac{11}{2}$$．  故选$$\\text{C}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -606,9 +606,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "把一枚六个面编号分别为$$1$$，$$2$$，$$3$$，$$4$$，$$5$$，$$6$$的质地均匀的正方体骰子先后投掷$$2$$次，若两个正面朝上的编号分别为$$m$$，$$n$$，则二次函数$$y={{x}^{2}}+mx+n$$的图象与$$x$$轴有两个不同交点的概率是  ．\nA. $$\\frac{5},{12}$$\nB. $$\\frac{4},{9}$$\nC. $$\\frac{17},{36}$$\nD. $$\\frac{1},{2}$$",
-    "answer": "C. $$\\frac{17},{36}$$",
-    "solution": "掷骰子有$$6\\times 6=36$$种情况．  根据题意有：$$4n-{{m}^{2}}\\textless{}0$$，  因此满足的点有：$$n=1$$，$$m=3$$，$$4$$，$$5$$，$$6$$，  $$n=2$$，$$m=3$$，$$4$$，$$5$$，$$6$$，  $$n=3$$，$$m=4$$，$$5$$，$$6$$，  $$n=4$$，$$m=5$$，$$6$$，  $$n=5$$，$$m=5$$，$$6$$，  $$n=6$$，$$m=5$$，$$6$$，  共有$$17$$种，  故概率为：$$17\\div 36=\\frac{17},{36}$$．",
+    "question_text": "把一枚六个面编号分别为$$1$$，$$2$$，$$3$$，$$4$$，$$5$$，$$6$$的质地均匀的正方体骰子先后投掷$$2$$次，若两个正面朝上的编号分别为$$m$$，$$n$$，则二次函数$$y={{x}^{2}}+mx+n$$的图象与$$x$$轴有两个不同交点的概率是  ．\nA. $$\\frac{5}{12}$$\nB. $$\\frac{4}{9}$$\nC. $$\\frac{17}{36}$$\nD. $$\\frac{1}{2}$$",
+    "answer": "C. $$\\frac{17}{36}$$",
+    "solution": "掷骰子有$$6\\times 6=36$$种情况．  根据题意有：$$4n-{{m}^{2}}\\textless{}0$$，  因此满足的点有：$$n=1$$，$$m=3$$，$$4$$，$$5$$，$$6$$，  $$n=2$$，$$m=3$$，$$4$$，$$5$$，$$6$$，  $$n=3$$，$$m=4$$，$$5$$，$$6$$，  $$n=4$$，$$m=5$$，$$6$$，  $$n=5$$，$$m=5$$，$$6$$，  $$n=6$$，$$m=5$$，$$6$$，  共有$$17$$种，  故概率为：$$17\\div 36=\\frac{17}{36}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -629,7 +629,7 @@
   {
     "question_text": "已知不相等的实数$$a$$，$$b$$满足$$a-b^{2}=b-a^{2}=x$$，则$$x$$．\nA. 有最大值，又有最小值\nB. 有最大值，没有最小值\nC. 有最小值，没有最大值\nD. 没有最大值，也没有最小值",
     "answer": "D. 没有最大值，也没有最小值",
-    "solution": "∵$$a-b^{2}=b-a^{2}$$，  ∴$$a^{2}-b^{2}=b-a$$，  $$(a+b)(a-b)=b-a$$  $$(a+b+1)(a-b)=0$$，  又∵$$a\\ne b$$，  ∴$$a+b+1=0$$，  ∴$$a=-b-1$$，  ∴$$x=a-b^{2}$$  $$=-b-1-b^{2}$$  $$=-\\left(b+\\frac{1},{2} \\right)^{2}-\\frac{3},{4}$$，  当$$b=-\\frac{1},{2}$$时，$$x$$取最大值$$-\\frac{3},{4}$$，  但此时$$a=-\\left(-\\frac{1},{2}\\right)-1=-\\frac{1},{2}=b$$，  故最大值取不到，也没有最小值，  故选$$\\text{D}$$．",
+    "solution": "∵$$a-b^{2}=b-a^{2}$$，  ∴$$a^{2}-b^{2}=b-a$$，  $$(a+b)(a-b)=b-a$$  $$(a+b+1)(a-b)=0$$，  又∵$$a\\ne b$$，  ∴$$a+b+1=0$$，  ∴$$a=-b-1$$，  ∴$$x=a-b^{2}$$  $$=-b-1-b^{2}$$  $$=-\\left(b+\\frac{1}{2} \\right)^{2}-\\frac{3}{4}$$，  当$$b=-\\frac{1}{2}$$时，$$x$$取最大值$$-\\frac{3}{4}$$，  但此时$$a=-\\left(-\\frac{1}{2}\\right)-1=-\\frac{1}{2}=b$$，  故最大值取不到，也没有最小值，  故选$$\\text{D}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -653,9 +653,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "如果关于$$x$$的不等式组$$\\begin{cases}m-5x\\geqslant 2    x-\\dfrac{11},{2} ~\\textless{} ~3\\left( x+\\dfrac{1},{2} \\right)   \\end{cases}$$有且仅有四个整数解，且关于$$y$$的分式方程$$\\frac{2-my},{2-y}-\\frac{8},{y-2}=1$$有非负数解，则符合条件的所有整数$$m$$的和是．\nA. $$13$$\nB. $$15$$\nC. $$20$$\nD. $$22$$",
+    "question_text": "如果关于$$x$$的不等式组$$\\begin{cases}m-5x\\geqslant 2    x-\\dfrac{11}{2} ~\\textless{} ~3\\left( x+\\dfrac{1}{2} \\right)   \\end{cases}$$有且仅有四个整数解，且关于$$y$$的分式方程$$\\frac{2-my}{2-y}-\\frac{8}{y-2}=1$$有非负数解，则符合条件的所有整数$$m$$的和是．\nA. $$13$$\nB. $$15$$\nC. $$20$$\nD. $$22$$",
     "answer": "B. $$15$$",
-    "solution": "解不等式组$$\\begin{cases}m-5x\\geqslant 2①    x-\\dfrac{11},{2} ~\\textless{} ~3\\left( x+\\dfrac{1},{2} \\right)②   \\end{cases}$$，  解不等式①得：$$-5x\\geqslant 2-m$$  $$                                                     x\\leqslant \\frac{m-2},{5}$$，  解不等式②得：$$2x-11 ~\\textless{} ~6x+3$$  $$                                               2x-6x ~\\textless{} ~14$$  $$                                               -4x ~\\textless{} ~14$$  $$                                               x\\textgreater-\\frac{7},{2}$$，  ∴原不等式组的解集为$$-\\frac{7},{2} ~\\textless{} ~x\\leqslant \\frac{m-2},{5}$$，  ∵原不等式组有且仅有四个整数解，它们分别为$$-3$$、$$-2$$、$$-1$$，$$0$$，  ∴$$0\\leqslant \\frac{m-2},{5} ~\\textless{} ~1$$，  ∴$$0\\leqslant m-2 ~\\textless{} ~5$$，  ∴$$2\\leqslant m ~\\textless{} ~7$$，  解分式方程$$\\frac{2-my},{2-y}-\\frac{8},{y-2}=1$$，  去分母得$$my-2-8=y-2$$，  $$\\left( m-1 \\right)y=8$$  $$y=\\frac{8},{m-1}$$，  ∵分式方程有非负数解，  ∴$$\\frac{8},{m-1}\\geqslant 0$$且$$\\frac{8},{m-1}\\ne 2$$，  ∴$$m\\textgreater1$$且$$m\\ne 5$$，  ∵$$m$$为整数，  ∴$$m$$可以取$$2$$、$$3$$、$$4$$、$$6$$，  它们的和为$$2+3+4+6=15$$，  ∴符合条件的所有整数$$m$$的和为$$15$$，  故选$$\\text{B}$$．",
+    "solution": "解不等式组$$\\begin{cases}m-5x\\geqslant 2①    x-\\dfrac{11}{2} ~\\textless{} ~3\\left( x+\\dfrac{1}{2} \\right)②   \\end{cases}$$，  解不等式①得：$$-5x\\geqslant 2-m$$  $$                                                     x\\leqslant \\frac{m-2}{5}$$，  解不等式②得：$$2x-11 ~\\textless{} ~6x+3$$  $$                                               2x-6x ~\\textless{} ~14$$  $$                                               -4x ~\\textless{} ~14$$  $$                                               x\\textgreater-\\frac{7}{2}$$，  ∴原不等式组的解集为$$-\\frac{7}{2} ~\\textless{} ~x\\leqslant \\frac{m-2}{5}$$，  ∵原不等式组有且仅有四个整数解，它们分别为$$-3$$、$$-2$$、$$-1$$，$$0$$，  ∴$$0\\leqslant \\frac{m-2}{5} ~\\textless{} ~1$$，  ∴$$0\\leqslant m-2 ~\\textless{} ~5$$，  ∴$$2\\leqslant m ~\\textless{} ~7$$，  解分式方程$$\\frac{2-my}{2-y}-\\frac{8}{y-2}=1$$，  去分母得$$my-2-8=y-2$$，  $$\\left( m-1 \\right)y=8$$  $$y=\\frac{8}{m-1}$$，  ∵分式方程有非负数解，  ∴$$\\frac{8}{m-1}\\geqslant 0$$且$$\\frac{8}{m-1}\\ne 2$$，  ∴$$m\\textgreater1$$且$$m\\ne 5$$，  ∵$$m$$为整数，  ∴$$m$$可以取$$2$$、$$3$$、$$4$$、$$6$$，  它们的和为$$2+3+4+6=15$$，  ∴符合条件的所有整数$$m$$的和为$$15$$，  故选$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -728,9 +728,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$abc\\ne 0$$，并且$$\\frac{a+b},{c}=\\frac{b+c},{a}=\\frac{c+a},{b}=p$$，  那么直线$$y=px+p$$一定通过第象限．\nA. 一、二\nB. 二、三\nC. 三、四\nD. 一、四",
+    "question_text": "已知$$abc\\ne 0$$，并且$$\\frac{a+b}{c}=\\frac{b+c}{a}=\\frac{c+a}{b}=p$$，  那么直线$$y=px+p$$一定通过第象限．\nA. 一、二\nB. 二、三\nC. 三、四\nD. 一、四",
     "answer": "B. 二、三",
-    "solution": "由条件得：①$$a+b=pc$$，②$$b+c=pa$$，③$$a+c=pb$$，  三式相加得: $$2\\left( a+b+c \\right)=p\\left( a+b+c \\right)$$．  ∴$$p=2$$或$$a+b+c=0$$．  当$$p=2$$时，$$y=2x+2$$．则直线通过第一、二、三象限．  当$$a+b+c=0$$时，不妨取$$a+b=-c$$，于是$$p=\\frac{a+b},{c}=-1$$，  ∴$$y=-x-1$$，则直线通过第二、三、四象限．  综合上述两种情况，直线一定通过第二、三象限．  故选$$\\text{B}$$．",
+    "solution": "由条件得：①$$a+b=pc$$，②$$b+c=pa$$，③$$a+c=pb$$，  三式相加得: $$2\\left( a+b+c \\right)=p\\left( a+b+c \\right)$$．  ∴$$p=2$$或$$a+b+c=0$$．  当$$p=2$$时，$$y=2x+2$$．则直线通过第一、二、三象限．  当$$a+b+c=0$$时，不妨取$$a+b=-c$$，于是$$p=\\frac{a+b}{c}=-1$$，  ∴$$y=-x-1$$，则直线通过第二、三、四象限．  综合上述两种情况，直线一定通过第二、三象限．  故选$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -762,9 +762,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$\\alpha $$为锐角，且$$\\cos \\alpha +2\\sin \\alpha =2$$，则$$\\tan \\alpha $$的值是（~ ）．\nA. $$\\frac{3},{4}$$\nB. $$\\frac{4},{3}$$\nC. $$\\frac{1},{2}$$\nD. $$2$$",
-    "answer": "A. $$\\frac{3},{4}$$",
-    "solution": "∵$$\\cos \\alpha +2\\sin \\alpha =2$$，  ∴$$\\cos \\alpha =2-2\\sin \\alpha $$．  又$${{\\sin }^{2}}\\alpha +{{\\cos }^{2}}\\alpha =1$$，  ∴$${{\\sin }^{2}}\\alpha +{{(2-2\\sin \\alpha )}^{2}}=1$$，  整理得：$$5{{\\sin }^{2}}\\alpha -8\\sin \\alpha +3=0$$，  解得$$\\sin \\alpha =\\frac{3},{5}$$或$$\\sin \\alpha =1$$，  ∵$$\\alpha $$为锐角，  ∴$$\\sin \\alpha =\\frac{3},{5}$$．  ∴$$\\cos \\alpha =2-2\\sin \\alpha =\\frac{4},{5}$$，  ∴$$\\tan \\alpha =\\frac{\\sin \\alpha },{\\cos \\alpha }=\\frac{3},{4}$$．",
+    "question_text": "已知$$\\alpha $$为锐角，且$$\\cos \\alpha +2\\sin \\alpha =2$$，则$$\\tan \\alpha $$的值是（~ ）．\nA. $$\\frac{3}{4}$$\nB. $$\\frac{4}{3}$$\nC. $$\\frac{1}{2}$$\nD. $$2$$",
+    "answer": "A. $$\\frac{3}{4}$$",
+    "solution": "∵$$\\cos \\alpha +2\\sin \\alpha =2$$，  ∴$$\\cos \\alpha =2-2\\sin \\alpha $$．  又$${{\\sin }^{2}}\\alpha +{{\\cos }^{2}}\\alpha =1$$，  ∴$${{\\sin }^{2}}\\alpha +{{(2-2\\sin \\alpha )}^{2}}=1$$，  整理得：$$5{{\\sin }^{2}}\\alpha -8\\sin \\alpha +3=0$$，  解得$$\\sin \\alpha =\\frac{3}{5}$$或$$\\sin \\alpha =1$$，  ∵$$\\alpha $$为锐角，  ∴$$\\sin \\alpha =\\frac{3}{5}$$．  ∴$$\\cos \\alpha =2-2\\sin \\alpha =\\frac{4}{5}$$，  ∴$$\\tan \\alpha =\\frac{\\sin \\alpha }{\\cos \\alpha }=\\frac{3}{4}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -787,7 +787,7 @@
   {
     "question_text": "一个三角形木架三边长分别是$$75\\text{cm}$$，$$100\\text{cm}$$，$$125\\text{cm}$$，现要做一个与其相似的三角形木架，而只有长为$$40\\text{cm}$$和$$120\\text{cm}$$的两根木条．要求以其中一根为一边，从另一根截下两段作为另两边（允许有余料），则不同的截法有．\nA. 一种\nB. 两种\nC. 三种\nD. 四种",
     "answer": "C. 三种",
-    "solution": "由题知新形成的三角形钢架与原三角形钢架相似，则它们的对应边成比例．  （$$1$$）若以$$40\\text{cm}$$的钢筋为三角形一边，去截$$120\\text{cm}$$长的钢筋，且截成两段分别为$$x\\text{cm}$$，$$y\\text{cm}$$，  则有三种情况：  ①以$$40\\text{cm}$$为最长边，则可列得$$\\frac{40},{125}=\\frac{x},{100}=\\frac{y},{75}$$，  解得：$$x=32$$，$$y=24$$，且$$32+24=56\\textless{}120$$，  所以此法可行；  ②以$$40\\text{cm}$$为较长边时，则$$\\frac{x},{125}=\\frac{40},{100}=\\frac{y},{75}$$，  解得：$$x=50$$，$$y=30$$，且$$50+30=80\\textless{}120$$，  所以此法可行；  ③以$$40\\text{cm}$$为最短边，则$$\\frac{x},{125}=\\frac{y},{100}=\\frac{40},{75}$$，  解得：$$x=\\frac{200},{3}$$，$$y=\\frac{160},{3}$$，且$$\\frac{200},{3}+\\frac{160},{3}=120$$，  所以此法可行；  （$$2$$）若以$$120\\text{cm}$$的钢筋为三角形一边，去截$$40\\text{cm}$$长的钢筋，且截成的两段分别为$$x\\text{cm}$$，$$y\\text{cm}$$，  很容易的值$$120$$只能作为最长边，  则$$\\frac{120},{125}=\\frac{x},{100}=\\frac{y},{75}$$，  解得：$$x=96$$，$$y=72$$，  但$$96\\textgreater40$$，$$72\\textgreater40$$，  所以此法不可行．  综上可知只有$$3$$种截法．  故选$$\\text{C}$$．",
+    "solution": "由题知新形成的三角形钢架与原三角形钢架相似，则它们的对应边成比例．  （$$1$$）若以$$40\\text{cm}$$的钢筋为三角形一边，去截$$120\\text{cm}$$长的钢筋，且截成两段分别为$$x\\text{cm}$$，$$y\\text{cm}$$，  则有三种情况：  ①以$$40\\text{cm}$$为最长边，则可列得$$\\frac{40}{125}=\\frac{x}{100}=\\frac{y}{75}$$，  解得：$$x=32$$，$$y=24$$，且$$32+24=56\\textless{}120$$，  所以此法可行；  ②以$$40\\text{cm}$$为较长边时，则$$\\frac{x}{125}=\\frac{40}{100}=\\frac{y}{75}$$，  解得：$$x=50$$，$$y=30$$，且$$50+30=80\\textless{}120$$，  所以此法可行；  ③以$$40\\text{cm}$$为最短边，则$$\\frac{x}{125}=\\frac{y}{100}=\\frac{40}{75}$$，  解得：$$x=\\frac{200}{3}$$，$$y=\\frac{160}{3}$$，且$$\\frac{200}{3}+\\frac{160}{3}=120$$，  所以此法可行；  （$$2$$）若以$$120\\text{cm}$$的钢筋为三角形一边，去截$$40\\text{cm}$$长的钢筋，且截成的两段分别为$$x\\text{cm}$$，$$y\\text{cm}$$，  很容易的值$$120$$只能作为最长边，  则$$\\frac{120}{125}=\\frac{x}{100}=\\frac{y}{75}$$，  解得：$$x=96$$，$$y=72$$，  但$$96\\textgreater40$$，$$72\\textgreater40$$，  所以此法不可行．  综上可知只有$$3$$种截法．  故选$$\\text{C}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -806,9 +806,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知：反比例函数$$y=\\frac{2},{x}$$与正比例函数$$y=x$$的图象交于$$A$$，$$B$$两点（$$A$$在第一象限），点$${{F}_{1}}\\left( -2,-2 \\right)$$，$${{F}_{2}}\\left( 2,2 \\right)$$在直线$$y=x$$上．设点$$P\\left( {{x}_{0}},{{y}_{0}} \\right)$$是反比例函数$$y=\\frac{2},{x}$$图象上的任意一点，记点$$P$$与$${{F}_{1}}$$，$${{F}_{2}}$$两点之间的距离之差$$d=\\left\\textbar{} P{{F}_{1}}-P{{F}_{2}} \\right\\textbar$$，由反比例函数的定义可知$$d=\\left\\textbar{} P{{F}_{1}}-P{{F}_{2}} \\right\\textbar$$为常数，值为线段$$AB$$的长．现请你在反比例函数$$y=\\frac{2},{x}$$第一象限内的分支上找一点$$P$$，使点$$P$$到$${{F}_{2}}\\left( 2,2 \\right)$$和点$$C\\left( 6,4 \\right)$$的距离之和最小，则点$$P$$的坐标为．\nA. $$\\left( 2,1 \\right)$$\nB. $$\\left( 1,1 \\right)$$\nC. $$\\left( 3,2 \\right)$$\nD. $$\\left( 2,3 \\right)$$",
+    "question_text": "已知：反比例函数$$y=\\frac{2}{x}$$与正比例函数$$y=x$$的图象交于$$A$$，$$B$$两点（$$A$$在第一象限），点$${{F}_{1}}\\left( -2,-2 \\right)$$，$${{F}_{2}}\\left( 2,2 \\right)$$在直线$$y=x$$上．设点$$P\\left( {{x}_{0}},{{y}_{0}} \\right)$$是反比例函数$$y=\\frac{2}{x}$$图象上的任意一点，记点$$P$$与$${{F}_{1}}$$，$${{F}_{2}}$$两点之间的距离之差$$d=\\left\\textbar{} P{{F}_{1}}-P{{F}_{2}} \\right\\textbar$$，由反比例函数的定义可知$$d=\\left\\textbar{} P{{F}_{1}}-P{{F}_{2}} \\right\\textbar$$为常数，值为线段$$AB$$的长．现请你在反比例函数$$y=\\frac{2}{x}$$第一象限内的分支上找一点$$P$$，使点$$P$$到$${{F}_{2}}\\left( 2,2 \\right)$$和点$$C\\left( 6,4 \\right)$$的距离之和最小，则点$$P$$的坐标为．\nA. $$\\left( 2,1 \\right)$$\nB. $$\\left( 1,1 \\right)$$\nC. $$\\left( 3,2 \\right)$$\nD. $$\\left( 2,3 \\right)$$",
     "answer": "A. $$\\left( 2,1 \\right)$$",
-    "solution": "解由$$y=\\frac{2},{x}$$和$$y=x$$组成的方程组可得$$A$$、$$B$$两点的坐标分别为，$$\\left( \\sqrt{2},\\sqrt{2} \\right)$$、$$\\left( -\\sqrt{2},-\\sqrt{2} \\right)$$，线段$$AB$$的长度$$=4$$，  ∵点$$P\\left( {{x}_{0}},{{y}_{0}} \\right)$$是反比例函数$$y=\\frac{2},{x}$$图象上一点，  ∴$${{y}_{0}}=\\frac{2},{{{x}_{0}}}$$，  ∴$$P{{F}_{1}}=\\sqrt{{{\\left( {{x}_{0}}+2 \\right)}^{2}}+{{\\left( \\frac{2},{{{x}_{0}}}+2 \\right)}^{2}}}=\\left\\textbar{} \\frac{{{\\left( {{x}_{0}}+1 \\right)}^{2}}+1},{{{x}_{0}}} \\right\\textbar$$，  $$P{{F}_{2}}=\\sqrt{{{\\left( {{x}_{0}}-2 \\right)}^{2}}+{{\\left( \\frac{2},{{{x}_{0}}}-2 \\right)}^{2}}}=\\left\\textbar{} \\frac{{{\\left( {{x}_{0}}-1 \\right)}^{2}}+1},{{{x}_{0}}} \\right\\textbar$$，  ∴$$d=\\left\\textbar{} P{{F}_{1}}-P{{F}_{2}} \\right\\textbar=\\left\\textbar{} \\left\\textbar{} \\frac{{{\\left( {{x}_{0}}+1 \\right)}^{2}}+1},{{{x}_{0}}} \\right\\textbar-\\left\\textbar{} \\frac{{{\\left( {{x}_{0}}-1 \\right)}^{2}}+1},{{{x}_{0}}} \\right\\textbar{} \\right\\textbar$$，  当$${{x}_{0}}\\textgreater0$$时，$$d=4$$；当$${{x}_{0}}\\textless{}0$$时，$$d=4$$，  因此，无论点$$P$$的位置如何，线段$$AB$$的长度与$$d$$一定相等．  由条件$$P{{F}_{2}}=P{{F}_{1}}-4$$，知$$P{{F}_{2}}+PC=P{{F}_{1}}+PC-4$$，  由$${{F}_{1}}$$，$$-P$$，$$C$$三点共线时最小，  此时可解得$$P\\left( 2,1 \\right)$$．",
+    "solution": "解由$$y=\\frac{2}{x}$$和$$y=x$$组成的方程组可得$$A$$、$$B$$两点的坐标分别为，$$\\left( \\sqrt{2},\\sqrt{2} \\right)$$、$$\\left( -\\sqrt{2},-\\sqrt{2} \\right)$$，线段$$AB$$的长度$$=4$$，  ∵点$$P\\left( {{x}_{0}},{{y}_{0}} \\right)$$是反比例函数$$y=\\frac{2}{x}$$图象上一点，  ∴$${{y}_{0}}=\\frac{2}{{{x}_{0}}}$$，  ∴$$P{{F}_{1}}=\\sqrt{{{\\left( {{x}_{0}}+2 \\right)}^{2}}+{{\\left( \\frac{2}{{{x}_{0}}}+2 \\right)}^{2}}}=\\left\\textbar{} \\frac{{{\\left( {{x}_{0}}+1 \\right)}^{2}}+1}{{{x}_{0}}} \\right\\textbar$$，  $$P{{F}_{2}}=\\sqrt{{{\\left( {{x}_{0}}-2 \\right)}^{2}}+{{\\left( \\frac{2}{{{x}_{0}}}-2 \\right)}^{2}}}=\\left\\textbar{} \\frac{{{\\left( {{x}_{0}}-1 \\right)}^{2}}+1}{{{x}_{0}}} \\right\\textbar$$，  ∴$$d=\\left\\textbar{} P{{F}_{1}}-P{{F}_{2}} \\right\\textbar=\\left\\textbar{} \\left\\textbar{} \\frac{{{\\left( {{x}_{0}}+1 \\right)}^{2}}+1}{{{x}_{0}}} \\right\\textbar-\\left\\textbar{} \\frac{{{\\left( {{x}_{0}}-1 \\right)}^{2}}+1}{{{x}_{0}}} \\right\\textbar{} \\right\\textbar$$，  当$${{x}_{0}}\\textgreater0$$时，$$d=4$$；当$${{x}_{0}}\\textless{}0$$时，$$d=4$$，  因此，无论点$$P$$的位置如何，线段$$AB$$的长度与$$d$$一定相等．  由条件$$P{{F}_{2}}=P{{F}_{1}}-4$$，知$$P{{F}_{2}}+PC=P{{F}_{1}}+PC-4$$，  由$${{F}_{1}}$$，$$-P$$，$$C$$三点共线时最小，  此时可解得$$P\\left( 2,1 \\right)$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -856,7 +856,7 @@
   {
     "question_text": "已知实数$$a\\ne b$$，且满足$${{\\left( a+1 \\right)}^{2}}=3-3\\left( a+1 \\right)$$，$$3\\left( b+1 \\right)=3-{{\\left( b+1 \\right)}^{2}}$$，则$$a+b$$的值为．\nA. $$5$$\nB. $$-5$$\nC. $$1$$\nD. $$-1$$",
     "answer": "B. $$-5$$",
-    "solution": "容易知道$$a,b$$是方程$${{\\left( x+1 \\right)}^{2}}=3-3\\left( x+1 \\right)$$的两个根，  整理得$${{x}^{2}}+5x+1=0$$，  于是有$$a+b=-5,ab=1$$，于是$$a\\textless{}0,b\\textless{}0$$，  $$b\\sqrt{\\frac{b},{a}}+a\\sqrt{\\frac{a},{b}}$$，  $$=b\\sqrt{\\frac{{{b}^{2}}},{ab}}+a\\sqrt{\\frac{{{a}^{2}}},{ab}}$$，  $$=\\frac{b\\left\\textbar{} b \\right\\textbar+a\\left\\textbar{} a \\right\\textbar},{\\sqrt{ab}}$$，  $$=-\\frac{\\left( {{a}^{2}}+{{b}^{2}} \\right)},{\\sqrt{ab}}$$，  $$=-\\frac{{{\\left( a+b \\right)}^{2}}-2ab},{\\sqrt{ab}}$$，  $$=-23$$，  故答案为$$\\text{B}$$．",
+    "solution": "容易知道$$a,b$$是方程$${{\\left( x+1 \\right)}^{2}}=3-3\\left( x+1 \\right)$$的两个根，  整理得$${{x}^{2}}+5x+1=0$$，  于是有$$a+b=-5,ab=1$$，于是$$a\\textless{}0,b\\textless{}0$$，  $$b\\sqrt{\\frac{b}{a}}+a\\sqrt{\\frac{a}{b}}$$，  $$=b\\sqrt{\\frac{{{b}^{2}}}{ab}}+a\\sqrt{\\frac{{{a}^{2}}}{ab}}$$，  $$=\\frac{b\\left\\textbar{} b \\right\\textbar+a\\left\\textbar{} a \\right\\textbar}{\\sqrt{ab}}$$，  $$=-\\frac{\\left( {{a}^{2}}+{{b}^{2}} \\right)}{\\sqrt{ab}}$$，  $$=-\\frac{{{\\left( a+b \\right)}^{2}}-2ab}{\\sqrt{ab}}$$，  $$=-23$$，  故答案为$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -902,7 +902,7 @@
   {
     "question_text": "若抛物线$$y={{x}^{2}}+bx+c$$与$$x$$轴只有一个公共点，且过点$$A(m,n)$$，$$B(m-8,n)$$，则$$n=$$（~ ）．\nA. $$8$$\nB. $$12$$\nC. $$16$$\nD. $$24$$",
     "answer": "C. $$16$$",
-    "solution": "∵抛物线过点$$A(m,n)$$，$$B(m-8,n)$$，  ∴抛物线的对称轴为$$x=-\\frac{b},{2}=\\frac{m+m-8},{2}$$，  ∴$$b=8-2m$$．  ∵抛物线$$y={{x}^{2}}+bx+c$$与$$x$$轴只有一个公共点，  ∴$$\\Delta ={{b}^{2}}-4c=0$$，  ∴$$c=\\frac{1},{4},{{b}^{2}}={{(4-m)}^{2}}$$，  ∴$$n={{m}^{2}}+(8-2m)m+{{(4-m)}^{2}}=16$$．\n<p>由题意得：$${{b}^{2}}-4c=0$$，$$b=8-2m$$，</p>\n<p>&there4;$$n={{m}^{2}}+bm+c={{m}^{2}}+\\left( 8-2m \\right)m+{{\\left( 4-m \\right)}^{2}}=16$$．</p>",
+    "solution": "∵抛物线过点$$A(m,n)$$，$$B(m-8,n)$$，  ∴抛物线的对称轴为$$x=-\\frac{b}{2}=\\frac{m+m-8}{2}$$，  ∴$$b=8-2m$$．  ∵抛物线$$y={{x}^{2}}+bx+c$$与$$x$$轴只有一个公共点，  ∴$$\\Delta ={{b}^{2}}-4c=0$$，  ∴$$c=\\frac{1}{4},{{b}^{2}}={{(4-m)}^{2}}$$，  ∴$$n={{m}^{2}}+(8-2m)m+{{(4-m)}^{2}}=16$$．\n<p>由题意得：$${{b}^{2}}-4c=0$$，$$b=8-2m$$，</p>\n<p>&there4;$$n={{m}^{2}}+bm+c={{m}^{2}}+\\left( 8-2m \\right)m+{{\\left( 4-m \\right)}^{2}}=16$$．</p>",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -924,9 +924,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "从长度分别为$$2,4,6,7$$的四条线段中随机取三条，能构成三角形的概率是(  )\nA. $$\\frac{1},{3}$$\nB. $$\\frac{1},{4}$$\nC. $$\\frac{1},{2}$$\nD. $$\\frac{3},{4}$$",
-    "answer": "C. $$\\frac{1},{2}$$",
-    "solution": "共有$$4$$种等可能的结果数，它们为$$2$$、$$4$$、$$6,2$$、$$4$$、$$7,2$$、$$6$$、$$7,4$$、$$6$$、$$7$$，其中能构成三角形的结果数为$$2$$种，  所以能构成三角形的概率$$=\\frac{2},{4}=\\frac{1},{2}$$．  故选$$\\rm C$$．",
+    "question_text": "从长度分别为$$2,4,6,7$$的四条线段中随机取三条，能构成三角形的概率是(  )\nA. $$\\frac{1}{3}$$\nB. $$\\frac{1}{4}$$\nC. $$\\frac{1}{2}$$\nD. $$\\frac{3}{4}$$",
+    "answer": "C. $$\\frac{1}{2}$$",
+    "solution": "共有$$4$$种等可能的结果数，它们为$$2$$、$$4$$、$$6,2$$、$$4$$、$$7,2$$、$$6$$、$$7,4$$、$$6$$、$$7$$，其中能构成三角形的结果数为$$2$$种，  所以能构成三角形的概率$$=\\frac{2}{4}=\\frac{1}{2}$$．  故选$$\\rm C$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -973,9 +973,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知三个关于$$x$$的一元二次方程$$a{{x}^{2}}+bx+c=0$$，$$b{{x}^{2}}+cx+a=0$$，$$c{{x}^{2}}+ax+b=0$$恰有一个公共实数根，则$$\\frac{{{a}^{2}}},{bc}+\\frac{{{b}^{2}}},{ca}+\\frac{{{c}^{2}}},{ab}$$的值为（ ~ ~）．\nA. $$0$$\nB. $$1$$\nC. $$2$$\nD. $$3$$",
+    "question_text": "已知三个关于$$x$$的一元二次方程$$a{{x}^{2}}+bx+c=0$$，$$b{{x}^{2}}+cx+a=0$$，$$c{{x}^{2}}+ax+b=0$$恰有一个公共实数根，则$$\\frac{{{a}^{2}}}{bc}+\\frac{{{b}^{2}}}{ca}+\\frac{{{c}^{2}}}{ab}$$的值为（ ~ ~）．\nA. $$0$$\nB. $$1$$\nC. $$2$$\nD. $$3$$",
     "answer": "D. $$3$$",
-    "solution": "~设$${{x}_{0}}$$是它们的一个公共实数根，  则$$ax_{0}^{2}+b{{x}_{0}}+c=0$$，$$bx_{0}^{2}+c{{x}_{0}}+a=0$$，$$cx_{0}^{2}+a{{x}_{0}}+b=0$$．  把上面三个式子相加，并整理得  $$(a+b+c)(x_{0}^{2}+{{x}_{0}}+1)=0$$．  因为$$x_{0}^{2}+{{x}_{0}}+1={{\\left( {{x}_{0}}+\\frac{1},{2} \\right)}^{2}}+\\frac{3},{4}\\textgreater0$$，  所以$$a+b+c=0$$．  于是$$\\frac{{{a}^{2}}},{bc}+\\frac{{{b}^{2}}},{ca}+\\frac{{{c}^{2}}},{ab}$$  $$=\\frac{{{a}^{3}}+{{b}^{3}}+{{c}^{3}}},{abc}$$  $$=\\frac{{{a}^{3}}+{{b}^{3}}-{{(a+b)}^{3}}},{abc}$$  $$=\\frac{-3ab(a+b)},{abc}$$  $$=3$$．",
+    "solution": "~设$${{x}_{0}}$$是它们的一个公共实数根，  则$$ax_{0}^{2}+b{{x}_{0}}+c=0$$，$$bx_{0}^{2}+c{{x}_{0}}+a=0$$，$$cx_{0}^{2}+a{{x}_{0}}+b=0$$．  把上面三个式子相加，并整理得  $$(a+b+c)(x_{0}^{2}+{{x}_{0}}+1)=0$$．  因为$$x_{0}^{2}+{{x}_{0}}+1={{\\left( {{x}_{0}}+\\frac{1}{2} \\right)}^{2}}+\\frac{3}{4}\\textgreater0$$，  所以$$a+b+c=0$$．  于是$$\\frac{{{a}^{2}}}{bc}+\\frac{{{b}^{2}}}{ca}+\\frac{{{c}^{2}}}{ab}$$  $$=\\frac{{{a}^{3}}+{{b}^{3}}+{{c}^{3}}}{abc}$$  $$=\\frac{{{a}^{3}}+{{b}^{3}}-{{(a+b)}^{3}}}{abc}$$  $$=\\frac{-3ab(a+b)}{abc}$$  $$=3$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -996,9 +996,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "关于$$x$$的方程$$\\left\\textbar{} \\frac{{{x}^{2}}},{x-1} \\right\\textbar=a$$仅有两个不同的实根．则实数$$a$$的取值范围是．\nA. $$a\\textgreater0$$\nB. $$a\\geqslant 4$$\nC. $$2\\textless{}a\\textless{}4$$\nD. $$0\\textless{}a\\textless{}4$$",
+    "question_text": "关于$$x$$的方程$$\\left\\textbar{} \\frac{{{x}^{2}}}{x-1} \\right\\textbar=a$$仅有两个不同的实根．则实数$$a$$的取值范围是．\nA. $$a\\textgreater0$$\nB. $$a\\geqslant 4$$\nC. $$2\\textless{}a\\textless{}4$$\nD. $$0\\textless{}a\\textless{}4$$",
     "answer": "D. $$0\\textless{}a\\textless{}4$$",
-    "solution": "当$$a\\textless{}0$$时，无解；  当$$a=0$$时，$$x=0$$只有一解，不合题意；  当$$a\\textgreater0$$时，原方程化为$$\\frac{{{x}^{2}}},{x-1}=\\pm a$$，整理得  $${{x}^{2}}-ax+a=0$$ ①  或$${{x}^{2}}+ax-a=0$$．②  因为方程②的判别式大于$$0$$，所以方程②有两个不同实根；  又因为原方程仅有两个不同的实根，故必有方程①的判别式小于$$0$$，从而$$0\\textless{}a\\textless{}4$$．",
+    "solution": "当$$a\\textless{}0$$时，无解；  当$$a=0$$时，$$x=0$$只有一解，不合题意；  当$$a\\textgreater0$$时，原方程化为$$\\frac{{{x}^{2}}}{x-1}=\\pm a$$，整理得  $${{x}^{2}}-ax+a=0$$ ①  或$${{x}^{2}}+ax-a=0$$．②  因为方程②的判别式大于$$0$$，所以方程②有两个不同实根；  又因为原方程仅有两个不同的实根，故必有方程①的判别式小于$$0$$，从而$$0\\textless{}a\\textless{}4$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1021,9 +1021,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$\\frac{a},{3}=\\frac{b},{4}=\\frac{c},{5}\\ne 0$$，则$$\\frac{c-a},{b}$$的值为（ ~ ~）．\nA. $$2$$\nB. $$\\frac{1},{2}$$\nC. $$3$$\nD. $$\\frac{1},{3}$$",
-    "answer": "B. $$\\frac{1},{2}$$",
-    "solution": "设$$k=\\frac{a},{3}=\\frac{b},{4}=\\frac{c},{5}\\ne 0$$，由此得到$$a=3k$$，$$b=4k$$，$$c=5k$$  ∴$$\\frac{c-a},{b}$$  $$=\\frac{5k-3k},{4k}$$  $$=\\frac{1},{2}$$，故$$\\text{B}$$正确．  故选：$$\\text{B}$$．",
+    "question_text": "已知$$\\frac{a}{3}=\\frac{b}{4}=\\frac{c}{5}\\ne 0$$，则$$\\frac{c-a}{b}$$的值为（ ~ ~）．\nA. $$2$$\nB. $$\\frac{1}{2}$$\nC. $$3$$\nD. $$\\frac{1}{3}$$",
+    "answer": "B. $$\\frac{1}{2}$$",
+    "solution": "设$$k=\\frac{a}{3}=\\frac{b}{4}=\\frac{c}{5}\\ne 0$$，由此得到$$a=3k$$，$$b=4k$$，$$c=5k$$  ∴$$\\frac{c-a}{b}$$  $$=\\frac{5k-3k}{4k}$$  $$=\\frac{1}{2}$$，故$$\\text{B}$$正确．  故选：$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1043,9 +1043,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "如果关于$$x$$的方程$${{x}^{2}}+kx+\\frac{3},{4},{{k}^{2}}-3k+\\frac{9},{2}=0$$的两个实数根分别为$${{x}_{1}}$$，$${{x}_{2}}$$，那么$$\\frac{{{x}_{1}}^{2011}},{{{x}_{2}}^{2012}}$$的值为~\\uline{~~~~~~~~~~}~．\nA. $-\\frac{1},{3}$\nB. $-\\frac{2},{3}$\nC. $-\\frac{4},{3}$\nD. $-\\frac{5},{3}$",
-    "answer": "B. $-\\frac{2},{3}$",
-    "solution": "根据题意可得  ∵方程有实数根，  ∴$$\\Delta ={{b}^{2}}-4ac\\geqslant 0$$，  即$${{k}^{2}}-4\\left( \\frac{3},{4},{{k}^{2}}-3k+\\frac{9},{2} \\right)\\geqslant 0$$，  ∴$$-2{{(k-3)}^{2}}\\geqslant 0$$，  ∵$${{(k-3)}^{2}}\\leqslant 0$$，  ∴$$k-3=0$$，  即$$k=3$$，  ∴原方程为：$${{x}^{2}}+3x+\\frac{9},{4}=0$$，  ∴$${{x}_{1}}={{x}_{2}}=-\\frac{3},{2}$$，  ∴$$\\frac{x_{1}^{2011}},{x_{2}^{2012}}={{\\left( \\frac{{{x}_{1}}},{{{x}_{2}}} \\right)}^{2011}}\\cdot \\frac{1},{{{x}_{2}}}=\\frac{1},{{{x}_{2}}}=-\\frac{2},{3}$$．",
+    "question_text": "如果关于$$x$$的方程$${{x}^{2}}+kx+\\frac{3}{4},{{k}^{2}}-3k+\\frac{9}{2}=0$$的两个实数根分别为$${{x}_{1}}$$，$${{x}_{2}}$$，那么$$\\frac{{{x}_{1}}^{2011}}{{{x}_{2}}^{2012}}$$的值为~\\uline{~~~~~~~~~~}~．\nA. $-\\frac{1}{3}$\nB. $-\\frac{2}{3}$\nC. $-\\frac{4}{3}$\nD. $-\\frac{5}{3}$",
+    "answer": "B. $-\\frac{2}{3}$",
+    "solution": "根据题意可得  ∵方程有实数根，  ∴$$\\Delta ={{b}^{2}}-4ac\\geqslant 0$$，  即$${{k}^{2}}-4\\left( \\frac{3}{4},{{k}^{2}}-3k+\\frac{9}{2} \\right)\\geqslant 0$$，  ∴$$-2{{(k-3)}^{2}}\\geqslant 0$$，  ∵$${{(k-3)}^{2}}\\leqslant 0$$，  ∴$$k-3=0$$，  即$$k=3$$，  ∴原方程为：$${{x}^{2}}+3x+\\frac{9}{4}=0$$，  ∴$${{x}_{1}}={{x}_{2}}=-\\frac{3}{2}$$，  ∴$$\\frac{x_{1}^{2011}}{x_{2}^{2012}}={{\\left( \\frac{{{x}_{1}}}{{{x}_{2}}} \\right)}^{2011}}\\cdot \\frac{1}{{{x}_{2}}}=\\frac{1}{{{x}_{2}}}=-\\frac{2}{3}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1115,9 +1115,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$4{{x}^{4}}+3{{x}^{3}}-2{{x}^{2}}+3x+4=0$$，则$$x+\\frac{1},{x}$$的值为．\nA. $$\\frac{5},{4}$$\nB. $$-2$$或$$\\frac{5},{4}$$\nC. $$-2$$\nD. $$\\frac{3},{4}$$",
-    "answer": "B. $$-2$$或$$\\frac{5},{4}$$",
-    "solution": "∵$$4{{x}^{4}}+3{{x}^{3}}-2{{x}^{2}}+3x+4={{(1+x)}^{2}}(4{{x}^{2}}-5x+4)=0$$，  ∴$$1+x=0$$或$$4{{x}^{2}}-5x+4=0$$，  当$$1+x=0$$，则$$x=-1$$，∴$$x+\\frac{1},{x}=-2$$．  当$$4{{x}^{2}}-5x+4=0$$，两边同时除以$$x$$，得$$4x-5+\\frac {4},{x}=0$$，  ∴$$4\\left (x+\\frac {1},{x}\\right )=5$$，  ∴$$x+\\frac {1},{x}=\\frac {5},{4}$$.\n<p>原方程化为$$4\\left( {{x}^{2}}+\\frac{1},{{{x}^{2}}} \\right)+3\\left( x+\\frac{1},{x} \\right)-2=0$$．</p>\n<p>故选$$\\text{B}$$．</p>",
+    "question_text": "已知$$4{{x}^{4}}+3{{x}^{3}}-2{{x}^{2}}+3x+4=0$$，则$$x+\\frac{1}{x}$$的值为．\nA. $$\\frac{5}{4}$$\nB. $$-2$$或$$\\frac{5}{4}$$\nC. $$-2$$\nD. $$\\frac{3}{4}$$",
+    "answer": "B. $$-2$$或$$\\frac{5}{4}$$",
+    "solution": "∵$$4{{x}^{4}}+3{{x}^{3}}-2{{x}^{2}}+3x+4={{(1+x)}^{2}}(4{{x}^{2}}-5x+4)=0$$，  ∴$$1+x=0$$或$$4{{x}^{2}}-5x+4=0$$，  当$$1+x=0$$，则$$x=-1$$，∴$$x+\\frac{1}{x}=-2$$．  当$$4{{x}^{2}}-5x+4=0$$，两边同时除以$$x$$，得$$4x-5+\\frac {4}{x}=0$$，  ∴$$4\\left (x+\\frac {1}{x}\\right )=5$$，  ∴$$x+\\frac {1}{x}=\\frac {5}{4}$$.\n<p>原方程化为$$4\\left( {{x}^{2}}+\\frac{1}{{{x}^{2}}} \\right)+3\\left( x+\\frac{1}{x} \\right)-2=0$$．</p>\n<p>故选$$\\text{B}$$．</p>",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1138,9 +1138,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$\\triangle ABC$$的三边的长分别为$$a$$、$$b$$、$$c$$，且$$\\frac{a},{b}+\\frac{a},{c}=\\frac{b+c},{b+c-a}$$，则$$\\triangle ABC$$一定是（ ~）．\nA. 等边三角形\nB. 腰长为$$a$$的等腰三角形\nC. 底边长为$$a$$的等腰三角形\nD. 等腰直角三角形",
+    "question_text": "已知$$\\triangle ABC$$的三边的长分别为$$a$$、$$b$$、$$c$$，且$$\\frac{a}{b}+\\frac{a}{c}=\\frac{b+c}{b+c-a}$$，则$$\\triangle ABC$$一定是（ ~）．\nA. 等边三角形\nB. 腰长为$$a$$的等腰三角形\nC. 底边长为$$a$$的等腰三角形\nD. 等腰直角三角形",
     "answer": "B. 腰长为$$a$$的等腰三角形",
-    "solution": "∵$$\\frac{a},{b}+\\frac{a},{c}=\\frac{b+c},{b+c-a}$$．  ∴$$a\\left( \\frac{1},{b}+\\frac{1},{c} \\right)=\\frac{b+c},{b+c-a}$$．  $$\\frac{a(b+c)},{bc}=\\frac{b+c},{b+c-a}$$．  ∵$$b+c\\textgreater0$$．  ∴$$\\frac{a},{bc}=\\frac{1},{b+c-a}$$．  ∴$$ab+ac-{{a}^{2}}-bc=0$$．  ∴$$(b-a)(c-a)=0$$．  ∴$$a=b$$或$$c=a$$．  ∴$$\\triangle ABC$$为以$$a$$为腰长的等腰三角形．",
+    "solution": "∵$$\\frac{a}{b}+\\frac{a}{c}=\\frac{b+c}{b+c-a}$$．  ∴$$a\\left( \\frac{1}{b}+\\frac{1}{c} \\right)=\\frac{b+c}{b+c-a}$$．  $$\\frac{a(b+c)}{bc}=\\frac{b+c}{b+c-a}$$．  ∵$$b+c\\textgreater0$$．  ∴$$\\frac{a}{bc}=\\frac{1}{b+c-a}$$．  ∴$$ab+ac-{{a}^{2}}-bc=0$$．  ∴$$(b-a)(c-a)=0$$．  ∴$$a=b$$或$$c=a$$．  ∴$$\\triangle ABC$$为以$$a$$为腰长的等腰三角形．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1159,9 +1159,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$${{b}^{2}}-4ac$$是一元二次方程$$a{{x}^{2}}+bx+c=0\\left( a\\ne 0 \\right)$$的一个实数根，则$$ab$$的取值范围为．\nA. $$ab\\geqslant \\frac{1},{8}$$\nB. $$ab\\leqslant \\frac{1},{8}$$\nC. $$ab\\geqslant \\frac{1},{4}$$\nD. $$ab\\leqslant \\frac{1},{4}$$",
-    "answer": "B. $$ab\\leqslant \\frac{1},{8}$$",
-    "solution": "\\textbf{（知识点：判别式的应用）}  方法一：由求根公式得到方程的根为$$x=\\frac{-b\\pm \\sqrt{{{b}^{2}}-4ac}},{2a}$$，设$$\\sqrt{{{b}^{2}}-4ac}=y$$，又因为$${{y}^{2}}={{b}^{2}}-4ac$$是原方程的根，所以$${{y}^{2}}=\\frac{-b+y},{2a}$$或者$${{y}^{2}}=\\frac{-b-y},{2a}$$，因为$$a\\ne 0$$，这两个方程可化成关于$$y$$的一元二次方程$$2a{{y}^{2}}\\pm y+b=0$$，考虑这个方程的判别式得到$$1-8ab\\geqslant 0$$，所以$$ab{\\leqslant } \\frac{1},{8}$$，选择$$\\text{B}$$．  方法二：因为方程有实数解，所以$${{b}^{2}}-4ac{\\geqslant }0$$，由题意，  有$$\\frac{-b+\\sqrt{{{b}^{2}}-4ac}},{2a}={{b}^{2}}-4ac$$或$$\\frac{-b-\\sqrt{{{b}^{2}}-4ac}},{2a}={{b}^{2}}-4ac$$．  令$$u=\\sqrt{{{b}^{2}}-4ac}$$，得方程$$2a{{u}^{2}}-u+b=0$$或$$2a{{u}^{2}}+u+b=0$$，  因为$$u=\\sqrt{{{b}^{2}}-4ac}$$是该方程的解，所以方程的判别式非负，即$$1-8ab{\\geqslant }0$$，所以$$ab{\\leqslant }\\frac{1},{8}$$．所以选$$\\text{B}$$．",
+    "question_text": "已知$${{b}^{2}}-4ac$$是一元二次方程$$a{{x}^{2}}+bx+c=0\\left( a\\ne 0 \\right)$$的一个实数根，则$$ab$$的取值范围为．\nA. $$ab\\geqslant \\frac{1}{8}$$\nB. $$ab\\leqslant \\frac{1}{8}$$\nC. $$ab\\geqslant \\frac{1}{4}$$\nD. $$ab\\leqslant \\frac{1}{4}$$",
+    "answer": "B. $$ab\\leqslant \\frac{1}{8}$$",
+    "solution": "\\textbf{（知识点：判别式的应用）}  方法一：由求根公式得到方程的根为$$x=\\frac{-b\\pm \\sqrt{{{b}^{2}}-4ac}}{2a}$$，设$$\\sqrt{{{b}^{2}}-4ac}=y$$，又因为$${{y}^{2}}={{b}^{2}}-4ac$$是原方程的根，所以$${{y}^{2}}=\\frac{-b+y}{2a}$$或者$${{y}^{2}}=\\frac{-b-y}{2a}$$，因为$$a\\ne 0$$，这两个方程可化成关于$$y$$的一元二次方程$$2a{{y}^{2}}\\pm y+b=0$$，考虑这个方程的判别式得到$$1-8ab\\geqslant 0$$，所以$$ab{\\leqslant } \\frac{1}{8}$$，选择$$\\text{B}$$．  方法二：因为方程有实数解，所以$${{b}^{2}}-4ac{\\geqslant }0$$，由题意，  有$$\\frac{-b+\\sqrt{{{b}^{2}}-4ac}}{2a}={{b}^{2}}-4ac$$或$$\\frac{-b-\\sqrt{{{b}^{2}}-4ac}}{2a}={{b}^{2}}-4ac$$．  令$$u=\\sqrt{{{b}^{2}}-4ac}$$，得方程$$2a{{u}^{2}}-u+b=0$$或$$2a{{u}^{2}}+u+b=0$$，  因为$$u=\\sqrt{{{b}^{2}}-4ac}$$是该方程的解，所以方程的判别式非负，即$$1-8ab{\\geqslant }0$$，所以$$ab{\\leqslant }\\frac{1}{8}$$．所以选$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1188,9 +1188,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "掷$$2$$次骰子，第一次掷出的点数（骰子落地后，朝上一面的点数）记为$$a$$，第二次掷出的点数记为$$b$$，则点$$(a  ,  b)$$在直线$$y=2x$$上的概率为（~ ）．\nA. $$\\frac{1},{6}$$\nB. $$\\frac{1},{12}$$\nC. $$\\frac{1},{9}$$\nD. $$\\frac{2},{9}$$",
-    "answer": "B. $$\\frac{1},{12}$$",
-    "solution": "总共有$$36$$种可能，其中$$a=1$$，$$b=2$$或$$a=2$$，$$b=4$$或$$a=3$$，$$b=6$$这三种结果能使点$$(a  ,  b)$$在直线$$y=2x$$上，  ∴点$$(a  ,  b)$$在直线$$y=2x$$上的概率为$$\\frac{3},{36}=\\frac{1},{12}$$．",
+    "question_text": "掷$$2$$次骰子，第一次掷出的点数（骰子落地后，朝上一面的点数）记为$$a$$，第二次掷出的点数记为$$b$$，则点$$(a  ,  b)$$在直线$$y=2x$$上的概率为（~ ）．\nA. $$\\frac{1}{6}$$\nB. $$\\frac{1}{12}$$\nC. $$\\frac{1}{9}$$\nD. $$\\frac{2}{9}$$",
+    "answer": "B. $$\\frac{1}{12}$$",
+    "solution": "总共有$$36$$种可能，其中$$a=1$$，$$b=2$$或$$a=2$$，$$b=4$$或$$a=3$$，$$b=6$$这三种结果能使点$$(a  ,  b)$$在直线$$y=2x$$上，  ∴点$$(a  ,  b)$$在直线$$y=2x$$上的概率为$$\\frac{3}{36}=\\frac{1}{12}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1233,7 +1233,7 @@
   {
     "question_text": "若$${{x}_{0}}$$是一元二次方程$$a{{x}^{2}}+bx+c=0(a\\ne 0)$$的根，则判别式$$\\Delta ={{b}^{2}}-4ac$$与平方式$$M={{(2a{{x}_{0}}+b)}^{2}}$$的大小关系是．\nA. $$\\Delta \\textgreater M$$\nB. $$\\Delta =M$$\nC. $$\\Delta \\textless{}M$$\nD. 不能确定",
     "answer": "B. $$\\Delta =M$$",
-    "solution": "把$${{x}_{0}}$$代入方程$$a{{x}^{2}}+bx+c=0$$中得$$ax_{0}^{2}+b{{x}_{0}}=-c$$，  ∵$${{(2a{{x}_{0}}+b)}^{2}}=4{{a}^{2}}x_{0}^{2}+4ab{{x}_{0}}+{{b}^{2}}$$，  ∴$${{(2a{{x}_{0}}+b)}^{2}}=4a(a{{x}_{0}}^{2}+b{{x}_{0}})+{{b}^{2}}=-4ac+{{b}^{2}}=\\Delta $$，  ∴$$M=\\Delta $$．  故选$$\\text{B}$$．\n<p>∵$$x_0$$是一元二次方程$$a{{x}^{2}}+bx+c=0(a\\ne 0)$$的根，</p>\n<p>&there4;$${{x}_{0}}=\\frac{-b\\pm \\sqrt{{{b}^{2}}-4ac}},{2a}$$，</p>\n<p>&there4;$${{b}^{2}}-4ac={{(2a{{x}_{0}}+b)}^{2}}$$，</p>\n<p>&there4;$$\\Delta =M$$．</p>\n<p>故选$$\\text{B}$$．</p>",
+    "solution": "把$${{x}_{0}}$$代入方程$$a{{x}^{2}}+bx+c=0$$中得$$ax_{0}^{2}+b{{x}_{0}}=-c$$，  ∵$${{(2a{{x}_{0}}+b)}^{2}}=4{{a}^{2}}x_{0}^{2}+4ab{{x}_{0}}+{{b}^{2}}$$，  ∴$${{(2a{{x}_{0}}+b)}^{2}}=4a(a{{x}_{0}}^{2}+b{{x}_{0}})+{{b}^{2}}=-4ac+{{b}^{2}}=\\Delta $$，  ∴$$M=\\Delta $$．  故选$$\\text{B}$$．\n<p>∵$$x_0$$是一元二次方程$$a{{x}^{2}}+bx+c=0(a\\ne 0)$$的根，</p>\n<p>&there4;$${{x}_{0}}=\\frac{-b\\pm \\sqrt{{{b}^{2}}-4ac}}{2a}$$，</p>\n<p>&there4;$${{b}^{2}}-4ac={{(2a{{x}_{0}}+b)}^{2}}$$，</p>\n<p>&there4;$$\\Delta =M$$．</p>\n<p>故选$$\\text{B}$$．</p>",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1252,9 +1252,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "定义一种运算：$${\\text{C}_{m}}^{n}=\\frac{m\\times \\left( m-1 \\right)\\times \\left( m-2 \\right)\\times \\cdots~ \\times \\left( m-n+1 \\right)},{n\\times \\left( n-1 \\right)\\times \\left( n-2 \\right)\\times \\cdots~ \\times 1}$$，则$${\\text{C}_{5}}^{3}=$$．\nA. $$10$$\nB. $$\\frac{5},{6}$$\nC. $$\\frac{10},{3}$$\nD. $$20$$",
+    "question_text": "定义一种运算：$${\\text{C}_{m}}^{n}=\\frac{m\\times \\left( m-1 \\right)\\times \\left( m-2 \\right)\\times \\cdots~ \\times \\left( m-n+1 \\right)}{n\\times \\left( n-1 \\right)\\times \\left( n-2 \\right)\\times \\cdots~ \\times 1}$$，则$${\\text{C}_{5}}^{3}=$$．\nA. $$10$$\nB. $$\\frac{5}{6}$$\nC. $$\\frac{10}{3}$$\nD. $$20$$",
     "answer": "A. $$10$$",
-    "solution": "∵$$\\text{C}_{m}^{n}=\\frac{m\\times \\left( m-1 \\right)\\times \\left( m-2 \\right)\\times \\cdots~ \\times \\left( m-n+1 \\right)},{n\\times \\left( n-1 \\right)\\times \\left( n-2 \\right)\\times \\cdots \\times 1}$$，  ∴$$\\text{C}_{5}^{3}=\\frac{5\\times 4\\times \\left( 5-3+1 \\right)},{3\\times 2\\times 1}=\\frac{5\\times 4\\times 3},{6}=10$$．  故选$$\\text{A}$$．",
+    "solution": "∵$$\\text{C}_{m}^{n}=\\frac{m\\times \\left( m-1 \\right)\\times \\left( m-2 \\right)\\times \\cdots~ \\times \\left( m-n+1 \\right)}{n\\times \\left( n-1 \\right)\\times \\left( n-2 \\right)\\times \\cdots \\times 1}$$，  ∴$$\\text{C}_{5}^{3}=\\frac{5\\times 4\\times \\left( 5-3+1 \\right)}{3\\times 2\\times 1}=\\frac{5\\times 4\\times 3}{6}=10$$．  故选$$\\text{A}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1294,9 +1294,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "~关于$$x$$的方程$$\\left\\textbar{} \\frac{{{x}^{2}}},{x-1} \\right\\textbar=a$$仅有两个不同的实根．则实数$$a$$的取值范围是（ ~ ~）．\nA. $$a\\textgreater0$$\nB. $$a\\geqslant 4$$\nC. $$2\\textless{}a\\textless{}4$$\nD. $$0\\textless{}a\\textless{}4$$",
+    "question_text": "~关于$$x$$的方程$$\\left\\textbar{} \\frac{{{x}^{2}}}{x-1} \\right\\textbar=a$$仅有两个不同的实根．则实数$$a$$的取值范围是（ ~ ~）．\nA. $$a\\textgreater0$$\nB. $$a\\geqslant 4$$\nC. $$2\\textless{}a\\textless{}4$$\nD. $$0\\textless{}a\\textless{}4$$",
     "answer": "D. $$0\\textless{}a\\textless{}4$$",
-    "solution": "当$$a\\textless{}0$$时，无解；  当$$a=0$$时，$$x=0$$只有一解，不合题意；  当$$a\\textgreater0$$时，原方程化为$$\\frac{{{x}^{2}}},{x-1}=\\pm a$$，整理得  $${{x}^{2}}-ax+a=0$$ ①  或$${{x}^{2}}+ax-a=0$$．②  因为方程②的判别式大于$$0$$，所以方程②有两个不同实根；  又因为原方程仅有两个不同的实根，故必有方程①的判别式小于0，从而$$0\\textless{}a\\textless{}4$$．",
+    "solution": "当$$a\\textless{}0$$时，无解；  当$$a=0$$时，$$x=0$$只有一解，不合题意；  当$$a\\textgreater0$$时，原方程化为$$\\frac{{{x}^{2}}}{x-1}=\\pm a$$，整理得  $${{x}^{2}}-ax+a=0$$ ①  或$${{x}^{2}}+ax-a=0$$．②  因为方程②的判别式大于$$0$$，所以方程②有两个不同实根；  又因为原方程仅有两个不同的实根，故必有方程①的判别式小于0，从而$$0\\textless{}a\\textless{}4$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1319,9 +1319,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "有下列三个命题：  （甲）若$$\\alpha $$、$$\\beta $$是不相等的无理数，则$$\\alpha \\beta +\\alpha -\\beta $$是无理数；  （乙）若$$\\alpha $$、$$\\beta $$是不相等的无理数，则$$\\frac{\\alpha -\\beta },{\\alpha +\\beta }$$是无理数；  （丙）若$$\\alpha $$、$$\\beta $$是不相等的无理数，则$$\\sqrt{\\alpha }+\\sqrt[3]{\\beta }$$是无理数．  其中正确命题的个数是（~ ~ ）\nA. $$0$$\nB. $$1$$\nC. $$2$$\nD. $$3$$",
+    "question_text": "有下列三个命题：  （甲）若$$\\alpha $$、$$\\beta $$是不相等的无理数，则$$\\alpha \\beta +\\alpha -\\beta $$是无理数；  （乙）若$$\\alpha $$、$$\\beta $$是不相等的无理数，则$$\\frac{\\alpha -\\beta }{\\alpha +\\beta }$$是无理数；  （丙）若$$\\alpha $$、$$\\beta $$是不相等的无理数，则$$\\sqrt{\\alpha }+\\sqrt[3]{\\beta }$$是无理数．  其中正确命题的个数是（~ ~ ）\nA. $$0$$\nB. $$1$$\nC. $$2$$\nD. $$3$$",
     "answer": "A. $$0$$",
-    "solution": "因为$$\\alpha \\beta +\\alpha -\\beta =\\alpha \\beta +\\alpha -\\beta -1+1=\\left( \\alpha -1 \\right)\\left( \\beta +1 \\right)+1$$，  只要令$$\\alpha =1+\\sqrt{2}$$，$$\\beta =-1+\\sqrt{2}$$，则$$\\alpha \\beta +\\alpha -\\beta =3$$为有理数，故（甲）不对；  又若令$$\\alpha =2\\sqrt{2}$$，$$\\beta =\\sqrt{2}$$，则$$\\frac{\\alpha -\\beta },{\\alpha +\\beta }=\\frac{1},{3}$$为有理数，故（乙）不对；  又若令$$\\alpha =\\sqrt[3]{2}$$，$$\\beta =-\\sqrt{2}$$，则$$\\sqrt{\\alpha }+\\sqrt[3]{\\beta }=0$$为有理数，故（丙）不对．  因此正确命题个数是$$0$$．  故选$$\\text{A}$$．",
+    "solution": "因为$$\\alpha \\beta +\\alpha -\\beta =\\alpha \\beta +\\alpha -\\beta -1+1=\\left( \\alpha -1 \\right)\\left( \\beta +1 \\right)+1$$，  只要令$$\\alpha =1+\\sqrt{2}$$，$$\\beta =-1+\\sqrt{2}$$，则$$\\alpha \\beta +\\alpha -\\beta =3$$为有理数，故（甲）不对；  又若令$$\\alpha =2\\sqrt{2}$$，$$\\beta =\\sqrt{2}$$，则$$\\frac{\\alpha -\\beta }{\\alpha +\\beta }=\\frac{1}{3}$$为有理数，故（乙）不对；  又若令$$\\alpha =\\sqrt[3]{2}$$，$$\\beta =-\\sqrt{2}$$，则$$\\sqrt{\\alpha }+\\sqrt[3]{\\beta }=0$$为有理数，故（丙）不对．  因此正确命题个数是$$0$$．  故选$$\\text{A}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1340,9 +1340,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "如果关于$$x$$的分式方程$$\\dfrac{a},{x+1}-3=\\dfrac{1-x},{x+1}$$有负分数解，且关于$$x$$的不等式组$$\\left { \\begin{matrix}2(a-x)\\geqslant -x-4    \\dfrac{3x+4},{2}\\textless{}x+1   \\end{matrix} \\right.$$的解集为$$x\\textless{}-2$$，那么符合条件的所有整数$$a$$的积是．\nA. $$-3$$\nB. $$0$$\nC. $$3$$\nD. $$9$$",
+    "question_text": "如果关于$$x$$的分式方程$$\\dfrac{a}{x+1}-3=\\dfrac{1-x}{x+1}$$有负分数解，且关于$$x$$的不等式组$$\\left { \\begin{matrix}2(a-x)\\geqslant -x-4    \\dfrac{3x+4}{2}\\textless{}x+1   \\end{matrix} \\right.$$的解集为$$x\\textless{}-2$$，那么符合条件的所有整数$$a$$的积是．\nA. $$-3$$\nB. $$0$$\nC. $$3$$\nD. $$9$$",
     "answer": "D. $$9$$",
-    "solution": "$$\\left { \\begin{matrix}2(a-x)\\geqslant -x-4\\&①    \\dfrac{3x+4},{2}\\textless{}x+1\\&②   \\end{matrix} \\right.$$，  由①得：$$x\\leqslant 2a+4$$，  由②得：$$x\\textless{}-2$$，  由不等式组的解集为$$x\\textless{}-2$$，得到$$2a+4\\geqslant -2$$，即$$a\\geqslant -3$$，  分式方程去分母得：$$a-3x-3=1-x$$，  把$$a=-3$$代入整式方程得：$$-3x-6=1-x$$，即$$x=-\\dfrac{7},{2}$$，符合题意；  把$$a=-2$$代入整式方程得：$$-3x-5=1-x$$，即$$x=-3$$，不合题意；  把$$a=-1$$代入整式方程得：$$-3x-4=1-x$$，即$$x=-\\dfrac{5},{2}$$，符合题意；  把$$a=0$$代入整式方程得：$$-3x-3=1-x$$，即$$x=-2$$，不合题意；  把$$a=1$$代入整式方程得：$$-3x-2=1-x$$，即$$x=-\\dfrac{3},{2}$$，符合题意；  把$$a=2$$代入整式方程得：$$-3x-1=1-x$$，即$$x=1$$，不合题意；  把$$a=3$$代入整式方程得：$$-3x=1-x$$，即$$x=-\\dfrac{1},{2}$$，符合题意；  把$$a=4$$代入整式方程得：$$-3x+1=1-x$$，即$$x=0$$，不合题意，  ∴符合条件的整数$$a$$取值为$$-3$$；$$-1$$；$$1$$；$$3$$，之积为$$9$$．",
+    "solution": "$$\\left { \\begin{matrix}2(a-x)\\geqslant -x-4\\&①    \\dfrac{3x+4}{2}\\textless{}x+1\\&②   \\end{matrix} \\right.$$，  由①得：$$x\\leqslant 2a+4$$，  由②得：$$x\\textless{}-2$$，  由不等式组的解集为$$x\\textless{}-2$$，得到$$2a+4\\geqslant -2$$，即$$a\\geqslant -3$$，  分式方程去分母得：$$a-3x-3=1-x$$，  把$$a=-3$$代入整式方程得：$$-3x-6=1-x$$，即$$x=-\\dfrac{7}{2}$$，符合题意；  把$$a=-2$$代入整式方程得：$$-3x-5=1-x$$，即$$x=-3$$，不合题意；  把$$a=-1$$代入整式方程得：$$-3x-4=1-x$$，即$$x=-\\dfrac{5}{2}$$，符合题意；  把$$a=0$$代入整式方程得：$$-3x-3=1-x$$，即$$x=-2$$，不合题意；  把$$a=1$$代入整式方程得：$$-3x-2=1-x$$，即$$x=-\\dfrac{3}{2}$$，符合题意；  把$$a=2$$代入整式方程得：$$-3x-1=1-x$$，即$$x=1$$，不合题意；  把$$a=3$$代入整式方程得：$$-3x=1-x$$，即$$x=-\\dfrac{1}{2}$$，符合题意；  把$$a=4$$代入整式方程得：$$-3x+1=1-x$$，即$$x=0$$，不合题意，  ∴符合条件的整数$$a$$取值为$$-3$$；$$-1$$；$$1$$；$$3$$，之积为$$9$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1389,9 +1389,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "若$$\\frac{a},{b}=20$$，$$\\frac{b},{c}=10$$，则$$\\frac{a+b},{b+c}$$的值为．\nA. $$\\frac{11},{21}$$\nB. $$\\frac{21},{11}$$\nC. $$\\frac{110},{21}$$\nD. $$\\frac{210},{11}$$",
-    "answer": "D. $$\\frac{210},{11}$$",
-    "solution": "由$$\\begin{cases}\\dfrac{a},{b}=20    \\dfrac{b},{c}=10 \\end{cases}$$，得$$\\begin{cases}a=20b    b=10c \\end{cases}$$，  则$$\\frac{a+b},{b+c}=\\frac{20b+b},{10c+c}=\\frac{21b},{11c}=\\frac{21\\cdot 10c},{11c}=\\frac{210},{11}$$．\n<p>$$\\frac{a+b},{b+c}=\\frac{\\dfrac{a},{b}+1},{1+\\dfrac{c},{b}}=\\frac{20+1},{1+\\dfrac{1},{10}}=\\frac{210},{11}$$．</p>\n<p>故选$$\\text{D}$$．</p>",
+    "question_text": "若$$\\frac{a}{b}=20$$，$$\\frac{b}{c}=10$$，则$$\\frac{a+b}{b+c}$$的值为．\nA. $$\\frac{11}{21}$$\nB. $$\\frac{21}{11}$$\nC. $$\\frac{110}{21}$$\nD. $$\\frac{210}{11}$$",
+    "answer": "D. $$\\frac{210}{11}$$",
+    "solution": "由$$\\begin{cases}\\dfrac{a}{b}=20    \\dfrac{b}{c}=10 \\end{cases}$$，得$$\\begin{cases}a=20b    b=10c \\end{cases}$$，  则$$\\frac{a+b}{b+c}=\\frac{20b+b}{10c+c}=\\frac{21b}{11c}=\\frac{21\\cdot 10c}{11c}=\\frac{210}{11}$$．\n<p>$$\\frac{a+b}{b+c}=\\frac{\\dfrac{a},{b}+1}{1+\\dfrac{c}{b}}=\\frac{20+1}{1+\\dfrac{1}{10}}=\\frac{210}{11}$$．</p>\n<p>故选$$\\text{D}$$．</p>",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1436,7 +1436,7 @@
   {
     "question_text": "某校初三两个毕业班的学生和教师共$$100$$人一起在台阶上拍毕业照留念，摄影师要将其排列成前多后少的梯形队阵（排数$$≥3$$），且要求各行的人数必须是连续的自然数，这样才能使后一排的人均站在前一排两人间的空挡处，那么，满足上述要求的排法的方案种数为．\nA. $$1$$\nB. $$2$$\nC. $$4$$\nD. $$0$$",
     "answer": "B. $$2$$",
-    "solution": "设最后一排有$$k$$个人，共有$$n$$排，那么从后往前各排的人数分别为$$k$$，$$k+1$$，$$k+2$$，\\ldots，$$k+\\left( n-1 \\right)$$，由题意可知：  $$kn+\\frac{n\\left( n-1 \\right)},{2}=100$$，  即$$n\\left[ 2k+\\left( n-1 \\right) \\right]=200$$．因为$$k$$，$$n$$都是正整数，且$$n\\geqslant 3$$，所以$$n\\leqslant 2k+\\left( n-1 \\right)$$，且$$n$$与$$2k+\\left( n-1 \\right)$$的奇偶性不同．将$$200$$分解质因数，可知$$n=5$$或$$8$$．当$$n=5$$时，$$k=18$$；当$$n=8$$时，$$k=9$$．共有两种不同方案．  故选$$\\text{B}$$．",
+    "solution": "设最后一排有$$k$$个人，共有$$n$$排，那么从后往前各排的人数分别为$$k$$，$$k+1$$，$$k+2$$，\\ldots，$$k+\\left( n-1 \\right)$$，由题意可知：  $$kn+\\frac{n\\left( n-1 \\right)}{2}=100$$，  即$$n\\left[ 2k+\\left( n-1 \\right) \\right]=200$$．因为$$k$$，$$n$$都是正整数，且$$n\\geqslant 3$$，所以$$n\\leqslant 2k+\\left( n-1 \\right)$$，且$$n$$与$$2k+\\left( n-1 \\right)$$的奇偶性不同．将$$200$$分解质因数，可知$$n=5$$或$$8$$．当$$n=5$$时，$$k=18$$；当$$n=8$$时，$$k=9$$．共有两种不同方案．  故选$$\\text{B}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1475,9 +1475,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "两个标准的骰子各被投掷一次，以骰子向上一面的数字和作为圆的直径．则圆的面积数值小于圆的周长数值的概率是（~ ）．\nA. $$\\frac{1},{36}$$\nB. $$\\frac{1},{12}$$\nC. $$\\frac{1},{6}$$\nD. $$\\frac{1},{4}$$",
-    "answer": "B. $$\\frac{1},{12}$$",
-    "solution": "圆的面积数值小于圆的周长数值，  即$$\\pi{{r}^{2}}\\textless{}2\\pi r$$，  即$$0\\textless{}r\\textless{}2$$．  ∴直径$$0\\textless{}d\\textless{}4$$．  骰子向上一面的数字和作为圆的直径，  ∴直径$$d\\textless{}4$$的情况有$$1$$，$$2$$或$$1$$，$$1$$或$$2$$，$$1$$三种，  故概率$$=\\frac{3},{36}=\\frac{1},{12}$$．",
+    "question_text": "两个标准的骰子各被投掷一次，以骰子向上一面的数字和作为圆的直径．则圆的面积数值小于圆的周长数值的概率是（~ ）．\nA. $$\\frac{1}{36}$$\nB. $$\\frac{1}{12}$$\nC. $$\\frac{1}{6}$$\nD. $$\\frac{1}{4}$$",
+    "answer": "B. $$\\frac{1}{12}$$",
+    "solution": "圆的面积数值小于圆的周长数值，  即$$\\pi{{r}^{2}}\\textless{}2\\pi r$$，  即$$0\\textless{}r\\textless{}2$$．  ∴直径$$0\\textless{}d\\textless{}4$$．  骰子向上一面的数字和作为圆的直径，  ∴直径$$d\\textless{}4$$的情况有$$1$$，$$2$$或$$1$$，$$1$$或$$2$$，$$1$$三种，  故概率$$=\\frac{3}{36}=\\frac{1}{12}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1495,9 +1495,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$A$$，$$B$$是两个锐角，且满足$${{\\sin }^{2}}A+{{\\cos }^{2}}B=\\frac{5},{4}t$$，$${{\\cos }^{2}}A+{{\\sin }^{2}}B=\\frac{3},{4},{{t}^{2}}$$，则实数$$t$$所有可能值的和为．\nA. $$-\\frac{8},{3}$$\nB. $$-\\frac{5},{3}$$\nC. $$1$$\nD. $$\\frac{11},{3}$$",
+    "question_text": "已知$$A$$，$$B$$是两个锐角，且满足$${{\\sin }^{2}}A+{{\\cos }^{2}}B=\\frac{5}{4}t$$，$${{\\cos }^{2}}A+{{\\sin }^{2}}B=\\frac{3}{4},{{t}^{2}}$$，则实数$$t$$所有可能值的和为．\nA. $$-\\frac{8}{3}$$\nB. $$-\\frac{5}{3}$$\nC. $$1$$\nD. $$\\frac{11}{3}$$",
     "answer": "C. $$1$$",
-    "solution": "根据已知得：$${{\\sin }^{2}}A+{{\\cos }^{2}}B+{{\\cos }^{2}}A+{{\\sin }^{2}}B=\\frac{3},{4},{{t}^{2}}+\\frac{5},{4}t$$，即$$2=\\frac{3},{4},{{t}^{2}}+\\frac{5},{4}t$$，  ∴$$3{{t}^{2}}+5t-8=0$$，解得$${{t}_{1}}=1$$，$${{t}_{2}}=-\\frac{8},{3}$$，又∵$${{\\sin }^{2}}A+{{\\cos }^{2}}B=\\frac{5},{4}t\\textgreater0$$，即$$t\\textgreater0$$，  ∴$$t=1$$，故$$t$$所有可能值的和为$$1$$．",
+    "solution": "根据已知得：$${{\\sin }^{2}}A+{{\\cos }^{2}}B+{{\\cos }^{2}}A+{{\\sin }^{2}}B=\\frac{3}{4},{{t}^{2}}+\\frac{5}{4}t$$，即$$2=\\frac{3}{4},{{t}^{2}}+\\frac{5}{4}t$$，  ∴$$3{{t}^{2}}+5t-8=0$$，解得$${{t}_{1}}=1$$，$${{t}_{2}}=-\\frac{8}{3}$$，又∵$${{\\sin }^{2}}A+{{\\cos }^{2}}B=\\frac{5}{4}t\\textgreater0$$，即$$t\\textgreater0$$，  ∴$$t=1$$，故$$t$$所有可能值的和为$$1$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1575,9 +1575,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "若$$a={{(2+\\sqrt{3})}^{-1}}$$，$$b={{(2-\\sqrt{3})}^{-1}}$$，$${{(a-2)}^{-3}}+{{(b-2)}^{-3}}$$则的值是（~ ）．\nA. $$-\\frac{2\\sqrt{3}},{9}$$\nB. $$0$$\nC. $$\\frac{2\\sqrt{3}},{9}$$\nD. $$\\pm \\frac{2\\sqrt{3}},{9}$$",
+    "question_text": "若$$a={{(2+\\sqrt{3})}^{-1}}$$，$$b={{(2-\\sqrt{3})}^{-1}}$$，$${{(a-2)}^{-3}}+{{(b-2)}^{-3}}$$则的值是（~ ）．\nA. $$-\\frac{2\\sqrt{3}}{9}$$\nB. $$0$$\nC. $$\\frac{2\\sqrt{3}}{9}$$\nD. $$\\pm \\frac{2\\sqrt{3}}{9}$$",
     "answer": "B. $$0$$",
-    "solution": "$$a={{(2+\\sqrt{3})}^{-1}}$$，$$b={{(2-\\sqrt{3})}^{-1}}$$，  ∴$$a=\\frac{1},{2+\\sqrt{3}}=2-\\sqrt{3}$$，$$b=\\frac{1},{2-\\sqrt{3}}=2+\\sqrt{3}$$，  ∴$${{(a-2)}^{-3}}+{{(b-2)}^{-3}}=\\frac{1},{{{(a-2)}^{3}}}+\\frac{1},{{{(b-2)}^{3}}}=\\frac{1},{{{(-\\sqrt{3})}^{3}}}+\\frac{1},{{{(\\sqrt{3})}^{3}}}=0$$．",
+    "solution": "$$a={{(2+\\sqrt{3})}^{-1}}$$，$$b={{(2-\\sqrt{3})}^{-1}}$$，  ∴$$a=\\frac{1}{2+\\sqrt{3}}=2-\\sqrt{3}$$，$$b=\\frac{1}{2-\\sqrt{3}}=2+\\sqrt{3}$$，  ∴$${{(a-2)}^{-3}}+{{(b-2)}^{-3}}=\\frac{1}{{{(a-2)}^{3}}}+\\frac{1}{{{(b-2)}^{3}}}=\\frac{1}{{{(-\\sqrt{3})}^{3}}}+\\frac{1}{{{(\\sqrt{3})}^{3}}}=0$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1618,7 +1618,7 @@
   {
     "question_text": "已知$$\\triangle ABC$$三边长分别为$$a$$，$$b$$，$$c$$，面积为$$s$$．$$\\triangle {{A}^{\\prime }},{{B}^{\\prime }},{{C}^{\\prime }}$$的三边长分别为$${{a}^{\\prime }}$$、$${{b}^{\\prime }}$$、$${{c}^{\\prime }}$$，面积为$${{s}^{\\prime }}$$，且$$a\\textgreater{{a}^{\\prime }}$$，$$b\\textgreater{{b}^{\\prime }}$$，$$c\\textgreater{{c}^{\\prime }}$$，则$$s$$与$${{s}^{\\prime }}$$的大小关系一定是（~ ）．\nA. $$s\\textgreater{{s}^{\\prime }}$$\nB. $$s\\textless{},{{s}^{\\prime }}$$\nC. $$s={{s}^{\\prime }}$$\nD. 不确定",
     "answer": "D. 不确定",
-    "solution": "分别构造$$\\triangle ABC$$与$$\\triangle {{A}^{\\prime }},{{B}^{\\prime }},{{C}^{\\prime }}$$如下：  ①作$$\\triangle ABC\\backsim \\triangle {{A}^{\\prime }},{{B}^{\\prime }},{{C}^{\\prime }}$$，显然$$\\frac{s},{{{s}^{\\prime }}}={{\\left( \\frac{a},{{{a}^{\\prime }}} \\right)}^{2}}\\textgreater1$$，  ∴$$s\\textgreater{{s}^{\\prime }}$$．  ②设$$a=b=\\sqrt{101}$$，$$c=20$$，则$${{h}_{c}}=1$$，$$s=10$$，  设$${{a}^{\\prime }}={{b}^{\\prime }}={{c}^{\\prime }}=10$$，则$${{s}^{\\prime }}=\\frac{\\sqrt{3}},{4}\\times 100\\textgreater10$$，  ∴$$s\\textless{},{{s}^{\\prime }}$$．  ③设$$a=b=\\sqrt{101}$$，$$c=20$$，则$${{h}_{c}}=1$$，$$s=10$$，  $${{a}^{\\prime }}={{b}^{\\prime }}=\\sqrt{29}$$，$${{c}^{\\prime }}=10$$，则$${{h}_{c}}=2$$，$${{s}^{\\prime }}=10$$，  ∴$$s={{s}^{\\prime }}$$，  ∴$$s$$与$${{s}^{\\prime }}$$的大小关系不确定．",
+    "solution": "分别构造$$\\triangle ABC$$与$$\\triangle {{A}^{\\prime }},{{B}^{\\prime }},{{C}^{\\prime }}$$如下：  ①作$$\\triangle ABC\\backsim \\triangle {{A}^{\\prime }},{{B}^{\\prime }},{{C}^{\\prime }}$$，显然$$\\frac{s}{{{s}^{\\prime }}}={{\\left( \\frac{a}{{{a}^{\\prime }}} \\right)}^{2}}\\textgreater1$$，  ∴$$s\\textgreater{{s}^{\\prime }}$$．  ②设$$a=b=\\sqrt{101}$$，$$c=20$$，则$${{h}_{c}}=1$$，$$s=10$$，  设$${{a}^{\\prime }}={{b}^{\\prime }}={{c}^{\\prime }}=10$$，则$${{s}^{\\prime }}=\\frac{\\sqrt{3}}{4}\\times 100\\textgreater10$$，  ∴$$s\\textless{},{{s}^{\\prime }}$$．  ③设$$a=b=\\sqrt{101}$$，$$c=20$$，则$${{h}_{c}}=1$$，$$s=10$$，  $${{a}^{\\prime }}={{b}^{\\prime }}=\\sqrt{29}$$，$${{c}^{\\prime }}=10$$，则$${{h}_{c}}=2$$，$${{s}^{\\prime }}=10$$，  ∴$$s={{s}^{\\prime }}$$，  ∴$$s$$与$${{s}^{\\prime }}$$的大小关系不确定．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1641,9 +1641,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知$$abc\\ne 0$$，并且$$\\frac{a+b},{c}=\\frac{b+c},{a}=\\frac{c+a},{b}=p$$，那么直线$$y=px-p$$一定通过第象限．\nA. 一、二\nB. 二、三\nC. 三、四\nD. 一、四",
+    "question_text": "已知$$abc\\ne 0$$，并且$$\\frac{a+b}{c}=\\frac{b+c}{a}=\\frac{c+a}{b}=p$$，那么直线$$y=px-p$$一定通过第象限．\nA. 一、二\nB. 二、三\nC. 三、四\nD. 一、四",
     "answer": "D. 一、四",
-    "solution": "由条件得：①$$a+b=pc$$，②$$b+c=pa$$，③$$a+c=pb$$，  三式相加得: $$2\\left( a+b+c \\right)=p\\left( a+b+c \\right)$$．  ∴$$p=2$$或$$a+b+c=0$$．  当$$p=2$$时，$$y=2x-2$$．则直线通过第一、三、四象限．  当$$a+b+c=0$$时，不妨取$$a+b=-c$$，于是$$p=\\frac{a+b},{c}=-1$$，  ∴$$y=-x+1$$，则直线通过第一、二、四象限．  综合上述两种情况，直线一定通过第一、四象限．  故选$$\\text{D}$$．",
+    "solution": "由条件得：①$$a+b=pc$$，②$$b+c=pa$$，③$$a+c=pb$$，  三式相加得: $$2\\left( a+b+c \\right)=p\\left( a+b+c \\right)$$．  ∴$$p=2$$或$$a+b+c=0$$．  当$$p=2$$时，$$y=2x-2$$．则直线通过第一、三、四象限．  当$$a+b+c=0$$时，不妨取$$a+b=-c$$，于是$$p=\\frac{a+b}{c}=-1$$，  ∴$$y=-x+1$$，则直线通过第一、二、四象限．  综合上述两种情况，直线一定通过第一、四象限．  故选$$\\text{D}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",
@@ -1675,9 +1675,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "有下列三个命题：  （甲）若$$\\alpha $$、$$\\beta $$是不相等的无理数，则$$\\alpha \\beta +\\alpha -\\beta $$是无理数；  （乙）若$$\\alpha $$、$$\\beta $$是不相等的无理数，则$$\\frac{\\alpha -\\beta },{\\alpha +\\beta }$$是无理数；  （丙）若$$\\alpha $$、$$\\beta $$是不相等的无理数，则$$\\sqrt{\\alpha }+\\sqrt[3]{\\beta }$$是无理数．  其中正确命题的个数是．\nA. $$0$$\nB. $$1$$\nC. $$2$$\nD. $$3$$",
+    "question_text": "有下列三个命题：  （甲）若$$\\alpha $$、$$\\beta $$是不相等的无理数，则$$\\alpha \\beta +\\alpha -\\beta $$是无理数；  （乙）若$$\\alpha $$、$$\\beta $$是不相等的无理数，则$$\\frac{\\alpha -\\beta }{\\alpha +\\beta }$$是无理数；  （丙）若$$\\alpha $$、$$\\beta $$是不相等的无理数，则$$\\sqrt{\\alpha }+\\sqrt[3]{\\beta }$$是无理数．  其中正确命题的个数是．\nA. $$0$$\nB. $$1$$\nC. $$2$$\nD. $$3$$",
     "answer": "A. $$0$$",
-    "solution": "因为$$\\alpha \\beta +\\alpha -\\beta =\\alpha \\beta +\\alpha -\\beta -1+1=\\left( \\alpha -1 \\right)\\left( \\beta +1 \\right)+1$$，  只要令$$\\alpha =1+\\sqrt{2}$$，$$\\beta =-1+\\sqrt{2}$$，则$$\\alpha \\beta +\\alpha -\\beta =3$$为有理数，所以（甲）不对；  又若令$$\\alpha =2\\sqrt{2}$$，$$\\beta =\\sqrt{2}$$，则$$\\frac{\\alpha -\\beta },{\\alpha +\\beta }=\\frac{1},{3}$$为有理数，所以（乙）不对；  又若令$$\\alpha =\\sqrt[3]{2}$$，$$\\beta =-\\sqrt{2}$$，则$$\\sqrt{\\alpha }+\\sqrt[3]{\\beta }=0$$为有理数，所以（丙）不对．  因此正确命题个数是$$0$$．  所以选$$\\text{A}$$．",
+    "solution": "因为$$\\alpha \\beta +\\alpha -\\beta =\\alpha \\beta +\\alpha -\\beta -1+1=\\left( \\alpha -1 \\right)\\left( \\beta +1 \\right)+1$$，  只要令$$\\alpha =1+\\sqrt{2}$$，$$\\beta =-1+\\sqrt{2}$$，则$$\\alpha \\beta +\\alpha -\\beta =3$$为有理数，所以（甲）不对；  又若令$$\\alpha =2\\sqrt{2}$$，$$\\beta =\\sqrt{2}$$，则$$\\frac{\\alpha -\\beta }{\\alpha +\\beta }=\\frac{1}{3}$$为有理数，所以（乙）不对；  又若令$$\\alpha =\\sqrt[3]{2}$$，$$\\beta =-\\sqrt{2}$$，则$$\\sqrt{\\alpha }+\\sqrt[3]{\\beta }=0$$为有理数，所以（丙）不对．  因此正确命题个数是$$0$$．  所以选$$\\text{A}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "初中",

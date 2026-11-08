@@ -1,8 +1,8 @@
 [
   {
-    "question_text": "已知$${{F}_{1}}$$、$${{F}_{2}}$$是双曲线$$\\frac{{{x}^{2}}},{{{a}^{2}}}-\\frac{{{y}^{2}}},{{{b}^{2}}}=1(a\\textgreater0$$，$$b\\textgreater0)$$的两焦点，以线段$${{F}_{1}},{{F}_{2}}$$为边作正三角形$$M{{F}_{1}},{{F}_{2}}$$，若边$$M{{F}_{1}}$$的中点在双曲线上，则双曲线的离心率是（~ ）．\nA. $$4+2\\sqrt{3}$$\nB. $$\\sqrt{3}-1$$\nC. $$\\frac{\\sqrt{3}+1},{2}$$\nD. $$\\sqrt{3}+1$$",
+    "question_text": "已知$${{F}_{1}}$$、$${{F}_{2}}$$是双曲线$$\\frac{{{x}^{2}}}{{{a}^{2}}}-\\frac{{{y}^{2}}}{{{b}^{2}}}=1(a\\textgreater0$$，$$b\\textgreater0)$$的两焦点，以线段$${{F}_{1}},{{F}_{2}}$$为边作正三角形$$M{{F}_{1}},{{F}_{2}}$$，若边$$M{{F}_{1}}$$的中点在双曲线上，则双曲线的离心率是（~ ）．\nA. $$4+2\\sqrt{3}$$\nB. $$\\sqrt{3}-1$$\nC. $$\\frac{\\sqrt{3}+1}{2}$$\nD. $$\\sqrt{3}+1$$",
     "answer": "D. $$\\sqrt{3}+1$$",
-    "solution": "$$\\triangle M{{F}_{1}},{{F}_{2}}$$是正三角形，且边$$M{{F}_{1}}$$的中点在双曲线上，  设边$$M{{F}_{1}}$$的中点为$$P$$，则有$$\\angle {{F}_{1}}P{{F}_{2}}=90{}^{}\\circ $$，  从而$$\\left\\textbar{} P{{F}_{2}} \\right\\textbar=\\sqrt{3}c$$，$$\\left\\textbar{} P{{F}_{1}} \\right\\textbar=c$$．  根据双曲线的定义可知$$2a=\\left\\textbar{} P{{F}_{2}} \\right\\textbar-\\left\\textbar{} P{{F}_{1}} \\right\\textbar=\\left( \\sqrt{3}-1 \\right)c$$，  解得$$e=\\frac{c},{a}=\\frac{2},{\\sqrt{3}-1}=\\sqrt{3}+1$$．",
+    "solution": "$$\\triangle M{{F}_{1}},{{F}_{2}}$$是正三角形，且边$$M{{F}_{1}}$$的中点在双曲线上，  设边$$M{{F}_{1}}$$的中点为$$P$$，则有$$\\angle {{F}_{1}}P{{F}_{2}}=90{}^{}\\circ $$，  从而$$\\left\\textbar{} P{{F}_{2}} \\right\\textbar=\\sqrt{3}c$$，$$\\left\\textbar{} P{{F}_{1}} \\right\\textbar=c$$．  根据双曲线的定义可知$$2a=\\left\\textbar{} P{{F}_{2}} \\right\\textbar-\\left\\textbar{} P{{F}_{1}} \\right\\textbar=\\left( \\sqrt{3}-1 \\right)c$$，  解得$$e=\\frac{c}{a}=\\frac{2}{\\sqrt{3}-1}=\\sqrt{3}+1$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -25,9 +25,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "设等差数列$$\\left { {{a}_{n}} \\right }$$的公差为$$d\\left( d\\ne 0 \\right)$$，前$$n$$项和为$${{S}_{n}}$$．若数列$$\\left { \\sqrt{8{{S}_{n}}+2n} \\right }$$也是公差为$$d$$的等差数列，则数列$$\\left { {{a}_{n}} \\right }$$的通项$${{a}_{n}}=$$~\\uline{~~~~~~~~~~}~．\nA. $$4n-\\frac{3},{4}$$\nB. $$4n-\\frac{5},{4}$$\nC. $$4n-\\frac{7},{4}$$\nD. $$4n-\\frac{9},{4}$$",
-    "answer": "D. $$4n-\\frac{9},{4}$$",
-    "solution": "由$$\\sqrt{8{{S}_{n+1}}+2\\left( n+1 \\right)}-\\sqrt{8{{S}_{n}}+2n}=d\\left( n\\geqslant 1 \\right)$$  $$\\Rightarrow 8{{S}_{n+1}}-8{{S}_{n}}+2=d+2d\\sqrt{8{{S}_{n}}+2n}$$  $$\\Rightarrow 8{{a}_{n+1}}+2=d+2d\\sqrt{8{{S}_{n}}+2n}$$，  类似地，  $$8{{a}_{n+2}}+2=d+2d\\sqrt{8{{S}_{n+1}}+2\\left( n+1 \\right)}$$，  将以上两式相减得  $$8\\left( {{a}_{n+2}}-{{a}_{n+1}} \\right)=2d\\left( \\sqrt{8{{S}_{n+1}}+2\\left( n+1 \\right)}-\\sqrt{8{{S}_{n}}+2n} \\right)$$  $$\\Rightarrow 8d=2{{d}^{2}}$$，  而$$d\\ne 0$$，故$$d=4$$，  又$$\\sqrt{8{{S}_{2}}+4}-\\sqrt{8{{S}_{1}}+2}=\\sqrt{16{{a}_{1}}+36}-\\sqrt{8{{a}_{1}}+2}=4$$，  由此解得$${{a}_{1}}=\\frac{7},{4}$$，  从而，$${{a}_{n}}=\\frac{7},{4}+4\\left( n-1 \\right)=4n-\\frac{9},{4}$$．  故答案为：$$4n-\\frac{9},{4}$$．",
+    "question_text": "设等差数列$$\\left { {{a}_{n}} \\right }$$的公差为$$d\\left( d\\ne 0 \\right)$$，前$$n$$项和为$${{S}_{n}}$$．若数列$$\\left { \\sqrt{8{{S}_{n}}+2n} \\right }$$也是公差为$$d$$的等差数列，则数列$$\\left { {{a}_{n}} \\right }$$的通项$${{a}_{n}}=$$~\\uline{~~~~~~~~~~}~．\nA. $$4n-\\frac{3}{4}$$\nB. $$4n-\\frac{5}{4}$$\nC. $$4n-\\frac{7}{4}$$\nD. $$4n-\\frac{9}{4}$$",
+    "answer": "D. $$4n-\\frac{9}{4}$$",
+    "solution": "由$$\\sqrt{8{{S}_{n+1}}+2\\left( n+1 \\right)}-\\sqrt{8{{S}_{n}}+2n}=d\\left( n\\geqslant 1 \\right)$$  $$\\Rightarrow 8{{S}_{n+1}}-8{{S}_{n}}+2=d+2d\\sqrt{8{{S}_{n}}+2n}$$  $$\\Rightarrow 8{{a}_{n+1}}+2=d+2d\\sqrt{8{{S}_{n}}+2n}$$，  类似地，  $$8{{a}_{n+2}}+2=d+2d\\sqrt{8{{S}_{n+1}}+2\\left( n+1 \\right)}$$，  将以上两式相减得  $$8\\left( {{a}_{n+2}}-{{a}_{n+1}} \\right)=2d\\left( \\sqrt{8{{S}_{n+1}}+2\\left( n+1 \\right)}-\\sqrt{8{{S}_{n}}+2n} \\right)$$  $$\\Rightarrow 8d=2{{d}^{2}}$$，  而$$d\\ne 0$$，故$$d=4$$，  又$$\\sqrt{8{{S}_{2}}+4}-\\sqrt{8{{S}_{1}}+2}=\\sqrt{16{{a}_{1}}+36}-\\sqrt{8{{a}_{1}}+2}=4$$，  由此解得$${{a}_{1}}=\\frac{7}{4}$$，  从而，$${{a}_{n}}=\\frac{7}{4}+4\\left( n-1 \\right)=4n-\\frac{9}{4}$$．  故答案为：$$4n-\\frac{9}{4}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -63,9 +63,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "设双曲线$$\\frac{{{x}^{2}}},{{{a}^{2}}}-\\frac{{{y}^{2}}},{{{b}^{2}}}=1$$的一条渐近线与抛物线$$y={{x}^{2}}+1$$只有一个公共点，则双曲线的离心率为．\nA. $$\\frac{5},{4}$$\nB. $$5$$\nC. $$\\frac{\\sqrt{5}},{2}$$\nD. $$\\sqrt{5}$$",
+    "question_text": "设双曲线$$\\frac{{{x}^{2}}}{{{a}^{2}}}-\\frac{{{y}^{2}}}{{{b}^{2}}}=1$$的一条渐近线与抛物线$$y={{x}^{2}}+1$$只有一个公共点，则双曲线的离心率为．\nA. $$\\frac{5}{4}$$\nB. $$5$$\nC. $$\\frac{\\sqrt{5}}{2}$$\nD. $$\\sqrt{5}$$",
     "answer": "D. $$\\sqrt{5}$$",
-    "solution": "根据双曲线和抛物线的对称性，可设双曲线的渐近线$$y=\\frac{b},{a}x$$与抛物线$$y={{x}^{2}}+1$$只有一个公共点.  将$$y=\\frac{b},{a}x\\left( a\\textgreater0 \\right)$$代入$$y={{x}^{2}}+1$$，得$$a{{x}^{2}}-bx+a=0$$，$$a\\textgreater0$$.令$${{\\left( -b \\right)}^{2}}-4{{a}^{2}}=0$$，得$${{b}^{2}}=4{{a}^{2}}$$，$$a\\textgreater0$$，  所以$${{c}^{2}}={{a}^{2}}+{{b}^{2}}={{a}^{2}}+4{{a}^{2}}=5{{a}^{2}}$$，$$a\\textgreater0$$，$$b\\textgreater0$$，所以$$\\frac{c},{a}=\\sqrt{5}$$.",
+    "solution": "根据双曲线和抛物线的对称性，可设双曲线的渐近线$$y=\\frac{b}{a}x$$与抛物线$$y={{x}^{2}}+1$$只有一个公共点.  将$$y=\\frac{b}{a}x\\left( a\\textgreater0 \\right)$$代入$$y={{x}^{2}}+1$$，得$$a{{x}^{2}}-bx+a=0$$，$$a\\textgreater0$$.令$${{\\left( -b \\right)}^{2}}-4{{a}^{2}}=0$$，得$${{b}^{2}}=4{{a}^{2}}$$，$$a\\textgreater0$$，  所以$${{c}^{2}}={{a}^{2}}+{{b}^{2}}={{a}^{2}}+4{{a}^{2}}=5{{a}^{2}}$$，$$a\\textgreater0$$，$$b\\textgreater0$$，所以$$\\frac{c}{a}=\\sqrt{5}$$.",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -93,9 +93,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知数列$\\left {a_{n}\\right }$的前$n$项和为$S_{n}$，且满足$a_{1}=1$，$a_{n}a_{n+1}=2S_{n}$，设$b_{n}=\\frac{a_{n}},{3^{n}}$，若存在正整数$p,q\\left(p\\textless{} q\\right)$，使得$b_{1}$，$b_{p}$，$b_{q}$成等差数列，则（~~~~~~~）\nA. $p=1$\nB. $p=2$\nC. $p=3$\nD. $p=4$",
+    "question_text": "已知数列$\\left {a_{n}\\right }$的前$n$项和为$S_{n}$，且满足$a_{1}=1$，$a_{n}a_{n+1}=2S_{n}$，设$b_{n}=\\frac{a_{n}}{3^{n}}$，若存在正整数$p,q\\left(p\\textless{} q\\right)$，使得$b_{1}$，$b_{p}$，$b_{q}$成等差数列，则（~~~~~~~）\nA. $p=1$\nB. $p=2$\nC. $p=3$\nD. $p=4$",
     "answer": "B. $p=2$",
-    "solution": "\\hfill\\break 【分析】\\\\ 根据数列的递推公式得出$b_{n}=\\frac{a_{n}},{3^{n}}=\\frac{n},{3^{n}}$，然后根据等差数列的性质进项求解即可得出结果.\\\\ 【详解】\\\\ 数列$\\left {a_{n}\\right }$满足$a_{1}=1$，$a_{n}a_{n+1}=2S_{n}$，\\\\ 当$n=1$时，$a_{1}a_{2}=2S_{1}=2a_{1}$，解得：$a_{2}=2$；\\\\ 当$n\\geq 2$时，$2a_{n}=2(S_{n}-S_{n-1})=a_{n}(a_{n+1}-a_{n-1})$，\\\\ 因为$a_{n}\\neq 0$，所以$a_{n+1}-a_{n-1}=2$，所以数列$\\left {a_{n}\\right }$是首项为1，公差为1的等差数列，\\\\ 所以$a_{n}=1+(n-1)=n$，$b_{n}=\\frac{a_{n}},{3^{n}}=\\frac{n},{3^{n}}$，\\\\ 若存在正整数$p,q\\left(p\\textless{} q\\right)$，使得$b_{1}$，$b_{p}$，$b_{q}$成等差数列，\\\\ 则$2b_{p}=b_{1}+b_{q}$，所以$\\frac{2p},{3^{p}}=\\frac{1},{3}+\\frac{q},{3^{q}}$~~~~~~~~①\\\\ 因为数列$ {b_{n} }$是单调递减数列，\\\\ 当$p=1$时，由$\\frac{2},{3}=\\frac{1},{3}+\\frac{q},{3^{q}}$，解得：$q=1$，舍去；\\\\ 当$2\\leq p\\textless{} q$时，则$\\frac{1},{3}\\geq \\frac{p-1},{3^{p-1}}$，$\\frac{p-1},{3^{p-1}}-\\frac{2p},{3^{p}}=\\frac{p-3},{3^{p}}$；\\\\ 当$3\\leq p$时，$\\frac{1},{3}\\geq \\frac{p-1},{3^{p-1}}\\geq \\frac{2p},{3^{p}}$，$\\frac{q},{3^{q}}\\textgreater{} 0$，所以$\\frac{2p},{3^{p}}\\textless{} \\frac{1},{3}+\\frac{q},{3^{q}}$，①式不成立，\\\\ 所以$p=2$，则有$\\frac{4},{9}=\\frac{1},{3}+\\frac{q},{3^{q}}$，解得：$q=3$，\\\\ 故选：$\\mathrm{B}$.",
+    "solution": "\\hfill\\break 【分析】\\\\ 根据数列的递推公式得出$b_{n}=\\frac{a_{n}}{3^{n}}=\\frac{n}{3^{n}}$，然后根据等差数列的性质进项求解即可得出结果.\\\\ 【详解】\\\\ 数列$\\left {a_{n}\\right }$满足$a_{1}=1$，$a_{n}a_{n+1}=2S_{n}$，\\\\ 当$n=1$时，$a_{1}a_{2}=2S_{1}=2a_{1}$，解得：$a_{2}=2$；\\\\ 当$n\\geq 2$时，$2a_{n}=2(S_{n}-S_{n-1})=a_{n}(a_{n+1}-a_{n-1})$，\\\\ 因为$a_{n}\\neq 0$，所以$a_{n+1}-a_{n-1}=2$，所以数列$\\left {a_{n}\\right }$是首项为1，公差为1的等差数列，\\\\ 所以$a_{n}=1+(n-1)=n$，$b_{n}=\\frac{a_{n}}{3^{n}}=\\frac{n}{3^{n}}$，\\\\ 若存在正整数$p,q\\left(p\\textless{} q\\right)$，使得$b_{1}$，$b_{p}$，$b_{q}$成等差数列，\\\\ 则$2b_{p}=b_{1}+b_{q}$，所以$\\frac{2p}{3^{p}}=\\frac{1}{3}+\\frac{q}{3^{q}}$~~~~~~~~①\\\\ 因为数列$ {b_{n} }$是单调递减数列，\\\\ 当$p=1$时，由$\\frac{2}{3}=\\frac{1}{3}+\\frac{q}{3^{q}}$，解得：$q=1$，舍去；\\\\ 当$2\\leq p\\textless{} q$时，则$\\frac{1}{3}\\geq \\frac{p-1}{3^{p-1}}$，$\\frac{p-1}{3^{p-1}}-\\frac{2p}{3^{p}}=\\frac{p-3}{3^{p}}$；\\\\ 当$3\\leq p$时，$\\frac{1}{3}\\geq \\frac{p-1}{3^{p-1}}\\geq \\frac{2p}{3^{p}}$，$\\frac{q}{3^{q}}\\textgreater{} 0$，所以$\\frac{2p}{3^{p}}\\textless{} \\frac{1}{3}+\\frac{q}{3^{q}}$，①式不成立，\\\\ 所以$p=2$，则有$\\frac{4}{9}=\\frac{1}{3}+\\frac{q}{3^{q}}$，解得：$q=3$，\\\\ 故选：$\\mathrm{B}$.",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -126,9 +126,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知长方体的表面积为$$\\frac{45},{2}$$，棱长的总和为$$24$$，则长方体的体对角线与棱所成角的最大值为（~ ）．\nA. $$\\arccos \\frac{1},{3}$$\nB. $$\\arccos \\frac{\\sqrt{2}},{3}$$\nC. $$\\arccos \\frac{\\sqrt{3}},{9}$$\nD. $$\\arccos \\frac{\\sqrt{6}},{9}$$",
-    "answer": "D. $$\\arccos \\frac{\\sqrt{6}},{9}$$",
-    "solution": "设三条棱$$a\\leqslant b\\leqslant c$$，  ∴$$ab+ac+bc=\\frac{45},{4}$$，$$a+b+c=6$$，$${{a}^{2}}+{{b}^{2}}+{{c}^{2}}=\\frac{27},{2}$$，  $${{a}^{2}}+{{b}^{2}}+{{c}^{2}}\\geqslant {{a}^{2}}+2bc={{a}^{2}}+2\\left[ \\frac{45},{4}-a\\left( 6-a \\right) \\right]$$，  整理得$${{a}^{2}}-4a+3\\leqslant 0$$，  ∴$$1\\leqslant a\\leqslant 3$$，  ∴最短棱长为$$1$$，体对角线长为$$\\frac{3\\sqrt{6}},{2}$$，$$\\cos \\theta =\\frac{2},{3\\sqrt{6}}=\\frac{\\sqrt{6}},{9}$$，  故选$$\\text{D}$$．",
+    "question_text": "已知长方体的表面积为$$\\frac{45}{2}$$，棱长的总和为$$24$$，则长方体的体对角线与棱所成角的最大值为（~ ）．\nA. $$\\arccos \\frac{1}{3}$$\nB. $$\\arccos \\frac{\\sqrt{2}}{3}$$\nC. $$\\arccos \\frac{\\sqrt{3}}{9}$$\nD. $$\\arccos \\frac{\\sqrt{6}}{9}$$",
+    "answer": "D. $$\\arccos \\frac{\\sqrt{6}}{9}$$",
+    "solution": "设三条棱$$a\\leqslant b\\leqslant c$$，  ∴$$ab+ac+bc=\\frac{45}{4}$$，$$a+b+c=6$$，$${{a}^{2}}+{{b}^{2}}+{{c}^{2}}=\\frac{27}{2}$$，  $${{a}^{2}}+{{b}^{2}}+{{c}^{2}}\\geqslant {{a}^{2}}+2bc={{a}^{2}}+2\\left[ \\frac{45}{4}-a\\left( 6-a \\right) \\right]$$，  整理得$${{a}^{2}}-4a+3\\leqslant 0$$，  ∴$$1\\leqslant a\\leqslant 3$$，  ∴最短棱长为$$1$$，体对角线长为$$\\frac{3\\sqrt{6}}{2}$$，$$\\cos \\theta =\\frac{2}{3\\sqrt{6}}=\\frac{\\sqrt{6}}{9}$$，  故选$$\\text{D}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -154,9 +154,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知各项均为正数的等比数列$$\\left { {{a}_{n}} \\right }$$满足$${{a}_{7}}={{a}_{6}}+2{{a}_{5}}$$，若存在两项$${{a}_{m}}$$，$${{a}_{n}}$$使得$$\\sqrt{{{a}_{m}},{{a}_{n}}}=4{{a}_{1}}$$，则$$\\frac{1},{m}+\\frac{4},{n}$$的最小值为．\nA. $$\\frac{3},{2}$$\nB. $$\\frac{5},{3}$$\nC. $$\\frac{9},{4}$$\nD. $$\\frac{25},{6}$$",
-    "answer": "A. $$\\frac{3},{2}$$",
-    "solution": "由各项均为正数的等比数列$$\\left { {{a}_{n}} \\right }$$满足$${{a}_{7}}={{a}_{6}}+2{{a}_{5}}$$，  可得$${{a}_{1}},{{q}^{6}}={{a}_{1}},{{q}^{5}}+2{{a}_{1}},{{q}^{4}}$$，  所以$${{q}^{2}}-q-2=0$$，解得$$q=2$$或$$q=-1$$（舍去）．  因为$$\\sqrt{{{a}_{m}},{{a}_{n}}}=4{{a}_{1}}$$，所以$${{q}^{m+n-2}}=16$$，  所以$${{2}^{m+n-2}}={{2}^{4}}$$，所以$$m+n=6$$．  所以$$\\frac{1},{m}+\\frac{4},{n}=\\frac{1},{6}\\left( m+n \\right)\\left( \\frac{1},{m}+\\frac{4},{n} \\right)$$  $$=\\frac{1},{6}\\left( 5+\\frac{n},{m}+\\frac{4m},{n} \\right)$$  $$\\geqslant \\frac{1},{6}\\left( 5+2\\sqrt{\\frac{n},{m}\\cdot \\frac{4m},{n}} \\right)$$  $$=\\frac{3},{2}$$．  当且仅当$$\\frac{n},{m}=\\frac{4m},{n}$$，即$$n=2m$$时，等号成立，  又$$m+n=6$$，所以$$m=2$$，$$n=4$$，符合题意．  故最小值为$$\\frac{3},{2}$$．",
+    "question_text": "已知各项均为正数的等比数列$$\\left { {{a}_{n}} \\right }$$满足$${{a}_{7}}={{a}_{6}}+2{{a}_{5}}$$，若存在两项$${{a}_{m}}$$，$${{a}_{n}}$$使得$$\\sqrt{{{a}_{m}},{{a}_{n}}}=4{{a}_{1}}$$，则$$\\frac{1}{m}+\\frac{4}{n}$$的最小值为．\nA. $$\\frac{3}{2}$$\nB. $$\\frac{5}{3}$$\nC. $$\\frac{9}{4}$$\nD. $$\\frac{25}{6}$$",
+    "answer": "A. $$\\frac{3}{2}$$",
+    "solution": "由各项均为正数的等比数列$$\\left { {{a}_{n}} \\right }$$满足$${{a}_{7}}={{a}_{6}}+2{{a}_{5}}$$，  可得$${{a}_{1}},{{q}^{6}}={{a}_{1}},{{q}^{5}}+2{{a}_{1}},{{q}^{4}}$$，  所以$${{q}^{2}}-q-2=0$$，解得$$q=2$$或$$q=-1$$（舍去）．  因为$$\\sqrt{{{a}_{m}},{{a}_{n}}}=4{{a}_{1}}$$，所以$${{q}^{m+n-2}}=16$$，  所以$${{2}^{m+n-2}}={{2}^{4}}$$，所以$$m+n=6$$．  所以$$\\frac{1}{m}+\\frac{4}{n}=\\frac{1}{6}\\left( m+n \\right)\\left( \\frac{1}{m}+\\frac{4}{n} \\right)$$  $$=\\frac{1}{6}\\left( 5+\\frac{n}{m}+\\frac{4m}{n} \\right)$$  $$\\geqslant \\frac{1}{6}\\left( 5+2\\sqrt{\\frac{n}{m}\\cdot \\frac{4m}{n}} \\right)$$  $$=\\frac{3}{2}$$．  当且仅当$$\\frac{n}{m}=\\frac{4m}{n}$$，即$$n=2m$$时，等号成立，  又$$m+n=6$$，所以$$m=2$$，$$n=4$$，符合题意．  故最小值为$$\\frac{3}{2}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -185,9 +185,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "设$$f(x)=-\\textbar x\\textbar$$，$$a=f\\left( {{\\log }_{e}}\\frac{1},{ \\pi } \\right)$$，$$b=f\\left( {{\\log }_{ \\pi }}\\frac{1},{e} \\right)$$，$$c=f\\left( {{\\log }_{\\frac{1},{e}}}\\frac{1},{{{ \\pi }^{2}}} \\right)$$，则下述关系式正确的是（~ ）．\nA. $$a\\textgreater b\\textgreater c$$\nB. $$b\\textgreater c\\textgreater a$$\nC. $$c\\textgreater a\\textgreater b$$\nD. $$b\\textgreater a\\textgreater c$$",
+    "question_text": "设$$f(x)=-\\textbar x\\textbar$$，$$a=f\\left( {{\\log }_{e}}\\frac{1}{ \\pi } \\right)$$，$$b=f\\left( {{\\log }_{ \\pi }}\\frac{1}{e} \\right)$$，$$c=f\\left( {{\\log }_{\\frac{1}{e}}}\\frac{1}{{{ \\pi }^{2}}} \\right)$$，则下述关系式正确的是（~ ）．\nA. $$a\\textgreater b\\textgreater c$$\nB. $$b\\textgreater c\\textgreater a$$\nC. $$c\\textgreater a\\textgreater b$$\nD. $$b\\textgreater a\\textgreater c$$",
     "answer": "D. $$b\\textgreater a\\textgreater c$$",
-    "solution": "$$a=f\\left( {{\\log }_{e}}\\frac{1},{ \\pi } \\right)=-{{\\log }_{e}} \\pi \\in (-2,-1)$$，$$b=f({{\\log }_{ \\pi }}\\frac{1},{e})=-{{\\log }_{ \\pi }}e\\in (-1,0)$$，$$c=f\\left( {{\\log }_{\\frac{1},{e}}}\\frac{1},{{{ \\pi }^{2}}} \\right)=-2{{\\log }_{2}} \\pi \\in (-2,-4)$$，由此能求出结果．  【解答】解：∵$$f(x)=-\\textbar x\\textbar$$，  ∴$$a=f(lo{{g}_{e}}\\frac{1},{ \\pi })=-\\left\\textbar{},{{\\log }_{e}}\\frac{1},{ \\pi } \\right\\textbar=-{{\\log }_{e}} \\pi \\in (-2,-1)$$，  $$b=f\\left( {{\\log }_{ \\pi }}\\frac{1},{e} \\right)=-\\left\\textbar{},{{\\log }_{ \\pi }}\\frac{1},{e} \\right\\textbar=-{{\\log }_{ \\pi }}e\\in (-1,0)$$，  $$c=f\\left( {{\\log }_{\\frac{1},{e}}}\\frac{1},{{{ \\pi }^{2}}} \\right)=-\\left\\textbar{},{{\\log }_{\\frac{1},{e}}}\\frac{1},{{{ \\pi }^{2}}} \\right\\textbar=-{{\\log }_{e}},{{ \\pi }^{2}}=-2{{\\log }_{e}} \\pi \\in (-2,-4)$$，  ∴$$b\\textgreater a\\textgreater c$$．  故选$$\\text{D}$$．",
+    "solution": "$$a=f\\left( {{\\log }_{e}}\\frac{1}{ \\pi } \\right)=-{{\\log }_{e}} \\pi \\in (-2,-1)$$，$$b=f({{\\log }_{ \\pi }}\\frac{1}{e})=-{{\\log }_{ \\pi }}e\\in (-1,0)$$，$$c=f\\left( {{\\log }_{\\frac{1}{e}}}\\frac{1}{{{ \\pi }^{2}}} \\right)=-2{{\\log }_{2}} \\pi \\in (-2,-4)$$，由此能求出结果．  【解答】解：∵$$f(x)=-\\textbar x\\textbar$$，  ∴$$a=f(lo{{g}_{e}}\\frac{1}{ \\pi })=-\\left\\textbar{},{{\\log }_{e}}\\frac{1}{ \\pi } \\right\\textbar=-{{\\log }_{e}} \\pi \\in (-2,-1)$$，  $$b=f\\left( {{\\log }_{ \\pi }}\\frac{1}{e} \\right)=-\\left\\textbar{},{{\\log }_{ \\pi }}\\frac{1}{e} \\right\\textbar=-{{\\log }_{ \\pi }}e\\in (-1,0)$$，  $$c=f\\left( {{\\log }_{\\frac{1}{e}}}\\frac{1}{{{ \\pi }^{2}}} \\right)=-\\left\\textbar{},{{\\log }_{\\frac{1}{e}}}\\frac{1}{{{ \\pi }^{2}}} \\right\\textbar=-{{\\log }_{e}},{{ \\pi }^{2}}=-2{{\\log }_{e}} \\pi \\in (-2,-4)$$，  ∴$$b\\textgreater a\\textgreater c$$．  故选$$\\text{D}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -213,9 +213,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知集合$$A=\\left { 1,2,\\frac{1},{2} \\right }$$，集合$$B=\\left { y\\left\\textbar{} y={{x}^{2}},x\\in A \\right. \\right }$$，则$$A\\cap B=$$（~ ~）．\nA. $$\\left { \\frac{1},{2}\\right }$$\nB. $$\\left { 2 \\right }$$\nC. $$\\left { 1 \\right }$$\nD. $$\\varnothing $$",
+    "question_text": "已知集合$$A=\\left { 1,2,\\frac{1}{2} \\right }$$，集合$$B=\\left { y\\left\\textbar{} y={{x}^{2}},x\\in A \\right. \\right }$$，则$$A\\cap B=$$（~ ~）．\nA. $$\\left { \\frac{1}{2}\\right }$$\nB. $$\\left { 2 \\right }$$\nC. $$\\left { 1 \\right }$$\nD. $$\\varnothing $$",
     "answer": "C. $$\\left { 1 \\right }$$",
-    "solution": "由题可知：$$B=\\left { 1,4,\\frac{1},{4} \\right }$$，所以 $$A\\cap B=\\left {1 \\right }$$．",
+    "solution": "由题可知：$$B=\\left { 1,4,\\frac{1}{4} \\right }$$，所以 $$A\\cap B=\\left {1 \\right }$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -236,9 +236,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "某地举行一次民歌大奖赛，六个省各有一对歌手参加决赛，现要选出$$4$$名优胜者，则选出的$$4$$名选手中有且只有两个人是同一省份的歌手的概率为．\nA. $$\\frac{16},{33}$$\nB. $$\\frac{33},{128}$$\nC. $$\\frac{32},{33}$$\nD. $$\\frac{4},{11}$$",
-    "answer": "A. $$\\frac{16},{33}$$",
-    "solution": "由题意知本题是一个古典概型，  试验发生的总事件是从$$12$$名选手中选出$$4$$个优胜者，共有$$\\text{C}_{12}^{4}$$种结果，  而满足条件的是选出的$$4$$名选手中恰有且只有两个人  是同一省份的歌手表示从$$6$$个省中选一个省，  它的两名选手都获奖，同时从余下的$$10$$名选手中选一个，  再从剩下的$$4$$个省中选一个，共有$$\\text{C}_{6}^{1}\\text{C}_{10}^{1}\\text{C}_{4}^{1}$$种选法，  ∴$$P=\\frac{\\text{C}_{6}^{1}\\text{C}_{10}^{1}\\text{C}_{4}^{1}},{\\text{C}_{12}^{4}}=\\frac{16},{33}$$．  故选$$\\text{A}$$．",
+    "question_text": "某地举行一次民歌大奖赛，六个省各有一对歌手参加决赛，现要选出$$4$$名优胜者，则选出的$$4$$名选手中有且只有两个人是同一省份的歌手的概率为．\nA. $$\\frac{16}{33}$$\nB. $$\\frac{33}{128}$$\nC. $$\\frac{32}{33}$$\nD. $$\\frac{4}{11}$$",
+    "answer": "A. $$\\frac{16}{33}$$",
+    "solution": "由题意知本题是一个古典概型，  试验发生的总事件是从$$12$$名选手中选出$$4$$个优胜者，共有$$\\text{C}_{12}^{4}$$种结果，  而满足条件的是选出的$$4$$名选手中恰有且只有两个人  是同一省份的歌手表示从$$6$$个省中选一个省，  它的两名选手都获奖，同时从余下的$$10$$名选手中选一个，  再从剩下的$$4$$个省中选一个，共有$$\\text{C}_{6}^{1}\\text{C}_{10}^{1}\\text{C}_{4}^{1}$$种选法，  ∴$$P=\\frac{\\text{C}_{6}^{1}\\text{C}_{10}^{1}\\text{C}_{4}^{1}}{\\text{C}_{12}^{4}}=\\frac{16}{33}$$．  故选$$\\text{A}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -261,9 +261,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "设实数$$a$$使得不等式$$\\textbar2x-a\\textbar+\\textbar3x-2a\\textbar\\geqslant {{a}^{2}}$$对任意实数$$x$$恒成立，则满足条件的$$a$$所组成的集合是（~ ）．\nA. $$\\left[ -\\frac{1},{3}，\\frac{1},{3} \\right]$$\nB. $$\\left[ -\\frac{1},{2}，\\frac{1},{2} \\right]$$\nC. $$\\left[ -\\frac{1},{4}，\\frac{1},{3} \\right]$$\nD. $$[-3，3]$$",
-    "answer": "A. $$\\left[ -\\frac{1},{3}，\\frac{1},{3} \\right]$$",
-    "solution": "令$$x=\\frac{2},{3}a$$，则有$$\\textbar a\\textbar\\leqslant \\frac{1},{3}$$，排除$$\\text{B}$$、$$\\text{D}$$，由对称性排除$$\\text{C}$$，从而只有$$\\text{A}$$正确．  一般地，对$$k\\in \\mathbf{R}$$，令$$x=\\frac{1},{2}ka$$，则原不等式为$$\\textbar a\\textbar\\cdot \\textbar k-1\\textbar+\\frac{3},{2}\\textbar a\\textbar\\cdot \\left\\textbar{} k-\\frac{4},{3} \\right\\textbar\\geqslant \\textbar a{{\\textbar}^{2}}$$，由此易知原不等式等价于$$\\textbar a\\textbar\\leqslant \\textbar k-1\\textbar+\\frac{3},{2}\\left\\textbar{} k-\\frac{4},{3} \\right\\textbar$$，对任意的$$k\\in \\mathbf{R}$$成立．由于  $$\\textbar k-1\\textbar+\\frac{3},{2}\\left\\textbar{} k-\\frac{4},{3} \\right\\textbar=\\begin{cases} \\frac{5},{2}k-3， k\\geqslant \\frac{4},{3}    1-\\frac{1},{2}k， 1\\leqslant k ~\\textless{} ~\\frac{4},{3}    3-\\frac{5},{2}k， k ~\\textless{} ~1   \\end{cases}$$，  所以$$_{k\\in \\mathbf{R}}^{\\min }\\left { \\textbar k-1\\textbar+\\frac{3},{2}\\left\\textbar{} k-\\frac{4},{3} \\right\\textbar{} \\right }=\\frac{1},{3}$$，从而上述不等式等价于$$\\textbar a\\textbar\\leqslant \\frac{1},{3}$$．  故选$$\\text{A}$$．",
+    "question_text": "设实数$$a$$使得不等式$$\\textbar2x-a\\textbar+\\textbar3x-2a\\textbar\\geqslant {{a}^{2}}$$对任意实数$$x$$恒成立，则满足条件的$$a$$所组成的集合是（~ ）．\nA. $$\\left[ -\\frac{1}{3}，\\frac{1}{3} \\right]$$\nB. $$\\left[ -\\frac{1}{2}，\\frac{1}{2} \\right]$$\nC. $$\\left[ -\\frac{1}{4}，\\frac{1}{3} \\right]$$\nD. $$[-3，3]$$",
+    "answer": "A. $$\\left[ -\\frac{1}{3}，\\frac{1}{3} \\right]$$",
+    "solution": "令$$x=\\frac{2}{3}a$$，则有$$\\textbar a\\textbar\\leqslant \\frac{1}{3}$$，排除$$\\text{B}$$、$$\\text{D}$$，由对称性排除$$\\text{C}$$，从而只有$$\\text{A}$$正确．  一般地，对$$k\\in \\mathbf{R}$$，令$$x=\\frac{1}{2}ka$$，则原不等式为$$\\textbar a\\textbar\\cdot \\textbar k-1\\textbar+\\frac{3}{2}\\textbar a\\textbar\\cdot \\left\\textbar{} k-\\frac{4}{3} \\right\\textbar\\geqslant \\textbar a{{\\textbar}^{2}}$$，由此易知原不等式等价于$$\\textbar a\\textbar\\leqslant \\textbar k-1\\textbar+\\frac{3}{2}\\left\\textbar{} k-\\frac{4}{3} \\right\\textbar$$，对任意的$$k\\in \\mathbf{R}$$成立．由于  $$\\textbar k-1\\textbar+\\frac{3}{2}\\left\\textbar{} k-\\frac{4}{3} \\right\\textbar=\\begin{cases} \\frac{5}{2}k-3， k\\geqslant \\frac{4}{3}    1-\\frac{1}{2}k， 1\\leqslant k ~\\textless{} ~\\frac{4}{3}    3-\\frac{5}{2}k， k ~\\textless{} ~1   \\end{cases}$$，  所以$$_{k\\in \\mathbf{R}}^{\\min }\\left { \\textbar k-1\\textbar+\\frac{3}{2}\\left\\textbar{} k-\\frac{4}{3} \\right\\textbar{} \\right }=\\frac{1}{3}$$，从而上述不等式等价于$$\\textbar a\\textbar\\leqslant \\frac{1}{3}$$．  故选$$\\text{A}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -312,7 +312,7 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知椭圆$$E:\\frac{{{x}^{2}}},{m}+\\frac{{{y}^{2}}},{4}=1$$，对于任意实数$$k$$，下列直线被椭圆$$E$$截得的弦长与$$l:y=kx+1$$被椭圆$$E$$截得的弦长不可能相等的是（~ ）．\nA. $$kx+y+k=0$$\nB. $$kx-y-1=0$$\nC. $$kx+y-k=0$$\nD. $$kx+y-2=0$$",
+    "question_text": "已知椭圆$$E:\\frac{{{x}^{2}}}{m}+\\frac{{{y}^{2}}}{4}=1$$，对于任意实数$$k$$，下列直线被椭圆$$E$$截得的弦长与$$l:y=kx+1$$被椭圆$$E$$截得的弦长不可能相等的是（~ ）．\nA. $$kx+y+k=0$$\nB. $$kx-y-1=0$$\nC. $$kx+y-k=0$$\nD. $$kx+y-2=0$$",
     "answer": "D. $$kx+y-2=0$$",
     "solution": "由数形结合可知，当$$l$$过点$$(-1,0)$$时，直线$$l$$和选项A中的直线关于$$x$$对称，被椭圆$$E$$所截得的弦长相同，故不能选A．  当$$l$$过点$$(1,0)$$时，直$$l$$和选项C中的直线关于$$x$$轴对称，被椭圆$$E$$所截得的弦长相同，故不能选C．  当$$k=0$$时，直线$$l$$和选项B中的直线关于$$x$$轴对称，被椭圆$$E$$所截得的弦长相同，故不能选B．  直线$$l$$斜率为$$k$$，在$$y$$轴上的截距为$$1$$；选项D中的直线$$kx+y-2=0$$ 斜率为$$-k$$，在$$y$$轴上的截距为$$2$$，这两直线不关于$$x$$轴、$$y$$轴、原点对称，故被椭圆$$E$$所截得的弦长不可能相等．故选D．",
     "question_type": "选择题",
@@ -336,9 +336,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "$${{\\left( {{x}^{2}}-\\frac{1},{x} \\right)}^{6}}$$的展开式中，常数项为 ．（用数字作答）\nA. $$25$$\nB. $$15$$\nC. $$30$$\nD. $$45$$",
+    "question_text": "$${{\\left( {{x}^{2}}-\\frac{1}{x} \\right)}^{6}}$$的展开式中，常数项为 ．（用数字作答）\nA. $$25$$\nB. $$15$$\nC. $$30$$\nD. $$45$$",
     "answer": "B. $$15$$",
-    "solution": "$${{T}_{r+1}}=\\text{C}_{6}^{r},{{({{x}^{2}})}^{6-r}},{{\\left( -\\frac{1},{x} \\right)}^{2}}$$  $$={{(-1)}^{r}}\\text{C}_{6}^{r},{{x}^{12-2r}}\\cdot {{x}^{-r}}$$  $$={{(-1)}^{r}}\\text{C}_{6}^{r},{{x}^{12-3r}}$$，  ∵求常数项，  ∴令$$12-3r=0$$，则$$r=4$$，  ∴$${{T}_{5}}={{(-1)}^{4}}\\cdot \\text{C}_{6}^{4},{{x}^{0}}=15$$．  故答案为：$$15$$．",
+    "solution": "$${{T}_{r+1}}=\\text{C}_{6}^{r},{{({{x}^{2}})}^{6-r}},{{\\left( -\\frac{1}{x} \\right)}^{2}}$$  $$={{(-1)}^{r}}\\text{C}_{6}^{r},{{x}^{12-2r}}\\cdot {{x}^{-r}}$$  $$={{(-1)}^{r}}\\text{C}_{6}^{r},{{x}^{12-3r}}$$，  ∵求常数项，  ∴令$$12-3r=0$$，则$$r=4$$，  ∴$${{T}_{5}}={{(-1)}^{4}}\\cdot \\text{C}_{6}^{4},{{x}^{0}}=15$$．  故答案为：$$15$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -359,9 +359,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "设$$\\triangle ABC$$的内角$$A,  B,  C$$所对的边$$a,  b,  c$$成等比数列，则$$\\frac{\\sin A+\\cos A\\tan C},{\\sin B+\\cos B\\tan C}$$的取值范围是．\nA. $$\\left(0,  +\\infty \\right)$$\nB. $$\\left( 0,\\frac{\\sqrt{5}+1},{2} \\right)$$\nC. $$\\left( \\frac{\\sqrt{5}-1},{2},\\frac{\\sqrt{5}+1},{2} \\right)$$\nD. $$\\left( \\frac{\\sqrt{5}-1},{2},  +\\infty \\right)$$",
-    "answer": "C. $$\\left( \\frac{\\sqrt{5}-1},{2},\\frac{\\sqrt{5}+1},{2} \\right)$$",
-    "solution": "设$$a,  b,  c$$的公比为$$q$$，则$$b=aq,  c=a{{q}^{2}}$$，而  $$\\frac{\\sin A+\\cos A\\tan C},{\\sin B+\\cos B\\tan C}$$  $$=\\frac{\\sin A\\cos C+\\cos A\\sin C},{\\sin B\\cos C+\\cos B\\sin C}$$  $$=\\frac{\\sin (A+C)},{\\sin (B+C)}=\\frac{\\sin ( \\pi -B)},{\\sin ( \\pi -A)}$$  $$=\\frac{\\sin B},{\\sin A}=\\frac{b},{a}=q.$$  因此，只需求$$q$$的取值范围．  因$$a,  b,  c$$成等比数列，最大边只能是$$a$$或$$c$$，因此$$a,  b,  c$$要构成三角形的三边，必须且只需$$a+bc$$且$$b+ca$$．即有不等式组$$\\begin{cases}a+aq\\textgreater a{{q}^{2}}    aq+a{{q}^{2}}\\textgreater a \\end{cases}$$，即$$\\begin{cases},{{q}^{2}}-q-1\\textless{}0    {{q}^{2}}+q-1\\textgreater0 \\end{cases}$$  解得$$\\begin{cases}\\frac{1-\\sqrt{5}},{2}\\textless{}q\\textless{}\\frac{\\sqrt{5}+1},{2}    q\\textgreater\\frac{\\sqrt{5}-1},{2} \\end{cases}$$或$$\\begin{cases}\\frac{1-\\sqrt{5}},{2}\\textless{}q\\textless{}\\frac{\\sqrt{5}+1},{2}    q\\textless{}-\\frac{\\sqrt{5}+1},{2} \\end{cases}$$  从而$$\\frac{\\sqrt{5}-1},{2}\\textless{}q\\textless{}\\frac{\\sqrt{5}+1},{2},$$  因此所求的取值范围是$$\\left( \\frac{\\sqrt{5}-1},{2},\\frac{\\sqrt{5}+1},{2} \\right)$$．故选$$\\text{C}$$．",
+    "question_text": "设$$\\triangle ABC$$的内角$$A,  B,  C$$所对的边$$a,  b,  c$$成等比数列，则$$\\frac{\\sin A+\\cos A\\tan C}{\\sin B+\\cos B\\tan C}$$的取值范围是．\nA. $$\\left(0,  +\\infty \\right)$$\nB. $$\\left( 0,\\frac{\\sqrt{5}+1}{2} \\right)$$\nC. $$\\left( \\frac{\\sqrt{5}-1}{2},\\frac{\\sqrt{5}+1}{2} \\right)$$\nD. $$\\left( \\frac{\\sqrt{5}-1}{2},  +\\infty \\right)$$",
+    "answer": "C. $$\\left( \\frac{\\sqrt{5}-1}{2},\\frac{\\sqrt{5}+1}{2} \\right)$$",
+    "solution": "设$$a,  b,  c$$的公比为$$q$$，则$$b=aq,  c=a{{q}^{2}}$$，而  $$\\frac{\\sin A+\\cos A\\tan C}{\\sin B+\\cos B\\tan C}$$  $$=\\frac{\\sin A\\cos C+\\cos A\\sin C}{\\sin B\\cos C+\\cos B\\sin C}$$  $$=\\frac{\\sin (A+C)}{\\sin (B+C)}=\\frac{\\sin ( \\pi -B)}{\\sin ( \\pi -A)}$$  $$=\\frac{\\sin B}{\\sin A}=\\frac{b}{a}=q.$$  因此，只需求$$q$$的取值范围．  因$$a,  b,  c$$成等比数列，最大边只能是$$a$$或$$c$$，因此$$a,  b,  c$$要构成三角形的三边，必须且只需$$a+bc$$且$$b+ca$$．即有不等式组$$\\begin{cases}a+aq\\textgreater a{{q}^{2}}    aq+a{{q}^{2}}\\textgreater a \\end{cases}$$，即$$\\begin{cases},{{q}^{2}}-q-1\\textless{}0    {{q}^{2}}+q-1\\textgreater0 \\end{cases}$$  解得$$\\begin{cases}\\frac{1-\\sqrt{5}}{2}\\textless{}q\\textless{}\\frac{\\sqrt{5}+1}{2}    q\\textgreater\\frac{\\sqrt{5}-1}{2} \\end{cases}$$或$$\\begin{cases}\\frac{1-\\sqrt{5}}{2}\\textless{}q\\textless{}\\frac{\\sqrt{5}+1}{2}    q\\textless{}-\\frac{\\sqrt{5}+1}{2} \\end{cases}$$  从而$$\\frac{\\sqrt{5}-1}{2}\\textless{}q\\textless{}\\frac{\\sqrt{5}+1}{2},$$  因此所求的取值范围是$$\\left( \\frac{\\sqrt{5}-1}{2},\\frac{\\sqrt{5}+1}{2} \\right)$$．故选$$\\text{C}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -382,9 +382,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知数列$$\\left { {{a}_{n}} \\right }$$满足$${{a}_{n}}=n\\cdot {{k}^{n}}(n\\in {{N}^{*}},0\\textless{}k\\textless{}1)$$下面说法正确的是（~ ）．  ①$$k=\\frac{1},{2}$$时，数列$$\\left { {{a}_{n}} \\right }$$为递减数列；  ②$$\\frac{1},{2}\\textless{}k\\textless{}1$$时，数列$$\\left { {{a}_{n}} \\right }$$不一定有最大项；  ③$$0\\textless{}k\\textless{}\\frac{1},{2}$$时，数列$$\\left { {{a}_{n}} \\right }$$为递减数列；  ④当$$\\frac{k},{1-k}$$为正整数时，数列$$\\left { {{a}_{n}} \\right }$$必有两项相等的最大项.\nA. ①②\nB. ②④\nC. ③④\nD. ②③",
+    "question_text": "已知数列$$\\left { {{a}_{n}} \\right }$$满足$${{a}_{n}}=n\\cdot {{k}^{n}}(n\\in {{N}^{*}},0\\textless{}k\\textless{}1)$$下面说法正确的是（~ ）．  ①$$k=\\frac{1}{2}$$时，数列$$\\left { {{a}_{n}} \\right }$$为递减数列；  ②$$\\frac{1}{2}\\textless{}k\\textless{}1$$时，数列$$\\left { {{a}_{n}} \\right }$$不一定有最大项；  ③$$0\\textless{}k\\textless{}\\frac{1}{2}$$时，数列$$\\left { {{a}_{n}} \\right }$$为递减数列；  ④当$$\\frac{k}{1-k}$$为正整数时，数列$$\\left { {{a}_{n}} \\right }$$必有两项相等的最大项.\nA. ①②\nB. ②④\nC. ③④\nD. ②③",
     "answer": "C. ③④",
-    "solution": "①当$$k=\\frac{1},{2}$$时，$${{a}_{n}}=n\\cdot {{\\left( \\frac{1},{2} \\right)}^{n}}(n\\in {{N}^{*}})$$，$$\\because {{a}_{1}}=\\frac{1},{2},{{a}_{2}}=2\\times \\frac{1},{4}=\\frac{1},{2}$$，$$\\therefore {{a}_{1}}={{a}_{2}}$$，  即数列$$\\left { {{a}_{n}} \\right }$$不是递减数列，$$\\therefore $$①错误；  ②当$$\\frac{1},{2}\\textless{}k\\textless{}1$$时，$$\\frac{{{a}_{n+1}}},{{{a}_{n}}}=\\frac{(n+1)\\cdot {{k}^{n+1}}},{n\\cdot {{k}^{n}}}=\\frac{(n+1)k},{n}$$，  $$\\therefore k\\textless\\frac{k(n+1)},{n}\\textless2k$$，因此数列$$\\left { {{a}_{n}} \\right }$$可有最大项，因此错误；  ③当$$0\\textless{}k\\textless{}\\frac{1},{2}$$时，$$\\frac{{{a}_{n+1}}},{{{a}_{n}}}=\\frac{(n+1)\\cdot {{k}^{n+1}}},{n\\cdot {{k}^{n}}}=\\frac{(n+1)k},{n}\\textless{}\\frac{n+1},{2n}\\leqslant 1$$，  $$\\therefore {{a}_{n+1}}\\textless{{a}_{n}}$$，故数列$$\\left { {{a}_{n}} \\right }$$为递减数列；  ④当$$\\frac{k},{1-k}$$为正整数时，$$\\frac{{{a}_{n+1}}},{{{a}_{n}}}=\\frac{(n+1)\\cdot {{k}^{n+1}}},{n\\cdot {{k}^{n}}}=\\frac{(n+1)k},{n}$$，  $$\\therefore $$当$$\\frac{k},{1-k}$$为正整数时，$$1\\textgreater k\\geqslant \\begin{matrix} 1    2   \\end{matrix}$$，  即当$$k=\\frac{1},{2}$$时，$${{a}_{1}}={{a}_{2}}\\textgreater{{a}_{3}}\\textgreater{{a}_{4}}\\textgreater\\cdots $$  当$$1\\textgreater k\\textgreater\\frac{1},{2}$$时，令$$\\frac{k},{1-k}=m\\in {{\\mathbf{N}}^{*}}$$，解得$$k=\\frac{m},{1+m}$$，则$$\\frac{{{a}_{n+1}}},{{{a}_{n}}}=\\frac{(n+1)m},{n(1+m)}$$，  综上数列$$\\left { {{a}_{n}} \\right }$$必有两项相等的最大项．",
+    "solution": "①当$$k=\\frac{1}{2}$$时，$${{a}_{n}}=n\\cdot {{\\left( \\frac{1}{2} \\right)}^{n}}(n\\in {{N}^{*}})$$，$$\\because {{a}_{1}}=\\frac{1}{2},{{a}_{2}}=2\\times \\frac{1}{4}=\\frac{1}{2}$$，$$\\therefore {{a}_{1}}={{a}_{2}}$$，  即数列$$\\left { {{a}_{n}} \\right }$$不是递减数列，$$\\therefore $$①错误；  ②当$$\\frac{1}{2}\\textless{}k\\textless{}1$$时，$$\\frac{{{a}_{n+1}}}{{{a}_{n}}}=\\frac{(n+1)\\cdot {{k}^{n+1}}}{n\\cdot {{k}^{n}}}=\\frac{(n+1)k}{n}$$，  $$\\therefore k\\textless\\frac{k(n+1)}{n}\\textless2k$$，因此数列$$\\left { {{a}_{n}} \\right }$$可有最大项，因此错误；  ③当$$0\\textless{}k\\textless{}\\frac{1}{2}$$时，$$\\frac{{{a}_{n+1}}}{{{a}_{n}}}=\\frac{(n+1)\\cdot {{k}^{n+1}}}{n\\cdot {{k}^{n}}}=\\frac{(n+1)k}{n}\\textless{}\\frac{n+1}{2n}\\leqslant 1$$，  $$\\therefore {{a}_{n+1}}\\textless{{a}_{n}}$$，故数列$$\\left { {{a}_{n}} \\right }$$为递减数列；  ④当$$\\frac{k}{1-k}$$为正整数时，$$\\frac{{{a}_{n+1}}}{{{a}_{n}}}=\\frac{(n+1)\\cdot {{k}^{n+1}}}{n\\cdot {{k}^{n}}}=\\frac{(n+1)k}{n}$$，  $$\\therefore $$当$$\\frac{k}{1-k}$$为正整数时，$$1\\textgreater k\\geqslant \\begin{matrix} 1    2   \\end{matrix}$$，  即当$$k=\\frac{1}{2}$$时，$${{a}_{1}}={{a}_{2}}\\textgreater{{a}_{3}}\\textgreater{{a}_{4}}\\textgreater\\cdots $$  当$$1\\textgreater k\\textgreater\\frac{1}{2}$$时，令$$\\frac{k}{1-k}=m\\in {{\\mathbf{N}}^{*}}$$，解得$$k=\\frac{m}{1+m}$$，则$$\\frac{{{a}_{n+1}}}{{{a}_{n}}}=\\frac{(n+1)m}{n(1+m)}$$，  综上数列$$\\left { {{a}_{n}} \\right }$$必有两项相等的最大项．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -433,9 +433,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "设$$x$$，$$y$$是正实数，且$$x+y=1$$，则$$\\frac{{{x}^{2}}},{x+2}+\\frac{{{y}^{2}}},{y+1}$$的最小值是~\\uline{~~~~~~~~~~}~．\nA. $$\\frac{1},{4}$$\nB. $$\\frac{4},{15}$$\nC. $$\\frac{1},{2}$$\nD. $$\\frac{1},{3}$$",
-    "answer": "A. $$\\frac{1},{4}$$",
-    "solution": "设$$x+2=s$$，$$y+1=t$$，则$$s+t=x+y+3=4$$，  所以$$\\frac{{{x}^{2}}},{x+2}+\\frac{{{y}^{2}}},{y+1}$$  $$=\\frac{{{(s-2)}^{2}}},{s}+\\frac{{{(t-1)}^{2}}},{t}$$  $$=\\left( s-4+\\frac{4},{s} \\right)+\\left( t-2+\\frac{1},{t} \\right)$$  $$=(s+t)+\\left( \\frac{4},{s}+\\frac{1},{t} \\right)-6$$  $$=\\left( \\frac{4},{s}+\\frac{1},{t} \\right)-2$$．  因为$$\\frac{4},{s}+\\frac{1},{t}=\\frac{1},{4}\\left( \\frac{4},{s}+\\frac{1},{t} \\right)(s+t)$$  $$=\\frac{1},{4}\\left( \\frac{4t},{s}+\\frac{s},{t}+5 \\right)\\geqslant \\frac{9},{4}$$，  当且仅当$\\left {\\begin{align}\\&\\frac{4t},{s}=\\frac{s},{t}  \\&s+t=4\\end{align}\\right.$即$\\left {\\begin{align}\\&s=\\frac83  \\&t=\\frac43\\end{align}\\right.$也即$\\left {\\begin{align}\\&x=\\frac23  \\&y=\\frac13\\end{align}\\right.$时取等，  故当$x=\\frac23,y=\\frac13$时，$\\frac{{{x}^{2}}},{x+2}+\\frac{{{y}^{2}}},{y+1}$取得最小值$\\frac{1},{4}$．",
+    "question_text": "设$$x$$，$$y$$是正实数，且$$x+y=1$$，则$$\\frac{{{x}^{2}}}{x+2}+\\frac{{{y}^{2}}}{y+1}$$的最小值是~\\uline{~~~~~~~~~~}~．\nA. $$\\frac{1}{4}$$\nB. $$\\frac{4}{15}$$\nC. $$\\frac{1}{2}$$\nD. $$\\frac{1}{3}$$",
+    "answer": "A. $$\\frac{1}{4}$$",
+    "solution": "设$$x+2=s$$，$$y+1=t$$，则$$s+t=x+y+3=4$$，  所以$$\\frac{{{x}^{2}}}{x+2}+\\frac{{{y}^{2}}}{y+1}$$  $$=\\frac{{{(s-2)}^{2}}}{s}+\\frac{{{(t-1)}^{2}}}{t}$$  $$=\\left( s-4+\\frac{4}{s} \\right)+\\left( t-2+\\frac{1}{t} \\right)$$  $$=(s+t)+\\left( \\frac{4}{s}+\\frac{1}{t} \\right)-6$$  $$=\\left( \\frac{4}{s}+\\frac{1}{t} \\right)-2$$．  因为$$\\frac{4}{s}+\\frac{1}{t}=\\frac{1}{4}\\left( \\frac{4}{s}+\\frac{1}{t} \\right)(s+t)$$  $$=\\frac{1}{4}\\left( \\frac{4t}{s}+\\frac{s}{t}+5 \\right)\\geqslant \\frac{9}{4}$$，  当且仅当$\\left {\\begin{align}\\&\\frac{4t}{s}=\\frac{s}{t}  \\&s+t=4\\end{align}\\right.$即$\\left {\\begin{align}\\&s=\\frac83  \\&t=\\frac43\\end{align}\\right.$也即$\\left {\\begin{align}\\&x=\\frac23  \\&y=\\frac13\\end{align}\\right.$时取等，  故当$x=\\frac23,y=\\frac13$时，$\\frac{{{x}^{2}}}{x+2}+\\frac{{{y}^{2}}}{y+1}$取得最小值$\\frac{1}{4}$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -457,9 +457,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知锐角$$\\alpha $$，$$\\beta $$满足条件：$$\\frac{{{\\sin }^{4}}\\alpha },{{{\\cos }^{2}}\\beta }+\\frac{{{\\cos }^{4}}\\alpha },{{{\\sin }^{2}}\\beta }=1$$，则$$\\alpha +\\beta =$$~\\uline{~~~~~~~~~~}~．\nA. $$\\frac{ \\pi },{4}$$\nB. $$\\frac{ \\pi },{2}$$\nC. $$\\frac{ 2\\pi },{3}$$\nD. $${ \\pi }$$",
-    "answer": "B. $$\\frac{ \\pi },{2}$$",
-    "solution": "∵$$\\frac{{{\\sin }^{4}}\\alpha },{{{\\cos }^{2}}\\beta }+\\frac{{{\\cos }^{4}}\\alpha },{{{\\sin }^{2}}\\beta }=1$$，  即$$\\frac{{{\\sin }^{4}}\\alpha },{{{\\cos }^{2}}\\beta }+\\frac{{{\\cos }^{4}}\\alpha },{{{\\sin }^{2}}\\beta }-1={{\\left( \\frac{{{\\sin }^{2}}\\alpha },{\\cos \\beta }-\\cos \\beta \\right)}^{2}}+{{\\left( \\frac{{{\\cos }^{2}}\\alpha },{\\sin \\beta }-\\sin \\beta \\right)}^{2}}=0$$，  ∴$$\\frac{{{\\sin }^{2}}\\alpha },{\\cos \\beta }-\\cos \\beta =0$$，$$\\frac{{{\\cos }^{2}}\\alpha },{\\sin \\beta }-\\sin \\beta =0$$，  ∴$${{\\sin }^{2}}\\alpha ={{\\cos }^{2}}\\beta $$，$${{\\cos }^{2}}\\alpha ={{\\sin }^{2}}\\beta $$，  根据$$\\alpha $$、$$\\beta $$为锐角，可得$$\\alpha +\\beta =90{}^{}\\circ $$．  故答案为：$$90{}^{}\\circ $$．  由柯西不等式，$$\\left( {{\\cos }^{2}}\\beta +{{\\sin }^{2}}\\beta \\right)\\left( \\frac{{{\\sin }^{4}}\\alpha },{{{\\cos }^{2}}\\beta }+\\frac{{{\\cos }^{4}}\\alpha },{{{\\sin }^{2}}\\beta } \\right)\\geqslant {{\\left( {{\\sin }^{2}}\\alpha +{{\\cos }^{2}}\\alpha \\right)}^{2}}=1$$，  因此，$$\\frac{{{\\cos }^{4}}\\beta },{{{\\sin }^{4}}\\alpha }=\\frac{{{\\sin }^{4}}\\beta },{{{\\cos }^{4}}\\alpha }$$，即$$\\cos \\alpha \\cos \\beta =\\sin \\alpha \\sin \\beta $$，$$\\cos \\left( \\alpha +\\beta \\right)=0$$，故$$\\alpha +\\beta =\\frac{ \\pi },{2}$$．  故答案为：$$\\frac{ \\pi },{2}$$．",
+    "question_text": "已知锐角$$\\alpha $$，$$\\beta $$满足条件：$$\\frac{{{\\sin }^{4}}\\alpha }{{{\\cos }^{2}}\\beta }+\\frac{{{\\cos }^{4}}\\alpha }{{{\\sin }^{2}}\\beta }=1$$，则$$\\alpha +\\beta =$$~\\uline{~~~~~~~~~~}~．\nA. $$\\frac{ \\pi }{4}$$\nB. $$\\frac{ \\pi }{2}$$\nC. $$\\frac{ 2\\pi }{3}$$\nD. $${ \\pi }$$",
+    "answer": "B. $$\\frac{ \\pi }{2}$$",
+    "solution": "∵$$\\frac{{{\\sin }^{4}}\\alpha }{{{\\cos }^{2}}\\beta }+\\frac{{{\\cos }^{4}}\\alpha }{{{\\sin }^{2}}\\beta }=1$$，  即$$\\frac{{{\\sin }^{4}}\\alpha }{{{\\cos }^{2}}\\beta }+\\frac{{{\\cos }^{4}}\\alpha }{{{\\sin }^{2}}\\beta }-1={{\\left( \\frac{{{\\sin }^{2}}\\alpha }{\\cos \\beta }-\\cos \\beta \\right)}^{2}}+{{\\left( \\frac{{{\\cos }^{2}}\\alpha }{\\sin \\beta }-\\sin \\beta \\right)}^{2}}=0$$，  ∴$$\\frac{{{\\sin }^{2}}\\alpha }{\\cos \\beta }-\\cos \\beta =0$$，$$\\frac{{{\\cos }^{2}}\\alpha }{\\sin \\beta }-\\sin \\beta =0$$，  ∴$${{\\sin }^{2}}\\alpha ={{\\cos }^{2}}\\beta $$，$${{\\cos }^{2}}\\alpha ={{\\sin }^{2}}\\beta $$，  根据$$\\alpha $$、$$\\beta $$为锐角，可得$$\\alpha +\\beta =90{}^{}\\circ $$．  故答案为：$$90{}^{}\\circ $$．  由柯西不等式，$$\\left( {{\\cos }^{2}}\\beta +{{\\sin }^{2}}\\beta \\right)\\left( \\frac{{{\\sin }^{4}}\\alpha }{{{\\cos }^{2}}\\beta }+\\frac{{{\\cos }^{4}}\\alpha }{{{\\sin }^{2}}\\beta } \\right)\\geqslant {{\\left( {{\\sin }^{2}}\\alpha +{{\\cos }^{2}}\\alpha \\right)}^{2}}=1$$，  因此，$$\\frac{{{\\cos }^{4}}\\beta }{{{\\sin }^{4}}\\alpha }=\\frac{{{\\sin }^{4}}\\beta }{{{\\cos }^{4}}\\alpha }$$，即$$\\cos \\alpha \\cos \\beta =\\sin \\alpha \\sin \\beta $$，$$\\cos \\left( \\alpha +\\beta \\right)=0$$，故$$\\alpha +\\beta =\\frac{ \\pi }{2}$$．  故答案为：$$\\frac{ \\pi }{2}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -493,9 +493,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "设$$n$$为正整数，二项式$${{\\left( {{x}^{2}}+\\frac{1},{{{x}^{3}}} \\right)}^{n}}$$的展开式中含有$${{x}^{7}}$$的项，则$$n$$的最小值为（~ ）．\nA. $$4$$\nB. $$5$$\nC. $$6$$\nD. $$7$$",
+    "question_text": "设$$n$$为正整数，二项式$${{\\left( {{x}^{2}}+\\frac{1}{{{x}^{3}}} \\right)}^{n}}$$的展开式中含有$${{x}^{7}}$$的项，则$$n$$的最小值为（~ ）．\nA. $$4$$\nB. $$5$$\nC. $$6$$\nD. $$7$$",
     "answer": "C. $$6$$",
-    "solution": "$${{T}_{r+1}}=C_{n}^{r},{{({{x}^{2}})}^{n-r}},{{\\left( \\frac{1},{{{x}^{3}}} \\right)}^{r}}=C_{n}^{r},{{x}^{2}}^{n-5r}$$．令$$2n-5r=7$$，所以$$r=1$$时，$$n$$取得最小值$$6$$．选$$\\text{C}$$．",
+    "solution": "$${{T}_{r+1}}=C_{n}^{r},{{({{x}^{2}})}^{n-r}},{{\\left( \\frac{1}{{{x}^{3}}} \\right)}^{r}}=C_{n}^{r},{{x}^{2}}^{n-5r}$$．令$$2n-5r=7$$，所以$$r=1$$时，$$n$$取得最小值$$6$$．选$$\\text{C}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -536,9 +536,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知椭圆$C$：$\\frac{x^{2}},{a^{2}}+\\frac{y^{2}},{b^{2}}=1\\left(a\\textgreater{} b\\textgreater{} 0\\right)$的左、右焦点为$F_{1}$，$F_{2}$，点$A\\left(-2,2\\right)$为椭圆$C$内一点，点$Q\\left(a,b\\right)$在双曲线$E$：$\\frac{x^{2}},{4}-\\frac{y^{2}},{4}=1$上，若椭圆上存在一点$P$，使得$\\left\\textbar{} PA\\right\\textbar{} +\\left\\textbar{} PF_{2}\\right\\textbar{} =8$，则$a$的取值范围是（~~~~~~~）\nA. $\\left(\\sqrt{5}+1,5\\right]$\nB. $\\left[3,5\\right]$\nC. $\\left(\\sqrt{5}+1,2\\sqrt{5}\\right]$\nD. $\\left[\\sqrt{3},\\sqrt{5}\\right]$",
+    "question_text": "已知椭圆$C$：$\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1\\left(a\\textgreater{} b\\textgreater{} 0\\right)$的左、右焦点为$F_{1}$，$F_{2}$，点$A\\left(-2,2\\right)$为椭圆$C$内一点，点$Q\\left(a,b\\right)$在双曲线$E$：$\\frac{x^{2}}{4}-\\frac{y^{2}}{4}=1$上，若椭圆上存在一点$P$，使得$\\left\\textbar{} PA\\right\\textbar{} +\\left\\textbar{} PF_{2}\\right\\textbar{} =8$，则$a$的取值范围是（~~~~~~~）\nA. $\\left(\\sqrt{5}+1,5\\right]$\nB. $\\left[3,5\\right]$\nC. $\\left(\\sqrt{5}+1,2\\sqrt{5}\\right]$\nD. $\\left[\\sqrt{3},\\sqrt{5}\\right]$",
     "answer": "A. $\\left(\\sqrt{5}+1,5\\right]$",
-    "solution": "\\hfill\\break 【分析】\\\\ 先求出椭圆左焦点$F_{1}$坐标为$(-2,0)$，由题得$\\textbar{} \\left\\textbar{} PA\\right\\textbar{} -\\left\\textbar{} PF_{1}\\right\\textbar{} \\textbar{} =\\textbar{} 8-2a\\textbar{} \\leq \\textbar{} AF_{1}\\textbar{} =2$，解不等式得到$3\\leq a\\leq 5$，再解不等式$\\frac{4},{a^{2}}+\\frac{4},{4-a^{2}}\\textless{} 1$即得解.\\\\ 【详解】\\\\ 点$Q\\left(a,b\\right)$在双曲线$E$：$\\frac{x^{2}},{4}-\\frac{y^{2}},{4}=1$上，所以$a^{2}-b^{2}=4$.\\\\ 所以椭圆左焦点$F_{1}$坐标为$(-2,0)$.\\\\ 因为$\\left\\textbar{} PA\\right\\textbar{} +\\left\\textbar{} PF_{2}\\right\\textbar{} =8$，所以$\\left\\textbar{} PA\\right\\textbar{} +2a-\\left\\textbar{} PF_{1}\\right\\textbar{} =8,\\therefore \\textbar{} \\left\\textbar{} PA\\right\\textbar{} -\\left\\textbar{} PF_{1}\\right\\textbar{} \\textbar{} =\\textbar{} 8-2a\\textbar{} \\leq \\textbar{} AF_{1}\\textbar{} =2$,\\\\ 所以$3\\leq a\\leq 5$.\\\\ 因为$a^{2}-b^{2}=4$，所以$b^{2}=a^{2}-4$.\\\\ 点$A\\left(-2,2\\right)$为椭圆$C$内一点，所以$\\frac{4},{a^{2}}+\\frac{4},{b^{2}}\\textless{} 1,\\therefore \\frac{4},{a^{2}}+\\frac{4},{a^{2}-4}\\textless{} 1$，\\\\ 所以$a^{4}-12a^{2}+16\\textgreater{} 0,\\therefore a\\textgreater{} \\sqrt{5}+1$或$a\\textless{} \\sqrt{5}-1$.\\\\ 综上：$\\sqrt{5}+1\\textless{} a\\leq 5$.\\\\ 故选：A",
+    "solution": "\\hfill\\break 【分析】\\\\ 先求出椭圆左焦点$F_{1}$坐标为$(-2,0)$，由题得$\\textbar{} \\left\\textbar{} PA\\right\\textbar{} -\\left\\textbar{} PF_{1}\\right\\textbar{} \\textbar{} =\\textbar{} 8-2a\\textbar{} \\leq \\textbar{} AF_{1}\\textbar{} =2$，解不等式得到$3\\leq a\\leq 5$，再解不等式$\\frac{4}{a^{2}}+\\frac{4}{4-a^{2}}\\textless{} 1$即得解.\\\\ 【详解】\\\\ 点$Q\\left(a,b\\right)$在双曲线$E$：$\\frac{x^{2}}{4}-\\frac{y^{2}}{4}=1$上，所以$a^{2}-b^{2}=4$.\\\\ 所以椭圆左焦点$F_{1}$坐标为$(-2,0)$.\\\\ 因为$\\left\\textbar{} PA\\right\\textbar{} +\\left\\textbar{} PF_{2}\\right\\textbar{} =8$，所以$\\left\\textbar{} PA\\right\\textbar{} +2a-\\left\\textbar{} PF_{1}\\right\\textbar{} =8,\\therefore \\textbar{} \\left\\textbar{} PA\\right\\textbar{} -\\left\\textbar{} PF_{1}\\right\\textbar{} \\textbar{} =\\textbar{} 8-2a\\textbar{} \\leq \\textbar{} AF_{1}\\textbar{} =2$,\\\\ 所以$3\\leq a\\leq 5$.\\\\ 因为$a^{2}-b^{2}=4$，所以$b^{2}=a^{2}-4$.\\\\ 点$A\\left(-2,2\\right)$为椭圆$C$内一点，所以$\\frac{4}{a^{2}}+\\frac{4}{b^{2}}\\textless{} 1,\\therefore \\frac{4}{a^{2}}+\\frac{4}{a^{2}-4}\\textless{} 1$，\\\\ 所以$a^{4}-12a^{2}+16\\textgreater{} 0,\\therefore a\\textgreater{} \\sqrt{5}+1$或$a\\textless{} \\sqrt{5}-1$.\\\\ 综上：$\\sqrt{5}+1\\textless{} a\\leq 5$.\\\\ 故选：A",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -552,7 +552,7 @@
   {
     "question_text": "求$$y=\\sqrt{{{x}^{2}}-{{x}^{4}}}+\\sqrt{2{{x}^{2}}-{{x}^{4}}}$$的最大值为 ．\nA. $2$\nB. $\\sqrt{2}$\nC. $2\\sqrt{2}$\nD. $4$",
     "answer": "B. $\\sqrt{2}$",
-    "solution": "由柯西不等式，$${{\\left( \\sqrt{{{x}^{2}}\\left( 1-{{x}^{2}} \\right)}+\\sqrt{\\left( 2-{{x}^{2}} \\right){{x}^{2}}} \\right)}^{2}}\\leqslant \\left( {{x}^{2}}+2-{{x}^{2}} \\right)\\left( 1-{{x}^{2}}+{{x}^{2}} \\right)=2$$，当$$x=\\pm \\frac{\\sqrt{6}},{3}$$时取等号．",
+    "solution": "由柯西不等式，$${{\\left( \\sqrt{{{x}^{2}}\\left( 1-{{x}^{2}} \\right)}+\\sqrt{\\left( 2-{{x}^{2}} \\right){{x}^{2}}} \\right)}^{2}}\\leqslant \\left( {{x}^{2}}+2-{{x}^{2}} \\right)\\left( 1-{{x}^{2}}+{{x}^{2}} \\right)=2$$，当$$x=\\pm \\frac{\\sqrt{6}}{3}$$时取等号．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -575,7 +575,7 @@
   {
     "question_text": "已知关于$$x$$、$$y$$的方程组$$\\begin{cases},{{x}^{2}}+{{y}^{2}}=2{{k}^{2}}   kx-y=2k \\end{cases}$$仅有一组实数解，则符合条件的实数$$k$$的个数是．\nA. $$1$$\nB. $$2$$\nC. $$3$$\nD. $$4$$",
     "answer": "C. $$3$$",
-    "solution": "若$$k=0$$，显然方程组仅有一组解$$(0,0)$$，故$$k=0$$符合条件；若$$k\\ne 0$$，则$${{x}^{2}}+{{y}^{2}}=2{{k}^{2}}$$的图象是一个以$$(0,0)$$为圆心，以$$r=\\sqrt{2}\\textbar k\\textbar$$为半径的圆，而$$kx-y=2k$$表示直线．由题设条件知$$\\frac{\\textbar2k\\textbar},{\\sqrt{{{k}^{2}}+1}}=\\sqrt{2}\\textbar k\\textbar$$，即$$\\frac{4{{k}^{2}}},{1+{{k}^{2}}}=2{{k}^{2}}$$，解得$$k=\\pm 1$$．  综上所述，符合条件的实数$$k$$共有$$3$$个．",
+    "solution": "若$$k=0$$，显然方程组仅有一组解$$(0,0)$$，故$$k=0$$符合条件；若$$k\\ne 0$$，则$${{x}^{2}}+{{y}^{2}}=2{{k}^{2}}$$的图象是一个以$$(0,0)$$为圆心，以$$r=\\sqrt{2}\\textbar k\\textbar$$为半径的圆，而$$kx-y=2k$$表示直线．由题设条件知$$\\frac{\\textbar2k\\textbar}{\\sqrt{{{k}^{2}}+1}}=\\sqrt{2}\\textbar k\\textbar$$，即$$\\frac{4{{k}^{2}}}{1+{{k}^{2}}}=2{{k}^{2}}$$，解得$$k=\\pm 1$$．  综上所述，符合条件的实数$$k$$共有$$3$$个．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -592,9 +592,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "函数$$y={{\\cos }^{2}}x+\\sqrt{3}\\sin x\\cos x$$在区间$$\\left[ -\\frac{\\pi },{6},\\frac{\\pi },{4} \\right]$$上的值域是．\nA. $$\\left[ -\\frac{1},{2},1 \\right]$$\nB. $$\\left[ -\\frac{1},{2},\\frac{\\sqrt{3}},{2} \\right]$$\nC. $$\\left[ 0,\\frac{3},{2} \\right]$$\nD. $$\\left[ 0,\\frac{\\sqrt{3}+1},{2} \\right]$$",
-    "answer": "C. $$\\left[ 0,\\frac{3},{2} \\right]$$",
-    "solution": "由题意得：$$y={{\\cos }^{2}}x+\\sqrt{3}\\sin x\\cdot \\cos x$$  $$=\\frac{1},{2}\\cos 2x+\\frac{1},{2}+\\frac{\\sqrt{3}},{2}\\sin 2x$$  $$=\\sin \\left( 2x+\\frac{ \\pi },{6} \\right)+\\frac{1},{2}$$，  由$$x\\in \\left[ -\\frac{ \\pi },{6},\\frac{ \\pi },{4} \\right]$$，  且据$$\\sin \\left( 2x+\\frac{ \\pi },{6} \\right)+\\frac{1},{2}$$的单调性可知，  当$$x=-\\frac{ \\pi },{6}$$时，$$y$$取最小值$$0$$，  当$$x=\\frac{ \\pi },{6}$$时，$$y$$取最大值$$\\frac{3},{2}$$．  因此$$y\\in \\left[ 0,\\frac{3},{2} \\right]$$．",
+    "question_text": "函数$$y={{\\cos }^{2}}x+\\sqrt{3}\\sin x\\cos x$$在区间$$\\left[ -\\frac{\\pi }{6},\\frac{\\pi }{4} \\right]$$上的值域是．\nA. $$\\left[ -\\frac{1}{2},1 \\right]$$\nB. $$\\left[ -\\frac{1}{2},\\frac{\\sqrt{3}}{2} \\right]$$\nC. $$\\left[ 0,\\frac{3}{2} \\right]$$\nD. $$\\left[ 0,\\frac{\\sqrt{3}+1}{2} \\right]$$",
+    "answer": "C. $$\\left[ 0,\\frac{3}{2} \\right]$$",
+    "solution": "由题意得：$$y={{\\cos }^{2}}x+\\sqrt{3}\\sin x\\cdot \\cos x$$  $$=\\frac{1}{2}\\cos 2x+\\frac{1}{2}+\\frac{\\sqrt{3}}{2}\\sin 2x$$  $$=\\sin \\left( 2x+\\frac{ \\pi }{6} \\right)+\\frac{1}{2}$$，  由$$x\\in \\left[ -\\frac{ \\pi }{6},\\frac{ \\pi }{4} \\right]$$，  且据$$\\sin \\left( 2x+\\frac{ \\pi }{6} \\right)+\\frac{1}{2}$$的单调性可知，  当$$x=-\\frac{ \\pi }{6}$$时，$$y$$取最小值$$0$$，  当$$x=\\frac{ \\pi }{6}$$时，$$y$$取最大值$$\\frac{3}{2}$$．  因此$$y\\in \\left[ 0,\\frac{3}{2} \\right]$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -623,9 +623,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "函数$$f(x)=\\begin{cases}\\sin (\\pi{{x}^{2}}),-1\\textless{}x\\textless{}0    {{\\text{e}}^{x-1}},x\\geqslant 0 \\end{cases}$$若$$f(1)+f(a)=2$$，则$$a$$的所有可能值为（ ）．\nA. $$1$$\nB. $$-\\frac{\\sqrt{2}},{2}$$\nC. $$1$$，$$-\\frac{\\sqrt{2}},{2}$$\nD. $$1$$，$$\\frac{\\sqrt{2}},{2}$$",
-    "answer": "C. $$1$$，$$-\\frac{\\sqrt{2}},{2}$$",
-    "solution": "由题意知，当$$-1\\textless{}x\\textless{}0$$时，$$f(x)=\\sin (\\pi{{x}^{2}})$$；  当$$x\\geqslant 0$$时，$$f(x)={{\\text{e}}^{x-1}}$$；  ∴$$f(1)={{\\text{e}}^{1-1}}=1$$．  若$$f(1)+f(a)=2$$，则$$f(a)=1$$；  当$$a\\geqslant 0$$时，$${{\\text{e}}^{a-1}}=1$$，  ∴$$a=1$$；  当$$-1\\textless{}a\\textless{}0$$时，$$\\sin (\\pi{{x}^{2}})=1$$，  ∴$${{x}^{2}}=\\frac{1},{2}$$，$$x=\\frac{\\sqrt{2}},{2}$$（不满足条件，舍去），或$$x=-\\frac{\\sqrt{2}},{2}$$．  所以$$a$$的所有可能值为：$$1$$，$$-\\frac{\\sqrt{2}},{2}$$．  故答案为：$$\\text{C}$$．",
+    "question_text": "函数$$f(x)=\\begin{cases}\\sin (\\pi{{x}^{2}}),-1\\textless{}x\\textless{}0    {{\\text{e}}^{x-1}},x\\geqslant 0 \\end{cases}$$若$$f(1)+f(a)=2$$，则$$a$$的所有可能值为（ ）．\nA. $$1$$\nB. $$-\\frac{\\sqrt{2}}{2}$$\nC. $$1$$，$$-\\frac{\\sqrt{2}}{2}$$\nD. $$1$$，$$\\frac{\\sqrt{2}}{2}$$",
+    "answer": "C. $$1$$，$$-\\frac{\\sqrt{2}}{2}$$",
+    "solution": "由题意知，当$$-1\\textless{}x\\textless{}0$$时，$$f(x)=\\sin (\\pi{{x}^{2}})$$；  当$$x\\geqslant 0$$时，$$f(x)={{\\text{e}}^{x-1}}$$；  ∴$$f(1)={{\\text{e}}^{1-1}}=1$$．  若$$f(1)+f(a)=2$$，则$$f(a)=1$$；  当$$a\\geqslant 0$$时，$${{\\text{e}}^{a-1}}=1$$，  ∴$$a=1$$；  当$$-1\\textless{}a\\textless{}0$$时，$$\\sin (\\pi{{x}^{2}})=1$$，  ∴$${{x}^{2}}=\\frac{1}{2}$$，$$x=\\frac{\\sqrt{2}}{2}$$（不满足条件，舍去），或$$x=-\\frac{\\sqrt{2}}{2}$$．  所以$$a$$的所有可能值为：$$1$$，$$-\\frac{\\sqrt{2}}{2}$$．  故答案为：$$\\text{C}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -670,9 +670,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "设实数$$r\\textgreater1$$，如果复平面上的动点$$z$$满足$$\\textbar z\\textbar=r$$，则动点$$\\omega =z+\\frac{1},{z}$$的轨迹是（~ ）．\nA. 焦距为$$4$$的椭圆\nB. 焦距为$$\\frac{4},{r}$$的椭圆\nC. 焦距为$$2$$的椭圆\nD. 焦距为$$\\frac{2},{r}$$的椭圆",
+    "question_text": "设实数$$r\\textgreater1$$，如果复平面上的动点$$z$$满足$$\\textbar z\\textbar=r$$，则动点$$\\omega =z+\\frac{1}{z}$$的轨迹是（~ ）．\nA. 焦距为$$4$$的椭圆\nB. 焦距为$$\\frac{4}{r}$$的椭圆\nC. 焦距为$$2$$的椭圆\nD. 焦距为$$\\frac{2}{r}$$的椭圆",
     "answer": "A. 焦距为$$4$$的椭圆",
-    "solution": "令$$z=r\\left( \\cos \\theta +\\text{i}\\sin \\theta \\right)$$，则  $$\\omega =r\\left( \\cos \\theta +\\text{i}\\sin \\theta \\right)+\\frac{1},{r}\\left( \\cos \\theta -\\text{i}\\sin \\theta \\right)=\\left( r+\\frac{1},{r} \\right)\\cos \\theta +\\text{i}\\cdot \\left( r-\\frac{1},{r} \\right)\\sin \\theta $$，  设$$\\omega =x+y\\text{i}$$，则$$\\frac{{{x}^{2}}},{{{\\left( r+\\frac{1},{r} \\right)}^{2}}}+\\frac{{{y}^{2}}},{{{\\left( r-\\frac{1},{r} \\right)}^{2}}}=1$$，  这是一个椭圆．$${{c}^{2}}={{\\left( r+\\frac{1},{r} \\right)}^{2}}-{{\\left( r-\\frac{1},{r} \\right)}^{2}}=4$$，焦距为$$4$$．",
+    "solution": "令$$z=r\\left( \\cos \\theta +\\text{i}\\sin \\theta \\right)$$，则  $$\\omega =r\\left( \\cos \\theta +\\text{i}\\sin \\theta \\right)+\\frac{1}{r}\\left( \\cos \\theta -\\text{i}\\sin \\theta \\right)=\\left( r+\\frac{1}{r} \\right)\\cos \\theta +\\text{i}\\cdot \\left( r-\\frac{1}{r} \\right)\\sin \\theta $$，  设$$\\omega =x+y\\text{i}$$，则$$\\frac{{{x}^{2}}}{{{\\left( r+\\frac{1}{r} \\right)}^{2}}}+\\frac{{{y}^{2}}}{{{\\left( r-\\frac{1}{r} \\right)}^{2}}}=1$$，  这是一个椭圆．$${{c}^{2}}={{\\left( r+\\frac{1}{r} \\right)}^{2}}-{{\\left( r-\\frac{1}{r} \\right)}^{2}}=4$$，焦距为$$4$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -694,7 +694,7 @@
   {
     "question_text": "已知$a={{\\text{e}}^{0.2}}-1,b=\\ln 1.2,c=\\tan 0.2$，其中$\\text{e}=2.71828\\cdots $为自然对数的底数，则（~~~~~~~）\nA. $c\\textgreater a\\textgreater b$\nB. $a\\textgreater c\\textgreater b$\nC. $b\\textgreater a\\textgreater c$\nD. $a\\textgreater b\\textgreater c$",
     "answer": "B. $a\\textgreater c\\textgreater b$",
-    "solution": "\\hfill\\break 【分析】\\\\ 观察$a={{\\text{e}}^{0.2}}-1,b=\\ln 1.2,c=\\tan 0.2$，发现都含有$0.2$，把$0.2$换成$x$，自变量在$(0,1)$或其子集范围内构造函数，利用导数证明其单调性，比较$a,b,c$的大小.\\\\ 【详解】\\\\ 令$f(x)={{\\text{e}}^{x}}-1-\\tan x=\\frac{\\cos x{{\\text{e}}^{x}}-\\cos x-\\sin x},{\\cos x}$，$0\\textless{} x\\textless{} \\frac{\\pi },{4}$，\\\\ 令$g(x)=\\cos x{{\\text{e}}^{x}}-\\cos x-\\sin x$，${g}\\textquotesingle(x)=(-\\sin x+\\cos x){{\\text{e}}^{x}}+\\sin x-\\cos x=({{\\text{e}}^{x}}-1)\\cdot (\\cos x-\\sin x)$，\\\\ 当$0\\textless{} x\\textless{} \\frac{\\pi },{4}$时，${g}\\textquotesingle(x)\\textgreater0$，$g(x)$单调递增，\\\\ 又$g(0)=1-1=0$，所以$g(x)\\textgreater0$，又$\\cos x\\textgreater0$，\\\\ 所以$f(x)\\textgreater0$，在$(0,\\frac{\\pi },{4})$成立，所以$f(0.2)\\textgreater0$即$a\\textgreater c$，\\\\ 令$h(x)=\\ln (x+1)-x$，${h}\\textquotesingle(x)=\\frac{1},{x+1}-1=\\frac{-x},{x+1}$，$h(x)$在$x\\in (0,\\frac{\\pi },{2})$为减函数，所以$h(x)\\textless{} h(0)=0$，即$\\ln (x+1)\\textless{} x$，\\\\ 令$m(x)=x-\\tan x$，${m}\\textquotesingle(x)=1-\\frac{1},{{{\\cos }^{2}}x}$，$m(x)$在$x\\in (0,\\frac{\\pi },{2})$为减函数，所以$m(x)\\textless{} m(0)=0$，即$x\\textless{} \\tan x$，\\\\ 所以$\\ln (x+1)\\textless{} x\\textless{} \\tan x$，$x\\in (0,\\frac{\\pi },{2})$成立，\\\\ 令$x=0.2$，则上式变为$\\ln (0.2+1)\\textless{} 0.2\\textless{} \\tan 0.2$，所以$b\\textless{} 0.2\\textless{} c$\\\\ 所以$b\\textless{} c$，\\\\ 所以$b\\textless{} c\\textless{} a$.\\\\ 故答案为：B.\\\\ 【点睛】\\\\ 比较大小题目，是高考的热点，也是难点，通过观察和构造函数是基本的解题要求，难点在于构造后的证明，需要平时多积累常见的结论，达到深入理解，举一反三，融会贯通.",
+    "solution": "\\hfill\\break 【分析】\\\\ 观察$a={{\\text{e}}^{0.2}}-1,b=\\ln 1.2,c=\\tan 0.2$，发现都含有$0.2$，把$0.2$换成$x$，自变量在$(0,1)$或其子集范围内构造函数，利用导数证明其单调性，比较$a,b,c$的大小.\\\\ 【详解】\\\\ 令$f(x)={{\\text{e}}^{x}}-1-\\tan x=\\frac{\\cos x{{\\text{e}}^{x}}-\\cos x-\\sin x}{\\cos x}$，$0\\textless{} x\\textless{} \\frac{\\pi }{4}$，\\\\ 令$g(x)=\\cos x{{\\text{e}}^{x}}-\\cos x-\\sin x$，${g}\\textquotesingle(x)=(-\\sin x+\\cos x){{\\text{e}}^{x}}+\\sin x-\\cos x=({{\\text{e}}^{x}}-1)\\cdot (\\cos x-\\sin x)$，\\\\ 当$0\\textless{} x\\textless{} \\frac{\\pi }{4}$时，${g}\\textquotesingle(x)\\textgreater0$，$g(x)$单调递增，\\\\ 又$g(0)=1-1=0$，所以$g(x)\\textgreater0$，又$\\cos x\\textgreater0$，\\\\ 所以$f(x)\\textgreater0$，在$(0,\\frac{\\pi }{4})$成立，所以$f(0.2)\\textgreater0$即$a\\textgreater c$，\\\\ 令$h(x)=\\ln (x+1)-x$，${h}\\textquotesingle(x)=\\frac{1}{x+1}-1=\\frac{-x}{x+1}$，$h(x)$在$x\\in (0,\\frac{\\pi }{2})$为减函数，所以$h(x)\\textless{} h(0)=0$，即$\\ln (x+1)\\textless{} x$，\\\\ 令$m(x)=x-\\tan x$，${m}\\textquotesingle(x)=1-\\frac{1}{{{\\cos }^{2}}x}$，$m(x)$在$x\\in (0,\\frac{\\pi }{2})$为减函数，所以$m(x)\\textless{} m(0)=0$，即$x\\textless{} \\tan x$，\\\\ 所以$\\ln (x+1)\\textless{} x\\textless{} \\tan x$，$x\\in (0,\\frac{\\pi }{2})$成立，\\\\ 令$x=0.2$，则上式变为$\\ln (0.2+1)\\textless{} 0.2\\textless{} \\tan 0.2$，所以$b\\textless{} 0.2\\textless{} c$\\\\ 所以$b\\textless{} c$，\\\\ 所以$b\\textless{} c\\textless{} a$.\\\\ 故答案为：B.\\\\ 【点睛】\\\\ 比较大小题目，是高考的热点，也是难点，通过观察和构造函数是基本的解题要求，难点在于构造后的证明，需要平时多积累常见的结论，达到深入理解，举一反三，融会贯通.",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -712,7 +712,7 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "设$$x$$，$$y$$，$$z$$均不为$$\\left( k+\\frac{1},{2} \\right)\\pi $$，其中$$k$$为整数，已知$$\\sin \\left( y+z-x \\right)$$，$$\\sin \\left( x+z-y \\right)$$，$$\\sin \\left( x+y-z \\right)$$成等差数列，则依然成等差数列的是．\nA. $$\\sin x$$，$$\\sin y$$，$$\\sin z$$\nB. $$\\cos x$$，$$\\cos y$$，$$\\cos z$$\nC. $$\\tan x$$，$$\\tan y$$，$$\\tan z$$\nD. 前三个答案都不对",
+    "question_text": "设$$x$$，$$y$$，$$z$$均不为$$\\left( k+\\frac{1}{2} \\right)\\pi $$，其中$$k$$为整数，已知$$\\sin \\left( y+z-x \\right)$$，$$\\sin \\left( x+z-y \\right)$$，$$\\sin \\left( x+y-z \\right)$$成等差数列，则依然成等差数列的是．\nA. $$\\sin x$$，$$\\sin y$$，$$\\sin z$$\nB. $$\\cos x$$，$$\\cos y$$，$$\\cos z$$\nC. $$\\tan x$$，$$\\tan y$$，$$\\tan z$$\nD. 前三个答案都不对",
     "answer": "C. $$\\tan x$$，$$\\tan y$$，$$\\tan z$$",
     "solution": "$$\\because \\cos x$$，$$\\cos y$$，$$\\cos z$$均不为$$0$$，  $$2\\sin \\left( x+z-y \\right)=\\sin \\left( x+y-z \\right)+\\sin \\left( y+z-x \\right)$$  $$=2\\sin y\\cdot \\cos \\left( z-y \\right)$$，  $$\\therefore \\sin y\\cos \\left( z-x \\right)=\\sin \\left[ \\left( x+z \\right)-y \\right]$$  $$\\Leftrightarrow \\sin y\\cos \\left( z-x \\right)=\\sin \\left( x+z \\right)\\cos y-\\cos \\left( x+z \\right)\\sin y$$  $$\\Leftrightarrow 2\\sin y\\cos x\\cos z=\\cos y\\sin x\\cos z+\\cos y\\cos x\\sin z$$  $$\\Leftrightarrow 2\\tan y=\\tan x+\\tan z$$，  故选$$\\text{C}$$．",
     "question_type": "选择题",
@@ -735,7 +735,7 @@
   {
     "question_text": "等差数列$$\\left { {{a}_{n}} \\right }$$的前$$n$$项和为$${{S}_{n}}$$，已知$${{S}_{10}}=0$$，$${{S}_{15}}=25$$，则$$n{{S}_{n}}$$的最小值为~\\uline{~~~~~~~~~~}~．\nA. $$-47$$\nB. $$-48$$\nC. $$-49$$\nD. $$-50$$",
     "answer": "C. $$-49$$",
-    "solution": "设等差数列$$\\left { {{a}_{n}} \\right }$$的首项为$${{a}_{1}}$$，公差为$$d$$，由等差数列的前$$n$$项和公式可得$$\\left {\\begin{array},{l},{10 a_{1}+\\dfrac{10 \\times 9},{2} d=0},{15 a_{1}+\\dfrac{15 \\times 14},{2} d=25}\\end{array}\\right.$$，解得$$\\left {\\begin{array},{l},{a_{1}=-3},{d=\\frac{2},{3}}\\end{array}\\right.$$，  ∴$$n S_{n}=n^{2} a_{1}+\\frac{n^{2}(n-1)},{2} d=-3 n^{2}+\\frac{1},{3}\\left(n^{3}-n^{2}\\right)=\\frac{1},{3} n^{3}-\\frac{10 n^{2}},{3}$$，  构造函数$$f(x)=\\frac{1},{3} x^{3}-\\frac{10},{3} x^{2}$$，则$$f^{\\prime}(x)=x^{2}-\\frac{20},{3} x$$，  令$$f^{\\prime}(x)=0$$，解得$$x=0$$或$$x=\\frac{20},{3}$$，  ∴当$$0\\textless x\\textless\\frac{20},{3}$$时，$$f(x)$$单调递减，  当$$x\\textgreater\\frac{20},{3}$$时，$$f(x)$$单调递增，  ∵$$n \\in \\mathbf{N}^{*}$$且当$$n=6$$时，$$n S_{n}=\\frac{1},{3} \\times 6^{3}-\\frac{10 \\times 6^{2}},{3}=-48$$，当$$n=7$$时，$$n S_{n}=\\frac{1},{3} \\times 7^{3}-\\frac{10 \\times 7^{2}},{3}=-49$$，  ∴当$$n=7$$时，$$n S_{n}$$取得最小值$$-49$$．  设等差数列$$\\left { {{a}_{n}} \\right }$$的首项为$${{a}_{1}}$$，公差为$$d$$，  ∵$${{S}_{10}}=10{{a}_{1}}+45d=0$$，$${{S}_{15}}=15{{a}_{1}}+105d=25$$，  ∴$${{a}_{1}}=-3$$，$$d=\\frac{2},{3}$$，  ∴$${{S}_{n}}=n{{a}_{1}}+\\frac{n\\left( n-1 \\right)},{2}d=\\frac{1},{3},{{n}^{2}}-\\frac{10},{3}n$$，  ∴$$n{{S}_{n}}=\\frac{1},{3},{{n}^{3}}-\\frac{10},{3},{{n}^{2}}$$，令$$n{{S}_{n}}=f\\left( n \\right)$$，  ∴$${{f}^{\\prime }}\\left( n \\right)={{n}^{2}}-\\frac{20},{3}n$$，  ∴当$$n=\\frac{20},{3}$$时，$$f\\left( n \\right)$$取得极值，当$$n\\textless{}\\frac{20},{3}$$ 时，$$f\\left( n \\right)$$递减，  当$$n\\textgreater\\frac{20},{3}$$时，$$f\\left( n \\right)$$递增，  因此只需比较$$f\\left( 6 \\right)$$和$$f\\left( 7 \\right)$$的大小即可，  $$f\\left( 6 \\right)=-48$$，$$f\\left( 7 \\right)=-49$$，  故$$n{{S}_{n}}$$的最小值为$$-49$$．  故答案为：$$-49$$．",
+    "solution": "设等差数列$$\\left { {{a}_{n}} \\right }$$的首项为$${{a}_{1}}$$，公差为$$d$$，由等差数列的前$$n$$项和公式可得$$\\left {\\begin{array},{l},{10 a_{1}+\\dfrac{10 \\times 9}{2} d=0},{15 a_{1}+\\dfrac{15 \\times 14}{2} d=25}\\end{array}\\right.$$，解得$$\\left {\\begin{array},{l},{a_{1}=-3},{d=\\frac{2}{3}}\\end{array}\\right.$$，  ∴$$n S_{n}=n^{2} a_{1}+\\frac{n^{2}(n-1)}{2} d=-3 n^{2}+\\frac{1}{3}\\left(n^{3}-n^{2}\\right)=\\frac{1}{3} n^{3}-\\frac{10 n^{2}}{3}$$，  构造函数$$f(x)=\\frac{1}{3} x^{3}-\\frac{10}{3} x^{2}$$，则$$f^{\\prime}(x)=x^{2}-\\frac{20}{3} x$$，  令$$f^{\\prime}(x)=0$$，解得$$x=0$$或$$x=\\frac{20}{3}$$，  ∴当$$0\\textless x\\textless\\frac{20}{3}$$时，$$f(x)$$单调递减，  当$$x\\textgreater\\frac{20}{3}$$时，$$f(x)$$单调递增，  ∵$$n \\in \\mathbf{N}^{*}$$且当$$n=6$$时，$$n S_{n}=\\frac{1}{3} \\times 6^{3}-\\frac{10 \\times 6^{2}}{3}=-48$$，当$$n=7$$时，$$n S_{n}=\\frac{1}{3} \\times 7^{3}-\\frac{10 \\times 7^{2}}{3}=-49$$，  ∴当$$n=7$$时，$$n S_{n}$$取得最小值$$-49$$．  设等差数列$$\\left { {{a}_{n}} \\right }$$的首项为$${{a}_{1}}$$，公差为$$d$$，  ∵$${{S}_{10}}=10{{a}_{1}}+45d=0$$，$${{S}_{15}}=15{{a}_{1}}+105d=25$$，  ∴$${{a}_{1}}=-3$$，$$d=\\frac{2}{3}$$，  ∴$${{S}_{n}}=n{{a}_{1}}+\\frac{n\\left( n-1 \\right)}{2}d=\\frac{1}{3},{{n}^{2}}-\\frac{10}{3}n$$，  ∴$$n{{S}_{n}}=\\frac{1}{3},{{n}^{3}}-\\frac{10}{3},{{n}^{2}}$$，令$$n{{S}_{n}}=f\\left( n \\right)$$，  ∴$${{f}^{\\prime }}\\left( n \\right)={{n}^{2}}-\\frac{20}{3}n$$，  ∴当$$n=\\frac{20}{3}$$时，$$f\\left( n \\right)$$取得极值，当$$n\\textless{}\\frac{20}{3}$$ 时，$$f\\left( n \\right)$$递减，  当$$n\\textgreater\\frac{20}{3}$$时，$$f\\left( n \\right)$$递增，  因此只需比较$$f\\left( 6 \\right)$$和$$f\\left( 7 \\right)$$的大小即可，  $$f\\left( 6 \\right)=-48$$，$$f\\left( 7 \\right)=-49$$，  故$$n{{S}_{n}}$$的最小值为$$-49$$．  故答案为：$$-49$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -758,7 +758,7 @@
   {
     "question_text": "已知$$x\\textgreater0$$，$$y\\textgreater0$$，设命题$$p$$：$${{2}^{x}}+{{2}^{y}}\\ge 4$$，命题$$q$$：$$xy\\ge 1$$，则$$p$$是$$q$$的（~~~~~~~）\nA. 充分不必要条件\nB. 必要不充分条件\nC. 充要条件\nD. 既不充分也不必要条件",
     "answer": "B. 必要不充分条件",
-    "solution": "\\hfill\\break 【分析】\\\\ 取特值，$$x=\\frac{1},{3},y=2$$，满足$${{2}^{x}}+{{2}^{y}}\\ge 4$$，不满足$$xy\\ge 1$$；运用基本不等式得$$1\\le xy\\le {{\\left( \\frac{x\\text{+}y},{2} \\right)}^{2}}$$，即$$x\\text{+}y\\ge 2$$，由指数函数的单调性得$${{2}^{x\\text{+}y}}\\ge {{2}^{2}}=4$$，运用基本不等式和充分必要条件的定义 判断可得选项.\\\\ 【详解】\\\\ 解：当$$x=\\frac{1},{3},y=2$$时，$${{2}^{\\frac{1},{3}}}+{{2}^{2}}\\ge 4$$满足$${{2}^{x}}+{{2}^{y}}\\ge 4$$，但$$xy=\\frac{1},{3}\\times 2=\\frac{2},{3}\\textless{} 1$$，不满足$$xy\\ge 1$$，所以$$p$$不是$$q$$的充分条件；\\\\ 当$$xy\\ge 1$$，$$x\\textgreater0$$，$$y\\textgreater0$$时，$$1\\le xy\\le {{\\left( \\frac{x\\text{+}y},{2} \\right)}^{2}}$$，即$$x\\text{+}y\\ge 2$$，当且仅当$$x=y$$时取等号，所以$${{2}^{x\\text{+}y}}\\ge {{2}^{2}}=4$$，即$${{2}^{x}}\\cdot {{2}^{y}}\\ge 4$$，又$$4\\le {{2}^{x}}\\cdot {{2}^{y}}\\le {{\\left( \\frac{{{2}^{x}}\\text{+},{{2}^{y}}},{2} \\right)}^{2}}$$，当且仅当$$x=y$$时取等号，\\\\ 解得$${{2}^{x}}+{{2}^{y}}\\ge 4$$，所以$$p$$是$$q$$的必要条件，\\\\ 因此，$$p$$是$$q$$的必要不充分条件.\\\\ 故选：B.",
+    "solution": "\\hfill\\break 【分析】\\\\ 取特值，$$x=\\frac{1}{3},y=2$$，满足$${{2}^{x}}+{{2}^{y}}\\ge 4$$，不满足$$xy\\ge 1$$；运用基本不等式得$$1\\le xy\\le {{\\left( \\frac{x\\text{+}y}{2} \\right)}^{2}}$$，即$$x\\text{+}y\\ge 2$$，由指数函数的单调性得$${{2}^{x\\text{+}y}}\\ge {{2}^{2}}=4$$，运用基本不等式和充分必要条件的定义 判断可得选项.\\\\ 【详解】\\\\ 解：当$$x=\\frac{1}{3},y=2$$时，$${{2}^{\\frac{1}{3}}}+{{2}^{2}}\\ge 4$$满足$${{2}^{x}}+{{2}^{y}}\\ge 4$$，但$$xy=\\frac{1}{3}\\times 2=\\frac{2}{3}\\textless{} 1$$，不满足$$xy\\ge 1$$，所以$$p$$不是$$q$$的充分条件；\\\\ 当$$xy\\ge 1$$，$$x\\textgreater0$$，$$y\\textgreater0$$时，$$1\\le xy\\le {{\\left( \\frac{x\\text{+}y}{2} \\right)}^{2}}$$，即$$x\\text{+}y\\ge 2$$，当且仅当$$x=y$$时取等号，所以$${{2}^{x\\text{+}y}}\\ge {{2}^{2}}=4$$，即$${{2}^{x}}\\cdot {{2}^{y}}\\ge 4$$，又$$4\\le {{2}^{x}}\\cdot {{2}^{y}}\\le {{\\left( \\frac{{{2}^{x}}\\text{+},{{2}^{y}}}{2} \\right)}^{2}}$$，当且仅当$$x=y$$时取等号，\\\\ 解得$${{2}^{x}}+{{2}^{y}}\\ge 4$$，所以$$p$$是$$q$$的必要条件，\\\\ 因此，$$p$$是$$q$$的必要不充分条件.\\\\ 故选：B.",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -775,9 +775,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "设对任意的正整数$$n$$，都有$$\\frac{1},{n}\\left[ \\sqrt{1-{{\\left( \\frac{1},{n} \\right)}^{2}}}+\\sqrt{1-{{\\left( \\frac{2},{n} \\right)}^{2}}}+\\cdots +\\sqrt{1-{{\\left( \\frac{n-1},{n} \\right)}^{2}}} \\right]\\textless{}a$$$$\\textless{}\\frac{1},{n}\\left[ 1+\\sqrt{1-{{\\left( \\frac{1},{n} \\right)}^{2}}}+\\cdots +\\sqrt{1-{{\\left( \\frac{n-1},{n} \\right)}^{2}}} \\right]$$  则实数$$a=$$~\\uline{~~~~~~~~~~}~．\nA. $$\\frac{ \\pi },{2}$$\nB. $$\\frac{ \\pi },{3}$$\nC. $$\\frac{ \\pi },{4}$$\nD. $$\\frac{ \\pi },{6}$$",
-    "answer": "C. $$\\frac{ \\pi },{4}$$",
-    "solution": "设$$f(x)=\\sqrt{1-{{x}^{2}}}$$，  把区间$$[0,1]$$平均分成$$n$$份，那么不等式的是$$n$$个矩形的面积（底为$$\\frac{1},{n}$$，高取每个区间右侧的函数值），  右边是$$n$$个矩形的面积（底为$$\\frac{1},{n}$$高取每个区间左侧的函数值）．  当$$n\\to \\infty $$时，左边$$=$$右边$$=f\\left( x \\right)$$在$$[0,1]$$的定积分$$=\\frac{ \\pi },{4}$$（四分之一圆）．  故中间的常数只能取$$\\frac{ \\pi },{4}$$．",
+    "question_text": "设对任意的正整数$$n$$，都有$$\\frac{1}{n}\\left[ \\sqrt{1-{{\\left( \\frac{1}{n} \\right)}^{2}}}+\\sqrt{1-{{\\left( \\frac{2}{n} \\right)}^{2}}}+\\cdots +\\sqrt{1-{{\\left( \\frac{n-1}{n} \\right)}^{2}}} \\right]\\textless{}a$$$$\\textless{}\\frac{1}{n}\\left[ 1+\\sqrt{1-{{\\left( \\frac{1}{n} \\right)}^{2}}}+\\cdots +\\sqrt{1-{{\\left( \\frac{n-1}{n} \\right)}^{2}}} \\right]$$  则实数$$a=$$~\\uline{~~~~~~~~~~}~．\nA. $$\\frac{ \\pi }{2}$$\nB. $$\\frac{ \\pi }{3}$$\nC. $$\\frac{ \\pi }{4}$$\nD. $$\\frac{ \\pi }{6}$$",
+    "answer": "C. $$\\frac{ \\pi }{4}$$",
+    "solution": "设$$f(x)=\\sqrt{1-{{x}^{2}}}$$，  把区间$$[0,1]$$平均分成$$n$$份，那么不等式的是$$n$$个矩形的面积（底为$$\\frac{1}{n}$$，高取每个区间右侧的函数值），  右边是$$n$$个矩形的面积（底为$$\\frac{1}{n}$$高取每个区间左侧的函数值）．  当$$n\\to \\infty $$时，左边$$=$$右边$$=f\\left( x \\right)$$在$$[0,1]$$的定积分$$=\\frac{ \\pi }{4}$$（四分之一圆）．  故中间的常数只能取$$\\frac{ \\pi }{4}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -797,9 +797,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "已知抛物线$$C$$：$${{y}^{2}}=2px$$（$$p\\textgreater0$$）与动直线$$l$$：$$y=hx+b$$（$$k$$、$$b$$为参变量，且$$k\\ne 0$$，$$b\\ne 0$$）交于$$A({{x}_{1}},{{y}_{1}})$$、$$B({{x}_{2}},{{y}_{2}})$$两点，直角坐标系原点为$$O$$，记直线$$OA$$、$$OB$$的斜率分别为$${{k}_{OA}}$$、$${{k}_{OB}}$$，若$${{k}_{OA}},{{k}_{OB}}=\\sqrt{3}$$恒成立，则当$$k$$ 变化时，直线$$l$$恒过的定点为．\nA. $$(-\\sqrt{3}p,0)$$\nB. $$(-2\\sqrt{3}p,0)$$\nC. $$\\left( -\\frac{\\sqrt{3}},{3}p,0 \\right)$$\nD. $$\\left( -\\frac{2\\sqrt{3}},{3}p,0 \\right)$$",
-    "answer": "D. $$\\left( -\\frac{2\\sqrt{3}},{3}p,0 \\right)$$",
-    "solution": "将直线方程与抛物线方程联立，消去$$y$$后整理得$${{k}^{2}},{{x}^{2}}+(2kb-2p)x+{{b}^{2}}=0$$，  故$${{x}_{1}}+{{x}_{2}}=\\frac{-2kb+2p},{{{k}^{2}}}$$，$${{x}_{1}},{{x}_{2}}=\\frac{{{b}^{2}}},{{{k}^{2}}}$$，  因为$${{k}_{OA}},{{k}_{OB}}=\\sqrt{3}$$，  所以$${{y}_{1}},{{y}_{2}}=\\sqrt{3},{{x}_{1}},{{x}_{2}}$$，  则$${{y}_{1}},{{y}_{2}}=(k{{x}_{1}}+b)(k{{x}_{2}}+b)$$  $$={{k}^{2}},{{x}_{1}},{{x}_{2}}+kb({{x}_{1}}+{{x}_{2}})+{{b}^{2}}$$  $$=\\frac{2bp},{k}$$  $$=\\sqrt{3},{{x}_{1}},{{x}_{2}}$$  $$=\\frac{\\sqrt{3},{{b}^{2}}},{{{k}^{2}}}$$，  由于$$b\\ne 0$$，于是$$b=\\frac{2pk},{\\sqrt{3}}$$，  故$$y=kx+\\frac{2pk},{\\sqrt{3}}=k\\left( x+\\frac{2},{\\sqrt{3}}p \\right)$$，  因此，直线$$l$$恒过定点$$\\left( -\\frac{2\\sqrt{3}},{3}p,0 \\right)$$．  故选$$\\text{D}$$．",
+    "question_text": "已知抛物线$$C$$：$${{y}^{2}}=2px$$（$$p\\textgreater0$$）与动直线$$l$$：$$y=hx+b$$（$$k$$、$$b$$为参变量，且$$k\\ne 0$$，$$b\\ne 0$$）交于$$A({{x}_{1}},{{y}_{1}})$$、$$B({{x}_{2}},{{y}_{2}})$$两点，直角坐标系原点为$$O$$，记直线$$OA$$、$$OB$$的斜率分别为$${{k}_{OA}}$$、$${{k}_{OB}}$$，若$${{k}_{OA}},{{k}_{OB}}=\\sqrt{3}$$恒成立，则当$$k$$ 变化时，直线$$l$$恒过的定点为．\nA. $$(-\\sqrt{3}p,0)$$\nB. $$(-2\\sqrt{3}p,0)$$\nC. $$\\left( -\\frac{\\sqrt{3}}{3}p,0 \\right)$$\nD. $$\\left( -\\frac{2\\sqrt{3}}{3}p,0 \\right)$$",
+    "answer": "D. $$\\left( -\\frac{2\\sqrt{3}}{3}p,0 \\right)$$",
+    "solution": "将直线方程与抛物线方程联立，消去$$y$$后整理得$${{k}^{2}},{{x}^{2}}+(2kb-2p)x+{{b}^{2}}=0$$，  故$${{x}_{1}}+{{x}_{2}}=\\frac{-2kb+2p}{{{k}^{2}}}$$，$${{x}_{1}},{{x}_{2}}=\\frac{{{b}^{2}}}{{{k}^{2}}}$$，  因为$${{k}_{OA}},{{k}_{OB}}=\\sqrt{3}$$，  所以$${{y}_{1}},{{y}_{2}}=\\sqrt{3},{{x}_{1}},{{x}_{2}}$$，  则$${{y}_{1}},{{y}_{2}}=(k{{x}_{1}}+b)(k{{x}_{2}}+b)$$  $$={{k}^{2}},{{x}_{1}},{{x}_{2}}+kb({{x}_{1}}+{{x}_{2}})+{{b}^{2}}$$  $$=\\frac{2bp}{k}$$  $$=\\sqrt{3},{{x}_{1}},{{x}_{2}}$$  $$=\\frac{\\sqrt{3},{{b}^{2}}}{{{k}^{2}}}$$，  由于$$b\\ne 0$$，于是$$b=\\frac{2pk}{\\sqrt{3}}$$，  故$$y=kx+\\frac{2pk}{\\sqrt{3}}=k\\left( x+\\frac{2}{\\sqrt{3}}p \\right)$$，  因此，直线$$l$$恒过定点$$\\left( -\\frac{2\\sqrt{3}}{3}p,0 \\right)$$．  故选$$\\text{D}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -816,9 +816,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "设$$x$$，$$y$$是正实数，且$$x+y=1$$，则$$\\frac{{{x}^{2}}},{x+2}+\\frac{{{y}^{2}}},{y+1}$$的最小值是~\\uline{~~~~~~~~~~}~．\nA. $$\\frac{1},{4}$$\nB. $$\\frac{1},{3}$$\nC. $$\\frac{1},{2}$$\nD. $$\\frac{2},{5}$$",
-    "answer": "A. $$\\frac{1},{4}$$",
-    "solution": "设$$x+2=s$$，$$y+1=t$$，则$$s+t=x+y+3=4$$，  所以$$\\frac{{{x}^{2}}},{x+2}+\\frac{{{y}^{2}}},{y+1}$$  $$=\\frac{{{(s-2)}^{2}}},{s}+\\frac{{{(t-1)}^{2}}},{t}$$  $$=\\left( s-4+\\frac{4},{s} \\right)+\\left( t-2+\\frac{1},{t} \\right)$$  $$=(s+t)+\\left( \\frac{4},{s}+\\frac{1},{t} \\right)-6$$  $$=\\left( \\frac{4},{s}+\\frac{1},{t} \\right)-2$$．  因为$$\\frac{4},{s}+\\frac{1},{t}=\\frac{1},{4}\\left( \\frac{4},{s}+\\frac{1},{t} \\right)(s+t)$$  $$=\\frac{1},{4}\\left( \\frac{4t},{s}+\\frac{s},{t}+5 \\right)\\geqslant \\frac{9},{4}$$，  当且仅当$\\left {\\begin{align}\\&\\frac{4t},{s}=\\frac{s},{t}  \\&s+t=4\\end{align}\\right.$即$\\left {\\begin{align}\\&s=\\frac83  \\&t=\\frac43\\end{align}\\right.$也即$\\left {\\begin{align}\\&x=\\frac23  \\&y=\\frac13\\end{align}\\right.$时取等，  故当$x=\\frac23,y=\\frac13$时，$\\frac{{{x}^{2}}},{x+2}+\\frac{{{y}^{2}}},{y+1}$取得最小值$\\frac{1},{4}$．",
+    "question_text": "设$$x$$，$$y$$是正实数，且$$x+y=1$$，则$$\\frac{{{x}^{2}}}{x+2}+\\frac{{{y}^{2}}}{y+1}$$的最小值是~\\uline{~~~~~~~~~~}~．\nA. $$\\frac{1}{4}$$\nB. $$\\frac{1}{3}$$\nC. $$\\frac{1}{2}$$\nD. $$\\frac{2}{5}$$",
+    "answer": "A. $$\\frac{1}{4}$$",
+    "solution": "设$$x+2=s$$，$$y+1=t$$，则$$s+t=x+y+3=4$$，  所以$$\\frac{{{x}^{2}}}{x+2}+\\frac{{{y}^{2}}}{y+1}$$  $$=\\frac{{{(s-2)}^{2}}}{s}+\\frac{{{(t-1)}^{2}}}{t}$$  $$=\\left( s-4+\\frac{4}{s} \\right)+\\left( t-2+\\frac{1}{t} \\right)$$  $$=(s+t)+\\left( \\frac{4}{s}+\\frac{1}{t} \\right)-6$$  $$=\\left( \\frac{4}{s}+\\frac{1}{t} \\right)-2$$．  因为$$\\frac{4}{s}+\\frac{1}{t}=\\frac{1}{4}\\left( \\frac{4}{s}+\\frac{1}{t} \\right)(s+t)$$  $$=\\frac{1}{4}\\left( \\frac{4t}{s}+\\frac{s}{t}+5 \\right)\\geqslant \\frac{9}{4}$$，  当且仅当$\\left {\\begin{align}\\&\\frac{4t}{s}=\\frac{s}{t}  \\&s+t=4\\end{align}\\right.$即$\\left {\\begin{align}\\&s=\\frac83  \\&t=\\frac43\\end{align}\\right.$也即$\\left {\\begin{align}\\&x=\\frac23  \\&y=\\frac13\\end{align}\\right.$时取等，  故当$x=\\frac23,y=\\frac13$时，$\\frac{{{x}^{2}}}{x+2}+\\frac{{{y}^{2}}}{y+1}$取得最小值$\\frac{1}{4}$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -842,7 +842,7 @@
   {
     "question_text": "设函数$$f(x)={{x}^{3}}+a{{x}^{2}}+bx+c$$（$$a$$，$$b$$，$$c$$均为非零整数）．若$$f(a)={{a}^{3}}$$，$$f(b)={{b}^{3}}$$，则$$c$$的值是（~ ）．\nA. $$-16$$\nB. $$-4$$\nC. $$4$$\nD. $$16$$",
     "answer": "D. $$16$$",
-    "solution": "由题设，$$f\\left( x \\right)-{{x}^{3}}=a{{x}^{2}}+bx+c$$有$$2$$个根$$ab$$，所以  $$a+b=-\\frac{b},{a}$$，$$ab=\\frac{c},{a}$$  因为$$abc$$都是非零整数，所以$$a\\textbar b$$，$$a\\textbar c$$，设$$b=ka$$，$$k\\in \\mathbf{Z}$$，则  $$a+ka=-k$$，即$$\\left( a+1 \\right)\\left( k+1 \\right)=1$$  只能$$a+1=k+1=-1$$，$$a=k=-2$$，$$b=ka=4$$，  因此，$$c={{a}^{2}}b=16$$．  故选$$\\text{D}$$．",
+    "solution": "由题设，$$f\\left( x \\right)-{{x}^{3}}=a{{x}^{2}}+bx+c$$有$$2$$个根$$ab$$，所以  $$a+b=-\\frac{b}{a}$$，$$ab=\\frac{c}{a}$$  因为$$abc$$都是非零整数，所以$$a\\textbar b$$，$$a\\textbar c$$，设$$b=ka$$，$$k\\in \\mathbf{Z}$$，则  $$a+ka=-k$$，即$$\\left( a+1 \\right)\\left( k+1 \\right)=1$$  只能$$a+1=k+1=-1$$，$$a=k=-2$$，$$b=ka=4$$，  因此，$$c={{a}^{2}}b=16$$．  故选$$\\text{D}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
@@ -892,9 +892,9 @@
     "teaching_tips": "来源 TAL-SCQ5K-CN，许可 MIT。竞赛/杯赛题，使用前请老师核对。"
   },
   {
-    "question_text": "某地举行一次民歌大奖赛，六个省中每个省各有两名歌手参加决赛，现要选出$$4$$名优胜者，则选出的$$4$$名选手中有且只有两个人是同一省份的歌手的概率为．\nA. $$\\frac{16},{33}$$\nB. $$\\frac{33},{128}$$\nC. $$\\frac{32},{33}$$\nD. $$\\frac{4},{11}$$",
-    "answer": "A. $$\\frac{16},{33}$$",
-    "solution": "由题意知本题是一个古典概型，  试验发生的总事件是从$$12$$名选手中选出$$4$$个优胜者，共有$$\\text{C}_{12}^{4}$$种结果，  而满足条件的是选出的$$4$$名选手中恰有且只有两个人  是同一省份的歌手表示从$$6$$个省中选一个省，  它的两名选手都获奖，同时从余下的$$10$$名选手中选一个，  再从剩下的$$4$$个省中选一个，共有$$\\text{C}_{6}^{1}\\text{C}_{10}^{1}\\text{C}_{4}^{1}$$种选法，  ∴$$P=\\frac{\\text{C}_{6}^{1}\\text{C}_{10}^{1}\\text{C}_{4}^{1}},{\\text{C}_{12}^{4}}=\\frac{16},{33}$$．  故选$$\\text{A}$$．",
+    "question_text": "某地举行一次民歌大奖赛，六个省中每个省各有两名歌手参加决赛，现要选出$$4$$名优胜者，则选出的$$4$$名选手中有且只有两个人是同一省份的歌手的概率为．\nA. $$\\frac{16}{33}$$\nB. $$\\frac{33}{128}$$\nC. $$\\frac{32}{33}$$\nD. $$\\frac{4}{11}$$",
+    "answer": "A. $$\\frac{16}{33}$$",
+    "solution": "由题意知本题是一个古典概型，  试验发生的总事件是从$$12$$名选手中选出$$4$$个优胜者，共有$$\\text{C}_{12}^{4}$$种结果，  而满足条件的是选出的$$4$$名选手中恰有且只有两个人  是同一省份的歌手表示从$$6$$个省中选一个省，  它的两名选手都获奖，同时从余下的$$10$$名选手中选一个，  再从剩下的$$4$$个省中选一个，共有$$\\text{C}_{6}^{1}\\text{C}_{10}^{1}\\text{C}_{4}^{1}$$种选法，  ∴$$P=\\frac{\\text{C}_{6}^{1}\\text{C}_{10}^{1}\\text{C}_{4}^{1}}{\\text{C}_{12}^{4}}=\\frac{16}{33}$$．  故选$$\\text{A}$$．",
     "question_type": "选择题",
     "subject": "数学",
     "education_level": "高中",
