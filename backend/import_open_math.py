@@ -1,6 +1,7 @@
 """整理开源题库到 dataset/题库，并导入同一个 question_bank。重复运行不会插入已有题目。"""
 import asyncio
 import json
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -20,11 +21,52 @@ RAW_CANDIDATES = [
 ]
 TAXONOMY_REPO = "https://github.com/xiaoyang111222/cn-math-taxonomy"
 CMATH_REPO = "https://github.com/XiaoMi/cmath"
+GAOKAO_BENCH_REPO = "https://github.com/OpenLMLab/GAOKAO-Bench"
 SUBJECTS = {"cnm": "数学", "cne": "英语", "cnp": "物理"}
 TYPE_NAMES = {"numeric": "填空题", "choice": "选择题", "short": "解答题", "self": "解答题"}
 DIFFICULTY = {"basic": 2, "standard": 3, "advanced": 4}
 TAXONOMY_TIP = "来源 cn-math-taxonomy，许可 CC BY-NC 4.0。题目由模型生成，使用前请老师核对。"
 CMATH_TIP = "来源 XiaoMi/cmath，许可 CC BY 4.0。这是小学应用题基准集。"
+GAOKAO_BENCH_TIP = "来源 OpenLMLab/GAOKAO-Bench，2010–2022 高考数学真题（含解析）。"
+
+# 题号+分值前缀，如 "17. (12 分) " / "13. (5 分) " / "19. （12 分）"
+_GAOKAO_PREFIX_RE = re.compile(
+    r"^\s*\d+\s*[.、．]?\s*[（(]?\s*\d+(?:\.\d+)?\s*分\s*[)）]?\s*"
+)
+
+# 本地文件名 → 远端路径 + 题型（供 daily_crawl / 本地导入共用）
+GAOKAO_BENCH_FILES = [
+    {
+        "local": "2010-2022_Math_I_MCQs.json",
+        "remote_path": "Data/Objective_Questions/2010-2022_Math_I_MCQs.json",
+        "question_type": "选择题",
+    },
+    {
+        "local": "2010-2022_Math_II_MCQs.json",
+        "remote_path": "Data/Objective_Questions/2010-2022_Math_II_MCQs.json",
+        "question_type": "选择题",
+    },
+    {
+        "local": "2010-2022_Math_I_Fill-in-the-Blank.json",
+        "remote_path": "Data/Subjective_Questions/2010-2022_Math_I_Fill-in-the-Blank.json",
+        "question_type": "填空题",
+    },
+    {
+        "local": "2010-2022_Math_II_Fill-in-the-Blank.json",
+        "remote_path": "Data/Subjective_Questions/2010-2022_Math_II_Fill-in-the-Blank.json",
+        "question_type": "填空题",
+    },
+    {
+        "local": "2010-2022_Math_I_Open-ended_Questions.json",
+        "remote_path": "Data/Subjective_Questions/2010-2022_Math_I_Open-ended_Questions.json",
+        "question_type": "解答题",
+    },
+    {
+        "local": "2010-2022_Math_II_Open-ended_Questions.json",
+        "remote_path": "Data/Subjective_Questions/2010-2022_Math_II_Open-ended_Questions.json",
+        "question_type": "解答题",
+    },
+]
 
 
 def raw_dir():
@@ -131,6 +173,105 @@ def cmath_records(path):
             "teaching_tips": CMATH_TIP,
             "_file": ("小学", "数学", f"{grade}年级"),
         })
+    return records
+
+
+def strip_gaokao_question_prefix(text: str) -> str:
+    """剥高考题干开头的题号与分值前缀；无前缀时幂等返回原文。"""
+    if not text:
+        return ""
+    return _GAOKAO_PREFIX_RE.sub("", text, count=1)
+
+
+def _gaokao_normalize_answer(answer) -> str:
+    if isinstance(answer, list):
+        parts = [str(part).strip() for part in answer if str(part).strip()]
+        return "、".join(parts)
+    return str(answer or "").strip()
+
+
+def _gaokao_normalize_region(category) -> str:
+    region = str(category or "").strip()
+    return region.strip("（）()").strip()
+
+
+def _gaokao_normalize_year(year):
+    if year is None or year == "":
+        return None
+    try:
+        return int(year)
+    except (TypeError, ValueError):
+        return None
+
+
+def _gaokao_normalize_score(score):
+    if score is None or score == "":
+        return None
+    try:
+        value = float(score)
+    except (TypeError, ValueError):
+        return None
+    return int(value) if value.is_integer() else value
+
+
+def gaokao_bench_file_records(path, *, remote_path: str, question_type: str):
+    """解析单个 GAOKAO-Bench JSON 文件为题库 records。"""
+    records = []
+    if not path or not Path(path).exists():
+        return records
+    try:
+        payload = json.loads(Path(path).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return records
+    examples = payload.get("example") if isinstance(payload, dict) else None
+    if not isinstance(examples, list):
+        return records
+
+    for item in examples:
+        if not isinstance(item, dict):
+            continue
+        question = strip_gaokao_question_prefix(item.get("question") or "").strip()
+        answer = _gaokao_normalize_answer(item.get("answer"))
+        if not question or not answer:
+            continue
+        index = item.get("index")
+        if index is None:
+            index = len(records)
+        records.append({
+            "question_text": question,
+            "answer": answer,
+            "solution": str(item.get("analysis") or "").strip(),
+            "question_type": question_type,
+            "subject": "数学",
+            "education_level": "高中",
+            "grade": None,
+            "exam_type": "高考",
+            "year": _gaokao_normalize_year(item.get("year")),
+            "region": _gaokao_normalize_region(item.get("category")),
+            "knowledge_points": [],
+            "difficulty": 3,
+            "score": _gaokao_normalize_score(item.get("score")),
+            "source_url": f"{GAOKAO_BENCH_REPO}/blob/main/{remote_path}#q{index}",
+            "teaching_tips": GAOKAO_BENCH_TIP,
+            "_file": ("高中", "数学", "高考"),
+        })
+    return records
+
+
+def gaokao_bench_records(source):
+    """从下载目录汇总 6 个数学文件的 records。"""
+    records = []
+    if not source:
+        return records
+    root = Path(source)
+    for spec in GAOKAO_BENCH_FILES:
+        records.extend(
+            gaokao_bench_file_records(
+                root / spec["local"],
+                remote_path=spec["remote_path"],
+                question_type=spec["question_type"],
+            )
+        )
     return records
 
 

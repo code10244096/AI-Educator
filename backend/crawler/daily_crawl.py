@@ -57,8 +57,11 @@ from database import AsyncSessionLocal, init_db  # noqa: E402
 from import_open_math import (  # noqa: E402
     BANK_DIR,
     CMATH_REPO,
+    GAOKAO_BENCH_FILES,
+    GAOKAO_BENCH_REPO,
     TAXONOMY_REPO,
     cmath_records,
+    gaokao_bench_records,
     raw_dir,
     taxonomy_records,
 )
@@ -131,6 +134,18 @@ OPEN_REPOS: List[Dict[str, Any]] = [
                     "dev.jsonl",
                 ],
             },
+        ],
+    },
+    {
+        "key": "gaokao-bench",
+        "repo": "OpenLMLab/GAOKAO-Bench",
+        "files": [
+            {
+                "local": spec["local"],
+                "match_names": [spec["local"], Path(spec["remote_path"]).name],
+                "remote_paths": [spec["remote_path"]],
+            }
+            for spec in GAOKAO_BENCH_FILES
         ],
     },
 ]
@@ -1058,10 +1073,15 @@ async def crawl_open(
             # 有更新或本地已有原始文件时走去重导入逻辑
             source = raw_dir()
             if source is None:
-                # 回退到 RAW_OPEN
-                if (RAW_OPEN / "cn-math-questions.json").exists() and (
+                # 回退到 RAW_OPEN（taxonomy / cmath / gaokao-bench 任一存在即可）
+                has_taxonomy = (RAW_OPEN / "cn-math-questions.json").exists() and (
                     RAW_OPEN / "cn-math-topics.json"
-                ).exists():
+                ).exists()
+                has_cmath = (RAW_OPEN / "cmath_dev.jsonl").exists()
+                has_gaokao = any(
+                    (RAW_OPEN / spec["local"]).exists() for spec in GAOKAO_BENCH_FILES
+                )
+                if has_taxonomy or has_cmath or has_gaokao:
                     source = RAW_OPEN
             if source is None:
                 stats.notes.append("本地无 open 原始文件，跳过导入")
@@ -1085,6 +1105,19 @@ async def crawl_open(
                     records.extend(taxonomy_records(questions, topics))
                 cmath_path = source / "cmath_dev.jsonl"
                 records.extend(cmath_records(cmath_path))
+                # GAOKAO-Bench 下载落点是 RAW_OPEN；source 可能是其它候选目录
+                records.extend(gaokao_bench_records(RAW_OPEN))
+                if source.resolve() != RAW_OPEN.resolve():
+                    seen_urls = {
+                        r.get("source_url") for r in records if r.get("source_url")
+                    }
+                    for row in gaokao_bench_records(source):
+                        url = row.get("source_url")
+                        if url and url in seen_urls:
+                            continue
+                        records.append(row)
+                        if url:
+                            seen_urls.add(url)
             except Exception as exc:  # noqa: BLE001
                 stats.error += 1
                 logger.exception("解析 open 数据失败: %s", exc)
@@ -1098,10 +1131,12 @@ async def crawl_open(
                 row = dict(row)
                 row.pop("_file", None)
                 if not row.get("source_url"):
-                    # 兜底：taxonomy/cmath 已带 source_url
-                    tip = row.get("teaching_tips") or ""
-                    if "cmath" in tip.lower():
+                    # 兜底：taxonomy/cmath/gaokao-bench 已带 source_url
+                    tip = (row.get("teaching_tips") or "").lower()
+                    if "cmath" in tip:
                         row["source_url"] = f"{CMATH_REPO}#missing"
+                    elif "gaokao-bench" in tip:
+                        row["source_url"] = f"{GAOKAO_BENCH_REPO}#missing"
                     else:
                         row["source_url"] = f"{TAXONOMY_REPO}#missing"
                 cleaned.append(row)
