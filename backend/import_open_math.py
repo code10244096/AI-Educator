@@ -33,6 +33,8 @@ GAOKAO_BENCH_TIP = "来源 OpenLMLab/GAOKAO-Bench，2010–2022 高考数学真�
 _GAOKAO_PREFIX_RE = re.compile(
     r"^\s*\d+\s*[.、．]?\s*[（(]?\s*\d+(?:\.\d+)?\s*分\s*[)）]?\s*"
 )
+# 无分值标记的纯题号前缀，如 "21. 设抛物线..."（2022 年起真题题干无 "(12 分)" 字样）
+_GAOKAO_BARE_NUM_RE = re.compile(r"^\s*\d{1,2}\s*[.、．]\s*(?=\D)")
 
 # 本地文件名 → 远端路径 + 题型（供 daily_crawl / 本地导入共用）
 GAOKAO_BENCH_FILES = [
@@ -180,7 +182,11 @@ def strip_gaokao_question_prefix(text: str) -> str:
     """剥高考题干开头的题号与分值前缀；无前缀时幂等返回原文。"""
     if not text:
         return ""
-    return _GAOKAO_PREFIX_RE.sub("", text, count=1)
+    stripped = _GAOKAO_PREFIX_RE.sub("", text, count=1)
+    if stripped != text:
+        return stripped
+    # 无分值标记的纯题号："21. 设..." → "设..."。限 1-2 位数字 + 点号，且点后非数字（避免误伤 3.14 之类）
+    return _GAOKAO_BARE_NUM_RE.sub("", stripped, count=1)
 
 
 def _gaokao_normalize_answer(answer) -> str:
