@@ -19,7 +19,6 @@ const ClassData = lazy(() => import('./pages/ClassData'))
 const TaskDetail = lazy(() => import('./pages/TaskDetail'))
 const Settings = lazy(() => import('./pages/Settings'))
 const UsageStats = lazy(() => import('./pages/UsageStats'))
-const BankBrowse = lazy(() => import('./pages/BankBrowse'))
 const LoginPage = lazy(() => import('./pages/LoginPage'))
 const SetPasswordPage = lazy(() => import('./pages/SetPasswordPage'))
 
@@ -79,10 +78,10 @@ function App() {
                           <Route path="/grader" element={<HomeworkGrader />} />
                           <Route path="/lessonplan" element={<LessonPlanGenerator />} />
                           <Route path="/notebook" element={<WrongNotebook />} />
-                          <Route path="/bank" element={<BankBrowse />} />
                           <Route path="/class/*" element={<ClassData />} />
-                          {/* 旧 /questionbank 入口已改为 /bank */}
-                          <Route path="/questionbank/*" element={<Navigate to="/bank" replace />} />
+                          {/* v1 下线题库：/bank 与旧 /questionbank 入口一律回工作台，功能在 feat/questionbank 迭代 */}
+                          <Route path="/bank/*" element={<Navigate to="/" replace />} />
+                          <Route path="/questionbank/*" element={<Navigate to="/" replace />} />
                           {/* 本地任务列表页取消（R1-006），后台任务改在顶栏任务抽屉 */}
                           <Route path="/tasks" element={<Navigate to="/" replace />} />
                           <Route path="/tasks/:taskId" element={<TaskDetail />} />
