@@ -10,7 +10,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 import class_service as cs
 from auth import current_user
 from database import get_db
-from file_utils import get_extension
+from file_utils import FileParseError, get_extension, xlsx_to_member_lines
 from models import HomeworkAssignment, HomeworkSubmission, User
 
 router = APIRouter()
@@ -203,17 +203,26 @@ async def import_members(
     """
     content = text or ""
     if file is not None and file.filename:
-        if get_extension(file.filename) not in ("txt", "csv"):
-            raise HTTPException(status_code=400, detail="仅支持 .txt / .csv 格式的名单文件")
+        ext = get_extension(file.filename)
+        if ext not in ("txt", "csv", "xlsx"):
+            raise HTTPException(status_code=400, detail="仅支持 .txt / .csv / .xlsx 格式的名单文件")
         raw = await file.read(1024 * 1024 + 1)
         if len(raw) > 1024 * 1024:
             raise HTTPException(status_code=413, detail="名单文件不能超过 1MB")
-        for enc in ("utf-8-sig", "gbk"):
+        if ext == "xlsx":
+            # Excel 名单：首个工作表，第一列姓名、第二列性别、第三列学号；
+            # 自动跳过标题行与表头行，逐行转成「姓名,性别,学号」走统一管线
             try:
-                content = content + "\n" + raw.decode(enc)
-                break
-            except UnicodeDecodeError:
-                continue
+                content = content + "\n" + xlsx_to_member_lines(raw)
+            except FileParseError as e:
+                raise HTTPException(status_code=400, detail=str(e))
+        else:
+            for enc in ("utf-8-sig", "gbk"):
+                try:
+                    content = content + "\n" + raw.decode(enc)
+                    break
+                except UnicodeDecodeError:
+                    continue
     if not content.strip():
         raise HTTPException(status_code=400, detail="请提供学生名单文本或文件")
     return await _call(cs.import_members(db, class_slug, content, teacher_id=user.id))

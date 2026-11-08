@@ -24,12 +24,23 @@ export default defineConfig({
   },
   server: {
     host: '127.0.0.1',
-    port: 3000,
-    strictPort: false,
+    port: Number(process.env.VITE_PORT) || 3000,
+    strictPort: true,
     open: false,
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        target: process.env.VITE_API_TARGET || 'http://localhost:8000',
+        changeOrigin: true,
+      },
+    },
+  },
+  preview: {
+    host: '127.0.0.1',
+    port: Number(process.env.VITE_PORT) || 3000,
+    strictPort: true,
+    proxy: {
+      '/api': {
+        target: process.env.VITE_API_TARGET || 'http://localhost:8000',
         changeOrigin: true,
       },
     },

@@ -34,6 +34,51 @@ def get_extension(filename: Optional[str]) -> str:
     return name.rsplit(".", 1)[-1].lower() if "." in name else ""
 
 
+def xlsx_to_member_lines(raw: bytes) -> str:
+    """
+    Excel 学生名单 → 「姓名,性别,学号」每行一条的文本。
+
+    规则：读取第一个工作表；第一列姓名、第二列性别、第三列学号（可省略列）；
+    自动跳过标题行（如"高三1班名单"——单行单值而后续行多列）与表头行
+    （首格含 姓名/学号/序号/班级/性别 等关键字）；字段内的逗号替换为空格，
+    避免破坏逐行解析。
+    """
+    from io import BytesIO
+
+    try:
+        from openpyxl import load_workbook
+    except ImportError as e:  # pragma: no cover
+        raise FileParseError("服务器未安装 openpyxl，无法解析 .xlsx 文件") from e
+    try:
+        wb = load_workbook(BytesIO(raw), read_only=True, data_only=True)
+    except Exception as e:
+        raise FileParseError(f"Excel 文件解析失败：{e}") from e
+    if not wb.worksheets:
+        return ""
+    rows = []
+    for row in wb.worksheets[0].iter_rows(values_only=True):
+        cells = [("" if c is None else str(c)).strip() for c in row]
+        if any(cells):
+            rows.append(cells)
+    wb.close()
+    if not rows:
+        return ""
+    # 标题行：单行单值、后面存在多列行
+    if sum(1 for c in rows[0] if c) == 1 and any(sum(1 for c in r if r and c) >= 2 for r in rows[1:]):
+        rows = rows[1:]
+    header_keys = ("姓名", "name", "Name", "NAME", "学号", "序号", "班级", "性别")
+    lines = []
+    for cells in rows:
+        name = cells[0] if cells else ""
+        if not name or any(k in name for k in header_keys):
+            continue
+        gender = cells[1] if len(cells) > 1 else ""
+        student_no = cells[2] if len(cells) > 2 else ""
+        fields = [name, gender, student_no]
+        lines.append(",".join(c.replace(",", " ").replace("，", " ") for c in fields))
+    return "\n".join(lines)
+
+
 def safe_display_name(filename: Optional[str]) -> str:
     """仅保留原始文件名的 basename，用于展示（不参与存储路径）"""
     name = os.path.basename((filename or "").replace("\\", "/"))

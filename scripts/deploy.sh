@@ -37,6 +37,7 @@ mkdir -p "$APP_DIR"
 log "同步代码到 $APP_DIR（保留配置、数据和证书）"
 rsync -a --delete \
   --exclude '.env' \
+  --exclude 'backend/config.json' \
   --exclude 'data/' \
   --exclude 'uploads/' \
   --exclude 'logs/' \

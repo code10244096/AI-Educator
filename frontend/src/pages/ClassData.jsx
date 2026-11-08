@@ -877,7 +877,7 @@ const ImportMembersModal = ({ classId, onClose, onSaved }) => {
         </>
       )}
     >
-      <p className="text-sm text-gray-500">每行一个学生，格式：<code className="bg-gray-100 px-1 rounded">姓名,性别,学号</code>（性别、学号可省略，重名会自动跳过）</p>
+      <p className="text-sm text-gray-500">每行一个学生，格式：<code className="bg-gray-100 px-1 rounded">姓名,性别,学号</code>（性别、学号可省略，重名会自动跳过；Excel 文件按第一列姓名、第二列性别、第三列学号读取，自动跳过标题行）</p>
       <textarea
         className={`${inputCls} font-mono`}
         rows={8}
@@ -886,11 +886,11 @@ const ImportMembersModal = ({ classId, onClose, onSaved }) => {
         placeholder={'张三,男,2024001\n李四,女,2024002\n王五'}
       />
       <div>
-        <label className="block text-xs font-medium text-gray-600 mb-1">或上传名单文件（.txt / .csv）</label>
+        <label className="block text-xs font-medium text-gray-600 mb-1">或上传名单文件（.txt / .csv / .xlsx）</label>
         <div className="flex items-center gap-3">
           <label className="inline-flex items-center px-3 py-1.5 border border-gray-300 rounded-lg text-sm text-gray-700 bg-white cursor-pointer hover:bg-gray-50">
             选择文件
-            <input type="file" accept=".txt,.csv" onChange={e => setFile(e.target.files?.[0] || null)} className="sr-only" />
+            <input type="file" accept=".txt,.csv,.xlsx" onChange={e => setFile(e.target.files?.[0] || null)} className="sr-only" />
           </label>
           <span className="text-sm text-gray-500">{file ? file.name : '还没选择文件'}</span>
         </div>

@@ -110,13 +110,15 @@ class LLMGateway:
 
     def _get_client(self) -> openai.AsyncOpenAI:
         if self._client is None:
-            http_client = None
-            if self.config.proxy_url or not self.config.verify_ssl:
-                http_client = httpx.AsyncClient(
-                    proxy=self.config.proxy_url or None,
-                    verify=self.config.verify_ssl,
-                    timeout=self.config.timeout,
-                )
+            # 始终自建 http client：trust_env=False 避免运行环境的 HTTP(S)_PROXY /
+            # NO_PROXY（如桌面代理里的 [::1] 写法）劫持或破坏服务端调用；
+            # 需要代理走 config.llm.proxy_url 显式配置。
+            http_client = httpx.AsyncClient(
+                proxy=self.config.proxy_url or None,
+                verify=self.config.verify_ssl,
+                timeout=self.config.timeout,
+                trust_env=False,
+            )
             self._client = openai.AsyncOpenAI(
                 api_key=self.config.api_key,
                 base_url=self.config.base_url,

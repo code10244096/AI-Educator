@@ -196,7 +196,8 @@ class JevClient:
 
     def _get_http(self) -> httpx.AsyncClient:
         if self._http is None:
-            self._http = httpx.AsyncClient(timeout=self.timeout)
+            # trust_env=False：避免桌面代理环境变量（HTTP(S)_PROXY/NO_PROXY）干扰服务端调用
+            self._http = httpx.AsyncClient(timeout=self.timeout, trust_env=False)
             self._owns_client = True
         return self._http
 
