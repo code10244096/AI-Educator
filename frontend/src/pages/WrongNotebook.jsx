@@ -60,7 +60,7 @@ const WrongNotebook = () => {
   const [stats, setStats] = useState(null)
   const [statsLoading, setStatsLoading] = useState(true)
   const [newKnowledgePoint, setNewKnowledgePoint] = useState('')
-  const [variantLoadingId, setVariantLoadingId] = useState(null)
+  const [variantLoadingIds, setVariantLoadingIds] = useState({}) // 错题 id -> 生成中，支持多题并行
   const [actionError, setActionError] = useState(null)
 
   useEffect(() => {
@@ -193,7 +193,7 @@ const WrongNotebook = () => {
   }
 
   const handleGenerateVariants = async (q) => {
-    setVariantLoadingId(q.id)
+    setVariantLoadingIds(prev => ({ ...prev, [q.id]: true }))
     setActionError(null)
     try {
       const res = await notebookAPI.generateVariants(q.id, 3)
@@ -201,7 +201,11 @@ const WrongNotebook = () => {
     } catch (err) {
       setActionError(getErrorMessage(err, '变式题生成失败'))
     } finally {
-      setVariantLoadingId(null)
+      setVariantLoadingIds(prev => {
+        const next = { ...prev }
+        delete next[q.id]
+        return next
+      })
     }
   }
 
@@ -418,11 +422,11 @@ const WrongNotebook = () => {
               <div className="flex space-x-3 pt-2 border-t border-gray-100">
                 <button
                   onClick={() => handleGenerateVariants(q)}
-                  disabled={variantLoadingId === q.id}
+                  disabled={!!variantLoadingIds[q.id]}
                   className="flex items-center text-blue-600 hover:text-blue-700 text-sm font-medium hover:bg-blue-50 px-3 py-1.5 rounded-lg transition-all disabled:opacity-50"
                 >
-                  {variantLoadingId === q.id ? <Loader2 className="h-4 w-4 mr-1 animate-spin" /> : <ExternalLink className="h-4 w-4 mr-1" />}
-                  {variantLoadingId === q.id ? 'AI 生成中（约 30 秒）...' : (q.variant_questions?.length ? '换一批变式题' : '生成变式题')}
+                  {variantLoadingIds[q.id] ? <Loader2 className="h-4 w-4 mr-1 animate-spin" /> : <ExternalLink className="h-4 w-4 mr-1" />}
+                  {variantLoadingIds[q.id] ? 'AI 生成中（约 30 秒）...' : (q.variant_questions?.length ? '换一批变式题' : '生成变式题')}
                 </button>
                 {!q.is_mastered ? (
                   <button
