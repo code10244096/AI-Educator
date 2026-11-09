@@ -344,12 +344,13 @@ const HomeworkGrader = () => {
             <label className="block text-sm font-medium text-gray-700 mb-3">
               设置参考答案（可选）
             </label>
+            <p className="text-xs text-gray-400 mb-2 -mt-1">可留空——留空时 AI 会自动识别题目并自行作答判分；有标准答案时填写可提高准确度</p>
             <textarea
               value={referenceAnswer}
               onChange={(e) => setReferenceAnswer(e.target.value)}
               className="w-full border border-gray-300 rounded-xl px-4 py-3 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
               rows="3"
-              placeholder={gradeContext.assignmentId ? '留空则使用该作业布置时填写的参考答案' : '输入参考答案，有助于更准确的批改'}
+              placeholder={gradeContext.assignmentId ? '留空则使用该作业布置时填写的参考答案，或由 AI 自行作答判分' : '可留空——AI 会自动识别题目并作答判分；也可手动填写标准答案'}
             />
           </div>
 

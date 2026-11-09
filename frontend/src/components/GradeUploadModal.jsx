@@ -1,7 +1,7 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useDropzone } from 'react-dropzone'
 import { Upload, X, FileText, Loader2, AlertCircle } from 'lucide-react'
-import { homeworkAPI, getErrorMessage } from '../utils/api'
+import { homeworkAPI, classHomeworkAPI, getErrorMessage } from '../utils/api'
 import { useAuth } from '../context/AuthContext'
 import { useTask, estimateProgress } from '../context/TaskContext'
 import { useToast } from './Toast'
@@ -57,6 +57,30 @@ const GradeUploadModal = ({
   const [error, setError] = useState(null)
   const [taskId, setTaskId] = useState(null)
   const [doneNotified, setDoneNotified] = useState(false)
+  const [aiAnswers, setAiAnswers] = useState(null) // { running, text } AI 生成的参考答案
+  const [genError, setGenError] = useState(null)
+  const autoFilledRef = useRef('') // 上次自动填入的参考答案，用于判断能否安全覆盖
+
+  // AI 从已选作业文件里识别题目并自动解答，生成参考答案填入
+  const generateAnswers = async () => {
+    if (!files.length || !classId || aiAnswers?.running) return
+    setGenError(null)
+    setAiAnswers({ running: true, text: '' })
+    try {
+      const resp = await classHomeworkAPI.parseHomework(classId, files, user?.subject || '')
+      const text = resp.reference_answer || ''
+      setAiAnswers({ running: false, text })
+      // 输入框为空或仍是上次自动填入的内容时直接替换；有人工修改则保留，提供手动替换
+      if (!referenceAnswer.trim() || referenceAnswer === autoFilledRef.current) {
+        autoFilledRef.current = text
+        setReferenceAnswer(text)
+      }
+      addToast(`已生成 ${resp.total_questions} 道题的参考答案`, 'success')
+    } catch (err) {
+      setAiAnswers(null)
+      setGenError(getErrorMessage(err, '生成失败，可留空直接批改'))
+    }
+  }
 
   const contextLabel = [homeworkTitle, studentName].filter(Boolean).join(' · ')
 
@@ -191,14 +215,45 @@ const GradeUploadModal = ({
           )}
 
           <div>
-            <label className="block text-xs font-medium text-gray-600 mb-1">设置参考答案（可选）</label>
+            <div className="flex items-center justify-between mb-1">
+              <label className="block text-xs font-medium text-gray-600">设置参考答案（可选）</label>
+              {classId && files.length > 0 && (
+                <button
+                  type="button"
+                  onClick={generateAnswers}
+                  disabled={aiAnswers?.running}
+                  className="text-xs text-purple-700 hover:underline inline-flex items-center disabled:opacity-50"
+                >
+                  {aiAnswers?.running && <Loader2 className="h-3 w-3 mr-1 animate-spin" />}
+                  {aiAnswers?.running ? 'AI 生成中...' : 'AI 生成参考答案'}
+                </button>
+              )}
+            </div>
+            <p className="text-xs text-gray-400 mb-1">
+              可留空——点上方「AI 生成参考答案」自动识别题目并填入；留空时 AI 会自行作答判分
+            </p>
             <textarea
               value={referenceAnswer}
               onChange={e => setReferenceAnswer(e.target.value)}
               rows={3}
-              placeholder="输入参考答案，有助于更准确的批改；留空则使用本次作业已设置的参考答案"
+              placeholder="可留空——AI 会自动识别题目并作答判分；有标准答案时填写可提高准确度"
               className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
+            {aiAnswers && !aiAnswers.running && aiAnswers.text && referenceAnswer !== aiAnswers.text && (
+              <button
+                type="button"
+                onClick={() => { autoFilledRef.current = aiAnswers.text; setReferenceAnswer(aiAnswers.text) }}
+                className="mt-1 text-xs text-purple-700 hover:underline"
+              >
+                用 AI 生成的答案替换当前内容
+              </button>
+            )}
+            {genError && (
+              <p className="mt-1 flex items-start gap-1.5 text-xs text-red-600">
+                <AlertCircle className="h-3.5 w-3.5 mt-0.5 shrink-0" />
+                {genError}
+              </p>
+            )}
           </div>
 
           {error && (
