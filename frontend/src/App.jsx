@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import RequireAuth from './components/RequireAuth'
 import Workbench from './pages/Workbench'
+import RoleGate from './pages/RoleGate'
 import { TaskProvider } from './context/TaskContext'
 import { LayoutProvider, useLayout } from './context/LayoutContext'
 import { ClassProvider } from './context/ClassContext'
@@ -66,7 +67,8 @@ function App() {
               <TaskProvider>
                 <Suspense fallback={<PageFallback />}>
                 <Routes>
-                  {/* 登录 / 设置新密码 - 全屏展示 */}
+                  {/* 登录 / 设置新密码 / 身份选择 - 全屏展示 */}
+                  <Route path="/welcome" element={<RoleGate />} />
                   <Route path="/login" element={<LoginPage />} />
                   <Route path="/set-password" element={<SetPasswordPage />} />
 
