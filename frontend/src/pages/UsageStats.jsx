@@ -9,6 +9,7 @@ import {
   Loader2,
   AlertTriangle,
   Download,
+  Backpack,
 } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
 import { useToast } from '../components/Toast'
@@ -1003,6 +1004,60 @@ const UsageStats = () => {
             })}
           </tbody>
         </table>
+      </Card>
+
+      <Card title="学生关注度" hint="身份选择页「我是学生」的每日点击次数，用于评估学生版需求热度。按北京时间统计">
+        {(() => {
+          const visits = dailyQuota?.role_visits
+          if (!visits) return <p className="py-6 text-center text-sm text-gray-400">暂无数据</p>
+          const today = visits.today || { student: 0, teacher: 0 }
+          const totalToday = (today.student || 0) + (today.teacher || 0)
+          const studentPct = totalToday > 0 ? Math.round((today.student / totalToday) * 100) : 0
+          const week = (visits.days || []).slice(0, 7).reverse()
+          const weekMax = Math.max(1, ...week.map((d) => d.student || 0))
+          return (
+            <div className="space-y-6">
+              <div className="flex flex-wrap items-center gap-6">
+                <div className="flex items-center gap-3">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-emerald-50">
+                    <Backpack className="h-6 w-6 text-emerald-600" />
+                  </div>
+                  <div>
+                    <div className="text-2xl font-bold text-gray-900">{fmtInt(today.student)}</div>
+                    <div className="text-xs text-gray-500">今日学生点击</div>
+                  </div>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold text-gray-900">{fmtInt(today.teacher)}</div>
+                  <div className="text-xs text-gray-500">今日教师点击</div>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold text-emerald-600">{studentPct}%</div>
+                  <div className="text-xs text-gray-500">学生占比</div>
+                </div>
+              </div>
+              {week.length > 0 && (
+                <div>
+                  <div className="mb-2 text-xs font-medium text-gray-500">近 {week.length} 天学生点击趋势</div>
+                  <div className="space-y-1.5">
+                    {week.map((d) => (
+                      <div key={d.day} className="flex items-center gap-3">
+                        <span className="w-24 flex-shrink-0 text-xs tabular-nums text-gray-500">{d.day}</span>
+                        <div className="h-4 flex-1 overflow-hidden rounded bg-gray-100">
+                          <div
+                            className="h-full rounded bg-emerald-400"
+                            style={{ width: `${Math.max(2, ((d.student || 0) / weekMax) * 100)}%` }}
+                          />
+                        </div>
+                        <span className="w-10 flex-shrink-0 text-right text-xs tabular-nums text-gray-700">{d.student || 0}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )
+        })()}
       </Card>
 
       <Card title="今日额度" hint="按北京时间当天统计。提交过意见的账号会升到后续额度。这里的数字只在管理后台显示">

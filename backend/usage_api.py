@@ -164,7 +164,8 @@ async def usage_daily(db: AsyncSession = Depends(get_db)):
         items.append(_daily_item(None, row, uid))
     items.sort(key=lambda item: (-item["tokens"], -item["grade"], item["username"]))
     caps = quota_caps()
-    return {"day": _today(), "caps": caps, "items": items}
+    from student_track import stats as role_visits
+    return {"day": _today(), "caps": caps, "items": items, "role_visits": role_visits()}
 
 
 def _daily_item(user, row: dict, uid: int = 0) -> dict:

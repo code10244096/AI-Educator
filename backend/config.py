@@ -168,6 +168,8 @@ class Settings:
         self.TRIAL_EXT_VARIANT = _env_int("TRIAL_EXT_VARIANT", 10**9)
         self.TRIAL_CALLS_PER_MINUTE = _env_int("TRIAL_CALLS_PER_MINUTE", 5)
         self.TRIAL_QUOTA_FILE = os.getenv("TRIAL_QUOTA_FILE") or str(BACKEND_DIR / "trial_quota.json")
+        # 身份选择页埋点（学生/教师点击计数，按天保留 90 天）
+        self.STUDENT_TRACK_FILE = os.getenv("STUDENT_TRACK_FILE") or str(BACKEND_DIR / "student_visits.json")
         # 模拟模式下每次模拟调用的等待秒数（便于测试排队与进度）
         self.MOCK_LLM_DELAY_SECONDS = _env_float("MOCK_LLM_DELAY_SECONDS", 0.0)
 
