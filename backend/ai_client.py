@@ -26,6 +26,17 @@ def parse_json_response(text: str) -> Any:
         return json.loads(cleaned)
 
 
+def format_reference_answer(questions: List[Dict]) -> str:
+    """把识别出的题目答案格式化成「1. xxx」形式的参考答案文本"""
+    lines = []
+    for q in questions or []:
+        n = q.get("question_number")
+        a = (q.get("answer") or "").strip()
+        if a and n is not None:
+            lines.append(f"{n}. {a}")
+    return "\n".join(lines)
+
+
 class AIClient:
     """统一 AI 模型调用客户端（底层走 llm.LLMGateway，每次调用自动记录用量）"""
 
@@ -309,6 +320,75 @@ class AIClient:
             "message": "使用模拟批改模式（调试用）"
         }
     
+    async def extract_assignment(
+        self,
+        ocr_result: str,
+        subject: str = "数学",
+        task_meta: Optional[Dict] = None,
+        education_stage: str = "",
+    ) -> Dict:
+        """识别作业卷面中的每一道题目，并逐题给出参考答案（布置作业时自动识别用）"""
+        if self.is_debug_mode:
+            return self._mock_extract_assignment(ocr_result, subject)
+
+        stage = (education_stage or (task_meta or {}).get("education_stage") or "").strip()
+        subject_name = (subject or "数学").strip()
+        point_label = f"{stage}{subject_name}" if stage else subject_name
+        formula_subjects = {"数学", "物理", "化学", "大学物理", "大学化学"}
+        if subject_name in formula_subjects:
+            formula_rule = "2. 数学公式用 LaTeX 表示（行内用 \\( \\)）。"
+        else:
+            formula_rule = "2. 用普通文字书写，不要使用 LaTeX。"
+
+        prompt = f"""
+你是一位经验丰富且专业的{point_label}老师。下面是一份作业卷面的文字内容（可能来自图片 OCR，允许存在少量识别噪声）。
+
+卷面内容：
+{ocr_result}
+
+请完成两件事：
+1. 识别出卷面上的每一道题目。忽略页眉页脚、姓名/班级栏、"练习""作业"标题等与题目无关的文字；小题（如 (1)(2)）归并到所属大题。
+2. 逐题解答，给出每道题的参考答案。
+
+以 JSON 格式返回，包含以下字段：
+- total_questions: 题目总数
+- questions: 每道题的数组，按卷面顺序排列，包含：
+  - question_number: 题号（从 1 开始连续编号）
+  - question_text: 完整的题目内容（公式用 LaTeX）
+  - answer: 参考答案（简洁准确；开放题给出评分要点）
+  - knowledge_point: 本题考查的{point_label}知识点名称，无法判断时为 null
+
+要求：
+1. 不要遗漏或合并题目；确实识别不到题目时 questions 返回空数组 []。
+{formula_rule}
+3. 学科内容必须是{subject_name}，不要写成其他学科。只返回 JSON，不要其他内容。
+"""
+        messages = [{"role": "user", "content": prompt}]
+        result = await self._make_request(
+            messages, feature="assignment_parse", temperature=0.3,
+            task_meta={"subject": subject, **(task_meta or {})},
+        )
+
+        try:
+            return parse_json_response(result)
+        except ValueError:
+            return {"error": "识别结果解析失败", "raw_result": result}
+
+    def _mock_extract_assignment(self, ocr_result: str, subject: str = "数学") -> Dict:
+        """模拟卷面识别（调试模式）：按 ### 题号 解析题目，答案为占位"""
+        questions = []
+        for m in re.finditer(r"###\s*(\d+)[\.、]?\s*(.*?)(?=\n###\s*\d+[\.、]?|\n##\s|\Z)", ocr_result, re.DOTALL):
+            text = re.sub(r"\*\*学生答案[^*]*\*\*[^\n]*", "", m.group(2)).strip()
+            text = re.sub(r"学生答案[：:].*?(?=\n---|\Z)", "", text, flags=re.DOTALL).strip()
+            text = re.sub(r"\n{3,}", "\n\n", text)
+            questions.append({
+                "question_number": len(questions) + 1,
+                "question_text": text[:200],
+                "answer": "（调试模式，未真实作答）",
+                "knowledge_point": None,
+            })
+        return {"total_questions": len(questions), "questions": questions}
+
     async def generate_variant_questions(
         self,
         question_text: str,

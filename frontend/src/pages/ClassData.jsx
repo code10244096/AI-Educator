@@ -71,6 +71,62 @@ const HomeworkFormModal = ({ classId, homework, onClose, onSaved }) => {
     deadline: homework?.deadline || tomorrow,
   })
   const [saving, setSaving] = useState(false)
+  // 卷面识别：上传文件后调 AI 识别题目并自动生成参考答案
+  const fileInputRef = React.useRef(null)
+  const [paperFiles, setPaperFiles] = useState([])
+  const [parsing, setParsing] = useState(false)
+  const [recognized, setRecognized] = useState(null) // { totalQuestions, questions, referenceAnswer }
+  const [parseError, setParseError] = useState(null)
+  const lastAutoFilledRef = React.useRef('') // 上次自动填入的参考答案，用于判断能否安全覆盖
+
+  const PAPER_ACCEPT = '.png,.jpg,.jpeg,.gif,.bmp,.webp,.pdf,.docx,.txt,.md'
+  const MAX_PAPER_SIZE = 10 * 1024 * 1024
+
+  const addPaperFiles = (list) => {
+    const valid = []
+    const problems = []
+    Array.from(list || []).forEach(f => {
+      const ext = f.name.split('.').pop().toLowerCase()
+      if (!PAPER_ACCEPT.includes(ext)) problems.push(`${f.name}：不支持的格式`)
+      else if (f.size > MAX_PAPER_SIZE) problems.push(`${f.name}：超过 10MB`)
+      else valid.push(f)
+    })
+    setParseError(problems.length ? problems.join('；') : null)
+    if (valid.length) {
+      setPaperFiles(prev => [...prev, ...valid])
+      setRecognized(null) // 文件变了，旧识别结果作废
+    }
+  }
+
+  const runParse = async () => {
+    if (!paperFiles.length || parsing) return
+    setParsing(true)
+    setParseError(null)
+    try {
+      const resp = await classHomeworkAPI.parseHomework(classId, paperFiles, user?.subject || '')
+      setRecognized({
+        totalQuestions: resp.total_questions,
+        questions: resp.questions || [],
+        referenceAnswer: resp.reference_answer || '',
+      })
+      // 参考答案为空或仍是上次自动填入的内容时，直接替换；有人工修改则保留，由用户手动替换
+      if (!form.reference_answer.trim() || form.reference_answer === lastAutoFilledRef.current) {
+        lastAutoFilledRef.current = resp.reference_answer || ''
+        setForm(f => ({ ...f, reference_answer: resp.reference_answer || f.reference_answer }))
+      }
+      addToast(`识别出 ${resp.total_questions} 道题目，参考答案已生成`, 'success')
+    } catch (err) {
+      setParseError(getErrorMessage(err, '识别失败，请重试或手动填写参考答案'))
+    } finally {
+      setParsing(false)
+    }
+  }
+
+  const applyRecognizedAnswers = () => {
+    if (!recognized) return
+    lastAutoFilledRef.current = recognized.referenceAnswer
+    setForm(f => ({ ...f, reference_answer: recognized.referenceAnswer }))
+  }
 
   const submit = async () => {
     if (!form.title.trim()) {
@@ -126,6 +182,93 @@ const HomeworkFormModal = ({ classId, homework, onClose, onSaved }) => {
         <label className="block text-xs font-medium text-gray-600 mb-1">作业说明</label>
         <textarea className={inputCls} rows={2} value={form.description} onChange={e => setForm(f => ({ ...f, description: e.target.value }))} />
       </div>
+
+      <div>
+        <label className="block text-xs font-medium text-gray-600 mb-1">作业卷面（可选）</label>
+        <p className="text-xs text-gray-400 mb-2">上传试卷 / 练习卷的照片或文件，AI 会自动识别每道题目并生成参考答案</p>
+        <input
+          ref={fileInputRef}
+          type="file"
+          multiple
+          accept={PAPER_ACCEPT}
+          className="hidden"
+          onChange={e => { addPaperFiles(e.target.files); e.target.value = '' }}
+        />
+        <button
+          type="button"
+          onClick={() => fileInputRef.current?.click()}
+          className="w-full border-2 border-dashed border-gray-300 rounded-xl py-4 text-sm text-gray-500 hover:border-blue-300 hover:bg-gray-50 transition-colors inline-flex items-center justify-center gap-2"
+        >
+          <Upload className="h-4 w-4" />
+          点击选择卷面文件（图片 / PDF / Word / txt，单个不超过 10MB）
+        </button>
+        {paperFiles.length > 0 && (
+          <ul className="mt-2 space-y-1.5">
+            {paperFiles.map((f, i) => (
+              <li key={`${f.name}-${i}`} className="flex items-center justify-between px-3 py-1.5 bg-gray-50 rounded-lg text-sm">
+                <span className="flex items-center gap-2 text-gray-700 min-w-0">
+                  <FileText className="h-4 w-4 text-gray-400 shrink-0" />
+                  <span className="truncate">{f.name}</span>
+                  <span className="text-xs text-gray-400 shrink-0">{(f.size / 1024).toFixed(0)}KB</span>
+                </span>
+                <button
+                  type="button"
+                  onClick={() => { setPaperFiles(prev => prev.filter((_, idx) => idx !== i)); setRecognized(null) }}
+                  className="p-1 text-gray-400 hover:text-red-500"
+                  aria-label="移除文件"
+                >
+                  <X className="h-4 w-4" />
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+        {paperFiles.length > 0 && (
+          <button
+            type="button"
+            onClick={runParse}
+            disabled={parsing}
+            className="mt-2 px-4 py-2 bg-purple-600 text-white rounded-lg text-sm hover:bg-purple-700 disabled:opacity-50 inline-flex items-center"
+          >
+            {parsing ? <Loader2 className="h-4 w-4 mr-1.5 animate-spin" /> : null}
+            {parsing ? 'AI 识别中，约需 30-60 秒...' : 'AI 识别题目与答案'}
+          </button>
+        )}
+        {parseError && (
+          <p className="mt-2 flex items-start gap-1.5 text-sm text-red-600">
+            <AlertCircle className="h-4 w-4 mt-0.5 shrink-0" />
+            {parseError}
+          </p>
+        )}
+        {recognized && (
+          <div className="mt-3 border border-purple-100 bg-purple-50/50 rounded-xl p-3">
+            <div className="flex items-center justify-between gap-2 flex-wrap">
+              <p className="text-sm font-medium text-gray-800">已识别 {recognized.totalQuestions} 道题目</p>
+              {recognized.referenceAnswer && form.reference_answer !== recognized.referenceAnswer && (
+                <button
+                  type="button"
+                  onClick={applyRecognizedAnswers}
+                  className="text-xs text-purple-700 hover:underline"
+                >
+                  用识别结果替换参考答案
+                </button>
+              )}
+            </div>
+            <ol className="mt-2 space-y-1.5 max-h-40 overflow-y-auto">
+              {recognized.questions.slice(0, 20).map((q) => (
+                <li key={q.question_number} className="text-xs text-gray-600">
+                  <span className="font-medium text-gray-700">{q.question_number}.</span>{' '}
+                  <span className="line-clamp-1">{(q.question_text || '').replace(/\s+/g, ' ')}</span>
+                </li>
+              ))}
+              {recognized.questions.length > 20 && (
+                <li className="text-xs text-gray-400">…… 其余 {recognized.questions.length - 20} 题</li>
+              )}
+            </ol>
+          </div>
+        )}
+      </div>
+
       <div>
         <label className="block text-xs font-medium text-gray-600 mb-1">参考答案（批改时自动使用）</label>
         <textarea

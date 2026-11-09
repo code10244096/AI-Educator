@@ -1,6 +1,7 @@
 """班级管理：班级 / 学生 / 作业 CRUD 与统计"""
+import asyncio
 import json
-from typing import Optional
+from typing import List, Optional
 
 from fastapi import APIRouter, Depends, File, Form, HTTPException, UploadFile
 from pydantic import BaseModel
@@ -8,9 +9,12 @@ from sqlalchemy import delete, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 import class_service as cs
+from ai_client import ai_client, format_reference_answer
 from auth import current_user
 from database import get_db
-from file_utils import FileParseError, get_extension, xlsx_to_member_lines
+from file_utils import (FileParseError, OCR_CONCURRENCY, _silent_remove,
+                        extract_text, get_extension, save_uploads,
+                        xlsx_to_member_lines)
 from models import HomeworkAssignment, HomeworkSubmission, User
 
 router = APIRouter()
@@ -260,6 +264,51 @@ async def create_class_homework(class_slug: str, body: AssignmentCreate, db: Asy
 ):
     """布置作业（可附参考答案，批改时自动使用）"""
     return await _call(cs.create_assignment(db, class_slug, body.model_dump(), teacher_id=user.id))
+
+
+@router.post("/class/{class_slug}/homework/parse")
+async def parse_homework_paper(
+    class_slug: str,
+    files: List[UploadFile] = File(...),
+    subject: Optional[str] = Form(None),
+    db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
+    """上传作业卷面文件（图片/扫描件/PDF/Word/txt），AI 识别每道题目并自动生成参考答案"""
+    from trial_quota import enforce
+    await enforce(user, "grade", db)
+    cls = await _call(cs.get_class_record(db, class_slug, teacher_id=user.id))
+    saved = await save_uploads(files)
+    try:
+        semaphore = asyncio.Semaphore(OCR_CONCURRENCY)
+        texts = await asyncio.gather(*[
+            extract_text(s["path"], s["ext"], semaphore=semaphore,
+                         task_meta={"feature": "assignment_parse", "teacher_id": user.id})
+            for s in saved
+        ])
+    finally:
+        for s in saved:
+            _silent_remove(s["path"])
+
+    content = "\n\n".join(t for t in texts if t and t.strip())
+    if not content.strip():
+        raise HTTPException(status_code=400, detail="未能从文件中识别出文字内容，请检查文件是否清晰")
+
+    result = await ai_client.extract_assignment(
+        content,
+        subject=subject or cls.subject or "数学",
+        task_meta={"teacher_id": user.id, "class_id": cls.id},
+    )
+    if result.get("error"):
+        raise HTTPException(status_code=502, detail=f"AI 识别失败：{result['error']}")
+    questions = result.get("questions") or []
+    if not questions:
+        raise HTTPException(status_code=400, detail="没有从卷面中识别出题目，请检查文件内容或手动填写参考答案")
+    return {
+        "total_questions": len(questions),
+        "questions": questions,
+        "reference_answer": format_reference_answer(questions),
+    }
 
 
 @router.get("/class/{class_slug}/homework-stats")

@@ -397,6 +397,17 @@ export const classHomeworkAPI = {
     return response.data
   },
 
+  // 上传卷面文件，AI 识别题目并自动生成参考答案（布置/编辑作业用）
+  parseHomework: async (classSlug, files, subject = '') => {
+    const formData = new FormData()
+    files.forEach(f => formData.append('files', f))
+    if (subject) formData.append('subject', subject)
+    const response = await api.post(`/class/${classSlug}/homework/parse`, formData, {
+      headers: { 'Content-Type': 'multipart/form-data' },
+    })
+    return response.data
+  },
+
   updateHomework: async (classSlug, homeworkId, data) => {
     const response = await api.put(`/class/${classSlug}/homework/${homeworkId}`, data)
     return response.data
