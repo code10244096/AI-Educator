@@ -16,7 +16,7 @@ import ConfirmDialog from '../components/ConfirmDialog'
 import PageBackground from '../components/PageBackground'
 
 const MAX_FILE_SIZE = 10 * 1024 * 1024
-const ALLOWED_EXTS = ['png', 'jpg', 'jpeg', 'gif', 'bmp', 'webp', 'pdf', 'docx', 'txt', 'md']
+const ALLOWED_EXTS = ['png', 'jpg', 'jpeg', 'gif', 'bmp', 'webp', 'pdf', 'docx', 'pptx', 'txt', 'md', 'tex']
 
 const getFileType = (file) => {
   const ext = file.name.split('.').pop().toLowerCase()
@@ -138,8 +138,9 @@ const HomeworkGrader = () => {
       'image/*': ['.png', '.jpg', '.jpeg', '.gif', '.bmp', '.webp'],
       'application/pdf': ['.pdf'],
       'application/vnd.openxmlformats-officedocument.wordprocessingml.document': ['.docx'],
+      'application/vnd.openxmlformats-officedocument.presentationml.presentation': ['.pptx'],
       'text/markdown': ['.md'],
-      'text/plain': ['.txt', '.md'],
+      'text/plain': ['.txt', '.md', '.tex'],
     },
   })
 
@@ -312,7 +313,7 @@ const HomeworkGrader = () => {
                 <>
                   <p className="text-gray-700 font-medium">拖拽或点击上传</p>
                   <p className="text-sm text-gray-500 mt-2">
-                    支持 PNG、JPG、GIF、WEBP、PDF、Word(.docx)、TXT、MD 格式，单个文件不超过 10MB
+                    支持常见图片与文档格式（含 PDF、Word、PPT、TXT、MD、TeX），单个文件不超过 10MB
                   </p>
                 </>
               )}

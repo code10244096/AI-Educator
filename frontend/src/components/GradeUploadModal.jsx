@@ -23,7 +23,7 @@ import { useToast } from './Toast'
  */
 
 const MAX_FILE_SIZE = 10 * 1024 * 1024
-const ALLOWED_EXTS = ['png', 'jpg', 'jpeg', 'gif', 'bmp', 'webp', 'pdf', 'docx', 'txt', 'md']
+const ALLOWED_EXTS = ['png', 'jpg', 'jpeg', 'gif', 'bmp', 'webp', 'pdf', 'docx', 'pptx', 'txt', 'md', 'tex']
 
 const getFileType = (file) => {
   const ext = file.name.split('.').pop().toLowerCase()
@@ -80,8 +80,9 @@ const GradeUploadModal = ({
       'image/*': ['.png', '.jpg', '.jpeg', '.gif', '.bmp', '.webp'],
       'application/pdf': ['.pdf'],
       'application/vnd.openxmlformats-officedocument.wordprocessingml.document': ['.docx'],
+      'application/vnd.openxmlformats-officedocument.presentationml.presentation': ['.pptx'],
       'text/markdown': ['.md'],
-      'text/plain': ['.txt', '.md'],
+      'text/plain': ['.txt', '.md', '.tex'],
     },
   })
 
@@ -168,7 +169,7 @@ const GradeUploadModal = ({
             <input {...getInputProps()} />
             <Upload className="h-8 w-8 mx-auto text-gray-400" />
             <p className="mt-2 text-sm text-gray-600">拖拽作业文件到这里，或点击选择</p>
-            <p className="mt-1 text-xs text-gray-400">支持图片 / PDF / Word / txt / md，单个文件不超过 10MB</p>
+            <p className="mt-1 text-xs text-gray-400">支持常见图片与文档格式（含 PDF、Word、PPT、TXT、MD、TeX），单个文件不超过 10MB</p>
           </div>
 
           {files.length > 0 && (

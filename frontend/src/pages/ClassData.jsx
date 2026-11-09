@@ -79,16 +79,13 @@ const HomeworkFormModal = ({ classId, homework, onClose, onSaved }) => {
   const [parseError, setParseError] = useState(null)
   const lastAutoFilledRef = React.useRef('') // 上次自动填入的参考答案，用于判断能否安全覆盖
 
-  const PAPER_ACCEPT = '.png,.jpg,.jpeg,.gif,.bmp,.webp,.pdf,.docx,.txt,.md'
   const MAX_PAPER_SIZE = 10 * 1024 * 1024
 
   const addPaperFiles = (list) => {
     const valid = []
     const problems = []
     Array.from(list || []).forEach(f => {
-      const ext = f.name.split('.').pop().toLowerCase()
-      if (!PAPER_ACCEPT.includes(ext)) problems.push(`${f.name}：不支持的格式`)
-      else if (f.size > MAX_PAPER_SIZE) problems.push(`${f.name}：超过 10MB`)
+      if (f.size > MAX_PAPER_SIZE) problems.push(`${f.name}：超过 10MB`)
       else valid.push(f)
     })
     setParseError(problems.length ? problems.join('；') : null)
@@ -185,12 +182,11 @@ const HomeworkFormModal = ({ classId, homework, onClose, onSaved }) => {
 
       <div>
         <label className="block text-xs font-medium text-gray-600 mb-1">作业卷面（可选）</label>
-        <p className="text-xs text-gray-400 mb-2">上传试卷 / 练习卷的照片或文件，AI 会自动识别每道题目并生成参考答案</p>
+        <p className="text-xs text-gray-400 mb-2">上传试卷 / 练习卷的照片或文件（支持常见文档与图片格式），AI 会自动识别每道题目并生成参考答案</p>
         <input
           ref={fileInputRef}
           type="file"
           multiple
-          accept={PAPER_ACCEPT}
           className="hidden"
           onChange={e => { addPaperFiles(e.target.files); e.target.value = '' }}
         />
@@ -200,7 +196,7 @@ const HomeworkFormModal = ({ classId, homework, onClose, onSaved }) => {
           className="w-full border-2 border-dashed border-gray-300 rounded-xl py-4 text-sm text-gray-500 hover:border-blue-300 hover:bg-gray-50 transition-colors inline-flex items-center justify-center gap-2"
         >
           <Upload className="h-4 w-4" />
-          点击选择卷面文件（图片 / PDF / Word / txt，单个不超过 10MB）
+          点击选择卷面文件（单个不超过 10MB）
         </button>
         {paperFiles.length > 0 && (
           <ul className="mt-2 space-y-1.5">
@@ -270,13 +266,14 @@ const HomeworkFormModal = ({ classId, homework, onClose, onSaved }) => {
       </div>
 
       <div>
-        <label className="block text-xs font-medium text-gray-600 mb-1">参考答案（批改时自动使用）</label>
+        <label className="block text-xs font-medium text-gray-600 mb-1">参考答案（可选）</label>
+        <p className="text-xs text-gray-400 mb-1">不必手填：上传卷面后点上方「AI 识别题目与答案」会自动生成并填入；也可以手动填写或修改</p>
         <textarea
           className={`${inputCls} font-mono`}
           rows={6}
           value={form.reference_answer}
           onChange={e => setForm(f => ({ ...f, reference_answer: e.target.value }))}
-          placeholder={'1. A\n2. 3\n3. x=2'}
+          placeholder={'留空即可——AI 识别卷面后自动填充\n也可手动填写，例如：\n1. A\n2. 3\n3. x=2'}
         />
       </div>
     </Modal>

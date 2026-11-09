@@ -21,3 +21,4 @@ requests>=2.31.0
 openai>=1.40.0
 pymupdf>=1.24.0
 openpyxl>=3.1.0  # 班级花名册 .xlsx 导入
+python-pptx>=0.6.21  # .pptx 卷面/作业文本提取

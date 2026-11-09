@@ -1,4 +1,4 @@
-"""上传文件的安全保存与文本提取（图片 OCR / PDF / Word / TXT / MD）"""
+"""上传文件的安全保存与文本提取（图片 OCR / PDF / Word / PPT / TXT / MD / TeX）"""
 import asyncio
 import os
 import tempfile
@@ -11,7 +11,7 @@ from fastapi import HTTPException, UploadFile
 from config import settings
 
 IMAGE_EXTENSIONS = {"png", "jpg", "jpeg", "gif", "bmp", "webp"}
-DOC_EXTENSIONS = {"pdf", "docx", "txt", "md"}
+DOC_EXTENSIONS = {"pdf", "docx", "pptx", "txt", "md", "tex"}
 ALLOWED_UPLOAD_EXTENSIONS = IMAGE_EXTENSIONS | DOC_EXTENSIONS
 
 # 同时进行的 OCR 调用上限（真实模型单次 20-60 秒）
@@ -95,7 +95,7 @@ MSG_CONTENT_MISMATCH = "文件内容与格式不符"
 def content_matches_extension(head: bytes, ext: str) -> bool:
     """
     文件头（magic bytes）校验：扩展名说是什么，内容就必须真是什么。
-    图片 / PDF / Word 按文件头判断；txt / md 必须是文本（不含 NUL 字节，能按 UTF-8 或 GBK 解码）。
+    图片 / PDF / docx / pptx 按文件头判断；txt / md / tex 必须是文本（不含 NUL 字节，能按 UTF-8 或 GBK 解码）。
     """
     ext = (ext or "").lower()
     if ext in ("jpg", "jpeg"):
@@ -112,7 +112,9 @@ def content_matches_extension(head: bytes, ext: str) -> bool:
         return head[:1024].lstrip(b"\xef\xbb\xbf\r\n\t ").startswith(b"%PDF-")
     if ext == "docx":
         return head.startswith(b"PK\x03\x04")
-    if ext in ("txt", "md", "csv"):
+    if ext == "pptx":
+        return head.startswith(b"PK\x03\x04")
+    if ext in ("txt", "md", "csv", "tex"):
         if b"\x00" in head:
             return False
         sample = head[:4096]
@@ -245,6 +247,52 @@ def _read_docx(filepath: str) -> str:
     return "\n".join(parts)
 
 
+def _read_pptx(filepath: str) -> str:
+    """逐页提取 PPT 文本（含文本框与表格），按「第 N 页」分节"""
+    try:
+        from pptx import Presentation
+    except ImportError as e:  # pragma: no cover
+        raise FileParseError("服务器未安装 python-pptx，无法解析 .pptx 文件") from e
+    try:
+        prs = Presentation(filepath)
+    except Exception as e:
+        raise FileParseError(
+            f"PPT 文件解析失败：{e}（旧版 .ppt 格式请先另存为 .pptx 再上传）") from e
+
+    def _shape_text(shape) -> str:
+        chunks: List[str] = []
+        if getattr(shape, "has_text_frame", False):
+            for para in shape.text_frame.paragraphs:
+                text = "".join(run.text for run in para.runs).strip()
+                if text:
+                    chunks.append(text)
+        if getattr(shape, "has_table", False):
+            for row in shape.table.rows:
+                cells = [c.text.strip() for c in row.cells]
+                if any(cells):
+                    chunks.append(" | ".join(cells))
+        if getattr(shape, "shape_type", None) is not None and hasattr(shape, "shapes"):
+            for sub in shape.shapes:
+                sub_text = _shape_text(sub)
+                if sub_text:
+                    chunks.append(sub_text)
+        return "\n".join(chunks)
+
+    pages: List[str] = []
+    for i, slide in enumerate(prs.slides, start=1):
+        texts = []
+        for shape in slide.shapes:
+            try:
+                t = _shape_text(shape)
+            except Exception:
+                continue
+            if t:
+                texts.append(t)
+        if texts:
+            pages.append(f"第 {i} 页\n" + "\n".join(texts))
+    return "\n\n".join(pages)
+
+
 def _pdf_extract(filepath: str) -> Tuple[List[str], List[str]]:
     """
     返回 (每页文本, 需要 OCR 的页面图片路径)。
@@ -319,11 +367,14 @@ async def extract_text(
     if ext in IMAGE_EXTENSIONS:
         return await _ocr(filepath, meta)
 
-    if ext in ("txt", "md"):
+    if ext in ("txt", "md", "tex"):
         return await _read_text_file(filepath)
 
     if ext == "docx":
         return await asyncio.to_thread(_read_docx, filepath)
+
+    if ext == "pptx":
+        return await asyncio.to_thread(_read_pptx, filepath)
 
     if ext == "pdf":
         texts, images = await asyncio.to_thread(_pdf_extract, filepath)
