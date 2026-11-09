@@ -75,6 +75,9 @@ app.add_middleware(
 
 # 注册路由
 app.include_router(router, prefix=settings.API_PREFIX)
+# 身份选择页埋点（未登录可访问，只计数）
+from student_track import router as track_router
+app.include_router(track_router, prefix=settings.API_PREFIX)
 # 运维接口（模型用量统计、反馈列表）仅管理员可访问
 app.include_router(usage_router, prefix=settings.API_PREFIX, dependencies=[Depends(require_admin)])
 app.include_router(feedback_admin_router, prefix=settings.API_PREFIX, dependencies=[Depends(require_admin)])

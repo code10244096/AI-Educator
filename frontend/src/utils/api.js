@@ -16,6 +16,13 @@ export const setAuthHandlers = (handlers) => {
   authHandlers = { ...authHandlers, ...handlers }
 }
 
+// 身份选择页埋点（未登录可访问，失败静默不影响主流程）
+export const trackAPI = {
+  role: async (role) => {
+    await api.post('/track/role', { role })
+  },
+}
+
 export const MSG_SESSION_EXPIRED = '登录已过期，请重新登录'
 export const MSG_MUST_CHANGE_PASSWORD = '请先修改初始密码'
 

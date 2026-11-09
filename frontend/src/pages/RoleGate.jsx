@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom'
 import { GraduationCap, Presentation, Backpack, ArrowLeft, Sparkles } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
+import { trackAPI } from '../utils/api'
 
 // 进入网页的第一步：选择身份。教师 → 体验登录；学生 → 功能尚未发布提示。
 const RoleGate = () => {
@@ -12,6 +13,16 @@ const RoleGate = () => {
   useEffect(() => {
     document.title = 'AI 教学助手'
   }, [])
+
+  const goTeacher = () => {
+    trackAPI.role('teacher').catch(() => {})
+    navigate('/login', { replace: true })
+  }
+
+  const goStudent = () => {
+    trackAPI.role('student').catch(() => {})
+    setRole('student')
+  }
 
   if (!loading && user) {
     return <Navigate to="/" replace />
@@ -32,7 +43,7 @@ const RoleGate = () => {
           <div className="grid w-full gap-5 sm:grid-cols-2">
             <button
               type="button"
-              onClick={() => navigate('/login', { replace: true })}
+              onClick={goTeacher}
               className="group flex flex-col items-center rounded-2xl border border-gray-200 bg-white p-8 text-center shadow-sm transition hover:border-blue-300 hover:shadow-md"
             >
               <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-blue-50 transition group-hover:bg-blue-100">
@@ -50,7 +61,7 @@ const RoleGate = () => {
 
             <button
               type="button"
-              onClick={() => setRole('student')}
+              onClick={goStudent}
               className="group flex flex-col items-center rounded-2xl border border-gray-200 bg-white p-8 text-center shadow-sm transition hover:border-blue-300 hover:shadow-md"
             >
               <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-emerald-50 transition group-hover:bg-emerald-100">
