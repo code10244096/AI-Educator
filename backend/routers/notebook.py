@@ -1,7 +1,8 @@
 """错题本：录入错题、列表、标记掌握、变式题"""
 import asyncio
 import json
-from typing import Optional
+import re
+from typing import Dict, Optional
 
 from fastapi import APIRouter, Depends, File, Form, HTTPException, Query, UploadFile
 from sqlalchemy import func, select
@@ -170,6 +171,64 @@ async def get_notebook_stats(subject: Optional[str] = None, db: AsyncSession = D
         "unmastered": total - mastered,
         "knowledge_points": [{"name": kp or "未分类", "count": c} for kp, c in rows],
     }
+
+
+@router.get("/notebook/frequent")
+async def get_frequent_wrong_questions(
+    subject: Optional[str] = None,
+    limit: int = Query(20, ge=1, le=100),
+    db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
+    """高频错题：按题目聚合历史批改同步进来的错题（含手动录入），
+    统计出错次数、涉及学生数与最近出错时间，按频次倒序。"""
+    query = select(WrongQuestion).where(WrongQuestion.user_id == user.id)
+    if subject:
+        query = query.where(WrongQuestion.subject == subject)
+    rows = (await db.execute(query)).scalars().all()
+
+    groups: Dict[str, dict] = {}
+    for q in rows:
+        text = (q.question_text or "").strip()
+        if not text or text == "（无题目内容）":
+            continue
+        key = re.sub(r"\s+", "", text)[:150]
+        g = groups.setdefault(key, {
+            "question_text": text[:300],
+            "knowledge_point": q.knowledge_point,
+            "count": 0,
+            "students": set(),
+            "submissions": set(),
+            "latest": None,
+            "mastered_all": True,
+            "ids": [],
+        })
+        g["count"] += 1
+        g["ids"].append(q.id)
+        if q.student_name:
+            g["students"].add(q.student_name)
+        if q.submission_id:
+            g["submissions"].add(q.submission_id)
+        if not q.is_mastered:
+            g["mastered_all"] = False
+        if q.error_date and (g["latest"] is None or q.error_date > g["latest"]):
+            g["latest"] = q.error_date
+
+    items = sorted(groups.values(), key=lambda g: (-g["count"], -len(g["students"])))
+    out = []
+    for g in items[:limit]:
+        out.append({
+            "question_text": g["question_text"],
+            "knowledge_point": g["knowledge_point"],
+            "count": g["count"],
+            "student_count": len(g["students"]),
+            "students": sorted(g["students"]),
+            "submission_count": len(g["submissions"]),
+            "latest_error_date": g["latest"].isoformat() if g["latest"] else None,
+            "mastered_all": g["mastered_all"],
+            "question_ids": g["ids"],
+        })
+    return {"total_groups": len(items), "items": out}
 
 
 async def _get_question(db: AsyncSession, question_id: int, user_id: int) -> WrongQuestion:

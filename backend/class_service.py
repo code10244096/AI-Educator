@@ -1224,6 +1224,7 @@ async def get_homework_analysis(db: AsyncSession, class_slug_value: str, homewor
     )).scalars().all() if is_scored(s)]
 
     per_q: Dict[str, dict] = {}
+    per_kp: Dict[str, dict] = {}
     analyzed = 0
     for s in subs:
         if not s.grading_result:
@@ -1248,18 +1249,62 @@ async def get_homework_analysis(db: AsyncSession, class_slug_value: str, homewor
                 "wrong_members": [],
             })
             entry["total"] += 1
+            is_wrong = not q.get("is_correct")
             if q.get("is_correct"):
                 entry["correct"] += 1
             else:
                 entry["wrong_students"].append(name)
                 entry["wrong_members"].append({"member_id": s.member_id, "submission_id": s.id, "name": name})
+            # 知识点维度：一题多个知识点时，本题对每个知识点各计一次（题内去重）
+            kps = _split_knowledge_points(q.get("knowledge_point"))
+            for kp in kps:
+                k = per_kp.setdefault(kp, {
+                    "knowledge_point": kp,
+                    "total": 0,
+                    "wrong": 0,
+                    "wrong_rate": 0,
+                    "question_numbers": set(),
+                })
+                k["total"] += 1
+                if is_wrong:
+                    k["wrong"] += 1
+                k["question_numbers"].add(key)
+
+    knowledge_points = []
+    for k in per_kp.values():
+        k["wrong_rate"] = round(k["wrong"] / k["total"] * 1000) / 10 if k["total"] else 0
+        k["question_numbers"] = sorted(k["question_numbers"], key=lambda x: (not x.isdigit(), int(x) if x.isdigit() else x))
+        knowledge_points.append(k)
+    # 易错 → 不易错排序
+    knowledge_points.sort(key=lambda k: (-k["wrong_rate"], -k["wrong"]))
 
     questions = []
     for key in sorted(per_q, key=lambda k: (not k.isdigit(), int(k) if k.isdigit() else k)):
         e = per_q[key]
         e["correct_rate"] = round(e["correct"] / e["total"] * 1000) / 10 if e["total"] else 0
         questions.append(e)
-    return {"analyzed_count": analyzed, "graded_count": len(subs), "questions": questions}
+    return {"analyzed_count": analyzed, "graded_count": len(subs), "questions": questions,
+            "knowledge_points": knowledge_points}
+
+
+_KP_SPLIT_RE = None
+
+
+def _split_knowledge_points(raw) -> list:
+    """知识点字段拆成列表：支持 、,，;；/ 分隔，去重去空。"""
+    global _KP_SPLIT_RE
+    if _KP_SPLIT_RE is None:
+        import re as _re
+        _KP_SPLIT_RE = _re.compile(r"[、,，;；/]+")
+    if not isinstance(raw, str) or not raw.strip():
+        return []
+    seen, out = set(), []
+    for part in _KP_SPLIT_RE.split(raw):
+        kp = part.strip()
+        if kp and kp not in seen:
+            seen.add(kp)
+            out.append(kp)
+    return out
 
 
 async def update_assignment_status(db: AsyncSession, assignment_id: int) -> None:

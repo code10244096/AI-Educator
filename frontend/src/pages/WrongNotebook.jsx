@@ -101,8 +101,20 @@ const WrongNotebook = () => {
       .finally(() => setStatsLoading(false))
   }, [filter.subject])
 
+  // 高频错题：按题目聚合历史批改记录（含手动录入），出错次数越多排越前
+  const [frequent, setFrequent] = useState(null)
+  const [frequentLoading, setFrequentLoading] = useState(true)
+  const loadFrequent = useCallback(() => {
+    setFrequentLoading(true)
+    notebookAPI.getFrequent({ subject: filter.subject || undefined, limit: 10 })
+      .then(setFrequent)
+      .catch(() => setFrequent(null))
+      .finally(() => setFrequentLoading(false))
+  }, [filter.subject])
+
   useEffect(() => { loadList(false, 0) }, [loadList])
   useEffect(() => { loadStats() }, [loadStats])
+  useEffect(() => { loadFrequent() }, [loadFrequent])
 
   const getFileType = (file) => {
     const ext = file.name.split('.').pop().toLowerCase()
@@ -302,6 +314,41 @@ const WrongNotebook = () => {
           {actionError && (
             <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-xl text-sm text-red-700">{actionError}</div>
           )}
+
+          <div className="mb-6 bg-gradient-to-br from-amber-50 to-orange-50 border border-amber-100 rounded-xl p-4 sm:p-5">
+            <div className="flex items-center gap-2 mb-3">
+              <FileSpreadsheet className="h-5 w-5 text-amber-600" />
+              <h3 className="text-base font-semibold text-gray-900">高频错题</h3>
+              <span className="text-xs text-gray-500">按历史批改记录自动聚合，出错次数越多排越前</span>
+            </div>
+            {frequentLoading ? (
+              <p className="text-sm text-gray-500 flex items-center gap-2"><Loader2 className="h-4 w-4 animate-spin" />正在统计…</p>
+            ) : frequent && frequent.items.length > 0 ? (
+              <ol className="space-y-3">
+                {frequent.items.map((item, idx) => (
+                  <li key={idx} className="bg-white/80 rounded-lg p-3 border border-amber-100/60">
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="text-sm text-gray-800 min-w-0">
+                        <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-amber-500 text-white text-xs font-bold mr-1.5 shrink-0">{idx + 1}</span>
+                        {isBlankText(item.question_text) ? <span className="text-gray-400">（无题目内容）</span> : <MathText text={item.question_text} className="inline" />}
+                      </div>
+                      <span className={`shrink-0 text-xs font-medium px-2 py-0.5 rounded-full ${item.count >= 3 ? 'bg-red-100 text-red-700' : 'bg-amber-100 text-amber-700'}`}>
+                        错 {item.count} 次
+                      </span>
+                    </div>
+                    <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-gray-500 pl-7">
+                      {item.knowledge_point && <span>知识点：{item.knowledge_point}</span>}
+                      <span>涉及 {item.student_count} 名学生：{item.students.slice(0, 6).join('、')}{item.students.length > 6 ? ' 等' : ''}</span>
+                      {item.latest_error_date && <span>最近：{item.latest_error_date.slice(0, 10)}</span>}
+                      {item.mastered_all && <span className="text-green-600">已全部掌握</span>}
+                    </div>
+                  </li>
+                ))}
+              </ol>
+            ) : (
+              <p className="text-sm text-gray-500">还没有足够的数据。班级作业批改完成后，做错的题目会自动同步到这里并按频次聚合。</p>
+            )}
+          </div>
 
         {loading && (
           <div className="text-center py-12">

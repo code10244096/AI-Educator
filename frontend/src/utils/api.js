@@ -218,6 +218,11 @@ export const notebookAPI = {
     return response.data
   },
 
+  getFrequent: async (params = {}) => {
+    const response = await api.get('/notebook/frequent', { params })
+    return response.data
+  },
+
   generateVariants: async (questionId, count = 3) => {
     const formData = new FormData()
     formData.append('count', count)

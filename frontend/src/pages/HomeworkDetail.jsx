@@ -17,6 +17,7 @@ import { classHomeworkAPI, homeworkAPI, getErrorMessage } from '../utils/api'
 import { useToast } from '../components/Toast'
 import useAsync from '../hooks/useAsync'
 import MathText from '../components/MathText'
+import GradeUploadModal from '../components/GradeUploadModal'
 import { isBlankText } from '../utils/mathText'
 import { Empty, ErrorState, Loading } from '../components/PageState'
 import { isGraded, isScorePending, needsReview, scoreLabel } from '../utils/scoreDisplay'
@@ -193,15 +194,15 @@ const HomeworkDetail = () => {
     setSearchParams(next, { replace: true })
   }
 
+  const [uploadCtx, setUploadCtx] = useState(null) // null=关闭；{}=仅作业上下文；{memberId,...}=指定学生
+
   const goUpload = (student) => {
-    const params = new URLSearchParams()
-    params.set('classId', classId)
-    params.set('homeworkId', homeworkId)
-    if (homework?.assignment_id) params.set('assignmentId', homework.assignment_id)
-    if (student?.member_id) params.set('memberId', student.member_id)
-    if (student?.submission_id) params.set('submissionId', student.submission_id)
-    if (student?.name) params.set('studentName', student.name)
-    navigate(`/grader?${params.toString()}`)
+    // 不跳转批改页：直接在本页弹窗内完成上传与批改（与 /grader 同一管线）
+    setUploadCtx({
+      memberId: student?.member_id,
+      submissionId: student?.submission_id,
+      studentName: student?.name,
+    })
   }
 
   const viewResult = (student) => {
@@ -587,6 +588,48 @@ const HomeworkDetail = () => {
         )}
       </div>
 
+      <div className="bg-white rounded-xl border border-gray-200">
+        <div className="p-4 sm:p-5 border-b border-gray-200 flex items-center space-x-2 flex-wrap">
+          <BrainCircuit className="h-5 w-5 text-purple-500" />
+          <h3 className="text-lg font-semibold text-gray-900">知识点掌握情况</h3>
+          {analysis.data && analysis.data.knowledge_points?.length > 0 && (
+            <span className="text-sm text-gray-400">按易错程度排序，基于 {analysis.data.analyzed_count} 份已批改作业</span>
+          )}
+        </div>
+        {analysis.loading && !analysis.data ? (
+          <Loading variant="skeleton" rows={2} className="p-5" />
+        ) : analysis.data && analysis.data.knowledge_points?.length > 0 ? (
+          <div className="p-4 sm:p-5 space-y-3">
+            {analysis.data.knowledge_points.map((kp) => (
+              <div key={kp.knowledge_point} className="space-y-1.5">
+                <div className="flex items-start justify-between gap-3">
+                  <div className="text-sm font-medium text-gray-700 min-w-0">{kp.knowledge_point}</div>
+                  <span className={`text-sm shrink-0 ${kp.wrong_rate >= 50 ? 'text-red-600 font-medium' : kp.wrong_rate >= 30 ? 'text-orange-600' : 'text-gray-500'}`}>
+                    错误率 {kp.wrong_rate}%（错 {kp.wrong}/{kp.total} 人次）
+                  </span>
+                </div>
+                <div className="w-full bg-gray-100 rounded-full h-2 overflow-hidden">
+                  <div
+                    className={`h-full rounded-full ${
+                      kp.wrong_rate >= 50 ? 'bg-red-500' : kp.wrong_rate >= 30 ? 'bg-orange-500' : 'bg-green-500'
+                    }`}
+                    style={{ width: `${Math.min(100, kp.wrong_rate)}%` }}
+                  />
+                </div>
+                <p className="text-xs text-gray-400">涉及题目：{kp.question_numbers.slice(0, 10).join('、')}{kp.question_numbers.length > 10 ? ' 等' : ''}</p>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <Empty
+            compact
+            icon={BarChart3}
+            title="还没有知识点数据"
+            desc="批改结果里带知识点标注的作业会在这里按错误率排序，显示哪些知识点大家容易犯错、哪些掌握得好"
+          />
+        )}
+      </div>
+
       {stats.failed > 0 && statusFilter !== 'failed' && (
         <button
           onClick={() => setFilter('failed')}
@@ -604,6 +647,20 @@ const HomeworkDetail = () => {
           assigning={assigning}
           onPick={assignToMember}
           onClose={() => { if (!assigning) setAssignTarget(null) }}
+        />
+      )}
+
+      {uploadCtx && (
+        <GradeUploadModal
+          classId={classId}
+          homeworkId={homeworkId}
+          assignmentId={homework.assignment_id}
+          memberId={uploadCtx.memberId}
+          submissionId={uploadCtx.submissionId}
+          studentName={uploadCtx.studentName}
+          homeworkTitle={homework.title}
+          onClose={() => setUploadCtx(null)}
+          onDone={() => reload(true)}
         />
       )}
     </div>
