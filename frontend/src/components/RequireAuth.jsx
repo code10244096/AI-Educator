@@ -3,7 +3,7 @@ import { Navigate, useLocation } from 'react-router-dom'
 import { Loader2 } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
 
-// 路由守卫：未登录 → /login?redirect=<原路径>；初始密码未修改 → 只能看到“设置新密码”页
+// 路由守卫：未登录 → /welcome 身份选择（教师由此进登录）；初始密码未修改 → 只能看到“设置新密码”页
 const RequireAuth = ({ children }) => {
   const { user, loading } = useAuth()
   const location = useLocation()
@@ -19,7 +19,7 @@ const RequireAuth = ({ children }) => {
   const current = `${location.pathname}${location.search}`
   if (!user) {
     const redirect = current && current !== '/' ? `?redirect=${encodeURIComponent(current)}` : ''
-    return <Navigate to={`/login${redirect}`} replace />
+    return <Navigate to={`/welcome${redirect}`} replace />
   }
 
   if (user.must_change_password) {
