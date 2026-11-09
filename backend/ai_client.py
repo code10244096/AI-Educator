@@ -325,13 +325,13 @@ class AIClient:
         formula_subjects = {"数学", "物理", "化学", "大学物理", "大学化学"}
         if subject_name in formula_subjects:
             format_rule = (
-                "4. question_text 和 answer 中的数学公式必须用 LaTeX 表示，"
+                "5. question_text 和 answer 中的数学公式必须用 LaTeX 表示，"
                 "行内公式用 \\( \\) 包裹，例如：\\( f(x)=x^3-3x \\)。\n"
                 "错误示例：f(x)=x^3-3x（纯文本，前端无法渲染）\n"
                 "正确示例：\\( f(x)=x^3-3x \\)，递增区间为 \\( (-\\infty,-1) \\) 和 \\( (1,+\\infty) \\)"
             )
         else:
-            format_rule = "4. 题目和答案用自然文字书写，不要使用 LaTeX。"
+            format_rule = "5. 题目和答案用自然文字书写，不要使用 LaTeX。"
 
         prompt = f"""
 请为以下题目生成{count}道变式题：
@@ -340,10 +340,14 @@ class AIClient:
 知识点：{knowledge_point}
 {f'学科：{subject_name}' if subject_name else ''}
 
-每道变式题应该：
-1. 考察相同的知识点
-2. 难度相近但具体数值或条件不同
-3. 有完整的题目和答案
+变式要求（重要，按此执行）：
+1. 每道变式题必须考察相同的核心知识点，但变化幅度要大，至少从以下角度做出实质改变：
+   - 更换实际情境或背景（如工程问题换成行程/销售/几何构图等不同场景）
+   - 重组已知条件与所求目标：可交换条件与结论、把正向求解改为逆向求解、改变条件的给出方式
+   - 改变题目结构与设问角度，而不只是替换数值
+2. 明确禁止：只改几个数字、只换人物或物品名称（如"小明"换"小红"）不算合格的变式题
+3. {count}道变式题之间必须各有不同的变化角度，互相不能雷同
+4. 难度与原题相近（允许上下浮动半档），每道题都要有完整、可核对的题目和答案
 {format_rule}
 
 请以 JSON 数组格式返回，包含以下字段：
@@ -357,7 +361,7 @@ class AIClient:
         
         messages = [{"role": "user", "content": prompt}]
         result = await self._make_request(
-            messages, feature="variant", temperature=0.7,
+            messages, feature="variant", temperature=0.8,
             task_meta={"knowledge_point": knowledge_point, "count": count, **(task_meta or {})},
         )
         
