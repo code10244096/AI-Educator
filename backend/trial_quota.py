@@ -1,6 +1,7 @@
 """公测体验额度。按登录账号、按北京时间自然日计算。
 
-超限时只抛出固定的一句话。不要把次数、token 数或「哪一条规则」写进返回给用户的内容。
+策略：不限调用次数，只限每日 token 总量——基础 5 万，当天提交意见反馈后再奖励 5 万。
+超限只抛出固定的一句话，不把额度数字或「哪一条规则」写进返回给用户的内容。
 管理员不占用体验额度。
 """
 import json
@@ -119,11 +120,10 @@ def _bucket_locked(uid: int) -> dict:
 
 
 def _reject_if_over(row: dict, feature: str = "") -> None:
+    # 策略：不限调用次数，只限每日 token 总量（feature 计数仅作管理端观测）。
     extended = bool(row.get("feedback"))
     caps = _caps(extended)
     if int(row.get("tokens") or 0) >= caps["tokens"]:
-        raise TrialLimited(_message(extended))
-    if feature and int(row.get(feature) or 0) >= caps[feature]:
         raise TrialLimited(_message(extended))
 
 

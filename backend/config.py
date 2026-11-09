@@ -155,16 +155,17 @@ class Settings:
         self.GRADING_CONCURRENCY = max(1, _env_int("GRADING_CONCURRENCY", 4))
         self.DAILY_GRADING_QUOTA = _env_int("DAILY_GRADING_QUOTA", 300)
         # 公测体验额度（按账号、按北京时间每日）。超限文案不包含具体数字。
-        # 第一档用完后，当天提交过意见才升到第二档。
+        # 策略：不限调用次数，只限每日 token 总量；基础 5 万，当天提交意见反馈后再奖励 5 万。
+        # 功能次数上限保留为配置项（默认不限），仅为兼容旧环境变量。
         self.TRIAL_QUOTA_ENABLED = _env_bool("TRIAL_QUOTA_ENABLED", True)
-        self.TRIAL_BASE_TOKENS = _env_int("TRIAL_BASE_TOKENS", 10_000)
-        self.TRIAL_BASE_GRADE = _env_int("TRIAL_BASE_GRADE", 5)
-        self.TRIAL_BASE_LESSONPLAN = _env_int("TRIAL_BASE_LESSONPLAN", 2)
-        self.TRIAL_BASE_VARIANT = _env_int("TRIAL_BASE_VARIANT", 2)
-        self.TRIAL_EXT_TOKENS = _env_int("TRIAL_EXT_TOKENS", 30_000)
-        self.TRIAL_EXT_GRADE = _env_int("TRIAL_EXT_GRADE", 10)
-        self.TRIAL_EXT_LESSONPLAN = _env_int("TRIAL_EXT_LESSONPLAN", 5)
-        self.TRIAL_EXT_VARIANT = _env_int("TRIAL_EXT_VARIANT", 5)
+        self.TRIAL_BASE_TOKENS = _env_int("TRIAL_BASE_TOKENS", 50_000)
+        self.TRIAL_BASE_GRADE = _env_int("TRIAL_BASE_GRADE", 10**9)
+        self.TRIAL_BASE_LESSONPLAN = _env_int("TRIAL_BASE_LESSONPLAN", 10**9)
+        self.TRIAL_BASE_VARIANT = _env_int("TRIAL_BASE_VARIANT", 10**9)
+        self.TRIAL_EXT_TOKENS = _env_int("TRIAL_EXT_TOKENS", 100_000)
+        self.TRIAL_EXT_GRADE = _env_int("TRIAL_EXT_GRADE", 10**9)
+        self.TRIAL_EXT_LESSONPLAN = _env_int("TRIAL_EXT_LESSONPLAN", 10**9)
+        self.TRIAL_EXT_VARIANT = _env_int("TRIAL_EXT_VARIANT", 10**9)
         self.TRIAL_CALLS_PER_MINUTE = _env_int("TRIAL_CALLS_PER_MINUTE", 5)
         self.TRIAL_QUOTA_FILE = os.getenv("TRIAL_QUOTA_FILE") or str(BACKEND_DIR / "trial_quota.json")
         # 模拟模式下每次模拟调用的等待秒数（便于测试排队与进度）
