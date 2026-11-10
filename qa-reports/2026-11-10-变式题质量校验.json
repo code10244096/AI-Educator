@@ -1,0 +1,182 @@
+[
+  {
+    "case": "高中数学-圆锥曲线",
+    "original": "已知椭圆 C: x²/a² + y²/b² = 1 (a>b>0) 的离心率为 √2/2，且过点 (1, √2/2)。(1) 求椭圆 C 的方程；(2) 设 F 为椭圆左焦点，过 F 的直线 l 与椭圆交于 A, B 两点，求 △AOB (O 为原点) 面积的最大值。",
+    "knowledge_point": "椭圆的标准方程与直线和圆锥曲线的位置关系、三角形面积最值",
+    "subject": "数学",
+    "error": null,
+    "variants": [
+      {
+        "variant_number": 1,
+        "variation_approach": "改变椭圆条件的几何呈现方式，并将动弦所在直线改为过椭圆外定点，考查基本不等式求三角形面积最大值",
+        "question_text": "已知椭圆 \\( C: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1 \\ (a>b>0) \\) 的离心率为 \\( \\frac{1}{2} \\)，且其四个顶点与两个焦点构成的焦点与短轴端点四边形的周长为 \\( 8 \\)。\n(1) 求椭圆 \\( C \\) 的标准方程；\n(2) 过点 \\( P(0, 2) \\) 的直线 \\( l \\) 与椭圆 \\( C \\) 交于不同的两点 \\( A, B \\)，求 \\( \\triangle OAB \\) (\\( O \\) 为坐标原点) 面积的最大值。",
+        "answer": "(1) 由题意，短轴端点与两焦点构成的四边形各边长均为 \\( a \\)，其周长为 \\( 4a = 8 \\)，解得 \\( a = 2 \\)。\n又离心率 \\( e = \\frac{c}{a} = \\frac{1}{2} \\)，故 \\( c = 1 \\)，从而 \\( b^2 = a^2 - c^2 = 4 - 1 = 3 \\)。\n因此，椭圆 \\( C \\) 的标准方程为 \\( \\frac{x^2}{4} + \\frac{y^2}{3} = 1 \\)。\n\n(2) 由题意知直线 \\( l \\) 的斜率存在且不为 0，设直线 \\( l \\) 的方程为 \\( y = kx + 2 \\)，设 \\( A(x_1, y_1), B(x_2, y_2) \\)。\n联立方程：\n\\( \\begin{cases} y = kx + 2 \\\\ 3x^2 + 4y^2 = 12 \\end{cases} \\implies (4k^2 + 3)x^2 + 16kx + 4 = 0 \\)。\n由 \\( \\Delta = (16k)^2 - 4(4k^2+3) \\times 4 = 192k^2 - 48 > 0 \\)，解得 \\( k^2 > \\frac{1}{4} \\)。\n由韦达定理得：\\( x_1 + x_2 = -\\frac{16k}{4k^2+3} \\)，\\( x_1 x_2 = \\frac{4}{4k^2+3} \\)。\n则 \\( |x_1 - x_2| = \\sqrt{(x_1+x_2)^2 - 4x_1 x_2} = \\frac{\\sqrt{192k^2 - 48}}{4k^2+3} = \\frac{4\\sqrt{12k^2-3}}{4k^2+3} \\)。\n因为点 \\( P(0, 2) \\) 在 \\( y \\) 轴上，所以 \\( \\triangle OAB \\) 的面积为：\n\\( S = \\frac{1}{2} |OP| \\cdot |x_1 - x_2| = \\frac{1}{2} \\times 2 \\times \\frac{4\\sqrt{12k^2-3}}{4k^2+3} = \\frac{4\\sqrt{12k^2-3}}{4k^2+3} \\)。\n令 \\( t = \\sqrt{12k^2-3} > 0 \\)，则 \\( 4k^2+3 = \\frac{t^2+12}{3} \\)，\n代入得 \\( S = \\frac{12t}{t^2+12} = \\frac{12}{t + \\frac{12}{t}} \\le \\frac{12}{2\\sqrt{t \\cdot \\frac{12}{t}}} = \\sqrt{3} \\)。\n当且仅当 \\( t = \\sqrt{12} \\)，即 \\( k^2 = \\frac{5}{4} > \\frac{1}{4} \\) 时等号成立。\n故 \\( \\triangle OAB \\) 面积的最大值为 \\( \\sqrt{3} \\)。",
+        "difficulty": "medium",
+        "digit_overlap": 0.75,
+        "bigram_jaccard": 0.25
+      },
+      {
+        "variant_number": 2,
+        "variation_approach": "将焦点置于y轴，并将原点构成的三角形拓展为与椭圆下顶点连线构成的三角形，考查换元法求面积最值",
+        "question_text": "已知焦点在 \\( y \\) 轴上的椭圆 \\( C: \\frac{y^2}{a^2} + \\frac{x^2}{b^2} = 1 \\ (a>b>0) \\) 经过点 \\( (\\frac{1}{2}, \\sqrt{3}) \\)，且其离心率为 \\( \\frac{\\sqrt{3}}{2} \\)。\n(1) 求椭圆 \\( C \\) 的标准方程；\n(2) 设 \\( P \\) 为椭圆 \\( C \\) 的下顶点，过其上焦点 \\( F \\) 的直线 \\( l \\) 与椭圆 \\( C \\) 交于 \\( A, B \\) 两点，求 \\( \\triangle PAB \\) 面积的最大值。",
+        "answer": "(1) 由离心率 \\( e = \\frac{c}{a} = \\frac{\\sqrt{3}}{2} \\)，得 \\( a^2 = 4c^2 \\)，故 \\( b^2 = a^2 - c^2 = \\frac{1}{4}a^2 \\)，即 \\( a^2 = 4b^2 \\)。\n将点 \\( (\\frac{1}{2}, \\sqrt{3}) \\) 代入椭圆方程得：\\( \\frac{3}{a^2} + \\frac{1/4}{b^2} = 1 \\implies \\frac{3}{4b^2} + \\frac{1}{4b^2} = 1 \\implies b^2 = 1 \\)。\n从而 \\( a^2 = 4 \\)。\n故椭圆 \\( C \\) 的方程为 \\( \\frac{y^2}{4} + x^2 = 1 \\)。\n\n(2) 由 (1) 知，上焦点为 \\( F(0, \\sqrt{3}) \\)，下顶点为 \\( P(0, -2) \\)，则 \\( |PF| = 2 + \\sqrt{3} \\)。\n若直线 \\( l \\) 的斜率不存在，则直线为 \\( x = 0 \\)，与椭圆交于两顶点，不能构成三角形，故直线 \\( l \\) 的斜率存在。\n设直线 \\( l \\) 的方程为 \\( y = kx + \\sqrt{3} \\)，\\( A(x_1, y_1), B(x_2, y_2) \\)。\n联立方程：\n\\( \\begin{cases} y = kx + \\sqrt{3} \\\\ y^2 + 4x^2 = 4 \\end{cases} \\implies (k^2 + 4)x^2 + 2\\sqrt{3}kx - 1 = 0 \\)。\n\\( \\Delta = (2\\sqrt{3}k)^2 - 4(k^2+4)(-1) = 16k^2 + 16 > 0 \\) 恒成立。\n由韦达定理得：\\( x_1 + x_2 = -\\frac{2\\sqrt{3}k}{k^2+4} \\)，\\( x_1 x_2 = -\\frac{1}{k^2+4} \\)。\n则 \\( |x_1 - x_2| = \\frac{\\sqrt{16(k^2+1)}}{k^2+4} = \\frac{4\\sqrt{k^2+1}}{k^2+4} \\)。\n由于 \\( P, F \\) 都在 \\( y \\) 轴上，所以：\n\\( S_{\\triangle PAB} = \\frac{1}{2} |PF| \\cdot |x_1 - x_2| = \\frac{2+\\sqrt{3}}{2} \\cdot \\frac{4\\sqrt{k^2+1}}{k^2+4} = (2+\\sqrt{3}) \\cdot \\frac{2\\sqrt{k^2+1}}{k^2+4} \\)。\n令 \\( u = \\sqrt{k^2+1} \\ge 1 \\)，则 \\( k^2+4 = u^2+3 \\)，\n\\( \\frac{2u}{u^2+3} = \\frac{2}{u + \\frac{3}{u}} \\le \\frac{2}{2\\sqrt{3}} = \\frac{\\sqrt{3}}{3} \\)，当且仅当 \\( u = \\sqrt{3} \\)（即 \\( k^2 = 2 \\)）时取等号。\n因此，\\( S_{\\triangle PAB} \\le (2+\\sqrt{3}) \\times \\frac{\\sqrt{3}}{3} = \\frac{2\\sqrt{3}+3}{3} \\)。\n故 \\( \\triangle PAB \\) 面积的最大值为 \\( 1 + \\frac{2\\sqrt{3}}{3} \\)。",
+        "difficulty": "medium",
+        "digit_overlap": 0.75,
+        "bigram_jaccard": 0.25
+      },
+      {
+        "variant_number": 3,
+        "variation_approach": "结合圆锥曲线间离心率的关系确定方程，将焦点弦推广为过椭圆内非焦点定点的弦，利用函数单调性求解面积最值",
+        "question_text": "已知椭圆 \\( C: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1 \\ (a>b>0) \\) 的短轴长为 \\( 2\\sqrt{3} \\)，且其离心率与等轴双曲线 \\( x^2 - y^2 = 1 \\) 的离心率互为倒数。\n(1) 求椭圆 \\( C \\) 的标准方程；\n(2) 若过点 \\( P(1, 0) \\) 的动直线 \\( l \\) 与椭圆 \\( C \\) 交于 \\( M, N \\) 两点，求 \\( \\triangle OMN \\) (\\( O \\) 为坐标原点) 面积的最大值。",
+        "answer": "(1) 等轴双曲线 \\( x^2 - y^2 = 1 \\) 的离心率为 \\( \\sqrt{2} \\)，故椭圆 \\( C \\) 的离心率 \\( e = \\frac{c}{a} = \\frac{\\sqrt{2}}{2} \\)，\n因此 \\( a^2 = 2c^2 \\)，从而 \\( b^2 = a^2 - c^2 = c^2 \\)。\n由已知短轴长 \\( 2b = 2\\sqrt{3} \\implies b = \\sqrt{3} \\)，则 \\( b^2 = 3 \\)，故 \\( c^2 = 3, a^2 = 6 \\)。\n所以椭圆 \\( C \\) 的标准方程为 \\( \\frac{x^2}{6} + \\frac{y^2}{3} = 1 \\)。\n\n(2) 易知点 \\( P(1,0) \\) 在椭圆内部，设直线 \\( l \\) 的方程为 \\( x = my + 1 \\)，\\( M(x_1, y_1), N(x_2, y_2) \\)。\n联立方程：\n\\( \\begin{cases} x = my + 1 \\\\ x^2 + 2y^2 = 6 \\end{cases} \\implies (m^2 + 2)y^2 + 2my - 5 = 0 \\)。\n\\( \\Delta = (2m)^2 - 4(m^2+2)(-5) = 24m^2 + 40 > 0 \\) 恒成立。\n由韦达定理得：\\( y_1 + y_2 = -\\frac{2m}{m^2+2} \\)，\\( y_1 y_2 = -\\frac{5}{m^2+2} \\)。\n则 \\( |y_1 - y_2| = \\sqrt{(y_1+y_2)^2 - 4y_1 y_2} = \\frac{\\sqrt{24m^2+40}}{m^2+2} \\)。\n故 \\( \\triangle OMN \\) 的面积为：\n\\( S = \\frac{1}{2} |OP| \\cdot |y_1 - y_2| = \\frac{1}{2} \\times 1 \\times \\frac{\\sqrt{24m^2+40}}{m^2+2} = \\frac{\\sqrt{6m^2+10}}{m^2+2} \\)。\n令 \\( t = m^2 + 2 \\)，因为 \\( m^2 \\ge 0 \\)，所以 \\( t \\ge 2 \\)。\n则 \\( 6m^2 + 10 = 6(t - 2) + 10 = 6t - 2 \\)，\n因此 \\( S = \\frac{\\sqrt{6t-2}}{t} = \\sqrt{\\frac{6}{t} - \\frac{2}{t^2}} \\)。\n设 \\( u = \\frac{1}{t} \\)，由于 \\( t \\ge 2 \\)，则 \\( u \\in (0, \\frac{1}{2}] \\)。\n令 \\( g(u) = -2u^2 + 6u \\)，二次函数 \\( g(u) \\) 的对称轴为 \\( u = \\frac{3}{2} \\)，\n故 \\( g(u) \\) 在 \\( (0, \\frac{1}{2}] \\) 上单调递增，\n当 \\( u = \\frac{1}{2} \\)（即 \\( t = 2, m = 0 \\)）时，\\( g(u) \\) 取得最大值：\n\\( g(\\frac{1}{2}) = -2 \\times \\frac{1}{4} + 6 \\times \\frac{1}{2} = \\frac{5}{2} \\)。\n所以 \\( S_{\\max} = \\sqrt{\\frac{5}{2}} = \\frac{\\sqrt{10}}{2} \\)。\n故 \\( \\triangle OMN \\) 面积的最大值为 \\( \\frac{\\sqrt{10}}{2} \\)（此时直线 \\( l \\) 垂直于 \\( x \\) 轴）。",
+        "difficulty": "medium",
+        "digit_overlap": 0.75,
+        "bigram_jaccard": 0.23
+      }
+    ]
+  },
+  {
+    "case": "三角求值",
+    "original": "已知 tanα=2，求 (sinα+cosα)/(sinα-cosα) 的值",
+    "knowledge_point": "同角三角函数的基本关系",
+    "subject": "数学",
+    "error": null,
+    "variants": [
+      {
+        "variant_number": 1,
+        "variation_approach": "结合解析几何中直线倾斜角的情境，将条件转化为斜率，设问变为利用常数“1”的代换化齐次式求值",
+        "question_text": "在平面直角坐标系中，直线 \\( l \\) 经过两点 \\( A(1, 0) \\) 和 \\( B(2, 3) \\)，若其倾斜角为 \\( \\theta \\)，求代数式 \\( \\sin^2\\theta + 2\\sin\\theta\\cos\\theta \\) 的值。",
+        "answer": "由题意得直线 \\( l \\) 的斜率 \\( k = \\tan\\theta = \\frac{3 - 0}{2 - 1} = 3 \\)。将所求式子分母看作 \\( 1 = \\sin^2\\theta + \\cos^2\\theta \\)，分子分母同除以 \\( \\cos^2\\theta \\)，得：\\n\\( \\sin^2\\theta + 2\\sin\\theta\\cos\\theta = \\frac{\\sin^2\\theta + 2\\sin\\theta\\cos\\theta}{\\sin^2\\theta + \\cos^2\\theta} = \\frac{\\tan^2\\theta + 2\\tan\\theta}{\\tan^2\\theta + 1} \\)。\\n代入 \\( \\tan\\theta = 3 \\)，得原式 \\( = \\frac{3^2 + 2\\times 3}{3^2 + 1} = \\frac{9 + 6}{9 + 1} = \\frac{15}{10} = \\frac{3}{2} \\)。",
+        "difficulty": "medium",
+        "digit_overlap": 0.25,
+        "bigram_jaccard": 0.09
+      },
+      {
+        "variant_number": 2,
+        "variation_approach": "逆向设问：已知齐次分式方程反解出正切值，再结合平方关系求倒数型的二次分式",
+        "question_text": "已知角 \\( \\alpha \\) 满足 \\( \\frac{3\\sin\\alpha - \\cos\\alpha}{\\sin\\alpha + 2\\cos\\alpha} = 1 \\)，求 \\( \\frac{1}{\\sin^2\\alpha - \\cos^2\\alpha} \\) 的值。",
+        "answer": "由已知去分母得 \\( 3\\sin\\alpha - \\cos\\alpha = \\sin\\alpha + 2\\cos\\alpha \\)，整理得 \\( 2\\sin\\alpha = 3\\cos\\alpha \\)，两边同除以 \\( \\cos\\alpha \\) 可得 \\( \\tan\\alpha = \\frac{3}{2} \\)。\\n利用 \\( 1 = \\sin^2\\alpha + \\cos^2\\alpha \\)，将待求式分子改写并同除以 \\( \\cos^2\\alpha \\)：\\n\\( \\frac{1}{\\sin^2\\alpha - \\cos^2\\alpha} = \\frac{\\sin^2\\alpha + \\cos^2\\alpha}{\\sin^2\\alpha - \\cos^2\\alpha} = \\frac{\\tan^2\\alpha + 1}{\\tan^2\\alpha - 1} \\)。\\n将 \\( \\tan\\alpha = \\frac{3}{2} \\) 代入得：\\( \\frac{(\\frac{3}{2})^2 + 1}{(\\frac{3}{2})^2 - 1} = \\frac{\\frac{9}{4} + 1}{\\frac{9}{4} - 1} = \\frac{13}{5} \\)。",
+        "difficulty": "medium",
+        "digit_overlap": 0.33,
+        "bigram_jaccard": 0.11
+      },
+      {
+        "variant_number": 3,
+        "variation_approach": "融入平面向量垂直的充要条件给出三角函数关系，设问转向二次齐次式的比值化简",
+        "question_text": "已知平面向量 \\( \\vec{a} = (\\sin\\alpha, \\cos\\alpha) \\)，\\( \\vec{b} = (1, -2) \\)，且 \\( \\vec{a} \\perp \\vec{b} \\)，求 \\( \\frac{3\\sin^2\\alpha - 4\\cos^2\\alpha}{\\sin^2\\alpha + \\sin\\alpha\\cos\\alpha} \\) 的值。",
+        "answer": "因为 \\( \\vec{a} \\perp \\vec{b} \\)，所以 \\( \\vec{a} \\cdot \\vec{b} = \\sin\\alpha - 2\\cos\\alpha = 0 \\)，即 \\( \\sin\\alpha = 2\\cos\\alpha \\)，所以 \\( \\tan\\alpha = 2 \\)。\\n将待求式的分子与分母同时除以 \\( \\cos^2\\alpha \\)，得：\\n\\( \\frac{3\\sin^2\\alpha - 4\\cos^2\\alpha}{\\sin^2\\alpha + \\sin\\alpha\\cos\\alpha} = \\frac{3\\tan^2\\alpha - 4}{\\tan^2\\alpha + \\tan\\alpha} \\)。\\n代入 \\( \\tan\\alpha = 2 \\)，计算得：\\( \\frac{3\\times 2^2 - 4}{2^2 + 2} = \\frac{12 - 4}{4 + 2} = \\frac{8}{6} = \\frac{4}{3} \\)。",
+        "difficulty": "easy",
+        "digit_overlap": 0.25,
+        "bigram_jaccard": 0.09
+      }
+    ]
+  },
+  {
+    "case": "小学数学-分数应用",
+    "original": "小明看一本 120 页的故事书，第一天看了全书的 1/4，第二天看了全书的 1/3，还剩多少页没有看？",
+    "knowledge_point": "分数应用题",
+    "subject": "数学",
+    "error": null,
+    "variants": [
+      {
+        "variant_number": 1,
+        "variation_approach": "换情境为粮食仓储，逆向设问，由已知的剩余具体数量反求总量“单位 1”",
+        "question_text": "粮库运来一批大米，第一周卖出总量的 \\( \\frac{2}{5} \\)，第二周卖出总量的 \\( \\frac{1}{4} \\)，此时粮库还剩下 \\( 28\\text{ 吨} \\) 大米。这批大米一共有多少吨？",
+        "answer": "剩余大米占总量的分率为：\\( 1 - \\frac{2}{5} - \\frac{1}{4} = \\frac{7}{20} \\)。\n这批大米的总量为：\\( 28 \\div \\frac{7}{20} = 28 \\times \\frac{20}{7} = 80\\text{（吨）} \\)。\n答：这批大米一共有 \\( 80\\text{ 吨} \\)。",
+        "difficulty": "medium",
+        "digit_overlap": 0.4,
+        "bigram_jaccard": 0.05
+      },
+      {
+        "variant_number": 2,
+        "variation_approach": "换情境为植树绿化，设问角度由“求剩余量”改为“求两个已知分率对应部分量的差”",
+        "question_text": "绿化工程队计划在环城路旁植树 \\( 360\\text{ 棵} \\)。第一小队完成了总任务的 \\( \\frac{1}{4} \\)，第二小队完成了总任务的 \\( \\frac{2}{5} \\)。第二小队比第一小队多植树多少棵？",
+        "answer": "方法一：第二小队比第一小队多占总任务的分率为 \\( \\frac{2}{5} - \\frac{1}{4} = \\frac{3}{20} \\)，多植树 \\( 360 \\times \\frac{3}{20} = 54\\text{（棵）} \\)。\n方法二：第一小队植树 \\( 360 \\times \\frac{1}{4} = 90\\text{（棵）} \\)，第二小队植树 \\( 360 \\times \\frac{2}{5} = 144\\text{（棵）} \\)，差额为 \\( 144 - 90 = 54\\text{（棵）} \\)。\n答：第二小队比第一小队多植树 \\( 54\\text{ 棵} \\)。",
+        "difficulty": "easy",
+        "digit_overlap": 0.4,
+        "bigram_jaccard": 0.04
+      },
+      {
+        "variant_number": 3,
+        "variation_approach": "换情境为零件加工，结合剩余量逆向推导，设问改为求前两阶段完成量的总和",
+        "question_text": "机械厂承接了一批零件加工订单。第一周完成了全部任务的 \\( \\frac{3}{10} \\)，第二周完成了全部任务的 \\( \\frac{2}{5} \\)，第三周加工了 \\( 450\\text{ 个} \\) 零件恰好全部完成。前两周一共加工了多少个零件？",
+        "answer": "第三周加工的零件占总任务的分率为：\\( 1 - \\frac{3}{10} - \\frac{2}{5} = \\frac{3}{10} \\)。\n这批零件的总任务量为：\\( 450 \\div \\frac{3}{10} = 1500\\text{（个）} \\)。\n前两周一共加工的零件数为：\\( 1500 - 450 = 1050\\text{（个）} \\)（或 \\( 1500 \\times \\left(\\frac{3}{10} + \\frac{2}{5}\\right) = 1050\\text{（个）} \\)）。\n答：前两周一共加工了 \\( 1050\\text{ 个} \\) 零件。",
+        "difficulty": "medium",
+        "digit_overlap": 0.2,
+        "bigram_jaccard": 0.04
+      }
+    ]
+  },
+  {
+    "case": "初中物理-摩擦力",
+    "original": "一个质量为 2 kg 的物体受到 10 N 的水平拉力，在粗糙水平面上做匀速直线运动，求物体受到的摩擦力大小和方向。",
+    "knowledge_point": "二力平衡与摩擦力",
+    "subject": "物理",
+    "error": null,
+    "variants": [
+      {
+        "variant_number": 1,
+        "variation_approach": "改变运动状态设问，将二力平衡求得的摩擦力迁移至外力增大后的加速运动情境中",
+        "question_text": "超市理货员用大小为 \\( 45\\text{ N} \\) 的水平向右推力，推着质量为 \\( 30\\text{ kg} \\) 的货架在水平地面上做匀速直线运动。随后理货员将水平向右的推力瞬间增大至 \\( 60\\text{ N} \\)，在货架继续向前滑行的过程中，求货架受到的滑动摩擦力的大小和方向。",
+        "answer": "货架受到的滑动摩擦力大小为 \\( 45\\text{ N} \\)，方向水平向左。\n\n解析：\n1. 货架以 \\( 45\\text{ N} \\) 的水平向右推力做匀速直线运动时，水平方向处于二力平衡状态，受到的滑动摩擦力与推力平衡，即 \\( f = F_1 = 45\\text{ N} \\)，方向水平向左。\n2. 当推力增大到 \\( 60\\text{ N} \\) 后，货架对地面的压力及接触面的粗糙程度均未改变，因此受到的滑动摩擦力大小保持不变，仍为 \\( 45\\text{ N} \\)；且货架依然向右滑动，摩擦力方向仍水平向左（反向阻碍相对运动）。",
+        "difficulty": "medium",
+        "digit_overlap": 0.0,
+        "bigram_jaccard": 0.2
+      },
+      {
+        "variant_number": 2,
+        "variation_approach": "变换情境至竖直面匀速运动，引入重力计算并设置水平压力作为干扰条件",
+        "question_text": "在教室里，值日生用黑板擦沿竖直黑板面匀速向下擦拭。已知黑板擦的质量为 \\( 0.15\\text{ kg} \\)，擦拭过程中手对黑板擦施加了大小为 \\( 6\\text{ N} \\) 的水平压力。取 \\( g = 10\\text{ N/kg} \\)，求黑板擦在向下运动过程中受到的摩擦力大小和方向。",
+        "answer": "黑板擦受到的摩擦力大小为 \\( 1.5\\text{ N} \\)，方向竖直向上。\n\n解析：\n1. 黑板擦在竖直方向做匀速直线运动，处于平衡状态。竖直方向上共受两个力：竖直向下的重力 \\( G \\) 和竖直向上的滑动摩擦力 \\( f \\)。\n2. 计算重力：\\( G = mg = 0.15\\text{ kg} \\times 10\\text{ N/kg} = 1.5\\text{ N} \\)。\n3. 根据二力平衡条件，竖直向上的摩擦力与重力大小相等，即 \\( f = G = 1.5\\text{ N} \\)，方向竖直向上。\n4. 题中大小为 \\( 6\\text{ N} \\) 的水平压力在水平方向上与黑板对黑板擦的支持力平衡，不影响竖直方向的受力平衡计算。",
+        "difficulty": "medium",
+        "digit_overlap": 0.33,
+        "bigram_jaccard": 0.16
+      },
+      {
+        "variant_number": 3,
+        "variation_approach": "增加同一直线上同向/反向的多外力组合，考查合力平衡下滑动摩擦力的求解",
+        "question_text": "一辆遥控模型小车在平直水平跑道上向东做匀速直线运动。测试中，小车车头受到一根细绳向东的水平拉力，大小为 \\( 14\\text{ N} \\)；同时车尾拖挂一条阻力带，对小车施加了一个向西的水平拉力，大小为 \\( 5\\text{ N} \\)。求此时地面对小车产生的滑动摩擦力的大小和方向。",
+        "answer": "地面对小车的滑动摩擦力大小为 \\( 9\\text{ N} \\)，方向水平向西。\n\n解析：\n1. 小车向东做匀速直线运动，水平方向受力平衡，合力为 0。\n2. 小车相对于地面向东运动，地面对小车的滑动摩擦力 \\( f \\) 阻碍其相对运动，方向水平向西。\n3. 水平方向上，向东的力为细绳拉力 \\( F_{\\text{东}} = 14\\text{ N} \\)，向西的力包括阻力带的拉力 \\( F_{\\text{西}} = 5\\text{ N} \\) 和滑动摩擦力 \\( f \\)。\n4. 由力的平衡条件得：\\( F_{\\text{东}} = F_{\\text{西}} + f \\)，解得 \\( f = F_{\\text{东}} - F_{\\text{西}} = 14\\text{ N} - 5\\text{ N} = 9\\text{ N} \\)，方向水平向西。",
+        "difficulty": "easy",
+        "digit_overlap": 0.0,
+        "bigram_jaccard": 0.15
+      }
+    ]
+  },
+  {
+    "case": "英语-时态",
+    "original": "He _____ (be) a teacher for ten years.（用所给词的适当形式填空）",
+    "knowledge_point": "现在完成时",
+    "subject": "英语",
+    "error": null,
+    "variants": [
+      {
+        "variant_number": 1,
+        "variation_approach": "换为日常问路对话情境，由肯定句转为否定句，考查延续性动词在否定句中与时间段搭配的现在完成时用法",
+        "question_text": "— Could you please show me the way to the city library?\n— Sorry, I can't. I _____ (not live) in this neighborhood for very long.",
+        "answer": "haven't lived（或 have not lived）",
+        "difficulty": "easy",
+        "digit_overlap": 0.0,
+        "bigram_jaccard": 0.08
+      },
+      {
+        "variant_number": 2,
+        "variation_approach": "换为城市发展变迁的客观描述情境，将单一时间短语改为 since 引导的从句结构，考查复合语境下动词短语的现在完成时复数形式",
+        "question_text": "Great changes _____ (take) place in this coastal town since the high-speed railway opened.",
+        "answer": "have taken",
+        "difficulty": "medium",
+        "digit_overlap": 0.0,
+        "bigram_jaccard": 0.09
+      },
+      {
+        "variant_number": 3,
+        "variation_approach": "换为社交邀约对话情境，设问由表示持续状态转为考查动作对现在的影响及发生频次（already 与 twice）",
+        "question_text": "— Would you like to go to the new Italian restaurant with us tonight?\n— Thanks for the invitation, but I _____ already _____ (eat) there twice this week.",
+        "answer": "have; eaten",
+        "difficulty": "medium",
+        "digit_overlap": 0.0,
+        "bigram_jaccard": 0.09
+      }
+    ]
+  }
+]
