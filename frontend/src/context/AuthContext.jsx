@@ -83,6 +83,12 @@ export const AuthProvider = ({ children }) => {
     return data
   }, [])
 
+  const markOnboardingSeen = useCallback(async () => {
+    const data = await authAPI.markOnboardingSeen()
+    setUser(data)
+    return data
+  }, [])
+
   return (
     <AuthContext.Provider value={{
       user,
@@ -94,6 +100,7 @@ export const AuthProvider = ({ children }) => {
       logout,
       changePassword,
       updateProfile,
+      markOnboardingSeen,
     }}>
       {children}
     </AuthContext.Provider>

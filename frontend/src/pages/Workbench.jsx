@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
   ClipboardCheck, Loader2, AlertTriangle, Inbox, Plus, Upload, ChevronRight, Users, FileText,
-  UserPlus, ClipboardList, CheckCircle2, MessageSquarePlus,
+  UserPlus, ClipboardList, CheckCircle2, MessageSquarePlus, Sparkles,
 } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
 import { useClass } from '../context/ClassContext'
@@ -11,6 +11,7 @@ import { dashboardAPI, usageAPI } from '../utils/api'
 import useAsync from '../hooks/useAsync'
 import { Loading, ErrorState, Empty } from '../components/PageState'
 import FeedbackDialog from '../components/FeedbackDialog'
+import OnboardingGuide from '../components/OnboardingGuide'
 import { formatRelative } from '../utils/time'
 
 // 工作台（R1-006）：登录后首页，一眼看到今天要做的事——待复核、批改中、需处理、收集中，最近作业与快捷入口
@@ -312,6 +313,14 @@ const Workbench = () => {
   const [expanded, setExpanded] = useState(null)
   const [showAllTargets, setShowAllTargets] = useState(false)
   const [feedbackOpen, setFeedbackOpen] = useState(false)
+  const [guideOpen, setGuideOpen] = useState(false)
+
+  // 新用户首次登录自动弹出功能指引（看过或跳过后不再打扰；完善资料优先，不叠加弹窗）
+  useEffect(() => {
+    if (!user || user.onboarding_seen || user.needs_profile || user.must_change_password) return undefined
+    const timer = setTimeout(() => setGuideOpen(true), 600)
+    return () => clearTimeout(timer)
+  }, [user])
 
   // 有批改在进行时静默刷新（数字随进度变化）；后台任务数变化时也刷新一次
   const processing = data?.counts?.processing || 0
@@ -370,6 +379,14 @@ const Workbench = () => {
         </p>
       </div>
       <div className="flex items-center gap-2">
+        <button
+          type="button"
+          onClick={() => setGuideOpen(true)}
+          className="inline-flex items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm font-medium text-gray-600 hover:text-blue-600 hover:border-blue-200 transition-colors"
+        >
+          <Sparkles className="h-4 w-4" />
+          新手指引
+        </button>
         <AssignButton classes={classes} navigate={navigate} />
         <button
           type="button"
@@ -395,6 +412,7 @@ const Workbench = () => {
         <span>反馈</span>
       </button>
       <FeedbackDialog isOpen={feedbackOpen} onClose={() => setFeedbackOpen(false)} />
+      {guideOpen && <OnboardingGuide onClose={() => setGuideOpen(false)} />}
     </>
   )
 

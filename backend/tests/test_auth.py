@@ -11,7 +11,8 @@ import pytest
 
 from testenv import BACKEND_DIR, TEST_DB, api_routes
 
-PUBLIC_ROUTES = {("POST", "/api/auth/login"), ("POST", "/api/auth/logout"), ("POST", "/api/auth/phone-code")}
+PUBLIC_ROUTES = {("POST", "/api/auth/login"), ("POST", "/api/auth/logout"), ("POST", "/api/auth/phone-code"),
+                 ("POST", "/api/track/role")}  # 身份选择页埋点：未登录也允许（只计数）
 
 
 def _concrete(path: str) -> str:
@@ -60,7 +61,8 @@ async def test_login_success_sets_httponly_cookie_and_hashes_password(app, anon_
     body = r.json()
     assert body == {"id": uid, "username": username, "display_name": "王老师", "school": "实验中学",
                     "education_stage": "", "subject": "",
-                    "role": "teacher", "must_change_password": True, "is_guest": False, "needs_profile": False}
+                    "role": "teacher", "must_change_password": True, "is_guest": False, "needs_profile": False,
+                    "onboarding_seen": False}
     set_cookie = r.headers["set-cookie"].lower()
     assert "aiedu_session=" in set_cookie and "httponly" in set_cookie and "samesite=lax" in set_cookie
     # 初始密码：只能访问账号接口，业务接口 403

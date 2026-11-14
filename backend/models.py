@@ -22,6 +22,7 @@ class User(Base):
     is_active = Column(Boolean, default=True)  # 停用的账号不能登录，已有会话立即失效
     session_version = Column(Integer, default=0)  # 改密 / 重置 / 停用时 +1，使旧会话失效
     last_login_at = Column(DateTime(timezone=True))
+    onboarding_seen_at = Column(DateTime(timezone=True), nullable=True)  # 完成新手指引的时间；空 = 未看过，登录后弹指引
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     
     # 关系

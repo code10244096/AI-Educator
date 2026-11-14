@@ -74,6 +74,11 @@ export const authAPI = {
     return response.data
   },
 
+  markOnboardingSeen: async () => {
+    const response = await api.post('/auth/onboarding-seen')
+    return response.data
+  },
+
   changePassword: async (oldPassword, newPassword) => {
     const response = await api.post('/auth/change-password', {
       old_password: oldPassword,

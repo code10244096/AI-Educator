@@ -138,6 +138,7 @@ def user_to_dict(user: User) -> dict:
         "must_change_password": bool(user.must_change_password),
         "is_guest": is_guest_user(user),
         "needs_profile": phone_user and (not stage or not subject),
+        "onboarding_seen": bool(getattr(user, "onboarding_seen_at", None)),
     }
 
 

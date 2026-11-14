@@ -208,6 +208,15 @@ async def get_me(user: User = Depends(current_user_allow_pending)):
     return user_to_dict(user)
 
 
+@router.post("/auth/onboarding-seen")
+async def mark_onboarding_seen(user: User = Depends(current_user), db: AsyncSession = Depends(get_db)):
+    """标记新手指引已看完（完成或跳过都算），之后登录不再自动弹出"""
+    if user.onboarding_seen_at is None:
+        user.onboarding_seen_at = datetime.now(timezone.utc).replace(tzinfo=None)
+        await db.commit()
+    return user_to_dict(user)
+
+
 @router.put("/auth/me")
 async def update_me(body: ProfileUpdate, user: User = Depends(current_user), db: AsyncSession = Depends(get_db)):
     """修改个人资料：姓名、学校（账号不可修改）"""
