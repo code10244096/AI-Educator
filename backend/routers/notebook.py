@@ -239,6 +239,14 @@ async def _get_question(db: AsyncSession, question_id: int, user_id: int) -> Wro
     return q
 
 
+@router.get("/notebook/{question_id}")
+async def get_wrong_question(question_id: int, db: AsyncSession = Depends(get_db),
+                             user: User = Depends(current_user)):
+    """查询单道错题（含变式题），供前端在切页返回后轮询生成进度"""
+    q = await _get_question(db, question_id, user.id)
+    return _question_to_dict(q)
+
+
 @router.post("/notebook/{question_id}/mastered")
 async def mark_as_mastered(question_id: int, db: AsyncSession = Depends(get_db),
                            user: User = Depends(current_user)):

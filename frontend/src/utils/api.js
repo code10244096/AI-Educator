@@ -209,6 +209,11 @@ export const notebookAPI = {
     const response = await api.get('/notebook/list', { params })
     return response.data
   },
+
+  getOne: async (questionId) => {
+    const response = await api.get(`/notebook/${questionId}`)
+    return response.data
+  },
   
   markMastered: async (questionId) => {
     const response = await api.post(`/notebook/${questionId}/mastered`)

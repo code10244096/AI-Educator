@@ -46,6 +46,30 @@ const ERROR_MESSAGES = {
 
 const PAGE_SIZE = 20
 
+// 跨页面恢复「生成变式题」进行中状态：生成中的错题 id + 起始时间存 sessionStorage，
+// 切走页面再回来时恢复「生成中」并轮询结果；超过 10 分钟未出结果自动放弃，避免空转。
+const VARIANT_PENDING_KEY = 'wrongnotebook_variant_pending'
+const VARIANT_PENDING_TTL = 10 * 60 * 1000
+
+function readPendingVariants() {
+  try {
+    const arr = JSON.parse(sessionStorage.getItem(VARIANT_PENDING_KEY) || '[]')
+    if (!Array.isArray(arr)) return []
+    const now = Date.now()
+    return arr.filter(item => item && item.id && now - (item.ts || 0) < VARIANT_PENDING_TTL)
+  } catch {
+    return []
+  }
+}
+
+function writePendingVariants(list) {
+  try {
+    sessionStorage.setItem(VARIANT_PENDING_KEY, JSON.stringify(list))
+  } catch {
+    /* 存储不可用时静默降级：仅本页内有效 */
+  }
+}
+
 const WrongNotebook = () => {
   const { user } = useAuth()
   const [questions, setQuestions] = useState([])
@@ -60,7 +84,12 @@ const WrongNotebook = () => {
   const [stats, setStats] = useState(null)
   const [statsLoading, setStatsLoading] = useState(true)
   const [newKnowledgePoint, setNewKnowledgePoint] = useState('')
-  const [variantLoadingIds, setVariantLoadingIds] = useState({}) // 错题 id -> 生成中，支持多题并行
+  const [variantLoadingIds, setVariantLoadingIds] = useState(() => {
+    // 从 sessionStorage 恢复上次页面仍在生成的题目（切页再回来后继续显示"生成中"）
+    const restored = {}
+    readPendingVariants().forEach(item => { restored[item.id] = true })
+    return restored
+  }) // 错题 id -> 生成中，支持多题并行
   const [actionError, setActionError] = useState(null)
 
   useEffect(() => {
@@ -207,12 +236,14 @@ const WrongNotebook = () => {
   const handleGenerateVariants = async (q) => {
     setVariantLoadingIds(prev => ({ ...prev, [q.id]: true }))
     setActionError(null)
+    writePendingVariants([...readPendingVariants().filter(item => item.id !== q.id), { id: q.id, ts: Date.now() }])
     try {
       const res = await notebookAPI.generateVariants(q.id, 3)
       setQuestions(prev => prev.map(item => (item.id === q.id ? { ...item, variant_questions: res.variant_questions } : item)))
     } catch (err) {
       setActionError(getErrorMessage(err, '变式题生成失败'))
     } finally {
+      writePendingVariants(readPendingVariants().filter(item => item.id !== q.id))
       setVariantLoadingIds(prev => {
         const next = { ...prev }
         delete next[q.id]
@@ -220,6 +251,40 @@ const WrongNotebook = () => {
       })
     }
   }
+
+  // 切页再回来后：对仍在生成中的错题轮询，变式题一落库就自动显示，无需手动刷新
+  useEffect(() => {
+    const pendingIds = Object.keys(variantLoadingIds).map(Number)
+    if (pendingIds.length === 0) return undefined
+    const clearLoading = (id) => {
+      setVariantLoadingIds(prev => {
+        const next = { ...prev }
+        delete next[id]
+        return next
+      })
+    }
+    const timer = setInterval(async () => {
+      for (const id of pendingIds) {
+        if (!readPendingVariants().some(item => item.id === id)) {
+          clearLoading(id) // 已过期或被清理：停止本轮轮询标记
+          continue
+        }
+        try {
+          const item = await notebookAPI.getOne(id)
+          if (item && item.variant_questions && item.variant_questions.length > 0) {
+            setQuestions(prev => prev.map(q => (q.id === id ? { ...q, variant_questions: item.variant_questions } : q)))
+            writePendingVariants(readPendingVariants().filter(p => p.id !== id))
+            clearLoading(id)
+          }
+        } catch {
+          // 题目被删除或登录失效：不再轮询该题
+          writePendingVariants(readPendingVariants().filter(p => p.id !== id))
+          clearLoading(id)
+        }
+      }
+    }, 4000)
+    return () => clearInterval(timer)
+  }, [variantLoadingIds])
 
   return (
     <PageBackground gradient="notebook">
