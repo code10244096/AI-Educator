@@ -8,11 +8,53 @@ from llm import LLMError, LLMGateway
 
 # 成对的 \\ 原样保留；LaTeX 命令（\frac、\times、\beta…）和非法转义（\(、\le…）的反斜杠补成 \\
 _JSON_ESCAPE_FIX = re.compile(r'(\\\\)|\\(?=[bfnrt][A-Za-z])|\\(?=u(?![0-9a-fA-F]{4}))|\\(?!["\\/bfnrtu])')
+# 对象/数组末尾多余的逗号（模型常见错误：{"a": 1,}）
+_TRAILING_COMMA_FIX = re.compile(r",(\s*[}\]])")
+
+
+def _close_truncated_json(text: str) -> Optional[str]:
+    """结构没写完时的保底修复：截断到最后一个完整成员的末尾，再补齐收尾括号。
+    只接受扫描安全的情形（字符串未闭合则回退到上一个成员边界），无法修复返回 None。"""
+    in_str = False
+    esc = False
+    stack: List[str] = []
+    last_value_end = -1
+    for i, ch in enumerate(text):
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                in_str = False
+            continue
+        if ch == '"':
+            in_str = True
+        elif ch in "{[":
+            stack.append(ch)
+        elif ch in "}]":
+            if not stack:
+                return None
+            opener = stack.pop()
+            if (opener, ch) not in (("{", "}"), ("[", "]")):
+                return None
+            last_value_end = i
+            if not stack:
+                return text[:i + 1]  # 外层结构完整闭合
+    if not stack:
+        return None
+    closing = "".join("}" if c == "{" else "]" for c in reversed(stack))
+    base = text[:last_value_end + 1] if last_value_end >= 0 else text.rstrip()
+    # 截断后成员末尾可能残留多余逗号（true,} → true}），一并修掉
+    return _TRAILING_COMMA_FIX.sub(r"\1", base) + closing
 
 
 def parse_json_response(text: str) -> Any:
-    """解析模型返回的 JSON：去掉 ``` 围栏、截取最外层 {} / []，并修复 LaTeX 反斜杠。失败抛 ValueError。
-    用 strict=False 容忍模型在字符串里直接换行/塞入控制字符的坏毛病（如 "text": "第一行\n第二行" 用裸换行）。"""
+    """解析模型返回的 JSON。多层兜底，全部失败才抛 ValueError：
+    1. 围栏/杂质剔除 + LaTeX 反斜杠修复 + 宽容模式（容忍字符串内裸换行等控制字符）
+    2. 末尾多余逗号修复
+    3. 截断补齐（输出被掐断时截到最后一个完整成员并补括号）
+    """
     cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip())
     starts = [i for i in (cleaned.find("{"), cleaned.find("[")) if i != -1]
     if starts:
@@ -21,10 +63,84 @@ def parse_json_response(text: str) -> Any:
         if end > start:
             cleaned = cleaned[start:end + 1]
     fixed = _JSON_ESCAPE_FIX.sub(lambda m: m.group(1) or "\\\\", cleaned)
-    try:
-        return json.loads(fixed, strict=False)
-    except json.JSONDecodeError:
-        return json.loads(cleaned, strict=False)
+    candidates = [
+        fixed,
+        cleaned,
+        _TRAILING_COMMA_FIX.sub(r"\1", fixed),
+    ]
+    closed = _close_truncated_json(fixed)
+    if closed:
+        candidates.append(closed)
+    for cand in candidates:
+        if not cand:
+            continue
+        try:
+            return json.loads(cand, strict=False)
+        except (json.JSONDecodeError, ValueError):
+            continue
+    raise ValueError(f"模型返回无法解析为 JSON：{str(text)[:200]!r}")
+
+
+def _iter_flat_objects(text: str):
+    """逐个取出 {...} 块：感知字符串状态，字符串里的 { }（如 LaTeX \\frac{1}{2}）不会切断块。"""
+    n = len(text)
+    i = 0
+    while i < n:
+        if text[i] != '{':
+            i += 1
+            continue
+        start = i
+        depth = 0
+        in_str = False
+        esc = False
+        while i < n:
+            ch = text[i]
+            if in_str:
+                if esc:
+                    esc = False
+                elif ch == "\\":
+                    esc = True
+                elif ch == '"':
+                    in_str = False
+            else:
+                if ch == '"':
+                    in_str = True
+                elif ch == '{':
+                    depth += 1
+                elif ch == '}':
+                    depth -= 1
+                    if depth == 0:
+                        yield text[start:i + 1]
+                        break
+            i += 1
+        i += 1
+
+
+def salvage_grading_questions(raw: str) -> Optional[Dict]:
+    """整体 JSON 损坏时的保底抢救：从 questions 数组里逐题抓取题目对象。
+    抢救出的题目统一标记 needs_review=True 提示老师复核。一题都救不到返回 None。"""
+    m = re.search(r'"questions"\s*:\s*\[', raw)
+    if not m:
+        return None
+    tail = raw[m.end():]
+    questions: List[Dict] = []
+    for block in _iter_flat_objects(tail):
+        try:
+            q = json.loads(_JSON_ESCAPE_FIX.sub(lambda mm: mm.group(1) or "\\\\", block), strict=False)
+        except (json.JSONDecodeError, ValueError):
+            continue
+        if isinstance(q, dict) and ("question_number" in q or "question_text" in q or "student_answer" in q):
+            q["needs_review"] = True
+            questions.append(q)
+    if not questions:
+        return None
+    correct = sum(1 for q in questions if q.get("is_correct") is True)
+    return {
+        "total_questions": len(questions),
+        "correct_count": correct,
+        "wrong_count": len(questions) - correct,
+        "questions": questions,
+    }
 
 
 def format_reference_answer(questions: List[Dict]) -> str:
@@ -209,14 +325,33 @@ class AIClient:
             messages, feature=feature, temperature=0.3,
             task_meta={"subject": subject, **(task_meta or {})},
         )
-        
-        # 解析 JSON
+
+        # 解析 JSON：宽容多层解析 → 逐题抢救 → 一次「严格 JSON」重试
         try:
             return parse_json_response(result)
         except ValueError:
+            salvaged = salvage_grading_questions(result)
+            if salvaged is not None:
+                return salvaged
+        retry_messages = [{
+            "role": "user",
+            "content": prompt
+            + "\n\n（上一次返回的内容不是合法 JSON 导致解析失败。这次请只输出严格合法的 JSON："
+              "字符串内不要出现裸换行，用 \\n 转义；不要输出 JSON 以外的任何文字。）",
+        }]
+        result2 = await self._make_request(
+            retry_messages, feature=feature, temperature=0.3,
+            task_meta={"subject": subject, **(task_meta or {})},
+        )
+        try:
+            return parse_json_response(result2)
+        except ValueError:
+            salvaged = salvage_grading_questions(result2)
+            if salvaged is not None:
+                return salvaged
             return {
                 "error": "批改结果解析失败",
-                "raw_result": result
+                "raw_result": result2,
             }
     
     def _mock_grade_homework(

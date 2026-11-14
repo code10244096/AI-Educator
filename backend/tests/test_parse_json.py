@@ -30,3 +30,34 @@ def test_raw_newline_inside_string():
 def test_invalid_json_still_raises():
     with pytest.raises(Exception):
         parse_json_response('{"a": }')
+
+
+def test_trailing_comma_fixed():
+    assert parse_json_response('{"a": 1, "b": [1, 2,],}') == {"a": 1, "b": [1, 2]}
+
+
+def test_truncated_array_repaired():
+    """输出被掐断：截到最后一个完整成员并补括号。"""
+    out = parse_json_response('{"total": 2, "questions": [{"q": 1}, {"q": 2},')
+    assert out["total"] == 2
+    assert out["questions"] == [{"q": 1}, {"q": 2}]
+
+
+def test_missing_root_closer_repaired():
+    assert parse_json_response('{"a": 1, "b": 2') == {"a": 1, "b": 2}
+
+
+def test_salvage_grading_questions():
+    """整体烂掉但题目块完好：逐题抢救，缺失字段由 normalize 补齐。"""
+    from ai_client import salvage_grading_questions
+    raw = '''not json at all "questions": [
+      {"question_number": 1, "question_text": "题一", "is_correct": true, "explanation": "\\frac{1}{2}"},
+      {"question_number": 2, "question_text": "题二", "is_correct": false},
+      残片'''
+    out = salvage_grading_questions(raw)
+    assert out is not None
+    assert out["total_questions"] == 2
+    assert out["correct_count"] == 1
+    assert out["wrong_count"] == 1
+    assert all(q["needs_review"] for q in out["questions"])
+    assert salvage_grading_questions('{"nothing": "here"}') is None
