@@ -130,20 +130,21 @@ const WrongNotebook = () => {
       .finally(() => setStatsLoading(false))
   }, [filter.subject])
 
-  // 高频错题：按题目聚合历史批改记录（含手动录入），出错次数越多排越前
-  const [frequent, setFrequent] = useState(null)
-  const [frequentLoading, setFrequentLoading] = useState(true)
-  const loadFrequent = useCallback(() => {
-    setFrequentLoading(true)
-    notebookAPI.getFrequent({ subject: filter.subject || undefined, limit: 10 })
-      .then(setFrequent)
-      .catch(() => setFrequent(null))
-      .finally(() => setFrequentLoading(false))
+  // 高频错题：按知识板块归类（三角函数、数列、圆锥曲线……），板块题次越高越是薄弱点
+  const [clusters, setClusters] = useState(null)
+  const [clustersLoading, setClustersLoading] = useState(true)
+  const [expandedQuestions, setExpandedQuestions] = useState({}) // 'catIdx-qIdx' -> 展开全文
+  const loadClusters = useCallback(() => {
+    setClustersLoading(true)
+    notebookAPI.getKnowledgeClusters({ subject: filter.subject || undefined })
+      .then(setClusters)
+      .catch(() => setClusters(null))
+      .finally(() => setClustersLoading(false))
   }, [filter.subject])
 
   useEffect(() => { loadList(false, 0) }, [loadList])
   useEffect(() => { loadStats() }, [loadStats])
-  useEffect(() => { loadFrequent() }, [loadFrequent])
+  useEffect(() => { loadClusters() }, [loadClusters])
 
   const getFileType = (file) => {
     const ext = file.name.split('.').pop().toLowerCase()
@@ -195,6 +196,7 @@ const WrongNotebook = () => {
         setQuestions(prev => [...response.questions, ...prev])
         setUploadedFileName('')
         loadStats()
+        loadClusters()
       } else if (response && response.error) {
         setParseError({ type: response.error_type || 'general', message: response.error || ERROR_MESSAGES.general })
       } else {
@@ -217,6 +219,7 @@ const WrongNotebook = () => {
       else await notebookAPI.markMastered(q.id)
       setQuestions(prev => prev.map(item => (item.id === q.id ? { ...item, is_mastered: !q.is_mastered } : item)))
       loadStats()
+      loadClusters()
     } catch (err) {
       setActionError(getErrorMessage(err, '操作失败'))
     }
@@ -228,6 +231,7 @@ const WrongNotebook = () => {
       await notebookAPI.remove(q.id)
       setQuestions(prev => prev.filter(item => item.id !== q.id))
       loadStats()
+      loadClusters()
     } catch (err) {
       setActionError(getErrorMessage(err, '删除失败'))
     }
@@ -388,34 +392,77 @@ const WrongNotebook = () => {
             <div className="flex items-center gap-2 mb-3">
               <FileSpreadsheet className="h-5 w-5 text-amber-600" />
               <h3 className="text-base font-semibold text-gray-900">高频错题</h3>
-              <span className="text-xs text-gray-500">按历史批改记录自动聚合，出错次数越多排越前</span>
+              <span className="text-xs text-gray-500">按知识板块归类，题次越多的板块越是薄弱点</span>
             </div>
-            {frequentLoading ? (
+            {clustersLoading ? (
               <p className="text-sm text-gray-500 flex items-center gap-2"><Loader2 className="h-4 w-4 animate-spin" />正在统计…</p>
-            ) : frequent && frequent.items.length > 0 ? (
-              <ol className="space-y-3">
-                {frequent.items.map((item, idx) => (
-                  <li key={idx} className="bg-white/80 rounded-lg p-3 border border-amber-100/60">
-                    <div className="flex items-start justify-between gap-3">
-                      <div className="text-sm text-gray-800 min-w-0">
-                        <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-amber-500 text-white text-xs font-bold mr-1.5 shrink-0">{idx + 1}</span>
-                        {isBlankText(item.question_text) ? <span className="text-gray-400">（无题目内容）</span> : <MathText text={item.question_text} className="inline" />}
-                      </div>
-                      <span className={`shrink-0 text-xs font-medium px-2 py-0.5 rounded-full ${item.count >= 3 ? 'bg-red-100 text-red-700' : 'bg-amber-100 text-amber-700'}`}>
-                        错 {item.count} 次
+            ) : clusters && clusters.categories.length > 0 ? (
+              <>
+                {clusters.categories[0] && (
+                  <div className="mb-3 flex flex-wrap items-center gap-2">
+                    <span className="text-xs text-gray-500">薄弱知识点：</span>
+                    {clusters.categories.slice(0, 3).map((c) => (
+                      <span key={c.category} className={`text-xs font-medium px-2 py-0.5 rounded-full ${
+                        c.errors >= 4 ? 'bg-red-100 text-red-700' : c.count >= 2 ? 'bg-amber-100 text-amber-700' : 'bg-gray-100 text-gray-600'
+                      }`}>
+                        {c.category} · {c.errors} 题次
                       </span>
+                    ))}
+                  </div>
+                )}
+                <div className="space-y-3">
+                  {clusters.categories.map((cat, ci) => (
+                    <div key={cat.category} className="bg-white/80 rounded-lg border border-amber-100/60 overflow-hidden">
+                      <div className="flex items-center justify-between gap-3 px-3 py-2 bg-amber-50/60">
+                        <div className="flex items-center gap-2 min-w-0">
+                          <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-amber-500 text-white text-xs font-bold shrink-0">{ci + 1}</span>
+                          <span className="font-semibold text-sm text-gray-900 truncate">{cat.category}</span>
+                          {cat.errors >= 4 ? (
+                            <span className="shrink-0 text-xs font-medium px-2 py-0.5 rounded-full bg-red-100 text-red-700">重点薄弱</span>
+                          ) : cat.count >= 2 ? (
+                            <span className="shrink-0 text-xs font-medium px-2 py-0.5 rounded-full bg-amber-100 text-amber-700">薄弱</span>
+                          ) : null}
+                        </div>
+                        <span className="shrink-0 text-xs text-gray-500">
+                          {cat.count} 道错题 · 错 {cat.errors} 次
+                          {cat.mastered_count > 0 ? ` · 已掌握 ${cat.mastered_count}` : ''}
+                        </span>
+                      </div>
+                      <ol className="divide-y divide-amber-50">
+                        {cat.questions.map((item, qi) => {
+                          const expKey = `${ci}-${qi}`
+                          const expanded = !!expandedQuestions[expKey]
+                          return (
+                            <li
+                              key={expKey}
+                              className="px-3 py-2 cursor-pointer hover:bg-amber-50/40"
+                              onClick={() => setExpandedQuestions(prev => ({ ...prev, [expKey]: !prev[expKey] }))}
+                            >
+                              <div className="flex items-start justify-between gap-3">
+                                <div className={`text-sm text-gray-800 min-w-0 ${expanded ? '' : 'line-clamp-2'}`}>
+                                  <span className="font-medium text-amber-600 mr-1">{qi + 1}.</span>
+                                  {isBlankText(item.question_text) ? <span className="text-gray-400">（无题目内容）</span> : <MathText text={item.question_text} className="inline" />}
+                                </div>
+                                <span className={`shrink-0 text-xs font-medium px-2 py-0.5 rounded-full mt-0.5 ${item.times >= 3 ? 'bg-red-100 text-red-700' : 'bg-amber-100 text-amber-700'}`}>
+                                  错 {item.times} 次
+                                </span>
+                              </div>
+                              <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-500 pl-5">
+                                {item.knowledge_point && <span>知识点:{item.knowledge_point}</span>}
+                                {item.error_date && <span>最近:{String(item.error_date).slice(0, 10)}</span>}
+                                {item.is_mastered && <span className="text-green-600">已掌握</span>}
+                                <span className="text-amber-400">{expanded ? '收起' : '展开全文'}</span>
+                              </div>
+                            </li>
+                          )
+                        })}
+                      </ol>
                     </div>
-                    <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-gray-500 pl-7">
-                      {item.knowledge_point && <span>知识点：{item.knowledge_point}</span>}
-                      <span>涉及 {item.student_count} 名学生：{item.students.slice(0, 6).join('、')}{item.students.length > 6 ? ' 等' : ''}</span>
-                      {item.latest_error_date && <span>最近：{item.latest_error_date.slice(0, 10)}</span>}
-                      {item.mastered_all && <span className="text-green-600">已全部掌握</span>}
-                    </div>
-                  </li>
-                ))}
-              </ol>
+                  ))}
+                </div>
+              </>
             ) : (
-              <p className="text-sm text-gray-500">还没有足够的数据。班级作业批改完成后，做错的题目会自动同步到这里并按频次聚合。</p>
+              <p className="text-sm text-gray-500">还没有足够的数据。班级作业批改或错题录入后，这里会按知识板块自动归类，帮你定位薄弱环节。</p>
             )}
           </div>
 

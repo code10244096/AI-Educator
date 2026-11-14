@@ -231,6 +231,94 @@ async def get_frequent_wrong_questions(
     return {"total_groups": len(items), "items": out}
 
 
+# 知识点归类规则（仅数学启用关键词表）：按优先级顺序匹配，命中第一个即归入该板块
+_KNOWLEDGE_RULES = [
+    ("三角函数", ["三角函数", "诱导公式", "同角三角", "正弦", "余弦", "正切函数", "三角恒等",
+                  "两角和", "二倍角", "正弦定理", "余弦定理", "解三角形", "三角图象", "三角图像"]),
+    ("立体几何", ["立体几何", "三视图", "空间几何体", "棱柱", "棱锥", "棱台", "圆柱",
+                  "球", "异面直线", "二面角", "线面", "面面", "空间向量", "法向量", "展开图"]),
+    ("圆锥曲线", ["椭圆", "双曲线", "抛物线", "圆锥曲线", "焦点", "离心率", "渐近线", "准线", "弦长"]),
+    ("直线与圆", ["直线与圆", "圆的方程", "切线", "点到直线", "斜率", "倾斜角", "直线方程", "两直线"]),
+    ("数列", ["数列", "等差", "等比", "通项", "前n项和", "前 n 项和", "递推"]),
+    ("导数", ["导数", "求导", "导函数", "极值", "定积分", "微积分", "f′", "f'"]),
+    ("排列组合与二项式定理", ["排列", "组合", "二项式", "种数", "选法", "展开式系数"]),
+    ("概率与统计", ["概率", "统计", "随机", "抽样", "平均数", "中位数", "方差", "标准差", "频数",
+                    "频率分布", "分层抽样", "样本", "期望", "分布列", "二项分布", "正态分布",
+                    "古典概型", "几何概型", "众数", "极差", "茎叶图", "直方图", "回归", "独立性检验"]),
+    ("平面向量", ["向量", "数量积", "基底"]),
+    ("集合", ["集合", "子集", "并集", "交集", "补集", "∈", "∪", "∩"]),
+    ("复数", ["复数", "虚数", "共轭", "z="]),
+    ("不等式", ["不等式", "线性规划", "约束条件", "均值不等式", "基本不等式"]),
+    ("函数", ["函数", "定义域", "值域", "单调", "奇偶", "周期", "指数", "对数", "幂函数",
+              "零点", "f(x)", "解析式", "反函数"]),
+    ("程序框图", ["程序框图", "算法", "框图"]),
+]
+
+
+def _classify_knowledge(subject: str, knowledge_point: str, question_text: str) -> str:
+    """把一道错题归入知识板块。数学按关键词表；其他学科或关键词未命中时，
+    取知识点描述的第一个分句作为板块名；都没有则归入「未标注知识点」。"""
+    if (subject or "") == "数学":
+        text = f"{knowledge_point or ''} {question_text or ''}"
+        for category, keywords in _KNOWLEDGE_RULES:
+            if any(k in text for k in keywords):
+                return category
+    if knowledge_point:
+        first = re.split(r"[、，,；;]", knowledge_point.strip())[0].strip()
+        if first:
+            return first[:20]
+    return "未标注知识点"
+
+
+@router.get("/notebook/knowledge-clusters")
+async def get_knowledge_clusters(
+    subject: Optional[str] = None,
+    db: AsyncSession = Depends(get_db),
+    user: User = Depends(current_user),
+):
+    """按知识板块归类错题：每个板块列出旗下错题，按题次倒序——板块题次越高越是薄弱点。"""
+    query = select(WrongQuestion).where(WrongQuestion.user_id == user.id)
+    if subject:
+        query = query.where(WrongQuestion.subject == subject)
+    rows = (await db.execute(query)).scalars().all()
+
+    clusters: Dict[str, dict] = {}
+    for q in rows:
+        text = (q.question_text or "").strip()
+        if not text or text == "（无题目内容）":
+            continue
+        category = _classify_knowledge(q.subject or "", q.knowledge_point or "", text)
+        g = clusters.setdefault(category, {"category": category, "questions": {}})
+        key = re.sub(r"\s+", "", text)[:150]
+        item = g["questions"].setdefault(key, {
+            "question_text": text[:300],
+            "knowledge_point": q.knowledge_point,
+            "error_date": q.error_date,
+            "is_mastered": bool(q.is_mastered),
+            "times": 0,
+        })
+        item["times"] += 1
+        if q.error_date and (item["error_date"] is None or q.error_date > item["error_date"]):
+            item["error_date"] = q.error_date
+        item["is_mastered"] = item["is_mastered"] and bool(q.is_mastered)
+
+    out = []
+    for g in clusters.values():
+        qs = sorted(g["questions"].values(),
+                    key=lambda x: (-x["times"], -(x["error_date"].timestamp() if x["error_date"] else 0)))
+        out.append({
+            "category": g["category"],
+            "count": len(qs),
+            "errors": sum(i["times"] for i in qs),
+            "mastered_count": sum(1 for i in qs if i["is_mastered"]),
+            "questions": qs,
+        })
+    out.sort(key=lambda x: (-x["errors"], -x["count"], x["category"]))
+    return {"total_categories": len(out),
+            "total_questions": sum(g["count"] for g in out),
+            "categories": out}
+
+
 async def _get_question(db: AsyncSession, question_id: int, user_id: int) -> WrongQuestion:
     """取当前教师的错题；不存在或属于其他教师一律 404"""
     q = await db.get(WrongQuestion, question_id)
