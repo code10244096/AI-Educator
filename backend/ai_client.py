@@ -11,7 +11,8 @@ _JSON_ESCAPE_FIX = re.compile(r'(\\\\)|\\(?=[bfnrt][A-Za-z])|\\(?=u(?![0-9a-fA-F
 
 
 def parse_json_response(text: str) -> Any:
-    """解析模型返回的 JSON：去掉 ``` 围栏、截取最外层 {} / []，并修复 LaTeX 反斜杠。失败抛 ValueError。"""
+    """解析模型返回的 JSON：去掉 ``` 围栏、截取最外层 {} / []，并修复 LaTeX 反斜杠。失败抛 ValueError。
+    用 strict=False 容忍模型在字符串里直接换行/塞入控制字符的坏毛病（如 "text": "第一行\n第二行" 用裸换行）。"""
     cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip())
     starts = [i for i in (cleaned.find("{"), cleaned.find("[")) if i != -1]
     if starts:
@@ -21,9 +22,9 @@ def parse_json_response(text: str) -> Any:
             cleaned = cleaned[start:end + 1]
     fixed = _JSON_ESCAPE_FIX.sub(lambda m: m.group(1) or "\\\\", cleaned)
     try:
-        return json.loads(fixed)
+        return json.loads(fixed, strict=False)
     except json.JSONDecodeError:
-        return json.loads(cleaned)
+        return json.loads(cleaned, strict=False)
 
 
 def format_reference_answer(questions: List[Dict]) -> str:
