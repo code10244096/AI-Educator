@@ -517,6 +517,7 @@ const LessonPlanGenerator = () => {
           <button
             type="submit"
             disabled={loading || !formData.title}
+            data-tour="lessonplan-submit"
             className={`w-full py-3 px-4 rounded-lg font-medium ${
               result?.id
                 ? 'border border-gray-300 bg-white text-gray-600 hover:bg-gray-50 disabled:opacity-50'

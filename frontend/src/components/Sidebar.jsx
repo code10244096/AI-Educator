@@ -75,6 +75,7 @@ const Sidebar = () => {
                 title={isCollapsed ? item.label : undefined}
                 className={itemClass(false, isCollapsed)}
                 onClick={() => setFeedbackOpen(true)}
+                data-tour="nav-feedback"
               >
                 <Icon className={iconClass(false)} />
                 {!isCollapsed && <span className="ml-3 truncate">{item.label}</span>}
@@ -92,6 +93,7 @@ const Sidebar = () => {
                 title={isCollapsed ? item.label : undefined}
                 className={itemClass(active, isCollapsed)}
                 aria-current={active ? 'page' : undefined}
+                data-tour={`nav-${item.id}`}
               >
                 <Icon className={iconClass(active)} />
                 {!isCollapsed && <span className="ml-3 truncate">{item.label}</span>}
@@ -117,6 +119,7 @@ const Sidebar = () => {
                   title={isCollapsed ? item.label : undefined}
                   className={`flex min-w-0 flex-1 items-center ${isCollapsed ? 'justify-center py-2.5' : 'py-2.5 pl-3'}`}
                   aria-current={parentActive ? 'page' : undefined}
+                  data-tour="nav-classes"
                 >
                   <Icon className={iconClass(sectionActive)} />
                   {!isCollapsed && <span className="ml-3 truncate">{item.label}</span>}

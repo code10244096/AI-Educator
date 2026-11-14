@@ -110,6 +110,7 @@ const ClassManager = ({ autoOpenCreate = false, onCreateClose }) => {
         <button
           onClick={() => setShowAdd(true)}
           className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700"
+          data-tour="class-create"
         >
           <Plus className="h-4 w-4 mr-1.5" />
           新建班级
@@ -117,7 +118,7 @@ const ClassManager = ({ autoOpenCreate = false, onCreateClose }) => {
       </div>
 
       {showAdd && (
-        <div className="mb-4 p-4 border border-blue-200 rounded-xl bg-blue-50">
+        <div className="mb-4 p-4 border border-blue-200 rounded-xl bg-blue-50" data-tour="class-create-panel">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-3">
             <div>
               <label className="block text-xs font-medium text-gray-600 mb-1" htmlFor="new-class-name">班级名称</label>

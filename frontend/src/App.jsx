@@ -4,6 +4,7 @@ import { Loader2 } from 'lucide-react'
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import RequireAuth from './components/RequireAuth'
+import OnboardingGuide from './components/OnboardingGuide'
 import Workbench from './pages/Workbench'
 import RoleGate from './pages/RoleGate'
 import { TaskProvider } from './context/TaskContext'
@@ -46,6 +47,7 @@ const MainLayout = ({ children }) => {
       <Navbar />
       <Sidebar />
       <main className={`pt-16 min-h-screen min-w-0 ${collapsed ? 'lg:pl-16' : 'lg:pl-[232px]'}`}>{children}</main>
+      <OnboardingGuide />
     </div>
   )
 }

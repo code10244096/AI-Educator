@@ -388,7 +388,7 @@ const WrongNotebook = () => {
             <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-xl text-sm text-red-700">{actionError}</div>
           )}
 
-          <div className="mb-6 bg-gradient-to-br from-amber-50 to-orange-50 border border-amber-100 rounded-xl p-4 sm:p-5">
+          <div className="mb-6 bg-gradient-to-br from-amber-50 to-orange-50 border border-amber-100 rounded-xl p-4 sm:p-5" data-tour="notebook-clusters">
             <div className="flex items-center gap-2 mb-3">
               <FileSpreadsheet className="h-5 w-5 text-amber-600" />
               <h3 className="text-base font-semibold text-gray-900">高频错题</h3>

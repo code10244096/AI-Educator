@@ -302,6 +302,7 @@ const HomeworkGrader = () => {
                   ? 'border-blue-500 bg-blue-50 scale-[1.02]'
                   : 'border-gray-300 hover:border-blue-400 hover:bg-gray-50'
               }`}
+              data-tour="grader-upload"
             >
               <input {...getInputProps()} />
               <div className="w-16 h-16 bg-gradient-to-br from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4">
