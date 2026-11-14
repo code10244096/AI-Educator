@@ -167,6 +167,11 @@ class Settings:
         self.TRIAL_EXT_LESSONPLAN = _env_int("TRIAL_EXT_LESSONPLAN", 10**9)
         self.TRIAL_EXT_VARIANT = _env_int("TRIAL_EXT_VARIANT", 10**9)
         self.TRIAL_CALLS_PER_MINUTE = _env_int("TRIAL_CALLS_PER_MINUTE", 5)
+        # 上线首周限时提升（公测冲量）：北京日期不晚于 TRIAL_PROMO_END（含当天）时，
+        # 每日基础额度用 PROMO 值（默认 50 万，提交反馈后最高 80 万）；到期自动回落到 5 万/10 万。
+        self.TRIAL_PROMO_BASE_TOKENS = _env_int("TRIAL_PROMO_BASE_TOKENS", 500_000)
+        self.TRIAL_PROMO_EXT_TOKENS = _env_int("TRIAL_PROMO_EXT_TOKENS", 800_000)
+        self.TRIAL_PROMO_END = (os.getenv("TRIAL_PROMO_END") or "2026-11-21").strip()
         self.TRIAL_QUOTA_FILE = os.getenv("TRIAL_QUOTA_FILE") or str(BACKEND_DIR / "trial_quota.json")
         # 身份选择页埋点（学生/教师点击计数，按天保留 90 天）
         self.STUDENT_TRACK_FILE = os.getenv("STUDENT_TRACK_FILE") or str(BACKEND_DIR / "student_visits.json")

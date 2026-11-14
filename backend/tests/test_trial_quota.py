@@ -26,6 +26,7 @@ def quota(tmp_path, monkeypatch):
     monkeypatch.setattr(settings, "TRIAL_BASE_TOKENS", 100)
     monkeypatch.setattr(settings, "TRIAL_EXT_TOKENS", 250)
     monkeypatch.setattr(settings, "TRIAL_CALLS_PER_MINUTE", 2)
+    monkeypatch.setattr(settings, "TRIAL_PROMO_END", "2020-01-01")  # 关闭首周活动，测基础档
     reset_for_tests()
     yield
     reset_for_tests()
@@ -93,3 +94,29 @@ def test_http_error_uses_the_sentence(quota, monkeypatch):
         asyncio.run(enforce(_teacher(), "grade"))
     assert caught.value.status_code == 429
     assert caught.value.detail == MSG_NEED_FEEDBACK
+
+
+def test_promo_first_week_raises_caps(quota, monkeypatch):
+    """首周限时活动：活动期内用 PROMO 档位（默认 50 万/80 万），到期自动回落。"""
+    monkeypatch.setattr(settings, "TRIAL_PROMO_BASE_TOKENS", 1000)
+    monkeypatch.setattr(settings, "TRIAL_PROMO_EXT_TOKENS", 1600)
+    monkeypatch.setattr(settings, "TRIAL_PROMO_END", "2999-01-01")  # 活动期内
+    monkeypatch.setattr(settings, "TRIAL_CALLS_PER_MINUTE", 10)
+    add_tokens(7, 1000)
+    with pytest.raises(TrialLimited) as caught:
+        before_call(7)
+    assert str(caught.value) == MSG_NEED_FEEDBACK  # 基础档（活动）到顶
+
+    mark_feedback(7)
+    before_call(7)  # 奖励档（活动）内可继续
+    add_tokens(7, 600)  # 累计 1600，到活动奖励档顶
+    with pytest.raises(TrialLimited) as done:
+        before_call(7)
+    assert str(done.value) == MSG_DONE
+
+    monkeypatch.setattr(settings, "TRIAL_PROMO_END", "2020-01-01")  # 活动结束回落
+    reset_for_tests()
+    add_tokens(7, 100)
+    with pytest.raises(TrialLimited) as back:
+        before_call(7)
+    assert str(back.value) == MSG_NEED_FEEDBACK  # 回落到 100 的基础档

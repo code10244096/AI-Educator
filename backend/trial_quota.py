@@ -1,6 +1,7 @@
 """公测体验额度。按登录账号、按北京时间自然日计算。
 
 策略：不限调用次数，只限每日 token 总量——基础 5 万，当天提交意见反馈后再奖励 5 万。
+上线首周（至 TRIAL_PROMO_END，默认 2026-11-21）限时提升：基础 50 万，反馈后最高 80 万，到期自动回落。
 超限只抛出固定的一句话，不把额度数字或「哪一条规则」写进返回给用户的内容。
 管理员不占用体验额度。
 """
@@ -36,19 +37,34 @@ def _enabled() -> bool:
 
 def _caps(extended: bool) -> dict:
     from config import settings
+    promo = _promo_active()
+    base_tokens = int(settings.TRIAL_PROMO_BASE_TOKENS) if promo else int(settings.TRIAL_BASE_TOKENS)
+    ext_tokens = int(settings.TRIAL_PROMO_EXT_TOKENS) if promo else int(settings.TRIAL_EXT_TOKENS)
     if extended:
         return {
-            "tokens": int(settings.TRIAL_EXT_TOKENS),
+            "tokens": ext_tokens,
             "grade": int(settings.TRIAL_EXT_GRADE),
             "lessonplan": int(settings.TRIAL_EXT_LESSONPLAN),
             "variant": int(settings.TRIAL_EXT_VARIANT),
         }
     return {
-        "tokens": int(settings.TRIAL_BASE_TOKENS),
+        "tokens": base_tokens,
         "grade": int(settings.TRIAL_BASE_GRADE),
         "lessonplan": int(settings.TRIAL_BASE_LESSONPLAN),
         "variant": int(settings.TRIAL_BASE_VARIANT),
     }
+
+
+def _promo_active() -> bool:
+    """上线首周限时提升：北京日期不晚于 TRIAL_PROMO_END（含当天）即生效，到期自动回落。"""
+    from config import settings
+    end = (getattr(settings, "TRIAL_PROMO_END", "") or "").strip()
+    if not end:
+        return False
+    try:
+        return _today() <= end
+    except TypeError:
+        return False
 
 
 def _per_minute() -> int:
@@ -265,6 +281,7 @@ def quota_caps() -> dict:
         "base": _caps(False),
         "extended": _caps(True),
         "per_minute": int(settings.TRIAL_CALLS_PER_MINUTE),
+        "promo": _promo_active(),
     }
 
 
