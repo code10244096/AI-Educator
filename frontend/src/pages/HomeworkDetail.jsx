@@ -8,9 +8,11 @@ import {
   BarChart3,
   Upload,
   XCircle,
+  CheckCircle2,
   Loader2,
   BrainCircuit,
   AlertTriangle,
+  ChevronDown,
 } from 'lucide-react'
 import { useHomeworkDetail, useClassInfo } from '../hooks/useClassHomework'
 import { classHomeworkAPI, homeworkAPI, getErrorMessage } from '../utils/api'
@@ -63,8 +65,8 @@ const GradingBadge = ({ student }) => {
   }
   if (student.status === 'failed') return <Badge className="bg-red-100 text-red-700">批改失败</Badge>
   if (isGraded(student)) {
-    if (student.review_status === 'pending_review') return <Badge className="bg-blue-100 text-blue-800">待你确认</Badge>
-    if (student.review_status === 'reviewed') return <Badge className="bg-green-100 text-green-800">已确认</Badge>
+    if (student.review_status === 'pending_review') return <Badge className="bg-blue-100 text-blue-800">待复核</Badge>
+    if (student.review_status === 'reviewed') return <Badge className="bg-green-100 text-green-800">已复核</Badge>
     return <Badge className="bg-green-100 text-green-800">已批改</Badge>
   }
   return <Badge className="bg-orange-100 text-orange-800">待批改</Badge>
@@ -149,6 +151,8 @@ const HomeworkDetail = () => {
   const [confirmingId, setConfirmingId] = useState(null)
   const [assignTarget, setAssignTarget] = useState(null)
   const [assigning, setAssigning] = useState(false)
+  // 学情分析：知识点维度展开视图
+  const [expandedKp, setExpandedKp] = useState(null)
   const statusFilter = STATUS_FILTERS.some(f => f.id === searchParams.get('filter')) ? searchParams.get('filter') : 'all'
 
   const { homework, students, loading, error, reload } = useHomeworkDetail(classId, homeworkId)
@@ -317,7 +321,7 @@ const HomeworkDetail = () => {
         <StatCard label="批改中" value={stats.processing} className="text-blue-600" />
         <StatCard label="批改失败" value={stats.failed} className={stats.failed ? 'text-red-600' : 'text-gray-700'} />
         {onReviewFilter ? (
-          <StatCard label="待你确认" value={stats.pendingReview} className="text-blue-600" />
+          <StatCard label="待复核" value={stats.pendingReview} className="text-blue-600" />
         ) : (
           <StatCard label="已批改" value={stats.graded} className="text-blue-600" />
         )}
@@ -410,7 +414,7 @@ const HomeworkDetail = () => {
                       disabled={confirmingId === student.submission_id}
                       className="text-sm text-blue-700 hover:text-blue-900 disabled:opacity-50"
                     >
-                      {confirmingId === student.submission_id ? '确认中…' : (student.in_roster === false ? '确认并指派' : '确认')}
+                      {confirmingId === student.submission_id ? '确认中…' : (student.in_roster === false ? '确认并指派' : '确认复核')}
                     </button>
                   )}
                   {student.in_roster === false && isGraded(student) && (
@@ -499,7 +503,7 @@ const HomeworkDetail = () => {
                             disabled={confirmingId === student.submission_id}
                             className="text-sm text-blue-700 hover:text-blue-900 disabled:opacity-50"
                           >
-                            {confirmingId === student.submission_id ? '确认中…' : (student.in_roster === false ? '确认并指派' : '确认')}
+                            {confirmingId === student.submission_id ? '确认中…' : (student.in_roster === false ? '确认并指派' : '确认复核')}
                           </button>
                         )}
                         {student.in_roster === false && isGraded(student) && (
@@ -537,95 +541,145 @@ const HomeworkDetail = () => {
       <div className="bg-white rounded-xl border border-gray-200">
         <div className="p-4 sm:p-5 border-b border-gray-200 flex items-center space-x-2 flex-wrap">
           <BrainCircuit className="h-5 w-5 text-purple-500" />
-          <h3 className="text-lg font-semibold text-gray-900">逐题正确率</h3>
-          {analysis.data && analysis.data.analyzed_count > 0 && (
-            <span className="text-sm text-gray-400">基于 {analysis.data.analyzed_count} 份已批改作业</span>
+          <h3 className="text-lg font-semibold text-gray-900">知识点掌握度</h3>
+          {analysis.data && analysis.data.knowledge_points?.length > 0 && (
+            <span className="text-sm text-gray-400">按掌握度从低到高，基于 {analysis.data.analyzed_count} 份已批改作业</span>
           )}
         </div>
         {analysis.loading && !analysis.data ? (
           <Loading variant="skeleton" rows={3} className="p-5" />
         ) : analysis.error ? (
           <ErrorState error={analysis.error} onRetry={() => analysis.reload()} compact />
-        ) : analysis.data && analysis.data.questions.length > 0 ? (
-          <div className="p-4 sm:p-5 space-y-4">
-            {analysis.data.questions.map((q) => (
-              <div key={q.question_number} className="space-y-2">
-                <div className="flex items-start justify-between gap-3">
-                  <div className="text-sm font-medium text-gray-700 min-w-0">
-                    <span className="mr-1">第 {q.question_number} 题</span>
-                    {!isBlankText(q.question_text) && <MathText text={q.question_text} className="text-gray-600 font-normal" />}
-                  </div>
-                  <span className="text-sm text-gray-500 shrink-0">
-                    正确率 {q.correct_rate}%（{q.correct}/{q.total}）
-                  </span>
-                </div>
-                <div className="w-full bg-gray-100 rounded-full h-2.5 overflow-hidden">
-                  <div
-                    className={`h-full rounded-full ${
-                      q.correct_rate >= 70 ? 'bg-green-500' : q.correct_rate >= 50 ? 'bg-orange-500' : 'bg-red-500'
-                    }`}
-                    style={{ width: `${q.correct_rate}%` }}
-                  />
-                </div>
-                {q.wrong_students.length > 0 && (
-                  <p className="text-xs text-gray-500">
-                    做错 {q.wrong_students.length} 人：{q.wrong_students.slice(0, 12).join('、')}
-                    {q.wrong_students.length > 12 ? ' 等' : ''}
-                  </p>
-                )}
-              </div>
-            ))}
-          </div>
-        ) : (
-          <Empty
-            compact
-            icon={BarChart3}
-            title={(analysis.data?.graded_count || stats.graded) > 0 ? '有总分，但没有逐题对错' : '还没有批改完成的作业'}
-            desc={(analysis.data?.graded_count || stats.graded) > 0
-              ? '这些作业记下了分数，但没有保存每道题的对错，所以这里统计不了正确率'
-              : '上传并批改后，这里会统计每道题的正确率和做错名单'}
-          />
-        )}
-      </div>
-
-      <div className="bg-white rounded-xl border border-gray-200">
-        <div className="p-4 sm:p-5 border-b border-gray-200 flex items-center space-x-2 flex-wrap">
-          <BrainCircuit className="h-5 w-5 text-purple-500" />
-          <h3 className="text-lg font-semibold text-gray-900">知识点掌握情况</h3>
-          {analysis.data && analysis.data.knowledge_points?.length > 0 && (
-            <span className="text-sm text-gray-400">按易错程度排序，基于 {analysis.data.analyzed_count} 份已批改作业</span>
-          )}
-        </div>
-        {analysis.loading && !analysis.data ? (
-          <Loading variant="skeleton" rows={2} className="p-5" />
         ) : analysis.data && analysis.data.knowledge_points?.length > 0 ? (
           <div className="p-4 sm:p-5 space-y-3">
-            {analysis.data.knowledge_points.map((kp) => (
-              <div key={kp.knowledge_point} className="space-y-1.5">
-                <div className="flex items-start justify-between gap-3">
-                  <div className="text-sm font-medium text-gray-700 min-w-0">{kp.knowledge_point}</div>
-                  <span className={`text-sm shrink-0 ${kp.wrong_rate >= 50 ? 'text-red-600 font-medium' : kp.wrong_rate >= 30 ? 'text-orange-600' : 'text-gray-500'}`}>
-                    错误率 {kp.wrong_rate}%（错 {kp.wrong}/{kp.total} 人次）
-                  </span>
-                </div>
-                <div className="w-full bg-gray-100 rounded-full h-2 overflow-hidden">
-                  <div
-                    className={`h-full rounded-full ${
-                      kp.wrong_rate >= 50 ? 'bg-red-500' : kp.wrong_rate >= 30 ? 'bg-orange-500' : 'bg-green-500'
-                    }`}
-                    style={{ width: `${Math.min(100, kp.wrong_rate)}%` }}
-                  />
-                </div>
-                <p className="text-xs text-gray-400">涉及题目：{kp.question_numbers.slice(0, 10).join('、')}{kp.question_numbers.length > 10 ? ' 等' : ''}</p>
-              </div>
-            ))}
+            {(() => {
+              const kps = analysis.data.knowledge_points
+              // 样本太少时不下「薄弱/良好」结论，只展示事实数据
+              const lowSample = (analysis.data.analyzed_count || 0) < 5
+              const weakKps = lowSample ? [] : kps.filter(kp => kp.correct_rate < 60)
+              // 全对且只有 1 题的知识点合并成 chips，把屏幕留给需要关注的项
+              const isPerfectSingle = (kp) => kp.correct_rate === 100 && (kp.questions || []).length <= 1
+              const perfectSingles = kps.filter(isPerfectSingle)
+              const useChips = perfectSingles.length >= 3
+              const cardKps = useChips ? kps.filter(kp => !isPerfectSingle(kp)) : kps
+              const openKp = expandedKp ?? cardKps[0]?.knowledge_point ?? null
+              const kpLevel = (r) => lowSample
+                ? { label: '样本不足', cls: 'bg-gray-100 text-gray-500', bar: 'bg-gray-300', text: 'text-gray-500' }
+                : r < 60
+                ? { label: '薄弱', cls: 'bg-red-100 text-red-700', bar: 'bg-red-500', text: 'text-red-600' }
+                : r < 85
+                ? { label: '待巩固', cls: 'bg-orange-100 text-orange-700', bar: 'bg-orange-500', text: 'text-orange-600' }
+                : { label: '良好', cls: 'bg-green-100 text-green-700', bar: 'bg-green-500', text: 'text-green-600' }
+              return (
+                <>
+                  {weakKps.length > 0 && (
+                    <div className="flex items-start gap-2 flex-wrap rounded-lg bg-red-50 border border-red-100 px-3 py-2.5">
+                      <span className="text-xs font-medium text-red-700 shrink-0 pt-0.5">薄弱知识点：</span>
+                      {weakKps.slice(0, 6).map(kp => (
+                        <span key={kp.knowledge_point} className="text-xs text-red-700 bg-red-100 rounded-full px-2.5 py-0.5">
+                          {kp.knowledge_point}（{kp.correct_rate}%）
+                        </span>
+                      ))}
+                      {weakKps.length > 6 && <span className="text-xs text-red-400 pt-0.5">等 {weakKps.length} 个</span>}
+                    </div>
+                  )}
+                  {cardKps.map((kp) => {
+                    const level = kpLevel(kp.correct_rate)
+                    const isOpen = kp.knowledge_point === openKp
+                    const qs = [...(kp.questions || [])].sort((a, b) => a.question_number - b.question_number)
+                    return (
+                      <div key={kp.knowledge_point} className="rounded-lg border border-gray-200">
+                        <button
+                          type="button"
+                          onClick={() => setExpandedKp(isOpen ? null : kp.knowledge_point)}
+                          className="w-full text-left p-3 sm:p-4 space-y-2 hover:bg-gray-50 transition-colors"
+                        >
+                          <div className="flex items-center justify-between gap-3">
+                            <div className="flex items-center gap-2 min-w-0">
+                              <span className="text-sm font-medium text-gray-800 truncate">{kp.knowledge_point}</span>
+                              <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium shrink-0 ${level.cls}`}>
+                                {level.label}
+                              </span>
+                            </div>
+                            <div className="flex items-center gap-3 shrink-0">
+                              <span className={`text-sm font-medium ${level.text}`}>{kp.correct_rate}%</span>
+                              <ChevronDown className={`h-4 w-4 text-gray-400 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
+                            </div>
+                          </div>
+                          <div className="flex items-center gap-3">
+                            <div className="flex-1 bg-gray-100 rounded-full h-2 overflow-hidden">
+                              <div className={`h-full rounded-full ${level.bar}`} style={{ width: `${kp.correct_rate}%` }} />
+                            </div>
+                            <span className="text-xs text-gray-400 whitespace-nowrap">
+                              {qs.length} 题 · 答错 {kp.wrong}/{kp.total} 人次
+                            </span>
+                          </div>
+                        </button>
+                        {isOpen && (
+                          <div className="border-t border-gray-100 px-3 sm:px-4 py-3 space-y-3 bg-gray-50/50">
+                            {qs.map((q) => {
+                              const qTone = q.correct_rate >= 70
+                                ? { icon: CheckCircle2, iconCls: 'text-green-500', textCls: 'text-green-600' }
+                                : q.correct_rate >= 50
+                                ? { icon: AlertTriangle, iconCls: 'text-orange-500', textCls: 'text-orange-600' }
+                                : { icon: XCircle, iconCls: 'text-red-500', textCls: 'text-red-600' }
+                              const QToneIcon = qTone.icon
+                              return (
+                                <div key={q.question_number} className="flex items-start gap-2.5">
+                                  <QToneIcon className={`h-4 w-4 mt-0.5 shrink-0 ${qTone.iconCls}`} />
+                                  <div className="min-w-0 flex-1 space-y-1">
+                                    <div className="flex items-start justify-between gap-3">
+                                      <p className="text-sm text-gray-700 min-w-0">
+                                        <span className="font-medium mr-1.5">第 {q.question_number} 题</span>
+                                        {!isBlankText(q.question_text) && (
+                                          <MathText text={q.question_text} className="text-gray-500 font-normal" />
+                                        )}
+                                      </p>
+                                      <span className={`text-xs shrink-0 pt-0.5 ${qTone.textCls}`}>
+                                        正确率 {q.correct_rate}%（{q.correct}/{q.total}）
+                                      </span>
+                                    </div>
+                                    {q.wrong_students.length > 0 && (
+                                      <p className="text-xs text-gray-500">
+                                        做错 {q.wrong_students.length} 人：{q.wrong_students.slice(0, 12).join('、')}
+                                        {q.wrong_students.length > 12 ? ' 等' : ''}
+                                      </p>
+                                    )}
+                                  </div>
+                                </div>
+                              )
+                            })}
+                          </div>
+                        )}
+                      </div>
+                    )
+                  })}
+                  {useChips && (
+                    <div className="rounded-lg border border-gray-200 p-3 sm:p-4">
+                      <p className="text-xs text-gray-400 mb-2">全部答对的知识点（{perfectSingles.length} 个）</p>
+                      <div className="flex flex-wrap gap-2">
+                        {perfectSingles.map(kp => (
+                          <span
+                            key={kp.knowledge_point}
+                            className="inline-flex items-center gap-1 text-xs text-green-700 bg-green-50 border border-green-100 rounded-full px-2.5 py-1"
+                          >
+                            <CheckCircle2 className="h-3 w-3" />
+                            {kp.knowledge_point}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </>
+              )
+            })()}
           </div>
         ) : (
           <Empty
             compact
             icon={BarChart3}
             title="还没有知识点数据"
-            desc="批改结果里带知识点标注的作业会在这里按错误率排序，显示哪些知识点大家容易犯错、哪些掌握得好"
+            desc="批改结果带知识点标注的作业会按掌握度排序展示，点开知识点能看到每道题和做错的学生"
           />
         )}
       </div>

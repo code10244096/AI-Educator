@@ -1263,20 +1263,43 @@ async def get_homework_analysis(db: AsyncSession, class_slug_value: str, homewor
                     "total": 0,
                     "wrong": 0,
                     "wrong_rate": 0,
-                    "question_numbers": set(),
+                    "questions": {},
+                    "wrong_students": [],
+                    "_wrong_seen": set(),
                 })
                 k["total"] += 1
                 if is_wrong:
                     k["wrong"] += 1
-                k["question_numbers"].add(key)
+                    if name not in k["_wrong_seen"]:
+                        k["_wrong_seen"].add(name)
+                        k["wrong_students"].append(name)
+                kq = k["questions"].setdefault(key, {
+                    "question_number": key,
+                    "question_text": (q.get("question_text") or "")[:200],
+                    "total": 0,
+                    "correct": 0,
+                    "wrong_students": [],
+                })
+                kq["total"] += 1
+                if is_wrong:
+                    kq["wrong_students"].append(name)
+                else:
+                    kq["correct"] += 1
 
     knowledge_points = []
     for k in per_kp.values():
         k["wrong_rate"] = round(k["wrong"] / k["total"] * 1000) / 10 if k["total"] else 0
-        k["question_numbers"] = sorted(k["question_numbers"], key=lambda x: (not x.isdigit(), int(x) if x.isdigit() else x))
+        k["correct_rate"] = round((k["total"] - k["wrong"]) / k["total"] * 1000) / 10 if k["total"] else 0
+        qs = sorted(k["questions"].values(),
+                    key=lambda x: (not x["question_number"].isdigit(),
+                                   int(x["question_number"]) if x["question_number"].isdigit() else x["question_number"]))
+        for qe in qs:
+            qe["correct_rate"] = round(qe["correct"] / qe["total"] * 1000) / 10 if qe["total"] else 0
+        k["questions"] = qs
+        del k["_wrong_seen"]
         knowledge_points.append(k)
-    # 易错 → 不易错排序
-    knowledge_points.sort(key=lambda k: (-k["wrong_rate"], -k["wrong"]))
+    # 掌握度从低到高（最薄弱的知识点排最前）
+    knowledge_points.sort(key=lambda k: (k["correct_rate"], -k["wrong"]))
 
     questions = []
     for key in sorted(per_q, key=lambda k: (not k.isdigit(), int(k) if k.isdigit() else k)):
